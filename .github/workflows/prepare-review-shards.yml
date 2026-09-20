@@ -21,25 +21,23 @@ jobs:
           python-version: '3.12'
       - name: Split source files into readable shards
         run: |
+          rm -rf review_shards
           cat > /tmp/shard.py <<'PY'
           import json, pathlib, hashlib
           root = pathlib.Path('.')
           out = root / 'review_shards'
           out.mkdir(exist_ok=True)
-          manifest = {'source_branch':'main','shard_size':100,'files':[],'total_pairs':0}
+          shard_size = 25
+          manifest = {'source_branch':'main','shard_size':shard_size,'files':[],'total_pairs':0}
           for p in sorted(root.glob('*.json')):
-              if p.name.startswith('review_'):
-                  continue
               data = json.loads(p.read_text(encoding='utf-8'))
               pairs = data.get('pairs')
               if not isinstance(pairs, list):
                   continue
-              declared = data.get('count')
-              rec = {'source_file':p.name,'declared_count':declared,'actual_count':len(pairs),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'shards':[]}
-              stem = p.stem
-              for i in range(0, len(pairs), 100):
-                  chunk = pairs[i:i+100]
-                  path = out / f'{stem}__{i+1:06d}-{i+len(chunk):06d}.json'
+              rec = {'source_file':p.name,'declared_count':data.get('count'),'actual_count':len(pairs),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'shards':[]}
+              for i in range(0, len(pairs), shard_size):
+                  chunk = pairs[i:i+shard_size]
+                  path = out / f'{p.stem}__{i+1:06d}-{i+len(chunk):06d}.json'
                   payload = {'source_file':p.name,'review_rules':data.get('review_rules',''),'range_start':i+1,'range_end':i+len(chunk),'pairs':chunk}
                   path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
                   rec['shards'].append(str(path))
@@ -52,6 +50,6 @@ jobs:
         run: |
           git config user.name 'translation-review-bot'
           git config user.email 'translation-review-bot@users.noreply.github.com'
-          git add review_shards
-          git diff --cached --quiet || git commit -m 'Generate translation review shards'
+          git add -A review_shards
+          git diff --cached --quiet || git commit -m 'Generate 25-entry review shards'
           git push origin HEAD:translation-review
