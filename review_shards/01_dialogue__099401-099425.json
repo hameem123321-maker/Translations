@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99401,
+  "range_end": 99425,
+  "pairs": [
+    {
+      "n": 99401,
+      "id": "db_EventInfo:117304:0",
+      "jp": "黒将軍達は去っていった。",
+      "en": "The Black General and his group left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99402,
+      "id": "db_EventInfo:117305:2",
+      "jp": "ふむ……私達も普通の人間ではないデスし、中々カンの鋭いヤツかもしれんデス",
+      "en": "Hmm... We're not exactly normal humans either, Death. That one might be pretty sharp, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99403,
+      "id": "db_EventInfo:117306:6",
+      "jp": "異端審問官は【『<ruby=ヒエペリオ>教会</ruby>』】でも特に激しい人々と聞いています",
+      "en": "I've heard the Inquisitors are especially intense people, even within the Church.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99404,
+      "id": "db_EventInfo:117307:6",
+      "jp": "【『邪教徒』】に多くの仲間を犠牲にされたため、審問官は邪教を特に強く憎んでいる人々が多いとのことです",
+      "en": "Because many of their comrades have been lost to 'heretics', many Inquisitors are said to particularly hate heresy.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99405,
+      "id": "db_EventInfo:117308:6",
+      "jp": "リーダーの彼も、【妻子を邪教徒に殺されて】いると噂を聞いたことがありますわ",
+      "en": "I heard a rumor that their leader also had his wife and children killed by heretics.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99406,
+      "id": "db_EventInfo:117309:2",
+      "jp": "しかし、見るべき者を間違っていては、意味がないデスね……",
+      "en": "But, looking in the wrong place is meaningless, Death...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99407,
+      "id": "db_EventInfo:117311:2",
+      "jp": "ふっふ……死神代行助手も沢山できたデスね",
+      "en": "Heheh... The Shinigami Agent now has many assistants, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99408,
+      "id": "db_EventInfo:117312:1",
+      "jp": "そうだな",
+      "en": "Yeah, that's right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99409,
+      "id": "db_EventInfo:117313:2",
+      "jp": "これならば、【『災厄』】を止めるまでオマエの寿命も保てそうデスね",
+      "en": "With this, your lifespan should last long enough to stop the 'Calamity', Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99410,
+      "id": "db_EventInfo:117314:1",
+      "jp": "いつも金の事ばかりに見えたが……忘れてなかったんだな？",
+      "en": "You always seemed to only care about the money... You hadn't forgotten?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99411,
+      "id": "db_EventInfo:117315:2",
+      "jp": "失礼デスね！",
+      "en": "Excuse me!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99412,
+      "id": "db_EventInfo:117316:2",
+      "jp": "ここまでオマエの寿命が延びたなら、一度は【『災厄』】に到達しているのではないデス？",
+      "en": "Since your lifespan has stretched this far, you must have reached the 'Calamity' once already, no?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99413,
+      "id": "db_EventInfo:117317:2",
+      "jp": "まあ、私たちがまだいるということは、【『災厄』】は去ってないということデスが",
+      "en": "Well, the fact that we're still here means the 'Calamity' hasn't left yet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99414,
+      "id": "db_EventInfo:117318:2",
+      "jp": "あと一歩デス。これからも頑張るデスよ",
+      "en": "Just one more step. Keep at it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99415,
+      "id": "db_EventInfo:117319:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99416,
+      "id": "db_EventInfo:117320:1",
+      "jp": "……しかし何だか、忘れているような？",
+      "en": "...But it's weird. I feel like I'm forgetting something?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99417,
+      "id": "db_EventInfo:117323:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99418,
+      "id": "db_EventInfo:117326:0",
+      "jp": "一方その頃……",
+      "en": "Meanwhile, elsewhere...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99419,
+      "id": "db_EventInfo:117327:10",
+      "jp": "なんだろう、仲間はずれにされているような気がするぞ……",
+      "en": "What's this... I feel like I'm being left out...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 99420,
+      "id": "db_EventInfo:117328:10",
+      "jp": "なんだか、すごく……",
+      "en": "It's a really strong feeling...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 99421,
+      "id": "db_EventInfo:117330:12",
+      "jp": "【『ゼカリウス地下図書館』】なのですが、【『ゴブリン』】の養殖装置が見つかったそうです",
+      "en": "It's about 'Zecarius Underground Library'. They found what seems to be a Goblin breeding facility.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99422,
+      "id": "db_EventInfo:117331:12",
+      "jp": "【『ソルシア魔導船団』】にあったものと同じものだそうで",
+      "en": "Apparently it's the same kind that was on the 'Solthia Magical Ship Fleet'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99423,
+      "id": "db_EventInfo:117332:9",
+      "jp": "しかし【『<ruby=ソルシア>学院</ruby>』】の魔術師どもは知らんらしい。どうやら何者かによって運び込まれているようであるな",
+      "en": "But the mages of Solthia Academy don't seem to know. It looks like someone is bringing them in.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99424,
+      "id": "db_EventInfo:117334:101",
+      "jp": "おそらく領主ゼルカの仕業だ",
+      "en": "Probably the work of Lord Zelka.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99425,
+      "id": "db_EventInfo:117335:2",
+      "jp": "異端審問官の黒将軍デスか、また来たのデス？",
+      "en": "The Black General of the Inquisition, Death? Did you come again, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

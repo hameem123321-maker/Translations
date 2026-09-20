@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 876,
+  "range_end": 900,
+  "pairs": [
+    {
+      "n": 876,
+      "id": "db_EventInfo:1139:114",
+      "jp": "【闇オークション】って知ってますか？",
+      "en": "Have you heard of the Black Market Auction?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 877,
+      "id": "db_EventInfo:1140:114",
+      "jp": "かつては【『灼熱の都サージ』】の闇商人たちが催していた非合法のオークションです",
+      "en": "It used to be an illegal auction run by the black market merchants of the 'Blazing Capital: Surge'.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 878,
+      "id": "db_EventInfo:1141:114",
+      "jp": "取引される商品は禁止薬物や呪物……その中でも特に危険なもの",
+      "en": "The goods traded were banned drugs and cursed items... especially the dangerous ones.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 879,
+      "id": "db_EventInfo:1142:114",
+      "jp": "もしくは、国が扱いを全面的に禁止している【奴隷】などもですね",
+      "en": "Or things like slaves, which the country completely banned from trade.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 880,
+      "id": "db_EventInfo:1143:114",
+      "jp": "近年、【『灼熱の都サージ』】の方の【闇オークション】は壊滅したそうなんですけど",
+      "en": "I hear that in recent years, the dark auction in 'Blazing Capital: Surge' was wiped out.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 881,
+      "id": "db_EventInfo:1144:114",
+      "jp": "残党が【『ゼカリウス』】に移ってきたみたいですね☆",
+      "en": "It looks like the remnants moved to 'Zecarius'.☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 882,
+      "id": "db_EventInfo:1145:114",
+      "jp": "えへへ、【『ジルド聖騎士団』】の聖騎士として入団しちゃいました☆",
+      "en": "Ehehe, I actually joined the 'Zildo Holy Knight Order' as a holy knight.☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 883,
+      "id": "db_EventInfo:1146:114",
+      "jp": "黒騎士ローグバルトさんはすごい人です、あの人についていったら、正義を執行できそうですね☆",
+      "en": "The Black Knight Rogubaruto is an amazing person. Following him, I feel I can really execute justice.☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 884,
+      "id": "db_EventInfo:1147:114",
+      "jp": "副官さんが怖いので、私はヒラ騎士として頑張りますよ！",
+      "en": "The vice-commander is scary, so I'll do my best as a regular knight!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 885,
+      "id": "db_EventInfo:1148:114",
+      "jp": "団長さん……",
+      "en": "The Commander...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 886,
+      "id": "db_EventInfo:1149:114",
+      "jp": "【『ジルド聖騎士団』】は壊滅してしまいました",
+      "en": "The 'Zildo Holy Knight Order'... was destroyed.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 887,
+      "id": "db_EventInfo:1150:114",
+      "jp": "団長さんはちょっと怖いけど真面目で、女司祭さんも綺麗で基本的に優しくて、他の人もいい人だったのに……",
+      "en": "The Commander was a bit scary but serious, the priestess was beautiful and basically kind, and everyone else was nice too...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 888,
+      "id": "db_EventInfo:1151:114",
+      "jp": "私は怪我して離脱したおかげで、運良く助かってしまいました……",
+      "en": "I was lucky enough to survive... because I got injured and had to leave before it happened.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 889,
+      "id": "db_EventInfo:1152:114",
+      "jp": "古代の遺跡を起動させたら、【『ゼカリウス』】は滅んでしまうかもしれません",
+      "en": "If we activate the ancient ruins, Zecarius might be destroyed.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 890,
+      "id": "db_EventInfo:1153:114",
+      "jp": "そんな危険を冒してまで、支配をしたいのでしょうか",
+      "en": "Do you really want to rule so badly that you'd take that risk?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 891,
+      "id": "db_EventInfo:1154:114",
+      "jp": "【『ゼカリウス』】は平和になりましたが、この世界には悪の芽はまだまだあります☆",
+      "en": "Zecarius is peaceful now, but evil still sprouts in this world.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 892,
+      "id": "db_EventInfo:1155:114",
+      "jp": "私の世直しはまだまだ続きますけど、もうちょっと店には滞在したいですね",
+      "en": "My mission to fix the world goes on, but I'd like to stay at the shop a bit longer.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 893,
+      "id": "db_EventInfo:1156:114",
+      "jp": "なんたって、ゴハンが美味しいですから～もぐもぐ☆",
+      "en": "After all, the food is so tasty. Munch munch.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 894,
+      "id": "db_EventInfo:1157:117",
+      "jp": "近頃、この付近で多発する事件。それを解決するために、姫様は来られたそうで……",
+      "en": "Lately, there are many incidents near here. I hear the Princess came to solve them...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 895,
+      "id": "db_EventInfo:1158:117",
+      "jp": "厳しい訓練を受け、姫様の腕前は並の兵士は相手にならないほど",
+      "en": "She trained hard. Her skill is beyond that of a regular soldier.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 896,
+      "id": "db_EventInfo:1159:117",
+      "jp": "しかし少々惚れやすいという困った性格でして……",
+      "en": "But she has a troublesome habit of falling in love too easily...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 897,
+      "id": "db_EventInfo:1160:117",
+      "jp": "姫様にお仕えして十年、もしものことがあれば、旦那様に合わせる顔がございません",
+      "en": "I've served the Princess for ten years. If anything happens to her, I cannot face her father.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 898,
+      "id": "db_EventInfo:1161:117",
+      "jp": "まさか、我々が【『灼熱の都サージ』】の事件を解決している間に、【『ゼカリウス』】に病魔が吹き荒れるとは",
+      "en": "Who knew that while we solved the case in the Scorching City of Sarge, a plague would ravage Zecarius.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 899,
+      "id": "db_EventInfo:1162:117",
+      "jp": "姫様がこの地方に世直しが必要と睨んだのも正しかったのでございますな",
+      "en": "The Princess was right to think this area needed fixing.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 900,
+      "id": "db_EventInfo:1163:117",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】より派遣された【『ジルド聖騎士団』】、彼らこそ正義の剣",
+      "en": "The Hierperio Church sent the Jildo Holy Knight Order. They are the sword of justice.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    }
+  ]
+}

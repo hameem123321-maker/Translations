@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 401,
+  "range_end": 425,
+  "pairs": [
+    {
+      "n": 401,
+      "id": "db_EventInfo:658:19",
+      "jp": "いやあ店長さん、アンタのおかけで命拾いしたぜ",
+      "en": "Well, shopkeeper, thanks to you, I got my life back.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 402,
+      "id": "db_EventInfo:659:19",
+      "jp": "アンタに助けてもらった命、まだまだ【『勇者』】として使い道があるらしいな！",
+      "en": "The life you saved for me, it seems there's still plenty of use for it as a 【『Hero』】!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 403,
+      "id": "db_EventInfo:660:19",
+      "jp": "ゼルカも倒されて、この地は平和になっちまったなぁ！",
+      "en": "Zelka has been defeated too, and this land has become peaceful!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 404,
+      "id": "db_EventInfo:661:19",
+      "jp": "これでもう、【『勇者』】の仕事は終わりなのか？",
+      "en": "Is this the end of a 【『Hero』】's work?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 405,
+      "id": "db_EventInfo:662:19",
+      "jp": "ま、それもいいよな！　平和が一番だ！",
+      "en": "Well, that's fine too! Peace is the best!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 406,
+      "id": "db_EventInfo:663:19",
+      "jp": "ついに【<pl>】さんと一緒に戦える日が来ちまったな！",
+      "en": "Finally, the day has come when I can fight alongside 【<pl>】!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 407,
+      "id": "db_EventInfo:664:19",
+      "jp": "評判の【『勇者』】の力は、アンタのためにある。ぜひ頼ってくれよな！",
+      "en": "The power of the famed 【『Hero』】 is for you. Please rely on it!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 408,
+      "id": "db_EventInfo:666:1",
+      "jp": "(ラシェウスは何か考え事をしているようだ)",
+      "en": "(Rasieus seems to be thinking about something.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 409,
+      "id": "db_EventInfo:667:19",
+      "jp": "お、アニキじゃねえか。宿も立派になったもんだよな",
+      "en": "Oh, if it isn't big bro. The inn's really come up in the world, huh?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 410,
+      "id": "db_EventInfo:668:19",
+      "jp": "ところで俺は【『勇者』】じゃねえのに、【『勇者』】みたいに見られるみたいなんだ。変だよなぁ",
+      "en": "So, thing is, people seem to see me like I'm the 'Hero' even though I'm not. Weird, right?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 411,
+      "id": "db_EventInfo:669:115",
+      "jp": "私は【『勇者』】ラシェウスの従者レミル……よろしく",
+      "en": "I am Remil, attendant to the 'Hero' Rasieus... pleased to meet you.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 412,
+      "id": "db_EventInfo:670:115",
+      "jp": "この付近は【『ダンジョン』】が多い……クエストには困らないね",
+      "en": "There are a lot of 'Dungeons' around here... you won't be short on quests.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 413,
+      "id": "db_EventInfo:671:115",
+      "jp": "けほけほ……これ、ただの風邪じゃない……",
+      "en": "*cough, cough*... This isn't just a common cold...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 414,
+      "id": "db_EventInfo:672:115",
+      "jp": "強い魔の力を感じる……けほ",
+      "en": "I sense a powerful demonic force... *cough*",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 415,
+      "id": "db_EventInfo:673:115",
+      "jp": "この近くに、私と同じ【『賢者』】がいる……",
+      "en": "There is another 'Sage' here nearby, like me...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 416,
+      "id": "db_EventInfo:674:115",
+      "jp": "【『賢者』】は叡智を求める者……【『ロオン教授』】の遺志を継ぐ者……",
+      "en": "A 'Sage' is one who seeks wisdom... one who inherits the will of 'Professor Loon'...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 417,
+      "id": "db_EventInfo:675:115",
+      "jp": "私は袂を分かった。私が求める叡智はラシェウスの中にあるから……",
+      "en": "I parted ways. Because the wisdom I seek lies within Rasieus...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 418,
+      "id": "db_EventInfo:676:115",
+      "jp": "この地に潜む悪はとても強い……きっと、ラシェウスでも勝てない……",
+      "en": "The evil lurking in this land is very strong... Surely, even Rasieus could not win...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 419,
+      "id": "db_EventInfo:677:115",
+      "jp": "必要なのは【『勇者』】の力を引き出す【『聖剣』】……",
+      "en": "What's needed is the 'Sacred Sword' that draws out the power of the 'Hero'...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 420,
+      "id": "db_EventInfo:678:115",
+      "jp": "【『霊峰ヤークァリム』】の頂きに、それはあるはず",
+      "en": "It should be at the summit of the 'Spirit Peak Yakuarim'.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 421,
+      "id": "db_EventInfo:679:115",
+      "jp": "……ラシェウスが、なんでこの宿に滞在するかわかったよ",
+      "en": "...I've figured out why Rasieus is staying at this inn.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 422,
+      "id": "db_EventInfo:680:115",
+      "jp": "アナタは……",
+      "en": "You...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 423,
+      "id": "db_EventInfo:682:115",
+      "jp": "でも……私達はそれを知らない。知るべきではないから",
+      "en": "But... we don't know about that. Because we shouldn't know.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 424,
+      "id": "db_EventInfo:683:115",
+      "jp": "【『ボルケミア火山』】の奥……そこに【『勇者』】が倒すべき悪がいる",
+      "en": "Deep within the 【Volcamia Volcano】... that's where the evil the 【Hero】 must defeat lies.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 425,
+      "id": "db_EventInfo:684:115",
+      "jp": "私……私達はラシェウスを死なせない",
+      "en": "I... we won't let Rasieus die.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93251,
+  "range_end": 93275,
+  "pairs": [
+    {
+      "n": 93251,
+      "id": "db_EventInfo:110219:15",
+      "jp": "でもそうだね……冒険者達にとって【ポーション】は売れ筋のアイテムだからね……",
+      "en": "But you know... Potions are a hot item for adventurers...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93252,
+      "id": "db_EventInfo:110220:15",
+      "jp": "冒険者のためにも、生産体制を整えておくのは必要かもしれないね",
+      "en": "For the adventurers' sake, we might need to set up a proper production system.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93253,
+      "id": "db_EventInfo:110221:2",
+      "jp": "うむ。【『錬金工房』】を作るデス！",
+      "en": "Hmm. We'll build an 'Alchemy Workshop', desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93254,
+      "id": "db_EventInfo:110223:2",
+      "jp": "【『錬金工房』】を作ったのデスね",
+      "en": "We built the 'Alchemy Workshop', desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93255,
+      "id": "db_EventInfo:110224:2",
+      "jp": "【『錬金工房』】ではマジックアイテムやポーションを生産できるデス",
+      "en": "The [Alchemy Workshop] can produce magic items and potions.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93256,
+      "id": "db_EventInfo:110225:2",
+      "jp": "その辺りは冒険者どもにも人気のジャンルデスからね、設備があるのは良いことなのデスが……",
+      "en": "That stuff is popular with adventurers, so having the facility is good...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93257,
+      "id": "db_EventInfo:110226:1",
+      "jp": "どうした、何か問題が？",
+      "en": "What's wrong? Is there a problem?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93258,
+      "id": "db_EventInfo:110227:2",
+      "jp": "生産ができるヤツを雇えば、それなりのモノは生み出せるのデスが",
+      "en": "If we hire someone to produce stuff, they can make decent things.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93259,
+      "id": "db_EventInfo:110228:2",
+      "jp": "【一定レベル以上のもの】は現状では生産できないデス。なんせ【『レシピ』】がないデス",
+      "en": "But [things above a certain level] can't be made right now. We don't have the [recipes].",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93260,
+      "id": "db_EventInfo:110229:1",
+      "jp": "【『レシピ』】……設計書とかそういうのか",
+      "en": "[Recipes]... you mean like blueprints or something?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93261,
+      "id": "db_EventInfo:110230:2",
+      "jp": "生産の【『レシピ』】は秘蔵デス。おいそれと持ち出しなんかできないデス",
+      "en": "Production [recipes] are secret. You can't just get them easily.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93262,
+      "id": "db_EventInfo:110231:1",
+      "jp": "となると、新しい【『レシピ』】を作れるような【専門家】を雇う必要があるってことか",
+      "en": "So we need to hire a [specialist] who can make new [recipes], right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93263,
+      "id": "db_EventInfo:110232:2",
+      "jp": "といっても新しいアイテムを生み出せる【天才】なんて、探しても簡単には見つからないデスね",
+      "en": "But a [genius] who can create new items... you can't find someone like that easily.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93264,
+      "id": "db_EventInfo:110233:1",
+      "jp": "デシルスにでも頼んでみるか",
+      "en": "Maybe we should ask Desilus about it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93265,
+      "id": "db_EventInfo:110234:2",
+      "jp": "そうデスね……そういやアイツ、どこにいるデス？　いつも、肝心なときにいないデス",
+      "en": "Yeah... hey, where is he? He's never around when you need him.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93266,
+      "id": "db_EventInfo:110235:15",
+      "jp": "呼んだかい？",
+      "en": "Did someone call me?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93267,
+      "id": "db_EventInfo:110236:1",
+      "jp": "うわあっ！？",
+      "en": "Whoa!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93268,
+      "id": "db_EventInfo:110237:2",
+      "jp": "ど、どこから湧いたデス！？",
+      "en": "Wh-where did you come from?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93269,
+      "id": "db_EventInfo:110238:15",
+      "jp": "呼ばれたから来たというのに、失礼な物言いだね",
+      "en": "I came because I was called. That's a rude way to talk.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93270,
+      "id": "db_EventInfo:110239:15",
+      "jp": "それより【『錬金工房』】を作ったんだね。となると、必要なのは【『レシピ』】を発明できる【専門家】ってとこかな",
+      "en": "So, you built an \"Alchemy Workshop\". What you need is an \"expert\" who can invent \"Recipes\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93271,
+      "id": "db_EventInfo:110240:2",
+      "jp": "デスデス、心当たりないデス？",
+      "en": "Got any ideas?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93272,
+      "id": "db_EventInfo:110241:15",
+      "jp": "【『マジックアイテム』】を作るとするなら【『魔術師』】……いや【『薬師』】、もしくはその両方かな",
+      "en": "If you want to make \"Magic Items\", you need a \"Magician\"... No, a \"Pharmacist\", or maybe both.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93273,
+      "id": "db_EventInfo:110242:15",
+      "jp": "【『魔術師』】なら【『魔術学院ソルシア』】、【『薬師』】なら【『魔女達のお茶会』】から探すのが一番だね",
+      "en": "For a \"Magician\", search at \"Solcia Magic Academy\". For a \"Pharmacist\", search at \"The Witches' Tea Party\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93274,
+      "id": "db_EventInfo:110243:2",
+      "jp": "【『組織』】に投資するってことデスね",
+      "en": "So we invest in an \"organization\".",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93275,
+      "id": "db_EventInfo:110244:15",
+      "jp": "そうだね。話は通しておくから、まずは向こうに献金することから始めることだね",
+      "en": "That's right. I'll talk to them. Start by making a donation.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    }
+  ]
+}

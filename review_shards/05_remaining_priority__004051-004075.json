@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4051,
+  "range_end": 4075,
+  "pairs": [
+    {
+      "n": 4051,
+      "id": "rem_31670",
+      "jp": "【<dst>】の戦闘力が上がった！",
+      "en": "【<dst>】's combat power rose!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4052,
+      "id": "rem_31671",
+      "jp": "【<dst>】の覇道効果が消えた……",
+      "en": "【<dst>】's supremacy effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4053,
+      "id": "rem_31672",
+      "jp": "覇道",
+      "en": "Supremacy",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4054,
+      "id": "rem_31673",
+      "jp": "プレイヤー側の能力が極大上昇 + さまざまなボーナス",
+      "en": "Player abilities greatly increase + Various bonuses",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4055,
+      "id": "rem_31674",
+      "jp": "【<dst>】に神の『祝福』が授けられた！",
+      "en": "【<dst>】 has received divine 'blessing'!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4056,
+      "id": "rem_31675",
+      "jp": "【<dst>】の祝福効果が消えた……",
+      "en": "【<dst>】's blessing effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4057,
+      "id": "rem_31676",
+      "jp": "神の祝福",
+      "en": "Divine Blessing",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4058,
+      "id": "rem_31677",
+      "jp": "クリティカル率+30%",
+      "en": "Critical Rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4059,
+      "id": "rem_31678",
+      "jp": "【<dst>】のクリティカル率がアップ！",
+      "en": "【<dst>】's Critical Rate up!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4060,
+      "id": "rem_31679",
+      "jp": "【<dst>】のクリティカル率が戻った……",
+      "en": "【<dst>】's Critical Rate returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4061,
+      "id": "rem_31680",
+      "jp": "クリティカル率+50%",
+      "en": "Critical Rate +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4062,
+      "id": "rem_31681",
+      "jp": "必殺++",
+      "en": "Special Move++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4063,
+      "id": "rem_31682",
+      "jp": "ダブルアタック率+50%",
+      "en": "Double Attack Rate +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4064,
+      "id": "rem_31683",
+      "jp": "速度アップ",
+      "en": "Speed Up",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4065,
+      "id": "rem_31684",
+      "jp": "【<dst>】のスピードが上がった！",
+      "en": "【<dst>】's speed increased!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4066,
+      "id": "rem_31685",
+      "jp": "【<dst>】のスピードが戻った……",
+      "en": "【<dst>】's speed returned...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4067,
+      "id": "rem_31686",
+      "jp": "加速",
+      "en": "Acceleration",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4068,
+      "id": "rem_31687",
+      "jp": "ダブルアタック率+100%",
+      "en": "Double Attack Rate +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4069,
+      "id": "rem_31688",
+      "jp": "加速++",
+      "en": "Acceleration++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4070,
+      "id": "rem_31689",
+      "jp": "ダブルアタック率+100% + ダブルアタックのダメージ+10%",
+      "en": "Double Attack Rate +100% + Double Attack DMG +10%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4071,
+      "id": "rem_31690",
+      "jp": "加速+++",
+      "en": "Acceleration+++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4072,
+      "id": "rem_31691",
+      "jp": "ダブルアタック率+100% + ダブルアタックのダメージ+20%",
+      "en": "Double Attack Rate +100% + Double Attack DMG +20%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4073,
+      "id": "rem_31692",
+      "jp": "神速",
+      "en": "Godspeed",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4074,
+      "id": "rem_31693",
+      "jp": "チェイススキル発生率+50%",
+      "en": "Chase Skill Rate +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4075,
+      "id": "rem_31694",
+      "jp": "【<dst>】のチェイススキル発生率が上がった！",
+      "en": "【<dst>】's chase skill rate increased!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

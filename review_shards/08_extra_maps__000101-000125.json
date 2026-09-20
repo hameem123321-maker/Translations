@@ -1,0 +1,161 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101,
+  "range_end": 125,
+  "pairs": [
+    {
+      "n": 101,
+      "id": "extra_ui_0101",
+      "jp": "エネミー図鑑を見ることが出来るデス",
+      "en": "Open the enemy codex."
+    },
+    {
+      "n": 102,
+      "id": "extra_ui_0102",
+      "jp": "図鑑",
+      "en": "Codex"
+    },
+    {
+      "n": 103,
+      "id": "extra_ui_0103",
+      "jp": "一緒に仕事をしているスタッフと【交流】するデス。コミュニケーションは大事デスかね。あまりしつこいと嫌われるデス。好感度が高いと成功しやすくなるデス",
+      "en": "【Talk】 with staff you're working with. Don't push it or they'll hate it. High affection makes it easier."
+    },
+    {
+      "n": 104,
+      "id": "extra_ui_0104",
+      "jp": "交流・会話",
+      "en": "Talk"
+    },
+    {
+      "n": 105,
+      "id": "extra_ui_0105",
+      "jp": "交流",
+      "en": "Chat"
+    },
+    {
+      "n": 106,
+      "id": "extra_ui_0106",
+      "jp": "セクハラするデス？　ちゃんと仕事しろデス！　好感度が高いと成功しやすくなるデス。人目に付く事務所だと成功しにくいデスが、仲良くなると関係なくなるデス",
+      "en": "Harassing? Get back to work! High affection helps. A busy office makes it harder, until you're close."
+    },
+    {
+      "n": 107,
+      "id": "extra_ui_0107",
+      "jp": "交流・触る",
+      "en": "Touch"
+    },
+    {
+      "n": 108,
+      "id": "extra_ui_0108",
+      "jp": "触る",
+      "en": "Touch"
+    },
+    {
+      "n": 109,
+      "id": "extra_ui_0109",
+      "jp": "仕事をサボってなにするつもりデス？",
+      "en": "Slacking off — what are you trying to do?"
+    },
+    {
+      "n": 110,
+      "id": "extra_ui_0110",
+      "jp": "交流・愛撫",
+      "en": "Caress"
+    },
+    {
+      "n": 111,
+      "id": "extra_ui_0111",
+      "jp": "愛撫",
+      "en": "Caress"
+    },
+    {
+      "n": 112,
+      "id": "extra_ui_0112",
+      "jp": "……仕事をサボってなにするつもりデス？",
+      "en": "...Slacking off — what are you trying to do?"
+    },
+    {
+      "n": 113,
+      "id": "extra_ui_0113",
+      "jp": "交流・エッチ",
+      "en": "Sex"
+    },
+    {
+      "n": 114,
+      "id": "extra_ui_0114",
+      "jp": "エッチ",
+      "en": "H"
+    },
+    {
+      "n": 115,
+      "id": "extra_ui_0115",
+      "jp": "仕事する場所を移動するデス。移動先にスタッフがいると【交流】することも出来るデス",
+      "en": "Move where you work. If staff are there, you can 【talk】 with them."
+    },
+    {
+      "n": 116,
+      "id": "extra_ui_0116",
+      "jp": "移動",
+      "en": "Move",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 117,
+      "id": "extra_ui_0117",
+      "jp": "物理的な攻撃により、敵に与えるダメージに影響するデス。とっても重要なステータスデス。暴力は全てを解決するデス",
+      "en": "Physical damage you deal. Super important. Violence solves everything."
+    },
+    {
+      "n": 118,
+      "id": "extra_ui_0118",
+      "jp": "攻撃",
+      "en": "ATK"
+    },
+    {
+      "n": 119,
+      "id": "extra_ui_0119",
+      "jp": "敵から受けるダメージに影響するデス。相手の攻撃に耐えるよりは、攻撃を高めてさっさと倒す方が楽デスが、相手の数が多すぎたらそんなこと言えないデス",
+      "en": "Damage you take. Raising ATK and finishing fights is easier — unless you're swarmed."
+    },
+    {
+      "n": 120,
+      "id": "extra_ui_0120",
+      "jp": "防御",
+      "en": "DEF"
+    },
+    {
+      "n": 121,
+      "id": "extra_ui_0121",
+      "jp": "攻撃の命中率に影響するデス。攻撃ミスが目立つようなら、高めておくが良いデス",
+      "en": "Hit rate. If you keep missing, raise this."
+    },
+    {
+      "n": 122,
+      "id": "extra_ui_0122",
+      "jp": "命中",
+      "en": "Hit"
+    },
+    {
+      "n": 123,
+      "id": "extra_ui_0123",
+      "jp": "敵から受ける攻撃の回避率に影響するデス",
+      "en": "Chance to dodge incoming attacks."
+    },
+    {
+      "n": 124,
+      "id": "extra_ui_0124",
+      "jp": "回避",
+      "en": "Eva"
+    },
+    {
+      "n": 125,
+      "id": "extra_ui_0125",
+      "jp": "【クリティカルヒット】の威力に影響するデス。クリティカルヒットの発生率は決まってるデスが、スキルを使用することでアップするデス。【弱点】を突くと、発生確率もアップするデス",
+      "en": "【Crit】 damage. Crit rate is fixed unless skills raise it. Hitting a 【weak point】 also helps the rate."
+    }
+  ]
+}

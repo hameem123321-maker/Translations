@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73126,
+  "range_end": 73150,
+  "pairs": [
+    {
+      "n": 73126,
+      "id": "db_EventInfo:86507:0",
+      "jp": "まあとにかく、自警団から推薦を貰えたみたいだ。",
+      "en": "Well, anyway, it looks like we got a recommendation from the Vigilante Corps.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73127,
+      "id": "db_EventInfo:86509:109",
+      "jp": "【<pl>】様。【『<ruby=ソルシア>学院</ruby>』】に多額の資金援助をされたそうですね",
+      "en": "【<pl>】-sama. I heard you gave a large sum to the 'Solsia Academy'.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 73128,
+      "id": "db_EventInfo:86510:0",
+      "jp": "そういえば、いろいろ出資したんだった。",
+      "en": "Oh, right. I did invest in a bunch of things.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73129,
+      "id": "db_EventInfo:86511:109",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】を通じて、遺跡調査団にも調査資金が流れてきたんです",
+      "en": "Through the 'Solsia Academy', funding for the Ruin Investigation Team came through.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 73130,
+      "id": "db_EventInfo:86512:1",
+      "jp": "それはよかったな",
+      "en": "That's good to hear.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73131,
+      "id": "db_EventInfo:86513:109",
+      "jp": "ええ！　【『<ruby=ソルシア>学院</ruby>』】からも、【<pl>】様を領主に推薦するとの連絡を受けてますよ",
+      "en": "Yes! We've also received notice from the 【Solcia Academy】 that they recommend 【<pl>】-sama as lord.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 73132,
+      "id": "db_EventInfo:86514:1",
+      "jp": "ありがとう。今後もよい関係を築いていきたいものだな",
+      "en": "Thanks. I hope we can keep a good relationship from now on.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73133,
+      "id": "db_EventInfo:86517:2",
+      "jp": "今後もカネを無心されそうデスが――カネがある限り、関係は良好のはずデス",
+      "en": "They'll probably keep asking for money though. As long as you have cash, the relationship should stay good.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73134,
+      "id": "db_EventInfo:86518:0",
+      "jp": "まあとにかく、【『<ruby=ソルシア>学院</ruby>』】から推薦を貰えたみたいだ。",
+      "en": "Well, anyway, looks like we got the recommendation from the 【Solcia Academy】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73135,
+      "id": "db_EventInfo:86520:2",
+      "jp": "おいオマエ、客が来たデス",
+      "en": "Hey you, a customer's here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73136,
+      "id": "db_EventInfo:86524:114",
+      "jp": "こんにちは、【<pl>】さん☆",
+      "en": "Hello, 【<pl>】-san☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73137,
+      "id": "db_EventInfo:86525:1",
+      "jp": "キミは……",
+      "en": "You are...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73138,
+      "id": "db_EventInfo:86526:114",
+      "jp": "いつもお世話になっております。ティオナです☆",
+      "en": "Thank you for always having me. I'm Tiona☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73139,
+      "id": "db_EventInfo:86527:1",
+      "jp": "ああ、酒場でときどき見かける冒険者の――",
+      "en": "Ah, the adventurer I sometimes see at the tavern—",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73140,
+      "id": "db_EventInfo:86528:114",
+      "jp": "今日の私は冒険者じゃなくて、【『王立騎士団』】の使いとして参ったのです",
+      "en": "Today, I'm not here as an adventurer. I came as a messenger for the 【Royal Knights】.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73141,
+      "id": "db_EventInfo:86529:2",
+      "jp": "【『王立騎士団』】デス？",
+      "en": "The 【Royal Knights】?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73142,
+      "id": "db_EventInfo:86530:114",
+      "jp": "はい☆　この度は【<pl>】さんに臨時領主の認定をするとの通達にきました",
+      "en": "Yes☆ I've come to inform you, 【<pl>】-san, that you have been certified as the provisional lord.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73143,
+      "id": "db_EventInfo:86531:2",
+      "jp": "おお、やったデスね！",
+      "en": "Oh, we did it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73144,
+      "id": "db_EventInfo:86532:114",
+      "jp": "はい、様々な組織から【<pl>】さんを次期領主にとの推薦を受けまして、王都の方も承認されたのです",
+      "en": "Yes. We've gotten recommendations from various groups to support 【<pl>】 as the next lord, and the capital has approved it.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73145,
+      "id": "db_EventInfo:86533:1",
+      "jp": "おお",
+      "en": "Oh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73146,
+      "id": "db_EventInfo:86534:114",
+      "jp": "つきましては、ゼカリウスに【『王立騎士団』】を駐屯させる提案をしにきました",
+      "en": "So, I've come to propose stationing the 'Royal Knights' here in Zecarius.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73147,
+      "id": "db_EventInfo:86535:1",
+      "jp": "【『王立騎士団』】？　ゼカリウスにはすでに【『ゼカリウス自警団』】がいるんだが",
+      "en": "The 'Royal Knights'? But Zecarius already has the 'Zecarius Watch'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73148,
+      "id": "db_EventInfo:86536:114",
+      "jp": "【『ゼカリウス自警団』】はあくまで民間の組織です。私達が駐屯させたいのは王都直属の【『騎士団』】の大隊です",
+      "en": "The 'Zecarius Watch' is just a civilian group. We want to station a full battalion of the capital's direct 'Knights'.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73149,
+      "id": "db_EventInfo:86537:114",
+      "jp": "ゼカリウスは王都からも注目されてます。これまで以上の規模の部隊を駐屯する基地を作りたいんですよ",
+      "en": "Zecarius is getting a lot of attention from the capital. We want to build a base for a bigger garrison.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73150,
+      "id": "db_EventInfo:86538:1",
+      "jp": "物騒な話だな。ゼカリウスに軍を置いて乗っ取るつもりか？",
+      "en": "That sounds dangerous. Are you planning to put an army here and take over?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

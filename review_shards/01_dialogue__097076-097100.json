@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97076,
+  "range_end": 97100,
+  "pairs": [
+    {
+      "n": 97076,
+      "id": "db_EventInfo:114675:2",
+      "jp": "それゆえ遺跡研究者どもは、このダンジョンを古墳と呼び始めたようデスが",
+      "en": "That's why researchers started calling this dungeon a tomb.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97077,
+      "id": "db_EventInfo:114676:17",
+      "jp": "古墳ですか……",
+      "en": "A tomb...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97078,
+      "id": "db_EventInfo:114677:17",
+      "jp": "遺品を納めたにしては、散乱しすぎていると聞きます",
+      "en": "I've heard the relics are scattered around too much for a proper resting place.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97079,
+      "id": "db_EventInfo:114678:1",
+      "jp": "つまり……？",
+      "en": "So you mean...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97080,
+      "id": "db_EventInfo:114679:17",
+      "jp": "この場所で見つかる物は古代人の遺品ではなく、【『ゴブリン』】が人間から略奪したモノではないでしょうか",
+      "en": "Maybe the things found here aren't ancient relics. Maybe Goblins stole them from people.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97081,
+      "id": "db_EventInfo:114680:17",
+      "jp": "このダンジョンは古いもので在るようですし、古代の品も混じっていることは間違いないでしょうけど",
+      "en": "This dungeon is old, so there might be some real ancient items mixed in too.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97082,
+      "id": "db_EventInfo:114681:1",
+      "jp": "墓荒しか……考古学者にとっては【『ゴブリン』】は敵だな",
+      "en": "Grave robbers... Goblins must be the enemy of any archaeologist.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97083,
+      "id": "db_EventInfo:114682:2",
+      "jp": "気をつけるデス、【『ゴブリン』】がいるデス！",
+      "en": "Watch out, there are Goblins!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97084,
+      "id": "db_EventInfo:114683:1",
+      "jp": "うわあっ！",
+      "en": "Whoa!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97085,
+      "id": "db_EventInfo:114684:0",
+      "jp": "ダンジョンの闇の中から、子供ほどの大きさの醜い亜人がこちらに向かってきた！",
+      "en": "An ugly, child-sized demi-human emerged from the dungeon's darkness, heading this way!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97086,
+      "id": "db_EventInfo:114685:2",
+      "jp": "大丈夫デス？",
+      "en": "Are you okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97087,
+      "id": "db_EventInfo:114686:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97088,
+      "id": "db_EventInfo:114687:17",
+      "jp": "ふむ……大したものです。多くの冒険者が、【『ゴブリン』】が【夜目】が効くことを知らず、遅れをとるものですが",
+      "en": "Hmm... Impressive. Many adventurers get caught off guard because they don't know Goblins can see well at night.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97089,
+      "id": "db_EventInfo:114688:17",
+      "jp": "奇襲を受けても動揺していない模様。とても初心者冒険者とは思えませんね",
+      "en": "You didn't panic even during a surprise attack. You don't seem like a beginner adventurer at all.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97090,
+      "id": "db_EventInfo:114689:2",
+      "jp": "ふん、ナメないでほしいデス。コイツは【死神の力】……じゃなくて、いろいろ強いデス。ザコには遅れをとらないデス",
+      "en": "Hmph, don't look down on him. He's strong with... well, lots of things. He doesn't fall behind to small fries.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97091,
+      "id": "db_EventInfo:114690:17",
+      "jp": "それは良いことです",
+      "en": "That's good to hear.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97092,
+      "id": "db_EventInfo:114691:17",
+      "jp": "【『ゴブリン』】は弱いですが、【奇襲】や罠を得意とする狡猾な魔物です",
+      "en": "Goblins are weak, but they're cunning monsters good at surprise attacks and traps.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97093,
+      "id": "db_EventInfo:114692:17",
+      "jp": "暗がりから奇襲されないように、気を配る必要があります",
+      "en": "You need to stay alert so they don't ambush you from the shadows.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97094,
+      "id": "db_EventInfo:114693:0",
+      "jp": "【『ゴブリン』】は【『ステルス』】属性を持っており、マップに表示されないエネミーです。",
+      "en": "Goblins have the 'Stealth' attribute. They are enemies that don't show up on the map.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97095,
+      "id": "db_EventInfo:114694:0",
+      "jp": "これらの敵は【『エネミーサーチ』】などの修得で【「敵発見」】を高めないと【『不意打ち』】を受けやすくなります。",
+      "en": "If you don't raise your 'Find Enemy' skill with things like 'Enemy Search', these enemies will Ambush you easily.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97096,
+      "id": "db_EventInfo:114695:0",
+      "jp": "【『不意打ち』】状態で戦闘に突入すると、【『クリティカルヒット』】を受けやすくなり、非常に危険です。",
+      "en": "If you start a fight while Ambushed, you're more likely to get hit with Critical Hits. It's very dangerous.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97097,
+      "id": "db_EventInfo:114696:0",
+      "jp": "【『ゴブリン』】以外にも【『不意打ち』】をする敵は居ます。【「敵発見」】は重要です。",
+      "en": "Goblins aren't the only ones who can Ambush you. 'Find Enemy' is important.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97098,
+      "id": "db_EventInfo:114697:0",
+      "jp": "ダンジョンの一角には、【かつて人間だったであろうモノ】が散乱していた。",
+      "en": "In one corner of the dungeon, things that must have been human once were scattered.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97099,
+      "id": "db_EventInfo:114698:0",
+      "jp": "うっ、これは……",
+      "en": "Ugh, this is...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97100,
+      "id": "db_EventInfo:114699:2",
+      "jp": "人間の死体デス。酷いデスね。【『ゴブリン』】どもの餌食になったようデスね",
+      "en": "Human corpses, yes. Terrible, yes. Looks like they were fed to the Goblins, yes.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

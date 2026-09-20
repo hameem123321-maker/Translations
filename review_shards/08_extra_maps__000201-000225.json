@@ -1,0 +1,158 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 201,
+  "range_end": 225,
+  "pairs": [
+    {
+      "n": 201,
+      "id": "extra_ui_0201",
+      "jp": "パーティーを危険から守るタンク的な役割を果たせる能力デス。この適性があるメンバーならば、敵からの攻撃の被害を最小限に抑えることが出来るデス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Tank aptitude. They soak hits so the party doesn't. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 202,
+      "id": "extra_ui_0202",
+      "jp": "派遣能力・盾役",
+      "en": "Dispatch: Tank"
+    },
+    {
+      "n": 203,
+      "id": "extra_ui_0203",
+      "jp": "盾役",
+      "en": "Tank"
+    },
+    {
+      "n": 204,
+      "id": "extra_ui_0204",
+      "jp": "派遣クエストに必要な戦闘能力デス。魔獣やならずものを撃退する力が無くては、派遣クエストをクリアに導くことは不可能デス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Combat power for dispatch. No muscle, no clear. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 205,
+      "id": "extra_ui_0205",
+      "jp": "派遣能力・戦力",
+      "en": "Dispatch: Combat"
+    },
+    {
+      "n": 206,
+      "id": "extra_ui_0206",
+      "jp": "戦力",
+      "en": "Combat"
+    },
+    {
+      "n": 207,
+      "id": "extra_ui_0207",
+      "jp": "魔術師としての適性や能力を示す値デス。魔術師なら、大勢を相手取る攻撃魔術を使えるはずデスし、魔術的なトラップにも対応できるはずデス。魔術的なお宝も発見するデス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Mage aptitude. AoE magic, magic traps, magic loot. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 208,
+      "id": "extra_ui_0208",
+      "jp": "派遣能力・魔術",
+      "en": "Dispatch: Magic"
+    },
+    {
+      "n": 209,
+      "id": "extra_ui_0209",
+      "jp": "魔術",
+      "en": "Magic"
+    },
+    {
+      "n": 210,
+      "id": "extra_ui_0210",
+      "jp": "ヒーラー的な適性や能力を示す値デス。怪我を負う可能性のあるクエストにおいて、ヒーラーの存在は必須デスね。一人ぐらいは、この適性を持つメンバーを入れておきたいデス。【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Healer aptitude. Take at least one on quests that can hurt. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 211,
+      "id": "extra_ui_0211",
+      "jp": "派遣能力・回復",
+      "en": "Dispatch: Heal"
+    },
+    {
+      "n": 212,
+      "id": "extra_ui_0212",
+      "jp": "回復",
+      "en": "Heal"
+    },
+    {
+      "n": 213,
+      "id": "extra_ui_0213",
+      "jp": "索敵やトラップ、トレジャーの発見などに役立つ能力デス。皆が持っている必要はないデスが、一人ぐらいは持っていないと、快適に派遣クエストを任せることは難しくなるデス。【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Scouting, traps, treasure. You don't need everyone on it, but you want at least one. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 214,
+      "id": "extra_ui_0214",
+      "jp": "派遣能力・探索",
+      "en": "Dispatch: Explore"
+    },
+    {
+      "n": 215,
+      "id": "extra_ui_0215",
+      "jp": "エッチの上手さを示す値デス。高いほどHでたくさん搾り取れるようになるデス。エッチをするとどんどん増えていくデス。",
+      "en": "How good they are in bed. Higher means more milking from H. It goes up the more you do it."
+    },
+    {
+      "n": 216,
+      "id": "extra_ui_0216",
+      "jp": "H能力・性技",
+      "en": "H: Skill"
+    },
+    {
+      "n": 217,
+      "id": "extra_ui_0217",
+      "jp": "性技",
+      "en": "Skill"
+    },
+    {
+      "n": 218,
+      "id": "extra_ui_0218",
+      "jp": "エッチさを示す値デス。高いほどHに前向きになるデス。エッチをするとどんどん増えていくデス。淫乱度が低いやつは、搾精要員としてはあまり役に立たなさそうデス",
+      "en": "How into H they are. Higher means more eager. Low Lewd makes a poor milking staffer."
+    },
+    {
+      "n": 219,
+      "id": "extra_ui_0219",
+      "jp": "H能力・淫乱度",
+      "en": "H: Lewd"
+    },
+    {
+      "n": 220,
+      "id": "extra_ui_0220",
+      "jp": "淫乱",
+      "en": "Lewd"
+    },
+    {
+      "n": 221,
+      "id": "extra_ui_0221",
+      "jp": "オマエに対する愛情の高さデス。まあエッチをするのに最低限必要なものデスかね。「一緒に仕事」すると増えるデス。低いヤツは、とりあえず一緒に仕事をして親交を深めるデス",
+      "en": "Affection toward you. Kind of the minimum for H. 'Work together' raises it."
+    },
+    {
+      "n": 222,
+      "id": "extra_ui_0222",
+      "jp": "H能力・好感度",
+      "en": "H: Affection"
+    },
+    {
+      "n": 223,
+      "id": "extra_ui_0223",
+      "jp": "好感",
+      "en": "Like"
+    },
+    {
+      "n": 224,
+      "id": "extra_ui_0224",
+      "jp": "オマエに対する執着心の高さデス。独占欲が高いヤツほどエッチに前向きになるデスが、一方で満足度が下がりやすくなるデス。エッチをするとどんどん増えていくデス。",
+      "en": "How possessive they are of you. High Desire means more eager H, but Satisfaction drops faster. H raises it."
+    },
+    {
+      "n": 225,
+      "id": "extra_ui_0225",
+      "jp": "H能力・独占欲",
+      "en": "H: Desire"
+    }
+  ]
+}

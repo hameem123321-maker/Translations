@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6876,
+  "range_end": 6900,
+  "pairs": [
+    {
+      "n": 6876,
+      "id": "rem_34495",
+      "jp": "【<src>】の[アーマーブレイカー]！",
+      "en": "【<src>】's [Armor Breaker]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6877,
+      "id": "rem_34496",
+      "jp": "【<src>】の[コボルトキャノン]！",
+      "en": "【<src>】's [Kobold Cannon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6878,
+      "id": "rem_34497",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 防御貫通(小)",
+      "en": "Single attack Power[] + Hit[70%] + Defense Pierce (S)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6879,
+      "id": "rem_34498",
+      "jp": "【<src>】の[ローキック]！",
+      "en": "【<src>】's [Low Kick]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6880,
+      "id": "rem_34499",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + HP吸収(小) + 攻撃後パーティー回復 + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Group attack Power[] + Hit[70%] + HP Drain (S) + Party heal after attack + Applies [Brittle] (Physical DMG reduction -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6881,
+      "id": "rem_34500",
+      "jp": "【<src>】の[甘噛み]！",
+      "en": "【<src>】's [Light Bite]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6882,
+      "id": "rem_34501",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Single target attack. Power[] + 70% Accuracy + Small Defense Penetration + Applies [Brittle] (Reduces Physical Damage Reduction by 50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6883,
+      "id": "rem_34502",
+      "jp": "【<src>】の[ビーストファング]！",
+      "en": "【<src>】's [Beast Fang]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6884,
+      "id": "rem_34503",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 【闇属性】",
+      "en": "Group attack. Power[] + 70% Accuracy + 【Dark Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6885,
+      "id": "rem_34504",
+      "jp": "【<src>】の[ダークブラスト]！",
+      "en": "【<src>】's [Dark Blast]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6886,
+      "id": "rem_34505",
+      "jp": "フィールドの風精霊の活動を活発化させ、属性ダメージを高める結界を張る。攻撃の威力が高まるが、受けるダメージも増えるので注意。",
+      "en": "Stimulates the wind spirits in the field, creating a barrier that amplifies elemental damage. Attack power increases, but beware of increased damage received.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6887,
+      "id": "rem_34506",
+      "jp": "【フィールド】に【風強化】を付与 (風属性ダメージ[+30%])",
+      "en": "Applies 【Wind Enhance】 to 【Field】 (Wind Attribute Damage [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6888,
+      "id": "rem_34507",
+      "jp": "【<src>】は[ウインドブースト]を使用！",
+      "en": "【<src>】 uses [Wind Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6889,
+      "id": "rem_34508",
+      "jp": "局地的な吹雪を起こし、相手を凍結死させる。生物には効果的だが、無生物にはあまり効果が無い。攻撃範囲の広さが長所。",
+      "en": "Creates a localized blizzard to freeze enemies to death. Effective against living creatures, less so against non-living. Wide attack range is its strength.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6890,
+      "id": "rem_34509",
+      "jp": "範囲(大)攻撃 威力[D+] +  命中[70%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Large area attack. Power[D+] + 70% Accuracy + 【Ice Attribute】 + Applies [Freeze] (Reduces Physical Damage Reduction by 30% + Increases chance of receiving a critical hit by 30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6891,
+      "id": "rem_34510",
+      "jp": "【<src>】の[ブリザード]が猛吹雪を起こす！",
+      "en": "【<src>】's [Blizzard] unleashes a raging storm!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6892,
+      "id": "rem_34511",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 【闇属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Group attack. Power[] + 70% Accuracy + 【Dark Attribute】 + Applies [Freeze] (Reduces Physical Damage Reduction by 30% + Increases chance of receiving a critical hit by 30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6893,
+      "id": "rem_34512",
+      "jp": "【<src>】の[雪玉キャノン]！",
+      "en": "【<src>】's [Snowball Cannon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6894,
+      "id": "rem_34513",
+      "jp": "【<src>】の[高出力ビーム]！",
+      "en": "【<src>】's [High-Power Beam]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6895,
+      "id": "rem_34514",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 【雷属性】",
+      "en": "Group attack. Power[] + 70% Accuracy + Critical Rate[+10%] + 【Thunder Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6896,
+      "id": "rem_34515",
+      "jp": "【<src>】の[荷電粒子砲]！",
+      "en": "【<src>】's [Charged Particle Cannon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6897,
+      "id": "rem_34516",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 【雷属性】",
+      "en": "Group attack. Power[] + 70% Accuracy + 【Thunder Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6898,
+      "id": "rem_34517",
+      "jp": "【<src>】の[ガトリング砲]！",
+      "en": "【<src>】's [Gatling Gun]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6899,
+      "id": "rem_34518",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 【雷属性】 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "All-target attack. Power[] + 70% Accuracy + 【Thunder Attribute】 + Applies [Shock] (Increases chance of receiving a critical hit by 30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6900,
+      "id": "rem_34519",
+      "jp": "【<src>】の[バスターコレダー]！",
+      "en": "【<src>】's [Buster Collider]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

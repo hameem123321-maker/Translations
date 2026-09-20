@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4101,
+  "range_end": 4125,
+  "pairs": [
+    {
+      "n": 4101,
+      "id": "db_EventInfo:4657:2",
+      "jp": "【『マテリアル』】は【『稀少点』】を獲得したときに入手するチャンスがあるデス。ダンジョンの奥に行くほど入手チャンスは増えるデスよ",
+      "en": "You have a chance to get 'Materials' when you earn 'Rare Points', desu. The deeper you go in dungeons, the better the chance, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4102,
+      "id": "db_EventInfo:4658:1",
+      "jp": "なんだ！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4103,
+      "id": "db_EventInfo:4659:2",
+      "jp": "【『トラップ』】に引っかかったデス！　パーティー全員にダメージデス！",
+      "en": "You triggered a 'Trap', desu! The whole party takes damage, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4104,
+      "id": "db_EventInfo:4660:1",
+      "jp": "なんだって！？",
+      "en": "What the heck!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4105,
+      "id": "db_EventInfo:4661:8",
+      "jp": "【『トラップ』】は【『ダンジョン』】のトレジャーに仕掛けられているよ。気を付けてね",
+      "en": "In the dungeon, traps are set on treasure chests. Be careful.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 4106,
+      "id": "db_EventInfo:4662:8",
+      "jp": "【『トラップ』】を見破れる仲間が居れば、トラップがあるかマークがつくよ",
+      "en": "If you have a friend who can spot traps, a marker will show where they are.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 4107,
+      "id": "db_EventInfo:4663:2",
+      "jp": "うむデス、トラップが仕掛けられていないトレジャーは、安心して開くデス",
+      "en": "Yes. You can safely open treasure chests that aren't trapped.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4108,
+      "id": "db_EventInfo:4664:1",
+      "jp": "トラップが仕掛けられるトレジャーは？",
+      "en": "What about treasure chests that have traps?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4109,
+      "id": "db_EventInfo:4665:2",
+      "jp": "注意して開くデス！",
+      "en": "Open them with caution!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4110,
+      "id": "db_EventInfo:4666:2",
+      "jp": "むむ……【『淫魔』】の気配がするデス！",
+      "en": "Hmm... I sense a Succubus!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4111,
+      "id": "db_EventInfo:4667:2",
+      "jp": "気を付けるデス。【『淫魔』】には通常の攻撃は効果が薄いデス。特にオマエの力はヤツらの大好物デス。【『淫魔領域』】の中では、圧倒的に不利デス！",
+      "en": "Be careful Desu. Normal attacks don't work well on 【『Succubus』】 Desu. Especially, your power is their favorite food Desu. Inside a 【『Succubus Domain』】, we're at a huge disadvantage Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4112,
+      "id": "db_EventInfo:4668:1",
+      "jp": "そんな……なんとかならないのか？",
+      "en": "That's... Isn't there anything we can do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4113,
+      "id": "db_EventInfo:4669:2",
+      "jp": "そういうのは、【ルーシェ】のヤツが得意のはずデス。【淫魔領域に対抗出来るスキル】を持っていなかったかデス？",
+      "en": "Lusche should be good at that. Doesn't she have a 【skill that can counter Succubus Domain】Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4114,
+      "id": "db_EventInfo:4670:2",
+      "jp": "【ルーシェ】は絶対に【『編成』】に入れておけデス！",
+      "en": "You absolutely must put Lusche in your team!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4115,
+      "id": "db_EventInfo:4671:2",
+      "jp": "むむ……【『淫魔領域』】を張られたデス！",
+      "en": "Hmm... A Succubus Domain has been cast!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4116,
+      "id": "db_EventInfo:4672:2",
+      "jp": "【『淫魔領域』】の中では、オマエの力を削がれるデス。オマエの力に連なる、私達の力も削がされてしまうデス",
+      "en": "Inside a Succubus Domain, your power is drained. Our power, which is linked to yours, is also drained.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4117,
+      "id": "db_EventInfo:4673:2",
+      "jp": "一方で、相手はその力を使って強化してしまうので、圧倒的に不利になるデス！　まずは【『淫魔領域』】をどうにかするデス！",
+      "en": "But the enemy uses that power to get stronger, so it's a huge disadvantage! First, we need to deal with 【'Succubus Domain'】!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4118,
+      "id": "db_EventInfo:4674:2",
+      "jp": "そういうのは、【ルーシェ】のヤツが得意のはずデス。【淫魔領域に対抗出来るスキル】を使わせろデス！",
+      "en": "That kind of thing is what 【Lusche】 should be good at Desu. Make her use a 【skill that can counter Succubus Domain】Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4119,
+      "id": "db_EventInfo:4675:1",
+      "jp": "……【ルーシェ】が【『編成』】に入ってなかったら？",
+      "en": "...What if 【Lusche】 isn't in my 【'party'】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4120,
+      "id": "db_EventInfo:4677:2",
+      "jp": "頑張るデス",
+      "en": "Then we just have to try our best.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4121,
+      "id": "db_EventInfo:4680:0",
+      "jp": "【パーティー一覧】をクリックして、【ルーシェ】に【『夢魔の輪』】を使わせましょう！",
+      "en": "Open the 【Party List】 and make 【Lusche】 use 【'Demon's Ring'】!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4122,
+      "id": "db_EventInfo:4681:2",
+      "jp": "スキルウィンドウを開くとスキルを使用することができるデス",
+      "en": "You can use skills by opening the skill window.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4123,
+      "id": "db_EventInfo:4682:2",
+      "jp": "ダメージを受けたら回復するデス",
+      "en": "If you take damage, heal.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4124,
+      "id": "db_EventInfo:4683:2",
+      "jp": "こちらのウィンドウは【バトル中】も開くことができるデス",
+      "en": "You can open this window even 【during battle】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4125,
+      "id": "db_EventInfo:4684:2",
+      "jp": "サポートスキルを使って、【バトル】を有利に導くデス！",
+      "en": "Use support skills to make the 【battle】 easier!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

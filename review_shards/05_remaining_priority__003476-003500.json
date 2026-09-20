@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3476,
+  "range_end": 3500,
+  "pairs": [
+    {
+      "n": 3476,
+      "id": "rem_31095",
+      "jp": "死神斬り",
+      "en": "Shinigami Slash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3477,
+      "id": "rem_31096",
+      "jp": "エンチャントウェポン",
+      "en": "Enchant Weapon",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3478,
+      "id": "rem_31097",
+      "jp": "死神権能限定開放",
+      "en": "Shinigami Authority: Limited Release",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3479,
+      "id": "rem_31098",
+      "jp": "先陣駆け",
+      "en": "Vanguard's Charge",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3480,
+      "id": "rem_31099",
+      "jp": "冥界送りの鎌",
+      "en": "Scythe of Underworld Banishment",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3481,
+      "id": "rem_31100",
+      "jp": "一気呵成の計",
+      "en": "Single-Stroke Strategy",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3482,
+      "id": "rem_31101",
+      "jp": "弱点看破",
+      "en": "Weak Spot Insight",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3483,
+      "id": "rem_31102",
+      "jp": "双翼のメイド殺法",
+      "en": "Twin-Wing Maid Slaughter",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3484,
+      "id": "rem_31103",
+      "jp": "敵用・地形無視【没】",
+      "en": "Enemy: Terrain Ignore [Oblivion]",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3485,
+      "id": "rem_31104",
+      "jp": "ゴッドオブ看板娘",
+      "en": "God of Mascot Girl",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3486,
+      "id": "rem_31105",
+      "jp": "大人気の看板娘",
+      "en": "Popular Mascot Girl",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3487,
+      "id": "rem_31106",
+      "jp": "勇者の集客力",
+      "en": "Hero's Drawing Power",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3488,
+      "id": "rem_31107",
+      "jp": "みんなのマスコット",
+      "en": "Everyone's Mascot",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3489,
+      "id": "rem_31108",
+      "jp": "自覚なきフェロモン",
+      "en": "Unconscious Pheromones",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3490,
+      "id": "rem_31109",
+      "jp": "聖女のスマイル",
+      "en": "Saint's Smile",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3491,
+      "id": "rem_31110",
+      "jp": "淫魔に負けない精力",
+      "en": "Stamina That Rivals a Succubus",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3492,
+      "id": "rem_31111",
+      "jp": "淫魔化モード",
+      "en": "Succubus Mode",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3493,
+      "id": "rem_31112",
+      "jp": "ビーストモード",
+      "en": "Beast Mode",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3494,
+      "id": "rem_31113",
+      "jp": "マジックヒール",
+      "en": "Magic Heal",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3495,
+      "id": "rem_31114",
+      "jp": "マジカル☆チェンジ",
+      "en": "Magical☆Change",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3496,
+      "id": "rem_31115",
+      "jp": "敵用・不意打ち",
+      "en": "Enemy: Ambush",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3497,
+      "id": "rem_31116",
+      "jp": "強欲竜のレアハンター",
+      "en": "Greed Dragon Rare Hunter",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3498,
+      "id": "rem_31117",
+      "jp": "敵用・霊体化",
+      "en": "Enemy: Spiritualization",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3499,
+      "id": "rem_31118",
+      "jp": "自己増殖",
+      "en": "Self-Replication",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3500,
+      "id": "rem_31119",
+      "jp": "ランスチャージ",
+      "en": "Lance Charge",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

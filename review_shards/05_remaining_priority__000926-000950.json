@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 926,
+  "range_end": 950,
+  "pairs": [
+    {
+      "n": 926,
+      "id": "rem_01313",
+      "jp": "遺跡で発見されたチーズ",
+      "en": "Ruins-Discovered Cheese",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 927,
+      "id": "rem_01314",
+      "jp": "日常生活に欠かせない、新鮮な真水。加熱を行わずに飲むのは怖い。",
+      "en": "Fresh, clean water essential for daily life. Scary to drink without boiling it first.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 928,
+      "id": "rem_01315",
+      "jp": "フレッシュな真水",
+      "en": "Fresh Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 929,
+      "id": "rem_01316",
+      "jp": "自然が磨き上げた地下水を汲み上げた物。料理に使う他、そのまま喉を潤すにも最適。",
+      "en": "Drawn from naturally filtered groundwater. Great for cooking or for quenching your thirst as-is.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 930,
+      "id": "rem_01317",
+      "jp": "新鮮な地下水",
+      "en": "Fresh Groundwater",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 931,
+      "id": "rem_01318",
+      "jp": "アルコール醸造するための樽。樽内に染みついた微生物が中に入った液体を酒に醸すのだが、適切に糖分を追加しないと、微生物はあまり活動してくれない。",
+      "en": "A barrel for brewing alcohol. Microbes inside turn the liquid into liquor, but they won't work hard without enough sugar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 932,
+      "id": "rem_01319",
+      "jp": "酒造りの醸造樽",
+      "en": "Brewing Barrel",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 933,
+      "id": "rem_01320",
+      "jp": "粒の大きさが揃っており、含有する糖分が最適な醸造用の麦粒。旺盛な生命力は、アルコール醸造に高い適性を持つ。",
+      "en": "Uniform barley grains with optimal sugar content for brewing. Their vigorous life force makes them ideal for alcohol production.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 934,
+      "id": "rem_01321",
+      "jp": "発酵用大麦",
+      "en": "Brewing Barley",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 935,
+      "id": "rem_01322",
+      "jp": "豚の皮をなめしたもの。加工者の腕が悪いのか質は悪い。",
+      "en": "Tanned pigskin. Poor quality, likely due to the tanner's lack of skill.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 936,
+      "id": "rem_01323",
+      "jp": "安い豚皮",
+      "en": "Cheap Pigskin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 937,
+      "id": "rem_01324",
+      "jp": "いまいち出来の悪い毛皮。加工者の腕が悪かったのか、ツギハギだらけになっている。使えなくもないが……。",
+      "en": "A poorly made pelt, full of patches. The tanner's skill was lacking. It's usable, but just barely.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 938,
+      "id": "rem_01325",
+      "jp": "質の悪い毛皮",
+      "en": "Low-Quality Pelt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 939,
+      "id": "rem_01326",
+      "jp": "柔らかい紐状の繊維を生成する植物。解して一本に紡げば、丈夫な糸が出来上がる。",
+      "en": "A plant that yields soft, fibrous strands. When spun into a single thread, it makes strong yarn.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 940,
+      "id": "rem_01327",
+      "jp": "糸精製の植物",
+      "en": "Thread-Spinning Plant",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 941,
+      "id": "rem_01328",
+      "jp": "様々な鳥の羽が混ざった毛束。ボロボロに朽ちており、加工するのは一苦労だ。",
+      "en": "A shabby bundle of mixed bird feathers, crumbling with age. Processing it will be a chore.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 942,
+      "id": "rem_01329",
+      "jp": "野鳥の羽束",
+      "en": "Wild Bird Feather Bundle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 943,
+      "id": "rem_01330",
+      "jp": "丈夫な木の枝を折っただけの乱暴な素材。軽さを生かした練習用の武器制作には使える。",
+      "en": "A rough material—just a broken sturdy branch. Usable for crafting lightweight practice weapons.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 944,
+      "id": "rem_01331",
+      "jp": "折れた木の枝",
+      "en": "Broken Tree Branch",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 945,
+      "id": "rem_01332",
+      "jp": "栄養分を豊富に含んだ、湖沼の底に沈んでいる泥。",
+      "en": "Mud rich in nutrients, settled at the bottom of lakes and marshes.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 946,
+      "id": "rem_01333",
+      "jp": "粘着質な泥",
+      "en": "Sticky Mud",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 947,
+      "id": "rem_01334",
+      "jp": "鉄分を含んだ岩。硬さだけはあるが、鉄を含んでいる為重い。その上、鉄部分だけをしっかりと精錬しなければ、鉄としても使えない。",
+      "en": "A hard, iron-containing rock. Heavy, and its iron content requires proper smelting to be usable.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 948,
+      "id": "rem_01335",
+      "jp": "鉄を含んだ岩石",
+      "en": "Iron-bearing Rock",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 949,
+      "id": "rem_01336",
+      "jp": "炭化した有機物が堆積し、長い年月の末に生まれた化石の一種。高温にすると長く燃え続け、鉱石から鉄を生成する等用途が広い。",
+      "en": "A fossil formed from carbonized organic matter over ages. Burns long at high heat, versatile for uses like iron smelting.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 950,
+      "id": "rem_01337",
+      "jp": "魔力を帯びた石炭",
+      "en": "Magical Coal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7726,
+  "range_end": 7750,
+  "pairs": [
+    {
+      "n": 7726,
+      "id": "rem_35377",
+      "jp": "ダンジョン投資解放Lv1",
+      "en": "Dungeon Investment Unlock Lv1",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7727,
+      "id": "rem_35378",
+      "jp": "ダンジョン投資解放Lv2",
+      "en": "Dungeon Investment Unlock Lv2",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7728,
+      "id": "rem_35379",
+      "jp": "男性への売上",
+      "en": "Sales to Men",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7729,
+      "id": "rem_35380",
+      "jp": "女性への売上",
+      "en": "Sales to Women",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7730,
+      "id": "rem_35381",
+      "jp": "一般人への売上",
+      "en": "Sales to Commoners",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7731,
+      "id": "rem_35382",
+      "jp": "冒険者への売上",
+      "en": "Sales to Adventurers",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7732,
+      "id": "rem_35383",
+      "jp": "戦士や兵士への売上",
+      "en": "Sales to Warriors/Soldiers",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7733,
+      "id": "rem_35384",
+      "jp": "生産者への売上",
+      "en": "Sales to Artisans",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7734,
+      "id": "rem_35385",
+      "jp": "芸人・芸術家への売上",
+      "en": "Sales to Performers/Artists",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7735,
+      "id": "rem_35386",
+      "jp": "学者・魔術師への売上",
+      "en": "Sales to Scholars/Mages",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7736,
+      "id": "rem_35387",
+      "jp": "聖職者への売上",
+      "en": "Sales to Clergy",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7737,
+      "id": "rem_35388",
+      "jp": "富裕層への売上",
+      "en": "Sales to the Wealthy",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7738,
+      "id": "rem_35389",
+      "jp": "接客での売上",
+      "en": "Sales from Service",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7739,
+      "id": "rem_35390",
+      "jp": "搾精での売上",
+      "en": "Sales from Extraction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7740,
+      "id": "rem_35391",
+      "jp": "搾精施設の売上",
+      "en": "Extraction Facility Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7741,
+      "id": "rem_35392",
+      "jp": "娯楽施設の売上",
+      "en": "Entertainment Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7742,
+      "id": "rem_35393",
+      "jp": "宿泊施設の売上",
+      "en": "Lodging Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7743,
+      "id": "rem_35394",
+      "jp": "水産資源を使用した商品価格",
+      "en": "Aquatic Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7744,
+      "id": "rem_35395",
+      "jp": "林業資源を使用した商品価格",
+      "en": "Forestry Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7745,
+      "id": "rem_35396",
+      "jp": "農業資源を使用した商品価格",
+      "en": "Agricultural Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7746,
+      "id": "rem_35397",
+      "jp": "鉱業資源を使用した商品価格",
+      "en": "Mining Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7747,
+      "id": "rem_35398",
+      "jp": "魔術資源を使用した商品価格",
+      "en": "Magic Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7748,
+      "id": "rem_35399",
+      "jp": "軍需品タイプの商品価格",
+      "en": "Military Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7749,
+      "id": "rem_35400",
+      "jp": "性的用品タイプの商品価格",
+      "en": "Adult Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7750,
+      "id": "rem_35401",
+      "jp": "肉料理タイプの商品価格",
+      "en": "Meat Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

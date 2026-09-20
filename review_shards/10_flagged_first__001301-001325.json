@@ -1,0 +1,258 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1301,
+  "range_end": 1325,
+  "pairs": [
+    {
+      "n": 1301,
+      "id": "dll_0392",
+      "jp": "セックス",
+      "en": "Sex",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1302,
+      "id": "dll_0393",
+      "jp": "泡プレイ",
+      "en": "Bubble Play",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1303,
+      "id": "dll_0396",
+      "jp": "<color=#ff0000>シイネが大暴れして店に大損害を与えた！</color>",
+      "en": "<color=#ff0000>Shiine went berserk and damaged the shop badly!</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1304,
+      "id": "dll_0465",
+      "jp": "ゴブリンの種子",
+      "en": "Goblin Seed",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1305,
+      "id": "dll_0551",
+      "jp": "<color=#ff8800><size=30>{0}</size></color>ゴールド払って外見を変更するのデス？",
+      "en": "Spend <color=#ff8800><size=30>{0}</size></color> Gold to change looks desu?",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1306,
+      "id": "dll_0617",
+      "jp": "組織にお金を送って、いろいろ融通して貰ったりします<color=#ffff00> (イベント条件になることも)</color>",
+      "en": "Send money for various favors<color=#ffff00> (Event conditions)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1307,
+      "id": "dll_0618",
+      "jp": "お金をあちこちに配って、この世界を動かします<color=#ff8800> (メインストーリー進行)</color>",
+      "en": "Distribute money to move the world<color=#ff8800> (Main story)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1308,
+      "id": "dll_0631",
+      "jp": "<color=#ff0000>まだ選択出来ません</color>",
+      "en": "<color=#ff0000>Can't select yet</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1309,
+      "id": "dll_0632",
+      "jp": "<color=#ff0000>『搾精ルーム』の建築が必要です</color>",
+      "en": "<color=#ff0000>Need 'Drain Room'</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1310,
+      "id": "dll_0633",
+      "jp": "<color=#ff0000>『ソープ搾精ルーム』 + 好感度Ａ以上 + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Soap Drain Room' + Affec. A+ + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1311,
+      "id": "dll_0634",
+      "jp": "<color=#ff0000>『ハード搾精ルーム』 + 好感度Ｓ + 性技Ａ + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Hard Drain Room' + Affec. S + Sex Skill A + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1312,
+      "id": "dll_0647",
+      "jp": "<color=#ff0000>スキル習得Pがもっと必要です</color>",
+      "en": "<color=#ff0000>More Skill Pts needed</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1313,
+      "id": "dll_0648",
+      "jp": "<color=#ff0000>このスキルは習得出来ません</color>",
+      "en": "<color=#ff0000>Cannot learn this skill</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1314,
+      "id": "dll_0649",
+      "jp": "<color=#ffff00>習得可能です</color>",
+      "en": "<color=#ffff00>Can learn</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1315,
+      "id": "dll_0651",
+      "jp": "投資額<color=#",
+      "en": "Invested:<color=#",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1316,
+      "id": "dll_0782",
+      "jp": "【<pl>】はそのまま膣内に精を放った！",
+      "en": "【<pl>】 released his seed inside!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1317,
+      "id": "dll_0785",
+      "jp": "【<pt>】は膣を締め上げ、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 squeezed her vagina, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1318,
+      "id": "dll_0786",
+      "jp": "【<pt>】は巧みに足を使い、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 skillfully used her feet, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1319,
+      "id": "dll_0787",
+      "jp": "【<pt>】は巧みに舌を使い、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 skillfully used her tongue, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1320,
+      "id": "dll_0789",
+      "jp": "どうにか#どうにか",
+      "en": "Somehow#Somehow",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1321,
+      "id": "dll_0790",
+      "jp": "普通に#普通に",
+      "en": "Normally#Normally",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1322,
+      "id": "dll_0791",
+      "jp": "なんとなく#なんとなく",
+      "en": "Kinda#Somehow",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1323,
+      "id": "dll_0792",
+      "jp": "ノリで#その場のノリで",
+      "en": "On a whim#On a whim",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1324,
+      "id": "dll_0793",
+      "jp": "流れで#流れに任せて",
+      "en": "Go with it#Go with it",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1325,
+      "id": "dll_0794",
+      "jp": "ノリノリで#ノリノリで",
+      "en": "All hyped#All hyped",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    }
+  ]
+}

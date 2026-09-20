@@ -1,0 +1,284 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 901,
+  "range_end": 925,
+  "pairs": [
+    {
+      "n": 901,
+      "id": "rem_31000",
+      "jp": "スマタ",
+      "en": "Sumata",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 902,
+      "id": "rem_31001",
+      "jp": "泡プレイ",
+      "en": "Bubble Play",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 903,
+      "id": "rem_31002",
+      "jp": "手コキ",
+      "en": "Handjob",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 904,
+      "id": "rem_31801",
+      "jp": "属性付与・闇属性",
+      "en": "Attribute Enchant・Dark",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 905,
+      "id": "rem_32059",
+      "jp": "近隣の人間に飽きられたのか、娯楽施設の客入りが悪くなってますわ。人を呼び込んで、稼いで下さいませ",
+      "en": "Perhaps the locals have grown bored, but the amusement facility's customer flow has worsened. Please attract people and earn money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 906,
+      "id": "rem_32075",
+      "jp": "ザコ共が群れてうっとおしいデスね……おいオマエ！　ちょっと私と一緒に掃除に行くデス！　付き合えデス！",
+      "en": "These small fry are annoyingデス！ Hey you! Come clean with meデス！ Keep me companyデス！",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 907,
+      "id": "rem_32407",
+      "jp": "日々売上を増やすデス３",
+      "en": "",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 908,
+      "id": "rem_33488",
+      "jp": "『ネルディーネ』のＬＶが【110】以上",
+      "en": "",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 909,
+      "id": "rem_33735",
+      "jp": "CT回復(小) + 【仲間】に【氷付与】を付与 (属性付与・氷属性)",
+      "en": "CT Recovery(Small) + Grants 【Ally】 【Ice Imbuement】 (Elemental Enchant・Ice)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 910,
+      "id": "rem_33753",
+      "jp": "エネミー専用・高速移動",
+      "en": "Enemy only・High-Speed Move",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 911,
+      "id": "rem_33755",
+      "jp": "エネミー専用・獲得EXP[+200%]",
+      "en": "Enemy only・EXP gain[+200%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 912,
+      "id": "rem_33757",
+      "jp": "エネミー専用・淫魔領域Lv1",
+      "en": "Enemy only・Succubus Domain Lv1",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 913,
+      "id": "rem_33851",
+      "jp": "戦闘後パーティー回復・HP[+20%]",
+      "en": "Post-Battle Party Recovery・HP [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 914,
+      "id": "rem_33853",
+      "jp": "戦力変換・性器＞攻撃",
+      "en": "Combat Conversion・Genitals > Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 915,
+      "id": "rem_33856",
+      "jp": "主人公ともっとエッチをしたくなり、部屋での搾精量がアップする。死神代行と助手は身体の相性がとても良く、エッチ未経験でも最高の相手になる資質がある。",
+      "en": "Makes you crave more intimacy with the protagonist, increasing semen extraction in the room. The Shinigami Agent and assistant have excellent physical compatibility, making them ideal partners even if inexperienced.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 916,
+      "id": "rem_33946",
+      "jp": "レベル同期・ウルフィナと同じに",
+      "en": "Level Sync・Match Wolfina's",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 917,
+      "id": "rem_34227",
+      "jp": "戦闘後パーティー回復・MP[+10%]",
+      "en": "Post-battle party heal・MP[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 918,
+      "id": "rem_34389",
+      "jp": "CT回復(小) + 【仲間】に【四属性付与】を付与 (属性付与・四属性)",
+      "en": "CT recovery (small) + grants 【Ally】 【Four Element Imbue】 (Element Imbue・Four).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 919,
+      "id": "rem_34541",
+      "jp": "戦闘後パーティー回復・CT[+30%]",
+      "en": "Post-Battle Party Heal・CT[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 920,
+      "id": "rem_34644",
+      "jp": "戦力変換・全体＞ＨＰ",
+      "en": "Resource Conversion・All > HP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 921,
+      "id": "rem_34857",
+      "jp": "北方の大国ノーザリアからの侵攻を防ぐための要塞。温暖な土地を求める彼らの侵攻を、幾度となく食い止めている。今も交易は続いているが、彼らの特産品は少なく不均衡で、争いの火種は絶えない。",
+      "en": "A fortress built to defend against invasions from the northern power, Notheria. Has repeatedly repelled their invasions in pursuit of warmer lands. Trade continues, but their specialties are few, creating imbalance, and the seeds of conflict are endless.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 922,
+      "id": "rem_34988",
+      "jp": "胸",
+      "en": "Chest",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 923,
+      "id": "rem_34991",
+      "jp": "尻",
+      "en": "Rear",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 924,
+      "id": "rem_35486",
+      "jp": "グローバルな組織を目指す",
+      "en": "",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 925,
+      "id": "rem_35523",
+      "jp": "主人公の精力を増強して、より沢山の精液を搾り取ることが出来る。投資することで、搾精売上がアップして店の経営を支えるだろう。主人公は干涸らびる。",
+      "en": "Boost Ren's stamina to extract more semen. Investment raises extraction sales and supports the shop. Ren will be drained dry.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    }
+  ]
+}

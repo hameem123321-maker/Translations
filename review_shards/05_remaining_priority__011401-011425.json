@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11401,
+  "range_end": 11425,
+  "pairs": [
+    {
+      "n": 11401,
+      "id": "rem_39162",
+      "jp": "聖地とされた霊峰から持ち出した聖なる水。聖なる魔力は邪悪を寄せ付けない、破邪の力に満ちている。",
+      "en": "Holy water taken from the sacred peak. Its divine power repels evil, imbued with cleansing force.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11402,
+      "id": "rem_39163",
+      "jp": "天上の聖水",
+      "en": "Celestial Holy Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11403,
+      "id": "rem_39164",
+      "jp": "祝福を受けた聖なる水を、聖なる器に満たした最高級品。料理はもちろん、薬や酒の精製にも重宝する。",
+      "en": "Finest water, blessed and filled in a sacred vessel. Ideal for cooking, medicine, and brewing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11404,
+      "id": "rem_39165",
+      "jp": "祝福の神聖水",
+      "en": "Blessed Sacred Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11405,
+      "id": "rem_39166",
+      "jp": "サルバック砂漠のごく小さな区域に湧く、乳白色の天然水。砂漠に染み出た天然の水分は、魔力を帯び、神聖な力が宿っている。",
+      "en": "A milky natural spring from a tiny zone in the Salback Desert. This magical moisture holds sacred power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11406,
+      "id": "rem_39167",
+      "jp": "砂漠の湧き水",
+      "en": "Desert Spring Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11407,
+      "id": "rem_39168",
+      "jp": "液体のまま存在するという水。すべてが凍てつく迷宮において、清潔なまま存在する奇跡の水。",
+      "en": "Water that remains liquid. A miraculous, pure water within a frozen maze where all is ice.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11408,
+      "id": "rem_39169",
+      "jp": "氷海の雪解け水",
+      "en": "Ice Sea Meltwater",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11409,
+      "id": "rem_39170",
+      "jp": "早朝のみ、巨大樹の葉に付着する水分を集めた貴重な水。生命力に満ちたこの水を飲むと、肉体まで若返るようだと伝えられている。",
+      "en": "Precious dew gathered from giant tree leaves at dawn. Drinking it is said to rejuvenate the body.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11410,
+      "id": "rem_39171",
+      "jp": "巨大樹の朝露",
+      "en": "Giant Tree Morning Dew",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11411,
+      "id": "rem_39172",
+      "jp": "果実にアルコールを作り出す微生物が共生する果実。果実ならではの甘さが独特の酒を作り上げる。",
+      "en": "Fruit with symbiotic microbes that produce alcohol. Creates a uniquely sweet, fruity liquor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11412,
+      "id": "rem_39173",
+      "jp": "森の天然発酵果実",
+      "en": "Forest's Natural Fermenting Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11413,
+      "id": "rem_39174",
+      "jp": "酒好きのドワームが作り出した、大型のアルコール抽出機。酒を入れると熱によってアルコールを気化させ、自動で高濃度のアルコールを生成する。",
+      "en": "A large alcohol extractor made by Dwarm, a liquor lover. Heats brew to vaporize alcohol, yielding high-proof spirit.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11414,
+      "id": "rem_39175",
+      "jp": "スミスのアルコール抽出器",
+      "en": "Smith's Alcohol Extractor",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11415,
+      "id": "rem_39176",
+      "jp": "酒に漬け込み、香りや味わいに深みを与える為の薬草。秘められた森の魔力が、そのまま醸造能力を助ける。",
+      "en": "Herbs steeped in liquor to deepen aroma and flavor. The forest's hidden magic aids the brewing process.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11416,
+      "id": "rem_39177",
+      "jp": "酒精醸造ハーブ",
+      "en": "Spirit Brewing Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11417,
+      "id": "rem_39178",
+      "jp": "燃えるような火酒を造るのに欠かせない、自然界でも最強の醸造微生物。",
+      "en": "Essential for fiery liquor, the strongest brewing microbe in nature.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11418,
+      "id": "rem_39179",
+      "jp": "火酒酵母",
+      "en": "Fire Liquor Yeast",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11419,
+      "id": "rem_39180",
+      "jp": "温度や圧力を自在に調整してアルコールを抽出する、酒豪の為のアルコール精製機。",
+      "en": "An alcohol still for connoisseurs, freely adjusting temp and pressure to refine spirits.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11420,
+      "id": "rem_39181",
+      "jp": "ミラクルアルコール精製機",
+      "en": "Miracle Alcohol Still",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11421,
+      "id": "rem_39182",
+      "jp": "酒精の力を閉じ込めた深紅のワイン樽。作る目的の酒によって、入れる素材が決まっており、同じ材質で樽を作っても、同じ酒を造る事はかなわない。",
+      "en": "A deep red wine barrel that confines the power of alcohol. The ingredients are determined by the intended liquor; even using the same wood, you cannot recreate the same brew.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11422,
+      "id": "rem_39183",
+      "jp": "永劫の酒樽",
+      "en": "Eternal Barrel",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11423,
+      "id": "rem_39184",
+      "jp": "水分をあっという間にアルコールに変えてしまう、新種のベリー果実。しかし、内側に秘めた菌が醸造を行うには、厳密な温度管理が必要。",
+      "en": "A new type of berry that instantly converts moisture into alcohol. However, the yeast within requires precise temperature control for brewing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11424,
+      "id": "rem_39185",
+      "jp": "マッハ醸造ベリー",
+      "en": "Mach Brewing Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11425,
+      "id": "rem_39186",
+      "jp": "火山の深部から湧き出る、赤茶色の鉱物が混ざった温水。これで酒を造ると、醸造が促進され、燃え上がるような味わいの強い酒を作る事が出来る。",
+      "en": "Mineral-laced hot water from deep within a volcano. Brewing with it accelerates fermentation, producing a liquor with a blazingly strong taste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

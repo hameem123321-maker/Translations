@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9551,
+  "range_end": 9575,
+  "pairs": [
+    {
+      "n": 9551,
+      "id": "rem_37273",
+      "jp": "魔術搭載コースター",
+      "en": "Magic-Equipped Coaster",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9552,
+      "id": "rem_37274",
+      "jp": "容量以上に小物をしまえる不思議なバッグ。ただし入れるのも出すのも強引に引っ張り上げなければ不可能で、取り回しに難がある。",
+      "en": "A mysterious bag that holds more small items than its capacity. However, putting in or taking out requires forceful pulling, making it cumbersome to handle.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9553,
+      "id": "rem_37275",
+      "jp": "不思議インベントリ",
+      "en": "Mysterious Inventory",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9554,
+      "id": "rem_37276",
+      "jp": "使っているうちに勝手に残りの容量が増えるテープ。最大で3倍ぐらい伸びるが、その分粘着力が少しずつ衰えていく。ちぎった先は伸びない代わりに、粘着力が維持される。",
+      "en": "A tape that automatically increases its remaining length as used. Stretches up to about 3 times, but adhesive weakens gradually. Cut ends don't stretch but maintain adhesive strength.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9555,
+      "id": "rem_37277",
+      "jp": "伸びるダクトテープ",
+      "en": "Stretching Duct Tape",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9556,
+      "id": "rem_37278",
+      "jp": "魔力を流すと明るくなるフィラメントランプ、間違った方向に進もうとすると光が消えてしまう。便利なのだが敵襲に備えて振り向いた瞬間、視界が閉ざされる欠陥がある。",
+      "en": "A filament lamp that glows when mana flows, but light goes out if trying to go the wrong way. Convenient, but flawed as turning around for defense blocks vision.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9557,
+      "id": "rem_37279",
+      "jp": "自動案内ランプ",
+      "en": "Automatic Guide Lamp",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9558,
+      "id": "rem_37280",
+      "jp": "空気に触れると爆発的に泡が広がる薬剤。ジョークアイテムのはずだが、これに凝固剤を混ぜると、人間が泡の中に固められてしまう。変な物を混ぜてはいけない。",
+      "en": "A reagent that explosively spreads bubbles on air contact. Meant as a joke item, but mixing a coagulant can trap humans in hardened bubbles. Don't mix weird stuff.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9559,
+      "id": "rem_37281",
+      "jp": "魔力式バブルメーカー",
+      "en": "Mana-Type Bubble Maker",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9560,
+      "id": "rem_37282",
+      "jp": "決まった時間になると天候の予想が書き込まれるスクロール。便利なのだが長旅を耐えられる程の容量はなく、たまに外れる事もある。",
+      "en": "A scroll where weather forecasts are written at set times. Handy, but lacks capacity for long journeys and occasionally misses.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9561,
+      "id": "rem_37283",
+      "jp": "天気予報スクロール",
+      "en": "Weather Forecast Scroll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9562,
+      "id": "rem_37284",
+      "jp": "落ちる時間が不規則にズレる砂時計。職人の腕が悪いと思われていたが、重力異常を引き起こしている事が判明し、美しさと相まって工芸品として評価された。",
+      "en": "A sandglass with irregular timing. Once blamed on poor craftsmanship, its actual cause is gravitational anomalies. Its beauty and intrigue have made it a prized artifact.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9563,
+      "id": "rem_37285",
+      "jp": "時刻が曖昧な砂時計",
+      "en": "Unreliable Sandglass",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9564,
+      "id": "rem_37286",
+      "jp": "机の周りを歩きつつ会話を勝手にメモする人形。異邦からやってきた退魔の一族が協力しているらしい。",
+      "en": "A doll that wanders around a desk, autonomously taking notes. It's said to be aided by an exorcist clan from a foreign land.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9565,
+      "id": "rem_37287",
+      "jp": "自動で動くメモ取り人形",
+      "en": "Self-Moving Memo Doll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9566,
+      "id": "rem_37288",
+      "jp": "異邦の穀物に祈りを捧げ、着色料を混ぜたお米。「聖女が祝福した」という付加価値がついたおかげで割高で売れる。",
+      "en": "A prayer-infused rice blend with colored grains from foreign seeds. Marketed as \"blessed by a saint,\" it sells at a premium.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 9567,
+      "id": "rem_37289",
+      "jp": "神聖ブレンドライス",
+      "en": "Sacred Blend Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9568,
+      "id": "rem_37290",
+      "jp": "小さな宝珠。光を当てると綺麗に反射するが、それ以上は特に何も起きない。特に何かが起こるわけではないが、聖職者が売る事で価値があると思われている。",
+      "en": "A small crystal orb. It reflects light beautifully, but has no other function. Its value comes solely from being sold by clergy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9569,
+      "id": "rem_37291",
+      "jp": "ミニ聖光オーブ",
+      "en": "Mini Holy Light Orb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9570,
+      "id": "rem_37292",
+      "jp": "聖樹の朝露で育ったと宣伝されている茶葉。味は普通だが、信心深い者には人気。",
+      "en": "Tea leaves marketed as grown in sacred morning dew. The taste is ordinary, but it's popular among the devout.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9571,
+      "id": "rem_37293",
+      "jp": "聖なる朝露育ち茶葉",
+      "en": "Sacred Dew-Grown Tea",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9572,
+      "id": "rem_37294",
+      "jp": "部屋にそれっぽい香りが漂う香水。儀式の雰囲気作りに欠かせない。救われたいと願う浮浪者が訪れた後でも清浄な空気を演出する。",
+      "en": "A perfume that fills a room with a suitably holy scent. Essential for ritual atmosphere and for masking the odor of desperate visitors.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9573,
+      "id": "rem_37295",
+      "jp": "神聖な香水",
+      "en": "Holy Perfume",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9574,
+      "id": "rem_37296",
+      "jp": "ただの布だが、祝福されているという付加価値を付けた高価な布。一応布としての性能は高いようだ。",
+      "en": "A simple cloth, but sold at a high price due to its \"blessing.\" Its material quality is, admittedly, quite good.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9575,
+      "id": "rem_37297",
+      "jp": "祝福クロス",
+      "en": "Blessed Cloth",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99076,
+  "range_end": 99100,
+  "pairs": [
+    {
+      "n": 99076,
+      "id": "db_EventInfo:116943:7",
+      "jp": "みんなー！　ミルテたちの居場所が分かったよ",
+      "en": "Everyone! I found out where Myrte and them are.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99077,
+      "id": "db_EventInfo:116944:2",
+      "jp": "本当デス！？",
+      "en": "Really!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99078,
+      "id": "db_EventInfo:116945:7",
+      "jp": "うん。今、港に停泊している軍艦――【『ソルシア魔導船団』】の中にいるみたいだ",
+      "en": "Yeah. Looks like they're inside the Solcia Sorcery Fleet -- that warship docked at the port right now.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99079,
+      "id": "db_EventInfo:116946:7",
+      "jp": "あの軍艦は【『盗賊ギルド』】でも怪しいって睨んでいてね、密偵を潜り込ませていたんだけど……",
+      "en": "The Thieves' Guild was already suspicious of that warship, so we snuck a spy in...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99080,
+      "id": "db_EventInfo:116947:7",
+      "jp": "【やたらと派手な外見の女魔術師】を二人、見かけたそうなんだ",
+      "en": "They reported seeing two female sorcerers with very flashy looks.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99081,
+      "id": "db_EventInfo:116948:2",
+      "jp": "間違いなくミルテとオーレリアデスね",
+      "en": "That's definitely Myrte and Aurelia.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99082,
+      "id": "db_EventInfo:116949:9",
+      "jp": "なるほど……ミルテは【『<ruby=ソルシア>学院</ruby>』】希代の天才、【『邪教徒』】として処刑するよりも、隠蔽して魔術師の才能を確保するか",
+      "en": "I see... Myrte is a once-in-a-generation genius from the Solcia Academy. Rather than executing her as a heretic, they'd hide it and secure her talent.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99083,
+      "id": "db_EventInfo:116950:9",
+      "jp": "【『邪教徒』】として処刑されることから庇えば、ミルテに対して多大な恩も売れる、というわけであるな",
+      "en": "By protecting her from being executed as a heretic, they can put Myrte in their debt.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99084,
+      "id": "db_EventInfo:116951:2",
+      "jp": "よし、さっそく乗り込むデス！",
+      "en": "Alright, let's board right now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99085,
+      "id": "db_EventInfo:116952:7",
+      "jp": "ま、待ってよ！　向こうは軍艦で、すごい警備がされているんだ。正面から入ると大騒ぎになるよ！",
+      "en": "W-wait! That's a warship with heavy security. Going in the front will cause a huge commotion!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99086,
+      "id": "db_EventInfo:116953:2",
+      "jp": "おいオマエ、忍び込んで救出してくるデス",
+      "en": "Hey, you're sneaking in and rescuing them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99087,
+      "id": "db_EventInfo:116954:7",
+      "jp": "む、ムリだよ！　魔術防壁が張ってて外から忍び込めないし、魔術装備で固めた魔術兵があちこちに配備されてるんだ",
+      "en": "Ugh, impossible! There's a magic barrier up. We can't sneak in from outside, and magical soldiers with tough magic gear are posted everywhere.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99088,
+      "id": "db_EventInfo:116955:2",
+      "jp": "むうデス……",
+      "en": "Hmmm Des...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99089,
+      "id": "db_EventInfo:116956:1",
+      "jp": "なんとかして乗り込む方法を考えないとな",
+      "en": "We need to think of a way to get on board.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99090,
+      "id": "db_EventInfo:116958:1",
+      "jp": "一体ミルテ達をどうやったら救出できるんだ……",
+      "en": "How are we supposed to rescue Myrte and the others...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99091,
+      "id": "db_EventInfo:116959:7",
+      "jp": "うーん……密偵の情報によると、警備が厳しすぎて、救出もムリだって",
+      "en": "Hmm... According to the spy's info, the security is too tight. Rescue is impossible.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99092,
+      "id": "db_EventInfo:116960:2",
+      "jp": "むう、手詰まりデス……【『ソルシア魔導船団』】に入り込む手段がないデス！",
+      "en": "Hmm, we're stuck Des! There's no way to get into the 'Solthia Magical Fleet' Des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99093,
+      "id": "db_EventInfo:116962:5",
+      "jp": "おーほほほ！　皆様、お困りのようですわね？",
+      "en": "Oh-hohoho! You all seem to be in trouble, don't you?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99094,
+      "id": "db_EventInfo:116963:2",
+      "jp": "なんだ、うるさいデス",
+      "en": "What? You're annoying Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99095,
+      "id": "db_EventInfo:116964:5",
+      "jp": "うふふ、店長様、私に妙案がありましてよД",
+      "en": "Ufufu, Shop Manager, I have a brilliant ideaД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99096,
+      "id": "db_EventInfo:116965:1",
+      "jp": "……妙案？",
+      "en": "...A brilliant idea?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99097,
+      "id": "db_EventInfo:116966:5",
+      "jp": "今、【『ソルシア魔導船団』】には【大量の食品】が積み込まれているのは、ご存知でしょうか？",
+      "en": "Are you aware that the 'Solthia Magical Fleet' is currently loaded with a large amount of food?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99098,
+      "id": "db_EventInfo:116967:1",
+      "jp": "食品？　そういえば、キャトリナ姉さんも【特需】みたいなことを言ってたな……",
+      "en": "Food? Come to think of it, Catrina mentioned something like a 'special demand'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99099,
+      "id": "db_EventInfo:116968:5",
+      "jp": "ええ、我が【『ハーヴェスタ商会』】も【『ソルシア魔導船団』】からの商品発注を受けております",
+      "en": "Yes, my [Harvester Merchant Guild] has also received orders from the [Solthia Magic Fleet].",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99100,
+      "id": "db_EventInfo:116969:5",
+      "jp": "なので、そちらの積み荷に紛れて侵入すればよろしいかと！",
+      "en": "So, if you hide among their cargo, it should work perfectly!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    }
+  ]
+}

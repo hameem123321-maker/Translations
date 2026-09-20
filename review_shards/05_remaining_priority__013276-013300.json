@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13276,
+  "range_end": 13300,
+  "pairs": [
+    {
+      "n": 13276,
+      "id": "rem_48945",
+      "jp": "耳障りな鳴き声を放つ凶鳥の羽。断熱性と保温能力を備えたこの羽を採取するには危険を伴い、それゆえに高値で取引される。",
+      "en": "A feather from a vicious bird that emits an earsplitting cry. Collecting this feather, prized for its insulation and heat retention, is dangerous, making it a high-value trade item.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13277,
+      "id": "rem_48946",
+      "jp": "狂気鳥の羽",
+      "en": "Frenzy Bird Feather",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13278,
+      "id": "rem_48947",
+      "jp": "竜の翼から取れたと言われる、軽く強靭な羽毛。竜がふわふわの羽を持っているかはともかく、纏った魔力は本物で、今の人類には到達できないと言われている。",
+      "en": "A lightweight yet incredibly strong feather said to be plucked from a dragon's wing. Whether dragons have fluffy feathers is debatable, but the magical power it holds is genuine, said to be beyond modern humanity's reach.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13279,
+      "id": "rem_48948",
+      "jp": "竜の羽毛",
+      "en": "Dragon Feather",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13280,
+      "id": "rem_48949",
+      "jp": "石英でできた透明な糸。現在では石英を糸にする製法は確立されていない。また、通常の鉱石というだけでは説明できない機能も備えているようだ。",
+      "en": "A transparent thread made of quartz. The method to spin quartz into thread remains undiscovered. It also seems to possess functions beyond what ordinary ore can explain.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13281,
+      "id": "rem_48950",
+      "jp": "古代遺跡で見付けた糸",
+      "en": "Ancient Thread",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13282,
+      "id": "rem_48951",
+      "jp": "魔界からこの世界に流れ着いたと言われる、黒い木材。魔力に満ち溢れたこの樹木は、凶悪な魔獣の蔓延るダムブナックの森でも、まだ見つかっていない。",
+      "en": "Black wood said to have drifted to this world from the demon realm. This magic-rich tree hasn't even been found in Dambunack Forest, rife with savage beasts.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13283,
+      "id": "rem_48952",
+      "jp": "魔界の枝",
+      "en": "Demon Realm Branch",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13284,
+      "id": "rem_48953",
+      "jp": "かつて海に沈んだ海賊ゴールデンボーンの物だと見られている船の残骸。長い年月を経てもなお、光り輝いている。",
+      "en": "Wreckage believed to be from the ship of the pirate Golden Bone, sunk long ago. It still shines brilliantly despite the ages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13285,
+      "id": "rem_48954",
+      "jp": "黄金海賊船の残骸",
+      "en": "Golden Pirate Wreckage",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13286,
+      "id": "rem_48955",
+      "jp": "海底都市に堆積している煌めく砂。魔力を帯びたこの砂は、常に表面がツルツルに磨かれている。",
+      "en": "Glittering sand piled in an underwater city. Imbued with magic, its surface is always polished smooth.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13287,
+      "id": "rem_48956",
+      "jp": "深海の煌めく砂",
+      "en": "Deep Sea Glitter Sand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13288,
+      "id": "rem_48957",
+      "jp": "様々な土が層を成した、不可思議な模様の土。長く蓄えた魔力を幾重にも重ねたこの土は、様々な建造物にも耐える優秀な素材。",
+      "en": "Strange-patterned soil with layered earth. Having accumulated magic over ages, it's a superior material resilient for various structures.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13289,
+      "id": "rem_48958",
+      "jp": "宇宙模様の海土",
+      "en": "Cosmic Sea Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13290,
+      "id": "rem_48959",
+      "jp": "空から落ちた星の破片と言われる、内側で魔力が暴れ出している結晶体。天と海の魔力を蓄積させたこの結晶体は、加工法すら確立されていない。",
+      "en": "A crystal with wild magic inside, said to be a fallen star fragment. Accumulating sky and sea magic, not even a processing method is established.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13291,
+      "id": "rem_48960",
+      "jp": "星のかけら",
+      "en": "Star Fragment",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13292,
+      "id": "rem_48961",
+      "jp": "漆黒の光を放つ謎の結晶体。現在の人類には力の一端しか解明できないが、秘めた魔力は膨大。",
+      "en": "Mysterious crystal emitting pitch-black light. Current humanity can only grasp a fraction of its power, but its hidden magic is vast.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13293,
+      "id": "rem_48962",
+      "jp": "ダークマターの結晶",
+      "en": "Dark Matter Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13294,
+      "id": "rem_48963",
+      "jp": "遥か彼方から飛来したとされる、神秘的な鉄。その強度と軽さは、他の金属の追随を許さない。不自然に成形されたこの石は、現在の世界には存在しないと言われる。",
+      "en": "Mysterious iron said to have flown from afar. Its strength and lightness are unmatched. This unnaturally shaped stone is said not to exist in the current world.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13295,
+      "id": "rem_48964",
+      "jp": "未知のユニバース隕石",
+      "en": "Unknown Universe Meteorite",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13296,
+      "id": "rem_48965",
+      "jp": "竜の鱗にも匹敵するという触れ込みの硬い金属。その硬度は伝説のドラゴンの爪をも弾くらしいが、竜と相対して生き残った人間は記録されていない。",
+      "en": "Hard metal touted to rival dragon scales. Its hardness supposedly deflects even a legendary dragon's claws, but no human who faced a dragon and survived is recorded.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13297,
+      "id": "rem_48966",
+      "jp": "古竜鍛硬鉄",
+      "en": "Ancient Dragon Hardened Iron",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13298,
+      "id": "rem_48967",
+      "jp": "アーマニア海底で極々まれに産出される、非常に硬い金属原石。硬さと対魔力を兼ね備えた、最高級の装備に使われる。",
+      "en": "Extremely hard metal ore very rarely produced in Armania's seabed. Used for top-tier gear combining hardness and anti-magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13299,
+      "id": "rem_48968",
+      "jp": "海竜のバナジウム",
+      "en": "Sea Dragon Vanadium",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13300,
+      "id": "rem_48969",
+      "jp": "カラフルな模様の鉱物原石。通常の金属とは一線を画す魔力と硬度を持ち、加工法が長らく謎に包まれていた。近年ドワーム族と人間が協力し、加工法を確立させた。",
+      "en": "Colorfully patterned mineral ore. Possesses magic and hardness distinct from normal metals; its processing method was long a mystery. Recently, Dwarm and humans collaborated to establish it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

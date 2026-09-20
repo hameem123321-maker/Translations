@@ -1,0 +1,189 @@
+{
+  "source_file": "03_ui_onscreen.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1,
+  "range_end": 25,
+  "pairs": [
+    {
+      "n": 1,
+      "id": "ui_mb_00001",
+      "jp": "いいえ",
+      "en": "No",
+      "category": "ui"
+    },
+    {
+      "n": 2,
+      "id": "ui_mb_00002",
+      "jp": "料理<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/999",
+      "en": "Cooking<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/999",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 3,
+      "id": "ui_mb_00005",
+      "jp": "冥魅亭公式サーバーへ",
+      "en": "To Meibitei Official Server",
+      "category": "ui"
+    },
+    {
+      "n": 4,
+      "id": "ui_mb_00006",
+      "jp": "先代魔女オーレリア・ウィルチと話す",
+      "en": "Talk to the former witch Aurelia Witch",
+      "category": "ui"
+    },
+    {
+      "n": 5,
+      "id": "ui_mb_00007",
+      "jp": "素材収集率",
+      "en": "Material Collection Rate",
+      "category": "ui"
+    },
+    {
+      "n": 6,
+      "id": "ui_mb_00008",
+      "jp": "多くの商品を開発して、ガッポガッポと稼ぐデス！",
+      "en": "Develop lots of products and rake in tons of cash, desu!",
+      "category": "ui"
+    },
+    {
+      "n": 7,
+      "id": "ui_mb_00009",
+      "jp": "収集した素材を確認",
+      "en": "Check Collected Materials",
+      "category": "ui"
+    },
+    {
+      "n": 8,
+      "id": "ui_mb_00010",
+      "jp": "クリア時間(このセーブファイル)",
+      "en": "Clear Time (This Save File)",
+      "category": "ui"
+    },
+    {
+      "n": 9,
+      "id": "ui_mb_00011",
+      "jp": "あなたは『死神代行』として『災厄』から世界を救いました！",
+      "en": "As the Shinigami Agent, you saved the world from Calamity!",
+      "category": "ui"
+    },
+    {
+      "n": 10,
+      "id": "ui_mb_00013",
+      "jp": "<color=#88feFe>キャラクターの名前：あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</color>",
+      "en": "<color=#88feFe>Character Name: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</color>",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 11,
+      "id": "ui_mb_00014",
+      "jp": "画面をタッチしてください",
+      "en": "Touch the Screen",
+      "category": "ui"
+    },
+    {
+      "n": 12,
+      "id": "ui_mb_00015",
+      "jp": "<color=#BB0000><color=#0066AA>『素材』</color></color>はアイテムの材料になるデス。つまり、これがなければ商品が作れないデス",
+      "en": "<color=#BB0000><color=#0066AA>Materials</color></color> are used for crafting items, desu. In other words, you can't make products without them, desu.",
+      "category": "ui"
+    },
+    {
+      "n": 13,
+      "id": "ui_mb_00016",
+      "jp": "先代魔女オーレリア・ウィルチ",
+      "en": "Former Witch Aurelia Wilch",
+      "category": "ui"
+    },
+    {
+      "n": 14,
+      "id": "ui_mb_00019",
+      "jp": "来客数",
+      "en": "Customer Count",
+      "category": "ui"
+    },
+    {
+      "n": 15,
+      "id": "ui_mb_00020",
+      "jp": "999<size=16>人</size>",
+      "en": "999<size=16>People</size>",
+      "category": "ui"
+    },
+    {
+      "n": 16,
+      "id": "ui_mb_00021",
+      "jp": "ああああああああああああああああ",
+      "en": "Aaaaaaaaaaaaaa",
+      "category": "ui"
+    },
+    {
+      "n": 17,
+      "id": "ui_mb_00022",
+      "jp": "ああああああああああああああああああああああああああああああああああああ",
+      "en": "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "category": "ui"
+    },
+    {
+      "n": 18,
+      "id": "ui_mb_00041",
+      "jp": "ダンジョン・旧アルダルク大地主の廃村",
+      "en": "Dungeon: Old Aldaluk Village Ruins",
+      "category": "ui"
+    },
+    {
+      "n": 19,
+      "id": "ui_mb_00060",
+      "jp": "日目",
+      "en": "Day",
+      "category": "ui"
+    },
+    {
+      "n": 20,
+      "id": "ui_mb_00061",
+      "jp": "しゅじんこう",
+      "en": "Master",
+      "category": "ui"
+    },
+    {
+      "n": 21,
+      "id": "ui_mb_00063",
+      "jp": "ああああああああああああああああうううう",
+      "en": "Aaaaaaaahhhhhhhh uuuuuhhhh...",
+      "category": "ui"
+    },
+    {
+      "n": 22,
+      "id": "ui_mb_00064",
+      "jp": "誰がタワーシールドですって……？aaaaaaaaaaaaaaaaうううううううううううううううう",
+      "en": "Who said \"Tower Shield\"...? aaaaaaaahhhhhh uuuuuuuuhhhhhhhh...",
+      "category": "ui"
+    },
+    {
+      "n": 23,
+      "id": "ui_mb_00065",
+      "jp": "<size=30>9</size>週目 <size=30>9999</size>日",
+      "en": "<size=30>Week</size> 9 <size=30>Day</size> 9999",
+      "category": "ui"
+    },
+    {
+      "n": 24,
+      "id": "ui_mb_00066",
+      "jp": "<color=#BB0000><color=#0066AA>『素材』</color></color>はアイテムの材料になるデス。つまり、これがなければ商品が作れデススススススススススス",
+      "en": "<color=#BB0000><color=#0066AA>\"Materials\"</color></color> are used to craft items, Desu. Without them, you can't make goods, Desuuuu...",
+      "category": "ui"
+    },
+    {
+      "n": 25,
+      "id": "ui_mb_00067",
+      "jp": "素材",
+      "en": "Materials",
+      "category": "ui"
+    }
+  ]
+}

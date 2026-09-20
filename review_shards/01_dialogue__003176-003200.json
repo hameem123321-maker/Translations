@@ -1,0 +1,211 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3176,
+  "range_end": 3200,
+  "pairs": [
+    {
+      "n": 3176,
+      "id": "db_EventInfo:3454:1",
+      "jp": "そうだな……",
+      "en": "Right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3177,
+      "id": "db_EventInfo:3455:2",
+      "jp": "【『清掃』】自体はわりと誰でもできるデスから、手が空いてるスタッフを割り振っておきたいところデスね",
+      "en": "Pretty much anyone can do Cleaning, so you should assign any staff member who's free.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3178,
+      "id": "db_EventInfo:3456:2",
+      "jp": "割り振れる奴がいないなら、だれでもいいからスタッフを採用するデス！",
+      "en": "If there's no one to assign, just hire a new staff member! Anyone will do!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3179,
+      "id": "db_EventInfo:3457:0",
+      "jp": "★bgm・不穏",
+      "en": "★bgm - Ominous",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3180,
+      "id": "db_EventInfo:3458:2",
+      "jp": "おいオマエ、【『汚染値』】がかなり貯まってるデス。宿が汚れすぎてるということデス",
+      "en": "Hey you, your Contamination Level is way too high. That means the inn is way too dirty.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3181,
+      "id": "db_EventInfo:3459:1",
+      "jp": "す、すまん……",
+      "en": "S-sorry...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3182,
+      "id": "db_EventInfo:3460:2",
+      "jp": "【宿が汚れていると客が減る】デス。はやくなんとかするデス",
+      "en": "If the inn is dirty, we lose customers. We need to fix it, fast.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3183,
+      "id": "db_EventInfo:3461:2",
+      "jp": "【『編成』】で【『清掃部門』】にスタッフを割り振るデス",
+      "en": "Use the 'Assign' menu to put staff in the 'Cleaning' department.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3184,
+      "id": "db_EventInfo:3462:2",
+      "jp": "【『汚染値』】が高いと【客層】が悪くなったり、【客自体の数が減ったり】と良いことはないデス",
+      "en": "If the 'Pollution Level' gets high, the type of customers gets worse, or we just get fewer people. Nothing good.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3185,
+      "id": "db_EventInfo:3463:2",
+      "jp": "特に【『料理』】を売っていると【『汚染値』】が貯まりやすいから注意デス",
+      "en": "It builds up fast if you're selling 'Food', so be careful.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3186,
+      "id": "db_EventInfo:3464:0",
+      "jp": "【『汚染値』】が高いと客が減ります。注意しましょう。",
+      "en": "A high 'Pollution Level' means fewer customers. Be careful.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3187,
+      "id": "db_EventInfo:3465:2",
+      "jp": "昼になったデス。これで一日の営業が半分終わったデス",
+      "en": "It's noon. The business day is half over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3188,
+      "id": "db_EventInfo:3466:2",
+      "jp": "まだまだ頑張るデス",
+      "en": "Keep at it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3189,
+      "id": "db_EventInfo:3467:2",
+      "jp": "日が暮れたデスけど、もう少し営業するデス",
+      "en": "The sun's down, but we can keep going a bit longer.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3190,
+      "id": "db_EventInfo:3468:2",
+      "jp": "夜は【『料理』】の値段がアップするデス。腹が減ってたくさん食べるんデスかね？",
+      "en": "'Food' prices go up at night. Maybe people are hungrier and eat more?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3191,
+      "id": "db_EventInfo:3469:0",
+      "jp": "★bgm・不穏",
+      "en": "★bgm・Ominous",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 3192,
+      "id": "db_EventInfo:3470:2",
+      "jp": "おいオマエ、【『汚染値』】がかなり貯まってるデス。宿が汚れすぎてるデス！",
+      "en": "Hey you! The 'Pollution Level' is really high. The inn is way too dirty!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3193,
+      "id": "db_EventInfo:3471:2",
+      "jp": "【『清掃部門』】のスタッフが足りていないのではないデス？",
+      "en": "The 'Cleaning Department' doesn't have enough staff, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3194,
+      "id": "db_EventInfo:3472:1",
+      "jp": "そ、そうかも……",
+      "en": "M-maybe so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3195,
+      "id": "db_EventInfo:3473:2",
+      "jp": "ああもう！　汚れていると、イライラしてきたデス！",
+      "en": "Ahhhh! Seeing all this dirt is getting me really annoyed!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3196,
+      "id": "db_EventInfo:3474:2",
+      "jp": "いっそ、私が【掃除】してやるデス？　【この鎌で宿ごとスッキリ】してやるデス！",
+      "en": "I know! Why don't I just 'clean' it? 'Slice this whole inn nice and clean' with this scythe!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3197,
+      "id": "db_EventInfo:3475:1",
+      "jp": "わーっ！　よせーっ！！",
+      "en": "Whoa! No!! Stop!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3198,
+      "id": "db_EventInfo:3476:1",
+      "jp": "（【シイネが大暴れする前】に掃除しないと……おそらく【『汚染値』】が【300】ぐらいが我慢の限界だろう）",
+      "en": "(I have to clean up... before Shiine goes berserk... I think her limit for 'Pollution' is probably around 300.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3199,
+      "id": "db_EventInfo:3477:2",
+      "jp": "どうやらこれ以上の【開発ポイント】を溜めることはできないデス。これ以上は獲得しても捨てるのみデス",
+      "en": "It seems you can't save up any more 'Development Points'. Any more you get, you'll just have to throw away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3200,
+      "id": "db_EventInfo:3478:1",
+      "jp": "勿体ないな……",
+      "en": "That's such a waste...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

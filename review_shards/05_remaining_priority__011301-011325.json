@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11301,
+  "range_end": 11325,
+  "pairs": [
+    {
+      "n": 11301,
+      "id": "rem_39062",
+      "jp": "光輝く塩の柱。滋味深く、稀少な塩であるこの柱が存在する土地は、古くから人々が所有権を巡り、争いの元になってきた。",
+      "en": "The Brilliant Salt Column. The lands where this deeply flavorful, rare salt pillar exists have long been a source of conflict among people fighting for its ownership.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11302,
+      "id": "rem_39063",
+      "jp": "輝きの塩柱",
+      "en": "Gleaming Salt Pillar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11303,
+      "id": "rem_39064",
+      "jp": "海底から汲み上げた水を使用し、丁寧に塩の結晶を成長させた高級塩。これを砕いて振り掛ければ、どんな料理も美味しくなるだろう。",
+      "en": "A premium salt made by carefully growing crystals from water drawn from the ocean floor. Crushing and sprinkling it makes any dish more delicious.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11304,
+      "id": "rem_39065",
+      "jp": "深層海水抽出ソルト",
+      "en": "Deep-Sea Water Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11305,
+      "id": "rem_39066",
+      "jp": "火山地帯の岩から精製した赤みのある岩塩。海辺の塩とは違った風味を感じるが、採取・精製共に難易度が高い。",
+      "en": "A reddish rock salt refined from volcanic rock. It has a different flavor from sea salt, but both mining and refining are challenging.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11306,
+      "id": "rem_39067",
+      "jp": "ヴォルカニックソルト",
+      "en": "Volcanic Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11307,
+      "id": "rem_39068",
+      "jp": "金属を思わせる、カタマリ状の神秘的な岩塩。少量削って加えるだけで、料理の味を激変させる。",
+      "en": "A mysterious, metallic-looking lump of rock salt. Just shaving off a little transforms a dish's flavor dramatically.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11308,
+      "id": "rem_39069",
+      "jp": "インゴットソルト",
+      "en": "Ingot Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11309,
+      "id": "rem_39070",
+      "jp": "魔力を反応させて生成した塩の塊。魔力を帯びた物でしか取り出せず、近年までは一切傷つかない、謎のオブジェと見られていた。",
+      "en": "A mass of salt created by reacting with magic. It can only be extracted by magical means, and until recently, it was considered an indestructible, mysterious object.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11310,
+      "id": "rem_39071",
+      "jp": "魔力生成塩タワー",
+      "en": "Magic-Generated Salt Tower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11311,
+      "id": "rem_39072",
+      "jp": "岩の中に封じ込められた、魔力を持った塩の結晶。岩石の中で発生し、削り出さねば発見できない為、生成プロセスも謎のまま。",
+      "en": "A magical salt crystal sealed within rock. It forms inside stone and must be carved out to be found, so its creation process remains a mystery.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11312,
+      "id": "rem_39073",
+      "jp": "宝玉ソルト",
+      "en": "Gemstone Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11313,
+      "id": "rem_39074",
+      "jp": "アーマニア海の水底から引き揚げられた、特徴的な形の結晶。その形と味から竜の涙のようだと名付けられたが、もちろん海竜は無関係。",
+      "en": "A distinctively shaped crystal salvaged from the Armania Sea floor. Named for resembling a dragon's tear in shape and taste, though sea dragons are unrelated.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11314,
+      "id": "rem_39075",
+      "jp": "海竜の涙",
+      "en": "Sea Dragon's Tear",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11315,
+      "id": "rem_39076",
+      "jp": "植物を圧搾して取り出した、ドロドロした液体。高温になりやすく燃えやすいが、食品の風味付けや燃料等、使用用途は多岐に渡る。",
+      "en": "A thick, viscous liquid pressed from plants. It heats and ignites easily but has diverse uses, from flavoring food to fuel.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11316,
+      "id": "rem_39077",
+      "jp": "植物の搾り油",
+      "en": "Pressed Plant Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11317,
+      "id": "rem_39078",
+      "jp": "とある実験に使われた廃液を食用に調整した物。口の中でとろける上に、舌の上で味が踊ると評判だが、調理者は決して食べたがらない。",
+      "en": "Waste fluid from an experiment, adjusted for consumption. Renowned for melting in the mouth and its dancing flavor, though the preparer refuses to eat it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11318,
+      "id": "rem_39079",
+      "jp": "オイルモドキ",
+      "en": "Oil-Like Liquid",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11319,
+      "id": "rem_39080",
+      "jp": "激辛の野菜を漬け込んだ、料理用の油。一滴舐めれば、全身から汗が噴き出す。",
+      "en": "Cooking oil infused with extremely spicy vegetables. A single taste causes sweat to pour from every pore.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11320,
+      "id": "rem_39081",
+      "jp": "ペッパーオイル",
+      "en": "Pepper Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11321,
+      "id": "rem_39082",
+      "jp": "魚介類から脂肪を抽出して不純物を取り除いた油。植物油に比べて魚介由来の栄養が豊富。",
+      "en": "Oil extracted from fish, impurities removed. Richer in nutrients than plant oils.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11322,
+      "id": "rem_39083",
+      "jp": "魚介抽出油",
+      "en": "Fish Extract Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11323,
+      "id": "rem_39084",
+      "jp": "黄金色の、僅かに甘みを含んだ油。果実の樹液から精製したこの油は、菓子作りに珍重される。",
+      "en": "Golden oil with a hint of sweetness, refined from fruit sap. Prized for confectionery.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11324,
+      "id": "rem_39085",
+      "jp": "果実の漬け油",
+      "en": "Fruit-Preserved Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11325,
+      "id": "rem_39086",
+      "jp": "圧搾した油に思い思いの香辛料を浸し、継ぎ足し続けた秘伝の油。年月をかけて生まれた深い味わいは、この壺だけにしか生み出せない。",
+      "en": "A secret oil made by infusing spices and continuously replenishing it. Its deep flavor, born over time, is unique to this jar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

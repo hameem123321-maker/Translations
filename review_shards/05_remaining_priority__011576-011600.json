@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11576,
+  "range_end": 11600,
+  "pairs": [
+    {
+      "n": 11576,
+      "id": "rem_39337",
+      "jp": "神聖なクリスタル原石",
+      "en": "Sacred Crystal Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11577,
+      "id": "rem_39338",
+      "jp": "常人では加工することすらできない、極めて硬い鉄鉱石。その硬度から、武器や防具の素材として非常に重宝される。",
+      "en": "Extremely hard iron ore, impossible for most to work. Valued for making strong weapons and armor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11578,
+      "id": "rem_39339",
+      "jp": "超硬度の鉄鉱石",
+      "en": "Super Hard Iron Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11579,
+      "id": "rem_39340",
+      "jp": "美しい赤き輝きを放つ石。石でありながら燃え上がるような輝きを絶えず放つこの石は、太陽の化身として古代の人間に重宝されていた。",
+      "en": "A stone with a beautiful red glow. It constantly shines like fire and was prized in ancient times as the sun's incarnation.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11580,
+      "id": "rem_39341",
+      "jp": "太陽の原石",
+      "en": "Sunstone Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11581,
+      "id": "rem_39342",
+      "jp": "サルバック砂漠近郊や、各地の鉱山で見つかる、金を含んだ鉱石。誰もが求めながら、産出量が少なく、高値で取引されている。",
+      "en": "A gold-bearing ore found near the Salback Desert and various mines. Highly sought-after, yet scarce and traded at high prices.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11582,
+      "id": "rem_39343",
+      "jp": "ぴかぴか金鉱石",
+      "en": "Shiny Gold Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11583,
+      "id": "rem_39344",
+      "jp": "北方で産出される、輝く魔力を秘めた鉱石。高い魔力伝導率を持ち、高性能な魔具に欠かせないが、産出場所の環境が過酷な為、入手量は限られる。",
+      "en": "A shining, magic-imbued crystal from the north. Excellent magical conductivity makes it vital for high-end magical tools, but its harsh mining environment limits supply.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11584,
+      "id": "rem_39345",
+      "jp": "氷獄のクリスタル",
+      "en": "Ice Prison Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11585,
+      "id": "rem_39346",
+      "jp": "オオカミの排泄物。乾燥させると薬の材料にできるらしい。また、燃やせばよく煙を出しながら燃えてくれる。",
+      "en": "Wolf droppings. They can be used as medicine ingredients when dried. They also burn slowly, producing plenty of smoke.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11586,
+      "id": "rem_39347",
+      "jp": "狼獣の排泄物",
+      "en": "Wolf Beast Droppings",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11587,
+      "id": "rem_39348",
+      "jp": "水分が抜けて乾燥しきった丸太。適度な大きさに斧で割り、焚火の中に放り込めば、長く燃え続けてくれる。",
+      "en": "A log dried out and free of moisture. Split to size with an axe and thrown into a campfire, it will burn for a long time.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11588,
+      "id": "rem_39349",
+      "jp": "乾燥した丸太",
+      "en": "Dried Log",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11589,
+      "id": "rem_39350",
+      "jp": "燃やすために精製した油。一度火を付ければ長く燃え続けるが、水をかけると燃えたままどこまでも広がるので、消火には注意が必要。",
+      "en": "Refined oil for burning. Once lit, it burns steadily. Be careful when extinguishing—it spreads when splashed with water.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11590,
+      "id": "rem_39351",
+      "jp": "燃料オイル",
+      "en": "Fuel Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11591,
+      "id": "rem_39352",
+      "jp": "珍しい、一度火が付けば数日は燃え続ける樹木。その性質の為、冒険者が遠出をする際に重宝されるが、万が一山火事が起これば周辺を焼け野原にしてしまう。",
+      "en": "A rare tree that burns for days once ignited. Prized by adventurers for long journeys, but a potential cause of devastating wildfires.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11592,
+      "id": "rem_39353",
+      "jp": "燃え続ける樹木",
+      "en": "Everburning Tree",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11593,
+      "id": "rem_39354",
+      "jp": "激しく燃焼させないよう、じっくりと高温で制作した炭。木材とは違い、長く燃え続けるうえ、かなりの熱量を誇る。",
+      "en": "Charcoal made slow-cooked at high heat. Unlike wood, it burns long and steady, with intense heat output.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11594,
+      "id": "rem_39355",
+      "jp": "良く燃える活性炭",
+      "en": "High-Burn Charcoal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11595,
+      "id": "rem_39356",
+      "jp": "空気に触れると爆発的な熱が発生し、燃え上がる水。布に染み込ませるだけで種火が得られ、入れ物ごと叩き割れば武器にもなるが、扱いには細心の注意が必要。",
+      "en": "Water that bursts into flame upon contact with air. Soak cloth for an instant fire starter, or break the container to use as a weapon—handle with extreme care.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11596,
+      "id": "rem_39357",
+      "jp": "燃える水",
+      "en": "Burning Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11597,
+      "id": "rem_39358",
+      "jp": "盃の上でいつまでも燃え続けている祝福された炎。強風でも、水をかけても消えないが、うっかり荷物袋に入れてしまうと、袋ごと盃が燃え尽きてしまう事になる。",
+      "en": "A blessed flame that burns eternally atop a cup. Unaffected by wind or water, but leaving it in a bag will burn everything to ashes.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11598,
+      "id": "rem_39359",
+      "jp": "聖なる業火",
+      "en": "Sacred Purgatory Flame",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11599,
+      "id": "rem_39360",
+      "jp": "火花を散らし、気化させたオイルを継続的かつ、少量ずつ燃焼させる器具。魔力を持たない人間でも、炎を自在に発生させられるが、あくまで種火用。",
+      "en": "A device that atomizes and ignites oil to create a continuous, small flame. Allows even non-magical users to generate fire, but only as a starter.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11600,
+      "id": "rem_39361",
+      "jp": "燃焼オイル火花セット",
+      "en": "Oil Burning Spark Kit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

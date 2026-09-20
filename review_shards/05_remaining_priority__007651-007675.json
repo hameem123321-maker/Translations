@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7651,
+  "range_end": 7675,
+  "pairs": [
+    {
+      "n": 7651,
+      "id": "rem_35302",
+      "jp": "すべてのダメージ軽減",
+      "en": "All damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7652,
+      "id": "rem_35303",
+      "jp": "大きなダメージを軽減",
+      "en": "Reduces large damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7653,
+      "id": "rem_35304",
+      "jp": "物理耐性や物理軽減スキルを貫通",
+      "en": "Ignores Phys. resist/reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7654,
+      "id": "rem_35305",
+      "jp": "魔術耐性や魔術軽減スキルを貫通",
+      "en": "Ignores Magic resist/reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7655,
+      "id": "rem_35306",
+      "jp": "聖+闇属性のダメージ無効",
+      "en": "Nullifies Holy/Dark damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7656,
+      "id": "rem_35307",
+      "jp": "物理ダメージ無効",
+      "en": "Nullifies Physical damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7657,
+      "id": "rem_35308",
+      "jp": "魔術ダメージ無効",
+      "en": "Nullifies Magic damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7658,
+      "id": "rem_35309",
+      "jp": "即死効果を無効",
+      "en": "Nullifies instant death",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7659,
+      "id": "rem_35310",
+      "jp": "トラップで敵の攻撃を妨害",
+      "en": "Use traps to disrupt attacks",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7660,
+      "id": "rem_35311",
+      "jp": "武器で敵の攻撃を妨害",
+      "en": "Use weapons to disrupt attacks",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7661,
+      "id": "rem_35312",
+      "jp": "HP回復量",
+      "en": "HP Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7662,
+      "id": "rem_35313",
+      "jp": "MP回復量",
+      "en": "MP Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7663,
+      "id": "rem_35314",
+      "jp": "CT回復量",
+      "en": "CT Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7664,
+      "id": "rem_35315",
+      "jp": "ターンごとにHP回復",
+      "en": "HP Regen per Turn",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7665,
+      "id": "rem_35316",
+      "jp": "ターンごとにMP回復",
+      "en": "MP Regen per Turn",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7666,
+      "id": "rem_35317",
+      "jp": "ターンごとにHP回復(味方のみ)",
+      "en": "HP Regen per Turn (Allies only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7667,
+      "id": "rem_35318",
+      "jp": "ターンごとにHP回復(敵のみ・淫魔領域)",
+      "en": "HP Regen per Turn (Enemies only - Succubus Domain)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7668,
+      "id": "rem_35319",
+      "jp": "ターンごとにMP回復(味方のみ)",
+      "en": "MP Regen per Turn (Allies only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7669,
+      "id": "rem_35320",
+      "jp": "戦闘不能時に自動復活",
+      "en": "Auto-Revive when Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7670,
+      "id": "rem_35321",
+      "jp": "戦闘不能時に自動復活(権能)",
+      "en": "Auto-Revive when Incapacitated (Authority)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7671,
+      "id": "rem_35322",
+      "jp": "戦闘後にCT回復",
+      "en": "CT Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7672,
+      "id": "rem_35323",
+      "jp": "戦闘後にMP回復",
+      "en": "MP Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7673,
+      "id": "rem_35324",
+      "jp": "戦闘後にHP回復",
+      "en": "HP Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7674,
+      "id": "rem_35325",
+      "jp": "炎により持続ダメージ",
+      "en": "Sustained Fire Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7675,
+      "id": "rem_35326",
+      "jp": "毒により持続ダメージ",
+      "en": "Sustained Poison Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

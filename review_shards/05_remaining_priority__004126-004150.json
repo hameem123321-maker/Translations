@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4126,
+  "range_end": 4150,
+  "pairs": [
+    {
+      "n": 4126,
+      "id": "rem_31745",
+      "jp": "見切り",
+      "en": "Insight",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4127,
+      "id": "rem_31746",
+      "jp": "ターンごとにHP回復+10%",
+      "en": "Recover 10% HP per turn",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4128,
+      "id": "rem_31747",
+      "jp": "自動回復",
+      "en": "Auto-Heal",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4129,
+      "id": "rem_31748",
+      "jp": "【<dst>】に再生の力が付与された！",
+      "en": "【<dst>】gained Regeneration!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4130,
+      "id": "rem_31749",
+      "jp": "【<dst>】から再生の力が消えた……",
+      "en": "【<dst>】's Regeneration faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4131,
+      "id": "rem_31750",
+      "jp": "再生",
+      "en": "Regeneration",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4132,
+      "id": "rem_31751",
+      "jp": "ターンごとにMP回復+10% + 四属性ダメージ+30%",
+      "en": "Recover 10% MP + 30% elemental dmg per turn",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4133,
+      "id": "rem_31752",
+      "jp": "【<dst>】に霊樹の力が顕現した！",
+      "en": "【<dst>】's Spirit Tree power manifested!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4134,
+      "id": "rem_31753",
+      "jp": "【<dst>】の霊樹の力が消えた……",
+      "en": "【<dst>】's Spirit Tree power faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4135,
+      "id": "rem_31754",
+      "jp": "霊樹",
+      "en": "Spirit Tree",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4136,
+      "id": "rem_31755",
+      "jp": "戦闘不能時に自動復活+100%",
+      "en": "Auto-Revive 100% when KO'd",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4137,
+      "id": "rem_31756",
+      "jp": "【<dst>】に復活の力が現れた！",
+      "en": "【<dst>】gained Revival!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4138,
+      "id": "rem_31757",
+      "jp": "【<dst>】の復活効果が消えた……",
+      "en": "【<dst>】's Revival effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4139,
+      "id": "rem_31758",
+      "jp": "復活",
+      "en": "Revival",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4140,
+      "id": "rem_31759",
+      "jp": "戦闘不能時に自動復活+100% + ターンごとにHP回復+20%",
+      "en": "Auto-Revive 100% + Recover 20% HP per turn when KO'd",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4141,
+      "id": "rem_31760",
+      "jp": "復活++",
+      "en": "Revival ++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4142,
+      "id": "rem_31761",
+      "jp": "チェイススキルのダメージ+50%",
+      "en": "Chase Skill DMG +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4143,
+      "id": "rem_31762",
+      "jp": "強化・中級",
+      "en": "Enhancement · Mid",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4144,
+      "id": "rem_31763",
+      "jp": "【<dst>】の影分身が作り出された！",
+      "en": "A shadow clone of 【<dst>】 has been created!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4145,
+      "id": "rem_31764",
+      "jp": "【<dst>】の影分身が消えた……",
+      "en": "【<dst>】's shadow clone vanished...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4146,
+      "id": "rem_31765",
+      "jp": "影分身",
+      "en": "Shadow Clone",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4147,
+      "id": "rem_31766",
+      "jp": "チェイススキルのダメージ+100%",
+      "en": "Chase Skill DMG +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4148,
+      "id": "rem_31767",
+      "jp": "影分身++",
+      "en": "Shadow Clone ++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4149,
+      "id": "rem_31768",
+      "jp": "フィールド効果除去",
+      "en": "Remove Field Effect",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4150,
+      "id": "rem_31769",
+      "jp": "フィールド",
+      "en": "Field",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

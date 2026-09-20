@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6251,
+  "range_end": 6275,
+  "pairs": [
+    {
+      "n": 6251,
+      "id": "rem_33870",
+      "jp": "機械系トラップの解除率[+40%]",
+      "en": "+40% chance to disarm Mechanical traps.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6252,
+      "id": "rem_33871",
+      "jp": "フィールドの火精霊の活動を活発化させ、属性ダメージを高める結界を張る。攻撃の威力が高まるが、受けるダメージも増えるので注意。",
+      "en": "Activates the field's fire spirits, creating a barrier that boosts fire damage. Increases attack power, but also damage taken.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6253,
+      "id": "rem_33872",
+      "jp": "【フィールド】に【火強化】を付与 (火属性ダメージ[+30%])",
+      "en": "Applies 【Fire Boost】 to the 【Field】 (+30% Fire damage).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6254,
+      "id": "rem_33873",
+      "jp": "【<src>】は[ファイアブースト]を使用！",
+      "en": "【<src>】 used [Fire Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6255,
+      "id": "rem_33874",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 【風属性】 + デバフ特化 + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single target. Power [], Hit [60%], 【Wind element】, Debuff focused. Inflicts [Leg Bind] (+30% Crit chance received).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6256,
+      "id": "rem_33875",
+      "jp": "【<src>】の[触手バインド]！",
+      "en": "【<src>】's [Tentacle Bind]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6257,
+      "id": "rem_33876",
+      "jp": "敵の物理攻撃に割り込み、仲間を守る。割り込んだ際に攻撃を無効化することも出来る。確率は低いが、全体的な被弾を確実に抑えてくれる。",
+      "en": "Intercepts an enemy's physical attack to protect an ally. Can sometimes nullify the attack. Low chance, but reliably reduces overall hits taken.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6258,
+      "id": "rem_33877",
+      "jp": "武器で敵の攻撃を妨害[+20%]",
+      "en": "+20% chance to block an attack with your weapon.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6259,
+      "id": "rem_33878",
+      "jp": "ダンジョン内にある「魔術系」トラップに特化した、強力な対策スキル。他の種別のトラップには効果がなく、サーチスキルが無ければ解除を試みないので注意。",
+      "en": "A powerful skill specialized against \"Magic\" traps in dungeons. No effect on other trap types. Will not attempt disarming without Search skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6260,
+      "id": "rem_33879",
+      "jp": "魔術系トラップの解除率[+80%]",
+      "en": "+80% chance to disarm Magic traps.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6261,
+      "id": "rem_33880",
+      "jp": "不浄の存在に対する攻撃ダメージがアップする。霊体は通常武器ではダメージを与えにくいが、そのような敵にも有利に立ち回れる……と、思う。",
+      "en": "Increases damage against impure beings. Spirits are resistant to normal weapons, but this lets you fight them more effectively... I think.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6262,
+      "id": "rem_33881",
+      "jp": "死霊タイプへのダメージ[+100%]",
+      "en": "Damage vs. Undead [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6263,
+      "id": "rem_33882",
+      "jp": "スキルＣＴを大きく回復して、再使用可能ターンを圧縮する。大技の後に使って再使用していこう。",
+      "en": "Greatly recovers Skill CT, compressing the cooldown turn. Use after a big skill to reuse it quickly.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6264,
+      "id": "rem_33883",
+      "jp": "CT回復(中) + MP節約",
+      "en": "Medium CT Recover + MP Saver",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6265,
+      "id": "rem_33884",
+      "jp": "【<src>】の[スキルチャージ]！",
+      "en": "【<src>】's [Skill Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6266,
+      "id": "rem_33885",
+      "jp": "死者を導く者に与えられる、霊への絶対的優位により特効ダメージを与えられる。死神の前に現れる死霊とは自殺志願者である。もしくは浄化志望者。",
+      "en": "Given to those who guide the dead: absolute superiority over spirits grants special effective damage. Any undead appearing before a Shinigami is a willing suicide... or purification candidate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6267,
+      "id": "rem_33886",
+      "jp": "死霊タイプへのダメージ[+300%]",
+      "en": "Damage vs. Undead [+300%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6268,
+      "id": "rem_33887",
+      "jp": "サポートスキルの強化効果が延長する。効果は少ないが、割合的に強化されると考えれば、その効果は侮れない。",
+      "en": "Extends the duration of support skill buffs. The effect may seem small, but proportionally enhanced, it's not to be underestimated.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6269,
+      "id": "rem_33888",
+      "jp": "味方への強化効果ターン延長[+1]",
+      "en": "Ally Buff Duration [+1 turn]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6270,
+      "id": "rem_33889",
+      "jp": "樹木が変じた魔物に対して有利に立ち回れる戦闘術。特定の敵の防御力をある程度無視し、さらにダメージ自体も増幅する特攻スキル。斧でたたき壊せ！",
+      "en": "Combat technique effective against tree-dwelling monsters. A special attack that partly ignores certain enemies' defense and amplifies damage. Smash 'em with your Axe!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6271,
+      "id": "rem_33890",
+      "jp": "樹木タイプへのダメージ[+100%]",
+      "en": "Damage vs. Plant [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6272,
+      "id": "rem_33891",
+      "jp": "普段から素材集めで破壊しまくっている地の民の能力。頑丈そうで動きにくそうな相手に対するダメージがとてもアップ。倒して素材にしてしまうのだろうか。",
+      "en": "The ability of earth-dwellers who constantly gather materials by smashing things. Greatly increases damage against tough, slow-moving foes. Probably to defeat them and take their materials.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6273,
+      "id": "rem_33892",
+      "jp": "樹木+硬質タイプへのダメージ[+100%]",
+      "en": "Damage vs. Plant+Hard [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6274,
+      "id": "rem_33893",
+      "jp": "かつて世界の海を支配した偉大なる海賊女帝が蘇った。女帝の声は味方に勇気を与え、勝利に導く。アーマニアがいるだけで、パーティー全員の攻撃力がアップする。",
+      "en": "The great pirate empress who once ruled the world's seas has returned. Her voice gives allies courage and leads to victory. Just having Amanear raises the whole party's attack power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6275,
+      "id": "rem_33894",
+      "jp": "パーティー全員のダメージ[+15%]",
+      "en": "Party Damage [+15%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 726,
+  "range_end": 750,
+  "pairs": [
+    {
+      "n": 726,
+      "id": "rem_00726",
+      "jp": "初代海賊女帝アーマニア",
+      "en": "Armany (1st Pirate Empress)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 727,
+      "id": "rem_00727",
+      "jp": "女騎士シルドリア①",
+      "en": "Female Knight Sildoria ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 728,
+      "id": "rem_00728",
+      "jp": "コレットと共に『暴君(タイラント)』に仕える女魔術師。魔術師にして『王都』でも有数の騎士団の団長の肩書きも持つ。下位ながら王位継承権も持ち、魔剣を継承する武門の一族の娘。その血により、政略の道具として扱われていた。",
+      "en": "A female mage who, with Colette, serves the 'Tyrant'. A mage who also holds the title of captain of a top knight order in the 'Royal Capital'. She has low royal succession rights and hails from a martial family that inherits a demon sword, making her a pawn in political schemes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 729,
+      "id": "rem_00729",
+      "jp": "女騎士シルドリア②",
+      "en": "Female Knight Sildoria ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 730,
+      "id": "rem_00730",
+      "jp": "剣の魔術師シルドリア",
+      "en": "Sword Mage Sildoria",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 731,
+      "id": "rem_00731",
+      "jp": "水魔マグロちゃん①",
+      "en": "Water Demon Maguro-chan ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 732,
+      "id": "rem_00732",
+      "jp": "水魔ウンディーネの娘。ウミディーネと似たような存在である。赤い者はきわめて珍しく、高い資質を持つ天才になる。アーマニーと似た気質であるが、彼女と違って魔力に特化した才能を持つ。縁者であるかは不明。",
+      "en": "Daughter of the water demon Undine. Similar to an Undine. Red ones are rare and possess high talent. She shares Armany's temperament but excels in magical ability. Connection is unclear.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 733,
+      "id": "rem_00733",
+      "jp": "水魔マグロちゃん②",
+      "en": "Water Demon Maguro-chan ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 734,
+      "id": "rem_00734",
+      "jp": "水魔マグロちゃん",
+      "en": "Water Demon Maguro-chan",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 735,
+      "id": "rem_00735",
+      "jp": "修練場からやってきた、謎のモフモフ。『コボルト』という、かつて存在して絶滅した種族の青年。趣味は種付けと子作りで、本体のハンサム顔で股を濡らさなかった女はいなかったらしい。",
+      "en": "A mysterious fluffy creature from the Training Grounds. A young 'Kobold', an extinct race. His hobbies are breeding and procreation; with his handsome face, no woman's legs stayed dry, apparently.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 736,
+      "id": "rem_00736",
+      "jp": "最果ての英霊ダーケン①",
+      "en": "Farthest Reaches Heroic Spirit Darken ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 737,
+      "id": "rem_00737",
+      "jp": "深い怒りと悲しみとかで覚醒した伝説の『コボルト』。求道の結果、力と永遠の寿命を手に入れるが、その代償は守るべき家族と故郷から忘れられることだった。",
+      "en": "A legendary 'Kobold' awakened by deep anger and sorrow. In his quest for truth, he gained power and eternal life, but the cost was being forgotten by the family and homeland he sought to protect.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 738,
+      "id": "rem_00738",
+      "jp": "最果ての英霊ダーケン②",
+      "en": "Farthest Reaches Heroic Spirit Darken ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 739,
+      "id": "rem_00739",
+      "jp": "幼き夜の王？",
+      "en": "Young Night King?",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 740,
+      "id": "rem_00740",
+      "jp": "『聖都』を興した『教祖』の妻とされる大聖女。神を降ろすことができるほどの『喚起体質』の持ち主であり、シイネの受肉を手伝った。シイネの前世であり、本来は彼女が転生するはずだった身体を譲られた。",
+      "en": "A great saint said to be the wife of the 'Cult Founder' who founded the 'Holy Capital'. Possesses an 'Invocative Constitution' capable of summoning gods, and aided Shiine's incarnation. She is Shiine's past life and gave up the body Shiine was meant to be reborn into.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 741,
+      "id": "rem_00741",
+      "jp": "聖女レスタリア①",
+      "en": "Saint Restaria①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 742,
+      "id": "rem_00742",
+      "jp": "聖女レスタリア",
+      "en": "Saint Restaria",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 743,
+      "id": "rem_00743",
+      "jp": "通常の『聖女』に割り当てる神のリソースは制限されているが、『神』の代行をする役割を持つ彼女はその制限がない。そのため、たびたび神のフリをされたらしい。サボリ魔で、働くとロクなことにならない因果はシイネにも継がれる。",
+      "en": "Ordinary 'Saints' have limited divine resources, but she acts as the 'God's' proxy, free from these limits. This often leads her to slack off. Her laziness and penchant for trouble have been passed down to Shiine as well.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 744,
+      "id": "rem_00744",
+      "jp": "聖女レスタリア②",
+      "en": "Saint Restaria②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 745,
+      "id": "rem_00745",
+      "jp": "邪聖女レスタリア",
+      "en": "Fallen Saint Restaria",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 746,
+      "id": "rem_00746",
+      "jp": "メイドのクシーナ①",
+      "en": "Maid Xina①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 747,
+      "id": "rem_00747",
+      "jp": "『夜王』に仕えるメイド。愛用の斧は預けてきたので、それっぽい強い斧を持ちだしてきた。きわめて高い対魔力を持ち、魔族にとっての天敵となっている。日課は『夜王』に勉強をさせることと料理の準備。それと世界を救うこと。",
+      "en": "A maid who serves the 'Night King'. She left her beloved axe behind and brought a similar-looking, strong one. Possesses extremely high anti-magic power, making her a natural enemy to demons. Her daily routine includes making the 'Night King' study, preparing meals, and saving the world.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 748,
+      "id": "rem_00748",
+      "jp": "メイドのクシーナ②",
+      "en": "Maid Xina②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 749,
+      "id": "rem_00749",
+      "jp": "メイドのクシーナ",
+      "en": "Maid Xina",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 750,
+      "id": "rem_00750",
+      "jp": "弟を見守る、優しいお姉ちゃん。『聖女』の名にふさわしい、貞淑で慎ましく、穏やかな気質を持った優しい女性として、弟の活躍を見守っている。平和を絵に描いたような存在であり、戦闘能力はまったくない無害な存在。",
+      "en": "A gentle older sister who watches over her brother. True to the name 'Saint', she is chaste, modest, mild-mannered, and kind. She simply watches her brother's endeavors. She is the picture of peace, completely harmless with no combat ability.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

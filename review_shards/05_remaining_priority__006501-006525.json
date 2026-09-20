@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6501,
+  "range_end": 6525,
+  "pairs": [
+    {
+      "n": 6501,
+      "id": "rem_34120",
+      "jp": "戦力変換・手＞必殺",
+      "en": "Convert Hand > Ultimate",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6502,
+      "id": "rem_34121",
+      "jp": "戦力変換・頭＞ＭＰ",
+      "en": "Convert Head > MP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6503,
+      "id": "rem_34122",
+      "jp": "仲間の周りにちょっとした罠を仕掛けてエネミーの攻撃を阻害する。罠に引っかかった相手は、攻撃を無効化されてしまう。",
+      "en": "Sets a simple trap near allies to hinder enemy attacks. Trapped targets have their attacks nullified.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6504,
+      "id": "rem_34123",
+      "jp": "トラップで敵の攻撃を妨害[+10%]",
+      "en": "Trap interferes with enemy attacks [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6505,
+      "id": "rem_34124",
+      "jp": "しばらく見ないうちに変な才能を目覚めさせてしまったらしい。お宝の匂いに敏感になり、金目の物は無意識のうちにポッケに入れてしまう。他のスキルと併用できるので強い。",
+      "en": "Seems they've awakened a strange talent. Now sensitive to treasure scent, they unconsciously pocket valuables. Works with other skills, making it strong.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6506,
+      "id": "rem_34125",
+      "jp": "開発ポイント獲得量[+20%] + レア[+20%]",
+      "en": "Dev Points Gain [+20%] + Rare [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6507,
+      "id": "rem_34126",
+      "jp": "弓矢に魔力を付与し、矢は流星のように降り注ぐ。密集しているほど命中率が高く、あまりにも降り注ぐ量が多いため、命中率も比較的安定した絶技。",
+      "en": "Imbues arrows with magic, raining them down like meteors. Higher hit rate on dense groups. The sheer volume makes accuracy relatively stable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6508,
+      "id": "rem_34127",
+      "jp": "範囲(大)攻撃 威力[S] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large AoE Attack Power[S] + Hit[70%] + 【Thunder】 + Small Def Penetration + Inflicts [Shock] (Crit Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6509,
+      "id": "rem_34128",
+      "jp": "【<src>】の[シューティングスター]が降り注ぐ！",
+      "en": "【<src>】's [Shooting Stars] rain down!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6510,
+      "id": "rem_34129",
+      "jp": "弓矢を連続で発射する。連射力を重視するため、命中率がやや落ちてしまう。ちゃんとヒットすれば大きいダメージを与える。",
+      "en": "Rapidly fires arrows. Prioritizes rate of fire, so accuracy drops slightly. Deals heavy damage if it hits.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6511,
+      "id": "rem_34130",
+      "jp": "範囲(大)攻撃 威力[E+] +  命中[60%] + 連撃率[+30%] + 【風属性】",
+      "en": "Large AoE Attack Power[E+] + Hit[60%] + Combo Rate[+30%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6512,
+      "id": "rem_34131",
+      "jp": "【<src>】は[ダブルショット]で連続射撃！",
+      "en": "【<src>】 fires rapidly with [Double Shot]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6513,
+      "id": "rem_34132",
+      "jp": "仲間呼び(他) + 【仲間】に【防御++】を付与 (すべてのダメージ軽減率[+50%])",
+      "en": "Summon Ally (Other) + Grants 【Ally】【Defense++】 (All Damage Reduction [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6514,
+      "id": "rem_34133",
+      "jp": "【<src>】は助けを呼んだ！",
+      "en": "【<src>】 called for help!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6515,
+      "id": "rem_34134",
+      "jp": "周囲を警戒し、敵からの先制攻撃を防ぐ魔術。危険なダンジョンにおいては、ちょっとした油断が致命的な結果をもたらすこともある。擬態したり隠れた敵も見破る。",
+      "en": "A magic that heightens vigilance, preventing enemy ambushes. A moment's carelessness can be fatal in dangerous dungeons. Also reveals disguised or hidden enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6516,
+      "id": "rem_34135",
+      "jp": "エネミー発見率[+30%]",
+      "en": "Enemy Detection Rate [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6517,
+      "id": "rem_34136",
+      "jp": "自分にバリアを張る。このバリアは小さなダメージは素通りし、大きなダメージのみに発動、効果が発揮すると大きく威力を削ぐ。",
+      "en": "Creates a personal barrier. It ignores small damage, only activating against major blows to significantly weaken them.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6518,
+      "id": "rem_34137",
+      "jp": "【自分】に【大盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grants 【Self】【Great Shield】 (Reduces attacks exceeding 20% Max HP [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6519,
+      "id": "rem_34138",
+      "jp": "【<src>】の[大防御]が身を固める！",
+      "en": "【<src>】's [Great Defense] hardens!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6520,
+      "id": "rem_34139",
+      "jp": "怪力を使って、アイテムを大量に持ち帰る。マップ内のアイテムを残らず持ってくることによって、通常より開発ポイントをたくさん入手しやすくなる。",
+      "en": "Uses brute strength to haul back lots of items. Gathering all map items yields more Dev Points than usual.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6521,
+      "id": "rem_34140",
+      "jp": "開発ポイント獲得量[+50%]",
+      "en": "Dev Points Gained [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6522,
+      "id": "rem_34141",
+      "jp": "魔術の弾丸を敵に向かって撃ち込む、低位の攻撃魔術。属性が付与されていないために攻撃力が低い。",
+      "en": "A low-level attack spell that fires magical bullets at enemies. Low attack power as it lacks elemental attributes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6523,
+      "id": "rem_34142",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[60%] + 【闇属性】",
+      "en": "Area (S) Attack Power[E+] + Hit[60%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6524,
+      "id": "rem_34143",
+      "jp": "【<src>】は[マジックブリット]の魔術を放った！",
+      "en": "【<src>】cast [Magic Bullet]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6525,
+      "id": "rem_34144",
+      "jp": "膨大な魔力を圧縮し、強力な攻撃波動を放つ。最高位の攻撃魔術であり、学院の上級魔術師でも殆ど使い手がいないといわれる。",
+      "en": "A supreme attack spell that unleashes a powerful shockwave by compressing immense mana. Said to have few users even among the academy's senior mages.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

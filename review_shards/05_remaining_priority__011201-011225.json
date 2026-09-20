@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11201,
+  "range_end": 11225,
+  "pairs": [
+    {
+      "n": 11201,
+      "id": "rem_38962",
+      "jp": "地中に栄養と水分を蓄えた独特な味わいを持つ稀少なハーブ。細かく刻んですりおろすと、素材の味わいを最大限に引き立てる。",
+      "en": "A rare herb with unique flavor, storing nutrients and moisture underground. Finely chopped and grated, it brings out the best in ingredients.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11202,
+      "id": "rem_38963",
+      "jp": "大地の根",
+      "en": "Earthroot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11203,
+      "id": "rem_38964",
+      "jp": "白くて肉厚なキノコ。小さいながらも肉厚でプリプリしており、そのまま噛み切るのは大変。",
+      "en": "A white, thick-fleshed mushroom. Small yet plump and firm, it's hard to chew raw.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11204,
+      "id": "rem_38965",
+      "jp": "小粒なホワイトキノコ",
+      "en": "Small White Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11205,
+      "id": "rem_38966",
+      "jp": "肉厚の傘を形成した大きなキノコ。煮ても焼いてもプリプリの味わいを楽しめる上に、栄養豊富で滋養強壮にも活躍する。",
+      "en": "A large mushroom with a thick cap. Stays firm and tasty whether boiled or grilled. Rich in nutrients, it boosts vitality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11206,
+      "id": "rem_38967",
+      "jp": "肉厚プリプリキノコ",
+      "en": "Thick & Plump Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11207,
+      "id": "rem_38968",
+      "jp": "毒々しい見た目で実際に毒のある茸。少量ならば人体に有益な効果を発する。",
+      "en": "A toxic-looking and truly poisonous mushroom. In small doses, it has beneficial effects.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11208,
+      "id": "rem_38969",
+      "jp": "ポイズンマッシュルーム",
+      "en": "Poison Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11209,
+      "id": "rem_38970",
+      "jp": "強い芳香成分を持つキノコ。香りに魅せられた食通が血眼になって探している。食通達の間では高く取引されている。",
+      "en": "A mushroom with a strong, captivating aroma. Gourmands seek it obsessively. Highly traded among connoisseurs.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11210,
+      "id": "rem_38971",
+      "jp": "最高級香りキノコ",
+      "en": "Supreme Aroma Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11211,
+      "id": "rem_38972",
+      "jp": "鮮やかな色彩のキノコ。特殊な成分を含んでおり、食べると視力が回復するらしい。幻覚だと疑われているが。",
+      "en": "A vividly colored mushroom. Contains special compounds said to restore eyesight—though some dismiss it as hallucination.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11212,
+      "id": "rem_38973",
+      "jp": "ネオンカラーのキノコ",
+      "en": "Neon-Colored Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11213,
+      "id": "rem_38974",
+      "jp": "森の地面に隠れるように存在する茶色のキノコ。発見の困難さと香り高さから、高額で取引される。",
+      "en": "A brown mushroom hiding on the forest floor. Highly prized for its rarity and rich aroma.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11214,
+      "id": "rem_38975",
+      "jp": "隠者のマッシュルーム",
+      "en": "Hermit's Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11215,
+      "id": "rem_38976",
+      "jp": "見た目は何の変哲もないキノコだが、食べたり粉末を吸い込むと強い幻覚に襲われ、狂乱状態を引き起こす。効果が切れるとストレスを与える、危険なキノコ。",
+      "en": "A plain-looking but dangerous mushroom. Eating or inhaling its powder causes intense hallucinations and frenzy, followed by stress.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11216,
+      "id": "rem_38977",
+      "jp": "マジカルキノコ",
+      "en": "Magical Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11217,
+      "id": "rem_38978",
+      "jp": "火山地帯に生息するキノコ。独特の歯ごたえと辛みがあり、食べると体力が漲る。",
+      "en": "A mushroom native to volcanic regions. Has a unique texture and spicy kick; eating it boosts stamina.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11218,
+      "id": "rem_38979",
+      "jp": "ボルカニカエンタケ",
+      "en": "Volcanic Sporecap",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11219,
+      "id": "rem_38980",
+      "jp": "人間世界に自生しない異世界の茸。魔力をありえないほどに吸収しており、そのまま摂取してしまえば致死になりかねない。危険と隣り合わせの良薬。",
+      "en": "A mushroom from another world, not native to ours. Absorbs immense magical energy. Raw consumption can be fatal—a risky but potent remedy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11220,
+      "id": "rem_38981",
+      "jp": "魔界マッシュルーム",
+      "en": "Demon Realm Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11221,
+      "id": "rem_38982",
+      "jp": "沼で捕まえることが出来る太った魚。クセが強く、料理には工夫が求められる。",
+      "en": "A fat fish caught in swamps. Its strong flavor requires culinary skill to prepare.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11222,
+      "id": "rem_38983",
+      "jp": "大きく太った魚",
+      "en": "Fat Fish",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11223,
+      "id": "rem_38984",
+      "jp": "海のいたるところで採れる魚。脂の乗った身を持ち、海岸の村では基本的な食材。",
+      "en": "A common fish found throughout the sea. Its oily flesh is a staple in coastal villages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11224,
+      "id": "rem_38985",
+      "jp": "港の海水魚",
+      "en": "Saltwater Fish",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11225,
+      "id": "rem_38986",
+      "jp": "海底に潜む平たい魚。脂がよく乗っており、高級料理の素材に使われている。",
+      "en": "A flatfish dwelling on the seabed. Rich in fat, it's used in gourmet cuisine.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

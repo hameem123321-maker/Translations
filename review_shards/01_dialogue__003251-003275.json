@@ -1,0 +1,217 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3251,
+  "range_end": 3275,
+  "pairs": [
+    {
+      "n": 3251,
+      "id": "db_EventInfo:3532:2",
+      "jp": "そのかわり【『料理』】はモノが汚れるデス。【『汚染値』】が増えやすくなるから気を付けるデス",
+      "en": "But making 'Food' dirties 'things'. 'Contamination' goes up easier, so be careful.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3252,
+      "id": "db_EventInfo:3533:2",
+      "jp": "【『休憩ルーム』】を作ったデスね",
+      "en": "We made the 'Break Room'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3253,
+      "id": "db_EventInfo:3534:2",
+      "jp": "疲れたやつはここで休憩するデス",
+      "en": "Tired folks can rest here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3254,
+      "id": "db_EventInfo:3535:1",
+      "jp": "……あまり休憩できそうな見かけをしてないんだが",
+      "en": "...It doesn't look very restful.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3255,
+      "id": "db_EventInfo:3536:2",
+      "jp": "冒険者の、伝統的な休憩場所のはずデスが？",
+      "en": "Isn't this the traditional rest spot for adventurers?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3256,
+      "id": "db_EventInfo:3537:2",
+      "jp": "【『搾精ルーム』】を作ったデスね",
+      "en": "It's a 'Semen Extraction Room'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 3257,
+      "id": "db_EventInfo:3538:2",
+      "jp": "……こんなもん、何に使うつもりデス？",
+      "en": "What are we even supposed to use this for?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3258,
+      "id": "db_EventInfo:3539:8",
+      "jp": "まあまあД",
+      "en": "Now, nowД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3259,
+      "id": "db_EventInfo:3540:8",
+      "jp": "【『搾精ルーム』】はお兄ちゃんと【『死神代行助手』】たちの【『絆』】を深める夢の部屋だよД　一緒に【『絆』】を深めて、搾精してねД",
+      "en": "The 'Semen Extraction Room' is a dream room to deepen the Bond between Big Bro and the Shinigami AssistantsД Let's deepen that Bond and extract some semen togetherД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 3260,
+      "id": "db_EventInfo:3541:1",
+      "jp": "……ゴクリ",
+      "en": "...*gulp*",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3261,
+      "id": "db_EventInfo:3542:8",
+      "jp": "ザコどもでも使わせることが出来るね。どちらにしろ、使っていると搾精していくよ。採れた精液は高く買い取るからねД",
+      "en": "We can even let the low-level guys use it. Either way, using it will lead to extraction. I'll buy the collected semen for a high priceД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 3262,
+      "id": "db_EventInfo:3543:8",
+      "jp": "ただし、ある程度の【好感度】が必要だから、気を付けてね。ま、当然だけどね",
+      "en": "But, you need a certain level of Affection, so be careful. Well, obviouslyД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3263,
+      "id": "db_EventInfo:3544:8",
+      "jp": "条件を満たしたら【『セックス』】できるようになるから、がんばってね～Д",
+      "en": "Once you meet the conditions, you'll be able to have Sex, so do your best~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3264,
+      "id": "db_EventInfo:3545:1",
+      "jp": "なるほどなぁ……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3265,
+      "id": "db_EventInfo:3550:8",
+      "jp": "ここが【『搾精ルーム』】だよ、パートナーと【絆】を深めてねД",
+      "en": "This is the 'Energy Extraction Room.' Deepen your Bond with your partner hereД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3266,
+      "id": "db_EventInfo:3552:1",
+      "jp": "娼館じゃねーか！",
+      "en": "This is just a brothel!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3267,
+      "id": "db_EventInfo:3553:2",
+      "jp": "デス！！",
+      "en": "Indeed!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3268,
+      "id": "db_EventInfo:3554:8",
+      "jp": "人聞きが悪いなぁ？　ここは【『搾精ルーム』】だよ～Д",
+      "en": "That's a harsh way to put it? This is the 'Energy Extraction Room'Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3269,
+      "id": "db_EventInfo:3555:8",
+      "jp": "【『死神代行助手』】との契約はエッチすることだよ？　でもいきなりエッチしてもらうのも、順番が必要だよね？",
+      "en": "The contract with a Shinigami Agent Assistant is all about doing naughty stuff, right? But you can't just jump into that; there's an order to things, yeah?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3270,
+      "id": "db_EventInfo:3556:8",
+      "jp": "【絆】が深まっていないのに、いきなりエッチは難しいでしょ？",
+      "en": "It's tough to get straight to the naughty stuff if your Bond isn't deep enough, right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3271,
+      "id": "db_EventInfo:3557:2",
+      "jp": "むうデス",
+      "en": "Hmm, indeed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3272,
+      "id": "db_EventInfo:3558:8",
+      "jp": "仲が深まったら【『夜伽』】に誘うのもいいね。がんばって【絆】を深めてね～Д",
+      "en": "Once you get closer, inviting them for a 'Night Visit' is a good idea. Work hard to deepen your BondД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 3273,
+      "id": "db_EventInfo:3560:2",
+      "jp": "新しいタイプの【『搾精ルーム』】を作ったデスね",
+      "en": "So you made a new type of 'Energy Extraction Room.'",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3274,
+      "id": "db_EventInfo:3561:2",
+      "jp": "……いかがわしい部屋デス",
+      "en": "...It's a pretty shady room.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3275,
+      "id": "db_EventInfo:3563:8",
+      "jp": "【『搾精ルーム』】に【お風呂】を増設した豪華な部屋だよ！",
+      "en": "It's a fancy room! We added a bath to the 'Energy Extraction Room'!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    }
+  ]
+}

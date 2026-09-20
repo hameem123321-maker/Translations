@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93776,
+  "range_end": 93800,
+  "pairs": [
+    {
+      "n": 93776,
+      "id": "db_EventInfo:110816:17",
+      "jp": "戻りました",
+      "en": "I'm back.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93777,
+      "id": "db_EventInfo:110817:2",
+      "jp": "デスっ！？",
+      "en": "Woah!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93778,
+      "id": "db_EventInfo:110818:17",
+      "jp": "遅れて申し訳ありません",
+      "en": "Sorry I'm late.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93779,
+      "id": "db_EventInfo:110820:17",
+      "jp": "急いでください店長さん、【『ゴブリン』】が大勢攻めてきます",
+      "en": "Hurry, Store Manager. A large group of Goblins is attacking.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93780,
+      "id": "db_EventInfo:110821:1",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93781,
+      "id": "db_EventInfo:110822:2",
+      "jp": "どういうことデス？",
+      "en": "What do you mean?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93782,
+      "id": "db_EventInfo:110823:17",
+      "jp": "【『ゴブリン』】の大軍勢が村の近くに駐屯しておりました",
+      "en": "A huge Goblin army was camped near the village.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93783,
+      "id": "db_EventInfo:110824:17",
+      "jp": "その数は百はこえるでしょう",
+      "en": "Their numbers must be over a hundred.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93784,
+      "id": "db_EventInfo:110825:1",
+      "jp": "百！？",
+      "en": "A hundred!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93785,
+      "id": "db_EventInfo:110826:17",
+      "jp": "たとえ【『ゴブリン』】が相手とはいえ、それだけの数を対処できる者は多くありません",
+      "en": "Even if the enemy is Goblins, not many can handle that many.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93786,
+      "id": "db_EventInfo:110827:17",
+      "jp": "よって村を守る事は不可能です",
+      "en": "So, defending the village is impossible.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93787,
+      "id": "db_EventInfo:110828:17",
+      "jp": "まもなく村は焼き尽くされ、家畜も略奪されるでしょう",
+      "en": "Soon, the village will be burned down and the livestock will be stolen.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93788,
+      "id": "db_EventInfo:110829:1",
+      "jp": "そんな……キャトリナ姉さんは？",
+      "en": "That's... what about Catrina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93789,
+      "id": "db_EventInfo:110830:17",
+      "jp": "ご安心ください。すべての村人は避難させております",
+      "en": "Don't worry. We've evacuated all the villagers.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93790,
+      "id": "db_EventInfo:110831:2",
+      "jp": "手回しがいいデスね！",
+      "en": "Well prepared, I see!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93791,
+      "id": "db_EventInfo:110832:17",
+      "jp": "とにかく今は、この宿です。急いで防衛を固めてください",
+      "en": "Anyway, right now, it's this inn. Hurry and strengthen the defenses.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93792,
+      "id": "db_EventInfo:110833:2",
+      "jp": "どういうことデス？　目当ては村だったのではデス？",
+      "en": "What does that mean? Wasn't their target the village?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93793,
+      "id": "db_EventInfo:110834:17",
+      "jp": "村はあくまで通過点でしかありません。村を略奪し、そこを拠点にした後の目標は、位置的に考えてこの宿です",
+      "en": "The village is just a stopover. After looting it and using it as a base, their next goal, logically, is this inn.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93794,
+      "id": "db_EventInfo:110835:17",
+      "jp": "日が暮れれば、【『ゴブリン』】の軍勢が攻め込んでくるでしょう",
+      "en": "When night falls, the Goblin army will attack.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93795,
+      "id": "db_EventInfo:110836:17",
+      "jp": "急いでください。罠を仕掛けておきましたので時間は稼げるでしょうが、猶予はありません",
+      "en": "Hurry. We set some traps, so we bought a little time, but we don't have much.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93796,
+      "id": "db_EventInfo:110837:17",
+      "jp": "今すぐ備えるのです。一刻の猶予もありませんよ",
+      "en": "Get ready right now. There's no time to waste.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93797,
+      "id": "db_EventInfo:110839:1",
+      "jp": "なんとか【『ゴブリン』】たちを退けたな",
+      "en": "We managed to drive back the Goblins.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93798,
+      "id": "db_EventInfo:110840:2",
+      "jp": "デスデス",
+      "en": "Desu desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93799,
+      "id": "db_EventInfo:110843:17",
+      "jp": "お見事です、あの軍勢を凌ぐとは",
+      "en": "Well done, to hold off such a force.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93800,
+      "id": "db_EventInfo:110844:1",
+      "jp": "いや、衛兵さんが教えてくれたからだよ",
+      "en": "No, it's thanks to what you told us, Guard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 301,
+  "range_end": 325,
+  "pairs": [
+    {
+      "n": 301,
+      "id": "rem_00301",
+      "jp": "細長い体躯と猛毒を持つヘビ型のモンスター。音も無く獲物に這い寄り、執拗に相手を狙う厄介な敵。大きな個体は、人間の身体など丸呑みにしてしまう。",
+      "en": "A snake-like monster with a long body and potent venom. It silently slithers up to its prey and relentlessly pursues its target, making it a troublesome foe. Larger specimens can swallow humans whole.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 302,
+      "id": "rem_00302",
+      "jp": "スネーク",
+      "en": "Snake",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 303,
+      "id": "rem_00303",
+      "jp": "不定形の軟体生命体。武器攻撃が通用しにくい。動きは鈍いが、獲物を見つけるとどこまでも追いかける。暗闇に潜み、獲物を強襲する。鉱物の魔力が溶けだして生まれた、偶然の魔物。",
+      "en": "An amorphous soft-bodied lifeform. Physical attacks are less effective. Though slow, it will pursue its prey endlessly. It lurks in darkness to ambush victims. A monster born by chance from the dissolved magical power of minerals.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 304,
+      "id": "rem_00304",
+      "jp": "スライム",
+      "en": "Slime",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 305,
+      "id": "rem_00305",
+      "jp": "冒険者たちに恐れられる、巨大な魔獣。非常に高い攻撃力を持っており、手が付けられないほどの腕力を誇る。出現頻度は低いが、恐るべきモンスターである。",
+      "en": "A giant magical beast feared by adventurers. Possesses extremely high attack power and boasts strength that is nearly impossible to counter. Its appearance is rare, but it is a truly dreadful monster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 306,
+      "id": "rem_00306",
+      "jp": "デスベアー",
+      "en": "Death Bear",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 307,
+      "id": "rem_00307",
+      "jp": "大きなハサミを備えた昆虫のような魔物。極めて高い感知力を持つ。外皮も硬く獰猛で、冒険者でも手を焼く相手である。人間のメスを抑え込み、胎内に卵を産み付ける事もある。",
+      "en": "An insect-like monster equipped with large pincers. Possesses extremely high perception. Its carapace is hard and it is fierce, making it a tough opponent even for adventurers. It sometimes pins down human females to lay eggs inside them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 308,
+      "id": "rem_00308",
+      "jp": "インセクト",
+      "en": "Insect",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 309,
+      "id": "rem_00309",
+      "jp": "近年になって数が増える強力な変異ゴブリン。通常のゴブリンよりも土っぽい肌色をしている。",
+      "en": "A powerful mutated Goblin whose numbers have increased in recent years. It has a more earthen skin tone than normal Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 310,
+      "id": "rem_00310",
+      "jp": "ゴブリン・亜種",
+      "en": "Goblin・Variant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 311,
+      "id": "rem_00311",
+      "jp": "通常のホブゴブリンよりも強力な荒くれ者。単体でも冒険者の脅威になり得る、強大なゴブリン。",
+      "en": "A ruffian more powerful than a standard Hobgoblin. A formidable Goblin that can be a threat to adventurers even alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 312,
+      "id": "rem_00312",
+      "jp": "ホブゴブリン・エリート",
+      "en": "Hobgoblin・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 313,
+      "id": "rem_00313",
+      "jp": "ゴブリンの群れを統率する宗教家。呪文使いであり、宗教的な儀式を行っていた。人間を束縛し、苦しむ姿を見るのが、ゴブリンの喜びである。",
+      "en": "A religious leader who commands a Goblin pack. A spellcaster who performs religious rites. It is the Goblins' delight to see humans bound and suffering.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 314,
+      "id": "rem_00314",
+      "jp": "ゴブリンシャーマン・エリート",
+      "en": "Goblin Shaman・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 315,
+      "id": "rem_00315",
+      "jp": "ゴブリンの群れを統率する、指導者ゴブリン。この魔物に率いられた群れは残虐性を増し、攻め込まれた村は、家屋はおろか、生存者すらも絶望的。",
+      "en": "The leader Goblin that commands a Goblin pack. Packs led by this monster become more cruel, and villages they attack face despair, with not only houses but survivors becoming hopeless.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 316,
+      "id": "rem_00316",
+      "jp": "ゴブリンロード",
+      "en": "Goblin Lord",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 317,
+      "id": "rem_00317",
+      "jp": "各地を冒険し、人々の依頼をこなして糧を得る者たち。ダンジョンの財宝を荒らし回る、マナーがなっていない者たち。",
+      "en": "Those who travel the land, taking on requests for a living. They are ill-mannered, recklessly plundering dungeon treasures.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 318,
+      "id": "rem_00318",
+      "jp": "トレジャーハンター",
+      "en": "Treasure Hunter",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 319,
+      "id": "rem_00319",
+      "jp": "とある地方領主に雇われた戦士たち。元々の気性が荒く、莫大な報酬につられて戦っている。",
+      "en": "Warriors employed by a certain local lord. Naturally hot-tempered, they fight lured by immense rewards.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 320,
+      "id": "rem_00320",
+      "jp": "雇われ戦士",
+      "en": "Mercenary Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 321,
+      "id": "rem_00321",
+      "jp": "地方領主に雇われた私兵。冒険者上がりの為、金のこと以外に興味が無く、相手が人間であっても、武器を振るう。",
+      "en": "A private soldier hired by a local lord. A former adventurer with no interest beyond money, they will wield their weapon even against other humans.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 322,
+      "id": "rem_00322",
+      "jp": "雇われ兵士",
+      "en": "Hired Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 323,
+      "id": "rem_00323",
+      "jp": "低級の魔族。魔物としては自我も知能も力も弱いが、夜目が効くため、暗所で相対するのは非常に危険。その肉体能力に目を付けられ、警備の為に利用されている。",
+      "en": "A low-rank demonkin. Weak in will, intellect, and power as monsters go. Their night vision makes them dangerous in darkness. They are exploited for their physical abilities as guards.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 324,
+      "id": "rem_00324",
+      "jp": "サーヴァント",
+      "en": "Servant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 325,
+      "id": "rem_00325",
+      "jp": "各地で戦いを続けてきた腕利きの傭兵。指揮官としても戦士としても一流の能力を持ち、特に集団戦では無類の強さを誇る。",
+      "en": "A skilled mercenary who has fought across the lands. Top-tier as both a commander and a warrior, boasting unrivaled strength in group battles.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

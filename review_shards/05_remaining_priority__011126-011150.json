@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11126,
+  "range_end": 11150,
+  "pairs": [
+    {
+      "n": 11126,
+      "id": "rem_38887",
+      "jp": "丈夫な山岳小麦",
+      "en": "Sturdy Mountain Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11127,
+      "id": "rem_38888",
+      "jp": "麦を砕いて篩いにかけた、きめの細かい粒子。オイルでカラッと揚げるには必需品。",
+      "en": "Finely ground wheat particles sifted after crushing. Essential for crispy deep-frying with oil.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11128,
+      "id": "rem_38889",
+      "jp": "ドルワミール麦粉",
+      "en": "Dolwamir Flour",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11129,
+      "id": "rem_38890",
+      "jp": "森林地帯で常食されている野生の穀物。植物の生存競争を勝ち抜いた、生命力に溢れた麦粒。",
+      "en": "A wild grain commonly eaten in forest regions. Wheat grains brimming with vitality, having survived the competition among plants.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11130,
+      "id": "rem_38891",
+      "jp": "森林の穀粒",
+      "en": "Forest Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11131,
+      "id": "rem_38892",
+      "jp": "黄金色に輝く麦粒。これで作られたパンはふんわりと焼きあがり、練り上げれば万人に好まれる味わいをもたらす。",
+      "en": "Wheat grains that shine with a golden color. Bread made from this bakes up fluffy; when kneaded, it yields a flavor beloved by all.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11132,
+      "id": "rem_38893",
+      "jp": "黄金色の穀粒",
+      "en": "Golden Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11133,
+      "id": "rem_38894",
+      "jp": "実った黄金色の麦。大地の生命力を凝縮した麦粒は、あらゆる人を飢餓から救うと言われている。",
+      "en": "Ripened golden wheat. Said to save all people from hunger, these grains concentrate the earth's vital energy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11134,
+      "id": "rem_38895",
+      "jp": "輝く大地の麦",
+      "en": "Shining Earth Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11135,
+      "id": "rem_38896",
+      "jp": "繁殖力に優れた麦粒。不毛の地と化した砂漠でも繁茂する、希望の種。今を我慢すれば、未来には黄金の麦畑が広がるだろう。",
+      "en": "Wheat grains with superior reproductive power. Seeds of hope that thrive even in desertified wastelands. Endure the present, and golden wheat fields will spread in the future.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11136,
+      "id": "rem_38897",
+      "jp": "未来への種麦",
+      "en": "Seed Wheat for the Future",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11137,
+      "id": "rem_38898",
+      "jp": "豊穣の女神から恵みを受けた聖なる麦。栄養価が高く、パンやビールなどに使われる。食べると満足感が得られ、体力回復効果もある。",
+      "en": "Sacred wheat blessed by the Goddess of Bounty. Highly nutritious, used for bread and beer. Eating it brings satisfaction and has a stamina recovery effect.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11138,
+      "id": "rem_38899",
+      "jp": "豊穣の聖麦",
+      "en": "Bountiful Sacred Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11139,
+      "id": "rem_38900",
+      "jp": "異邦から伝わった米。透き通った美しい白さは、麦とは別の味わい。ゼカリウスでの繁殖は不可能と思われたが、研究によって栽培法が確立された。",
+      "en": "Rice introduced from foreign lands. Its beautifully translucent whiteness offers a different taste from wheat. Once thought impossible to cultivate in Zecarius, research has established a farming method.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11140,
+      "id": "rem_38901",
+      "jp": "異邦のライス",
+      "en": "Foreign Rice",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11141,
+      "id": "rem_38902",
+      "jp": "聖地セグルメットで指定する、聖なる祈りが捧げられた麦。ロゼトニック商会が流通を管理している為、一般にはほとんど流通しない。",
+      "en": "Wheat blessed with holy prayers in the sacred land of Segurmet. Rarely circulates publicly due to management by the Rosetonic Trading Guild.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11142,
+      "id": "rem_38903",
+      "jp": "聖なる麦",
+      "en": "Holy Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11143,
+      "id": "rem_38904",
+      "jp": "スラリとした流れるフォルムを持つ食用植物。加熱すると柔らかくなり、食べやすい。",
+      "en": "An edible plant with a slender, flowing form. Becomes soft and easy to eat when heated.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11144,
+      "id": "rem_38905",
+      "jp": "スラリナス",
+      "en": "Slarnass",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11145,
+      "id": "rem_38906",
+      "jp": "精力が増すエネルギッシュな薬草。野性的な味がする……。",
+      "en": "An energetic herb that boosts vigor. Has a wild taste...",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11146,
+      "id": "rem_38907",
+      "jp": "エネルネギ",
+      "en": "Energenegi",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11147,
+      "id": "rem_38908",
+      "jp": "自然の養分を地下に蓄えた野菜。栄養価に優れた地下茎を食べれば、肉体を作るのに重要な栄養素を満たす事ができる。",
+      "en": "A vegetable that stores nutrients underground. Eating its nutritious rhizome provides essential nutrients for building the body.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11148,
+      "id": "rem_38909",
+      "jp": "マッスルキャロット",
+      "en": "Muscle Carrot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11149,
+      "id": "rem_38910",
+      "jp": "大地の栄養を集めた地下茎を乾燥させたもの。食べれば体が熱くなり、たちまち活力が湧き上がる。",
+      "en": "Dried rhizome that collects the earth's nutrients. Makes the body feel hot and instantly invigorated when eaten.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11150,
+      "id": "rem_38911",
+      "jp": "ホットガーリック",
+      "en": "Hot Garlic",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

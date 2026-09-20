@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4626,
+  "range_end": 4650,
+  "pairs": [
+    {
+      "n": 4626,
+      "id": "rem_32245",
+      "jp": "この世界の料理は中々だけど、もっと美味しいメニューが作れると思うよ。もっと新しいメニューを考えようよ！",
+      "en": "This world's food is okay, but we can make tastier dishes. Let's develop new menus!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4627,
+      "id": "rem_32246",
+      "jp": "ルーシェ、もっと賑やかなお店がいいなぁД　美味しいメニューを開発して、人をジャンジャン呼び込もうよД",
+      "en": "Lusche, a livelier shop would be nice Д Let's develop delicious menus to draw crowds Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4628,
+      "id": "rem_32247",
+      "jp": "採掘が終わった土地でも、我々ならば、新たな発見もできよう？　少し資源を持ち帰って来ようではないか",
+      "en": "Even in depleted lands, we may make new discoveries. Shall we gather some resources?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4629,
+      "id": "rem_32248",
+      "jp": "拠点を構えていれば、保存食に頼る事もないだろう。冒険者に料理を売れば、もっと稼げると思うが？",
+      "en": "With a base, we wouldn't rely on preserved food. Selling meals to adventurers could earn us more.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4630,
+      "id": "rem_32249",
+      "jp": "お店に人が増えて来たけど、スタッフの皆に、仕事の差が出てるみたい。ちゃんと教育して、ランクアップさせてあげてね",
+      "en": "The shop's busier, but staff skill levels vary. Train them and help them rank up.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4631,
+      "id": "rem_32250",
+      "jp": "獲得した資源も、私に言わせれば物足りませんね。この天才が指導してあげますので、資源採取に同行させなさい",
+      "en": "Our acquired resources seem lacking. Let this genius guide you—bring me along on resource runs.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4632,
+      "id": "rem_32251",
+      "jp": "ダンジョンの調査にもポイントがあるデス。私も一緒に行くデスから、オマエの調査パワーを見せてみろデス",
+      "en": "Dungeon surveys have key points. Show me your survey skills as I join you.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4633,
+      "id": "rem_32252",
+      "jp": "資源の獲得は経営をするうえで重要な仕入れデス。私と一緒に仕入れに行くデスよ",
+      "en": "Securing resources is key for business supply. Let's go procurement together.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4634,
+      "id": "rem_32253",
+      "jp": "オマエ、ちゃんと連携を考えて戦ってるデス？　ちょっと一緒に戦いに行くデスよ",
+      "en": "You considering teamwork in battle? Let's fight together a bit.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4635,
+      "id": "rem_32254",
+      "jp": "ここらで新メニューを作って、一気に呼び込みをしたいデスね……おいオマエ、何か開発するデス",
+      "en": "Time for a new menu to attract crowds... Hey you, develop something.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4636,
+      "id": "rem_32255",
+      "jp": "娯楽施設の稼働率が悪いデス……もっと娯楽施設でカネを稼ぐデス！",
+      "en": "Entertainment facilities underperform... Earn more from them!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4637,
+      "id": "rem_32256",
+      "jp": "『死神パワー』の消費合計が【640RP】以上",
+      "en": "Total 'Shinigami Power' consumption over 【640RP】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4638,
+      "id": "rem_32257",
+      "jp": "死神パワーを使うデス１",
+      "en": "Use Shinigami Power 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4639,
+      "id": "rem_32258",
+      "jp": "『死神パワー』の消費合計が【1,200RP】以上",
+      "en": "Total 'Shinigami Power' consumption over 【1,200RP】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4640,
+      "id": "rem_32259",
+      "jp": "死神パワーを使うデス２",
+      "en": "Use Shinigami Power 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4641,
+      "id": "rem_32260",
+      "jp": "『死神パワー』の消費合計が【1,900RP】以上",
+      "en": "Total Shinigami Power used: 【1,900RP】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4642,
+      "id": "rem_32261",
+      "jp": "死神パワーを使うデス３",
+      "en": "Use Shinigami Power: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4643,
+      "id": "rem_32262",
+      "jp": "『死神パワー』の消費合計が【2,500RP】以上",
+      "en": "Total Shinigami Power used: 【2,500RP】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4644,
+      "id": "rem_32263",
+      "jp": "死神パワーを使うデス４",
+      "en": "Use Shinigami Power: Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4645,
+      "id": "rem_32264",
+      "jp": "『死神パワー』の消費合計が【3,800RP】以上",
+      "en": "Total Shinigami Power used: 【3,800RP】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4646,
+      "id": "rem_32265",
+      "jp": "死神パワーを使うデス５",
+      "en": "Use Shinigami Power: Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4647,
+      "id": "rem_32266",
+      "jp": "『死神パワー』の消費合計が【5,100RP】以上",
+      "en": "Total Shinigami Power used: 【5,100RP】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4648,
+      "id": "rem_32267",
+      "jp": "死神パワーを使うデス６",
+      "en": "Use Shinigami Power: Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4649,
+      "id": "rem_32268",
+      "jp": "『死神パワー』の消費合計が【6,400RP】以上",
+      "en": "Total Shinigami Power used: 【6,400RP】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4650,
+      "id": "rem_32269",
+      "jp": "死神パワーを使うデス７",
+      "en": "Use Shinigami Power: Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

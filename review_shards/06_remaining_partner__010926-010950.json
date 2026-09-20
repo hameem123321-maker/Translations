@@ -1,0 +1,217 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10926,
+  "range_end": 10950,
+  "pairs": [
+    {
+      "n": 10926,
+      "id": "rem_12328",
+      "jp": "<pl>様の宿にはネズミがたくさんおりますわね。管財人として、財を持ち出そうとするネズミには声を掛けさせていただいておりますが、次から次へと懲りないことですわ",
+      "en": "There seem to be many rats in your estate, <pl>-sama. As the property manager, I have been making my presence known to the rats who try to carry off the wealth, but they are relentlessly unrepentant.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10927,
+      "id": "rem_12329",
+      "jp": "<pl>様であれば、ロゼトニック大商会も会員として快く迎えるでしょう。かくいう私も、大商会に推薦されて<pl>様の元に赴いたのです。かの聖王に連なる使徒である商聖ロゼット様が作った大商会、この会員になることは商人にとっての栄誉でございます。是非、考えなさってくださいませД",
+      "en": "If it's <pl>, the Rosetonic Grand Company would gladly welcome you as a member. I myself was recommended by the grand company and sent to <pl>. Joining the grand company founded by Merchant-Saint Rosette, apostle of that Holy King, is an honor for a merchant. Please do consider itД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10928,
+      "id": "rem_12330",
+      "jp": "まあまあД　どうやら私の『<ruby=化身>アバター</ruby>』を打ち倒してしまったようですわね。私は大商会の派遣管財人ではありますが、かの大邪竜の七色の一角を担う海竜でもございます。しかし大商人にして、海竜を仕留める大勇者でもあらせられるとはД　私の竜としての嗅覚はそれだけ優れていたということですわねД　これからも財宝の管理はお任せ下さいませД",
+      "en": "Now nowД Seems you struck down my '<ruby=化身>Avatar</ruby>'. I am a dispatch treasurer of the grand company, and also a sea dragon of the seven colors of that great evil dragon. To be a great merchant and a great hero who fell a sea dragon besidesД That just means my dragon nose was that sharpД Please leave treasure management to me from here tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 10929,
+      "id": "rem_12331",
+      "jp": "自称作家の娘ですわね。海賊で作家というのがよくわからないのですが、実際は海賊ではないのではなくて？　彼女が執筆する本の内容は、なにやらカネのニオイがします。もう少しショックを与えれば、創作者としての目は花開くはずでしょう",
+      "en": "The self-proclaimed writer's daughter, hmm? I don't quite understand 'pirate writer'... isn't she actually not a pirate at all? The content of the books she writes seems to smell of money. If we apply a bit more shock, her creative eye should truly blossom.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10930,
+      "id": "rem_12332",
+      "jp": "「サージの怪人」を父に持つ、商人の娘ですわね。あの年頃の娘としては、商人としてなかなかの力量を持ちますが、海千山千の商人と勝負をするにはまだまだですわね。ロゼトニック大商会の元に送られる話も合ったようですが、どこで話が変わったのやら",
+      "en": "She's the daughter of the merchant known as the 'Surge Monster,' right? For a girl her age, she has considerable skill as a merchant. But she's still nowhere near ready to compete with seasoned, world-weary merchants. I heard there was talk of sending her to the Rosetonick Grand Merchant Guild. I wonder where the conversation changed course.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10931,
+      "id": "rem_12333",
+      "jp": "かつては「サージの怪人」の異名で、大陸で最も恐れられた豪商です。彼の商いによって書き換えられた国境や地図は数知れず、多くの財宝や美女を手中に収めておりましたわ。まるで<pl>様のようですわね。そんな彼ですが、突然商売を辞めてしまったのです。一説では神を見て、啓示を受けたとか……",
+      "en": "He was once feared across the continent under the alias 'the Mad Merchant of Surg.' His deals redrew countless borders and maps, and he amassed tremendous treasures and beautiful women. Rather like you, <pl>. Yet, he suddenly abandoned his trade. Some say he saw a god and received a revelation...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10932,
+      "id": "rem_12334",
+      "jp": "商人のやる事ではありませんわよね",
+      "en": "That's not what a merchant should do, is it?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10933,
+      "id": "rem_12335",
+      "jp": "<pl>様が望むのであれば、当然私は従いますわД　ですが、この身は<pl>様の為に存在するのですから、他の男に汚させるような行為は、控えて下さいませね",
+      "en": "If <pl> wants it, of course I obeyД But this body exists for <pl>, so please refrain from acts that would let other men soil it",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10934,
+      "id": "rem_12336",
+      "jp": "そんなことするわけありませんわよ……商人協会への反逆ですか？",
+      "en": "There's no way I'd do something like that... Are you talking about treason against the Merchant's Guild?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10935,
+      "id": "rem_12337",
+      "jp": "<pl>様のおちんちんを舐めさせて頂けて、私は幸せ者ですわД　飲ませてもらうか、オマンコに注いで頂くか、全身を精液で彩って下さるか……Д　想像しただけで濡れてしまいますД",
+      "en": "Getting to lick <pl>'s cock, I am blessedД Drink it, pour it in my pussy, or paint my whole body in semen...Д Just imagining it gets me wetД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 10936,
+      "id": "rem_12338",
+      "jp": "何を考えておりますの",
+      "en": "What are you thinking about?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10937,
+      "id": "rem_12339",
+      "jp": "私のおっぱいで奉仕させていただけるなんて、身に余る光栄ですわД　射精する瞬間の表情を拝見しながら、全身に精液をかけていただくと、私も絶頂してしまいますД",
+      "en": "It's an honor beyond my station to be allowed to serve you with my breastsД Being able to watch your face at the moment you cum, and being covered in your semen all over my body, makes me climax tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 10938,
+      "id": "rem_12340",
+      "jp": "最悪の欲望だと思いますわ……",
+      "en": "I think it's the worst kind of desire...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10939,
+      "id": "rem_12341",
+      "jp": "<pl>様にオマンコを舐めて頂けて、幸福の極みですわД　あまりの幸せに、すぐに絶頂してしまいますД　これ以上の行為をされたら、どうなってしまうのでしょうД",
+      "en": "Having <pl> lick my pussy is the peak of happinessД I'm so happy I climax right awayД If you do more than this, what will become of meД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10940,
+      "id": "rem_12342",
+      "jp": "誰とでも寝るような、安い女に見えますの？",
+      "en": "Do I look like some cheap girl who'll sleep with anyone?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10941,
+      "id": "rem_12343",
+      "jp": "共に働くだけでも幸福だと言うのに、私のオマンコで<pl>様を受け入れることができて、感無量ですわД　しっかりと膣を締めさせて頂きますので、思う存分、中出しして下さいませД",
+      "en": "I was already happy just working together, but to be able to receive you, <pl>-sama, in my pussy... it's truly overwhelmingД. I will squeeze you tightly with my walls, so please, fill me up inside to your heart's contentД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10942,
+      "id": "rem_12344",
+      "jp": "考えてはいませんわね……",
+      "en": "You weren't even thinking about it, were you...?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10943,
+      "id": "rem_12345",
+      "jp": "私は<pl>様の物ですので、妊娠していても、<pl>様の為に腰を振らせて頂きますわねД　これからも私を幸せにしてくれると、信じておりますわД",
+      "en": "I belong to <pl>, so even pregnant I'll roll my hips for <pl>Д I trust you'll keep making me happyД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10944,
+      "id": "rem_12346",
+      "jp": "いやいや、何考えてるの？　信じらんない！",
+      "en": "No way, what are you thinking? I can't believe it!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10945,
+      "id": "rem_12347",
+      "jp": "人の趣味にケチ付ける気はないけど、ちょっと遠慮が無さすぎるわよД　まあ、嫌な気はしないし、好きにすればいいけど……Д　私が満足するまで、逃げないでよねД",
+      "en": "I'm not trying to criticize your taste or anything, but you could be a little less blunt about it, you know?Д Anyway... I don't mind it. Do what you want.Д Just don't even think about running until I'm fully satisfied, got it?Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10946,
+      "id": "rem_12348",
+      "jp": "節操無しねぇ。アンタ、そんな事ばかり言ってて、刺されても知らないわよ",
+      "en": "No shame at all. If you keep saying stuff like that, don't be surprised if I stab you.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10947,
+      "id": "rem_12349",
+      "jp": "うーん、夢だから許してるけど、こんなのやっちゃっていいのかしら……Д　現実でもほしくなっちゃうんじゃないかって不安だわД　だってアンタ、アイツと同じなんだもん……Д",
+      "en": "Hmm, I'm allowing it because it's a dream, but is it really okay to do something like this... Д I'm worried I'll start wanting it in real life too. Д After all, you're just like him... Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10948,
+      "id": "rem_12350",
+      "jp": "うむ、ワシはウィルチの名を冠する偉大なる大魔女。その叡智は絶対、この大陸すべての魔女どもの頂点に立ち、崇敬の念を集めたものよ。ふぉっふぉっ、ワシを求めて様々な国が競い合って争ったのも、記憶に新しいわい",
+      "en": "Hmm, I am the great Grand Witch bearing the name Wilch. My wisdom is absolute, I stand at the summit of all witches on this continent, and I was the object of their reverence. Ohoho, it is still fresh in my memory how various countries competed and fought for my favor.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10949,
+      "id": "rem_12351",
+      "jp": "具体的なワシの偉業であるか？　うむー、枚挙にいとまがないであるが、様々な国の有力者を薬漬けにし、『魔女』の立場を安定化させたであるなД　淫魔とみなされ迫害された女薬師の、社会的地位を確立させたのである！　まあ、淫魔であるのも半分は本当であるが。クク……魔女の薬に溺れてしまえば、王族貴族も我らを保護せざるを得んのである",
+      "en": "My specific great achievements? Well... there are too many to count. I made the rulers of various countries addicted to drugs and stabilized the position of 'Witches' Д I secured the social status of female apothecaries who were persecuted for being seen as succubi! Though, being a succubus is half-true. Kuku... once kings and nobles get hooked on a Witch's medicine, they have no choice but to protect us.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10950,
+      "id": "rem_12352",
+      "jp": "ワシと<pl>が出会った地下図書館は、もともとは禁代図書館と呼ばれた場所であった。古代の叡智が詰まった遺跡であったが、なにせ海の底に沈んでおったからのう。図書館をまるごと結界で覆い、引き上げるのには数多くの魔女や魔術師の力を必要とする、大事業であった。これにより我が名声は留まることを知らぬことになったし、これで人類の文明は二代三代と進歩すると思ったんじゃがのう",
+      "en": "The underground library where I and <pl> met was originally called the Kinjiro Library. It was a ruin filled with ancient wisdom, but the thing is, it was sunk at the bottom of the sea. Covering the entire library with a barrier and raising it up required the power of many witches and sorcerers; it was a major undertaking. Thanks to this, my reputation knew no bounds, and I thought human civilization would progress by two or three generations because of it.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 276,
+  "range_end": 300,
+  "pairs": [
+    {
+      "n": 276,
+      "id": "rem_00276",
+      "jp": "エルダーアルラウネ",
+      "en": "Elder Alraune",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 277,
+      "id": "rem_00277",
+      "jp": "魔力を帯びて動くようになった樹。葉が抜け落ちてしまい、養分を求めて人々を襲っていた。フレスミスのような人里近くでは珍しいが、「黒の森」と呼ばれる地方ではそれほど珍しくもない。",
+      "en": "A tree animated by mana. Its leaves have fallen, and it attacks people seeking nutrients. Rare near villages like Fresmice, but not uncommon in the region called the \"Black Forest.\"",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 278,
+      "id": "rem_00278",
+      "jp": "トレント",
+      "en": "Treant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 279,
+      "id": "rem_00279",
+      "jp": "養分を吸収し、元気になったトレント。生命力に溢れているが、なお貪欲に生命を吸収しようと枝葉を伸ばす。その身を打ち倒すには猛烈な攻撃が必要となる。",
+      "en": "A Treant revitalized by absorbing nutrients. Brimming with vitality, it greedily extends its branches to absorb more life. A fierce assault is needed to bring it down.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 280,
+      "id": "rem_00280",
+      "jp": "フルトレント",
+      "en": "Full Treant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 281,
+      "id": "rem_00281",
+      "jp": "樹の精。森林道を行き交う人々を誘惑し、夫婦生活を営むこともある。しかし虜になった男は、精気を吸われ、森の養分になるまで精を搾られてしまう。",
+      "en": "Tree spirit. Lures travelers on forest paths, sometimes forming unions. Captive men have their vitality drained, becoming forest nutrients.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 282,
+      "id": "rem_00282",
+      "jp": "ドリアード",
+      "en": "Dryad",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 283,
+      "id": "rem_00283",
+      "jp": "巨大な体躯と剛腕を誇る、強大な戦闘力を誇る魔獣。圧倒的な戦闘力に対し、生半可な冒険者は相手にならない。通常は人の生活圏内に降りて来る事はない。エルフィードが餌付けしてた。",
+      "en": "A monster boasting massive size and mighty arms with formidable combat power. Overwhelming strength makes average adventurers no match. Normally avoids human settlements. Elfeed keeps it fed.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 284,
+      "id": "rem_00284",
+      "jp": "クマのようじんぼう",
+      "en": "Bear-like Vigilante",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 285,
+      "id": "rem_00285",
+      "jp": "戦闘に特化したハチ。人間はおろか、大型の獣すら獲物とする昆虫で、仕留めた動物の肉を貪る。相手がメスであれば異種族であろうと、胎内に卵を産み落とす。",
+      "en": "Combat-specialized wasp. Preys on humans and large beasts, devouring flesh. If the target is female, it will lay eggs inside regardless of species.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 286,
+      "id": "rem_00286",
+      "jp": "ハンターフライ",
+      "en": "Hunter Fly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 287,
+      "id": "rem_00287",
+      "jp": "洞窟内に住み着いているコウモリ。通常のコウモリよりも暗い環境で育ったためか、全身の感覚が通常よりも発達しているようだ。",
+      "en": "Bats dwelling in caves. Raised in darker environments, their senses seem more developed than regular bats.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 288,
+      "id": "rem_00288",
+      "jp": "どうくつコウモリ",
+      "en": "Cave Bat",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 289,
+      "id": "rem_00289",
+      "jp": "一攫千金を狙う、腕自慢の荒くれ者ども。自分の利益が全てであり、邪魔する者は、たとえ人間であろうと襲い掛かる。",
+      "en": "Brash ruffians seeking a big score. Their own gain is everything; they'll attack anyone in their way, even humans.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 290,
+      "id": "rem_00290",
+      "jp": "ごろつき",
+      "en": "Ruffian",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 291,
+      "id": "rem_00291",
+      "jp": "土中に生息する触手型の虫。獲物の足に絡みつき、動きを止めてから捕食する。身体は耐久力が無いが、多少引きちぎっても再生する、高い生命力を持つ。",
+      "en": "Tentacle-type worm inhabiting soil. Entangles prey's legs, immobilizing them before feeding. Low durability but high vitality—it regenerates even if torn.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 292,
+      "id": "rem_00292",
+      "jp": "ワーム",
+      "en": "Worm",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 293,
+      "id": "rem_00293",
+      "jp": "キラキラとした水晶の形をした魔生物。武器を叩きつければ砕ける。輝く体はキレイなのだが、残念ながら倒すと殆どの部分は消滅してしまう。",
+      "en": "Shiny crystal-shaped monster. Shatters if struck. Its glittering body is beautiful, but sadly most parts vanish when defeated.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 294,
+      "id": "rem_00294",
+      "jp": "クリスタラー",
+      "en": "Crystaller",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 295,
+      "id": "rem_00295",
+      "jp": "天使の輪ともいわれる、硬い鉱物質な体を持った魔生物。まばゆい光を放ち、魅入られた人間を洗脳してしまう。鉱山内で相対し、そのまま魅入られる冒険者や鉱夫が多発した。",
+      "en": "Monster with a hard mineral body, called an angel's halo. Emits dazzling light, brainwashing those entranced. Many adventurers and miners in mines encounter and fall under its spell.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 296,
+      "id": "rem_00296",
+      "jp": "ハイロウ",
+      "en": "Halo",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 297,
+      "id": "rem_00297",
+      "jp": "巨大な蜘蛛型モンスター。ねばつく糸で身動き取れないところを、猛毒の牙で仕留める。閉所でこの魔物の罠に嵌ってしまうと、ソロの冒険者はほぼ生き残れない。",
+      "en": "Giant spider monster. Uses sticky webs to immobilize prey, then finishes with venomous fangs. If a solo adventurer gets caught in its trap in a confined space, survival is nearly impossible.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 298,
+      "id": "rem_00298",
+      "jp": "タランチュラ",
+      "en": "Tarantula",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 299,
+      "id": "rem_00299",
+      "jp": "巨大な獣にすら寄生する植物モンスター。寄生相手の自我を奪い、ある程度は自由に行動することができる。その後は爆発し、大量の胞子を広範囲にばらまく。",
+      "en": "Plant monster that parasitizes even large beasts. Steals the host's will, allowing some free movement. Eventually explodes, scattering vast amounts of spores over a wide area.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 300,
+      "id": "rem_00300",
+      "jp": "パラサイトモンスター",
+      "en": "Parasite Monster",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

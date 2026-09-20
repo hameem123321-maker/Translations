@@ -1,0 +1,186 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 226,
+  "range_end": 250,
+  "pairs": [
+    {
+      "n": 226,
+      "id": "dll_0226",
+      "jp": "資金{0}G",
+      "en": "Funds {0}G",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 227,
+      "id": "dll_0227",
+      "jp": "アイコンをクリックすると、能力開発をリセット出来ます。",
+      "en": "Click icon to reset ability dev.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 228,
+      "id": "dll_0228",
+      "jp": "パッシブスキル",
+      "en": "Passive Skill",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 229,
+      "id": "dll_0229",
+      "jp": "アクションスキル",
+      "en": "Action Skill",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 230,
+      "id": "dll_0230",
+      "jp": "サポートスキル(自己強化)",
+      "en": "Support (Self)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 231,
+      "id": "dll_0231",
+      "jp": "サポートスキル(全体)",
+      "en": "Support (All)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 232,
+      "id": "dll_0232",
+      "jp": "フィールドスキル",
+      "en": "Field Skill",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 233,
+      "id": "dll_0233",
+      "jp": "チェイススキル",
+      "en": "Chase Skill",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 234,
+      "id": "dll_0234",
+      "jp": "アクションスキル(弱体)",
+      "en": "Action (Debuff)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 235,
+      "id": "dll_0235",
+      "jp": "イベントの進行で解禁",
+      "en": "Unlocked by events",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 236,
+      "id": "dll_0236",
+      "jp": "<color=#ff88ff>【Hシーン閲覧で解禁】\n",
+      "en": "<color=#ff88ff>【Unlocked by H-Scene】\n",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 237,
+      "id": "dll_0237",
+      "jp": "キャラクターの能力がアップします",
+      "en": "Character ability up",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 238,
+      "id": "dll_0238",
+      "jp": "『攻撃』のパラメータ【+{0}%】",
+      "en": "『Attack』 parameter【+{0}%】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 239,
+      "id": "dll_0239",
+      "jp": "『魔攻』のパラメータ【+{0}%】",
+      "en": "『Magic』 parameter【+{0}%】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 240,
+      "id": "dll_0240",
+      "jp": "『防御』のパラメータ【+{0}】",
+      "en": "『Defense』 parameter【+{0}】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 241,
+      "id": "dll_0241",
+      "jp": "『魔防』のパラメータ【+{0}】",
+      "en": "'MDef' param【+{0}】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 242,
+      "id": "dll_0242",
+      "jp": "『速度』のパラメータ【+{0}】",
+      "en": "'Speed' param【+{0}】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 243,
+      "id": "dll_0243",
+      "jp": "命中率【+{0}%】",
+      "en": "Hit rate【+{0}%】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 244,
+      "id": "dll_0244",
+      "jp": "『必殺』のパラメータ【+{0}】",
+      "en": "'Critical' param【+{0}】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 245,
+      "id": "dll_0245",
+      "jp": "『連撃』のパラメータ【+{0}】",
+      "en": "'Combo' param【+{0}】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 246,
+      "id": "dll_0246",
+      "jp": "『ＨＰ』のパラメータ【+{0}%】",
+      "en": "'HP' param【+{0}%】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 247,
+      "id": "dll_0247",
+      "jp": "『ＭＰ』のパラメータ【+{0}%】",
+      "en": "'MP' param【+{0}%】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 248,
+      "id": "dll_0248",
+      "jp": "アンロック時効果",
+      "en": "Unlock effect",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 249,
+      "id": "dll_0249",
+      "jp": "自動的に開発ポイントを獲得",
+      "en": "Auto gain dev. points",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 250,
+      "id": "dll_0250",
+      "jp": "の収益+1",
+      "en": "profit+1",
+      "category": "remaining_dll"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 84826,
+  "range_end": 84850,
+  "pairs": [
+    {
+      "n": 84826,
+      "id": "db_EventInfo:100218:106",
+      "jp": "もともとはクシエル家や【『<ruby=ヒエペリオ>教会</ruby>』】から援助されてたらしいんだけど、その……",
+      "en": "Originally, it was supported by the Cushiel family and the 【'Hyepelio' Church】, but...",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84827,
+      "id": "db_EventInfo:100219:6",
+      "jp": "クシエル家の人間の多くは【遠方の村】に移り住んでしまいました",
+      "en": "Many of the Cushiel family moved to live in a 【distant village】.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84828,
+      "id": "db_EventInfo:100220:6",
+      "jp": "なので、援助が打ち切られてしまったのです",
+      "en": "So, their support was cut off.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84829,
+      "id": "db_EventInfo:100221:106",
+      "jp": "おまけになんでか、【『<ruby=ヒエペリオ>教会</ruby>』】の援助も減ってるらしくてさー",
+      "en": "On top of that, for some reason, support from the 【'Hyepelio' Church】 has also decreased, they say.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84830,
+      "id": "db_EventInfo:100222:1",
+      "jp": "ふむ……わかった",
+      "en": "Hmm... I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84831,
+      "id": "db_EventInfo:100223:1",
+      "jp": "つまり、その修道院を支援する資金を融資――",
+      "en": "So, the funds to support that convent would be a loan—",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84832,
+      "id": "db_EventInfo:100225:6",
+      "jp": "【<pl>】様のお子様を育てる施設に作り替えましょうД",
+      "en": "Let's turn it into a facility to raise 【<pl>】-sama's children Д",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84833,
+      "id": "db_EventInfo:100227:1",
+      "jp": "はい？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84834,
+      "id": "db_EventInfo:100229:6",
+      "jp": "私が育った修道院は辺境……私は親の顔も覚えられないまま、育てられました",
+      "en": "The convent I grew up in was in a remote area... I was raised there without even remembering my parents' faces.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84835,
+      "id": "db_EventInfo:100230:6",
+      "jp": "そこは小さな、けれどあたたかな場所で……",
+      "en": "It was a small, but warm place...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84836,
+      "id": "db_EventInfo:100231:6",
+      "jp": "その場所が、私に信じるものを教えてくれました",
+      "en": "That place taught me what to believe in.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84837,
+      "id": "db_EventInfo:100232:6",
+      "jp": "救いとは、差し伸べられる手の存在なのだと……",
+      "en": "That salvation is the presence of a helping hand...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84838,
+      "id": "db_EventInfo:100233:1",
+      "jp": "マリーゼルさん？",
+      "en": "Marisel?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84839,
+      "id": "db_EventInfo:100234:6",
+      "jp": "【<pl>】様。あなたは、私たちにとってまさしく【『神』】",
+      "en": "【<pl>】-sama. For us, you are precisely our 【\"God\"】.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84840,
+      "id": "db_EventInfo:100235:6",
+      "jp": "そのような方の子供を孕んで産み育てることこそが、至上の幸せなのですわ",
+      "en": "Conceiving, birthing, and raising a child of someone like you is the greatest happiness.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84841,
+      "id": "db_EventInfo:100236:106",
+      "jp": "【<pl>】さんってば、最近女を孕ませまくってるだろ？",
+      "en": "【<pl>】, you've been knocking up women left and right lately, right?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84842,
+      "id": "db_EventInfo:100237:106",
+      "jp": "なんか、知らない間に腹が戻ったりしてるけどさ。産んだら育てる場所がいるじゃん",
+      "en": "I mean, bellies keep disappearing when no one's looking. But once they give birth, you need a place to raise them.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84843,
+      "id": "db_EventInfo:100238:106",
+      "jp": "育てるために、俺達はまだ店を離れるわけには行かないしさ",
+      "en": "We can't leave the shop to raise them.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84844,
+      "id": "db_EventInfo:100239:106",
+      "jp": "そのために、【修道院】を買い取って、この店の近くに移転したらどうだって",
+      "en": "What if we bought the 【convent】 and moved it near the shop for that?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84845,
+      "id": "db_EventInfo:100240:6",
+      "jp": "どうか……私のように、救いを待っている子たちに、手を差し伸べてはいただけませんか？",
+      "en": "Please... could you reach out to other children waiting for salvation, like I was?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84846,
+      "id": "db_EventInfo:100241:1",
+      "jp": "えーと、えーと……",
+      "en": "Uh, um...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84847,
+      "id": "db_EventInfo:100242:6",
+      "jp": "新しい修道院には、ぜひクリスティナ先生をお迎えください！",
+      "en": "Please invite Miss Christina to the new convent!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84848,
+      "id": "db_EventInfo:100243:1",
+      "jp": "クリスティナ……？",
+      "en": "Christina...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84849,
+      "id": "db_EventInfo:100244:106",
+      "jp": "クリスティナ先生は、俺たちを可愛がってくれた、修道院長なんだ",
+      "en": "Miss Christina was the head of the convent. She was very kind to us.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 84850,
+      "id": "db_EventInfo:100245:6",
+      "jp": "素晴らしい方ですわ。きっと、【<pl>】様のお子様を優しく育ててくださります",
+      "en": "She's wonderful. I'm sure she would raise 【<pl>】's child gently.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    }
+  ]
+}

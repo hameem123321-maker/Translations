@@ -1,0 +1,60 @@
+{
+  "source_file": "03_ui_onscreen.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 226,
+  "range_end": 232,
+  "pairs": [
+    {
+      "n": 226,
+      "id": "ui_mb_01631",
+      "jp": "有名な大航海士が使っていたものと同じコンパス。本人が航海士だったかは別である。かっこいいから持っていると言うだけの、ムダに豪華な代物。",
+      "en": "A compass identical to the one used by a famous navigator. Whether they were a navigator is another matter. Just a needlessly extravagant item carried because it's cool.",
+      "category": "ui"
+    },
+    {
+      "n": 227,
+      "id": "ui_mb_01632",
+      "jp": "テキスト",
+      "en": "Text",
+      "category": "ui"
+    },
+    {
+      "n": 228,
+      "id": "ui_mb_01642",
+      "jp": "エッチ",
+      "en": "H-Scene",
+      "category": "ui"
+    },
+    {
+      "n": 229,
+      "id": "ui_mb_01649",
+      "jp": "<color=#aaffff>■追加プロフィール</color>\n死神の少女。死にやすい運命を持つ主人公の素質に目を付け、自分の力を分け与えて『死神代行』にした張本人。素っ気ない口調だが、主人公を嫌ってるわけではない。本来は冥界に住んでいるらしい。",
+      "en": "<color=#aaffff>■Extra Profile</color>\nA Shinigami girl. The one who noticed the Player's fatalistic aptitude, shared her power, and made them a 'Shinigami Agent'. Her tone is blunt, but she doesn't dislike the Player. She apparently lives in the underworld.",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 230,
+      "id": "ui_mb_01668",
+      "jp": "ヒロイン情報",
+      "en": "Heroine Info",
+      "category": "ui"
+    },
+    {
+      "n": 231,
+      "id": "ui_mb_01670",
+      "jp": "自動入手した開発ポイント",
+      "en": "Auto-acquired Development Points",
+      "category": "ui"
+    },
+    {
+      "n": 232,
+      "id": "ui_mb_01689",
+      "jp": "スーパーメイド\n<size=20>(接客+1)</size>",
+      "en": "Super Maid\n<size=20>(Service +1)</size>",
+      "category": "ui"
+    }
+  ]
+}

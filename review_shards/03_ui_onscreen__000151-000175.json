@@ -1,0 +1,189 @@
+{
+  "source_file": "03_ui_onscreen.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 151,
+  "range_end": 175,
+  "pairs": [
+    {
+      "n": 151,
+      "id": "ui_mb_00710",
+      "jp": "性技技",
+      "en": "Skill Tech",
+      "category": "ui"
+    },
+    {
+      "n": 152,
+      "id": "ui_mb_00727",
+      "jp": "冒険者スタッフ派遣",
+      "en": "Dispatch Adventurer Staff",
+      "category": "ui"
+    },
+    {
+      "n": 153,
+      "id": "ui_mb_00748",
+      "jp": "ハーヴェスタ",
+      "en": "Harvester",
+      "category": "ui"
+    },
+    {
+      "n": 154,
+      "id": "ui_mb_00755",
+      "jp": "Lv<size=24>11111</size>\\n<size=14>(パラメータ1+500% パラメータ1+500% パラメータ1+500%)",
+      "en": "Lv<size=24>11111</size>\\n<size=14>(Parameter 1+500% Parameter 1+500% Parameter 1+500%)",
+      "category": "ui"
+    },
+    {
+      "n": 155,
+      "id": "ui_mb_00768",
+      "jp": "スキル一覧(99/99)",
+      "en": "Skill List (99/99)",
+      "category": "ui"
+    },
+    {
+      "n": 156,
+      "id": "ui_mb_00775",
+      "jp": "スペシャル転生オプション",
+      "en": "Special Reincarnation Option",
+      "category": "ui"
+    },
+    {
+      "n": 157,
+      "id": "ui_mb_00811",
+      "jp": "基本の転生オプション",
+      "en": "Basic Reincarnation Option",
+      "category": "ui"
+    },
+    {
+      "n": 158,
+      "id": "ui_mb_00851",
+      "jp": "開発費",
+      "en": "Development Cost",
+      "category": "ui"
+    },
+    {
+      "n": 159,
+      "id": "ui_mb_00864",
+      "jp": "戦闘開始",
+      "en": "Battle Start",
+      "category": "ui"
+    },
+    {
+      "n": 160,
+      "id": "ui_mb_00866",
+      "jp": "部門の説明を表示",
+      "en": "Show Department Info",
+      "category": "ui"
+    },
+    {
+      "n": 161,
+      "id": "ui_mb_00875",
+      "jp": "学者たちが集まる、",
+      "en": "A gathering place for scholars,",
+      "category": "ui"
+    },
+    {
+      "n": 162,
+      "id": "ui_mb_00877",
+      "jp": "剣に集中することで、クリティカル率がアップ。こんな細い剣から信じられない切れ味を誇る。修行に没頭したツバキならではの境地だが、没頭しすぎて本来の使命を忘れている。",
+      "en": "Focuses on swordsmanship, boosting critical rate. Wields incredible sharpness from such a slender blade. A state unique to the devoted Tsubaki, though her obsession makes her forget her original duty.",
+      "category": "ui"
+    },
+    {
+      "n": 163,
+      "id": "ui_mb_00882",
+      "jp": "諦める…",
+      "en": "Give Up...",
+      "category": "ui"
+    },
+    {
+      "n": 164,
+      "id": "ui_mb_00907",
+      "jp": "本日の営業結果",
+      "en": "Today's Business Results",
+      "category": "ui"
+    },
+    {
+      "n": 165,
+      "id": "ui_mb_00920",
+      "jp": "【[右クリック]】スロット解除/ウィンドウ非表示",
+      "en": "【[Right Click]】Unlock Slot / Hide Window",
+      "category": "ui"
+    },
+    {
+      "n": 166,
+      "id": "ui_mb_00942",
+      "jp": "キャラクターネーム",
+      "en": "Character Name",
+      "category": "ui"
+    },
+    {
+      "n": 167,
+      "id": "ui_mb_00948",
+      "jp": "料理<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/9999",
+      "en": "Cooking<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/9999",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 168,
+      "id": "ui_mb_00955",
+      "jp": "挑戦！",
+      "en": "Challenge!",
+      "category": "ui"
+    },
+    {
+      "n": 169,
+      "id": "ui_mb_00962",
+      "jp": "ダイスの合計が<color=#FFDD88>99</color>以上で成功デス\\n(ボーナス値+99)",
+      "en": "Succeed if dice total is <color=#FFDD88>99</color> or more DEATH\\n(Bonus +99)",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 170,
+      "id": "ui_mb_00964",
+      "jp": "戦闘能力\n",
+      "en": "Combat Ability\n",
+      "category": "ui"
+    },
+    {
+      "n": 171,
+      "id": "ui_mb_01007",
+      "jp": "搾精回数",
+      "en": "Sperm Extraction Count",
+      "category": "ui"
+    },
+    {
+      "n": 172,
+      "id": "ui_mb_01045",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[70%] + 連撃率[+40%] + 必殺率[+5%] + 【氷属性】 + 防御貫通(小) + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Small Area Attack Power[E+] + Hit[70%] + Combo Rate[+40%] + Crit Rate[+5%] + 【Ice Element】 + Small Defense Penetration + Inflicts [Freeze] (Phys. Dmg Reduction -30% + Crit Receive Rate +30%)",
+      "category": "ui"
+    },
+    {
+      "n": 173,
+      "id": "ui_mb_01053",
+      "jp": "H部屋",
+      "en": "H Room",
+      "category": "ui"
+    },
+    {
+      "n": 174,
+      "id": "ui_mb_01074",
+      "jp": "編成",
+      "en": "Formation",
+      "category": "ui"
+    },
+    {
+      "n": 175,
+      "id": "ui_mb_01095",
+      "jp": "メテトス百穴古墳をいち早く制圧した<pl>は近隣の森と付近の村を買収、薬草栽培所を建設した。村娘のヘレンはオーナーを接待しにやってくる。",
+      "en": "Having swiftly secured the Metetos Hundred-Hole Tomb, <pl> bought out the nearby forest and village, building an herb farm. The village girl Helen comes to entertain the owner.",
+      "category": "ui"
+    }
+  ]
+}

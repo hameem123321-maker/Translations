@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73501,
+  "range_end": 73525,
+  "pairs": [
+    {
+      "n": 73501,
+      "id": "db_EventInfo:86948:1",
+      "jp": "人を何だと思ってるんだ",
+      "en": "Who do you think I am?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73502,
+      "id": "db_EventInfo:86949:2",
+      "jp": "日頃の行いデス",
+      "en": "We know how you usually act. Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73503,
+      "id": "db_EventInfo:86950:2",
+      "jp": "しかしデシルスの言うことも一理あるデスね",
+      "en": "But Desilus has a point.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73504,
+      "id": "db_EventInfo:86951:2",
+      "jp": "アイツに手を出すより、もっと手を出しやすい女にしておけデス。娼婦とかメイドとかみたいな",
+      "en": "Better to go for easier women than that one. Like prostitutes or maids.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73505,
+      "id": "db_EventInfo:86952:1",
+      "jp": "あのなぁ……",
+      "en": "Hey now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73506,
+      "id": "db_EventInfo:86954:0",
+      "jp": "鍛冶場で……。",
+      "en": "At the forge...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73507,
+      "id": "db_EventInfo:86956:23",
+      "jp": "こんにちは、アンジュさん、やったかな？　噂通り、凄腕の職人みたいやなぁ",
+      "en": "Hello there, Anju, isn't it? Just like the rumors say, you seem to be a master craftsman.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73508,
+      "id": "db_EventInfo:86957:3",
+      "jp": "む？　なんじゃノースリンデか。親善大使と従業員の掛け持ちとは、大変じゃのう",
+      "en": "Hm? Oh, it's you, Northlinde. Working as both a goodwill ambassador and a shop employee must be tough.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 73509,
+      "id": "db_EventInfo:86958:23",
+      "jp": "あはは、大した事あらへんって。こうしてお話する時間もとれるしなぁ",
+      "en": "Haha, it's really no big deal. It even gives me time to chat like this.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73510,
+      "id": "db_EventInfo:86959:23",
+      "jp": "ところで……【<pl>】はんあの若さで領主就任はええんやけど……前の領主はどないなったん？",
+      "en": "By the way...【<pl>】 became lord at such a young age, which is great, but... what happened to the previous lord?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73511,
+      "id": "db_EventInfo:86960:23",
+      "jp": "ノーザリアに流れとる噂じゃ「死んだ」っちゅうことになっとるんやけど",
+      "en": "The rumor going around Nosalia is that he 'died'.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73512,
+      "id": "db_EventInfo:86961:3",
+      "jp": "あー、ゼルカの奴か……あやつめ、カストロイア様の遺跡を悪用して、大変なことをしでかそうとしとったからのう",
+      "en": "Ah, that Zelka... That guy was misusing the Lord Castrolia's ruins and tried to do something terrible.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 73513,
+      "id": "db_EventInfo:86962:3",
+      "jp": "じゃがまあ、ラシェウスという【『勇者』】がゼルカを倒して、万事解決なのじゃ。無論、【<pl>】も並々ならぬ貢献をしたものじゃがの！",
+      "en": "But well, a Hero named Rasieus defeated Zelka, and everything was resolved. Of course, 【<pl>】 also made a huge contribution!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 73514,
+      "id": "db_EventInfo:86963:23",
+      "jp": "ウチの見たところ、【<pl>】はんは冴えない商人みたいやったけども",
+      "en": "From what I saw, 【<pl>】 just seemed like a boring merchant, though.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73515,
+      "id": "db_EventInfo:86964:3",
+      "jp": "あー、まあそう見えるのも分からなくもないが……あやつもやる時はやる男なのじゃ！",
+      "en": "Ah, well, I can see why you'd think that... But he's a man who gets things done when he needs to!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 73516,
+      "id": "db_EventInfo:86965:23",
+      "jp": "せやなぁ……見たところ、この店のスタッフも強力な戦士や魔術師が多く居るようやし……",
+      "en": "Yeah... Lookin' at it, this shop's staff has a lot of strong warriors and mages...",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73517,
+      "id": "db_EventInfo:86966:23",
+      "jp": "それらを纏める【<pl>】はんも、かなりの武闘派やろなぁ",
+      "en": "The 【<pl>】 who manages them all must be a real fighter too, eh?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73518,
+      "id": "db_EventInfo:86967:23",
+      "jp": "もしノーザリアと全面戦争になっていたら、どうなったやろ。怖いわぁД",
+      "en": "If we'd gone to full-scale war with Northalia, what would've happened? Scary thoughtД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73519,
+      "id": "db_EventInfo:86969:12",
+      "jp": "ノーザリアから親善大使というのは怪しいですね。何か企んでいるのではありませんか？",
+      "en": "A goodwill ambassador from Northalia seems suspicious. Are you plotting something?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73520,
+      "id": "db_EventInfo:86970:2",
+      "jp": "珍しく意見が合ったデスね。私もコイツは怪しいと思うデス",
+      "en": "How rare, we agree Desu ne. I also think this one is suspicious Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73521,
+      "id": "db_EventInfo:86972:23",
+      "jp": "そんなぁ、怪しむなんて酷いわぁД　【<pl>】はんも何か言ったってД",
+      "en": "Oh no, suspecting me is so meanД 【<pl>】, say something, won't youД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73522,
+      "id": "db_EventInfo:86973:1",
+      "jp": "いや、何かと言われてもな",
+      "en": "Nah, what am I supposed to say?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73523,
+      "id": "db_EventInfo:86974:12",
+      "jp": "こら、何をデレデレしているのですか！　まったく、本当に駄犬ですね！",
+      "en": "Hey, why are you getting all flustered?! Honestly, you really are a useless dog!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73524,
+      "id": "db_EventInfo:86975:23",
+      "jp": "そんな事言われたってなぁ、自分みたいなか弱い女に、何ができる言いますの？",
+      "en": "What can I say? What can a weak girl like me even do?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73525,
+      "id": "db_EventInfo:86976:23",
+      "jp": "できるのは【<pl>】はんの劣情を満たしてやるぐらいやでД",
+      "en": "All I can do is satisfy 【<pl>】's lewd desiresД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12876,
+  "range_end": 12900,
+  "pairs": [
+    {
+      "n": 12876,
+      "id": "rem_43963",
+      "jp": "知力と魔力をちょっと高める、叡智を司る三角帽。高まった気がするという気分の方が大事。",
+      "en": "A triangular hat of wisdom. Slightly boosts intellect and magic. The feeling of being smarter matters more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12877,
+      "id": "rem_43964",
+      "jp": "叡智の三角帽子",
+      "en": "Wise Tri-Corn Hat",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12878,
+      "id": "rem_43965",
+      "jp": "サージから輸入している珈琲。指向者は多いがぼったくられていた。魔術師の中には紅茶より好む者が多いらしい。",
+      "en": "Imported coffee from Sage. Popular but overpriced. Many mages prefer it over tea.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12879,
+      "id": "rem_43966",
+      "jp": "サージの輸入コーヒー",
+      "en": "Imported Sage Coffee",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12880,
+      "id": "rem_43967",
+      "jp": "定期的に塗る事で、その部分から毛が生えてこなくなる薬。ムダ毛処理ができるが、間違って頭に付けると大変な事になる。",
+      "en": "A lotion that stops hair growth where applied. Good for unwanted hair, but disastrous if applied to the head.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12881,
+      "id": "rem_43968",
+      "jp": "つるつる脱毛薬",
+      "en": "Slick Hair Removal Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12882,
+      "id": "rem_43969",
+      "jp": "気分が若返る薬。気分に引っ張られて見た目も若返ってるように見える。女性だけでなく男性にも人気。「プラシーボって凄いのう」とは、開発者の談。",
+      "en": "A youth-reviving potion—in spirit. That feeling makes you look younger too. Popular with men and women. The developer says, \"The placebo effect is amazing.\"",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12883,
+      "id": "rem_43970",
+      "jp": "美薬マールデワカイデ",
+      "en": "Beauty Potion MarudeWakaide",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12884,
+      "id": "rem_43971",
+      "jp": "あらゆる性的な感度が跳ね上がる。百倍というのはいささか盛っており、不感が敏感になる程度。それでも十分とんでもないが。",
+      "en": "Amplifies all sexual sensation a hundredfold—well, maybe exaggerated. More like turning numbness into sensitivity. Still pretty wild.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12885,
+      "id": "rem_43972",
+      "jp": "百倍感度増幅薬",
+      "en": "100x Sensitivity Amplifier",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12886,
+      "id": "rem_43973",
+      "jp": "自分が忘れたいことを忘れることができる不思議な薬。他人に無理に飲ませても効果は発揮しない。多用は危険なため、何度も使い続けると思い出してしまう効果が付与されている。",
+      "en": "A strange potion to forget what you wish to forget. Force-feeding it to others won't work. Overuse is dangerous, so repeated use makes you remember again.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12887,
+      "id": "rem_43974",
+      "jp": "忘却の秘薬",
+      "en": "Elixir of Oblivion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12888,
+      "id": "rem_43975",
+      "jp": "バジリスクの肉を焼いた魔界料理。見た目的にも人間界の料理と遜色ない。本当にバジリスクの肉なのだろうか？",
+      "en": "Grilled basilisk, a demon world dish. Looks just like human world food. Is it really basilisk meat?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12889,
+      "id": "rem_43976",
+      "jp": "グリルドバジリスク",
+      "en": "Grilled Basilisk",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12890,
+      "id": "rem_43977",
+      "jp": "希少な魔界ロブスターを豪快に使用したグラタン料理。見た目は豪快だが食べられる部分は多くない。しかしその旨さはまさにモンスター級。",
+      "en": "A gratin made lavishly with rare demon world lobster. Looks hearty, but not much to eat. The flavor, however, is monstrously good.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12891,
+      "id": "rem_43978",
+      "jp": "魔界ロブスターグラタン",
+      "en": "Demon World Lobster Gratin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12892,
+      "id": "rem_43979",
+      "jp": "魔界植物から得た濃密な砂糖を練り込み、幾重にも重ねたロールケーキ。中心は時空が歪んでいるような錯覚を覚えるが、魔界フルーツらしい。",
+      "en": "A rolled cake with dense sugar from demon world plants, layered many times. The center feels like distorted spacetime, but it's just demon world fruit.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12893,
+      "id": "rem_43980",
+      "jp": "魂のロールケーキ",
+      "en": "Soul Roll Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12894,
+      "id": "rem_43981",
+      "jp": "星の輝きを散りばめ、魔界の高級甘味を隠し味に取り込んだ究極スイーツ。制作できる者は非常に少なく、職人が渇望される。一度食べた者は大金を積んででも欲しがるという。",
+      "en": "The ultimate dessert, studded with starlight and infused with demon world sweets. Very few can make it; artisans are in high demand. Eaters crave it, willing to pay fortunes.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12895,
+      "id": "rem_43982",
+      "jp": "赤き星のスターケーキ",
+      "en": "Red Star Starcake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12896,
+      "id": "rem_43983",
+      "jp": "持つと非常に軽いが、叩くと異常に重い衝撃を与えるハンマー。持ったまま歩き回り、他人に触れてしまうと大変な事になってしまう。使用者には細心の注意が求められる。",
+      "en": "A hammer that's light to hold but delivers crushing blows. Accidentally touching others while carrying it can be disastrous. User caution required.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12897,
+      "id": "rem_43984",
+      "jp": "軽くなる金属ハンマー",
+      "en": "Lightweight Metal Hammer",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12898,
+      "id": "rem_43985",
+      "jp": "本物の景色を映しとる撮影機。一部では魂を奪われる危険があるとの噂もあるが、とあるゴッドいわく「そんなんで取れたら苦労しないデス」との事。",
+      "en": "A camera that captures true scenery. Rumors say it can steal souls, but a certain god says, \"If it were that easy, I'd be out of a job.\"",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12899,
+      "id": "rem_43986",
+      "jp": "光投影式描画装置",
+      "en": "Light-Projection Drawing Device",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12900,
+      "id": "rem_43987",
+      "jp": "古の聖者の遺体を包んだ布で作ったリボン。もし本物だとすれば、布だけでとんでもない大きさになってしまう。古の聖者巨人説を強力に後押しする商品。巨人のはずはない。",
+      "en": "A ribbon made from cloth that wrapped an ancient saint's body. If real, the cloth implies a giant saint—boosting the giant saint theory. Probably not a giant.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

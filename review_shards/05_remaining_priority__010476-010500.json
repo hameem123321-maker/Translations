@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10476,
+  "range_end": 10500,
+  "pairs": [
+    {
+      "n": 10476,
+      "id": "rem_38237",
+      "jp": "ゼカリウス自警団",
+      "en": "Zecarius Militia",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10477,
+      "id": "rem_38238",
+      "jp": "南方に位置する熱帯地方、灼熱の都サージとの交易の要。血の気が多く、小競り合いが絶えないサージに対抗するため、大きな軍備が置かれ、その様は要塞にも似たものである。多様な資源を取引しているが、たまに禁制品までも流入する。",
+      "en": "A vital trading hub with the southern tropical city of Sarge. Heavily fortified against Sarge's constant skirmishes, it resembles a fortress. It trades diverse goods, sometimes even contraband.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10478,
+      "id": "rem_38239",
+      "jp": "『無貌』の異名で知られる裏組織。それには名はなく、暗殺や工作などの、大陸のあらゆる汚れ仕事を請け負っているといわれる。彼らの依頼者は王都の貴族が多く、政治にも深く関わっている。しかし、その実体は不明で、本当に存在するかも謎。",
+      "en": "A shadowy organization known as 'Faceless.' It has no name and is rumored to handle the continent's dirty work like assassinations and sabotage. Many clients are nobles, implicating it in politics. Its true nature, even its existence, is a mystery.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10479,
+      "id": "rem_38240",
+      "jp": "盗賊ギルド『無貌』",
+      "en": "Thieves' Guild 'Faceless'",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10480,
+      "id": "rem_38241",
+      "jp": "ダムブナックの村を中心とする木こり組合。黒の森と呼ばれるダムブナックで林業を行なう彼らは冒険者以上の力を持っており、質の良い木材を求めて、魔力を秘めた危険な森に悠々と潜っていく。",
+      "en": "A lumberjack union centered on Dambunak Village. They work the mystical, dangerous 'Black Forest' of Dambunak with skills surpassing adventurers, boldly seeking quality lumber.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10481,
+      "id": "rem_38242",
+      "jp": "ダムブナック林業組合",
+      "en": "Dambnack Forestry Guild",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10482,
+      "id": "rem_38243",
+      "jp": "学者たちが集まる、古代の叡智を発掘する組織。魔術学院とも関連が強く、古代魔術のシステムを解明して現在の技術にフィードバックを目指している。遺跡渡りとも呼ばれる彼らの多くは、学者であると同時に優秀な冒険者も多く所属する。とても貧乏。",
+      "en": "A group of scholars excavating ancient wisdom, strongly tied to the Magic Academy. They aim to decipher ancient magical systems and apply the knowledge to modern technology. Many of these 'ruin-wanderers' are skilled adventurers as well as scholars. They are notoriously poor.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10483,
+      "id": "rem_38244",
+      "jp": "ロオン遺跡調査団",
+      "en": "Loon Ruins Survey Corps",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10484,
+      "id": "rem_38245",
+      "jp": "『学院』として知られる、大陸最大の魔術組織。表と裏すべての魔術を司り、絶大な権威で魔術の秘奥を管理している。ソルシアの名を背負うことは魔術師の最大の誉れであり、ソルシアの門を潜らずして魔術師を名乗ることは許されない。",
+      "en": "The continent's largest magical organization, known as 'The Academy.' It governs all magic, both public and hidden, managing its deepest secrets with supreme authority. Bearing the name Solthia is a mage's greatest honor, and none may call themselves a mage without passing through its gates.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10485,
+      "id": "rem_38246",
+      "jp": "魔術学院ソルシア",
+      "en": "Solthia Magic Academy",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10486,
+      "id": "rem_38247",
+      "jp": "雪と氷に包まれた、北方の都ノーザリアからの侵攻を防ぐための要塞を守る組織。温暖な土地を求める彼らの侵攻を、幾度となく食い止めている。交易は続いているが、彼らの特産品は少なく不均衡のため、争いの火種は絶えない。",
+      "en": "An organization guarding the fortress that repels invasions from the ice-bound northern capital, Northalia. They have repeatedly halted northerners seeking warmer lands. Trade continues, but the scarcity of their specialty goods creates constant friction.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10487,
+      "id": "rem_38248",
+      "jp": "王都より派遣された選ばれた騎士団。王より魔剣を授けられた騎士達は強力な戦士であり、魔獣から民衆を守っている。同時に王の権力を誇示し、地方都市の蜂起を未然に防ぐ、治安維持組織でもある。",
+      "en": "An elite order of knights dispatched from the royal capital. Knights granted magic swords by the king are mighty warriors who protect the people from monsters. They also act as a public security force, showcasing royal power and preventing uprisings in regional cities.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10488,
+      "id": "rem_38249",
+      "jp": "王立騎士団",
+      "en": "Royal Knights",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10489,
+      "id": "rem_38250",
+      "jp": "伝説の高級娼婦『ルーラ』の名で知られる大陸娼婦の元締め。大陸の夜と性を司り、王家にも発言力がある。大陸すべての娼婦は彼らが管理しており、脱退は許されない。女の盾であり、恐怖の象徴でもある。指導者の実体は表には知られていない。",
+      "en": "The continent's main brothel syndicate, named after the legendary courtesan 'Lula.' They control the night and sexuality, wielding influence even with the royal family. All courtesans on the continent are under their management, and resignation is forbidden. They are a shield for women and a symbol of terror. The leader's true identity is unknown.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10490,
+      "id": "rem_38251",
+      "jp": "ルーラ・ブロッサ娼会",
+      "en": "Lula Blossa Brothel Association",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10491,
+      "id": "rem_38252",
+      "jp": "ゼカリウス地方に存在する、様々な宗教団体に無差別に投資する。宗教団体もピンキリ、良くも悪くもエネルギーがあるので、彼らをコントロールできれば、この地の平穏に繋がる……と思う。",
+      "en": "In the Zecarius region, we invest indiscriminately in various religious groups. Groups vary in quality, but they all have energy—for good or ill. We believe controlling them is key to regional peace... or so we think.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10492,
+      "id": "rem_38253",
+      "jp": "様々な宗教団体に投資",
+      "en": "Invest in Various Religious Groups",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10493,
+      "id": "rem_38254",
+      "jp": "「死都を見届ける者」",
+      "en": "\"One Who Witnesses the Dead Capital\"",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10494,
+      "id": "rem_38255",
+      "jp": "秘術の守護者",
+      "en": "Guardian of Secret Arts",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10495,
+      "id": "rem_38256",
+      "jp": "店員を休ませることが出来る部屋。一度に多くの店員が回復できるので回復効率が高いが、男性専用なので女性店員は入室できない。宿泊のクオリティもアップする。",
+      "en": "A room where staff can rest. It can recover many staff at once, making it highly efficient. However, it's male-only, so female staff cannot enter. Accommodation quality is also improved.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10496,
+      "id": "rem_38257",
+      "jp": "休憩ルーム・男性",
+      "en": "Rest Room: Male",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10497,
+      "id": "rem_38258",
+      "jp": "店員を休ませることが出来る部屋。一度に多くの店員が回復できるので、通常の店員ルームより回復効率が高いが、女性専用なので男性店員は入室できない。",
+      "en": "A room where staff can rest. It can recover many staff at once, making it more efficient than the standard staff room. However, it's female-only, so male staff cannot enter.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10498,
+      "id": "rem_38259",
+      "jp": "休憩ルーム・女性",
+      "en": "Rest Room: Female",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10499,
+      "id": "rem_38260",
+      "jp": "お風呂エッチとして『スマタ』と『泡プレイ』も可能になるルーム。高級な搾精ルームであるが、性能的には上位というわけではないので注意。【シーン解放の条件になることもある。】",
+      "en": "A room that enables bath H-scenes: 'Sumata' and 'Bubble Play.' It's a high-class milking room, but note it's not necessarily top-tier in performance.【May be required to unlock certain scenes.】",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10500,
+      "id": "rem_38261",
+      "jp": "ソープ搾精ルーム",
+      "en": "Soapland Milking Room",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    }
+  ]
+}

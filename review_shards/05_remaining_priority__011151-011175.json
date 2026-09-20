@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11151,
+  "range_end": 11175,
+  "pairs": [
+    {
+      "n": 11151,
+      "id": "rem_38912",
+      "jp": "見ているだけで力が湧いてくる、不思議なかぼちゃ。甘くほっこりした実はスープに最適で、食べれば身も心も強靭になる。",
+      "en": "A mysterious pumpkin that makes you feel stronger just by looking at it. Its sweet, hearty flesh is perfect for soup and fortifies body and mind.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11152,
+      "id": "rem_38913",
+      "jp": "フォースパンプキン",
+      "en": "Force Pumpkin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11153,
+      "id": "rem_38914",
+      "jp": "一粒で冒険の活力が得られるという大地の恵み。類似した野菜類は数多く出回るが、薬効と栄養価を兼ね備えたモノは極めて稀。",
+      "en": "A bounty of the earth said to provide the energy for an entire adventure with one bite. Many similar vegetables exist, but few possess both medicinal and nutritional value.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11154,
+      "id": "rem_38915",
+      "jp": "ボルカニックトマト",
+      "en": "Volcanic Tomato",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11155,
+      "id": "rem_38916",
+      "jp": "知啓を授かると言われる、地下に実を作る薬草の一種。そのまま噛り付くと、強靭な冒険者でも泣いてしまう辛味を持ち、食べるには工夫が必要。",
+      "en": "A type of medicinal herb bearing fruit underground, said to bestow enlightenment. Biting into it raw releases a spiciness that can make even the hardiest adventurer cry, requiring clever preparation to eat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11156,
+      "id": "rem_38917",
+      "jp": "叡智のオニオン",
+      "en": "Onion of Wisdom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11157,
+      "id": "rem_38918",
+      "jp": "食べれば火を噴くような辛さを感じる唐辛子。焼き野菜や煮込み料理に、少量を加えて味を楽しめる。",
+      "en": "A chili pepper that feels blazingly spicy when eaten. Enjoyed by adding a small amount to roasted vegetables or stews.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11158,
+      "id": "rem_38919",
+      "jp": "フレイムペッパー",
+      "en": "Flame Pepper",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11159,
+      "id": "rem_38920",
+      "jp": "邪教徒が儀式用に育てたかぼちゃ。呪われた土地で栽培され、独特の苦味と甘さに中毒性がある。闇の住人が好む、ダーク食材。",
+      "en": "A pumpkin cultivated by cultists for rituals. Grown on cursed land, it has an addictive bitter-sweetness. A dark ingredient favored by shadow-dwellers.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11160,
+      "id": "rem_38921",
+      "jp": "邪教徒パンプキン",
+      "en": "Cultist Pumpkin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11161,
+      "id": "rem_38922",
+      "jp": "サルバック砂漠に沈んだ黄金都市ゴルドヴァーナの遺跡から見つかったマメ。独特な風味と食感は、ナッツの常識を塗り替える。現在量産の研究中。",
+      "en": "A bean found in the ruins of the golden city Gordeuvana, sunk in the Sarubac Desert. Its unique flavor and texture redefine nut conventions. Mass production is being researched.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11162,
+      "id": "rem_38923",
+      "jp": "ゴールデンナッツ",
+      "en": "Golden Nut",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11163,
+      "id": "rem_38924",
+      "jp": "アルダルク農業組合の牧場で生産される人気のフルーツ。たっぷりと果汁を溜め込んだ甘い果実は、老若男女を問わず人気。",
+      "en": "A popular fruit produced at the Ardaluke Agriculture Union's ranch. Its sweet flesh, packed with juice, is loved by people of all ages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11164,
+      "id": "rem_38925",
+      "jp": "牧場生産フルーツ",
+      "en": "Ranch-Produced Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11165,
+      "id": "rem_38926",
+      "jp": "活力が増す不思議な木の実。森で多く採れ、スイーツにも利用される。",
+      "en": "A mysterious fruit that boosts vitality. Common in forests, also used in sweets.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11166,
+      "id": "rem_38927",
+      "jp": "ライフアップル",
+      "en": "Life Apple",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11167,
+      "id": "rem_38928",
+      "jp": "天然の糖分とミネラルをたっぷり含んだ森の恵み。適度な甘さとスッキリした酸味は、疲労を溶かすように体に染みわたる。",
+      "en": "A bounty of the forest, rich in natural sugars and minerals. Its moderate sweetness and refreshing acidity seep into the body, melting away fatigue.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11168,
+      "id": "rem_38929",
+      "jp": "森の恵みフルーツ",
+      "en": "Forest's Bounty Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11169,
+      "id": "rem_38930",
+      "jp": "赤い皮に包まれた果実。小粒な見た目とは裏腹に、大量の水分を含んでいる。",
+      "en": "A fruit wrapped in red skin. Despite its small appearance, it contains a large amount of water.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11170,
+      "id": "rem_38931",
+      "jp": "みずみずしい赤身果実",
+      "en": "Juicy Red Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11171,
+      "id": "rem_38932",
+      "jp": "紫色に変色したベリー果実。闇の魔力を蓄えた果肉は極上の味わいを持つが、依存性を持つ為、調理方法には一工夫必要。",
+      "en": "A berry that has turned purple. Its flesh, infused with dark magic, has an exquisite taste, but its addictive nature requires careful preparation.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11172,
+      "id": "rem_38933",
+      "jp": "邪教のブラッドベリ―",
+      "en": "",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 11173,
+      "id": "rem_38934",
+      "jp": "溢れる生命力と神聖な魔力が漲る果実。人工的な栽培が成功しておらず、一流の冒険者が死線をくぐらねば入手できないと言われている。",
+      "en": "A fruit overflowing with vital energy and holy magic. Artificial cultivation has not succeeded; it is said only top adventurers risking their lives can obtain it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11174,
+      "id": "rem_38935",
+      "jp": "命漲る天上の果実",
+      "en": "Heavenly Fruit of Life",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11175,
+      "id": "rem_38936",
+      "jp": "魔術によって成長を促進させた、爽やかな芳香を放つレモン。フレッシュな酸味と、スッキリとした後味を感じられる。",
+      "en": "A lemon grown with magical acceleration, emitting a refreshing aroma. Offers a fresh sourness and a crisp aftertaste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

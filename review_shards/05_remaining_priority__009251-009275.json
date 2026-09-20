@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9251,
+  "range_end": 9275,
+  "pairs": [
+    {
+      "n": 9251,
+      "id": "rem_36973",
+      "jp": "黒炭を細く固めた芯を筒に入れ、尾部から少しずつ出せるようにした物。耐久性、持続性に優れた高級家庭用品。",
+      "en": "A premium household item. Features a thin, hardened charcoal core in a tube that can be extended from the end. Excellent durability and longevity.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9252,
+      "id": "rem_36974",
+      "jp": "飛び出し筆記黒炭",
+      "en": "Retractable Charcoal Pencil",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9253,
+      "id": "rem_36975",
+      "jp": "刻んだ文字が光り続ける魔法の石板。しかしすでに表面は文字でいっぱいの為、新たに書く為には表面を平らに研磨しなくてはならない。",
+      "en": "A magical stone slab where engraved letters glow permanently. Its surface is already full, requiring polishing to write anew.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9254,
+      "id": "rem_36976",
+      "jp": "幻光石板",
+      "en": "Phantasmal Glow Slab",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9255,
+      "id": "rem_36977",
+      "jp": "インクがじわじわと滲みだす機構を備えた家庭用品。学びたい事を念じながら記載すると、学んだことを忘れずに済むらしい。",
+      "en": "A household item with a mechanism for gradual ink seepage. Writing while focusing on what you wish to learn supposedly helps you remember it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9256,
+      "id": "rem_36978",
+      "jp": "忘れずの万年筆",
+      "en": "Unforgettable Fountain Pen",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9257,
+      "id": "rem_36979",
+      "jp": "念じた物が書き込まれる、夢の本。他人の思考を盗み出す目的で悪用され、要人は魔術的な防御対策を迫られた。",
+      "en": "A book of dreams that writes down what is concentrated upon. Misused to steal others' thoughts, forcing important figures to adopt magical defenses.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9258,
+      "id": "rem_36980",
+      "jp": "記憶投射ブック",
+      "en": "Memory Projection Book",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9259,
+      "id": "rem_36981",
+      "jp": "食肉を乾燥させた保存食。冒険中でも手軽に肉を食べられる為、冒険者に人気。腹持ちするものの、塩味がキツい。",
+      "en": "Preserved food made from dried meat. Popular with adventurers for easy meat consumption on journeys. Filling, but very salty.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9260,
+      "id": "rem_36982",
+      "jp": "干した肉",
+      "en": "Dried Meat",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9261,
+      "id": "rem_36983",
+      "jp": "大量に使用されることを想定された携帯食。栄養満点になるように調整したが、地獄を思わせる見た目と味に評判は悪い。非常に長持ちする。",
+      "en": "Mass-produced field rations. Formulated for full nutrition, but notorious for their hellish appearance and taste. Extremely long-lasting.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9262,
+      "id": "rem_36984",
+      "jp": "軍用携帯スープ",
+      "en": "Military Canned Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9263,
+      "id": "rem_36985",
+      "jp": "とても日持ちする固いパン。保存のために徹底的に水分を抜いた為、武器にもなりそうな堅さになった。",
+      "en": "Extremely durable hard bread. Dried so thoroughly for preservation it could double as a weapon.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9264,
+      "id": "rem_36986",
+      "jp": "堅いパン",
+      "en": "Hardtack",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9265,
+      "id": "rem_36987",
+      "jp": "大量に使用されることを想定された携帯食。肉を食べたいという要望に応えて、保存の利く肉を作り出した。なぜか評判は悪い。",
+      "en": "Mass-produced field rations. Created to answer the demand for meat, resulting in a shelf-stable version. For some reason, it gets poor reviews.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9266,
+      "id": "rem_36988",
+      "jp": "軍用携帯ビーフジャーキー",
+      "en": "Military Beef Jerky",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9267,
+      "id": "rem_36989",
+      "jp": "異国から伝わった、味が良く、そこそこ長持ちし、栄養バランスも整った携帯用の食糧。軍用食しか食べた事のない兵士が、これを食べて咽び泣いた。",
+      "en": "Flavorful, decently long-lasting, and nutritionally balanced field rations from a foreign land. Soldiers used to only military food have broken down in tears after eating this.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9268,
+      "id": "rem_36990",
+      "jp": "理想の携帯兵糧",
+      "en": "Ideal Field Ration",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9269,
+      "id": "rem_36991",
+      "jp": "素早い爬虫類を捕まえて、火を通したワイルド携帯食。生きる為に仕方なく食べる物だが、意外と美味しいらしく、携帯食を研究する軍関係者が憤慨した。",
+      "en": "A wild field meal of roasted, quick reptiles. Eaten out of necessity, but surprisingly tasty, much to the outrage of military ration researchers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9270,
+      "id": "rem_36992",
+      "jp": "現地調達携帯食",
+      "en": "Locally Sourced Field Meal",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9271,
+      "id": "rem_36993",
+      "jp": "大量に使用されることを想定された携帯食。味と見た目が悪い不評を克服した、シンプルな見た目と味。栄養は満点だが食べた気がしないという不満が出ている。",
+      "en": "Mass-produced field rations. A simple look and taste meant to overcome complaints about flavor and appearance. Full of nutrition, but some complain it doesn't feel like you've eaten.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9272,
+      "id": "rem_36994",
+      "jp": "軍用携帯シチュー",
+      "en": "Military Canned Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9273,
+      "id": "rem_36995",
+      "jp": "不味い携帯食に辟易する冒険者のために新たに開発した美味しい携帯食。栄養満点で美味。欠点は、あまりにも美味しすぎて、すぐに食べきってしまう点である。",
+      "en": "New, delicious rations developed for adventurers sick of bad field food. Nutritious and tasty. The downside is they're so good they get eaten up immediately.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9274,
+      "id": "rem_36996",
+      "jp": "おいしい携帯ビーフ",
+      "en": "Tasty Packed Beef",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9275,
+      "id": "rem_36997",
+      "jp": "様々な薬草を配合して作った栄養バー。食べてからしばらくの間は筋力と集中力が増すという。",
+      "en": "A nutrition bar made with various herbs. Temporarily boosts muscle strength and focus after consumption.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

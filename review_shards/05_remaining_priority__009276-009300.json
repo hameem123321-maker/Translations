@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9276,
+  "range_end": 9300,
+  "pairs": [
+    {
+      "n": 9276,
+      "id": "rem_36998",
+      "jp": "エナジーブーストバー",
+      "en": "Energy Boost Bar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9277,
+      "id": "rem_36999",
+      "jp": "動物の栄養を手軽に摂取でき、クリーミーで濃厚な味のある軍用食。軽いうえに味にも拘り、その見た目からすぐに消費されることもないのだが、現場からは不評。",
+      "en": "Creamy, rich-tasting military food for easy animal nutrition. Light with a focus on flavor, and its appearance prevents quick consumption, yet it gets poor reviews from the field.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9278,
+      "id": "rem_37000",
+      "jp": "濃縮動物性栄養食",
+      "en": "Concentrated Animal Nutrient Food",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9279,
+      "id": "rem_37001",
+      "jp": "ゼカリウスの海の幸をふんだんに使った究極の軍用携帯食。口にした者は鬼神のごとき強さを発揮して大活躍するが、なぜか二度と食べたがらない。",
+      "en": "The ultimate military ration, made with abundant Zecarius seafood. Those who eat it perform great feats with demon-like strength, but strangely never want to eat it again.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9280,
+      "id": "rem_37002",
+      "jp": "軍用食ゼカリウスグレート",
+      "en": "Military Ration Zecarius Great",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9281,
+      "id": "rem_37003",
+      "jp": "とある植物の地下茎を凝固剤で固めたもの。原料はそのままだと毒性を持つ為、この調理法が必須。どうしてここまでして食べるのか。",
+      "en": "A coagulant-hardened plant rhizome. The raw ingredient is toxic, making this preparation essential. Why go to such lengths to eat it?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9282,
+      "id": "rem_37004",
+      "jp": "凝塊地下茎",
+      "en": "Coagulated Rhizome",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9283,
+      "id": "rem_37005",
+      "jp": "辛みのある森のハーブで味をつけたテンタクル。採れたばかりの新鮮な魚介類の為、安心して食べられる。断じて這い寄る変な触手ではない。",
+      "en": "Tentacle seasoned with spicy forest herbs. Made from freshly caught seafood, so it's safe to eat. Definitely not a weird, crawling tentacle.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9284,
+      "id": "rem_37006",
+      "jp": "灯台守のたこわさ盛り",
+      "en": "Lighthouse Keeper's Octopus Pile",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9285,
+      "id": "rem_37007",
+      "jp": "テンタクルの触手を串に刺し、焼き上げた料理。恐怖を与える見た目とは裏腹に、弾力と濃厚な味が楽しめる。",
+      "en": "Tentacle speared and grilled on a skewer. Despite its fearsome appearance, it offers a chewy texture and rich flavor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9286,
+      "id": "rem_37008",
+      "jp": "テンタクル触手串焼き",
+      "en": "Grilled Tentacle Skewer",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9287,
+      "id": "rem_37009",
+      "jp": "謎の肉を干したもの。見た目さえ気にしなければ栄養満点。",
+      "en": "Dried mystery meat. Packed with nutrients if you can ignore its looks.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9288,
+      "id": "rem_37010",
+      "jp": "干した珍味",
+      "en": "Dried Delicacy",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9289,
+      "id": "rem_37011",
+      "jp": "奥が透けて見える程に薄く切った穀物を、ナイフで切れないほどパリパリに、高温のオイルで揚げた料理。食用のオイルは貴重なため、中々の贅沢品。",
+      "en": "Grain sliced so thin it's translucent, fried in hot oil until shatteringly crisp. Edible oil is precious, making this a rare luxury.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9290,
+      "id": "rem_37012",
+      "jp": "極薄穀物フライ",
+      "en": "Ultra-Thin Grain Fry",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9291,
+      "id": "rem_37013",
+      "jp": "調味料で漬け込んだカラフルなナッツ類。しかしメインの入手先は冒険者が森で採取する為、どのような植物から取れるのかは不明。",
+      "en": "Colorful nuts pickled in seasoning. Adventurers gather them from the forest, so their exact plant source is unknown.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9292,
+      "id": "rem_37014",
+      "jp": "カラフルナッツ",
+      "en": "Colorful Nuts",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9293,
+      "id": "rem_37015",
+      "jp": "味を付けた油に漬け込んだ魔獣の目玉。見た目はグロテスクだが、酒の肴には意外に合うと評判。",
+      "en": "Pickled monster eyeballs in seasoned oil. They look grotesque but are surprisingly good with drinks.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9294,
+      "id": "rem_37016",
+      "jp": "オイル着け魔獣の目玉",
+      "en": "Oil-Pickled Monster Eyeballs",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9295,
+      "id": "rem_37017",
+      "jp": "何とも言葉にし難いテンタクルの様な触腕。これをスライスしてそのままなり、焼くなりしてから口に入れる。それだけで言い表せない表情になるとかならないとか。",
+      "en": "A tentacle-like appendage, hard to describe. Sliced and eaten raw or grilled. It's said to produce an indescribable expression.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9296,
+      "id": "rem_37018",
+      "jp": "新鮮な這い寄る触手",
+      "en": "Fresh Crawling Tentacle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9297,
+      "id": "rem_37019",
+      "jp": "魔獣の強靭な内臓にひき肉を詰めた料理。硬い皮のような外側と、肉汁の溢れる内側の食感が人気だが、元は錬金術師が魔獣のいらない部位で作った家畜の餌。",
+      "en": "Monster intestines stuffed with ground meat. Popular for the contrast of tough exterior and juicy interior. Originally alchemist-made livestock feed from monster scraps.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9298,
+      "id": "rem_37020",
+      "jp": "魔獣の腸詰",
+      "en": "Monster Sausage",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9299,
+      "id": "rem_37021",
+      "jp": "アーマニア海で取れた魚の腹から取り出した魚卵を塩蔵した高級珍味。その独特な味わいに誘われ、高級品にも関わらず買い求められる。",
+      "en": "A high-grade delicacy: salted fish roe from Armoranian sea fish. Its unique flavor makes it sought-after despite the price.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9300,
+      "id": "rem_37022",
+      "jp": "山盛りイクラ",
+      "en": "Mountain of Salmon Roe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

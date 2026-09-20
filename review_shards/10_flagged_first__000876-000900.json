@@ -1,0 +1,283 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 876,
+  "range_end": 900,
+  "pairs": [
+    {
+      "n": 876,
+      "id": "rem_00712",
+      "jp": "ゴブリンの種子",
+      "en": "Goblin Seed",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 877,
+      "id": "rem_11437",
+      "jp": "あらゆることに対して飲み込みが早く、成長する速度に優れるデス",
+      "en": "",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 878,
+      "id": "rem_11491",
+      "jp": "男の精液をすすり、搾り取る淫魔の資質デス",
+      "en": "The nature of a succubus who sips and drains a man's semen.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 879,
+      "id": "rem_11492",
+      "jp": "精液グルメ",
+      "en": "Semen Gourmet",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 880,
+      "id": "rem_11656",
+      "jp": "他人とすぐに打ち解ける会話上手デス",
+      "en": "",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 881,
+      "id": "rem_27038",
+      "jp": "14-平穏",
+      "en": "",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 882,
+      "id": "rem_27058",
+      "jp": "ドキドキ",
+      "en": "Flustered",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 883,
+      "id": "rem_27060",
+      "jp": "ピリピリ",
+      "en": "On Edge",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 884,
+      "id": "rem_27062",
+      "jp": "デレデレ",
+      "en": "Infatuated",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 885,
+      "id": "rem_27064",
+      "jp": "エロエロ",
+      "en": "Lustful",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 886,
+      "id": "rem_27089",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』がよくない噂を振りまいている。民衆を変に煽動して騒ぎにならないように、釘を刺しておこう。そのためには影響力が必要だ。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 887,
+      "id": "rem_27093",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の施設を誘致するための資金提供をする。近所に宗教施設を建てれば、信者が客としてやってくるだろうか。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 888,
+      "id": "rem_27182",
+      "jp": "何度もオマンコに射精してもらって、体の中から綺麗にいたしましたД　もっと私で、気持ち良くなってくださいД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 889,
+      "id": "rem_27186",
+      "jp": "こんな未来も起こったかもしれないんですよね？　今の幸せも、全部<pl>様のおかげです……Д",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 890,
+      "id": "rem_27197",
+      "jp": "『キャトリナ』の好感度がB以上",
+      "en": "",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 891,
+      "id": "rem_27261",
+      "jp": "『レミル』が妊娠している",
+      "en": "",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 892,
+      "id": "rem_29758",
+      "jp": "搾精量アップLv1",
+      "en": "Seed Extraction Up Lv1",
+      "table": "db_UnitCharaClubClassHSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 893,
+      "id": "rem_29759",
+      "jp": "搾精量アップLv2",
+      "en": "Seed Extraction Up Lv2",
+      "table": "db_UnitCharaClubClassHSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 894,
+      "id": "rem_29760",
+      "jp": "搾精量アップLv3",
+      "en": "Semen Extraction Lv3",
+      "table": "db_UnitCharaClubClassHSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 895,
+      "id": "rem_29761",
+      "jp": "種乞いの舞い",
+      "en": "Seed-Asking Dance",
+      "table": "db_UnitCharaClubClassHSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 896,
+      "id": "rem_29767",
+      "jp": "無限射精能力(死ぬまで)",
+      "en": "Infinite Ejaculation (Until Death)",
+      "table": "db_UnitCharaClubClassHSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 897,
+      "id": "rem_30307",
+      "jp": "タネウマライダー",
+      "en": "Seed-Spread Rider",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 898,
+      "id": "rem_30799",
+      "jp": "王立騎士団Lv14",
+      "en": "",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 899,
+      "id": "rem_30998",
+      "jp": "フェラ",
+      "en": "Blowjob",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 900,
+      "id": "rem_30999",
+      "jp": "クンニ",
+      "en": "Cunnilingus",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    }
+  ]
+}

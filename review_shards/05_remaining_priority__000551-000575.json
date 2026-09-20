@@ -1,0 +1,217 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 551,
+  "range_end": 575,
+  "pairs": [
+    {
+      "n": 551,
+      "id": "rem_00551",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。風の魔法を得意とし、周囲を狂嵐の結界へと引きずり込む。",
+      "en": "A spirit mimicking a flaming skull. Flies around the living in a set pattern, mockingly draining their life force. Skilled in wind magic, it drags the surroundings into a stormy barrier.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 552,
+      "id": "rem_00552",
+      "jp": "ウィンドスピリット",
+      "en": "Wind Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 553,
+      "id": "rem_00553",
+      "jp": "機械化された鋼鉄の狩人。失われたテクノロジーで動いており、どういう仕組みで動作しているのかは、この世界の人間には理解できない。危険な殺人兵器。",
+      "en": "A mechanized steel hunter. Powered by lost technology, its workings are incomprehensible to this world's people. A dangerous killing machine.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 554,
+      "id": "rem_00554",
+      "jp": "メタルハンター",
+      "en": "Metal Hunter",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 555,
+      "id": "rem_00555",
+      "jp": "小型の殺人飛行機械。偵察を主とした下位種と違い、外敵の排除が主な任務。力は弱いが無音で飛行し、死角から集団で襲ってくる。",
+      "en": "A small flying killing machine. Unlike its lower-tier reconnaissance cousins, its main task is eliminating enemies. Weak but flies silently, attacking in groups from blind spots.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 556,
+      "id": "rem_00556",
+      "jp": "キラーメタルビー",
+      "en": "Killer Metal Bee",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 557,
+      "id": "rem_00557",
+      "jp": "生物を石化させる毒を持つ魔物。魔獣の中でも強力な怪物であり、さらに好戦的。相手にするにはベテランの冒険者の一党でも、犠牲を覚悟しなくてはならないだろう。",
+      "en": "A monster with a petrifying poison. Among magical beasts, it is a powerful and aggressive foe. Even a veteran adventurer party must be prepared for casualties when facing it.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 558,
+      "id": "rem_00558",
+      "jp": "バジリスク",
+      "en": "Basilisk",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 559,
+      "id": "rem_00559",
+      "jp": "鋼鉄のボディを持つゴーレム。通常のゴーレムよりも、生命体を殺傷する能力に長けている。",
+      "en": "A golem with a steel body. More adept at killing living beings than ordinary golems.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 560,
+      "id": "rem_00560",
+      "jp": "アイアンゴーレム",
+      "en": "Iron Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 561,
+      "id": "rem_00561",
+      "jp": "鋼鉄の鎧に身を包み、強靱なボディを持つ太古のゴーレム。殺人のみを追求した性能を発揮し、侵入者を確実に抹殺する。",
+      "en": "An ancient golem clad in steel armor, with a tough body. It unleashes its murder-focused design to reliably eliminate intruders.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 562,
+      "id": "rem_00562",
+      "jp": "ロストガーディアン",
+      "en": "Lost Guardian",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 563,
+      "id": "rem_00563",
+      "jp": "北方にて発生した変異種。深部を探索するホブゴブリン。注意力散漫で大雑把だが、その一撃は通常のホブよりも強力。",
+      "en": "A variant born in the north. A deep-exploring hobgoblin. Distracted and rough, but its strike is stronger than ordinary hobs.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 564,
+      "id": "rem_00564",
+      "jp": "ホブゴブリン・北方種",
+      "en": "Hobgoblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 565,
+      "id": "rem_00565",
+      "jp": "北方にて発生した変異種。異形の変異ゴブリン。変異ゴブリンの中でも感覚が鋭く、隙を見せると場数を踏んだ冒険者でも危険。",
+      "en": "A variant born in the north. A misshapen mutant goblin. Among mutants, its senses are sharp; even seasoned adventurers are in danger if they let their guard down.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 566,
+      "id": "rem_00566",
+      "jp": "変異ゴブリン・北方種",
+      "en": "Mutant Goblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 567,
+      "id": "rem_00567",
+      "jp": "悪魔の縄とも言われる強靱なワーム。絡みとられたが最後、人はおろか、強力な魔獣であろうと、身動きすることができなくなると言われる。",
+      "en": "A tough worm called the devil's rope. Once entangled, it's said even powerful magical beasts—let alone humans—cannot move.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 568,
+      "id": "rem_00568",
+      "jp": "デビルワーム",
+      "en": "Devil Worm",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 569,
+      "id": "rem_00569",
+      "jp": "燃え盛る岩石で肉体を構成されたマグマゴーレム。体を構成するマグマの温度が低かったせいか、自壊せずに燃え上がったまま活動している。存在自体が一つの災厄である。",
+      "en": "A magma golem formed of burning rock. Perhaps due to lower magma temperature, it continues to burn and move without self-destructing. Its existence is a disaster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 570,
+      "id": "rem_00570",
+      "jp": "燃え盛る岩石巨人",
+      "en": "Burning Rock Giant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 571,
+      "id": "rem_00571",
+      "jp": "年経たために皮膚の色が変わったバジリスク。毒素と鱗の強度が増しており、ますます危険度を高めている。性格もあいかわらず凶暴。",
+      "en": "A basilisk aged to a changed skin color. Its poison and scale strength have increased, raising its danger level. Its temperament remains just as savage.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 572,
+      "id": "rem_00572",
+      "jp": "エルダーバジリスク",
+      "en": "Elder Basilisk",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 573,
+      "id": "rem_00573",
+      "jp": "牛型の半獣半人。ハーフデビルよりもさらに魔族に近い。獣と魔族の特性を両方備えており、生半可な冒険者は太刀打ちできず、貪欲にメスを犯す。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 574,
+      "id": "rem_00574",
+      "jp": "ハーフデーモン",
+      "en": "Half-Demon",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 575,
+      "id": "rem_00575",
+      "jp": "土着の精霊が災厄の魔力に当てられ、悪霊と成り果てた。支配地に踏み入る人間の魂や精気を奪い、災厄の主へと届ける役目を持つ。物理攻撃が効きにくい。",
+      "en": "A native spirit corrupted by calamitous magic into a vengeful spirit. It steals the souls and vitality of humans entering its domain, delivering them to the lord of calamity. Resistant to physical attacks.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

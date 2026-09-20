@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9201,
+  "range_end": 9225,
+  "pairs": [
+    {
+      "n": 9201,
+      "id": "rem_36923",
+      "jp": "倫理の反転した邪教徒達が、それまでの価値観を捨て去る為の洗脳薬物。所持する事を禁止されているが、形を変え、ひっそりと闇の中を流通している。",
+      "en": "A mind-altering drug used by cultists who invert ethics to discard old values. Banned, yet persists in altered forms, quietly circulating in the shadows.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9202,
+      "id": "rem_36924",
+      "jp": "邪教の秘薬草",
+      "en": "Cult's Secret Herb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9203,
+      "id": "rem_36925",
+      "jp": "吸引することで多幸感を得られる粉末。常習性が高く、少量だが高値で取引される。南方のサージ地方から密かに原料を輸入され、加工したものが取引されている。",
+      "en": "A euphoria-inducing powder when inhaled. Highly addictive, traded in small quantities for high prices. Raw materials are secretly imported from the southern Surge region, then processed and sold.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9204,
+      "id": "rem_36926",
+      "jp": "ハッピーパウダー",
+      "en": "Happy Powder",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9205,
+      "id": "rem_36927",
+      "jp": "焚くと甘いミストが出てトランス状態に入る事ができる。そのまま眠りについてしまうと永眠になってしまう可能性があり、多くの国で禁止されている。",
+      "en": "Burning it releases a sweet mist that induces a trance. Falling asleep under its influence risks eternal slumber, leading to bans in many nations.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9206,
+      "id": "rem_36928",
+      "jp": "ドリームフォグ",
+      "en": "Dream Fog",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9207,
+      "id": "rem_36929",
+      "jp": "より高い濃度を持ち、成分を調整した粉末。高い酩酊感と多幸感を得られ、やんごとなき身分の間でひそかに出回っている。非常な高値で取引される。",
+      "en": "A refined powder with higher concentration and adjusted composition. Offers intense intoxication and euphoria, discreetly circulating among the highborn. Traded at exorbitant prices.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9208,
+      "id": "rem_36930",
+      "jp": "エンジェルパウダー",
+      "en": "Angel Powder",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9209,
+      "id": "rem_36931",
+      "jp": "緻密に成分調整した次世代粉末。極めて強い多幸感と幻惑を見ることが出来る、しあわせの薬。供給が稀少で、高値で取引されるにもかかわらず、奪い合う。",
+      "en": "A next-generation, meticulously refined powder. Brings intense euphoria and hallucination, the \"drug of bliss.\" Scarce supply causes fierce competition despite its high price.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9210,
+      "id": "rem_36932",
+      "jp": "ヘヴンズダスト",
+      "en": "Heaven's Dust",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9211,
+      "id": "rem_36933",
+      "jp": "南方で発見された、強力な幻覚作用を持つキノコ。合法の素材に混ざり、秘密裏に取引され、サージの貿易管理局が目を光らせている。",
+      "en": "A mushroom from the south with powerful hallucinogenic properties. Mixed with legal materials and traded in secret, closely monitored by Surge's trade authority.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9212,
+      "id": "rem_36934",
+      "jp": "幸福キノコ",
+      "en": "Bliss Mushroom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9213,
+      "id": "rem_36935",
+      "jp": "内部に強力な幻覚物質を含む、綺麗な花。一見するとありふれているが、とある村で秘密裏に品種を改良され続けており、王都でも密かに求められている。",
+      "en": "A beautiful flower containing potent hallucinogens. Appears common, but secretly bred and refined in a certain village. Also sought after in the royal capital.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9214,
+      "id": "rem_36936",
+      "jp": "ハッピーフラワー",
+      "en": "Happy Flower",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9215,
+      "id": "rem_36937",
+      "jp": "清浄な力を持つという触れ込みの塩。悪霊や魔物を祓う際に用いられるが、使用後はしかるべき手順で廃棄しなくてはならない。",
+      "en": "Salt touted for its purifying power. Used to exorcise evil spirits and monsters, but must be properly disposed of after use.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9216,
+      "id": "rem_36938",
+      "jp": "お清めソルト",
+      "en": "Purifying Salt",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9217,
+      "id": "rem_36939",
+      "jp": "一般家庭向けに用意された廉価な魔術結界。悪しき霊体の侵入を防ぐ結界……だが、実用に耐えられるかはわからない。廉価なので、効果も気休め程度。",
+      "en": "A cheap magic ward for general households. Said to ward off evil spirits... but its practical effectiveness is questionable. Cheap price means effects are largely psychological.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9218,
+      "id": "rem_36940",
+      "jp": "家庭向けアミュレット",
+      "en": "Household Amulet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9219,
+      "id": "rem_36941",
+      "jp": "世界が危機に陥ったとき、選ばれた聖女に神が授ける地上最強の剣をかたどったありがたい聖剣。持っていると家内安全、商売繁盛になると言われてる。",
+      "en": "A replica of the world's strongest holy sword, granted by God to a chosen saintess during a world crisis. Said to bring domestic safety and business prosperity.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9220,
+      "id": "rem_36942",
+      "jp": "一家に一本の聖剣",
+      "en": "One Holy Sword per Household",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9221,
+      "id": "rem_36943",
+      "jp": "ヒエペリオ教会が信仰する『聖女』をかたどった、ありがたい像。聖女というのだから美しく心も清らかな女性に決まっている。",
+      "en": "A blessed statue of the 'Saint' worshipped by the Hyeperio Church. As a Saint, she must be a beautiful woman with a pure heart.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9222,
+      "id": "rem_36944",
+      "jp": "聖女の像",
+      "en": "Saint's Statue",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9223,
+      "id": "rem_36945",
+      "jp": "教会が聖なる力をこめたありがたいシンボル。見ていると心が洗われていく……。",
+      "en": "A holy symbol blessed by the Church with divine power. Gazing upon it purifies the soul...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9224,
+      "id": "rem_36946",
+      "jp": "ホーリーシンボル",
+      "en": "Holy Symbol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9225,
+      "id": "rem_36947",
+      "jp": "持つだけで悪魔祓い効果が発生すると言われている魔除け。ただし実際の悪魔がこれによって払われたという話は、宗教関係者しか言っていない。",
+      "en": "A talisman said to ward off demons simply by carrying it. However, only religious figures claim any actual demons were exorcised by it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

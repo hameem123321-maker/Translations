@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6301,
+  "range_end": 6325,
+  "pairs": [
+    {
+      "n": 6301,
+      "id": "rem_33920",
+      "jp": "【<src>】の[オーシャンブレイク]！",
+      "en": "【<src>】's [Ocean Break]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6302,
+      "id": "rem_33921",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 必殺率[+10%]",
+      "en": "Group Attack Power[] + Hit[70%] + Critical Rate[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6303,
+      "id": "rem_33922",
+      "jp": "【<src>】の[叩き潰す]！",
+      "en": "【<src>】's [Crush]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6304,
+      "id": "rem_33923",
+      "jp": "鈍器を力任せに振り回しながら、ぐるぐると回転する。近寄った仲間ごと殴り倒してしまそうな危険な攻撃技。",
+      "en": "A dangerous technique. Swings a blunt weapon wildly while spinning. It risks knocking down nearby allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6305,
+      "id": "rem_33924",
+      "jp": "グループ攻撃 威力[B] +  命中[70%] + 必殺率[+30%] + 【風属性】 + 防御(小) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group Attack Power[B] + Hit[70%] + Critical Rate[+30%] + 【Wind Element】 + Defense(Small) + Inflicts [Knockdown] (Critical Receive Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6306,
+      "id": "rem_33925",
+      "jp": "【<src>】の[アクストルネード]！",
+      "en": "【<src>】's [Ax Tornado]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6307,
+      "id": "rem_33926",
+      "jp": "海竜の力を放つブレス攻撃。竜族にとっては必殺でもなんでもない強めの攻撃だが、激しい水流を叩き付けられれば、ひとたまりもない必殺の威力。水属性は常に弱点を突く。",
+      "en": "A breath attack that releases sea dragon power. For dragons, it's just a strong attack, but a fierce water torrent can deal critical damage. Water element always targets weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6308,
+      "id": "rem_33927",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 必殺率[+20%] + 【水属性】 + 防御貫通(大)",
+      "en": "Large Area Attack Power[B+] + Hit[60%] + Critical Rate[+20%] + 【Water Element】 + Defense Penetration(Large)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6309,
+      "id": "rem_33928",
+      "jp": "【<src>】の[アクアブレス]！",
+      "en": "【<src>】's [Aqua Breath]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6310,
+      "id": "rem_33929",
+      "jp": "水弾を圧縮して放つ。小規模な魔術であるが、使用者の魔術攻撃力が高ければ、必殺の一撃となる。万能たる海の水属性は常に敵の弱点を突けるが、弱点効果は小さくなる。",
+      "en": "Fires a compressed water bullet. A small-scale spell, but with high user magic attack, it becomes critical. The universal water element always hits enemy weaknesses, though effect is small.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6311,
+      "id": "rem_33930",
+      "jp": "全体攻撃 威力[C] +  命中[60%] + 必殺率[+10%] + 【水属性】",
+      "en": "All Attack Power[C] + Hit[60%] + Critical Rate[+10%] + 【Water Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6312,
+      "id": "rem_33931",
+      "jp": "【<src>】の[ウォーターブリット]！",
+      "en": "【<src>】's [Water Bullet]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6313,
+      "id": "rem_33932",
+      "jp": "海竜の力を解き放ち、敵全員を存在しないはずの巨大な渦潮の中に巻込む。大いなる海の力に敵はズタズタに引き裂かれてしまうだろう。水属性は常に敵の弱点を突く。",
+      "en": "Unleashes sea dragon power, dragging all enemies into a massive, impossible whirlpool. They will be torn apart by the great sea's might. Water element always targets weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6314,
+      "id": "rem_33933",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 【水属性】 + 防御貫通(大) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "All Attack Power[S+] + Hit[50%] + 【Water Element】 + Defense Penetration(Large) + Inflicts [Knockdown] (Critical Receive Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6315,
+      "id": "rem_33934",
+      "jp": "【<src>】の[メイルシュトローム]！",
+      "en": "【<src>】's [Maelstrom]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6316,
+      "id": "rem_33935",
+      "jp": "剣に集中することで、クリティカル率がアップ。こんな細い剣から信じられない切れ味を誇る。修行に没頭した剣聖ならではの境地だが、没頭しすぎて本来の使命を忘れている。",
+      "en": "Focusing on the sword boosts critical rate. An unbelievable sharpness from such a slender blade. The swordsaint's unique state from deep training, but they forget their true purpose in it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6317,
+      "id": "rem_33936",
+      "jp": "クリティカル率[+15%]",
+      "en": "Critical Rate[+15%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6318,
+      "id": "rem_33937",
+      "jp": "相手の攻撃や思考を見切る戦場の直感。危険な攻撃から自身を守ることができる。一方で小さな攻撃は無視してしまう。",
+      "en": "Battlefield instinct to read enemy attacks and intent. Protects from dangerous attacks. Ignores minor attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6319,
+      "id": "rem_33938",
+      "jp": "【自分】に【見切り】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grants 【Insight】 to 【self】 (Reduces damage over 20% of Max HP by [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6320,
+      "id": "rem_33939",
+      "jp": "【<src>】の見切りが戦場を見渡す！",
+      "en": "【<src>】's insight surveys the battlefield!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6321,
+      "id": "rem_33940",
+      "jp": "ダメージを負っている相手を的確に狙い、頭数を潰していく。乱戦になり血湧き肉踊っても、頭は冷静に戦場を見据える。",
+      "en": "Target and take out wounded enemies precisely. Even in a bloody melee, keep a cool head and watch the battlefield.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6322,
+      "id": "rem_33941",
+      "jp": "弱っている敵を優先してターゲット",
+      "en": "Prioritize targeting weakened enemies",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6323,
+      "id": "rem_33942",
+      "jp": "火を放ち、広範囲の敵をまとめて攻撃する。火のダメージはかなり大きく、エネミーの生命力を奪い取る。",
+      "en": "Unleash fire to attack a wide area of enemies. Fire damage is significant, draining the enemy's vitality.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6324,
+      "id": "rem_33943",
+      "jp": "全体攻撃 威力[D+] +  命中[70%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "AoE attack Potency[D+] + Hit[70%] + 【Fire】 + Inflicts [Burn] (Damage +10% per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6325,
+      "id": "rem_33944",
+      "jp": "【<src>】の[火攻めの矢]！",
+      "en": "【<src>】's [Flaming Arrows]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

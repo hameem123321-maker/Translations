@@ -1,0 +1,189 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 625,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "dll_0601",
+      "jp": "探索可能ユニットのレベル",
+      "en": "Available Unit Level",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 602,
+      "id": "dll_0602",
+      "jp": "敵の撃破数(スキップ条件)",
+      "en": "Enemies Defeated (Skip)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 603,
+      "id": "dll_0603",
+      "jp": "敵レベル(+ダメージ上限)３倍",
+      "en": "Enemy Lv & DMG Cap 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 604,
+      "id": "dll_0604",
+      "jp": "ゴールド３倍",
+      "en": "Gold 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 605,
+      "id": "dll_0605",
+      "jp": "開発ポイント３倍",
+      "en": "Dev. Points 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 606,
+      "id": "dll_0606",
+      "jp": "全スキルがダメージ限界突破",
+      "en": "All Skills: Break DMG Cap",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 607,
+      "id": "dll_0607",
+      "jp": "常に神の祝福(戦闘中)",
+      "en": "Always God's Blessing",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 608,
+      "id": "dll_0608",
+      "jp": "修得スキルポイント1.5倍",
+      "en": "Skill Points 1.5x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 609,
+      "id": "dll_0609",
+      "jp": "アーマニーを強制出撃",
+      "en": "Force Armany Deploy",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 610,
+      "id": "dll_0610",
+      "jp": "お気に入り数上限解除",
+      "en": "Max Fav. Unlocked",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 611,
+      "id": "dll_0611",
+      "jp": "クリア前の妊娠制限解除",
+      "en": "Clear Pre-Pregnancy Limit",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 612,
+      "id": "dll_0612",
+      "jp": "ショップ襲撃のWAVEが常に1",
+      "en": "Shop Raid Always 1 WAVE",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 613,
+      "id": "dll_0613",
+      "jp": "本当に最初からやりなおすのデス？",
+      "en": "Really restart from scratch?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 614,
+      "id": "dll_0614",
+      "jp": "引継ぎに失敗したデス\n(ディスクへの書き込みに失敗したようです)",
+      "en": "Carryover failed.\n(Write to disk failed?)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 615,
+      "id": "dll_0615",
+      "jp": "それじゃ、向こうの私ともよろしくデス！",
+      "en": "Say hi to the other me!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 616,
+      "id": "dll_0616",
+      "jp": "今は『ゴブリン』に備えるデス",
+      "en": "Now, prepare for Goblins!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 617,
+      "id": "dll_0617",
+      "jp": "組織にお金を送って、いろいろ融通して貰ったりします<color=#ffff00> (イベント条件になることも)</color>",
+      "en": "Send money for various favors<color=#ffff00> (Event conditions)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 618,
+      "id": "dll_0618",
+      "jp": "お金をあちこちに配って、この世界を動かします<color=#ff8800> (メインストーリー進行)</color>",
+      "en": "Distribute money to move the world<color=#ff8800> (Main story)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 619,
+      "id": "dll_0619",
+      "jp": "お店の設備を強化し、働きやすい労働環境を作ります",
+      "en": "Upgrade shop, improve work environment",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 620,
+      "id": "dll_0620",
+      "jp": "攻略済みダンジョンを整備し、冒険者に開発ポイントを稼がせます",
+      "en": "Develop cleared dungeons, earn Dev. Points",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 621,
+      "id": "dll_0621",
+      "jp": "ハーレム部屋を運営して、女の子から搾精されます",
+      "en": "Run a harem room, get drained by girls",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 622,
+      "id": "dll_0622",
+      "jp": "『死神』とおカネの力で運命を書き換えます",
+      "en": "Rewrite fate with money & Shinigami",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 623,
+      "id": "dll_0623",
+      "jp": "スキルを開発して、メンバーの戦闘能力を高めます",
+      "en": "Develop skills, boost combat power",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 624,
+      "id": "dll_0624",
+      "jp": "実績を積むことにより、死神の力を覚醒させます",
+      "en": "Build achievements, awaken Shinigami",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 625,
+      "id": "dll_0625",
+      "jp": "お店の施設を建築したり、建て替えることができます",
+      "en": "Build or remodel shop facilities",
+      "category": "remaining_dll"
+    }
+  ]
+}

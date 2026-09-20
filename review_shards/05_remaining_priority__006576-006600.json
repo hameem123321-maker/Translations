@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6576,
+  "range_end": 6600,
+  "pairs": [
+    {
+      "n": 6576,
+      "id": "rem_34195",
+      "jp": "【<src>】の[プロテクトフィールド]！",
+      "en": "<src>'s [Protect Field]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6577,
+      "id": "rem_34196",
+      "jp": "神官が得意とする回復魔術。聖なる光の力により、仲間のHPを割合回復する。仲間全員を一気に癒やせる。淫魔っぽいヒロインもちゃんと癒やせるので安心。さらにCTも回復する。",
+      "en": "A recovery magic priests excel at. Holy light restores allies' HP by a percentage. Heals all allies at once. Don't worry, it works on even a succubus-like heroine. Also recovers CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6578,
+      "id": "rem_34197",
+      "jp": "HP回復(中) + CT回復(小) + CT消費増加",
+      "en": "HP Recovery (Mid) + CT Recovery (Small) + Increases CT Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6579,
+      "id": "rem_34198",
+      "jp": "【<src>】の[ヒーリングライト]が仲間に宿った！",
+      "en": "<src>'s [Healing Light] takes hold of the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6580,
+      "id": "rem_34199",
+      "jp": "特別な印を切ることで、自らの聖属性効果を更に高める。不浄の存在に大きなダメージを与える、強力なサポートスキルである。",
+      "en": "By making a special seal, heightens one's own holy attribute effects. A powerful support skill that deals great damage to impure beings.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6581,
+      "id": "rem_34200",
+      "jp": "【自分】に【破邪の印】を付与 (聖属性ダメージ[+50%])",
+      "en": "Apply 【Anti-Evil Seal】 to 【Self】 (Holy DMG [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6582,
+      "id": "rem_34201",
+      "jp": "【<src>】は破魔の祝福を使用した！",
+      "en": "【<src>】 used Exorcism's Blessing!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6583,
+      "id": "rem_34202",
+      "jp": "戦闘不能になった仲間を復帰させる、強力な回復魔術。死者蘇生の名を持つが、強力な回復魔術というだけで本当の死者には効果が発揮しない。",
+      "en": "A powerful healing spell that revives fallen allies. Though called Raise Dead, it's just powerful healing and doesn't work on true death.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6584,
+      "id": "rem_34203",
+      "jp": "蘇生 + HP回復(小)",
+      "en": "Revive + Minor HP Recovery",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6585,
+      "id": "rem_34204",
+      "jp": "【<src>】は[レイズデッド]を使用した",
+      "en": "【<src>】 used [Raise Dead]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6586,
+      "id": "rem_34205",
+      "jp": "フィールドの氷精霊の活動を活発化させ、属性ダメージを高める結界を張る。攻撃の威力が高まるが、受けるダメージも増えるので注意。",
+      "en": "Activates ice spirits in the field, creating a barrier that boosts Ice damage. Raises attack power, but also increases damage taken.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6587,
+      "id": "rem_34206",
+      "jp": "【フィールド】に【氷強化】を付与 (氷属性ダメージ[+30%])",
+      "en": "Apply 【Ice Boost】 to 【Field】 (Ice DMG [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6588,
+      "id": "rem_34207",
+      "jp": "【<src>】は[アイスブースト]を使用！",
+      "en": "【<src>】 used [Ice Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6589,
+      "id": "rem_34208",
+      "jp": "気配を消す暗殺術。相手から認識されないことにより、死角から致命的なダメージを与える。クリティカル率とクリティカルの威力が大きくアップする。",
+      "en": "Assassin technique to hide presence. Unrecognized by foes, allowing for deadly strikes from blind spots. Greatly raises Crit Rate and Crit Damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6590,
+      "id": "rem_34209",
+      "jp": "【自分】に【暗殺】を付与 (クリティカル率[+50%] + 弱点へのダメージ[+10%])",
+      "en": "Apply 【Assassinate】 to 【Self】 (Crit Rate[+50%] + Weakness DMG[+10%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6591,
+      "id": "rem_34210",
+      "jp": "トレハン秘奥義。複数相手にトレハン斬りを放つ。斬られた相手からはなぜか良いアイテムを入手しやすくなる。",
+      "en": "Torehan Secret Art. Unleashes multiple Torehan slashes. Enemies hit strangely drop better loot.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6592,
+      "id": "rem_34211",
+      "jp": "グループ攻撃 威力[C] +  命中[80%] + 【雷属性】 + ドロップ上昇(大) + 回避(大)",
+      "en": "Group Attack Power[C] + Hit[80%] + 【Thunder】 + Great Drop Boost + Great Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6593,
+      "id": "rem_34212",
+      "jp": "【<src>】は[ハイパートレハン斬り]を放った！",
+      "en": "【<src>】 unleashed [Hyper Torehan Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6594,
+      "id": "rem_34213",
+      "jp": "秘められた淫魔の力を解放し，能力を大幅アップさせる。魔界化してなければ、淫魔がその力を使うことは難しい。これは純正の淫魔であるほど、影響を大きく受けるようになる。",
+      "en": "Unleashes hidden succubus power, greatly boosting abilities. Hard to use without demonification. True succubi are more strongly affected.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6595,
+      "id": "rem_34214",
+      "jp": "CT回復(中) + 【自分】に【淫魔化】を付与 (すべての攻撃ダメージ[+30%] + ターンごとにMP回復[+5%])",
+      "en": "Medium CT Recovery + Apply 【Succubus Form】 to 【Self】 (All ATK DMG[+30%] + MP Regen/Turn[+5%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6596,
+      "id": "rem_34215",
+      "jp": "【<src>】の[淫魔化モード]！",
+      "en": "【<src>】's [Succubus Form Mode]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6597,
+      "id": "rem_34216",
+      "jp": "天才としての分析力が敵全員の動きを見破る。それを仲間に伝えることで、敵の弱点が看破され、味方の能力がアップする。",
+      "en": "Genius analysis predicts all enemy movements. Sharing with allies reveals weaknesses and boosts their capabilities.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6598,
+      "id": "rem_34217",
+      "jp": "CT回復(小) + 【仲間】に【必殺】を付与 (クリティカル率[+30%])",
+      "en": "Small CT Recovery + Apply 【Finishing Blow】 to 【Allies】 (Crit Rate[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6599,
+      "id": "rem_34218",
+      "jp": "【<src>】の[天才的な戦術分析]が相手を丸裸にする！",
+      "en": "【<src>】's [Genius Tactical Analysis] strips the enemy bare!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6600,
+      "id": "rem_34219",
+      "jp": "自分を魔獣王の末裔と思い込んで、強大な力を得る。魔獣でもないし血を引いてるわけではないが、血を引いている者の暴力に匹敵するほどの力を得る。",
+      "en": "Believing oneself the descendant of the Beast King grants immense power. Not a true beast or descendant, yet gains comparable might.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

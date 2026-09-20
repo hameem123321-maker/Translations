@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6651,
+  "range_end": 6675,
+  "pairs": [
+    {
+      "n": 6651,
+      "id": "rem_34270",
+      "jp": "攻撃魔術を武器にまとわせて、氷属性の攻撃で敵を凍結させる。物理攻撃が通用しにくい相手にもダメージを与える。",
+      "en": "Infuses weapon with attack magic, using ice to freeze enemies. Damages foes resistant to physical attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6652,
+      "id": "rem_34271",
+      "jp": "範囲(小)攻撃 威力[D+] +  命中[70%] + 連撃率[+40%] + 必殺率[+5%] + 【氷属性】 + 防御貫通(小) + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "AoE(Small) ATK Power[D+] + Hit[70%] + Combo[+40%] + Crit[+5%] + 【Ice】 + Pierce(Small) + Inflicts [Freeze] (Phys DMG Reduction-30% + Crit Chance Received+30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6653,
+      "id": "rem_34272",
+      "jp": "【<src>】は[アイスブレイク]で攻撃した！",
+      "en": "【<src>】attacked with [Ice Break]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6654,
+      "id": "rem_34273",
+      "jp": "スキルＣＴをさらに大きく回復して、再使用可能ターンを圧縮する。このスキルにより大技を頻繁に使用できる。",
+      "en": "Massively recovers skill CT, compressing the turn until reuse. Allows frequent use of powerful skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6655,
+      "id": "rem_34274",
+      "jp": "CT回復(大) + MP節約",
+      "en": "CT Recovery(Large) + MP Saver",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6656,
+      "id": "rem_34275",
+      "jp": "【<src>】は[スキルチャージ＋]を使用した！",
+      "en": "【<src>】used [Skill Charge+]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6657,
+      "id": "rem_34276",
+      "jp": "魔銃によって散弾を放つ。複数の敵をまとめて攻撃できる便利なスキルだが、命中率はやや頼りない。",
+      "en": "Fires a scatter shot from a magic gun. Useful for hitting multiple enemies, but accuracy is somewhat unreliable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6658,
+      "id": "rem_34277",
+      "jp": "範囲(大)攻撃 威力[D] +  命中[70%] + 【火属性】",
+      "en": "AoE(Large) ATK Power[D] + Hit[70%] + 【Fire】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6659,
+      "id": "rem_34278",
+      "jp": "【<src>】の[ショットガン]！",
+      "en": "【<src>】's [Shotgun]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6660,
+      "id": "rem_34279",
+      "jp": "目にも止まらぬ連射。連射力を重視するため、命中率がやや落ちてしまう。ちゃんとヒットすれば大きいダメージを与える。",
+      "en": "A rapid barrage. Emphasizes firing rate, so accuracy drops slightly. Deals heavy damage if it hits.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6661,
+      "id": "rem_34280",
+      "jp": "範囲(大)攻撃 威力[E] +  命中[70%] + 【雷属性】",
+      "en": "Large Area Attack Power[E] + Hit[70%] + 【Thunder Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6662,
+      "id": "rem_34281",
+      "jp": "【<src>】の[ダブルバレット]で連続射撃！",
+      "en": "【<src>】's [Double Bullet] rapid fire!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6663,
+      "id": "rem_34282",
+      "jp": "魔弾からの高速射撃。3発撃つのではなく、3倍の弾をばらまくという仕組みであるため、技術的には難しくない。銃自体の技術が凄いのだ。",
+      "en": "High-speed fire from magic bullets. It's not firing three shots, but scattering three times the bullets, so it's not technically difficult. The gun itself is the amazing technology.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6664,
+      "id": "rem_34283",
+      "jp": "範囲(大)攻撃 威力[C+] +  命中[70%] + 【火属性】",
+      "en": "Large Area Attack Power[C+] + Hit[70%] + 【Fire Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6665,
+      "id": "rem_34284",
+      "jp": "【<src>】の[トリプルバレット]！",
+      "en": "【<src>】's [Triple Bullet]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6666,
+      "id": "rem_34285",
+      "jp": "普段隠している力を限界まで引き出し、必殺の一撃を放つ。常に一手先を考えている戦術家が、後のことを考えずに全力を出す切り札。",
+      "en": "Draws out hidden power to its limit to unleash a decisive blow. The ace in the hole for a tactician who always thinks ahead, unleashing full power without considering the aftermath.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6667,
+      "id": "rem_34286",
+      "jp": "範囲(小)攻撃 威力[S] +  命中[70%] + 必殺率[+30%] + 【氷属性】 + 防御貫通(小)",
+      "en": "Small Area Attack Power[S] + Hit[70%] + Critical[+30%] + 【Ice Attribute】 + Small Defense Penetration",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6668,
+      "id": "rem_34287",
+      "jp": "【<src>】による必殺の一撃！",
+      "en": "A decisive blow by 【<src>】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6669,
+      "id": "rem_34288",
+      "jp": "退魔巫女たちに伝わる剣技。舞踏を取り入れた美しくも恐ろしい剣に見とれるうちに、体を切り刻んでしまう。",
+      "en": "A sword technique passed down among exorcist shrine maidens. It mesmerizes with a beautiful, terrifying dance-like sword, then slices the body to pieces.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6670,
+      "id": "rem_34289",
+      "jp": "範囲(大)攻撃 威力[B] +  命中[70%] + 【氷属性】 + 回避(小)",
+      "en": "Large Area Attack Power[B] + Hit[70%] + 【Ice Attribute】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6671,
+      "id": "rem_34290",
+      "jp": "【<src>】の[スウォードダンス]！",
+      "en": "【<src>】's [Sword Dance]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6672,
+      "id": "rem_34291",
+      "jp": "シズハ・クレハによる退魔メイドのコンビネーション追撃する。二人が同時にメイン編成されていると追撃スキルの威力が大幅にアップ。",
+      "en": "Shizuha & Kureha perform an exorcist maid combination follow-up attack. When both are in the main party, the follow-up skill's power increases significantly.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6673,
+      "id": "rem_34292",
+      "jp": "シズハ・クレハがいると追撃[+100%]",
+      "en": "With Shizuha & Kureha, Follow-up[+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6674,
+      "id": "rem_34293",
+      "jp": "すさまじく速い連続剣によって、相手をズタズタに引き裂く。弱い剣の連続ではなく、一撃一撃が必殺の威力を持った高威力の攻撃である。",
+      "en": "Rips the opponent to shreds with terrifyingly fast successive slashes. Not a series of weak attacks, each strike carries decisive, high power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6675,
+      "id": "rem_34294",
+      "jp": "グループ攻撃 威力[B] +  命中[70%] + 【風属性】 + 回避(小)",
+      "en": "Group Attack Power[B] + Hit[70%] + 【Wind Attribute】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

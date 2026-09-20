@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7101,
+  "range_end": 7125,
+  "pairs": [
+    {
+      "n": 7101,
+      "id": "rem_34720",
+      "jp": "天才魔女であるウィルチならではの罠解除技術。魔術罠だけでなく、危険な薬草も扱うので自然系の罠にも対応できる。機械罠は好奇心が邪魔をして上手く解除できない。",
+      "en": "The unique trap-disabling techniques of the genius witch Wilchi. Effective against magical and dangerous herbal traps, but curiosity hinders her with mechanical ones.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7102,
+      "id": "rem_34721",
+      "jp": "魔術と自然系トラップの解除率[+50%]",
+      "en": "Magical & Natural Trap Disarm Rate [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7103,
+      "id": "rem_34722",
+      "jp": "正体は人間ではないため、人間離れした魔力を持っており、人間レベルの魔術であれば連発できる。ただし制約もあるため、全力を出せるわけでもない。",
+      "en": "Her non-human nature grants superhuman magic, allowing rapid-fire casting of human-level spells, though not at full power due to restrictions.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7104,
+      "id": "rem_34723",
+      "jp": "MP消費軽減[-40%]",
+      "en": "MP Cost Reduction [-40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7105,
+      "id": "rem_34724",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + デバフ特化 + [腹痛]を付与 (物理ダメージ-50%)",
+      "en": "Group Attack Power[] + Hit[70%] + Debuff Focus + Inflicts [Stomachache] (Physical Dmg -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7106,
+      "id": "rem_34725",
+      "jp": "【<src>】の[腹痛の魔術]！",
+      "en": "【<src>】's [Stomachache Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7107,
+      "id": "rem_34726",
+      "jp": "ダンジョンのトラップを察知する魔術。トラップは「機械」「自然」「魔術」の3種別があり、サーチ能力とは別に対策能力が必要。解除率も若干アップする。",
+      "en": "Magic to sense dungeon traps of three types: Mechanical, Natural, and Magical. Requires countermeasures beyond detection and slightly boosts disarm rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7108,
+      "id": "rem_34727",
+      "jp": "トラップ発見率[+30%] + トラップ解除率[+10%]",
+      "en": "Trap Discovery Rate [+30%] + Trap Disarm Rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7109,
+      "id": "rem_34728",
+      "jp": "全体攻撃 威力[] +  命中[70%] + デバフ特化 + [満腹]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "AoE Attack Power[] + Hit[70%] + Debuff Focus + Inflicts [Fullness] (All Attack Dmg -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7110,
+      "id": "rem_34729",
+      "jp": "【<src>】の[満腹の魔術]！",
+      "en": "【<src>】's [Fullness Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7111,
+      "id": "rem_34730",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + デバフ特化 + [酩酊]を付与 (命中精度-50%)",
+      "en": "Group Attack Power[] + Hit[70%] + Debuff Focus + Inflicts [Drunkenness] (Accuracy -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7112,
+      "id": "rem_34731",
+      "jp": "【<src>】の[ドランクブレス]！",
+      "en": "【<src>】's [Drunk Breath]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7113,
+      "id": "rem_34732",
+      "jp": "内に秘められた、あまりにも高い魔力が魔術制御を乱し、暴走させてしまう。暴走すると、味方は小ダメージを受けてしまう。",
+      "en": "Excessively high latent magic disrupts control, causing rampages that deal minor damage to allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7114,
+      "id": "rem_34733",
+      "jp": "魔術ダメージ[+40%] + 魔術暴走率[+20%]",
+      "en": "Magic Damage [+40%] + Magic Rampage Rate [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7115,
+      "id": "rem_34734",
+      "jp": "先制攻撃率アップ[+20%]",
+      "en": "Preemptive Attack Rate Up [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7116,
+      "id": "rem_34735",
+      "jp": "『奈落の夢』を限定的に解禁し、世界を闇で侵食する。多用すると世界のバランスが崩れ、魔界が人間界に侵食するともいわれる危険なスキル。",
+      "en": "Partially unleashes 'Abyssal Dream', eroding the world with darkness. Overuse risks disrupting balance and demon world invasion.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7117,
+      "id": "rem_34736",
+      "jp": "【フィールド】に【魔界化】を付与 (闇属性ダメージ[+50%] + ターンごとにMP自動回復(味方のみ)[+10%])",
+      "en": "Inflicts 【Field】 with 【Demonization】 (Dark Dmg [+50%] + MP Auto-Regen per turn (Allies only) [+10%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7118,
+      "id": "rem_34737",
+      "jp": "【<src>】は[ダークカーニバル]を使用！",
+      "en": "【<src>】 uses [Dark Carnival]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7119,
+      "id": "rem_34738",
+      "jp": "お宝に目がない竜族のレアハント能力。ダンジョン内のレアアイテムを見逃さない。ダンジョンにレアアイテムオブジェクトが出現しやすくなる。",
+      "en": "A dragonkin's rare-hunting ability, obsessed with treasure. Never misses rare dungeon items and makes them appear more often.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7120,
+      "id": "rem_34739",
+      "jp": "ダンジョン内のレアトレジャー発生率[+80%]",
+      "en": "Dungeon Rare Treasure Spawn Rate [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7121,
+      "id": "rem_34740",
+      "jp": "コミュニケーション力が高く、接客して愛嬌を振りまくのが得意。接客をさせると売上がアップする。",
+      "en": "Great communicator. Skilled at charming customers through service, boosting sales.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7122,
+      "id": "rem_34741",
+      "jp": "接客による売上[+30%]",
+      "en": "Sales from service [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7123,
+      "id": "rem_34742",
+      "jp": "エルフィード族による強力な危険察知能力。敏感に敵の気配を知らせる。通常のエネミーサーチより強力に周囲を察知する。",
+      "en": "Elfied's keen danger sense. Detects enemy presence more powerfully than standard Enemy Search.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7124,
+      "id": "rem_34743",
+      "jp": "エネミー発見率[+50%] + トラップ発見率[+50%]",
+      "en": "Enemy Discovery [+50%] + Trap Discovery [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7125,
+      "id": "rem_34744",
+      "jp": "評判の勇者の評判を使って客を引き寄せる。戦闘で活躍するだけが勇者の仕事ではないらしい。売上がアップ。",
+      "en": "Uses the famed Hero's reputation to attract customers. Boosts sales.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

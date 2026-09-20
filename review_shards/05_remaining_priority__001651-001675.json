@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1651,
+  "range_end": 1675,
+  "pairs": [
+    {
+      "n": 1651,
+      "id": "rem_27226",
+      "jp": "『主人公』が妊娠している",
+      "en": "Ren is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1652,
+      "id": "rem_27227",
+      "jp": "『シイネ』が妊娠している",
+      "en": "Shiine is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1653,
+      "id": "rem_27228",
+      "jp": "『アンジュ』が妊娠している",
+      "en": "Anju is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1654,
+      "id": "rem_27229",
+      "jp": "『ウルフィナ』が妊娠している",
+      "en": "Wolfina is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1655,
+      "id": "rem_27230",
+      "jp": "経営・汚染値30以上",
+      "en": "Corruption Value 30 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1656,
+      "id": "rem_27231",
+      "jp": "経営・汚染値60以上",
+      "en": "Corruption Value 60 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1657,
+      "id": "rem_27232",
+      "jp": "経営・汚染値100以上",
+      "en": "Corruption Value 100 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1658,
+      "id": "rem_27233",
+      "jp": "経営・犯罪値30以上",
+      "en": "Crime Value 30 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1659,
+      "id": "rem_27234",
+      "jp": "経営・犯罪値60以上",
+      "en": "Crime Value 60 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1660,
+      "id": "rem_27235",
+      "jp": "経営・犯罪値100以上",
+      "en": "Crime Value 100 or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1661,
+      "id": "rem_27236",
+      "jp": "経営・資金1万以上",
+      "en": "Business - Funds Over 10,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1662,
+      "id": "rem_27237",
+      "jp": "経営・資金10万以上",
+      "en": "Business - Funds Over 100,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1663,
+      "id": "rem_27238",
+      "jp": "経営・資金100万以上",
+      "en": "Business - Funds Over 1,000,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1664,
+      "id": "rem_27239",
+      "jp": "経営・資金1000万以上",
+      "en": "Business - Funds Over 10,000,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1665,
+      "id": "rem_27240",
+      "jp": "経営・累計販売数10",
+      "en": "Business - Total Sales 10",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1666,
+      "id": "rem_27241",
+      "jp": "経営・累計販売数100",
+      "en": "Business - Total Sales 100",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1667,
+      "id": "rem_27242",
+      "jp": "経営・累計販売数1000",
+      "en": "Business - Total Sales 1,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1668,
+      "id": "rem_27243",
+      "jp": "経営・累計来客数10",
+      "en": "Business - Total Customers 10",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1669,
+      "id": "rem_27244",
+      "jp": "経営・累計来客数100",
+      "en": "Business - Total Customers 100",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1670,
+      "id": "rem_27245",
+      "jp": "経営・累計来客数1000",
+      "en": "Business - Total Customers 1,000",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1671,
+      "id": "rem_27246",
+      "jp": "『ハーヴェスタ』が妊娠している",
+      "en": "『Harvester』 is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1672,
+      "id": "rem_27247",
+      "jp": "『マリーゼル』が妊娠している",
+      "en": "『Marisel』 is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1673,
+      "id": "rem_27248",
+      "jp": "『ファシィ』が妊娠している",
+      "en": "『Facy』 is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1674,
+      "id": "rem_27249",
+      "jp": "『ルーシェ』が妊娠している",
+      "en": "『Lusche』 is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1675,
+      "id": "rem_27250",
+      "jp": "『カリスト』が妊娠している",
+      "en": "『Callisto』 is Pregnant",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    }
+  ]
+}

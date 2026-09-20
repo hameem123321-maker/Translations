@@ -1,0 +1,211 @@
+{
+  "source_file": "02_ui_tables.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 26,
+  "range_end": 50,
+  "pairs": [
+    {
+      "n": 26,
+      "id": "ui_db_SystemCommand_2_5",
+      "jp": "商品",
+      "en": "Products",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 27,
+      "id": "ui_db_SystemCommand_3_5",
+      "jp": "施設",
+      "en": "Facilities",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 28,
+      "id": "ui_db_SystemCommand_4_5",
+      "jp": "投資",
+      "en": "Invest",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 29,
+      "id": "ui_db_SystemCommand_5_5",
+      "jp": "派遣",
+      "en": "Dispatch",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 30,
+      "id": "ui_db_SystemCommand_6_5",
+      "jp": "探索",
+      "en": "Explore",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 31,
+      "id": "ui_db_SystemCommand_7_5",
+      "jp": "編成",
+      "en": "Formation",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 32,
+      "id": "ui_db_SystemCommand_8_5",
+      "jp": "システムメニュー",
+      "en": "System Menu",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 33,
+      "id": "ui_db_SystemCommand_9_5",
+      "jp": "死神メニュー",
+      "en": "Shinigami Menu",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 34,
+      "id": "ui_db_SystemCommand_11_5",
+      "jp": "就寝",
+      "en": "Sleep",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 35,
+      "id": "ui_db_SystemCommand_12_5",
+      "jp": "酒場",
+      "en": "Tavern",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 36,
+      "id": "ui_db_SystemCommand_13_5",
+      "jp": "求人",
+      "en": "Recruit",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 37,
+      "id": "ui_db_SystemCommand_14_5",
+      "jp": "一掃",
+      "en": "Purge",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 38,
+      "id": "ui_db_SystemCommand_15_5",
+      "jp": "祝福",
+      "en": "Blessing",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 39,
+      "id": "ui_db_SystemCommand_16_5",
+      "jp": "図鑑",
+      "en": "Archive",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 40,
+      "id": "ui_db_SystemCommand_17_5",
+      "jp": "会話",
+      "en": "Talk",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 41,
+      "id": "ui_db_SystemCommand_18_5",
+      "jp": "触る",
+      "en": "Touch",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 42,
+      "id": "ui_db_SystemCommand_19_5",
+      "jp": "移動",
+      "en": "Move",
+      "table": "db_SystemCommand",
+      "category": "ui_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 43,
+      "id": "ui_db_SystemCommand_20_5",
+      "jp": "愛撫",
+      "en": "Caress",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 44,
+      "id": "ui_db_SystemCommand_21_5",
+      "jp": "エッチ",
+      "en": "Intimacy",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 45,
+      "id": "ui_db_SystemCommand_22_5",
+      "jp": "夜伽",
+      "en": "Night Visit",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 46,
+      "id": "ui_db_SystemCommand_23_5",
+      "jp": "美容室",
+      "en": "Beauty Salon",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 47,
+      "id": "ui_db_SystemCommand_24_5",
+      "jp": "お喋りする",
+      "en": "Talk",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 48,
+      "id": "ui_db_SystemCommand_25_5",
+      "jp": "じっと見つめる",
+      "en": "Stare",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 49,
+      "id": "ui_db_SystemCommand_26_5",
+      "jp": "相手の出方を待つ",
+      "en": "Wait",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 50,
+      "id": "ui_db_SystemCommand_27_5",
+      "jp": "ゆっくりと近づく",
+      "en": "Approach",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    }
+  ]
+}

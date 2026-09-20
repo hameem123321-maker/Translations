@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73426,
+  "range_end": 73450,
+  "pairs": [
+    {
+      "n": 73426,
+      "id": "db_EventInfo:86868:0",
+      "jp": "その後、【『ノーザリアとの平和条約』】が結ばれた。",
+      "en": "After that, the 【『Peace Treaty with Northalia』】 was signed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73427,
+      "id": "db_EventInfo:86869:0",
+      "jp": "なんとか戦争に発展することは回避できたようだ。",
+      "en": "Somehow, we managed to avoid it turning into a full-blown war.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73428,
+      "id": "db_EventInfo:86870:15",
+      "jp": "【<pl>】君、ノーザリアとの会談は滞りなく終了したよ",
+      "en": "【<pl>】, the talks with Northalia wrapped up smoothly.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73429,
+      "id": "db_EventInfo:86871:15",
+      "jp": "ゼカリウスが今後も緩衝地帯になって、王都だけじゃなくて周辺地域も大満足だろうね",
+      "en": "With Zecarius acting as a buffer zone going forward, not just the royal capital but the surrounding areas should be very satisfied.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73430,
+      "id": "db_EventInfo:86872:1",
+      "jp": "ああ、戦争を避けられたのは良かったよ",
+      "en": "Yeah, it's good we avoided a war.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73431,
+      "id": "db_EventInfo:86873:2",
+      "jp": "結局、急に戦争危機になったのは、何が原因だったんデス？",
+      "en": "So, what was the real cause for the sudden war crisis?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73432,
+      "id": "db_EventInfo:86874:15",
+      "jp": "うん。一番の問題は北方の食糧問題だよ",
+      "en": "Right. The biggest problem is the food issue in the north.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73433,
+      "id": "db_EventInfo:86875:15",
+      "jp": "ノーザリアは昨今の食糧難で、戦争によって糧を得ないと立ちいかない状態だった",
+      "en": "Northalia is in a state where, due to recent food shortages, they need to obtain supplies through war or they can't go on.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73434,
+      "id": "db_EventInfo:86876:15",
+      "jp": "そんな状態で、ノーザリアの足元を見て、一部の人間が関税を吊り上げてね",
+      "en": "While they were in that state, some people saw Northalia's vulnerability and raised the tariffs.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73435,
+      "id": "db_EventInfo:86877:15",
+      "jp": "そのうえ、税を横領して、私腹を肥やしていたらしいよ",
+      "en": "On top of that, it seems they embezzled tax money and lined their own pockets.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73436,
+      "id": "db_EventInfo:86878:2",
+      "jp": "死刑デス！　死をもって償わせる他は無しデス！",
+      "en": "That's a death sentence! Only death can make them pay for this!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73437,
+      "id": "db_EventInfo:86879:15",
+      "jp": "ただその、横領してた人間も、「自分は騙されていたんだ！」の一点張りだそうでね",
+      "en": "However, the person who embezzled is reportedly insisting on one thing: 'I was tricked!'",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73438,
+      "id": "db_EventInfo:86880:15",
+      "jp": "ま、【『王立騎士団』】が連行していったから、真相が解明され次第、裁きを受ける事になるだろう",
+      "en": "Well, the 'Royal Knights' have taken them away, so once the truth is uncovered, they'll likely face judgment.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73439,
+      "id": "db_EventInfo:86881:2",
+      "jp": "それで、どうやって丸く収めたんデス？",
+      "en": "So, how did you manage to smooth things over?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73440,
+      "id": "db_EventInfo:86882:15",
+      "jp": "ともかく、食糧難と関税が原因かつ、喫緊の問題だったわけだからね",
+      "en": "Anyway, the causes were the food shortage and tariffs, and it was an urgent problem.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73441,
+      "id": "db_EventInfo:86883:15",
+      "jp": "細かい支援もあるけど、大きくは関税の平等化と、ノーザリア海における漁業権の付与かな",
+      "en": "There are some detailed support measures, but the big ones are equalizing tariffs and granting fishing rights in the Northalian Sea.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73442,
+      "id": "db_EventInfo:86884:15",
+      "jp": "ノーザリア人は魚が好きだからね。アーマニア海で漁業を営む権利を得られて、あっちも大喜びさ",
+      "en": "Northalians love fish, you know. They were thrilled to get the rights to fish in the Amanian Sea.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73443,
+      "id": "db_EventInfo:86885:1",
+      "jp": "なるほどな",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73444,
+      "id": "db_EventInfo:86888:0",
+      "jp": "今後のアーマニア海では、ノーザリアの船も行き来することになるだろう。",
+      "en": "From now on, Northalian ships will be sailing the Armagnian Sea.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73445,
+      "id": "db_EventInfo:86889:0",
+      "jp": "ゼカリウスの港も、これまで以上に賑やかになりそうだ。",
+      "en": "Zecarius's port is probably going to get a lot busier.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73446,
+      "id": "db_EventInfo:86890:2",
+      "jp": "おいオマエ、客が来たデス",
+      "en": "Hey you. We've got a customer desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73447,
+      "id": "db_EventInfo:86893:23",
+      "jp": "ふふっД",
+      "en": "HeheД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73448,
+      "id": "db_EventInfo:86894:1",
+      "jp": "あ、アンタは……ノースリンデ？",
+      "en": "Ah, you are... Northlinde?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73449,
+      "id": "db_EventInfo:86895:23",
+      "jp": "ふふ、覚えててくれはったん？　嬉しいわぁД",
+      "en": "Hehe, you remembered me? I'm so happyД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73450,
+      "id": "db_EventInfo:86896:1",
+      "jp": "どうしてここに？　いや、なんだその格好は！？",
+      "en": "What are you doing here? Wait, what's with that outfit!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

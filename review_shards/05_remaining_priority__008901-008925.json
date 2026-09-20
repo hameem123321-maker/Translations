@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8901,
+  "range_end": 8925,
+  "pairs": [
+    {
+      "n": 8901,
+      "id": "rem_36623",
+      "jp": "新鮮なテンタクルを特殊な加工で調理したどんぶり。形容しがたい美味で、虜になったリピーターは正気を失いながらも料理を求める。",
+      "en": "A bowl of fresh tentacles specially prepared. Its indescribable flavor has repeat customers losing their minds craving more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8902,
+      "id": "rem_36624",
+      "jp": "テンタクルどんぶり",
+      "en": "Tentacle Bowl",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8903,
+      "id": "rem_36625",
+      "jp": "新鮮な魚介類と異国のコメを合わせて作った高級リゾット。海の幸と異国の食材を合わせた新たな味わいに、ゼカリウス近郊から食通がこぞって求めている。",
+      "en": "A luxury risotto made with fresh seafood and exotic rice. Its novel taste, combining ocean bounty and foreign ingredients, draws foodies from near Zecarius.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8904,
+      "id": "rem_36626",
+      "jp": "魚介リゾット",
+      "en": "Seafood Risotto",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8905,
+      "id": "rem_36627",
+      "jp": "新鮮な海の幸を食べやすく細かく刻み、煮込む事で魚介の旨味を凝縮させたスープ料理。貝や魚と言った海の幸と、野菜の味わいを大海原のように内包させた高級品。",
+      "en": "A soup made by finely chopping fresh seafood and stewing it to concentrate the flavor. A luxury item containing the taste of the sea and vegetables like the open ocean.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8906,
+      "id": "rem_36628",
+      "jp": "大海原スープ",
+      "en": "Seaswept Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8907,
+      "id": "rem_36629",
+      "jp": "たまごを割落として加熱した料理。新鮮ではない上に、加熱しすぎて全体的に味わいは固い。だが、たまご自身の栄養価は損なわれておらず、貴重なたんぱく源。",
+      "en": "A dish made by dropping and heating an egg. Not fresh and overcooked, making it tough. Still, its protein and nutrition remain intact.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8908,
+      "id": "rem_36630",
+      "jp": "加熱エッグ",
+      "en": "Heated Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8909,
+      "id": "rem_36631",
+      "jp": "カラが付いたままの卵を温水で加熱したたまご。器が無くても食べられるので、携帯食にもできる。加熱したため身が硬くなり、若干飲み込み辛い。",
+      "en": "An egg heated in warm water, shell on. Portable and can be eaten without a dish. The heat makes it firm and a bit hard to swallow.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8910,
+      "id": "rem_36632",
+      "jp": "温水加熱たまご",
+      "en": "Warm-Water Heated Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8911,
+      "id": "rem_36633",
+      "jp": "新鮮なたまごを鉄板に割り落とし、中央の黄身を目玉に見立てて熱を通した卵料理。子供から大人まで大好きな、お手軽料理。",
+      "en": "A fresh egg cracked onto a griddle and cooked, with the yolk resembling an eyeball. A popular, easy dish for all ages.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8912,
+      "id": "rem_36634",
+      "jp": "ローストアイボール",
+      "en": "Roast Eyeball Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8913,
+      "id": "rem_36635",
+      "jp": "出荷されてきたばかりのたまご。そのまま飲み込む事ができるよう、長い品種改良が行われた。もちろん、たまごの持つ栄養を丸ごと取り入れる事ができる。",
+      "en": "A freshly shipped egg. Long selective breeding allows it to be swallowed whole, letting you absorb all its nutrients.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8914,
+      "id": "rem_36636",
+      "jp": "新鮮生たまご",
+      "en": "Fresh Raw Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8915,
+      "id": "rem_36637",
+      "jp": "割入れたたまごをスープでほぐして煮立たせた。素朴で優しい味わいは、緊張をほぐし、体を温める効果がある。",
+      "en": "A cracked egg whisked into a simmering broth. Its simple, gentle flavor eases tension and warms the body.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8916,
+      "id": "rem_36638",
+      "jp": "たまごのほぐしスープ",
+      "en": "Whisked Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8917,
+      "id": "rem_36639",
+      "jp": "贅沢にたまごを溶きほぐし、何層にも重ねて焼き上げた一品。ふわふわで熱々なこの料理を食べると、大人も子供も笑みがこぼれる。",
+      "en": "A lavish dish of whisked eggs layered and grilled. Eating this fluffy, piping-hot treat brings smiles to young and old.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8918,
+      "id": "rem_36640",
+      "jp": "あつあつ厚焼きエッグ",
+      "en": "Hot & Fluffy Thick Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8919,
+      "id": "rem_36641",
+      "jp": "大量のたまごと磨り潰した野菜、滋養に効く薬草を用いて、トロみが付くまでじっくりと煮立たせた料理。食べれば活力が漲る。",
+      "en": "A dish slowly simmered with many eggs, mashed vegetables, and nourishing herbs until thick. Eating it fills you with vigor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8920,
+      "id": "rem_36642",
+      "jp": "旨味溢れるエッグスープ",
+      "en": "Flavorful Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8921,
+      "id": "rem_36643",
+      "jp": "ミツボシと呼ばれる最高ランクを与えられた高級店でしか味わえないという、拘りのオムレツ。半熟に焼き上げたたまごは、とろけるような食感をもたらす。",
+      "en": "A dedicated omelet only available at high-end shops with the highest rank, called the Three-Star. The semi-cooked egg provides a melt-in-your-mouth texture.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8922,
+      "id": "rem_36644",
+      "jp": "スリースターオムレット",
+      "en": "Three-Star Omelet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8923,
+      "id": "rem_36645",
+      "jp": "とろりとした卵の黄身を贅沢に使った濃厚なたまごスープ。飲み干せば驚くほどの活力が湧いてくる。",
+      "en": "A rich egg soup made with generous amounts of runny egg yolk. Drinking it down brings a surprising surge of vitality.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8924,
+      "id": "rem_36646",
+      "jp": "濃厚エッグスープ",
+      "en": "Rich Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8925,
+      "id": "rem_36647",
+      "jp": "厚焼きのたまごにチーズを挟み込んで焼き上げた、大地の恵み。トロトロに溶けたチーズとふわふわのたまごを口に入れれば、表情も幸福に蕩け出す。",
+      "en": "A gift from the earth, made by sandwiching cheese between thickly cooked eggs and grilling. The gooey melted cheese and fluffy egg will melt your expression into happiness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

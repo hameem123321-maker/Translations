@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 651,
+  "range_end": 675,
+  "pairs": [
+    {
+      "n": 651,
+      "id": "rem_00651",
+      "jp": "魔族によって生み出された魔術人形。氷獄に封印された恐るべき大魔獣を監視するために作られたらしく、彼女の封印を解こうとする愚か者を排除する。",
+      "en": "A magical puppet created by demons. Likely made to monitor a fearsome great beast sealed in the Ice Prison, eliminating any fool who tries to break the seal.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 652,
+      "id": "rem_00652",
+      "jp": "アイスゴーレム",
+      "en": "Ice Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 653,
+      "id": "rem_00653",
+      "jp": "ドワームに伝わるケモミミ衣装を身につけることによって、バーサーカーになってしまったアンジュ。わがまま娘のはずなのに、なにかとストレスを押しつけられる役回りのせいで、普段から鬱憤が溜まっていたのかも。",
+      "en": "Anju, who became a berserker after wearing a kemomimi outfit from Dwarm. Despite being a spoiled girl, pent-up frustration from always being the stress receptacle might be the cause.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 654,
+      "id": "rem_00654",
+      "jp": "バーサークアンジュ",
+      "en": "Berserk Anju",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 655,
+      "id": "rem_00655",
+      "jp": "メイドのシェルフィの正体はルーラ・ブロッサ娼会の幹部候補。ハーフサキュバスの血を引く淫魔である。シェルフィはルーシェのことを半人前と考えているが、ルーシェからは出来損ないと思われている。",
+      "en": "Maid Shelfi's true identity is a leadership candidate in the Lura Blossa Brothel. A succubus descended from a half-succubus lineage. Shelfi sees Lusche as half-baked, while Lusche considers her a failure.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 656,
+      "id": "rem_00656",
+      "jp": "淫魔メイドのシェルフィ①",
+      "en": "Succubus Maid Shelfi (1)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 657,
+      "id": "rem_00657",
+      "jp": "淫魔メイドのシェルフィ",
+      "en": "Succubus Maid Shelfi",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 658,
+      "id": "rem_00658",
+      "jp": "淫魔メイドのシェルフィ②",
+      "en": "Succubus Maid Shelfi (2)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 659,
+      "id": "rem_00659",
+      "jp": "ユーステルの仲間の重戦士。わがままで突っ走りがちなユーステルをフォローしている。彼女のことは親戚の娘ぐらいに思っており、首尾範囲外でもあるのでまったく意識していない。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 660,
+      "id": "rem_00660",
+      "jp": "穏やかな重戦士オーディ",
+      "en": "Gentle Heavy Warrior Odei",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 661,
+      "id": "rem_00661",
+      "jp": "突如マジカルな力に目覚めてしまったファシィ。変身能力は彼女の潜在能力の表れであり、これは淫魔と似て異なる力とされている。マジカルは幻を操る力であり、レアかつ非常に強力な洗脳能力。",
+      "en": "Facy awoke to a sudden magical power. Her transformation ability is a manifestation of her latent potential, a power similar to but distinct from a succubus. The magical power manipulates illusions and is a rare, potent form of brainwashing.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 662,
+      "id": "rem_00662",
+      "jp": "怪盗マジカル☆ファシィ",
+      "en": "Phantom Thief Magical☆Facy",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 663,
+      "id": "rem_00663",
+      "jp": "海底都市を統べる海竜の姫。ウミディーネの王。七色の虹を冠する偉大なる竜姫の一人(自称)。大商会のネルディーネの化身でもあるが、本能に従って生活したせいか知能がかなり弱くなっている。",
+      "en": "The sea dragon princess who rules the underwater city, and queen of the undine. She's one of the great dragon princesses crowned with a rainbow (self-proclaimed). Though also a manifestation of the great merchant Neldine, her intelligence has dulled by living on instinct.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 664,
+      "id": "rem_00664",
+      "jp": "海竜姫ネルディーネ①",
+      "en": "Sea Dragon Princess Neldine①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 665,
+      "id": "rem_00665",
+      "jp": "海竜姫ネルディーネ",
+      "en": "Sea Dragon Princess Neldine",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 666,
+      "id": "rem_00666",
+      "jp": "海竜姫ネルディーネ②",
+      "en": "Sea Dragon Princess Neldine②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 667,
+      "id": "rem_00667",
+      "jp": "秘められていた力を引き出してしまったハーヴェスタ。彼女の力は『淫魔』のようであって、実体は異なる者であり。人類に対する強力なリミッター。超古代の大戦で二つの星の間で結ばれた約定の擬人化である。",
+      "en": "Harvester unleashed her hidden power. While similar to a 'Succubus,' she is fundamentally different. She is a powerful limiter for humanity—the personification of a pact forged between two stars during an ancient war.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 668,
+      "id": "rem_00668",
+      "jp": "覚醒したハーヴェスタ",
+      "en": "Awakened Harvester",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 669,
+      "id": "rem_00669",
+      "jp": "恐慌状態に陥った村人。理性を失っており、暴徒と化している……。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 670,
+      "id": "rem_00670",
+      "jp": "錯乱した村人",
+      "en": "Maddened Villager",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 671,
+      "id": "rem_00671",
+      "jp": "近年になって出現した、ホブゴブリンの亜種。通常のホブゴブリンを遙かに上回る能力を持っている。",
+      "en": "A subspecies of hobgoblin that appeared in recent years. Their abilities far surpass those of regular hobgoblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 672,
+      "id": "rem_00672",
+      "jp": "ホブゴブリン・亜種",
+      "en": "Hobgoblin Subspecies",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 673,
+      "id": "rem_00673",
+      "jp": "『聖女』の負の力に目覚めてしまったマリーゼル。強力な『聖女』であるほど負に染まりやすく、我欲に力を使うほど邪に染まりやすくなるとされる。そのため真の『聖女』はまず自らの心を律さなくてはならない。",
+      "en": "Marisel awakened to the negative aspect of the 'Saintess' power. The stronger a 'Saintess' is, the more susceptible she is to corruption. The more power is used for selfish desires, the easier it is to fall to darkness. Therefore, a true 'Saintess' must first master her own heart.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 674,
+      "id": "rem_00674",
+      "jp": "邪聖女マリーゼル",
+      "en": "Dark Saintess Marisel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 675,
+      "id": "rem_00675",
+      "jp": "マミーの中でもさらに強力な死人。生前は歴戦の勇士であり、古代の王に死してなお仕えるために、自ら守護者の術を受けて死人となった。",
+      "en": "A particularly powerful mummy. In life, a veteran warrior who willingly underwent a guardian ritual to serve an ancient king even in death.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

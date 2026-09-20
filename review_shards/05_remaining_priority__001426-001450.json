@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1426,
+  "range_end": 1450,
+  "pairs": [
+    {
+      "n": 1426,
+      "id": "rem_27001",
+      "jp": "土材",
+      "en": "Earthen Materials",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1427,
+      "id": "rem_27002",
+      "jp": "石材",
+      "en": "Stone Materials",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1428,
+      "id": "rem_27003",
+      "jp": "金属",
+      "en": "Metal",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1429,
+      "id": "rem_27004",
+      "jp": "原石",
+      "en": "Raw Stone",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1430,
+      "id": "rem_27005",
+      "jp": "燃料",
+      "en": "Fuel",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1431,
+      "id": "rem_27006",
+      "jp": "ハーブ",
+      "en": "Herbs",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1432,
+      "id": "rem_27007",
+      "jp": "薬物",
+      "en": "Drugs",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1433,
+      "id": "rem_27008",
+      "jp": "魔術触媒",
+      "en": "Magic Catalysts",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1434,
+      "id": "rem_27009",
+      "jp": "聖遺物",
+      "en": "Holy Relics",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1435,
+      "id": "rem_27010",
+      "jp": "呪物",
+      "en": "Cursed Objects",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1436,
+      "id": "rem_27011",
+      "jp": "宝石",
+      "en": "Gems",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1437,
+      "id": "rem_27012",
+      "jp": "アーティファクト",
+      "en": "Artifacts",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1438,
+      "id": "rem_27013",
+      "jp": "魔界食材",
+      "en": "Demon Realm Ingredients",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1439,
+      "id": "rem_27014",
+      "jp": "魔界果物",
+      "en": "Demon Realm Fruit",
+      "table": "db_ClubGoodsMaterialKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1440,
+      "id": "rem_27015",
+      "jp": "プロ",
+      "en": "Pro",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1441,
+      "id": "rem_27016",
+      "jp": "01-プロ",
+      "en": "Prologue",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1442,
+      "id": "rem_27017",
+      "jp": "古墳1",
+      "en": "Tumulus 1",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1443,
+      "id": "rem_27018",
+      "jp": "02-古墳1",
+      "en": "Tumulus 1",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1444,
+      "id": "rem_27019",
+      "jp": "古墳2",
+      "en": "Tumulus 2",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1445,
+      "id": "rem_27020",
+      "jp": "03-古墳2",
+      "en": "Tumulus 2",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1446,
+      "id": "rem_27021",
+      "jp": "森林",
+      "en": "Forest",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1447,
+      "id": "rem_27022",
+      "jp": "04-森林",
+      "en": "Forest",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1448,
+      "id": "rem_27023",
+      "jp": "鉱山",
+      "en": "Mine",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1449,
+      "id": "rem_27024",
+      "jp": "05-鉱山",
+      "en": "Mine",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1450,
+      "id": "rem_27025",
+      "jp": "06-灯台",
+      "en": "Lighthouse",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    }
+  ]
+}

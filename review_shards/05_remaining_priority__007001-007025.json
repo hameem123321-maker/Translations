@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7001,
+  "range_end": 7025,
+  "pairs": [
+    {
+      "n": 7001,
+      "id": "rem_34620",
+      "jp": "天才的な学習能力で、成長が早い。戦力増強のコストがダウンして、より早くスキルを習得しやすくなる。スキルの習得上限は増えず、最終的には他キャラクターと同じ習得数になる。",
+      "en": "Learns quickly with brilliant aptitude. Reduces level-up costs and speeds skill learning. Max skills unchanged; catches up to others.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7002,
+      "id": "rem_34621",
+      "jp": "『奈落の夢』を限定的に解禁し、深淵の魔力を仲間に与える。多用すると世界のバランスが崩れる、危険なスキルだが、開けたくても本人にも開けられない。",
+      "en": "Partially unlocks 'Abyssal Dream', granting allies abyssal power. Overuse risks world balance; a dangerous skill even the user can't fully control.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7003,
+      "id": "rem_34622",
+      "jp": "戦闘後パーティー回復・MP[+15%]",
+      "en": "Party recovers HP & MP [+15%] after battle",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7004,
+      "id": "rem_34623",
+      "jp": "鞭によって敵を激しく打ち付ける。二段攻撃なので威力も高い。",
+      "en": "Strikes foes fiercely with a whip. A two-hit attack with high power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7005,
+      "id": "rem_34624",
+      "jp": "範囲(小)攻撃 威力[D] +  命中[70%] + 【闇属性】 + 防御貫通(小) + 回避(中) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small AoE PWR[D] + Hit[70%] + 【Dark】 + Pierce(small) + Evade(mid) + Inflicts [Stun] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7006,
+      "id": "rem_34625",
+      "jp": "【<src>】は激しく鞭で攻撃！",
+      "en": "【<src>】lashes out with a fierce whip attack!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7007,
+      "id": "rem_34626",
+      "jp": "色欲の魔力と風属性の魔術を組み合わせて突風を巻き起こす。魔術攻撃力の威力もそうだが、魅了の魔術を伴った攻撃のため、非常に危険。",
+      "en": "Combines lustful magic with wind to whip up a gale. High magic power and carries a charm effect, making it dangerous.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7008,
+      "id": "rem_34627",
+      "jp": "全体攻撃 威力[B+] +  命中[60%] + 【風属性】 + 防御貫通(小) + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "All PWR[B+] + Hit[60%] + 【Wind】 + Pierce(small) + Inflicts [Charm] (All damage taken -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7009,
+      "id": "rem_34628",
+      "jp": "【<src>】の[ピンクハリケーン]！",
+      "en": "【<src>】's [Pink Hurricane]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7010,
+      "id": "rem_34629",
+      "jp": "色欲の魔力による強力な闇属性魔術。魅了の魔術は精神にも作用し、抵抗するのは難しいだけでなく、攻撃魔術としても強力である。",
+      "en": "Powerful dark magic fueled by lust. The charm affects the mind, hard to resist and potent as an attack.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7011,
+      "id": "rem_34630",
+      "jp": "範囲(大)攻撃 威力[A] +  命中[70%] + 【闇属性】 + 防御貫通(中) + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Large AoE PWR[A] + Hit[70%] + 【Dark】 + Pierce(mid) + Inflicts [Charm] (All damage taken -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7012,
+      "id": "rem_34631",
+      "jp": "【<src>】の[テンプテーション]！",
+      "en": "【<src>】's [Temptation]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7013,
+      "id": "rem_34632",
+      "jp": "歴戦の戦術家が演出する、氷のアトラクション。謎のギミックが発動し、敵全体が凍結してしまう。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's ice spectacle. Mysterious mechanisms freeze all foes. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7014,
+      "id": "rem_34633",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Ice】 + Inflicts [Freeze] (Phys. resist -30% + crit taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7015,
+      "id": "rem_34634",
+      "jp": "【<src>】の[酷寒地獄の計]！",
+      "en": "【<src>】's [Frigid Hell Stratagem]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7016,
+      "id": "rem_34635",
+      "jp": "歴戦の戦術家が演出する、炎のアトラクション。謎のギミックが発動し、敵全体が炎に包まれる。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's fire spectacle. Mysterious mechanisms engulf all foes in flames. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7017,
+      "id": "rem_34636",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Fire】 + Inflicts [Burn] (+10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7018,
+      "id": "rem_34637",
+      "jp": "【<src>】の[灼熱地獄の計]！",
+      "en": "【<src>】's [Scorching Hell Stratagem]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7019,
+      "id": "rem_34638",
+      "jp": "歴戦の戦術家が演出する、風のアトラクション。謎のギミックが発動し、敵全体が転倒してしまう。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's wind spectacle. Mysterious mechanisms knock all foes down. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7020,
+      "id": "rem_34639",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【風属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Wind】 + Inflicts [Knockdown] (+50% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7021,
+      "id": "rem_34640",
+      "jp": "【<src>】の[転倒地獄の計]！",
+      "en": "【<src>】's [Tumbling Hell Scheme]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7022,
+      "id": "rem_34641",
+      "jp": "仲間に濃厚な秘薬が入ったビンを飲ませてしまう。数え切れない食材とか薬物を天才的な配合で調合されたので、筋力がアップし、ヤバいぐらい興奮して防御はおろそかになる。",
+      "en": "Makes an ally drink a vial of potent elixir. Made with countless geniusly combined ingredients and drugs, it boosts strength, causes intense excitement, and lowers defense.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7023,
+      "id": "rem_34642",
+      "jp": "HP回復(大) + CT回復(大) + 【仲間】に【興奮++】を付与 (すべてのダメージ[+70%] + 物理ダメージ軽減率[-50%])",
+      "en": "Major HP Recovery + Major CT Recovery + Grants 【Ally】 【Frenzy++】 (All Damage [+70%] + Physical Damage Reduction [-50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7024,
+      "id": "rem_34643",
+      "jp": "【<src>】のマル秘薬が炸裂する！",
+      "en": "【<src>】's secret elixir explodes with power!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7025,
+      "id": "rem_34644",
+      "jp": "戦力変換・全体＞ＨＰ",
+      "en": "Resource Conversion・All > HP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    }
+  ]
+}

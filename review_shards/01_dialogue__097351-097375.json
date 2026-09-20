@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97351,
+  "range_end": 97375,
+  "pairs": [
+    {
+      "n": 97351,
+      "id": "db_EventInfo:114985:3",
+      "jp": "スイーツ……たしかにここでは、<ruby=わらわ>妾</ruby>の日課である三食のスイーツもはばかられる毎日",
+      "en": "Sweets... It's true. Here, my daily routine of having sweets with every meal feels too much.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97352,
+      "id": "db_EventInfo:114986:3",
+      "jp": "……た、たまには【里】に帰るのもやぶさかではないな",
+      "en": "...I-I wouldn't mind going back to the Village for a bit.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97353,
+      "id": "db_EventInfo:114987:1",
+      "jp": "(意思弱いな！？)",
+      "en": "(Wow, she's so easily swayed!?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97354,
+      "id": "db_EventInfo:114988:3",
+      "jp": "し、仕方あるまい！　しばらくの間、里に戻ってやる！",
+      "en": "I-I guess I have no choice! I'll go back to the village for a while!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97355,
+      "id": "db_EventInfo:114989:13",
+      "jp": "姫様～！",
+      "en": "Princess~!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97356,
+      "id": "db_EventInfo:114990:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97357,
+      "id": "db_EventInfo:114993:134",
+      "jp": "領主様……【『フレスミス森林道』】が開通したようです",
+      "en": "My Lord... It seems the ['Freshmiss Forest Road'] has been opened.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97358,
+      "id": "db_EventInfo:114994:18",
+      "jp": "うむ……？",
+      "en": "Hmm...?",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97359,
+      "id": "db_EventInfo:114995:18",
+      "jp": "先日の大雨による土砂崩れで通行不能になったと聞いていたが",
+      "en": "I heard the road became impassable due to a landslide from the heavy rain the other day.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97360,
+      "id": "db_EventInfo:114996:134",
+      "jp": "それが……。<shop>という者により多額の支援金が送られ、瞬く間に復興したそうです",
+      "en": "But it... Apparently, someone named <shop> sent a large amount of support money, and it was restored in no time.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97361,
+      "id": "db_EventInfo:114997:18",
+      "jp": "ふム……",
+      "en": "Hmm...",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97362,
+      "id": "db_EventInfo:114998:18",
+      "jp": "それほどの金額を動かせる組織が、【『ゼカリウス』】にいるとは",
+      "en": "So, there's an organization in Zecarius that can move that much money.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97363,
+      "id": "db_EventInfo:114999:15",
+      "jp": "やあ店長君、【『フレスミス森林道』】のことなんだけど",
+      "en": "Hey there, Shop Manager. About the Fresmis Forest Road...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97364,
+      "id": "db_EventInfo:115001:15",
+      "jp": "開通できたのはいいんだけどさ、【領主】の方から釘を刺されちゃったよ",
+      "en": "It's good that it's open, but the local lord gave us a warning.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97365,
+      "id": "db_EventInfo:115002:1",
+      "jp": "どういう意味だ？",
+      "en": "What do you mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97366,
+      "id": "db_EventInfo:115003:15",
+      "jp": "なんでも、交易路の整備は行政の管轄で、一般人である僕らがそれに干渉するのは越権行為だ、ってね",
+      "en": "Well, they say maintaining trade routes is the government's job. Us ordinary people interfering is overstepping our bounds.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97367,
+      "id": "db_EventInfo:115004:2",
+      "jp": "管轄なら、整備もちゃんとしろデス。行政がちゃんとしないから、カネを出す羽目になったデス",
+      "en": "If it's their job, they should do it properly desu. We had to pay money because they didn't desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97368,
+      "id": "db_EventInfo:115005:15",
+      "jp": "そうなんだけどね……政治家ってのは、民を管理したがるものだから……",
+      "en": "That's true, but... politicians love to control the people...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97369,
+      "id": "db_EventInfo:115006:15",
+      "jp": "まあ、彼らの機嫌を損ねないように、あまり目立つ行動は控えたほうがいいかもね",
+      "en": "Well, to not upset them, maybe we should avoid standing out too much.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97370,
+      "id": "db_EventInfo:115008:13",
+      "jp": "ほっほっ、店長殿、折り入ってお願いがあるのじゃが",
+      "en": "Ho ho, Shop Manager, I have a favor to ask of you.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97371,
+      "id": "db_EventInfo:115009:1",
+      "jp": "どうしたんだ？",
+      "en": "What's wrong?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97372,
+      "id": "db_EventInfo:115010:13",
+      "jp": "一度、わしらの集落へ姫様を連れて行きたいのじゃが、どうじゃろう？",
+      "en": "We want to take the Princess to our village for a bit. What do you think?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97373,
+      "id": "db_EventInfo:115011:2",
+      "jp": "休みが欲しい、という事デス？",
+      "en": "Are you saying you want time off?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97374,
+      "id": "db_EventInfo:115012:3",
+      "jp": "うむ。すまんが店長、しばし暇をもらうぞ",
+      "en": "Yeah. Sorry, boss, I need a little break.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97375,
+      "id": "db_EventInfo:115013:2",
+      "jp": "どうしたデス。どういう心変わりをしたデス？",
+      "en": "What's this? What changed your mind?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

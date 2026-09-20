@@ -1,0 +1,161 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 625,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "force_dll_0082",
+      "jp": "習得可能<size=30>{0}</size>/{1}\n<size=15>(あと{2}修得EXP)</size>",
+      "en": "Can<size=30>{0}</size>/{1}\n<size=15>({2} EXP)</size>"
+    },
+    {
+      "n": 602,
+      "id": "force_dll_0083",
+      "jp": "習得可能<size=30>{0}</size>/{1}\n<size=15>(修得EXPは最大に達しました)</size>",
+      "en": "Can<size=30>{0}</size>/{1}\n<size=15>(EXP maxed)</size>"
+    },
+    {
+      "n": 603,
+      "id": "force_dll_0084",
+      "jp": "資金{0}G",
+      "en": "{0} GP"
+    },
+    {
+      "n": 604,
+      "id": "force_dll_0085",
+      "jp": "『攻撃』のパラメータ【+{0}%】",
+      "en": "'ATK' 【+{0}%】"
+    },
+    {
+      "n": 605,
+      "id": "force_dll_0086",
+      "jp": "『魔攻』のパラメータ【+{0}%】",
+      "en": "'MATK' 【+{0}%】"
+    },
+    {
+      "n": 606,
+      "id": "force_dll_0087",
+      "jp": "『防御』のパラメータ【+{0}】",
+      "en": "'DEF' 【+{0}】"
+    },
+    {
+      "n": 607,
+      "id": "force_dll_0088",
+      "jp": "『魔防』のパラメータ【+{0}】",
+      "en": "'MDF' 【+{0}】"
+    },
+    {
+      "n": 608,
+      "id": "force_dll_0089",
+      "jp": "『速度』のパラメータ【+{0}】",
+      "en": "'SPD' 【+{0}】"
+    },
+    {
+      "n": 609,
+      "id": "force_dll_0090",
+      "jp": "命中率【+{0}%】",
+      "en": "Hit【+{0}%】"
+    },
+    {
+      "n": 610,
+      "id": "force_dll_0091",
+      "jp": "『必殺』のパラメータ【+{0}】",
+      "en": "'CRT' 【+{0}】"
+    },
+    {
+      "n": 611,
+      "id": "force_dll_0092",
+      "jp": "『連撃』のパラメータ【+{0}】",
+      "en": "'DBL' 【+{0}】"
+    },
+    {
+      "n": 612,
+      "id": "force_dll_0093",
+      "jp": "<color=#FFFFFF>{0}</color>Lv<size=30>ひみつ</size>",
+      "en": "<color=#FFFFFF>{0}</color>Lv<size=30>???</size>",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 613,
+      "id": "force_dll_0094",
+      "jp": "図鑑完成率:{0}%",
+      "en": "Codex:{0}%"
+    },
+    {
+      "n": 614,
+      "id": "force_dll_0095",
+      "jp": "<size=60>{1}</size>日目",
+      "en": "<size=60>{1}</size> d"
+    },
+    {
+      "n": 615,
+      "id": "force_dll_0096",
+      "jp": "シーン回収【<size=60>{0}</size>/<size=30>{1}</size>】",
+      "en": "CG 【<size=60>{0}</size>/<size=30>{1}</size>】"
+    },
+    {
+      "n": 616,
+      "id": "force_dll_0097",
+      "jp": ">{0}</size>億",
+      "en": ">{0}</size>B"
+    },
+    {
+      "n": 617,
+      "id": "force_dll_0098",
+      "jp": ">{1}</size>万",
+      "en": ">{1}</size>k"
+    },
+    {
+      "n": 618,
+      "id": "force_dll_0099",
+      "jp": "{0}\n<size=18>【(消費 】{1}【/{2}Rp + {3}G)】</size>",
+      "en": "{0}\n<size=18>【(ex 】{1}【/{2}Rp + {3}G)】</size>"
+    },
+    {
+      "n": 619,
+      "id": "force_dll_0100",
+      "jp": "{0}\n<size=18>【(消費 】{1}【/{2}Rp)】</size>",
+      "en": "{0}\n<size=18>【(ex 】{1}【/{2}Rp)】</size>"
+    },
+    {
+      "n": 620,
+      "id": "force_dll_0101",
+      "jp": "【ならずもの】が暴れ回り、店に【{0}G】の損害が出た！",
+      "en": "Rogues hit shop. Lost 【{0}G】"
+    },
+    {
+      "n": 621,
+      "id": "force_dll_0102",
+      "jp": "【邪教徒】が破壊工作を行い、店に【{0}G】の損害が出た！",
+      "en": "Cult sabotage. Lost 【{0}G】!"
+    },
+    {
+      "n": 622,
+      "id": "force_dll_0103",
+      "jp": "【ゴブリン】が店で略奪し、店に【{0}G】の損害が出た！",
+      "en": "Goblin loot. Lost 【{0}G】!"
+    },
+    {
+      "n": 623,
+      "id": "force_dll_0104",
+      "jp": "<size=50>襲撃Wave</size><size=70>{0}</size><size=60>/{1}</size>",
+      "en": "<size=50>RaidWv</size><size=70>{0}</size><size=60>/{1}</size>"
+    },
+    {
+      "n": 624,
+      "id": "force_dll_0105",
+      "jp": "『{0}』からの好感度が上がった！",
+      "en": "'{0}' like up!"
+    },
+    {
+      "n": 625,
+      "id": "force_dll_0106",
+      "jp": "総プレイ時間　{0}",
+      "en": "Play {0}"
+    }
+  ]
+}

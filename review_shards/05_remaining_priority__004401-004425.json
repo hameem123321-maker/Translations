@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4401,
+  "range_end": 4425,
+  "pairs": [
+    {
+      "n": 4401,
+      "id": "rem_32020",
+      "jp": "聖+闇属性ダメージ+100%",
+      "en": "Holy+Dark damage +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4402,
+      "id": "rem_32021",
+      "jp": "【<dst>】の聖と魔の力が備わった！",
+      "en": "【<dst>】 is imbued with holy and demonic power!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4403,
+      "id": "rem_32022",
+      "jp": "【<dst>】の聖と魔の力が消えた……",
+      "en": "【<dst>】's holy and demonic power has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4404,
+      "id": "rem_32023",
+      "jp": "すべての攻撃ダメージ+50%(一部の魔族のみ)",
+      "en": "All attack damage +50% (some demons only)",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4405,
+      "id": "rem_32024",
+      "jp": "【<dst>】の周りを淫魔の結界が覆った！",
+      "en": "A succubus barrier envelops 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4406,
+      "id": "rem_32025",
+      "jp": "淫魔強化",
+      "en": "Succubus Enhancement",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4407,
+      "id": "rem_32026",
+      "jp": "すべての攻撃ダメージ+50% + デスクリティカル率+30%",
+      "en": "All attack damage +50% + Non-critical rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4408,
+      "id": "rem_32027",
+      "jp": "【<dst>】に妖刀の力が備わった！",
+      "en": "【<dst>】 is imbued with the katana's power!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4409,
+      "id": "rem_32028",
+      "jp": "【<dst>】の妖刀の力が消えた……",
+      "en": "【<dst>】's katana power has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4410,
+      "id": "rem_32029",
+      "jp": "妖刀解放",
+      "en": "Katana Unleashed",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4411,
+      "id": "rem_32030",
+      "jp": "すべての攻撃ダメージ+30% + 食材へのダメージ+100%",
+      "en": "All attack damage +30% + Damage to food +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4412,
+      "id": "rem_32031",
+      "jp": "【<dst>】の周りを暴食の結界が覆った！",
+      "en": "A gluttony barrier envelops 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4413,
+      "id": "rem_32032",
+      "jp": "暴食結界",
+      "en": "Gluttony Barrier",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4414,
+      "id": "rem_32033",
+      "jp": "プレイヤー側の能力が超極大上昇 + さまざまなボーナス",
+      "en": "Player stats greatly increased + various bonuses",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4415,
+      "id": "rem_32034",
+      "jp": "神の権能",
+      "en": "Divine Authority",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4416,
+      "id": "rem_32035",
+      "jp": "マテリナ素材収集場行きのクエストを発行し、冒険者を向かわせる。素材量は豊富であり、魔獣もそれほど強くない。最初のダンジョンとしてはうってつけだ。資金を投入することで資源採集場所として成長する。",
+      "en": "Issue a quest to the Materina Material Field. Resources are abundant and monsters are weak. Perfect as a first dungeon. It grows into a resource site with investment.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4417,
+      "id": "rem_32036",
+      "jp": "マテリナ素材収集場",
+      "en": "Materina Material Field",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4418,
+      "id": "rem_32037",
+      "jp": "一般冒険者向けに、メテトス百穴古墳行きのクエストを発行する。危険な魔獣は少ないとされるが、メテトスは悪しき者によって荒らされており、多数のワナが配置されている。資金を投入して開発力を高めたい。",
+      "en": "Issue a quest to the Metetos Hundred-Hole Tomb for general adventurers. Few dangerous monsters, but the tomb is desecrated with many traps. We want investment to boost development.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4419,
+      "id": "rem_32038",
+      "jp": "メテトス百穴古墳",
+      "en": "Metetos Hundred-Hole Tomb",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4420,
+      "id": "rem_32039",
+      "jp": "おいオマエ、せっかく女を大勢使ってるのに、これでは稼ぎが足りんデス！　もっと働かせて稼ぐデス！",
+      "en": "Hey you! With so many women, this income is insufficient! Make them work harder and earn more!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4421,
+      "id": "rem_32040",
+      "jp": "うぅむ、施設の細かい不便さが気になるのじゃ。ここらで少し改良してみんか？",
+      "en": "Hmm, these small inconveniences with the facilities bother me. Shall we try improving them a bit here?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4422,
+      "id": "rem_32041",
+      "jp": "ウルフィナは欲求不満だぞ！　もっと交尾しようぜД",
+      "en": "Wolfina is frustrated! Let's mate moreД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4423,
+      "id": "rem_32042",
+      "jp": "店の規模を考えるに、もっと手元に現金を残しておくべきですわ。もう少し稼いでしまいましょう",
+      "en": "Considering the scale of the shop, we should keep more cash on hand. Let's earn a little more.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4424,
+      "id": "rem_32043",
+      "jp": "冒険者の方々は、もっと危険とスリルと報酬を求めておられます。血の気の多い方々に、派遣先を提示してあげては？",
+      "en": "The adventurers are looking for more danger, thrills, and rewards. Perhaps we could suggest some dispatch locations for these hot-blooded folk?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4425,
+      "id": "rem_32044",
+      "jp": "ねえねえ、ボクにはもう飽きちゃった？　また【<pl>】とエッチしたいなーД",
+      "en": "Hey hey, are you already bored with me? I wanna get naughty with 【<pl>】 againД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

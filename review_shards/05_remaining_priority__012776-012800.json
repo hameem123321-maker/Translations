@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12776,
+  "range_end": 12800,
+  "pairs": [
+    {
+      "n": 12776,
+      "id": "rem_43863",
+      "jp": "小麦粉を練り、円状に伸ばした生地にチーズと貝類を散りばめ、ソースと共に焼き上げた物。毎日でも食べられる味わいに、買い溜めする人間もいるとか。",
+      "en": "A circle of kneaded, stretched dough topped with cheese and shellfish, baked with sauce. Its addictively daily-friendly taste has some people stocking up.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12777,
+      "id": "rem_43864",
+      "jp": "シーフードピザ",
+      "en": "Seafood Pizza",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12778,
+      "id": "rem_43865",
+      "jp": "大海原に潜む伝説の大海獣の触手を串焼きにしたもの。ニクを串に刺したのだからヤキトリだという声もあるが、考えすぎてわけが分からなくなっているようだ。",
+      "en": "Skewered tentacles of the legendary sea beast that lurks in the ocean depths. Some call it yakitori since it's meat on a stick, but overthinking seems to have blurred the lines.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12779,
+      "id": "rem_43866",
+      "jp": "クラーケンヤキトリ",
+      "en": "Kraken Yakitori",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12780,
+      "id": "rem_43867",
+      "jp": "様々なハーブや獣骨を煮込み、素晴らしい味わいを実現したスープ。蒼いスープに警戒心を抱く者もいるが、海をイメージした豊かな味わいは知る人ぞ知る名品。",
+      "en": "A soup achieving wonderful flavor by simmering various herbs and animal bones. While some are wary of its blue hue, its rich, sea-inspired taste is a connoisseur's secret treasure.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12781,
+      "id": "rem_43868",
+      "jp": "深淵の蒼きスープ",
+      "en": "Abyssal Blue Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12782,
+      "id": "rem_43869",
+      "jp": "東方に伝わる「めだまやき」を再現した。プルプルした生地に「目玉」を配置し蒸し焼きにしたシンプルな料理のはずだが、独自の進化を遂げた料理と評判。",
+      "en": "A recreation of an Eastern \"fried eye.\" A simple steamed dish with wobbly batter and \"eyeballs,\" now renowned for its unique evolution.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12783,
+      "id": "rem_43870",
+      "jp": "めだまの盛り合わせ",
+      "en": "Eyeball Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12784,
+      "id": "rem_43871",
+      "jp": "まるで宝石のような、キラキラしたハーブとベリーを盛りつけたサラダ。見た目で楽しませてくれるだけでなく、さっぱりとした味わいも人気の秘訣。",
+      "en": "A salad of shimmering herbs and berries, arranged like jewels. Its crisp, refreshing taste is as beloved as its dazzling appearance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12785,
+      "id": "rem_43872",
+      "jp": "グリーンベリーサラダ",
+      "en": "Green Berry Salad",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12786,
+      "id": "rem_43873",
+      "jp": "素材そのものが呪詛を吐き続け、美味しく熟成が進んでいくお祭り料理。ただし残してしまうと、呪詛を吐き続けるので呪われてしまう。その際、解呪は別料金だ。",
+      "en": "A festive dish whose ingredients endlessly spew curses, aiding its delicious aging. Leftovers continue cursing, cursing you—de-cursing costs extra.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12787,
+      "id": "rem_43874",
+      "jp": "南瓜のソーサラー焼き",
+      "en": "Sorcerer's Roast Pumpkin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12788,
+      "id": "rem_43875",
+      "jp": "北方の極寒地帯で取れたキノコを煮込んだスープ料理。豊富に含まれるキノコ成分が、一時的に耐寒性を高めてくれる。",
+      "en": "A soup of mushrooms from the northern frozen wastelands. Their rich components temporarily boost cold resistance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12789,
+      "id": "rem_43876",
+      "jp": "北方のキノコスープ",
+      "en": "Northern Mushroom Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12790,
+      "id": "rem_43877",
+      "jp": "『魔女達のお茶会』考案のおもてなし料理。魔女っぽい料理を出さないと人々にウケないらしく、苦労が察せられる世知辛い一皿だが、味はもちろん一級品。",
+      "en": "A hostess dish devised for the 'Witches' Tea Party.' Must look witchy to please people—a tough world, but the flavor is top-tier.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12791,
+      "id": "rem_43878",
+      "jp": "魔女のびっくりサラダ",
+      "en": "Witch's Surprise Salad",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12792,
+      "id": "rem_43879",
+      "jp": "女主人が懲りずに聖女を使おうとして作った商品。なお、武器に祝福をかけたら壊れた反省を生かし、祝福そのものはかかっていないらしい。",
+      "en": "The mistress's undeterred attempt to use the Saintess. After her blessed weapons broke, she seems to have skipped the actual blessing this time.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12793,
+      "id": "rem_43880",
+      "jp": "マリーゼルの祝福ケーキ",
+      "en": "Marisel's Blessed Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12794,
+      "id": "rem_43881",
+      "jp": "『聖都セグルメット』で名物にしようと画策されていたドーナツ。以前ネルディーネがこっそり売ろうとしていたが、よくわからない力によって破産したらしい。",
+      "en": "A donut once schemed to be a specialty of the Holy Capital. Neldine tried to sell them secretly, but went bankrupt from mysterious forces.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12795,
+      "id": "rem_43882",
+      "jp": "聖都名物ゴッドーナツ",
+      "en": "Holy Capital's Famous God-Nut",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12796,
+      "id": "rem_43883",
+      "jp": "形を整えて携帯しやすいように握ったおにぎり。可愛らしく目を付けたら、たまに喋るようになった。結果、孤独な旅を続ける冒険者の人気商品に。",
+      "en": "Rice balls shaped for easy carrying. Adorned with cute eyes, they sometimes talk. A hit with lonely adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12797,
+      "id": "rem_43884",
+      "jp": "生きてるおにぎり",
+      "en": "Living Rice Ball",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12798,
+      "id": "rem_43885",
+      "jp": "厳選されたコメを、栄養が凝縮された滋味溢れる出汁で煮込んだ料理。一杯で一日の栄養素を満たすほどのロイヤルな料理なのだが、見た目は地味。",
+      "en": "A royal dish of select rice simmered in rich, nutrient-packed broth. One bowl provides a day's nutrition, though it looks humble.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12799,
+      "id": "rem_43886",
+      "jp": "ロイヤル米スープ",
+      "en": "Royal Rice Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12800,
+      "id": "rem_43887",
+      "jp": "イルニエル地方の漁師絶賛の、アーマニア海の怪魚を釣り上げる為の巨大針。人間が引っかかると骨まで持っていかれてしまうので注意が必要。",
+      "en": "A giant hook praised by Ilnyel fishermen for catching the eerie fish of the Armania Sea. Careful—it can snag a person down to the bone.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

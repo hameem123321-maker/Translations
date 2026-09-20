@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11501,
+  "range_end": 11525,
+  "pairs": [
+    {
+      "n": 11501,
+      "id": "rem_39262",
+      "jp": "長い年月をかけて魔力を帯びた樹木。暗黒の力を持った樹木。",
+      "en": "A tree imbued with dark power over long ages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11502,
+      "id": "rem_39263",
+      "jp": "魔を帯びた樹木",
+      "en": "Demonic Tree",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11503,
+      "id": "rem_39264",
+      "jp": "金色に輝くオークと呼ばれる樹木を削り出した物。まるで宝石のような美しさと、高い耐久性を誇る木材。",
+      "en": "Wood carved from the so-called golden oak, boasting gem-like beauty and high durability.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11504,
+      "id": "rem_39265",
+      "jp": "ゴールデンオーク",
+      "en": "Golden Oak",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11505,
+      "id": "rem_39266",
+      "jp": "魔力を帯びた特殊な木材。生息している樹木ではなく、流木として流れ着いた形でしか発見できていない。伝説の海底都市に存在すると、まことしやかに囁かれる。",
+      "en": "Special wood imbued with magic. Found only as driftwood, rumored to be from a legendary undersea city.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11506,
+      "id": "rem_39267",
+      "jp": "腐食しない奇妙な材",
+      "en": "Indestructible Driftwood",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11507,
+      "id": "rem_39268",
+      "jp": "作物を育てるのに適した土。様々な作物を育てられるのに適している反面、柔らかいので建材等には向かない。",
+      "en": "Soil ideal for growing crops, but too soft for building materials.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11508,
+      "id": "rem_39269",
+      "jp": "栄養豊富な牧場の土",
+      "en": "Nutrient-Rich Pasture Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11509,
+      "id": "rem_39270",
+      "jp": "鉱物の成分を豊富に取り込んだ土。焼成して固めた物は、建材としても申し分ない硬さを持つが、あまりに強い衝撃を叩きつけられると砕けてしまう。",
+      "en": "Soil rich in minerals. Fired, it becomes hard building material, but shatters under strong impact.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11510,
+      "id": "rem_39271",
+      "jp": "鉱山の赤土",
+      "en": "Mine's Red Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11511,
+      "id": "rem_39272",
+      "jp": "海水の流れによって堆積した砂。他の土と混ぜて、建材同士を接着したり、水分が抜けると固まる性質を利用し、地面を新しく生み出す用途に用いられる。",
+      "en": "Sand deposited by ocean currents. Used as adhesive or to create new ground when mixed.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11512,
+      "id": "rem_39273",
+      "jp": "海底の砂",
+      "en": "Seafloor Sand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11513,
+      "id": "rem_39274",
+      "jp": "水色に変色した魔力を帯びた土。美しさすら感じる水分を含んだ土は、見た目よりもはるかに禍々しい性質を備えている。",
+      "en": "Magic-imbued, bluish soil. Though beautiful, it harbors a sinister nature.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11514,
+      "id": "rem_39275",
+      "jp": "汚染された泥土",
+      "en": "Polluted Mud",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11515,
+      "id": "rem_39276",
+      "jp": "火山地帯で多く見られる、赤く輝く土。魔力を帯びた、暖かく燃えるような土は、植物を育てる以外にも使い道がある。",
+      "en": "Glowing red soil common in volcanic areas. Useful beyond just growing plants.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11516,
+      "id": "rem_39277",
+      "jp": "活力の火山土",
+      "en": "Vibrant Volcanic Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11517,
+      "id": "rem_39278",
+      "jp": "結晶化した黒土。見た目は黒光りする硬い結晶だが、少し触るとボロボロに崩れる。栄養分を豊富に含む他、金属成分と混ざると、その硬さが更に強化される。",
+      "en": "Crystallized black sand. Rich in nutrients, and its hardness increases when mixed with metal.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11518,
+      "id": "rem_39279",
+      "jp": "結晶ブラックサンド",
+      "en": "Crystal Black Sand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11519,
+      "id": "rem_39280",
+      "jp": "古代遺跡の周辺で採れる軽い土。長らく有力な利用方法が発見されなかったが、その不可思議な利用法が発見された途端に秘密裏に収集されるようになった。",
+      "en": "Light soil found near ruins. Once considered useless, now secretly collected since its mysterious use was found.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11520,
+      "id": "rem_39281",
+      "jp": "魔力を帯びた遺跡の軽土",
+      "en": "Magic Ruin Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11521,
+      "id": "rem_39282",
+      "jp": "聖地セグルメットの開拓時に掘り出された、魔力を秘めた土。その性質は元々、呪いに近い物であったようだが、現在は浄化されている。",
+      "en": "Soil containing magical power, unearthed during the development of the holy land Seglermet. Its nature was originally akin to a curse, but it has now been purified.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11522,
+      "id": "rem_39283",
+      "jp": "聖地の土",
+      "en": "Holy Land Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11523,
+      "id": "rem_39284",
+      "jp": "汚染された土壌の石。その呪いは、凍り付いた獲物を蝕み続ける。",
+      "en": "A stone from polluted soil. Its curse continues to corrode its frozen prey.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11524,
+      "id": "rem_39285",
+      "jp": "汚染したカースストーン",
+      "en": "Polluted Curse Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11525,
+      "id": "rem_39286",
+      "jp": "金を多量に含んだ石。サルバック砂漠で見つかる事から、黄金都市の噂が耐えなかった。内部には現在も謎めいた魔力が蓄積されている。",
+      "en": "A stone rich in gold. Found in the Salvac Desert, fueling rumors of a golden city. A mysterious magic still accumulates within.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

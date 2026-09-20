@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 625,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "rem_00601",
+      "jp": "冥府の要所を守る骸骨兵士。生前は優秀な兵士であり、戦争などで命を落とした彼らを冥界の主が評価し、自らの眷属として迎え入れた。冥界に溢れるゴブリンのせいで、休日が無い。",
+      "en": "Skeleton soldiers guarding key points of the underworld. Once skilled warriors who fell in battle, they were recognized by the lord of the netherworld and taken in as his followers. No days off thanks to all the Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 602,
+      "id": "rem_00602",
+      "jp": "冥府の門番",
+      "en": "Netherworld Gatekeeper",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 603,
+      "id": "rem_00603",
+      "jp": "冥府の要所を守る骸骨兵士。休日が無いのに働き続けたのを評価され、さらなる要所を任された。休日はないのだが、彼らが疲れることもない。よく寝ている。",
+      "en": "Skeleton soldiers guarding key points of the underworld. Praised for working without days off, they were given even more important posts. They don't tire, nor do they get days off. Often seen sleeping.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 604,
+      "id": "rem_00604",
+      "jp": "地獄の門番",
+      "en": "Hell's Gatekeeper",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 605,
+      "id": "rem_00605",
+      "jp": "人間の魂ではなく、長く冥界に住む精霊のようなもの。生者が冥界の世界に迷い込むと、その魂を食い尽くしてしまう。自動的な門番だが、多すぎるゴブリンのせいで手が足りていない。",
+      "en": "Spirit-like beings, not human souls, long-time residents of the netherworld. If the living wander into the underworld, these spirits devour their souls. Automatic gatekeepers, but understaffed due to too many Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 606,
+      "id": "rem_00606",
+      "jp": "ヘルスピリット",
+      "en": "Hell Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 607,
+      "id": "rem_00607",
+      "jp": "七つの目を持つという凶兆の怪物。イビルアイという魔生物が冥界の魔虫に寄生した者であり、邪眼によって高い魔力を持ち、魔術の触媒になる。",
+      "en": "A monster of ill omen said to have seven eyes. An Evil Eye magical creature parasitized by underworld insects, possessing high magical power through its evil eye and serving as a catalyst for spells.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 608,
+      "id": "rem_00608",
+      "jp": "ナナホシ",
+      "en": "Seven-Star",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 609,
+      "id": "rem_00609",
+      "jp": "冥界のルールをはずれ、さまよう死体となった死者。生者との境界があいまいなこの世界で、たまたま迷い込んだ生者を見つけては襲っている。",
+      "en": "A deceased being that has strayed from the underworld's rules, becoming a wandering corpse. In this world where the boundary with the living is blurred, they attack any living beings who happen to wander in.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 610,
+      "id": "rem_00610",
+      "jp": "さまよいびと",
+      "en": "Wanderer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 611,
+      "id": "rem_00611",
+      "jp": "グールとも言われる半生半死の怪物。死都を彷徨い、死者を食らう。生者に対して明確な憎悪を持ち、この地に迷い込んだ人間が対峙して、生きて帰ることはない。",
+      "en": "A half-living, half-dead monster also known as a ghoul. Wanders the City of the Dead, consuming the deceased. Harbors clear hatred for the living; no human who encounters them here returns alive.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 612,
+      "id": "rem_00612",
+      "jp": "屍食鬼",
+      "en": "Ghoul",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 613,
+      "id": "rem_00613",
+      "jp": "死都の水辺を泳ぐ、骨のような魚。獰猛かつ悪食で、何でも水に引きずり込み、その肉を喰らう。",
+      "en": "Bone-like fish swimming in the waters of the City of the Dead. Fierce and omnivorous, they drag anything into the water to feed on its flesh.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 614,
+      "id": "rem_00614",
+      "jp": "化石のフィッシュ",
+      "en": "Fossil Fish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 615,
+      "id": "rem_00615",
+      "jp": "冥界の戦乙女。天界とは戦争状態にあり、勇者の魂を奪い合っているとのこと。冥界に強力な人間が迷い込んだのを察知し、勇者の魂を持つ者として探しに来る。",
+      "en": "Valkyries of the netherworld. At war with Heaven, competing for Hero souls. Sensing powerful humans in the underworld, they come seeking those who possess a Hero's soul.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 616,
+      "id": "rem_00616",
+      "jp": "メイデン",
+      "en": "Maiden",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 617,
+      "id": "rem_00617",
+      "jp": "死都を舞う蝶。その鱗粉は美しく、魔術的な価値が高い。ひとたび吸い込めば、長寿を得られるとして金と同じ重さで取引されるが、実物を持ち帰った生者はいない。",
+      "en": "Butterflies that flutter through the City of the Dead. Their scales are beautiful and hold high magical value. Inhaling them is said to grant longevity, traded for their weight in gold, but no living person has ever brought one back.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 618,
+      "id": "rem_00618",
+      "jp": "ヨミアゲハ",
+      "en": "Yomi Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 619,
+      "id": "rem_00619",
+      "jp": "死都を舞うヨミアゲハの中でも希少な、七色に輝く蝶。その鱗粉を吸い込むと人間はゾンビの仲間入りしてしまう。人間世界ではまだ存在を確認されていない。",
+      "en": "A rare, seven-colored butterfly among the Yomi Butterflies. Inhaling its scales turns humans into zombies. Its existence has not yet been confirmed in the human world.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 620,
+      "id": "rem_00620",
+      "jp": "ナナイロヨミアゲハ",
+      "en": "Seven-Color Yomi Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 621,
+      "id": "rem_00621",
+      "jp": "七つの眼を持つ怪物。封印されていた八つの眼が開いたとき、それを見た者は即座に命を落とすと言われる。邪眼は最上級の魔術の触媒とされる。",
+      "en": "A monster with seven eyes. Legend says when its eighth sealed eye opens, anyone who sees it instantly dies. Its evil eye is considered a supreme catalyst for magic.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 622,
+      "id": "rem_00622",
+      "jp": "死のナナホシ",
+      "en": "The Seven-Eyed Death Star",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 623,
+      "id": "rem_00623",
+      "jp": "邪悪な力によって、ドラゴンの死体がモンスター化したもの。眠りを妨げられ、狂乱した伝説の魔物は、理性を失い全てを破壊しようと襲い掛かる。",
+      "en": "A dragon corpse corrupted into a monster by evil forces. Disturbed from its slumber, this frenzied legendary beast has lost all reason and attacks to destroy everything.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 624,
+      "id": "rem_00624",
+      "jp": "ドラゴンゾンビ",
+      "en": "Dragon Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 625,
+      "id": "rem_00625",
+      "jp": "ドラゴンの死体が呪詛によってモンスター化したもの。強い呪いをまとっており、一帯を不浄の地に変える力を持っている。生半可な魔獣は近寄る事すらできない。",
+      "en": "A dragon corpse turned monster by a powerful curse. It wields a potent curse capable of turning the surrounding area into unholy ground. Lesser magical beasts cannot even approach.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

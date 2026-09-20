@@ -1,0 +1,208 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11101,
+  "range_end": 11125,
+  "pairs": [
+    {
+      "n": 11101,
+      "id": "rem_12503",
+      "jp": "グレーテとは別の街で出会ったんだ。二人で、あと何人かも居たかな？　パーティーを組んだり別れたりして、最終的に残ったのはアイツと俺だけだったよ。いいやつも悪い奴もいたけど……まあ、冒険者になったら、そういうもんだな",
+      "en": "I met Grete in a different town. It was just the two of us, and maybe a few others? We formed and split parties, and in the end, it was just me and her left. There were good guys and bad ones... but, well, that's how it goes when you become an adventurer.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11102,
+      "id": "rem_12504",
+      "jp": "グレーテのやつはスラム出身なんだ。今じゃすっかり丸……いかどうかはわからねえけど、昔はもっと荒んでてな。俺の財布を盗もうとしたのを捕まえて、乱闘になったのが出会いさ。ま、そのままギルドに引きずっていって、真っ当な仕事をさせたのが始まりなんだけど",
+      "en": "Grete's from the slums. Now she's completely reformed... or maybe not, but she used to be way more messed up. Our meeting was when I caught her trying to steal my wallet and we got into a fight. Well, dragging her to the guild and making her do honest work was the start.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11103,
+      "id": "rem_12505",
+      "jp": "俺のことか？　まあ、それなりの家で生まれたんだけど、変態貴族の妾にされそうになってな、逃げ出してきたんだ。本当は騎士とか剣士とかになりたかったんだけど、親は許してくれなかったってのもあるけど……本当はもっと可愛く……いやっ、なんでもねえよ！",
+      "en": "Me? Well, I was born into a decent family, but I was about to be made into some pervert noble's concubine, so I ran away. I really wanted to be a knight or swordsman, but my parents wouldn't allow it... I actually wanted to be cuter... no, it's nothing!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11104,
+      "id": "rem_12506",
+      "jp": "むむむ……まさかメイドの姿にされた上、手籠めにされてしまうとは……Д　これでは、どこぞの変態貴族の趣味のようじゃねえか。こういうことをされるのがイヤだったから、あの家を出たというのに……これでは、本末転倒か？　いや、<pl>もゼカリウスではかなり有名になってるし、うーんД",
+      "en": "Mmm... To think I'd be made to wear a maid outfit and then violated...Д Isn't this just like some pervert noble's fetish? I left that house because I hated having this done to me... So this is counterproductive? But, <pl> and Zecarius are pretty famous now, so, hmmД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11105,
+      "id": "rem_12507",
+      "jp": "俺の相棒……というか、腐れ縁だな。手癖の悪い奴で、本当は盗賊とかそんなのが似合うヤツなんだけど、性根をたたき直すために武術を習わせたんだ。いまじゃ、武闘家としてけっこうな腕前なんだぜ",
+      "en": "My partner... or rather, my fate-bound acquaintance. She's got sticky fingers, a thief type really, but I made her learn martial arts to straighten her out. Now she's pretty skilled as a martial artist.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11106,
+      "id": "rem_12508",
+      "jp": "ベテラン冒険者のカンが継げている。あのヒトはヤバいぜ……！　腹減ってたから調理場で摘まもうとしたら、いつのまにか後ろをとられてつまみ出されちまった。新米の時にうっかり大型魔獣に出くわしたときの絶望感を、こんな場所で味わうとは思わなかったぜ。普段は優しそうなだけのヒトに見えるんだけどなぁ",
+      "en": "A veteran adventurer's intuition is no joke...! I was hungry and tried to sneak some food from the kitchen, but before I knew it, I was grabbed from behind and tossed out. I never thought I'd feel the despair of accidentally encountering a large monster as a rookie in a place like this. She usually seems so gentle too.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11107,
+      "id": "rem_12509",
+      "jp": "まさかあのエリオルダさんがいるとはなぁ。すごい達人で、冒険者ギルドでは成績ランキングのトップの方だったんだが、なぜかパーティーを組みたがらないという方だ。俺は是非同行を希望したかったんだが、グレーテのやつが必死で止めてきやがってなぁ",
+      "en": "I never thought that Eliorda would be here. She's an amazing master, top of the adventurer guild rankings, but for some reason, she doesn't like forming parties. I really wanted to team up with her, but Grete desperately stopped me.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11108,
+      "id": "rem_12510",
+      "jp": "お、俺に経験があるように思うのか？　他の奴に頼めよ",
+      "en": "You think I have experience? Ask someone else.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11109,
+      "id": "rem_12511",
+      "jp": "俺にこんな事を教えてどういうつもりだよ……で、でもよ、こういうのも、将来を考えたら必要なのかもな……Д",
+      "en": "What do you think you're doing teaching me this... But, you know, maybe this kind of thing is necessary when thinking about the future...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11110,
+      "id": "rem_12512",
+      "jp": "俺に経験があるように見えるのかよ？",
+      "en": "You think I look experienced?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11111,
+      "id": "rem_12513",
+      "jp": "思ったより、乱暴にしてもいいんだなД　俺としては、口でするだけじゃ、その、お、お嫁さんって感じ、しねぇよな？　もう、俺も興奮して……次はオマンコに入れてくれよぉ……Д",
+      "en": "So you don't mind if I get rough...Д For me, just using my mouth doesn't, uh, feel wifey enough, you know? I'm getting excited too... next time, put it in my pussy...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11112,
+      "id": "rem_12514",
+      "jp": "何をさせようってんだか……本当に、俺でいいのかよ",
+      "en": "What are you trying to make me do... Are you really okay with me?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11113,
+      "id": "rem_12515",
+      "jp": "俺にばかりこんな事させてんじゃねぇだろうな……えっ他の女も？　ま、まあそうだよな……Д　あの、俺なら、好きな所に、精液かけて、いいからさ……また、してやってもいいぜД",
+      "en": "I hope you're not making me do this all by myself... huh? Other women too? W-well, of course... Д Hey, with me, you can cum wherever you like... I could do it for you again, too, you know? Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11114,
+      "id": "rem_12516",
+      "jp": "おいおい、何てこと言うんだよ！？　ほ、本当に、俺に言ってんのかよ！",
+      "en": "Hey hey, what are you saying!? A-are you really saying that to me!?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11115,
+      "id": "rem_12517",
+      "jp": "あの、俺、臭くねえよな？　舐めてもらうって、臭うと幻滅されそうでさ、いつも洗ってはいるけどよ……Д　嫌なら無理すんなよ？　いや、本当はオマンコ、舐めてほしいけどさ……Д",
+      "en": "Hey, I'm not smelly, right? If someone's gonna lick it, I'd be so disappointed if they thought I smelled... I always wash, though... Д If you hate it, don't force yourself, okay? No, I really want you to lick my pussy, but... Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11116,
+      "id": "rem_12518",
+      "jp": "俺に何をさせようってんだよ……本気で言ってねえだろ？",
+      "en": "What are you trying to make me do...? You're not seriously saying that, are you?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11117,
+      "id": "rem_12519",
+      "jp": "俺が動いてやろうと思ったのに、抱きしめられて、ガンガン突かれたら、気持ち良すぎてどうにかなっちまいそうだぜД　たまにでいいから、また俺を抱いてくれたら嬉しいな……Д",
+      "en": "Just when I thought about moving, you hugged me and started pounding away, it feels too good, I'm gonna lose it Д Just sometimes is fine, I'd be happy if you held me again... Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11118,
+      "id": "rem_12520",
+      "jp": "妊娠しちまったら、責任は取ってくれるんだろうな……！？",
+      "en": "If I get pregnant, you'll take responsibility, right...!?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11119,
+      "id": "rem_12521",
+      "jp": "可愛いお嫁さんになるって夢、いつの間にか叶っちまったなД　そのうえ、今度は綺麗なお母さんにもなっちまったぜД　俺をこんなに幸せにして、もう離れてやんねぇぞД",
+      "en": "My dream of having a cute wife came true before I knew it Д On top of that, now you've become a beautiful mother too Д You've made me this happy, I'm never letting you go Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11120,
+      "id": "rem_12522",
+      "jp": "アタシとジャネットは冒険者ギルドで出会ったんだ。この街からは遠い、別の街のギルドだよ。あっちの方は大した仕事がないのに、ちんけな冒険者ばかり多くてね。仕事の奪い合いに飽き飽きして移ってきたのさ。",
+      "en": "Me and Janet met at the adventurer's guild. A guild in a different town, far from this one. Over there, there aren't many decent jobs, but there are loads of small-time adventurers. We got tired of fighting over scraps and moved here.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11121,
+      "id": "rem_12523",
+      "jp": "ああ見えてジャネットは、いいとこのお嬢様でね。ガサツなわりに根は可愛らしい趣味を持っているのさ。それを指摘すると、顔を真っ赤にして怒るけどねぇ！　アタシ？　アタシは根っからのはみだしものだからねぇ。そんなのは、ないよ",
+      "en": "Despite how she looks, Janet's actually a young lady from a good family. For being so rough, she has surprisingly cute hobbies at heart. If you point that out, she goes bright red and gets mad though! Me? I'm just a born misfit through and through. I don't have anything like that.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11122,
+      "id": "rem_12524",
+      "jp": "店長の店、大きくなってきたもんだねぇ。こちらに引っ越してきたときは、ここまで大きくなるとか夢にも思ってなかったよ。それにアンタ自身も……うんうん、もうちょっと小さかったら、アタシも放っておかないんだけどねぇ",
+      "en": "Your shop's gotten pretty big, huh? When we moved here, I never dreamed it'd get this big. And you yourself... yeah yeah, if you were a little younger, I wouldn't let you go either, you know.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11123,
+      "id": "rem_12525",
+      "jp": "いやあ、ジャネットのヤツならともかく、アタシまで抱かれてしまうとはねぇ。ま、これも何かの縁だ、これからもよろしくねぇД　店長がコッソリ向かってるようなダンジョンにはついていけないけど、アタシもジャネットもそこらの冒険者どもには負けないよ。派遣してくれれば、きっと期待には応えてみせるさね",
+      "en": "Well, maybe for Janet, but I never thought I'd end up being with you too. Well, this must be fate, let's get along from now on Д I can't follow you into the dungeons you sneak off to, but me and Janet won't lose to the adventurers around here. If you send us out, we'll definitely live up to your expectations.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11124,
+      "id": "rem_12526",
+      "jp": "アタシの相方というか、口うるさいヤツだ。今よりずっとスレてたアタシを冒険者の道に引きずり込んだヤツだよ。アイツがいなければ、今頃どうなっていたか、恐ろしいもんだね。ま、酷い目にも遭ったし、感謝の言葉を言うつもりはないけどね",
+      "en": "She's my partner, well, more like the nagging type. She's the one who dragged me, who was way more jaded back then, into the adventurer's life. If it wasn't for her, who knows where I'd be now, scary thought. Well, we've been through some tough times, so I'm not gonna say thanks or anything.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11125,
+      "id": "rem_12527",
+      "jp": "楽しい薬を発明してくれる魔女さんだよね。いやあ、魔女っていうのは陰気で胡散臭いだけの奴らと思ってたけど、なかなか話が早くてさ。臨床実験を手伝ったら、いろいろ薬を融通してくれるんだ。え？　そりゃもちろん、飲むのはアタシじゃなく、アタシに言い寄る男たちだけど？",
+      "en": "She's the witch who invents fun potions for us. Man, I thought witches were just gloomy, shady types, but she's surprisingly easy to talk to. If you help with her clinical trials, she'll hook you up with all sorts of potions. Huh? Of course, it's not me who drinks them, it's the guys who hit on me?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

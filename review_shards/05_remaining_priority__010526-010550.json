@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10526,
+  "range_end": 10550,
+  "pairs": [
+    {
+      "n": 10526,
+      "id": "rem_38287",
+      "jp": "多くのギャンブラーが熱中する大規模な賭博場。きわめて広大な敷地を必要とする。一攫千金を夢見る人々が、各地から寄り集まり、大金が乱れ飛ぶ。商人であれば是非とも設置したい最強の施設。",
+      "en": "A large gambling hall that enthralls many. Requires vast space. Dreamers gather from afar, chasing fortunes. The ultimate facility for merchants.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10527,
+      "id": "rem_38288",
+      "jp": "カジノルーム・大",
+      "en": "Grand Casino Room",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10528,
+      "id": "rem_38289",
+      "jp": "黄金にデコレートされた上位工房。豪華な工房で作れば、なぜか出来る商品もゴージャスになるらしい。働く人間のモチベーションもたぶんアップする。",
+      "en": "A high-end workshop decorated in gold. Working in luxury makes items glamorous and boosts motivation.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10529,
+      "id": "rem_38290",
+      "jp": "黄金の調理工房",
+      "en": "Golden Processing Workshop",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10530,
+      "id": "rem_38291",
+      "jp": "黄金の鍛冶工房",
+      "en": "Golden Blacksmith Workshop",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10531,
+      "id": "rem_38292",
+      "jp": "黄金の錬金工房",
+      "en": "Golden Alchemy Workshop",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10532,
+      "id": "rem_38293",
+      "jp": "最高のサービスと最高の料理を振る舞えようになった最強のレストラン。格式みたいなものが生まれ、そこで振る舞われる料理は実物以上の存在感を持つ。料理による利益を最大限に引き出す施設。",
+      "en": "The ultimate restaurant serving top service and cuisine. Its prestige makes dishes seem grander, maximizing profits from food.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10533,
+      "id": "rem_38294",
+      "jp": "最高級レストラン",
+      "en": "Luxury Restaurant",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10534,
+      "id": "rem_38295",
+      "jp": "さらに多くの武具や薬を販売出来るようにした最高級の部屋。部屋の規模自体は大きなショップと同じだが、施設が洗練されており、品物が実物以上の価値に見えてくる。",
+      "en": "A top-tier room selling more gear and potions. Same size as a large shop, but refined, making items seem more valuable.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10535,
+      "id": "rem_38296",
+      "jp": "最高級ショップ",
+      "en": "Luxury Shop",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10536,
+      "id": "rem_38297",
+      "jp": "繁栄する店に相応しくアップグレードされた豪華な事務所。店の入り口である事務所が豪華だと、客は勝手に中まで豪華と思い込んでくれるらしい。店の機能を強化してくれる。",
+      "en": "A lavish office upgraded for a thriving shop. A fancy entrance makes customers assume the whole store is luxurious. Enhances shop functions.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10537,
+      "id": "rem_38298",
+      "jp": "豪華な事務所",
+      "en": "Luxurious Office",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10538,
+      "id": "rem_38299",
+      "jp": "ダンジョンから産出された開発ポイントを保存する施設。倉庫が豪華になるほど、開発ポイントは多く貯まりやすくなる。不思議なことに。豪華さがアップした。",
+      "en": "Stores Development Points from dungeons. Fancier warehouses store more points. Oddly enough. Luxuriousness upgraded.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10539,
+      "id": "rem_38300",
+      "jp": "普通の倉庫ルーム",
+      "en": "Ordinary Storage Room",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10540,
+      "id": "rem_38301",
+      "jp": "ダンジョンから産出された開発ポイントを保存する施設。開発ポイントは多く貯まりやすくなる。不思議なことに。宮殿の宝物庫に匹敵する豪華さ。",
+      "en": "Stores Development Points from dungeons. Makes points easier to accumulate. Oddly enough. Matches a palace treasury in luxury.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10541,
+      "id": "rem_38302",
+      "jp": "普通の財宝部屋",
+      "en": "Treasure Room",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10542,
+      "id": "rem_38303",
+      "jp": "客の心を穏やかにする庭園。店の中を平和にしてくれる。客の心も清浄となり、おカネを寄付していくことも。",
+      "en": "A calming garden for customers. Brings peace to the store, purifies hearts, and encourages donations.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10543,
+      "id": "rem_38304",
+      "jp": "噴水のある庭園",
+      "en": "Garden with Fountain",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10544,
+      "id": "rem_38305",
+      "jp": "聖都セグルメットより伝わる伝説の神像を模したもの。店内をデタラメな感じにブーストする究極の施設である。究極なので1つしか建設できない。なぜかシイネに姿が似ているが、関連は不明である。",
+      "en": "A replica of a legendary statue from the Holy City Seglmet. The ultimate facility, it boosts the store's random/chance aspects. Only one can be built. It strangely resembles Shiine; any connection is unknown.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10545,
+      "id": "rem_38306",
+      "jp": "女神像がある庭園",
+      "en": "Garden with Goddess Statue",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10546,
+      "id": "rem_38307",
+      "jp": "『邪教』のシンボルを置いた、邪悪な礼拝堂。中に入った者は全裸となり、邪悪な儀式を執り行いそうになる。(『魔術師』『呪術師』もしくは【オーレリアかアナザーマリーゼル専用】)",
+      "en": "A sinister chapel with a symbol of a 'Heresy'. Those inside become nude and feel compelled to perform evil rites. (For 『Sorcerer』, 『Shaman』, or 【Aurelia/Another Marisel】 only)",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10547,
+      "id": "rem_38308",
+      "jp": "邪教の礼拝堂",
+      "en": "Heretical Chapel",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10548,
+      "id": "rem_38309",
+      "jp": "ダンジョンから産出された開発ポイントを保存する施設。開発ポイントは多く貯まりやすくなる。不思議なことに。大陸一の店を名乗っても遜色ない、究極の豪華さ。",
+      "en": "A facility that stores Development Points from the dungeon. Development Points accumulate faster. Strangely, it's ultimate luxury, rivaling the continent's best.",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10549,
+      "id": "rem_38310",
+      "jp": "豪華な財宝部屋",
+      "en": "Luxurious Treasure Room",
+      "table": "db_ClubBuild",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10550,
+      "id": "rem_38311",
+      "jp": "コンフェ",
+      "en": "Confey",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    }
+  ]
+}

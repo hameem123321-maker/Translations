@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 76026,
+  "range_end": 76050,
+  "pairs": [
+    {
+      "n": 76026,
+      "id": "db_EventInfo:89968:15",
+      "jp": "ドワーム族のもたらす生産品は、フレスミス森林道を通ってゼカリウスの各地に売られている。他の地方も羨むほどだよ",
+      "en": "The goods the Dwarm produce are sold all over Zecarius via the Fressmis Forest Road. Other regions are quite envious.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 76027,
+      "id": "db_EventInfo:89969:3",
+      "jp": "そうじゃそうじゃ！　ドワーム族の鍛冶は世界最強なのじゃ！",
+      "en": "Yes, yes! The Dwarm's blacksmithing is the strongest in the world!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76028,
+      "id": "db_EventInfo:89970:3",
+      "jp": "……はて？　そんなドワーム族の里が、なんで壊滅的になるのじゃ？　ドワーム族の武器は最強のはず。身体だって丈夫なのじゃ……？",
+      "en": "...Huh? So why did the Dwarm village get devastated? Their weapons are supposed to be the strongest. Their bodies are tough too...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76029,
+      "id": "db_EventInfo:89971:2",
+      "jp": "例の変な服を着たオマエが、大暴れしたせいじゃないデス？",
+      "en": "Wasn't it because that weirdly dressed guy went on a rampage, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76030,
+      "id": "db_EventInfo:89972:3",
+      "jp": "なんじゃとー！？",
+      "en": "What's that!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76031,
+      "id": "db_EventInfo:89974:11",
+      "jp": "イルニエルの大灯台の修理も終わって、港は賑わっているわ",
+      "en": "The repair of the Great Lighthouse of Iluniel is finished, and the port is bustling.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 76032,
+      "id": "db_EventInfo:89975:11",
+      "jp": "毎日、新鮮な魚が市場に流れるようになってるわよ",
+      "en": "Every day, fresh fish flows into the market now.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 76033,
+      "id": "db_EventInfo:89976:4",
+      "jp": "サカナ！　ウルフィナはサカナをもっと食べたいぞ！",
+      "en": "Fish! Wolfina wants to eat more fish!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76034,
+      "id": "db_EventInfo:89977:4",
+      "jp": "特にタコってやつがウマいみたいだからな、もっと取ってきてくれ！",
+      "en": "Especially that thing called octopus seems tasty, so get me more!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76035,
+      "id": "db_EventInfo:89979:12",
+      "jp": "あんな禍々しいモノ、よく食べられますね……",
+      "en": "That thing looks so evil... How can you eat it?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 76036,
+      "id": "db_EventInfo:89980:21",
+      "jp": "そうですか？　ウチの地方ではよく食べられている食材ですが",
+      "en": "Really? It's a common food where I come from.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 76037,
+      "id": "db_EventInfo:89981:22",
+      "jp": "そうですわね",
+      "en": "Yes, that's right.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 76038,
+      "id": "db_EventInfo:89982:105",
+      "jp": "うむ。我が地方でも好まれている食材だ。ゼカリウスの人間には苦手な意識があるようだが",
+      "en": "Indeed. It's a favorite food in our region too. People from Zecarius seem to dislike it, though.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 76039,
+      "id": "db_EventInfo:89983:115",
+      "jp": "それはきっと、テンタクルに似ているせい",
+      "en": "It's probably because it looks like a tentacle.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 76040,
+      "id": "db_EventInfo:89984:4",
+      "jp": "てんたくるかー。あれもウマいんだよなぁ",
+      "en": "Tentacles, huh. Those are tasty too.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76041,
+      "id": "db_EventInfo:89985:12",
+      "jp": "食べないでください！　お腹壊したらどうするんです！！",
+      "en": "Please don't eat that! What if it makes you sick?!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 76042,
+      "id": "db_EventInfo:89989:23",
+      "jp": "ノーザリアの一件があって以来、軍艦も造られるようになったみたいやわ",
+      "en": "Since the Northlia incident, I hear they've started building warships too.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76043,
+      "id": "db_EventInfo:89990:23",
+      "jp": "まったく、物騒な世の中やわ",
+      "en": "It's such a dangerous world now.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76044,
+      "id": "db_EventInfo:89991:24",
+      "jp": "そうですわ。何事も平和が重要でありますのに",
+      "en": "Indeed. Peace is so important in everything.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 76045,
+      "id": "db_EventInfo:89992:2",
+      "jp": "オマエらのせいデス！！",
+      "en": "IT'S YOUR FAULT!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76046,
+      "id": "db_EventInfo:89996:1",
+      "jp": "どうした、ルース",
+      "en": "What's wrong, Ruus?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76047,
+      "id": "db_EventInfo:89997:19",
+      "jp": "いや。【『ゴーレム』】君のことを思い出して",
+      "en": "Wait. I remember you, [『Golem』].",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 76048,
+      "id": "db_EventInfo:89998:19",
+      "jp": "彼のことはスカウトして、俺のパーティーに加えるつもりだったのに……",
+      "en": "I was gonna scout him for my party...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 76049,
+      "id": "db_EventInfo:89999:1",
+      "jp": "そうか……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76050,
+      "id": "db_EventInfo:90000:19",
+      "jp": "メインタンクとして貴重な人材だったのに",
+      "en": "He was valuable as a main tank.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

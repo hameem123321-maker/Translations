@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11651,
+  "range_end": 11675,
+  "pairs": [
+    {
+      "n": 11651,
+      "id": "rem_39412",
+      "jp": "動植物の素材を液体に溶かし込むための特殊な液体。優れた触媒だが、人間の体も溶かすため、扱いには注意が必要。",
+      "en": "A special liquid for dissolving animal and plant materials. An excellent catalyst, but dangerous—it can dissolve human flesh too.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11652,
+      "id": "rem_39413",
+      "jp": "溶解オイル",
+      "en": "Dissolving Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11653,
+      "id": "rem_39414",
+      "jp": "不思議な魔術模様が浮かび上がった石板。遺跡から出土するこの石は、薬品を均一に溶かしたり、魔術コントロールを補助する効果がある。",
+      "en": "A stone slab with mystical patterns. Excavated from ruins, it helps dissolve potions uniformly and assists in controlling magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11654,
+      "id": "rem_39415",
+      "jp": "魔力を帯びた石板",
+      "en": "Magical Stone Slab",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11655,
+      "id": "rem_39416",
+      "jp": "妖精の羽と言われているが、昆虫の羽と見分けがつかない。だが、魔力の宿った羽は、レベルの高い魔導師には高値で取引される。",
+      "en": "Said to be a fairy's wing, but indistinguishable from an insect's. However, wings imbued with magic fetch a high price from skilled mages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11656,
+      "id": "rem_39417",
+      "jp": "輝ける妖精の羽",
+      "en": "Shimmering Fairy Wing",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11657,
+      "id": "rem_39418",
+      "jp": "浅瀬や海中に繁茂する、天然のミネラルを多量に取り込んだ海藻。",
+      "en": "Seaweed that thrives in shallows or the sea, rich in natural minerals.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11658,
+      "id": "rem_39419",
+      "jp": "大量に生える海洋植物",
+      "en": "Abundant Seaweed",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11659,
+      "id": "rem_39420",
+      "jp": "聖なる獣が落としていった排泄物。見た目は汚いが、天然の祝福を受けた重要な魔術触媒。",
+      "en": "Droppings left by a holy beast. Looks unsightly, but a vital magical catalyst blessed by nature.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11660,
+      "id": "rem_39421",
+      "jp": "聖獣の排泄物",
+      "en": "Holy Beast Droppings",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11661,
+      "id": "rem_39422",
+      "jp": "巨大化した食虫植物の一種。生命力に満ち溢れ、時には人間すら閉じ込め、自身の生命力へと変えてしまう。",
+      "en": "A species of giant carnivorous plant brimming with life force. It sometimes traps even humans, converting them into its own vitality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11662,
+      "id": "rem_39423",
+      "jp": "人喰いビッグプラント",
+      "en": "Man-eating Big Plant",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11663,
+      "id": "rem_39424",
+      "jp": "途方もない生命力を宿した樹木の花。寿命を延ばす効果があると言われ、長寿を求める貴族が争うように買い漁る。",
+      "en": "The flower of a tree possessing immense life force. Said to extend lifespan, nobles seeking longevity scramble to buy them.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11664,
+      "id": "rem_39425",
+      "jp": "冥界の花",
+      "en": "Netherworld Flower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11665,
+      "id": "rem_39426",
+      "jp": "様々な薬草を調合してきた大鍋。この鍋を使わないと、作れない薬もある。この器具自体が魔術触媒の一つとして取り扱われている。",
+      "en": "A large cauldron that has brewed many herbs. Some medicines cannot be made without it, and it's treated as a magical catalyst.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11666,
+      "id": "rem_39427",
+      "jp": "魔女の大鍋",
+      "en": "Witch's Cauldron",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11667,
+      "id": "rem_39428",
+      "jp": "雷のエネルギーを帯びた、霊峰から湧き出る天然水。空気に触れると徐々に魔力を放出する為、厳しい品質管理が求められる",
+      "en": "Natural water from a sacred peak, charged with lightning energy. Requires strict quality control as it gradually releases mana upon contact with air.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11668,
+      "id": "rem_39429",
+      "jp": "帯電エレキウォーター",
+      "en": "Charged Eleki-Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11669,
+      "id": "rem_39430",
+      "jp": "強烈な炎の力を閉じ込めた、熱を持った魔術触媒。高温で反応させる必要がある調合に有効だが、うっかり素手で触ると火傷程度では済まない。",
+      "en": "A hot magical catalyst containing intense fire power. Effective for concoctions requiring high heat. Touching it barehanded will cause more than a burn.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11670,
+      "id": "rem_39431",
+      "jp": "煮えたぎるオーブ",
+      "en": "Seething Orb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11671,
+      "id": "rem_39432",
+      "jp": "気が向いた時に金銭を入れていくだけで、金運に恵まれ、いずれはお金持ちになるらしい。だがこれ自体が盗難されてしまってはどうしようもない。",
+      "en": "Putting money in here on a whim is said to bring fortune and eventual wealth. But it's useless if the chest itself is stolen.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11672,
+      "id": "rem_39433",
+      "jp": "金運の宝箱",
+      "en": "Fortune Chest",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11673,
+      "id": "rem_39434",
+      "jp": "聖人の遺骨と言われている骨。世界各地に存在し、全てを合わせると総量は途方もない重さになる。古の聖者は巨人だったに違いない。",
+      "en": "Bones said to be the relics of a saint. Found worldwide; their total weight is immense. The ancient saint must have been a giant.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11674,
+      "id": "rem_39435",
+      "jp": "聖者の骨",
+      "en": "Saint's Bones",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11675,
+      "id": "rem_39436",
+      "jp": "見た目にも豪華な黄金色の壺。これを部屋に置いておくだけで運気が整い幸福になれるという。信じればそんな気になってくる。",
+      "en": "A lavish golden pot. Simply placing it in a room is said to harmonize fortune and bring happiness. If you believe it, it feels real.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

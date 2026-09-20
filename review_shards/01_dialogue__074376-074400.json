@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 74376,
+  "range_end": 74400,
+  "pairs": [
+    {
+      "n": 74376,
+      "id": "db_EventInfo:87976:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】に協力を仰ぎました。",
+      "en": "He sought help from the 'Solcia Academy'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74377,
+      "id": "db_EventInfo:87977:12",
+      "jp": "中級以上の魔術師二百人を配備し、一斉にカオスウェイブを撃ってもらいます",
+      "en": "He deployed over two hundred mid-level or higher mages and had them all fire Chaos Wave simultaneously.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74378,
+      "id": "db_EventInfo:87978:2",
+      "jp": "カオスウェイブ、デスか。ミルテの【『禁呪』】には劣るデスが、二百人も揃えたら、奴もひとたまりもないデスね！",
+      "en": "Chaos Wave, death. It's weaker than Myrte's 'Forbidden Curse', death. But with two hundred of them, even that thing wouldn't last a second, death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74379,
+      "id": "db_EventInfo:87979:1",
+      "jp": "……そう、上手く行けばいいんだけどな",
+      "en": "Yeah... I hope it works out.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74380,
+      "id": "db_EventInfo:87982:15",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】の魔術師二百人が、洋上で一斉に【『魔海要塞キングホエール』】へカオスウェイブを撃ったそうだ",
+      "en": "They say two hundred sorcerers from the Solcia Academy fired a Chaos Wave at the King Whale Sea Fortress all at once, out at sea.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 74381,
+      "id": "db_EventInfo:87983:1",
+      "jp": "おお、どうなった？",
+      "en": "Oh? What happened?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74382,
+      "id": "db_EventInfo:87984:15",
+      "jp": "……若干怯んだ程度で大したダメージにはならなかったらしい",
+      "en": "...It seemed to flinch a bit, but it didn't take much damage.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 74383,
+      "id": "db_EventInfo:87985:1",
+      "jp": "そ、そうか……",
+      "en": "I, I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74384,
+      "id": "db_EventInfo:87986:2",
+      "jp": "予想は出来ていたデス",
+      "en": "We expected as much desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74385,
+      "id": "db_EventInfo:87987:15",
+      "jp": "この魔術攻撃による余波で、キングホエールが振動、港に若干の波が押し寄せたよ",
+      "en": "The shockwaves from the magical attack made King Whale shake. Some waves reached the harbor.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 74386,
+      "id": "db_EventInfo:87988:15",
+      "jp": "とはいえ、こちらは避難が進んでたのもあって、特に被害はないようだ",
+      "en": "But since the evacuation was going well, there doesn't seem to be any real damage.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 74387,
+      "id": "db_EventInfo:87989:15",
+      "jp": "キングホエールは依然動かず、ソルシアの魔術師にも被害は無しで、港の方に帰還しているよ",
+      "en": "King Whale still isn't moving. The Solcia sorcerers are fine too. They've gone back to the harbor.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 74388,
+      "id": "db_EventInfo:87990:1",
+      "jp": "分かった。何はともあれ、被害が無くてなによりだ",
+      "en": "Got it. Either way, it's a relief there's no damage.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74389,
+      "id": "db_EventInfo:87993:0",
+      "jp": "嫌な予感は的中してしまった。",
+      "en": "My bad feeling came true.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74390,
+      "id": "db_EventInfo:87994:2",
+      "jp": "やはり二百人そろえても、ザコばかりでは戦力にならないデスか",
+      "en": "So even two hundred small fries together are no match desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74391,
+      "id": "db_EventInfo:87995:12",
+      "jp": "残念ながら、そういうことですね……",
+      "en": "Unfortunately, that's right...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74392,
+      "id": "db_EventInfo:87996:2",
+      "jp": "ちなみに二百人というと、オマエ何人分ぐらいデス？",
+      "en": "By the way, if we're talking two hundred people, about how many people worth are you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74393,
+      "id": "db_EventInfo:87997:12",
+      "jp": "さあ。二人分ぐらいじゃないでしょうか？",
+      "en": "Hmm. Maybe about two people's worth?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74394,
+      "id": "db_EventInfo:87998:2",
+      "jp": "盛るなデス。オマエ一人分が追加でどうにかなるなら、前の戦闘でも少しはダメージがあったはずデス",
+      "en": "You're exaggerating. If adding just one of you could make a difference, we would have done at least a little damage in the last fight.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74395,
+      "id": "db_EventInfo:87999:12",
+      "jp": "ぐぬぬ",
+      "en": "Urgh...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74396,
+      "id": "db_EventInfo:88000:12",
+      "jp": "うるさいですね。私の知ってる【『禁呪』】は、海の中の相手に効果が薄いんです！",
+      "en": "Quiet, you. The ['Forbidden Curse'] I know is weak against enemies in the sea!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74397,
+      "id": "db_EventInfo:88001:1",
+      "jp": "まあ、確かに相手は海中に潜れるんだものな",
+      "en": "Well, it's true the enemy can dive underwater.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74398,
+      "id": "db_EventInfo:88002:12",
+      "jp": "こうなったら……【あの魔術】を使うしか……",
+      "en": "In that case... There's no choice but to use ['that magic']...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74399,
+      "id": "db_EventInfo:88003:0",
+      "jp": "ミルテは考え込むと、自分の部屋に戻ってしまった。",
+      "en": "Myrte thought for a moment, then went back to her room.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74400,
+      "id": "db_EventInfo:88006:0",
+      "jp": "ミルテは何かに悩んでいるようだ。",
+      "en": "Myrte seems troubled by something.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12726,
+  "range_end": 12750,
+  "pairs": [
+    {
+      "n": 12726,
+      "id": "rem_43813",
+      "jp": "『鍛鉄の街フレスミス』と『ドルワミール鉱山』の関係は修復しつつあり、ついに交易が再開されるという。『フレスミス森林道』を再整備して、交易を復活させよう。",
+      "en": "Relations between the 'Forge City of Fresmice' and 'Dorwamir Mine' are improving. Let's reopen trade by restoring the 'Fresmice Forest Road'.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12727,
+      "id": "rem_43814",
+      "jp": "鍛鉄街Lv4・フレスミス森林道の整備",
+      "en": "Forge City Lv4 - Restore the Fresmice Forest Road",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12728,
+      "id": "rem_43815",
+      "jp": "『鍛鉄の街フレスミス』は心を入れ替えた。彼らはやる気を出し、鍛冶屋の仕事を求めている。今の彼らに必要なのは、大量の仕事の発注だ。大量生産の発注を行なおう。",
+      "en": "Fresmice has reformed. They're eager for work and seek new blacksmithing orders. They need a major production contract now.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12729,
+      "id": "rem_43816",
+      "jp": "鍛鉄街Lv6・大量発注に挑戦",
+      "en": "Forge City Lv6 - Attempt a Mass Order",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12730,
+      "id": "rem_43817",
+      "jp": "『鍛鉄の街フレスミス』の次の課題は、半端に身についた技術の研鑽だ。ドルガノンとアンジュはドワーム族との徒弟制度を復活させるという。彼らの説得も成功して、再び弟子を取るドワーム族も現れている。彼らに場所を提供しよう。",
+      "en": "The next step for Fresmice is honing their skills. Dorganon and Anju aim to revive the Dwarm apprenticeship system. They've convinced some Dwarm to take apprentices again. We should provide a venue.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12731,
+      "id": "rem_43818",
+      "jp": "鍛鉄街Lv8・ドワーム徒弟制度の復活",
+      "en": "Forge City Lv8 - Revive the Dwarm Apprenticeship System",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12732,
+      "id": "rem_43819",
+      "jp": "ドワーム族との徒弟制度が復活し、『鍛鉄の街フレスミス』の職人も力を付け始めた。今の彼らの仕事は、これまでの半端な工房では力不足だ。ドワームの技術に耐えられる、強靱で大規模な工房を建築しよう。",
+      "en": "With apprenticeships revived, Fresmice's craftsmen are growing stronger. Their current workshops are inadequate. Let's build a large, sturdy workshop fit for Dwarm techniques.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12733,
+      "id": "rem_43820",
+      "jp": "鍛鉄街Lv10・工房の大規模建築",
+      "en": "Forge City Lv10 - Construct a Large Workshop",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12734,
+      "id": "rem_43821",
+      "jp": "最近のならずものの大量発生は、ゼカリウスへの人口流入が原因の一つらしい。そして今の『鍛鉄の街フレスミス』はそれらの人口流入を受け入れる余地がある。必要なのは、街の区画だ。",
+      "en": "The recent influx of ruffians is partly due to migration to Zecarius. Fresmice now has room to absorb some of this population. They need a new city district.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12735,
+      "id": "rem_43822",
+      "jp": "鍛鉄街Lv12・鍛鉄街の拡張",
+      "en": "Forge City Lv12 - Expand the Forge City",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12736,
+      "id": "rem_43823",
+      "jp": "拡張された『鍛鉄の街フレスミス』は西方への交易拠点になり得るらしい。ここから商業街や宗教組織を誘致することもできるだろう。『王都』や『聖都』への備えとして、投資する価値はありそうだ。",
+      "en": "The expanded 'Forge City of Fresmice' could become a trade hub to the west. We can attract merchants and religious groups. Worth investing in, as preparation against the 'Royal' and 'Holy' Capitals.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12737,
+      "id": "rem_43824",
+      "jp": "鍛鉄街Lv15・交易拠点への発展",
+      "en": "Forge City Lv15 - Develop into a Trade Hub",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12738,
+      "id": "rem_43825",
+      "jp": "ハヅキさんが作っている修練場の資金が不足しているらしい。『最果ての修練場』を完成させるために、さらなる投資を行なおう。",
+      "en": "Hazuki is short on funds for the training ground she's building. Let's invest more to complete the 'Edge of the World Training Ground'.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12739,
+      "id": "rem_43826",
+      "jp": "修練場Lv2・ハヅキさんのリクエスト",
+      "en": "Training Ground Lv2 - Hazuki's Request",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12740,
+      "id": "rem_43827",
+      "jp": "『最果ての修練場』とは別に、半魔の里の融資を頼まれた。元領主ゼルカの屋敷跡地を、より良い居住地にするためらしいが……何を作っているのだろう？",
+      "en": "Besides the training ground, we've been asked to finance a project in the Half-Demon Village. They want to improve the former lord Zelka's estate into better housing... What are they building?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12741,
+      "id": "rem_43828",
+      "jp": "修練場Lv6・半魔の里の建設支援",
+      "en": "Training Ground Lv6: Support for Demihuman Village Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12742,
+      "id": "rem_43829",
+      "jp": "ハヅキさんか建設している半魔の里の設備をさらに強化したいらしい。シイネは渋っているが、彼女らが安心して住める場所を作ることは領主として重要だろう。",
+      "en": "Hazuki wants to further improve the facilities of the demihuman village she's building. Shiine is reluctant, but creating a safe home for them is important for a lord.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12743,
+      "id": "rem_43830",
+      "jp": "修練場Lv8・半魔の里の移住支援",
+      "en": "Training Ground Lv8: Support for Demihuman Village Relocation",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12744,
+      "id": "rem_43831",
+      "jp": "『最果ての修練場』とは別に、もっとダウングレードした、個人向けの低級修練所を作りたいらしい。優秀な人材を育てることは、ゼカリウスにとっても大事なことだ。",
+      "en": "Aside from the 'Apex Training Ground,' they want to build a more downscaled, low-level facility for individuals. Nurturing talented people is important for Zecarius too.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12745,
+      "id": "rem_43832",
+      "jp": "修練場Lv10・ダウングレード修練場建設",
+      "en": "Training Ground Lv10: Downgraded Training Ground Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12746,
+      "id": "rem_43833",
+      "jp": "『最果ての修練場』のすべてを突破した。これでようやく修練場を封印することができる。これが最後の事業投資になるだろう。",
+      "en": "You've conquered everything in the 'Apex Training Ground.' Now you can finally seal it away. This will be the final business investment.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12747,
+      "id": "rem_43834",
+      "jp": "修練場Lv15・最果ての修練場の封印",
+      "en": "Training Ground Lv15: Seal of the Apex Training Ground",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12748,
+      "id": "rem_43835",
+      "jp": "暴食の魔族『グラット』こと魔界料理人コッペリナが立ち上げた、魔界の料理を『人間界』に広める組織。主に魔界の食材や植物を使用し、癖になる食感と味は美食家も唸らせる。『人間界』には影響ないはず。",
+      "en": "An organization founded by the Gluttony Demon 'Glatt,' the demon world chef Koppelina, to spread demon world cuisine to the 'human world.' It mainly uses demon world ingredients. Its addicting texture and taste impress even gourmets. It shouldn't affect the 'human world.'",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12749,
+      "id": "rem_43836",
+      "jp": "美食の殿堂クルクドール",
+      "en": "Gourmet Palace Krukudoru",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12750,
+      "id": "rem_43837",
+      "jp": "『聖都セグルメット』を中心に影響力を持つ、薬聖マルグレッテが立ち上げた組織。大陸の薬師を取りまとめる。魔女のお茶会とは同ジャンルのライバル組織になるが、それよりもはるかに規模が大きい。",
+      "en": "An organization founded by the Medicine Saint Margrette, centered around the Holy City of Segurmette. It organizes alchemists across the continent. It's a rival organization to the Witch's Tea Party in the same field, but far larger in scale.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104376,
+  "range_end": 104400,
+  "pairs": [
+    {
+      "n": 104376,
+      "id": "db_EventInfo:123446:1",
+      "jp": "そういうなよ。投資なんだから、いつかは結果に結びつく……さ",
+      "en": "Don't say that. It's an investment. It'll pay off someday.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104377,
+      "id": "db_EventInfo:123447:0",
+      "jp": "ミルテが金に困っている理由が俺にも分かってしまうのであった。",
+      "en": "Now I see why Myrte has money trouble.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104378,
+      "id": "db_EventInfo:123450:0",
+      "jp": "といっても、調査団があちこち発掘しているせいで、【『ダンジョン』】の有益な調査ポイントも発見できた。今後はそこに冒険者を派遣すると良さそうだ。",
+      "en": "But the survey team dug all over. So we found some good spots in the dungeon. We should send adventurers there now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104379,
+      "id": "db_EventInfo:123452:12",
+      "jp": "店長、【『ロオン遺跡調査団』】が発掘物を買い取るよう、送りつけてきました！",
+      "en": "Boss! The Loon Ruins Survey Team sent us some stuff to buy!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104380,
+      "id": "db_EventInfo:123453:1",
+      "jp": "発掘物を……？　調査団もようやく成果を出せたんだなぁ。投資をしてきた甲斐があったな",
+      "en": "Stuff? So they finally got results? My investment paid off.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104381,
+      "id": "db_EventInfo:123454:12",
+      "jp": "そんな悠長に構えている場合ではありません。送ってきたモノが問題なのです",
+      "en": "This is no time to relax. What they sent is a problem.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104382,
+      "id": "db_EventInfo:123455:1",
+      "jp": "というと？",
+      "en": "What do you mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104383,
+      "id": "db_EventInfo:123456:12",
+      "jp": "……送ってきたのは【『呪物』】なのです",
+      "en": "...What they sent us is a 'Cursed Object'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104384,
+      "id": "db_EventInfo:123457:1",
+      "jp": "呪物……！？　それってヤバイ代物じゃないのか？",
+      "en": "A Cursed Object...?! That's dangerous stuff, isn't it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104385,
+      "id": "db_EventInfo:123458:12",
+      "jp": "ヤバイですね。魔術的には価値がある、かなりの稀少品ですが、とにかく扱いが難しくて……特にこれは、かなり強い呪いが掛けられているようです",
+      "en": "It is dangerous. Magically, it's quite valuable, a rare item. But it's very hard to handle... and this one seems to have a particularly strong curse on it.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104386,
+      "id": "db_EventInfo:123459:12",
+      "jp": "……どうやら解呪などの素材化処理などをされずに、そのまま送られてきたみたいですね。調査団員には魔術師の人員は不足しているようです",
+      "en": "...Looks like they sent it over without breaking the curse or processing it into material. The survey team seems to be short on mage personnel.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104387,
+      "id": "db_EventInfo:123460:1",
+      "jp": "……解呪とかを俺たちにさせて、なおかつタダでは渡さないつもりか。しっかりしているなぁ",
+      "en": "...So they want us to break the curse, and they're not giving it away for free. They're clever.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104388,
+      "id": "db_EventInfo:123461:12",
+      "jp": "あまり出回らない素材なので、この機は逃したくないところです",
+      "en": "It's rare material, so we shouldn't pass up this chance.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104389,
+      "id": "db_EventInfo:123462:12",
+      "jp": "どうします？　送り返してもいいですけど",
+      "en": "What do we do? We could send it back.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104390,
+      "id": "db_EventInfo:123463:12",
+      "jp": "むう……都合の良いときだけ天才扱いして",
+      "en": "Hmph... Only calling me a genius when it suits you.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104391,
+      "id": "db_EventInfo:123464:12",
+      "jp": "いいですけど。呪物の扱いは苦手ですから、どうなっても知りませんからね……！",
+      "en": "Fine. But I'm not good with cursed objects, so don't blame me if something goes wrong...!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104392,
+      "id": "db_EventInfo:123467:12",
+      "jp": "すみません、解呪処理に失敗しました！　はやく逃げてください！　呪いが宿の周辺まで飛散してしまいます！",
+      "en": "I'm sorry, I failed to break the curse! Run away, quickly! The curse is spreading around the inn!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104393,
+      "id": "db_EventInfo:123468:1",
+      "jp": "なにーっ！",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104394,
+      "id": "db_EventInfo:123469:1",
+      "jp": "よし、天才魔女の力を借りるとするか",
+      "en": "Alright, let's ask for help from our genius witch.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104395,
+      "id": "db_EventInfo:123471:9",
+      "jp": "呪物の解呪を任せるとな？",
+      "en": "You're going to let me handle the cursed item?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104396,
+      "id": "db_EventInfo:123472:9",
+      "jp": "ククク……よかろう。このカリスト・ウィルチに全て任せるがいい",
+      "en": "Hehehe... Very well. Leave it all to me, Callisto Wilch.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104397,
+      "id": "db_EventInfo:123473:12",
+      "jp": "むう、この天才魔術師をさしおいて、こんな魔女に任せるとは",
+      "en": "Hmph. You're leaving this to some witch instead of a genius mage like me.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104398,
+      "id": "db_EventInfo:123474:1",
+      "jp": "ミルテの魔術が強力なのは認めているんだが、安定感で言うといまいち信用できないからな",
+      "en": "I know Myrte's magic is strong. But it's not reliable enough.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104399,
+      "id": "db_EventInfo:123475:12",
+      "jp": "うるさいですね！",
+      "en": "Quiet, you!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104400,
+      "id": "db_EventInfo:123478:9",
+      "jp": "すまん、失敗した",
+      "en": "Sorry, I messed up.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

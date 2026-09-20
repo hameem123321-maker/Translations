@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 81526,
+  "range_end": 81550,
+  "pairs": [
+    {
+      "n": 81526,
+      "id": "db_EventInfo:96435:5",
+      "jp": "まあ、都市機能と商人とは別に考えてよろしいかと",
+      "en": "Well, I think it's best to consider the city's functions and the merchants separately.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81527,
+      "id": "db_EventInfo:96436:5",
+      "jp": "もっとも、【『ロゼトニック大商会』】に入るには、【<pl>】様達は商人としての日が浅いですから、難しいと思いますが",
+      "en": "That said, I think it will be difficult for you, 【<pl>】-sama, to join the 【『Rosetonic Grand Merchant Guild』】 because you haven't been a merchant for long.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81528,
+      "id": "db_EventInfo:96437:1",
+      "jp": "なんだって？　ネルディーネも俺とあまり変わらないように見えたが",
+      "en": "What? Neldine didn't seem that much older than me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81529,
+      "id": "db_EventInfo:96438:2",
+      "jp": "あれで実は結構な年齢デス？",
+      "en": "Is she actually quite old, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81530,
+      "id": "db_EventInfo:96439:5",
+      "jp": "さあ、そこまでは……確かに、ネルディーネ様は非常に若く見えますが",
+      "en": "Well, I wouldn't go that far... It's true Lady Neldine looks very young, though.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81531,
+      "id": "db_EventInfo:96440:5",
+      "jp": "しかし、大商会に迎えられているという事は、見た目通りの、普通の女ではないのでしょう。注意なさいませ",
+      "en": "But, the fact she's been taken in by the big guild means she's not just an ordinary woman, like she looks. Be careful.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81532,
+      "id": "db_EventInfo:96442:5",
+      "jp": "【<pl>】様、私のツテで、【『ロゼトニック大商会』】とネルディーネの関係を調べさせましたわ",
+      "en": "【<pl>】, I used my connections to have someone look into Neldine's relationship with the 【『Rosetonic Grand Merchant Guild』】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81533,
+      "id": "db_EventInfo:96443:1",
+      "jp": "いつの間にそんなことを",
+      "en": "When did you do that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81534,
+      "id": "db_EventInfo:96444:2",
+      "jp": "むう、余計な事をして、敵対的だと思われないようにするデスよ？",
+      "en": "Hmph, so they don't think we're hostile, desu yo?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81535,
+      "id": "db_EventInfo:96445:5",
+      "jp": "もちろん、私が勝手にやった事ですもの。知らぬ存ぜぬを貫いて結構ですわ",
+      "en": "Of course, I did it on my own. Just play dumb, that's fine.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81536,
+      "id": "db_EventInfo:96446:5",
+      "jp": "それでネルディーネですが……彼女はどうやら、【『ロゼトニック大商会』】でも特別な権限を持っているようです",
+      "en": "About Neldine... it seems she holds special privileges even within the 【『Rosetonic Grand Merchant Guild』】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81537,
+      "id": "db_EventInfo:96447:5",
+      "jp": "しかし彼女自身は【『商人』】というわけではないようですわね",
+      "en": "But she herself doesn't seem to be a 【『merchant』】, does she?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81538,
+      "id": "db_EventInfo:96448:2",
+      "jp": "特別な権限デス？　やはりカネが好きな女はデキる女という事デスね",
+      "en": "Special privileges, desu? So a woman who loves money is a capable woman, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81539,
+      "id": "db_EventInfo:96449:5",
+      "jp": "あら、お褒めに預かり光栄ですわД",
+      "en": "Oh my, I'm honored by the compliment Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81540,
+      "id": "db_EventInfo:96450:2",
+      "jp": "オマエの事じゃないデス",
+      "en": "I wasn't talking about you, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81541,
+      "id": "db_EventInfo:96451:2",
+      "jp": "しかし、アイツは商人じゃないということデスか。商人の連合なのに、商人以外が会員になれるデス？",
+      "en": "But, she's not a merchant, desu ka? It's a merchant association, but non-merchants can be members, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81542,
+      "id": "db_EventInfo:96452:5",
+      "jp": "さて。それだけ特別な待遇なのでしょう",
+      "en": "Well. That just shows how special her treatment must be.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81543,
+      "id": "db_EventInfo:96453:2",
+      "jp": "だから偉そうにしていたデスか。私は神デスよ？　その神より偉そうにしているのは許せんデス",
+      "en": "So that's the Death who was acting so high and mighty. I'm a God of Death, you know? I can't forgive someone acting more important than the God.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81544,
+      "id": "db_EventInfo:96454:2",
+      "jp": "といっても、アイツはいい奴デス。多少偉そうにしてても許すデス",
+      "en": "But that said, she's a good person. I'll forgive her even if she acts a little full of herself.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81545,
+      "id": "db_EventInfo:96455:5",
+      "jp": "ふうむ、シイネ様は彼女を気に入っているようですわね。",
+      "en": "Hmm, Lady Shiine seems to be quite fond of her.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 81546,
+      "id": "db_EventInfo:96456:1",
+      "jp": "ああ、思えば最初に出会ったときから、シイネは気に入っていたようだな",
+      "en": "Yeah, come to think of it, Shiine seemed to like her right from when we first met.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81547,
+      "id": "db_EventInfo:96457:2",
+      "jp": "うむデス。あいつがいると、ドロボウ対策にもなる気がするのデス",
+      "en": "Yeah. Having her around makes me think she'll help with thief prevention.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81548,
+      "id": "db_EventInfo:96458:1",
+      "jp": "ドロボウ……？",
+      "en": "Thief prevention...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81549,
+      "id": "db_EventInfo:96459:0",
+      "jp": "よく分からないが、シイネは随分と信頼しているようだ。",
+      "en": "I don't really get it, but Shiine seems to trust her a lot.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81550,
+      "id": "db_EventInfo:96460:1",
+      "jp": "(ゼルカの借金を払う事には憤慨してたが、中央への税は払ってるしな)",
+      "en": "(She was mad about paying Zelka's debt, but she does pay taxes to the capital.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

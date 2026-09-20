@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9051,
+  "range_end": 9075,
+  "pairs": [
+    {
+      "n": 9051,
+      "id": "rem_36773",
+      "jp": "人間の存在を感知し、勝手に火が付く燭台。時折、勝手に火が付き、住民を恐怖に陥れる。",
+      "en": "A candlestick that senses human presence and lights on its own. Occasionally ignites spontaneously, terrifying residents.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9052,
+      "id": "rem_36774",
+      "jp": "人感燭台",
+      "en": "Motion-Sensing Candlestick",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9053,
+      "id": "rem_36775",
+      "jp": "富裕層向けに設計された高級な家具セット。皿や壺などの、上質な食器のつめあわせ。一点物を好む富裕層がそういうものを好んで買うかは謎である……。",
+      "en": "A high-end furniture set designed for the wealthy. A collection of quality tableware like plates and pots. Whether they'd buy such sets is a mystery...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9054,
+      "id": "rem_36776",
+      "jp": "高級家具セット",
+      "en": "Luxury Furniture Set",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9055,
+      "id": "rem_36777",
+      "jp": "黄金のコーティングを施した、見た目に豪華な水差し。適当に置いておくだけで、リッチな気分が味わえる。",
+      "en": "A lavish-looking water pitcher with golden coating. Just placing it around lets you feel rich.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9056,
+      "id": "rem_36778",
+      "jp": "ゴールデン水差し",
+      "en": "Golden Water Pitcher",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9057,
+      "id": "rem_36779",
+      "jp": "魔女達が使う魔法の道具が揃う、魔法陣のあるキッチン。並の錬金術工房を上回る研究が可能である。",
+      "en": "A kitchen with a magic circle, equipped with tools witches use. Enables research surpassing ordinary alchemy workshops.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9058,
+      "id": "rem_36780",
+      "jp": "魔女のキッチン",
+      "en": "Witch's Kitchen",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9059,
+      "id": "rem_36781",
+      "jp": "死神の加護が与えられたお金入れ。よくわからない執念じみた力が勝手に掛けられており、他人がスろうとすると頭がおかしくなって倒れる。",
+      "en": "A money pouch blessed by the Shinigami. An obscure, obsessive force protects it; anyone trying to steal it goes mad and collapses.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9060,
+      "id": "rem_36782",
+      "jp": "死神の財布",
+      "en": "Shinigami's Pouch",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9061,
+      "id": "rem_36783",
+      "jp": "初心者冒険者に使用されることを想定された量産用のロングソード。素材の価値を高めれば、品質は高まっていくだろう。",
+      "en": "A mass-produced longsword for novice adventurers. Improve the materials to boost its quality.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9062,
+      "id": "rem_36784",
+      "jp": "冒険者のロングソード",
+      "en": "Adventurer's Longsword",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9063,
+      "id": "rem_36785",
+      "jp": "軍用で使用されることを想定された量産用のクロスボウ。正確な射撃を行えるよう、部品は一点一点丁寧に仕上げている。",
+      "en": "A mass-produced crossbow for military use. Each part is carefully finished for precise shots.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9064,
+      "id": "rem_36786",
+      "jp": "射撃手のクロスボウ",
+      "en": "Shooter's Crossbow",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9065,
+      "id": "rem_36787",
+      "jp": "素速い身のこなしを主体とする盗賊向けに開発したナイフ。鋭い切れ味は、相手の急所を的確に刺し刻む。",
+      "en": "A knife made for agile thieves. Its sharp edge pierces vital points.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9066,
+      "id": "rem_36788",
+      "jp": "盗賊のナイフ",
+      "en": "Thief's Knife",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9067,
+      "id": "rem_36789",
+      "jp": "近接格闘戦士向けにデザインしたナックル。格闘家の動きを阻害しないように作られ、さらに彼らの腕を守るように頑丈に作られている。",
+      "en": "Knuckles designed for melee fighters. Sturdy, they protect the user without hindering movement.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9068,
+      "id": "rem_36790",
+      "jp": "格闘家のナックル",
+      "en": "Brawler's Knuckles",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9069,
+      "id": "rem_36791",
+      "jp": "戦闘向けに作った大きな斧。命中すれば巨大な魔獣にも致命的なダメージを与えることが出来るだろう。木を伐採することも出来る。",
+      "en": "A large battle axe. Deals fatal damage to giant beasts. Can also chop wood.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9070,
+      "id": "rem_36792",
+      "jp": "戦士のバトルアックス",
+      "en": "Warrior's Battle Axe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9071,
+      "id": "rem_36793",
+      "jp": "冒険者だけでなく、拠点防衛にも使用されることを想定したロングスピア。折れないように、柄の強度には非常に気を付けられている。",
+      "en": "A longspear for adventurers and base defense. The shaft is reinforced to prevent breaking.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9072,
+      "id": "rem_36794",
+      "jp": "砦兵士のロングスピア",
+      "en": "Fortress Soldier's Longspear",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9073,
+      "id": "rem_36795",
+      "jp": "鍛冶姫アンジュが気分で作った創作武器。持ち主のことを殆ど考えていないが、上手く性格が合えばすばらしい性能を発揮する……らしい。",
+      "en": "A custom weapon made by the Forging Princess Anju on a whim. Matches certain users perfectly for great performance... supposedly.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9074,
+      "id": "rem_36796",
+      "jp": "アンジュお任せ制作武器",
+      "en": "Anju's Special Order Weapon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9075,
+      "id": "rem_36797",
+      "jp": "量産品の概念を塗り替える魔力付与ロングソード。生半可な武器鍛冶が作る一点物の武器とは品質が比べものにならないほど高くなる。",
+      "en": "A magic-enchanted longsword that redefines mass-production. Quality far exceeds that of ordinary single-edition weapons.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

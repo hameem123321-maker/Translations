@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9351,
+  "range_end": 9375,
+  "pairs": [
+    {
+      "n": 9351,
+      "id": "rem_37073",
+      "jp": "骨で作られた、船の舳先のような家庭用の飾り。一見すると普通のインテリアと変わらないが、どこかの宗教団体のシンボルでもある",
+      "en": "A home decoration shaped like a ship's prow, made of bone. Also a symbol for a certain cult.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9352,
+      "id": "rem_37074",
+      "jp": "隠れインテリア",
+      "en": "Hidden Decor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9353,
+      "id": "rem_37075",
+      "jp": "不思議なエネルギーを発する石が取り付けられたメダル。何の変哲もない品のはずだが、人から人の手に渡るうちに、負の力を蓄積している。",
+      "en": "A medal with a strange energy-emitting stone. Collects negative energy as it passes hands.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9354,
+      "id": "rem_37076",
+      "jp": "不思議なメダル",
+      "en": "Mysterious Medal",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9355,
+      "id": "rem_37077",
+      "jp": "屋敷の入口に設置する大きな像。動き出したりはしないが、こんなものを設置すれば明らかに危険視されそうである。",
+      "en": "A large statue for the mansion entrance. It won't move, but having it will surely raise alarms.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9356,
+      "id": "rem_37078",
+      "jp": "ガーゴイルの像",
+      "en": "Gargoyle Statue",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9357,
+      "id": "rem_37079",
+      "jp": "血で押すと呪印が刻まれる危険なトーテム。憎い相手を滅ぼす為の呪いが手軽に付与できるとあって、権力者が厳しく取り締まりを行っている。",
+      "en": "A dangerous totem stamp that carves a curse seal with blood. Authorities strictly control these easy-to-use tools for vengeance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9358,
+      "id": "rem_37080",
+      "jp": "呪血のトーテムスタンプ",
+      "en": "Cursed Blood Totem Stamp",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9359,
+      "id": "rem_37081",
+      "jp": "ドクロをかたどったシンボル。見ていると心が闇に飲まれていく……。",
+      "en": "A skull-shaped symbol. Staring at it draws the mind into darkness...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9360,
+      "id": "rem_37082",
+      "jp": "怨念ドクロのシンボル",
+      "en": "Grudge Skull Symbol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9361,
+      "id": "rem_37083",
+      "jp": "禍々しい赤い輝きを放つ大ナタ。巨大な武器ではあるが、巨大なだけで刃はついていない。巨大さと禍々しさで、目にしたものを威圧する呪物。",
+      "en": "A massive hatchet emitting an ominous red glow. It's huge but lacks a true blade. This cursed object oppresses all who see it with its sheer size and sinister aura.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9362,
+      "id": "rem_37084",
+      "jp": "邪神の大ナタ",
+      "en": "Evil God's Hatchet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9363,
+      "id": "rem_37085",
+      "jp": "邪教が崇拝するデーモンの形をした神像。魔術触媒と呪物をふんだんに使用しており、強いパワーを秘めている。邪教崇拝者の拠点に必須。",
+      "en": "An idol shaped like a demon worshiped by a heretical cult. Made with abundant magical catalysts and cursed objects, it hides immense power. Essential for cultist strongholds.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9364,
+      "id": "rem_37086",
+      "jp": "邪教の神像",
+      "en": "Cultist Idol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9365,
+      "id": "rem_37087",
+      "jp": "古代の呪詛儀式で使われていた装飾品と見られる遺物。不吉な魔力を放っており、何の力もない一般人は、本能的に近付かなくなる。",
+      "en": "A relic believed to be an ornament used in ancient curse rituals. It exudes an ill-omened magical energy, instinctively repelling ordinary people.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9366,
+      "id": "rem_37088",
+      "jp": "古代の呪詛儀式装飾",
+      "en": "Ancient Curse Ritual Ornament",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9367,
+      "id": "rem_37089",
+      "jp": "古代の魔術師が奈落の魔力を解放する為に用いたとされている鍵。力のない者は触れただけで蝕まれる為、装着は厳禁。",
+      "en": "A key said to have been used by ancient sorcerers to unleash abyssal power. The powerless will be corrupted by mere touch; wearing it is strictly forbidden.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9368,
+      "id": "rem_37090",
+      "jp": "神秘の鍵",
+      "en": "Mysterious Key",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9369,
+      "id": "rem_37091",
+      "jp": "口に嵌めるタイプの拘束具。プレイのアイテムとして使われ、気分を盛り上げる効果がある。",
+      "en": "A restraint worn in the mouth. Used as a play item to heighten the mood.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9370,
+      "id": "rem_37092",
+      "jp": "噛ませ拘束具",
+      "en": "Gag Restraint",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9371,
+      "id": "rem_37093",
+      "jp": "手軽に使えるローション。リラックスや快感を得るために使われる。床にぶちまけると滑って歩けなくなる。",
+      "en": "Easy-to-use lotion. Used for relaxation and pleasure. Spilling it on the floor makes it slippery and impassable.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9372,
+      "id": "rem_37094",
+      "jp": "お手軽ローション",
+      "en": "Handy Lotion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9373,
+      "id": "rem_37095",
+      "jp": "目に取り付ける目隠し用のグッズ。視覚を封じられると、僅かに全身の感覚が過敏になり、より大人の時間を楽しめる。",
+      "en": "A blindfold gadget worn over the eyes. Losing sight slightly heightens all other senses, allowing for a more enjoyable adult experience.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9374,
+      "id": "rem_37096",
+      "jp": "ドキドキアイマスク",
+      "en": "Thrilling Blindfold",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9375,
+      "id": "rem_37097",
+      "jp": "手の自由を封じる金属製の枷。パートナーに自らの自由を委ねる為、信頼した相手とのプレイにしか使えない。軽いSMプレイに重宝される。",
+      "en": "Metal shackles that bind the hands. For surrendering your freedom to a partner, usable only with someone you deeply trust. Popular for light S&M play.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

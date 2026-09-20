@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7876,
+  "range_end": 7900,
+  "pairs": [
+    {
+      "n": 7876,
+      "id": "rem_35527",
+      "jp": "主人公のアバターを追加する。アバターを追加することで、同時に複数の女の子を相手にすることが出来る。相手をしてない間は搾精売上は入らないので、女の子が手持ち無沙汰になったら投資しよう。【アバターはH部屋の数以上は登場しません。】",
+      "en": "Add an avatar for Ren. Avatars allow handling multiple girls at once. No sales while idle, so invest when girls have free time.【Avatars won't exceed the number of H-Rooms.】",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7877,
+      "id": "rem_35528",
+      "jp": "アバター追加",
+      "en": "Add Avatar",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7878,
+      "id": "rem_35529",
+      "jp": "エッチをした女の子の中から、より多く愛でた女の子に【お気に入りボーナス】を与えられる。投資レベルが上がるほど多くの女の子にボーナスを与えることが出来る。【お気に入りボーナス】は【H部屋】でのエッチ回数ではカウントされないことに注意。",
+      "en": "Give【Favorite Bonus】to girls you've doted on more. Higher investment levels give bonuses to more girls.【Favorite Bonuses】are not based on【H-Room】count.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7879,
+      "id": "rem_35530",
+      "jp": "あまねく愛の伝道師",
+      "en": "Preacher of Widespread Love",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7880,
+      "id": "rem_35531",
+      "jp": "宿泊施設を整えて、ぐっすりと眠れて旅の疲れを癒すことが出来る。ついでにエッチな夢も見ると評判に。大丈夫？　淫魔が悪さしてない？",
+      "en": "Set up lodging for deep sleep and travel fatigue relief. Also known for sexy dreams. Is it safe? No succubi mischief?",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7881,
+      "id": "rem_35532",
+      "jp": "よく眠れる夢見る宿屋",
+      "en": "Dreamer's Rest Inn",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7882,
+      "id": "rem_35533",
+      "jp": "『最果ての修練場』に出現する強敵に対抗するため、平和になって鈍った身体を鍛え直す。修練場の謎空間に適応することで、修練場限定で大きくＨＰがアップする。",
+      "en": "Retrain your body, grown soft in peace, to resist the powerful foes in the 'Farthest Training Grounds'. Adapt to its mysterious space for a significant HP boost, exclusive to the grounds.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7883,
+      "id": "rem_35534",
+      "jp": "最果ての強敵への対抗",
+      "en": "Resisting the Farthest Foes",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7884,
+      "id": "rem_35535",
+      "jp": "『最果ての修練場』に出現する強敵に対抗するため、平和になって鈍った身体を鍛え直す。修練場の謎空間に適応し、修練場限定でダメージの限界を超えられるようになる。",
+      "en": "Retrain your body, grown soft in peace, to resist the powerful foes in the 'Farthest Training Grounds'. Adapt to its mysterious space, allowing you to exceed the normal damage limit within the grounds.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7885,
+      "id": "rem_35536",
+      "jp": "最果ての限界を超える力",
+      "en": "Power to Exceed the Farthest Limit",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7886,
+      "id": "rem_35537",
+      "jp": "最低限のプロフィール",
+      "en": "Basic Profile",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7887,
+      "id": "rem_35538",
+      "jp": "ランクC以上で解禁",
+      "en": "Unlocks at Rank C or higher",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7888,
+      "id": "rem_35539",
+      "jp": "ランクB+以上で解禁",
+      "en": "Unlocks at Rank B+ or higher",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7889,
+      "id": "rem_35540",
+      "jp": "ランクS以上で解禁",
+      "en": "Unlocks at Rank S or higher",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7890,
+      "id": "rem_35541",
+      "jp": "初体験完了",
+      "en": "First Time Cleared",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7891,
+      "id": "rem_35542",
+      "jp": "他ユニットの関係1",
+      "en": "Other Unit Bonds 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7892,
+      "id": "rem_35543",
+      "jp": "他ユニットの関係2",
+      "en": "Other Unit Bonds 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7893,
+      "id": "rem_35544",
+      "jp": "他ユニットの関係3",
+      "en": "Other Unit Bonds 3",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7894,
+      "id": "rem_35545",
+      "jp": "他ユニットの関係4",
+      "en": "Other Unit Bonds 4",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7895,
+      "id": "rem_35546",
+      "jp": "他ユニットの関係5",
+      "en": "Other Unit Bonds 5",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7896,
+      "id": "rem_35547",
+      "jp": "H経験・手コキ1",
+      "en": "H Experience: Handjob 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7897,
+      "id": "rem_35548",
+      "jp": "H経験・手コキ2",
+      "en": "H Experience: Handjob 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7898,
+      "id": "rem_35549",
+      "jp": "H経験・フェラ1",
+      "en": "H Experience: Blowjob 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7899,
+      "id": "rem_35550",
+      "jp": "H経験・フェラ2",
+      "en": "H Experience: Blowjob 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7900,
+      "id": "rem_35551",
+      "jp": "H経験・パイズリ1",
+      "en": "H Experience: Paizuri 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table"
+    }
+  ]
+}

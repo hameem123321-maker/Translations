@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 426,
+  "range_end": 450,
+  "pairs": [
+    {
+      "n": 426,
+      "id": "rem_00426",
+      "jp": "変異ゴブリン・エリート",
+      "en": "Mutant Goblin: Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 427,
+      "id": "rem_00427",
+      "jp": "実体化した魂の魔物。武器攻撃で倒すのは困難な上、通常のゴーストよりも好奇心が増している。一度捕まってしまえば、弄ぶように生気を吸いつくされる。",
+      "en": "A physical soul monster. Hard to defeat with weapons, and more curious than regular ghosts. Once caught, it will playfully drain your life force dry.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 428,
+      "id": "rem_00428",
+      "jp": "ヘルゴースト",
+      "en": "Hell Ghost",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 429,
+      "id": "rem_00429",
+      "jp": "ゴブリンの騎士。人間から身に着けた装備を身に着け、ゴブリンとは思えない技能を持つが、その精神性はゴブリンのままである。",
+      "en": "A Goblin knight. It wears equipment taken from humans and possesses un-Goblin-like skills, but its mentality remains that of a Goblin.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 430,
+      "id": "rem_00430",
+      "jp": "ゴブリンパラディン",
+      "en": "Goblin Paladin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 431,
+      "id": "rem_00431",
+      "jp": "海に住む淫魔の亜種。水精と人魚のハーフ的な存在。人間の男を誘惑し、自らも恋に落ちる、人間との恋の殆どは悲恋に終わり、その際に男の精を根こそぎ吸い取ってしまう。水があるところどこにでもいる。",
+      "en": "A subspecies of aquatic succubus. A half-breed of water sprite and mermaid. Lures human men and falls in love itself. These romances mostly end tragically, with the man's essence being completely drained. Found anywhere there's water.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 432,
+      "id": "rem_00432",
+      "jp": "ウミディーネ",
+      "en": "Undine",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 433,
+      "id": "rem_00433",
+      "jp": "魔獣化が進み、体色が暗く変化したスネーク。音も無く獲物に這い寄り、強力な毒で獲物を弱らせながら捕食する。時には大型動物でさえ飲み込んでしまう。森林地帯では最も警戒される魔物。",
+      "en": "A snake with advanced monsterization and darkened scales. Slithers silently, weakening prey with potent venom. Sometimes swallows large animals whole. The most feared monster in forests.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 434,
+      "id": "rem_00434",
+      "jp": "ダークスネーク",
+      "en": "Dark Snake",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 435,
+      "id": "rem_00435",
+      "jp": "海底の土中に生息する触手型の虫。獲物に絡みつき、動きを止めてから捕食する。陸上のワームに比べ生命力が強く、動きも俊敏。",
+      "en": "A tentacle worm living in seabed soil. Entangles prey, immobilizes it, then feeds. Tougher and quicker than land worms.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 436,
+      "id": "rem_00436",
+      "jp": "シーワーム",
+      "en": "Sea Worm",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 437,
+      "id": "rem_00437",
+      "jp": "水中での生存を可能にしたゴブリンの進化体。水中から集団で襲ってくる、凶暴化したゴブリンが水中にも侵攻可能になり、水中の生命にも脅威となる。",
+      "en": "An evolved Goblin adapted to live underwater. Attacks in packs from the water. These violent Goblins pose a threat to aquatic life as well.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 438,
+      "id": "rem_00438",
+      "jp": "シーゴブリン",
+      "en": "Sea Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 439,
+      "id": "rem_00439",
+      "jp": "鋭い牙を持ち、集団で大型動物を狙う凶暴な魚類。旺盛なマーマン族と水の中で格闘しているが、弱っている個体を見つけると、集団で弱者に食いつく。",
+      "en": "Fierce fish with sharp teeth that hunt large animals in packs. They fight Merfolk in the water, but will swarm any weakened individual.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 440,
+      "id": "rem_00440",
+      "jp": "バトルフィッシュ",
+      "en": "Battlefish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 441,
+      "id": "rem_00441",
+      "jp": "毒を得たフロッグで、体液に猛毒を持つ。獲物の傷口から毒を与えるいやらしい性格をしており、動けなくなった相手をいたぶりながら捕食する。また、人間のメスと交尾する性質も持つ。",
+      "en": "A frog that has acquired venom, possessing potent toxins in its bodily fluids. It has a vile nature, delivering poison through its prey's wounds, then tormenting and consuming the immobilized victim. It also has a propensity to mate with human females.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 442,
+      "id": "rem_00442",
+      "jp": "ポイズンフロッグ",
+      "en": "Poison Frog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 443,
+      "id": "rem_00443",
+      "jp": "朽ち果てたフィッシュがアンデッド化した魔物。鋭い牙を持ち、激しい食欲に任せて獣を食う。しかし消化器官がないので食欲が満たされることは無い。",
+      "en": "A monster born from a decayed fish turned undead. Possesses sharp fangs and devours beasts driven by intense hunger. However, having no digestive organs, its appetite is never satisfied.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 444,
+      "id": "rem_00444",
+      "jp": "ボーンフィッシュ",
+      "en": "Bone Fish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 445,
+      "id": "rem_00445",
+      "jp": "水中で進化し、陸上での活動も可能になったゴブリン。不気味な笑顔を浮かべたまま、人間に飛び掛かる。",
+      "en": "A goblin that evolved in water and became capable of terrestrial activity. It lunges at humans while wearing an eerie smile.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 446,
+      "id": "rem_00446",
+      "jp": "シーゴブリン・エリート",
+      "en": "Sea Goblin Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 447,
+      "id": "rem_00447",
+      "jp": "通常のスライムよりも不純物が多いモンスター。それゆえか燃えにくく、防御能力が大きく向上した難敵。",
+      "en": "A monster with more impurities than a regular slime. Consequently, it is harder to burn and has greatly improved defensive capabilities, making it a formidable foe.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 448,
+      "id": "rem_00448",
+      "jp": "オイルスライム",
+      "en": "Oil Slime",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 449,
+      "id": "rem_00449",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。氷の魔法を得意とし、周囲を氷獄の結界へと引きずり込む。",
+      "en": "A spirit mimicking the form of a flaming skull. It flies in a regular pattern around the living, mockingly draining their life force. It excels in ice magic, dragging the surroundings into a frozen prison.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 450,
+      "id": "rem_00450",
+      "jp": "アイススピリット",
+      "en": "Ice Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

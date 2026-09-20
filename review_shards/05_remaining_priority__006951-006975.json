@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6951,
+  "range_end": 6975,
+  "pairs": [
+    {
+      "n": 6951,
+      "id": "rem_34570",
+      "jp": "彼は魔術の基盤を作った者。現在伝わっている魔術は、彼が人間にも扱えるように効果を抑えられたものに過ぎない。人間には真似できない技術により、大魔術も連射できる。",
+      "en": "He laid magic's foundation. Modern magic is but a weakened form for humans. His inhuman technique allows rapid-fire grand spells.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6952,
+      "id": "rem_34571",
+      "jp": "MP消費軽減[-50%]",
+      "en": "MP Cost Reduced[-50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6953,
+      "id": "rem_34572",
+      "jp": "死神代行助手が増えてきて、女の子の好感度を高めることに慣れてきてしまった。女の子の性欲を上手く引き出して、簡単にモテモテになってしまう。後が怖いぞ。",
+      "en": "With more Shinigami Assistants, you've grown adept at raising girls' affection. You skillfully stir their desire, becoming effortlessly popular. Watch out.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6954,
+      "id": "rem_34573",
+      "jp": "好感度の上昇率[+30%]",
+      "en": "Affection Gain Rate[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6955,
+      "id": "rem_34574",
+      "jp": "戦力変換・尻＞速度",
+      "en": "Combat Conversion: Butt > Speed",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6956,
+      "id": "rem_34575",
+      "jp": "範囲(小)攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 【聖属性】 + HP吸収(小) + 強制即死",
+      "en": "Small AoE attack Potency[] + Hit[70%] + Crit[+10%] + 【Holy】 + Minor HP Drain + Instant Death",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6957,
+      "id": "rem_34576",
+      "jp": "【<src>】の[ヴォーパル前歯]！",
+      "en": "【<src>】's [Vorpal Incisors]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6958,
+      "id": "rem_34577",
+      "jp": "双翼の退魔メイドであるシズハとクレハ、姉妹のように育てられた二人は、まるで血の繋がった姉妹のようであり、血より濃い縁で繋がれている。それはレベルも同じように。",
+      "en": "Shizuha & Kureha, the twin-winged exorcist maids. Raised like sisters, they share a bond thicker than blood. Their levels are synchronized, too.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6959,
+      "id": "rem_34578",
+      "jp": "レベル同期・シズハ/クレハと同じに",
+      "en": "Level Sync: Matches Shizuha/Kureha",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6960,
+      "id": "rem_34579",
+      "jp": "曇りのない鏡と澄んだ水面のように落ち着いた心境に至り、時間の動きを緩めるかのように振る舞い、まるで時間が止まっているかのような超高速行動が可能になる。",
+      "en": "Achieving a serene mind, like a clear mirror or still water, allows for ultra-fast action that seems to slow or even stop time.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6961,
+      "id": "rem_34580",
+      "jp": "【自分】に【神速】を付与 (ダブルアタック率[+100%] + ダブルアタックのダメージ[+20%])",
+      "en": "Grant【Self】【Godspeed】 (Double Attack Rate [+100%] + Double Attack Damage [+20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6962,
+      "id": "rem_34581",
+      "jp": "【<src>】は[明鏡止水]を使用した！",
+      "en": "【<src>】 used [Clear Serenity]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6963,
+      "id": "rem_34582",
+      "jp": "マジカルな力でフィールドのあちこちにトラップを仕掛けてしまう。味方を攻撃すると発動し、戦場を混乱に陥れる。マジカルなので都合良く、味方の行動は阻害しないらしい。",
+      "en": "A magical power that sets traps all over the field. They activate when an ally attacks, throwing the battlefield into chaos. Conveniently, being magical, they don't seem to hinder allies' actions.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6964,
+      "id": "rem_34583",
+      "jp": "【仲間】に【反撃罠++】を付与 (近接攻撃を受けた際にトラップ反撃[+50%])",
+      "en": "Grant【Allies】【Counter Trap++】 (Trap counter on melee attack [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6965,
+      "id": "rem_34584",
+      "jp": "【<src>】のマジカルなカウンター☆",
+      "en": "【<src>】's Magical Counter☆",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6966,
+      "id": "rem_34585",
+      "jp": "【<src>】は[スケープゴート]を大量配置した！",
+      "en": "【<src>】 deployed a lot of [Scapegoats]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6967,
+      "id": "rem_34586",
+      "jp": "攻撃スキルの攻撃範囲が一定確率で拡大する。高い暴力の持ち主が放つ普通の攻撃は、災害になるということである。",
+      "en": "Attack skill range expands at a set rate. An ordinary attack from someone with immense force becomes a disaster.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6968,
+      "id": "rem_34587",
+      "jp": "攻撃[+10%] + 攻撃の範囲拡大率[+10%]",
+      "en": "Attack [+10%] + Attack range expansion rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6969,
+      "id": "rem_34588",
+      "jp": "退魔巫女の一族に伝わる、時の流れを緩やかにする遅延魔術を敵全員に掛けることで、結果的に全員の速度が大幅アップすることで、連続攻撃発生率がアップする。",
+      "en": "Casts a time-delaying magic, passed down by the exorcist shrine maiden clan, on all enemies. As a result, everyone's speed increases dramatically, raising the chance of consecutive attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6970,
+      "id": "rem_34589",
+      "jp": "CT回復(小) + 【仲間】に【加速++】を付与 (ダブルアタック率[+100%])",
+      "en": "Small CT recovery + Grant【Allies】【Accelerate++】 (Double Attack Rate [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6971,
+      "id": "rem_34590",
+      "jp": "【<src>】は仲間全員を超加速させた！",
+      "en": "【<src>】 super-accelerated all allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6972,
+      "id": "rem_34591",
+      "jp": "【仲間】に【大盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grant【Allies】【Great Shield】 (Reduces damage exceeding 20% of Max HP [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6973,
+      "id": "rem_34592",
+      "jp": "【<src>】の[ファランクス]が仲間を守る！",
+      "en": "【<src>】's [Phalanx] protects the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6974,
+      "id": "rem_34593",
+      "jp": "攻撃魔術を武器にまとわせた、雷属性の攻撃。攻撃魔術としてもかなり上位で、その威力は強固な鎧すらもぶち破るという。",
+      "en": "A lightning attribute attack that imbues the weapon with offensive magic. A high-level attack spell, its power can shatter even sturdy armor.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6975,
+      "id": "rem_34594",
+      "jp": "単体攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single-target attack Power[D+] + Accuracy[70%] + 【Lightning Attribute】 + Small defense penetration + Inflicts [Shock] (Crit received chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

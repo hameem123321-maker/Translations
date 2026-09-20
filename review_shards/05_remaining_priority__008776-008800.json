@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8776,
+  "range_end": 8800,
+  "pairs": [
+    {
+      "n": 8776,
+      "id": "rem_36498",
+      "jp": "間に合わせの大パン",
+      "en": "Makeshift Big Bread",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8777,
+      "id": "rem_36499",
+      "jp": "麦の粉をミルクでまとめて焼き上げた、ぱさぱさした食感のスコーン。口に残るので、紅茶などと一緒に食される。",
+      "en": "",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 8778,
+      "id": "rem_36500",
+      "jp": "ぱさぱさスコーン",
+      "en": "Dry Scone",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8779,
+      "id": "rem_36501",
+      "jp": "そのまま食べては味気ないパンに、甘さを加えて焼き上げた。味が大幅に改善した上に、エネルギー効率も高く、その上安い。",
+      "en": "Plain bread baked with added sweetness. Greatly improved taste, high energy efficiency, and still cheap.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8780,
+      "id": "rem_36502",
+      "jp": "甘味入り菓子パン",
+      "en": "Sweet Pastry Bread",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8781,
+      "id": "rem_36503",
+      "jp": "小麦粉を細く伸ばして捏ねた物に、熱したチーズを加えた料理。ハーブや果実ソースで味を調えた高級料理だが、常食するにはやや高い上、冷えると固まってしまう。",
+      "en": "Dough stretched thin and kneaded, combined with heated cheese. A high-class dish seasoned with herbs or fruit sauce, but too pricey for daily meals and it hardens when cold.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8782,
+      "id": "rem_36504",
+      "jp": "パスタ盛りチーズ和え",
+      "en": "Pasta with Cheese Sauce",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8783,
+      "id": "rem_36505",
+      "jp": "森の香草を練り込んだ平焼きパン。食堂の定番として人気。",
+      "en": "A flatbread baked with forest herbs mixed in. A popular staple at the canteen.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8784,
+      "id": "rem_36506",
+      "jp": "大地のフォカッチャ",
+      "en": "Focaccia of the Earth",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8785,
+      "id": "rem_36507",
+      "jp": "薄く伸ばしたパンに、香草を乗せて焼き上げた物。生地の厚さと乗せたハーブで、好みの味に仕上げて楽しめる。",
+      "en": "Bread spread thin, topped with herbs and baked. You can enjoy customizing the taste with crust thickness and your choice of herbs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8786,
+      "id": "rem_36508",
+      "jp": "薄切りハーブ乗せトースト",
+      "en": "Thin-Slice Toast with Herbs",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8787,
+      "id": "rem_36509",
+      "jp": "ミルクを生地に練り込み、ふっくらと焼き上げたパン。自然の優しい味わいは、冒険者の心も癒す。胃袋に長く居座る腹持ちの良さも人気。",
+      "en": "Bread baked fluffy with milk kneaded into the dough. Its gentle, natural flavor soothes an adventurer's soul. Its satisfying staying power is also popular.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8788,
+      "id": "rem_36510",
+      "jp": "練り込みミルクパン",
+      "en": "Milk Bread (Kneaded)",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8789,
+      "id": "rem_36511",
+      "jp": "薄く切ったパンにチーズを挟み、野菜やソースで味を調えた物。パスタに比べて調理が簡単なため、朝の忙しい時間でも食べやすい。",
+      "en": "Cheese sandwiched between thinly sliced bread, flavored with veggies and sauce. Easier to make than pasta, perfect for busy mornings.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8790,
+      "id": "rem_36512",
+      "jp": "チーズサンド",
+      "en": "Cheese Sandwich",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8791,
+      "id": "rem_36513",
+      "jp": "ふっくらと焼き上げたトーストに、バターを落とした定番の朝食。準備が容易で、手軽に朝の活力を得られる。",
+      "en": "A classic breakfast: fluffy toast with butter melting on top. Easy to prepare, a quick way to get morning energy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8792,
+      "id": "rem_36514",
+      "jp": "バタートースト",
+      "en": "Buttered Toast",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8793,
+      "id": "rem_36515",
+      "jp": "小麦を練った生地にチーズやハーブを始め、様々な自然の恵みをふんだんに取り入れて焼き上げた、贅沢な料理。食べれば皆が笑顔になる、森の恵みのハーモニー。",
+      "en": "A lavish dish: wheat dough baked generously with cheese, herbs, and other bounties of nature. The forest's harmonious blessing that brings smiles with every bite.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8794,
+      "id": "rem_36516",
+      "jp": "森の恵みチーズパイ",
+      "en": "Forest Blessing Cheese Pie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8795,
+      "id": "rem_36517",
+      "jp": "ウィルチ監修の、栄養満点ポットパイ。滋味豊かなその味は毎日食べても飽きないどころか、気が付けば食べたくなってしまう程。",
+      "en": "A nutritious pot pie supervised by Wilch. Its rich, wholesome flavor is so addictive you'll crave it, never growing tired of it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8796,
+      "id": "rem_36518",
+      "jp": "魔女のポットパイ",
+      "en": "Witch's Pot Pie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8797,
+      "id": "rem_36519",
+      "jp": "干しただけの獣肉。一見すると腐敗しているようにも見えるが、無事に食べられる。",
+      "en": "Simply dried beast meat. Might look rotten, but it's safe to eat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8798,
+      "id": "rem_36520",
+      "jp": "乾燥ジャーキー",
+      "en": "Dried Jerky",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8799,
+      "id": "rem_36521",
+      "jp": "野生の獣をその場で解体し、食べやすい大きさにカットしてハーブと共に焼き上げた野趣溢れる料理。筋肉質な野獣の肉は、噛み応え抜群。",
+      "en": "A rustic dish: wild game butchered on the spot, cut into bite-sized pieces, and grilled with herbs. The muscular wild meat offers a satisfying chew.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8800,
+      "id": "rem_36522",
+      "jp": "ブツ切りワイルドソテー",
+      "en": "Chunky Wild Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

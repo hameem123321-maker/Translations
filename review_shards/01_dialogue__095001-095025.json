@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95001,
+  "range_end": 95025,
+  "pairs": [
+    {
+      "n": 95001,
+      "id": "db_EventInfo:112261:1",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95002,
+      "id": "db_EventInfo:112267:1",
+      "jp": "そういえばシイネがこんなことを言っていたな",
+      "en": "That reminds me, Shiine did say something like this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95003,
+      "id": "db_EventInfo:112268:6",
+      "jp": "私は【『天使』】が見える子供として怖がられ、ずっと【『<ruby=ヒエペリオ>教会</ruby>』】に預けられておりました",
+      "en": "I was a child who could see 'angels'. People were afraid of me, so I was left at the Hieperio Church.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95004,
+      "id": "db_EventInfo:112269:6",
+      "jp": "お父様もお母様も会いに来てはくれず、捨てられたものと思っておりました",
+      "en": "My father and mother never came to visit. I thought I had been abandoned.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95005,
+      "id": "db_EventInfo:112270:6",
+      "jp": "子供の頃はそれは悲しかったのですが、今は慣れていたのです",
+      "en": "When I was a child, that made me very sad. But I got used to it.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95006,
+      "id": "db_EventInfo:112271:6",
+      "jp": "……それが、今更……",
+      "en": "...And now, after all this time...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95007,
+      "id": "db_EventInfo:112272:1",
+      "jp": "たしかに。変な話だな……",
+      "en": "Yeah, that's a weird story...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95008,
+      "id": "db_EventInfo:112273:1",
+      "jp": "(デシルスあたりに調べてきてもらおうかな？)",
+      "en": "(Maybe I should ask Desilus to look into it?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95009,
+      "id": "db_EventInfo:112275:15",
+      "jp": "やあ店長君、マリーゼル君の父上のことを調べてきたよ",
+      "en": "Hey, Manager. I looked into Marisel's father.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95010,
+      "id": "db_EventInfo:112276:15",
+      "jp": "この前の人物は、たしかにマリーゼル君の父君のようだ。間違いない",
+      "en": "That person from before, he is definitely Marisel's father. No doubt about it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95011,
+      "id": "db_EventInfo:112277:2",
+      "jp": "ごくろうデス",
+      "en": "Good work, Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95012,
+      "id": "db_EventInfo:112278:1",
+      "jp": "マリーゼルの話だと、ずっと親と顔を合わせてなかったそうだぞ",
+      "en": "Marisel said she hadn't seen her parents for a very long time.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95013,
+      "id": "db_EventInfo:112279:15",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95014,
+      "id": "db_EventInfo:112280:15",
+      "jp": "彼女は、けっこうな【良家のお嬢様】というのも正しくてね。【『クシエル侯爵家』】っていう、れっきとした貴族の家の出身なんだ",
+      "en": "She really is from a 'good family' as they say. She comes from a proper noble family called the 'House of Marquis Cushiel'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95015,
+      "id": "db_EventInfo:112281:15",
+      "jp": "【『クシエル侯爵家』】は王族とも密接な関わりがある貴族なんだけど、そこの娘はまれに【『天使憑き』】が生まれるそうでね",
+      "en": "The 'House of Marquis Cushiel' is a noble family closely tied to the royal family. They say sometimes a girl born into that house becomes an 'Angel Possessed'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95016,
+      "id": "db_EventInfo:112282:1",
+      "jp": "【『天使憑き』】……？",
+      "en": "'Angel Possessed'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95017,
+      "id": "db_EventInfo:112283:15",
+      "jp": "【神がかり的に運が良い】とか、【子供離れして頭が良い】とか、尋常じゃない才を持っている人間だよ",
+      "en": "They're people with extraordinary talents, like being 'supernaturally lucky' or 'incredibly smart for a child'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95018,
+      "id": "db_EventInfo:112284:15",
+      "jp": "それだけだと、単なる天才だけど……【『天使憑き』】の元には【『天使』】が現れ、皆が【『天使』】を認識できると発言している",
+      "en": "That alone would just be a genius, but... an 'Angel' appears to the 'Angel Possessed', and they claim everyone can see that 'Angel'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95019,
+      "id": "db_EventInfo:112285:15",
+      "jp": "【『神』】から遣わされた【『天使』】により【『<ruby=ギフト>天からの恵み</ruby>』】を授けられた人間――それが【『天使憑き』】だね",
+      "en": "People who get a 'gift' from heaven from an 'angel' sent by 'God'... That's what an 'angel-possessed' is.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95020,
+      "id": "db_EventInfo:112286:15",
+      "jp": "マリーゼル君が【『天使』】が視えるってウワサも聞いただろう？",
+      "en": "You've heard the rumor that Marisel can see 'angels', right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95021,
+      "id": "db_EventInfo:112287:1",
+      "jp": "ああ……",
+      "en": "Yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95022,
+      "id": "db_EventInfo:112288:2",
+      "jp": "その【『天使憑き』】と、マリーゼルが親と会えないのに、どう関係するデス？",
+      "en": "What does that 'angel-possessed' have to do with Marisel not seeing her parents?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95023,
+      "id": "db_EventInfo:112289:15",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】が彼女らの獲得に熱心でね。【『天使憑き』】のウワサを聞くと現れて、親から預かるんだ",
+      "en": "The 'Church' really wants them. They show up when they hear about 'angel-possessed' and take them from their parents.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95024,
+      "id": "db_EventInfo:112290:15",
+      "jp": "なんせ【『神』】を崇める集団だ。神の使いである【『天使』】にも信仰は関係している。それを視認出来る【『天使憑き』】を欲しがらないわけはないってね",
+      "en": "They are a group that worships 'God'. That includes 'angels', His messengers. They really want 'angel-possessed' people who can see them.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95025,
+      "id": "db_EventInfo:112291:15",
+      "jp": "そして【『天使憑き』】の能力を安定させた人間が【『聖女』】として、【『<ruby=ヒエペリオ>教会</ruby>』】に認定されるんだよ",
+      "en": "An 'angel-possessed' person whose power is stable gets recognized by the 'Church' as a 'Saint'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    }
+  ]
+}

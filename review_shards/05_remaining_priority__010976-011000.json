@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10976,
+  "range_end": 11000,
+  "pairs": [
+    {
+      "n": 10976,
+      "id": "rem_38737",
+      "jp": "ゼカリウスの街を取り囲む、巨大な防壁を建築する。大規模な建築なので、相当な資金が必要だが、建築することで住人は安心して移住することになる。客の流入数が増えるだろう。",
+      "en": "Build a massive defensive wall surrounding the city of Zecarius. It's a large-scale construction requiring significant funds, but doing so will give residents peace of mind to migrate here. The influx of customers will increase.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10977,
+      "id": "rem_38738",
+      "jp": "騎士団Lv8・ゼカリウス防壁の建築",
+      "en": "Knights Lv8 • Construction of Zecarius Wall",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10978,
+      "id": "rem_38739",
+      "jp": "ゼカリウス防壁を建築したことで住人が流入したが、住居の整備が間に合わない。このままではスラム街が生まれてしまい、治安が悪化してしまう。住宅街を整備することで、犯罪が起こる確率を下げられるだろう。",
+      "en": "Building the Zecarius Wall caused an influx of residents, but housing preparation can't keep up. This could lead to slums and worsen public safety. Developing a residential area will lower the crime rate.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10979,
+      "id": "rem_38740",
+      "jp": "騎士団Lv10・住宅街の大幅整備",
+      "en": "Knights Lv10 • Major Residential Area Development",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10980,
+      "id": "rem_38741",
+      "jp": "海賊女帝アーマニアの財宝が眠る遺跡の手がかりが見つかったらしい。海中にあるらしいが、付近には強力な魔獣の影が見える。発掘調査にはかなりの資金が必要だ。",
+      "en": "A clue to the ruins where the Pirate Empress Armena's treasure sleeps has been found. It's said to be underwater, but powerful magical beasts lurk nearby. The excavation survey will require considerable funds.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10981,
+      "id": "rem_38742",
+      "jp": "漁業Lv10・海賊女帝伝説プロジェクト",
+      "en": "Fishing Lv10: Pirate Empress Legend Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10982,
+      "id": "rem_38743",
+      "jp": "イルニエルの皆とを改築し、軍艦と漁船が共に停泊できるようにする。ふたたびノーザリアのような外敵に攻められることに備えて、軍艦も停泊できるようにしよう。",
+      "en": "Expand Iluniel's harbor to dock warships alongside fishing boats. This is to prepare for potential attacks from forces like Nosalia.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10983,
+      "id": "rem_38744",
+      "jp": "漁業Lv12・イルニエル港の大幅改築",
+      "en": "Fishing Lv12: Major Iluniel Harbor Expansion",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10984,
+      "id": "rem_38745",
+      "jp": "老朽化した大灯台の改築を行なう。古代文明の産物である大灯台を完全に解体することはできないが、安全なルートを開拓することでメンテナンスを容易にする。",
+      "en": "Renovate the old Great Lighthouse. While we can't dismantle this ancient relic, we can create safe access routes for easier maintenance.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10985,
+      "id": "rem_38746",
+      "jp": "漁業Lv15・大灯台の改築プロジェクト",
+      "en": "Fishing Lv15: Great Lighthouse Renovation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10986,
+      "id": "rem_38747",
+      "jp": "ルーラ・ブロッサ娼会の『淫魔』を住まわせる娼館を建築する。ルーシェたちが目を光らせているので、悪さはしない……はず。娼館の売上の一部は店の売上げとしてボーナスが与えられる。",
+      "en": "Build a brothel for the 'Succubi' of the Lura Blossa Brothel Guild. They shouldn't cause trouble with Lusche watching... Part of their income will become bonus store revenue.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10987,
+      "id": "rem_38748",
+      "jp": "娼会Lv12・淫魔娼館を建築",
+      "en": "Brothel Lv12: Build a Succubus Brothel",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10988,
+      "id": "rem_38749",
+      "jp": "新しい坑道が見つかり、その発掘に協力する。かなりの資金を提供することになるが、これでも足りないほどの大規模な鉱脈であるらしい。非常に大きいプロジェクトだ。",
+      "en": "A new mine shaft has been found. Provide major funding to assist its excavation. It's a massive, ambitious project.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10989,
+      "id": "rem_38750",
+      "jp": "鉱山Lv15・新坑道発掘プロジェクト",
+      "en": "Mining Lv15: New Shaft Excavation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10990,
+      "id": "rem_38751",
+      "jp": "ドルワミール鉱山から、非常に貴重な鉱石が見つかったらしい。それをうちのメンバーの装備強化に使おうとのことだ。戦力アップが図れるだろう。",
+      "en": "A rare ore was found in the Doluamir mine. We'll use it to upgrade our members' equipment, boosting our combat power.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10991,
+      "id": "rem_38752",
+      "jp": "鉱山Lv8・専用装備のための鉱石",
+      "en": "Mining Lv8: Ore for Custom Equipment",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10992,
+      "id": "rem_38753",
+      "jp": "ドルワミール鉱山から伝説級の鉱石が見つかったらしく、アンジュが大興奮している。それがあれば最強装備が作れるそうだが、ドワーム族のご神体に匹敵するらしく、その買い取りにはとてつもない金額が必要になる。",
+      "en": "A legendary ore was found, and Anju is ecstatic. It can forge ultimate gear, but its price is astronomical, rivaling a Dwarm holy relic.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10993,
+      "id": "rem_38754",
+      "jp": "鉱山Lv12・伝説の鉱石の買取り代金",
+      "en": "Mining Lv12: Payment for Legendary Ore",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10994,
+      "id": "rem_38755",
+      "jp": "ソルネッタと結婚することになってしまった。結納金を払わなければならないらしい。投資すると主人公の甲斐性を見直して、パートナーの能力がアップする。",
+      "en": "You're to marry Solnetta. A betrothal gift is required. This investment shows your worth and boosts your partner's abilities.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10995,
+      "id": "rem_38756",
+      "jp": "自警団Lv10・ソルネッタとの結納金？",
+      "en": "Militia Lv10: Solnetta's Betrothal Gift?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10996,
+      "id": "rem_38757",
+      "jp": "『ロオン遺跡調査団』が発掘した古文書を保管しよう。適当な小屋を建築させようとしたが、カリストたちからしっかりとした施設を作るよう説得されてしまい、大図書館を建築することに。",
+      "en": "Store ancient documents found by the 'Loan Ruins Survey Team'. Callisto insisted on a proper facility, so we're building a grand library instead of a simple shed.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10997,
+      "id": "rem_38758",
+      "jp": "調査団Lv10・古代図書館の建築",
+      "en": "Survey Team Lv10: Ancient Library Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10998,
+      "id": "rem_38759",
+      "jp": "『ロオン遺跡調査団』のメンバーの住居兼研究所である、大規模基地を建設する。住居が安定することで、調査団は末永くこの地で研究を行なうことが出来るだろう。",
+      "en": "Build a large base for the Loan Ruins Survey Team, serving as both housing and labs. Stable lodgings will support their long-term research here.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10999,
+      "id": "rem_38760",
+      "jp": "調査団Lv12・調査団の大規模基地建設",
+      "en": "Survey Team Lv12: Survey Team Base Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11000,
+      "id": "rem_38761",
+      "jp": "『ロオン遺跡調査団』の発掘成果を保存する、記念大博物館を建築する。博物館を建設することで、大陸各地の遺跡学者が集う研究施設にもなり、さらには観光地にもなる。売上の一部は店に入る。",
+      "en": "Build a grand museum to preserve the Survey Team's finds. It will become a research hub for archaeologists and a tourist attraction. Part of its revenue goes to the store.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

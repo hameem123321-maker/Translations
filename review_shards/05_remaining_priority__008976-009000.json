@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8976,
+  "range_end": 9000,
+  "pairs": [
+    {
+      "n": 8976,
+      "id": "rem_36698",
+      "jp": "わくわくティラミス",
+      "en": "Exciting Tiramisu",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8977,
+      "id": "rem_36699",
+      "jp": "目玉のようなあめ玉が載ったアイスクリーム。可愛らしくてグロテスクな外見に、ファンはやみつきになる……かもしれない。ちょっとダークな変わり種スイーツ。",
+      "en": "Ice cream topped with eye-like candy. Its cute yet grotesque appearance may have fans hooked... A slightly dark, unusual dessert.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8978,
+      "id": "rem_36700",
+      "jp": "テリブルアイズクリーム",
+      "en": "Terrible Eyes Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8979,
+      "id": "rem_36701",
+      "jp": "シロップ漬けにした甘いフルーツ。季節のフルーツを使っており、毎回違ったフルーツが出されている。常連客が好み、話のネタにするらしい。",
+      "en": "Sweet fruits marinated in syrup. Made with seasonal fruits, so the selection changes each time. A favorite among regulars and a topic of conversation.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8980,
+      "id": "rem_36702",
+      "jp": "シロップ漬けフルーツ",
+      "en": "Syrup-Marinated Fruits",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8981,
+      "id": "rem_36703",
+      "jp": "練り込んだハチミツとミルクで焼き上げた甘いケーキ。シンプルながら、ボリュームのある甘さは、女冒険者のハートを釘付けにして、何度も店に足を運ばせる。",
+      "en": "A sweet cake baked with kneaded honey and milk. Simple yet substantial, its rich sweetness captivates female adventurers, making them visit the shop repeatedly.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8982,
+      "id": "rem_36704",
+      "jp": "甘々ハニーミルクケーキ",
+      "en": "Very Sweet Honey Milk Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8983,
+      "id": "rem_36705",
+      "jp": "ベリーをふんだんに使用した甘いケーキ。ケーキのクリームの甘さと、ベリーのさわやかなすっぱさがギャップになり、客を虜にする。",
+      "en": "A sweet cake made with plenty of berries. The sweet cake cream and the berries' refreshing tartness create a delightful contrast that captivates customers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8984,
+      "id": "rem_36706",
+      "jp": "幸せのベリーケーキ",
+      "en": "Happy Berry Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8985,
+      "id": "rem_36707",
+      "jp": "最高級の素材をふんだんに使用した、パティシエの全力を注いだ最強のミルクケーキ。貴族階級でもめったに味わえないスペシャルランクのスイーツ。",
+      "en": "The ultimate milk cake, crafted with the finest ingredients and a pastry chef's full effort. A special-rank sweet even nobles rarely taste.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8986,
+      "id": "rem_36708",
+      "jp": "ドリームミルクケーキ",
+      "en": "Dream Milk Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8987,
+      "id": "rem_36709",
+      "jp": "甘味で作ったお菓子の芸術。器の中で雪に見立てた砂糖が降り注ぎ、その全てが果実と甘味で作られている。見てよし、食べて幸せな究極のお菓子。",
+      "en": "An art of confectionery made from sweets. Sugar, like snow, falls in the bowl, all crafted from fruit and sweets. The ultimate treat to see and savor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8988,
+      "id": "rem_36710",
+      "jp": "食べられる銀世界",
+      "en": "The Edible Silver World",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8989,
+      "id": "rem_36711",
+      "jp": "夢見る少女の理想が詰まったような、家の形をした芸術的スイーツ。見た目も味も最高峰だが、芸術的過ぎて食べるのが勿体ない。",
+      "en": "An artistic sweet shaped like a house, embodying a dreaming girl's ideal. Both its appearance and flavor are supreme, yet so artistic it feels a waste to eat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8990,
+      "id": "rem_36712",
+      "jp": "お菓子の家",
+      "en": "Candy House",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8991,
+      "id": "rem_36713",
+      "jp": "深紅の果実と濃密クリームで仕立て上げた幻想的なスイーツ。一口で感情までとろけるような幸福感を味わえる。",
+      "en": "A fantastical dessert crafted with crimson fruits and dense cream. A single bite melts your emotions with bliss.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8992,
+      "id": "rem_36714",
+      "jp": "秘宝のクリムゾン・ムース",
+      "en": "Secret Treasure Crimson Mousse",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8993,
+      "id": "rem_36715",
+      "jp": "神を名乗るカネの権化も太鼓判を押す、濃厚な味わいのプリン。一口食べると、その美味しさの虜になってしまうデス。",
+      "en": "A rich custard endorsed by the money-incarnate deity. One bite makes you its prisoner of deliciousness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8994,
+      "id": "rem_36716",
+      "jp": "ゴッデスプリン",
+      "en": "Goddess Pudding",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8995,
+      "id": "rem_36717",
+      "jp": "ゼカリウスに伝来した米を水で炊き、四角く成型したもの。本来は別な食べ方があるようだが、貧困層はこれでも満足してしまう。",
+      "en": "Rice passed down from Zecarius, cooked with water and molded into squares. Originally meant to be eaten differently, but even the poor find it satisfying.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8996,
+      "id": "rem_36718",
+      "jp": "ライスバー",
+      "en": "Rice Bar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8997,
+      "id": "rem_36719",
+      "jp": "炊いた米を、てのひらサイズにまとめた携帯にも便利な料理。ゼカリウス地方ではあまり知られていない。",
+      "en": "Hand-sized cooked rice balls, convenient for travel. Not well-known in the Zecarius region.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8998,
+      "id": "rem_36720",
+      "jp": "おにぎり",
+      "en": "Onigiri",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8999,
+      "id": "rem_36721",
+      "jp": "炊いた米に肉や野菜を混ぜて油脂で炒めたもの。ゼカリウス地方ではあまり知られていない料理。シンプルそうに見えて、極めるには鍛錬が必要。",
+      "en": "Cooked rice stir-fried in oil with meat and vegetables. A dish little known in Zecarius. Simple on the surface, but perfecting it requires skill.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9000,
+      "id": "rem_36722",
+      "jp": "ゼカリウスチャーハン",
+      "en": "Zecarius Fried Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

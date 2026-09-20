@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10801,
+  "range_end": 10825,
+  "pairs": [
+    {
+      "n": 10801,
+      "id": "rem_38562",
+      "jp": "ヤサ・シイギャル",
+      "en": "Yasa Shigyal",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10802,
+      "id": "rem_38563",
+      "jp": "ユンケル",
+      "en": "Yunkel",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10803,
+      "id": "rem_38564",
+      "jp": "ラファ・スン",
+      "en": "Rafa Sun",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10804,
+      "id": "rem_38565",
+      "jp": "リズ",
+      "en": "Liz",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10805,
+      "id": "rem_38566",
+      "jp": "リン",
+      "en": "Rin",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10806,
+      "id": "rem_38567",
+      "jp": "レーヴァ",
+      "en": "Leva",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10807,
+      "id": "rem_38568",
+      "jp": "ローラ",
+      "en": "Lola",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10808,
+      "id": "rem_38569",
+      "jp": "最近開拓が始まった、フレスミス森林道へのクエストを発行して、冒険者を向かわせる。森が切り開かれれば、ドワーム族との交易も盛んになり、多くの資源がゼカリウスに届けられることになるだろう。資金を投入しよう。",
+      "en": "Issue quests for the newly opened Fressmis Forest Path. Clearing the forest will boost trade with the Dwarm and bring more resources to Zecarius. Invest funds.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10809,
+      "id": "rem_38570",
+      "jp": "フレスミス森林道",
+      "en": "Fressmis Forest Path",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10810,
+      "id": "rem_38571",
+      "jp": "ドワーム族が所有する鉱山だが、いまだ多くの魔獣が住み着いて荒れており、困っているようだ。ドワーム族との交流が蘇ったことで、ドルワミール鉱山も探索が可能になった。友好の証として冒険者に活躍して貰おう。",
+      "en": "A Dwarm-owned mine, still overrun by monsters. Now accessible thanks to restored ties. Send adventurers as a goodwill gesture.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10811,
+      "id": "rem_38572",
+      "jp": "イルニエル大灯台に冒険者を向かわせる。魔獣の巣窟であるため、解放後も定期的に人を向かわせなくてはいけないが、一般の漁師には荷が重いのだ。大灯台の機能が正常化すれば、海をゆく船も安全に航行出来るだろう。",
+      "en": "Send adventurers to the Great Iluniel Lighthouse. A monster den, it requires periodic clearing. Restoring it will make the seas safe for ships.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10812,
+      "id": "rem_38573",
+      "jp": "イルニエル大灯台",
+      "en": "Iluniel Great Lighthouse",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10813,
+      "id": "rem_38574",
+      "jp": "ゼカリウスを支配する地方領主ゼルカの屋敷。主はすでにいない。自警団を中心として、大規模な修練施設を建設する話が上がっている。資金投入することで、冒険者のレベルが底上げされ、多くの開発ポイントを受け取れるだろう。",
+      "en": "The manor of Zelka, the local lord of Zecarius, now empty. Plans are to build a large training facility, boosting adventurer levels and yielding development points. Invest funds.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10814,
+      "id": "rem_38575",
+      "jp": "地下図書館へのクエストを作り、一般冒険者を向かわせる。危険な魔術トラップが随所に配置される危険なダンジョンだが、その深奥には数多の叡智が眠っており、学者や魔術師にとっては垂涎ものである。資金投入する価値がある。",
+      "en": "Create quests for the Underground Library. A dangerous dungeon full of traps but holding great wisdom, coveted by scholars and mages. Worth the investment.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10815,
+      "id": "rem_38576",
+      "jp": "ゼカリウス地下図書館",
+      "en": "Zecarius Underground Library",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10816,
+      "id": "rem_38577",
+      "jp": "都市の近辺に停泊していた武装船団。異形の魔獣が巣くっていたが所有者が元に戻った。その船団を基地として近海の魚魔獣を狩ることにする。資金を投入すれば、通常は漁獲できないものも捕れるに違いない。",
+      "en": "An armed fleet docked near the city, once infested by monsters, now reclaimed. Use it as a base to hunt sea monsters. Investing will yield rare catches.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10817,
+      "id": "rem_38578",
+      "jp": "ソルシア魔導船団",
+      "en": "Solthia Magic Fleet",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10818,
+      "id": "rem_38579",
+      "jp": "黒の森ダムブナックにある邪教の神殿に一般冒険者を向かわせる。邪教徒の大元は叩いたが、いまだ邪悪な魔獣は跋扈している。選りすぐりの冒険者でなければ立ち入れないが、得るものも多いだろう。黒の森は資源の宝庫だ。",
+      "en": "Send adventurers to the cult temple in Darkwood Dambunack. The cult's leaders are gone, but monsters remain. Only the best can enter, but the forest is rich in resources.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10819,
+      "id": "rem_38580",
+      "jp": "ダムブナック黒神殿",
+      "en": "Dambunack Dark Temple",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10820,
+      "id": "rem_38581",
+      "jp": "霊峰ヤークァリムの山頂への道を整備し、その遺跡への道を切り開く。冒険者の中でも特に才能に優れた者を選んで派遣することになる。持ち帰る資源は非常に高品質な物になるだろう。資金を投入する価値は高い。",
+      "en": "Develop the path to the summit of Sacred Peak Yakwarim and open the ruins. Send only the most talented adventurers. The resources will be of the highest quality. A highly worthwhile investment.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10821,
+      "id": "rem_38582",
+      "jp": "コノスパ天空遺跡",
+      "en": "Knospar Sky Ruins",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10822,
+      "id": "rem_38583",
+      "jp": "ドルワミール鉱山の奥に一般冒険者を向かわせる。ドワーム族が聖地として守ってきた場所であるが、魔獣の巣窟になってしまった。奥には貴重な資源が多く眠っており、その発掘もドワーム族は歓迎している。",
+      "en": "Send general adventurers deep into the Dorwamir Mines. Once a Dwarm sacred site, now a monster den. Valuable resources lie within, and the Dwarm welcome their extraction.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10823,
+      "id": "rem_38584",
+      "jp": "ボルケミア地下火山",
+      "en": "Bolchemia Underground Volcano",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10824,
+      "id": "rem_38585",
+      "jp": "カストロイアに一般冒険者を向かわせる。非常に危険な遺跡であるが、最深部の攻略が成功したことによって劇的に危険度が低下した。今はその機能を調査するために多くの学者が向かっており、彼らの安全を守るために冒険者が求められている。",
+      "en": "Send general adventurers to Castloia. A once highly dangerous ruin, its peril has plummeted since its depths were conquered. Scholars now flock to study it, needing protection.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10825,
+      "id": "rem_38586",
+      "jp": "災厄制御機関カストロイア",
+      "en": "Castloia Catastrophe Control Agency",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11026,
+  "range_end": 11050,
+  "pairs": [
+    {
+      "n": 11026,
+      "id": "rem_38787",
+      "jp": "【<src>】の[ジェノブレイク]！",
+      "en": "【<src>】's [Genobreak]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11027,
+      "id": "rem_38788",
+      "jp": "主人公Lv2(聖騎士)",
+      "en": "Ren Lv2 (Paladin)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11028,
+      "id": "rem_38789",
+      "jp": "主人公Lv3(大勇者)",
+      "en": "Ren Lv3 (Great Hero)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11029,
+      "id": "rem_38790",
+      "jp": "アンジュ(アナザー)",
+      "en": "Anju (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11030,
+      "id": "rem_38791",
+      "jp": "マリーゼル(アナザー)",
+      "en": "Marisel (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11031,
+      "id": "rem_38792",
+      "jp": "ファシィ(アナザー)",
+      "en": "Facy (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11032,
+      "id": "rem_38793",
+      "jp": "シェルフィ(アナザー)",
+      "en": "Shelfi (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11033,
+      "id": "rem_38794",
+      "jp": "キャトリナ(アナザー)",
+      "en": "Catrina (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11034,
+      "id": "rem_38795",
+      "jp": "ハーヴェスタ(アナザー)",
+      "en": "Harvester (Another)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11035,
+      "id": "rem_38796",
+      "jp": "レミル(覚醒後)",
+      "en": "Remil (Awakened)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11036,
+      "id": "rem_38797",
+      "jp": "メテトス百穴古墳をいち早く制圧した<pl>は近隣の森と付近の村を買収、薬草栽培所を建設した。村娘のヘレンはオーナーを接待しにやってくる。襲われることはなくなる。カネで解決するのでカネがかかる。",
+      "en": "<pl>, who swiftly took control of the Metetos Hundred-Hole Burial Mound, purchased the nearby forest and village to build a medicinal herb farm. The village girl Helen comes to entertain the owner. No more assaults. It's solved with money, so it costs money.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11037,
+      "id": "rem_38798",
+      "jp": "薬草採集の為、メテトス百穴古墳近隣の森に立ち入ったヘレン。しかしそこはゴブリンの住処になっており、逃げ遅れたヘレンは凌辱され、ゴブリンの子を孕んでしまった。",
+      "en": "Helen entered the forest near the Metetos Hundred-Hole Burial Mound to gather herbs. However, it had become a Goblin den. Fleeing too late, Helen was violated and impregnated with a Goblin's child.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11038,
+      "id": "rem_38799",
+      "jp": "ヘレンの運命改変",
+      "en": "Helen's Fate Changed",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11039,
+      "id": "rem_38800",
+      "jp": "ミーシャたちがやろうとしているビジネスプランにはかなりの資金が必要になる。その企画に投資することによって二人の無茶な行動を抑えることが出来た。彼女らに少額の投資を行い、興味を引かせて凌辱を回避した。",
+      "en": "Misha and her partner's business plan requires significant funds. By investing in their scheme, their reckless actions were curbed. A small investment in them piqued their interest and avoided violation.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11040,
+      "id": "rem_38801",
+      "jp": "フレスミス森林道の開拓をビジネスチャンスととらえたミーシャたち、しかし無理に探索したミーシャはならずものに捕まってしまい、輪姦されてしまった。",
+      "en": "Seeing the Fresmis Forest Path development as a business opportunity, Misha and her partner ventured recklessly. Misha was caught by ruffians and gang-raped.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11041,
+      "id": "rem_38802",
+      "jp": "ミーシャの運命改変",
+      "en": "Altering Misha's Fate",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11042,
+      "id": "rem_38803",
+      "jp": "気が進まないが、彼の死を無かったことにする……？",
+      "en": "Undo the swordsman's death... reluctantly?",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11043,
+      "id": "rem_38804",
+      "jp": "『聖女』として覚醒したマリーゼルは、その原因となった少年剣士の死をずっと悔いていた。彼女から彼の死をなかったことにしたいという願いを受けた。",
+      "en": "Marisel, awakened as the 'Saint', has long regretted the death of the young swordsman that caused it. She wishes to undo his death.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11044,
+      "id": "rem_38805",
+      "jp": "ポンタの運命改変",
+      "en": "Altering Ponta's Fate",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11045,
+      "id": "rem_38806",
+      "jp": "二人が所属している冒険者ギルドに根回しして、彼女たちにゴブリンの出ないクエストを回してもらうことにする。さらに油断しないよう、高難易度を手配した。おそらく大怪我をするだろうが凌辱は回避する。",
+      "en": "Pull strings with their guild to assign them quests without Goblins. Add a tough quest to keep them alert. They'll likely get hurt, but avoid violation.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11046,
+      "id": "rem_38807",
+      "jp": "ベテランの冒険者として活躍するジャネットとグレーテ。ゴブリン退治のクエストを引き受けて戦うが、思わぬ強敵やトラップによって捕らえられ、ゴブリンの餌食にされてしまう。",
+      "en": "Veteran adventurers Janet and Grete accept a Goblin subjugation quest. They face unexpected foes and traps, are captured, and become the Goblins' playthings.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11047,
+      "id": "rem_38808",
+      "jp": "冒険者コンビの運命改変",
+      "en": "Altering the Duo's Fate",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11048,
+      "id": "rem_38809",
+      "jp": "カリストの師匠である先代魔女オーレリア。ウィルチの称号を持つ彼女は間違いなく大天才だ。仲間に勧誘して保護すれば、異端審問官に捕まることもなくなったはず。",
+      "en": "Aurelia, Callisto's former mentor and a 'Willch' genius. If she had been recruited and protected, she wouldn't have been caught by the inquisitors.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11049,
+      "id": "rem_38810",
+      "jp": "疑惑を掛けられ、ミルテと共にソルシアの船に捕らえられたオーレリア。脱走したゴブリンからミルテを庇ったオーレリアは、ゴブリンの凌辱を一身に受けることになった。",
+      "en": "Aurelia, suspected and captured with Myrte by Solcia's ship. Shielding Myrte from an escaped Goblin, she endured its violation alone.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11050,
+      "id": "rem_38811",
+      "jp": "オーレリアの運命改変",
+      "en": "Altering Aurelia's Fate",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 51,
+  "range_end": 75,
+  "pairs": [
+    {
+      "n": 51,
+      "id": "extra_ui_0051",
+      "jp": "治安の悪さを示すデス。高くなってくるとガラの悪い客だらけになるデス。『防犯』を強化することで減らすことが出来るデス",
+      "en": "How bad public order is. Let it climb and you get rough customers. Raise 'Security' to bring it down."
+    },
+    {
+      "n": 52,
+      "id": "extra_ui_0052",
+      "jp": "犯罪値",
+      "en": "Crime"
+    },
+    {
+      "n": 53,
+      "id": "extra_ui_0053",
+      "jp": "店の資産。いわゆるカネデス。たくさん稼ぐデス！！！",
+      "en": "Shop funds. Money. Make lots of it!!!"
+    },
+    {
+      "n": 54,
+      "id": "extra_ui_0054",
+      "jp": "店パラメータ・資金(ゴールド)",
+      "en": "Shop stat: Gold"
+    },
+    {
+      "n": 55,
+      "id": "extra_ui_0055",
+      "jp": "資金",
+      "en": "Gold"
+    },
+    {
+      "n": 56,
+      "id": "extra_ui_0056",
+      "jp": "スタッフが獲得したショップ経験値デス。このポイントは共有され、好きなスタッフを成長させることが出来るデス！　成長は『店員』から行うことが出来るデス",
+      "en": "Shop EXP staff earned. It's shared, so you can grow whoever you want from 'Staff'."
+    },
+    {
+      "n": 57,
+      "id": "extra_ui_0057",
+      "jp": "店パラメータ・経験値",
+      "en": "Shop stat: EXP"
+    },
+    {
+      "n": 58,
+      "id": "extra_ui_0058",
+      "jp": "経験値",
+      "en": "EXP"
+    },
+    {
+      "n": 59,
+      "id": "extra_ui_0059",
+      "jp": "神の権能を行使出来る力の値デス。最初のうちはあんまりないデスが、『死神研修』をこなすことで、総量はアップするデス。【店で商品が売れる】ごとに回復するデス",
+      "en": "Power for using a god's authority. Low at first; 'Shinigami training' raises the cap. Recovers whenever 【goods sell in the shop】."
+    },
+    {
+      "n": 60,
+      "id": "extra_ui_0060",
+      "jp": "店パラメータ・死神パワー(RP)",
+      "en": "Shop stat: Shinigami Power (RP)"
+    },
+    {
+      "n": 61,
+      "id": "extra_ui_0061",
+      "jp": "死神力",
+      "en": "RP"
+    },
+    {
+      "n": 62,
+      "id": "extra_ui_0062",
+      "jp": "『商品』の開発に必要なポイントの一つデス。トレジャーを発見したときに獲得出来ることがあるデス",
+      "en": "One point type for developing 'Goods'. You can get it from treasure."
+    },
+    {
+      "n": 63,
+      "id": "extra_ui_0063",
+      "jp": "開発ポイント・資源点",
+      "en": "Dev points: Resource"
+    },
+    {
+      "n": 64,
+      "id": "extra_ui_0064",
+      "jp": "資源点",
+      "en": "Resource"
+    },
+    {
+      "n": 65,
+      "id": "extra_ui_0065",
+      "jp": "開発ポイント・調査点",
+      "en": "Dev points: Survey"
+    },
+    {
+      "n": 66,
+      "id": "extra_ui_0066",
+      "jp": "調査点",
+      "en": "Survey"
+    },
+    {
+      "n": 67,
+      "id": "extra_ui_0067",
+      "jp": "『商品』の開発に必要なポイントの一つデス。【ダンジョン】でエネミーを撃破すると獲得出来るデス",
+      "en": "One point type for developing 'Goods'. Get it by beating enemies in the 【dungeon】."
+    },
+    {
+      "n": 68,
+      "id": "extra_ui_0068",
+      "jp": "開発ポイント・戦功点",
+      "en": "Dev points: Merit"
+    },
+    {
+      "n": 69,
+      "id": "extra_ui_0069",
+      "jp": "戦功点",
+      "en": "Merit"
+    },
+    {
+      "n": 70,
+      "id": "extra_ui_0070",
+      "jp": "『商品』の開発に必要なポイントの一つデス。【ダンジョン】で稀少なトレジャーを発見したときに獲得することがあるデス",
+      "en": "One point type for developing 'Goods'. Sometimes from rare dungeon treasure."
+    },
+    {
+      "n": 71,
+      "id": "extra_ui_0071",
+      "jp": "開発ポイント・稀少点",
+      "en": "Dev points: Rare"
+    },
+    {
+      "n": 72,
+      "id": "extra_ui_0072",
+      "jp": "稀少点",
+      "en": "Rare"
+    },
+    {
+      "n": 73,
+      "id": "extra_ui_0073",
+      "jp": "スタッフに部門を割り振ったり、ステータスを確認するデス",
+      "en": "Assign staff to departments and check their stats."
+    },
+    {
+      "n": 74,
+      "id": "extra_ui_0074",
+      "jp": "店員",
+      "en": "Staff"
+    },
+    {
+      "n": 75,
+      "id": "extra_ui_0075",
+      "jp": "販売する商品メニューを作成するデス。商品がなければ、カネを稼ぐことはできないデス！",
+      "en": "Set up the goods you sell. No goods, no money!"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6326,
+  "range_end": 6350,
+  "pairs": [
+    {
+      "n": 6326,
+      "id": "rem_33945",
+      "jp": "魔獣の王たるミズイロケモミミに縁がある者たち。その力は共鳴し、血の濃い者に応じて能力が引き出されていく。ウルフィナが強くなると引っ張られる。",
+      "en": "Those with ties to Mizuiro Kemomimi, the King of Magic Beasts. Their powers resonate, drawing out abilities based on bloodline. Strengthens as Wolfina does.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6327,
+      "id": "rem_33946",
+      "jp": "レベル同期・ウルフィナと同じに",
+      "en": "Level Sync・Match Wolfina's",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6328,
+      "id": "rem_33947",
+      "jp": "魔獣王の血に任せて部分的に巨大化させた爪で粉々にする。最強クラスの物理攻撃スキル。",
+      "en": "Shatter foes with a giant claw empowered by the Beast King's blood. A top-tier physical attack skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6329,
+      "id": "rem_33948",
+      "jp": "範囲(小)攻撃 威力[S] +  命中[70%] + 必殺率[+10%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Small AoE attack Potency[S] + Hit[70%] + Crit[+10%] + 【Ice】 + Inflicts [Freeze] (Phys. Dmg Reduc. -30% + Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6330,
+      "id": "rem_33949",
+      "jp": "【<src>】の右手が魔獣王の爪となり敵を襲う！",
+      "en": "【<src>】's right hand transforms into the Beast King's claw and strikes!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6331,
+      "id": "rem_33950",
+      "jp": "槍を振り回し、衝撃波で攻撃する。風に弱い相手に、非常に効果的なダメージを与える。空を飛ぶ相手に対してとても有効。",
+      "en": "Swing the spear, attacking with shockwaves. Deals highly effective damage to wind-weak foes. Very effective against flying enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6332,
+      "id": "rem_33951",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "Small AoE attack Potency[E+] + Hit[80%] + Combo[+10%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6333,
+      "id": "rem_33952",
+      "jp": "【<src>】は[ソニックランス]を放った！",
+      "en": "【<src>】 unleashes [Sonic Lance]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6334,
+      "id": "rem_33953",
+      "jp": "連続で弓を撃ち、大ダメージを狙う。スキルレベルを高めれば、必殺の一撃になりえる。しかし連射力に重きを置いているため、命中率は低い。",
+      "en": "Rapidly fire arrows for major damage. Can become a critical strike with high skill level. Prioritizes rapid-fire, so accuracy is low.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6335,
+      "id": "rem_33954",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[80%] + 連撃率[+30%] + 【火属性】",
+      "en": "Large AoE attack Potency[C] + Hit[80%] + Combo[+30%] + 【Fire】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6336,
+      "id": "rem_33955",
+      "jp": "【<src>】の[トリプルアロー]！",
+      "en": "【<src>】's [Triple Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6337,
+      "id": "rem_33956",
+      "jp": "仲間全員を守る、究極のバリアを張る。このバリアは弱いダメージは素通りし、ほとんどの威力を削いで消える。弱い攻撃は無視してしまうので注意。",
+      "en": "Erects the ultimate barrier protecting all allies. It lets weak attacks pass but absorbs most power and fades. Note: Ignores minor attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6338,
+      "id": "rem_33957",
+      "jp": "HP回復(小) + 【仲間】に【神盾】を付与 (最大HPの20%を超える攻撃を軽減[+90%])",
+      "en": "Small HP Recovery + Grants 【Allies】 【Aegis】 (Reduces [+90%] damage exceeding 20% of max HP)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6339,
+      "id": "rem_33958",
+      "jp": "【<src>】のバリアが仲間を守る！",
+      "en": "【<src>】's barrier protects the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6340,
+      "id": "rem_33959",
+      "jp": "精神的な疲れを癒し、スキルのCTとＭＰを回復させる、とても便利なスキル。",
+      "en": "A very convenient skill that heals mental fatigue and recovers skill CT and MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6341,
+      "id": "rem_33960",
+      "jp": "CT回復(小) + MP回復(小) + 自分以外に効果",
+      "en": "Small CT Recover + Small MP Recover + Effect on others (not self)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6342,
+      "id": "rem_33961",
+      "jp": "【<src>】は[メディケーション]を使用した",
+      "en": "【<src>】 used [Medication].",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6343,
+      "id": "rem_33962",
+      "jp": "自らを興奮させて、攻撃に集中する。相手を殲滅する能力が高まるが、ほとんど暴走しているので命中精度は下がってしまう。",
+      "en": "Excites self to focus on attack. Raises ability to annihilate foes, but accuracy drops due to near-rampage state.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6344,
+      "id": "rem_33963",
+      "jp": "【自分】に【狂戦士++】を付与 (物理ダメージ[+60%] + 命中精度[-30%])",
+      "en": "Grants 【self】 【Berserker++】 (Phys DMG [+60%] + Accuracy [-30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6345,
+      "id": "rem_33964",
+      "jp": "【<src>】は[バーサーク]を使用した！",
+      "en": "【<src>】 used [Berserk]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6346,
+      "id": "rem_33965",
+      "jp": "戦場での興奮が力になる。攻撃力が高まるが、防御力が少し下がってしまう。相手に攻撃される前に叩き潰せ！",
+      "en": "Battlefield excitement becomes power. Attack rises, but defense drops slightly. Crush the enemy before they hit you!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6347,
+      "id": "rem_33966",
+      "jp": "【<src>】は自らを鼓舞した！",
+      "en": "【<src>】 boosted their own morale!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6348,
+      "id": "rem_33967",
+      "jp": "武器に対して強力な強化をかける。攻撃力が高まると同時に、武器の鋭さが蘇ることで、スキルのＣＴが早まる。",
+      "en": "Applies potent enhancement to weapon. Raises attack power, and weapon's sharpness returns, speeding up skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6349,
+      "id": "rem_33968",
+      "jp": "CT回復(小) + 【仲間】に【攻撃】を付与 (物理ダメージ[+30%])",
+      "en": "Small CT Recover + Grants 【allies】 【Attack】 (Phys DMG [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6350,
+      "id": "rem_33969",
+      "jp": "【<src>】の[ウェポンブレス]が武器に宿った！",
+      "en": "【<src>】's [Weapon Bless] has imbued the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

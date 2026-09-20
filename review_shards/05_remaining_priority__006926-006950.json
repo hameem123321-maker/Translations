@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6926,
+  "range_end": 6950,
+  "pairs": [
+    {
+      "n": 6926,
+      "id": "rem_34545",
+      "jp": "単体攻撃 威力[D] +  命中[70%] + 【聖属性】",
+      "en": "Single Target, Power[D] + Hit[70%] + 【Holy】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6927,
+      "id": "rem_34546",
+      "jp": "【<src>】は[セイントチェイス]で追撃した！",
+      "en": "【<src>】followed up with [Saint Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6928,
+      "id": "rem_34547",
+      "jp": "天からの祝福ともいえる幸運。珍しいアイテム収集機会が増えるため、ダンジョンにレアアイテムオブジェクトが出現しやすくなる。",
+      "en": "A heavenly blessing of luck. Increases chances for rare item collection, making rare treasure objects appear more often in dungeons.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6929,
+      "id": "rem_34548",
+      "jp": "ダンジョン内のレアトレジャー発生率[+50%]",
+      "en": "Dungeon Rare Treasure Spawn Rate[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6930,
+      "id": "rem_34549",
+      "jp": "強化された魔獣の牙で相手に噛みつく。凶暴化した魔獣の牙は人間の武器よりも強力。偉大なるミズイロケモミミの末裔のみが放てる、必殺のケモミミスキル。",
+      "en": "Bites the foe with reinforced feral fangs. More powerful than human weapons. A lethal Kemomimi skill only the descendants of the great Mizuirokemomimi can unleash.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6931,
+      "id": "rem_34550",
+      "jp": "範囲(小)攻撃 威力[A+] +  命中[70%] + 連撃率[+10%] + 必殺率[+10%] + 【氷属性】 + 防御貫通(小)",
+      "en": "Small AoE, Power[A+] + Hit[70%] + Combo Rate[+10%] + Crit Rate[+10%] + 【Ice】 + Small Defense Penetration",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6932,
+      "id": "rem_34551",
+      "jp": "【<src>】は強化された牙で噛みついた！",
+      "en": "【<src>】bit with reinforced fangs!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6933,
+      "id": "rem_34552",
+      "jp": "常日頃から未踏の地を歩く遺跡学者の罠解除技術。秘境を歩くために、自然罠と機械罠を得意とする。魔術的なものに目がないため、魔術系の罠にはうっかり引っかかる。",
+      "en": "An archaeologist's trap disarming skill, honed exploring untrodden lands. Expert with natural and mechanical traps. Fascinated with magic, so can be careless with magical ones.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6934,
+      "id": "rem_34553",
+      "jp": "自然と機械系トラップの解除率[+50%]",
+      "en": "Natural & Mechanical Trap Disarm Rate[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6935,
+      "id": "rem_34554",
+      "jp": "アンジュや大地の民が追い求める理想の武器のカタチを武器に宿らせる。攻撃力が大きくアップしていく。スキルのＣＴも回復。",
+      "en": "Imbues the ideal weapon form pursued by Anju and the Earthfolk. Greatly boosts attack power. Also recovers skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6936,
+      "id": "rem_34555",
+      "jp": "CT回復(中) + 【仲間】に【竜殺】を付与 (物理ダメージ[+50%] + 竜タイプへのダメージ[+100%])",
+      "en": "Medium CT Recovery + Grants 【Ally】 【Dragon Slayer】 (Physical DMG[+50%] + DMG to Dragon Types[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6937,
+      "id": "rem_34556",
+      "jp": "【<src>】の[ドラゴンスレイヤー]が武器に宿った！",
+      "en": "【<src>】's [Dragon Slayer] has imbued the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6938,
+      "id": "rem_34557",
+      "jp": "武器に精通した者が使える類い希な才能。自分自身の武器だけでなく、パーティー全員の武器の能力を高める。",
+      "en": "A rare talent for those masterful with weapons. Enhances not only their own weapon, but the entire party's.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6939,
+      "id": "rem_34558",
+      "jp": "魔術の神とも称される者による、進化魔術。魔術の奥義に触れることで一時的に魔術の能力が高まる。魔術攻撃力が大幅にアップする上、ＭＰまで回復する。",
+      "en": "Evolutionary magic from one called the God of Sorcery. Touching the arcane secrets temporarily heightens magical ability. Greatly boosts magic attack and recovers MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6940,
+      "id": "rem_34559",
+      "jp": "MP回復(中) + 【仲間】に【魔術++】を付与 (魔術ダメージ[+100%])",
+      "en": "Medium MP Recovery + Grants 【Ally】 【Magic++】 (Magic DMG[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6941,
+      "id": "rem_34560",
+      "jp": "【<src>】は魔術の手ほどきを行なった！",
+      "en": "【<src>】 begins teaching magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6942,
+      "id": "rem_34561",
+      "jp": "武器と魔術が高度に融合された最上位攻撃スキル。魔術を純粋に武器の攻撃強化のみに使用した超怪力で、相手を粉砕する。",
+      "en": "A supreme attack skill fusing weapons and magic. Crushes foes with immense force via pure weapon enhancement magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6943,
+      "id": "rem_34562",
+      "jp": "範囲(小)攻撃 威力[A+] +  命中[60%] + 必殺率[+30%] + 【火属性】 + 防御貫通(小)",
+      "en": "Small AoE attack Potency[A+] + Hit[60%] + Crit[+30%] + 【Fire】 + Minor DEF Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6944,
+      "id": "rem_34563",
+      "jp": "【<src>】の[デストラクション]！",
+      "en": "【<src>】 uses [Destruction]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6945,
+      "id": "rem_34564",
+      "jp": "極限まで集中力を高めることで、スキル攻撃の威力を高める。効果が高い強力な自己強化スキル。",
+      "en": "Sharply heightens focus to boost skill damage. A powerful self-buff with great effect.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6946,
+      "id": "rem_34565",
+      "jp": "【自分】に【必殺++】を付与 (クリティカル率[+50%])",
+      "en": "Grants 【Self】【Critical++】 (Crit Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6947,
+      "id": "rem_34566",
+      "jp": "【<src>】は[コンセントレイト]を使用した！",
+      "en": "【<src>】 uses [Concentrate]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6948,
+      "id": "rem_34567",
+      "jp": "武器を力任せに叩き付ける基礎的な攻撃スキル。特別な効果は無いが、シンプルゆえに使いやすい。",
+      "en": "A basic attack skill swinging a weapon with brute force. No special effects, but simple and easy to use.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6949,
+      "id": "rem_34568",
+      "jp": "単体攻撃 威力[E+] +  命中[60%] + 必殺率[+10%]",
+      "en": "Single-target attack Potency[E+] + Hit[60%] + Crit[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6950,
+      "id": "rem_34569",
+      "jp": "【<src>】は[スマッシュ]を放った！",
+      "en": "【<src>】 unleashes [Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

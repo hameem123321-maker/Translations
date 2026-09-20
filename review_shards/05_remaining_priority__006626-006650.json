@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6626,
+  "range_end": 6650,
+  "pairs": [
+    {
+      "n": 6626,
+      "id": "rem_34245",
+      "jp": "【<src>】は[魔神の威圧感]を使用した！",
+      "en": "【<src>】used [Demon's Aura]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6627,
+      "id": "rem_34246",
+      "jp": "仲間の精神状態を回復して、クールタイムを回復させる。CT回復系のスキルは、クールタイムを回復させる効果を持つスキルには効果が薄い。",
+      "en": "Restores ally mental states and recovers Cooldown Time. CT Recovery skills are less effective on skills that recover CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6628,
+      "id": "rem_34247",
+      "jp": "CT回復(中) + 自分以外に効果 + CT消費増加",
+      "en": "CT Recovery (Med) + Effect excludes self + CT Cost Increase",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6629,
+      "id": "rem_34248",
+      "jp": "【<src>】の[リフレッシュ]！",
+      "en": "【<src>】's [Refresh]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6630,
+      "id": "rem_34249",
+      "jp": "フィールドの四属性の精霊の活動を活発化させ、四属性ダメージを高める結界を張る。攻撃の威力が高まるが、受けるダメージも増えるので注意。",
+      "en": "Stimulates the four elemental spirits in the field, creating a barrier that boosts their damage. Attack power rises, but damage taken also increases. Beware.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6631,
+      "id": "rem_34250",
+      "jp": "【フィールド】に【精霊強化】を付与 (四属性ダメージ[+40%])",
+      "en": "Applies【Spirit Empower】to【Field】(Four-Element Damage [+40%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6632,
+      "id": "rem_34251",
+      "jp": "【<src>】は[エレメントブレス]を使用！",
+      "en": "【<src>】uses [Element Breath]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6633,
+      "id": "rem_34252",
+      "jp": "物理ダメージ軽減率[+50%] + 霊体化",
+      "en": "Physical Damage Reduction [+50%] + Ethereal Form",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6634,
+      "id": "rem_34253",
+      "jp": "マリーゼルのアナザー衣装に変更する。変更すると攻撃的な性能に変化する。攻撃力は大幅に高まるが、ＭＰが下がって継戦能力は低下する。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Marisel's Another Outfit. Switches to a more aggressive profile. Attack power rises significantly, but MP drops, reducing stamina.【(Click to select outfit change)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6635,
+      "id": "rem_34254",
+      "jp": "アナザー衣装に切り替え(マリーゼル)",
+      "en": "Switch to Another Outfit (Marisel)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6636,
+      "id": "rem_34255",
+      "jp": "鋭い眼力により敵の行動や状況を予測し、仲間に的確な指示を出す。常に仲間の与ダメージが上昇するようになる。基礎能力と重複する便利なスキル。",
+      "en": "With sharp insight, predicts enemy actions and gives precise orders to allies. Permanently boosts ally damage dealt. A convenient skill that stacks with base stats.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6637,
+      "id": "rem_34256",
+      "jp": "パーティー全員のダメージ[+10%]",
+      "en": "Party-wide Damage Dealt [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6638,
+      "id": "rem_34257",
+      "jp": "ネルディーネのアナザー衣装に変更する。見た目の変化だけであり、変化しても能力は特に変化は無い。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Neldine's Another Outfit. Appearance change only; stats remain the same.【(Click to select outfit change)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6639,
+      "id": "rem_34258",
+      "jp": "アナザー衣装に切り替え(ネルディーネ)",
+      "en": "Switch to Another Outfit (Neldine)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6640,
+      "id": "rem_34259",
+      "jp": "シェルフィのアナザー衣装に変更する。淫魔として未熟だった能力が開花された。能力は開花済みなので、変更しても能力は戻らない。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Shelfi's Another Outfit. Her potential as a budding succubus has fully bloomed. As it's already bloomed, stats won't revert on change.【(Click to select outfit change)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6641,
+      "id": "rem_34260",
+      "jp": "アナザー衣装に切り替え(シェルフィ)",
+      "en": "Switch to Another Outfit (Shelfi)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6642,
+      "id": "rem_34261",
+      "jp": "アンジュのアナザー衣装に変更する。ヤケクソのような露出度の衣装をまとい、必殺の一撃にすべてを懸ける。防御力は低くなる。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Anju's Another Outfit. She dons a desperate, revealing outfit, risking it all for a final strike. Defense drops.【(Click to select outfit)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6643,
+      "id": "rem_34262",
+      "jp": "アナザー衣装に切り替え(アンジュ)",
+      "en": "Switch to Another Outfit (Anju)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6644,
+      "id": "rem_34263",
+      "jp": "ファシィのアナザー衣装に変更する。マジカルなチカラに目覚め、スピードは誰も追いつけない(自称)。元の衣装に戻しても能力は据置き。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Facy's Another Outfit. Awakens to magical power, claiming unmatched speed (self-proclaimed). Stats stay even if you revert.【(Click to select outfit)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6645,
+      "id": "rem_34264",
+      "jp": "アナザー衣装に切り替え(ファシィ)",
+      "en": "Switch to Another Outfit (Facy)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6646,
+      "id": "rem_34265",
+      "jp": "聖属性の魔力を矢のように収束し、属性を付与した強力な一撃を与える。神官の数少ない攻撃スキル。威力は低いが、不浄な相手には致命的。",
+      "en": "Focuses holy energy into an arrow, dealing a powerful attribute-infused strike. A cleric's rare attack skill. Low power, but lethal to the impure.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6647,
+      "id": "rem_34266",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 【聖属性】 + 回避(小)",
+      "en": "AoE(Small) ATK Power[E+] + Hit[80%] + 【Holy】 + Evasion(Small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6648,
+      "id": "rem_34267",
+      "jp": "【<src>】は[セイントアロー]の魔術を放った！",
+      "en": "【<src>】cast the [Saint Arrow] spell!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6649,
+      "id": "rem_34268",
+      "jp": "ハーヴェスタのアナザー衣装に変更する。役立たずだった能力が一変し、強大な力を得た。元の姿に戻しても能力は維持される。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Harvester's Another Outfit. Transforms from useless to immensely powerful. Stats remain even if you revert.【(Click to select outfit)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6650,
+      "id": "rem_34269",
+      "jp": "アナザー衣装に切り替え(ハーヴェスタ)",
+      "en": "Switch to Another Outfit (Harvester)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

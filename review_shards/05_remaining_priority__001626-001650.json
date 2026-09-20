@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1626,
+  "range_end": 1650,
+  "pairs": [
+    {
+      "n": 1626,
+      "id": "rem_27201",
+      "jp": "『シズハ』の好感度がB以上",
+      "en": "Shizuha's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1627,
+      "id": "rem_27202",
+      "jp": "『クレハ』の好感度がB以上",
+      "en": "Kureha's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1628,
+      "id": "rem_27203",
+      "jp": "『ノースリンデ』の好感度がB以上",
+      "en": "Northlinde's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1629,
+      "id": "rem_27204",
+      "jp": "『シェルフィ』の好感度がB以上",
+      "en": "Shelfi's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1630,
+      "id": "rem_27205",
+      "jp": "『アーマニー』の好感度がB以上",
+      "en": "Armany's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1631,
+      "id": "rem_27206",
+      "jp": "『ネルディーネ』の好感度がB以上",
+      "en": "Neldine's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1632,
+      "id": "rem_27207",
+      "jp": "『オーレリア』の好感度がB以上",
+      "en": "Aurelia's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1633,
+      "id": "rem_27208",
+      "jp": "『ユーステル』の好感度がB以上",
+      "en": "Eustel's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1634,
+      "id": "rem_27209",
+      "jp": "『ヘレン』の好感度がB以上",
+      "en": "Helen's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1635,
+      "id": "rem_27210",
+      "jp": "『ミーシャ』の好感度がB以上",
+      "en": "Misha's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1636,
+      "id": "rem_27211",
+      "jp": "『リリエーヌ』の好感度がB以上",
+      "en": "Lilienne's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1637,
+      "id": "rem_27212",
+      "jp": "『イディット』の好感度がB以上",
+      "en": "Iditt's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1638,
+      "id": "rem_27213",
+      "jp": "『ソルネッタ』の好感度がB以上",
+      "en": "Solnetta's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1639,
+      "id": "rem_27214",
+      "jp": "『パテラ』の好感度がB以上",
+      "en": "Patera's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1640,
+      "id": "rem_27215",
+      "jp": "『ジャネット』の好感度がB以上",
+      "en": "Janet's favorability at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1641,
+      "id": "rem_27216",
+      "jp": "『グレーテ』の好感度がB以上",
+      "en": "Grete's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1642,
+      "id": "rem_27217",
+      "jp": "『ティオナ』の好感度がB以上",
+      "en": "Tiona's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1643,
+      "id": "rem_27218",
+      "jp": "『ハヅキ』の好感度がB以上",
+      "en": "Hazuki's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1644,
+      "id": "rem_27219",
+      "jp": "『アーマニー(女帝)』の好感度がB以上",
+      "en": "Empress Armany's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1645,
+      "id": "rem_27220",
+      "jp": "『デイジー』の好感度がB以上",
+      "en": "Daisy's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1646,
+      "id": "rem_27221",
+      "jp": "『クリスティナ』の好感度がB以上",
+      "en": "Christina's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1647,
+      "id": "rem_27222",
+      "jp": "『マルガレータ』の好感度がB以上",
+      "en": "Margareta's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1648,
+      "id": "rem_27223",
+      "jp": "『エルザ』の好感度がB以上",
+      "en": "Elsa's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1649,
+      "id": "rem_27224",
+      "jp": "『コッペリナ』の好感度がB以上",
+      "en": "Koppelina's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1650,
+      "id": "rem_27225",
+      "jp": "『シオン』の好感度がB以上",
+      "en": "Shion's Affection at B or higher",
+      "table": "db_ScenarioTrigger",
+      "category": "remaining_table"
+    }
+  ]
+}

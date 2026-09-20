@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2826,
+  "range_end": 2850,
+  "pairs": [
+    {
+      "n": 2826,
+      "id": "rem_30445",
+      "jp": "仲間呼び(他)",
+      "en": "Summon Ally (Others)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2827,
+      "id": "rem_30446",
+      "jp": "仲間呼び(自)",
+      "en": "Summon Ally (Self)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2828,
+      "id": "rem_30447",
+      "jp": "デバフ特化",
+      "en": "Debuff Specialized",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2829,
+      "id": "rem_30448",
+      "jp": "主人公以外に効果",
+      "en": "Effect on Others",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2830,
+      "id": "rem_30449",
+      "jp": "武闘家",
+      "en": "Martial Artist",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2831,
+      "id": "rem_30450",
+      "jp": "剣士",
+      "en": "Swordsman",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2832,
+      "id": "rem_30451",
+      "jp": "盗賊",
+      "en": "Thief",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2833,
+      "id": "rem_30452",
+      "jp": "スパイ",
+      "en": "Spy",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2834,
+      "id": "rem_30453",
+      "jp": "密偵",
+      "en": "Sleuth",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2835,
+      "id": "rem_30454",
+      "jp": "レンジャー",
+      "en": "Ranger",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2836,
+      "id": "rem_30455",
+      "jp": "野伏",
+      "en": "Bushwhacker",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2837,
+      "id": "rem_30456",
+      "jp": "狩人",
+      "en": "Hunter",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2838,
+      "id": "rem_30457",
+      "jp": "船乗り",
+      "en": "Sailor",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2839,
+      "id": "rem_30458",
+      "jp": "魔術師",
+      "en": "Mage",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2840,
+      "id": "rem_30459",
+      "jp": "学者",
+      "en": "Scholar",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2841,
+      "id": "rem_30460",
+      "jp": "治療師",
+      "en": "Healer",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2842,
+      "id": "rem_30461",
+      "jp": "呪術師",
+      "en": "Cursemaster",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2843,
+      "id": "rem_30462",
+      "jp": "医者",
+      "en": "Doctor",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2844,
+      "id": "rem_30463",
+      "jp": "農民",
+      "en": "Farmer",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2845,
+      "id": "rem_30464",
+      "jp": "木こり",
+      "en": "Lumberjack",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2846,
+      "id": "rem_30465",
+      "jp": "職人",
+      "en": "Artisan",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2847,
+      "id": "rem_30466",
+      "jp": "作業員",
+      "en": "Worker",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2848,
+      "id": "rem_30467",
+      "jp": "吟遊詩人",
+      "en": "Bard",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2849,
+      "id": "rem_30468",
+      "jp": "ダンサー",
+      "en": "Dancer",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2850,
+      "id": "rem_30469",
+      "jp": "踊り子",
+      "en": "Dancing Girl",
+      "table": "db_UnitCharaClubClass",
+      "category": "remaining_table"
+    }
+  ]
+}

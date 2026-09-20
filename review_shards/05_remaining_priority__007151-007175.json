@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7151,
+  "range_end": 7175,
+  "pairs": [
+    {
+      "n": 7151,
+      "id": "rem_34770",
+      "jp": "『暴食』の魔族による、魔界料理携帯調理術。どこかで隠していた食材を使い、その場でまかないを皆に配って腹を満たす。強力だが、満腹になって動けなくなるかも……。",
+      "en": "A portable Glutton demon cooking technique. Uses hidden ingredients to serve everyone, filling their bellies. Powerful, but may lead to immobility from overeating...",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7152,
+      "id": "rem_34771",
+      "jp": "全回復 + MP回復(大) + CT消費増加 + 【仲間】に【満腹】を付与 (すべての攻撃ダメージ[-30%])",
+      "en": "Full Heal + Large MP Recovery + Increased CT cost + Grants 【Allies】 【Full】 (All attack damage [-30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7153,
+      "id": "rem_34772",
+      "jp": "【<src>】は仲間にまかないを配った！",
+      "en": "【<src>】 served the meal to the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7154,
+      "id": "rem_34773",
+      "jp": "魔界の炎を召喚して、火力を高める。温度操作の属性が変動しやすくなることにより、炎氷属性の魔術が強化される。",
+      "en": "Summons demonic flames to boost firepower. Enhances fire and ice magic by making their temperature properties more volatile.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7155,
+      "id": "rem_34774",
+      "jp": "CT回復(小) + 【仲間】に【炎氷強化】を付与 (炎+氷属性ダメージ[+50%])",
+      "en": "Small CT Recovery + Grants 【Allies】 【Fire/Ice Boost】 (Fire + Ice damage [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7156,
+      "id": "rem_34775",
+      "jp": "【<src>】の[クッキングブースター]！",
+      "en": "【<src>】's [Cooking Booster]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7157,
+      "id": "rem_34776",
+      "jp": "『グラット』の『権能』により周囲を『魔界』に近い状態に変え、世界を闇で侵食する。純粋な『魔』の資質を持つ者を強化する。【(ルーラ・グラット・ウィルチのみ対象)】",
+      "en": "Uses Glutt's 'Authority' to make the area like the Demon Realm, corrupting the world with darkness. Strengthens those with pure 'demon' traits.【(Only for Rura, Glutt, Wilchi)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7158,
+      "id": "rem_34777",
+      "jp": "【フィールド】に【淫魔強化】を付与 (すべての攻撃ダメージ[+50%](一部の魔族のみ))",
+      "en": "Grants 【Field】 【Succubus Boost】 (All attack damage [+50%] (some demons only))",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7159,
+      "id": "rem_34778",
+      "jp": "【<src>】は[デモンズカーニバル]を使用！",
+      "en": "【<src>】 used [Demon's Carnival]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7160,
+      "id": "rem_34779",
+      "jp": "聖なる力と魔の力を同時に解放する。相反する力であるため、両方の属性を限界まで極めなければ扱えない、半魔ならではの奥義となる。",
+      "en": "Simultaneously unleashes holy and demonic power. A half-demon's secret art, unusable without mastering both opposing forces to their limits.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7161,
+      "id": "rem_34780",
+      "jp": "MP回復(大) + CT回復(大) + 【自分】に【聖魔轟一】を付与 (聖+闇属性ダメージ[+100%])",
+      "en": "Large MP Recovery + Large CT Recovery + Grants 【Holy-Demonic Blast I】 to 【self】 (Holy+Dark DMG [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7162,
+      "id": "rem_34781",
+      "jp": "【<src>】の[聖魔轟一]！",
+      "en": "【<src>】's 【Holy-Demonic Blast I】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7163,
+      "id": "rem_34782",
+      "jp": "メイド道を究めた者による万能チェイス。味方の【全ての属性スキル】に追撃する。威力が高いのだが、本人は使いたがらないのでCTが回復しにくい。",
+      "en": "A universal follow-up from a maid arts master. Pursues all allies' 【elemental skills】. Powerful, but she avoids using it, so CT recovers slowly.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7164,
+      "id": "rem_34783",
+      "jp": "単体攻撃 威力[S] +  命中[80%] + 必殺率[+10%]",
+      "en": "Single Target / Power [S] + Hit [80%] + Crit Rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7165,
+      "id": "rem_34784",
+      "jp": "【<src>】のメイド追撃！",
+      "en": "【<src>】's Maid Pursuit!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7166,
+      "id": "rem_34785",
+      "jp": "魔力の大槍を作りだし、投げつける。物理攻撃にしか見えないが、魔術攻撃扱い。物理的な力で抵抗することは難しい、魔族の得意スキル。",
+      "en": "Creates and hurls a great magic spear. It looks like a physical attack, but counts as magical. A demon specialty, hard to resist with physical force.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7167,
+      "id": "rem_34786",
+      "jp": "範囲(小)攻撃 威力[C] +  命中[60%] + 【闇属性】 + 防御貫通(小) + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Small AoE / Power [C] + Hit [60%] + 【Dark】 + Small DEF Penetration + Inflicts 【Charm】 (All Attack DMG -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7168,
+      "id": "rem_34787",
+      "jp": "【<src>】の[デモンズフォーク]！",
+      "en": "【<src>】's 【Demon's Fork】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7169,
+      "id": "rem_34788",
+      "jp": "魔界料理人愛用の大包丁。魔界の食材は基本的に狂暴な魔獣であり、調理は食材の調達も含まれている。仕留められた食材を捌くだけでは料理人を名乗れないのである。",
+      "en": "A great cleaver favored by underworld chefs. Ingredients there are wild beasts; cooking includes procurement. A chef must do more than just cut downed prey.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7170,
+      "id": "rem_34789",
+      "jp": "単体攻撃 威力[D+] +  命中[70%] + 必殺率[+5%] + 【闇属性】 + 防御貫通(小)",
+      "en": "Single Target / Power [D+] + Hit [70%] + Crit Rate [+5%] + 【Dark】 + Small DEF Penetration",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7171,
+      "id": "rem_34790",
+      "jp": "【<src>】の[食材解体の大包丁]！",
+      "en": "【<src>】's 【Great Cleaver of Ingredient Dismantling】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7172,
+      "id": "rem_34791",
+      "jp": "魔界包丁を使った、防御崩しの調理技。硬い鱗も破壊してしまうデバフ技。べつにウロコ持ちの敵じゃなくても通じる。",
+      "en": "A defensive-breaking cooking technique with an underworld cleaver. A debuff skill that destroys even hard scales. Works on non-scaled foes, too.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7173,
+      "id": "rem_34792",
+      "jp": "範囲(小)攻撃 威力[B+] +  命中[60%] + 必殺率[+10%] + 【闇属性】 + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Small AoE / Power [B+] + Hit [60%] + Crit Rate [+10%] + 【Dark】 + Small DEF Penetration + Inflicts 【Brittle】 (Physical DMG Reduction -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7174,
+      "id": "rem_34793",
+      "jp": "【<src>】の[魔界流ウロコ剥がし]！",
+      "en": "【<src>】's 【Underworld-Style Scale Scraping】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7175,
+      "id": "rem_34794",
+      "jp": "魔界包丁を使った、高威力の連続斬撃。大魔族グラット家の強大な魔力を伴って放つことを前提にしており、相手の防御の弱い部分を狙う。",
+      "en": "High-power consecutive slashes with an underworld cleaver. Assumes use with the mighty magic of the great demon Gratt clan, targeting weak points in the foe's defense.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101101,
+  "range_end": 101125,
+  "pairs": [
+    {
+      "n": 101101,
+      "id": "db_EventInfo:119395:0",
+      "jp": "オーレリアは置いておいて、生活を支援した薬師に感謝され、【『錬金』】に協力して貰えるようになった。",
+      "en": "Leaving Aurelia aside, I was thanked by the healer I supported, and now they will help with my [Alchemy].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101102,
+      "id": "db_EventInfo:119396:0",
+      "jp": "今後は【『錬金』】メニューの質も高まるだろう。",
+      "en": "The quality of the [Alchemy] menu should improve from now on.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101103,
+      "id": "db_EventInfo:119398:9",
+      "jp": "【<pl>】殿、高性能ポーションの生成工房を建築せぬか？",
+      "en": "【<pl>】殿, want to build a workshop for making high-performance potions?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 101104,
+      "id": "db_EventInfo:119399:1",
+      "jp": "工房？",
+      "en": "A workshop?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101105,
+      "id": "db_EventInfo:119400:9",
+      "jp": "うむ",
+      "en": "Yeah.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101106,
+      "id": "db_EventInfo:119401:9",
+      "jp": "今一般に流通しているポーションであるが、性能が頼りない",
+      "en": "The potions sold now aren't very good.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101107,
+      "id": "db_EventInfo:119402:9",
+      "jp": "【『お茶会』】によって研究した、高性能なポーションを大量に生成して、ポーション市場を牛耳るである",
+      "en": "We'll mass-produce high-performance potions researched by [Tea Party], and take over the market.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101108,
+      "id": "db_EventInfo:119403:9",
+      "jp": "それなりに値が張る素材を使っているが、大量に生成すれば安価に抑えられるであろう",
+      "en": "The materials are pricey, but we can make them cheap if we make a lot.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101109,
+      "id": "db_EventInfo:119404:1",
+      "jp": "【『お茶会』】が研究した……か",
+      "en": "Researched by [Tea Party], huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101110,
+      "id": "db_EventInfo:119405:1",
+      "jp": "副作用とかは大丈夫なのか？",
+      "en": "Are there any side effects?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101111,
+      "id": "db_EventInfo:119406:9",
+      "jp": "戦闘に支障が無い程度である",
+      "en": "Nothing that will affect your combat.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101112,
+      "id": "db_EventInfo:119407:1",
+      "jp": "……あるのか",
+      "en": "...So there are.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101113,
+      "id": "db_EventInfo:119408:9",
+      "jp": "それを補って余るほどの効果である。ケガの治療だけでなく、能力の向上効果もあるぞ",
+      "en": "The benefits are way bigger than that. They don't just heal wounds, they boost your abilities too.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101114,
+      "id": "db_EventInfo:119409:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101115,
+      "id": "db_EventInfo:119410:1",
+      "jp": "そういうもの、売っても良い物かなぁ",
+      "en": "Is that really something we should be selling?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101116,
+      "id": "db_EventInfo:119411:9",
+      "jp": "なぁに、今の【<pl>】殿はゼカリウスの新領主、領主の認可があれば問題ないである",
+      "en": "What is it? You are the new lord of Zecarius now, 【<pl>】. As long as you, the lord, approve it, there's no problem.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101117,
+      "id": "db_EventInfo:119412:1",
+      "jp": "わかった",
+      "en": "Okay, got it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101118,
+      "id": "db_EventInfo:119415:0",
+      "jp": "資金の余裕を見て、工房を建築してみよう。",
+      "en": "When we have the extra funds, let's try building a workshop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101119,
+      "id": "db_EventInfo:119417:9",
+      "jp": "【<pl>】殿、高性能ポーションの生成工房を建築したぞ",
+      "en": "Lord 【<pl>】, we have built a workshop for producing high-performance potions!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101120,
+      "id": "db_EventInfo:119418:3",
+      "jp": "妾がプロデュースした、完璧な工房じゃ。なかなか良い作品になったぞ！",
+      "en": "It's a perfect workshop I produced. It turned out to be quite a good piece of work!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101121,
+      "id": "db_EventInfo:119419:1",
+      "jp": "いつのまに",
+      "en": "When did this happen?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101122,
+      "id": "db_EventInfo:119420:9",
+      "jp": "うむ、さすがはアンジュ殿の建築、素晴らしい工房である",
+      "en": "Indeed, as expected of Lady Anju's construction, it's a wonderful workshop.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101123,
+      "id": "db_EventInfo:119421:9",
+      "jp": "【『お茶会』】の者たちも総出で、高性能ポーションの生成に邁進している",
+      "en": "The members of 【『The Tea Party』】 are all working hard, fully dedicated to producing high-performance potions.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101124,
+      "id": "db_EventInfo:119422:9",
+      "jp": "やがて、市場は高性能ポーションで塗り替えるであろう",
+      "en": "Eventually, the market will be transformed with high-performance potions.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101125,
+      "id": "db_EventInfo:119423:9",
+      "jp": "我らが店の【『錬金』】部門の製品も、一部を外注している。これから質も高まるであろうな",
+      "en": "We are also outsourcing some products for our shop's 【『Alchemy』】 department. The quality should improve from now on.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

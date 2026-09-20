@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4026,
+  "range_end": 4050,
+  "pairs": [
+    {
+      "n": 4026,
+      "id": "rem_31645",
+      "jp": "【<dst>】の結界が消失した……",
+      "en": "【<dst>】's barrier faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4027,
+      "id": "rem_31646",
+      "jp": "退魔結界",
+      "en": "Demon Ward",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4028,
+      "id": "rem_31647",
+      "jp": "魔術ダメージ+25%",
+      "en": "Magic damage +25%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4029,
+      "id": "rem_31648",
+      "jp": "魔術力アップ",
+      "en": "Magic Power Up",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4030,
+      "id": "rem_31649",
+      "jp": "【<dst>】の魔術攻撃力が上がった！",
+      "en": "【<dst>】's magic attack power increased!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4031,
+      "id": "rem_31650",
+      "jp": "【<dst>】の魔術攻撃力が元に戻った……",
+      "en": "【<dst>】's magic attack power returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4032,
+      "id": "rem_31651",
+      "jp": "魔術ダメージ+100%",
+      "en": "Magic damage +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4033,
+      "id": "rem_31652",
+      "jp": "魔術++",
+      "en": "Magic++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4034,
+      "id": "rem_31653",
+      "jp": "魔術ダメージ+50% + スキル使用による速度低下軽減-80%",
+      "en": "Magic damage +50% + Skill cast speed penalty -80%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4035,
+      "id": "rem_31654",
+      "jp": "【<dst>】のスキルキャスト速度が上がった！",
+      "en": "【<dst>】's skill cast speed increased!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4036,
+      "id": "rem_31655",
+      "jp": "【<dst>】の詠唱速度が元に戻った……",
+      "en": "【<dst>】's cast speed returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4037,
+      "id": "rem_31656",
+      "jp": "詠唱",
+      "en": "Chant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4038,
+      "id": "rem_31657",
+      "jp": "夢と一つに",
+      "en": "One with the Dream",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4039,
+      "id": "rem_31658",
+      "jp": "魔術ダメージ+200% + 魔術暴走率+50%",
+      "en": "Magic damage +200% + Magic backlash rate +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4040,
+      "id": "rem_31659",
+      "jp": "全力全開",
+      "en": "Full Power",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4041,
+      "id": "rem_31660",
+      "jp": "魔術ダメージ+100% + デスクリティカル率+30%",
+      "en": "Magic DMG +100% + Critical Rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4042,
+      "id": "rem_31661",
+      "jp": "奈落の力",
+      "en": "Abyssal Power",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4043,
+      "id": "rem_31662",
+      "jp": "すべての攻撃ダメージ+30% + ターンごとにMP回復+5%",
+      "en": "All Attack DMG +30% + MP Regen/Turn +5%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4044,
+      "id": "rem_31663",
+      "jp": "全攻撃アップ",
+      "en": "All Attack Up",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4045,
+      "id": "rem_31664",
+      "jp": "【<dst>】の内なる力が呼び起された！",
+      "en": "【<dst>】's inner power has been awakened!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4046,
+      "id": "rem_31665",
+      "jp": "【<dst>】の力が元に戻った……",
+      "en": "【<dst>】's power has returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4047,
+      "id": "rem_31666",
+      "jp": "淫魔化",
+      "en": "Succubus Form",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4048,
+      "id": "rem_31667",
+      "jp": "すべての攻撃ダメージ+500%",
+      "en": "All Attack DMG +500%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4049,
+      "id": "rem_31668",
+      "jp": "夢で一つに",
+      "en": "As One in Dream",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4050,
+      "id": "rem_31669",
+      "jp": "すべての攻撃ダメージ+50% + ダブルアタック率+30%",
+      "en": "All Attack DMG +50% + Double Attack Rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

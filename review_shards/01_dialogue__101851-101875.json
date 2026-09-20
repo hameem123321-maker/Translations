@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101851,
+  "range_end": 101875,
+  "pairs": [
+    {
+      "n": 101851,
+      "id": "db_EventInfo:120314:3",
+      "jp": "店長……ここのところ無理な武具制作の依頼が多くて困っておるんじゃが……",
+      "en": "Shopkeeper... I'm having trouble because lately there are too many impossible requests for crafting weapons...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101852,
+      "id": "db_EventInfo:120315:1",
+      "jp": "無理な依頼？",
+      "en": "Impossible requests?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101853,
+      "id": "db_EventInfo:120316:2",
+      "jp": "作ってやればいいじゃないデスか。カネを搾り取るチャンスがやって来たデスよ？",
+      "en": "Just make them. It's a chance to squeeze money out of them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101854,
+      "id": "db_EventInfo:120317:3",
+      "jp": "妾が一介の冒険者の依頼など受けるわけがなかろう！",
+      "en": "As if I would take orders from some mere adventurer!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101855,
+      "id": "db_EventInfo:120318:3",
+      "jp": "しかも【『魔剣』】を作って欲しいとかぬかしおる。そんなバカな仕事受けてられんのじゃ！",
+      "en": "And they're saying they want a 'Demon Sword' made! I can't accept such a stupid job!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101856,
+      "id": "db_EventInfo:120319:1",
+      "jp": "【『魔剣』】……",
+      "en": "A 'Demon Sword'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101857,
+      "id": "db_EventInfo:120320:2",
+      "jp": "物語の主人公の装備品デスかね。冒険者というのは、どいつも自分が【『勇者』】になる器だと信じてるデス",
+      "en": "The gear of a story's main character, right? Every adventurer believes they are the one destined to be the 'Hero'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101858,
+      "id": "db_EventInfo:120321:3",
+      "jp": "そんなもんを作る素材を並の冒険者に集められるわけないし、使いこなせる技量も無いぞ！",
+      "en": "An average adventurer can't gather the materials for something like that, and they don't have the skill to use it either!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101859,
+      "id": "db_EventInfo:120322:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101860,
+      "id": "db_EventInfo:120323:2",
+      "jp": "そんなこと言って、作れない理由を付けてるだけじゃないデス？",
+      "en": "Aren't you just making up excuses for why you can't make it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101861,
+      "id": "db_EventInfo:120324:3",
+      "jp": "なんじゃと、<ruby=わらわ>妾</ruby>に作れない武器があるとおもっておるのか！",
+      "en": "What?! You think there's a weapon *I* can't make?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101862,
+      "id": "db_EventInfo:120325:3",
+      "jp": "いいじゃろう、【『魔剣』】など<ruby=わらわ>妾</ruby>が……",
+      "en": "Fine! A 'Demon Sword' or whatever, I'll...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101863,
+      "id": "db_EventInfo:120326:1",
+      "jp": "こらこらアンジュを挑発するな",
+      "en": "Hey, hey, don't provoke Anju.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101864,
+      "id": "db_EventInfo:120327:1",
+      "jp": "それにしても困ったな。【『鍛冶姫』】がここにいるのは有名だし、うーむ",
+      "en": "But still, this is a problem. The Forging Princess being here is famous... Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101865,
+      "id": "db_EventInfo:120328:2",
+      "jp": "上手くお引き取り願う案を出すデス",
+      "en": "I'll propose a plan to get them to leave nicely.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101866,
+      "id": "db_EventInfo:120329:2",
+      "jp": "なるほど、言葉の武器で相手の心を叩き折ってやるのデスね",
+      "en": "I see, using words as a weapon to break the opponent's spirit.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101867,
+      "id": "db_EventInfo:120330:1",
+      "jp": "折らなくて良いから！",
+      "en": "You don't need to break it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101868,
+      "id": "db_EventInfo:120333:0",
+      "jp": "冒険者達に丁寧に説明をしたのだが、中々納得させることができなかった……",
+      "en": "I explained things carefully to the adventurers, but I couldn't quite make them understand...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101869,
+      "id": "db_EventInfo:120334:1",
+      "jp": "全然依頼が減らないな……",
+      "en": "The requests aren't decreasing at all...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101870,
+      "id": "db_EventInfo:120335:2",
+      "jp": "まあ、後先を考えないのが冒険者という人種デスからね……",
+      "en": "Well, not thinking about the consequences is just what adventurers are like...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101871,
+      "id": "db_EventInfo:120336:2",
+      "jp": "欲しいと思ったらとりあえず依頼する、というのがあいつらデスから",
+      "en": "Those 'Deaths' just order anything they want.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101872,
+      "id": "db_EventInfo:120337:3",
+      "jp": "しばらくは説得に難儀しそうなのじゃ……",
+      "en": "It seems persuading them will be difficult for a while...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101873,
+      "id": "db_EventInfo:120338:2",
+      "jp": "しかも一部の冒険者ども、鍛冶姫アンジュは【『魔剣』】を作れるほどの腕はないと言いふらして回ってるようデス",
+      "en": "Also, some adventurers are going around saying you, Forging Princess Anju, aren't skilled enough to make 【'Demon Swords'】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101874,
+      "id": "db_EventInfo:120339:3",
+      "jp": "なんじゃと！？",
+      "en": "WHAT?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101875,
+      "id": "db_EventInfo:120340:3",
+      "jp": "ぐううう、おのれ！　妾が大人しくしているからと調子に乗りおって……！",
+      "en": "Grrrrr, how dare they! Taking my quietness for granted...!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

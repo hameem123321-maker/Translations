@@ -1,0 +1,189 @@
+{
+  "source_file": "03_ui_onscreen.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 26,
+  "range_end": 50,
+  "pairs": [
+    {
+      "n": 26,
+      "id": "ui_mb_00072",
+      "jp": "<color=#00FFFF>ヴェネ</color>ディアのターン",
+      "en": "<color=#00FFFF>Ven</color>edia's Turn",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 27,
+      "id": "ui_mb_00073",
+      "jp": "コメント",
+      "en": "Comment",
+      "category": "ui"
+    },
+    {
+      "n": 28,
+      "id": "ui_mb_00074",
+      "jp": "ミュート状態です(F6で解除することができます)",
+      "en": "Muted (Press F6 to unmute)",
+      "category": "ui"
+    },
+    {
+      "n": 29,
+      "id": "ui_mb_00075",
+      "jp": "カストロイア百穴古墳",
+      "en": "Castroia Hundred-Hole Tomb",
+      "category": "ui"
+    },
+    {
+      "n": 30,
+      "id": "ui_mb_00078",
+      "jp": "戦功点",
+      "en": "Battle Merit",
+      "category": "ui"
+    },
+    {
+      "n": 31,
+      "id": "ui_mb_00080",
+      "jp": "呼ばれ方",
+      "en": "How to Address",
+      "category": "ui"
+    },
+    {
+      "n": 32,
+      "id": "ui_mb_00082",
+      "jp": "ボイス音量",
+      "en": "Voice Volume",
+      "category": "ui"
+    },
+    {
+      "n": 33,
+      "id": "ui_mb_00084",
+      "jp": "のルビのヘルプテキストです。このコントロロロロロ",
+      "en": "This is the help text for the reading guide. This control-rolololo...",
+      "category": "ui"
+    },
+    {
+      "n": 34,
+      "id": "ui_mb_00085",
+      "jp": "ボイス再生中BGMを小さく",
+      "en": "Lower BGM during Voice Playback",
+      "category": "ui"
+    },
+    {
+      "n": 35,
+      "id": "ui_mb_00086",
+      "jp": "ＮＴＲシーンスキップ",
+      "en": "NTR Scene Skip",
+      "category": "ui"
+    },
+    {
+      "n": 36,
+      "id": "ui_mb_00087",
+      "jp": "case01 資金がなくなっちゃった",
+      "en": "Case01: Out of Funds",
+      "category": "ui"
+    },
+    {
+      "n": 37,
+      "id": "ui_mb_00090",
+      "jp": "射精カウント表示",
+      "en": "Show Ejaculation Count",
+      "category": "ui",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 38,
+      "id": "ui_mb_00091",
+      "jp": "右クリックで戻ります",
+      "en": "Right-click to go back.",
+      "category": "ui"
+    },
+    {
+      "n": 39,
+      "id": "ui_mb_00092",
+      "jp": "<color=#44FF44>銀の死神メダル</color>を<color=#FFDD88>30枚</color>使ってランクアップするデううううううううううううううううううううううううううううううううううううう(現在<color=#FFDD88>100枚</color>所持しています)うううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう",
+      "en": "Rank up using <color=#44FF44>Silver Shinigami Medals</color> x<color=#FFDD88>30</color> (Currently have <color=#FFDD88>100</color>)",
+      "category": "ui"
+    },
+    {
+      "n": 40,
+      "id": "ui_mb_00095",
+      "jp": "デバッグ用テキスト",
+      "en": "Debug Text",
+      "category": "ui"
+    },
+    {
+      "n": 41,
+      "id": "ui_mb_00104",
+      "jp": "あああああああああああああああああああああああ",
+      "en": "Aaaaaaaaaaaaaaaaaaaaaa",
+      "category": "ui"
+    },
+    {
+      "n": 42,
+      "id": "ui_mb_00107",
+      "jp": "死神シイネ",
+      "en": "Shinigami Shiine",
+      "category": "ui"
+    },
+    {
+      "n": 43,
+      "id": "ui_mb_00108",
+      "jp": "総プレイ時間　000:00:00",
+      "en": "Total Playtime 000:00:00",
+      "category": "ui"
+    },
+    {
+      "n": 44,
+      "id": "ui_mb_00110",
+      "jp": "<size=30>9</size>週目 <size=30>999</size>日",
+      "en": "Loop <size=30>9</size> Day <size=30>999</size>",
+      "category": "ui"
+    },
+    {
+      "n": 45,
+      "id": "ui_mb_00129",
+      "jp": "メモを入力してください",
+      "en": "Enter a memo",
+      "category": "ui"
+    },
+    {
+      "n": 46,
+      "id": "ui_mb_00130",
+      "jp": "男のエロドットを半透明に",
+      "en": "Make male erodot semi-transparent",
+      "category": "ui"
+    },
+    {
+      "n": 47,
+      "id": "ui_mb_00131",
+      "jp": "長押し決定ボタンをオフにする",
+      "en": "Disable hold-to-confirm",
+      "category": "ui"
+    },
+    {
+      "n": 48,
+      "id": "ui_mb_00134",
+      "jp": "未読イベントスキップ",
+      "en": "Skip unread events",
+      "category": "ui"
+    },
+    {
+      "n": 49,
+      "id": "ui_mb_00137",
+      "jp": "シイネシイネシイネシイネシイネ\n",
+      "en": "ShiineShiineShiineShiineShiine\n",
+      "category": "ui"
+    },
+    {
+      "n": 50,
+      "id": "ui_mb_00138",
+      "jp": "企画",
+      "en": "Planning",
+      "category": "ui"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11351,
+  "range_end": 11375,
+  "pairs": [
+    {
+      "n": 11351,
+      "id": "rem_39112",
+      "jp": "海辺の怪鳥が産み付ける、青い模様の付いたたまご。近海で漁をする漁師にとっては恐怖と怨恨の対象だが、陸のハンターには宝物。",
+      "en": "An egg laid by a seaside monster bird, with blue patterns. Feared and hated by fishermen, but treasured by land hunters.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11352,
+      "id": "rem_39113",
+      "jp": "マリンブルーエッグ",
+      "en": "Marine Blue Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11353,
+      "id": "rem_39114",
+      "jp": "凄まじい生命力を秘めた怪鳥のたまご。虹色に輝くこのたまごは、一切腐敗せず、その場に在り続けるという。",
+      "en": "An egg from a monstrous bird, holding immense vitality. This rainbow-colored egg never rots and remains where it is.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11354,
+      "id": "rem_39115",
+      "jp": "輪廻のレインボーエッグ",
+      "en": "Samsara's Rainbow Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11355,
+      "id": "rem_39116",
+      "jp": "家畜として飼いならされた牛から搾り取ったミルク。分泌量は牛の体調に左右される。",
+      "en": "Milk from domesticated cattle. Yield depends on the cow's health.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11356,
+      "id": "rem_39117",
+      "jp": "搾りたてミルク",
+      "en": "Fresh Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11357,
+      "id": "rem_39118",
+      "jp": "丈夫な紙のパックに殺菌したミルクを詰めた物。都市部への長距離出荷する際にも耐えられるよう、衝撃を吸収しやすい作りになっている。",
+      "en": "Sterilized milk in a sturdy paper carton. Shock-absorbent design for long-distance shipping to cities.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11358,
+      "id": "rem_39119",
+      "jp": "パック詰めミルク",
+      "en": "Carton Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11359,
+      "id": "rem_39120",
+      "jp": "野生の猛獣から得られた野趣溢れるミルク。非常に優れた味わいを持つが、殺菌・精製を経ずに摂取するのは危険。",
+      "en": "Rustic milk from a wild beast. Excellent flavor, but dangerous if consumed without sterilization or refinement.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11360,
+      "id": "rem_39121",
+      "jp": "ワイルドミルク",
+      "en": "Wild Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11361,
+      "id": "rem_39122",
+      "jp": "ミルクの成分を調整して作ったクリーム。ただのミルクよりもコク深く、特に菓子作りに重宝される。",
+      "en": "A cream made from specially adjusted milk. Richer than regular milk, it's especially prized for baking.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11362,
+      "id": "rem_39123",
+      "jp": "調整ミルククリーム",
+      "en": "Adjusted Milk Cream",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11363,
+      "id": "rem_39124",
+      "jp": "異国から伝来した、植物から搾り取ったミルク。動物のミルクよりスッキリした味わいが楽しめる為、通常のミルクとは異なった用途に使われる。",
+      "en": "A milk pressed from plants, introduced from a foreign land. Its cleaner taste makes it suitable for different uses than regular animal milk.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11364,
+      "id": "rem_39125",
+      "jp": "異邦のプラントミルク",
+      "en": "Foreign Plant Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11365,
+      "id": "rem_39126",
+      "jp": "魔獣から搾り取られた濃厚なミルク。家畜からとる物よりも、クリーミーでコクがあるが、魔獣相手の採取には特殊な才能が要求される。",
+      "en": "A rich milk drawn from magical beasts. Creamier and more robust than livestock milk, its harvest requires a special talent.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11366,
+      "id": "rem_39127",
+      "jp": "魔獣のミルク",
+      "en": "Magic Beast Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11367,
+      "id": "rem_39128",
+      "jp": "ミルクを調整して作ったまろやかな味わいのミルククリーム。一口で心が躍り出す、究極のミルク。",
+      "en": "A mellow milk cream made from adjusted milk. The ultimate milk, a single sip makes the heart dance.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11368,
+      "id": "rem_39129",
+      "jp": "最高級クリームミルク",
+      "en": "Finest Cream Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11369,
+      "id": "rem_39130",
+      "jp": "アルダルク農業組合が特別に育てた家畜の中でも、数年に一度しか採取できない、貴重なミルク。あまりに厳しい規格から、幻の乳とされた。",
+      "en": "Incredibly rare milk, harvested only once every few years from specially raised Aldark Agricultural Union livestock. Its strict standards make it legendary.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11370,
+      "id": "rem_39131",
+      "jp": "幻の濃厚ミルク",
+      "en": "Legendary Rich Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11371,
+      "id": "rem_39132",
+      "jp": "絶大な魔力を蓄えるという、一角獣から採取したと吹聴されている、神秘的なミルク。存在自体が幻とされる獣のミルクをどうやって採取したのかは不明。",
+      "en": "A mysterious milk, rumored to be harvested from a unicorn, said to hold immense magical power. How it's obtained from such a mythical beast is unknown.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11372,
+      "id": "rem_39133",
+      "jp": "一角獣のミルク",
+      "en": "Unicorn Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11373,
+      "id": "rem_39134",
+      "jp": "天使が与えたとされる、神聖な力を持つミルク。飲むと神聖な力が漲る他、精神が安定し、信心深くなるようだ。",
+      "en": "A sacred milk said to be granted by an angel, imbued with holy power. Drinking it fills one with divine energy, stabilizes the spirit, and deepens faith.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11374,
+      "id": "rem_39135",
+      "jp": "エンジェルミルク",
+      "en": "Angel Milk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11375,
+      "id": "rem_39136",
+      "jp": "水分を圧搾して取り出したチーズ。濃厚な味わいを持ち、熱を加えればトロリと溶ける。",
+      "en": "Cheese made by pressing out water content. It has a rich flavor and melts gooey when heated.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

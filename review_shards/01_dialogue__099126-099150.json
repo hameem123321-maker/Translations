@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99126,
+  "range_end": 99150,
+  "pairs": [
+    {
+      "n": 99126,
+      "id": "db_EventInfo:116999:0",
+      "jp": "★クリア",
+      "en": "★Cleared",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99127,
+      "id": "db_EventInfo:117000:0",
+      "jp": "俺達は積み荷が揺れる度に、狭い箱の中でもみくちゃにされるのだった。",
+      "en": "Every time the cargo shifted, we got tossed around inside the cramped crate.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99128,
+      "id": "db_EventInfo:117004:0",
+      "jp": "それから船の一室に運び込まれた俺達は、人気が無くなるのを見計らい、積み荷から這い出た。",
+      "en": "After they brought us to a ship's cabin, we waited for a lull in activity and crawled out of the cargo.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99129,
+      "id": "db_EventInfo:117005:1",
+      "jp": "大丈夫そうだな……",
+      "en": "Looks safe...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99130,
+      "id": "db_EventInfo:117006:2",
+      "jp": "うむデス",
+      "en": "Indeed it is",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99131,
+      "id": "db_EventInfo:117007:1",
+      "jp": "よし、じゃあ早速探索をするぞ",
+      "en": "Good, let's start searching right away",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99132,
+      "id": "db_EventInfo:117008:2",
+      "jp": "わかったデス",
+      "en": "Understood",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99133,
+      "id": "db_EventInfo:117009:2",
+      "jp": "その前に、見つかって戦闘にでもなったら、苦戦は必至デス。さっさと味方を呼ぶデス",
+      "en": "But before that, if we're spotted and a fight breaks out, we'll definitely struggle. I'm calling for backup right away",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99134,
+      "id": "db_EventInfo:117012:0",
+      "jp": "仲間が召喚された！",
+      "en": "An ally has been summoned!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99135,
+      "id": "db_EventInfo:117013:2",
+      "jp": "とにかく【『ソルシア魔導船団』】に侵入成功デスね",
+      "en": "Anyway, we made it onto the 'Sorsia Magic Ship Fleet'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99136,
+      "id": "db_EventInfo:117014:2",
+      "jp": "この船は魔術師たちと、その研究所をまるごと収めた船団とのことデスね",
+      "en": "This ship fleet holds the mages and their whole research lab.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99137,
+      "id": "db_EventInfo:117015:2",
+      "jp": "好き勝手に研究しすぎて構造が半ば【『魔界』】化してる上に、実験用の生物が放し飼い状態デス",
+      "en": "They researched too freely, so the structure is half like the 'Demon World'. Test creatures are just running loose.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99138,
+      "id": "db_EventInfo:117016:1",
+      "jp": "実験か……。そのためにミルテ達を？",
+      "en": "Experiments... For that, they took Myrte and the others?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99139,
+      "id": "db_EventInfo:117017:2",
+      "jp": "そうデスね",
+      "en": "That's right.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99140,
+      "id": "db_EventInfo:117018:1",
+      "jp": "……こんな場所で、研究できているのだろうか",
+      "en": "...How can they research in a place like this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99141,
+      "id": "db_EventInfo:117019:2",
+      "jp": "魔術師どもの感性としては快適なのかもデス。カリストなんか、ゴチャゴチャした部屋が大好きデスし",
+      "en": "For a mage's sense, it might be comfy. Callisto loves messy rooms, for example.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99142,
+      "id": "db_EventInfo:117020:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99143,
+      "id": "db_EventInfo:117021:1",
+      "jp": "魔術師の姿が多いな……もうちょっと盛大に襲ってくると思っていたが",
+      "en": "There are a lot of mages... I thought they'd attack us more fiercely.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99144,
+      "id": "db_EventInfo:117022:2",
+      "jp": "殺気立っている連中もいるデスが、ただ研究をしているのもいるデスね",
+      "en": "Some are really hostile. But others are just doing their research.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99145,
+      "id": "db_EventInfo:117023:2",
+      "jp": "襲ってくる連中は、どうも正気じゃないデスね。何か洗脳めいたことをされたようデス",
+      "en": "The ones who attack us don't seem sane. Looks like they were brainwashed or something.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99146,
+      "id": "db_EventInfo:117024:1",
+      "jp": "ゼルカのしわざか",
+      "en": "Zelka's doing?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99147,
+      "id": "db_EventInfo:117025:1",
+      "jp": "ミルテにオーレリア……無事だといいが……",
+      "en": "Myrte, Aurelia... I hope you're okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99148,
+      "id": "db_EventInfo:117026:0",
+      "jp": "とある一室に入ると、そこには【『ゴブリン』】がひしめき合っていた。",
+      "en": "I enter a room. It's packed with Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99149,
+      "id": "db_EventInfo:117027:1",
+      "jp": "うお！？　【『ゴブリン』】が……！",
+      "en": "Whoa!? Goblins...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99150,
+      "id": "db_EventInfo:117028:2",
+      "jp": "いや、待つデス、オマエ、よく見るデス",
+      "en": "No, wait. Look closer.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

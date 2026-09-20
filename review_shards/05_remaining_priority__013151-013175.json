@@ -1,0 +1,220 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13151,
+  "range_end": 13175,
+  "pairs": [
+    {
+      "n": 13151,
+      "id": "rem_45537",
+      "jp": "御主人様は、私に劣らず人材育成がお好きの様子。スタッフを育成してお店を盛り上げて、がっぽりと儲けていきましょう",
+      "en": "Master seems to enjoy training personnel as much as I do. Let's train the staff, liven up the shop, and make a hefty profit.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13152,
+      "id": "rem_45538",
+      "jp": "御主人様、娯楽施設を建築して客を堕落させ、がっぽがっぽとカネを稼ぎましょう",
+      "en": "Master, let's build entertainment facilities to corrupt the customers and make a ton of money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13153,
+      "id": "rem_45539",
+      "jp": "御主人様、料理で豪華なフルコースを作り、がっぽがっぽとカネを稼ぎましょう",
+      "en": "Master, let's create lavish full-course meals with cooking and make a ton of money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13154,
+      "id": "rem_45540",
+      "jp": "御主人様、鍛冶で役に立たない装飾だらけの装備品を作り、がっぽがっぽとカネを稼ぎましょう",
+      "en": "Master, let's forge equipment covered in useless decorations and make a ton of money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13155,
+      "id": "rem_45541",
+      "jp": "御主人様、錬金でポーションを作り、がっぽがっぽとカネを稼ぎましょう",
+      "en": "Master, let's brew potions with alchemy and make a ton of money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13156,
+      "id": "rem_45542",
+      "jp": "アナタ、領主のくせに【『淫魔』】をたくさん抱えて大丈夫なの？　せっかくだし、【『淫魔』】対策の修行を手伝ってやっても良いわよ？",
+      "en": "You, for a lord, are you sure it's okay to have so many 【'Succubi'】? I might as well help you train to counter 【'Succubi'】.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13157,
+      "id": "rem_45543",
+      "jp": "師匠がダンジョンで稀少なものを拾ってこいって言ってきてるんだけど、目利きとかニガテなのよね。手伝ってくれない？",
+      "en": "My master told me to go find rare items in the dungeon, but I'm not good at appraising stuff. Can you help me?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13158,
+      "id": "rem_45544",
+      "jp": "師匠からダンジョンで調査してこいって言ってきたの。でも調査とか地味なのはニガテなのよね、手伝ってよ",
+      "en": "My master told me to go investigate in the dungeon. But I'm not good at boring stuff like investigations, so help me out.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13159,
+      "id": "rem_45545",
+      "jp": "師匠から素材を集めてこいって言われてね。戦うのは良いけど探索は得意じゃなくてさ。誰か、得意な奴に手伝って貰えない？",
+      "en": "My master told me to go gather materials. Fighting's fine, but exploring isn't my strong suit. Can someone who's good at it help me?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13160,
+      "id": "rem_45546",
+      "jp": "せっかく未来の師匠の修行から逃げ出せたってのに、今度はこっちの師匠の修行がうるさいのよ。ストレス発散に魔獣狩りに付き合いなさい",
+      "en": "Just when I finally escaped my future master's training, now this master's training is a pain. Come hunt monsters with me to blow off some steam.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13161,
+      "id": "rem_45547",
+      "jp": "こっちの師匠が、魔獣を狩ってこいって言ってくるの。一人でやったら張り合いが無いし、一緒に競争しましょ？",
+      "en": "My master wants me to go hunt monsters. Doing it alone is boring, so let's compete!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13162,
+      "id": "rem_45548",
+      "jp": "アンタに手を出されてから身体が疼いて仕方がねえんだ、もっと相手してくれよД",
+      "en": "My body aches ever since you laid hands on me. Don't leave me hangingД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13163,
+      "id": "rem_45549",
+      "jp": "カネをかせごーぜっ！　も、もちろんまっとうな手段でさ！",
+      "en": "Let's make some gold! B-by legitimate means, of course!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13164,
+      "id": "rem_45550",
+      "jp": "こんなに店員がいるのに、まだ増やせるのか？　どれだけ店員を鍛えられるか、見ていてやるぜーっ！",
+      "en": "You already have so many staff. Can you really get more? I'll watch you train them up!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13165,
+      "id": "rem_45551",
+      "jp": "商品は増やせるだけ増やした方が良いよな、増やせるならもっと増やそうぜーっ！",
+      "en": "More products is always better. If we can add more, let's do it!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13166,
+      "id": "rem_45552",
+      "jp": "この店は娯楽はあるよな！？　もっと楽しいモノを増やそうぜー！　それでついでに、アタシも遊ばせてくれよ～Д",
+      "en": "This shop's got entertainment, right? Let's add more fun stuff! And let me play tooД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13167,
+      "id": "rem_45553",
+      "jp": "【<pl>】のセイエキって、売れるのか？　すげーよな。どれだけ売れるか、見せてくれよ。アタシも手伝ってやっても良いからさД",
+      "en": "【<pl>】's... seed sells? That's wild. Show me how much you can sell. I'll help tooД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 13168,
+      "id": "rem_45554",
+      "jp": "日頃から世話になってるし、感謝を返したいんだけど、言葉だけだと足りないよな？",
+      "en": "You've helped me a lot. Just saying thanks isn't enough, is it?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13169,
+      "id": "rem_45555",
+      "jp": "【<pl>】様、鍛冶商品は売れてるかい？　アタイたちも頑張って生産していくからさ、ガンガン売っていこうぜっ！",
+      "en": "【<pl>】, how are the forge goods selling? We'll keep making 'em, so sell like crazy!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13170,
+      "id": "rem_45556",
+      "jp": "【<pl>】様は店員の教育が上手いよな。アタイも子分に鍛冶のワザを仕込んでるんだけど苦労しててさ。どうやってるか、参考にさせておくれよ？",
+      "en": "【<pl>】, you're good at training staff. I'm having trouble teaching my crew forging. Mind sharing your secrets?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13171,
+      "id": "rem_45557",
+      "jp": "【<pl>】様の店にはカジノがあるか？　あるならアタイにも遊ばせて欲しいな、あはは！",
+      "en": "【<pl>】, does your shop have a casino? If so, I'd like a turn, haha!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13172,
+      "id": "rem_45558",
+      "jp": "【<pl>】様、新メニューの開発は進んでるかい？　終わってないようなら、一気に進めていこうぜっ！",
+      "en": "【<pl>】, how are the new menu items coming? If not done, let's finish them fast!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13173,
+      "id": "rem_45559",
+      "jp": "【<pl>】様には世話になってるしさ、ゴールドは沢山稼ぎたいと思ってるんだ。手伝わせてもらうから、頑張ろうぜっ！",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 13174,
+      "id": "rem_45560",
+      "jp": "【<pl>】様の子種を頂きとうございますわД　ピンクの部屋で愛でてくださいませД　ついでに、店の経営計画も練りましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 13175,
+      "id": "rem_45561",
+      "jp": "我らが【『神』】のためにも、ゴールドを稼ぎましょう！　カネを稼げばきっと、願いは叶いますわД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    }
+  ]
+}

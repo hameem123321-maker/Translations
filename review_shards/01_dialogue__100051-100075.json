@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 100051,
+  "range_end": 100075,
+  "pairs": [
+    {
+      "n": 100051,
+      "id": "db_EventInfo:118105:2",
+      "jp": "ゼルカの奴め、邪教の神殿を【『魔界』】化して、黒将軍の負の感情を利用したデスね",
+      "en": "That Zelka, he turned the heretics' temple into part of the Demon World. He used the Black General's dark feelings.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100052,
+      "id": "db_EventInfo:118106:1",
+      "jp": "【『勇者』】のラシェウス達もいたはずなんだけどな……",
+      "en": "The Hero Rasieus and the others should have been there too, though...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100053,
+      "id": "db_EventInfo:118107:2",
+      "jp": "異端審問官達だけでは戦力が足りないようデスね……",
+      "en": "It seems just the Inquisitors weren't enough to fight them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100054,
+      "id": "db_EventInfo:118108:2",
+      "jp": "しかし、領主ゼルカまであと一歩デス！　人を集めて、【『災厄』】を防ぐデス！",
+      "en": "But, we're so close to stopping Lord Zelka! Gather people, and stop the Calamity!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100055,
+      "id": "db_EventInfo:118109:2",
+      "jp": "ここが正念場デスよ、頑張るデス！",
+      "en": "This is the big moment, gotta do our best!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100056,
+      "id": "db_EventInfo:118110:0",
+      "jp": "★ゲームオーバー・邪教徒達に人類が敗北したデス",
+      "en": "Game Over. Humanity lost to the heretics.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 100057,
+      "id": "db_EventInfo:118112:2",
+      "jp": "おいオマエ、【『ゼカリウス』】……いや、近隣の都市からも精鋭達が集まったデスよ",
+      "en": "Hey you, Zecarius... No, I mean. The best fighters from the nearby cities have gathered.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100058,
+      "id": "db_EventInfo:118113:1",
+      "jp": "そうか……とうとう邪教の神殿に乗り込むことができるな",
+      "en": "I see... So we can finally storm the heretics' temple.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100059,
+      "id": "db_EventInfo:118114:106",
+      "jp": "今回は、俺も参加するぜ！",
+      "en": "I'm joining in this time, too!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 100060,
+      "id": "db_EventInfo:118115:1",
+      "jp": "ユーステル？　お前もか？",
+      "en": "Eustel? You too?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100061,
+      "id": "db_EventInfo:118116:106",
+      "jp": "当然だ。【『勇者』】なんだからな、【『邪教徒』】には負けられねえよ！",
+      "en": "Of course. I'm the 'Hero', you know. I can't lose to those 'cultists'!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 100062,
+      "id": "db_EventInfo:118117:6",
+      "jp": "ユーシィったら、大丈夫なの？",
+      "en": "Are you sure you're okay, Yushi?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 100063,
+      "id": "db_EventInfo:118118:106",
+      "jp": "おう！　任せておけよ！　評判の【『勇者』】だけには負けてられねえしな",
+      "en": "Yeah! Leave it to me! I can't lose to the famous 'Hero', after all.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 100064,
+      "id": "db_EventInfo:118119:1",
+      "jp": "評判の【『勇者』】……ラシェウスの事か？",
+      "en": "The famous 'Hero'... You mean Rasieus?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100065,
+      "id": "db_EventInfo:118120:2",
+      "jp": "そういえば、しばらく見てないデス……黒将軍と一緒に、【『ダムブナック黒神殿』】に乗り込んだままデスね",
+      "en": "Now that you mention it, we haven't seen him for a while. He went into the 'Dambunack Black Shrine' with the Black General and hasn't come back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100066,
+      "id": "db_EventInfo:118121:106",
+      "jp": "ああ、加勢してやらねえとな",
+      "en": "Yeah. We should go help him.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 100067,
+      "id": "db_EventInfo:118122:0",
+      "jp": "ユーステルも張り切っているようだ。",
+      "en": "Eustel seems fired up, too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 100068,
+      "id": "db_EventInfo:118123:1",
+      "jp": "(まあ、俺達とは同行しないんだが)",
+      "en": "(Well, she's not traveling with us, though.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100069,
+      "id": "db_EventInfo:118124:0",
+      "jp": "彼女には俺達の素性を隠している。【『勇者』】である彼女が同行しては、目立ちすぎるというのがシイネの言い分だ。勿体ないと思うのだが……。",
+      "en": "We're hiding our true identities from her. Shiine says if the 'Hero' travels with us, we'll be too noticeable. I think it's a waste, though...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 100070,
+      "id": "db_EventInfo:118125:2",
+      "jp": "【『ダムブナック黒神殿』】についたデスが……以前より瘴気が増しているデスね",
+      "en": "We're at the 'Dambunack Black Shrine'... The miasma is stronger than before.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100071,
+      "id": "db_EventInfo:118126:4",
+      "jp": "うえぇぇっ！　くせぇ！　鼻が曲がる～！",
+      "en": "Eeeeew! It stinks! My nose is gonna fall off~!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 100072,
+      "id": "db_EventInfo:118127:1",
+      "jp": "教会と【『邪教徒』】が争った形跡があるが……この空気は、それだけではなさそうだな……",
+      "en": "There are signs the Church and the 'Cultists' fought here... but this smell, it's not just from that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100073,
+      "id": "db_EventInfo:118128:2",
+      "jp": "敗北したという黒将軍や、同行してるはずのラシェウス達も気がかりデス……ゼルカを逮捕するまでは、解決した気になってはいかんデスね",
+      "en": "We're also worried about the Black General, who was said to be defeated, and Rasieus, who should have been with him... We can't consider this solved until we've arrested Zelka.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100074,
+      "id": "db_EventInfo:118129:0",
+      "jp": "★アナザービュー",
+      "en": "*Another View*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 100075,
+      "id": "db_EventInfo:118132:19",
+      "jp": "はぁ、はぁ、ちっくしょう、何だこいつは！",
+      "en": "Hah, hah, dammit, what the hell is this thing!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

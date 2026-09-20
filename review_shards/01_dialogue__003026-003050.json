@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3026,
+  "range_end": 3050,
+  "pairs": [
+    {
+      "n": 3026,
+      "id": "db_EventInfo:3294:2",
+      "jp": "【『死神』】とカネの力を使えば、不幸な結末を変えることが出来るデス",
+      "en": "Using the power of the Shinigami and money, you can change unhappy endings.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3027,
+      "id": "db_EventInfo:3295:2",
+      "jp": "といってもまあ、そういう能力を乱発すると世界がややこしくなるデス。とりあえず今回は、【サブヒロインの救済】がメインとなるデス",
+      "en": "But, if you use that power too much, the world gets messy. For now, this time's main goal is to save the sub-heroines.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3028,
+      "id": "db_EventInfo:3296:2",
+      "jp": "オマエがモノにすることができなかった女を攻略することが可能になるので、カネに余裕が出来たら運命改変するデス！",
+      "en": "You can now try to win over the girls you couldn't get before. So, when you have enough money, go change your fate!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3029,
+      "id": "db_EventInfo:3297:2",
+      "jp": "むう、スタッフに【疲労困憊】のヤツがいるデス",
+      "en": "Hmm, seems a staff member is totally exhausted.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3030,
+      "id": "db_EventInfo:3298:2",
+      "jp": "スタッフは消耗するデス。【疲労困憊】になると仕事をサボるようになるデス",
+      "en": "Staff get worn out. When they're exhausted, they'll start slacking off.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3031,
+      "id": "db_EventInfo:3299:2",
+      "jp": "【『建設』】で【『休憩ルーム』】を作っておくと、自動的に休むデス。必ず１つは作っておくデスよ",
+      "en": "If you build a 'Break Room' under 'Construction', they'll rest there automatically. Make sure to build at least one.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3032,
+      "id": "db_EventInfo:3300:2",
+      "jp": "むう、客がメニューすら見ずに帰ったデス",
+      "en": "Hmm, a customer just left without even looking at the menu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3033,
+      "id": "db_EventInfo:3301:1",
+      "jp": "売れるメニューが作られてないようだな",
+      "en": "Looks like we don't have any menu items that sell well.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3034,
+      "id": "db_EventInfo:3302:2",
+      "jp": "たとえメニューを作っても、【『建物』】と一致していないと売れないようデスね",
+      "en": "Even if you make menu items, they won't sell unless they match the 'Building' type.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3035,
+      "id": "db_EventInfo:3303:2",
+      "jp": "むう、せっかく注文したのに！　【生産できる奴がいない】デス！",
+      "en": "Ugh, we got an order, but... we don't have anyone to produce the item!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3036,
+      "id": "db_EventInfo:3304:1",
+      "jp": "まあ誰かが【『生産』】しないと、商品は作れないからな",
+      "en": "Well, someone needs to be on 'Production', or we can't make any goods.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3037,
+      "id": "db_EventInfo:3305:2",
+      "jp": "ならば【『編成』】で誰かを【『生産』】にするデス！　それとも私が生産するデス！？",
+      "en": "Then, use 'Organization' to assign someone to 'Production'! Or should I do it myself!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3038,
+      "id": "db_EventInfo:3306:1",
+      "jp": "おいおい、【『接客』】も必要なんだぞ",
+      "en": "Hey, hey, we need people on 'Customer Service' too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3039,
+      "id": "db_EventInfo:3307:2",
+      "jp": "人手が必要デスね……【新しいスタッフ】を雇うデス？",
+      "en": "We need more people... Should we hire new staff?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3040,
+      "id": "db_EventInfo:3308:2",
+      "jp": "むう、客が店に入ったのに、すぐに帰ったデス！",
+      "en": "Ugh, a customer came in but left right away!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3041,
+      "id": "db_EventInfo:3309:1",
+      "jp": "【『接客』】する人間がいないと、店は成立しないからな",
+      "en": "A store can't run without anyone to do the sales.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3042,
+      "id": "db_EventInfo:3310:2",
+      "jp": "ならば【『店員』】の【部門設定】で誰かを【『接客』】にするデス！",
+      "en": "Then, in the staff settings, make someone handle sales!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3043,
+      "id": "db_EventInfo:3311:1",
+      "jp": "人手が必要だな……【新しいスタッフ】を雇うか？",
+      "en": "We need more help... Should we hire new staff?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3044,
+      "id": "db_EventInfo:3312:2",
+      "jp": "むう、店のよくない噂を流されてるデス。あることないこと言われてるデス！",
+      "en": "Ugh, bad rumors are spreading about the shop. People are making stuff up!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3045,
+      "id": "db_EventInfo:3313:1",
+      "jp": "【チンピラ】が評判を下げているみたいだな",
+      "en": "Looks like thugs are ruining our reputation.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3046,
+      "id": "db_EventInfo:3314:2",
+      "jp": "ぬう、そいつのクビを刎ねてやるデス？",
+      "en": "Hmph, should we chop that guy's head off?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3047,
+      "id": "db_EventInfo:3315:1",
+      "jp": "ダメだって",
+      "en": "No, we can't.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3048,
+      "id": "db_EventInfo:3316:2",
+      "jp": "【『汚染値』】や【『犯罪値』】を下げて、【客層】を良くすれば、そういう客は減るはずデス",
+      "en": "If we lower the pollution and crime levels, and improve our customer base, those kinds of people should decrease.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3049,
+      "id": "db_EventInfo:3317:2",
+      "jp": "モノを買ってくれないヤツを客と認めたくないデス",
+      "en": "I don't want to call someone a customer if they don't buy anything.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3050,
+      "id": "db_EventInfo:3318:2",
+      "jp": "おいオマエ、【『犯罪値』】が高くなっているデス",
+      "en": "Hey you, the crime level is getting high.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

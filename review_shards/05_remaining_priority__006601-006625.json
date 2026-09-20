@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6601,
+  "range_end": 6625,
+  "pairs": [
+    {
+      "n": 6601,
+      "id": "rem_34220",
+      "jp": "【自分】に【獣王】を付与 (物理ダメージ[+30%] + クリティカル率[+30%])",
+      "en": "Apply 【Beast King】 to 【Self】(Phys DMG[+30%] + Crit Rate[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6602,
+      "id": "rem_34221",
+      "jp": "【<src>】は[ビーストモード]を使用した！",
+      "en": "【<src>】 used [Beast Mode]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6603,
+      "id": "rem_34222",
+      "jp": "相手のレベルが自分よりある程度高い場合、もしくは相手がボス属性の場合に攻撃力がアップ。強敵にもひるまず戦い、大物狩りを狙うときに効果がある。",
+      "en": "Boosts ATK if enemy level is higher or has boss trait. Effective against strong foes and hunting big game.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6604,
+      "id": "rem_34223",
+      "jp": "格上とボスへのダメージ[+50%]",
+      "en": "DMG to higher-level & bosses[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6605,
+      "id": "rem_34224",
+      "jp": "仲間全員を守る、強力なバリアを張る。このバリアは小さなダメージは素通りし、大きなダメージを削いで消える。弱い攻撃は無視してしまうので注意。",
+      "en": "Cast a powerful barrier protecting all allies. Blocks major damage, lets weak hits pass through. Beware of ignoring weak attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6606,
+      "id": "rem_34225",
+      "jp": "【<src>】の[マジックレジスト]が仲間を守る！",
+      "en": "【<src>】's [Magic Resist] protects allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6607,
+      "id": "rem_34226",
+      "jp": "味方全体のＭＰを戦闘後に回復する。ＭＰは回復する手段が少ないので、とても貴重なスキル。",
+      "en": "Restores all allies' MP after battle. MP is scarce, making this skill very valuable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6608,
+      "id": "rem_34227",
+      "jp": "戦闘後パーティー回復・MP[+10%]",
+      "en": "Post-battle party heal・MP[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6609,
+      "id": "rem_34228",
+      "jp": "マジカルなフォームにチェンジ☆することで、一時的にとても素速くなる。チェンジ☆しているのは気分的なので、通常服のままでも支障はない。",
+      "en": "Shifts into a magical form☆, granting temporary high speed. It's just a feeling, so normal clothes are fine.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6610,
+      "id": "rem_34229",
+      "jp": "【自分】に【加速+++】を付与 (ダブルアタック率[+100%] + ダブルアタックのダメージ[+10%])",
+      "en": "Apply 【Haste+++】 to 【Self】(Double Attack Rate[+100%] + Double Attack DMG[+10%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6611,
+      "id": "rem_34230",
+      "jp": "【<src>】はマジカルフォームにチェンジ☆",
+      "en": "【<src>】 shifts into Magical Form☆",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6612,
+      "id": "rem_34231",
+      "jp": "竜を模した水流の牙を作り出し、敵をこなごなに噛み砕く。万能たる海の水属性は常に敵の弱点を突けるが、弱点効果は小さくなる。",
+      "en": "Creates dragon-like water fangs that crush the enemy. Versatile water element always hits a weakness, but with reduced effect.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6613,
+      "id": "rem_34232",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 【水属性】 + 防御貫通(小)",
+      "en": "Large AoE DMG Potency[B+] + Hit Rate[60%] + 【Water】 + Minor DEF Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6614,
+      "id": "rem_34233",
+      "jp": "【<src>】の[オーシャンファング]！",
+      "en": "【<src>】's [Ocean Fang]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6615,
+      "id": "rem_34234",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+10%]",
+      "en": "AoE DMG Potency[] + Hit Rate[70%] + Crit Rate[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6616,
+      "id": "rem_34235",
+      "jp": "【<src>】の[暴れ回る]！",
+      "en": "【<src>】's [Rampage]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6617,
+      "id": "rem_34236",
+      "jp": "仲間呼び(自) + 【仲間】に【攻撃】を付与 (物理ダメージ[+30%])",
+      "en": "Summon Ally(self) + Apply 【Attack】 to 【Ally】(Phys DMG[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6618,
+      "id": "rem_34237",
+      "jp": "【<src>】の[遠吠え]！",
+      "en": "【<src>】's [Howl]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6619,
+      "id": "rem_34238",
+      "jp": "【自分】に【再生】を付与 (ターンごとにHP回復[+10%])",
+      "en": "Apply 【Regen】 to 【Self】(HP Heal per Turn[+10%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6620,
+      "id": "rem_34239",
+      "jp": "【<src>】は[徐々に再生]を使用した！",
+      "en": "【<src>】 used [Gradual Regen]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6621,
+      "id": "rem_34240",
+      "jp": "通常抑えているケモミミの敏捷性を加速させて、本来の速度で暴れまわる。ＣＴとＨＰも回復してしまい、ウルフィナはもう止められない！",
+      "en": "Unleashing her suppressed beast-kin agility, she goes wild at full speed. CT and HP recover. Wolfina is unstoppable!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6622,
+      "id": "rem_34241",
+      "jp": "CT回復(中) + HP回復(中) + 【自分】に【加速++】を付与 (ダブルアタック率[+100%])",
+      "en": "CT Recovery (Med) + HP Recovery (Med) + Applies【Accelerate++】to【Self】(Double Attack Rate [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6623,
+      "id": "rem_34242",
+      "jp": "【<src>】は本気のスピードで暴れ回る！",
+      "en": "【<src>】rages with serious speed!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6624,
+      "id": "rem_34243",
+      "jp": "【自分】に【防御】を付与 (すべてのダメージ軽減率[+30%])",
+      "en": "Applies【Defense】to【Self】(All Damage Reduction Rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6625,
+      "id": "rem_34244",
+      "jp": "【<src>】は[魔力のバリア]を使用した！",
+      "en": "【<src>】used [Magic Barrier]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

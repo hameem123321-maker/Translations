@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1851,
+  "range_end": 1875,
+  "pairs": [
+    {
+      "n": 1851,
+      "id": "rem_27426",
+      "jp": "【<num>ゴールド】を料理で稼ぐ",
+      "en": "Earn 【<num> Gold】 via Cooking",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1852,
+      "id": "rem_27427",
+      "jp": "【<num>ゴールド】を鍛冶で稼ぐ",
+      "en": "Earn 【<num> Gold】 via Blacksmithing",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1853,
+      "id": "rem_27428",
+      "jp": "【<num>ゴールド】を娯楽で稼ぐ",
+      "en": "Earn 【<num> Gold】 via Entertainment",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1854,
+      "id": "rem_27429",
+      "jp": "新メニューを【<num>回】開発する",
+      "en": "Develop 【<num>】 new menu items",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1855,
+      "id": "rem_27430",
+      "jp": "施設を【<num>回】改良する",
+      "en": "Upgrade facilities 【<num>】 times",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1856,
+      "id": "rem_27431",
+      "jp": "スタッフを【<num>回】ランクアップする",
+      "en": "Rank up staff 【<num>】 times",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1857,
+      "id": "rem_27432",
+      "jp": "【<num>ゴールド】を搾精で稼ぐ",
+      "en": "Earn 【<num> Gold】 via Extraction",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1858,
+      "id": "rem_27433",
+      "jp": "【<num>回】搾精エッチする",
+      "en": "Perform extraction H 【<num>】 times",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1859,
+      "id": "rem_27434",
+      "jp": "一緒に倉庫の整理をする",
+      "en": "Help organize the warehouse together",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1860,
+      "id": "rem_27435",
+      "jp": "トレジャーを【<num>回】獲得する",
+      "en": "Obtain treasure 【<num>】 times",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1861,
+      "id": "rem_27436",
+      "jp": "戦闘DPを【<num>点】獲得する",
+      "en": "Gain 【<num>】 Battle DP",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1862,
+      "id": "rem_27437",
+      "jp": "調査DPを【<num>点】獲得する",
+      "en": "Gain 【<num>】 Research DP",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1863,
+      "id": "rem_27438",
+      "jp": "稀少DPを【<num>点】獲得する",
+      "en": "Gain 【<num>】 Rare DP",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1864,
+      "id": "rem_27439",
+      "jp": "資源DPを【<num>点】獲得する",
+      "en": "Gain 【<num>】 Resource DP",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1865,
+      "id": "rem_27440",
+      "jp": "エネミーを【<num>回】撃破する",
+      "en": "Defeat enemies 【<num> times】",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1866,
+      "id": "rem_27441",
+      "jp": "行方不明の冒険者を救出する",
+      "en": "Rescue missing adventurer",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1867,
+      "id": "rem_27442",
+      "jp": "派遣を【<num>回】成功させる",
+      "en": "Complete dispatch 【<num> times】",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1868,
+      "id": "rem_27443",
+      "jp": "派遣を【<num>回】実行する",
+      "en": "Dispatch 【<num> times】",
+      "table": "db_MessagePartnerMission",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1869,
+      "id": "rem_27444",
+      "jp": "メインキャラ",
+      "en": "Main Character",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1870,
+      "id": "rem_27445",
+      "jp": "死神シイネ",
+      "en": "Shinigami Shiine",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1871,
+      "id": "rem_27446",
+      "jp": "鍛冶姫アンジュ",
+      "en": "Forging Princess Anju",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1872,
+      "id": "rem_27447",
+      "jp": "狼娘ウルフィナ",
+      "en": "Wolf Girl Wolfina",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1873,
+      "id": "rem_27448",
+      "jp": "女商人ハーヴェスタ",
+      "en": "Merchant Harvester",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1874,
+      "id": "rem_27449",
+      "jp": "新米神官マリーゼル",
+      "en": "Novice Priestess Marisel",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1875,
+      "id": "rem_27450",
+      "jp": "女冒険者ファシィ",
+      "en": "Adventurer Facy",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    }
+  ]
+}

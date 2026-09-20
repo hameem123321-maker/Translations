@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7051,
+  "range_end": 7075,
+  "pairs": [
+    {
+      "n": 7051,
+      "id": "rem_34670",
+      "jp": "自然系トラップの解除率[+40%]",
+      "en": "Nature Trap Disarm Rate [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7052,
+      "id": "rem_34671",
+      "jp": "ウィルチの天才的な目利き能力を生かし、稀少なアイテムを目利きする。ダンジョンにレアアイテムオブジェクトが出現しやすくなり、レアアイテムも発見する。",
+      "en": "Uses Willchi's genius appraiser eye to spot rare items. Increases appearance of rare item objects in dungeons and rare item discoveries.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7053,
+      "id": "rem_34672",
+      "jp": "開発ポイント獲得量[+25%] + レア[+25%]",
+      "en": "Development Points Gain [+25%] + Rare [+25%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7054,
+      "id": "rem_34673",
+      "jp": "長い時間を掛けて、精霊と対話をしてきたエリオルダの特性。彼女だけでなく、彼女に味方をする者にも精霊が味方して、火・氷・風・雷属性のダメージがアップする。",
+      "en": "Eliorda's trait from conversing with spirits over time. Spirits aid not only her but also her allies, boosting fire, ice, wind, and thunder damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7055,
+      "id": "rem_34674",
+      "jp": "パーティー全員の四属性ダメージ[+20%]",
+      "en": "All Allies' Four-Element Damage [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7056,
+      "id": "rem_34675",
+      "jp": "××××を殺すために全てを捨てて磨いた技。特定の敵に対してのみ、実力以上の能力を発揮する。それのみに特化しているため、対象はかなり限られる。",
+      "en": "A skill honed by abandoning all else to kill ××××. Unleashes power beyond normal ability, but only against specific enemies. Highly specialized with limited targets.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7057,
+      "id": "rem_34676",
+      "jp": "xxxxタイプへのダメージ[+200%]",
+      "en": "xxxx-type Damage [+200%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7058,
+      "id": "rem_34677",
+      "jp": "敵に××××がいる場合のみ発動。先制攻撃成功時に1体に対して致命的なダメージを与える。まずは先制攻撃で数を減らすのが定石だ。",
+      "en": "Activates only when ×××× is present among enemies. Deals fatal damage to one enemy on successful ambush. The best tactic is to reduce numbers first with ambush attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7059,
+      "id": "rem_34678",
+      "jp": "XXXXへの先制ダメージ[+80%]",
+      "en": "Ambush Damage to XXXX [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7060,
+      "id": "rem_34679",
+      "jp": "戦力変換・言葉＞魔攻",
+      "en": "Power Conversion: Words > Magic Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7061,
+      "id": "rem_34680",
+      "jp": "魔獣王の末裔が放つ存在感がオーラになって見えることにより、生半可な魔獣は萎縮する。エリートケモミミが一般動物に後れを取るはずがない。",
+      "en": "The descendant of the beast king's aura intimidates weaker monsters. Elite kemomimi won't fall behind mere animals.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7062,
+      "id": "rem_34681",
+      "jp": "動物タイプへのダメージ[+100%]",
+      "en": "Damage to Beast-type [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7063,
+      "id": "rem_34682",
+      "jp": "ラシェウスが先祖から受け継いだ勇者技の一つ。不可視の引力により、受け手は回避することができずに命中してしまう。結果を追求した秘剣。",
+      "en": "A Hero skill Rasieus inherited. Invisible gravity ensures it hits, unable to evade. A secret sword seeking results.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7064,
+      "id": "rem_34683",
+      "jp": "範囲(小)攻撃 威力[A] +  [必中] + 必殺率[+100%] + 【聖属性】",
+      "en": "Small AoE attack Power[A] + [Sure Hit] + Crit Rate[+100%] + 【Holy】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7065,
+      "id": "rem_34684",
+      "jp": "【<src>】の[ブレイブスラッシュ]！",
+      "en": "【<src>】's [Brave Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7066,
+      "id": "rem_34685",
+      "jp": "夢魔の力を使用し、接触した敵の生命力を吸い取る。生物には抗えない危険な攻撃魔術で、吸い取った生命力を仲間に還元する攻防一体の技。",
+      "en": "Uses succubus power to drain life from touched foes. A dangerous magic attack irresistible to living things. Drains life to restore allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7067,
+      "id": "rem_34686",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 【闇属性】 + 攻撃後パーティー回復",
+      "en": "Small AoE attack Power[E+] + Hit[80%] + 【Dark】 + Heal Party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7068,
+      "id": "rem_34687",
+      "jp": "【<src>】の[ドレインタッチ]！",
+      "en": "【<src>】's [Drain Touch]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7069,
+      "id": "rem_34688",
+      "jp": "MPの消費を抑えるパッシブスキル。優先して取得したい。",
+      "en": "Passive skill that reduces MP consumption. A priority to learn.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7070,
+      "id": "rem_34689",
+      "jp": "MP消費軽減[-30%]",
+      "en": "MP Cost Down[-30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7071,
+      "id": "rem_34690",
+      "jp": "魔界の七公の一角たる強欲の縁者たち。ヒマを見付けては互いに情報交換をして、新しい薬の開発に努めている。互いに師匠であり弟子でもあり、研鑽している。",
+      "en": "The Avarice kin, one of the Seven Dukes of Makai. They exchange info and develop new potions whenever they can. Master and apprentice to each other, ever studying.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7072,
+      "id": "rem_34691",
+      "jp": "レベル同期・カリスト/オーレリアと同じに",
+      "en": "Level Sync – Same as Callisto/Aurelia",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7073,
+      "id": "rem_34692",
+      "jp": "カリストお手製の謎のポーションを使って、敵全体を大変なことにしてしまう。使い手がアレすぎるので、わりと大変なことになりがちである。",
+      "en": "Uses a mysterious potion made by Callisto to wreak havoc on all enemies. The user being...unique tends to cause quite a mess.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7074,
+      "id": "rem_34693",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[50%] + 【闇属性】 + [毒化]を付与 (毒によりターンごとにダメージ+10%)",
+      "en": "Large AoE attack Power[C] + Hit[50%] + 【Dark】 + Inflicts [Toxic] (Poison deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7075,
+      "id": "rem_34694",
+      "jp": "【<src>】の[ポイズンミスト]！",
+      "en": "【<src>】's [Poison Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1076,
+  "range_end": 1100,
+  "pairs": [
+    {
+      "n": 1076,
+      "id": "db_EventInfo:1339:107",
+      "jp": "魔の海に浮かぶ宝石の島も、そういった欲望が噂となって具体化したものなのでしょう",
+      "en": "Even the jeweled island floating in the demon sea is probably a physical form of such desires, turned into a rumor.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 1077,
+      "id": "db_EventInfo:1340:107",
+      "jp": "近頃、夜空に浮かぶ月を見るものが増えました",
+      "en": "Lately, more people have been looking at the moon in the night sky.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 1078,
+      "id": "db_EventInfo:1341:107",
+      "jp": "おとぎ話では、魔の者は月から降ってきたとも伝えられます。皆、不安なのでしょう……",
+      "en": "Tales say demons fell from the moon. Everyone must be uneasy...",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 1079,
+      "id": "db_EventInfo:1342:107",
+      "jp": "【<pl>】様の威光はますばかり、私も【『<ruby=ヒエペリオ>教会</ruby>』】よりますます善行を積めと伝えられております",
+      "en": "【<pl>】sama's influence grows ever greater. I, too, am told by the 『Hierperio Church』 to accumulate more good deeds.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 1080,
+      "id": "db_EventInfo:1343:107",
+      "jp": "【『聖女』】様共々、今後とも奉仕させてくださいませД",
+      "en": "Alongside the 『Saintess』-sama, please allow me to continue serving youД",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 1081,
+      "id": "db_EventInfo:1344:130",
+      "jp": "どいつもこいつも【『探索』】の重要性を理解しやがらない",
+      "en": "These damn fools don't understand the importance of 『Scouting』.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1082,
+      "id": "db_EventInfo:1345:130",
+      "jp": "【罠】を舐めたせいで全滅したパーティーがどれだけいると思っているんだ",
+      "en": "How many parties do they think have been wiped out because they underestimated 【Traps】?",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1083,
+      "id": "db_EventInfo:1346:130",
+      "jp": "【『盗賊ギルド』】は【『冒険者ギルド』】にメンバーを派遣している",
+      "en": "The 『Thieves' Guild』 is sending members to the 『Adventurers' Guild』.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1084,
+      "id": "db_EventInfo:1347:130",
+      "jp": "当然【『探索』】担当にするためだ",
+      "en": "Of course, it's to have them take on 『Scouting』 duties.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1085,
+      "id": "db_EventInfo:1348:130",
+      "jp": "【『探索』】は戦士や剣士と違って、独力で身につけることはできないから当然だな",
+      "en": "Of course not. 【'Search'】 isn't something you can learn on your own, not like being a warrior or swordsman.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1086,
+      "id": "db_EventInfo:1349:130",
+      "jp": "俺達は普段は正体を隠し、冒険者の振りをして情報を集めている",
+      "en": "We usually hide our real identity. We pretend to be adventurers to gather information.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1087,
+      "id": "db_EventInfo:1350:130",
+      "jp": "【『ゼカリウス』】の不正を暴く、諜報員としてな……って、あんた、なんで俺たちの正体が分かるんだ？",
+      "en": "We're spies, trying to expose 【'Zecarius'】's wrongdoing... Wait, how do you know who we really are?",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1088,
+      "id": "db_EventInfo:1351:130",
+      "jp": "俺の相方はああ見えて優秀なのだが、エージェントとして致命的な弱点がある",
+      "en": "My partner may not look it, but he's actually very skilled. But as an agent, he has a fatal weakness.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1089,
+      "id": "db_EventInfo:1352:130",
+      "jp": "はあ、そこを突かれたらどうするんだ……",
+      "en": "Sigh... What are we going to do if someone figures that out...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1090,
+      "id": "db_EventInfo:1353:130",
+      "jp": "はあ……エージェントともあろう者が、これ以上重りを背負ってどうするんだか",
+      "en": "Sigh... What's an agent doing carrying even more of a burden...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1091,
+      "id": "db_EventInfo:1354:130",
+      "jp": "まあ、アイツは命の恩人になってしまったんだよなぁ",
+      "en": "Well, that guy ended up becoming my life-saver, you see.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1092,
+      "id": "db_EventInfo:1355:130",
+      "jp": "責任は取るしかないが……どうしたものか……",
+      "en": "I have to take responsibility for it... but what should I do...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1093,
+      "id": "db_EventInfo:1356:130",
+      "jp": "俺も昔は熟達の盗賊ヒュームだったんだが、膝に矢を受けてしまってな",
+      "en": "I used to be the skilled thief Hyumu, but I took an arrow to the knee.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1094,
+      "id": "db_EventInfo:1357:130",
+      "jp": "今は足を洗って花屋でもしようと思っている",
+      "en": "Now I'm done with that life. I'm thinking of opening a flower shop or something.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1095,
+      "id": "db_EventInfo:1358:130",
+      "jp": "はあ……まさかエージェントともあろう者が、大きな貸しを作ってしまうとは",
+      "en": "Sigh... Who would have thought an agent like me would end up with such a big debt of gratitude.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1096,
+      "id": "db_EventInfo:1359:130",
+      "jp": "アイツは命の恩人になってしまったんだよなぁ",
+      "en": "That guy ended up becoming my life-saver, you see.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1097,
+      "id": "db_EventInfo:1360:130",
+      "jp": "これでアイツがキズモノにされていたとしたら、どんな責任を取るハメになったものか……",
+      "en": "If I'd let them get hurt, who knows what kind of trouble I'd be in.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1098,
+      "id": "db_EventInfo:1361:130",
+      "jp": "俺も昔は熟達の盗賊ヒュームだったんだが、膝に矢を受けそうになってしまってな",
+      "en": "I used to be the master thief Hyumu, but I almost took an arrow to the knee.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1099,
+      "id": "db_EventInfo:1362:130",
+      "jp": "最近は足を洗って花屋でもしようと思っている",
+      "en": "Lately, I'm thinking of retiring and maybe opening a flower shop.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1100,
+      "id": "db_EventInfo:1363:111",
+      "jp": "うーん、【『短剣』】っていまいち攻撃力が乗らないのよね",
+      "en": "Hmm, [Daggers] just don't pack much punch.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    }
+  ]
+}

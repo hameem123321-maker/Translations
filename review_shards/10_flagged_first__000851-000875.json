@@ -1,0 +1,270 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 851,
+  "range_end": 875,
+  "pairs": [
+    {
+      "n": 851,
+      "id": "ui_mb_00386",
+      "jp": "開発費<color=#ffFFaa><size=30>9</size>億<size=30>9999</size>万</color>ゴールド",
+      "en": "Development Cost: <color=#ffFFaa><size=30>9</size>00 Million <size=30>9999</size>K</color> Gold",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 852,
+      "id": "ui_mb_00454",
+      "jp": "<color=#AAFFFF>ハーヴェスタ「チャンスじゃな、今のうちに仕留めるのじゃ？</color>",
+      "en": "<color=#AAFFFF>Harvester: \"This is our chance. Shall we finish it now?\"</color>",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 853,
+      "id": "ui_mb_00464",
+      "jp": "<color=#FFFFFF>シイネ</color>Lv<size=30>99</size>",
+      "en": "<color=#FFFFFF>Shiine</color> Lv. <size=30>99</size>",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 854,
+      "id": "ui_mb_00508",
+      "jp": "物理攻撃<size=24><color=#FF8800>+20</size>%</color>ううううううううううううううううううううううううううううううううううううううううううううううaaaaうううううううううううううううううええええええええええええええええええええええ",
+      "en": "Physical Attack<size=24><color=#FF8800>+20</size>%</color>",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 855,
+      "id": "ui_mb_00531",
+      "jp": "基本売上+<color=#ffffaa><size=24>9999万</size></color>G",
+      "en": "Base Earnings +<color=#ffffaa><size=24>99.99M</size></color>G",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 856,
+      "id": "ui_mb_00556",
+      "jp": "調査団Lv15・ロオン記念大博物館の建",
+      "en": "Survey Corps Lv15・Roon Memorial Grand Museum",
+      "category": "ui",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 857,
+      "id": "ui_mb_00701",
+      "jp": "左クリック・画面終了  右クリック・キャラ非表示",
+      "en": "Left Click・End Screen   Right Click・Hide Character",
+      "category": "ui",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 858,
+      "id": "ui_mb_00948",
+      "jp": "料理<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/9999",
+      "en": "Cooking<size=16>CP</size> <color=#ff8800><size=26>999</size></color>/9999",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 859,
+      "id": "ui_mb_00962",
+      "jp": "ダイスの合計が<color=#FFDD88>99</color>以上で成功デス\\n(ボーナス値+99)",
+      "en": "Succeed if dice total is <color=#FFDD88>99</color> or more DEATH\\n(Bonus +99)",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 860,
+      "id": "ui_mb_01144",
+      "jp": "<color=#ff0000>主人公の死の可能性まで、あと<size=60>80</size>日",
+      "en": "<color=#ff0000>Player's potential death in <size=60>80</size> days",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 861,
+      "id": "ui_mb_01261",
+      "jp": "雇用コスト<size=32><color=#FEAA88>99</color></size>",
+      "en": "Hiring Cost<size=32><color=#FEAA88>99</color></size>",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 862,
+      "id": "ui_mb_01301",
+      "jp": "<color=#00FFFF>ヴェネ</color>ディアのターンaaaaaadddううううう",
+      "en": "<color=#00FFFF>Vene</color>dia's turn",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 863,
+      "id": "ui_mb_01649",
+      "jp": "<color=#aaffff>■追加プロフィール</color>\n死神の少女。死にやすい運命を持つ主人公の素質に目を付け、自分の力を分け与えて『死神代行』にした張本人。素っ気ない口調だが、主人公を嫌ってるわけではない。本来は冥界に住んでいるらしい。",
+      "en": "<color=#aaffff>■Extra Profile</color>\nA Shinigami girl. The one who noticed the Player's fatalistic aptitude, shared her power, and made them a 'Shinigami Agent'. Her tone is blunt, but she doesn't dislike the Player. She apparently lives in the underworld.",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 864,
+      "id": "rem_00179",
+      "jp": "災厄制御機関カストロイアLv1",
+      "en": "",
+      "table": "db_ClubToushiDungeonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 865,
+      "id": "rem_00263",
+      "jp": "強靭な四肢と鋭い牙を持つモンスター。高い戦闘力を誇る狩人。貪欲な食欲を持ち、冒険者たちを<ruby=むさぼ>貪</ruby>る。",
+      "en": "A monster with powerful limbs and sharp fangs. A proud hunter with high combat strength. Possesses a voracious appetite and <ruby=むさぼ>devours</ruby> adventurers.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 866,
+      "id": "rem_00310",
+      "jp": "ゴブリン・亜種",
+      "en": "Goblin・Variant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 867,
+      "id": "rem_00312",
+      "jp": "ホブゴブリン・エリート",
+      "en": "Hobgoblin・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 868,
+      "id": "rem_00314",
+      "jp": "ゴブリンシャーマン・エリート",
+      "en": "Goblin Shaman・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 869,
+      "id": "rem_00402",
+      "jp": "血塗れコウモリ",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 870,
+      "id": "rem_00564",
+      "jp": "ホブゴブリン・北方種",
+      "en": "Hobgoblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 871,
+      "id": "rem_00566",
+      "jp": "変異ゴブリン・北方種",
+      "en": "Mutant Goblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 872,
+      "id": "rem_00573",
+      "jp": "牛型の半獣半人。ハーフデビルよりもさらに魔族に近い。獣と魔族の特性を両方備えており、生半可な冒険者は太刀打ちできず、貪欲にメスを犯す。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 873,
+      "id": "rem_00627",
+      "jp": "死都ルーメ・ルーデスに残った最後の神。彼が見出した一つの魂。それはまさしく種を導く覇王。しかしそれは人を滅ぼし、新たな種が成り代わるものだとしても、彼らにとっての神は見放すことはできない。",
+      "en": "The last god remaining in the dead capital of Lume-Ludes. The soul he found is truly a Tyrant to guide the seeds. Even if it meant humanity's ruin and a new breed's ascension, their god could not forsake them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 874,
+      "id": "rem_00659",
+      "jp": "ユーステルの仲間の重戦士。わがままで突っ走りがちなユーステルをフォローしている。彼女のことは親戚の娘ぐらいに思っており、首尾範囲外でもあるのでまったく意識していない。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 875,
+      "id": "rem_00669",
+      "jp": "恐慌状態に陥った村人。理性を失っており、暴徒と化している……。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    }
+  ]
+}

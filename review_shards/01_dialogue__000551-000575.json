@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 551,
+  "range_end": 575,
+  "pairs": [
+    {
+      "n": 551,
+      "id": "db_EventInfo:813:115",
+      "jp": "まあね",
+      "en": "Pretty much.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 552,
+      "id": "db_EventInfo:814:19",
+      "jp": "やっぱり、レミルも【『禁呪』】が使えるのか？",
+      "en": "So, can you use the [Forbidden Spell] too, Remil?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 553,
+      "id": "db_EventInfo:815:115",
+      "jp": "無理。あれは偉大なる姉様だからこそ使える、魔術の奥義。凡人である私に使えるわけがない",
+      "en": "No way. That's a secret ultimate magic only my great older sister can use. A regular person like me couldn't possibly do it.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 554,
+      "id": "db_EventInfo:816:115",
+      "jp": "森羅万象あらゆる魔力を操り、その膨大な力に振り回されることのない自制心、制御力",
+      "en": "The ability to control all the magic in the world, and the self-control to not be overwhelmed by that huge power.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 555,
+      "id": "db_EventInfo:817:115",
+      "jp": "本来であれば真の賢者は姉様にしか名乗ることは出来ないはず",
+      "en": "If anyone deserves the title of true sage, it should only be her.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 556,
+      "id": "db_EventInfo:818:105",
+      "jp": "いきなり語るなぁ",
+      "en": "Don't just start talking deeply like that.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 557,
+      "id": "db_EventInfo:819:19",
+      "jp": "俺はレミルの魔術はすごいと思うけどなぁ。いつも的確で、助けてもらってるし",
+      "en": "Well, I think Remil's magic is amazing. It's always on point, and you really help us.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 558,
+      "id": "db_EventInfo:820:115",
+      "jp": "勇従の賢者として、当たり前のことをしているまで",
+      "en": "I'm just doing what's expected as the Sage of the Brave Retinue.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 559,
+      "id": "db_EventInfo:821:105",
+      "jp": "ふうん、まあ憧れの相手が近くにいると、遠慮するというのはわかるぞ",
+      "en": "Hmm, well, I get it. When the person you look up to is nearby, you hold back.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 560,
+      "id": "db_EventInfo:822:115",
+      "jp": "貴方にも憧れの相手が？",
+      "en": "You have someone you look up to too?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 561,
+      "id": "db_EventInfo:823:105",
+      "jp": "ああ、剣の達人、私の師匠とも言える方だ。あの人こそ、真の剣聖……",
+      "en": "Yeah, a master of the sword, you could say my teacher. That person is the true Sword Saint...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 562,
+      "id": "db_EventInfo:824:105",
+      "jp": "もっとも、あの人が背負ったのは、もっと重い使命だったが",
+      "en": "Though, the burden that person carried was a much heavier duty.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 563,
+      "id": "db_EventInfo:825:19",
+      "jp": "ふたりとも、目標があるというのはいいことじゃないか",
+      "en": "Both of you having a goal is a good thing, isn't it?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 564,
+      "id": "db_EventInfo:826:115",
+      "jp": "ラシェウスには、目標はある？",
+      "en": "Rasieus, do you have a goal?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 565,
+      "id": "db_EventInfo:827:19",
+      "jp": "俺か？　そうだなー",
+      "en": "Me? Yeah...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 566,
+      "id": "db_EventInfo:828:19",
+      "jp": "ゼカリウスは本当にダンジョンが多いな",
+      "en": "Zecarius really has a lot of dungeons.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 567,
+      "id": "db_EventInfo:829:19",
+      "jp": "粗方の遺跡は巡り終わったと思ったが、まだまだ新しい遺跡が出てくるぞ",
+      "en": "I thought we had visited most ruins, but new ones keep popping up.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 568,
+      "id": "db_EventInfo:830:115",
+      "jp": "ゼカリウスは遺跡密集地帯とも呼ばれている",
+      "en": "Zecarius is also called a dense ruin zone.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 569,
+      "id": "db_EventInfo:831:115",
+      "jp": "おそらく、私達の人生を費やしても、すべてを訪れることはできない",
+      "en": "We probably couldn't visit them all in our whole lives.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 570,
+      "id": "db_EventInfo:832:105",
+      "jp": "うへぇ、そりゃすごいな",
+      "en": "Whoa, that's amazing.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 571,
+      "id": "db_EventInfo:833:19",
+      "jp": "まあ秘境の山とかがあれば、その山全部がダンジョンみたいなものだもんな",
+      "en": "Well, if there's a remote mountain, the whole thing is basically a dungeon.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 572,
+      "id": "db_EventInfo:834:19",
+      "jp": "だから【<pl>】さんが派遣しているダンジョンも、あれだけ派遣してもネタ切れしないのか",
+      "en": "That's why,【<pl>】, you can keep sending so many to dungeons and still have more.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 573,
+      "id": "db_EventInfo:835:115",
+      "jp": "ダンジョンは変化する。ふとした小さい発見で、探索は広がるから",
+      "en": "Dungeons change. A small discovery can open up more to explore.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 574,
+      "id": "db_EventInfo:836:105",
+      "jp": "探索の道も険しいということか",
+      "en": "So the path of exploration is tough too.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 575,
+      "id": "db_EventInfo:837:19",
+      "jp": "【<pl>】さんのパーティーも大分メンバーが戻ってきたようだな",
+      "en": "【<pl>】's party has had a lot of members return, it seems.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

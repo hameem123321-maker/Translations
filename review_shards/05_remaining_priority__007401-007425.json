@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7401,
+  "range_end": 7425,
+  "pairs": [
+    {
+      "n": 7401,
+      "id": "rem_35020",
+      "jp": "乳卵料理",
+      "en": "Dairy & Egg Dishes",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7402,
+      "id": "rem_35021",
+      "jp": "野菜料理",
+      "en": "Vegetable Dishes",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7403,
+      "id": "rem_35022",
+      "jp": "キノコ料理",
+      "en": "Mushroom Dishes",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7404,
+      "id": "rem_35023",
+      "jp": "ドリンク",
+      "en": "Drinks",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7405,
+      "id": "rem_35024",
+      "jp": "アルコール",
+      "en": "Alcohol",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7406,
+      "id": "rem_35025",
+      "jp": "スイーツ",
+      "en": "Sweets",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7407,
+      "id": "rem_35026",
+      "jp": "ポーション",
+      "en": "Potions",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7408,
+      "id": "rem_35027",
+      "jp": "魔術工芸",
+      "en": "Magic Crafts",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7409,
+      "id": "rem_35028",
+      "jp": "量産雑貨",
+      "en": "Mass-Produced Sundries",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7410,
+      "id": "rem_35029",
+      "jp": "雑貨",
+      "en": "Sundries",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7411,
+      "id": "rem_35030",
+      "jp": "量産武器",
+      "en": "Mass-Produced Weapons",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7412,
+      "id": "rem_35031",
+      "jp": "量産防具",
+      "en": "Mass-Produced Armor",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7413,
+      "id": "rem_35032",
+      "jp": "量産服",
+      "en": "Mass-Produced Clothing",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7414,
+      "id": "rem_35033",
+      "jp": "量産兵器",
+      "en": "Mass-Produced Arms",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7415,
+      "id": "rem_35034",
+      "jp": "贅沢品",
+      "en": "Luxury Goods",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7416,
+      "id": "rem_35035",
+      "jp": "嗜好品",
+      "en": "Luxuries",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7417,
+      "id": "rem_35036",
+      "jp": "携帯食",
+      "en": "Rations",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7418,
+      "id": "rem_35037",
+      "jp": "軍用携帯食",
+      "en": "Military Rations",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7419,
+      "id": "rem_35038",
+      "jp": "聖産物",
+      "en": "Holy Products",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7420,
+      "id": "rem_35039",
+      "jp": "呪具",
+      "en": "Cursed Tools",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7421,
+      "id": "rem_35040",
+      "jp": "筆記用具",
+      "en": "Writing Implements",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7422,
+      "id": "rem_35041",
+      "jp": "精力剤",
+      "en": "Energy Drink",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7423,
+      "id": "rem_35042",
+      "jp": "大人の玩具",
+      "en": "Adult Toy",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7424,
+      "id": "rem_35043",
+      "jp": "女性化粧品",
+      "en": "Women's Cosmetics",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7425,
+      "id": "rem_35044",
+      "jp": "ドラッグ",
+      "en": "Drugs",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    }
+  ]
+}

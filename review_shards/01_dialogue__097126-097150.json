@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97126,
+  "range_end": 97150,
+  "pairs": [
+    {
+      "n": 97126,
+      "id": "db_EventInfo:114730:6",
+      "jp": "そんな……まさか……",
+      "en": "No... That can't be...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97127,
+      "id": "db_EventInfo:114731:17",
+      "jp": "一度、ダンジョンから帰還した方が良さそうですね。彼女をここに置いていくわけには行きません",
+      "en": "We should probably leave the dungeon for now. We can't just leave her here.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97128,
+      "id": "db_EventInfo:114734:0",
+      "jp": "俺達は一度ダンジョンから脱出することにした。",
+      "en": "We decided to get out of the dungeon for now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97129,
+      "id": "db_EventInfo:114736:6",
+      "jp": "あの……",
+      "en": "Um...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97130,
+      "id": "db_EventInfo:114737:2",
+      "jp": "おや、オマエは新米神官の……",
+      "en": "Oh, you're the rookie priest...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97131,
+      "id": "db_EventInfo:114738:6",
+      "jp": "マリーゼルですわ。その節はお世話になりました",
+      "en": "I'm Marisel. Thank you for your help that time.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97132,
+      "id": "db_EventInfo:114739:1",
+      "jp": "身体はもう大丈夫なのか？",
+      "en": "Are you feeling okay now?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97133,
+      "id": "db_EventInfo:114740:6",
+      "jp": "はい。おかげさまで",
+      "en": "Yes, much better, thanks to you.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97134,
+      "id": "db_EventInfo:114741:6",
+      "jp": "店長様たちに助けられなければ、私もきっと【『ゴブリン』】たちに……",
+      "en": "If you and the shopkeeper hadn't saved me, those Goblins would have...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97135,
+      "id": "db_EventInfo:114742:1",
+      "jp": "ポンタは……",
+      "en": "And Ponta...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97136,
+      "id": "db_EventInfo:114743:6",
+      "jp": "ポンタは私を庇って逃がしてくれました。私がもっと強ければ、ポンタを助けられたかも知れないのに……",
+      "en": "Ponta shielded me so I could escape. If I'd been stronger, maybe I could have saved him too...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97137,
+      "id": "db_EventInfo:114744:1",
+      "jp": "マリーゼル……",
+      "en": "Marisel...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97138,
+      "id": "db_EventInfo:114745:2",
+      "jp": "これからどうするデス？",
+      "en": "So, what now?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97139,
+      "id": "db_EventInfo:114746:6",
+      "jp": "ポンタを失った今、私はもう冒険者をする理由がありません",
+      "en": "Now that Ponta is gone, I have no reason to keep being an adventurer.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97140,
+      "id": "db_EventInfo:114747:6",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】に戻って、修行をやり直そうと思いますわ",
+      "en": "I think I'll go back to the Hyperio Church and start my training over.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97141,
+      "id": "db_EventInfo:114748:2",
+      "jp": "何言ってるデスか……うかつな事をほざくと死ぬデスよ？",
+      "en": "What are you saying, dummy? Talk carelessly and you'll die, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97142,
+      "id": "db_EventInfo:114749:2",
+      "jp": "とにかく、せっかく助かったデスから、しばらくうちで働くデス",
+      "en": "Anyway, you're safe now, so you're going to work here for a while.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97143,
+      "id": "db_EventInfo:114750:2",
+      "jp": "デスデス",
+      "en": "Desu Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97144,
+      "id": "db_EventInfo:114751:6",
+      "jp": "私が、ですか？",
+      "en": "Me?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97145,
+      "id": "db_EventInfo:114752:2",
+      "jp": "オマエからは力を感じるデス。私たちのために力を尽くせデス",
+      "en": "I can feel power from you. You must use your strength for us.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97146,
+      "id": "db_EventInfo:114753:6",
+      "jp": "で、でも、私は力不足で、そのせいでポンタも……",
+      "en": "B-but, I'm not strong enough. Because of that, Ponta...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97147,
+      "id": "db_EventInfo:114754:2",
+      "jp": "やかましいデス。命を助けてやった恩を返さないつもりデス？",
+      "en": "Shut up. You don't plan to repay me for saving your life?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97148,
+      "id": "db_EventInfo:114755:6",
+      "jp": "あう……",
+      "en": "Eep...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 97149,
+      "id": "db_EventInfo:114756:1",
+      "jp": "こらこら",
+      "en": "Hey hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97150,
+      "id": "db_EventInfo:114757:1",
+      "jp": "その、この店はとにかく人手不足だからさ。冒険者として雇うわけでもないんだ",
+      "en": "Look, this shop is short on hands anyway. We're not hiring you as an adventurer.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9501,
+  "range_end": 9525,
+  "pairs": [
+    {
+      "n": 9501,
+      "id": "rem_37223",
+      "jp": "コウモリのベリー煮込み",
+      "en": "Bat Berry Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9502,
+      "id": "rem_37224",
+      "jp": "蛇肉を塩蔵した後に乾燥させた干し肉。人間界でも親しまれている魔界料理。",
+      "en": "Dried meat made from snake, cured in salt. A demon realm dish beloved even in the human world.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9503,
+      "id": "rem_37225",
+      "jp": "スネークベーコン",
+      "en": "Snake Bacon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9504,
+      "id": "rem_37226",
+      "jp": "成形した甘味バーにバタフライの鱗粉を振りかけた、キラキラ光るスイーツ系魔界料理。食後に解毒しないと幸せな夢を見てしまう。",
+      "en": "A sparkly sweet demon realm dish—shaped sweet bars sprinkled with butterfly scales. Must detox after eating or you'll see happy dreams.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9505,
+      "id": "rem_37227",
+      "jp": "鱗粉ハニーパウダー焼き",
+      "en": "Scale Dust Honey Powder Bake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9506,
+      "id": "rem_37228",
+      "jp": "スパイダーの好むリンゴの果実を丸ごと使用し、ぷるぷるした弾力のゼリーに成形した。わざわざリンゴの形にしなくても良かったのでは？",
+      "en": "Made by shaping spider-preferred apple fruit into a firm, wobbly jelly. Did it really need to be apple-shaped?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9507,
+      "id": "rem_37229",
+      "jp": "スパイダーアップルゼリー",
+      "en": "Spider Apple Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9508,
+      "id": "rem_37230",
+      "jp": "フラワーの魔物を取り入れた、栄養満点の魔界カップスープ。咲き乱れる花の香りが漂う。",
+      "en": "A nutritious demon realm cup soup featuring flower monsters, giving off a blossoming floral scent.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9509,
+      "id": "rem_37231",
+      "jp": "ぽかぽかフラワースープ",
+      "en": "Warm Flower Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9510,
+      "id": "rem_37232",
+      "jp": "ワームの肉のいいところを選んで焼いた魔界料理。軽く塩を振って食べると、リーズナブルに腹を満たせる。冒険者にも人気の一品。",
+      "en": "A demon realm dish made by grilling choice cuts of worm meat. Lightly salted, it's a popular, filling meal for adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9511,
+      "id": "rem_37233",
+      "jp": "ワームグリル",
+      "en": "Worm Grill",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9512,
+      "id": "rem_37234",
+      "jp": "ウシノシシのステーキを豪快に焼き上げ、熟成ミルクで作ったチーズをのせた豪快スタミナ魔界料理。",
+      "en": "A hearty stamina-boosting demon realm dish—boldly grilled Ushinoshishi steak topped with cheese from aged milk.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9513,
+      "id": "rem_37235",
+      "jp": "ウシノシシオンザチーズ",
+      "en": "Ushinoshishi on the Cheese",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9514,
+      "id": "rem_37236",
+      "jp": "ファングの極上肉を薄く切り、野菜と共に盛りつけた一皿。並の店ではメインの一皿になってもおかしくない高級品。",
+      "en": "Thin-sliced premium Fang meat served with vegetables. A high-class dish fit for a main course.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9515,
+      "id": "rem_37237",
+      "jp": "霜降りファング盛り合わせ",
+      "en": "Marbled Fang Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9516,
+      "id": "rem_37238",
+      "jp": "甘味と肉汁が爆発する、魔界で人気のむっちり肉料理。ただしキャタピラーを倒せるのは魔界でも一握りの勇士か、強大な魔族のみ。",
+      "en": "A popular demon realm dish bursting with sweetness and meat juices. Only a handful of heroes or powerful demons can defeat a Caterpillar.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9517,
+      "id": "rem_37239",
+      "jp": "極上グリルキャタピラ",
+      "en": "Premium Grilled Caterpillar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9518,
+      "id": "rem_37240",
+      "jp": "魔界の希少果実をふんだんに取り入れた一皿。ベーコンスライスと一緒に食べると心身共に回復する。",
+      "en": "A dish packed with rare demon realm fruits. Paired with bacon, it restores both body and mind.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9519,
+      "id": "rem_37241",
+      "jp": "魔界果実ソテー",
+      "en": "Demon Realm Fruit Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9520,
+      "id": "rem_37242",
+      "jp": "魔界の甘味を詰め込んだキャンディボックス。魔族の女の子もスイーツが大好きで、特別に欲しがる者もいるとか。",
+      "en": "A candy box filled with demon realm sweets. Demon girls love sweets, and some even crave them specially.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9521,
+      "id": "rem_37243",
+      "jp": "お化けキャンディ",
+      "en": "Ghost Candy",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9522,
+      "id": "rem_37244",
+      "jp": "ゼカリウスベリーと魔性のベリー果汁を合わせて作ったソースで味を調えたゼリー。材料の一部にスライムを含むところが魔界流らしい。",
+      "en": "A jelly flavored with a sauce made from Zecarius berries and demonic berry juice. Its inclusion of slime as an ingredient is classic underworld style.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9523,
+      "id": "rem_37245",
+      "jp": "ゼカリウス魔界ゼリー",
+      "en": "Zecarius Underworld Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9524,
+      "id": "rem_37246",
+      "jp": "素朴な甘味と果実の風味が生きる、魔界では珍しい優しい味。原材料の一部に乳を含むらしいが、何の乳なのだろうか",
+      "en": "A rare gentle flavor in the underworld, featuring a simple sweetness and fruitiness. Contains some milk, but what kind?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9525,
+      "id": "rem_37247",
+      "jp": "ナチュラルスイートプリン",
+      "en": "Natural Sweet Pudding",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

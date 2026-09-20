@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6476,
+  "range_end": 6500,
+  "pairs": [
+    {
+      "n": 6476,
+      "id": "rem_34095",
+      "jp": "【<src>】の[ゲートオブルーラー]！",
+      "en": "【<src>】's [Gate of the Ruler]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6477,
+      "id": "rem_34096",
+      "jp": "仲間を率いて窮地から脱出する。敵から、かなりの確率で逃走することが可能になる。危険地帯を進む上での切り札的なスキル。",
+      "en": "Leads allies to escape a dire situation. Greatly increases escape chance. A trump card for navigating danger zones.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6478,
+      "id": "rem_34097",
+      "jp": "逃走成功率アップ[+80%]",
+      "en": "Escape Success Up [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6479,
+      "id": "rem_34098",
+      "jp": "熟練の販売能力を発揮し、アイテムを本来の価値以上のぼったくり金額で売りつけることができる。にもかかわらず、売られた側も幸せそう。",
+      "en": "Uses expert sales skills to sell items at outrageous markups. Strangely, the buyers seem happy.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6480,
+      "id": "rem_34099",
+      "jp": "接客による売上[+40%]",
+      "en": "Sales from Service [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6481,
+      "id": "rem_34100",
+      "jp": "相手の手傷を狙って攻撃する。クリティカルヒットの威力が高まる。本来非力な戦闘者であっても、その一撃は必殺の一撃と化す。",
+      "en": "Aim for the enemy's wounds to strike. Greatly increases critical hit power. Even a weak combatant can turn this strike into a fatal blow.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6482,
+      "id": "rem_34101",
+      "jp": "クリティカルのダメージ[+50%]",
+      "en": "Critical damage [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6483,
+      "id": "rem_34102",
+      "jp": "エルフィードならではの超感覚で先制攻撃を仕掛ける。先制で放たれた矢は、敵の部隊を消耗した状態で戦闘を開始させる。",
+      "en": "With an Elfeed's unique extrasensory perception, strikes first. Arrows fired preemptively force the enemy unit to start battle in a weakened state.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6484,
+      "id": "rem_34103",
+      "jp": "矢雨による先制ダメージ[+40%]",
+      "en": "Preemptive arrow rain damage [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6485,
+      "id": "rem_34104",
+      "jp": "海賊女帝の生き写しのアーマニーと、転生を繰返した海竜であるネルディーネは同族にも等しい関係である。それを証明するかのように、互いにレベルを共有できる。",
+      "en": "Armany, the spitting image of the Pirate Empress, and Neldine, a sea dragon who has reincarnated many times, are as close as kin. As if to prove this, they can share their levels.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6486,
+      "id": "rem_34105",
+      "jp": "レベル同期・アーマニー/ネルディーネと同じに",
+      "en": "Level Sync - Match Armany/Neldine's level",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6487,
+      "id": "rem_34106",
+      "jp": "戦い向きの性格ではないキャトリナが、本来備わっていた戦闘力を解放する。性格に反した能力のため、秘められても発動することはなかった。",
+      "en": "Catrina, whose nature is not suited for battle, unleashes her inherent combat power. This ability, contrary to her personality, remained hidden and never activated.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6488,
+      "id": "rem_34107",
+      "jp": "CT回復(中) + 【自分】に【逆鱗】を付与 (物理ダメージ[+50%] + クリティカル率[+100%])",
+      "en": "CT recovery (medium) + Grants 【self】 【Wrath】 (Physical damage [+50%] + Critical rate [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6489,
+      "id": "rem_34108",
+      "jp": "【<src>】は封じていた殺意を解放した！",
+      "en": "【<src>】 has unleashed their suppressed killing intent!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6490,
+      "id": "rem_34109",
+      "jp": "神の見えざる手、『聖女』の『奇跡』であるゴッドハンドのリミッターを解除する。破壊の力に呑まれた『聖女』は闇に染まる宿命だが、彼女なら抗えるはず。",
+      "en": "Remove the limiter on Godhand, the invisible hand of God, the 'Saintess's' 'Miracle'. The 'Saintess' swallowed by destructive power is fated to be tainted by darkness, but she should be able to resist.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6491,
+      "id": "rem_34110",
+      "jp": "ゴッドハンドのダメージ[+100%]",
+      "en": "Godhand damage [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6492,
+      "id": "rem_34111",
+      "jp": "聖女のみが放てる禁断のスキル。神の威を借りる不可視の手は、悪を葬る超強力なスキル。後で教会への寄進を請求されそう。",
+      "en": "A forbidden skill only the Saintess can unleash. Borrowing the authority of God, the invisible hand is a super-powerful skill that eradicates evil. They'll probably ask for a donation to the church later.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6493,
+      "id": "rem_34112",
+      "jp": "範囲(大)攻撃 威力[A] +  命中[70%] + 必殺率[+30%] + 【聖属性】 + 回避(小)",
+      "en": "Large area attack Power[A] + Hit[70%] + Critical rate[+30%] + 【Holy element】 + Small evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6494,
+      "id": "rem_34113",
+      "jp": "【<src>】の[ゴッドハンド]！",
+      "en": "【<src>】's [Godhand]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6495,
+      "id": "rem_34114",
+      "jp": "エリオルダが自ら封印していた、エルフィードの秘奥義。世界樹の化身を場に顕現させ、その守護により、パーティーに強力な生命力をもたらす。神弓の使用を補助するスキル。",
+      "en": "The hidden ultimate technique of the Elfeed, which Eliorda had sealed away herself. Manifests the avatar of the World Tree on the field, and through its protection, grants the party powerful vitality. A skill that aids in using the Divine Bow.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6496,
+      "id": "rem_34115",
+      "jp": "CT回復(小) + MP回復(小) + 【仲間】に【霊樹】を付与 (ターンごとにMP回復[+10%] + 四属性ダメージ[+30%])",
+      "en": "CT recovery (small) + MP recovery (small) + Grants 【allies】 【Spirit Tree】 (MP recovery per turn [+10%] + Four-elemental damage [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6497,
+      "id": "rem_34116",
+      "jp": "【<src>】は世界樹の化身を顕現させた！",
+      "en": "【<src>】 has manifested the avatar of the World Tree!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6498,
+      "id": "rem_34117",
+      "jp": "教会が秘匿する究極のスキル。怪我をした事実を「なかったこと」にして、蘇生させる。死者を蘇らせるとすら言われる『奇跡』であり、使用には『神』の許可が必要になる。",
+      "en": "The ultimate skill hidden by the church. 'Makes the fact of injury 'never have happened' and revives. A 'Miracle' said to even resurrect the dead; using it requires God's permission.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6499,
+      "id": "rem_34118",
+      "jp": "蘇生 + HP回復(特大)",
+      "en": "Revive + HP recovery (extra large)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6500,
+      "id": "rem_34119",
+      "jp": "【<src>】は[リザレクション]を使用した",
+      "en": "【<src>】 used [Resurrection]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

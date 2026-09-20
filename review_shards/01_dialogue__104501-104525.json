@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104501,
+  "range_end": 104525,
+  "pairs": [
+    {
+      "n": 104501,
+      "id": "db_EventInfo:123610:1",
+      "jp": "うん",
+      "en": "Yep.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104502,
+      "id": "db_EventInfo:123611:12",
+      "jp": "なんで図書館を作ってるんです！？",
+      "en": "Then why are you building a full-blown library!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104503,
+      "id": "db_EventInfo:123612:1",
+      "jp": "俺も最初は小屋を作って保管しようとしたんだけど、中途半端な建物だと書物が傷むとかなんとか。適した建物が必要とカリストたちに説得されて……",
+      "en": "At first, I wanted to make a shed to store them, but Callisto and the others convinced me. They said books would get damaged in a half-built place. A proper building was needed.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104504,
+      "id": "db_EventInfo:123613:12",
+      "jp": "魔女どものために図書館を作るとは……いいんですか？",
+      "en": "You're building a library... for witches? Is that okay?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104505,
+      "id": "db_EventInfo:123614:1",
+      "jp": "いやぁ、古文書をどうにかしないと仕事をサボりそうだし。文書自体には価値がありそうだったから",
+      "en": "Well, I'll slack off if I don't deal with these old books. The documents themselves seemed valuable, so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104506,
+      "id": "db_EventInfo:123615:12",
+      "jp": "仕方がありませんね……私も古文書自体には興味はありますし。実際に贈られたものは価値があるモノが多いです。ヘタに売るより有用でしょう",
+      "en": "It can't be helped... I'm also interested in the old documents themselves. The ones given as gifts are often valuable. It's more useful than selling them off.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104507,
+      "id": "db_EventInfo:123616:12",
+      "jp": "もともとは【『ロオン遺跡調査団』】が研究していたものですし、彼らにも立ち入りを許可しても構いませんか？",
+      "en": "Originally, these were researched by the 'Loon Ruins Investigation Team'. Can we allow them entry as well?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104508,
+      "id": "db_EventInfo:123617:1",
+      "jp": "それは問題ない。【『<ruby=ソルシア>学院</ruby>』】にもそのことを伝えよう",
+      "en": "That's no problem. Let's also tell the 'Solsia Academy' about that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104509,
+      "id": "db_EventInfo:123618:12",
+      "jp": "高く売りつけられそうなんですけどね。まあいいです",
+      "en": "We could probably sell it to them for a high price. Oh well, it's fine.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104510,
+      "id": "db_EventInfo:123621:0",
+      "jp": "その後、建築した図書館には、なぜか各地の古文書が集まるようになってしまった。",
+      "en": "After that, for some reason, old documents from all over started gathering at the built library.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104511,
+      "id": "db_EventInfo:123622:0",
+      "jp": "保管場所に困った文書や、研究中の文書など、様々な組織が所有していた文書が、なぜかうちの図書館に集まってしまっていた。",
+      "en": "Documents people didn't know where to store, ones under research... All sorts of documents owned by various organizations ended up at our library somehow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104512,
+      "id": "db_EventInfo:123623:12",
+      "jp": "……あちこちの組織に献金していた成果でしょうか",
+      "en": "...Is this the result of our donations to various organizations?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104513,
+      "id": "db_EventInfo:123624:1",
+      "jp": "おかげで本好きのカリストとオーレリアが仕事を休む頻度が増えた気がする……",
+      "en": "Thanks to that, I feel like Callisto and Aurelia, the book lovers, are skipping work more often...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104514,
+      "id": "db_EventInfo:123625:0",
+      "jp": "もっともちゃんと仕事はしてくれるようで。しっかりと成果としては【『錬金』】の商品としてフィードバックはしてくれた。",
+      "en": "Although it seems they are still doing their jobs properly. It fed back nicely as a product for 'Alchemy' as a solid result.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104515,
+      "id": "db_EventInfo:123627:109",
+      "jp": "【<pl>】様、【『ロオン遺跡調査団』】のことなのですが",
+      "en": "Master 【<pl>】, about the 『Roon Ruins Investigation Team』...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104516,
+      "id": "db_EventInfo:123628:109",
+      "jp": "長期的な調査発掘を行うため、大規模な基地建設と恒久雇用をお願いできませんか？",
+      "en": "To conduct long-term investigation and excavation, could we request the construction of a large-scale base and permanent employment?",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104517,
+      "id": "db_EventInfo:123629:1",
+      "jp": "うん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104518,
+      "id": "db_EventInfo:123630:2",
+      "jp": "食い扶持が増えるデス",
+      "en": "That means more mouths to feed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104519,
+      "id": "db_EventInfo:123631:109",
+      "jp": "ううっ……",
+      "en": "Ugh...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104520,
+      "id": "db_EventInfo:123632:2",
+      "jp": "遺跡調査はカネにならないデス？　ならないから、カネに困るデス",
+      "en": "Ruins investigation doesn't make money, right? Since it doesn't, we'll have money problems.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104521,
+      "id": "db_EventInfo:123633:109",
+      "jp": "ううっ……そうなのですが、そうなので……",
+      "en": "Ugh... that's true, it is...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104522,
+      "id": "db_EventInfo:123634:2",
+      "jp": "これまでも資金援助はそうとうしてるデス。自立できない組織は潰れるしかないデス？",
+      "en": "We've already provided quite a lot of financial aid. An organization that can't stand on its own should just die out, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104523,
+      "id": "db_EventInfo:123636:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】からの資金援助は安いですからね",
+      "en": "Funding from the 『Sorsia Academy』 is cheap, you know.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104524,
+      "id": "db_EventInfo:123637:12",
+      "jp": "ゼカリウス地方は遺跡の宝庫、発掘しても発掘しても足りないほどです",
+      "en": "The Zecarius region is a treasure trove of ruins. No matter how much we dig, it's never enough.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104525,
+      "id": "db_EventInfo:123638:109",
+      "jp": "もっと大規模で長期的な発掘をするためにも、ぜひとも長期的な援助を……！",
+      "en": "To conduct a much larger, long-term excavation, we really need long-term assistance...!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    }
+  ]
+}

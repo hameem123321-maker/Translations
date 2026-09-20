@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9001,
+  "range_end": 9025,
+  "pairs": [
+    {
+      "n": 9001,
+      "id": "rem_36723",
+      "jp": "細かく刻んだ肉と一緒に炊き上げ、ハーブを乗せた軽やかなリゾット。",
+      "en": "A light risotto cooked with finely chopped meat, topped with herbs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9002,
+      "id": "rem_36724",
+      "jp": "風舞うハーブリゾット",
+      "en": "Herb Risotto with Fluttering Breeze",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9003,
+      "id": "rem_36725",
+      "jp": "異邦から伝わる、米を柔らかく握り、魚介の切り身を乗せた料理。新鮮な海の幸が採れるゼカリウスならではの料理として、冒険者が珍しがって食べていく。",
+      "en": "A dish from foreign lands: soft-packed rice topped with sliced seafood. A Zecarius specialty, made with the freshest catch, prized by adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9004,
+      "id": "rem_36726",
+      "jp": "なんちゃってスシ",
+      "en": "Not-Quite-Sushi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9005,
+      "id": "rem_36727",
+      "jp": "炊き上げた米の中心に塩蔵した果実を握り込み、乾燥させた海藻でぐるりと巻いた料理。手軽に食べやすいうえ、腐敗し辛い。",
+      "en": "Rice cooked and packed around a salted fruit center, rolled in dried seaweed. Easy to eat and slow to spoil.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9006,
+      "id": "rem_36728",
+      "jp": "梅肉海苔巻き",
+      "en": "Salted Plum Seaweed Roll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9007,
+      "id": "rem_36729",
+      "jp": "様々な香辛料や野菜、獣肉を煮込んだソースと米を合わせた料理。ピリリとした辛さに、思わず食が進む。",
+      "en": "Rice mixed with a sauce of various spices, vegetables, and meat. The spicy kick makes you eat more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9008,
+      "id": "rem_36730",
+      "jp": "スパイシーソースライス",
+      "en": "Spicy Sauce Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9009,
+      "id": "rem_36731",
+      "jp": "おにぎりに濃厚な味わいのソースを塗り、焼いたもの。ゼカリウス地方の人間でも好まれるような、濃い味付けがされている。",
+      "en": "Rice ball coated in a rich sauce and grilled. Has a strong flavor even Zecarius locals enjoy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9010,
+      "id": "rem_36732",
+      "jp": "焼いたおにぎり",
+      "en": "Grilled Rice Ball",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9011,
+      "id": "rem_36733",
+      "jp": "オーブンで焼き上げた、とろけるチーズと米のグラタン。食欲がわく美味しさ。",
+      "en": "A rice gratin baked in the oven with melting cheese. Delicious and appetizing.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9012,
+      "id": "rem_36734",
+      "jp": "ライスグラタン",
+      "en": "Rice Gratin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9013,
+      "id": "rem_36735",
+      "jp": "異邦から伝わる珍しい料理『スシ』の一種。ネタとして、ゼカリウスの海で採れた名状しがたき海産物を使用した。なにか深淵から覗かれている気がする。",
+      "en": "A rare 'sushi' variant from foreign lands. Uses indescribable seafood from Zecarius's seas. Feels like something from the abyss is watching.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9014,
+      "id": "rem_36736",
+      "jp": "コズミックスシ",
+      "en": "Cosmic Sushi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9015,
+      "id": "rem_36737",
+      "jp": "ご飯とおかずが一体となった、抱き合わせ料理。柔らかく焼き上げた獣肉は最高級の物を使用し、米の握りも職人の手による最高級品。",
+      "en": "A combined dish of rice and side. Uses premium, tenderly grilled meat and hand-pressed rice by a master.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9016,
+      "id": "rem_36738",
+      "jp": "おにぎりバーガー",
+      "en": "Rice Ball Burger",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9017,
+      "id": "rem_36739",
+      "jp": "動物の皮を加工して作った冒険者向けの水筒。耐久力もそれなりだが、皮でできているため、たまに漏れる。",
+      "en": "A canteen for adventurers, made from processed animal hide. Fairly durable, but may leak occasionally.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9018,
+      "id": "rem_36740",
+      "jp": "冒険者向け水筒",
+      "en": "Adventurer's Canteen",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9019,
+      "id": "rem_36741",
+      "jp": "動物の皮を加工して作った冒険者向けのカバン。小さい金具を加工するなど、加工もそれなりに手間が掛かっている。",
+      "en": "A bag for adventurers, made from processed animal hide. Even the small metal fittings require some effort to craft.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9020,
+      "id": "rem_36742",
+      "jp": "冒険者向けバッグ",
+      "en": "Adventurer's Bag",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9021,
+      "id": "rem_36743",
+      "jp": "遺跡発掘者や鉱山で働くものに必須なツルハシ。壊れにくいことを重視している。",
+      "en": "Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9022,
+      "id": "rem_36744",
+      "jp": "発掘用ツルハシ",
+      "en": "Excavation Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9023,
+      "id": "rem_36745",
+      "jp": "周囲に自分の居場所や危険を伝達する為の小型の高音発生器。一息に吹けば甲高い音を周囲に響き渡らせる。",
+      "en": "Field Whistle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9024,
+      "id": "rem_36746",
+      "jp": "フィールドホイッスル",
+      "en": "Field Whistle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9025,
+      "id": "rem_36747",
+      "jp": "動物の皮を加工して作った冒険者向けのカバン。整理しやすいように仕切りを用意されており、薬品が割れないように注意を払われた作り。耐久力も高い。",
+      "en": "Quality Adventurer's Bag",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

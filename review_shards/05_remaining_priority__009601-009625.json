@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9601,
+  "range_end": 9625,
+  "pairs": [
+    {
+      "n": 9601,
+      "id": "rem_37323",
+      "jp": "伝統薬壺",
+      "en": "Traditional Medicine Jar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9602,
+      "id": "rem_37324",
+      "jp": "小さな炎症や細菌対策に使う消毒液。傷口を清潔に保つ他、大規模な医療行為の際には欠かせない。",
+      "en": "Disinfectant for minor inflammation and bacteria. Keeps wounds clean and is essential for large-scale medical procedures.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9603,
+      "id": "rem_37325",
+      "jp": "消毒用強力アルコール",
+      "en": "Strong Disinfectant Alcohol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9604,
+      "id": "rem_37326",
+      "jp": "一本の注射で数日間元気になる栄養薬品。食事がとれない者にも直接栄養を注入できる。健常者が使うと元気になり過ぎて眠れなくなる。",
+      "en": "An injection providing days of vigor. Injects nutrients directly for those who can't eat. Too energizing for healthy people, causing sleeplessness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9605,
+      "id": "rem_37327",
+      "jp": "エネルアンプル",
+      "en": "Ener-Ampoule",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9606,
+      "id": "rem_37328",
+      "jp": "不眠気味の人が飲むとよく眠れる青いポーション。元々は永眠させるほどの効能を持っていたが、強力過ぎる効果を弱める事で、適切な薬効を発揮させた。",
+      "en": "A blue potion that helps those prone to insomnia sleep well. Originally strong enough to induce eternal sleep, its potency was reduced for safe, effective use.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9607,
+      "id": "rem_37329",
+      "jp": "鎮静ハーブポーション",
+      "en": "Sedative Herb Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9608,
+      "id": "rem_37330",
+      "jp": "ウィルチ考案のやけど・腫れ・ひどい虫刺されなどに効く強力軟膏。元々は天空の霊峰で採取した霊草を使っていたが、数多の薬草を配合する事で同等の効果を発揮した。",
+      "en": "A powerful ointment by Wilche for burns, swelling, and severe insect bites. Uses a blend of herbs matching the original's spiritual peak herb efficacy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9609,
+      "id": "rem_37331",
+      "jp": "薬草クリームEX",
+      "en": "Herbal Cream EX",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9610,
+      "id": "rem_37332",
+      "jp": "かぐわしい香りを長く纏う、良い香りのする香り袋。配合によって紅茶の香りや花の香りに変化する。",
+      "en": "A fragrant sachet with a long-lasting, pleasant scent. The blend can produce tea or floral aromas.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9611,
+      "id": "rem_37333",
+      "jp": "ふんわり香気ポプリ",
+      "en": "Soft-Scented Potpourri",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9612,
+      "id": "rem_37334",
+      "jp": "髪に塗ると光沢が増す美容ポーション。貴族の舞踏会で人気。",
+      "en": "A beauty potion that adds shine to hair. Popular at noble balls.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9613,
+      "id": "rem_37335",
+      "jp": "きらめき髪つやシロップ",
+      "en": "Glitter Hair Gloss Syrup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9614,
+      "id": "rem_37336",
+      "jp": "液体自体が発熱している美容液。手に塗ると軽い温感が長時間続き、保温効果が高い。ウィルチ考案にしては安全性が高く、珍しくセグルメット聖薬会の審査を一度で通過した。",
+      "en": "A warming beauty liquid. Provides gentle, lasting warmth when applied to hands, with high heat retention. Surprisingly safe for a Wilche creation, it passed the Seglumet Saint Medicine Council review on the first try.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9615,
+      "id": "rem_37337",
+      "jp": "ほのかに温まる薬液",
+      "en": "Gently Warming Medicinal Liquid",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9616,
+      "id": "rem_37338",
+      "jp": "顔に塗ると肌がぷるぷるになる保湿ポーション。魔力を練り込んだ成分は水分保持が強い。",
+      "en": "A moisturizing potion that makes skin plump and dewy. Magic-infused ingredients offer strong moisture retention.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9617,
+      "id": "rem_37339",
+      "jp": "お肌しっとりクリーム",
+      "en": "Moist Skin Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9618,
+      "id": "rem_37340",
+      "jp": "飲むと息が爽快になるポーション。冒険にはあまり役に立たないが、口内の清潔を保つ効果もある為、生存には重要。",
+      "en": "A potion that freshens breath upon drinking. Not very useful for adventure, but vital for survival due to its oral hygiene benefits.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9619,
+      "id": "rem_37341",
+      "jp": "息スッキリポーション",
+      "en": "Breath Freshener Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9620,
+      "id": "rem_37342",
+      "jp": "枕に垂らすとひんやりした感覚を与え、睡眠の質が若干アップする。寒い地方では見向きもされないが、南方のサージ地方では重宝されている。",
+      "en": "Dropped on a pillow, it provides a cool sensation, slightly improving sleep quality. Unpopular in cold regions but prized in the southern Surge region.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9621,
+      "id": "rem_37343",
+      "jp": "ひんやり快眠ミスト",
+      "en": "Chilly Sleep Mist",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9622,
+      "id": "rem_37344",
+      "jp": "薬液を塗った品物が数日の間、塗った部分が光り輝くポーション。来客前に見栄えさせる為のポーションだが、盗人に当てれば動かぬ証拠になる。",
+      "en": "Applied item glows for days. Used to freshen goods for guests, but can also mark thieves.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9623,
+      "id": "rem_37345",
+      "jp": "ふわっと光沢ポーション",
+      "en": "Gloss Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9624,
+      "id": "rem_37346",
+      "jp": "一本飲むと、数日の間声が澄んで響くようになるポーション。歌を生業にする人間がいつも追い求めている。",
+      "en": "A drink to make your voice clearer for days. Sought by singers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9625,
+      "id": "rem_37347",
+      "jp": "音声残響ポーション",
+      "en": "Vocal Echo Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

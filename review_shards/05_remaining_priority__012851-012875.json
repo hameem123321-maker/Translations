@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12851,
+  "range_end": 12875,
+  "pairs": [
+    {
+      "n": 12851,
+      "id": "rem_43938",
+      "jp": "異邦の発酵豆",
+      "en": "Foreign Fermented Beans",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12852,
+      "id": "rem_43939",
+      "jp": "聖水に添加物を加え、ハデハデになったネルディーネ考案商品。清純な聖水が台無しだが、見た目のインパクトで買い求められる。",
+      "en": "Holy water jazzed up with additives, a product of Neldine's design. Ruins its purity, but bought for its visual impact.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12853,
+      "id": "rem_43940",
+      "jp": "オーロラの聖水",
+      "en": "Aurora Holy Water",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12854,
+      "id": "rem_43941",
+      "jp": "サージ地方原産のハーブと糖類で味付けされた、甘い炭酸水。製法が秘密で、輸入すると高かったらしいが、とある大富豪がゼカリウスに通い始めた頃から安価になった。",
+      "en": "Sweet carbonated water flavored with herbs and sugar from the Sage region. Import was expensive until a certain tycoon started visiting Zecarius, making it cheap.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12855,
+      "id": "rem_43942",
+      "jp": "サージの瓶詰めコーラ",
+      "en": "Sage Bottled Cola",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12856,
+      "id": "rem_43943",
+      "jp": "錠剤になったドリンク剤。現在の技術では精製コストが高く量産できないが、その効能は抜群。これを求め、大金を積む者もいるらしい。",
+      "en": "A drink condensed into pill form. Production costs are high, but its effects are outstanding, sought after by those willing to pay a fortune.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12857,
+      "id": "rem_43944",
+      "jp": "結晶化エネルギン",
+      "en": "Crystallized Energin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12858,
+      "id": "rem_43945",
+      "jp": "サージ王宮に伝えられる。なぜか『ケモミミ』が好む酒。サージの王族に『ケモミミ』の血が入っている証拠と、闇で囁かれる切っ掛けとなったいわくつき。",
+      "en": "A liquor from the Sage royal palace, oddly favored by 'Kemomimi'. Fueled dark whispers about 'Kemomimi' blood in the Sage royalty.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12859,
+      "id": "rem_43946",
+      "jp": "サージの王宮カクテル",
+      "en": "Sage Royal Palace Cocktail",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12860,
+      "id": "rem_43947",
+      "jp": "呪いを跳ね返す。シズハとクレハが夜なべして書かされている呪符。かなり上級の術まで対応可能。",
+      "en": "Repels curses. A talisman Shizuha and Kureha are forced to write overnight. Effective against quite high-level spells.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12861,
+      "id": "rem_43948",
+      "jp": "一家に安心呪詛返し",
+      "en": "Family Curse Repellent",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12862,
+      "id": "rem_43949",
+      "jp": "異邦の退魔術師が操る使い魔。戦う力は低いため、ペットとして人気。",
+      "en": "A familiar used by foreign exorcists. Low combat ability makes it a popular pet.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12863,
+      "id": "rem_43950",
+      "jp": "異邦巫女のマスコット",
+      "en": "Foreign Priestess Mascot",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12864,
+      "id": "rem_43951",
+      "jp": "これをかけると相手が理想の異性に見える洗脳がかかる。効果は一晩継続し、熱い夜を過ごす為に欠かせないらしい。",
+      "en": "Brainwashes the wearer to see others as ideal partners. Lasts one night, essential for a passionate evening.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12865,
+      "id": "rem_43952",
+      "jp": "理想の幻想メガネ",
+      "en": "Ideal Fantasy Glasses",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12866,
+      "id": "rem_43953",
+      "jp": "はめていると段々ペニスが大きく堅くなっていく、らしい。『淫魔』による奴隷調教道具のエコノミー版。",
+      "en": "Makes the penis grow larger and harder. The budget version of a succubus's slave-training tool.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12867,
+      "id": "rem_43954",
+      "jp": "男性器強化リング",
+      "en": "Male Enhancement Ring",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12868,
+      "id": "rem_43955",
+      "jp": "オートリレイズが一定時間かかるポーション。一定時間で消えてしまうので強迫観念に駆られ、常飲してしまう者が後を絶たない。まさか効果が無いということは……。",
+      "en": "A potion with a delayed auto-revive. Users obsessively drink it before its short effect fades. Surely it's not useless...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12869,
+      "id": "rem_43956",
+      "jp": "リレイズポーション",
+      "en": "Revive Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12870,
+      "id": "rem_43957",
+      "jp": "一定時間、超強力な毒耐性を得ることができる。危険な瘴気うずまく場所に向かう冒険者に愛用されており、高額でも欲しがる者は多い。",
+      "en": "Grants powerful poison resistance for a time. Beloved by adventurers in toxic areas and highly sought after.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12871,
+      "id": "rem_43958",
+      "jp": "超強力アンチポイズン",
+      "en": "Super Potent Anti-Poison",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12872,
+      "id": "rem_43959",
+      "jp": "本物に似せて作られた金貨やジュエルにそっくりのスイーツ菓子。本物そっくりすぎて本物と見分けがつかない……。",
+      "en": "Sweets shaped exactly like gold coins and jewels. So realistic they're indistinguishable from the real thing...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12873,
+      "id": "rem_43960",
+      "jp": "食べられるカネ",
+      "en": "Edible Money",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12874,
+      "id": "rem_43961",
+      "jp": "スイーツ本体ではなく、入れ物の方にコストをかけた贈呈用スイーツ。王侯貴族の手土産として人気。",
+      "en": "A luxury gift sweet, prized more for its container. Popular as a noble's souvenir.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12875,
+      "id": "rem_43962",
+      "jp": "ジュエリーチョコレート",
+      "en": "Jewelry Chocolate",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

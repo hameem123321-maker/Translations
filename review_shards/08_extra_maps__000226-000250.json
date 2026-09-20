@@ -1,0 +1,158 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 226,
+  "range_end": 250,
+  "pairs": [
+    {
+      "n": 226,
+      "id": "extra_ui_0226",
+      "jp": "独占",
+      "en": "Desire"
+    },
+    {
+      "n": 227,
+      "id": "extra_ui_0227",
+      "jp": "オマエに対する不満のなさデス。常に少しずつ下がっていき、エッチをすると増えるデス。嫉妬しやすいヤツほど下がりやすくなるデス。下がりすぎると仕事しなくなるデス",
+      "en": "How un-unhappy they are with you. Always ticks down; H fills it. Jealous types drop faster. Too low and they stop working."
+    },
+    {
+      "n": 228,
+      "id": "extra_ui_0228",
+      "jp": "H能力・満足度",
+      "en": "H: Satisfaction"
+    },
+    {
+      "n": 229,
+      "id": "extra_ui_0229",
+      "jp": "満足",
+      "en": "Satis."
+    },
+    {
+      "n": 230,
+      "id": "extra_ui_0230",
+      "jp": "エッチの好きさ。この値が高いとやがて淫乱なムスメになるデス。\\n【(モブユニットのみのステータスです)】",
+      "en": "How much they like H. High enough and they turn lewd.\\n【(Mob units only)】"
+    },
+    {
+      "n": 231,
+      "id": "extra_ui_0231",
+      "jp": "H能力・H好き",
+      "en": "H: Likes H"
+    },
+    {
+      "n": 232,
+      "id": "extra_ui_0232",
+      "jp": "H好き",
+      "en": "Likes H"
+    },
+    {
+      "n": 233,
+      "id": "extra_ui_0233",
+      "jp": "総合的なエッチの上手さデス。この値が高いほど搾精効率が高まり、たくさん搾り取るデス。搾精量が多ければ「搾精売上」も伸びるデス",
+      "en": "Overall H skill. Higher milking efficiency, more take, more milking sales."
+    },
+    {
+      "n": 234,
+      "id": "extra_ui_0234",
+      "jp": "H能力・搾精力",
+      "en": "H: Milking"
+    },
+    {
+      "n": 235,
+      "id": "extra_ui_0235",
+      "jp": "搾精",
+      "en": "Milk"
+    },
+    {
+      "n": 236,
+      "id": "extra_ui_0236",
+      "jp": "総合的なエッチの頻度デス。この値が高いほどエッチを多く実行するデス。つまりはたくさん搾精する機会に恵まれるデス",
+      "en": "How often they do H. Higher means more sessions, so more milking chances."
+    },
+    {
+      "n": 237,
+      "id": "extra_ui_0237",
+      "jp": "H能力・H頻度",
+      "en": "H: Frequency"
+    },
+    {
+      "n": 238,
+      "id": "extra_ui_0238",
+      "jp": "頻度",
+      "en": "Freq."
+    },
+    {
+      "n": 239,
+      "id": "extra_ui_0239",
+      "jp": "前衛に立って敵のダメージを受け止めるチームロールデス。『HP』『被ターゲット率』がアップするデス",
+      "en": "Frontline tank role. Raises 'HP' and 'aggro'."
+    },
+    {
+      "n": 240,
+      "id": "extra_ui_0240",
+      "jp": "ロール・盾役",
+      "en": "Role: Tank"
+    },
+    {
+      "n": 241,
+      "id": "extra_ui_0241",
+      "jp": "物理攻撃でダメージを発生させることを求められるチームロールデス。『攻撃』がアップするデスが、『魔攻』がダウンするデス",
+      "en": "Physical damage role. Raises 'ATK', lowers 'MATK'."
+    },
+    {
+      "n": 242,
+      "id": "extra_ui_0242",
+      "jp": "ロール・戦力",
+      "en": "Role: Combat"
+    },
+    {
+      "n": 243,
+      "id": "extra_ui_0243",
+      "jp": "魔術による攻撃でダメージを発生させることを求められるチームロールデス。『MP』『魔攻』がアップするデスが、『HP』『攻撃』『速度』がダウンするデス",
+      "en": "Magic damage role. Raises 'MP' and 'MATK', lowers 'HP', 'ATK', and 'SPD'."
+    },
+    {
+      "n": 244,
+      "id": "extra_ui_0244",
+      "jp": "ロール・魔術",
+      "en": "Role: Magic"
+    },
+    {
+      "n": 245,
+      "id": "extra_ui_0245",
+      "jp": "回復スキルで仲間を支援することを求められるチームロールデス。『回復HP』と戦闘終了後の『MP』回復量がアップするデスが、『HP』『攻撃』『魔攻』がダウンするデス",
+      "en": "Healer role. Raises HP heal and post-battle MP recover, lowers 'HP', 'ATK', and 'MATK'."
+    },
+    {
+      "n": 246,
+      "id": "extra_ui_0246",
+      "jp": "ロール・回復",
+      "en": "Role: Heal"
+    },
+    {
+      "n": 247,
+      "id": "extra_ui_0247",
+      "jp": "探索することを求められるチームロールデス。『トレジャー』獲得による『開発ポイント』がアップするデス。また、『速度』『連撃』がアップして、『HP』がダウンするデス",
+      "en": "Explore role. More development points from treasure. Raises 'SPD' and 'Combo', lowers 'HP'."
+    },
+    {
+      "n": 248,
+      "id": "extra_ui_0248",
+      "jp": "ロール・探索",
+      "en": "Role: Explore"
+    },
+    {
+      "n": 249,
+      "id": "extra_ui_0249",
+      "jp": "オマエだけに割り当てられる部門デス。サボらずちゃんと仕切るデスよ",
+      "en": "The department only you get. Don't slack — run the place."
+    },
+    {
+      "n": 250,
+      "id": "extra_ui_0250",
+      "jp": "経営部門",
+      "en": "Manage dept"
+    }
+  ]
+}

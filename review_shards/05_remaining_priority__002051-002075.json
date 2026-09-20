@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2051,
+  "range_end": 2075,
+  "pairs": [
+    {
+      "n": 2051,
+      "id": "rem_27626",
+      "jp": "敵から受けるダメージに影響するデス。相手の攻撃に耐えるよりは、攻撃を高めてさっさと倒す方が楽デスが、相手の数が多すぎたらそんなこと言えないデス",
+      "en": "Affects damage taken from enemies. It's easier to raise your Attack and finish fights quickly than just endure hits. But you can't say that if there are too many enemies",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2052,
+      "id": "rem_27627",
+      "jp": "防御",
+      "en": "Defense",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2053,
+      "id": "rem_27628",
+      "jp": "攻撃の命中率に影響するデス。攻撃ミスが目立つようなら、高めておくが良いデス",
+      "en": "Affects your attack accuracy. If you're missing a lot, it's good to raise this",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2054,
+      "id": "rem_27629",
+      "jp": "命中",
+      "en": "Accuracy",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2055,
+      "id": "rem_27630",
+      "jp": "敵から受ける攻撃の回避率に影響するデス",
+      "en": "Affects your chance to evade enemy attacks",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2056,
+      "id": "rem_27631",
+      "jp": "回避",
+      "en": "Evasion",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2057,
+      "id": "rem_27632",
+      "jp": "クリティカルヒットの発生率に影響するデス",
+      "en": "Affects the chance of landing a critical hit",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2058,
+      "id": "rem_27633",
+      "jp": "必殺",
+      "en": "Critical",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2059,
+      "id": "rem_27634",
+      "jp": "行動の優先度が高まるデス、先制攻撃で相手の数を減らせば、被害を減らすことができるデス。また、相手の速度を下回ると命中率が下がり、上回ると追撃しやすくなるデス",
+      "en": "Increases action priority. A preemptive strike reduces enemy numbers and damage taken. Also, being slower lowers your accuracy, while being faster makes follow-up attacks easier",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2060,
+      "id": "rem_27635",
+      "jp": "速度",
+      "en": "Speed",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2061,
+      "id": "rem_27636",
+      "jp": "敵からのダメージを受けられる合計デス。前衛キャラはもちろん、後衛キャラもたまには高めておくデス",
+      "en": "Total HP, which can take enemy damage. Not just for frontline characters, but rear guards should also boost it sometimes.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2062,
+      "id": "rem_27637",
+      "jp": "消耗するスキルの使用回数に影響するデス。スキルをばんばん撃つにはたくさんのMPが必要なのデス",
+      "en": "Affects skill usage count before depletion. You need a lot of MP to fire off skills like crazy.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2063,
+      "id": "rem_27638",
+      "jp": "魔術攻撃で与えるダメージに影響するデス。魔術攻撃は大勢をまとめて相手できる攻撃が多いデス。魔術を使わないなら不要デス",
+      "en": "Affects damage dealt by magic attacks. Many magic attacks can hit multiple enemies at once. Not needed if you don't use magic.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2064,
+      "id": "rem_27639",
+      "jp": "魔攻",
+      "en": "MATK",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2065,
+      "id": "rem_27640",
+      "jp": "魔術攻撃から受けるダメージに影響するデス。優先度は低めデスが、レベルが高まったら、ちょっとぐらいは上げたいデス",
+      "en": "Affects damage taken from magic attacks. Priority is low, but when your level is high, you'll want to raise it a bit.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2066,
+      "id": "rem_27641",
+      "jp": "魔防",
+      "en": "MDEF",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2067,
+      "id": "rem_27642",
+      "jp": "ダブルアタックが発生する確率に影響するデス",
+      "en": "Affects the chance of a Double Attack occurring.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2068,
+      "id": "rem_27643",
+      "jp": "追撃力",
+      "en": "Follow-up ATK",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2069,
+      "id": "rem_27644",
+      "jp": "エッチな攻撃に耐えられる合計デス",
+      "en": "Total HP able to withstand lewd attacks.",
+      "table": "db_UnitCharaBattlerStatus",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2070,
+      "id": "rem_27645",
+      "jp": "主人公Lv0(村人)",
+      "en": "Ren Lv0 (Villager)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2071,
+      "id": "rem_27646",
+      "jp": "シイネ",
+      "en": "Shiine",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2072,
+      "id": "rem_27647",
+      "jp": "マリーゼル",
+      "en": "Marisel",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2073,
+      "id": "rem_27648",
+      "jp": "ルーシェ",
+      "en": "Lusche",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2074,
+      "id": "rem_27649",
+      "jp": "ポンタ",
+      "en": "Ponta",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2075,
+      "id": "rem_27650",
+      "jp": "主人公Lv1(剣士)",
+      "en": "Ren Lv1 (Swordsman)",
+      "table": "db_UnitCharaBattler",
+      "category": "remaining_table"
+    }
+  ]
+}

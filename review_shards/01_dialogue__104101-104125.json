@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104101,
+  "range_end": 104125,
+  "pairs": [
+    {
+      "n": 104101,
+      "id": "db_EventInfo:123102:2",
+      "jp": "とにかく要点を言えデス",
+      "en": "Just get to the point, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104102,
+      "id": "db_EventInfo:123103:15",
+      "jp": "引き抜きだ",
+      "en": "Poaching.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104103,
+      "id": "db_EventInfo:123104:1",
+      "jp": "引き抜き？",
+      "en": "Poaching?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104104,
+      "id": "db_EventInfo:123105:15",
+      "jp": "【『ゼカリウス自警団』】が近頃、かなり力を付けていてね。勢力を広げて他組織のメンバーを強引に引き抜いているようなんだ",
+      "en": "The 'Zecarius Vigilante Group' has gained a lot of power lately. They're expanding and forcibly poaching members from other groups.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104105,
+      "id": "db_EventInfo:123106:15",
+      "jp": "そして引き抜いたメンバーを集めて、過剰なほどの武具を揃えたり、付近に傭兵みたいな活動を始めているそうなんだよ",
+      "en": "They gather the poached members, equip them with excessive gear, and have started acting like mercenaries in the area.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104106,
+      "id": "db_EventInfo:123107:1",
+      "jp": "なんでそんなことに",
+      "en": "Why would they do that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104107,
+      "id": "db_EventInfo:123108:15",
+      "jp": "かなり潤沢な資金が集まっているから、使い道に困ってるんじゃないのかい？",
+      "en": "We've gathered quite a lot of money. Aren't you worried about how to use it?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104108,
+      "id": "db_EventInfo:123109:2",
+      "jp": "オマエが投資しすぎたせいデスかね",
+      "en": "Maybe that's because you invested too much, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104109,
+      "id": "db_EventInfo:123110:1",
+      "jp": "うっ",
+      "en": "Ugh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104110,
+      "id": "db_EventInfo:123111:15",
+      "jp": "とにかく民間が武力を持ちすぎると危険だ。どうにかしないとね",
+      "en": "Anyway, it's dangerous if civilians have too much military power. We need to do something.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104111,
+      "id": "db_EventInfo:123112:2",
+      "jp": "引き抜かないように説得するのデスね",
+      "en": "So we need to persuade them not to poach people, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104112,
+      "id": "db_EventInfo:123115:2",
+      "jp": "説得は上手く行ったようデス",
+      "en": "The persuasion seems to have gone well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104113,
+      "id": "db_EventInfo:123116:15",
+      "jp": "【『自警団』】の人たちも頭を冷やしたみたいで、自分たちの武装が過剰になっていることを改めるみたいだ",
+      "en": "The 『Vigilante Group』 people have calmed down too. They're going to fix their excessive armament.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104114,
+      "id": "db_EventInfo:123117:2",
+      "jp": "うむ、やはり最後にモノをいうのは暴力デスね",
+      "en": "Hmm, in the end, violence is what settles things, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104115,
+      "id": "db_EventInfo:123120:2",
+      "jp": "説得は上手く行ったようデス",
+      "en": "The persuasion seems to have gone well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104116,
+      "id": "db_EventInfo:123121:15",
+      "jp": "【『自警団』】の人たちを説得できたようだけど……",
+      "en": "Looks like we managed to persuade the 『Vigilante Group』 people...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104117,
+      "id": "db_EventInfo:123122:15",
+      "jp": "やはり、武力が無ければ物事は解決しないと、意識を強くしてしまったようだ",
+      "en": "But they seem to have gotten the strong idea that without force, nothing gets solved.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104118,
+      "id": "db_EventInfo:123123:2",
+      "jp": "むむ、頭の固い奴らデス",
+      "en": "Hmm, stubborn folks, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104119,
+      "id": "db_EventInfo:123124:2",
+      "jp": "暴力をこえるパワー、それは金の力デスね",
+      "en": "The power that beats violence... that's the power of money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104120,
+      "id": "db_EventInfo:123125:2",
+      "jp": "説得はうまく行ったようデス",
+      "en": "Looks like the persuasion worked.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104121,
+      "id": "db_EventInfo:123126:15",
+      "jp": "【『自警団』】でも発言力の強い人間を狙い撃ちして懐柔して、統率を揺るがせることに成功したよ",
+      "en": "We targeted and won over some influential people in the Vigilante Group, and succeeded in shaking their leadership.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104122,
+      "id": "db_EventInfo:123127:15",
+      "jp": "組織というものは統率が乱れると脆いものだからね",
+      "en": "When an organization's leadership gets messed up, it becomes fragile.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104123,
+      "id": "db_EventInfo:123128:15",
+      "jp": "【『ゴブリン』】や魔獣の脅威が広がっている。自衛意識を弱めることは難しいみたいだ",
+      "en": "The threats from Goblins and magical beasts are growing. It seems hard to weaken their self-defense mindset.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104124,
+      "id": "db_EventInfo:123129:15",
+      "jp": "【『自警団』】の人たちが武装組織になっていくのは、とめられないかもしれないね……",
+      "en": "Maybe we can't stop the Vigilante Group folks from becoming a full-on armed force...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104125,
+      "id": "db_EventInfo:123130:2",
+      "jp": "なかなか難しいデスね",
+      "en": "It's quite tricky.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

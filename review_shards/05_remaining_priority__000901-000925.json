@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 901,
+  "range_end": 925,
+  "pairs": [
+    {
+      "n": 901,
+      "id": "rem_01288",
+      "jp": "渓流に生息する淡水魚。川に大量に生息しており、人々の貴重な食糧源となっている。",
+      "en": "A freshwater fish found in streams. They thrive in rivers and serve as an important food source for people.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 902,
+      "id": "rem_01289",
+      "jp": "淡水の小魚",
+      "en": "Freshwater Small Fish",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 903,
+      "id": "rem_01290",
+      "jp": "岩ではなく砂地に生息する二枚貝。その身は小ぶりだが、スープのダシを取るのに人気。",
+      "en": "A small bivalve that lives on sandy bottoms, not rocks. Popular for making soup stock.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 904,
+      "id": "rem_01291",
+      "jp": "小ぶりな二枚貝",
+      "en": "Small Bivalve",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 905,
+      "id": "rem_01292",
+      "jp": "岩に張り付いている貝。硬い殻を剥がすと、プリプリの身が姿を現す。",
+      "en": "A shellfish that clings to rocks. Inside its hard shell lies a plump, firm body.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 906,
+      "id": "rem_01293",
+      "jp": "貝殻付き岩貝",
+      "en": "Shelled Rock Clam",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 907,
+      "id": "rem_01294",
+      "jp": "調味料に漬け込んだ魚卵。味が濃く、酒場のツマミに人気。",
+      "en": "Fish eggs marinated in seasoning. Their strong flavor makes them a popular tavern snack.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 908,
+      "id": "rem_01295",
+      "jp": "魚卵盛り合わせ",
+      "en": "Assorted Fish Roe",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 909,
+      "id": "rem_01296",
+      "jp": "漁獲された魚の食用には適さない部分。しかしカリカリに焼き上げたり、酒に着ければ独特の味わいが得られる。",
+      "en": "The inedible parts of a fish. When grilled crisp or soaked in liquor, they offer a unique taste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 910,
+      "id": "rem_01297",
+      "jp": "魚のヒレ",
+      "en": "Fish Fin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 911,
+      "id": "rem_01298",
+      "jp": "糖分を多く含む、植物の実。集めて煮込めば、甘さを味わうことができる。",
+      "en": "A plant fruit high in sugar. Boiling a batch yields a sweet flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 912,
+      "id": "rem_01299",
+      "jp": "甘い植物の実",
+      "en": "Sweet Plant Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 913,
+      "id": "rem_01300",
+      "jp": "海水を沸騰させて水分を飛ばし、抽出した塩粒。",
+      "en": "Salt crystals extracted by boiling seawater to evaporate the moisture.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 914,
+      "id": "rem_01301",
+      "jp": "海水抽出塩粒",
+      "en": "Seawater Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 915,
+      "id": "rem_01302",
+      "jp": "近海の浜辺から取れた不純物の多い塩。処理を施すことで高品質な塩に変わる。",
+      "en": "Impure salt collected from nearby shores. Can be refined into high-quality salt.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 916,
+      "id": "rem_01303",
+      "jp": "味のする砂粒",
+      "en": "Flavorful Sand Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 917,
+      "id": "rem_01304",
+      "jp": "使用済みの油を集め、濾過して再使用可能にした油脂類。専用に調整した油には及ばないが、味わいは得られる為、意外に使い勝手は良い。",
+      "en": "Used oil collected, filtered, and made reusable. Not as good as fresh oil, but still usable for flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 918,
+      "id": "rem_01305",
+      "jp": "リサイクルオイル",
+      "en": "Recycled Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 919,
+      "id": "rem_01306",
+      "jp": "牧場で育てられた鳥のたまご。生で食べても安心なように飼育されており、栄養価も高い。",
+      "en": "A farm-raised bird's egg. Bred to be safe to eat raw and high in nutrients.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 920,
+      "id": "rem_01307",
+      "jp": "牧場の新鮮たまご",
+      "en": "Farm Fresh Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 921,
+      "id": "rem_01308",
+      "jp": "冷えて固まった個体の乳脂肪。溶かせばミルキーな味わいは感じ取れるが、流石に味は一段落ちる。",
+      "en": "Solidified milk fat, chilled and firm. If melted, you can taste a milky flavor, but it's definitely a step down.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 922,
+      "id": "rem_01309",
+      "jp": "固形乳脂肪",
+      "en": "Solid Milk Fat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 923,
+      "id": "rem_01310",
+      "jp": "水分が抜けすぎてしまった硬いチーズ。食べれば乳製品独特の味わいは楽しめるが、いかんせん硬い。",
+      "en": "Cheese dried out and turned rock-hard. You can still taste the dairy, but it's just too hard.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 924,
+      "id": "rem_01311",
+      "jp": "かちかち穴あきチーズ",
+      "en": "Hard Hole-y Cheese",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 925,
+      "id": "rem_01312",
+      "jp": "ダンジョン内で発見されたチーズ。冒険者が作ったのだろうか？　作ってからかなりの時間が経過しており、非常に熟成されていて、意外な風味が……？",
+      "en": "Cheese discovered in a dungeon. Made by an adventurer? Aged for a very long time, it has an unexpected flavor...?",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

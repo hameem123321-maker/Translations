@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9426,
+  "range_end": 9450,
+  "pairs": [
+    {
+      "n": 9426,
+      "id": "rem_37148",
+      "jp": "やんごとなき姫君の間で愛食される、超高級菓子。優れた菓子職人によって作られるらしく、貴族に愛好されている。",
+      "en": "An ultra-premium confection beloved by noble princesses. Crafted by skilled patissiers and adored by the aristocracy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9427,
+      "id": "rem_37149",
+      "jp": "スターチョコレート",
+      "en": "Star Chocolate",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9428,
+      "id": "rem_37150",
+      "jp": "キラキラと輝く、スッキリした甘さのゼリー。魔法力を回復する効果もあるため、女性魔術師が求めるが、これを買えるのは、しっかりと稼いでいる凄腕だけ。",
+      "en": "A sparkling, refreshingly sweet jelly. It also restores magic power, making it sought after by female mages—though only top earners can afford it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9429,
+      "id": "rem_37151",
+      "jp": "レインボーゼリー",
+      "en": "Rainbow Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9430,
+      "id": "rem_37152",
+      "jp": "生地を薄く延ばして焼き上げ、ひんやりと冷却したクリームやフルーツを包み込んだ携帯スイーツ。歩きながらでも片手で食べられる手軽さが人気。",
+      "en": "A portable sweet: thin baked pastry wrapped around chilled cream or fruit. Popular for being easy to eat with one hand, even while walking.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9431,
+      "id": "rem_37153",
+      "jp": "クリスタルクレープ",
+      "en": "Crystal Crêpe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9432,
+      "id": "rem_37154",
+      "jp": "濃厚な味わいの虹色に輝くパフェ。食べるとエネルギーや魔法力を回復する効果がある最高級品。虹色に輝く豪華なスイーツは、全ての女の子が憧れる。",
+      "en": "A rich, rainbow-glowing parfait. Eating it restores energy and magic power. This luxurious, shimmering dessert is every girl's dream.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9433,
+      "id": "rem_37155",
+      "jp": "究極プリズムパフェ",
+      "en": "Ultimate Prism Parfait",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9434,
+      "id": "rem_37156",
+      "jp": "持ち主を災厄から守る魔術のお守り。契約者が危機に陥ると自動的に砕けて衝撃を受け止める。冒険者だけでなく、貴族の子息にも持たせる者も。",
+      "en": "A magical amulet that protects its owner from calamity. Shatters automatically to absorb an impact when the bearer is in peril. Used by adventurers and noble offspring alike.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9435,
+      "id": "rem_37157",
+      "jp": "マジックシンボル",
+      "en": "Magic Symbol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9436,
+      "id": "rem_37158",
+      "jp": "特殊な魔術結界により保護された貯金箱。魔獣の一撃にも耐えることができるといわれている……なお、貯金箱ごと盗まれることに対しては防御できない。",
+      "en": "A piggy bank protected by a special magical barrier. Said to withstand even a monster's blow... though it can't defend against someone stealing the whole box.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9437,
+      "id": "rem_37159",
+      "jp": "魔法の貯金箱",
+      "en": "Magic Piggy Bank",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9438,
+      "id": "rem_37160",
+      "jp": "一見ただのロウソクだが、ロウではなく魔術触媒によるロウソク。魔術が掛かっており数時間持続する。かなりの持続力を持っているため、学者にも愛用される。",
+      "en": "Looks like a normal candle, but it's made with a magical catalyst instead of wax. Enchanted to last for hours. Loved by scholars for its impressive longevity.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9439,
+      "id": "rem_37161",
+      "jp": "消えないロウソク",
+      "en": "Everlasting Candle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9440,
+      "id": "rem_37162",
+      "jp": "魔術師が休憩の際に使う嗜好品用のパイプ。魔術師本人の魔力と反応し、力が増幅すると言われている。",
+      "en": "A pipe used by mages for relaxation. Said to react with and amplify the user's own magical power.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9441,
+      "id": "rem_37163",
+      "jp": "魔術師のキセル",
+      "en": "Magician's Pipe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9442,
+      "id": "rem_37164",
+      "jp": "魔法のような反射率を誇る不思議な鏡。人間の目には見えない霊的な魔物を見たり、呪いを反射させることができる。鏡を見ながら戦うのは大変ではある。",
+      "en": "A strange mirror boasting magical reflectivity. It can see spiritual monsters invisible to the human eye and reflect curses. Fighting while looking into the mirror is tough, though.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9443,
+      "id": "rem_37165",
+      "jp": "マジックミラー",
+      "en": "Magic Mirror",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9444,
+      "id": "rem_37166",
+      "jp": "魔術が組み込まれた置物。魔力の結界が張られており、邪悪な霊や呪いから持ち主を守ってくれる。なにかと呪われやすい富裕層に好まれる。",
+      "en": "An ornament imbued with magic. A barrier of magical power protects the owner from evil spirits and curses. Popular among the wealthy, who are prone to being cursed.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9445,
+      "id": "rem_37167",
+      "jp": "プロテクトシンボル",
+      "en": "Protect Symbol",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9446,
+      "id": "rem_37168",
+      "jp": "魔力を注ぎ込んだ液体をゆっくりと気化させ、空間に良い香りと継続的なリラックス効果を付与する薬。魔術師の部屋で人気。",
+      "en": "A medicine that slowly vaporizes a liquid infused with magical power, imparting a pleasant fragrance and continuous relaxation effect to a space. Popular in magicians' rooms.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9447,
+      "id": "rem_37169",
+      "jp": "マナミスト",
+      "en": "Mana Mist",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9448,
+      "id": "rem_37170",
+      "jp": "内部に魔力を蓄えたオーブ。魔力の行使を補う為のものだが、迂闊に扱うと、内部の魔力が暴走し、破裂してしまう。",
+      "en": "An orb that stores magical power internally. Used to aid in the exercise of magical power, but if handled carelessly, the internal power can run wild and cause it to rupture.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9449,
+      "id": "rem_37171",
+      "jp": "魔力のオーブ",
+      "en": "Orb of Magical Power",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9450,
+      "id": "rem_37172",
+      "jp": "魔術が組み込まれた置物。契約者を癒す魔術が掛けられており、自室に置いているだけで健康促進、金運上昇、家内安全のすぐれもの。本当に効果があるのか？",
+      "en": "An ornament imbued with magic. Enchanted with healing magic for the contractor, simply placing it in your room promotes health, wealth, and household safety. Does it really work?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

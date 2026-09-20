@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6976,
+  "range_end": 7000,
+  "pairs": [
+    {
+      "n": 6976,
+      "id": "rem_34595",
+      "jp": "【<src>】は[ボルトアックス]を振り下ろした！",
+      "en": "【<src>】 swung down [Bolt Axe]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6977,
+      "id": "rem_34596",
+      "jp": "主人公のお気に入り認定をする。このスキルは一人にしか設定できず、習得すると他のヒロインのスキルは忘却される。何度でも変更できるので、お気に入り設定しよう。",
+      "en": "Designates Ren's favorite. This skill can be set for only one person; learning it will erase other heroines' skills. You can change it anytime, so set your favorite.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6978,
+      "id": "rem_34597",
+      "jp": "搾精による売上[+30%]",
+      "en": "Sales from essence extraction [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6979,
+      "id": "rem_34598",
+      "jp": "戦場を制圧する猛将の基本技。長柄の武器を振り回し、大勢の敵をまとめて相手することができる。単体の威力は低いが、雑魚はまとめて潰れる。",
+      "en": "A basic technique of a warlord dominating the battlefield. Swings a polearm to handle many enemies at once. Low single-target power, but clears out mobs in groups.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6980,
+      "id": "rem_34599",
+      "jp": "グループ攻撃 威力[B] +  命中[60%] + 【火属性】",
+      "en": "Group attack Power[B] + Accuracy[60%] + 【Fire Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6981,
+      "id": "rem_34600",
+      "jp": "【<src>】は[ブランディッシュ]で敵を薙ぎ払う！",
+      "en": "【<src>】 swings 【Brandish】 to cut down enemies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6982,
+      "id": "rem_34601",
+      "jp": "マジカルな力によって生み出されたステッキによって、敵をまとめてなぎ倒す。マジカルだが物理攻撃扱いである。",
+      "en": "Fells multiple enemies at once with a magically created stick. It's magical, but counts as a physical attack.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6983,
+      "id": "rem_34602",
+      "jp": "グループ攻撃 威力[A] +  命中[70%] + 【闇属性】 + 回避(小)",
+      "en": "Group Attack Power[A] + Hit[70%] + 【Dark】 + Evade(Small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6984,
+      "id": "rem_34603",
+      "jp": "【<src>】の[マジカル☆ステッキ]！",
+      "en": "【<src>】's 【Magical☆Stick】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6985,
+      "id": "rem_34604",
+      "jp": "仲間全員の分身を作り出し、それぞれ互いの攻撃に追従させる。全員のチェイススキルの威力が超大幅にアップする。",
+      "en": "Creates doppelgangers for all allies, each syncing with their attacks. Greatly boosts the power of everyone's Chase skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6986,
+      "id": "rem_34605",
+      "jp": "CT回復(小) + 【仲間】に【影分身++】を付与 (チェイススキルのダメージ[+100%])",
+      "en": "CT Recover(Small) + Grants 【Ally】 【Shadow Clone++】 (Chase skill damage[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6987,
+      "id": "rem_34606",
+      "jp": "【<src>】のマジカルなミラージュ☆",
+      "en": "【<src>】's Magical Mirage☆",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6988,
+      "id": "rem_34607",
+      "jp": "強大な魔力で雷電をスパークさせ、稲妻を放出する大魔術。破壊神の鉄槌とも呼ばれるその一撃は、城壁を容易く粉砕する。",
+      "en": "A great spell unleashing lightning sparks with immense magical power. Known as the Destroyer's hammer, it easily shatters castle walls.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6989,
+      "id": "rem_34608",
+      "jp": "単体攻撃 威力[A+] +  命中[70%] + 【雷属性】 + 防御貫通(大) + 禁呪暴走抑制 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single Attack Power[A+] + Hit[70%] + 【Lightning】 + Defense Pierce(Large) + Forbidden Spell Rampage Suppression + Grants 【Shock】 (Crit chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6990,
+      "id": "rem_34609",
+      "jp": "【<src>】は禁呪[トールハンマー]を発動させた！",
+      "en": "【<src>】 unleashed the forbidden spell 【Thor's Hammer】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6991,
+      "id": "rem_34610",
+      "jp": "様々な技能を身につけたことで、学習すること自体に熟練している。戦力増強のコストがダウンし、より多くのスキルを習得しやすくなる。最終的には他キャラクターと同じ習得数になる",
+      "en": "Mastery in learning itself from various acquired skills. Reduces the cost of powering up troops, making it easier to learn more skills. The final number learned equals other characters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6992,
+      "id": "rem_34611",
+      "jp": "能力開発の消費SP[-10%]",
+      "en": "Ability Development SP Cost[-10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6993,
+      "id": "rem_34612",
+      "jp": "自らの血に眠る大魔獣の血を呼び覚まし、暴れ回る。もともとの力をさらに増大させ、恐るべき怪力を発揮できるようになる。",
+      "en": "Awakens the blood of a great demon beast sleeping within, running wild. Further enhances original power to unleash terrifying strength.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6994,
+      "id": "rem_34613",
+      "jp": "【<src>】は自らの血を呼び起こした！",
+      "en": "【<src>】 awakened their own blood!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6995,
+      "id": "rem_34614",
+      "jp": "あらゆる怪我を治療する『聖女』の奇跡。およそ治せないものはない。回復能力も絶大で、さらに防御魔術で仲間を守り、CTも回復する。",
+      "en": "The miracle of the 'Saintess' that heals all wounds. Nothing it cannot cure. Immense healing power, plus protects allies with defensive magic and recovers CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6996,
+      "id": "rem_34615",
+      "jp": "HP回復(特大) + CT回復(小) + CT消費増加 + 【仲間】に【防御】を付与 (すべてのダメージ軽減率[+30%])",
+      "en": "HP Recover(Very Large) + CT Recover(Small) + Increased CT Cost + Grants 【Ally】 【Defense】 (All damage reduction[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6997,
+      "id": "rem_34616",
+      "jp": "【<src>】のリフレッシュ！",
+      "en": "【<src>】's Refresh!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6998,
+      "id": "rem_34617",
+      "jp": "野性的な生命力を高め、強力な自己再生力を得る。ＨＰが回復する上、復活効果も載る。非常に強力なスキル。",
+      "en": "Enhances wild vitality, gaining potent self-regeneration. Recovers HP and includes a revival effect. An extremely powerful skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6999,
+      "id": "rem_34618",
+      "jp": "HP回復(大) + 【自分】に【復活++】を付与 (戦闘不能時に自動復活[+100%] + ターンごとにHP回復[+20%])",
+      "en": "HP Recover(Large) + Grants 【Self】 【Revival++】 (Auto-revive on KO[+100%] + HP regen per turn[+20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7000,
+      "id": "rem_34619",
+      "jp": "【<src>】は[ケモミミの生命力]を使用した！",
+      "en": "【<src>】 used 【Kemomimi Vitality】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

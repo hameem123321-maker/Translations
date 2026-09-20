@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10001,
+  "range_end": 10025,
+  "pairs": [
+    {
+      "n": 10001,
+      "id": "rem_37723",
+      "jp": "魔術ダメージ軽減率+2%",
+      "en": "Magic Damage Reduction +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10002,
+      "id": "rem_37724",
+      "jp": "ザコへのダメージ+100%",
+      "en": "Damage to Mobs +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10003,
+      "id": "rem_37725",
+      "jp": "初回攻撃のダメージ+100%",
+      "en": "First Attack Damage +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10004,
+      "id": "rem_37726",
+      "jp": "格上とボスへのダメージ+50%",
+      "en": "Damage to Elites & Bosses +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10005,
+      "id": "rem_37727",
+      "jp": "能力開発の消費SP-1%",
+      "en": "Ability Dev. SP Cost -1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10006,
+      "id": "rem_37728",
+      "jp": "開発ポイント貯蔵上限+5000",
+      "en": "Development Point Cap +5000",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10007,
+      "id": "rem_37729",
+      "jp": "男性への売上+5%",
+      "en": "Sales to Males +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10008,
+      "id": "rem_37730",
+      "jp": "女性への売上+5%",
+      "en": "Sales to Females +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10009,
+      "id": "rem_37731",
+      "jp": "冒険者への売上+20%",
+      "en": "Sales to Adventurers +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10010,
+      "id": "rem_37732",
+      "jp": "生産者への売上+10%",
+      "en": "Sales to Producers +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10011,
+      "id": "rem_37733",
+      "jp": "能力開発の消費SP-10%",
+      "en": "Ability Dev. SP Cost -10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10012,
+      "id": "rem_37734",
+      "jp": "戦士や兵士への売上+10%",
+      "en": "Sales to Warriors/Soldiers +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10013,
+      "id": "rem_37735",
+      "jp": "一般人への売上+20%",
+      "en": "Sales to Civilians +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10014,
+      "id": "rem_37736",
+      "jp": "戦士や兵士への売上+20%",
+      "en": "Sales to Warriors/Soldiers +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10015,
+      "id": "rem_37737",
+      "jp": "チェイススキルのダメージ+80%",
+      "en": "Chase Skill Damage +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10016,
+      "id": "rem_37738",
+      "jp": "富裕層への売上+10%",
+      "en": "Sales to Wealthy +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10017,
+      "id": "rem_37739",
+      "jp": "犯罪値の上昇率-5%",
+      "en": "Crime Rate Increase -5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10018,
+      "id": "rem_37740",
+      "jp": "林業資源を使用した商品の売値+10%",
+      "en": "Price of Forestry Goods +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10019,
+      "id": "rem_37741",
+      "jp": "錬金CP+30%",
+      "en": "Alchemy CP +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10020,
+      "id": "rem_37742",
+      "jp": "錬金CP+60%",
+      "en": "Alchemy CP +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10021,
+      "id": "rem_37743",
+      "jp": "魔術資源を使用した商品の売値+10%",
+      "en": "Magic-based goods: +10% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10022,
+      "id": "rem_37744",
+      "jp": "軍需品タイプの売値+25%",
+      "en": "Military supplies: +25% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10023,
+      "id": "rem_37745",
+      "jp": "魚料理タイプの売値+25%",
+      "en": "Fish dishes: +25% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10024,
+      "id": "rem_37746",
+      "jp": "初回攻撃のダメージ+3%",
+      "en": "First attack damage +3%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10025,
+      "id": "rem_37747",
+      "jp": "錬金系商品の売値+5%",
+      "en": "Alchemy goods: +5% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

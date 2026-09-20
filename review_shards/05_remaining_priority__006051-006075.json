@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6051,
+  "range_end": 6075,
+  "pairs": [
+    {
+      "n": 6051,
+      "id": "rem_33670",
+      "jp": "【<src>】の[暴君デストロイ]！",
+      "en": "【<src>】 uses [Tyrant Destroy]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6052,
+      "id": "rem_33671",
+      "jp": "全体攻撃 威力[] +  [必中] + 【火属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + 【Sure Hit】 + 【Fire】 + Small Defense Penetration + Inflicts [Shock] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6053,
+      "id": "rem_33672",
+      "jp": "【<src>】の[にわかエクスプロージョン]！",
+      "en": "【<src>】 uses [Flash Explosion]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6054,
+      "id": "rem_33673",
+      "jp": "フィールドに、モンスターの弱点を突いた際の効果が増える結界を張る。弱点を突いた際のダメージが大きくアップする。",
+      "en": "Creates a field that enhances effects when targeting monster weaknesses. Greatly increases damage against weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6055,
+      "id": "rem_33674",
+      "jp": "【フィールド】に【ウィーク】を付与 (弱点へのダメージ[+30%])",
+      "en": "Grants【Field】【Weak Boost】 (Weakness Damage[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6056,
+      "id": "rem_33675",
+      "jp": "【<src>】は[ウィークブースト]を使用！",
+      "en": "【<src>】 uses [Weak Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6057,
+      "id": "rem_33676",
+      "jp": "全体攻撃 威力[] +  命中[70%] + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Inflicts [Stun] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6058,
+      "id": "rem_33677",
+      "jp": "【<src>】の[いのちごい]！",
+      "en": "【<src>】 uses [Life Siphon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6059,
+      "id": "rem_33678",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [妄想]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Group Attack: Potency[] + Hit[60%] + 【Dark】 + Debuff Focus + Inflicts [Delusion] (All Attack Damage -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6060,
+      "id": "rem_33679",
+      "jp": "【<src>】の[ハッピーミスト]！",
+      "en": "【<src>】 uses [Happy Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6061,
+      "id": "rem_33680",
+      "jp": "死神としての特権を使用し、戦闘不能になった味方を叩き起こし、さらに味方全体を中回復させる。本来死者蘇生は禁忌の魔術であるが、使っているのが『神』本人なので問題ない。",
+      "en": "Use Shinigami's privilege to revive downed allies and restore all allies' HP (Medium). Necromancy is forbidden, but it's fine since a 'God' is using it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6062,
+      "id": "rem_33681",
+      "jp": "蘇生 + HP回復(中) + 【仲間】に【復活】を付与 (戦闘不能時に自動復活[+100%])",
+      "en": "Revive + Heal HP (Med) + Grants 【Ally】 【Auto-Life】 (Auto-revive [+100%] when downed)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6063,
+      "id": "rem_33682",
+      "jp": "【<src>】の[オートリレイズ]！",
+      "en": "【<src>】's [Auto Reraise]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6064,
+      "id": "rem_33683",
+      "jp": "単体攻撃 威力[] +  命中[80%] + HP吸収(小) + 攻撃後パーティー回復",
+      "en": "Single Attack Power[] + Hit[80%] + HP Drain (Sml) + Heal Party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6065,
+      "id": "rem_33684",
+      "jp": "【<src>】の[飲み込む]！",
+      "en": "【<src>】's [Swallow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6066,
+      "id": "rem_33685",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 強制即死 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "All Attack Power[] + Hit[70%] + Crit Rate[+10%] + Instant Death + Inflict [Stun] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6067,
+      "id": "rem_33686",
+      "jp": "【<src>】は巨大な足で踏み潰してきた！",
+      "en": "【<src>】 is trying to crush you with a giant foot!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6068,
+      "id": "rem_33687",
+      "jp": "戦士が苦手とする、不定形な存在の弱点を突く攻撃術。魔術による攻撃を前提としているが、戦士が習得しても効果は発揮できる。",
+      "en": "A combat technique targeting the weakness of amorphous beings, which warriors struggle with. Primarily a magic attack, but still effective if mastered by a warrior.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6069,
+      "id": "rem_33688",
+      "jp": "不形タイプへのダメージ[+20%]",
+      "en": "Damage vs. Amorphous Type[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6070,
+      "id": "rem_33689",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 強制即死 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large Area Attack Power[] + Hit[70%] + Crit Rate[+10%] + Instant Death + Inflict [Stun] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6071,
+      "id": "rem_33690",
+      "jp": "【<src>】の[悪質タックル]！",
+      "en": "【<src>】's [Vicious Tackle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6072,
+      "id": "rem_33691",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【雷属性】 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large Area Attack Power[] + Hit[70%] + Crit Rate[+100%] + 【Lightning】 + Inflict [Paralyze] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6073,
+      "id": "rem_33692",
+      "jp": "【<src>】の[エレキアタック]！",
+      "en": "【<src>】's [Electric Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6074,
+      "id": "rem_33693",
+      "jp": "仲間が動きやすいように、わざと大仰に振る舞って突撃する。仲間を勝利に導き、戦闘を加速させる。",
+      "en": "Charges in with an exaggerated act to let allies move freely. Leads allies to victory and speeds up combat.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6075,
+      "id": "rem_33694",
+      "jp": "【仲間】に【加速】を付与 (ダブルアタック率[+50%])",
+      "en": "Grants 【Ally】 【Haste】 (Double Attack Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

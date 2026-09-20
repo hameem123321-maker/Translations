@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3351,
+  "range_end": 3375,
+  "pairs": [
+    {
+      "n": 3351,
+      "id": "rem_30970",
+      "jp": "マップのトレジャーオブジェクトの個数が【{0}%】の確率でアップ！",
+      "en": "Map treasure object count increased by 【{0}%】 chance!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3352,
+      "id": "rem_30971",
+      "jp": "技能レベルアップ時の必要ポイントが【{0}%】ダウン！",
+      "en": "Skill level-up points required reduced by 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3353,
+      "id": "rem_30972",
+      "jp": "男性エネミーに対するダメージが【+{0}%】アップ！",
+      "en": "Damage vs. Male enemies increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3354,
+      "id": "rem_30973",
+      "jp": "売春時の獲得マッカが【+{0}%】アップ！",
+      "en": "Earned Macca from prostitution increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3355,
+      "id": "rem_30974",
+      "jp": "追撃発生後、【{0}%】の確率で追加で行動可能になる",
+      "en": "After a follow-up, 【{0}%】 chance for another action",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3356,
+      "id": "rem_30975",
+      "jp": "すべての武器攻撃力が【+{0}】アップ！ + 最大強化でさらにアップ",
+      "en": "All weapon ATK increased by 【+{0}】! + More at max enhance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3357,
+      "id": "rem_30976",
+      "jp": "【不形タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs. 【Amorphous】 enemies 【+{0}%】 + Type match pierces some DEF",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3358,
+      "id": "rem_30977",
+      "jp": "デバフが【+{0}】ターン延長される(例外あり)",
+      "en": "Debuffs extended by 【+{0}】 turn(s) (exceptions)",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3359,
+      "id": "rem_30978",
+      "jp": "サポート効果が強化され、バフが【+{0}】ターン延長される(例外あり)",
+      "en": "Support effect boosted, buffs extended by 【+{0}】 turn(s) (exceptions)",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3360,
+      "id": "rem_30979",
+      "jp": "敵の魔術攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy magic attacks 【{0}%】 of the time",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3361,
+      "id": "rem_30980",
+      "jp": "敵の死属性攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy death attacks with a 【{0}%】 chance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3362,
+      "id": "rem_30981",
+      "jp": "敵の物理攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy physical attacks with a 【{0}%】 chance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3363,
+      "id": "rem_30982",
+      "jp": "【××タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "Attack power vs 【××-type】 enemies 【+{0}%】 + partial defense penetration on type match",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3364,
+      "id": "rem_30983",
+      "jp": "【水棲タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "Attack power vs 【Aquatic-type】 enemies 【+{0}%】 + partial defense penetration on type match",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3365,
+      "id": "rem_30984",
+      "jp": "パーティー全員の命中率が【+{0}%】アップ！",
+      "en": "Increases party hit rate by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3366,
+      "id": "rem_30985",
+      "jp": "仕入れる際のアイテム入手量が【{0}%】アップ！",
+      "en": "Increases item acquisition from procurement by 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3367,
+      "id": "rem_30986",
+      "jp": "戦闘不能時に常に復活",
+      "en": "Always revives when knocked out",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3368,
+      "id": "rem_30987",
+      "jp": "先制攻撃時、開始直後に××に攻撃を実行する",
+      "en": "On first strike, immediately attacks ×× at battle start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3369,
+      "id": "rem_30988",
+      "jp": "30ターン経過で強制敗北",
+      "en": "Forced defeat after 30 turns",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3370,
+      "id": "rem_30989",
+      "jp": "敵専用。マップオブジェクトが見えなくなり、接触すると先制。",
+      "en": "Enemy only. Hides map objects, contact triggers ambush.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3371,
+      "id": "rem_30990",
+      "jp": "【{0}%】の確率でスキルが暴走する。",
+      "en": "Skills may go haywire with a 【{0}%】 chance.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3372,
+      "id": "rem_30991",
+      "jp": "戦闘開始直後、【死霊タイプ】の敵のHPを【{0}%】ダウンさせる",
+      "en": "Reduces 【Undead-type】 enemy HP by 【{0}%】 at battle start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3373,
+      "id": "rem_30992",
+      "jp": "【魔鞭装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Whip】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3374,
+      "id": "rem_30993",
+      "jp": "【魔書装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Tome】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3375,
+      "id": "rem_30994",
+      "jp": "【魔扇装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Fan】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    }
+  ]
+}

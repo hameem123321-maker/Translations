@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 826,
+  "range_end": 850,
+  "pairs": [
+    {
+      "n": 826,
+      "id": "rem_00826",
+      "jp": "エネルフィの幼馴染みで、エルフィード族の暗殺者。暗殺の腕前は半端ではなく、かつて『暴君』の残機を減らしたほどの猛者。その腕を買われ、ヘレーリオの元で裏の仕事をしているとかしていないとか。",
+      "en": "Childhood friend of Enerphi and an assassin of the Elfid tribe. Her skill is unparalleled; she's the fierce warrior who once depleted the Tyrant's lives. Her talents are valued, and she may or may not do shady work under Helerio.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 827,
+      "id": "rem_00827",
+      "jp": "暗殺者エッシェル②",
+      "en": "Assassin Eshelle ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 828,
+      "id": "rem_00828",
+      "jp": "暗殺者エッシェル",
+      "en": "Assassin Eshelle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 829,
+      "id": "rem_00829",
+      "jp": "情報屋エルヴィオーネ①",
+      "en": "Information Broker Elvione ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 830,
+      "id": "rem_00830",
+      "jp": "エネルフィの幼馴染みで、エルフィード族の元高級娼婦。都落ちしてやさぐれていたが、誰かさんの精を受けたことで正気を取り戻した。ハニトラと籠絡の名手で、エネルフィたちと共に多くの商会を壊滅させ、勢力図を変えた。",
+      "en": "Childhood friend of Enerphi and a former high-class courtesan of the Elfid tribe. She fell from grace and became jaded, but regained her sanity after receiving someone's essence. A master of honey traps and seduction, she and Enerphi have ruined many guilds and shifted the power balance.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 831,
+      "id": "rem_00831",
+      "jp": "情報屋エルヴィオーネ②",
+      "en": "Information Broker Elvione ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 832,
+      "id": "rem_00832",
+      "jp": "情報屋エルヴィオーネ",
+      "en": "Information Broker Elvione",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 833,
+      "id": "rem_00833",
+      "jp": "新米魔女コレット①",
+      "en": "Apprentice Witch Colette ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 834,
+      "id": "rem_00834",
+      "jp": "大魔女クーデ・ウィルチの弟子であり、カリストとオーレリアに強い縁のある少女。戦闘能力は極めて低いが、やがては淫魔にとって革命的な薬を発明した、のちの大魔女であり、淫魔の因果を断ち切った革命の魔女。",
+      "en": "A disciple of the Great Witch Cude Wilch, a girl deeply connected to Callisto and Aurelia. Her combat skills are low, but she will later invent a revolutionary potion for succubi and become the Great Witch who severed their karmic chains—the Witch of Revolution.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 835,
+      "id": "rem_00835",
+      "jp": "新米魔女コレット②",
+      "en": "Apprentice Witch Colette ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 836,
+      "id": "rem_00836",
+      "jp": "新米魔女コレット",
+      "en": "Apprentice Witch Colette",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 837,
+      "id": "rem_00837",
+      "jp": "魔剣士ネルエーデ①",
+      "en": "Magic Swordswoman Nereede ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 838,
+      "id": "rem_00838",
+      "jp": "魔剣レベルイーターを操る、謎の女剣士。剣は触れると魂を吸い取る死神の鎌が形を変えたものだが、なぜか影響を受けない。【彼】の妻を自称しており、害すると見なした毒婦を蹴散らす。その判定は神経質で大雑把。",
+      "en": "A mysterious swordswoman who wields the soul-eating magic sword Level Eater. The sword is a transformed form of the Shinigami's soul-scythe, yet she remains unaffected. She claims to be 【his】 wife and drives away any poisonous woman she deems a threat. Her judgment is both neurotic and rough.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 839,
+      "id": "rem_00839",
+      "jp": "魔剣士ネルエーデ②",
+      "en": "Magic Swordswoman Nereede ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 840,
+      "id": "rem_00840",
+      "jp": "魔剣士ネルエーデ",
+      "en": "Magic Swordswoman Nereede",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 841,
+      "id": "rem_00841",
+      "jp": "大怪魚のオーラ",
+      "en": "Giant Fish Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 842,
+      "id": "rem_00842",
+      "jp": "魔触樹のオーラ",
+      "en": "Demon-Touch Tree Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 843,
+      "id": "rem_00843",
+      "jp": "食肉獣のオーラ",
+      "en": "Carnivorous Beast Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 844,
+      "id": "rem_00844",
+      "jp": "メイドのハヅキ(NM002)③",
+      "en": "Maid Hazuki (NM002) 3",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 845,
+      "id": "rem_00845",
+      "jp": "最果てのオーラ(英)②",
+      "en": "World's End Aura (EN) 2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 846,
+      "id": "rem_00846",
+      "jp": "最果てのオーラ(英)B①",
+      "en": "World's End Aura (EN) B1",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 847,
+      "id": "rem_00847",
+      "jp": "最果てのオーラ(英)B②",
+      "en": "World's End Aura (EN) B2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 848,
+      "id": "rem_00848",
+      "jp": "最果てのオーラ(英)C①",
+      "en": "World's End Aura (EN) C1",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 849,
+      "id": "rem_00849",
+      "jp": "最果てのオーラ(英)C②",
+      "en": "World's End Aura (EN) C2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 850,
+      "id": "rem_00850",
+      "jp": "最果ての強者たちの影②",
+      "en": "Shadows of the World's End Warriors 2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

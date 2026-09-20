@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13301,
+  "range_end": 13325,
+  "pairs": [
+    {
+      "n": 13301,
+      "id": "rem_48970",
+      "jp": "虹色の琥珀",
+      "en": "Rainbow Amber",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13302,
+      "id": "rem_48971",
+      "jp": "少量ですさまじい熱量を生み出す、生成された油。魔石を溶かして精製されたこの油は、次世代の燃料として研究されている。",
+      "en": "Synthetically produced oil that generates immense heat in small amounts. Refined by dissolving magic stones, it is researched as a next-generation fuel.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13303,
+      "id": "rem_48972",
+      "jp": "炎帝の魔石油",
+      "en": "Flame Emperor's Magic Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13304,
+      "id": "rem_48973",
+      "jp": "莫大な熱源を閉じ込めたコア。存在するだけで高温を放ち、叩き割ればすさまじい爆発を起こす。扱いには細心の注意が必要な最高級燃料。",
+      "en": "A core containing a massive heat source. It radiates intense heat simply by existing and causes a tremendous explosion if shattered. A top-grade fuel requiring utmost caution in handling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13305,
+      "id": "rem_48974",
+      "jp": "マナエーテルのコア",
+      "en": "Mana Aether Core",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13306,
+      "id": "rem_48975",
+      "jp": "神々が座す神界にあるという木の実。非常に稀少なうえ、取り扱いを誤るとすぐに腐る。しかし、その実に秘めた魔力は圧倒的。",
+      "en": "Said to be a fruit from the trees in the divine realm where gods reside. Extremely rare and rots quickly if mishandled. Yet, the magical power concealed within is overwhelming.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13307,
+      "id": "rem_48976",
+      "jp": "アンブロシア",
+      "en": "Ambrosia",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13308,
+      "id": "rem_48977",
+      "jp": "魔界植物が人間界で化石化した結晶。魔界の産物でありながら、独自の生態系を築いたと思しきこの植物は、魔術素材として多くの学者や魔術師が求めている。",
+      "en": "A crystal formed from a demon world plant fossilized in the human world. Though a product of the demon world, this plant, believed to have built its own ecosystem, is sought by many scholars and mages as magical material.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13309,
+      "id": "rem_48978",
+      "jp": "化石化した魔樹",
+      "en": "Fossilized Demon Tree",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13310,
+      "id": "rem_48979",
+      "jp": "聖地に降臨した神が、アワレな人類にもたらした慈悲の涙と言われている液体。信じればあらゆる難病を治療すると言われる。本人に聞いたら知らないと言われた。",
+      "en": "A liquid said to be the tear of compassion shed by a god who descended upon a holy land for pitiful humanity. Believers claim it cures all difficult diseases. When asked, the god said they didn't know about it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13311,
+      "id": "rem_48980",
+      "jp": "神の涙",
+      "en": "God's Tear",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13312,
+      "id": "rem_48981",
+      "jp": "魔界の大魔族から大勇者が採取した血液と言われている液体。真偽のほどは定かではないが、秘められた魔術の凄まじさは一定の説得力がある。",
+      "en": "A liquid rumored to be blood collected by a great Hero from a high-ranking demon of the demon world. Its authenticity is uncertain, but the terrifying magic it conceals holds a certain persuasive power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13313,
+      "id": "rem_48982",
+      "jp": "吸血鬼の血",
+      "en": "Vampire's Blood",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13314,
+      "id": "rem_48983",
+      "jp": "概念を捻じ曲げる力を持った、虹色に輝くハート型の宝石。精神と魂に干渉する程のエネルギーを扱える天才はほとんどいない。",
+      "en": "A rainbow-colored, heart-shaped gem possessing the power to distort concepts. Few geniuses can handle the level of energy capable of interfering with mind and soul.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13315,
+      "id": "rem_48984",
+      "jp": "虹色プリズムハート",
+      "en": "Rainbow Prism Heart",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13316,
+      "id": "rem_48985",
+      "jp": "強大な能力を秘めた魔物を貴重なエリクサーに着けて保存した魔術触媒。あまりに貴重なため、勿体なくて使えないという魔術師が続出している。",
+      "en": "A magical catalyst created by preserving a monster with formidable hidden abilities in precious elixir. So valuable that many mages can't bring themselves to use it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13317,
+      "id": "rem_48986",
+      "jp": "魔生物のエリクサー漬",
+      "en": "Monster Elixir Preserve",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13318,
+      "id": "rem_48987",
+      "jp": "夜を統べる魔界四天王の力が宿っていると噂される宝玉。途方もない存在が関与したはずなのだが、現代においては、これが何なのか、誰も覚えていない。",
+      "en": "A jewel rumored to hold the power of the Four Heavenly Kings who rule the night in the demon world. An unfathomable being must have been involved, yet in modern times, no one remembers what this is or where it came from.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13319,
+      "id": "rem_48988",
+      "jp": "常闇の宝玉",
+      "en": "Jewel of Eternal Dark",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13320,
+      "id": "rem_48989",
+      "jp": "異邦より伝わった平べったいコイン。ゼカリウスでは通貨として浸透していないが、シイネにとってはカネとして非常に価値を感じるらしい。",
+      "en": "A flat coin introduced from a foreign land. Not widely accepted as currency in Zecarius, but Shiine seems to value it highly as money.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13321,
+      "id": "rem_48990",
+      "jp": "異邦の黄金小判",
+      "en": "Exotic Gold Koban",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13322,
+      "id": "rem_48991",
+      "jp": "魔界からやって来た魔神の瞳と言われている眼球。真偽のほどは定かではないが、不気味な威圧感と感じる魔力は、常人には耐えがたいほど。",
+      "en": "An eyeball said to belong to a demon god from the demon world. Its authenticity is uncertain, but it exudes an eerie, oppressive magic unbearable for ordinary people.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13323,
+      "id": "rem_48992",
+      "jp": "悪魔の邪眼",
+      "en": "Demon's Evil Eye",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13324,
+      "id": "rem_48993",
+      "jp": "邪悪な幼体の死体。すでに息絶えて久しいが、まだ邪悪な力を感じられる。かつて島程の巨大さを誇ったという大魔族の物と言われるが真偽は不明。",
+      "en": "The corpse of an evil larva. Long dead, yet still pulsing with vile energy. Said to be from a great demon clan once boasting an island-sized form, but its truth is unknown.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13325,
+      "id": "rem_48994",
+      "jp": "魔蟲の幼体",
+      "en": "Demon Larvae",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10476,
+  "range_end": 10500,
+  "pairs": [
+    {
+      "n": 10476,
+      "id": "rem_11878",
+      "jp": "シェルフィでございます。これから<pl>様のために誠心誠意尽くさせていただきますねД　夜伽の方も所望でしたら、ご望みのままに……Д",
+      "en": "I am Shelfi. From now on, I shall serve you, <pl>-sama, with all my heart and soul Д If you desire night service as well, I shall be as you wish... Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10477,
+      "id": "rem_11879",
+      "jp": "フヒヒ……拾ってくれてありがとうございますぞ。といっても、自分はしがない作家の身、接客などは得意な方々にお任せして引きこもらせていただきとうござる",
+      "en": "Fuhehe... Thank you for picking me up. That said, I'm but a humble writer, so I'd like to leave the customer service to the capable ones and just hide away in my room, if I may.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10478,
+      "id": "rem_11880",
+      "jp": "<pl>様とシイネ様の熱いヘッドハンティングによって心を動かされ、この宿を別荘として住まわせていただくことになりました。これから宜しくお願いいたしますわД",
+      "en": "My heart was moved by <pl>-sama and Shiine-sama's passionate headhunting, and I have decided to let this inn serve as my villa. I look forward to working with you from now on Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10479,
+      "id": "rem_11881",
+      "jp": "不肖の弟子だけでは飽き足らず、ワシまで宿に招くとは。なかなか欲張りであるな。よかろう、ウィルチの名を冠する大魔女であるワシが、力を貸してやるぞД　といってもワシの叡智のほとんどはカリストに継がせている、期待しすぎも良くないぞい",
+      "en": "To invite not just my unworthy disciple, but even me to your inn... You're quite the greedy one, aren't you. Very well, I, the Great Witch bearing the name Wilch, shall lend you my power Д That said, most of my wisdom has been passed on to Callisto, so don't expect too much, hoh Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10480,
+      "id": "rem_11882",
+      "jp": "『勇者』として覚醒した俺の力が必要なら、いつでも頼ってくれ！　えー？　店番とかもやらないと行けないのか？　そういうのは他当たってくれよなぁ？",
+      "en": "If you need my power as an awakened 『Hero』, you can rely on me anytime! Huh? I gotta do stuff like shop duty too? Can't you get someone else for that kind of thing?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10481,
+      "id": "rem_11883",
+      "jp": "しがない村娘の身ではありますが、よろしくお願いいたします……",
+      "en": "I may be but a humble village girl, but please treat me well...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10482,
+      "id": "rem_11884",
+      "jp": "駆け出しの商人、ミーシャです！　噂の超新星大流行商人の<pl>さんの元で働けるなんて光栄だなぁ！　えへへ……ウマい話を沢山持って来ますからねっ",
+      "en": "I'm Misha, an up-and-coming merchant! It's an honor to work under you, <pl>-san, the rumored supernova mega-popular merchant! Ehehe... I'll bring you lots of sweet deals!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10483,
+      "id": "rem_11885",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』より参りました、リリエーヌと申します。<pl>様の元で働けること、光栄の至りですわ。全霊をもちまして、奉仕させていただきますわねД",
+      "en": "I am Lilienne, from the '<ruby=ヒエペリオ>Church</ruby>'. It is an honor to work under <pl>. I will serve with all my soulД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 10484,
+      "id": "rem_11886",
+      "jp": "ロオン遺跡調査団への支援ありがとうございます！　至らない身ではありますが、誠心誠意働かせていただきます！　で、ですから、今後の支援も続けていただければと……",
+      "en": "Thank you for supporting the Roon Ruin Survey Corps! I'm lacking, but I'll work with all my heart! S-so, if you could keep supporting us...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10485,
+      "id": "rem_11887",
+      "jp": "ゼカリウス自警団より参りました、ソルネッタと申します！　このたびは自警団絵の支援を感謝であります！　感謝の一環として、自分が派遣されました。<pl>殿の活動の助力になれれば光栄であります！",
+      "en": "I'm Solnetta, from the Zecarius Self-Defense Force! Thank you very much for your support of our Self-Defense Force! As part of our gratitude, I've been dispatched to assist you. It would be an honor to aid in <pl>'s activities!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10486,
+      "id": "rem_11888",
+      "jp": "私はパテラ。盗賊ギルドの若きエース……志望よ！　この私が来たからには、もう好きにはさせないわ。絶対に悪徳商売の証拠を見付けてみせる！",
+      "en": "I'm Patera. I'm the young ace... well, aspiring ace, of the Thieves Guild! Now that I'm here, I'm not letting you do as you please anymore. I'm absolutely going to find proof of your shady business!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10487,
+      "id": "rem_11889",
+      "jp": "冒険者のジャネットだ。この店はずっと利用してたけど、まさか直接そこで働くことになるとはねぇ。ま、よろしく頼むよ",
+      "en": "I'm Janet the adventurer. I've been using this store for a while, but I never thought I'd end up working here myself. Well, nice to meet ya.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10488,
+      "id": "rem_11890",
+      "jp": "冒険者のグレーテだよ。アタシの武器は手足だ。そんじょそこらの魔獣なんかには負けないと思ってたけど、油断しちゃったもんだねぇ。ま、調子が戻るまでこっちの宿で世話になるよ",
+      "en": "I'm Grete, the adventurer. My weapons are my hands and feet. I thought I wouldn't lose to some ordinary monster, but I got careless, huh. Well, I'll be taken care of at this inn until I get back in shape.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10489,
+      "id": "rem_11891",
+      "jp": "王立騎士団の駐屯許可、ありがとうございました！　私は代表ではありませんが、騎士団の使者でありパイプとして、宿に籍を置かせていただきますね。ええと、接客をすれば良いんですよね？　それ以上のことは……だ、段階を踏んでいきましょうД",
+      "en": "Thank you for granting the Royal Knights permission to be stationed here! While I'm not the official representative, as the Order's messenger and liaison, I'll be taking up residence at the inn, if you'll have me. Um, I just need to help with hospitality, right? Anything more than that... let's, let's take things one step at a timeД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10490,
+      "id": "rem_11892",
+      "jp": "いたって普通のメイドでございます。御主人様のために、たくさん仕事をしてさしあげます。メイドサービスでいつでもお待ちしております",
+      "en": "I'm just an ordinary maid. I'll do lots of work for you, Master. I'm always available for maid service anytime you need it.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10491,
+      "id": "rem_11893",
+      "jp": "カネは素晴らしい……カネを数えていると、心が清らかに落ち着いていきますわ。マリーゼルさんやユーステルさんを預かっていたときは、とても大きな額を頂いておりましたのです。そして、大きなカネは我が『神』に捧げるのが務め……おっと、もちろん聖なる営みに使わせていただいておりますわ",
+      "en": "Money is wonderful... Counting money calms and purifies my soul. When I was sheltering Marisel and Eustel, I received a truly enormous sum. And it is my duty to offer large sums of money to my 'God'... Oh my, of course, I use it for holy endeavors.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10492,
+      "id": "rem_11894",
+      "jp": "私は『教会』に入りましたが、『神官』の才はありませんでした。しかし商才に目をつけられ、ヒエペリオの財を増やす手伝いをさせられておりました。もっとも、ヒエペリオの人間ごときに私の手管を暴くことは出来ず、殆どを浄財させていただきましたがД　これからは、我が父と共に領主様の資産を増やして差し上げますわД",
+      "en": "I joined the 'Church', but I didn't have the talent to be a 'Priestess'. However, they noticed my business acumen and put me to work increasing Hieperio's wealth. Of course, someone like a human from Hieperio could never expose my tricks, so I made them donate almost everything Д From now on, I'll help increase your assets alongside my father, my lord Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10493,
+      "id": "rem_11895",
+      "jp": "偉大なる我らが『神』の現し身。普段は『神』の力を発揮なされておりませんが、我が同志はこの店を目指して集まってきております。不思議に思いませんでしたか？　必要以上に多くのカネを客達が落とすということを……。客に紛れた教徒の善行ですわД",
+      "en": "You are the physical vessel of our great 'God'. You usually don't unleash the power of 'God', but our comrades are gathering, aiming for this shop. Weren't you puzzled? By the fact that customers drop an excessive amount of money... It's the good deeds of followers mixed among the customers Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10494,
+      "id": "rem_11896",
+      "jp": "血を分けた私の妹です。もっとも、最後に会話を交わしたのは私も彼女も幼い頃。あの子が私のことを覚えているとは思いませんでしたが、父つてでいくらか伝わっていたようです。ふふっ、いじり甲斐のある、素敵な商会も立ち上げているようですわねД",
+      "en": "She's my sister, sharing the same blood. Though, the last time we had a conversation was when we were both little. I didn't think she remembered me, but it seems some information came through via our father. Hehe, it seems she's built up a fascinating, teasing-worthy trading company too Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10495,
+      "id": "rem_11897",
+      "jp": "私の父ですわ。嫁いだ後は、ほとんど便りを交わすことはできませんでしたし、まあ……前の夫はあんなものでしたから、うかつに連絡を取ることはできませんでした。ええ、今では穏やかですが、昔の父はなんというか……ちょっと気性も荒かったですのでД",
+      "en": "That's my father. After I married, we could hardly exchange any news, and well... my ex-husband was like that, so I couldn't contact him carelessly. Yes, he's calm now, but back in the day, how should I say... his temper was a bit rough too Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10496,
+      "id": "rem_11898",
+      "jp": "私は本来は冥界に住んでいるのデスが、わけあって人間として受肉したのデス。神が人間に受肉するのはとても大変なことなのデス。たくさんの供物と信仰心、そして縁が必要デス",
+      "en": "I originally live in the underworld , but due to circumstances, I incarnated as a human For a god to incarnate as a human is very difficult It requires many offerings, faith, and a connection",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10497,
+      "id": "rem_11899",
+      "jp": "カネ……カネは素晴らしい供物デス。わたしのエネルギーとかパワーになるデス。もっとカネをささげるデス！　そうすれば、オマエにはそれに見合ったチカラを授けてやるデス！",
+      "en": "Money... money is a wonderful offering It becomes my energy and power Offer more money ! Then, I will bestow upon you power commensurate with that !",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10498,
+      "id": "rem_11900",
+      "jp": "私にとっての本来の供物は人間の魂デス。『尊き魂』を七つぐらい捧げてくれれば、国の一つや二つ滅ぼすこともたやすいデス。とてもコスパのよい神として重宝されるはずデスが、なぜかそっちの権能は使った覚えがないデス",
+      "en": "My original offerings are human souls If you offer about seven 'Precious Souls', destroying a country or two would be easy I should be prized as a very cost-effective god , but for some reason, I have no memory of using that authority",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10499,
+      "id": "rem_11901",
+      "jp": "神のくせに私が弱い？　しょうがないのデス。実はオマエに代行の力を分け与えたため、私は力の大半を失っていたのデス。死神が代行を作るのは極めて珍しいのデス。なんせ、一生に一度しか作れないデスからね。死神の魂は死なないから永遠デス。人間にとっては結婚と同義みたいなもんデスが、離婚は出来ないデス。あきらめろデス",
+      "en": "I'm weak despite being a god? Can't be helped Actually, because I shared my proxy power with you, I lost most of my power It's extremely rare for a Shinigami to create a proxy After all, you can only do it once in a lifetime A Shinigami's soul doesn't die, so it's eternal For humans, it's similar to marriage , but divorce is impossible Give up",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10500,
+      "id": "rem_11902",
+      "jp": "カネに汚い浅ましい魔術師デスね。シュセンドってやつデス？　まったく心が醜いものデス。なんデス？　私に向かってため息なんてついて。うるさいデス、アイツは人間のくせに、なんだか鏡を見ているようでムカつくのデスー！",
+      "en": "A magician dirty and wretched for money ne. That Shusendo guy ? Truly has an ugly heart What ? Sighing at me like that. Annoying , that guy, for a human, somehow it's like looking in a mirror and it's irritating !",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

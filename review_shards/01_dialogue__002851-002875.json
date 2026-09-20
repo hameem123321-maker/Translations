@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2851,
+  "range_end": 2875,
+  "pairs": [
+    {
+      "n": 2851,
+      "id": "db_EventInfo:3118:1",
+      "jp": "ん……？　【『冒険者ギルド』】？",
+      "en": "Huh...? The 'Adventurers' Guild'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2852,
+      "id": "db_EventInfo:3119:2",
+      "jp": "冒険者に仕事を斡旋して仲介料をもらえるデス。なので、基本的にウチの【『店員』】は冒険者になるデス",
+      "en": "We arrange jobs for adventurers and take a commission fee. So, basically, our 'employees' become adventurers.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2853,
+      "id": "db_EventInfo:3120:2",
+      "jp": "冒険者を住まわせる【『宿屋』】でもあるデスね。【『商店』】や【『料理屋』】【『武器屋』】をする許可も取ってるデス",
+      "en": "It's also an 'inn' where adventurers can stay. We also have permits to run a 'shop', a 'restaurant', and a 'weapon shop'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2854,
+      "id": "db_EventInfo:3121:1",
+      "jp": "なんでも屋みたいだな……",
+      "en": "Sounds like a jack-of-all-trades shop...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2855,
+      "id": "db_EventInfo:3122:1",
+      "jp": "……？　【『宿屋』】に関する建築が見つからないし、そもそも【『宿屋』】はどこに出すんだ？　明らかに【スペースが足りない】ような",
+      "en": "...? I can't find any building related to the 'inn', and where are you even going to put it? It clearly 'doesn't have enough space'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2856,
+      "id": "db_EventInfo:3123:2",
+      "jp": "【『宿屋』】は二階で運営するデス。一階は店とかギルドを置くデス",
+      "en": "The 'inn' will be operated on the second floor. The first floor is for the shop and the guild.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2857,
+      "id": "db_EventInfo:3124:1",
+      "jp": "なるほど……店で客を釣って宿に泊まらせる訳か",
+      "en": "I see... So I lure customers with the shop and have them stay at the inn.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2858,
+      "id": "db_EventInfo:3125:1",
+      "jp": "（そういえばレストランがあるホテルってのは王道だな……そのあたりはちゃんと考えているのか）",
+      "en": "(Come to think of it, a hotel with a restaurant is a classic setup... I wonder if they've properly thought that part through.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2859,
+      "id": "db_EventInfo:3126:2",
+      "jp": "オマエ、なんだか失礼なこと考えてないデス？",
+      "en": "Are you thinking something rude, huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2860,
+      "id": "db_EventInfo:3127:2",
+      "jp": "とにかく。【『宿屋』】に関しては建築は不要デス。宿の規模に応じて勝手に増築とかされていくと思うと良いデス",
+      "en": "Anyway. For the 'Inn', you don't need to build it. Think of it as expanding automatically depending on the inn's scale.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2861,
+      "id": "db_EventInfo:3128:1",
+      "jp": "なるほど……しかし【『冒険者ギルド』】ってことは……冒険者に冒険させないといけないんじゃないのか？",
+      "en": "I see... But an 'Adventurer's Guild'... don't we have to give adventurers adventures to go on?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2862,
+      "id": "db_EventInfo:3129:2",
+      "jp": "うむデス、冒険の仕事を用意しないといけないデスね",
+      "en": "Yup. We have to prepare adventuring work for them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2863,
+      "id": "db_EventInfo:3130:2",
+      "jp": "では次は冒険に行くとするデス",
+      "en": "Alright, next let's go on an adventure.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2864,
+      "id": "db_EventInfo:3131:1",
+      "jp": "はっ？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2865,
+      "id": "db_EventInfo:3132:2",
+      "jp": "【『探索』】を選択するデス",
+      "en": "Select 'Explore'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2866,
+      "id": "db_EventInfo:3133:0",
+      "jp": "★ガイド・【『探索』】を実行する",
+      "en": "Guide: Execute 'Explore'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2867,
+      "id": "db_EventInfo:3134:0",
+      "jp": "★ガイド・【『マテリナ素材収集場』】の2Fに到達する",
+      "en": "Guide: Reach the 2nd floor of the 'Material Gathering Field'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2868,
+      "id": "db_EventInfo:3135:2",
+      "jp": "【『ワールドマップ』】でダンジョンを選んだら、【『ダンジョン攻略』】を開始することができるデス",
+      "en": "When you choose a dungeon on the 'World Map', you can start 'Dungeon Conquest'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2869,
+      "id": "db_EventInfo:3136:1",
+      "jp": "いやいやちょっと待ってくれよ、なんで【『ダンジョン攻略』】をしないといけないんだ？",
+      "en": "Whoa whoa, hold on a second. Why do I have to do 'Dungeon Conquest'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2870,
+      "id": "db_EventInfo:3137:2",
+      "jp": "なんでって、【『ダンジョン攻略』】しないと、冒険者どもに紹介する【『ダンジョン』】を案内できないじゃないデスか",
+      "en": "Why? Because if we don't conquer dungeons, we can't guide adventurers to the 'Dungeons' we need to introduce them to.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2871,
+      "id": "db_EventInfo:3138:1",
+      "jp": "そ、そういうものなのか……！？",
+      "en": "Wh-what, that's how it works...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2872,
+      "id": "db_EventInfo:3139:2",
+      "jp": "それに【『ダンジョン』】に行かないと【『商品』】を作るための【『開発ポイント』】をゲットできないデス",
+      "en": "Also, if you don't go to 【『Dungeon』】, you can't get 【『Development Points』】 to make 【『Merchandise』】 Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2873,
+      "id": "db_EventInfo:3140:1",
+      "jp": "む、むう……",
+      "en": "Mmmph...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2874,
+      "id": "db_EventInfo:3141:2",
+      "jp": "移動に関しては心配するなデス。神の力でビューンとワープしてやるデス",
+      "en": "Don't worry about moving, Death. I'll use godly power to whoosh you there in a warp, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2875,
+      "id": "db_EventInfo:3142:2",
+      "jp": "さあ、【『ダンジョン』】を選ぶデス！",
+      "en": "Come on, pick a 【『Dungeon』】 Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

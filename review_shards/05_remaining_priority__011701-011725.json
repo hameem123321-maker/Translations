@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11701,
+  "range_end": 11725,
+  "pairs": [
+    {
+      "n": 11701,
+      "id": "rem_39462",
+      "jp": "魔性を秘めたクリスタル。獣性を目覚めさせる闇黒の輝きは、近隣に存在する動植物を魔物に変えてしまう。",
+      "en": "A crystal that holds a demonic nature. Its dark gleam awakens beast-like instincts, turning nearby plants and animals into monsters.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11702,
+      "id": "rem_39463",
+      "jp": "漆黒のダーククリスタル",
+      "en": "Jet-Black Dark Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11703,
+      "id": "rem_39464",
+      "jp": "邪悪な魔力が宿った結晶。持ち主の魔力を高めるが、半面、周囲に災厄をもたらすと言われる。",
+      "en": "A crystal imbued with evil magic. It amplifies the owner's power, but is said to bring calamity to the surroundings.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11704,
+      "id": "rem_39465",
+      "jp": "不浄な魔力の欠片",
+      "en": "Fragment of Impure Magic",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11705,
+      "id": "rem_39466",
+      "jp": "異邦に伝わる、邪悪な神を封印した術式を施した石。異邦の封印術はゼカリウスの民には不明だが、時折岩の中から呻き声が聞こえるという。",
+      "en": "A foreign stone sealed with a spell to imprison an evil god. The sealing magic is unknown to Zecarius's people, but groans are sometimes heard from within the rock.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11706,
+      "id": "rem_39467",
+      "jp": "異邦の封印石",
+      "en": "Foreign Sealing Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11707,
+      "id": "rem_39468",
+      "jp": "邪教徒が邪悪な救世主の為に作ろうとした、禍々しい剣。邪悪な魔術に反応し、凄まじい破壊をまき散らすと言うが、何者かに阻止され海に沈んだ。",
+      "en": "A sinister sword cultists tried to forge for their evil savior. It reacts to dark magic, unleashing terrible destruction, but was stopped by someone and sunk in the sea.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11708,
+      "id": "rem_39469",
+      "jp": "邪教の救世剣",
+      "en": "Cultist's Savior Sword",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11709,
+      "id": "rem_39470",
+      "jp": "邪悪な力を封印するという、異邦の封印呪具。しかし長い封印の末に呪いを吸収し、負の力を垂れ流すようになってしまった。",
+      "en": "A foreign cursed tool meant to seal evil power. After ages of containment, it absorbed the curse and now leaks negative energy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11710,
+      "id": "rem_39471",
+      "jp": "封魔の呪印",
+      "en": "Demonic Seal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11711,
+      "id": "rem_39472",
+      "jp": "集中力を増す力を秘めた宝石。持ち主の命中能力を高めることができるといわれる。",
+      "en": "A gem that enhances focus. It's said to improve the wielder's accuracy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11712,
+      "id": "rem_39473",
+      "jp": "情熱のガーネット",
+      "en": "Passionate Garnet",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11713,
+      "id": "rem_39474",
+      "jp": "無垢なる心を感じさせる淡い乳白色の宝石。持ち主の身体を異常から守るといわれる。",
+      "en": "A pale, milky-white gem that evokes purity. It's said to protect the wearer from ailments.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11714,
+      "id": "rem_39475",
+      "jp": "希望のオパール",
+      "en": "Hopeful Opal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11715,
+      "id": "rem_39476",
+      "jp": "紅い宝石。持ち主の精神力を高める力があるといわれる。",
+      "en": "A crimson gem. It's said to have the power to strengthen the wielder's spirit.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11716,
+      "id": "rem_39477",
+      "jp": "愛のルビー",
+      "en": "Ruby of Love",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11717,
+      "id": "rem_39478",
+      "jp": "誠実さを意味するという青い宝石。持ち主に幸運を与えるといわれる。",
+      "en": "A blue gem symbolizing sincerity. It's said to bring luck to its owner.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11718,
+      "id": "rem_39479",
+      "jp": "慈愛のサファイア",
+      "en": "Sapphire of Compassion",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11719,
+      "id": "rem_39480",
+      "jp": "海の生き物が産出する宝石。加工するすることでピンク色の美しい装飾品になる。",
+      "en": "A gem produced by sea creatures. When processed, it becomes a beautiful pink ornament.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11720,
+      "id": "rem_39481",
+      "jp": "清涼なパール",
+      "en": "Cool Pearl",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11721,
+      "id": "rem_39482",
+      "jp": "精神を安定させる翠色の宝石。持ち主に閃きを与え、必殺の機会を与えるといわれる。",
+      "en": "A green gem that calms the mind. Said to grant its owner flashes of insight and critical opportunities.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11722,
+      "id": "rem_39483",
+      "jp": "精神のエメラルド",
+      "en": "Emerald of Spirit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11723,
+      "id": "rem_39484",
+      "jp": "不思議な魅力を感じる緑色の宝石。持ち主の魔ヘの耐性を高めるといわれる。",
+      "en": "A mysterious green gem that fascinates. Said to boost its owner's resistance to magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11724,
+      "id": "rem_39485",
+      "jp": "運命のペリドット",
+      "en": "Peridot of Fate",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11725,
+      "id": "rem_39486",
+      "jp": "幸福をもたらす白色の宝石。持ち主に財宝と冨を与えるといわれる。",
+      "en": "A white gem said to bring happiness. Grants its owner treasure and wealth.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

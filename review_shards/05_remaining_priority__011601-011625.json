@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11601,
+  "range_end": 11625,
+  "pairs": [
+    {
+      "n": 11601,
+      "id": "rem_39362",
+      "jp": "極寒の吹雪の環境下でも火を付けられる、特殊な燃料。燃焼時間が長く、得られる熱量も大きいが、延焼には注意。",
+      "en": "A special fuel that can be lit even in frigid blizzards. Burns for a long time with high heat, but beware of spreading flames.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11602,
+      "id": "rem_39363",
+      "jp": "氷獄焚火セット",
+      "en": "Frozen Inferno Set",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11603,
+      "id": "rem_39364",
+      "jp": "油分の多い植物から精製した、よく燃えるオイル。その燃焼時間は非常に長い。火が付いたまま飛び散ると非常に危険だが、用法を守れば頼もしい。",
+      "en": "Highly flammable oil refined from oily plants. Exceptionally long burn time. Dangerous if spilled while lit, but reliable when used correctly.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11604,
+      "id": "rem_39365",
+      "jp": "携帯用燃焼オイル",
+      "en": "Portable Combustion Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11605,
+      "id": "rem_39366",
+      "jp": "薬草を乾燥させて、調合の準備しているもの。薬草としての利用価値は高い。",
+      "en": "Dried herbs, prepared for concoction. High medicinal value.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11606,
+      "id": "rem_39367",
+      "jp": "干したハーブ",
+      "en": "Dried Herbs",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11607,
+      "id": "rem_39368",
+      "jp": "所狭しと繁殖するありふれたハーブ。その生命力の高さから、手軽な触媒に使われる。",
+      "en": "A common herb that grows densely. Its high vitality makes it a handy catalyst.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11608,
+      "id": "rem_39369",
+      "jp": "群生するハーブ",
+      "en": "Clustering Herbs",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11609,
+      "id": "rem_39370",
+      "jp": "勇気が沸いてくるハーブ。英雄を思わせる気持ちが沸いてくる。",
+      "en": "A herb that stirs courage. Evokes the spirit of a hero.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11610,
+      "id": "rem_39371",
+      "jp": "ブレイブリーフ",
+      "en": "Bravleaf",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11611,
+      "id": "rem_39372",
+      "jp": "幸せを運ぶ四葉のクローバー。栄養的な価値は低いが、それに籠もった人々の思いが詰まっている。",
+      "en": "A lucky four-leaf clover. Low nutritional value, but carries people's heartfelt wishes.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11612,
+      "id": "rem_39373",
+      "jp": "フォーチュンクローバー",
+      "en": "Fortune Clover",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11613,
+      "id": "rem_39374",
+      "jp": "見ているだけで気持ちが安らぐような、精神を安定させる木の実。頭をクリアにする効果があり、ハーブとして添えられる。",
+      "en": "A calming fruit that soothes the mind. Clears the head, often added as an herb.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11614,
+      "id": "rem_39375",
+      "jp": "精神安定の実",
+      "en": "Soothfruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11615,
+      "id": "rem_39376",
+      "jp": "夜にのみ輝くという魔力を帯びた薬草。魔界に生える植物と言われており、人間界で見るのは珍しい。強い魔力を秘めた、調合の優秀な素材。",
+      "en": "A magical herb said to glow only at night. Rumored to grow in the demon realm, rare in the human world. A potent alchemy ingredient with strong magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11616,
+      "id": "rem_39377",
+      "jp": "月夜の薬草",
+      "en": "Moonglow Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11617,
+      "id": "rem_39378",
+      "jp": "まるで時間を戻すかのような力を与える根。取り扱いは難しく、素人が扱うと危険。",
+      "en": "A root said to grant time-reversing power. Difficult to handle, dangerous for amateurs.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11618,
+      "id": "rem_39379",
+      "jp": "クロノルート",
+      "en": "Chrono-root",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11619,
+      "id": "rem_39380",
+      "jp": "海辺に生える、魔力を帯びた花。清涼感に溢れた花弁を煎じて飲めば、たちまち気力が復活する。",
+      "en": "A magical flower growing by the sea. Brewing its refreshing petals restores energy instantly.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11620,
+      "id": "rem_39381",
+      "jp": "清涼マリンフラワー",
+      "en": "Refreshing Seaflower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11621,
+      "id": "rem_39382",
+      "jp": "妖精の祝福を得たと言われる、稀少な樹木の根っこ。黄金色に輝く根を煎じて飲めば、たちまち精力が溢れ出す。",
+      "en": "A rare tree root said to be blessed by fairies. Brewing the golden, glowing root grants instant energy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11622,
+      "id": "rem_39383",
+      "jp": "妖精樹の根っこ",
+      "en": "Fairy Tree Root",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11623,
+      "id": "rem_39384",
+      "jp": "魔法エネルギーを豊富に含む葉っぱ。最高級の薬や飲料の材料になる。摂取すると心身ともにリラックスできるが、依存性を持つ為、取り扱いには注意。",
+      "en": "A leaf rich in magical energy, used for premium potions and drinks. Relaxing but addictive, requiring careful handling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11624,
+      "id": "rem_39385",
+      "jp": "王樹の葉",
+      "en": "Royal Tree Leaf",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11625,
+      "id": "rem_39386",
+      "jp": "極北地帯に自生するという稀少な薬草花。人間に過剰なほどの生命力を与えてくれるが、扱いが非常に難しい。薬師の天才のみが扱うことを許されると言われる。",
+      "en": "A rare medicinal flower from the far north, granting immense vitality. Only genius alchemists can handle its complexity.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

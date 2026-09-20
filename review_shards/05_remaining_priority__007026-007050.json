@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7026,
+  "range_end": 7050,
+  "pairs": [
+    {
+      "n": 7026,
+      "id": "rem_34645",
+      "jp": "レミルに秘められた潜在能力を解放して能力を高める。本人はすべての魔力を解放できたと考えているが、その力は片鱗に過ぎず。神すら欺く存在は、彼女の内から受肉の好機を伺う。",
+      "en": "Releases Remil's latent potential to boost her abilities. She thinks she's unlocked all her magic, but this is only a fraction. The being that can deceive even gods watches for its chance to incarnate within her.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7027,
+      "id": "rem_34646",
+      "jp": "MP回復(大) + MP消費なし + 【自分】に【夢と一つに】を付与 (魔術ダメージ[+100%])",
+      "en": "Major MP Recovery + No MP Cost + Grants 【Self】 【One with Dreams】 (Magic Damage [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7028,
+      "id": "rem_34647",
+      "jp": "【<src>】は潜在能力を解放した！",
+      "en": "【<src>】 has unlocked her potential!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7029,
+      "id": "rem_34648",
+      "jp": "なんでも吸収する異常な成長力。戦力増強のコストがダウンして、より早くスキルを習得しやすくなる。スキルの習得上限は増えず、最終的には他キャラクターと同じ習得数になる。",
+      "en": "An abnormal growth capacity that absorbs anything. Lowers the cost of strengthening and makes it easier to learn skills faster. The skill cap doesn't increase, and she'll end up with the same number as other characters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7030,
+      "id": "rem_34649",
+      "jp": "能力開発の消費SP[-10%] + 獲得経験値[+20%]",
+      "en": "Ability Development SP Cost [-10%] + EXP Gain [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7031,
+      "id": "rem_34650",
+      "jp": "武器による通常攻撃。行動コストは少なく、威力もあまりない。ＭＰを節約したいときに有効。",
+      "en": "A normal attack with a weapon. Low action cost and low power. Effective for saving MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7032,
+      "id": "rem_34651",
+      "jp": "単体攻撃 威力[E] +  命中[70%]",
+      "en": "Single Target Power[E] + Hit Rate[70%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7033,
+      "id": "rem_34652",
+      "jp": "【<src>】は[コモンアタック]を使用した",
+      "en": "【<src>】 used [Common Attack]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7034,
+      "id": "rem_34653",
+      "jp": "集中してＭＰを回復する。回復量は極めて小さく、行動コストも非常に多い。ＭＰを節約したいときに有効。",
+      "en": "Focus to recover MP. Recovery is minor and action cost high. Effective for saving MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7035,
+      "id": "rem_34654",
+      "jp": "MP回復(中) + MP消費なし",
+      "en": "Moderate MP Recovery + No MP Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7036,
+      "id": "rem_34655",
+      "jp": "【<src>】は[ＭＰチャージ]！",
+      "en": "【<src>】 uses [MP Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7037,
+      "id": "rem_34656",
+      "jp": "敵の不意を突き、上手く逃げ出すスキル。自分だけではなく、味方を含めて逃げ出すのは高い技能を必要とする。上級冒険者に必須のスキル。",
+      "en": "A skill to escape by taking the enemy by surprise. Requires high skill to flee not just oneself, but allies too. Essential for high-level adventurers.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7038,
+      "id": "rem_34657",
+      "jp": "逃走成功率アップ[+40%]",
+      "en": "Escape Success Rate Up [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7039,
+      "id": "rem_34658",
+      "jp": "ウィルチの天才性を発揮し、サポートスキルのバフ効果が延長される。一部のスキルには効果が無いが、ちょっとした強化も凶悪な効果に変じるかも。",
+      "en": "Demonstrates Wilch's genius, extending the duration of buffs from support skills. Some skills aren't affected, but even a slight boost might turn them into a monstrous effect.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7040,
+      "id": "rem_34659",
+      "jp": "味方への強化効果ターン延長[+2]",
+      "en": "Ally Buff Effect Turn Extension [+2]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7041,
+      "id": "rem_34660",
+      "jp": "物理攻撃の勢いを逸らし、攻撃を無効化する。無効化する確率は低いものの、受ける回数が多いので、長い目で効いてくる。即死級の攻撃すら弾くことも。",
+      "en": "Has a chance to deflect and nullify physical attacks. The probability is low, but frequent activations make it effective over time. Can even deflect lethal strikes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7042,
+      "id": "rem_34661",
+      "jp": "物理攻撃ダメージを無効化[+30%]",
+      "en": "Physical Damage Nullification [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7043,
+      "id": "rem_34662",
+      "jp": "死を司る属性の攻撃が強化される。『死神』の力は強大すぎるため、何重ものセーフティがかけられている。排除するべき敵が強くなるごとに、その制限は解除されていく。",
+      "en": "Strengthens attacks of the death-governing Shinigami attribute. The Shinigami's power is immense, so multiple safety locks are in place. These restrictions lift as enemies grow stronger.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7044,
+      "id": "rem_34663",
+      "jp": "死神スキルの威力[+50%]",
+      "en": "Shinigami Skill Power [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7045,
+      "id": "rem_34664",
+      "jp": "強力な魔術の秘奥を知る者は、魔術に対する造詣も深い。一定確率で魔術を無効化する。禁呪を極めた行使者は、魔術の世界では無敵なのだ。",
+      "en": "Those who know powerful magic secrets have deep magical insight. Has a chance to nullify magic. Masters of forbidden arts are nearly invincible in the realm of magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7046,
+      "id": "rem_34665",
+      "jp": "魔術攻撃ダメージを無効化[+50%]",
+      "en": "Magic Damage Nullification [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7047,
+      "id": "rem_34666",
+      "jp": "武器で敵の攻撃を妨害[+10%]",
+      "en": "Weapon Attack Interference [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7048,
+      "id": "rem_34667",
+      "jp": "場に即席のトラップを仕掛け、敵の攻撃を妨害する。確率は低いが、全体的な被弾を減らすことができるので、全体的な生存力は確実に伸びる。",
+      "en": "Sets improvised traps to interfere with enemy attacks. Low activation rate, but reduces total hits taken, steadily improving overall survivability.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7049,
+      "id": "rem_34668",
+      "jp": "トラップで敵の攻撃を妨害[+20%]",
+      "en": "Trap Attack Interference [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7050,
+      "id": "rem_34669",
+      "jp": "ダンジョン内にある「自然系」トラップに対策することが出来る。他の種別のトラップには効果がなく、サーチスキルが無ければ解除を試みないので注意。",
+      "en": "Allows disarming of 'Nature-type' traps in dungeons. No effect on other trap types. Note: Won't attempt disarming without Search skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

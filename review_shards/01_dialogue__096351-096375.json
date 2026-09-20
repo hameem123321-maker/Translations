@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 96351,
+  "range_end": 96375,
+  "pairs": [
+    {
+      "n": 96351,
+      "id": "db_EventInfo:113816:2",
+      "jp": "【『メテトス百穴古墳』】を攻略する冒険者は雇えなかったデス",
+      "en": "We couldn't hire any adventurers to clear the 'Metetos Hundred-Hole Ancient Tomb'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96352,
+      "id": "db_EventInfo:113817:136",
+      "jp": "ううっ、娘が……",
+      "en": "Ugh, my daughter...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96353,
+      "id": "db_EventInfo:113818:0",
+      "jp": "俺達の方で資金を出す方法も考えたが、まともな冒険者を雇えるほど、俺達も裕福ではなかったのだ。",
+      "en": "We thought about putting up the money ourselves, but we're not rich enough to hire proper adventurers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96354,
+      "id": "db_EventInfo:113819:136",
+      "jp": "【『ゴブリン』】にさらわれた娘たちは今頃……ううっ",
+      "en": "My daughters, taken by the 'Goblins'... they must be... ugh...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96355,
+      "id": "db_EventInfo:113821:14",
+      "jp": "困っているみたいだな！",
+      "en": "Looks like you're in trouble!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96356,
+      "id": "db_EventInfo:113822:2",
+      "jp": "オマエは？",
+      "en": "And you are?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96357,
+      "id": "db_EventInfo:113823:14",
+      "jp": "俺は冒険者のポンタだ！",
+      "en": "I'm Ponta, the adventurer!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96358,
+      "id": "db_EventInfo:113824:6",
+      "jp": "同じく冒険者のマリーゼルですわ",
+      "en": "And I'm Marisel, also an adventurer.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96359,
+      "id": "db_EventInfo:113825:14",
+      "jp": "冒険者を雇えなくて困っているんだって？　それなら俺達が行ってくるぜ！",
+      "en": "You can't hire adventurers? In trouble? Then we'll go!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96360,
+      "id": "db_EventInfo:113826:136",
+      "jp": "おお、アンタたちが……！",
+      "en": "Oh, you two will...?!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96361,
+      "id": "db_EventInfo:113827:2",
+      "jp": "待つデス。【『ダンジョン』】攻略は危険がたくさんデス",
+      "en": "Wait. The 'dungeon' is very dangerous.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96362,
+      "id": "db_EventInfo:113828:2",
+      "jp": "見たところ、新米の冒険者のようデスが",
+      "en": "You look like rookie adventurers.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96363,
+      "id": "db_EventInfo:113829:14",
+      "jp": "心配するなよ、これでも【『クエスト』】もいくつかこなしているし、【『ゴブリン』】と戦ったこともあるぜ！",
+      "en": "Don't worry, I've handled a few 【'quests'】 myself, and I've even fought 【'goblins'】 before!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96364,
+      "id": "db_EventInfo:113830:6",
+      "jp": "【『ダンジョン』】の攻略は初めてですが、心配はいりません。ポンタは強いですから",
+      "en": "This is my first time exploring a 【'dungeon'】, but there's no need to worry. Ponta is strong.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96365,
+      "id": "db_EventInfo:113831:2",
+      "jp": "そうデスか、ならば止めないデス",
+      "en": "Is that so, DESU? Well, I won't stop you DESU.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96366,
+      "id": "db_EventInfo:113832:14",
+      "jp": "よろしく頼むぜ！",
+      "en": "Thanks, I'm counting on you!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96367,
+      "id": "db_EventInfo:113833:0",
+      "jp": "★クリア",
+      "en": "★CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96368,
+      "id": "db_EventInfo:113836:0",
+      "jp": "ポンタとマリーゼルは、【『メテトス百穴古墳』】に向かっていった……。",
+      "en": "Ponta and Marisel headed for the 【'Metetoso Hundred-Hole Tomb'】...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96369,
+      "id": "db_EventInfo:113838:2",
+      "jp": "なんだか心配デスね",
+      "en": "Somehow, I'm worried DESU.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96370,
+      "id": "db_EventInfo:113839:2",
+      "jp": "あいつらからは【『死相』】がモリモリだったデス！",
+      "en": "I could see a thick 【'aura of death'】 all over them DESU!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96371,
+      "id": "db_EventInfo:113840:1",
+      "jp": "お、追いかけるか……？",
+      "en": "S-should we go after them...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96372,
+      "id": "db_EventInfo:113842:2",
+      "jp": "オマエの顔からも【『死相』】が見えるデス",
+      "en": "I can see 【'the aura of death'】 on your face too, DESU.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96373,
+      "id": "db_EventInfo:113843:1",
+      "jp": "なっ",
+      "en": "Wha-",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96374,
+      "id": "db_EventInfo:113844:2",
+      "jp": "追いかけて【『ダンジョン』】に行けば、死ぬデス。【『死神』】の予告は当るデス",
+      "en": "If you chase them and go into the 【'dungeon'】, you'll die DESU. A 【'Shinigami's'】 prediction always comes true DESU.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96375,
+      "id": "db_EventInfo:113845:1",
+      "jp": "そんな……ど、どうすれば……",
+      "en": "No way... Wh-what should we do...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

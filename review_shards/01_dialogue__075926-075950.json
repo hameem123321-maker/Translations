@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75926,
+  "range_end": 75950,
+  "pairs": [
+    {
+      "n": 75926,
+      "id": "db_EventInfo:89833:0",
+      "jp": "俺たちの目の前で【『世界樹』】は砕け散り、虚空に消えていった。",
+      "en": "Right in front of us, the World Tree shattered into pieces and vanished into the void.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75927,
+      "id": "db_EventInfo:89834:1",
+      "jp": "くっ……！",
+      "en": "Ugh...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75928,
+      "id": "db_EventInfo:89835:0",
+      "jp": "【『ジェノブレイク』】の反動で、俺の生命力が大きく消えていくのを感じた。",
+      "en": "I felt my life force draining away fast from the backlash of [Genobreak].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75929,
+      "id": "db_EventInfo:89836:1",
+      "jp": "(よく考えれば、俺、何度も死んで戻ったっけな)",
+      "en": "(Now that I think about it, I've died and come back a lot.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75930,
+      "id": "db_EventInfo:89837:0",
+      "jp": "ここで死ねば、自分の技の反動で自滅した、みたいなことを言われるんだろうか。",
+      "en": "If I die here, will they say I killed myself with my own attack?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75931,
+      "id": "db_EventInfo:89841:2",
+      "jp": "おいオマエ！　まだ死ぬのは早いデス",
+      "en": "Hey, you! It's too soon to die!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75932,
+      "id": "db_EventInfo:89842:1",
+      "jp": "(……シイネ？)",
+      "en": "(...Shiine?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75933,
+      "id": "db_EventInfo:89843:2",
+      "jp": "まだやることは残ってるデス！　目を開けるデス！",
+      "en": "There's still more to do! Open your eyes!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75934,
+      "id": "db_EventInfo:89844:2",
+      "jp": "オマエの力で、【『世界樹』】は倒壊したデス！　今こそオマエの手で、【最後の運命を改変】する時デス！",
+      "en": "With your power, [The World Tree] has fallen! Now is the time for you to use your hands to [change the final fate]!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75935,
+      "id": "db_EventInfo:89850:0",
+      "jp": "ここは……。",
+      "en": "This place is...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75936,
+      "id": "db_EventInfo:89852:2",
+      "jp": "残念、オマエの人生はまだ続いているデス",
+      "en": "Too bad, your life isn't over yet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75937,
+      "id": "db_EventInfo:89853:1",
+      "jp": "……そんなの、初めて言われたな",
+      "en": "...Huh. That's the first time anyone's ever told me that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75938,
+      "id": "db_EventInfo:89854:2",
+      "jp": "ふふ、やり切った末に、死を迎えるというのは、私達が良くても、【『縁』】を繋いだ奴らが納得しないデス",
+      "en": "Hehe. If you just gave up and accepted death, even if we were okay with it, the people [linked] to you would never accept it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75939,
+      "id": "db_EventInfo:89855:2",
+      "jp": "オマエと一緒に戦った連中も、平和になった宿でキリキリ働かせているデスからね",
+      "en": "The ones who fought with you? I'm making them work hard at the inn in the peaceful village.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75940,
+      "id": "db_EventInfo:89856:1",
+      "jp": "はは、相変わらずだな……【『大災厄』】はどうなったんだ",
+      "en": "Haha, still the same... What happened to the 'Great Calamity'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75941,
+      "id": "db_EventInfo:89857:2",
+      "jp": "夜空を見上げればいいデス",
+      "en": "Just look up at the night sky.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75942,
+      "id": "db_EventInfo:89859:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75943,
+      "id": "db_EventInfo:89860:2",
+      "jp": "最後の【『運命改変』】によって、もはや【『大災厄』】は存在しないデス",
+      "en": "Because of the last 'Fate Alteration', the 'Great Calamity' no longer exists.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75944,
+      "id": "db_EventInfo:89861:2",
+      "jp": "オマエは証明したデスからね。人が繋いだ【『縁』】で、【『ゴブリン』】は絶滅させることができると",
+      "en": "You proved it. That the 'Goblins' can be wiped out by the 'Bonds' people form.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75945,
+      "id": "db_EventInfo:89862:2",
+      "jp": "ゆえに……【『黄金の月』】に【『ゴブリン』】は無く、この地を脅かす災厄も無くなったデス",
+      "en": "So... There are no 'Goblins' on the 'Golden Moon', and the calamity threatening this land is gone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75946,
+      "id": "db_EventInfo:89863:1",
+      "jp": "そうか……それじゃ、【『災厄』】が終わって、俺達はどうなるんだ？",
+      "en": "I see... So, with the 'Calamity' over, what happens to us?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75947,
+      "id": "db_EventInfo:89864:2",
+      "jp": "どう、と言われても、【『死都ルーメ・ルーデス』】があの様子では、戻ってもつまらんデスからね",
+      "en": "What do you mean? 'Ruume Luudes, the City of Death' is in that state. Going back would be boring.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75948,
+      "id": "db_EventInfo:89865:2",
+      "jp": "この地上で、もっともっとカネを稼ぐデス",
+      "en": "We make money. Lots more money, here on the surface.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75949,
+      "id": "db_EventInfo:89866:1",
+      "jp": "は、はは、そう……",
+      "en": "Hah, haha, right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75950,
+      "id": "db_EventInfo:89867:2",
+      "jp": "無論、オマエにも付き合ってもらうデスよ。オマエは私の【『代行』】デスからね",
+      "en": "And of course, you're coming with me. You're my 'Proxy'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 476,
+  "range_end": 500,
+  "pairs": [
+    {
+      "n": 476,
+      "id": "rem_00476",
+      "jp": "邪教の番犬",
+      "en": "Cult Hound",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 477,
+      "id": "rem_00477",
+      "jp": "邪悪な儀式の犠牲となり、不定形の怪物にされてしまった村人。儀式により、邪教徒を襲うことはなく、自らを助けに来たはずの者達を襲い、食らってしまう。",
+      "en": "A villager transformed into a shapeless monster by a dark ritual. It spares cultists, instead preying on those who come to rescue it.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 478,
+      "id": "rem_00478",
+      "jp": "上質のなりそこない",
+      "en": "Premium Aberration",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 479,
+      "id": "rem_00479",
+      "jp": "牛型の半獣半人。人よりも魔族に近い。人間の豪傑を遙かに超える力を持ち、人間のメスを犯す。本来はそれ単体で一都市を恐怖に陥れる。",
+      "en": "A bull-like beastman, closer to demon than human. Its strength dwarfs human warriors, and it violates women—a terror that could paralyze a city alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 480,
+      "id": "rem_00480",
+      "jp": "ハーフデビル",
+      "en": "Half-Devil",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 481,
+      "id": "rem_00481",
+      "jp": "異端者を狩る事のみに執着するあまり、邪教の思想へと傾倒した審問官。自らの信仰よりも、異端者と認定した人間を狩る事に執念を燃やす。",
+      "en": "An inquisitor who, obsessed with hunting heretics, has deviated into heretical beliefs. Zealously hunts those judged as heretics, surpassing his own faith.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 482,
+      "id": "rem_00482",
+      "jp": "堕落した黒将軍",
+      "en": "Corrupt Black General",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 483,
+      "id": "rem_00483",
+      "jp": "ゾンビとして蘇った者が、マグマに焼かれながらも、その熱に耐える力を得た。炎を纏った体は接近を許すだけで脅威。しかし焼かれているゾンビは、想像を絶する苦痛に襲われている。",
+      "en": "A zombie resurrected and tempered by magma, gaining resistance to the heat. Its flame-wreathed body is a threat to anyone near, though it suffers unimaginable pain.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 484,
+      "id": "rem_00484",
+      "jp": "マグマゾンビ",
+      "en": "Magma Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 485,
+      "id": "rem_00485",
+      "jp": "炎に焼かれて死亡した人間の死体に、邪悪な魂が入り込んだガイコツ。羨望を殺意へと転化され、生者へと襲い掛かる。",
+      "en": "A skeleton born from a corpse burned by fire, now housing an evil soul. Its envy transforms into murderous intent directed at the living.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 486,
+      "id": "rem_00486",
+      "jp": "燃え上がるガイコツ",
+      "en": "Blazing Skeleton",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 487,
+      "id": "rem_00487",
+      "jp": "魔術によって動く無機物の巨人。生物ではないため、自ら砕けようとも命令を守る。目的を達成するため、全ての障害を排除しようと襲い掛かる。",
+      "en": "An inorganic giant animated by magic. As a non-living thing, it follows orders even to the point of self-destruction, eliminating all obstacles to achieve its goal.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 488,
+      "id": "rem_00488",
+      "jp": "オールドゴーレム",
+      "en": "Old Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 489,
+      "id": "rem_00489",
+      "jp": "炎を纏ったゴーレム。大地のマグマをその身に取り込み、莫大なエネルギーを得た。炎獄の力をその身に纏い、あらゆる生命に襲い掛かる。",
+      "en": "A golem wreathed in flames. It draws immense energy from the earth's magma, wielding infernal power to assault all life.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 490,
+      "id": "rem_00490",
+      "jp": "ファイアゴーレム",
+      "en": "Fire Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 491,
+      "id": "rem_00491",
+      "jp": "高熱の中でも活動する、ファングの亜種。その突進力は攻城兵器にも匹敵すると言われるが、熟成された肉はうま味たっぷりで、王都の美食家に愛されている。",
+      "en": "A subspecies of Fang active even in high heat. Its charge rivals siege weaponry, but its matured meat is flavorful, beloved by the capital's gourmets.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 492,
+      "id": "rem_00492",
+      "jp": "ファイヤーファング",
+      "en": "Fire Fang",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 493,
+      "id": "rem_00493",
+      "jp": "巨大な昆虫型の魔獣。非常に硬い外皮と強大な生命力、暴力的な食欲を持ち、一度の食事で、山を丸ごと荒れ地に変えてしまう。単体でも非常に脅威となる、土地殺しの怪物。",
+      "en": "A giant insect-type monster. Possesses extremely hard skin, immense vitality, and a voracious appetite—capable of turning a mountain into wasteland in one meal. A land-destroying threat.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 494,
+      "id": "rem_00494",
+      "jp": "ビッグキャタピラー",
+      "en": "Big Caterpillar",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 495,
+      "id": "rem_00495",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。炎の魔法を得意とし、周囲を炎熱の結界へと引きずり込む。",
+      "en": "A spirit mimicking a burning skull. Flies around the living in a pattern, mockingly draining their life force. Excels in fire magic, dragging the area into a fiery barrier.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 496,
+      "id": "rem_00496",
+      "jp": "フレイムスピリット",
+      "en": "Flame Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 497,
+      "id": "rem_00497",
+      "jp": "数多の戦闘を潜り抜けたマーマン。通常のマーマンよりも戦闘力が上がっており、通常のマーマンと同一に考えると危険。",
+      "en": "A Merman veteran of countless battles. More combat-capable than ordinary Mermen; underestimating them is dangerous.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 498,
+      "id": "rem_00498",
+      "jp": "歴戦マーマン",
+      "en": "Veteran Merman",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 499,
+      "id": "rem_00499",
+      "jp": "マーマン族の兵士を束ねる将軍。最前線でも生き残る生命力と、硬い鱗による堅牢な防御力を持つ為、人間が武器での切り合いをしても有効打を与え辛い。",
+      "en": "A general commanding Merman soldiers. Survives the frontlines with great vitality and tough scale armor, making it hard for humans to land effective blows with weapons.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 500,
+      "id": "rem_00500",
+      "jp": "マーマンジェネラル",
+      "en": "Merman General",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

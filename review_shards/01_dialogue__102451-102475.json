@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102451,
+  "range_end": 102475,
+  "pairs": [
+    {
+      "n": 102451,
+      "id": "db_EventInfo:121043:12",
+      "jp": "店長、【『<ruby=ソルシア>学院</ruby>』】の方から、魔術研究大学の設置を提案されてます。",
+      "en": "Manager, the \"Solcia Academy\" is proposing we build a Magic Research University.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102452,
+      "id": "db_EventInfo:121044:1",
+      "jp": "……大学？",
+      "en": "...A university?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102453,
+      "id": "db_EventInfo:121045:12",
+      "jp": "はい。【『ロオン遺跡調査団』】や【『魔女達のお茶会』】などと連携し、長期的な魔術研究を行ないます",
+      "en": "Yes. It would work with groups like the \"Loon Ruins Exploration Team\" and the \"Witches' Tea Party\" to do long-term magic research.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102454,
+      "id": "db_EventInfo:121046:12",
+      "jp": "すでにゼカリウスには、多くの魔術師や学者が滞在してますからね。彼らも拠点を求めてるのです",
+      "en": "After all, many mages and scholars are already staying in Zecarius. They're looking for a base of operations.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102455,
+      "id": "db_EventInfo:121047:115",
+      "jp": "大学は【『賢者』】の卵を養成する機関でもある。建築してくれるとうれしい",
+      "en": "A university is also an institution for training potential \"Sages\". I'd be happy if you built one.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102456,
+      "id": "db_EventInfo:121048:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102457,
+      "id": "db_EventInfo:121051:0",
+      "jp": "資金に余裕を見て、投資してみよう。",
+      "en": "Let's invest in it. I have enough money to spare.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102458,
+      "id": "db_EventInfo:121053:12",
+      "jp": "店長、大学への投資ありがとうございます。",
+      "en": "Manager, thank you for investing in the university.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102459,
+      "id": "db_EventInfo:121054:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】の方からも、感謝の言葉が寄せられていますよ。",
+      "en": "The \"Solcia Academy\" also sent their thanks.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102460,
+      "id": "db_EventInfo:121055:1",
+      "jp": "それはよかった",
+      "en": "Glad to hear it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102461,
+      "id": "db_EventInfo:121056:115",
+      "jp": "大学まで作るとは、すごい",
+      "en": "Building a university... that's amazing.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102462,
+      "id": "db_EventInfo:121057:115",
+      "jp": "全てのことが終わったら、後進の育成をするのも面白そう",
+      "en": "When everything's over, training the next generation might be fun.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102463,
+      "id": "db_EventInfo:121058:12",
+      "jp": "まあ、まだまだやることはたくさんありますけど",
+      "en": "Well, there's still a lot to do.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102464,
+      "id": "db_EventInfo:121059:12",
+      "jp": "大学の運営は【『<ruby=ソルシア>学院</ruby>』】の方で行ないます。研究の成果は店の経営に役立つはずです",
+      "en": "The college itself, the Solsia Academy, will handle the university's operations. Their research results should help with the shop's business.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102465,
+      "id": "db_EventInfo:121062:0",
+      "jp": "大学を建設してしまった。魔術の研究が進むだろう。",
+      "en": "I've built the university. Magic research should progress.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102466,
+      "id": "db_EventInfo:121064:115",
+      "jp": "店長、【『魔術師の塔』】を建築してみない？",
+      "en": "Boss, how about building a Mage's Tower?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102467,
+      "id": "db_EventInfo:121065:1",
+      "jp": "【『魔術師の塔』】？",
+      "en": "A Mage's Tower?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102468,
+      "id": "db_EventInfo:121066:115",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】から連絡が来た",
+      "en": "We got a message from the Solsia Academy.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102469,
+      "id": "db_EventInfo:121067:115",
+      "jp": "【『魔術師の塔』】は【『<ruby=ソルシア>学院</ruby>』】の特別な施設。最上級魔術を研究する、魔術の最高学府",
+      "en": "The Mage's Tower is a special facility of the Solsia Academy. It's the highest institution for magic, researching the most advanced spells.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102470,
+      "id": "db_EventInfo:121068:115",
+      "jp": "大陸にも数軒しか存在しない",
+      "en": "There are only a few in the whole continent.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 102471,
+      "id": "db_EventInfo:121069:12",
+      "jp": "頭の固い【『<ruby=ソルシア>学院</ruby>』】がそれを提案するとは、珍しいですね",
+      "en": "It's rare for the stubborn Solsia Academy to propose that.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102472,
+      "id": "db_EventInfo:121070:12",
+      "jp": "【『魔術師の塔』】は最先端の魔術の研究施設です。建築費用は高額ですが、最上級の魔術師が集うでしょう",
+      "en": "The Mage's Tower is a cutting-edge magic research facility. The construction cost is high, but top-tier mages will gather there.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102473,
+      "id": "db_EventInfo:121071:1",
+      "jp": "投資する価値はあるということか",
+      "en": "So, it's worth the investment.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102474,
+      "id": "db_EventInfo:121074:0",
+      "jp": "資金に余裕を見て、投資してみよう。",
+      "en": "I'll check the funds and invest if there's enough.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102475,
+      "id": "db_EventInfo:121076:115",
+      "jp": "店長、【『魔術師の塔』】が建築された",
+      "en": "The Tower of the Magician has been built.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    }
+  ]
+}

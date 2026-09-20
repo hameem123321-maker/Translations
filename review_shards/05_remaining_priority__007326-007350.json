@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7326,
+  "range_end": 7350,
+  "pairs": [
+    {
+      "n": 7326,
+      "id": "rem_34945",
+      "jp": "邪教の犬をどうにかしてくれ",
+      "en": "Deal with the cult's hounds",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7327,
+      "id": "rem_34946",
+      "jp": "黒神殿の謎を解き明かそう",
+      "en": "Solve the Black Temple's mystery",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7328,
+      "id": "rem_34947",
+      "jp": "呪いを解除できる人募集",
+      "en": "Seeking someone to lift a curse",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7329,
+      "id": "rem_34948",
+      "jp": "神殿発掘メンバーを指揮して",
+      "en": "Command the temple excavation team",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7330,
+      "id": "rem_34949",
+      "jp": "邪教徒の掃討作戦参加者募集",
+      "en": "Seeking participants to purge cultists",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7331,
+      "id": "rem_34950",
+      "jp": "謎の遺物を持ち帰って下さい",
+      "en": "Retrieve a mysterious relic",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7332,
+      "id": "rem_34951",
+      "jp": "アーティファクトの解呪業務",
+      "en": "Artifact purification work",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7333,
+      "id": "rem_34952",
+      "jp": "巡礼者たちの取りまとめ役",
+      "en": "Organize the pilgrims",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7334,
+      "id": "rem_34953",
+      "jp": "聖なる遺跡の調査員募集",
+      "en": "Seeking holy ruins investigators",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7335,
+      "id": "rem_34954",
+      "jp": "天使の痕跡を持ち帰ってくれ",
+      "en": "Retrieve a trace of an angel",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7336,
+      "id": "rem_34955",
+      "jp": "危険地帯の探索者募集",
+      "en": "Seeking explorers for a dangerous zone",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7337,
+      "id": "rem_34956",
+      "jp": "ゴーレムにも負けない盾役",
+      "en": "A tank that can stand up to a golem",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7338,
+      "id": "rem_34957",
+      "jp": "暑すぎる誰か冷やしてくれ",
+      "en": "Someone cool me down, it's too hot",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7339,
+      "id": "rem_34958",
+      "jp": "救護所の運営員募集",
+      "en": "Seeking aid station operator",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7340,
+      "id": "rem_34959",
+      "jp": "火山地帯の探索者の指揮",
+      "en": "Command explorers in volcanic terrain",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7341,
+      "id": "rem_34960",
+      "jp": "護衛隊のタンク募集",
+      "en": "Looking for Tank for Guard",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7342,
+      "id": "rem_34961",
+      "jp": "熱を緩和できる魔術使い求む",
+      "en": "Seeking Mage to Mitigate Heat",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7343,
+      "id": "rem_34962",
+      "jp": "腕利きヒーラーいませんか",
+      "en": "Any Skilled Healers?",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7344,
+      "id": "rem_34963",
+      "jp": "ブラックボックスの解析",
+      "en": "Black Box Analysis",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7345,
+      "id": "rem_34964",
+      "jp": "魔術のスペシャリスト募集",
+      "en": "Seeking Magic Specialist",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7346,
+      "id": "rem_34965",
+      "jp": "黄金を持ち帰れ！",
+      "en": "Bring Back the Gold!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7347,
+      "id": "rem_34966",
+      "jp": "砂漠のバトル要員募集",
+      "en": "Seeking Desert Combat Staff",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7348,
+      "id": "rem_34967",
+      "jp": "発掘者を指導して欲しい",
+      "en": "Want Instructor for Excavators",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7349,
+      "id": "rem_34968",
+      "jp": "呪われた遺物の回収指揮",
+      "en": "Command Recovery of Cursed Relic",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7350,
+      "id": "rem_34969",
+      "jp": "古代のトラップが痛すぎる",
+      "en": "Ancient Traps Hurt Too Much",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

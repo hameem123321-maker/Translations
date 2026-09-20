@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95576,
+  "range_end": 95600,
+  "pairs": [
+    {
+      "n": 95576,
+      "id": "db_EventInfo:112923:1",
+      "jp": "壊滅させるな",
+      "en": "Don't do that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95577,
+      "id": "db_EventInfo:112924:12",
+      "jp": "どこかの遺跡に、その術式のヒントがあると、一族の者は言ってました",
+      "en": "My family said clues about the formula might be in some ruins.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95578,
+      "id": "db_EventInfo:112925:2",
+      "jp": "……なるほど、もしかしてオマエが冒険者をやっていたのは",
+      "en": "...I see. So maybe that's why you became an adventurer...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95579,
+      "id": "db_EventInfo:112926:12",
+      "jp": "それを調べるためです",
+      "en": "To look for them.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95580,
+      "id": "db_EventInfo:112927:12",
+      "jp": "場所は特定できるかもしれません。でも、資料を集めたり調査や解析にはお金が掛かるんですよね",
+      "en": "I might be able to find the place. But gathering documents, research, and analysis costs money.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95581,
+      "id": "db_EventInfo:112930:0",
+      "jp": "【『禁呪』】という、ミルテの真の魔術というものがあるらしい。",
+      "en": "There seems to be something called the 'Forbidden Spell', Myrte's true magic.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95582,
+      "id": "db_EventInfo:112931:0",
+      "jp": "ミルテが冒険者として遺跡巡りをしていたのは、その術式のヒントを探すためもあるようだ。",
+      "en": "It seems Myrte explored ruins as an adventurer partly to find clues for that spell's formula.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95583,
+      "id": "db_EventInfo:112932:1",
+      "jp": "(ミルテの魔術が安定するなら……協力してもいいかな)",
+      "en": "If Myrte's magic can be stabilized... I might be willing to help out.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95584,
+      "id": "db_EventInfo:112934:12",
+      "jp": "ぐぬー……ぐぬぬ……",
+      "en": "Grrr... Grrrrr...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95585,
+      "id": "db_EventInfo:112935:1",
+      "jp": "ミルテのやつ、どうしたんだ？",
+      "en": "What's wrong with Myrte?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95586,
+      "id": "db_EventInfo:112936:2",
+      "jp": "どうやら暴走を止める方法を探しているようデス",
+      "en": "It seems he's looking for a way to stop the rampage.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95587,
+      "id": "db_EventInfo:112937:1",
+      "jp": "そんなのあるのか？",
+      "en": "Is there really a way?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95588,
+      "id": "db_EventInfo:112938:12",
+      "jp": "ぬう……魔術の開祖……【『起源の魔術師』】が記した【『起源の魔術書』】があれば……",
+      "en": "Ngh... If we had the 'Origin Grimoire'... written by the founder of magic, the 'Original Magician'...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95589,
+      "id": "db_EventInfo:112939:12",
+      "jp": "私の一族に伝わる魔術の制御法が載っているはずなのです！",
+      "en": "It should contain the control method for the magic passed down in my clan!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95590,
+      "id": "db_EventInfo:112940:1",
+      "jp": "【『起源の魔術書』】……",
+      "en": "The 'Origin Grimoire'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95591,
+      "id": "db_EventInfo:112941:12",
+      "jp": "しかしそれは【『<ruby=ソルシア>学院</ruby>』】も探索する禁書でして、いまだ行方がつかめていないのです",
+      "en": "But it's a forbidden book that the Solsia Academy also searches for. Its whereabouts are still unknown.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95592,
+      "id": "db_EventInfo:112942:12",
+      "jp": "そもそも、私がゼカリウスを訪れたのも、【『起源の魔術書』】を探すためでして",
+      "en": "In fact, the reason I came to Zecarius was to search for the 'Origin Grimoire'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95593,
+      "id": "db_EventInfo:112943:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95594,
+      "id": "db_EventInfo:112944:2",
+      "jp": "古い本というなら、【『図書館』】デスかね",
+      "en": "An old book... That sounds like the 'Library'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95595,
+      "id": "db_EventInfo:112945:1",
+      "jp": "前は本に気を付けてなかったから……【改めて行けば、何か見つかる】かもな",
+      "en": "Last time I didn't pay much attention to the books... Maybe if I go back now, I'll find something.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95596,
+      "id": "db_EventInfo:112946:12",
+      "jp": "なるほど……ぜひ連れて行きなさい！",
+      "en": "I see... By all means, take me with you!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95597,
+      "id": "db_EventInfo:112947:12",
+      "jp": "ありませんね、【『起源の魔術書』】……アナタもちゃんと探しなさい",
+      "en": "It's not here, the 'Book of Origin Magic'... You look carefully too.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95598,
+      "id": "db_EventInfo:112948:1",
+      "jp": "そう言われたって……ん？",
+      "en": "Even if you say that... Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95599,
+      "id": "db_EventInfo:112949:0",
+      "jp": "書庫の一部が妖しく光っている",
+      "en": "A part of the library is glowing in an eerie way.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95600,
+      "id": "db_EventInfo:112950:1",
+      "jp": "そういえば、前に来たときも光っている本があったな……",
+      "en": "Now that I think about it, there was a glowing book here last time too...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

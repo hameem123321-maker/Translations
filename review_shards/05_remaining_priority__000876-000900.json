@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 876,
+  "range_end": 900,
+  "pairs": [
+    {
+      "n": 876,
+      "id": "rem_01263",
+      "jp": "ミンチになったデス",
+      "en": "Was minced.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 877,
+      "id": "rem_01264",
+      "jp": "小さい野鳥を捌き、食肉処理を施した後に串に刺したもの。このまま火に炙れば美味しくいただけるだろう。",
+      "en": "Small wild bird processed into meat and skewered. Ready for grilling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 878,
+      "id": "rem_01265",
+      "jp": "小ぶりの鳥肉串",
+      "en": "Small Bird Meat Skewer",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 879,
+      "id": "rem_01266",
+      "jp": "鳥の肉のような弾力を持つフロッグ肉。見た目さえ誤魔化せれば、トリニクと言われても信じられる。見た目さえ誤魔化せれば……。",
+      "en": "Frog meat with a chicken-like texture. If you ignore the looks, it's convincing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 880,
+      "id": "rem_01267",
+      "jp": "トリニクモドキ",
+      "en": "Mock Chicken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 881,
+      "id": "rem_01268",
+      "jp": "豚肉を薄く切った物を干した保存食。適度に塩を振ってあり、新鮮な肉とは違った味わいが引き立つ。",
+      "en": "Thinly sliced and dried pork, seasoned with salt. A preserved food with a unique taste different from fresh meat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 882,
+      "id": "rem_01269",
+      "jp": "乾燥スライスブタ肉",
+      "en": "Dried Sliced Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 883,
+      "id": "rem_01270",
+      "jp": "野生のウシを解体し、骨が付いたまま肉を取り出したもの。牛肉としては安価だが、程よく脂が乗った美味さ。",
+      "en": "Meat taken from a butchered wild cow, left on the bone. A cheaper beef cut with just the right amount of tasty fat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 884,
+      "id": "rem_01271",
+      "jp": "解体した骨付きビーフ",
+      "en": "Butchered Bone-in Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 885,
+      "id": "rem_01272",
+      "jp": "洞窟の獣の肉。食べても死にはしない。牛肉ということで販売可能。",
+      "en": "Meat from a cave beast. You won't die from eating it. Can be sold as beef.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 886,
+      "id": "rem_01273",
+      "jp": "洞窟ビーフ",
+      "en": "Cave Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 887,
+      "id": "rem_01274",
+      "jp": "潰した麦の粒に水を加えて練った生地。細長くしたり、薄く延ばして焼いたり、料理の使い道は多種多様。",
+      "en": "Dough made by kneading water into crushed grains. Versatile for cooking - can be stretched long or rolled thin and baked.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 888,
+      "id": "rem_01275",
+      "jp": "練り上げられた穀物生地",
+      "en": "Kneaded Grain Dough",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 889,
+      "id": "rem_01276",
+      "jp": "パンを焼くのに必要な小麦。野生にもたくさん生えているが、魔物が出没するため注意が必要。",
+      "en": "Wheat needed for baking bread. Grows wild in abundance, but caution is required due to monster activity.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 890,
+      "id": "rem_01277",
+      "jp": "メテトス小麦",
+      "en": "Metetos Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 891,
+      "id": "rem_01278",
+      "jp": "肉厚の葉を摘み取った野菜。シャキシャキした歯触りとみずみずしさを持つ。",
+      "en": "A vegetable with thick, crisp leaves. Has a juicy, crunchy texture.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 892,
+      "id": "rem_01279",
+      "jp": "シャキシャキリーフ",
+      "en": "Crunchy Leaf",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 893,
+      "id": "rem_01280",
+      "jp": "柔らかい果肉と甘酸っぱい果汁を蓄えた果実。手軽に持ち歩く事が可能で、僅かに疲労を回復する効果を持つが、嗜好品の域を出ない。",
+      "en": "A fruit with soft, sweet-tart flesh and juice. Easy to carry. Slightly restores fatigue, but is more of a treat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 894,
+      "id": "rem_01281",
+      "jp": "ゼカリウスベリー",
+      "en": "Zecarius Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 895,
+      "id": "rem_01282",
+      "jp": "僅かに香りを放つ花。生食できない事も無いが、魚介の切り身に乗せる等のワンポイントが主な用途。",
+      "en": "A lightly fragrant flower. Not inedible, but mainly used as a garnish, like on sliced seafood.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 896,
+      "id": "rem_01283",
+      "jp": "香り立つ花",
+      "en": "Fragrant Flower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 897,
+      "id": "rem_01284",
+      "jp": "水分が少ない、カサカサした肌触りのキノコ。見た目は悪いが、そこまで味が酷いわけではない。特徴的で、毒キノコと見分けやすい。",
+      "en": "A dry, flaky mushroom with low moisture. Unattractive but not terrible tasting. Its distinct look makes it easy to tell apart from poisonous ones.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 898,
+      "id": "rem_01285",
+      "jp": "カサカサキノコ",
+      "en": "Flaky Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 899,
+      "id": "rem_01286",
+      "jp": "栄養価たっぷりのきのこ。煎じることで薬にもなる。",
+      "en": "A nutrient-rich mushroom. Can be brewed into medicine.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 900,
+      "id": "rem_01287",
+      "jp": "薬草になるきのこ",
+      "en": "Medicinal Herb Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

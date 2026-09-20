@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3101,
+  "range_end": 3125,
+  "pairs": [
+    {
+      "n": 3101,
+      "id": "db_EventInfo:3374:0",
+      "jp": "主人公とヒロインが一緒に仕事をしていると、ヒロインはお店の仕事ができません。その代わり【好感度が少しずつアップ】します。",
+      "en": "When the Player and a heroine work together, the heroine can't do shop work. Instead, their affection level goes up little by little.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3102,
+      "id": "db_EventInfo:3375:0",
+      "jp": "とくにユニークヒロインの【好感度】がアップすると、いろんないいことがあります。たくさんヒロインとイチャつきましょう。",
+      "en": "Especially when a unique heroine's affection level goes up, many good things happen. Spend lots of time flirting with the heroines.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3103,
+      "id": "db_EventInfo:3376:2",
+      "jp": "ドロボーデス！",
+      "en": "Thief!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3104,
+      "id": "db_EventInfo:3377:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3105,
+      "id": "db_EventInfo:3378:2",
+      "jp": "店の商品を盗まれたデス！",
+      "en": "Shop goods have been stolen!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3106,
+      "id": "db_EventInfo:3379:2",
+      "jp": "おのれ、死神の店に忍び込むとは命知らずなやつめデス！",
+      "en": "How dare they sneak into a Shinigami's shop! They have no regard for their life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3107,
+      "id": "db_EventInfo:3380:2",
+      "jp": "ものども、出会えー！　出会えーデス！　生きてここから帰すなデス！",
+      "en": "Minions, come out! Come out! Don't let them leave here alive!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3108,
+      "id": "db_EventInfo:3382:2",
+      "jp": "ならずものが攻めてきたデス！",
+      "en": "Scoundrels are attacking!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3109,
+      "id": "db_EventInfo:3383:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3110,
+      "id": "db_EventInfo:3384:2",
+      "jp": "店の商品やカネを盗むつもりデス！",
+      "en": "They plan to steal the shop's goods and money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3111,
+      "id": "db_EventInfo:3385:2",
+      "jp": "おのれ、死神の店を襲うとは命知らずなやつめデス！",
+      "en": "You dare to attack a Shinigami's shop? You have no regard for your own life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3112,
+      "id": "db_EventInfo:3386:2",
+      "jp": "ものども、出会えー！　出会えーデス！　生きてここから帰すなデス！",
+      "en": "Get them! Get them! Don't let any of them leave here alive!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3113,
+      "id": "db_EventInfo:3387:0",
+      "jp": "ならずもの襲撃時は、全員が「応戦」モードになります",
+      "en": "When scoundrels attack, all units switch to 'Fight Back' mode.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3114,
+      "id": "db_EventInfo:3388:0",
+      "jp": "【『防犯』】の値が高いユニットほど攻撃力が高くなりますが、部門にかかわらず戦力を発揮できるので【『防犯部門』】に配置する必要はありません",
+      "en": "Units with a high 'Security' stat fight harder. They fight well from any department. You don't need to put them in 'Security'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3115,
+      "id": "db_EventInfo:3389:2",
+      "jp": "ゴブリンが攻めてきたデス！",
+      "en": "Goblins are attacking!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3116,
+      "id": "db_EventInfo:3390:1",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3117,
+      "id": "db_EventInfo:3391:2",
+      "jp": "店の商品やカネを盗むつもりデス！",
+      "en": "They're here to steal the shop's goods and money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3118,
+      "id": "db_EventInfo:3392:2",
+      "jp": "おのれ、死神の店を襲うとは命知らずなやつめデス！",
+      "en": "You dare to attack a Shinigami's shop? You have no regard for your own life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3119,
+      "id": "db_EventInfo:3393:2",
+      "jp": "ものども、出会えー！　出会えーデス！　ゴブリンは皆殺しにしてやるデス！",
+      "en": "Get them! Get them! We'll kill every last Goblin!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3120,
+      "id": "db_EventInfo:3394:2",
+      "jp": "むう……ドロボーに逃げられたデス",
+      "en": "Ugh... The thieves got away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3121,
+      "id": "db_EventInfo:3395:2",
+      "jp": "一定時間以内に倒せないと【逃げられる】デス",
+      "en": "If we don't beat them fast, they'll run away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3122,
+      "id": "db_EventInfo:3396:2",
+      "jp": "逃げられたら【噂】が立って、店の評判が下がって【『犯罪値』】も上がるデス",
+      "en": "If they get away, word gets around. Our shop's rep drops and the Crime Rate goes up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3123,
+      "id": "db_EventInfo:3397:1",
+      "jp": "盗んでも逃げられる、って噂か……",
+      "en": "So the rumor is you can steal and get away with it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3124,
+      "id": "db_EventInfo:3398:1",
+      "jp": "【『犯罪値』】が上がったら、ますます泥棒も増えるな",
+      "en": "If the Crime Rate goes up, we'll get even more thieves.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3125,
+      "id": "db_EventInfo:3399:2",
+      "jp": "ドロボーを捕まえたデス！",
+      "en": "We caught a thief!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

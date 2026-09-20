@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1126,
+  "range_end": 1150,
+  "pairs": [
+    {
+      "n": 1126,
+      "id": "db_EventInfo:1389:130",
+      "jp": "【『フレスミス森林道』】は自然の迷路、【『探索』】ができる者は必須だ",
+      "en": "The Fressmiss Forest Path is a natural maze. You need someone who can explore.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1127,
+      "id": "db_EventInfo:1390:111",
+      "jp": "【罠】が危ないってんでしょ？　それなら、怪しいところを避ければ良いじゃない",
+      "en": "You said traps are dangerous, right? Then we can just avoid any suspicious spots.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1128,
+      "id": "db_EventInfo:1391:130",
+      "jp": "怪しく見えない場所に設置するのが【罠】なのだ、この三下が",
+      "en": "That's what a trap is, you third-rater. They're placed where they don't look suspicious.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1129,
+      "id": "db_EventInfo:1392:111",
+      "jp": "誰が三下よ！",
+      "en": "Who's a third-rater?!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1130,
+      "id": "db_EventInfo:1393:130",
+      "jp": "【罠】は【『探索』】の罠察知のスキルがない人間には見えない。スキルがあれば危険はわかるが……",
+      "en": "People without the trap detection skill from exploration can't see traps. The skill lets you sense danger, but...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1131,
+      "id": "db_EventInfo:1394:130",
+      "jp": "ないならば、危険が増える。獲得できるはずの宝をむだにすることもあるんだぞ",
+      "en": "Without it, danger increases. You might even waste treasure you could have gotten.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1132,
+      "id": "db_EventInfo:1395:130",
+      "jp": "【『ドルワミール鉱山』】が【『ゴブリン』】どもに占拠されたそうだな",
+      "en": "I hear the Dolwamir Mine has been taken over by Goblins.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1133,
+      "id": "db_EventInfo:1396:130",
+      "jp": "【『ゴブリン』】はずる賢く【罠】を張る。いわば【『探索』】を相手にするようなものだ",
+      "en": "Goblins are clever and set traps. It's like they're trying to out-think 'explorers'.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1134,
+      "id": "db_EventInfo:1397:111",
+      "jp": "うちらの同業とでもいうの？",
+      "en": "So they're sort of like our rivals, you mean?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1135,
+      "id": "db_EventInfo:1398:130",
+      "jp": "だからオマエは三流盗賊なのだ",
+      "en": "That's why you're a third-rate thief.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1136,
+      "id": "db_EventInfo:1399:111",
+      "jp": "だれが三流盗賊よ！",
+      "en": "Who are you calling a third-rate thief!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1137,
+      "id": "db_EventInfo:1400:130",
+      "jp": "【『ゴブリン』】は【罠】を張る。しかし我々一流の盗賊にとっては児戯のようなものだ",
+      "en": "Goblins set traps. But for us first-class thieves, it's child's play.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1138,
+      "id": "db_EventInfo:1401:130",
+      "jp": "……もっとも、その児戯に多くのベテラン冒険者も苦戦を強いられるようだが",
+      "en": "...Though, to be fair, even many veteran adventurers struggle with that 'child's play'.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1139,
+      "id": "db_EventInfo:1402:130",
+      "jp": "【クリティカルヒット】に成功すると、通常の倍のダメージを与えることができる",
+      "en": "A Critical Hit does double the normal damage.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1140,
+      "id": "db_EventInfo:1403:130",
+      "jp": "しかも防御力をある程度貫通できる、非常に強力な攻撃だ",
+      "en": "It's a very powerful attack that can even ignore some defense.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1141,
+      "id": "db_EventInfo:1404:111",
+      "jp": "なるほど。じゃあ必殺率の高い攻撃を使わなきゃね！",
+      "en": "I see. So we need to use attacks with a high crit chance!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1142,
+      "id": "db_EventInfo:1405:130",
+      "jp": "脳筋め",
+      "en": "You meathead.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1143,
+      "id": "db_EventInfo:1406:111",
+      "jp": "だれが脳筋よ！",
+      "en": "Who are you calling a meathead!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1144,
+      "id": "db_EventInfo:1407:130",
+      "jp": "一撃が大きいスキルは命中率が低いことが多い。やみくもに攻撃力だけを求めるな",
+      "en": "Skills with big single hits often have low accuracy. Don't just blindly focus on attack power.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1145,
+      "id": "db_EventInfo:1408:111",
+      "jp": "そうね、堅実に頑張る……",
+      "en": "Yeah, I'll play it safe and do my best...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1146,
+      "id": "db_EventInfo:1409:130",
+      "jp": "まあ俺は高威力スキル使うけどね",
+      "en": "Well, I'm gonna use my high-power skill.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1147,
+      "id": "db_EventInfo:1410:111",
+      "jp": "待てい",
+      "en": "Wait.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1148,
+      "id": "db_EventInfo:1411:111",
+      "jp": "けほけほ……まだ喉が痛いわね……",
+      "en": "*Cough*... My throat still hurts...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1149,
+      "id": "db_EventInfo:1412:130",
+      "jp": "盗賊ギルドから指令が下っている。支度を終えたら行くぞ",
+      "en": "We've got orders from the Thieves' Guild. We're heading out once we're ready.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1150,
+      "id": "db_EventInfo:1413:111",
+      "jp": "うん……",
+      "en": "Okay...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    }
+  ]
+}

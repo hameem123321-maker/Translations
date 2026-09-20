@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 351,
+  "range_end": 375,
+  "pairs": [
+    {
+      "n": 351,
+      "id": "rem_00351",
+      "jp": "死んだ人間の身体に魔力が宿り、動き出した魔物。飢えと渇きを満たそうと、生者に対して無差別に襲い掛かる。",
+      "en": "A monster born from a dead human body infused with magic. It attacks the living indiscriminately, driven by an endless hunger.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 352,
+      "id": "rem_00352",
+      "jp": "ゾンビ",
+      "en": "Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 353,
+      "id": "rem_00353",
+      "jp": "長い間彷徨い歩いたゾンビの変種。生者への執着は高まり続け、通常のゾンビとは比較にならない攻撃力を持っている。",
+      "en": "A variant zombie that has wandered for ages. Its obsession with the living grants it attack power far beyond that of a common zombie.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 354,
+      "id": "rem_00354",
+      "jp": "エルダーゾンビ",
+      "en": "Elder Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 355,
+      "id": "rem_00355",
+      "jp": "うち捨てられた淫魔の機械に意思が宿り、精気を求めてさまよいだしたもの。男女問わずに襲い掛かり、自由を奪った上で生命力を吸収していく。",
+      "en": "An abandoned incubus machine that gained sentience. It roams, seeking vitality, attacking people regardless of gender to drain their life force.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 356,
+      "id": "rem_00356",
+      "jp": "ドレインホール",
+      "en": "Drain Hole",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 357,
+      "id": "rem_00357",
+      "jp": "現世に実体化した魂の魔物。とらえどころのない体に武器攻撃は通じ辛い。捕まってしまえば生気を吸われ、呪い殺される。手を出さなければ、意外とおとなしい。",
+      "en": "A spiritual monster materialized in the mortal realm. Its intangible body resists physical attacks. If caught, it will drain your life force. Surprisingly docile if left alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 358,
+      "id": "rem_00358",
+      "jp": "ゴースト",
+      "en": "Ghost",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 359,
+      "id": "rem_00359",
+      "jp": "しわしわの猿の手の形をした魔生物。魔族が使役する下級の使い魔だが、人間にも扱うことができる。戦闘力は低いが、どこにでも潜むので奇襲を受けやすい。雑用も得意。",
+      "en": "A demonic creature shaped like a shriveled monkey's hand. A low-tier familiar used by demons, but humans can control them too. Weak in combat but adept at ambushes and menial tasks.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 360,
+      "id": "rem_00360",
+      "jp": "ハンド",
+      "en": "Hand",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 361,
+      "id": "rem_00361",
+      "jp": "魔術師免許を持っている、一般魔術師。呪文使いとして一人前の魔術師で、後衛から呪文を唱え、攻守に渡りサポートする。",
+      "en": "A licensed, standard wizard. A full-fledged caster who supports the party from the rear with spells.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 362,
+      "id": "rem_00362",
+      "jp": "雇われマジシャン",
+      "en": "Hired Magician",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 363,
+      "id": "rem_00363",
+      "jp": "生物実験の末に廃棄された動物たちのなれの果て。自らを異形の姿へと変えた人間達に恨みを抱き、苛烈な攻撃をしかけてくる。",
+      "en": "The wretched result of discarded animal experiments. They hate the humans who deformed them, and attack fiercely.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 364,
+      "id": "rem_00364",
+      "jp": "狂暴キメラ",
+      "en": "Feral Chimera",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 365,
+      "id": "rem_00365",
+      "jp": "領主の宝を守る為に雇われた、騎士団所属の騎士。通常の兵士とは一線を画す強さを持つが、真に守るべき物は何なのかは、彼にも分かっていなかった。",
+      "en": "A knight hired to guard the lord's treasures. Stronger than regular soldiers, but even he didn't know what he was truly protecting.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 366,
+      "id": "rem_00366",
+      "jp": "雇われ騎士",
+      "en": "Hired Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 367,
+      "id": "rem_00367",
+      "jp": "魔術師でありながら、前線でも戦える実力を身に着けた魔導騎士。人間を相手にすることを想定し、様々な呪縛呪文で相手を束縛する。",
+      "en": "A magic knight who can fight on the frontlines. They use binding spells to subdue human foes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 368,
+      "id": "rem_00368",
+      "jp": "マジックウォーリア",
+      "en": "Magic Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 369,
+      "id": "rem_00369",
+      "jp": "裏社会の組織に雇われた腕利きの暗殺者。対象を抹殺することのみに特化した技術を持ち、彼らの標的になると非常に危険。",
+      "en": "A skilled assassin hired by an underworld syndicate. Specializes solely in eliminating targets, making them highly dangerous.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 370,
+      "id": "rem_00370",
+      "jp": "ダークストーカー",
+      "en": "Darkstalker",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 371,
+      "id": "rem_00371",
+      "jp": "より凶暴に、より貪欲に変化したゴブリンの変異体。地下でひっそりと進化を続けたこの変異種が、どれだけ世界中に散ったのかを知る者はいない。",
+      "en": "A mutated goblin, grown more vicious and greedy. No one knows how many of these subterranean-evolved mutants have spread worldwide.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 372,
+      "id": "rem_00372",
+      "jp": "変異ゴブリン",
+      "en": "Mutant Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 373,
+      "id": "rem_00373",
+      "jp": "各地を冒険し宝を得る為、魔導船団に参加した冒険者。魔術師には手に負えない直接的な危険に対応できる。船団内での地位は低い。",
+      "en": "An adventurer who joined the magic fleet seeking treasure. Handles direct dangers that wizards can't. Low rank within the fleet.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 374,
+      "id": "rem_00374",
+      "jp": "雇われ冒険者",
+      "en": "Hired Adventurer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 375,
+      "id": "rem_00375",
+      "jp": "ひらひらと宙を舞うバタフライの亜種。強力な毒の鱗粉を持つ反面、強力な薬効も得られるため、魔術師が実験用として手元に置いている。",
+      "en": "A subspecies of butterfly that flutters in the air. Its scales are highly poisonous, but also potent for alchemy, so wizards keep them for experiments.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

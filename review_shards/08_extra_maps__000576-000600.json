@@ -1,0 +1,164 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 576,
+  "range_end": 600,
+  "pairs": [
+    {
+      "n": 576,
+      "id": "force_dll_0057",
+      "jp": "><size=28>{2}</size>人</color> ",
+      "en": "><size=28>{2}</size>n</color> "
+    },
+    {
+      "n": 577,
+      "id": "force_dll_0058",
+      "jp": "(製品+DLC版 2.0.02)",
+      "en": "(+DLC 2.0.02)   "
+    },
+    {
+      "n": 578,
+      "id": "force_dll_0059",
+      "jp": "<size=30>{0}</size>周目 <size=30>{1}</size>日",
+      "en": "<size=30>{0}</size>nd <size=30>{1}</size>d"
+    },
+    {
+      "n": 579,
+      "id": "force_dll_0060",
+      "jp": "プロフィール①",
+      "en": "Prof. 1"
+    },
+    {
+      "n": 580,
+      "id": "force_dll_0061",
+      "jp": "プロフィール②",
+      "en": "Prof. 2"
+    },
+    {
+      "n": 581,
+      "id": "force_dll_0062",
+      "jp": "プロフィール③",
+      "en": "Prof. 3"
+    },
+    {
+      "n": 582,
+      "id": "force_dll_0063",
+      "jp": "プロフィール④",
+      "en": "Prof. 4"
+    },
+    {
+      "n": 583,
+      "id": "force_dll_0064",
+      "jp": "プロフィール⑤",
+      "en": "Prof. 5"
+    },
+    {
+      "n": 584,
+      "id": "force_dll_0065",
+      "jp": "性歴",
+      "en": "Hx"
+    },
+    {
+      "n": 585,
+      "id": "force_dll_0066",
+      "jp": "位</size>",
+      "en": " </size>"
+    },
+    {
+      "n": 586,
+      "id": "force_dll_0067",
+      "jp": "時間",
+      "en": "hr"
+    },
+    {
+      "n": 587,
+      "id": "force_dll_0068",
+      "jp": "『{0}』を建築してみましょう",
+      "en": "Try build '{0}'"
+    },
+    {
+      "n": 588,
+      "id": "force_dll_0069",
+      "jp": "【{0}】を【{1}】</size>点入手！",
+      "en": "【{0}】+【{1}】</size> pts"
+    },
+    {
+      "n": 589,
+      "id": "force_dll_0070",
+      "jp": "【{0}】を捕まえて【{1}G】を取り返した！",
+      "en": "Caught 【{0}】 【{1}G】!"
+    },
+    {
+      "n": 590,
+      "id": "force_dll_0071",
+      "jp": "【{0}】を掃除した！",
+      "en": "Swept 【{0}】"
+    },
+    {
+      "n": 591,
+      "id": "force_dll_0072",
+      "jp": "宿泊の売上が入った！(【{1}G】)",
+      "en": "Stay pay (【{1}G】)!"
+    },
+    {
+      "n": 592,
+      "id": "force_dll_0073",
+      "jp": "【チンピラ】が食い逃げして【{1}G】の損害が発生した！",
+      "en": "Thug dine-ran. Lost 【{1}G】!"
+    },
+    {
+      "n": 593,
+      "id": "force_dll_0074",
+      "jp": "【チンピラ】が万引きして【{1}G】の損害が発生した！",
+      "en": "Thug stole. Lost 【{1}G】!"
+    },
+    {
+      "n": 594,
+      "id": "force_dll_0075",
+      "jp": "【<dst>】のＨＰが【{0}】回復した！",
+      "en": "【<dst>】 HP +【{0}】!"
+    },
+    {
+      "n": 595,
+      "id": "force_dll_0076",
+      "jp": "【<dst>】のＭＰが【{0}】回復した！",
+      "en": "【<dst>】 MP +【{0}】!"
+    },
+    {
+      "n": 596,
+      "id": "force_dll_0077",
+      "jp": "毒により【<dst>】に【{0}】のダメージ！",
+      "en": "Poison 【<dst>】 【{0}】dmg"
+    },
+    {
+      "n": 597,
+      "id": "force_dll_0078",
+      "jp": "<color=#ff8800><size=30>{0}</size></color>ゴールドいただきます",
+      "en": "<color=#ff8800><size=30>{0}</size></color> gold",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 598,
+      "id": "force_dll_0079",
+      "jp": "×未出現のダンジョン素材×",
+      "en": "x No mats x"
+    },
+    {
+      "n": 599,
+      "id": "force_dll_0080",
+      "jp": "<color=#ff8800><size=18>派遣先</size></color>\n",
+      "en": "<color=#ff8800><size=18>Dst</size></color>\n",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 600,
+      "id": "force_dll_0081",
+      "jp": "】以上</size>\n",
+      "en": "+]</size>\n"
+    }
+  ]
+}

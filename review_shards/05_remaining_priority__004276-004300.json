@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4276,
+  "range_end": 4300,
+  "pairs": [
+    {
+      "n": 4276,
+      "id": "rem_31895",
+      "jp": "虚脱",
+      "en": "Enervated",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4277,
+      "id": "rem_31896",
+      "jp": "物理ダメージ軽減率-50%",
+      "en": "Physical damage taken +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4278,
+      "id": "rem_31897",
+      "jp": "【<dst>】の防御力が下がった！",
+      "en": "【<dst>】's defense fell!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4279,
+      "id": "rem_31898",
+      "jp": "【<dst>】の防御力が元に戻った！",
+      "en": "【<dst>】's defense returned to normal!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4280,
+      "id": "rem_31899",
+      "jp": "脆化",
+      "en": "Brittle",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4281,
+      "id": "rem_31900",
+      "jp": "クリティカルを受ける確率+30%",
+      "en": "Critical hit chance +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4282,
+      "id": "rem_31901",
+      "jp": "【<dst>】の回避率が下がった！",
+      "en": "【<dst>】's evasion has dropped!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4283,
+      "id": "rem_31902",
+      "jp": "【<dst>】の回避率が元に戻った……",
+      "en": "【<dst>】's evasion returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4284,
+      "id": "rem_31903",
+      "jp": "足縛",
+      "en": "Leg Bind",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4285,
+      "id": "rem_31904",
+      "jp": "【<dst>】は眠気で行動できない！",
+      "en": "【<dst>】 cannot act due to drowsiness!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4286,
+      "id": "rem_31905",
+      "jp": "【<dst>】は強い眠気に襲われた！",
+      "en": "【<dst>】 is hit by heavy drowsiness!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4287,
+      "id": "rem_31906",
+      "jp": "【<dst>】は目が覚めた！",
+      "en": "【<dst>】 has woken up!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4288,
+      "id": "rem_31907",
+      "jp": "睡眠",
+      "en": "Sleep",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4289,
+      "id": "rem_31908",
+      "jp": "【<dst>】は感電して痺れている！",
+      "en": "【<dst>】 is paralyzed from electrocution!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4290,
+      "id": "rem_31909",
+      "jp": "【<dst>】は感電した！",
+      "en": "【<dst>】 has been electrocuted!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4291,
+      "id": "rem_31910",
+      "jp": "【<dst>】の感電から回復した！",
+      "en": "【<dst>】 recovered from electrocution!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4292,
+      "id": "rem_31911",
+      "jp": "感電",
+      "en": "Electrocution",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4293,
+      "id": "rem_31912",
+      "jp": "【<dst>】はスタンして行動できない！",
+      "en": "【<dst>】 cannot act due to stun!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4294,
+      "id": "rem_31913",
+      "jp": "【<dst>】はスタンした！",
+      "en": "【<dst>】 has been stunned!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4295,
+      "id": "rem_31914",
+      "jp": "【<dst>】のスタンが回復した！",
+      "en": "【<dst>】 recovered from the stun!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4296,
+      "id": "rem_31915",
+      "jp": "スタン",
+      "en": "Stun",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4297,
+      "id": "rem_31916",
+      "jp": "クリティカルを受ける確率+50%",
+      "en": "Critical hit chance +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4298,
+      "id": "rem_31917",
+      "jp": "【<dst>】は罠で身動きとれない！！",
+      "en": "【<dst>】 is trapped and cannot move!!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4299,
+      "id": "rem_31918",
+      "jp": "【<dst>】は罠に引っかかった！",
+      "en": "【<dst>】 was caught in a trap!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4300,
+      "id": "rem_31919",
+      "jp": "【<dst>】は阻害罠から逃げ出した！",
+      "en": "【<dst>】 escaped the disabling trap!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

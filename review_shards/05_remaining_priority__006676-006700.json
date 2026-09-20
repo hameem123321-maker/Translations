@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6676,
+  "range_end": 6700,
+  "pairs": [
+    {
+      "n": 6676,
+      "id": "rem_34295",
+      "jp": "【<src>】の[五月雨斬り]！",
+      "en": "【<src>】's [May Rain Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6677,
+      "id": "rem_34296",
+      "jp": "戦力変換・変態＞連撃力",
+      "en": "Power Conversion: Metamorphosis > Multi-hit Power",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6678,
+      "id": "rem_34297",
+      "jp": "スキルを含む、全ての攻撃の範囲が一段階広がる。強力な攻撃と合わせれば猛威を振るうだろう。",
+      "en": "The range of all attacks, including skills, widens by one level. Combined with powerful attacks, it will wreak havoc.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6679,
+      "id": "rem_34298",
+      "jp": "【自分】に【範囲拡大】を付与 (攻撃の範囲拡大率[+100%])",
+      "en": "Grants 【Self】 【Range Expand】 (Attack Range Expansion Rate[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6680,
+      "id": "rem_34299",
+      "jp": "【<src>】は[まとめて薙ぎ払う]！",
+      "en": "【<src>】 [cuts them down all together]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6681,
+      "id": "rem_34300",
+      "jp": "敵の攻撃力を大幅に下げるフィールドを作成。味方の攻撃は素通りする、便利で都合の良い防御サポートスキル。退魔の結界は防御効果は低めだが、味方を様々に癒す効果もある。",
+      "en": "Creates a field that greatly lowers enemy attack power. Allies' attacks pass through. A convenient and handy defensive support skill. The Purification Barrier has lower defensive effects but also heals allies in various ways.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6682,
+      "id": "rem_34301",
+      "jp": "【フィールド】に【退魔結界】を付与 (すべての攻撃ダメージ[-20%](敵のみ) + 魔術ダメージ[+30%])",
+      "en": "Grants 【Field】 【Purification Barrier】 (All attack damage[-20%](Enemy only) + Magic damage[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6683,
+      "id": "rem_34302",
+      "jp": "【<src>】の退魔結界が仲間を守る！",
+      "en": "【<src>】's Purification Barrier protects allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6684,
+      "id": "rem_34303",
+      "jp": "光の一撃で邪悪を消滅させるという売り文句の攻撃技で、派手なため人気がある。が、見た目を重視しているため、実際は邪悪な者に対してそこまで効果的であるわけでもない。",
+      "en": "A flashy, popular attack skill sold as a light strike that eradicates evil. However, it prioritizes appearance and isn't that effective against truly evil foes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6685,
+      "id": "rem_34304",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[70%] + 【雷属性】 + 防御貫通(小)",
+      "en": "Small AoE Attack Power[B] + Hit Rate[70%] + 【Lightning Element】 + Minor Defense Penetration",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6686,
+      "id": "rem_34305",
+      "jp": "【<src>】の[退魔の一撃]！",
+      "en": "【<src>】's [Exorcising Strike]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6687,
+      "id": "rem_34306",
+      "jp": "強敵を求める勇者の直感。強い敵の気配を感じ取ることが出来る。そして、危険がわかっていても飛び込むのが勇者だ！",
+      "en": "A Hero's intuition for seeking strong foes. Can sense the presence of powerful enemies. And charging into danger is what Heroes do!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6688,
+      "id": "rem_34307",
+      "jp": "エネミー発見率[+40%] + トラップ発見率[+40%]",
+      "en": "Enemy Discovery Rate[+40%] + Trap Discovery Rate[+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6689,
+      "id": "rem_34308",
+      "jp": "アイテムを大量に持ち帰る。マップ内のアイテムを残らず持ってくることによって、通常より開発ポイントをたくさん入手しやすくなる。",
+      "en": "Brings back loads of items. By collecting every item in a map, you earn more Development Points than usual.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6690,
+      "id": "rem_34309",
+      "jp": "開発ポイント獲得量[+40%]",
+      "en": "Development Point Gain[+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6691,
+      "id": "rem_34310",
+      "jp": "武器に魔力を乗せることで炎の剣と化し、その熱で敵を浄化する。神術と騎士剣技を高度に組み合わせなければ実現しない、上位技。",
+      "en": "Channels magic into a weapon, turning it into a flaming sword to purify enemies with heat. An advanced skill requiring high-level mastery of divine arts and swordsmanship.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6692,
+      "id": "rem_34311",
+      "jp": "グループ攻撃 威力[A] +  命中[80%] + 【聖属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group Attack Power[A] + Hit Rate[80%] + 【Holy Element】 + Inflicts [Burn] (Deals +10% damage per turn from flames)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6693,
+      "id": "rem_34312",
+      "jp": "【<src>】は[セントクリメイション]で焼き払う！",
+      "en": "【<src>】 incinerates with [Saint Cremation]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6694,
+      "id": "rem_34313",
+      "jp": "下級の攻撃魔術を武器にまとわせて、火属性の攻撃で敵を攻撃する。物理的な攻撃が通用しにくい相手にもダメージを与えやすい。",
+      "en": "Channels basic offensive fire magic into a weapon for fire-based attacks. Effective against foes resistant to physical damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6695,
+      "id": "rem_34314",
+      "jp": "範囲(小)攻撃 威力[D+] +  命中[70%] + 連撃率[+10%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Small AoE Attack Power[D+] + Hit Rate[70%] + Combo Rate[+10%] + 【Fire Element】 + Inflicts [Burn] (Deals +10% damage per turn from flames)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6696,
+      "id": "rem_34315",
+      "jp": "【<src>】は[バーンストライク]を叩き付けた！",
+      "en": "【<src>】 slammed down a [Burn Strike]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6697,
+      "id": "rem_34316",
+      "jp": "かつて全ての海を支配した海賊女帝は、世界中の富を略奪したという。その子孫であり生まれ変わりと思しき娘には、あらゆる富が舞い込む……はずなのだが？",
+      "en": "The pirate empress who once ruled all seas plundered the world's wealth. It's said her descendant, seemingly her reincarnated daughter, attracts all riches... or so it should be?",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6698,
+      "id": "rem_34317",
+      "jp": "開発ポイント獲得量[+40%] + レア[+20%]",
+      "en": "Development Point Gain[+40%] + Rarity[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6699,
+      "id": "rem_34318",
+      "jp": "味方が【火氷風雷属性スキル】を使用した際に追撃する。直前に使用したスキルに属性が変化する。通常のチェイスより発動率は控えめ。",
+      "en": "Follows up when an ally uses a 【Fire/Ice/Wind/Lightning Element Skill】. Changes attribute to match the last skill used. Activation rate is lower than standard Chases.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6700,
+      "id": "rem_34319",
+      "jp": "単体攻撃 威力[D] +  命中[80%]",
+      "en": "Single Target Attack Power[D] + Hit Rate[80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

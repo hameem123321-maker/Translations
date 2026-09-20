@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10876,
+  "range_end": 10900,
+  "pairs": [
+    {
+      "n": 10876,
+      "id": "rem_38637",
+      "jp": "ミルテの魔力を生かすには、専用攻撃スキルである『禁呪』の封印を解くしかない。しかし封印のキーとなる遺物は行方が分からず、調査団を結成して発掘を行なう必要がある。投資すればミルテが強くなるはず。",
+      "en": "To unleash Myrte's magical power, the only way is to unseal her exclusive attack skill, 'Forbidden Curses.' However, the location of the artifacts that are the keys to the seal is unknown, requiring the formation of an investigation team for excavation. Investing should make Myrte stronger.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10877,
+      "id": "rem_38638",
+      "jp": "禁呪調査プロジェクト・火",
+      "en": "Forbidden Curse Research Project - Fire",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10878,
+      "id": "rem_38639",
+      "jp": "禁呪調査プロジェクト・風",
+      "en": "Forbidden Curse Research Project - Wind",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10879,
+      "id": "rem_38640",
+      "jp": "禁呪調査プロジェクト・氷",
+      "en": "Forbidden Curse Research Project - Ice",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10880,
+      "id": "rem_38641",
+      "jp": "禁呪調査プロジェクト・雷",
+      "en": "Forbidden Curse Research Project - Thunder",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10881,
+      "id": "rem_38642",
+      "jp": "禁呪調査プロジェクト・闇",
+      "en": "Forbidden Curse Research Project: Darkness",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10882,
+      "id": "rem_38643",
+      "jp": "ティオナという少女から、王都直属の『王立騎士団』を駐屯させる提案をされた。ゼカリウスの領主になるには、それなりの軍隊の駐屯を認める必要があるらしい。",
+      "en": "Tiona, a young woman, proposed stationing the capital's direct subordinate Royal Knights here. To become lord of Zecarius, it seems I need to permit a substantial military garrison.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10883,
+      "id": "rem_38644",
+      "jp": "王立騎士団の設置",
+      "en": "Establish Royal Knights",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10884,
+      "id": "rem_38645",
+      "jp": "ティオナがアーマニーに謎の圧力を掛けて、彼女の創作物を発禁処分しようとしている。アーマニーにも色々困ったものだが、圧力に屈するわけにはいかないだろう。",
+      "en": "Tiona is putting mysterious pressure on Armany, trying to get her creations banned. Armany's a handful too, but I can't let pressure win.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10885,
+      "id": "rem_38646",
+      "jp": "『王立騎士団』に圧力を掛ける",
+      "en": "Pressure the Royal Knights",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10886,
+      "id": "rem_38647",
+      "jp": "前領主ゼルカが『ロゼトニック大商会』借金をしていたらしい。理不尽で納得いかない話だが、返済せざるを得ないだろう……。",
+      "en": "The previous lord, Zelka, apparently owed debts to the Rosetonik Grand Merchant Guild. It's unreasonable and hard to accept, but I'll have to repay them...",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10887,
+      "id": "rem_38648",
+      "jp": "ゼカリウス領主としての借金返済",
+      "en": "Repay debts as Lord of Zecarius",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10888,
+      "id": "rem_38649",
+      "jp": "怪盗になってしまったファシィを捕まえるため、最高級の防犯設備を用意する。これで彼女を捕まえられるだろうか。",
+      "en": "Prepare top-tier security to catch Facy, who's become a phantom thief. Will this be enough to capture her?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10889,
+      "id": "rem_38650",
+      "jp": "怪盗をつかまえる高級防犯設備費",
+      "en": "High-grade security cost for catching a phantom thief",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10890,
+      "id": "rem_38651",
+      "jp": "怪盗になったマジカル☆ファシィを捕まえるための秘密兵器を召喚する。物すごいカネを要求されるが、シイネは自信満々のようだ。",
+      "en": "Summon a secret weapon to capture Magical☆Facy, who's become a phantom thief. It demands a ridiculous amount of money, but Shiine seems confident.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10891,
+      "id": "rem_38652",
+      "jp": "ファシィを捕まえる秘密兵器",
+      "en": "Secret weapon to catch Facy",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10892,
+      "id": "rem_38653",
+      "jp": "キャトリナ姉さんが行方を眩ませた。いったいどこに……。範囲が広すぎるため、盗賊ギルドでは捜索できない。こういう時に頼れるのはハヅキさんしかいない。全部この人でいいんじゃないかな。",
+      "en": "Sister Catrina has vanished. Where could she be... The search area is too vast for the Thieves Guild. In times like these, I can only rely on Hazuki. Maybe she can handle everything.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10893,
+      "id": "rem_38654",
+      "jp": "人探しマッハコース",
+      "en": "Ultra-Fast People Search Course",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10894,
+      "id": "rem_38655",
+      "jp": "ハーヴェスタが行方を眩ませた。どうやら詐欺に引っかかっている疑惑があるが……盗賊ギルドに依頼して、捜索して貰おう。",
+      "en": "Harvester has gone missing. There's suspicion he fell for a scam... I'll hire the Thieves Guild to search for him.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10895,
+      "id": "rem_38656",
+      "jp": "ハーヴェスタの行方を捜す①",
+      "en": "Search for Harvester ①",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10896,
+      "id": "rem_38657",
+      "jp": "ハーヴェスタの行方を捜す②",
+      "en": "Search for Harvester ②",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10897,
+      "id": "rem_38658",
+      "jp": "アーマニーが自作の冒険浪漫小説(エロ)を大々的に世界に発信したいらしい。ネルディーネも乗り気になっている……。とてつもないカネが必要だ。金持ち道楽ここに極まれる。",
+      "en": "Armany wants to widely distribute her self-written adventure romance novels (erotic) to the world. Neldine is enthusiastic too... It'll take an incredible amount of money. The ultimate rich person's hobby.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10898,
+      "id": "rem_38659",
+      "jp": "アーマニーの冒険小説出版①",
+      "en": "Publish Armany's Adventure Novel ①",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10899,
+      "id": "rem_38660",
+      "jp": "アーマニーの冒険小説出版②",
+      "en": "Publish Armany's Adventure Novel ②",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10900,
+      "id": "rem_38661",
+      "jp": "アーマニーの冒険小説出版③",
+      "en": "Publish Armany's Adventure Novel ③",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

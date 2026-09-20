@@ -1,0 +1,220 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1476,
+  "range_end": 1500,
+  "pairs": [
+    {
+      "n": 1476,
+      "id": "rem_27051",
+      "jp": "要塞",
+      "en": "Fortress",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1477,
+      "id": "rem_27052",
+      "jp": "21-要塞",
+      "en": "21-Fortress",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1478,
+      "id": "rem_27053",
+      "jp": "22-死星",
+      "en": "22-Dead Star",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1479,
+      "id": "rem_27054",
+      "jp": "23-エピ",
+      "en": "23-Epilogue",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1480,
+      "id": "rem_27055",
+      "jp": "★引継",
+      "en": "★Import Data",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1481,
+      "id": "rem_27056",
+      "jp": "99-★引継",
+      "en": "99-★ Carryover",
+      "table": "db_ScenarioLv",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1482,
+      "id": "rem_27057",
+      "jp": "ハプニングが起こって気が動転している状態。神経が太すぎるキャラ(フロティナ)以外は何かしら動じる。行為のハードルは下がるが、混乱しているので普段大丈夫な行為ですら失敗することも。",
+      "en": "Flustered. Shaken by an incident. Everyone but the thick-skinned (like Flotina) is rattled. Action difficulty is lowered, but confusion means even simple actions may fail.",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1483,
+      "id": "rem_27058",
+      "jp": "ドキドキ",
+      "en": "Flustered",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1484,
+      "id": "rem_27059",
+      "jp": "ハプニングが起こって気が動転しており、それが攻撃的になっている状態。混乱しているのに刺激を与えて、そのまま相手を怒らせたような感じ。初期のハプニングはドキドキかピリピリのどちらかに変動しやすい。謝るしかない。",
+      "en": "On Edge. Flustered by an incident and now aggressive. Like poking a confused beast and making it angry. Early incidents often lead to either Flustered or On Edge. Apologizing is your only option.",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1485,
+      "id": "rem_27060",
+      "jp": "ピリピリ",
+      "en": "On Edge",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1486,
+      "id": "rem_27061",
+      "jp": "友人という好感度ではなく、男性を意識している状態。ズブズブのエッチな行為は嫌だが、ライトなことなら言うことを聞いてあげようという状態。相手の好感度が暴走しているようなものなので、受け入れる行為は変動が激しい。また、変態行為は拒否する。",
+      "en": "Infatuated. They see you as a man, not just a friend. They dislike lewd acts, but may accept lighthearted ones. Their favor fluctuates wildly. They'll reject perverted acts.",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1487,
+      "id": "rem_27062",
+      "jp": "デレデレ",
+      "en": "Infatuated",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1488,
+      "id": "rem_27063",
+      "jp": "いくら好感度が高くても、セックスを経て、攻略しないと変化しない。すでに男女の仲になっているので、通常の前戯はおろか、変態行為も受け入れる。攻略した後の状態を見れるモード。ただし奴隷というわけではないので、変態上級すぎると当然怒る。",
+      "en": "Lustful. Only changes after sex and conquest. They're now lovers, accepting not just foreplay but even perverted acts. View their post-conquest state here. They're not slaves though—too much perversion will still anger them.",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1489,
+      "id": "rem_27064",
+      "jp": "エロエロ",
+      "en": "Lustful",
+      "table": "db_UnitCharaPartnerAccessMode",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1490,
+      "id": "rem_27065",
+      "jp": "冒険者",
+      "en": "Adventurer",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1491,
+      "id": "rem_27066",
+      "jp": "生産者",
+      "en": "Producer",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1492,
+      "id": "rem_27067",
+      "jp": "一般人",
+      "en": "Civilian",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1493,
+      "id": "rem_27068",
+      "jp": "戦士・兵士",
+      "en": "Warrior / Soldier",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1494,
+      "id": "rem_27069",
+      "jp": "学者・魔術師",
+      "en": "Scholar / Mage",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1495,
+      "id": "rem_27070",
+      "jp": "医者・聖職者",
+      "en": "Doctor / Cleric",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1496,
+      "id": "rem_27071",
+      "jp": "芸人・芸術家",
+      "en": "Performer / Artist",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1497,
+      "id": "rem_27072",
+      "jp": "富裕層",
+      "en": "Wealthy",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1498,
+      "id": "rem_27073",
+      "jp": "ユニーク",
+      "en": "Unique",
+      "table": "db_UnitCharaClubClassKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1499,
+      "id": "rem_27074",
+      "jp": "『ゼカリウス』近郊にあるダンジョンである『メテトス百穴古墳』に『ゴブリン』の巣が作られたらしい。付近の農村が荒らされ、村娘が攫われる事態が起きているようだ。危険な『ダンジョン』を探索できる、ベテラン冒険者を雇って攻略してもらおう。",
+      "en": "Goblins have reportedly made a nest in the 'Hundred-Hole Barrows of Metetos', a dungeon near 'Zecarius'. Nearby villages are being raided, and girls are being kidnapped. Let's hire veteran adventurers who can brave this dangerous dungeon and clear it out.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1500,
+      "id": "rem_27075",
+      "jp": "メテトス古墳に冒険者を派遣",
+      "en": "Dispatch Adventurers to Metetos Barrows",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

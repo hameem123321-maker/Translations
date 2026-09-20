@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5276,
+  "range_end": 5300,
+  "pairs": [
+    {
+      "n": 5276,
+      "id": "rem_32895",
+      "jp": "主人公の軌跡デス４",
+      "en": "Ren's Path Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5277,
+      "id": "rem_32896",
+      "jp": "『主人公』のＬＶが【65】以上",
+      "en": "Ren's Lv.【65】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5278,
+      "id": "rem_32897",
+      "jp": "主人公の軌跡デス５",
+      "en": "Ren's Path Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5279,
+      "id": "rem_32898",
+      "jp": "冒険者の派遣を【85回】以上成功",
+      "en": "Successfully dispatch adventurers 【85 times】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5280,
+      "id": "rem_32899",
+      "jp": "クエスト派遣ギルドデス１３",
+      "en": "Quest Dispatch Guild Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5281,
+      "id": "rem_32900",
+      "jp": "冒険者の派遣を【95回】以上成功",
+      "en": "Successfully dispatch adventurers 【95】 times or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5282,
+      "id": "rem_32901",
+      "jp": "クエスト派遣ギルドデス１４",
+      "en": "Quest Dispatch Guild Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5283,
+      "id": "rem_32902",
+      "jp": "冒険者の派遣を【120回】以上成功",
+      "en": "Successfully dispatch adventurers 【120】 times or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5284,
+      "id": "rem_32903",
+      "jp": "クエスト派遣ギルドデス１５",
+      "en": "Quest Dispatch Guild Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5285,
+      "id": "rem_32904",
+      "jp": "『娯楽』の累計売上が【375億ゴールド】以上",
+      "en": "Cumulative 『Entertainment』 sales of 【37.5 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5286,
+      "id": "rem_32905",
+      "jp": "ビッグな娯楽施設デス１３",
+      "en": "Big Entertainment Facility Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5287,
+      "id": "rem_32906",
+      "jp": "『娯楽』の累計売上が【750億ゴールド】以上",
+      "en": "Cumulative 『Entertainment』 sales of 【75 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5288,
+      "id": "rem_32907",
+      "jp": "ビッグな娯楽施設デス１４",
+      "en": "Big Entertainment Facility Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5289,
+      "id": "rem_32908",
+      "jp": "『娯楽』の累計売上が【1500億ゴールド】以上",
+      "en": "Cumulative 『Entertainment』 sales of 【150 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5290,
+      "id": "rem_32909",
+      "jp": "ビッグな娯楽施設デス１５",
+      "en": "Big Entertainment Facility Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5291,
+      "id": "rem_32910",
+      "jp": "『搾精』の累計売上が【375億ゴールド】以上",
+      "en": "Cumulative 『Essence Extraction』 sales of 【37.5 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5292,
+      "id": "rem_32911",
+      "jp": "カネも精も搾り取るデス１３",
+      "en": "Extract Money and Essence Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5293,
+      "id": "rem_32912",
+      "jp": "『搾精』の累計売上が【750億ゴールド】以上",
+      "en": "Cumulative 『Essence Extraction』 sales of 【75 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5294,
+      "id": "rem_32913",
+      "jp": "カネも精も搾り取るデス１４",
+      "en": "Extract Money and Essence Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5295,
+      "id": "rem_32914",
+      "jp": "『搾精』の累計売上が【1500億ゴールド】以上",
+      "en": "Cumulative 『Essence Extraction』 sales of 【150 billion gold】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5296,
+      "id": "rem_32915",
+      "jp": "カネも精も搾り取るデス１５",
+      "en": "Extract Money and Essence Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5297,
+      "id": "rem_32916",
+      "jp": "『主人公』のＬＶが【85】以上",
+      "en": "Ren's Lv is 【85】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5298,
+      "id": "rem_32917",
+      "jp": "主人公の軌跡デス６",
+      "en": "Ren's Path Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5299,
+      "id": "rem_32918",
+      "jp": "『主人公』のＬＶが【110】以上",
+      "en": "Ren's Lv is 【110】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5300,
+      "id": "rem_32919",
+      "jp": "主人公の軌跡デス７",
+      "en": "Ren's Path Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

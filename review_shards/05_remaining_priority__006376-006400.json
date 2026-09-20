@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6376,
+  "range_end": 6400,
+  "pairs": [
+    {
+      "n": 6376,
+      "id": "rem_33995",
+      "jp": "開発ポイントの収集スキル。取得すると、ダンジョンでの開発ポイントの獲得量がアップする。",
+      "en": "A skill for collecting Development Points. When acquired, increases Development Points gained in dungeons.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6377,
+      "id": "rem_33996",
+      "jp": "開発ポイント獲得量[+20%]",
+      "en": "Development Points gained[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6378,
+      "id": "rem_33997",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 必殺率[+30%] + 防御貫通(小)",
+      "en": "Single-target attack Power[] + Hit[70%] + Crit rate[+30%] + Defense pierce(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6379,
+      "id": "rem_33998",
+      "jp": "【<src>】の[抜刀居合抜き]！",
+      "en": "【<src>】's [Quick-Draw Iaijutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6380,
+      "id": "rem_33999",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 【闇属性】",
+      "en": "AoE attack Power[] + Hit[70%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6381,
+      "id": "rem_34000",
+      "jp": "【<src>】の[ダークストーム]！",
+      "en": "<src>'s [Darkstorm]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6382,
+      "id": "rem_34001",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 連撃率[+10%] + 必殺率[+20%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group attack Power[] + Hit[60%] + Combo[+10%] + Crit[+20%] + 【Fire】 + Inflicts [Burn] (10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6383,
+      "id": "rem_34002",
+      "jp": "【<src>】の[ファイアボルト]！",
+      "en": "<src>'s [Fire Bolt]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6384,
+      "id": "rem_34003",
+      "jp": "生命エネルギーを吸収する魔術。淫魔のドレイン能力に似た性質を持った術だが、性的な快楽に関係なく吸収できる。そのため抵抗しやすくもあり、余計に性質が悪くもある。",
+      "en": "Life-draining magic. Similar to a succubus's drain, but it works without pleasure. Makes it easier to resist, but also nastier.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6385,
+      "id": "rem_34004",
+      "jp": "範囲(大)攻撃 威力[C+] +  命中[70%] + 必殺率[+20%] + 【雷属性】 + 攻撃後パーティー回復",
+      "en": "Large area attack Power[C+] + Hit[70%] + Crit[+20%] + 【Thunder】 + Heals party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6386,
+      "id": "rem_34005",
+      "jp": "【<src>】の[ハイパードレイン]で吸収！",
+      "en": "<src> absorbs with [Hyper Drain]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6387,
+      "id": "rem_34006",
+      "jp": "剣の達人による秘剣。剣をしまった状態から抜かれるため、相手は射程を測れないだけでなく、技の出所も掴めない。そもそも剣の射程より明らかに遠くまで切り裂いてしまう。",
+      "en": "A master swordsman's secret strike. Drawn from the sheath, so the opponent can't gauge its range or origin. It cuts far beyond a blade's reach.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6388,
+      "id": "rem_34007",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[70%] + 必殺率[+20%] + 【風属性】 + 防御貫通(小)",
+      "en": "Small area attack Power[B] + Hit[70%] + Crit[+20%] + 【Wind】 + Minor armor pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6389,
+      "id": "rem_34008",
+      "jp": "【<src>】の[抜刀燕返し]！",
+      "en": "<src>'s [Iaido: Swallow Return]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6390,
+      "id": "rem_34009",
+      "jp": "シズハ＆クレハによるコンビネーションスキル。それぞれが【全ての属性スキル】を使用した際に追撃する。直前に使用したスキルに属性が変化する。威力が高く、確実に追撃する。",
+      "en": "Shizuha & Kureha's combo skill. Follows up any elemental skill used. Changes to match that element's type. Powerful and reliable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6391,
+      "id": "rem_34010",
+      "jp": "単体攻撃 威力[B+] +  命中[80%] + 必殺率[+30%]",
+      "en": "Single-target attack Power[B+] + Hit[80%] + Crit[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6392,
+      "id": "rem_34011",
+      "jp": "【<src>】のコンビネーションメイド殺法！",
+      "en": "<src>'s Combination Maid Slaughter!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6393,
+      "id": "rem_34012",
+      "jp": "自分の分身を作り出し、攻撃に追従させる。これによりチェイススキルの威力が大幅にアップする。",
+      "en": "Creates a shadow clone to follow up attacks. Greatly boosts chase skill power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6394,
+      "id": "rem_34013",
+      "jp": "【<src>】は[シャドウサーバント]を使用した！",
+      "en": "<src> used [Shadow Servant]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6395,
+      "id": "rem_34014",
+      "jp": "人類を滅亡に追いやる『大災厄』が発生する際に出現する決戦存在。最後の希望を背負った彼らの膝が屈することは許されない。非常に高い確率で死の淵から生還する。",
+      "en": "A final boss born of the 'Great Calamity' that doomed humanity. They bear the last hope and must never falter. Very likely to survive near death.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6396,
+      "id": "rem_34015",
+      "jp": "戦闘不能時に自動復活[+60%]",
+      "en": "Auto-revive [+60%] when KO'd",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6397,
+      "id": "rem_34016",
+      "jp": "相手の急所を狙う一撃。気配を消して忍び寄り、背後から大ダメージを狙う。",
+      "en": "A strike aimed at the vitals. Conceals presence, sneaks up, and deals massive damage from behind.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6398,
+      "id": "rem_34017",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[70%] + 必殺率[+50%] + 【闇属性】 + 回避(中)",
+      "en": "Small area attack Power[B] + Hit[70%] + Crit[+50%] + 【Dark】 + Evasion(medium)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6399,
+      "id": "rem_34018",
+      "jp": "【<src>】は[バックスタブ]で暗殺！",
+      "en": "<src> assassinates with [Backstab]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6400,
+      "id": "rem_34019",
+      "jp": "雄叫びを上げ、戦意を高揚させる。武器を選ばない。攻撃力が上がるが、防御力も下がる。威力の高さに頼りすぎると、痛い目を見るかも？",
+      "en": "A roar to embolden fighting spirit. Works with any weapon. Raises ATK, lowers DEF. Relying on raw power too much could backfire.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

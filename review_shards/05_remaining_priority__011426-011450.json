@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11426,
+  "range_end": 11450,
+  "pairs": [
+    {
+      "n": 11426,
+      "id": "rem_39187",
+      "jp": "火山の燃え上がる水",
+      "en": "Volcanic Blazing Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11427,
+      "id": "rem_39188",
+      "jp": "極寒北国で研究されてきた酵母。最高級のアルコールを作り出す原料として使われる。",
+      "en": "A yeast cultivated in the frigid North. Used to produce the finest alcohols.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11428,
+      "id": "rem_39189",
+      "jp": "ノーザリア熟成酵母",
+      "en": "Northeria Maturation Yeast",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11429,
+      "id": "rem_39190",
+      "jp": "スネーク系の魔獣の抜け殻。直接剥いだものよりも大きく価値は下がってしまうが、元が大きいので、それなりの価値はある。",
+      "en": "A shed snake monster skin. Less valuable than a freshly harvested one, but still sizable and worthwhile.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11430,
+      "id": "rem_39191",
+      "jp": "スネークの抜け殻",
+      "en": "Snake Shed",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11431,
+      "id": "rem_39192",
+      "jp": "海で捕れた、鋼鉄のような堅さを持つ大魚の皮革を処理したもの。防具として加工することも可能になるという種類のもので、冒険者に愛用されている。",
+      "en": "Tanned leather from a large, steel-hard fish caught at sea. Can be crafted into armor and is favored by adventurers.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11432,
+      "id": "rem_39193",
+      "jp": "装甲魚の皮革",
+      "en": "Armored Fish Leather",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11433,
+      "id": "rem_39194",
+      "jp": "スネーク系の魔獣から剥がした皮革をなめして素材にしたもの。丈夫で高級感があり、貴婦人も好みそう。",
+      "en": "Tanned leather from a snake monster's hide. Durable, elegant, and appealing to noblewomen.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11434,
+      "id": "rem_39195",
+      "jp": "スネークの皮革",
+      "en": "Snake Leather",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11435,
+      "id": "rem_39196",
+      "jp": "大型のトカゲ種のうろこ。ドラゴンとよく似た姿をしているので、ドラゴンのうろこと騙して売られることはとても多い。リザードも価値はそれなりにあるが……。",
+      "en": "The scale of a large lizard species. Often mistaken and sold as dragon scale, though lizard scale has its own value.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11436,
+      "id": "rem_39197",
+      "jp": "ビッグリザードの皮革",
+      "en": "Big Lizard Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11437,
+      "id": "rem_39198",
+      "jp": "ファングと呼ばれる鋭い歯を持つ獰猛な生物の皮革。軽くて丈夫で、防御力が高い。",
+      "en": "Leather from a Fang, a fierce creature with sharp teeth. Light, durable, and offers high defense.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11438,
+      "id": "rem_39199",
+      "jp": "ファングの皮革",
+      "en": "Fang Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11439,
+      "id": "rem_39200",
+      "jp": "大型魔獣として恐れられるキャタピラーの皮革を素材としたもの。軍隊の攻撃にも耐えられるキャタピラーを討伐することは尋常ではなく、強力な武具の素材になる。",
+      "en": "Material from the hide of a caterpillar, a large feared monster. Defeating one that can withstand army assault is no small feat, making it potent gear material.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11440,
+      "id": "rem_39201",
+      "jp": "キャタピラーの皮革",
+      "en": "Caterpillar Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11441,
+      "id": "rem_39202",
+      "jp": "大型魔獣として恐れられるバジリスクの皮革を素材としてたもの。皮革としての価値もさることながら、魔力を秘めており魔術の触媒としても高値で取引されている。",
+      "en": "Crafted from the hide of a basilisk, a feared giant magical beast. Beyond its value as leather, it is imbued with magic and traded at high prices as a catalyst for sorcery.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11442,
+      "id": "rem_39203",
+      "jp": "バジリスクの皮革",
+      "en": "Basilisk Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11443,
+      "id": "rem_39204",
+      "jp": "毒々しい体液が滲みだす、リザード種の物と思しき皮革。並の魔獣を凌駕する硬さを持つが、絶えず染み出る毒液により、加工は困難を極める。",
+      "en": "A hide from a lizard species, oozing poisonous fluid. Exceedingly hard, surpassing common magical beasts, but the constant seep of venom makes it extremely difficult to process.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11444,
+      "id": "rem_39205",
+      "jp": "黄金獣の皮革",
+      "en": "Golden Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11445,
+      "id": "rem_39206",
+      "jp": "天空に生息する魔獣の皮革。極寒にも耐える耐久性に優れており、寒冷地での防寒衣に使われる。一般的なオオカミの皮革よりも固く頑丈。",
+      "en": "Hide from a magical beast dwelling in the sky. Excellent durability that withstands extreme cold, used for cold-weather gear. Harder and sturdier than typical wolf hide.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11446,
+      "id": "rem_39207",
+      "jp": "天空の魔獣革",
+      "en": "Sky Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11447,
+      "id": "rem_39208",
+      "jp": "かつてセグルメットの聖騎士が手に入れたと言われる、魔獣の皮革にそっくりな、硬い皮革。如何なる魔獣から剥がれ落ちたのか、現在も分かっていない。",
+      "en": "A tough hide, strikingly similar to that of a magical beast, said to have been obtained by a Segurmet holy knight. Its exact origin remains unknown.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11448,
+      "id": "rem_39209",
+      "jp": "大いなる魔獣の皮革",
+      "en": "Hide of a Great Beast",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11449,
+      "id": "rem_39210",
+      "jp": "牧畜されている牛の毛皮。一般的な毛皮素材。",
+      "en": "Hide from domesticated cattle. A common leather material.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11450,
+      "id": "rem_39211",
+      "jp": "牧畜の毛束",
+      "en": "Herded Hide Bundle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

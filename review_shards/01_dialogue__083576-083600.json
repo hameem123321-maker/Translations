@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 83576,
+  "range_end": 83600,
+  "pairs": [
+    {
+      "n": 83576,
+      "id": "db_EventInfo:98799:0",
+      "jp": "【『最果ての修練場』】の【試練】が襲いかかってきた！",
+      "en": "A trial from The Remotest Training Ground attacks!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83577,
+      "id": "db_EventInfo:98801:62",
+      "jp": "来たか……。私の実力がどこまで通用するのか……試させてもらうぞ",
+      "en": "Here you come... Let's see just how far my skills can reach...",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83578,
+      "id": "db_EventInfo:98802:10",
+      "jp": "ほほう、正統派の騎士が来たな",
+      "en": "Hoh, a proper knight has arrived.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 83579,
+      "id": "db_EventInfo:98803:105",
+      "jp": "剣であるなら、私の出番のようだな！　いくぞ騎士殿！",
+      "en": "If it's a sword, then it seems it's my turn! Let's go, Sir Knight!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 83580,
+      "id": "db_EventInfo:98804:62",
+      "jp": "いや、私は魔術師だが？",
+      "en": "No, I'm a mage?",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83581,
+      "id": "db_EventInfo:98805:105",
+      "jp": "なにいっ！？",
+      "en": "What?!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 83582,
+      "id": "db_EventInfo:98806:62",
+      "jp": "しかし剣でも遅れを取るつもりはない。いくぞ！",
+      "en": "But I don't intend to lag behind with a sword either. Let's go!",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83583,
+      "id": "db_EventInfo:98807:61",
+      "jp": "サポートは任せて下さいね。頑張りましょう！",
+      "en": "Leave the support to me. Let's do our best!",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83584,
+      "id": "db_EventInfo:98808:61",
+      "jp": "皆さん強そうですけど、無理はなさらないで下さいね！",
+      "en": "You all seem strong, but please don't overdo it!",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83585,
+      "id": "db_EventInfo:98809:62",
+      "jp": "うむ！",
+      "en": "Mmm!",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83586,
+      "id": "db_EventInfo:98810:9",
+      "jp": "なにやらあちらの村娘、薬師のようであるな",
+      "en": "Hmm, those village girls over there... they seem like pharmacists.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83587,
+      "id": "db_EventInfo:98811:108",
+      "jp": "ほほう、【『ウィルチ』】としては、技比べといきたいな！",
+      "en": "Oh ho! As a 'Wiltch', I'd like to have a little skill contest!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83588,
+      "id": "db_EventInfo:98812:61",
+      "jp": "あれっ、お師匠様みたいなスキルを使うんですね、【『<ruby=ウィッチ>魔女</ruby>』】仲間でしたか",
+      "en": "Oh? You use skills like my master? You're fellow Witches?",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83589,
+      "id": "db_EventInfo:98813:61",
+      "jp": "大魔女クーデ・ウィルチの弟子として、お薬勝負では負けません！",
+      "en": "As a disciple of the Grand Witch Coude Wiltch, I won't lose in a medicine contest!",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83590,
+      "id": "db_EventInfo:98815:62",
+      "jp": "むうっ、なかなかやるな！？",
+      "en": "Mmmph, you're pretty good!?",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83591,
+      "id": "db_EventInfo:98816:61",
+      "jp": "これ以上のお薬は危ないですよ",
+      "en": "Any more medicine would be dangerous.",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83592,
+      "id": "db_EventInfo:98817:62",
+      "jp": "むぅ、まだまだ……！　この程度ではないはずなのだ……！",
+      "en": "Mmm, not yet...! It shouldn't end at this level...!",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83593,
+      "id": "db_EventInfo:98818:61",
+      "jp": "そうですそうです！　勝負はこれからですよ！",
+      "en": "Yes, yes! The real contest starts now!",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83594,
+      "id": "db_EventInfo:98819:9",
+      "jp": "むぅ、思ったより血の気の多い娘たちであるな",
+      "en": "Mmm, they're more hot-blooded girls than I thought.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83595,
+      "id": "db_EventInfo:98820:108",
+      "jp": "若い時はあれくらいの方が良いと思うのじゃが",
+      "en": "I think it's better to be that energetic when you're young.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83596,
+      "id": "db_EventInfo:98821:62",
+      "jp": "うむ！　この戦いの高ぶりは、ベッドの上で返してもらうとしよう",
+      "en": "Hmm! I'll have you pay back this battle's excitement in bed.",
+      "speaker": "Sildoria",
+      "speaker_jp": "シルドリア"
+    },
+    {
+      "n": 83597,
+      "id": "db_EventInfo:98822:61",
+      "jp": "そうですね、たっぷりと発散しなくちゃいけませんД",
+      "en": "That's right, we have to work it all out properlyД",
+      "speaker": "Colette",
+      "speaker_jp": "コレット"
+    },
+    {
+      "n": 83598,
+      "id": "db_EventInfo:98823:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★ Episode - Training Ground Scene Common Start",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83599,
+      "id": "db_EventInfo:98824:0",
+      "jp": "★エッチシーン・修練場・コレット①・女性優位騎乗位",
+      "en": "★ H-Scene - Training Ground - Colette ① - Cowgirl (Female on Top)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83600,
+      "id": "db_EventInfo:98825:0",
+      "jp": "★エピソード・修練場Lv4④・試練Lv2・コレット/シルドリア(EASY)②",
+      "en": "★ Episode - Training Ground Lv4 ④ - Trial Lv2 - Colette/Sildoria (EASY) ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

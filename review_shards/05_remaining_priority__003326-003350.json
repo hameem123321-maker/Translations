@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3326,
+  "range_end": 3350,
+  "pairs": [
+    {
+      "n": 3326,
+      "id": "rem_30945",
+      "jp": "【速度】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Speed】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3327,
+      "id": "rem_30946",
+      "jp": "１ターン目の攻撃力が【+{0}%】アップ！",
+      "en": "1st-turn ATK +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3328,
+      "id": "rem_30947",
+      "jp": "『トラップ系』のダンジョンハプニングをクリアする際に有効",
+      "en": "Useful for clearing 'Trap-type' dungeon events",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3329,
+      "id": "rem_30948",
+      "jp": "セックスバトル時の攻撃力が【+{0}%】アップ！",
+      "en": "ATK in Sex Battles +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3330,
+      "id": "rem_30949",
+      "jp": "【追撃力】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Pursuit】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3331,
+      "id": "rem_30950",
+      "jp": "【杖装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Staff】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3332,
+      "id": "rem_30951",
+      "jp": "【射撃技スキル】の効果が【+{0}%】",
+      "en": "【Shooting Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3333,
+      "id": "rem_30952",
+      "jp": "【WT】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【WT】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3334,
+      "id": "rem_30953",
+      "jp": "【刀装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Katana】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3335,
+      "id": "rem_30954",
+      "jp": "【魔爪装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Demon Claw】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3336,
+      "id": "rem_30955",
+      "jp": "【HP】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【HP】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3337,
+      "id": "rem_30956",
+      "jp": "【死神技スキル】の効果が【+{0}%】",
+      "en": "【Shinigami Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3338,
+      "id": "rem_30957",
+      "jp": "【魔技スキル】の効果が【+{0}%】",
+      "en": "【Magic Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3339,
+      "id": "rem_30958",
+      "jp": "逃走確率が【+{0}%】アップ！",
+      "en": "Escape chance +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3340,
+      "id": "rem_30959",
+      "jp": "【支援技スキル】の効果が【+{0}%】",
+      "en": "【Support Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3341,
+      "id": "rem_30960",
+      "jp": "【猛将技スキル】の効果が【+{0}%】",
+      "en": "【Mighty Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3342,
+      "id": "rem_30961",
+      "jp": "【禁呪スキル】の効果が【+{0}%】",
+      "en": "【Forbidden Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3343,
+      "id": "rem_30962",
+      "jp": "【奇跡スキル】の効果が【+{0}%】",
+      "en": "【Miracle Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3344,
+      "id": "rem_30963",
+      "jp": "【魔砲技スキル】の効果が【+{0}%】",
+      "en": "【Magical Cannon Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3345,
+      "id": "rem_30964",
+      "jp": "すべての属性攻撃力が【+{0}%】アップ！",
+      "en": "All elemental ATK increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3346,
+      "id": "rem_30965",
+      "jp": "自分が攻撃を優先的に受ける率が【+{0}%】アップする",
+      "en": "Rate you are targeted for attack increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3347,
+      "id": "rem_30966",
+      "jp": "ダメージを負った相手を優先する確率が【+{0}%】アップ！",
+      "en": "Targeting injured foes rate up 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3348,
+      "id": "rem_30967",
+      "jp": "戦闘後、パーティー全員のCTが【{0}】ターン早まる",
+      "en": "After battle, all party CT advances by 【{0}】 turn",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3349,
+      "id": "rem_30968",
+      "jp": "先制攻撃時、開始直後に矢による攻撃を実行する",
+      "en": "On ambush, launches arrow attack at start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3350,
+      "id": "rem_30969",
+      "jp": "回復系スキルの効果が【+{0}%】アップ！",
+      "en": "Healing skill effect increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    }
+  ]
+}

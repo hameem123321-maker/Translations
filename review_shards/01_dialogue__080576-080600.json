@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 80576,
+  "range_end": 80600,
+  "pairs": [
+    {
+      "n": 80576,
+      "id": "db_EventInfo:95317:15",
+      "jp": "魔獣の強さもぼちぼちだしね、初心者を卒業した冒険者の仕事場としては優秀そうだね",
+      "en": "The monsters aren't too strong either, so it seems like a good workplace for adventurers who've finished their training.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80577,
+      "id": "db_EventInfo:95318:15",
+      "jp": "【『ドルワミール鉱山』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now make a 'Resource Investment' in 'Dolwamir Mine'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80578,
+      "id": "db_EventInfo:95319:3",
+      "jp": "こらーっ！　ドワームの里を荒らすつもりか！",
+      "en": "Hey! Are you planning to mess with Dwarm's village?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80579,
+      "id": "db_EventInfo:95320:15",
+      "jp": "そんな滅相もない、鉱山に出没する魔獣を退治する手伝いをするのさ",
+      "en": "Absolutely not. We're just helping to get rid of the monsters that show up in the mine.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80580,
+      "id": "db_EventInfo:95321:15",
+      "jp": "ついでに鉱山で採掘の手伝いをしてもらうつもりだよ",
+      "en": "And we plan to have them help with the mining work too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80581,
+      "id": "db_EventInfo:95322:3",
+      "jp": "むう……それなら構わんが",
+      "en": "Hmm... If that's the case, it's fine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80582,
+      "id": "db_EventInfo:95323:3",
+      "jp": "ドワームの聖地を侵すなら、ただではおかんぞ！",
+      "en": "But if you harm Dwarm's sacred ground, you won't get away with it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80583,
+      "id": "db_EventInfo:95324:15",
+      "jp": "わ、わかってるって……釘を刺しておくから",
+      "en": "I get it... I'll make sure to keep a close eye on it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80584,
+      "id": "db_EventInfo:95325:15",
+      "jp": "【『イルニエル大灯台』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now invest resources into the 'Iruniel Grand Lighthouse'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80585,
+      "id": "db_EventInfo:95326:11",
+      "jp": "まあ、【『大灯台』】ですか",
+      "en": "Oh, the 'Grand Lighthouse'?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 80586,
+      "id": "db_EventInfo:95327:15",
+      "jp": "うん。【『大灯台』】の機能は回復したけど、魔獣が根絶されたわけじゃないしね",
+      "en": "Yeah. Its function is restored, but the monsters aren't completely gone.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80587,
+      "id": "db_EventInfo:95328:15",
+      "jp": "そこを根城にしていた【『ゴブリン』】のボスは倒したし、一般冒険者も立ち入れると思うよ",
+      "en": "I beat the Goblin boss that used it as a base, so regular adventurers can probably enter now.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80588,
+      "id": "db_EventInfo:95329:2",
+      "jp": "船の目印になるのは良いデスけど、魔獣まで集めてしまうのは問題デスね",
+      "en": "It's good as a landmark for ships, but it attracting monsters is a problem.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80589,
+      "id": "db_EventInfo:95330:15",
+      "jp": "【『地方領主ゼルカの屋敷』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now invest resources into 'Local Lord Zelka's Mansion'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80590,
+      "id": "db_EventInfo:95331:7",
+      "jp": "あの屋敷、探索するところなんてあるの？",
+      "en": "That mansion, are there even places to explore?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 80591,
+      "id": "db_EventInfo:95332:15",
+      "jp": "ゼルカの術によって、屋敷が魔界化しているからね",
+      "en": "Zelka's magic turned the mansion into a demon world.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80592,
+      "id": "db_EventInfo:95333:15",
+      "jp": "新米冒険者が立ち入るとたちまち餌食にされるほどさ",
+      "en": "A rookie adventurer who enters would become prey in no time.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80593,
+      "id": "db_EventInfo:95334:7",
+      "jp": "ひええ。お宝があるなら、ボクも忍び込みたいけどな～♪",
+      "en": "Yikes. If there's treasure, I'd love to sneak in~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 80594,
+      "id": "db_EventInfo:95335:2",
+      "jp": "オマエ、懲りてないデスね",
+      "en": "You never learn, do you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80595,
+      "id": "db_EventInfo:95336:15",
+      "jp": "【『ゼカリウス地下図書館』】に【『資源投資』】出来るようになったよ",
+      "en": "Now we can invest resources into the Zecarius Underground Library.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80596,
+      "id": "db_EventInfo:95337:9",
+      "jp": "ふむ……師匠殿が籠もっていた場所であるか",
+      "en": "Hmm... The place where Master used to shut himself away.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80597,
+      "id": "db_EventInfo:95338:9",
+      "jp": "たしかに、師匠殿も読み切れないほどの古代の文献で溢れていたのである",
+      "en": "Indeed. It was overflowing with ancient texts, so many even Master couldn't finish reading them all.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80598,
+      "id": "db_EventInfo:95339:15",
+      "jp": "うん。【『<ruby=ソルシア>学院</ruby>』】なんかも注目する場所だね",
+      "en": "Yeah. The Solcia Academy is a noteworthy place too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80599,
+      "id": "db_EventInfo:95340:15",
+      "jp": "不思議なチカラが働いていて、図書館から本を持ち出せない魔術がかけられているみたいなんだ",
+      "en": "There's some strange power at work. It seems like a spell is placed so books can't be taken out of the library.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80600,
+      "id": "db_EventInfo:95341:9",
+      "jp": "うかつに持ち出すと、呪われてしまうかもしれんな",
+      "en": "Carelessly taking one out could bring a curse upon you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

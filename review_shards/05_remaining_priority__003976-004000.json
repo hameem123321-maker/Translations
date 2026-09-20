@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3976,
+  "range_end": 4000,
+  "pairs": [
+    {
+      "n": 3976,
+      "id": "rem_31595",
+      "jp": "物理ダメージ+30%",
+      "en": "Phys Dmg +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3977,
+      "id": "rem_31596",
+      "jp": "攻撃力アップ",
+      "en": "Attack Up",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3978,
+      "id": "rem_31597",
+      "jp": "【<dst>】の攻撃力が上がった！",
+      "en": "【<dst>】's attack rose!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3979,
+      "id": "rem_31598",
+      "jp": "【<dst>】の攻撃力が元に戻った……",
+      "en": "【<dst>】's attack returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3980,
+      "id": "rem_31599",
+      "jp": "物理ダメージ+40%",
+      "en": "Phys Dmg +40%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3981,
+      "id": "rem_31600",
+      "jp": "攻撃++",
+      "en": "Attack++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3982,
+      "id": "rem_31601",
+      "jp": "物理ダメージ+50% + 竜タイプへのダメージ+100%",
+      "en": "Physical damage +50% + Damage to Dragon types +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3983,
+      "id": "rem_31602",
+      "jp": "竜殺",
+      "en": "Dragonslayer",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3984,
+      "id": "rem_31603",
+      "jp": "物理ダメージ+100% + クリティカル率+30%",
+      "en": "Physical damage +100% + Critical rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3985,
+      "id": "rem_31604",
+      "jp": "戦神",
+      "en": "Wargod",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3986,
+      "id": "rem_31605",
+      "jp": "物理ダメージ+30% + クリティカル率+60%",
+      "en": "Physical damage +30% + Critical rate +60%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3987,
+      "id": "rem_31606",
+      "jp": "剣聖",
+      "en": "Sword Saint",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3988,
+      "id": "rem_31607",
+      "jp": "物理ダメージ+50% + クリティカル率+100%",
+      "en": "Physical damage +50% + Critical rate +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3989,
+      "id": "rem_31608",
+      "jp": "【<dst>】に逆鱗の効果が与えられた！",
+      "en": "【<dst>】is enraged!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3990,
+      "id": "rem_31609",
+      "jp": "【<dst>】は落ち着いた……",
+      "en": "【<dst>】has calmed down...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3991,
+      "id": "rem_31610",
+      "jp": "逆鱗",
+      "en": "Rage",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3992,
+      "id": "rem_31611",
+      "jp": "物理ダメージ+30% + クリティカル率+30%",
+      "en": "Physical damage +30% + Critical rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3993,
+      "id": "rem_31612",
+      "jp": "【<dst>】に獣王の力が備わった！",
+      "en": "【<dst>】gains Beast King's power!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3994,
+      "id": "rem_31613",
+      "jp": "【<dst>】の獣王が消えた……",
+      "en": "【<dst>】's Beast King power fades...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3995,
+      "id": "rem_31614",
+      "jp": "獣王",
+      "en": "Beast King",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3996,
+      "id": "rem_31615",
+      "jp": "物理ダメージ+50% + クリティカルダメージ+100%",
+      "en": "Physical damage +50% + Critical damage +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3997,
+      "id": "rem_31616",
+      "jp": "【<dst>】にかつての力が呼び起こされる！",
+      "en": "【<dst>】's former power awakens!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3998,
+      "id": "rem_31617",
+      "jp": "【<dst>】の力が戻った……",
+      "en": "【<dst>】's power returns...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3999,
+      "id": "rem_31618",
+      "jp": "覚醒",
+      "en": "Awakening",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4000,
+      "id": "rem_31619",
+      "jp": "物理ダメージ+30% + ターンごとにMP回復(味方のみ)+10%",
+      "en": "Physical damage +30% + MP recovery per turn (allies only) +10%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

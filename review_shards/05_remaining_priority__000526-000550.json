@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 526,
+  "range_end": 550,
+  "pairs": [
+    {
+      "n": 526,
+      "id": "rem_00526",
+      "jp": "アークマジシャン",
+      "en": "Archmage",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 527,
+      "id": "rem_00527",
+      "jp": "キラキラとした宝石のような魔生物。倒しても宝石のような身体は残る。しかし凶暴な性格で、鋭利な肉体と魔光を放ち、欲深い冒険者を幾人も返り討ちにしてきた。",
+      "en": "A magical creature like a sparkling jewel. Even when defeated, its jewel-like body remains. However, it has a fierce temperament, unleashing sharp body parts and magical light, turning the tables on many greedy adventurers.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 528,
+      "id": "rem_00528",
+      "jp": "ジュエルストーン",
+      "en": "Jewel Stone",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 529,
+      "id": "rem_00529",
+      "jp": "人間の精神を惑わす魔花。幻惑されている間は、美しい女性のように見えるらしく、ホイホイ近づいた者をからめとり、体内で消化してしまう。",
+      "en": "A magic flower that bewitches the human mind. While enchanted, it appears as a beautiful woman, enticing and trapping those who approach, digesting them within its body.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 530,
+      "id": "rem_00530",
+      "jp": "ゆうわくフラワー",
+      "en": "Temptation Flower",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 531,
+      "id": "rem_00531",
+      "jp": "地上に顕現した神の使い。堕天した天魔や偽の天使でもない、ヒエペリオの教義を体現した天の使い。あらゆる攻撃が効きにくい身体は、神の威光を体現する。",
+      "en": "A divine messenger manifest on earth. Not a fallen angel or false angel, but a heavenly envoy embodying the tenets of Hyeperios. His body, resistant to most attacks, embodies divine radiance.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 532,
+      "id": "rem_00532",
+      "jp": "エンジェル",
+      "en": "Angel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 533,
+      "id": "rem_00533",
+      "jp": "天界の戦乙女。本来は冥界に行くはずの勇者の魂をハントし、天界に捧げる役割を担う。彼女らと恋に落ちることは死を意味する。なのに惚れやすい。",
+      "en": "A Valkyrie, a maiden of war from the heavens. Her role is to hunt the souls of heroes destined for the underworld and offer them to the heavens. Falling in love with them means death. Yet, it's easy to fall for them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 534,
+      "id": "rem_00534",
+      "jp": "ヴァルキリー",
+      "en": "Valkyrie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 535,
+      "id": "rem_00535",
+      "jp": "齢を重ねて魔力を高めたホーリービースト。聖域の守護者の貫禄を持っており、高い知恵を持つ者もいる。原始的な攻撃魔術も扱い、盗賊から聖地を守る。",
+      "en": "A Holy Beast aged to increase its magical power. It carries the dignity of a sanctuary guardian, and some possess high wisdom. It also wields primitive offensive magic to protect sacred sites from thieves.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 536,
+      "id": "rem_00536",
+      "jp": "セイントビースト",
+      "en": "Saint Beast",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 537,
+      "id": "rem_00537",
+      "jp": "強力な聖遺物や装備で武装したゴブリンの騎士。単純な鈍器での殴打以外にも、戦闘者としての技量を身に着けている。",
+      "en": "A goblin knight armed with powerful holy relics and equipment. Beyond simple blunt force, they have acquired skills as combatants.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 538,
+      "id": "rem_00538",
+      "jp": "ゴブリンパラディン・エリート",
+      "en": "Goblin Paladin Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 539,
+      "id": "rem_00539",
+      "jp": "黄金色の伝説の聖騎士。黄金色の鎧はあらゆる邪悪な力を回避しそうな力を感じ、神々しい力がオーラになって見えそうになって高確率で強い。",
+      "en": "A legendary golden holy knight. His golden armor feels like it could repel any evil force, and his divine power seems to manifest as an aura. Highly likely to be strong.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 540,
+      "id": "rem_00540",
+      "jp": "黄金の鉄の聖騎士",
+      "en": "Golden Iron Holy Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 541,
+      "id": "rem_00541",
+      "jp": "地上を救う者であるか、裁定を下すために顕現した。特別な地位にある大天使であり、本物の神の使い。人類に対して絶対的な強権を持っており、ときに人間を国ごと粛正する非情さも併せ持つ。",
+      "en": "Appeared as a judge to save the world. A high-ranking archangel, a true messenger of God. Holds absolute authority over humanity, showing mercilessness by purging entire nations at times.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 542,
+      "id": "rem_00542",
+      "jp": "アークエンジェル",
+      "en": "Archangel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 543,
+      "id": "rem_00543",
+      "jp": "魔の力が色濃く出ており、漆黒に染まった骸骨。強い未練を持ったまま彷徨い続け、生きた人間を殺して、その身体を乗っ取ろうと襲いかかる。",
+      "en": "A skeleton tainted pitch-black, radiating strong demonic power. Wanders with powerful lingering attachments, attacking to kill the living and possess their bodies.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 544,
+      "id": "rem_00544",
+      "jp": "ブラックボーン",
+      "en": "Black Bone",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 545,
+      "id": "rem_00545",
+      "jp": "強力な力を持った影。物理的な害は及ぼさないが、並の人間がこれに触れると発狂してしまう。",
+      "en": "A shadow with great power. It inflicts no physical harm, but an ordinary human touching it will go mad.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 546,
+      "id": "rem_00546",
+      "jp": "ダークシャドウ",
+      "en": "Dark Shadow",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 547,
+      "id": "rem_00547",
+      "jp": "巨大な目で外部情報を蓄積するスパイダーのような機械。小型で様々な場所に入り込む性質から、情報を収集するために都合が良く、密かに軍事利用しようと世界中が狙っているらしい。",
+      "en": "A spider-like machine that accumulates external information with its giant eye. Its small size allows infiltration, making it ideal for intelligence gathering. Rumor has it many nations covertly seek to use it for military purposes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 548,
+      "id": "rem_00548",
+      "jp": "マシンアイ",
+      "en": "Machine Eye",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 549,
+      "id": "rem_00549",
+      "jp": "魔神を顕現させる儀式により生まれた悪霊。自らを呼び出した者を殺した後、遺跡の奥底に封印され、彷徨い続けていた。",
+      "en": "An evil spirit born from a ritual to manifest a demon god. After killing its summoner, it was sealed deep within a ruin and has wandered ever since.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 550,
+      "id": "rem_00550",
+      "jp": "おぞましき肉塊",
+      "en": "Horrid Flesh Mass",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

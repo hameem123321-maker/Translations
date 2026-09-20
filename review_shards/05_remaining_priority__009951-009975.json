@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9951,
+  "range_end": 9975,
+  "pairs": [
+    {
+      "n": 9951,
+      "id": "rem_37673",
+      "jp": "神聖なる供物",
+      "en": "Holy Offerings",
+      "table": "db_ClubGoodsKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9952,
+      "id": "rem_37674",
+      "jp": "家庭用医薬品",
+      "en": "Household Medicines",
+      "table": "db_ClubGoodsKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9953,
+      "id": "rem_37675",
+      "jp": "創作ポーション",
+      "en": "Custom Potions",
+      "table": "db_ClubGoodsKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9954,
+      "id": "rem_37676",
+      "jp": "魔攻+50%",
+      "en": "Mag ATK +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9955,
+      "id": "rem_37677",
+      "jp": "速度+20 + クリティカル率+20%",
+      "en": "Speed +20 & Crit Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9956,
+      "id": "rem_37678",
+      "jp": "能力開発の消費SP-10% + 獲得経験値+20%",
+      "en": "Ability Dev SP Cost -10% & EXP Gain +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9957,
+      "id": "rem_37679",
+      "jp": "魔術ダメージ+40% + 魔術暴走率+20%",
+      "en": "Magic DMG +40% & Backfire Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9958,
+      "id": "rem_37680",
+      "jp": "鍛冶系商品の売値+40%",
+      "en": "Smithing Goods Sell Price +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9959,
+      "id": "rem_37681",
+      "jp": "命中精度+50%",
+      "en": "Accuracy +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9960,
+      "id": "rem_37682",
+      "jp": "命中精度+30%",
+      "en": "Accuracy +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9961,
+      "id": "rem_37683",
+      "jp": "回避率+20%",
+      "en": "Dodge Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9962,
+      "id": "rem_37684",
+      "jp": "クリティカル率+15%",
+      "en": "Critical Rate +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9963,
+      "id": "rem_37685",
+      "jp": "攻撃+30% + 攻撃の範囲拡大率+20% + 女性へのダメージ+30%",
+      "en": "Attack +30% + Attack Area +20% + Damage vs Females +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9964,
+      "id": "rem_37686",
+      "jp": "ゴッドハンドのダメージ+100%",
+      "en": "God Hand Damage +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9965,
+      "id": "rem_37687",
+      "jp": "攻撃+50% + 攻撃の範囲拡大率+50% + 男性へのダメージ+30%",
+      "en": "Attack +50% + Attack Area +50% + Damage vs Males +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9966,
+      "id": "rem_37688",
+      "jp": "生産CP+15",
+      "en": "Production CP +15",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9967,
+      "id": "rem_37689",
+      "jp": "汚染値の上昇率-10%",
+      "en": "Pollution Gain Rate -10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9968,
+      "id": "rem_37690",
+      "jp": "物理ダメージ+4%",
+      "en": "Physical Damage +4%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9969,
+      "id": "rem_37691",
+      "jp": "物理ダメージ+20%",
+      "en": "Physical Damage +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9970,
+      "id": "rem_37692",
+      "jp": "生産CP+10",
+      "en": "Production CP +10",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9971,
+      "id": "rem_37693",
+      "jp": "ダンジョン探索中のショップ売上+10%",
+      "en": "Dungeon Shop Sales +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9972,
+      "id": "rem_37694",
+      "jp": "パートナー潜在能力解放+10%",
+      "en": "Partner Potential Unlock +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9973,
+      "id": "rem_37695",
+      "jp": "スキルダメージ+50% + デスクリティカル率+30% + 消費MP+30%",
+      "en": "Skill Damage +50% + Decritical Rate +30% + MP Cost +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9974,
+      "id": "rem_37696",
+      "jp": "錬金系商品の売値+40%",
+      "en": "Alchemy Item Sell Price +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9975,
+      "id": "rem_37697",
+      "jp": "料理CP+30%",
+      "en": "Cooking CP +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

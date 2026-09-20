@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1526,
+  "range_end": 1550,
+  "pairs": [
+    {
+      "n": 1526,
+      "id": "rem_27101",
+      "jp": "『北方防衛要塞フリズ』に資金投入する。早めに投資しなければ、ノーザリアの侵略を許すことになるだろう。そうなれば『災厄』どころじゃなくなる。",
+      "en": "Invest in the 'Northern Defense Fortress Frith.' Fail to invest early, and Northerlia's invasion will follow. That would be worse than any 【Calamity】.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1527,
+      "id": "rem_27102",
+      "jp": "フリズLv4・北方防衛への資金投入",
+      "en": "Frith Lv4 · Funds for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1528,
+      "id": "rem_27103",
+      "jp": "フリズLv6・北方防衛への資金投入",
+      "en": "Frith Lv6 · Funds for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1529,
+      "id": "rem_27104",
+      "jp": "ウワサを流して民衆を惑わせる『学院』の学者を黙らせる。口だけは回る学者を黙らせるには、カネが必要だ……。",
+      "en": "Silence the 'Academy' scholars spreading confusing rumors. Shutting up smooth-talking scholars... costs money.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1530,
+      "id": "rem_27105",
+      "jp": "学院Lv2・地殻変動の噂を終息させる",
+      "en": "Academy Lv2 · Quell Geologic Rumor",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1531,
+      "id": "rem_27106",
+      "jp": "ミルテとカリストからせがまれて、魔術書を購入することになる。魔術書は高額だ……。",
+      "en": "Pressured by Myrte and Callisto, we'll buy a magic tome. Magic tomes are pricey...",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1532,
+      "id": "rem_27107",
+      "jp": "学院Lv4・魔術書の購入予算",
+      "en": "Academy Lv4 · Magic Tome Budget",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1533,
+      "id": "rem_27108",
+      "jp": "『ソルシア学院』の魔導船から降り、ゼカリウス地方で魔術研究を行ないたい面のために、居住区や研究所を整備する。魔術師たちの信頼が増えるだろう。",
+      "en": "Build housing and labs in Zecarius for mages wanting to research after leaving the 'Sorsia Academy' airship. This will boost mages' trust.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1534,
+      "id": "rem_27109",
+      "jp": "学院Lv6・魔術師の居住区整備",
+      "en": "Academy Lv6 · Mage Housing Prep",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1535,
+      "id": "rem_27110",
+      "jp": "『王立騎士団』に騎士用全身鎧を支給する。騎士用装備は高級なので、団員に行き渡るように支給するにはかなりの資金が必要である。",
+      "en": "Supply full plate armor to the 'Royal Knights.' Knight gear is premium, so fully equipping them requires significant funds.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1536,
+      "id": "rem_27111",
+      "jp": "騎士団Lv4・騎士用全身鎧を支給",
+      "en": "Knights Lv4 · Supply Full Plate Armor",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1537,
+      "id": "rem_27112",
+      "jp": "『王立騎士団』に精鋭騎士用の高級騎士用全身鎧を支給する。騎士用装備は高級なのだが、精鋭が装備するモノはさらに高額である。",
+      "en": "Supply elite-grade full plate armor to the 'Royal Knights.' Knight gear is pricey, but elite gear costs even more.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1538,
+      "id": "rem_27113",
+      "jp": "騎士団Lv6・高級騎士用武具を支給",
+      "en": "Knights Lv6 · Supply Elite Arms",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1539,
+      "id": "rem_27114",
+      "jp": "イルニエル大灯台にはまだ魔獣が多数生息しているらしく、溢れた魔獣が近隣の漁村に現れるらしい。冒険者を雇って、数を減らさなくては。",
+      "en": "Many monsters still inhabit Ilnyer Lighthouse, and strays are appearing near fishing villages. Need to hire adventurers to thin them out.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1540,
+      "id": "rem_27115",
+      "jp": "漁業Lv2・灯台の残存勢力の掃討",
+      "en": "Fishing Lv2 · Clear Lighthouse Remnants",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1541,
+      "id": "rem_27116",
+      "jp": "ドルワミール鉱山の防犯設備の資金を出す。奥地への侵入者は排除せねば。",
+      "en": "Fund the security system for the Dolwamir mine. Intruders must be eliminated.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1542,
+      "id": "rem_27117",
+      "jp": "鉱山Lv2・鉱山の侵入者対策",
+      "en": "Mine Lv2: Intruder Countermeasures",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1543,
+      "id": "rem_27118",
+      "jp": "新しく発見された鉱脈の開発資金を出す。開発に関われば、良質な鉱石を手に入れることが出来て、鍛冶部門の商品がグレードアップするはず。",
+      "en": "Fund the development of a new ore vein. This will provide quality ore and improve blacksmithing products.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1544,
+      "id": "rem_27119",
+      "jp": "鉱山Lv4・新鉱脈の開発資金",
+      "en": "Mine Lv4: New Vein Development Funds",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1545,
+      "id": "rem_27120",
+      "jp": "新鉱脈の開発は順調で、作業員の装備が不足しているらしい。さらに援助すれば鉱石を得られる量も高まるはず。",
+      "en": "Development is going well, but workers lack equipment. More aid should increase ore yield.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1546,
+      "id": "rem_27121",
+      "jp": "鉱山Lv6・鍛冶道具を新調",
+      "en": "Mine Lv6: New Smithing Tools",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1547,
+      "id": "rem_27122",
+      "jp": "『ロオン遺跡調査団』に資金援助をして、発掘調査に協力する。",
+      "en": "Fund the 'Loon Ruins Survey Team' to support their excavation.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1548,
+      "id": "rem_27123",
+      "jp": "調査団Lv2・調査団に資金援助",
+      "en": "Survey Team Lv2: Fund the Team",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1549,
+      "id": "rem_27124",
+      "jp": "『ロオン遺跡調査団』が緊急で資金を求めているようだ。資金援助をして、発掘調査に協力する。",
+      "en": "The 'Loon Ruins Survey Team' urgently needs funds. Provide support for the excavation.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1550,
+      "id": "rem_27125",
+      "jp": "調査団Lv4・緊急の資金援助",
+      "en": "Survey Team Lv4: Emergency Funding",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

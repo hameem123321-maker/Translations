@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10051,
+  "range_end": 10075,
+  "pairs": [
+    {
+      "n": 10051,
+      "id": "rem_37773",
+      "jp": "物理ダメージ+1%",
+      "en": "Physical damage +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10052,
+      "id": "rem_37774",
+      "jp": "魔術ダメージ+1%",
+      "en": "Magic damage +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10053,
+      "id": "rem_37775",
+      "jp": "スキルダメージ+1%",
+      "en": "Skill damage +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10054,
+      "id": "rem_37776",
+      "jp": "樹木タイプへのダメージ+2%",
+      "en": "Damage vs. Plant-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10055,
+      "id": "rem_37777",
+      "jp": "動物タイプへのダメージ+2%",
+      "en": "Damage vs. Beast-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10056,
+      "id": "rem_37778",
+      "jp": "飛行タイプへのダメージ+2%",
+      "en": "Damage vs. Flying-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10057,
+      "id": "rem_37779",
+      "jp": "不形タイプへのダメージ+2%",
+      "en": "Damage vs. Amorphous-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10058,
+      "id": "rem_37780",
+      "jp": "硬質タイプへのダメージ+2%",
+      "en": "Damage vs. Hard-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10059,
+      "id": "rem_37781",
+      "jp": "死霊タイプへのダメージ+2%",
+      "en": "Damage vs. Undead-type +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10060,
+      "id": "rem_37782",
+      "jp": "クリティカルのダメージ+1%",
+      "en": "Critical damage +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10061,
+      "id": "rem_37783",
+      "jp": "戦闘不能時に自動復活+40%",
+      "en": "Auto-revive on KO +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10062,
+      "id": "rem_37784",
+      "jp": "エッチ好き-3",
+      "en": "Lecherousness -3",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10063,
+      "id": "rem_37785",
+      "jp": "宿泊施設の売上+5%",
+      "en": "Lodging Revenue +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10064,
+      "id": "rem_37786",
+      "jp": "物理ダメージ軽減率+1%",
+      "en": "Phys. Damage Reduction +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10065,
+      "id": "rem_37787",
+      "jp": "戦闘後パーティー回復・CT+30%",
+      "en": "Post-Battle Party Recovery: CT+30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10066,
+      "id": "rem_37788",
+      "jp": "魔術ダメージ軽減率+1%",
+      "en": "Magic Damage Reduction +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10067,
+      "id": "rem_37789",
+      "jp": "戦闘後パーティー回復・HP+20%",
+      "en": "Post-Battle Party Recovery: HP+20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10068,
+      "id": "rem_37790",
+      "jp": "HP回復量アップ+2%",
+      "en": "HP Recovery Amount +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10069,
+      "id": "rem_37791",
+      "jp": "MP回復量アップ+2%",
+      "en": "MP Recovery Amount +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10070,
+      "id": "rem_37792",
+      "jp": "戦闘後パーティー回復・MP+15%",
+      "en": "Post-Battle Party Recovery: MP+15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10071,
+      "id": "rem_37793",
+      "jp": "戦闘後パーティー回復・MP+10%",
+      "en": "Post-Battle Party Recovery: MP+10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10072,
+      "id": "rem_37794",
+      "jp": "獲得経験値アップ+5%",
+      "en": "EXP Gain +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10073,
+      "id": "rem_37795",
+      "jp": "料理系商品の売値+20%",
+      "en": "Food Item Selling Price +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10074,
+      "id": "rem_37796",
+      "jp": "MP消費軽減-30%",
+      "en": "MP Cost Reduction -30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10075,
+      "id": "rem_37797",
+      "jp": "MP消費軽減-50%",
+      "en": "MP Cost Reduction -50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

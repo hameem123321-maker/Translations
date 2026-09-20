@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1551,
+  "range_end": 1575,
+  "pairs": [
+    {
+      "n": 1551,
+      "id": "rem_27126",
+      "jp": "この前の資金援助では足りなかったらしい。さらなる資金援助をして、発掘調査を全面的にバックアップする。",
+      "en": "The previous funding wasn't enough. Provide more to fully back their excavation.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1552,
+      "id": "rem_27127",
+      "jp": "調査団Lv4・緊急の資金援助のおかわり",
+      "en": "Survey Team Lv4: Emergency Funding (More)",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1553,
+      "id": "rem_27128",
+      "jp": "店が大きくなったせいか、怪しい者が客に交じって店に出入りしている。盗賊ギルドと連携して怪しいヤツをあぶり出そう。",
+      "en": "Since the shop's grown, suspicious people mix with customers. Work with the thieves' guild to expose them.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1554,
+      "id": "rem_27129",
+      "jp": "盗賊Lv6・スパイの調査資金",
+      "en": "Thieves Lv6: Spy Investigation Funds",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1555,
+      "id": "rem_27130",
+      "jp": "売れない小説家のパトロンになり、生活の面倒を見る。腕は確かなようだ。なんでも好きなジャンルの物語を書いてくれるとのこと。ちなみにアーマニーは書かない。",
+      "en": "Become a struggling novelist's patron and support their life. They seem skilled and will write any genre. Except about Armany.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1556,
+      "id": "rem_27131",
+      "jp": "文芸Lv2・小説家のパトロンになる",
+      "en": "Arts Lv2: Patron for a Novelist",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1557,
+      "id": "rem_27132",
+      "jp": "売れない吟遊詩人のパトロンになり、生活の面倒を見る。宮廷音楽家とかそういうヤツだろうか。音楽家はカネがかかるが、店の音楽を奏でてくれるようになるはず。",
+      "en": "Become a struggling bard's patron and support them. A court musician type? Musicians are costly, but they'll play music for the shop.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1558,
+      "id": "rem_27133",
+      "jp": "文芸Lv4・吟遊詩人のパトロンになる",
+      "en": "Arts Lv4: Patron for a Bard",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1559,
+      "id": "rem_27134",
+      "jp": "売れない画家のパトロンになり、生活の面倒を見る、ための住居を用意する。生活がままならなければ、創作活動どころではないので、頷ける話ではあるが……。これ以上穀潰しが増えるというのか？",
+      "en": "Provide housing for a struggling painter to support them as their patron. Makes sense they can't create if struggling, but... more freeloaders?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1560,
+      "id": "rem_27135",
+      "jp": "文芸Lv6・売れない作家に住居を提供",
+      "en": "Arts Lv6: Provide Housing for Artist",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1561,
+      "id": "rem_27136",
+      "jp": "林業を活発化させる、木こりの基地を建築する。建築することで、林業資源を効率的に得られるだろう。",
+      "en": "Build a lumberjack base to boost forestry. Constructing it will let you gather forest resources efficiently.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1562,
+      "id": "rem_27137",
+      "jp": "林業Lv4・木こりの城を建築",
+      "en": "Forestry Lv4 - Build the Lumberjack's Fort",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1563,
+      "id": "rem_27138",
+      "jp": "悪徳商人に買い叩かれないよう、『ダムブナック林業組合』が開拓した木材をまとめて買い取る。木材を材料とする商品の価値が高まるだろう。",
+      "en": "Bulk purchase of quality lumber logged by the 'Dumbknack Forestry Guild' to prevent being lowballed by unscrupulous merchants. This will increase the value of goods made from wood.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1564,
+      "id": "rem_27139",
+      "jp": "林業Lv6・上質な木材大量購入",
+      "en": "Forestry Lv6 - Bulk Purchase of Quality Lumber",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1565,
+      "id": "rem_27140",
+      "jp": "必死で逃げたのですが……あのような恐ろしい思いは、もうたくさんですわ",
+      "en": "I ran for my life, but... I've had enough of that terrifying experience.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1566,
+      "id": "rem_27141",
+      "jp": "ストーリー進行で発生します",
+      "en": "Occurs during story progression.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1567,
+      "id": "rem_27142",
+      "jp": "マリーゼルのピンチ",
+      "en": "Marisel in Peril",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1568,
+      "id": "rem_27143",
+      "jp": "<pl>様に助けていただけなければ今頃は……本当に助かりましたわ",
+      "en": "If <pl> hadn't saved me, by now I would've... Thank you so much.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1569,
+      "id": "rem_27144",
+      "jp": "マリーゼル救出",
+      "en": "Rescue Marisel",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1570,
+      "id": "rem_27145",
+      "jp": "ポンタが生きていれば、あるいはこのような事も……？",
+      "en": "If Ponta were alive, perhaps something like this...?",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1571,
+      "id": "rem_27146",
+      "jp": "ポンタとマリーゼルの初体験",
+      "en": "Ponta and Marisel's First Experience",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1572,
+      "id": "rem_27147",
+      "jp": "アーマニー様の妄想ですわね。ですが、一歩間違えばこんな事もあり得たのでしょうね",
+      "en": "That's just Master Armany's fantasy, isn't it? But with one wrong step, something like that could have happened.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1573,
+      "id": "rem_27148",
+      "jp": "ストーリーを進めると、サキュバスの領域で淫夢トレード可能になります",
+      "en": "As you progress the story, you'll be able to trade for lewd dreams in the Succubus Realm.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1574,
+      "id": "rem_27149",
+      "jp": "孕み袋にされるマリーゼル",
+      "en": "Marisel Becomes a Breeding Sack",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1575,
+      "id": "rem_27150",
+      "jp": "お兄ちゃんの初めて、もらっちゃったД　ルーシェも初めてだったし、お兄ちゃんの為だから、許してくれるよねД",
+      "en": "I took big bro's first timeД I was my first time too, and it was for you, so you'll forgive me, right?Д",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    }
+  ]
+}

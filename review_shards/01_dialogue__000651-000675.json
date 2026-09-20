@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 651,
+  "range_end": 675,
+  "pairs": [
+    {
+      "n": 651,
+      "id": "db_EventInfo:914:102",
+      "jp": "すごいね！　そこに行けば、レアアイテムが取り放題なんだ！",
+      "en": "Wow! So if we go there, we can take all the rare items we want!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 652,
+      "id": "db_EventInfo:915:142",
+      "jp": "そうさ！",
+      "en": "Exactly!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 653,
+      "id": "db_EventInfo:916:102",
+      "jp": "でも、そんな場所が手放しってのも変だよね。【『黒の森』】が危険ってパターンじゃないの？",
+      "en": "But it seems weird that a place like that would just be free for the taking. Isn't the \"Black Forest\" supposed to be dangerous?",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 654,
+      "id": "db_EventInfo:917:142",
+      "jp": "ギクッ",
+      "en": "Gulp!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 655,
+      "id": "db_EventInfo:918:102",
+      "jp": "だめじゃん！",
+      "en": "That's no good!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 656,
+      "id": "db_EventInfo:919:142",
+      "jp": "だ、大丈夫だって……ベテラン冒険者を雇いまくったら、【『黒の森』】の踏破だって不可能じゃないさ",
+      "en": "I-It's fine... If we hire a ton of veteran adventurers, exploring the \"Black Forest\" isn't impossible.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 657,
+      "id": "db_EventInfo:920:142",
+      "jp": "まあ……そんなの雇うだけの金を支払ったら、レアアイテムを売っても赤字だろうけど",
+      "en": "Well... paying that many people would probably leave us in the red even after selling the rare items.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 658,
+      "id": "db_EventInfo:921:102",
+      "jp": "だめじゃん！！",
+      "en": "That's really no good!!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 659,
+      "id": "db_EventInfo:922:142",
+      "jp": "聞いたか【『ボルケミア火山』】の先に古代文明の遺跡の道が開けたそうだ",
+      "en": "Did you hear? A path to some ancient ruins was discovered past the \"Borkemia Volcano\".",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 660,
+      "id": "db_EventInfo:923:102",
+      "jp": "古代文明！　そこに行けば、おたからザクザクだね！",
+      "en": "Ancient ruins! If we go there, it'll be a goldmine of treasure!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 661,
+      "id": "db_EventInfo:924:142",
+      "jp": "……俺達がそんなところに行ったら死ぬぞ",
+      "en": "If we go there, we'll die.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 662,
+      "id": "db_EventInfo:925:102",
+      "jp": "そうだよね！",
+      "en": "Yeah, I know!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 663,
+      "id": "db_EventInfo:926:142",
+      "jp": "それよりチャンスだ、多くの冒険者が火山に向かっている",
+      "en": "Forget that, this is our chance. Lots of adventurers are heading to the volcano.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 664,
+      "id": "db_EventInfo:927:142",
+      "jp": "【『ダンジョン』】の入口前に陣取って、冒険者に消耗品を売りまくるんだ！",
+      "en": "We'll set up right in front of the dungeon entrance and sell supplies to the adventurers!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 665,
+      "id": "db_EventInfo:928:102",
+      "jp": "いいね！　さっそく売ろう！",
+      "en": "Great! Let's start selling!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 666,
+      "id": "db_EventInfo:929:102",
+      "jp": "……売る物がないってオチじゃないよね？",
+      "en": "...We do have something to sell, right? This isn't a trick?",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 667,
+      "id": "db_EventInfo:930:142",
+      "jp": "はっはっ！",
+      "en": "Hah hah!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 668,
+      "id": "db_EventInfo:931:142",
+      "jp": "……なんでわかったんだ？",
+      "en": "...How did you know?",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 669,
+      "id": "db_EventInfo:932:102",
+      "jp": "だめじゃん！！",
+      "en": "You're hopeless!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 670,
+      "id": "db_EventInfo:933:102",
+      "jp": "【『ボルケミア火山』】攻略に参加する冒険者への露店、もうかったねー！",
+      "en": "Selling to adventurers tackling Volkemian Volcano was a big success!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 671,
+      "id": "db_EventInfo:934:142",
+      "jp": "まあ、大金持ちにはなれなかったけどな",
+      "en": "Well, we didn't get super rich or anything.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 672,
+      "id": "db_EventInfo:935:102",
+      "jp": "やったね！　次はどこに商売に行くの？",
+      "en": "We did it! Where should we do business next?",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 673,
+      "id": "db_EventInfo:936:142",
+      "jp": "うーん、南方の【『灼熱の都サージ』】もいいが……",
+      "en": "Hmm, the southern city, the 【『Scorching Capital Surge』】, is nice too, but...",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 674,
+      "id": "db_EventInfo:937:142",
+      "jp": "まだまだ勉強することがある。当分はゼカリウスだな",
+      "en": "I've still got a lot to learn. For now, I'll stick with Zecarius.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 675,
+      "id": "db_EventInfo:938:102",
+      "jp": "そうだねー！",
+      "en": "Yeah, that's right!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    }
+  ]
+}

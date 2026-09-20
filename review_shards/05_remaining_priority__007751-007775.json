@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7751,
+  "range_end": 7775,
+  "pairs": [
+    {
+      "n": 7751,
+      "id": "rem_35402",
+      "jp": "魚料理タイプの商品価格",
+      "en": "Fish Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7752,
+      "id": "rem_35403",
+      "jp": "一般料理タイプの商品価格",
+      "en": "General Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7753,
+      "id": "rem_35404",
+      "jp": "贅沢品タイプの商品価格",
+      "en": "Luxury Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7754,
+      "id": "rem_35405",
+      "jp": "嗜好品タイプの商品価格",
+      "en": "Indulgence Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7755,
+      "id": "rem_35406",
+      "jp": "雑貨タイプの商品価格",
+      "en": "Sundries Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7756,
+      "id": "rem_35407",
+      "jp": "錬金系メニューの商品価格",
+      "en": "Alchemy Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7757,
+      "id": "rem_35408",
+      "jp": "鍛冶系メニューの商品価格",
+      "en": "Smithing Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7758,
+      "id": "rem_35409",
+      "jp": "料理系メニューの商品価格",
+      "en": "Cooking Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7759,
+      "id": "rem_35410",
+      "jp": "すべての商品価格",
+      "en": "All Item Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7760,
+      "id": "rem_35411",
+      "jp": "エネミー専用・獲得量アップ・EXP",
+      "en": "Enemy Only: Gain & EXP Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7761,
+      "id": "rem_35412",
+      "jp": "開発ポイント獲得",
+      "en": "Development Points Earned",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7762,
+      "id": "rem_35413",
+      "jp": "レアトレジャー発生率",
+      "en": "Rare Treasure Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7763,
+      "id": "rem_35414",
+      "jp": "トラップ発見率",
+      "en": "Trap Detection Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7764,
+      "id": "rem_35415",
+      "jp": "エネミー発見率",
+      "en": "Enemy Detection Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7765,
+      "id": "rem_35416",
+      "jp": "機械系トラップの解除率",
+      "en": "Mechanical Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7766,
+      "id": "rem_35417",
+      "jp": "自然系トラップの解除率",
+      "en": "Natural Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7767,
+      "id": "rem_35418",
+      "jp": "魔術系トラップの解除率",
+      "en": "Magical Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7768,
+      "id": "rem_35419",
+      "jp": "客の流入数",
+      "en": "Customer Inflow",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7769,
+      "id": "rem_35420",
+      "jp": "客の滞在時間",
+      "en": "Customer Stay Time",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7770,
+      "id": "rem_35421",
+      "jp": "店員の最大人数",
+      "en": "Max Staff Count",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7771,
+      "id": "rem_35422",
+      "jp": "店員休憩時の回復率",
+      "en": "Staff Rest Recovery Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7772,
+      "id": "rem_35423",
+      "jp": "料理レシピランク",
+      "en": "Cooking Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7773,
+      "id": "rem_35424",
+      "jp": "鍛冶レシピランク",
+      "en": "Blacksmithing Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7774,
+      "id": "rem_35425",
+      "jp": "錬金レシピランク",
+      "en": "Alchemy Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7775,
+      "id": "rem_35426",
+      "jp": "犯罪値の変化率",
+      "en": "Crime Value Change Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

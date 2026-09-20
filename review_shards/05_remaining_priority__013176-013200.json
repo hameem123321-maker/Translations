@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13176,
+  "range_end": 13200,
+  "pairs": [
+    {
+      "n": 13176,
+      "id": "rem_45562",
+      "jp": "まだ改良してない施設はありませんか？　施設を改良して、店の機能をさらに高めましょうД",
+      "en": "Is there any facility you haven't upgraded yet? Improve your facilities to enhance the store's functionality.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13177,
+      "id": "rem_45563",
+      "jp": "この店には腕の良い鍛冶が多数おられます。付加価値の高い鍛冶製品を売れば高い利益を得られそうですわね。がんばって儲けましょうД",
+      "en": "This shop employs many skilled blacksmiths. Selling high-value forged goods could yield excellent profits, I believe. Let's work hard to earn a fortune.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13178,
+      "id": "rem_45564",
+      "jp": "【<pl>】様の子種は【『神』】の子種、【『淫魔』】どもが価値を見出すというのも当然ですわね。せっかくです【『淫魔』】からカネを巻き上げましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 13179,
+      "id": "rem_45565",
+      "jp": "【<pl>】様、お腹を満たせることは幸せの基本でございますわ。たくさん料理を売って、皆を幸せにして、ついでにゴールドも稼ぎましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 13180,
+      "id": "rem_45566",
+      "jp": "セグルメット聖薬会との交流を深めるためにも、もっと親密に語り合いたいと存じます。存じましては、二人っきりで話し合いませんかД",
+      "en": "To strengthen our bond with the Sacred Medicine Society, I believe we should speak more intimately. Shall we talk alone, just the two of us?Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13181,
+      "id": "rem_45567",
+      "jp": "セグルメット聖薬会との連携を強めるため、錬金商品の販売に力を注ぎませんか？　もちろん、私たちも支援いたします！",
+      "en": "To strengthen our cooperation with the Segurmet Holy Medicine Society, why not focus on selling alchemical goods? We'll support you, of course!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13182,
+      "id": "rem_45568",
+      "jp": "スタッフの育成は間に合っておりますか？　【<pl>】様の人材育成術、セグルメット聖薬会も勉強させていただきたいですわ",
+      "en": "Is your staff training on schedule? The Segurmet Holy Medicine Society would love to learn from 【<pl>】's talent development methods.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13183,
+      "id": "rem_45569",
+      "jp": "【<pl>】様の精液は【『淫魔』】にとっての魔薬ですわД　取引が禁止される前に、たくさん売って資金を回収いたしましょう。私もお手伝いしますわД",
+      "en": "【<pl>】's essence is a magical potion for 【Succubi】Д Let's sell a lot to recover funds before trading is banned. I'll help tooД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13184,
+      "id": "rem_45570",
+      "jp": "料理は身体作りの資本、健康的な体を作れば病に苦しむ人々も減るはずですわ。精の付く料理をたくさん売って、皆を健康に致しましょう",
+      "en": "Food is the foundation of a healthy body. Let's sell nutritious dishes to make everyone healthier and reduce suffering.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13185,
+      "id": "rem_45571",
+      "jp": "適度な娯楽に興じることは、【『聖都』】も認めているところです。精神を発散することで、健康的になれるはずですわД",
+      "en": "Even the 【Holy City】 permits moderate entertainment. A little fun is good for mental healthД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13186,
+      "id": "rem_45572",
+      "jp": "【<pl>】ちゃんのセーエキって、【『魔界』】でも高値で売れるんだよねぇ。末端マッカは……ということで、そっちに流す前に、ボクにちょーだいД",
+      "en": "【<pl>】's essence sells for a high price even in the 【Demon World】. Before it goes to the low-level gangs... give it to me insteadД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13187,
+      "id": "rem_45573",
+      "jp": "【<pl>】ちゃんのセーエキ、ブロッサ娼会に売ってるんだって？　勿体ないけど、魔界の平和のためにも、ボクも一肌脱いであげるよД",
+      "en": "I hear you're selling 【<pl>】's essence to the Blossa Brothel? What a waste. For the Demon World's peace, I'll lend a handД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13188,
+      "id": "rem_45574",
+      "jp": "【<pl>】ちゃん！　今こそ魔界料理をこの地方に広めるときだよ！　料理をバンバン売って、魔界料理を宣伝しようよっ！",
+      "en": "【<pl>】! Now's the time to spread Demon World cuisine here! Let's sell loads and promote it!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13189,
+      "id": "rem_45575",
+      "jp": "まだ見付けてないトレジャーはないかな？　ボクと一緒に探しに行こうよ！",
+      "en": "Any treasures we haven't found yet? Let's go search together!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13190,
+      "id": "rem_45576",
+      "jp": "魔界料理人たるもの、魔獣ハントの腕は鈍らせたくないんだよね。いっしょに魔獣狩りに連れて行ってくれないかな？",
+      "en": "As a Demon World chef, I can't let my monster-hunting skills get rusty. Will you take me along on a hunt?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13191,
+      "id": "rem_45577",
+      "jp": "たまには外出しないとね。ボクと一緒に、食材探しに行こうよ！",
+      "en": "We should get out sometimes. Let's go look for ingredients together!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13192,
+      "id": "rem_48861",
+      "jp": "幼き夜の王",
+      "en": "The Young Night King",
+      "table": "db_ScenarioEpisode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13193,
+      "id": "rem_48862",
+      "jp": "通りすがりの貧弱淫魔",
+      "en": "A Pathetic Passing Succubus",
+      "table": "db_ScenarioEpisode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13194,
+      "id": "rem_48863",
+      "jp": "メイドのハヅキ(分身)",
+      "en": "Hazuki the Maid (Clone)",
+      "table": "db_ScenarioEpisode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13195,
+      "id": "rem_48864",
+      "jp": "最果てのオーラ(英)",
+      "en": "Aura of the Farthest Ends (Eng)",
+      "table": "db_ScenarioEpisode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13196,
+      "id": "rem_48865",
+      "jp": "贅を尽くした飼育環境で育った高級鳥の肉。豊かな風味と柔らかな口当たりで、黄金色に輝いているように錯覚してしまいそうだ。",
+      "en": "Premium poultry raised in lavish conditions. Rich flavor, tender texture, and a golden sheen that's almost an illusion.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13197,
+      "id": "rem_48866",
+      "jp": "豪華黄金鳥肉",
+      "en": "Luxury Golden Bird Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13198,
+      "id": "rem_48867",
+      "jp": "不死鳥が自ら火に飛び込み、灰の中から現れたという焦げ肉。不死鳥なのに肉片が残っているのはどういうわけだろうか。",
+      "en": "Burnt meat said to appear from the ashes after a phoenix plunges into fire. Strange that a phoenix would leave meat scraps behind.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13199,
+      "id": "rem_48868",
+      "jp": "不死鳥のコゲ肉",
+      "en": "Phoenix Scorched Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13200,
+      "id": "rem_48869",
+      "jp": "言わずと知れた伝説の魔獣肉と言われている。実在すら疑われた魔獣を人が討伐できるはずもないが、旨さと話題性は抜群。",
+      "en": "Legendary monster meat, famous yet doubted to exist. How could humans defeat such a creature? But its taste and notoriety are unmatched.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

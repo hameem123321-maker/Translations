@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11551,
+  "range_end": 11575,
+  "pairs": [
+    {
+      "n": 11551,
+      "id": "rem_39312",
+      "jp": "アイアンに微量の炭を含ませることで、さらに強靭な頑丈さを実現した金属。強靭でありながら、加工性に優れ、刃物や防具へ加工される。",
+      "en": "Iron infused with carbon for exceptional strength and workability. Ideal for blades and armor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11552,
+      "id": "rem_39313",
+      "jp": "スチールインゴット",
+      "en": "Steel Ingot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11553,
+      "id": "rem_39314",
+      "jp": "邪悪な魔力を持った金属。魔力の影響を受けやすいこの金属は、邪悪に染めるも、浄化して祝福を授けるのも容易で、マジックアイテムの製造に適している。",
+      "en": "A metal imbued with wicked magic. Easily tainted or purified, making it perfect for crafting enchanted items.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11554,
+      "id": "rem_39315",
+      "jp": "邪悪な魔銀",
+      "en": "Wicked Mithril",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11555,
+      "id": "rem_39316",
+      "jp": "叩けばどこまでも薄く伸びる、黄金のインゴット。永遠に錆びず、光沢を放ち続けるこの金属は、その高級さゆえに、不純物を混ぜた偽物が偽造される事となった。",
+      "en": "A gold ingot that can be hammered endlessly thin. Never tarnishes, but its value has led to widespread counterfeiting.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11556,
+      "id": "rem_39317",
+      "jp": "ぴかぴか延べ棒ゴールド",
+      "en": "Shiny Gold Bar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11557,
+      "id": "rem_39318",
+      "jp": "渦巻く闇のエネルギーを封じ込めたエネルギー結晶。光を無限に吸い込む闇の如く、あらゆる衝撃を無効化する。鍛冶師たちが加工を夢見る伝説の物質。",
+      "en": "An energy crystal containing swirling dark power. Nullifies all impacts. A legendary material smiths dream of working.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11558,
+      "id": "rem_39319",
+      "jp": "常闇のダークマター",
+      "en": "Eternal Dark Matter",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11559,
+      "id": "rem_39320",
+      "jp": "精製された魔力結晶の塊。魔法の杖や装飾品に用いられることが多い。透き通った内部には、膨大な魔力が秘められている。",
+      "en": "A mass of refined magic crystals. Often used for staves and jewelry, it holds vast magical energy within.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11560,
+      "id": "rem_39321",
+      "jp": "巨大な魔力キューブ",
+      "en": "Giant Mana Cube",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11561,
+      "id": "rem_39322",
+      "jp": "極めて硬い、特殊な配合で焼成した合金。加工することで強靭な装備が作れる。その強度は他の鉄鉱石を圧倒するが、あまりの硬さに加工できる職人は限られる。",
+      "en": "Extremely hard alloy forged with a special mix. Can be crafted into tough gear. Overwhelmingly stronger than other iron ores, but few artisans can work it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11562,
+      "id": "rem_39323",
+      "jp": "超硬度合金",
+      "en": "Super Hard Alloy",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11563,
+      "id": "rem_39324",
+      "jp": "邪悪な力を徹底的に排除し、神聖な祝福を詰め込んだ白銀に輝くインゴット。神聖なのは確かだが、周囲を何でも浄化してしまう。",
+      "en": "A shining silver ingot, purified of evil and infused with holy blessings. Definitely sacred, but purifies everything around it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11564,
+      "id": "rem_39325",
+      "jp": "聖なるホーリーシルバー",
+      "en": "Holy Silver",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11565,
+      "id": "rem_39326",
+      "jp": "川辺でとれた価値のありそうな雑多な石。中には非常に高価な石が混ざっているが、見つけ出すのは困難であり、一般人は見向きもしない。",
+      "en": "Assorted stones from the riverbank that might hold value. Some are priceless, but finding them is hard and most ignore them.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11566,
+      "id": "rem_39327",
+      "jp": "川辺の原石",
+      "en": "Riverbank Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11567,
+      "id": "rem_39328",
+      "jp": "薄く透き通る鉱石。純度が低く濁っているが、加工すればそれなりの魔術工芸になる。",
+      "en": "A thin, translucent ore. Low purity and cloudy, but can be crafted into decent magical items.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11568,
+      "id": "rem_39329",
+      "jp": "クリスタルの原石",
+      "en": "Crystal Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11569,
+      "id": "rem_39330",
+      "jp": "樹木が長い年月を経て岩石と化したもの。通常の薪よりもよく燃え、鍛冶の重要な燃料にもなる。",
+      "en": "Petrified wood from ancient trees. Burns better than firewood and is vital fuel for smithing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11570,
+      "id": "rem_39331",
+      "jp": "燃える鉱物",
+      "en": "Burning Mineral",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11571,
+      "id": "rem_39332",
+      "jp": "樹木の化石といわれる美しい宝石。魔力を秘めた妖精の贈り物。",
+      "en": "A beautiful gem said to be fossilized tree sap. A magical gift from fairies.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11572,
+      "id": "rem_39333",
+      "jp": "古の琥珀結晶",
+      "en": "Ancient Amber Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11573,
+      "id": "rem_39334",
+      "jp": "まばゆい光を放つ岩石。その美しい見た目とは裏腹に、人を狂乱に導く魔力を放つ。加工すれば美しい宝石を生み出せるだろう。",
+      "en": "A dazzling rock. Its beauty hides a magic that can drive people mad. Can be crafted into beautiful gems.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11574,
+      "id": "rem_39335",
+      "jp": "虹色の原石",
+      "en": "Rainbow Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11575,
+      "id": "rem_39336",
+      "jp": "聖なる気配を感じるクリスタルの原石。神聖な魔力を秘めており、加工することで邪悪に対抗する道具を生み出すことが出来る。",
+      "en": "Crystal ore with a sacred aura. Contains holy magic; crafting yields tools to fight evil.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

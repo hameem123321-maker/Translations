@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10076,
+  "range_end": 10100,
+  "pairs": [
+    {
+      "n": 10076,
+      "id": "rem_37798",
+      "jp": "店員休憩時の回復率+10%",
+      "en": "Staff Rest Recovery Rate +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10077,
+      "id": "rem_37799",
+      "jp": "エッチな獲得経験値+30% + 感度開発サポート",
+      "en": "Lewd EXP Gain +30% + Sensitivity Development Support",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10078,
+      "id": "rem_37800",
+      "jp": "好感度の上昇率+10%",
+      "en": "Fondness Growth Rate +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10079,
+      "id": "rem_37801",
+      "jp": "すべての攻撃ダメージ+10%",
+      "en": "All Attack Damage +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10080,
+      "id": "rem_37802",
+      "jp": "パーティー全員のダメージ+10%",
+      "en": "Entire Party's Damage +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10081,
+      "id": "rem_37803",
+      "jp": "パーティー全員のダメージ+15%",
+      "en": "All party damage +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10082,
+      "id": "rem_37804",
+      "jp": "パーティー全員の四属性ダメージ+20%",
+      "en": "All party 4-element damage +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10083,
+      "id": "rem_37805",
+      "jp": "パーティー全員のクリティカル率+10%",
+      "en": "All party critical rate +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10084,
+      "id": "rem_37806",
+      "jp": "パーティー全員の経験値+15%",
+      "en": "All party EXP +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10085,
+      "id": "rem_37807",
+      "jp": "パーティー全員の経験値+30%",
+      "en": "All party EXP +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10086,
+      "id": "rem_37808",
+      "jp": "パーティー全員の経験値+50%",
+      "en": "All party EXP +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10087,
+      "id": "rem_37809",
+      "jp": "パーティー全員の経験値+80%",
+      "en": "All party EXP +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10088,
+      "id": "rem_37810",
+      "jp": "矢雨による先制ダメージ+25%",
+      "en": "Arrow Rain preemptive damage +25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10089,
+      "id": "rem_37811",
+      "jp": "矢雨による先制ダメージ+40%",
+      "en": "Arrow Rain preemptive damage +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10090,
+      "id": "rem_37812",
+      "jp": "ターンアンデッドで先制ダメージ+50%",
+      "en": "Turn Undead preemptive damage +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10091,
+      "id": "rem_37813",
+      "jp": "XXXXへの先制ダメージ+80%",
+      "en": "Preemptive damage vs XXXX +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10092,
+      "id": "rem_37814",
+      "jp": "味方への強化効果ターン延長+1",
+      "en": "Ally buff duration +1 turn",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10093,
+      "id": "rem_37815",
+      "jp": "エッチな獲得経験値+10%",
+      "en": "Erotic EXP gain +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10094,
+      "id": "rem_37816",
+      "jp": "味方への強化効果ターン延長+2",
+      "en": "Ally buff duration +2 turns",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10095,
+      "id": "rem_37817",
+      "jp": "相手への弱体効果ターン延長+2",
+      "en": "Enemy debuff duration +2 turns",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10096,
+      "id": "rem_37818",
+      "jp": "ランクアップに必要な経験-10%",
+      "en": "EXP needed to rank up -10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10097,
+      "id": "rem_37819",
+      "jp": "通常攻撃のダブルアタック率+60%",
+      "en": "Normal attack double attack rate +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10098,
+      "id": "rem_37820",
+      "jp": "低レベルメンバーの獲得経験値+15%",
+      "en": "Low-level members' EXP gain +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10099,
+      "id": "rem_37821",
+      "jp": "全ての生産CP+40%",
+      "en": "All production CP +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10100,
+      "id": "rem_37822",
+      "jp": "逃走成功率アップ+40%",
+      "en": "Escape success rate +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

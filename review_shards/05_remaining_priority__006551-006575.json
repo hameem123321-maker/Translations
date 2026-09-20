@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6551,
+  "range_end": 6575,
+  "pairs": [
+    {
+      "n": 6551,
+      "id": "rem_34170",
+      "jp": "相手の防御の上からダメージを与える、長剣用の攻撃スキル。強打により、ときどきスタン状態にすることができる。",
+      "en": "A longsword skill that deals damage through enemy defense. The heavy blow can sometimes inflict stun.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6552,
+      "id": "rem_34171",
+      "jp": "単体攻撃 威力[E] +  命中[70%] + 必殺率[+5%] + 【火属性】 + 防御貫通(小) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single Attack - Power[E] + Hit[70%] + Crit Rate[+5%] + 【Fire Element】 + Small Defense Pen. + Inflict [Stun] (Crit Receive Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6553,
+      "id": "rem_34172",
+      "jp": "【<src>】は[バッシュ]を叩き付けた！",
+      "en": "【<src>】 slams down [Bash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6554,
+      "id": "rem_34173",
+      "jp": "相手の弱点を上手く狙うスキル。弱点を突いた際の効果がアップする。クリティカルヒットの威力がアップ。",
+      "en": "A skill that precisely targets enemy weak points. Boosts effect when hitting a weakness. Increases critical hit damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6555,
+      "id": "rem_34174",
+      "jp": "クリティカルのダメージ[+30%]",
+      "en": "Critical DMG [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6556,
+      "id": "rem_34175",
+      "jp": "剣と自身を媒体に魔術属性の乗った攻撃を炸裂させ、周囲を焼き払う。自爆にも等しい危険な技で、強い精神力を要求される。",
+      "en": "An explosive attack using the sword and self as conduits for magic, scorching the surroundings. A dangerous, near-suicidal technique requiring strong willpower.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6557,
+      "id": "rem_34176",
+      "jp": "グループ攻撃 威力[A] +  命中[70%] + 【雷属性】 + 回避(小)",
+      "en": "Group Attack - Power[A] + Hit[70%] + 【Thunder Element】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6558,
+      "id": "rem_34177",
+      "jp": "【<src>】は十字を切り、[グランドクロス]を放った！",
+      "en": "【<src>】 slashes a cross and unleashes [Grand Cross]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6559,
+      "id": "rem_34178",
+      "jp": "敵めがけて雷を落す。貫通力のある雷撃は非常に強力で、強力な魔獣すらも仕留めることができる。攻撃範囲が狭いのが欠点。",
+      "en": "Strikes the enemy with lightning. The penetrating thunderbolt is extremely powerful, capable of felling mighty magical beasts. Limited attack range is its drawback.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6560,
+      "id": "rem_34179",
+      "jp": "範囲(小)攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(中) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small Area Attack - Power[D+] + Hit[70%] + 【Thunder Element】 + Medium Defense Pen. + Inflict [Shock] (Crit Receive Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6561,
+      "id": "rem_34180",
+      "jp": "【<src>】は[サンダーボルト]の魔術を放った！",
+      "en": "<src> casts [Thunderbolt] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6562,
+      "id": "rem_34181",
+      "jp": "圧縮した火球を放ち、範囲内の敵を爆砕する、強力な破壊魔術。このスキルの使用者は大魔術師として尊敬される。やや命中精度が低い。",
+      "en": "A powerful destructive magic that fires a compressed fireball, shattering enemies in range. Its user is respected as a great mage. Slightly lower accuracy.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6563,
+      "id": "rem_34182",
+      "jp": "グループ攻撃 威力[C] +  命中[60%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group attack Power[C] + Hit[60%] + 【Fire】 + Applies [Burn] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6564,
+      "id": "rem_34183",
+      "jp": "【<src>】は[ファイアボール]の魔術を放った！",
+      "en": "<src> casts [Fireball] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6565,
+      "id": "rem_34184",
+      "jp": "勇者の里にて、勇者の剣と共に伝えられた異邦の秘剣。果たすべき使命と願いのために磨き続けた剣聖の技は、必殺の一撃となって全てを両断する。",
+      "en": "An exotic secret sword passed down with the Hero's blade in the Hero's village. Polished by a sword saint for their mission and wish, this technique delivers a fatal blow that cleaves all.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6566,
+      "id": "rem_34185",
+      "jp": "クリティカルのダメージ[+80%]",
+      "en": "Critical damage [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6567,
+      "id": "rem_34186",
+      "jp": "熱核を極限まで圧縮させ、それを解き放ち爆発させる大魔術。ファイアボール数十発分とも言われるその威力は、神々も震わせる。",
+      "en": "A grand magic that compresses a thermonuclear core to its limit and releases it in an explosion. Its power, said to equal dozens of fireballs, makes even gods tremble.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6568,
+      "id": "rem_34187",
+      "jp": "全体攻撃 威力[A+] +  命中[60%] + 【火属性】 + 禁呪暴走抑制 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "All attack Power[A+] + Hit[60%] + 【Fire】 + Forbidden Curse Rampage Suppression + Applies [Burn] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6569,
+      "id": "rem_34188",
+      "jp": "【<src>】は禁呪[エクスプロージョン]で爆発を起こす！",
+      "en": "<src> causes an explosion with the Forbidden Curse [Explosion]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6570,
+      "id": "rem_34189",
+      "jp": "戦闘開始時に自動で使用。矢を射かけて、敵を消耗させる。多くの敵が密集しているほどダメージはアップする。",
+      "en": "Used automatically at battle start. Shoots arrows to exhaust the enemy. Damage increases the more enemies are clustered.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6571,
+      "id": "rem_34190",
+      "jp": "矢雨による先制ダメージ[+25%]",
+      "en": "Preemptive damage from arrow rain [+25%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6572,
+      "id": "rem_34191",
+      "jp": "アンジュが幼い頃から世話をしてきたドワーム族の鍛冶頭。いかなる時も身を守れるように、腕を磨き続けている。アンジュのレベルが上がると、ドルガノンのレベルがアップ。",
+      "en": "The Dwarm smith chief Anju has cared for since childhood. He constantly hones his skills to protect her at all times. Dorganon's level increases when Anju's does.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6573,
+      "id": "rem_34192",
+      "jp": "レベル同期・アンジュと同じに([+3])",
+      "en": "Level Sync - Same as Anju's ([+3])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6574,
+      "id": "rem_34193",
+      "jp": "仲間全員を守る、『聖女』のバリアを張る。このバリアは弱いダメージは素通りし、威力を大きく削いで消える。弱い攻撃は無視してしまうので注意。",
+      "en": "Erects the 'Saintess' barrier to protect all allies. This barrier lets weak damage pass through, only dispersing after absorbing a powerful blow. Beware, it ignores weak attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6575,
+      "id": "rem_34194",
+      "jp": "【仲間】に【聖盾】を付与 (最大HPの20%を超える攻撃を軽減[+70%])",
+      "en": "Grants 【Allies】 【Holy Shield】 (Reduces attacks exceeding 20% Max HP by [+70%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

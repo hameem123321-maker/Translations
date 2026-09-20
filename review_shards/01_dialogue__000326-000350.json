@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 326,
+  "range_end": 350,
+  "pairs": [
+    {
+      "n": 326,
+      "id": "db_EventInfo:583:112",
+      "jp": "あんなバケモノどもを一蹴するほど、強いようには見えないもんね。見かけによらないとか？",
+      "en": "He doesn't seem strong enough to wipe out monsters like that. Looks can be deceiving, I guess?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 327,
+      "id": "db_EventInfo:584:113",
+      "jp": "確かにそうだよな。【相手の力量を数値化】とかできれば、そんな疑問もなくなるのによぉ",
+      "en": "That's true. It'd be nice if we could 【measure someone's strength with numbers】, then we wouldn't have those doubts.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 328,
+      "id": "db_EventInfo:585:112",
+      "jp": "あはは。そんなのできるわけねーしД",
+      "en": "Ahaha. There's no way we can do thatД",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 329,
+      "id": "db_EventInfo:586:113",
+      "jp": "なんだか、いきなり店のスタッフが減ったな",
+      "en": "For some reason, the shop staff suddenly got smaller.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 330,
+      "id": "db_EventInfo:587:112",
+      "jp": "ああ。アンジュさんたちも姿を消してる",
+      "en": "Yeah. Anju and the others have disappeared too.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 331,
+      "id": "db_EventInfo:588:113",
+      "jp": "どうなってるんだ？　まあ、おかげで【<pl>】の相手が回ってきやすいけどよД",
+      "en": "What's going on? Well, thanks to that, it's easier for 【<pl>】 to get paired with us, thoughД",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 332,
+      "id": "db_EventInfo:589:112",
+      "jp": "なにっ？　ずるいぞ、抜け駆けするな！",
+      "en": "What?! That's not fair, don't sneak ahead!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 333,
+      "id": "db_EventInfo:590:113",
+      "jp": "へへっ、悔しかったら、お前も誘惑してみるんだなД",
+      "en": "Heheh, if you're jealous, you should try seducing them tooД",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 334,
+      "id": "db_EventInfo:591:112",
+      "jp": "むむっ……たしかに、言われてみれば",
+      "en": "Grr... Now that you mention it...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 335,
+      "id": "db_EventInfo:592:112",
+      "jp": "ノーザリアの国境付近に、入ることを禁じられたダンジョンがあるんだが",
+      "en": "Near the border of Nostalia, there's a forbidden dungeon you're not allowed to enter.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 336,
+      "id": "db_EventInfo:593:112",
+      "jp": "そのへんで行方不明者が多発しているらしい",
+      "en": "Seems like there have been a lot of disappearances around that area lately.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 337,
+      "id": "db_EventInfo:594:113",
+      "jp": "おっかねーな",
+      "en": "That's some scary stuff.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 338,
+      "id": "db_EventInfo:595:112",
+      "jp": "俺らも冒険者として鳴らしてきたが、上には上がいるもんだなぁ",
+      "en": "We've made a name for ourselves as adventurers too, but there's always someone better, huh?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 339,
+      "id": "db_EventInfo:596:113",
+      "jp": "だなぁ。【<pl>】たちはよくやってるよ",
+      "en": "Yeah. 【<pl>】 and the others are doing great.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 340,
+      "id": "db_EventInfo:597:113",
+      "jp": "まあ攻略組には入れなくても、先遣隊が道を作ったら、アタシらも派遣されるんじゃねーかな？",
+      "en": "Well, even if we can't join the vanguard group, once the advance team clears a path, maybe we'll get dispatched too, right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 341,
+      "id": "db_EventInfo:598:112",
+      "jp": "だな。訓練はしとかないとな",
+      "en": "Yeah. We gotta keep training.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 342,
+      "id": "db_EventInfo:599:113",
+      "jp": "最近、【<pl>】のパーティーに入った女剣士いるだろ？",
+      "en": "Lately, there's that female swordsman who joined 【<pl>】's party, right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 343,
+      "id": "db_EventInfo:600:112",
+      "jp": "ツバキのことか？",
+      "en": "You mean Tsubaki?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 344,
+      "id": "db_EventInfo:601:113",
+      "jp": "おう。すごい剣の使い手でさ。手合わせを願ったら、剣をしまっちゃって勝負！な～んて言ってきてさ",
+      "en": "Yeah. She's an amazing swordswoman. I asked her for a sparring match, and she sheathed her sword and said, 'Let's have a match!' like that.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 345,
+      "id": "db_EventInfo:602:113",
+      "jp": "格闘家として、舐められたとイラっときつつ向かって行ったら、投げ飛ばされちまった",
+      "en": "As a martial artist, I got ticked off, thinking she was looking down on me, and went at her... only to get thrown flying.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 346,
+      "id": "db_EventInfo:603:113",
+      "jp": "ありゃなんだ？　アタシの力をそのまま返されたみたいな技だった",
+      "en": "What was that? It was a technique that seemed to return my own power right back at me.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 347,
+      "id": "db_EventInfo:604:112",
+      "jp": "すごいよな～",
+      "en": "Amazing, huh~",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 348,
+      "id": "db_EventInfo:605:112",
+      "jp": "なんだっけ、カラテとかアイキとか、よくわからないこと言ってたぞ。まあ、俺も投げ飛ばされたんだけど",
+      "en": "What was it... she was saying stuff I didn't really get, like Karate or Aiki or something. Well, I got thrown flying too.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 349,
+      "id": "db_EventInfo:606:113",
+      "jp": "美人なうえ、剣がなくても強いのかよ……",
+      "en": "She's beautiful and strong even without a sword...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 350,
+      "id": "db_EventInfo:607:112",
+      "jp": "でもエリオルダさんはもっとすごいぞ。そのツバキとまともにやり合って、勝ち越してるんだから",
+      "en": "But Eliorda is even more amazing. She's been going head-to-head with that Tsubaki and coming out on top.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    }
+  ]
+}

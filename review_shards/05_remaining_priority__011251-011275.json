@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11251,
+  "range_end": 11275,
+  "pairs": [
+    {
+      "n": 11251,
+      "id": "rem_39012",
+      "jp": "豪華な模様を持つ二枚貝。通常の貝とは数段違う、ミルキーで濃厚な味わいが楽しめるが、中身が無傷である事は少ない。",
+      "en": "A bivalve with a gorgeous pattern. Offers a milky, rich flavor far superior to common shellfish, though intact specimens are rare.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11252,
+      "id": "rem_39013",
+      "jp": "煌びやかな稀少貝",
+      "en": "Radiant Rare Shell",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11253,
+      "id": "rem_39014",
+      "jp": "深い海の岩にくっついている貝。浅瀬で取れる貝類とは一線を画す、濃厚な肉質を持っている。欲を出して潜った漁師が、そのまま溺れてしまう事も少なくない。",
+      "en": "A shellfish attached to deep-sea rocks. Its dense flesh surpasses shallow-water species. Many greedy divers have drowned trying to reach it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11254,
+      "id": "rem_39015",
+      "jp": "深海の岩貝",
+      "en": "Deep-Sea Rock Shell",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11255,
+      "id": "rem_39016",
+      "jp": "海底に棲む大型の貝。海底での採取が困難な事から、『人魚くらいしか食えない』と漁師の間で囁かれてきた。当然、高級な幻の品として扱われている。",
+      "en": "A massive seabed shellfish. So hard to harvest that fishermen whisper, 'Only mermaids get to eat it.' Naturally, it's a high-end, legendary item.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11256,
+      "id": "rem_39017",
+      "jp": "巨大な人魚貝",
+      "en": "Giant Mermaid Shell",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11257,
+      "id": "rem_39018",
+      "jp": "海底にひっそりと存在する幻の貝。一見化石のように見えるが、内側ではぷりぷりの身が詰まっている。稀少性が高いため、その値段も高額。",
+      "en": "A legendary shellfish hidden quietly on the seabed. Looks like a fossil, but inside is plump, firm meat. Extremely rare and expensive.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11258,
+      "id": "rem_39019",
+      "jp": "化石貝",
+      "en": "Fossil Shell",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11259,
+      "id": "rem_39020",
+      "jp": "水底を這い回る、弾力性のあるテンタクル。薄く切ってもコリコリとした歯ごたえが楽しめる。触手モンスターとは種類が違う。",
+      "en": "An elastic tentacle that crawls along the bottom. Sliced thin, it offers a satisfying, crisp bite. (Not the same species as tentacle monsters.)",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11260,
+      "id": "rem_39021",
+      "jp": "ぴちぴちテンタクル",
+      "en": "Plump 'n' Bouncy Tentacle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11261,
+      "id": "rem_39022",
+      "jp": "出汁を閉じ込めたスライム状の塊。のはずなのだが、どうも自立して動いているような気がする。旨味の塊であることは間違いないのだが……。",
+      "en": "A slimy glob of concentrated broth... that seems to move on its own. Undeniably delicious, though.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11262,
+      "id": "rem_39023",
+      "jp": "煮凝りゼリー",
+      "en": "Meat Jelly",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11263,
+      "id": "rem_39024",
+      "jp": "柔らかい甲羅を持つ蟹。甲羅が簡単に取れる為、調理が容易で、漁師達が船の上でオヤツにしてしまう。",
+      "en": "A crab with a soft shell. Easy to cook and prized as a snack by fishermen on their boats.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11264,
+      "id": "rem_39025",
+      "jp": "ソフトシェル巨大蟹",
+      "en": "Giant Soft-Shell Crab",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11265,
+      "id": "rem_39026",
+      "jp": "海の中を滑るように泳ぎ回る奇怪な触手生物。伝承に謳われる海の悪魔に似た触手を持つが、この生物には不幸な事に、人にとって美味かった。",
+      "en": "A strange tentacled creature that glides through the sea. Its tentacles resemble a legendary sea demon, but it tastes delicious to humans.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11266,
+      "id": "rem_39027",
+      "jp": "ミニチュアクラーケン",
+      "en": "Miniature Kraken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11267,
+      "id": "rem_39028",
+      "jp": "テンタクルの触手を穀物に乗せた、異国伝来の珍味。賛否の別れるテンタクルの食味も、この食べ方にすることで受け入れられた。",
+      "en": "An exotic delicacy of tentacles on grains. This preparation makes their controversial taste more palatable.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11268,
+      "id": "rem_39029",
+      "jp": "触手乗せ穀物",
+      "en": "Tentacle-on-Grain Bowl",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11269,
+      "id": "rem_39030",
+      "jp": "巨大な魚の心臓を取り出した生命力溢れる海産物。ハツは鮮度が落ちやすい為、これを肴に酒を飲める冒険者は、リッチな凄腕と見られている。",
+      "en": "The vibrant heart of a giant fish. A rare treat for wealthy, elite adventurers due to its fleeting freshness.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11270,
+      "id": "rem_39031",
+      "jp": "巨大魚の心臓",
+      "en": "Giant Fish Heart",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11271,
+      "id": "rem_39032",
+      "jp": "魔法が宿った深海の魔魚の目玉を、秘伝の調味料で漬け込んだ逸品。見た目はグロテスクだが、命を無駄にしない為にも、漁師の間では普通の食材。",
+      "en": "Pickled eyeballs of a magical deep-sea fish. Grotesque-looking but a common ingredient among fishermen to avoid waste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11272,
+      "id": "rem_39033",
+      "jp": "魔魚のアイボール",
+      "en": "Magic Fish Eyeballs",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11273,
+      "id": "rem_39034",
+      "jp": "海底に隠れ住む甲殻類。再生力に溢れ、巨大なハサミを落としても、時間があれば再生する。その生命力を求めて、権力者大金を積んでも欲しがる。",
+      "en": "A deep-sea crustacean with incredible regenerative powers, even regrowing its large claws. Sought after by the wealthy for its vitality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11274,
+      "id": "rem_39035",
+      "jp": "深紅のロブスター",
+      "en": "Crimson Lobster",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11275,
+      "id": "rem_39036",
+      "jp": "切り身のままビクンビクンと跳ね回る、生命力に溢れた魚。そういう見た目の魚なのだが、切り身にしか見えない為、漁師達が驚きの声を上げた。",
+      "en": "A fish brimming with life, its fillets twitch and jump. Fishermen are amazed it looks just like cut fish.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1226,
+  "range_end": 1250,
+  "pairs": [
+    {
+      "n": 1226,
+      "id": "rem_26631",
+      "jp": "このまま、してあげますわД　ふふ、射精しない、程度に、ですけれどД",
+      "en": "I'll keep doing this for youД Huhu, just not enough to make you ejaculate, thoughД",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1227,
+      "id": "rem_26746",
+      "jp": "はぁ、んぅ、俺に、んんД　赤ちゃん、作って、とんでもねぇ、なД　でも、あんД　へへ、幸せ、だぜД",
+      "en": "Hah, nnuu, making me, nnnД have a baby, that's outrageousД But, ahnД Hehe, it's幸福だぜhappinessД",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1228,
+      "id": "rem_26777",
+      "jp": "小さい方が稀少なんですよー",
+      "en": "Small ones are rarer, you knowー",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1229,
+      "id": "rem_26786",
+      "jp": "どうです？　小さい方が稀少なんですよーД",
+      "en": "How about it? Small ones are rarer, you knowーД",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1230,
+      "id": "rem_26837",
+      "jp": "うーむ、こっちの身体で孕まされてしまうとはД　小僧の子種も、なかなかやるではないかД",
+      "en": "Hmm, to be impregnated in this body...Д Your seed is quite something, isn't it, kid?Д",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1231,
+      "id": "rem_28175",
+      "jp": "これが<pl>様のご意思なのですね……Д",
+      "en": "So this is your will, <pl>様...Д",
+      "table": "db_UnitCharaPartnerAccessPositionMes",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 1232,
+      "id": "rem_28176",
+      "jp": "<pl>様のお考えでしたら、従いますわД",
+      "en": "If it's <pl>様's desire, I shall obeyД",
+      "table": "db_UnitCharaPartnerAccessPositionMes",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 1233,
+      "id": "rem_28177",
+      "jp": "私はもう<pl>様の物ですから……Д",
+      "en": "After all, I already belong to <pl>様...Д",
+      "table": "db_UnitCharaPartnerAccessPositionMes",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 1234,
+      "id": "rem_28183",
+      "jp": "<pl>様が見たいのでしたら、構いませんわД",
+      "en": "If <pl>様 wishes to see, I don't mindД",
+      "table": "db_UnitCharaPartnerAccessPositionMes",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 1235,
+      "id": "rem_35052",
+      "jp": "セックス",
+      "en": "Sex",
+      "table": "db_UnitCharaPartnerAccessCombinePlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1236,
+      "id": "rem_35057",
+      "jp": "女性攻",
+      "en": "Female Top",
+      "table": "db_UnitCharaPartnerAccessCombinePlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1237,
+      "id": "rem_35058",
+      "jp": "パイズリ",
+      "en": "Paizuri",
+      "table": "db_UnitCharaPartnerAccessCombinePlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1238,
+      "id": "rem_35064",
+      "jp": "男性攻",
+      "en": "Male Top",
+      "table": "db_UnitCharaPartnerAccessCombinePlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1239,
+      "id": "rem_38202",
+      "jp": "魔術の神と呼ばれる存在のことは『<ruby=ソルシア>学院</ruby>』では知らない者はいない。魔術理論の開祖にして、人類に魔術そのものを伝えた者のこと。でも神というのは崇められる敬称であって、本当にそういう存在とは思ってもみなかった。目の前の彼からは、そんな魔力を全然感じないけど",
+      "en": "There's no one at '<ruby=ソルシア>Academy</ruby>' who doesn't know the one called the god of magecraft. Founder of mage theory, the one who brought magecraft itself to humanity. But 'god' is an honorific of worship, I never thought they were actually that. I don't feel that kind of magic from the person in front of me at all though",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1240,
+      "id": "rem_38211",
+      "jp": "私のことでございますね。海に住まう魔族を統べて加護を与える竜姫、それが私の別側面でございます。私の『<ruby=化身>アバター</ruby>』は世界に多くおり、それぞれ水魔や海魔の守護竜として召喚されるのですわ。ふふ、財宝を狙う賊に天誅を与えるのは、とても快感なのですわД",
+      "en": "That's about me. The dragon princess who rules the sea's demonfolk and grants them protection, that's another side of me. I have many '<ruby=化身>Avatar</ruby>' in the world, each summoned as a guardian dragon of water or sea demons. Fufu, delivering heaven's punishment to treasure thieves is a real pleasureД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1241,
+      "id": "rem_41765",
+      "jp": "へへ、これが……Д　ウルフィナの<ruby=なか>膣内</ruby>に入るのか……Д",
+      "en": "Hehe, so this is...Д what it's like going inside Wolfina's <ruby=なか>pussy</ruby>...Д",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1242,
+      "id": "rem_42075",
+      "jp": "んんっД　ふふ、気持ちいいだろう？　アタシのおっぱい、好きになっちまったかい？",
+      "en": "MmmっД Fufu, feels good, right? You've fallen for my tits, haven't you?",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1243,
+      "id": "rem_42680",
+      "jp": "こうしてやるっД",
+      "en": "I'll do you like thisっД",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1244,
+      "id": "rem_42681",
+      "jp": "は、んっ……",
+      "en": "Hah, nghっ...",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1245,
+      "id": "rem_42682",
+      "jp": "ふ、んんっ……",
+      "en": "Hn, mmmっ...",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1246,
+      "id": "rem_43181",
+      "jp": "今回は見逃してやるである",
+      "en": "I will let it slide this timeである.",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1247,
+      "id": "rem_43188",
+      "jp": "まあいい……呆れただけであるからな？",
+      "en": "Well, fine... It's just that I'm exasperatedであるからな？",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1248,
+      "id": "rem_43195",
+      "jp": "は？　誠意が感じられないであるが……文化の違い、か？",
+      "en": "Hah? I don't feel any sincerityであるが... Cultural difference, perhaps?",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1249,
+      "id": "rem_43445",
+      "jp": "こ、こっちは、どうだ……Д　ここで、精液、作っているんだろうД",
+      "en": "H-how about, over here...Д　You're making semen here, right...Д",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1250,
+      "id": "rem_43452",
+      "jp": "あっ、ふ、震えて……Д　な、何だ、男は、その、気合、とかで、精液、作れたり、するのだろうか……Д",
+      "en": "Ah, i-it's trembling...Д　W-what is it, can men... like... use willpower or something to make semen...?Д",
+      "table": "db_MessagePartnerAccessInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    }
+  ]
+}

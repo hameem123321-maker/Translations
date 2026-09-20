@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10401,
+  "range_end": 10425,
+  "pairs": [
+    {
+      "n": 10401,
+      "id": "rem_38123",
+      "jp": "攻撃+20% + 攻撃の範囲拡大率+50%",
+      "en": "Attack +20% + Attack Range +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10402,
+      "id": "rem_38124",
+      "jp": "トラップ解除率+50%",
+      "en": "Trap Disarm Rate +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10403,
+      "id": "rem_38125",
+      "jp": "トラップ解除率+50% + 攻撃+40%",
+      "en": "Trap Disarm Rate +50% + Attack +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10404,
+      "id": "rem_38126",
+      "jp": "トラップ発見率+5%",
+      "en": "Trap Discovery Rate +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10405,
+      "id": "rem_38127",
+      "jp": "攻撃+100% + デスクリティカル率+20%",
+      "en": "Attack +100% + Critical Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10406,
+      "id": "rem_38128",
+      "jp": "ハヅキの乱入率+10%",
+      "en": "Hazuki Encounter Rate +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10407,
+      "id": "rem_38129",
+      "jp": "すべてのトラップ解除率+5%",
+      "en": "All Trap Disarm Rate +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10408,
+      "id": "rem_38130",
+      "jp": "全ての生産CP+4%",
+      "en": "All Production CP +4%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10409,
+      "id": "rem_38131",
+      "jp": "全ての生産CP+6%",
+      "en": "All Production CP +6%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10410,
+      "id": "rem_38132",
+      "jp": "全ての生産CP+8%",
+      "en": "All Production CP +8%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10411,
+      "id": "rem_38133",
+      "jp": "全ての生産CP+10%",
+      "en": "All Production CP +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10412,
+      "id": "rem_38134",
+      "jp": "施設改良の必要資金-5%",
+      "en": "Facility Upgrade Cost -5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10413,
+      "id": "rem_38135",
+      "jp": "速度+2",
+      "en": "Speed +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10414,
+      "id": "rem_38136",
+      "jp": "命中精度+1%",
+      "en": "Accuracy +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10415,
+      "id": "rem_38137",
+      "jp": "回避率+1%",
+      "en": "Evasion +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10416,
+      "id": "rem_38138",
+      "jp": "物理ダメージ+2%",
+      "en": "Physical Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10417,
+      "id": "rem_38139",
+      "jp": "スキルダメージ+2%",
+      "en": "Skill Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10418,
+      "id": "rem_38140",
+      "jp": "チェイススキルのダメージ+2%",
+      "en": "Chase Skill Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10419,
+      "id": "rem_38141",
+      "jp": "火属性ダメージ+2%",
+      "en": "Fire Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10420,
+      "id": "rem_38142",
+      "jp": "氷属性ダメージ+2%",
+      "en": "Ice Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10421,
+      "id": "rem_38143",
+      "jp": "風属性ダメージ+2%",
+      "en": "Wind Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10422,
+      "id": "rem_38144",
+      "jp": "雷属性ダメージ+2%",
+      "en": "Thunder Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10423,
+      "id": "rem_38145",
+      "jp": "聖属性ダメージ+2%",
+      "en": "Holy Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10424,
+      "id": "rem_38146",
+      "jp": "闇属性ダメージ+2%",
+      "en": "Dark Damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10425,
+      "id": "rem_38147",
+      "jp": "物理耐性貫通+2%",
+      "en": "Phys. Resist Pen. +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

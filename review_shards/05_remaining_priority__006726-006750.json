@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6726,
+  "range_end": 6750,
+  "pairs": [
+    {
+      "n": 6726,
+      "id": "rem_34345",
+      "jp": "かつて『神の子』と呼ばれた、比類無き『大勇者』の魂を呼び起こす。記憶はなくても、身体と魂は憶えている。",
+      "en": "Awakens the soul of the unparalleled 『Great Hero』, once called the 『Son of God』. Even without memories, the body and soul remember.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6727,
+      "id": "rem_34346",
+      "jp": "【自分】に【覚醒】を付与 (物理ダメージ[+50%] + クリティカルダメージ[+100%])",
+      "en": "Grants 【Awakening】 to【self】 (Physical damage[+50%] + Critical damage[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6728,
+      "id": "rem_34347",
+      "jp": "【<src>】に託された力が呼び起こされる！",
+      "en": "The power entrusted to【<src>】is awakened!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6729,
+      "id": "rem_34348",
+      "jp": "尊き魂に託されたことによって思い出された、過去の自分の技の一つ。不可視の引力により、受け手は回避することができず命中してしまう。捨て去ったはずの秘剣。",
+      "en": "A technique from the past, remembered because it was entrusted to a noble soul. An invisible gravitational force prevents evasion. A secret blade that should have been discarded.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6730,
+      "id": "rem_34349",
+      "jp": "範囲(小)攻撃 威力[D] +  [必中] + 必殺率[+100%] + 【聖属性】 + 【死神技】",
+      "en": "Small AoE attack Power[D] + [Always Hits] + Critical Rate[+100%] + 【Holy】 + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6731,
+      "id": "rem_34350",
+      "jp": "【<src>】の[死神斬り]！",
+      "en": "【<src>】's [Shinigami Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6732,
+      "id": "rem_34351",
+      "jp": "物理攻撃に魔術攻撃の威力を載せて攻撃する。物理攻撃も魔術攻撃も出来るキャラの中途半端さを軽減するスキル。",
+      "en": "Attacks by adding magical power to physical attacks. A skill that mitigates the weakness of characters who are neither purely physical nor magical attackers.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6733,
+      "id": "rem_34352",
+      "jp": "【自分】に【魔力付与】を付与 (ダメージを攻撃+魔攻で計算)",
+      "en": "Grants 【Magic Enchantment】 to【self】 (Damage calculated with Attack + Magic Attack)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6734,
+      "id": "rem_34353",
+      "jp": "【<src>】の[エンチャントウェポン]！",
+      "en": "【<src>】's [Enchant Weapon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6735,
+      "id": "rem_34354",
+      "jp": "『死神』の権能を大人げなく振るう究極のスキル。権能の対価としてゴールドが消える。ボス相手だと消耗もアップし、台詞も変化する。大丈夫、また稼げば良いから…。",
+      "en": "The ultimate skill of recklessly wielding the Shinigami's authority. Gold disappears as the price for this power. Costs increase and dialogue changes against bosses. Don't worry, you can earn more gold...",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6736,
+      "id": "rem_34355",
+      "jp": "MP消費なし + 【フィールド】に【神の祝福】を付与 (プレイヤー側の能力が極大上昇 + さまざまなボーナス)",
+      "en": "No MP cost + Grants 【God's Blessing】 to the【field】 (Massively boosts player abilities + Various bonuses)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6737,
+      "id": "rem_34356",
+      "jp": "【<src>】は『死神』の権能を限定的に解放した！",
+      "en": "【<src>】has partially released the Shinigami's authority!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6738,
+      "id": "rem_34357",
+      "jp": "死神の秘宝、命を刈り取る形をした剣の封印をごく一部のみ解除し、切り裂く。物理的なものでは防ぐことができない。死神技は物魔両方のパラメータを参照し、弱点を一定率で突く。",
+      "en": "A slight seal is released from the Shinigami's treasure, the scythe-shaped sword that reaps lives, and it strikes. Cannot be blocked physically. Shinigami skills scale with both physical and magical stats and have a chance to exploit weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6739,
+      "id": "rem_34358",
+      "jp": "範囲(大)攻撃 威力[A+] +  命中[60%] + 【闇属性】 + 防御貫通(中) + 【死神技】",
+      "en": "Large AoE attack Power[A+] + Accuracy[60%] + 【Dark】 + Medium Armor Penetration + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6740,
+      "id": "rem_34359",
+      "jp": "【<src>】の[冥界送りの鎌]！",
+      "en": "【<src>】's [Scythe of Underworld Dispatch]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6741,
+      "id": "rem_34360",
+      "jp": "死神の秘宝、命を刈り取る形をした剣の封印を限定的に解除し、権能の力と共に敵を切り裂く秘奥義。あらゆる存在は抵抗できない、神の一撃である。",
+      "en": "A secret ultimate art that partially unlocks the seal of the Shinigami's treasure, a scythe-shaped sword that harvests life, and cleaves enemies with the power of divine authority. An unstoppable divine strike against all beings.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6742,
+      "id": "rem_34361",
+      "jp": "全体攻撃 威力[S] +  命中[70%] + 必殺率[+100%] + 【闇属性】 + 【死神技】",
+      "en": "Area attack Power[S] + Hit[70%] + Crit[+100%] + 【Dark】 + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6743,
+      "id": "rem_34362",
+      "jp": "【<src>】の[グリムリーパー]！",
+      "en": "【<src>】's [Grim Reaper]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6744,
+      "id": "rem_34363",
+      "jp": "『淫魔』もしくは魔術師の秘密のスキル。キスすることで主人公の濃厚なレベルを吸い取り、ＭＰに変換する、緊急回復方法である。相手は選ぶ。【(コマンドセット不可)】",
+      "en": "A secret skill of 『Succubi』 or magicians. Kisses Ren to drain his dense level and convert it to MP—an emergency recovery method. Target is selectable. 【(Cannot set to command)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6745,
+      "id": "rem_34364",
+      "jp": "MP回復(中) + MP消費なし + 使用時に主人公レベルダウン + たまに恍惚状態に + 【自分】に【興奮】を付与 (すべてのダメージ[+30%] + 物理ダメージ軽減率[-30%])",
+      "en": "MP recover (medium) + No MP cost + Decreases Ren's level + May cause ecstasy + Grants 【Excitement】 to 【self】 (All damage[+30%] + Phys. dmg reduction[-30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6746,
+      "id": "rem_34365",
+      "jp": "【<src>】が突然にキスしてきた！",
+      "en": "【<src>】 suddenly kisses!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6747,
+      "id": "rem_34366",
+      "jp": "相手の急所を知り尽くした娼婦の、人体理解力を戦闘技術に応用し、人型へのダメージをアップさせる。人間を相手にする機会は少ない……？",
+      "en": "A courtesan's thorough knowledge of vital points, applied to combat to boost damage against humanoids. Rare chance to fight humans...?",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6748,
+      "id": "rem_34367",
+      "jp": "人間タイプへのダメージ[+20%]",
+      "en": "Damage vs Human type[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6749,
+      "id": "rem_34368",
+      "jp": "広範囲の敵に目くらましの爆弾を投げる。受けた相手は、そのターンの間、命中・回避力が大幅に減退する。",
+      "en": "Throws a flash bomb over a wide area. Affected enemies suffer greatly reduced accuracy and evasion for that turn.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6750,
+      "id": "rem_34369",
+      "jp": "範囲(大)攻撃 威力[C+] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [盲目]を付与 (命中精度-50%)",
+      "en": "Large area attack Power[C+] + Hit[70%] + 【Thunder】 + Minor defense pierce + Inflicts [Blind] (Accuracy -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

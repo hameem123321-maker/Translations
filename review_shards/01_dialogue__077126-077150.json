@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 77126,
+  "range_end": 77150,
+  "pairs": [
+    {
+      "n": 77126,
+      "id": "db_EventInfo:91288:1",
+      "jp": "森が広がってるのは知っていたが、思ったより深いところだな",
+      "en": "I knew the forest was big, but this is deeper in than I thought.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77127,
+      "id": "db_EventInfo:91289:2",
+      "jp": "こっちは森林道として整備したわけでもないデスしね",
+      "en": "This path isn't cleared as a forest trail, I say!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77128,
+      "id": "db_EventInfo:91290:0",
+      "jp": "フレスミスの森は思ったより深いようだ。",
+      "en": "The Fresmis Forest seems deeper than I thought.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77129,
+      "id": "db_EventInfo:91291:0",
+      "jp": "慎重にエリオルダを探そう。",
+      "en": "I need to search for Eliorda carefully.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77130,
+      "id": "db_EventInfo:91292:2",
+      "jp": "エリオルダ、見つからないデスね",
+      "en": "We can't find Eliorda, I say!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77131,
+      "id": "db_EventInfo:91293:1",
+      "jp": "そうだな……よく考えたら、この広大な森で小さなキャンプを見つけるのは難しいんじゃ",
+      "en": "Yeah... Thinking about it, finding a small camp in this huge forest is probably tough.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77132,
+      "id": "db_EventInfo:91294:0",
+      "jp": "森そのものが広大なうえ、エリオルダ達は魔獣に襲われないよう、隠れている可能性もある。",
+      "en": "The forest itself is huge. Eliorda and the others might be hiding so they don't get attacked by monsters.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77133,
+      "id": "db_EventInfo:91295:1",
+      "jp": "森について詳しい人間の助けが必要なんじゃないか？",
+      "en": "Don't we need help from someone who knows the forest well?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77134,
+      "id": "db_EventInfo:91296:2",
+      "jp": "そんなの分かりきってるデス！",
+      "en": "That's obvious, I say!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77135,
+      "id": "db_EventInfo:91297:1",
+      "jp": "じゃあ先に言ってくれよ",
+      "en": "Well, you should have said that first.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77136,
+      "id": "db_EventInfo:91298:2",
+      "jp": "ぐぬぬ、反論できんデス",
+      "en": "Grrr, I can't argue with that, I say.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77137,
+      "id": "db_EventInfo:91299:2",
+      "jp": "仕方ないデスね。森に詳しいヤツに聞いてみるデス",
+      "en": "Fine, I say. Let's go ask someone who knows the forest.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77138,
+      "id": "db_EventInfo:91300:1",
+      "jp": "と言っても、その一番詳しそうなのがエリオルダなんだよな。その次に詳しそうなのは……",
+      "en": "Even though the person who probably knows it best is Eliorda. The next best seems like...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77139,
+      "id": "db_EventInfo:91301:0",
+      "jp": "そういえば、【フレスミス森林道の開発を任せている人間】がいたのを思い出した。",
+      "en": "Oh, I just remembered. There was someone I put in charge of developing the Fresmis Forest Road.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77140,
+      "id": "db_EventInfo:91302:1",
+      "jp": "ちょっと聞いてみようか",
+      "en": "Should I ask them about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77141,
+      "id": "db_EventInfo:91303:142",
+      "jp": "はい？　キャンプ、ですか……？",
+      "en": "Yes? A camp, you say...?",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 77142,
+      "id": "db_EventInfo:91304:1",
+      "jp": "ああ、あそこの交易開発はケイン達の発案だし、何か知らないか？",
+      "en": "Yeah. You and your team proposed that trade development area, right? Do you know anything?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77143,
+      "id": "db_EventInfo:91305:0",
+      "jp": "俺は交易開発を任せているケインを呼びだし、キャンプのことを聞いていた。",
+      "en": "I called out Kane, who I put in charge of the trade development, and asked him about the camp.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77144,
+      "id": "db_EventInfo:91306:142",
+      "jp": "ええと、特にそんな話は聞いてませんが……",
+      "en": "Well, I haven't heard anything like that...",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 77145,
+      "id": "db_EventInfo:91307:142",
+      "jp": "あ、いや、そういえば、やたら綺麗な人に、土地の使用許可を求められた事があったような",
+      "en": "Ah, wait. Now that you mention it, I think someone, a very pretty person, once asked me for permission to use a piece of land.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 77146,
+      "id": "db_EventInfo:91308:142",
+      "jp": "森のかなり奥の方だったんで、うちら交易に使わない場所なんですけど……森の奥は危険ですよ？",
+      "en": "It was deep in the woods, a place we don't use for trade... but that deep area is dangerous, you know?",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 77147,
+      "id": "db_EventInfo:91309:1",
+      "jp": "なるほど、あえて危険な場所でキャンプしてるってことか……",
+      "en": "I see. So they're camping there on purpose, despite the danger...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77148,
+      "id": "db_EventInfo:91310:1",
+      "jp": "それで、許可を出した土地はどの辺かわかるか？",
+      "en": "Do you know roughly where that land you gave permission for is?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77149,
+      "id": "db_EventInfo:91311:142",
+      "jp": "少々お待ちください。森の区画図を出しますので……",
+      "en": "Just a moment, please. I'll get the forest section map...",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 77150,
+      "id": "db_EventInfo:91312:0",
+      "jp": "どうやら、エルフィードのキャンプは思ったよりも奥地にあるようだ。",
+      "en": "Looks like Elfeed's camp is deeper in the woods than I thought.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

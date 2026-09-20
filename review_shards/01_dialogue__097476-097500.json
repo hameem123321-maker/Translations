@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97476,
+  "range_end": 97500,
+  "pairs": [
+    {
+      "n": 97476,
+      "id": "db_EventInfo:115128:1",
+      "jp": "【『フレスミス森林道』】みたいに、俺達単独で鉱山を解放することはダメなのか？",
+      "en": "Can't we just take back the mine ourselves, like with the 'Freshmiss Forest Road'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97477,
+      "id": "db_EventInfo:115129:2",
+      "jp": "【『死神』】の力は制限されているデス。オマエ一人の人だけでは【『ドルワミール鉱山』】は救えないデス",
+      "en": "The power of the 'Shinigami' has limits. You alone can't save the 'Dolwamir Mine'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97478,
+      "id": "db_EventInfo:115130:2",
+      "jp": "相手は【ドワームから奪った強力な装備】で身を固めてるデス。ベテランの冒険者でも相手するのは危険デス",
+      "en": "The enemy is armed with 'powerful gear taken from Dwarm'. It's dangerous even for veteran adventurers to face them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97479,
+      "id": "db_EventInfo:115131:2",
+      "jp": "もう一つは、そんな【『ゴブリン』】どもからドワームを助けたら……【オマエ自身】に名声が集まりすぎるデス",
+      "en": "The other reason is, if you save Dwarm from those Goblins, you yourself will get too famous.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97480,
+      "id": "db_EventInfo:115132:2",
+      "jp": "私たち【『死神』】が表だって活動して、人間界に過度な干渉をするのは御法度デス",
+      "en": "We Shinigami are not allowed to act openly and interfere too much in the human world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97481,
+      "id": "db_EventInfo:115133:2",
+      "jp": "……もし、【過度の干渉を行なった】と見なされれば、【『死神』】として制裁しなければならないデスよ？",
+      "en": "If they see it as excessive interference, I'll have to punish you as a Shinigami, okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97482,
+      "id": "db_EventInfo:115134:1",
+      "jp": "ひええ……",
+      "en": "Eeek...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97483,
+      "id": "db_EventInfo:115135:2",
+      "jp": "とにかくカネを集めるデス。【高い商品】を開発して、一気に売りさばくデスよ！",
+      "en": "Anyway, we need to get money. Develop some high-priced goods and sell them all at once!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97484,
+      "id": "db_EventInfo:115136:2",
+      "jp": "★ゲームオーバー・焼死したデス",
+      "en": "★ Game Over - You burned to death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97485,
+      "id": "db_EventInfo:115137:17",
+      "jp": "店長さん、【『ゴブリン』】掃討の準備が終わりました",
+      "en": "Boss, we're ready to sweep out the Goblins.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97486,
+      "id": "db_EventInfo:115138:1",
+      "jp": "おお",
+      "en": "Oh!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97487,
+      "id": "db_EventInfo:115139:17",
+      "jp": "すでに【『冒険者ギルド』】や【『ゼカリウス自警団』】に働きかけ、集落の包囲も完了しております",
+      "en": "We've already contacted the Adventurer's Guild and the Zecarius Vigilante Corps. The encirclement of the settlement is complete.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97488,
+      "id": "db_EventInfo:115140:17",
+      "jp": "及ばずながら、私もドワーム族の皆さんを救うために行動させていただきました",
+      "en": "I, too, did what I could to help rescue the Dwarm people.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97489,
+      "id": "db_EventInfo:115141:2",
+      "jp": "それは助かるデス",
+      "en": "That helps a lot.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97490,
+      "id": "db_EventInfo:115142:17",
+      "jp": "しかし情報にあったとおり、鉱山内の【『ゴブリン』】は【強力な武具】を身につけ、手強いとのことです",
+      "en": "But as the intel said, the Goblins in the mine are armed with powerful gear. They'll be tough.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97491,
+      "id": "db_EventInfo:115143:1",
+      "jp": "まともに戦っては危険だな",
+      "en": "A straight fight is too dangerous.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97492,
+      "id": "db_EventInfo:115144:17",
+      "jp": "ええ。そこで【『ゼカリウス自警団』】たちには【『ゴブリン』】どもの足止め、陽動を担当してもらいます",
+      "en": "Right. So, the 'Zecarius Vigilantes' will handle the 'Goblins'—keep them busy and distracted.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97493,
+      "id": "db_EventInfo:115145:17",
+      "jp": "そして少数精鋭でドワームたちを救出しましょう",
+      "en": "Then a small, elite team will go rescue Dwarm and the others.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97494,
+      "id": "db_EventInfo:115146:1",
+      "jp": "なるほど……その、少数精鋭というのは",
+      "en": "I see... And who's this 'elite team'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97495,
+      "id": "db_EventInfo:115147:2",
+      "jp": "当然、オマエのことデスね",
+      "en": "Obviously, you mean you, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97496,
+      "id": "db_EventInfo:115148:17",
+      "jp": "【『ゴブリン』】がいるなら、私も同行しましょう",
+      "en": "If there are 'Goblins', I should go with you.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 97497,
+      "id": "db_EventInfo:115149:13",
+      "jp": "行くならば、わしも行きますぞい",
+      "en": "If you're going, I'm going too.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97498,
+      "id": "db_EventInfo:115150:1",
+      "jp": "ドルガノン！　傷はもう大丈夫なのか？",
+      "en": "Dorganon! Is your wound really okay now?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97499,
+      "id": "db_EventInfo:115151:13",
+      "jp": "マリーゼルちゃんのおかげで、全快ですわい",
+      "en": "Thanks to Marisel, I'm completely healed.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97500,
+      "id": "db_EventInfo:115152:1",
+      "jp": "よろしく頼む",
+      "en": "Alright. I'm counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

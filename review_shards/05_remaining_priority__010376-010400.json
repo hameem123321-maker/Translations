@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10376,
+  "range_end": 10400,
+  "pairs": [
+    {
+      "n": 10376,
+      "id": "rem_38098",
+      "jp": "魔術師の出現率+20%",
+      "en": "Mage Spawn Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10377,
+      "id": "rem_38099",
+      "jp": "武闘家・ダンサーの出現率+20%",
+      "en": "Martial Artist/Dancer Spawn Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10378,
+      "id": "rem_38100",
+      "jp": "剣士・レンジャーの出現率+20%",
+      "en": "Swordsman/Ranger Spawn Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10379,
+      "id": "rem_38101",
+      "jp": "治療師・医者の出現率+20%",
+      "en": "Healer/Doctor Spawn Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10380,
+      "id": "rem_38102",
+      "jp": "神官の出現率+20%",
+      "en": "Priest Spawn Rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10381,
+      "id": "rem_38103",
+      "jp": "農民の出現率+20%",
+      "en": "Farmer Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10382,
+      "id": "rem_38104",
+      "jp": "呪術師の出現率+20%",
+      "en": "Occultist Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10383,
+      "id": "rem_38105",
+      "jp": "木こり・狩人の出現率+20%",
+      "en": "Lumberjack/Hunter Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10384,
+      "id": "rem_38106",
+      "jp": "吟遊詩人・芸術家の出現率+20%",
+      "en": "Bard/Artist Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10385,
+      "id": "rem_38107",
+      "jp": "船乗りの出現率+20%",
+      "en": "Sailor Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10386,
+      "id": "rem_38108",
+      "jp": "作業員・職人の出現率+20%",
+      "en": "Worker/Craftsman Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10387,
+      "id": "rem_38109",
+      "jp": "学生・学者の出現率+20%",
+      "en": "Student/Scholar Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10388,
+      "id": "rem_38110",
+      "jp": "執事・秘書・メイドの出現率+20%",
+      "en": "Butler/Secretary/Maid Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10389,
+      "id": "rem_38111",
+      "jp": "商人の出現率+20%",
+      "en": "Merchant Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10390,
+      "id": "rem_38112",
+      "jp": "娼婦・遊び人の出現率+20%",
+      "en": "Courtesan/Reveler Appearance +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10391,
+      "id": "rem_38113",
+      "jp": "エッチな獲得経験値+50%",
+      "en": "H-EXP Gain +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10392,
+      "id": "rem_38114",
+      "jp": "好感度の上昇率+30%",
+      "en": "Affection Growth +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10393,
+      "id": "rem_38115",
+      "jp": "エッチな獲得経験値+15%",
+      "en": "H-EXP Gain +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10394,
+      "id": "rem_38116",
+      "jp": "開発ポイント獲得量+10%",
+      "en": "Development Points +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10395,
+      "id": "rem_38117",
+      "jp": "男性へのダメージ+30%",
+      "en": "Damage to Men +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10396,
+      "id": "rem_38118",
+      "jp": "女性へのダメージ+100% + 女性からのチェイス発生率+20%",
+      "en": "Damage to Women +100% + Chase from Women +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10397,
+      "id": "rem_38119",
+      "jp": "女性へのダメージ+200% + 女性からのチェイス発生率+20%",
+      "en": "Damage to Women +200% + Chase from Women +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10398,
+      "id": "rem_38120",
+      "jp": "エッチ好き+2",
+      "en": "H-Lover +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10399,
+      "id": "rem_38121",
+      "jp": "攻撃+10% + 攻撃の範囲拡大率+10%",
+      "en": "Attack +10% + Attack Range +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10400,
+      "id": "rem_38122",
+      "jp": "エッチ好き+1",
+      "en": "H-Lover +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

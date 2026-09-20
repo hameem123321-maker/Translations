@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7226,
+  "range_end": 7250,
+  "pairs": [
+    {
+      "n": 7226,
+      "id": "rem_34845",
+      "jp": "ゼカリウスの近海。比較的穏やかな海であり、海底火山から流れる栄養分によって、豊富な海資源を育てており、漁業も盛んである。さらには交易の要所であり、多くの貿易船も行き交っている。",
+      "en": "The sea near Zecarius. Relatively calm waters, nurturing abundant marine resources from nutrients flowing from underwater volcanoes, making fishing prosperous. Also a key trade hub with many merchant ships coming and going.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7227,
+      "id": "rem_34846",
+      "jp": "アーマニア海",
+      "en": "Armarnian Sea",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7228,
+      "id": "rem_34847",
+      "jp": "古来より多くの巡礼者が訪れた霊験あらたかな山脈。稀少な動植物の宝庫であり、多数の遺跡が手つかずに眠る。しかし厳しい地形は踏破することが困難かつ危険な魔獣の巣窟であり、人を寄せ付けない。",
+      "en": "A sacred mountain range visited by many pilgrims since ancient times. A treasury of rare flora and fauna, with numerous untouched ruins. However, the harsh terrain is difficult to traverse and a den of dangerous magical beasts, keeping people away.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7229,
+      "id": "rem_34848",
+      "jp": "霊峰ヤークァリム",
+      "en": "Sacred Mount Yakualim",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7230,
+      "id": "rem_34849",
+      "jp": "深く昏い森。森林道は整備されているが、ひとたび日が暮れれば無数の魔獣が跋扈する危険地帯と化す。魔力を帯びた森は貴重で価値のある資源の宝庫である。冒険者の挑戦が止まることはないが……。",
+      "en": "A deep, dark forest. Forest roads are maintained, but once night falls, it becomes a dangerous zone teeming with countless magical beasts. The magically imbued forest is a treasury of precious resources. Adventurers' challenges never cease, but...",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7231,
+      "id": "rem_34850",
+      "jp": "ダムブナック森林地方",
+      "en": "Dambunack Forest Region",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7232,
+      "id": "rem_34851",
+      "jp": "ゼカリウスより北東に広がる広大な砂漠地帯。神の怒りに触れた古代の王朝のなれの果てとも言われており、多くの遺跡が砂の下に埋もれている。同時に多くの金鉱が点在していると言われるが……。",
+      "en": "A vast desert region spreading northeast of Zecarius. Said to be the remnants of an ancient dynasty that incurred divine wrath, with many ruins buried beneath the sand. Simultaneously said to be dotted with many gold mines, but...",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7233,
+      "id": "rem_34852",
+      "jp": "サルバック砂漠",
+      "en": "Salvack Desert",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7234,
+      "id": "rem_34853",
+      "jp": "冬期は雪と氷に包まれる酷寒の地。温暖な地を求め、戦争状態になることも少なくなかった。厳しい気候に育てられた危険な魔獣と渡り合うため、非常に高い軍事力を持っている。近年は比較的平穏だが……。",
+      "en": "A frigid land blanketed in snow and ice during winter. Seeking warmer lands, conflicts were not uncommon. Possesses formidable military strength to contend with dangerous magical beasts nurtured by the harsh climate. Relatively peaceful in recent years, but...",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7235,
+      "id": "rem_34854",
+      "jp": "北方都市ノーザリア",
+      "en": "Northern City of Notheria",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7236,
+      "id": "rem_34855",
+      "jp": "南方に位置する熱帯地方。酷く好戦的な者が多く、気性が激しい者が多い。同時に豪商と呼ばれる商人を多く抱える大都市でもある。ゼカリウスとも交易は盛んであるが、手練れの商人達の格好の的。",
+      "en": "A tropical region in the south. Home to many fiercely combative and hot-tempered individuals. Also a major metropolis with many merchants called tycoons. Trade with Zecarius is active, but they are prime targets for shrewd merchants.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7237,
+      "id": "rem_34856",
+      "jp": "灼熱の都サージ",
+      "en": "Scorching City of Sarge",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7238,
+      "id": "rem_34857",
+      "jp": "北方の大国ノーザリアからの侵攻を防ぐための要塞。温暖な土地を求める彼らの侵攻を、幾度となく食い止めている。今も交易は続いているが、彼らの特産品は少なく不均衡で、争いの火種は絶えない。",
+      "en": "A fortress built to defend against invasions from the northern power, Notheria. Has repeatedly repelled their invasions in pursuit of warmer lands. Trade continues, but their specialties are few, creating imbalance, and the seeds of conflict are endless.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 7239,
+      "id": "rem_34858",
+      "jp": "北方防衛要塞フリズ",
+      "en": "Northern Defense Fortress Friz",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7240,
+      "id": "rem_34859",
+      "jp": "灼熱の都サージとの交易の要。血の気が多く、小競り合いが絶えないサージに対抗するため、大きな軍備が置かれている。多様な資源を取引しているが、たまに禁制品までも流入する。",
+      "en": "A key hub for trade with the Scorching City of Sarge. Significant military forces are stationed here to counter the aggressive, conflict-prone Sarge. Trades diverse resources, but occasionally even contraband flows in.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7241,
+      "id": "rem_34860",
+      "jp": "サージ貿易管理局",
+      "en": "Surge Trade Management Office",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7242,
+      "id": "rem_34861",
+      "jp": "ゼカリウスを支配する地方領主ゼルカの屋敷。市民から多額の税金を徴収することで、自らの居城を豪華絢爛に飾り立てている。中には忌まわしき実験場があるというウワサもある。",
+      "en": "The manor of Zelka, the local lord who rules Zecarius. He lavishly decorates his own castle by imposing heavy taxes on the citizens. Rumors say there is a dreadful laboratory inside.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7243,
+      "id": "rem_34862",
+      "jp": "地方領主ゼルカの屋敷",
+      "en": "Lord Zelka's Manor",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7244,
+      "id": "rem_34863",
+      "jp": "簡単な素材収集",
+      "en": "Simple Material Gathering",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7245,
+      "id": "rem_34864",
+      "jp": "古墳内のザコ散らし",
+      "en": "Clear Out Tomb Fodder",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7246,
+      "id": "rem_34865",
+      "jp": "坑道内の復興指揮",
+      "en": "Tunnel Reconstruction Command",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7247,
+      "id": "rem_34866",
+      "jp": "鉱山のならずもの討伐",
+      "en": "Mine Ruffian Subjugation",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7248,
+      "id": "rem_34867",
+      "jp": "館の見取り図作成",
+      "en": "Manor Map Creation",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7249,
+      "id": "rem_34868",
+      "jp": "呪われた屋敷の浄化作戦",
+      "en": "Cursed Manor Purification",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7250,
+      "id": "rem_34869",
+      "jp": "魔術トラップの解除できる方",
+      "en": "Magic Trap Disarmament",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

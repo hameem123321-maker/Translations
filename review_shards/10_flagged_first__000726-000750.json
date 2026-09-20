@@ -1,0 +1,293 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 726,
+  "range_end": 750,
+  "pairs": [
+    {
+      "n": 726,
+      "id": "db_EventInfo:96343:26",
+      "jp": "【<pl>】様、借金の返済、お疲れ様でした",
+      "en": "【<pl>】様, thank you for paying back the debt.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 727,
+      "id": "db_EventInfo:96348:26",
+      "jp": "まあシイネ様、素晴らしい心意気ですわ",
+      "en": "My, Shiine様, what a wonderful attitude.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 728,
+      "id": "db_EventInfo:98143:9",
+      "jp": "【『死神』】の力で先回りしてきても構わぬであるぞ",
+      "en": "Feel free to use the 【『死神』】's power to get ahead of us!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 729,
+      "id": "db_EventInfo:99093:2",
+      "jp": "こいつら同じヤツじゃないんデス？",
+      "en": "Aren't they the same personデス?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 730,
+      "id": "db_EventInfo:99100:2",
+      "jp": "その割には普通に苦戦した気がするデス",
+      "en": "You still seemed to struggle a bit thoughデス.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 731,
+      "id": "db_EventInfo:99101:72",
+      "jp": "だって、ここで出てきたら、【<pl>】ちゃんとエッチできるって聞いたからねぇ",
+      "en": "Well, I heard that if I show up here, I can have fun with 【<pl>】ちゃん.",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 732,
+      "id": "db_EventInfo:99456:2",
+      "jp": "やかましいデス。【『死神』】のくせに人間の命を吸うなデス！　吸うならカネにするデス",
+      "en": "Shut up,デス! For a 'Shinigami', don't suck people's lives out,デス! If you're gonna suck, get money for it,デス!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 733,
+      "id": "db_EventInfo:99457:57",
+      "jp": "何を言ってやがるデス。【『死神』】がカネを貰ってどうするデス？",
+      "en": "What are you talking about,デス? What's a 'Shinigami' gonna do with money,デス?",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 734,
+      "id": "db_EventInfo:99458:2",
+      "jp": "なんだとデス！？　カネの素晴らしさを理解しないデスか！？",
+      "en": "What did you say,デス!? You don't understand how wonderful money is,デス!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 735,
+      "id": "db_EventInfo:99460:57",
+      "jp": "まあいいデス。オマエ、私はおなかペコペコデス",
+      "en": "Whatever,デス. You, I'm starving,デス.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 736,
+      "id": "db_EventInfo:99461:57",
+      "jp": "これから、たらふく食わせろデス！",
+      "en": "From now on, feed me lots,デス!",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 737,
+      "id": "db_EventInfo:99463:57",
+      "jp": "そんなの、オマエの精液に決まってるデスД",
+      "en": "Of course, it's your cum,デス.Д",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 738,
+      "id": "db_EventInfo:99552:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★Episode・Training Ground Scene Common Start",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 739,
+      "id": "db_EventInfo:99553:0",
+      "jp": "★エッチシーン・修練場・フロティナ②・逆転イチャラブ駅弁",
+      "en": "★H-Scene・Training Ground・Flotina②・Role-Reversed Icha-Love Ekiben",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 740,
+      "id": "db_EventInfo:99554:0",
+      "jp": "★エピソード・修練場Lv13⑤・試練Lv9・フロティナ(HARD)②",
+      "en": "★Episode・Training Ground Lv13⑤・Trial Lv9・Flotina(HARD)②",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 741,
+      "id": "db_EventInfo:99894:0",
+      "jp": "★エッチシーン・デイジー・個別③・手マンでイキまくる②・過敏",
+      "en": "★H-Scene・Daisy・Individual③・Made to Cum with Fingering②・Oversensitive",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 742,
+      "id": "db_EventInfo:100454:2",
+      "jp": "いいことをした後は、気分がいいデスねД",
+      "en": "It feels good after doing a good deed desuねД",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 743,
+      "id": "db_EventInfo:102375:0",
+      "jp": "★エッチシーン・コッペリナ・H部屋①・ご奉仕フェラ",
+      "en": "★H-Scene・Koppelina・Room①・Service BJ",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 744,
+      "id": "db_EventInfo:102376:0",
+      "jp": "★エッチシーン・コッペリナ・H部屋②・イチャラブ正常位①",
+      "en": "★H-Scene・Koppelina・Room②・Affectionate Missionary①",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 745,
+      "id": "db_EventInfo:102377:0",
+      "jp": "★エッチシーン・コッペリナ・H部屋③・イチャラブ正常位②(全裸)",
+      "en": "★H-Scene・Koppelina・Room③・Affectionate Missionary② (Nude)",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 746,
+      "id": "db_EventInfo:102378:0",
+      "jp": "★エッチシーン・コッペリナ・H部屋④・イチャラブ後背位①",
+      "en": "★H-Scene・Koppelina・Room④・Affectionate Doggy Style①",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 747,
+      "id": "db_EventInfo:102379:0",
+      "jp": "★エッチシーン・コッペリナ・H部屋⑤・イチャラブ後背位②(全裸)",
+      "en": "★H-Scene・Koppelina・Room⑤・Affectionate Doggy Style② (Nude)",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 748,
+      "id": "db_EventInfo:102380:0",
+      "jp": "★エッチシーン・コッペリナ・見せ①・仕事中にエッチ①",
+      "en": "★H-Scene・Koppelina・Exhibition①・H while Working①",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 749,
+      "id": "db_EventInfo:102381:0",
+      "jp": "★エッチシーン・コッペリナ・見せ②・仕事中にエッチ②(全裸)",
+      "en": "★H-Scene・Koppelina・Exhibition②・H while Working② (Nude)",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 750,
+      "id": "db_EventInfo:102382:0",
+      "jp": "★エッチシーン・コッペリナ・見せ③・淫魔の饗宴",
+      "en": "★H-Scene・Koppelina・Exhibition③・Succubus Feast",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    }
+  ]
+}

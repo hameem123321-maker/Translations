@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7826,
+  "range_end": 7850,
+  "pairs": [
+    {
+      "n": 7826,
+      "id": "rem_35477",
+      "jp": "アバター人数",
+      "en": "Number of Avatars",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7827,
+      "id": "rem_35478",
+      "jp": "お気に入りボーナス",
+      "en": "Favorites Bonus",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7828,
+      "id": "rem_35479",
+      "jp": "好感度上昇率",
+      "en": "Affection Rate Increase",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7829,
+      "id": "rem_35480",
+      "jp": "エッチ適性",
+      "en": "Erotic Aptitude",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7830,
+      "id": "rem_35481",
+      "jp": "おカネが鳴り響く音を聞こえやすくして、シイネの機嫌を高める。そうすることで、死神パワーの回復量がアップすることを試みる。死神パワーは必ずしも強化に必要ではないが、あるととても便利。",
+      "en": "By amplifying the sound of jingling coins to improve Shiine's mood, we aim to increase the recovery amount of Shinigami Power. Shinigami Power isn't strictly necessary for upgrades, but it's very convenient to have.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7831,
+      "id": "rem_35482",
+      "jp": "おカネが鳴り響く職場作り",
+      "en": "A Workplace Where Coins Clink",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7832,
+      "id": "rem_35483",
+      "jp": "清掃部門の武装を整えることで汚れを粉砕し、店を清潔に保てるようにする。汚染度が高まると客が現れにくくなる。店は常に清潔さを保てるようにしたい。",
+      "en": "By equipping the cleaning crew to crush grime, we can keep the store clean. High pollution makes customers less likely to appear. We want to always maintain the store's cleanliness.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7833,
+      "id": "rem_35484",
+      "jp": "チリも残さない清潔な店",
+      "en": "A Spotless, Clean Store",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7834,
+      "id": "rem_35485",
+      "jp": "組織献金に関わる交渉スタイルを改善することによって、金額以上の投資効果を与え、結果として投資金額を低く抑えることができる。希代の商人による交渉は、資金なくして時代を動かすという。",
+      "en": "By improving negotiation tactics for corporate donations, we achieve investment effects greater than the amount, resulting in lower required investment. Master merchants are said to move the times without funds.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7835,
+      "id": "rem_35486",
+      "jp": "グローバルな組織を目指す",
+      "en": "",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 7836,
+      "id": "rem_35487",
+      "jp": "『料理』系の商品レシピを拡張し、開発可能な数を増やす。【商品バリエーションを増やすほど単価がアップする】ので、レシピは積極的に開発しよう。",
+      "en": "Expands 'Cuisine' type product recipes, increasing the number that can be developed. 【More variety increases unit price】, so actively develop recipes.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7837,
+      "id": "rem_35488",
+      "jp": "バリエーション豊かな料理",
+      "en": "Varied Cuisine",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7838,
+      "id": "rem_35489",
+      "jp": "防犯部門の武装を整えることで犯罪を抑止し、盗人が発生しにくくする。うっかり盗人を逃がしてしまうと、カネが戻ることはない。なにより発生させないことが重要である。",
+      "en": "By equipping the security crew to deter crime, thieves become less likely to appear. If a thief gets away, the money won't return. Prevention is most important.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7839,
+      "id": "rem_35490",
+      "jp": "安心を感じられる平和な店",
+      "en": "A Safe, Peaceful Store",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7840,
+      "id": "rem_35491",
+      "jp": "死神の力をパーティーメンバーに与え、永続的に戦闘力を高めることが出来る。本人には認識できないレベルで能力を高めることで、ダンジョンにおけるバトルが有利になり、よりエネルギッシュに。",
+      "en": "Grants Shinigami power to party members, permanently enhancing combat ability. Boosting abilities on an unconscious level makes dungeon battles more advantageous and energetic.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7841,
+      "id": "rem_35492",
+      "jp": "エキサイティングな労働環境",
+      "en": "Exciting Work Environment",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7842,
+      "id": "rem_35493",
+      "jp": "提携している組織に働きかけて、顧客を開拓する。また、色々細工したチラシやウワサを各地にばらまくことも試みる。店のことを聞きつけた客達は、この店に殺到することになるだろう。",
+      "en": "Leverage partner organizations to find new customers. Also, try spreading crafted flyers and rumors around. Customers who hear about the shop will flock to it.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7843,
+      "id": "rem_35494",
+      "jp": "誰もが知ってるお店",
+      "en": "A Shop Everyone Knows",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7844,
+      "id": "rem_35495",
+      "jp": "店の内装を整えたり引き留めたりして、客が滞在する時間が延長し、なかなか帰りにくくする。店員が対応できない場合は客は待ちきれずに帰ってしまう。そういった機会損失を減らし、確実に収益に繋ぐようにしよう。",
+      "en": "Improve the interior and keep customers lingering, making it hard for them to leave. If staff can't serve them, they'll leave. Reduce such missed opportunities and secure more revenue.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7845,
+      "id": "rem_35496",
+      "jp": "居座りたくなるお店",
+      "en": "A Shop You Want to Stay At",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7846,
+      "id": "rem_35497",
+      "jp": "商品開発にリソースを割き、開発力を高める。ダンジョンで獲得できる【開発ポイント】の獲得量が、通常より多く手に入れることが出来る。店長自らが探索する場合はもちろん、派遣した際の獲得量も増える。",
+      "en": "Allocate resources to product development to boost R&D power. Gain more 【Development Points】 from dungeons than usual, whether Ren explores personally or sends others.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7847,
+      "id": "rem_35498",
+      "jp": "商品開発にも力を入れる",
+      "en": "Focus on Product Development Too",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7848,
+      "id": "rem_35499",
+      "jp": "『鍛冶』系の商品レシピを拡張し、開発可能な数を増やす。【商品バリエーションを増やすほど単価がアップする】ので、レシピは積極的に開発しよう。",
+      "en": "Expand 'Blacksmith' product recipes to increase developable items. 【More variety raises unit prices】, so actively develop recipes.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7849,
+      "id": "rem_35500",
+      "jp": "バリエーション豊かな鍛冶",
+      "en": "Varied Blacksmithing",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7850,
+      "id": "rem_35501",
+      "jp": "『錬金』系の商品レシピを拡張し、開発可能な数を増やす。【商品バリエーションを増やすほど単価がアップする】ので、レシピは積極的に開発しよう。",
+      "en": "Expand 'Alchemy' product recipes to increase developable items. 【More variety raises unit prices】, so actively develop recipes.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table"
+    }
+  ]
+}

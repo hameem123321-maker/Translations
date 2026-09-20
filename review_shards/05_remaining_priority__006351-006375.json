@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6351,
+  "range_end": 6375,
+  "pairs": [
+    {
+      "n": 6351,
+      "id": "rem_33970",
+      "jp": "術による身代わりをパーティー全員分作るという大規模なサポートスキル。身代わりで相手の攻撃を上手くやり過ごしてしまう。敵の攻撃が上手く当たらなくなるが、過信はできない。",
+      "en": "A large-scale support skill that creates decoys via magic for the whole party. The decoys cleverly evade enemy attacks. Makes enemy attacks miss more often, but don't be overconfident.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6352,
+      "id": "rem_33971",
+      "jp": "【仲間】に【身代わり】を付与 (回避率[+30%])",
+      "en": "Grants 【allies】 【Decoy】 (Evasion Rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6353,
+      "id": "rem_33972",
+      "jp": "【<src>】は全員分の身代わりを作成した！",
+      "en": "【<src>】 created decoys for everyone!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6354,
+      "id": "rem_33973",
+      "jp": "術による身代わりを作ることで、相手の攻撃を上手くやり過ごしてしまう。敵の攻撃が上手く当たらなくなるが、過信はできない。",
+      "en": "Creates a magic decoy to cleverly evade enemy attacks. Makes enemy attacks miss more often, but don't be overconfident.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6355,
+      "id": "rem_33974",
+      "jp": "【自分】に【身代わり】を付与 (回避率[+30%])",
+      "en": "Grants 【self】 【Decoy】 (Evasion Rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6356,
+      "id": "rem_33975",
+      "jp": "【<src>】は[変わり身の術]を使用した！",
+      "en": "【<src>】 used [Substitution Jutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6357,
+      "id": "rem_33976",
+      "jp": "自分の分身を作り出し、仲間の攻撃に追従させる。これによりチェイススキルの威力が大幅にアップする。",
+      "en": "Creates a shadow clone that follows up on allies' attacks. Greatly increases the power of Chase skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6358,
+      "id": "rem_33977",
+      "jp": "【自分】に【影分身】を付与 (チェイススキルのダメージ[+50%])",
+      "en": "Grants 【self】 【Shadow Clone】 (Chase Skill DMG [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6359,
+      "id": "rem_33978",
+      "jp": "【<src>】は[影分身の術]を使用した！",
+      "en": "【<src>】 used [Shadow Clone Jutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6360,
+      "id": "rem_33979",
+      "jp": "クナイを敵に投げつける。射撃攻撃であるのと同時に、相手の意表を突く攻撃。剣士と思っていた相手の突然の飛び道具に、うっかり当たってしまったりする。",
+      "en": "Throws a kunai at the enemy. A ranged attack that also takes the foe by surprise. An unexpected projectile from someone you thought was a swordsman can catch you off guard.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6361,
+      "id": "rem_33980",
+      "jp": "範囲(大)攻撃 威力[D] +  命中[70%] + 【闇属性】 + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Wide-range attack Power[D] + Hit[70%] + 【Dark】 + Inflicts [Leg Bind] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6362,
+      "id": "rem_33981",
+      "jp": "【<src>】の[投げクナイの術]！",
+      "en": "【<src>】's [Shuriken Throw]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6363,
+      "id": "rem_33982",
+      "jp": "どこに持っていたかわからないほどのクナイを敵に投げつける。射撃攻撃としての威力はそこまででも無いが、あまりの連射に相手は釘付けになってしまう。",
+      "en": "Hurls countless shuriken seemingly from nowhere. Its raw power as a ranged attack isn't great, but the sheer rate of fire pins the target down.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6364,
+      "id": "rem_33983",
+      "jp": "全体攻撃 威力[B] +  命中[70%] + 【闇属性】 + 回避(小) + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE attack Power[B] + Hit[70%] + 【Dark】 + Evasion(small) + Inflicts [Leg Bind] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6365,
+      "id": "rem_33984",
+      "jp": "【<src>】の[乱れ投げクナイの術]！",
+      "en": "【<src>】's [Wild Shuriken Throw]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6366,
+      "id": "rem_33985",
+      "jp": "アルダルク家の人間には、時折不思議な娘が生まれる。それはいずれも赤い髪の持ち主で、魔力を持たない代わりに非常に強い力を持つという。能力以上に攻撃力が高くなる。",
+      "en": "Occasionally, the Alderuk family produces mysterious girls. They always have red hair and, in place of magic, possess immense physical strength. Their attack power exceeds their apparent capability.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6367,
+      "id": "rem_33986",
+      "jp": "攻撃[+30%] + 攻撃の範囲拡大率[+20%] + 女性へのダメージ[+30%]",
+      "en": "Attack[+30%] + Attack area expansion[+20%] + Damage vs. females[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6368,
+      "id": "rem_33987",
+      "jp": "かつて全ての海を支配した海賊女帝。ただ戦闘力が強いだけでは、海を支配することは出来なかっただろう。その子孫であり生まれ変わりと思しき娘にも、受け継がれている。",
+      "en": "Once the pirate empress who ruled all seas. Raw combat power alone couldn't have achieved that. Her descendant—believed to be her reincarnation—has inherited this trait.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6369,
+      "id": "rem_33988",
+      "jp": "エネミー発見率[+60%] + トラップ発見率[+60%]",
+      "en": "Enemy discovery rate[+60%] + Trap discovery rate[+60%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6370,
+      "id": "rem_33989",
+      "jp": "単体攻撃 威力[] +  [必中] + 必殺率[+20%] + 【闇属性】 + LV吸収(小)",
+      "en": "Single-target attack Power[] + [Guaranteed hit] + Crit rate[+20%] + 【Dark】 + Level absorb(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6371,
+      "id": "rem_33990",
+      "jp": "【<src>】の[夜を統べる魔槍]！",
+      "en": "【<src>】's [Spear Commanding the Night]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6372,
+      "id": "rem_33991",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 【闇属性】 + HP吸収(小) + LV吸収(小)",
+      "en": "Single-target attack Power[] + Hit[70%] + 【Dark】 + HP absorb(small) + Level absorb(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6373,
+      "id": "rem_33992",
+      "jp": "【<src>】の[バンパイアキス]！",
+      "en": "【<src>】's [Vampire Kiss]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6374,
+      "id": "rem_33993",
+      "jp": "防御(小) + 【自分】に【防御】を付与 (すべてのダメージ軽減率[+30%])",
+      "en": "Defense(small) + Grants 【Defense】 to【self】(All damage reduction[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6375,
+      "id": "rem_33994",
+      "jp": "【<src>】は[耐えがたきカリスマ]を使用した！",
+      "en": "【<src>】 used [Irresistible Charisma]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

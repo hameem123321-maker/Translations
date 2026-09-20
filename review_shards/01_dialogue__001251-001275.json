@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1251,
+  "range_end": 1275,
+  "pairs": [
+    {
+      "n": 1251,
+      "id": "db_EventInfo:1514:110",
+      "jp": "なにやら【『ゼカリウス』】に危機が迫っていると、皆がざわついてるでありますね",
+      "en": "Everyone seems restless. They say some danger is coming to Zecarius.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1252,
+      "id": "db_EventInfo:1515:110",
+      "jp": "事態の収拾は冒険者の方々や【『勇者』】様にお願いするとして、自分は街を守り抜くであります！",
+      "en": "I'll leave handling the situation to the adventurers and the Hero. My job is to protect this town!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1253,
+      "id": "db_EventInfo:1516:110",
+      "jp": "店長さん、防衛は自分たちにお任せください！",
+      "en": "Store Manager, leave the defense to us!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1254,
+      "id": "db_EventInfo:1517:110",
+      "jp": "街の危機は去ったようでありますね……やっぱり【『勇者』】様はすごいであります！",
+      "en": "The town's danger seems to have passed... As expected, the Hero is amazing!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1255,
+      "id": "db_EventInfo:1518:110",
+      "jp": "自分もあの人みたいな、立派な人物になりたいでありますね！",
+      "en": "I want to become a splendid person like him too!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1256,
+      "id": "db_EventInfo:1519:119",
+      "jp": "昔は冒険者として旅をしていたんだが、膝を故障したのをきっかけで【『ゼカリウス自警団』】の指導をすることになったんだ",
+      "en": "I used to travel as an adventurer, but after my knee gave out, I ended up guiding the Zecarius Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1257,
+      "id": "db_EventInfo:1520:119",
+      "jp": "指導とは名ばかりで実戦からは外されている……最近はもっぱら、新人の面倒という名の左遷状態だ",
+      "en": "It's called guidance, but I'm kept away from real battles... Lately, it's just been demotion under the name of taking care of rookies.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1258,
+      "id": "db_EventInfo:1521:119",
+      "jp": "俺のことを知らず、無邪気に先輩と呼んでついてくる、ソルネッタのヤツには悪いが……",
+      "en": "I feel bad for Solnetta. She doesn't know about me and innocently calls me 'senpai' and follows me around...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1259,
+      "id": "db_EventInfo:1522:119",
+      "jp": "ソルネッタはああ見えて貴族の娘で、【『ゼカリウス自警団』】で身を預かっている状態だ",
+      "en": "Solnetta looks like that, but she's a noble's daughter, and she's placed under the care of the Zecarius Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1260,
+      "id": "db_EventInfo:1523:119",
+      "jp": "箱入り娘だというのに、親が武門の出ということで、形だけでも兵士のまねごとをさせねばならないらしい",
+      "en": "Even though she's a sheltered girl, her parents are from a military family, so they have to make her at least pretend to be a soldier.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1261,
+      "id": "db_EventInfo:1524:119",
+      "jp": "アイツは知らないが、もうすぐ結婚も決まっている。それまで、危ないことをさせずに守ってやらなくては……",
+      "en": "She doesn't know this, but her marriage has been arranged and is coming up soon. Until then, I have to keep her safe and not let her do anything dangerous...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1262,
+      "id": "db_EventInfo:1525:119",
+      "jp": "しまったな……ソルネッタが熱心に俺の指導を請うから、真面目に指導してしまった",
+      "en": "Darn it... Solnetta was so earnest in asking for my guidance, I ended up training her seriously.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1263,
+      "id": "db_EventInfo:1526:119",
+      "jp": "おかげで新米というのに、他の自警団員よりよっぽど優秀な団員になっちまった",
+      "en": "Because of that, even though she's a rookie, she became a far more capable member than the others in the Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1264,
+      "id": "db_EventInfo:1527:119",
+      "jp": "【『ゼカリウス自警団』】なんかより、【『<ruby=ヒエペリオ>教会</ruby>』】の【『ジルド聖騎士団』】に行くべきじゃないのか……？",
+      "en": "Rather than the Zecarius Self-Defense Corps, shouldn't she go to the Hyperio Church's Gild Holy Knight Order...?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1265,
+      "id": "db_EventInfo:1528:119",
+      "jp": "アイツにそれを薦めても、嫌がって【『ゼカリウス自警団』】にいたがろうとするし。どうすればいいんだ……",
+      "en": "I told them to do that, but they refused. They insisted on staying in the 'Zecarius Self-Defense Force'. What should I do...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1266,
+      "id": "db_EventInfo:1529:119",
+      "jp": "アイツの家から伝達があった。武門の娘にふさわしく、少しでもいいから武勲を立てさせろと……",
+      "en": "I got a message from their family. They said, 'As a daughter of a military house, let her achieve even a little bit of military glory'...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1267,
+      "id": "db_EventInfo:1530:119",
+      "jp": "無茶を言うなよ……。武勲を立てさせたければ【『騎士団』】にでも入れれば良いのに。冒険者がどれだけ危険か理解しているのか？",
+      "en": "They're asking for too much... If they want her to get glory, they should just put her in the 'Knights Order'. Do they understand how dangerous adventuring is?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1268,
+      "id": "db_EventInfo:1531:119",
+      "jp": "だがしかし、武門の血は伊達じゃない。指導を付けるたびにメキメキと実力を上げていきやがる",
+      "en": "But, well, their warrior blood isn't for show. Every time I teach them, their skills improve quickly.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1269,
+      "id": "db_EventInfo:1532:119",
+      "jp": "くそ、俺の膝がまともだったら……",
+      "en": "Damn it, if only my knees were fine...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1270,
+      "id": "db_EventInfo:1533:119",
+      "jp": "ソルネッタの身を守るため、念入りにベテラン冒険者を雇ったのだが、これが失敗だった",
+      "en": "To protect Solnetta, I carefully hired a veteran adventurer. But this was a mistake.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1271,
+      "id": "db_EventInfo:1534:119",
+      "jp": "【『イルニエル大灯台』】は古代の遺跡、そこに眠る財宝に目をくらませて、冒険者どもが暴走したんだ",
+      "en": "The 'Iruniel Great Lighthouse' is an ancient ruin. The adventurers lost their minds over the treasure sleeping there and went wild.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1272,
+      "id": "db_EventInfo:1535:119",
+      "jp": "制止を振り切って撤退したんだが、さすがにソルネッタのヤツには幻滅されたか……",
+      "en": "I ignored the order to stop and retreated. But I guess even Solnetta was disappointed in me...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1273,
+      "id": "db_EventInfo:1536:119",
+      "jp": "【『騎士団』】と共同で特別な作戦に赴くことになった。おそらくこれが、ソルネッタの最後の任務になるだろう",
+      "en": "She ended up going on a special joint mission with the 'Knights Order'. This will probably be Solnetta's last mission.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1274,
+      "id": "db_EventInfo:1537:119",
+      "jp": "相手は同じ人間だ。【『騎士団』】と一緒に行動すれば、失敗はあり得ない。簡単な任務だ",
+      "en": "The enemy is fellow humans. Working with the 'Knights Order', failure is impossible. It's an easy mission.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1275,
+      "id": "db_EventInfo:1538:119",
+      "jp": "そうして多少の武功を上げれば、武門の娘として輿入れすることができるはずだ",
+      "en": "If she gains a little bit of glory there, she should be able to get married off as a proper daughter of a military house.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    }
+  ]
+}

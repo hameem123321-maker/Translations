@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13226,
+  "range_end": 13250,
+  "pairs": [
+    {
+      "n": 13226,
+      "id": "rem_48895",
+      "jp": "別の時空から流れ着いた異次元のキノコ。食べると頭の中に未知の情景が浮かんでくるが、しっかり調理すれば非常に美味で賢くなれる高級品。",
+      "en": "A mushroom from another dimension. Eating it raw brings visions of unknown scenery, but properly cooked, it's a gourmet delicacy said to boost intelligence.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13227,
+      "id": "rem_48896",
+      "jp": "異次元キノコ",
+      "en": "Dimensional Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13228,
+      "id": "rem_48897",
+      "jp": "星空のような美しい鱗を持つ、光り輝く魚。魔力を帯びたその肉は最高級の珍味として珍重されている。",
+      "en": "A fish with beautiful, starlight-like scales. Its magically infused meat is a prized delicacy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13229,
+      "id": "rem_48898",
+      "jp": "星空フィッシュ",
+      "en": "Starlight Fish",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13230,
+      "id": "rem_48899",
+      "jp": "全身が猛毒のフグ肉。触れば手が爛れ、食せば絶命は免れない。徹底的な解毒が必要だが、命知らずの食通が欲しがる。そうまでして食べねばならぬのか。",
+      "en": "Poisonous pufferfish meat. Touching it rots your flesh; eating it is fatal. Only thorough detox makes it safe, yet reckless gourmands still crave it. Why must they?",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13231,
+      "id": "rem_48900",
+      "jp": "狂暴な殺人フグの肉",
+      "en": "Frenzied Murder-Puffer Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13232,
+      "id": "rem_48901",
+      "jp": "金色に輝く、濃厚な食味を持つ貝。あまりに見つからない為、一度は絶滅したとまで囁かれていた。もしかしたらこれが最後の一つかもしれない……。",
+      "en": "A golden, richly flavored abalone. So rare, it was once thought extinct. This might be the last one...",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13233,
+      "id": "rem_48902",
+      "jp": "黄金アワビ",
+      "en": "Golden Abalone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13234,
+      "id": "rem_48903",
+      "jp": "金属でできた船舶をも沈めるという、『船喰い』の異名を持つ貝。最近その身が美味い事が知られ、急速に数を減らしている。",
+      "en": "A clam nicknamed 'Ship-eater' for sinking metal vessels. Its deliciousness recently discovered, it's now dwindling fast.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13235,
+      "id": "rem_48904",
+      "jp": "船喰いシャコ貝",
+      "en": "Ship-Eater Clam",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13236,
+      "id": "rem_48905",
+      "jp": "恐怖を与える見た目の海産物。ゼカリウスでは食べる事など信じられなかったが、異邦の料理人が訪れると、姿を変えて提供されるようになった。",
+      "en": "A terrifying-looking sea creature. No one in Zecarius believed it was edible, until foreign cooks arrived and transformed it for the table.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13237,
+      "id": "rem_48906",
+      "jp": "名状し難いテンタクル",
+      "en": "Unnameable Tentacle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13238,
+      "id": "rem_48907",
+      "jp": "伝説の大海獣クラーケンの幼体と噂されている珍味。ゼカリウスの人間には恐れられているが、適切な調味料を付ければ絶品のツマミになる。",
+      "en": "A rare delicacy rumored to be a juvenile Kraken. Feared by the people of Zecarius, but paired with the right seasoning, it's a superb snack.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13239,
+      "id": "rem_48908",
+      "jp": "紫ミニクラーケン",
+      "en": "Purple Mini-Kraken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13240,
+      "id": "rem_48909",
+      "jp": "特別な植物の実を煮立たせ、甘さを凝縮したシロップ。その高級な香りと上品な甘さは、王室の貴人が求める程。",
+      "en": "A sweet syrup made by boiling down a special fruit. Its refined aroma and elegant sweetness is sought after by royalty.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13241,
+      "id": "rem_48910",
+      "jp": "濃縮ロイヤルシロップ",
+      "en": "Concentrated Royal Syrup",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13242,
+      "id": "rem_48911",
+      "jp": "海洋をふわふわと漂い、塩分を糖分に変換してエネルギーを得るクラゲ。どのような機構で変換しているのかは不明だが、煮込めば大量の糖を得られる。",
+      "en": "A jellyfish that drifts in the ocean, converting salt into sugar for energy. The mechanism is unknown, but boiling it yields large amounts of sugar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13243,
+      "id": "rem_48912",
+      "jp": "シュガーテンタクル",
+      "en": "Sugar Tentacle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13244,
+      "id": "rem_48913",
+      "jp": "虹色に輝く、不可思議な魔力を持つ塩。異界の魔力に満ちており、一粒で国が動くほどの価値がある。その存在はこれまで確認されていなかった。",
+      "en": "Rainbow-hued salt with mysterious magical properties. Filled with otherworldly magic, a single grain holds value enough to move a nation. Its existence had never been confirmed before.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13245,
+      "id": "rem_48914",
+      "jp": "虹色の塩粒",
+      "en": "Rainbow Salt Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13246,
+      "id": "rem_48915",
+      "jp": "次元の違う別世界から召喚されたオイル。材料は一切不明だが、これでしか作れない料理もあるとか。月からもたらされたとの仮説があるが、推測の域を出ない。",
+      "en": "Oil summoned from another dimension. The ingredients are unknown, but some dishes can only be made with it. There's a theory it came from the moon, but that's just speculation.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13247,
+      "id": "rem_48916",
+      "jp": "異界のオイル",
+      "en": "Otherworldly Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13248,
+      "id": "rem_48917",
+      "jp": "樹木から採取した油を分離精製し、強烈な燃焼性を獲得したもの。植物由来の為、食用にも使えるが、注意して使わないと一気に燃え広がる。",
+      "en": "Oil extracted and refined from trees, gaining intense flammability. Plant-based, so it can be used for cooking, but must be handled carefully to prevent rapid combustion.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13249,
+      "id": "rem_48918",
+      "jp": "灼熱のヤシ油",
+      "en": "Blazing Palm Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13250,
+      "id": "rem_48919",
+      "jp": "とても大きな卵の化石。その味は濃厚で、食べると寿命が延びると言われている。海竜本人に聞いたら、卵ではなく、竜の魔力で育てられた魚卵とのこと。",
+      "en": "A fossilized egg of immense size. Its flavor is rich, and eating it is said to extend lifespan. When asked, the sea dragon said it's not an egg, but fish roe nurtured by dragon magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

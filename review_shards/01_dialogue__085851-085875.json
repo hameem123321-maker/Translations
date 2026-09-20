@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 85851,
+  "range_end": 85875,
+  "pairs": [
+    {
+      "n": 85851,
+      "id": "db_EventInfo:101412:0",
+      "jp": "【『魔界五大珍味』】の情報が集まってきたようだ。",
+      "en": "I've gathered info on the 'Five Demonic Delicacies'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85852,
+      "id": "db_EventInfo:101414:34",
+      "jp": "五大珍味のひとつ、珍獣【『パナイシロウサギ』】はゲットしたね",
+      "en": "We got one of the Five Delicacies - the rare beast, the 'Panai White Rabbit'.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85853,
+      "id": "db_EventInfo:101415:34",
+      "jp": "今回は発見すること自体が大変だったけど、次の【『魔界五大珍味』】はもう少し見付けやすいはずだよ！",
+      "en": "Just finding it this time was tough, but the next 'Demonic Delicacy' should be a bit easier to find!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85854,
+      "id": "db_EventInfo:101416:1",
+      "jp": "そうだといいんだけど……【珍味】だもんな",
+      "en": "Hope so... but it is a 'delicacy'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85855,
+      "id": "db_EventInfo:101417:2",
+      "jp": "簡単に見つかるようじゃ、【珍味】とは言えないデス",
+      "en": "If it were easy to find, you couldn't call it a 'delicacy'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85856,
+      "id": "db_EventInfo:101418:34",
+      "jp": "そうなんだよねー。今度の珍味も、捕獲は激ムズ！",
+      "en": "Exactly. Catching this next delicacy will be super hard!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85857,
+      "id": "db_EventInfo:101419:34",
+      "jp": "次の目標は大海の大怪魚、【『アマニアオオナマズ』】だよ！",
+      "en": "The next target is the great sea monster fish, the 'Amania Giant Catfish'!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85858,
+      "id": "db_EventInfo:101420:1",
+      "jp": "大海の大怪魚……",
+      "en": "A great sea monster fish...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85859,
+      "id": "db_EventInfo:101421:2",
+      "jp": "なんというか、既視感がある相手デスね",
+      "en": "Somehow, this opponent feels familiar.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85860,
+      "id": "db_EventInfo:101422:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85861,
+      "id": "db_EventInfo:101423:1",
+      "jp": "……【『アマニアオオナマズ』】か。アマニアって、あのアーマニア海のことだよな？",
+      "en": "...The 'Amania Giant Catfish'. 'Amania', that's the Amania Sea, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85862,
+      "id": "db_EventInfo:101424:34",
+      "jp": "【<pl>】ちゃん、意外と頭回るね～？　うんうん、大正解っ♪　アーマニア海の深海に生息するオオナマズだよ",
+      "en": "【<pl>】, you're sharper than you look! Yep, spot on! It's a giant catfish that lives in the deep sea of the Amania Sea.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85863,
+      "id": "db_EventInfo:101425:1",
+      "jp": "オオナマズって言うからには……相当なサイズだろうなぁ",
+      "en": "If it's called 'Giant Catfish'... it must be pretty huge.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85864,
+      "id": "db_EventInfo:101426:34",
+      "jp": "んー、そうみたいだね",
+      "en": "Hmm, looks that way.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85865,
+      "id": "db_EventInfo:101427:34",
+      "jp": "ふふっ、大きな屋敷を飲み込むぐらい巨大な怪物魚だよ",
+      "en": "Hehe, it's a monster fish big enough to swallow a large mansion.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85866,
+      "id": "db_EventInfo:101428:34",
+      "jp": "そいつが暴れるだけで、船がひっくり返るほどの巨体なんだ",
+      "en": "It's so big, just thrashing around could capsize a ship.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85867,
+      "id": "db_EventInfo:101429:34",
+      "jp": "うふふ、ビビった？",
+      "en": "Ooh, scared?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85868,
+      "id": "db_EventInfo:101432:34",
+      "jp": "……あれ？　なんだか反応が薄いなぁ",
+      "en": "...Huh? Your reaction is kinda weak.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85869,
+      "id": "db_EventInfo:101433:34",
+      "jp": "船がひっくり返るほどの怪物魚だよ、怖いでしょ？",
+      "en": "It's a monster fish that can flip ships! That's scary, right?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85870,
+      "id": "db_EventInfo:101434:1",
+      "jp": "そう言われてもなぁ",
+      "en": "Even if you say that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85871,
+      "id": "db_EventInfo:101435:2",
+      "jp": "そいつ、島ぐらいデカいんデス？",
+      "en": "Is it as big as an island, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85872,
+      "id": "db_EventInfo:101436:34",
+      "jp": "えっ、島？",
+      "en": "Huh? An island?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85873,
+      "id": "db_EventInfo:101437:34",
+      "jp": "そんなのいるわけないじゃない～",
+      "en": "No way something like that exists~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85874,
+      "id": "db_EventInfo:101438:1",
+      "jp": "なるほど。キングホエールより大きい相手なら、対策を考える必要があったが",
+      "en": "I see. If the opponent was bigger than King Whale, we would've needed a plan.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85875,
+      "id": "db_EventInfo:101439:2",
+      "jp": "問題なさそうデス",
+      "en": "Looks fine to me.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

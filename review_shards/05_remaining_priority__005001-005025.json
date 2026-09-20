@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5001,
+  "range_end": 5025,
+  "pairs": [
+    {
+      "n": 5001,
+      "id": "rem_32620",
+      "jp": "『鍛冶』の累計売上が【31億ゴールド】以上",
+      "en": "Smithing total sales of at least 【3.1 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5002,
+      "id": "rem_32621",
+      "jp": "世界一の鍛冶屋デス９",
+      "en": "World's Best Blacksmith Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5003,
+      "id": "rem_32622",
+      "jp": "『鍛冶』の累計売上が【62億ゴールド】以上",
+      "en": "Smithing total sales of at least 【6.2 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5004,
+      "id": "rem_32623",
+      "jp": "世界一の鍛冶屋デス１０",
+      "en": "World's Best Blacksmith Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5005,
+      "id": "rem_32624",
+      "jp": "『鍛冶』の累計売上が【125億ゴールド】以上",
+      "en": "Smithing total sales of at least 【12.5 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5006,
+      "id": "rem_32625",
+      "jp": "世界一の鍛冶屋デス１１",
+      "en": "World's Best Blacksmith Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5007,
+      "id": "rem_32626",
+      "jp": "『鍛冶』の累計売上が【250億ゴールド】以上",
+      "en": "Smithing total sales of at least 【25 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5008,
+      "id": "rem_32627",
+      "jp": "世界一の鍛冶屋デス１２",
+      "en": "World's Best Blacksmith Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5009,
+      "id": "rem_32628",
+      "jp": "『錬金』の累計売上が【15億ゴールド】以上",
+      "en": "Alchemy total sales of at least 【1.5 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5010,
+      "id": "rem_32629",
+      "jp": "有名ドラッグストアデス８",
+      "en": "Famous Drugstore Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5011,
+      "id": "rem_32630",
+      "jp": "『錬金』の累計売上が【31億ゴールド】以上",
+      "en": "Alchemy total sales of at least 【3.1 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5012,
+      "id": "rem_32631",
+      "jp": "有名ドラッグストアデス９",
+      "en": "Famous Drugstore Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5013,
+      "id": "rem_32632",
+      "jp": "『錬金』の累計売上が【62億ゴールド】以上",
+      "en": "Alchemy total sales of at least 【6.2 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5014,
+      "id": "rem_32633",
+      "jp": "有名ドラッグストアデス１０",
+      "en": "Famous Drugstore Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5015,
+      "id": "rem_32634",
+      "jp": "『錬金』の累計売上が【125億ゴールド】以上",
+      "en": "Alchemy total sales of at least 【12.5 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5016,
+      "id": "rem_32635",
+      "jp": "有名ドラッグストアデス１１",
+      "en": "Famous Drugstore Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5017,
+      "id": "rem_32636",
+      "jp": "『錬金』の累計売上が【250億ゴールド】以上",
+      "en": "Alchemy total sales of at least 【25 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5018,
+      "id": "rem_32637",
+      "jp": "有名ドラッグストアデス１２",
+      "en": "Famous Drugstore Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5019,
+      "id": "rem_32638",
+      "jp": "『娯楽』の累計売上が【23億ゴールド】以上",
+      "en": "Entertainment total sales of at least 【2.3 billion gold】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5020,
+      "id": "rem_32639",
+      "jp": "ビッグな娯楽施設デス９",
+      "en": "Big Entertainment Facility Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5021,
+      "id": "rem_32640",
+      "jp": "『娯楽』の累計売上が【46億ゴールド】以上",
+      "en": "Total 'Entertainment' sales of 【4.6 billion GOLD】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5022,
+      "id": "rem_32641",
+      "jp": "ビッグな娯楽施設デス１０",
+      "en": "Big Entertainment Facility Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5023,
+      "id": "rem_32642",
+      "jp": "『娯楽』の累計売上が【93億ゴールド】以上",
+      "en": "Total 'Entertainment' sales of 【9.3 billion GOLD】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5024,
+      "id": "rem_32643",
+      "jp": "ビッグな娯楽施設デス１１",
+      "en": "Big Entertainment Facility Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5025,
+      "id": "rem_32644",
+      "jp": "『娯楽』の累計売上が【187億ゴールド】以上",
+      "en": "Total 'Entertainment' sales of 【18.7 billion GOLD】 or more",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

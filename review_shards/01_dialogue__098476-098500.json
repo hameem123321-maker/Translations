@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 98476,
+  "range_end": 98500,
+  "pairs": [
+    {
+      "n": 98476,
+      "id": "db_EventInfo:116254:15",
+      "jp": "とはいえ、ゼカリウスの中心部に突然現れた魔物に、町は混乱状態でね",
+      "en": "That said, monsters suddenly appeared in Zecarius's center, and the town is in chaos.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 98477,
+      "id": "db_EventInfo:116255:15",
+      "jp": "魔物が先制攻撃を仕掛ける前に、【『ゼカリウス自警団』】が乗り込む相談をしているんだけど……",
+      "en": "Before the monsters attack first, the 'Zecarius Self-Defense Force' is discussing a plan to strike...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 98478,
+      "id": "db_EventInfo:116256:15",
+      "jp": "領主ゼルカが魔物を操っていた、という目撃情報もあってね、どうするのがいいか検討しているところさ",
+      "en": "But there are eyewitness reports that Lord Zelka was controlling the monsters, so we're figuring out what to do.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 98479,
+      "id": "db_EventInfo:116257:1",
+      "jp": "領主が？　どうして……",
+      "en": "The lord? Why would he...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98480,
+      "id": "db_EventInfo:116258:2",
+      "jp": "隠れるつもりが無くなったデスかね？　統治ではなく、自分達の兵力で支配に乗り出したとか……？",
+      "en": "Maybe he stopped hiding? He's not ruling anymore; he's trying to take over with his own army...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98481,
+      "id": "db_EventInfo:116259:19",
+      "jp": "話は聞かせてもらった！　【『ゼカリウス』】の平和は俺が守る！",
+      "en": "I've heard enough! I'll protect Zecarius's peace!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 98482,
+      "id": "db_EventInfo:116260:15",
+      "jp": "おお、勇者君、君が手を貸してくれるのか！",
+      "en": "Oh, Hero, you'll help!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 98483,
+      "id": "db_EventInfo:116261:19",
+      "jp": "もちろんさ、【『勇者』】だからな！",
+      "en": "Of course! I am the Hero!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 98484,
+      "id": "db_EventInfo:116262:19",
+      "jp": "【『ゼカリウス自警団』】だっけ？　俺を案内してくれ！",
+      "en": "The 'Zecarius Self-Defense Force', right? Show me the way!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 98485,
+      "id": "db_EventInfo:116263:15",
+      "jp": "ああ！",
+      "en": "Right!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 98486,
+      "id": "db_EventInfo:116266:0",
+      "jp": "ラシェウスはデシルスに連れられて出かけていった。",
+      "en": "Rasieus went out, led by Desilus.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 98487,
+      "id": "db_EventInfo:116267:2",
+      "jp": "【『勇者』】が動いてくれるとは好都合デス。私たちが【『ダンジョン』】に行って、露払いしておくデスね",
+      "en": "The 'Hero' moving on their own is convenient for us. We'll go to the 'Dungeon' first and clear the way, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98488,
+      "id": "db_EventInfo:116268:1",
+      "jp": "……【『勇者』】なんだから、並の魔物になら負けないんじゃないか？",
+      "en": "...They're the 'Hero', so they shouldn't lose to normal monsters, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98489,
+      "id": "db_EventInfo:116269:2",
+      "jp": "う～ん、そのはずなんデスが、なんだかアイツ、【オマエと似た空気】を持っているんデスよね",
+      "en": "Hmm, that should be true, desu. But somehow, they have a vibe similar to yours, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98490,
+      "id": "db_EventInfo:116270:1",
+      "jp": "……つまり？",
+      "en": "...Meaning?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98491,
+      "id": "db_EventInfo:116271:2",
+      "jp": "油断すると、死ぬデス",
+      "en": "If you let your guard down, you die, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98492,
+      "id": "db_EventInfo:116272:1",
+      "jp": "むう……",
+      "en": "Mmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98493,
+      "id": "db_EventInfo:116273:2",
+      "jp": "私と運命共同体のオマエと違い、アイツは死んだら終わりデス。せっかくの【『勇者』】、大事に使うデス",
+      "en": "Unlike you, who shares my fate, if they die, it's over, desu. We should use this precious 'Hero' carefully, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98494,
+      "id": "db_EventInfo:116274:2",
+      "jp": "とにかく、アイツだけに任せるわけにはいかんデス。準備を整えたら、もう一度領主の館に乗り込むデス！",
+      "en": "Anyway, we can't just leave it all to them, desu. Once we're ready, we storm the lord's manor again, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98495,
+      "id": "db_EventInfo:116275:1",
+      "jp": "相変わらず、ダンジョンみたいな屋敷だな……",
+      "en": "It's still a mansion like a dungeon...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98496,
+      "id": "db_EventInfo:116276:2",
+      "jp": "すでに【『ゼカリウス自警団』】の人間や冒険者達が、現れた魔物共を討とうと、屋敷内に入り込んでいるようデス",
+      "en": "It seems people from the 'Zecarius Self-Defense Force' and adventurers have already entered the mansion to fight the monsters that appeared, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98497,
+      "id": "db_EventInfo:116277:9",
+      "jp": "しかし危険だな、【『魔界』】の空気に触れた人間は、正気を保つのは難しいのである",
+      "en": "But it's dangerous. For humans exposed to the air of the 'Demon World', it's hard to keep their sanity.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98498,
+      "id": "db_EventInfo:116278:9",
+      "jp": "敵を討つために入ったとしても、逆に操られることもあり得るだろう",
+      "en": "Even if they go in to defeat the enemy, they could end up being controlled instead.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98499,
+      "id": "db_EventInfo:116279:2",
+      "jp": "かといって、止めるわけにはいかないデス。人間の世界の平和は人間が守るデス",
+      "en": "But I can't stop now. Humans must protect their own world's peace.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98500,
+      "id": "db_EventInfo:116280:9",
+      "jp": "なんとか【『魔界』】を封じれば、人間達は正気に戻るであろう",
+      "en": "If we can somehow seal the 'Demon World', the humans should regain their senses.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

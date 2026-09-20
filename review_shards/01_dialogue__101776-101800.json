@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101776,
+  "range_end": 101800,
+  "pairs": [
+    {
+      "n": 101776,
+      "id": "db_EventInfo:120225:15",
+      "jp": "やあ店長君、【『大陸冒険者ギルド連盟』】からスポンサーのお願いが来てたよ",
+      "en": "Hey, Manager. The Continental Adventurer Guild Alliance wants us to be a sponsor.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101777,
+      "id": "db_EventInfo:120227:2",
+      "jp": "カネの無心デス？　おいオマエ、断ってやるデス",
+      "en": "You want money? No way, you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101778,
+      "id": "db_EventInfo:120228:15",
+      "jp": "まあまあ。今回は、冒険者ギルドの新人育成計画なんだ",
+      "en": "Hold on. This time, it's for their new recruit training plan.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101779,
+      "id": "db_EventInfo:120229:1",
+      "jp": "育成計画？",
+      "en": "A training plan?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101780,
+      "id": "db_EventInfo:120230:15",
+      "jp": "うん。新人冒険者は田舎から出てきた若手が中心だが、世間知らずな彼らは油断して魔獣のエジキになりやすい",
+      "en": "Yeah. New adventurers are mostly young people from the countryside. They don't know much about the world, so they easily get careless and become monster food.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101781,
+      "id": "db_EventInfo:120231:2",
+      "jp": "ダンジョンの小鬼とかのことデスね",
+      "en": "Like goblins in dungeons, you mean.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101782,
+      "id": "db_EventInfo:120232:15",
+      "jp": "うん。彼らを教育して、少しでも生存率を高めたいという試みだそうだよ",
+      "en": "Yeah. They want to educate them, to try and boost their survival rate a bit.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101783,
+      "id": "db_EventInfo:120233:1",
+      "jp": "なるほど。新人が生き残れば、ベテランも多く育ってくれそうだな",
+      "en": "I see. If the rookies live longer, we should get more experienced veterans.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101784,
+      "id": "db_EventInfo:120234:15",
+      "jp": "ついでに腕の良い冒険者も募集しているそうだよ",
+      "en": "Also, I hear they're recruiting skilled adventurers at the same time.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101785,
+      "id": "db_EventInfo:120235:1",
+      "jp": "なるほどなぁ",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101786,
+      "id": "db_EventInfo:120236:0",
+      "jp": "スポンサーか……お金に余裕があったらやってみても良いかな？",
+      "en": "A sponsor, huh... If we have some extra money, maybe it wouldn't be a bad idea to try?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101787,
+      "id": "db_EventInfo:120237:2",
+      "jp": "カネはやりたくないデス",
+      "en": "I really don't want to pay out money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101788,
+      "id": "db_EventInfo:120238:15",
+      "jp": "それでも、冒険者を派遣してくれるなら助かると思うよ",
+      "en": "But, I think it would really help if you could send adventurers.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101789,
+      "id": "db_EventInfo:120239:15",
+      "jp": "冒険者ギルドへのスポンサーありがとう！",
+      "en": "Thanks for sponsoring the Adventurers' Guild!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101790,
+      "id": "db_EventInfo:120241:2",
+      "jp": "どうなったデス？",
+      "en": "How did it go?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101791,
+      "id": "db_EventInfo:120242:15",
+      "jp": "うん。店長君がスポンサーしたことで、他の商人からも融資が集められてきてね。新人冒険者を育成するプロジェクトも始まったんだ",
+      "en": "Yeah. Since you became a sponsor, other merchants have also started lending money. A project to train new adventurers has begun.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101792,
+      "id": "db_EventInfo:120243:15",
+      "jp": "といっても。いかんせん、手が不足し過ぎててね。新人育成が実を結ぶのは、まだまだ先になりそうなんだ",
+      "en": "That said, the problem is we're way too short on hands. It'll be a long time before the new training bears any fruit.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101793,
+      "id": "db_EventInfo:120244:1",
+      "jp": "ふむ……育成された冒険者を雇うことはできないか",
+      "en": "Hmm... Can't we hire adventurers who've been trained?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101794,
+      "id": "db_EventInfo:120245:15",
+      "jp": "新人だからね。店長君の店で働くのは難しいんじゃないかな",
+      "en": "They're just rookies. It'd be tough for them to work in your shop.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101795,
+      "id": "db_EventInfo:120246:2",
+      "jp": "それでも若手の冒険者は集まって、そして魔獣のエジキになっていくのデス",
+      "en": "Even so, young adventurers gather, and then they become monster bait.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101796,
+      "id": "db_EventInfo:120247:2",
+      "jp": "若さとは勇気、そして無謀の象徴デス。周りがどうにかしろということも、おこがましいのかもしれないデス",
+      "en": "Youth is courage, and also the mark of recklessness. Maybe it's even presumptuous to ask others to do something about it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101797,
+      "id": "db_EventInfo:120250:0",
+      "jp": "新人冒険者をいきなり育成することは難しいようだが、スポンサーしたことで店の評判が広まった。冒険者の客も増えた気がする。",
+      "en": "It seems hard to train rookie adventurers right away, but sponsoring spread our shop's reputation. I feel like we've gotten more adventurer customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101798,
+      "id": "db_EventInfo:120251:15",
+      "jp": "やあ店長君。【『大陸冒険者ギルド連盟』】から新しいプロジェクトへの参加を求められているよ",
+      "en": "Hey, Shopkeeper. The 'Continental Adventurers' Guild Alliance' is asking for participation in a new project.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101799,
+      "id": "db_EventInfo:120252:1",
+      "jp": "プロジェクト……？",
+      "en": "A project...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101800,
+      "id": "db_EventInfo:120254:2",
+      "jp": "要はカネをよこせってことデスよね",
+      "en": "Basically, they want us to give them money, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

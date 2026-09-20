@@ -1,0 +1,283 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1026,
+  "range_end": 1050,
+  "pairs": [
+    {
+      "n": 1026,
+      "id": "rem_45469",
+      "jp": "オマンコに何度も御主人様の精を注がれるのは、素晴らしいですねД　夢にしておくのは勿体ないほどですД",
+      "en": "Having my Master's seed poured into my pussy so many times is wonderfulД It'd be a waste to keep it just a dreamД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1027,
+      "id": "rem_45553",
+      "jp": "【<pl>】のセイエキって、売れるのか？　すげーよな。どれだけ売れるか、見せてくれよ。アタシも手伝ってやっても良いからさД",
+      "en": "【<pl>】's... seed sells? That's wild. Show me how much you can sell. I'll help tooД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1028,
+      "id": "rem_45559",
+      "jp": "【<pl>】様には世話になってるしさ、ゴールドは沢山稼ぎたいと思ってるんだ。手伝わせてもらうから、頑張ろうぜっ！",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1029,
+      "id": "rem_45560",
+      "jp": "【<pl>】様の子種を頂きとうございますわД　ピンクの部屋で愛でてくださいませД　ついでに、店の経営計画も練りましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1030,
+      "id": "rem_45561",
+      "jp": "我らが【『神』】のためにも、ゴールドを稼ぎましょう！　カネを稼げばきっと、願いは叶いますわД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1031,
+      "id": "rem_45564",
+      "jp": "【<pl>】様の子種は【『神』】の子種、【『淫魔』】どもが価値を見出すというのも当然ですわね。せっかくです【『淫魔』】からカネを巻き上げましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1032,
+      "id": "rem_45565",
+      "jp": "【<pl>】様、お腹を満たせることは幸せの基本でございますわ。たくさん料理を売って、皆を幸せにして、ついでにゴールドも稼ぎましょうД",
+      "en": "",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1033,
+      "id": "rem_48877",
+      "jp": "一粒の種からでも、大量の麦を実らせる穀粒。土地の栄養を吸い尽くす為、管理は厳重にしなくてはならないが、食料危機には救世主となる。",
+      "en": "A grain that can yield a huge amount of wheat from a single seed. It exhausts soil nutrients and must be strictly managed, but is a savior in food crises.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1034,
+      "id": "rem_01155",
+      "jp": "<pt>は自分の<ruby=なか>膣内</ruby>でペニスを愛撫し、結合の感触を楽しんでいるようだ……！",
+      "en": "<pt> seems to be stroking the penis inside their own <ruby=なか>pussy</ruby>, enjoying how it feels to be joined...!",
+      "table": "db_UnitCharaPartnerAccessApproach",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1035,
+      "id": "rem_01230",
+      "jp": "★誘い受け(射精)",
+      "en": "★Seductive Reception (Ejaculation)",
+      "table": "db_UnitCharaPartnerAccessApproach",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1036,
+      "id": "rem_01744",
+      "jp": "ちゅ、んぷ、んんД　精液、いっぱい、ですД",
+      "en": "Chu, mmph, mnnД It's, full of, semenД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1037,
+      "id": "rem_01918",
+      "jp": "うふ、【<pl>】様の、精液で……Д　足が、ドロドロですわД　動かしやすく、なりましたわねД",
+      "en": "Ufu, with 【<pl>】's semen...Д My legs are all slimyД They move more easily nowД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1038,
+      "id": "rem_01931",
+      "jp": "ミルテは笑顔のまま、【<pl>】のペニスを愛撫する！　ペニスが痙攣を繰り返し、【<pl>】は射精に導かれる！",
+      "en": "Myrte keeps smiling as she strokes your 【<pl>】 penis! Your cock spasms repeatedly, leading you 【<pl>】 to ejaculate!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1039,
+      "id": "rem_01933",
+      "jp": "このまま、イかせて、差し上げますわねД　さっさと、んんっД　射精して、下さいませД",
+      "en": "I'm going to make you cum just like thisД Come on, hurry up, nnghД Please, ejaculateД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1040,
+      "id": "rem_02030",
+      "jp": "与えられる快感に、射精の気配が駆け上がる！　訪れる射精感に、ペニスがビクンと跳ねあがった！",
+      "en": "The pleasure you're given sends the feeling of orgasm racing upwards! The impending ejaculation makes your penis twitch and jump!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1041,
+      "id": "rem_02034",
+      "jp": "快楽を引き出され、射精感が駆け上がってくる！　【<pl>】は耐えきれず、そのまま射精に導かれる！",
+      "en": "Pleasure is drawn out, and the feeling of ejaculation comes racing up! 【<pl>】 can't endure it and is led straight to orgasm!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1042,
+      "id": "rem_02593",
+      "jp": "最後まで、はぁ、お世話してやる、デスД　んん、全部、射精、しきるデスД",
+      "en": "I'll take care of you, DesuД Nnn, completely, until you finish ejaculating, DesuД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1043,
+      "id": "rem_02758",
+      "jp": "うふふД　わたくしも、赤ちゃんも、【<pl>】様の精を受け止められて、幸せですわД",
+      "en": "Hehehe\nBoth I and the baby are so happy to have received your seed, 【<pl>】.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1044,
+      "id": "rem_02823",
+      "jp": "蕩けた瞳のまま、彼女の動きが激しさを増す！　訪れる快感に、射精の気配が駆け上がった！",
+      "en": "Her movements intensify, her eyes glazed over! The impending pleasure sends a surge, the sign of ejaculation racing up!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1045,
+      "id": "rem_02832",
+      "jp": "んぷ、じゅる、んんД　んく、んはぁ……Д　なんて、濃厚な、精液なのでしょう……Д",
+      "en": "Mmph, *slurp*, nnn Д. Nngh, n-hah... Д. My, what thick... semen this is... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1046,
+      "id": "rem_03233",
+      "jp": "あぁんД　あ、あ、凄い、精液、出ちゃってます……Д",
+      "en": "AhhnД Ah, ah, incredible, my semen, it's coming out...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1047,
+      "id": "rem_03442",
+      "jp": "ふぅ……この仕事が、数々の事業を行う原資になるのですね",
+      "en": "Haa... so this job is the seed money for all sorts of business ventures, huh",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1048,
+      "id": "rem_03572",
+      "jp": "蕩けた瞳のまま、彼女の舌が激しく動く！　訪れる快感に、射精の気配が駆け上がった！",
+      "en": "While her eyes remain dazed, her tongue moves intensely! Sensing the coming pleasure, the sign of ejaculation surges up!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1049,
+      "id": "rem_03574",
+      "jp": "ペニスに吸い付く彼女に、快感が込み上がる！　抵抗する事も出来ず、【<pl>】は射精に導かれる！",
+      "en": "From her mouth clinging to the penis, pleasure wells up! Unable to resist, 【<pl>】 is led to ejaculation!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1050,
+      "id": "rem_03987",
+      "jp": "はう、うぅ、中で、ビクビクして……Д　はぁ、へへー、これ、気持ち良かったって事だよなД",
+      "en": "Hau, uu, it's twitching inside……Д Hah, heheー, this means it felt really good, right?Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    }
+  ]
+}

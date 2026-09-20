@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75551,
+  "range_end": 75575,
+  "pairs": [
+    {
+      "n": 75551,
+      "id": "db_EventInfo:89375:115",
+      "jp": "【『ゴブリン』】だけ破壊するという器用なことができない。滅ぼしたとしても、人類も生き残れない……",
+      "en": "We can't do something tricky like destroying only the Goblins. Even if we annihilated them, humanity wouldn't survive either...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75552,
+      "id": "db_EventInfo:89376:12",
+      "jp": "そもそも【『ゴブリン』】はまともに戦おうとしません。弱い者を狙い、繁殖するのを優先する。それが問題なのです。せめて一直線に向かってくるなら……",
+      "en": "Besides, the Goblins don't even try to fight properly. They target the weak and focus on breeding first. That's the real problem. If they'd at least come at us head-on...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75553,
+      "id": "db_EventInfo:89377:6",
+      "jp": "そんな……ですが、何とかしなくては……",
+      "en": "That's... But we have to do something...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75554,
+      "id": "db_EventInfo:89378:12",
+      "jp": "私達は確かに桁外れの魔力を持った超天才です。ですが……",
+      "en": "It's true, we are super-geniuses with overwhelming magical power. But...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75555,
+      "id": "db_EventInfo:89379:12",
+      "jp": "そんな私達であっても、どうしようもない相手なのです",
+      "en": "Even people like us are no match for them.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75556,
+      "id": "db_EventInfo:89380:115",
+      "jp": "姉様……",
+      "en": "Sister...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75557,
+      "id": "db_EventInfo:89381:12",
+      "jp": "しかし、駄犬がまだ戦うつもりであれば、私達が絶望するわけにはいきません",
+      "en": "But, if our useless dog still wants to fight, we can't just give up.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75558,
+      "id": "db_EventInfo:89382:115",
+      "jp": "うん。私達は【『死神代行助手』】として残っている。まだ何か手はあるはず",
+      "en": "Yeah. We're still here as Shinigami Agent Assistants. There must be something we can do.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75559,
+      "id": "db_EventInfo:89384:10",
+      "jp": "これだけの【『ゴブリン』】が降ってきたということは、今や人類よりも奴らの方が総数は多いかもしれないな",
+      "en": "With this many Goblins raining down, there might be more of them than humans now.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75560,
+      "id": "db_EventInfo:89385:3",
+      "jp": "なに、【『ゴブリン』】なんて恐れることはない！　妾が叩き切ってやるのじゃ！",
+      "en": "What, Goblins are nothing to fear! I'll cut them all down!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75561,
+      "id": "db_EventInfo:89386:13",
+      "jp": "敵の数が一万……いや、それ以上の大群もですかなか？",
+      "en": "You mean an enemy force of ten thousand... or an even larger horde?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 75562,
+      "id": "db_EventInfo:89387:105",
+      "jp": "当然だ！　まだ私達がいる！　いくら襲って来ようと、すべて切り伏せてくれる！",
+      "en": "Of course! We're still here! No matter how many come, we'll cut them all down!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75563,
+      "id": "db_EventInfo:89388:10",
+      "jp": "気持ちは分かるが、前線に出ても、大量の【『ゴブリン』】に飲み込まれるだけだ",
+      "en": "I know how you feel, but if you go to the front line, you'll just be swallowed up by the huge number of Goblins.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75564,
+      "id": "db_EventInfo:89389:10",
+      "jp": "むざむざ捕まって、奴らの孕み袋になるつもりか？",
+      "en": "Do you want to get caught and become their breeding bags for nothing?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75565,
+      "id": "db_EventInfo:89390:3",
+      "jp": "う、むぅ……",
+      "en": "Urgh...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75566,
+      "id": "db_EventInfo:89391:105",
+      "jp": "しかし、少しでも数を減らさなくては……",
+      "en": "But we have to reduce their numbers somehow...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75567,
+      "id": "db_EventInfo:89392:10",
+      "jp": "お前らならば、【『ゴブリン』】の大軍にも太刀打ちできるだろう。しかし、他の人間はそうではない",
+      "en": "You all could fight a big army of Goblins. But other people can't.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75568,
+      "id": "db_EventInfo:89393:10",
+      "jp": "……すでに多くの女が捕まり、奴らの孕み袋になって、数を増やさせられているはずだ",
+      "en": "...Many women have been caught. They're being used as breeding stock to increase their numbers.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75569,
+      "id": "db_EventInfo:89394:13",
+      "jp": "敵は今でも増え続けているのですな……",
+      "en": "So the enemy is still growing... Right?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 75570,
+      "id": "db_EventInfo:89395:105",
+      "jp": "おのれ……！　外道どもが！",
+      "en": "Damn it...! You monsters!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75571,
+      "id": "db_EventInfo:89396:3",
+      "jp": "うむ！　妾は諦めんぞ！　まだ【<pl>】がいるのじゃ！　妾達もいるのじゃ！",
+      "en": "Right! I won't give up! 【<pl>】 is still here! We're still here!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75572,
+      "id": "db_EventInfo:89397:10",
+      "jp": "そうだな。人類の絶滅が確定しているとしても、諦める事などできん",
+      "en": "Yeah. Even if humanity's end is certain, we can't just give up.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75573,
+      "id": "db_EventInfo:89398:10",
+      "jp": "【<pl>】殿はまだ諦めていない。私達は最後まで、共に戦うのみだ",
+      "en": "【<pl>】 hasn't given up yet. We'll just fight with you, to the very end.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75574,
+      "id": "db_EventInfo:89400:5",
+      "jp": "ああもう、【『ゴブリン』】共め！　私の作った土地が！　建物が！　資産が！",
+      "en": "Ah, for goodness sake, those Goblins! My land! My buildings! My assets!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 75575,
+      "id": "db_EventInfo:89401:5",
+      "jp": "いったいいくらしたと思ってますの！　固定資産税も払わないくせに！",
+      "en": "How much do they think this all cost!? They don't even pay property tax!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    }
+  ]
+}

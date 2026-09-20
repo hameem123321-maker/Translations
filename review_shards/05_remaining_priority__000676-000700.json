@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 676,
+  "range_end": 700,
+  "pairs": [
+    {
+      "n": 676,
+      "id": "rem_00676",
+      "jp": "守護者",
+      "en": "The Guardian",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 677,
+      "id": "rem_00677",
+      "jp": "『運命改変』により、『勇者』になるべき少年の因果を受けた女勇者。もともとは突っ走りがちな少女剣士で非常に乱暴者として、保護者のオーディを困らせていたらしい。",
+      "en": "A female hero who received the destiny of the boy meant to become the 'Hero' through 'Altered Fate.' Originally a reckless, rough-and-tumble swordswoman who often caused trouble for her guardian, Odei.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 678,
+      "id": "rem_00678",
+      "jp": "女勇者ユーステル",
+      "en": "Female Hero Eustel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 679,
+      "id": "rem_00679",
+      "jp": "フリュジットの氷獄迷宮に封じられていた古代のケモミミ。フリュジットとは彼女を封じた偉大なる竜姫の名前から取られているとされるが、封印という名目で昼寝場所を提供するのがやっとだったらしい。",
+      "en": "An ancient kemonomimi sealed within Frizhut's Frozen Prison Labyrinth. 'Frizhut' is said to be named after the great dragon princess who sealed her, though it seems the 'sealing' was merely a pretext to provide a napping spot.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 680,
+      "id": "rem_00680",
+      "jp": "ミズイロケモミミ？",
+      "en": "Mizuiro Kemonomimi?",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 681,
+      "id": "rem_00681",
+      "jp": "海底神殿で生活するネルディーネの気合いを入れていないときの姿。気合いを入れているときはもっと別のすがたをするらしい。この姿でも生半可な冒険者はまったく歯が立たない。",
+      "en": "Neldine's relaxed form when not fired up. When she's fired up, she supposedly looks quite different. Even in this form, average adventurers are no match for her.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 682,
+      "id": "rem_00682",
+      "jp": "突然出てきたドラゴン？",
+      "en": "A dragon that suddenly appeared?",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 683,
+      "id": "rem_00683",
+      "jp": "北方都市ノーザリアを裏からひっかきまわす、厄介なケモミミ将軍。実はノーザリアはケモミミの国が支配しており、彼女の姉妹が王族を牛耳っている。ノースリンデはその中では真面目で働き者な方。",
+      "en": "An annoying beast-ear general who stirs up trouble behind the scenes of the northern city of Northalia. Northalia is actually ruled by a beast-ear nation, with her sisters controlling the royalty. Northlinde is the diligent and serious one among them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 684,
+      "id": "rem_00684",
+      "jp": "氷国の姫将軍ノースリンデ①",
+      "en": "Northlinde: Ice Country Princess General I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 685,
+      "id": "rem_00685",
+      "jp": "氷国の姫将軍ノースリンデ",
+      "en": "Northlinde: Ice Country Princess General",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 686,
+      "id": "rem_00686",
+      "jp": "氷国の姫将軍ノースリンデ②",
+      "en": "Northlinde: Ice Country Princess General II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 687,
+      "id": "rem_00687",
+      "jp": "勇者になることは彼の夢であり、引き継がれた使命だった。『運命改変』を受けた際に、最も親しい者を忘れてしまっていたが、魂が縁を手繰り寄せた。兄の店を盛り立てることが彼の夢であった。",
+      "en": "Becoming the Hero was his dream and his inherited mission. When he underwent Fate Alteration, he forgot his closest person, but his soul drew their bond back. His dream was to make his brother's shop prosper.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 688,
+      "id": "rem_00688",
+      "jp": "評判の勇者ラシェウス①",
+      "en": "Rasieus, the Renowned Hero I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 689,
+      "id": "rem_00689",
+      "jp": "評判の勇者ラシェウス",
+      "en": "Rasieus, the Renowned Hero",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 690,
+      "id": "rem_00690",
+      "jp": "評判の勇者ラシェウス②",
+      "en": "Rasieus, the Renowned Hero II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 691,
+      "id": "rem_00691",
+      "jp": "評判の勇者ラシェウス③",
+      "en": "Rasieus, the Renowned Hero III",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 692,
+      "id": "rem_00692",
+      "jp": "無意識に使っていた力を制御できなくなったキャトリナ。淫魔のような姿を見せているが、淫魔と相反する血が強いため、ほとんど魔力はない。大淫魔の力にすら抗う強力な抗魔力が、彼女の祖先の力である。",
+      "en": "Catrina, unable to control a power she used unconsciously. She shows a succubus-like form, but her opposing bloodline is strong, leaving her with almost no magic. Her powerful anti-magic, which can even resist a great succubus, is her ancestors' power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 693,
+      "id": "rem_00693",
+      "jp": "暴走したキャトリナ",
+      "en": "Catrina Out of Control",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 694,
+      "id": "rem_00694",
+      "jp": "魔海要塞キングホエール①",
+      "en": "Demon Sea Fortress King Whale I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 695,
+      "id": "rem_00695",
+      "jp": "魔海要塞キングホエール②",
+      "en": "Demon Sea Fortress King Whale II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 696,
+      "id": "rem_00696",
+      "jp": "アーマニア海を漂う魔島の正体。背中の宝石は愚かな人間を釣るための疑似餌であるが、海の上を移動する人間は稀少なために、封印はなかなか解けないという。海には様々な古代の危険が眠っている。",
+      "en": "The true form of the demon island drifting the Armagnia Sea. The jewel on its back is fake bait to lure foolish humans, but since humans traveling the seas are rare, its seal is hard to break. Various ancient dangers sleep in the sea.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 697,
+      "id": "rem_00697",
+      "jp": "魔海要塞キングホエール③",
+      "en": "Demon Sea Fortress King Whale III",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 698,
+      "id": "rem_00698",
+      "jp": "魔海要塞キングホエール",
+      "en": "Demon Sea Fortress King Whale",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 699,
+      "id": "rem_00699",
+      "jp": "ノーザリアの主力兵士。強力な武具に身を包んでいる。ノーザリアは傭兵の輸出を産業としており、他地方よりも平均的な兵士の練度が高いと言われている。",
+      "en": "A main force soldier of Northalia, clad in powerful arms and armor. Northalia exports mercenaries as an industry, and its average soldier quality is said to be higher than other regions.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 700,
+      "id": "rem_00700",
+      "jp": "ノーザリア兵士",
+      "en": "Northalia Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

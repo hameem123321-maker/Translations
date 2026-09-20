@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6101,
+  "range_end": 6125,
+  "pairs": [
+    {
+      "n": 6101,
+      "id": "rem_33720",
+      "jp": "単体攻撃 威力[] +  命中[80%] + デバフ特化 + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single attack: Potency[] + Hit[80%] + Debuff focus + Inflicts [Leg Bind] (Crit chance received +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6102,
+      "id": "rem_33721",
+      "jp": "【<src>】の[足払い]！",
+      "en": "【<src>】's [Leg Sweep]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6103,
+      "id": "rem_33722",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [欲情]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Single attack: Potency[] + Hit[60%] + 【Dark】 + Debuff focus + Inflicts [Lust] (All attack damage -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6104,
+      "id": "rem_33723",
+      "jp": "【<src>】の[強制淫乱化]！",
+      "en": "【<src>】's [Forced Lechery]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6105,
+      "id": "rem_33724",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 必殺率[+20%] + 防御(小) + [病気]を付与 (すべての攻撃ダメージ-50%)",
+      "en": "Single attack: Potency[] + Hit[60%] + Crit Rate[+20%] + Defend(Small) + Inflicts [Sickness] (All attack damage -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6106,
+      "id": "rem_33725",
+      "jp": "【<src>】の[腐肉の威圧感]！",
+      "en": "【<src>】's [Rotten Flesh's Menace]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6107,
+      "id": "rem_33726",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + 必殺率[+10%] + 【闇属性】 + HP吸収(小) + 攻撃後パーティー回復",
+      "en": "Group attack: Potency[] + Hit[80%] + Crit Rate[+10%] + 【Dark】 + HP Drain(Small) + Party Heal after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6108,
+      "id": "rem_33727",
+      "jp": "【<src>】の[生気吸収]！",
+      "en": "【<src>】's [Vitality Absorption]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6109,
+      "id": "rem_33728",
+      "jp": "弓矢に氷属性の魔術を付与し、強力な一撃を放つ。魔術で強化されているために通常の弓矢よりも威力が高い。",
+      "en": "Enchants arrow with ice magic to unleash a powerful blow. More potent than a regular arrow due to magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6110,
+      "id": "rem_33729",
+      "jp": "範囲(大)攻撃 威力[D+] +  命中[70%] + 必殺率[+5%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Large AoE attack: Potency[D+] + Hit[70%] + Crit Rate[+5%] + 【Ice】 + Inflicts [Freeze] (Phys. damage reduction -30% + Crit chance received +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6111,
+      "id": "rem_33730",
+      "jp": "【<src>】は[アイスアロー]を放った！",
+      "en": "【<src>】 launched an [Ice Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6112,
+      "id": "rem_33731",
+      "jp": "弓矢に火属性の魔術を付与し、強力な一撃を放つ。魔術で強化されているために通常の弓矢よりも威力が高い。",
+      "en": "Enchants arrow with fire magic to unleash a powerful blow. More potent than a regular arrow due to magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6113,
+      "id": "rem_33732",
+      "jp": "範囲(大)攻撃 威力[D+] +  命中[70%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Large AoE attack: Potency[D+] + Hit[70%] + 【Fire】 + Inflicts [Blaze] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6114,
+      "id": "rem_33733",
+      "jp": "【<src>】は[ファイアアロー]を放った！",
+      "en": "【<src>】 launched a [Fire Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6115,
+      "id": "rem_33734",
+      "jp": "仲間の武器に魔力を宿らせ、武器攻撃に属性を付与する。属性ありのスキルで攻撃した場合でも弱点に適合し、両方の弱点を突くことも可能。魔術攻撃には効果が無い。",
+      "en": "Imbues ally's weapon with magic, granting attacks an element. Can match and strike both weaknesses even with a skill. No effect on magic attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6116,
+      "id": "rem_33735",
+      "jp": "CT回復(小) + 【仲間】に【氷付与】を付与 (属性付与・氷属性)",
+      "en": "CT Recovery(Small) + Grants 【Ally】 【Ice Imbuement】 (Elemental Enchant・Ice)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6117,
+      "id": "rem_33736",
+      "jp": "【<src>】の[コールドウェポン]効果が武器に宿った！",
+      "en": "【<src>】's [Cold Weapon] effect has imbued the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6118,
+      "id": "rem_33737",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [猛毒]を付与 (毒によりターンごとにダメージ+20%)",
+      "en": "Single attack: Potency[] + Hit[60%] + Inflicts [Deadly Poison] (Poison deals +20% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6119,
+      "id": "rem_33738",
+      "jp": "【<src>】の[ポイズンブロウ]！",
+      "en": "【<src>】's [Poison Blow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6120,
+      "id": "rem_33739",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 連撃率[+30%] + デバフ特化 + [欲情]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Single attack: Potency[] + Hit[60%] + Combo Rate[+30%] + Debuff focus + Inflicts [Lust] (All attack damage -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6121,
+      "id": "rem_33740",
+      "jp": "【<src>】の[欲情の誘い]！",
+      "en": "【<src>】's [Lustful Temptation]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6122,
+      "id": "rem_33741",
+      "jp": "単体攻撃 威力[] +  命中[80%]",
+      "en": "Single attack Power[] + Hit[80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6123,
+      "id": "rem_33742",
+      "jp": "【<src>】の[にげまどいアタック]！",
+      "en": "【<src>】's [Panicked Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6124,
+      "id": "rem_33743",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [睡眠]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Group attack Power[] + Hit[60%] + 【Dark】 + Debuff focus + Inflicts [Sleep] (Crit rate received +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6125,
+      "id": "rem_33744",
+      "jp": "【<src>】の[スリープミスト]！",
+      "en": "【<src>】's [Sleep Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

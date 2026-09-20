@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2876,
+  "range_end": 2900,
+  "pairs": [
+    {
+      "n": 2876,
+      "id": "db_EventInfo:3143:2",
+      "jp": "【『ダンジョン』】を選んだら、次は向かうメンバーを選ぶデス",
+      "en": "After you pick the 【『Dungeon』】, next choose who's going Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2877,
+      "id": "db_EventInfo:3144:2",
+      "jp": "ユニットを選択して、スロットに配置するデスよ",
+      "en": "Select your units and place them in the slots, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2878,
+      "id": "db_EventInfo:3145:2",
+      "jp": "ここがダンジョンデスね",
+      "en": "This is the dungeon, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2879,
+      "id": "db_EventInfo:3146:2",
+      "jp": "ここから先は危険がいっぱいデス。気を抜くなデスよ",
+      "en": "It's dangerous from here on, Death. Don't let your guard down, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2880,
+      "id": "db_EventInfo:3147:1",
+      "jp": "そんなこと言われたって、俺は戦いとか無縁の生活してたんだぞ？",
+      "en": "Even if you say that, I've lived a life with nothing to do with fighting!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2881,
+      "id": "db_EventInfo:3148:2",
+      "jp": "心配するなデス。オマエは転生者、【依り代】になった男の経験とかを受け継いでるはずデス",
+      "en": "Don't worry, Death. You're a reincarnated one. You should have the experience of the man who became the ['Vessel'], Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2882,
+      "id": "db_EventInfo:3149:1",
+      "jp": "【依り代】……？",
+      "en": "['Vessel']...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2883,
+      "id": "db_EventInfo:3150:2",
+      "jp": "……でもよく考えるとアイツ、口は上手かったデスが、腕っ節はてんでダメだったデスね",
+      "en": "But come to think of it... He was good at talking, but his arms were totally useless.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2884,
+      "id": "db_EventInfo:3151:2",
+      "jp": "いや、それは前の候補だったデス。今度のオマエはええと……",
+      "en": "No, wait. That was the last candidate. As for you this time...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2885,
+      "id": "db_EventInfo:3153:2",
+      "jp": "頑張るデス！",
+      "en": "I'll work hard, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2886,
+      "id": "db_EventInfo:3154:1",
+      "jp": "おいっ！",
+      "en": "Hey!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2887,
+      "id": "db_EventInfo:3155:0",
+      "jp": "★ガイド・ダンジョン内はWASDキーで移動する",
+      "en": "★ GUIDE - In the dungeon, move with the WASD keys.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2888,
+      "id": "db_EventInfo:3156:0",
+      "jp": "★ガイド・ダンジョン内で右クリック＋移動でダッシュ",
+      "en": "★ GUIDE - In the dungeon, right-click + move to dash.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2889,
+      "id": "db_EventInfo:3157:0",
+      "jp": "★ガイド・次のフロアに移動する",
+      "en": "★ GUIDE - Move to the next floor.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2890,
+      "id": "db_EventInfo:3158:2",
+      "jp": "初回デスし、今回の探索はこれぐらいにしておくデスかね",
+      "en": "Since this is your first time, maybe we should end this exploration here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2891,
+      "id": "db_EventInfo:3159:2",
+      "jp": "ダンジョンでトレジャーをゲットしたら、商品を開発するために必要な【『開発ポイント』】が稼げるデス",
+      "en": "When you get treasure in the dungeon, you can earn 'Development Points' to develop new goods.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2892,
+      "id": "db_EventInfo:3160:2",
+      "jp": "ちなみに、オマエがダンジョンを探索している間も、スタッフどもが店の売上げを立てるので、安心して探索すると良いデス",
+      "en": "By the way, while you're exploring the dungeon, the staff will keep making sales. So you can explore without worry.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2893,
+      "id": "db_EventInfo:3161:2",
+      "jp": "ダンジョンで【『開発ポイント』】をゲットできたデス？",
+      "en": "Did you get some 'Development Points' in the dungeon?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2894,
+      "id": "db_EventInfo:3162:2",
+      "jp": "ゲットしたら、さっそく新しい【『商品』】を作るデス",
+      "en": "If you got some, let's make a new 'Product' right away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2895,
+      "id": "db_EventInfo:3163:2",
+      "jp": "商品メニューがよくなることで、店の評判がよくなるデス",
+      "en": "A better product menu means a better reputation for the store.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2896,
+      "id": "db_EventInfo:3164:2",
+      "jp": "店の評判がよくなることは、神である私への信仰心が高まることにつながるのデス",
+      "en": "A better store reputation means more faith in me, your god.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2897,
+      "id": "db_EventInfo:3165:2",
+      "jp": "つまり、商品メニューをよくすることで、私の神の力が強くなるデス！",
+      "en": "So, improving the menu makes my god powers stronger!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2898,
+      "id": "db_EventInfo:3166:1",
+      "jp": "なんか理屈おかしくないか？",
+      "en": "That logic seems kinda weird, doesn't it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2899,
+      "id": "db_EventInfo:3167:2",
+      "jp": "そういうものだからしょうがないデス",
+      "en": "That's just how it is, nothing you can do about it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2900,
+      "id": "db_EventInfo:3168:2",
+      "jp": "神の力が高まれば、オマエたちはパワーアップ出来るデス！　たくさんメニューを作るデス！　販売する【『店員』】も揃えるデス！",
+      "en": "With more god power, you can level up Desu! Make more menu items Desu! And get more 【『Salespeople』】 Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

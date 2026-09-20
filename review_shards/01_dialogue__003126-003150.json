@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3126,
+  "range_end": 3150,
+  "pairs": [
+    {
+      "n": 3126,
+      "id": "db_EventInfo:3400:2",
+      "jp": "ドロボーを捕まえると、わずかデスが【報奨金】が入るデス",
+      "en": "Catching a thief gets us a small reward.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3127,
+      "id": "db_EventInfo:3401:2",
+      "jp": "しかし、盗まれたモノは帰ってこないデス。ドロボーを許した時点で損害デス",
+      "en": "But we don't get the stolen stuff back. Letting the thief go is a loss.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3128,
+      "id": "db_EventInfo:3402:1",
+      "jp": "泥棒自体を減らさないとな……",
+      "en": "We need to reduce the number of thieves...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3129,
+      "id": "db_EventInfo:3403:2",
+      "jp": "まあそのかわり、【『犯罪値』】はごっそり減るデス",
+      "en": "Well, on the bright side, the Crime Rate goes down a lot.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3130,
+      "id": "db_EventInfo:3404:2",
+      "jp": "見せしめ、ってことデスね……ククク",
+      "en": "It's a warning to others... Heh heh heh.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3131,
+      "id": "db_EventInfo:3405:1",
+      "jp": "（目が笑ってない！）",
+      "en": "(His eyes aren't smiling!).",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3132,
+      "id": "db_EventInfo:3406:2",
+      "jp": "ああっ、客が攻撃されたデス！",
+      "en": "Ah! A customer is under attack!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3133,
+      "id": "db_EventInfo:3407:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3134,
+      "id": "db_EventInfo:3408:2",
+      "jp": "このままだと店に被害が出るデス。さっさと盗賊を倒すデス！",
+      "en": "If we let this go, the store will take damage. We need to take down these thieves now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3135,
+      "id": "db_EventInfo:3409:1",
+      "jp": "そうは言っても素早くて、一気に倒せないな",
+      "en": "Easier said than done. They're fast. We can't take them all out at once.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3136,
+      "id": "db_EventInfo:3410:1",
+      "jp": "（足りないなら、人手を増やすしかないか……？　うーん……）",
+      "en": "(If we don't have enough, maybe we need more people...? Hmm...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3137,
+      "id": "db_EventInfo:3411:2",
+      "jp": "ああっ、客が倒されてしまったデス！",
+      "en": "Ah! A customer was taken down!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3138,
+      "id": "db_EventInfo:3412:1",
+      "jp": "なんてこった",
+      "en": "Oh no.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3139,
+      "id": "db_EventInfo:3413:2",
+      "jp": "ヤツらが暴れると損害が出るデス。さっさと倒すデス！",
+      "en": "If we let them run wild, we'll lose money. Take them down now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3140,
+      "id": "db_EventInfo:3414:1",
+      "jp": "そうは言っても素早くて、一気に倒せないな",
+      "en": "Easier said than done. They're fast. We can't take them all out at once.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3141,
+      "id": "db_EventInfo:3415:2",
+      "jp": "【『防犯』】の値が高い店員なら戦力になるはずデス。そういう奴らを求人するデス！",
+      "en": "Staff with high 'Crime Prevention' stats should help in a fight. Hire some people like that!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3142,
+      "id": "db_EventInfo:3416:1",
+      "jp": "と、とにかく今はなんとかしないと！",
+      "en": "For now, we just have to deal with this somehow!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3143,
+      "id": "db_EventInfo:3417:2",
+      "jp": "ならずものをつかまえたデス！",
+      "en": "We caught the troublemaker!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3144,
+      "id": "db_EventInfo:3418:2",
+      "jp": "ならずものをつかまえると、【報奨金】がもらえるデス、どんどん捕まえるデス！",
+      "en": "When you catch troublemakers, you get a 'reward'. Catch them all!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3145,
+      "id": "db_EventInfo:3419:2",
+      "jp": "ゴブリンを倒したデス！",
+      "en": "We beat the Goblin, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3146,
+      "id": "db_EventInfo:3420:2",
+      "jp": "ゴブリンを倒すと、【報奨金】がもらえるデス、皆殺しにしてやるデス！",
+      "en": "If you beat Goblins, you get a reward, desu. Let's kill them all, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3147,
+      "id": "db_EventInfo:3421:2",
+      "jp": "でかいゴブリンを倒したデス！",
+      "en": "We beat a big Goblin, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3148,
+      "id": "db_EventInfo:3422:2",
+      "jp": "でかいだけに、普通のゴブリンよりも手強いデス。頑張って倒すデス！",
+      "en": "Because it's big, it's tougher than a normal Goblin, desu. Work hard to beat it, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3149,
+      "id": "db_EventInfo:3423:2",
+      "jp": "邪教徒を倒したデス！",
+      "en": "We beat the cultist, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3150,
+      "id": "db_EventInfo:3424:2",
+      "jp": "こんな奴らが攻めてくるようになったデスかね。こいつらも【報奨金】がもらえるデス",
+      "en": "So these are the guys attacking now, desu, huh? You can get a reward for these guys too, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

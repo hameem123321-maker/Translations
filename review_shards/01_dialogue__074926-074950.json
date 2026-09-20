@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 74926,
+  "range_end": 74950,
+  "pairs": [
+    {
+      "n": 74926,
+      "id": "db_EventInfo:88624:0",
+      "jp": "★フラグオン・強制パーティー変更・ラシェウス",
+      "en": "*Flag ON: Forced Party Change - Rasieus*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74927,
+      "id": "db_EventInfo:88626:19",
+      "jp": "実は俺、【『勇者』】の里の出身なんだけど、話したことはあったっけ？",
+      "en": "Actually, I'm from the [\"Hero\"]'s village. Did I ever mention that?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74928,
+      "id": "db_EventInfo:88627:19",
+      "jp": "だよなー。俺達は代々【『勇者』】の家系なんだ",
+      "en": "Right? My family are descendants of the [\"Hero\"], generation after generation.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74929,
+      "id": "db_EventInfo:88628:19",
+      "jp": "そうか？　俺達は代々【『勇者』】の家系でさ、そういう【『勇者』】を育てる隠れ里なんだ",
+      "en": "Oh yeah? We're a family line of [\"Heroes\"], born and bred. It's a hidden village for raising those kind of [\"Heroes\"].",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74930,
+      "id": "db_EventInfo:88629:19",
+      "jp": "ツバキのやつも同じ里の出身でな。まあ、幼馴染みって奴だ",
+      "en": "Tsubaki's from the same village, too. He's like my childhood friend, I guess.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74931,
+      "id": "db_EventInfo:88630:19",
+      "jp": "【『勇者』】と、【『勇者』】に従う仲間を育成するような場所が、【『勇者』】の里だ",
+      "en": "A Hero's Village is a place that raises the Hero, and the companions who follow the Hero.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74932,
+      "id": "db_EventInfo:88631:19",
+      "jp": "でさ、実は俺、「神の子」と呼ばれるほど、剣の才能に恵まれてるってことになってるんだよ",
+      "en": "You see, I'm actually supposed to have so much talent with a sword that I'm called 'God's Child'.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74933,
+      "id": "db_EventInfo:88632:1",
+      "jp": "恵まれて……【いることになっている】？",
+      "en": "Supposed to have... talent?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74934,
+      "id": "db_EventInfo:88633:19",
+      "jp": "そう、【『勇者』】の子孫だからって、【『勇者』】になるとは限らない",
+      "en": "Yeah. Just because you're a descendant of the Hero doesn't mean you'll become the Hero.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74935,
+      "id": "db_EventInfo:88634:19",
+      "jp": "生まれた子供のうち、才能があるヤツが【『勇者』】になる。誰も才能がない時代ってのもあったらしいけどな",
+      "en": "Only the child with talent becomes the Hero. I hear there were times when no one had any talent.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74936,
+      "id": "db_EventInfo:88635:19",
+      "jp": "でまあ、俺の世代だと、「神の子」なんてとんでもない才能の持ち主が出たわけだ",
+      "en": "So, in my generation, someone with unbelievable talent appeared - the 'God's Child'.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74937,
+      "id": "db_EventInfo:88636:19",
+      "jp": "こりゃ将来的には【時代の大勇者】だって、強制的に【『勇者』】にされることが確定しちまうんだよ",
+      "en": "They said I was destined to become the Great Hero of the Era. So it was decided I'd be forced to become the Hero.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74938,
+      "id": "db_EventInfo:88637:19",
+      "jp": "【俺は】【『勇者』】になんてなりたくなかった、そんなのより、世界を旅する【『大商人』】になりたかったんだ",
+      "en": "I didn't want to be the Hero. I wanted to be a Great Merchant and travel the world.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74939,
+      "id": "db_EventInfo:88640:19",
+      "jp": "一方でさ、俺には【ルースって名前の弟】がいたんだ",
+      "en": "On the other hand, I had a younger brother named Loose.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74940,
+      "id": "db_EventInfo:88641:1",
+      "jp": "【弟】……？",
+      "en": "A brother...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74941,
+      "id": "db_EventInfo:88642:19",
+      "jp": "ああ。【ルース】は兄と違って、出来が悪くてな。剣も魔術もさっぱり身につかねえ",
+      "en": "Yeah. Unlike his big brother, Loose was no good. He couldn't master swordsmanship or magic at all.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74942,
+      "id": "db_EventInfo:88643:19",
+      "jp": "さらに性格も不真面目と来た",
+      "en": "And on top of that, his attitude was terrible.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74943,
+      "id": "db_EventInfo:88644:19",
+      "jp": "でもそいつは――誰よりも【『勇者』】に憧れていた。才能がまるでない、ただの遊び人のくせにさ",
+      "en": "But that guy... he idolized the 'Hero' more than anyone. Even though he had no talent and was just a playboy.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74944,
+      "id": "db_EventInfo:88645:19",
+      "jp": "いちおう言い訳はしとくぜ？　ルースも兄貴同様か、それ以上に修行はしたつもりだった",
+      "en": "Let me explain, okay? Like my brother, or even more than him, Luth did try to train hard.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74945,
+      "id": "db_EventInfo:88646:19",
+      "jp": "【『勇者』】になれるなら、命を投げ出しても構わない。そう思って打ち込んでも……",
+      "en": "He thought if he could become the 'Hero', he wouldn't mind throwing his life away. He poured everything into it...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74946,
+      "id": "db_EventInfo:88647:19",
+      "jp": "さっぱり技が身につかないんだから、どうしようもないよな",
+      "en": "But he just couldn't get any skills to stick. It was hopeless, wasn't it?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74947,
+      "id": "db_EventInfo:88648:1",
+      "jp": "ラシェウス……？",
+      "en": "Rasieus...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74948,
+      "id": "db_EventInfo:88649:0",
+      "jp": "ラシェウスはそこで話を止め、先に進み出した。",
+      "en": "Rasieus stopped talking there and started walking ahead.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74949,
+      "id": "db_EventInfo:88651:19",
+      "jp": "さて、俺の話もこれで最後だ",
+      "en": "Right. This is the end of my story.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 74950,
+      "id": "db_EventInfo:88652:19",
+      "jp": "ええっと、俺と弟のルースの話をしたんだよな",
+      "en": "Um, I told you about me and my younger brother, Luth, right?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

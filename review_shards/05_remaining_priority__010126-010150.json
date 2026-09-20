@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10126,
+  "range_end": 10150,
+  "pairs": [
+    {
+      "n": 10126,
+      "id": "rem_37848",
+      "jp": "搾精による売上+25%",
+      "en": "Sales from Essence +25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10127,
+      "id": "rem_37849",
+      "jp": "搾精による売上+30%",
+      "en": "Sales from Essence +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10128,
+      "id": "rem_37850",
+      "jp": "搾精による売上+40%",
+      "en": "Sales from Essence +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10129,
+      "id": "rem_37851",
+      "jp": "搾精による売上+50%",
+      "en": "Sales from Essence +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10130,
+      "id": "rem_37852",
+      "jp": "搾精による売上+100%",
+      "en": "Sales from Essence +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10131,
+      "id": "rem_37853",
+      "jp": "接客と搾精による売上+10%",
+      "en": "Sales from Service & Essence +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10132,
+      "id": "rem_37854",
+      "jp": "接客と搾精による売上+20%",
+      "en": "Sales from Service & Essence +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10133,
+      "id": "rem_37855",
+      "jp": "接客と搾精による売上+30%",
+      "en": "Sales from Service & Essence +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10134,
+      "id": "rem_37856",
+      "jp": "接客と搾精による売上+50%",
+      "en": "Sales from Service & Essence +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10135,
+      "id": "rem_37857",
+      "jp": "搾精施設の売上+1%",
+      "en": "Essence Facility Sales +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10136,
+      "id": "rem_37858",
+      "jp": "搾精施設の売上+5%",
+      "en": "Essence Facility Sales +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10137,
+      "id": "rem_37859",
+      "jp": "搾精施設の売上+20%",
+      "en": "Essence Facility Sales +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10138,
+      "id": "rem_37860",
+      "jp": "搾精施設の売上+30%",
+      "en": "Essence Facility Sales +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10139,
+      "id": "rem_37861",
+      "jp": "娯楽施設の売上+20%",
+      "en": "Entertainment Facility Sales +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10140,
+      "id": "rem_37862",
+      "jp": "娯楽施設の売上+30%",
+      "en": "Entertainment Facility Sales +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10141,
+      "id": "rem_37863",
+      "jp": "娯楽施設の売上+100%",
+      "en": "Entertainment facility sales +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10142,
+      "id": "rem_37864",
+      "jp": "宿泊施設の売上+10%",
+      "en": "Lodging sales +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10143,
+      "id": "rem_37865",
+      "jp": "宿泊施設の売上+15%",
+      "en": "Lodging sales +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10144,
+      "id": "rem_37866",
+      "jp": "宿泊施設の売上+20%",
+      "en": "Lodging sales +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10145,
+      "id": "rem_37867",
+      "jp": "芸人・芸術家への売上+25%",
+      "en": "Sales to entertainers/artists +25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10146,
+      "id": "rem_37868",
+      "jp": "客の流入数+3%",
+      "en": "Customer influx +3%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10147,
+      "id": "rem_37869",
+      "jp": "客の流入数+10%",
+      "en": "Customer influx +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10148,
+      "id": "rem_37870",
+      "jp": "接客と搾精による売上+40%",
+      "en": "Hospitality & extraction sales +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10149,
+      "id": "rem_37871",
+      "jp": "宿泊施設の売上+30%",
+      "en": "Lodging sales +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10150,
+      "id": "rem_37872",
+      "jp": "宿泊施設の売上+40%",
+      "en": "Lodging sales +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

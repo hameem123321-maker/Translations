@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3151,
+  "range_end": 3175,
+  "pairs": [
+    {
+      "n": 3151,
+      "id": "db_EventInfo:3427:2",
+      "jp": "【パートナーミッション】が解放されたデスね",
+      "en": "A Partner Mission has been unlocked, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3152,
+      "id": "db_EventInfo:3428:2",
+      "jp": "ユニークユニットからの要望である【パートナーミッション】をクリアすると、スタッフとの絆が深まり、スタッフのランクがアップするデス",
+      "en": "Complete a Partner Mission, which is a request from a unique unit, to deepen your bond with the staff and raise the staff's rank, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3153,
+      "id": "db_EventInfo:3429:2",
+      "jp": "ランクアップすると、店員としての能力が高まって、より多くのカネを稼げるようになるデス。ランクアップは重要デス！",
+      "en": "When their rank goes up, their ability as a shop clerk improves and they can earn more money, desu. Raising rank is important, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3154,
+      "id": "db_EventInfo:3430:2",
+      "jp": "ダンジョンに参加できるスタッフであれば、戦闘能力もアップするデス。クリア得なので、どんどん受けてミッションクリアするデス！",
+      "en": "For staff that can join dungeons, their combat ability also improves, desu. It's a clear win, so keep accepting and completing these missions, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3155,
+      "id": "db_EventInfo:3431:2",
+      "jp": "一方で、ユニークユニットのランクは【パートナーミッションをクリアしないと、高まらない】デス。モブと違って面倒くさいのデス",
+      "en": "On the other hand, the rank of unique units won't go up if you don't clear Partner Missions, desu. They're more troublesome than the mob ones, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3156,
+      "id": "db_EventInfo:3432:2",
+      "jp": "ちなみにミッションを放置すると【10日で取り消し】になるデス。念のため、気を付けるデス",
+      "en": "By the way, if you ignore a mission, it gets canceled after 10 days, desu. Just in case, be careful, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3157,
+      "id": "db_EventInfo:3433:2",
+      "jp": "ユニットのランクをアップさせたのデスね",
+      "en": "You upgraded a unit's rank, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3158,
+      "id": "db_EventInfo:3434:2",
+      "jp": "ランクアップすると、店員としての能力が高まって、より多くのカネを稼げるようになるデス。ランクアップは重要デス！",
+      "en": "Higher rank means better skills as a shopkeeper. They can make more money. Rank-ups are important, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3159,
+      "id": "db_EventInfo:3435:2",
+      "jp": "ただし、私やオマエのような【ユニークユニット】のランクはボタン一つでアップできないデス。モブと違って面倒くさいのデス",
+      "en": "But for [Unique Units] like me or you, you can't just push a button to rank up. It's more annoying than for the mobs, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3160,
+      "id": "db_EventInfo:3436:2",
+      "jp": "ランクアップの方法はまた別の方法があるデス。【そのうち解放される】はずなので、気にせず経営を続けるデス",
+      "en": "There's another way to rank us up. [It'll be unlocked later]. So don't worry and just keep running the shop, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3161,
+      "id": "db_EventInfo:3437:2",
+      "jp": "ユニットのランクの限界に達しているデスね。ユニットランクは死神の格に比例して限界が高まるデス",
+      "en": "This unit's rank has hit its limit, desu ne. A unit's rank limit is tied to the Shinigami's status, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3162,
+      "id": "db_EventInfo:3438:2",
+      "jp": "死神の格はすなわち店の格デス。店の格を高めるには商品メニューの開発が必要デス。【開発数に応じてユニットランクの限界も高まる】デス。",
+      "en": "The Shinigami's status is the shop's status, desu. To raise the shop's status, you need to develop new product menus. [As you develop more, the unit rank limit goes up], desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3163,
+      "id": "db_EventInfo:3439:2",
+      "jp": "目指すは商品メニューのコンプリートデス！",
+      "en": "Our goal is to complete the product menu, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3164,
+      "id": "db_EventInfo:3440:0",
+      "jp": "★bgm・不穏",
+      "en": "(★bgm - Ominous)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3165,
+      "id": "db_EventInfo:3441:2",
+      "jp": "ああもう！　店が汚くなってイライラするデス！",
+      "en": "Argh, seriously! This dirty shop is so irritating, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3166,
+      "id": "db_EventInfo:3442:1",
+      "jp": "おっ、落ち着けって！？",
+      "en": "Hey, calm down!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3167,
+      "id": "db_EventInfo:3443:2",
+      "jp": "落ち着けないデス！　オマエが掃除をしないなら、私がこの【鎌】でまとめてスッパリ綺麗にしてやるデス！",
+      "en": "I can't calm down, desu! If you won't clean, I'll use this [Scythe] to neatly tidy everything up at once, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3168,
+      "id": "db_EventInfo:3444:1",
+      "jp": "やっ、やめろおおおおおおおお！！！",
+      "en": "Sto-op, stooooooop!!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3169,
+      "id": "db_EventInfo:3447:0",
+      "jp": "その後、シイネが大暴れして……。",
+      "en": "Then, Shiine went on a rampage...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3170,
+      "id": "db_EventInfo:3448:0",
+      "jp": "俺達の店にとてつもない被害が出てしまった……。",
+      "en": "Our shop suffered massive damage...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3171,
+      "id": "db_EventInfo:3449:1",
+      "jp": "(シイネをキレさせないように、掃除しないとな……)",
+      "en": "(I have to clean... or I'll set Shiine off again.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3172,
+      "id": "db_EventInfo:3450:0",
+      "jp": "★フラグオン・ゴミを全クリア",
+      "en": "★CLEAR ALL TRASH FLAGS",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3173,
+      "id": "db_EventInfo:3451:2",
+      "jp": "おいオマエ、【ごみ】が散らかっているデス",
+      "en": "Hey you, there's trash all over the place!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3174,
+      "id": "db_EventInfo:3452:1",
+      "jp": "【『清掃』】の手が足りてないみたいだな",
+      "en": "Looks like we're short on hands for Cleaning.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3175,
+      "id": "db_EventInfo:3453:2",
+      "jp": "ならば【『編成』】で誰かを【『清掃』】にするデス！",
+      "en": "Then assign someone to Cleaning through the Staff Roster!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

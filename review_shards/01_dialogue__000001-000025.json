@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1,
+  "range_end": 25,
+  "pairs": [
+    {
+      "n": 1,
+      "id": "db_EventInfo:249:140",
+      "jp": "初心者が装備するなら【『槍』】じゃな。威力があり、安定している",
+      "en": "For a beginner, the 【『Spear』】 is recommended. It's powerful and stable.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 2,
+      "id": "db_EventInfo:250:140",
+      "jp": "狭い場所で振り回したら壁にぶつかりそうなもんじゃが【なぜか】そういうものもないぞい",
+      "en": "You'd think swinging it in a tight space would make it hit a wall, but [somehow] that doesn't seem to happen.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 3,
+      "id": "db_EventInfo:251:140",
+      "jp": "本当に薦めたいのは【『斧』】じゃがな。あれはバクチっぽいところがあるからのう",
+      "en": "The one I'd really like to recommend is the 【『Axe』】. But that one's a bit of a gamble, you see.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 4,
+      "id": "db_EventInfo:252:140",
+      "jp": "ま、装備の持ち替えできればの話じゃのう！　ガハハ！",
+      "en": "Well, that's assuming you can switch equipment, isn't it! Gahaha!",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 5,
+      "id": "db_EventInfo:253:140",
+      "jp": "ドワームは好まんが【『弓』】は強力な武器じゃ。当てるのは難しいが、当てれば鉄板でもブチ破るぞい",
+      "en": "Dwarm doesn't like them, but the 【『Bow』】 is a powerful weapon. It's hard to hit with, but if you do, it'll punch right through even sheet iron.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 6,
+      "id": "db_EventInfo:254:140",
+      "jp": "【『短剣』】は威力が低くてのう。大きな魔獣には力不足じゃ",
+      "en": "The 【『Dagger』】 lacks power. It's insufficient against large monsters.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 7,
+      "id": "db_EventInfo:255:140",
+      "jp": "といっても、手数の多さや【『速度』】でダメージ不足を補うこともあるがのう。探索が得意な奴が好む武器じゃのう",
+      "en": "That said, its high number of attacks and 【『Speed』】 can sometimes compensate for the lack of damage. It's a weapon favored by those skilled in exploration.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 8,
+      "id": "db_EventInfo:256:140",
+      "jp": "異邦の武器である【『刀』】ってのは作るのが難しくてのう。ドワームにも作れるのは一握りじゃ",
+      "en": "The 【『Katana』】, a weapon from foreign lands, is difficult to craft. Even among Dwarm, only a handful can make them.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 9,
+      "id": "db_EventInfo:257:140",
+      "jp": "もっとも、姫様であれば容易い。姫様に作れぬ武器など存在せぬからのう",
+      "en": "However, for the Princess, it would be easy. No weapon exists that the Princess cannot craft.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 10,
+      "id": "db_EventInfo:258:140",
+      "jp": "まあそもそも、【『刀』】は扱いが難しく、そのスペックを生かせるのはなかなかおらんがのう",
+      "en": "But anyway, the 【『Katana』】 is difficult to wield, and there are few who can truly utilize its specs.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 11,
+      "id": "db_EventInfo:259:140",
+      "jp": "なんせ、うかつに殴ればポッキリ逝くからのう",
+      "en": "After all, if you're careless and just swing it, it'll snap and be done for.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 12,
+      "id": "db_EventInfo:260:140",
+      "jp": "どういうわけか、特別な素質がなければ振るえない武器というモノがある。【『刀』】もそうじゃが",
+      "en": "For some reason, there are weapons that cannot be wielded without a special quality. The 【『Katana』】 is one such weapon.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 13,
+      "id": "db_EventInfo:261:140",
+      "jp": "魔術師が使う武器……【『魔鞭』】【『魔扇』】【『魔書』】なんかはそうじゃのう。本でどうやって戦うのじゃ？　殴るのかのう？",
+      "en": "Weapons used by mages... things like 【『Magic Whips』】【『Magic Fans』】【『Magic Books』】 are like that. How do you fight with a book? Do you just hit people with it?",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 14,
+      "id": "db_EventInfo:262:140",
+      "jp": "まあそれらが、特別に強いというわけではないみたいじゃが、特別な効果を持っているモノが多いようじゃ",
+      "en": "Well, it doesn't seem like they are particularly strong, but many of them seem to have special effects.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 15,
+      "id": "db_EventInfo:263:140",
+      "jp": "伝承にのみ存在する【伝説の武器】というものがあるぞい",
+      "en": "There exists something known only in legends: the [Legendary Weapons].",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 16,
+      "id": "db_EventInfo:264:140",
+      "jp": "姫様はあらゆる武具を作りあげるが、作れないモノがそれじゃ",
+      "en": "While the Princess can create all manner of arms and armor, those are the things she cannot make.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 17,
+      "id": "db_EventInfo:265:140",
+      "jp": "もっとも姫様は【『鍛冶姫』】。なんらかのインスピレーションがあれば作れるはずじゃ",
+      "en": "Though, the Princess is the 【『Forging Princess』】. She should be able to make them if she gets some sort of inspiration.",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 18,
+      "id": "db_EventInfo:266:140",
+      "jp": "しばらくは武器の出番は減りそうじゃな。ほっほっ、飲み明かすぞい！",
+      "en": "It seems the weapon's time to shine will be scarce for a while. Hoh-hoh, let's drink all night!",
+      "speaker": "Dalton",
+      "speaker_jp": "ダルトン"
+    },
+    {
+      "n": 19,
+      "id": "db_EventInfo:267:126",
+      "jp": "職人の手を借りれば、【『建物』】は【改良すること】でレベルアップすることができる",
+      "en": "If you get help from a craftsman, you can level up your 【『Buildings』】 by 【『Upgrading them』】.",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 20,
+      "id": "db_EventInfo:268:126",
+      "jp": "【『建物』】がレベルアップすると、【『建物』】による効果がアップするぜ！",
+      "en": "When a 【『Building』】 levels up, the effects from that 【『Building』】 increase!",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 21,
+      "id": "db_EventInfo:269:126",
+      "jp": "ま、改良するには、大金が必要なんだがな。ガハハ！！",
+      "en": "Ah, but upgrading requires a lot of money. Gahaha!!",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 22,
+      "id": "db_EventInfo:270:126",
+      "jp": "生産はいろんなタイプがある。【『鍛冶』】が得意なヤツも【『料理』】が得意なヤツもいる",
+      "en": "There are various types of production. Some guys are good at 【『Smithing』】, others are good at 【『Cooking』】.",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 23,
+      "id": "db_EventInfo:271:126",
+      "jp": "できれば得意な奴に任せてやりてえが、不得意でも仕事は出来るぜ",
+      "en": "If possible, you'd want to leave it to the one who's good at it, but even if they're not skilled, they can still do the job.",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 24,
+      "id": "db_EventInfo:272:126",
+      "jp": "最初はテキトーでいいんだよ、ガハハ！",
+      "en": "At the start, anything goes! Gahaha!",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    },
+    {
+      "n": 25,
+      "id": "db_EventInfo:273:126",
+      "jp": "【『鍛冶』】による商品は【『料理』】よりも高い値段が付きやすい",
+      "en": "Goods from [Smithing] generally command higher prices than those from [Cooking].",
+      "speaker": "Manvir",
+      "speaker_jp": "マンヴィール"
+    }
+  ]
+}

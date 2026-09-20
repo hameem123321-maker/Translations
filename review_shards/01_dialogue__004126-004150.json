@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4126,
+  "range_end": 4150,
+  "pairs": [
+    {
+      "n": 4126,
+      "id": "db_EventInfo:4685:2",
+      "jp": "戦闘を開始するまでは、いつでもスキルウィンドウを開けるデス",
+      "en": "Before you start fighting, you can open the skill window anytime.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4127,
+      "id": "db_EventInfo:4686:2",
+      "jp": "サポートスキルはＭＰの続く限り、何度でも使えるデス。サポートスキルを使ってもターンは開始されないので安心するデス",
+      "en": "Support skills can be used over and over as long as you have MP. And don't worry, using one doesn't start your turn.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4128,
+      "id": "db_EventInfo:4687:2",
+      "jp": "強敵と出会ったときは、準備をしてから戦闘開始するデスよ",
+      "en": "When you meet a tough enemy, get ready first before the fight starts.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4129,
+      "id": "db_EventInfo:4688:38",
+      "jp": "お、おい、何だよこの服！？　アタイを売り飛ばすつもりか！？",
+      "en": "Wh-what the hell is this outfit!? Are you planning to sell me off!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4130,
+      "id": "db_EventInfo:4689:1",
+      "jp": "ち、違う！　これもその、修行の一環で……",
+      "en": "N-no! This is also, um, part of the training...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4131,
+      "id": "db_EventInfo:4690:38",
+      "jp": "何言ってやがる！　ガキでももっとマシな嘘を言うぜ！",
+      "en": "What the hell are you saying! Even a kid could come up with a better lie!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4132,
+      "id": "db_EventInfo:4691:1",
+      "jp": "いやいや、信じられないのも無理はないけど、アンジュだってやってる事だし……",
+      "en": "No, I get it's hard to believe, but even Anju is doing this kind of thing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4133,
+      "id": "db_EventInfo:4692:38",
+      "jp": "え、な、なんだって？　本当かよ！？",
+      "en": "Huh? Wh-what's that? Really!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4134,
+      "id": "db_EventInfo:4693:38",
+      "jp": "……む、むう、まあ師匠がやってるなら……仕方ねえ、やってやるぜ",
+      "en": "...Mmh, mmh, well, if my master is doing it... fine, I'll do it.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4135,
+      "id": "db_EventInfo:4694:38",
+      "jp": "でもいいな！　アタイを調教するのはいいが、売り飛ばしたところで、すぐに戻ってきてやるからな！",
+      "en": "But listen! It's fine if you train me, but even if you sell me off, I'll come right back, you got that!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4136,
+      "id": "db_EventInfo:4695:1",
+      "jp": "お、おう……",
+      "en": "O-okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4137,
+      "id": "db_EventInfo:4696:1",
+      "jp": "(調教されたいのかな？)",
+      "en": "(Does she *want* to be trained?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4138,
+      "id": "db_EventInfo:4697:38",
+      "jp": "それにしても、こんな可愛い服、アタイが着ていいのかな……似合ってねえんじゃねえか？　化粧とかも勉強した方がいいのかな……",
+      "en": "Still... Is it okay for me to wear such a cute outfit...? Doesn't suit me, right? Maybe I should study makeup or something...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4139,
+      "id": "db_EventInfo:4698:1",
+      "jp": "ま、まあ、少しずつやっていけばいいさ",
+      "en": "W-well, just take it one step at a time.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4140,
+      "id": "db_EventInfo:4699:0",
+      "jp": "エルザは渋っているようだが、絆を深める事そのものには抵抗が無いようだ。",
+      "en": "Elsa seems reluctant, but she doesn't seem to resist the idea of deepening our bond itself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4141,
+      "id": "db_EventInfo:4700:36",
+      "jp": "あの……この服、下着のようなのですが……？",
+      "en": "Um... this outfit... it looks like underwear, doesn't it...?",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4142,
+      "id": "db_EventInfo:4701:1",
+      "jp": "あーっと、まあ、そう見えるかもしれないけど、これから絆を深めていくにあたって、必要かなと……",
+      "en": "Uh, well, it might look that way, but I thought it was necessary to help us grow closer...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4143,
+      "id": "db_EventInfo:4702:36",
+      "jp": "はあ、絆を深める……",
+      "en": "Haaah, grow closer...",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4144,
+      "id": "db_EventInfo:4703:36",
+      "jp": "ふふ、なるほど、【<pl>】様は私と絆を深めたいと思っておいででしたのねД",
+      "en": "Fufu, I see. So, 【<pl>】-sama wants to grow closer to meД",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4145,
+      "id": "db_EventInfo:4704:1",
+      "jp": "う、うん、まあ……",
+      "en": "Y-yeah, well...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4146,
+      "id": "db_EventInfo:4705:36",
+      "jp": "分かりましたわД　【『神』】の化身である【<pl>】様に求められるなど、望外の喜び……Д",
+      "en": "I understandД To be sought after by 【<pl>】-sama, the avatar of the 『God』... it's an unexpected joy...Д",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4147,
+      "id": "db_EventInfo:4706:36",
+      "jp": "どうか私に、神である【<pl>】様の寵愛を頂きたく思います……Д",
+      "en": "Please, bestow your divine favor upon me, 【<pl>】-sama...Д",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4148,
+      "id": "db_EventInfo:4707:1",
+      "jp": "も、もちろん……",
+      "en": "Of... of course...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4149,
+      "id": "db_EventInfo:4708:1",
+      "jp": "(何というか、やっぱりクリスティナさんも宗教の人なんだよなぁ)",
+      "en": "(What can I say, Christina's definitely a religious person, huh.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4150,
+      "id": "db_EventInfo:4709:0",
+      "jp": "ともあれ、クリスティナさんは絆を深める事には前向きなようだ。",
+      "en": "Anyway, Christina seems positive about growing closer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

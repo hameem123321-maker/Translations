@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1326,
+  "range_end": 1350,
+  "pairs": [
+    {
+      "n": 1326,
+      "id": "db_EventInfo:1589:119",
+      "jp": "なにやら宿屋に大きな変化があったようだな",
+      "en": "It seems the inn has changed a lot.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1327,
+      "id": "db_EventInfo:1590:110",
+      "jp": "はい！　人手が減って、【<pl>】殿も大忙しのようであります！",
+      "en": "Yes! We're short-handed, and【<pl>】 seems very busy!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1328,
+      "id": "db_EventInfo:1591:110",
+      "jp": "どうですか？　先輩も店員として仕事をしてみては！",
+      "en": "How about it? Why not try working as a shop clerk too, Senpai?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1329,
+      "id": "db_EventInfo:1592:119",
+      "jp": "い、いや、俺は……",
+      "en": "N-no, I...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1330,
+      "id": "db_EventInfo:1593:119",
+      "jp": "なにやら詐欺グループという組織が活動を活発化させている",
+      "en": "A scam group has become more active.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1331,
+      "id": "db_EventInfo:1594:119",
+      "jp": "前領主のゼルカが作っていた裏組織が、主人の手を離れて好き勝手しているようだ",
+      "en": "It seems like a secret group made by the former lord Zelka is now doing whatever it wants, without our Master's control.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1332,
+      "id": "db_EventInfo:1595:110",
+      "jp": "なんとか我々が検挙できないのでしょうか？",
+      "en": "Can't we do something to arrest them?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1333,
+      "id": "db_EventInfo:1596:119",
+      "jp": "詐欺グループの資金源は、ゼカリウスの有力者もいる",
+      "en": "The scam group's funding comes from powerful people in Zecarius too.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1334,
+      "id": "db_EventInfo:1597:119",
+      "jp": "つまり我々の上層部にも絡んでいる者がいるかもしれないのだ",
+      "en": "That means people in our own higher-ups might be involved.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1335,
+      "id": "db_EventInfo:1598:110",
+      "jp": "そんな……",
+      "en": "That's...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1336,
+      "id": "db_EventInfo:1599:119",
+      "jp": "もちろん、詐欺グループと知らずに活動している者もいるかもしれん。頭の痛い問題だ",
+      "en": "Of course, some members might not know it's a fraud group. It's a real headache.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1337,
+      "id": "db_EventInfo:1600:119",
+      "jp": "どうやらノーザリアが活動を活発化しているらしい",
+      "en": "It looks like Notherlia is getting more active.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1338,
+      "id": "db_EventInfo:1601:110",
+      "jp": "ノーザリアとは講和が結ばれたのでは？",
+      "en": "But I thought we signed a peace treaty with Notherlia?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1339,
+      "id": "db_EventInfo:1602:119",
+      "jp": "講和というのは永続が約束されているものではない",
+      "en": "A peace treaty doesn't promise peace forever.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1340,
+      "id": "db_EventInfo:1603:119",
+      "jp": "利害の相違があれば、簡単に破られてしまうものだ",
+      "en": "If interests clash, it can be broken easily.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1341,
+      "id": "db_EventInfo:1604:110",
+      "jp": "そんな……",
+      "en": "That's...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1342,
+      "id": "db_EventInfo:1605:119",
+      "jp": "恐ろしい異変が起こってしまった。いまこそ【『ゼカリウス自警団』】の出番だ",
+      "en": "A terrible event has happened. Now is the time for the 'Zecarius Vigilante Group' to act.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1343,
+      "id": "db_EventInfo:1606:119",
+      "jp": "市民がみだりに恐れないよう、安心させるのだ！",
+      "en": "We must calm the citizens so they don't panic!",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1344,
+      "id": "db_EventInfo:1607:110",
+      "jp": "はい先輩！",
+      "en": "Yes, sir!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1345,
+      "id": "db_EventInfo:1608:119",
+      "jp": "どうやら災いは去ったようだな",
+      "en": "It seems the danger has passed.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1346,
+      "id": "db_EventInfo:1609:119",
+      "jp": "これからゼカリウスは平和になるだろう。お前も、【『ゼカリウス自警団』】を辞め時ではないか？",
+      "en": "Zecarius will be peaceful now. Isn't it time for you to leave the 'Zecarius Vigilante Group'?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1347,
+      "id": "db_EventInfo:1610:110",
+      "jp": "いえ！　平和になっても、人々を安心させるために、我々は必要になるはずです",
+      "en": "No! Even in peace, people will need us to make them feel safe.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1348,
+      "id": "db_EventInfo:1611:119",
+      "jp": "う、うむ……そういうつもりではないのだが",
+      "en": "Hmm... That's not what I meant.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1349,
+      "id": "db_EventInfo:1612:119",
+      "jp": "いつまでも兵士のようなことをすると、嫁のもらいどころが……いや、そこは大丈夫か。お前は引く手数多だからな",
+      "en": "If you keep acting like a soldier forever, you might have trouble finding a wife... Oh wait, never mind. You're very popular.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1350,
+      "id": "db_EventInfo:1613:110",
+      "jp": "はい！　大丈夫であります！",
+      "en": "Yes! I'm perfectly fine!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    }
+  ]
+}

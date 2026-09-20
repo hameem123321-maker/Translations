@@ -1,0 +1,204 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 626,
+  "range_end": 650,
+  "pairs": [
+    {
+      "n": 626,
+      "id": "dll_0626",
+      "jp": "お店の施設の品質を高めることができます",
+      "en": "Raise shop facility quality",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 627,
+      "id": "dll_0627",
+      "jp": "主人公の自室。緊張しやすいせいか、感度が高まりやすい。【セクハラ耐性成長++】",
+      "en": "Ren's room. Sensitive, gets tense. 【Harass Resist++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 628,
+      "id": "dll_0628",
+      "jp": "催淫効果を与える香により、エッチな気分になりやすい。【成長ボーナスなし】",
+      "en": "Aphrodisiac scent. Easy arousal.【No Bonus】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 629,
+      "id": "dll_0629",
+      "jp": "豪華なお風呂。泡プレイが可能でエッチ技能を育成できる。【性技成長++】",
+      "en": "Luxury bath. Bubble play, sex skills.【Sex Skill++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 630,
+      "id": "dll_0630",
+      "jp": "ハードな雰囲気の部屋。特殊なプレイができ、搾り取る技能を高める。【搾精成長++】",
+      "en": "Hardcore room. Special play, drain skills.【Drain++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 631,
+      "id": "dll_0631",
+      "jp": "<color=#ff0000>まだ選択出来ません</color>",
+      "en": "<color=#ff0000>Can't select yet</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 632,
+      "id": "dll_0632",
+      "jp": "<color=#ff0000>『搾精ルーム』の建築が必要です</color>",
+      "en": "<color=#ff0000>Need 'Drain Room'</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 633,
+      "id": "dll_0633",
+      "jp": "<color=#ff0000>『ソープ搾精ルーム』 + 好感度Ａ以上 + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Soap Drain Room' + Affec. A+ + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 634,
+      "id": "dll_0634",
+      "jp": "<color=#ff0000>『ハード搾精ルーム』 + 好感度Ｓ + 性技Ａ + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Hard Drain Room' + Affec. S + Sex Skill A + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 635,
+      "id": "dll_0635",
+      "jp": "衣装を変更するデス？\n【(衣装オフ→<size=30>衣装オン</size>)】",
+      "en": "Change outfit?\n【(Off→<size=30>On</size>)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 636,
+      "id": "dll_0636",
+      "jp": "衣装を変更するデス？\n【(衣装オン→<size=30>衣装オフ</size>)】",
+      "en": "Change outfit?\n【(On→<size=30>Off</size>)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 637,
+      "id": "dll_0637",
+      "jp": "衣装を変更しました",
+      "en": "Outfit changed",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 638,
+      "id": "dll_0638",
+      "jp": "システム",
+      "en": "System",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 639,
+      "id": "dll_0639",
+      "jp": "まだ習得できないデス",
+      "en": "Can't learn yet",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 640,
+      "id": "dll_0640",
+      "jp": "スキルをリセットするデス？",
+      "en": "Reset skills?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 641,
+      "id": "dll_0641",
+      "jp": "これ以上のスキルは習得できないデス。【顔アイコンをクリック】してスキルリセットするデス？",
+      "en": "Can't learn more skills. Click {Face Icon} to reset?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 642,
+      "id": "dll_0642",
+      "jp": "お気に入りの女を変更したデス！\n【(同じスキルを修得していたキャラクターが忘却しました)】",
+      "en": "Favorite girl changed! \n【(Same skill forgotten by another char.)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 643,
+      "id": "dll_0643",
+      "jp": "これで店が広くなるデス！　空き地に施設を建設するデスよ！",
+      "en": "Store expands! Build a facility on the empty lot!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 644,
+      "id": "dll_0644",
+      "jp": "キャラリセット",
+      "en": "Char. Reset",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 645,
+      "id": "dll_0645",
+      "jp": "アイコンをクリックすると、開発状態をリセット出来ます。",
+      "en": "Click icon to reset development status.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 646,
+      "id": "dll_0646",
+      "jp": "これ以上のスキルは習得できません",
+      "en": "Cannot learn more skills.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 647,
+      "id": "dll_0647",
+      "jp": "<color=#ff0000>スキル習得Pがもっと必要です</color>",
+      "en": "<color=#ff0000>More Skill Pts needed</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 648,
+      "id": "dll_0648",
+      "jp": "<color=#ff0000>このスキルは習得出来ません</color>",
+      "en": "<color=#ff0000>Cannot learn this skill</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 649,
+      "id": "dll_0649",
+      "jp": "<color=#ffff00>習得可能です</color>",
+      "en": "<color=#ffff00>Can learn</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 650,
+      "id": "dll_0650",
+      "jp": "このスキルは開発済です",
+      "en": "Skill already developed.",
+      "category": "remaining_dll"
+    }
+  ]
+}

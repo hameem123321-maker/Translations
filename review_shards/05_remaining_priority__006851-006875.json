@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6851,
+  "range_end": 6875,
+  "pairs": [
+    {
+      "n": 6851,
+      "id": "rem_34470",
+      "jp": "エネミー発見率[+80%]",
+      "en": "Enemy Discovery Rate[+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6852,
+      "id": "rem_34471",
+      "jp": "尊き魂に託されたことによって思い出された、過去の自分の技。失った術理を『聖騎士』の技が補い、攻撃力が大幅に上昇した。守るためには敵を倒さなくてはならない。",
+      "en": "A past technique remembered through a noble soul. The lost art is supplemented by a 'Holy Knight' skill, greatly boosting attack power. To protect, one must defeat the enemy.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6853,
+      "id": "rem_34472",
+      "jp": "範囲(大)攻撃 威力[A+] +  命中[70%] + 必殺率[+100%] + 【聖属性】 + 【死神技】",
+      "en": "Large Area Attack Power[A+] + Hit[70%] + Crit Rate[+100%] + 【Holy】 + 【Shinigami Art】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6854,
+      "id": "rem_34473",
+      "jp": "【<src>】の[死神斬り・改]！",
+      "en": "【<src>】's [Shinigami Slash - Improved]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6855,
+      "id": "rem_34474",
+      "jp": "勇者を導く賢者として、常にトラップの存在に目を光らせている。トラップ発見率は群を抜いている。賢者は危うきに近寄らず、罠を解除して宝に手を出させない。",
+      "en": "As the sage guiding the Hero, always vigilant for traps. Has an exceptional trap discovery rate. A sage avoids danger, disarming traps to prevent looting.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6856,
+      "id": "rem_34475",
+      "jp": "トラップ発見率[+80%]",
+      "en": "Trap Discovery Rate[+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6857,
+      "id": "rem_34476",
+      "jp": "先祖から受け継がれた特異な怪力の持ち主。人間の枠を越えた暴力を発揮するが、同時に本人はその力を認識できない枷が与えられる。二つの星が結んだ古の盟約の一つ。",
+      "en": "Possesses an extraordinary, inherited brute force beyond human limits, but is shackled by an inability to recognize that power. One of the ancient pacts between two stars.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6858,
+      "id": "rem_34477",
+      "jp": "攻撃[+100%] + デスクリティカル率[+20%]",
+      "en": "Attack[+100%] + Despirit Critical Rate[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6859,
+      "id": "rem_34478",
+      "jp": "『奈落』へのアクセス権限の所持者。魔力の深奥であり根元に抵触することで、規格外の魔力を引き出すことを可能にする。しかし規格外の魔力は規格内の技術では扱いきれない。",
+      "en": "Holder of access rights to the 'Abyss'. Touching the origin of magic's depths allows drawing irregular power, but regular techniques can't handle it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6860,
+      "id": "rem_34479",
+      "jp": "魔攻[+50%]",
+      "en": "Magic Attack[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6861,
+      "id": "rem_34480",
+      "jp": "命を刈り取る死神の権能。自分より弱い相手の命を無慈悲に刈り取る。",
+      "en": "The Shinigami's power to reap lives. Mercilessly cuts down those weaker than itself.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6862,
+      "id": "rem_34481",
+      "jp": "ザコへのダメージ[+100%]",
+      "en": "Damage to weak foes [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6863,
+      "id": "rem_34482",
+      "jp": "研究熱心すぎるカリストの性質。なんにでも興味を持ってしまうため、ダンジョン内のトレジャーやトラップに強力なボーナスを与える。魔女は戦闘力よりサポート力が本領。",
+      "en": "Callisto's overly studious nature. Gains powerful bonuses to dungeon treasures and traps. Her true skill is support, not combat.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6864,
+      "id": "rem_34483",
+      "jp": "ダンジョン内で様々お役立ち(魔女)",
+      "en": "Various helpful effects in dungeons (Witch)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6865,
+      "id": "rem_34484",
+      "jp": "ダンジョンのトラップを察知する魔術。トラップは「機械」「自然」「魔術」の3種別があり、サーチ能力とは別に対策能力が必要。通常より強力。",
+      "en": "A spell to detect dungeon traps of three types: Mechanical, Natural, Magical. Requires countermeasures. More powerful than normal.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6866,
+      "id": "rem_34485",
+      "jp": "トラップ発見率[+50%] + トラップ解除率[+20%]",
+      "en": "Trap detection rate [+50%] + Trap disarm rate [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6867,
+      "id": "rem_34486",
+      "jp": "フィールドに無音結界を張り、エネミーが仲間を呼ぶのを阻止することが出来る。魔術は使用可能。効果中は先制攻撃の成功率が大幅にアップ。",
+      "en": "Creates a field of silence to block enemies from calling for backup. Spells can be used. Greatly increases Preemptive Attack success rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6868,
+      "id": "rem_34487",
+      "jp": "【フィールド】に【サイレス】を付与 (沈黙フィールド生成 + 先制攻撃率アップ[+60%])",
+      "en": "Applies 【Silence】 to 【Field】 (Silence Field + Preemptive Attack Rate Up[+60%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6869,
+      "id": "rem_34488",
+      "jp": "【<src>】は[サイレンス]を使用！",
+      "en": "【<src>】 uses [Silence]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6870,
+      "id": "rem_34489",
+      "jp": "周囲を警戒し、敵からの先制攻撃を防ぐ魔術。擬態したり隠れた敵も見破る。通常のエネミーサーチよりも強力。",
+      "en": "A spell to be vigilant and prevent enemy ambushes. Also reveals hidden foes. Stronger than normal enemy search.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6871,
+      "id": "rem_34490",
+      "jp": "エネミー発見率[+50%]",
+      "en": "Enemy detection rate [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6872,
+      "id": "rem_34491",
+      "jp": "仲間全員を守る、『聖騎士』のバリアを張る。このバリアは弱いダメージは素通りし、威力を大きく削いで消える。かつて大陸一と謳われた、誉れ高き者が失ったスキル。",
+      "en": "Creates a Paladin's barrier that protects all allies. It allows weak attacks through and breaks after absorbing a heavy blow. A skill lost by a once-great hero.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6873,
+      "id": "rem_34492",
+      "jp": "CT回復(中) + MP節約 + 【仲間】に【聖盾】を付与 (最大HPの20%を超える攻撃を軽減[+70%])",
+      "en": "CT recovery (Mid) + MP conservation + Applies 【Holy Shield】 to 【Allies】 (Reduces attacks exceeding 20% of Max HP by[+70%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6874,
+      "id": "rem_34493",
+      "jp": "【<src>】が聖騎士の盾を顕現させた！",
+      "en": "【<src>】 manifests the Paladin's shield!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6875,
+      "id": "rem_34494",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 必殺率[+30%] + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Single attack Power[] + Hit[70%] + Critical Rate[+30%] + Defense Pierce (S) + Applies [Brittle] (Physical DMG reduction -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

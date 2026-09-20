@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6426,
+  "range_end": 6450,
+  "pairs": [
+    {
+      "n": 6426,
+      "id": "rem_34045",
+      "jp": "チェイススキルのダメージ[+80%]",
+      "en": "Chase skill damage [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6427,
+      "id": "rem_34046",
+      "jp": "男性キャラクターの攻撃力を大きく高める、強力なサポートスキル。なお、【主人公】以外には使用したがらないので、主人公にしか効果が発揮しない。スキルのＣＴも回復。",
+      "en": "A powerful support skill that greatly boosts male characters' attack. However, she only wants to use it on 【Ren】, so it only affects the protagonist. Also recovers skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6428,
+      "id": "rem_34047",
+      "jp": "CT回復(中) + 主人公のみ効果 + 【仲間】に【戦神】を付与 (物理ダメージ[+100%] + クリティカル率[+30%])",
+      "en": "CT Recover (M) + Effect: Ren Only + Grants 【War God】 to 【Ally】 (Physical damage [+100%] + Crit rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6429,
+      "id": "rem_34048",
+      "jp": "【<src>】の[戦女神のキス]！",
+      "en": "【<src>】's [War Goddess Kiss]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6430,
+      "id": "rem_34049",
+      "jp": "『災厄』を回避するために暗躍する者たち。はじめから運命は共にしており、最も強い縁で結ばれている。たとえ経験を得なくても、主人公のレベルに応じて強くなる。",
+      "en": "Those who lurk to avoid 'Calamity'. Fate destined them to be together, bound by a strong bond. Grows stronger with Ren's level, even without gaining experience.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6431,
+      "id": "rem_34050",
+      "jp": "レベル同期・主人公と同じに",
+      "en": "Level Sync: Same as Ren",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6432,
+      "id": "rem_34051",
+      "jp": "不真面目な言動に反して、影の努力家である。店の評判に負けないよう、こっそり修行してレベルアップをしている。たとえ才能が無くても、努力で覆せると信じたから。",
+      "en": "A secret hard worker, contrary to her lazy talk. Trains in secret to match the shop's reputation, believing effort overcomes lack of talent.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6433,
+      "id": "rem_34052",
+      "jp": "非戦闘員なのに、無理矢理ついてきたハーヴェスタ。あしでまといな彼女を守ることで、なんとなく経験値が物凄くアップする。",
+      "en": "Harvester, a non-combatant who stubbornly tagged along. Protecting the burden that is her grants massive experience.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6434,
+      "id": "rem_34053",
+      "jp": "パーティー全員の経験値[+50%]",
+      "en": "Party-wide experience [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6435,
+      "id": "rem_34054",
+      "jp": "魔術の深奥に連なる者の末裔の中から、特に才能を見出される忌まれた姉妹。彼女ら自体が回路となって『禁呪』の奥義を伝承していく。姉妹のレベルが高い方に同期する。",
+      "en": "Cursed sisters of exceptional talent, descendants of those who tread magic's depths. They themselves are circuits for forbidden arts. Levels sync to the higher sister.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6436,
+      "id": "rem_34055",
+      "jp": "レベル同期・ミルテ/レミルと同じに",
+      "en": "Level Sync: Same as Myrte/Remil",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6437,
+      "id": "rem_34056",
+      "jp": "仲間の戦闘能力を極限まで引き出し、弱者が強者を倒す戦術を与える。瞬間的にパーティーの能力が大幅に上がる。相手が弱者なら粉砕。",
+      "en": "Unleashes allies' potential, giving the weak tactics to defeat the strong. Party ability surges. Crushes lesser foes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6438,
+      "id": "rem_34057",
+      "jp": "CT回復(中) + 【仲間】に【覇道】を付与 (すべての攻撃ダメージ[+50%] + ダブルアタック率[+30%])",
+      "en": "CT Recover (M) + Grants 【Supremacy】 to 【Ally】 (All attack damage [+50%] + Double Attack rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6439,
+      "id": "rem_34058",
+      "jp": "【<src>】の[覇者のタクティクス]が仲間を導く！",
+      "en": "【<src>】's [Tactics of the Conqueror] guides the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6440,
+      "id": "rem_34059",
+      "jp": "ゴブリンから少女を守り抜いた、若き勇者の魂。その才能は花開くことなく、暗き洞窟の中に散った。託された意思は尊き魂であり、全てを捨てた者の心に火を点ける。",
+      "en": "The soul of a young Hero who died protecting a girl from Goblins. His unbloomed talent scattered in a dark cave. His entrusted will ignites the hearts of those who give their all.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6441,
+      "id": "rem_34060",
+      "jp": "潜在能力を解放(第一段階)",
+      "en": "Unlock Potential (Stage 1)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6442,
+      "id": "rem_34061",
+      "jp": "エネミーの行動を阻害する罠を仕掛ける。かなり大がかりな罠で、引っかかった相手はしばらく行動不能になる。大規模なトラップ。",
+      "en": "Set up a trap that hinders enemy actions. A large-scale trap that incapacitates its victim for a while.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6443,
+      "id": "rem_34062",
+      "jp": "【仲間】に【反撃罠】を付与 (近接攻撃を受けた際にトラップ反撃[+30%])",
+      "en": "Grants 【Ally】 【Counter Trap】 (Trap retaliation[+30%] when hit by a melee attack)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6444,
+      "id": "rem_34063",
+      "jp": "【<src>】は[落とし穴作成]を使用した",
+      "en": "【<src>】 used [Create Pitfall]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6445,
+      "id": "rem_34064",
+      "jp": "『ウィルチ』の天才性を発揮し、攻撃スキルのデバフ効果が延長される。一部のスキルには効果が無いが、ちょっとした強化も凶悪な効果に変じる。",
+      "en": "Unleashing 『Wiltch』's genius, extending debuff effects of attack skills. Though some skills are unaffected, minor enhancements become vicious effects.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6446,
+      "id": "rem_34065",
+      "jp": "相手への弱体効果ターン延長[+2]",
+      "en": "Debuff duration on target extended[+2 turns]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6447,
+      "id": "rem_34066",
+      "jp": "邪教から家族を奪われ、闇に堕ちた聖騎士の魂。その復讐は果たされることなく、黒い神殿の中に散った。託された意思は尊き魂であり、全てを捨てた者の剣を思い出させる。",
+      "en": "The soul of a holy knight who lost his family to a dark cult and fell into darkness. His revenge unfulfilled, scattered within the dark temple. The will entrusted is a noble soul, reminiscent of a blade forsaking all.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6448,
+      "id": "rem_34067",
+      "jp": "潜在能力を解放(第二段階)",
+      "en": "Unlock Potential (Stage 2)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6449,
+      "id": "rem_34068",
+      "jp": "巨怪から大地を守り、海に沈んだ勇者の魂。その願いは果たされ、次なる者へと託される。過去に手放した尊き魂は本来の者に戻され、かつての力が蘇る。",
+      "en": "The soul of a hero who protected the land from giants, sinking into the sea. His wish fulfilled, passed on to the next. The noble soul once forsaken returns to its rightful owner, reviving past power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6450,
+      "id": "rem_34069",
+      "jp": "潜在能力を解放(第三段階)",
+      "en": "Unlock Potential (Stage 3)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

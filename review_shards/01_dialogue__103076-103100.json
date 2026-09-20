@@ -1,0 +1,211 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 103076,
+  "range_end": 103100,
+  "pairs": [
+    {
+      "n": 103076,
+      "id": "db_EventInfo:121832:25",
+      "jp": "一定の金額を【ファンド】として貸してくれたら、利子を付けて返すという仕組みですぞ。芸術家は元手さえあれば仕事が出来るのです",
+      "en": "If you lend me a fixed amount as a fund, I'll pay it back with interest. An artist just needs seed money to work.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 103077,
+      "id": "db_EventInfo:121833:2",
+      "jp": "利子！　素晴らしい響きデス！　さっさと貸すデス！",
+      "en": "Interest! What a wonderful sound! Lend it to him right now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103078,
+      "id": "db_EventInfo:121834:1",
+      "jp": "いつになくギャンブル性の高い話だな。返ってこないこともあるんだろ？",
+      "en": "This is unusually risky. There's a chance it doesn't come back, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103079,
+      "id": "db_EventInfo:121835:15",
+      "jp": "目算によると、ほぼ確実に返ってくるという話なんだけど。どうする？",
+      "en": "According to estimates, it should come back almost for sure. What do you think?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103080,
+      "id": "db_EventInfo:121836:1",
+      "jp": "うーん……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103081,
+      "id": "db_EventInfo:121839:0",
+      "jp": "余裕があれば、投資してみようか。",
+      "en": "If I have room in the budget, I might try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103082,
+      "id": "db_EventInfo:121841:25",
+      "jp": "【<pl>】氏～Д　芸術家のファンドに投資いただき感謝ですぞ",
+      "en": "【<pl>】-san~Д Thank you for investing in the artist's fund.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 103083,
+      "id": "db_EventInfo:121842:25",
+      "jp": "フヒヒ、ちなみに私めも少額ですが嚙ませていただきます。ファンドが成功すれば、私めにも分け前が……デュフフフ",
+      "en": "Heheh, by the way, I'll chip in a small amount too. If the fund succeeds, I'll get my share too... Duhuhuh.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 103084,
+      "id": "db_EventInfo:121843:2",
+      "jp": "ああっ、ずるいデス！　オマエ！　それをよこせデス！",
+      "en": "Ahh, that's sneaky! You! Give that to me!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103085,
+      "id": "db_EventInfo:121844:1",
+      "jp": "シイネは買わなかったのか",
+      "en": "Shiine, you didn't buy in?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103086,
+      "id": "db_EventInfo:121845:2",
+      "jp": "こんな怪しい話に、乗る奴はいないデス！",
+      "en": "No one would fall for such a shady story!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103087,
+      "id": "db_EventInfo:121846:1",
+      "jp": "(……いつもは真っ先に乗りそうなのに)",
+      "en": "(...She's usually the first one in.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103088,
+      "id": "db_EventInfo:121847:1",
+      "jp": "シイネは買わなかったのか。じゃあ、このファンドは成功しそうだな",
+      "en": "So Shiine didn't buy in? Then this fund is probably going to do well.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103089,
+      "id": "db_EventInfo:121848:2",
+      "jp": "……どういう意味デス？",
+      "en": "...What does that mean?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103090,
+      "id": "db_EventInfo:121849:25",
+      "jp": "しかし、芸術家はカネを扱うのは素人同然。心配ですな",
+      "en": "But artists are amateurs when it comes to money. It's concerning.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 103091,
+      "id": "db_EventInfo:121850:1",
+      "jp": "そうだな……応援を寄越すとするか",
+      "en": "Yeah... Maybe we should support it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103092,
+      "id": "db_EventInfo:121852:5",
+      "jp": "おーほほほ！　話は聞かせていただきましてよ！",
+      "en": "Oh-ho-ho! I heard the whole conversation!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103093,
+      "id": "db_EventInfo:121853:1",
+      "jp": "ハーヴェスタ",
+      "en": "Harvester.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103094,
+      "id": "db_EventInfo:121854:5",
+      "jp": "芸術家のファンドですのね！　私の得意分野ですわ！　なんなりとお任せくださいませ！",
+      "en": "A fund for artists, is it? That's my specialty! You can leave it all to me!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103095,
+      "id": "db_EventInfo:121855:2",
+      "jp": "こういう話には、こいつは最も適任デスが、一番任せてはいけないヤツな気がするデス",
+      "en": "For this kind of thing, she seems like the most qualified person... but also the one you should never trust with it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103096,
+      "id": "db_EventInfo:121856:5",
+      "jp": "なにを仰いますのД　商売に関しては、私の横に並べる者はおりませんわД",
+      "en": "What are you saying?Д When it comes to business, no one can compare to me.Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103097,
+      "id": "db_EventInfo:121857:1",
+      "jp": "ん？",
+      "en": "Hm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103098,
+      "id": "db_EventInfo:121858:5",
+      "jp": "【『文芸美術保護組合』】とやら、私の手腕で真っ当なビジネスとして軌道を導いてさしあげましてよ",
+      "en": "This 'Literary and Fine Arts Protection Union' thing, I'll use my skills to guide it onto the right path as a proper business.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103099,
+      "id": "db_EventInfo:121859:5",
+      "jp": "使者というのは、どちらです？　さっそく事業計画のヒアリングを始めますわ！",
+      "en": "So, which one is the envoy? I'd like to start hearing your business plan right away!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103100,
+      "id": "db_EventInfo:121862:1",
+      "jp": "行ってしまった",
+      "en": "They're gone.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

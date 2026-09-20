@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 77326,
+  "range_end": 77350,
+  "pairs": [
+    {
+      "n": 77326,
+      "id": "db_EventInfo:91510:20",
+      "jp": "かつて、【アルダルクの大地主】が住んでいた廃村でございます",
+      "en": "In the abandoned village where the \"Landowner of Aldark\" once lived.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 77327,
+      "id": "db_EventInfo:91511:0",
+      "jp": "俺達はハヅキさんが調べた場所にやってきた。",
+      "en": "We came to the place Hazuki had found.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77328,
+      "id": "db_EventInfo:91512:1",
+      "jp": "ここが【アルダルクの大地主】が住んでいた廃村か……",
+      "en": "So this is the abandoned village where the \"Landowner of Aldark\" lived...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77329,
+      "id": "db_EventInfo:91513:2",
+      "jp": "どこかにキャトリナがいるはずデス。頑張って探すデス",
+      "en": "Catrina must be somewhere around here. Let's search hard.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77330,
+      "id": "db_EventInfo:91514:2",
+      "jp": "もし見つからなかったら、あのメイドに違約金を払わせるデス！",
+      "en": "If we don't find her, I'm making that maid pay a penalty!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77331,
+      "id": "db_EventInfo:91516:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77332,
+      "id": "db_EventInfo:91518:11",
+      "jp": "ここが、大地主さんが住んでいた農村ですか……",
+      "en": "So this is the farming village where the landowner used to live...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77333,
+      "id": "db_EventInfo:91519:17",
+      "jp": "そうです。とはいえ、豊かな農村だったのは過去の話。今や【『ゴブリン』】共に滅ぼされ、見る影もありませんが",
+      "en": "Yes. But its days as a prosperous village are long gone. Now it's destroyed by the Goblins and a shadow of its former self.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77334,
+      "id": "db_EventInfo:91520:17",
+      "jp": "農村地帯として栄えていた土地も、【『ゴブリン』】共の略奪を許せばこうなるという事です",
+      "en": "This land was once a thriving farming area. This is what happens when you let Goblins plunder it.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77335,
+      "id": "db_EventInfo:91521:17",
+      "jp": "この地は私の故郷でもあったのですが、この通り、荒れ果ててしまい、復興もままなりません",
+      "en": "This was also my hometown. As you can see, it's ruined, and rebuilding is difficult.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77336,
+      "id": "db_EventInfo:91522:11",
+      "jp": "こんな酷い事になっているなんて……",
+      "en": "It's this bad...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77337,
+      "id": "db_EventInfo:91523:11",
+      "jp": "(でも、何だか見覚えがあるような……？)",
+      "en": "(But... I feel like I've seen this place before...?)",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77338,
+      "id": "db_EventInfo:91525:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77339,
+      "id": "db_EventInfo:91526:0",
+      "jp": "キャトリナと衛兵は廃村となった村を歩いていた。",
+      "en": "Catrina and the guard walked through the deserted village.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77340,
+      "id": "db_EventInfo:91528:17",
+      "jp": "昔、家族と一緒によく歩いたものです。もっとも、昔はもっと綺麗な場所でしたが",
+      "en": "I often walked here with my family long ago. Of course, it was a much nicer place back then.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77341,
+      "id": "db_EventInfo:91529:17",
+      "jp": "やはり、荒れ果てたまま変わりませんね……",
+      "en": "As expected, it's still just as ruined...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77342,
+      "id": "db_EventInfo:91530:11",
+      "jp": "家族と……",
+      "en": "With your family...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77343,
+      "id": "db_EventInfo:91531:17",
+      "jp": "キャトリナさん？",
+      "en": "Catrina?",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77344,
+      "id": "db_EventInfo:91532:11",
+      "jp": "あ、いえ、すみません。私、身寄りが無くて……",
+      "en": "Oh, no, sorry. I don't have any family...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77345,
+      "id": "db_EventInfo:91533:17",
+      "jp": "身寄りが？　ですが、店長さんのところで働く前は、弟達の面倒を見ておられたと聞いたような",
+      "en": "No family? But I heard before you worked for the shopkeeper, you took care of your younger brothers.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77346,
+      "id": "db_EventInfo:91534:11",
+      "jp": "はい、ですが弟達は皆、私と同じ、身寄りのない子が集まって暮らしているだけで……",
+      "en": "Yes, but my brothers are all just kids with no family, living together...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77347,
+      "id": "db_EventInfo:91535:11",
+      "jp": "私にはそれ以前の、弟達の世話をする前の記憶が無いのです",
+      "en": "I have no memories from before I started taking care of them.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77348,
+      "id": "db_EventInfo:91536:17",
+      "jp": "なんと……",
+      "en": "Really...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 77349,
+      "id": "db_EventInfo:91537:11",
+      "jp": "すみません。こんな話をされても、困っちゃいますよね",
+      "en": "I'm sorry. This talk must be a bother for you.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77350,
+      "id": "db_EventInfo:91538:17",
+      "jp": "困るなんて、そんな事はありませんよ",
+      "en": "A bother? Not at all.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    }
+  ]
+}

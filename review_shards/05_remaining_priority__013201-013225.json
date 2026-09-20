@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13201,
+  "range_end": 13225,
+  "pairs": [
+    {
+      "n": 13201,
+      "id": "rem_48870",
+      "jp": "実在が疑わしい伝説肉",
+      "en": "Legendary Meat (Existence Doubtful)",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13202,
+      "id": "rem_48871",
+      "jp": "豚の口腔内にちょっとだけある希少な部位の更に希少なおいしい部分。口に入れただけで蕩けるような味わいが楽しめる。",
+      "en": "The exceptionally rare and delicious part of a rare cut from inside a pig's mouth. It melts on the tongue with a divine flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13203,
+      "id": "rem_48872",
+      "jp": "黄金のとろけるタン",
+      "en": "Golden Melt-in-the-Mouth Tongue",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13204,
+      "id": "rem_48873",
+      "jp": "牛の中でも、一頭から少ししか取れないいい所。一流の冒険者でもそう何度は食べられない、最高級部位。",
+      "en": "The prime cut from a cow, of which only a little can be taken per animal. The finest grade, even top adventurers rarely taste it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13205,
+      "id": "rem_48874",
+      "jp": "最高級シャトーブリアン",
+      "en": "Finest Chateaubriand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13206,
+      "id": "rem_48875",
+      "jp": "ドラゴンの尻尾を命がけで切り落としたという武勇伝と共に差し出される肉塊。確かに大きく、それっぽいのだが、本体のドラゴンを見たものはいない。",
+      "en": "A chunk of meat presented with a tale of bravely cutting it from a dragon's tail. It's large and looks convincing, but no one has seen the actual dragon.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13207,
+      "id": "rem_48876",
+      "jp": "偽ドラゴンのシッポ肉",
+      "en": "Fake Dragon Tail Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13208,
+      "id": "rem_48877",
+      "jp": "一粒の種からでも、大量の麦を実らせる穀粒。土地の栄養を吸い尽くす為、管理は厳重にしなくてはならないが、食料危機には救世主となる。",
+      "en": "A grain that can yield a huge amount of wheat from a single seed. It exhausts soil nutrients and must be strictly managed, but is a savior in food crises.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 13209,
+      "id": "rem_48878",
+      "jp": "侵略性指定穀物",
+      "en": "Invasive Designated Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13210,
+      "id": "rem_48879",
+      "jp": "異邦よりもたらされた黄金色に輝くライスの元。その神々しい輝きは、食する全員に幸福を感じさせる。",
+      "en": "The source of a golden, gleaming rice brought from a foreign land. Its divine glow makes all who eat it feel happiness.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13211,
+      "id": "rem_48880",
+      "jp": "輝く神聖なるコメ",
+      "en": "Gleaming Sacred Rice",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13212,
+      "id": "rem_48881",
+      "jp": "フリュジットの氷獄迷宮近辺で氷漬けになっていた野菜。シャキシャキとした歯ごたえと甘さがあるが、野生種の採取が危険なため、量産が熱望されている。",
+      "en": "A vegetable found frozen near Frygit's Icy Prison Maze. It has a crisp bite and sweetness. Wild harvesting is dangerous, so mass production is eagerly sought.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13213,
+      "id": "rem_48882",
+      "jp": "氷晶パプリカ",
+      "en": "Ice Crystal Bell Pepper",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13214,
+      "id": "rem_48883",
+      "jp": "生命力溢れるハーブに、魔力を帯びたヌルヌルが纏わりついたもの。生食でも案外いける上に、魔力を回復する効果もある。",
+      "en": "Vitality-rich herbs tangled with a magical, slimy substance. Surprisingly edible raw, it also restores magical power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13215,
+      "id": "rem_48884",
+      "jp": "妖しくぬめる葉っぱ",
+      "en": "Eerily Slimy Leaves",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13216,
+      "id": "rem_48885",
+      "jp": "天から降ってきたと言われる不思議な木の実。食べた人間に知恵を授けると言われるが、どこから生まれ、なぜ現れたのかは誰も知らない。",
+      "en": "A mysterious fruit said to have fallen from the sky. It's said to grant wisdom to those who eat it, but none know its origin or why it appears.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13217,
+      "id": "rem_48886",
+      "jp": "異界の果実",
+      "en": "Otherworldly Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13218,
+      "id": "rem_48887",
+      "jp": "遥か天井の楽園になるというモモの実。聖なる魔力を蓄えた実は、一口齧るだけで心身を癒やしてくれる。",
+      "en": "A peach fruit from a paradise said to exist high in the heavens. The fruit stores holy magic, healing body and mind with a single bite.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13219,
+      "id": "rem_48888",
+      "jp": "天空の桃",
+      "en": "Sky Peach",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13220,
+      "id": "rem_48889",
+      "jp": "角を持つ一角獣の角。魔力を秘めた角を粉末にして料理に使うと、素晴らしい味わいを引き立たせる。そのうえ衰えた精力も蘇る。",
+      "en": "The horn of a horned unicorn. Using the powdered horn, imbued with magic, in cooking enhances flavor and revives waning vitality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13221,
+      "id": "rem_48890",
+      "jp": "魔獣のイッカク",
+      "en": "Horn of the Magic Beast",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13222,
+      "id": "rem_48891",
+      "jp": "体の芯から凄まじい熱を湧き上がらせる香辛料。粉末を僅かに摂取するだけでも効果があり、実を直接齧ると止まらぬ殺意に暴走してしまう。",
+      "en": "A spice generating intense heat from the core of your being. A tiny dose of powder works, but biting the fruit directly drives you into an unstoppable, murderous rage.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13223,
+      "id": "rem_48892",
+      "jp": "憤怒の赤き果実",
+      "en": "Fruit of Crimson Wrath",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13224,
+      "id": "rem_48893",
+      "jp": "ドラゴンが森で食べているのを目撃されたという、胡散臭い噂のマッシュルーム。富豪が大金を出して捜索しているが、どういう訳かほとんど見つからない。",
+      "en": "A dubious mushroom rumored to be eaten by dragons in the forest. A wealthy man has offered a fortune to find it, but it's rarely seen for some reason.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13225,
+      "id": "rem_48894",
+      "jp": "ドラゴンマッシュルーム",
+      "en": "Dragon Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

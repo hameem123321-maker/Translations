@@ -1,0 +1,101 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 651,
+  "range_end": 664,
+  "pairs": [
+    {
+      "n": 651,
+      "id": "force_dll_0132",
+      "jp": "「商人トライアル」が発生しました。クリアすると店の売上が強化されます。ミッションと並行して4件まで同時に請けることが出来ます。",
+      "en": "Merchant Trial up. Clear it to boost sales. Max 4 w/ missions."
+    },
+    {
+      "n": 652,
+      "id": "force_dll_0133",
+      "jp": "ＣＰが余っていたので、非アクティブの商品を、できるだけアクティブにしておいたデス\n\n【(このゲームは「アクティブメニューの商品合計」が売値になりますので、アクティブが多いほど有利です)】",
+      "en": "Spare CP, so extra goods were turned on.\n\n【(Sale is the sum of active goods.)】"
+    },
+    {
+      "n": 653,
+      "id": "force_dll_0134",
+      "jp": "平和になってカネが余りそうデスかね？　今なら、カネを使って【派遣時間スキップ】してもいいデスよ\n\n【(派遣中のスロットをクリックしてください)】",
+      "en": "Spare gold. You can skip dispatch time.\n\n【(Click a busy slot.)】"
+    },
+    {
+      "n": 654,
+      "id": "force_dll_0135",
+      "jp": "スキル習得Pが足りないデス。『死神研修』で死神としての実績を立てて、最大値を増やすデス！\n(【顔アイコンをクリック】するとスキルリセットができます)",
+      "en": "Need skill P. Raise the cap in training!\n(【Click face】 to reset skills.)"
+    },
+    {
+      "n": 655,
+      "id": "force_dll_0136",
+      "jp": "メインスロットを操作するのデス？\n\n【(メインスロットのユニットを移動するとパーティーは解散されます。交代するには交代先のユニットを先に選択してください)】",
+      "en": "Move the main slot?\n\n【(Moving main unit disbands the party. Pick swap first.)】"
+    },
+    {
+      "n": 656,
+      "id": "force_dll_0137",
+      "jp": "『美容室』が可能になったデス\n\n(『店員』でモブヒロインの『詳細操作』→『全身』で、『美容室』ボタンが表示できるようになります)",
+      "en": "Salon is open.\n\n(Staff > More > Body shows the Salon button.)"
+    },
+    {
+      "n": 657,
+      "id": "force_dll_0138",
+      "jp": "『料理』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『料理部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Cook items. Drop some, or add Cook staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 658,
+      "id": "force_dll_0139",
+      "jp": "『鍛冶』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『鍛冶部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Smith items. Drop some, or add Smith staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 659,
+      "id": "force_dll_0140",
+      "jp": "『錬金』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『錬金部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Alch items. Drop some, or add Alch staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 660,
+      "id": "force_dll_0141",
+      "jp": "編成出来ないヤツがいるデス。サブスロットのメンバーと交代するデス！\n【(主人公・シイネ・デシルス以外は連戦出来ません。サブスロットに配置することは可能です)】",
+      "en": "Can't form. Swap with a sub unit.\n【(Ren/Shiine/Desilus only rematch. Subs ok.)】"
+    },
+    {
+      "n": 661,
+      "id": "force_dll_0142",
+      "jp": "編成出来ないヤツがいるデス。サブスロットのメンバーと交代するデス！\n【(サブスロットに配置することは可能です)】",
+      "en": "Can't form. Swap with a sub unit.\n【(Can use sub slots.)】"
+    },
+    {
+      "n": 662,
+      "id": "force_fix_0001",
+      "jp": "<size=24>【{0}】</size> undiscovered m",
+      "en": "{0} undiscovered mats"
+    },
+    {
+      "n": 663,
+      "id": "force_fix_0002",
+      "jp": "Base Sale+  ",
+      "en": "Gold+<color="
+    },
+    {
+      "n": 664,
+      "id": "force_fix_0003",
+      "jp": "Invested:<c",
+      "en": "Pay<color=#"
+    }
+  ]
+}

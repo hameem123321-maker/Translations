@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1876,
+  "range_end": 1900,
+  "pairs": [
+    {
+      "n": 1876,
+      "id": "rem_27451",
+      "jp": "夢魔ルーシェルーラ",
+      "en": "Succubus Luscherula",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1877,
+      "id": "rem_27452",
+      "jp": "魔女カリスト・ウィルチ",
+      "en": "Witch Callisto Wilchi",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1878,
+      "id": "rem_27453",
+      "jp": "森人の射手エリオルダ",
+      "en": "Elven Archer Eliorda",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1879,
+      "id": "rem_27454",
+      "jp": "牧場娘キャトリナ",
+      "en": "Ranch Girl Catrina",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1880,
+      "id": "rem_27455",
+      "jp": "銀灰の魔術師ミルテ",
+      "en": "Silver-Gray Mage Myrte",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1881,
+      "id": "rem_27456",
+      "jp": "先代魔女オーレリア・ウィルチ",
+      "en": "Former Witch Aurelia Wilch",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1882,
+      "id": "rem_27457",
+      "jp": "碧羽の退魔巫女シズハ",
+      "en": "Blue-Feathered Exorcist Shizuha",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1883,
+      "id": "rem_27458",
+      "jp": "朱羽の退魔巫女クレハ",
+      "en": "Red-Feathered Exorcist Kureha",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1884,
+      "id": "rem_27459",
+      "jp": "メイドのシェルフィ",
+      "en": "Maid Shelfi",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1885,
+      "id": "rem_27460",
+      "jp": "鍛冶頭ドルガノン",
+      "en": "Head Blacksmith Dorganon",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1886,
+      "id": "rem_27461",
+      "jp": "新米剣士ポンタ",
+      "en": "Novice Swordsman Ponta",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1887,
+      "id": "rem_27462",
+      "jp": "衛兵さん",
+      "en": "Guard",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1888,
+      "id": "rem_27463",
+      "jp": "海賊作家アーマニー14世",
+      "en": "Pirate Writer Armany XIV",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1889,
+      "id": "rem_27464",
+      "jp": "パーティー(勇者)",
+      "en": "Party (Hero)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1890,
+      "id": "rem_27465",
+      "jp": "異邦の女剣士ツバキ",
+      "en": "Foreign Swordswoman Tsubaki",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1891,
+      "id": "rem_27466",
+      "jp": "勇従の女賢者レミル",
+      "en": "Hero's Sage Retainer Remil",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1892,
+      "id": "rem_27467",
+      "jp": "評判の勇者パーティー",
+      "en": "Famed Hero Party",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1893,
+      "id": "rem_27468",
+      "jp": "パーティー(村人)",
+      "en": "Party (Villagers)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1894,
+      "id": "rem_27469",
+      "jp": "村娘ヘレンの父親",
+      "en": "Village Girl Helen's Father",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1895,
+      "id": "rem_27470",
+      "jp": "農家の娘ヘレン",
+      "en": "Farmer's Daughter Helen",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1896,
+      "id": "rem_27471",
+      "jp": "恋慕の青年商人サイラス",
+      "en": "Admiring Young Merchant Sairasu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1897,
+      "id": "rem_27472",
+      "jp": "パーティー(異端審問)",
+      "en": "Party (Inquisition)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1898,
+      "id": "rem_27473",
+      "jp": "女司祭リリエーヌ",
+      "en": "Priestess Lilienne",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1899,
+      "id": "rem_27474",
+      "jp": "黒将軍と女司祭",
+      "en": "Black General & Priestess",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1900,
+      "id": "rem_27475",
+      "jp": "パーティー(遺跡調査団)",
+      "en": "Party (Ruins Survey Team)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    }
+  ]
+}

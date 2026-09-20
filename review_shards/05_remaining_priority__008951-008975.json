@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8951,
+  "range_end": 8975,
+  "pairs": [
+    {
+      "n": 8951,
+      "id": "rem_36673",
+      "jp": "新鮮なキノコを盛り合わせにしたもの。食べても多分大丈夫。ポイズンになった場合は、別売りの解毒薬を買うべき。",
+      "en": "An assortment of fresh mushrooms. Probably safe to eat. If poisoned, you should buy some antidote.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8952,
+      "id": "rem_36674",
+      "jp": "雑多キノコ盛り合わせ",
+      "en": "Mixed Mushroom Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8953,
+      "id": "rem_36675",
+      "jp": "森の奥で群生する新鮮なきのこ達。様々な調理法で味わうことができる。",
+      "en": "Fresh mushrooms growing in clusters deep in the forest. Can be enjoyed in various ways.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8954,
+      "id": "rem_36676",
+      "jp": "森のきのこ沢山セット",
+      "en": "Forest Mushroom Bundle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8955,
+      "id": "rem_36677",
+      "jp": "キノコを焼いたもの。森の恵みである。",
+      "en": "Roasted mushrooms. A gift from the forest.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8956,
+      "id": "rem_36678",
+      "jp": "ローストキノコ傘",
+      "en": "Roasted Mushroom Caps",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8957,
+      "id": "rem_36679",
+      "jp": "妖精の住処と言われる大きなキノコ。そのまま焼くだけで、ジューシーなキノコステーキが味わえる。キノコ特有の風味が広がる一品。",
+      "en": "A large mushroom said to be a fairy's home. Grilled whole, it becomes a juicy mushroom steak with rich, distinctive flavor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8958,
+      "id": "rem_36680",
+      "jp": "妖精のキノコ",
+      "en": "Fairy-Toadstool",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8959,
+      "id": "rem_36681",
+      "jp": "月光を浴び、魔力を帯びた特別なキノコを黒胡椒で炒めた料理。生食でも食べられるが、火を通した方が格段においしい。",
+      "en": "A special, moon-bathed magical mushroom sautéed with black pepper. Edible raw, but much tastier cooked.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8960,
+      "id": "rem_36682",
+      "jp": "黒胡椒ポルチーニ",
+      "en": "Black Pepper Porcini",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8961,
+      "id": "rem_36683",
+      "jp": "カラフルな色のキノコを使ったファンシーな見た目のスープ。子供にも人気が出ると思って考案されたが、子供は怖がって食べようとしない。",
+      "en": "A fancy-looking soup made with colorful mushrooms. Designed to be popular with children, but its appearance scares them away.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8962,
+      "id": "rem_36684",
+      "jp": "ファンタジック茸汁",
+      "en": "Fantastic Mushroom Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8963,
+      "id": "rem_36685",
+      "jp": "貴重なキノコを調味料を使って丁寧に味付けをして焼き上げた。",
+      "en": "A carefully seasoned and grilled dish made with rare mushrooms.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8964,
+      "id": "rem_36686",
+      "jp": "黄金キノコオイル焼き",
+      "en": "Golden Mushroom Oil Grill",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8965,
+      "id": "rem_36687",
+      "jp": "魔女達が密かに伝える調理法を使用したキノコ料理。サバトを盛り上げる精力を得られるとの事だが、見た目がかなり毒々しい。安全には配慮しているそうだ。",
+      "en": "A mushroom dish made using a recipe secretly passed down by witches. Said to grant energy for lively Sabbaths, though its appearance is quite toxic-looking. Safety is reportedly considered.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8966,
+      "id": "rem_36688",
+      "jp": "魔女のキノコ料理",
+      "en": "Witches' Mushroom Dish",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8967,
+      "id": "rem_36689",
+      "jp": "美味しい獣肉をキノコと一緒に、ふんだんなスパイスを利かせて炒めたもの。精が付いて一晩眠れなくなるようなエネルギッシュなスタミナ料理。",
+      "en": "Sautéed delicious beast meat with mushrooms and abundant spices. An energetic stamina dish that's so invigorating, you might not sleep all night.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8968,
+      "id": "rem_36690",
+      "jp": "獣肉とキノコのソース炒め",
+      "en": "Beast Meat & Mushroom Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8969,
+      "id": "rem_36691",
+      "jp": "霊験あらたかな大地が育んだ高級キノコ。滅多に見つからない香り高いキノコは、食通が高額で買い求める。",
+      "en": "A premium mushroom grown by holy earth. Its rare, fragrant nature makes it highly sought after by gourmets.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8970,
+      "id": "rem_36692",
+      "jp": "大地の恵み高級茸",
+      "en": "Earth's Blessing Premium Mushroom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8971,
+      "id": "rem_36693",
+      "jp": "地中に隠れるように存在する、虹色のキノコ。一度これを食べた人間は、血眼になってこのキノコを探してしまう、危ない珍味。",
+      "en": "A rainbow-colored mushroom that hides underground. A dangerous delicacy; those who eat it become obsessed with finding more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8972,
+      "id": "rem_36694",
+      "jp": "レインボーキノコ",
+      "en": "Rainbow Mushroom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8973,
+      "id": "rem_36695",
+      "jp": "チョコレートを練り込んだ生地を焼き上げたマフィン。シュガーチップやナッツも練り入れて、飽きの来ないスイーツに仕上げてある。",
+      "en": "Muffins made with chocolate-kneaded dough. Sugar chips and nuts are mixed in for a satisfyingly timeless treat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8974,
+      "id": "rem_36696",
+      "jp": "チョコレートマフィン",
+      "en": "Chocolate Muffin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8975,
+      "id": "rem_36697",
+      "jp": "チョコレートと苺を使ったピンクのティラミス。果実と砂糖のコンビネーションにより、ゴージャスな味わいを完成させた。",
+      "en": "A pink tiramisu made with chocolate and strawberries. The combination of fruit and sugar creates a gorgeous flavor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

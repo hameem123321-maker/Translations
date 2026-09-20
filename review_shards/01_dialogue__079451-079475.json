@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 79451,
+  "range_end": 79475,
+  "pairs": [
+    {
+      "n": 79451,
+      "id": "db_EventInfo:94010:38",
+      "jp": "まさか【徒弟制度】が復活するなんてねぇ",
+      "en": "I never thought the 'apprenticeship system' would come back.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79452,
+      "id": "db_EventInfo:94011:38",
+      "jp": "【『鍛鉄の街フレスミス』】でドワームの技を使えるのは、オヤジの技を継いだアタイだけだったのに",
+      "en": "In 'Fresmith, the City of Forged Iron,' I was the only one who could use Dwarm techniques, having inherited them from my old man.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79453,
+      "id": "db_EventInfo:94012:3",
+      "jp": "うむ。うかうかしていれば、他の職人に追い越されてしまうぞ",
+      "en": "Yes. If you're not careful, other craftsmen will surpass you.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79454,
+      "id": "db_EventInfo:94013:38",
+      "jp": "うへー。そうならないよう、アタイも誰かに弟子入りしよっかなぁ",
+      "en": "Yikes. Maybe I should become an apprentice to someone too, so that doesn't happen.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79455,
+      "id": "db_EventInfo:94014:38",
+      "jp": "えっと、目下手が空いてそうなドワーム族は、っと……",
+      "en": "So, which Dwarm seems to have free time right now...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79456,
+      "id": "db_EventInfo:94015:3",
+      "jp": "何をいっとる。キサマの師匠はもう決まってるぞ？",
+      "en": "What are you saying? Your master is already decided!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79457,
+      "id": "db_EventInfo:94016:38",
+      "jp": "えっ？　それは一体誰――",
+      "en": "Huh? Who is that supposed to be?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79458,
+      "id": "db_EventInfo:94018:3",
+      "jp": "<big>妾じゃ！</big>",
+      "en": "It's me!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79459,
+      "id": "db_EventInfo:94019:3",
+      "jp": "喜べ、ドワームの頂点、この【『鍛冶姫』】が、キサマに技を伝授してやるのじゃ！",
+      "en": "Rejoice! The pinnacle of the Dwarm, this 'Forging Princess', will teach you her skills!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79460,
+      "id": "db_EventInfo:94020:38",
+      "jp": "えええええええっ！？",
+      "en": "Whaaaaaaat!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79461,
+      "id": "db_EventInfo:94021:3",
+      "jp": "横道があったとはいえ、ドワームの技をこれまで伝えてきたことは褒めてやる",
+      "en": "You went off the proper path, but I'll praise you for teaching Dwarm techniques so far.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79462,
+      "id": "db_EventInfo:94022:3",
+      "jp": "しかし！　そんなもんは、ドワームの神髄と比べれば些細なことと、知るがいいのじゃ！",
+      "en": "But! You should know that such things are trivial compared to the true essence of the Dwarm!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79463,
+      "id": "db_EventInfo:94023:3",
+      "jp": "さあて、工房に住み込むぞ！！",
+      "en": "Alright, you're moving into the workshop!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79464,
+      "id": "db_EventInfo:94024:38",
+      "jp": "<big>わあああああ！！</big>",
+      "en": "Waaaaaaaaah!!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79465,
+      "id": "db_EventInfo:94027:0",
+      "jp": "エルザはアンジュに引きずられてしまった。",
+      "en": "Elsa was dragged off by Anju.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79466,
+      "id": "db_EventInfo:94028:1",
+      "jp": "……アンジュの技術はたしかにすごいけど",
+      "en": "...Anju's skills are amazing, for sure, but...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79467,
+      "id": "db_EventInfo:94029:2",
+      "jp": "あいつも天才タイプデスよね。ちゃんと教えられるんデス？",
+      "en": "He's a genius type too, isn't he? Can you really teach him properly?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79468,
+      "id": "db_EventInfo:94030:13",
+      "jp": "ほっほっ、まあ無理でしょうな",
+      "en": "Ho ho, well, I suppose it's impossible.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79469,
+      "id": "db_EventInfo:94031:1",
+      "jp": "やっぱり",
+      "en": "Figures.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79470,
+      "id": "db_EventInfo:94032:13",
+      "jp": "しかし、いずれは誰かに【『鍛冶姫』】の技を伝授しなければなりません",
+      "en": "However, someone must eventually inherit the techniques of the Forging Princess.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79471,
+      "id": "db_EventInfo:94033:13",
+      "jp": "そして技というものは、誰かに教えて伝えることで、洗練されて体系化されるものです",
+      "en": "Techniques are refined and systematized by being taught and passed on to someone.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79472,
+      "id": "db_EventInfo:94034:13",
+      "jp": "ゆえに、これは姫様にとっての修行でもあるのです",
+      "en": "Therefore, this is also a form of training for the Princess herself.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79473,
+      "id": "db_EventInfo:94035:13",
+      "jp": "……ワシでは姫様の技は引き継げませんからな。ちょうどいい相手が見つかったと喜びますぞ",
+      "en": "...I cannot inherit the Princess's skills myself. So, I am pleased a suitable candidate has been found.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79474,
+      "id": "db_EventInfo:94036:1",
+      "jp": "ふむ……そういうものなんだな",
+      "en": "Hmm... So that's how it is.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79475,
+      "id": "db_EventInfo:94037:0",
+      "jp": "これも【託される力】の一つのカタチなのだろう。",
+      "en": "This must be one form of the Power Entrusted to me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

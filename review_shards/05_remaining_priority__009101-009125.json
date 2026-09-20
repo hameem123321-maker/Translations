@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9101,
+  "range_end": 9125,
+  "pairs": [
+    {
+      "n": 9101,
+      "id": "rem_36823",
+      "jp": "光を屈折させて不思議な光を発する特殊マント。夜でも僅かな月明かりを反射し手元を照らす為、上級の冒険者に人気。",
+      "en": "A special cloak that bends light to emit a strange glow. Popular among experienced adventurers as it reflects even faint moonlight at night, illuminating your hands.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9102,
+      "id": "rem_36824",
+      "jp": "オーロラ・ライトマント",
+      "en": "Aurora Light Mantle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9103,
+      "id": "rem_36825",
+      "jp": "装飾鎧をさらに豪華にした、実用性のない装備。徹底的に華美な装飾を施されている。盗難が恐ろしいが、生半可な人間には持ち上げることはできない。",
+      "en": "An even more ornate version of decorative armor, with zero practicality. Lavishly decorated. Theft is a worry, but amateurs can't even lift it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9104,
+      "id": "rem_36826",
+      "jp": "伝説の英雄鎧レプリカ",
+      "en": "Replica Legendary Hero Armor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9105,
+      "id": "rem_36827",
+      "jp": "安い布で作成された量産服。安価で見た目もそれなり。",
+      "en": "Mass-produced clothes made from cheap fabric. Inexpensive and decent-looking.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9106,
+      "id": "rem_36828",
+      "jp": "質の良い量産服",
+      "en": "Quality Mass-Produced Clothes",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9107,
+      "id": "rem_36829",
+      "jp": "長旅に耐える、肩口からゆったりと体を覆うマント。丈夫さを保ちながら、水を弾くように加工されており、一般人も愛用する。",
+      "en": "A sturdy, roomy cloak that covers the body from the shoulders, perfect for long journeys. Treated to repel water while maintaining durability, favored even by commoners.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9108,
+      "id": "rem_36830",
+      "jp": "旅人のマント",
+      "en": "Traveler's Cloak",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9109,
+      "id": "rem_36831",
+      "jp": "ゼカリウスの住人としてのステイタスとなる、オシャレな服。戦闘や冒険には向いていない。",
+      "en": "A stylish outfit marking your status as a citizen of Zecarius. Not suited for combat or adventure.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9110,
+      "id": "rem_36832",
+      "jp": "一般市民服",
+      "en": "Common Citizen's Attire",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9111,
+      "id": "rem_36833",
+      "jp": "身につけていると一目置かれる感じのおしゃれな量産服。派手ではなく、それでいて地味ではないシックで質の良い質感の服。",
+      "en": "Chic, high-quality mass-produced clothes that command respect. Not flashy, yet not plain—sophisticated and well-made.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9112,
+      "id": "rem_36834",
+      "jp": "上質なおしゃれ服",
+      "en": "Quality Chic Attire",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9113,
+      "id": "rem_36835",
+      "jp": "あまり一般販売できない高品質の服。身につけていると一般市民とは見られない、明らかに浮いているデザイン。悪く言えば華美な服。",
+      "en": "High-quality clothes rarely sold to the public. Wearing them makes you stand out, clearly not a commoner. Ornate, to put it negatively.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9114,
+      "id": "rem_36836",
+      "jp": "貴族に人気の服",
+      "en": "Clothing Popular with Nobility",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9115,
+      "id": "rem_36837",
+      "jp": "パーティーで互いにマウント合戦するのに使われるゴージャスな貴族服。貴金属ををふんだんに使用しておりリッチなデザイン。",
+      "en": "Lavish noble attire used for one-upmanship at parties. Extravagantly decorated with precious metals in a rich design.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9116,
+      "id": "rem_36838",
+      "jp": "最新のファッション服",
+      "en": "Latest Fashion Attire",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9117,
+      "id": "rem_36839",
+      "jp": "流れるような銀糸がおしゃれな都会的デザインのコート。おしゃれに気を遣うならこれを着ずにはいられない。",
+      "en": "A stylish, urban-design coat with flowing silver thread. A must-have for the fashion-conscious.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9118,
+      "id": "rem_36840",
+      "jp": "銀糸のストリームコート",
+      "en": "Silver Thread Stream Coat",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9119,
+      "id": "rem_36841",
+      "jp": "魔法の糸で編まれたおしゃれな衣服。魔力を込められた糸で編まれており、防御力もある。しかしおしゃれ用なので誰も気にしない。",
+      "en": "Stylish clothing woven from magical thread. Imbued with magic, it offers defense, but since it's for fashion, no one cares.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9120,
+      "id": "rem_36842",
+      "jp": "魔法糸で編まれた衣服",
+      "en": "Clothing Woven from Magic Thread",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9121,
+      "id": "rem_36843",
+      "jp": "闇系の住人が好んで着用する、黒い外套。怪しまれそうだが、認識阻害の魔術によって、誰も気にしない。",
+      "en": "A black cloak favored by denizens of darkness. It looks suspicious, but a perception-hindering spell makes nobody notice.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9122,
+      "id": "rem_36844",
+      "jp": "闇のマント",
+      "en": "Mantle of Darkness",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9123,
+      "id": "rem_36845",
+      "jp": "妖精が織り上げたという触れ込みの、きらびやかなドレス。キラキラした布地は、言われれば信じてしまいそうだが、異邦の旅人は見覚えのあるデザインだと語る。",
+      "en": "A dazzling dress said to be woven by fairies. The glittering fabric is convincing, but foreign travelers claim the design looks familiar.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9124,
+      "id": "rem_36846",
+      "jp": "妖精糸のドレス",
+      "en": "Fairy Thread Dress",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9125,
+      "id": "rem_36847",
+      "jp": "この上ない贅をつくしたゴージャスなファッション服。最新のデザイナーによって指定された型で、リッチに仕上げられている。派手すぎて、着る者を選びまくる。",
+      "en": "The epitome of luxury, this gorgeous fashion piece. Made in a designer's latest style, it's richly finished. Too flashy—it picks its wearer.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

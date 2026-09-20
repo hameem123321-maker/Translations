@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7701,
+  "range_end": 7725,
+  "pairs": [
+    {
+      "n": 7701,
+      "id": "rem_35352",
+      "jp": "味方が行動不能",
+      "en": "Ally Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7702,
+      "id": "rem_35353",
+      "jp": "敵が行動不能",
+      "en": "Foe Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7703,
+      "id": "rem_35354",
+      "jp": "先制攻撃発生率",
+      "en": "Preemptive Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7704,
+      "id": "rem_35355",
+      "jp": "魔術暴走率",
+      "en": "Magic Overload Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7705,
+      "id": "rem_35356",
+      "jp": "チェイススキルを連続使用",
+      "en": "Use Chase Skills Consecutively",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7706,
+      "id": "rem_35357",
+      "jp": "チェイススキル発生率",
+      "en": "Chase Skill Trigger Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7707,
+      "id": "rem_35358",
+      "jp": "チェイスされる確率",
+      "en": "Chase Target Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7708,
+      "id": "rem_35359",
+      "jp": "チェイスされる確率(女性から)",
+      "en": "Chase Target Rate (from Females)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7709,
+      "id": "rem_35360",
+      "jp": "被ターゲット率",
+      "en": "Targeting Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7710,
+      "id": "rem_35361",
+      "jp": "沈黙フィールド生成",
+      "en": "Silence Field Generated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7711,
+      "id": "rem_35362",
+      "jp": "シズハ・クレハがいると追撃強化",
+      "en": "Boost with Shizuha & Kureha",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7712,
+      "id": "rem_35363",
+      "jp": "淫魔領域を無効化",
+      "en": "Nullify Succubus Zone",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7713,
+      "id": "rem_35364",
+      "jp": "魔人領域を無効化",
+      "en": "Nullify Demon Zone",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7714,
+      "id": "rem_35365",
+      "jp": "ハヅキの乱入率",
+      "en": "Hazuki Encounter Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7715,
+      "id": "rem_35366",
+      "jp": "美食モンスター限定でダメージ限界突破",
+      "en": "Dmg Cap Break (Gourmet Monsters)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7716,
+      "id": "rem_35367",
+      "jp": "修練場でのHP",
+      "en": "HP in Training Grounds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7717,
+      "id": "rem_35368",
+      "jp": "修練場でのダメージ限界",
+      "en": "Dmg Cap in Training Grounds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7718,
+      "id": "rem_35369",
+      "jp": "経験値",
+      "en": "Experience",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7719,
+      "id": "rem_35370",
+      "jp": "経験値(低レベル時)",
+      "en": "Experience (Low Level)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7720,
+      "id": "rem_35371",
+      "jp": "プレイヤー潜在能力解放",
+      "en": "Unlock Player Potential",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7721,
+      "id": "rem_35372",
+      "jp": "パートナー潜在能力解放",
+      "en": "Partner Potential Unlocked",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7722,
+      "id": "rem_35373",
+      "jp": "レベル同期・アンジュと同じに(+3)",
+      "en": "Level Sync: Match Anju (+3)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7723,
+      "id": "rem_35374",
+      "jp": "レベル同期・キャトリナと同じに(+5)",
+      "en": "Level Sync: Match Catrina (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7724,
+      "id": "rem_35375",
+      "jp": "レベル同期・マリーゼルと同じに(+5)",
+      "en": "Level Sync: Match Marisel (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7725,
+      "id": "rem_35376",
+      "jp": "レベル同期・主人公と同じに(+5)",
+      "en": "Level Sync: Match Ren (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12901,
+  "range_end": 12925,
+  "pairs": [
+    {
+      "n": 12901,
+      "id": "rem_43988",
+      "jp": "聖骸布リボン",
+      "en": "Holy Shroud Ribbon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12902,
+      "id": "rem_43989",
+      "jp": "古代から伝わり、シーネ教徒が隠し持つ神のコイン。持っていれば楽園に安らかな気持ちでたどり着ける。なお、金持ちほど高額が必要。",
+      "en": "A divine coin passed down from ancient times, secretly held by Shiene followers. It grants a peaceful arrival in paradise. The richer you are, the more it costs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12903,
+      "id": "rem_43990",
+      "jp": "神の国への片道切符",
+      "en": "One-Way Ticket to the Divine Realm",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12904,
+      "id": "rem_43991",
+      "jp": "魔界の毒や呪いに対抗できる程の解毒薬。かつて薬聖マルグレッテが名もなき大魔女と共に開発したという逸話がある。元々は淫魔に連なる薬だったらしいが……。",
+      "en": "A potent antidote effective against demonic poisons and curses. Legend says it was developed by the Medicine Sage Margrete and an unnamed Great Witch. It was originally a succubus-linked concoction...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12905,
+      "id": "rem_43992",
+      "jp": "薬聖式抗魔菌ドリンク",
+      "en": "Medicine Sage-Style Anti-Demon Bacterium Drink",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12906,
+      "id": "rem_43993",
+      "jp": "重篤な怪我や病気にも対応できる救急セット。家庭用だけでなく、危険な冒険にも頼れる相棒となる治療用品。",
+      "en": "An emergency kit for severe injuries and illnesses. Reliable medical supplies, not just for home, but for dangerous adventures.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12907,
+      "id": "rem_43994",
+      "jp": "家庭用救急医療セット",
+      "en": "Home Emergency Medical Kit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12908,
+      "id": "rem_43995",
+      "jp": "一口で体が軽くなるミルクポーション。体に感じる重さを軽減し、非力な女性でも一時的に重装備が可能になる。ただし効果が切れると途端に動けなくなる。",
+      "en": "A milk potion that lightens the body with one sip. Reduces perceived weight, allowing even weaker women to briefly wear heavy gear. However, when it wears off, movement becomes impossible.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12909,
+      "id": "rem_43996",
+      "jp": "浮遊のミルクポーション",
+      "en": "Floating Milk Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12910,
+      "id": "rem_43997",
+      "jp": "一時的に幸福の天使を呼び寄せると宣伝されているポーション。運気が上がる噂があり、富裕層に非常に人気。しかし肝心の天使は真の素質を持つ者にしか訪れない。",
+      "en": "A potion advertised to temporarily summon the Angel of Happiness. Rumored to boost luck, very popular with the wealthy. But the crucial angel only visits those with true aptitude.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12911,
+      "id": "rem_43998",
+      "jp": "幸福のローズポーション",
+      "en": "Rose Potion of Happiness",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12912,
+      "id": "rem_45298",
+      "jp": "ハヅキさんが建築した謎の施設。過去と未来の強者の影を召喚し、あらゆる強者に相応の試練を与えることができる。修練場は謎空間であり、現実には影響を及ぼさないため安全性が保証されている。",
+      "en": "A mysterious facility built by Hazuki. Can summon shadows of past and future powerhouses, providing suitable trials. The training ground is a mystery space, safe as it doesn't affect reality.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12913,
+      "id": "rem_45299",
+      "jp": "領主に初めて捕まった時だな。ま、軽く口で抜いてやったぜ！　これで許してくれるんだからチョロいよな！",
+      "en": "Ah, when the Lord first caught me. Heh, I just got him off with my mouth! He forgave me so easily, what a pushover!",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12914,
+      "id": "rem_45300",
+      "jp": "デイジーのゆるしてフェラ・無反応",
+      "en": "Daisy's Forgiving Blowjob - No Reaction",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12915,
+      "id": "rem_45301",
+      "jp": "領主に捕まってお仕置きされた時か。この時は全然感じなかったのになぁ。",
+      "en": "When I got caught and punished by the Lord. I didn't feel a thing back then...",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12916,
+      "id": "rem_45302",
+      "jp": "デイジーを手マンでお仕置き・無反応",
+      "en": "Punishing Daisy with Fingering - No Reaction",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12917,
+      "id": "rem_45303",
+      "jp": "変な力ですげぇ感じる様になっちまった……。でも、なんて言うか……気持ち良かったぁД",
+      "en": "That weird power made me feel it so much... But, how do I say it... It felt good Д",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12918,
+      "id": "rem_45304",
+      "jp": "デイジーを手マンでお仕置き・羞恥",
+      "en": "Punishing Daisy with Fingering - Ashamed",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12919,
+      "id": "rem_45305",
+      "jp": "口で抜いてやれば許してくれるんだから優しいよな……Д　昔は何も感じなかったのに、変な真似しやがってД",
+      "en": "Getting him off with my mouth and being forgiven... he's so kind Д I didn't feel anything before, damn you for pulling this weird trick Д",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12920,
+      "id": "rem_45306",
+      "jp": "デイジーのゆるしてフェラ・羞恥",
+      "en": "Daisy's Forgiving Blowjob - Ashamed",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12921,
+      "id": "rem_45307",
+      "jp": "初めてだったのに、酷い領主だぜД　まあ、ちゃんと気持ち良くしてくれたから、許してやるよД",
+      "en": "For my first time, you're a real jerk, Lord. Well, you made it feel good, so I'll forgive you.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12922,
+      "id": "rem_45308",
+      "jp": "デイジーの公開処女喪失ショー・前戯",
+      "en": "Daisy's Public Deflowering Show - Foreplay",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12923,
+      "id": "rem_45309",
+      "jp": "皆に見られながら、処女を奪われちまったД　もう<pl>のモノになるしか、ねえじゃねえかД",
+      "en": "They saw it all while I lost my virginity. I guess I'm <pl>'s now.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12924,
+      "id": "rem_45310",
+      "jp": "デイジーの公開処女喪失ショー・セックス",
+      "en": "Daisy's Public Deflowering Show - Sex",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12925,
+      "id": "rem_45311",
+      "jp": "くそぉ、アイツらめ、ちょっと感じるようになったらすぐこれだぜ……呆れるよな",
+      "en": "Dammit, the moment I start getting into it, they do this... unbelievable.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    }
+  ]
+}

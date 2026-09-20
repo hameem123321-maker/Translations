@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102426,
+  "range_end": 102450,
+  "pairs": [
+    {
+      "n": 102426,
+      "id": "db_EventInfo:121012:1",
+      "jp": "たしかミルテって、中退したのでは？",
+      "en": "Wait, didn't Myrte drop out?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102427,
+      "id": "db_EventInfo:121013:9",
+      "jp": "卒業するのとライセンスはまた、別なのである",
+      "en": "Graduation and getting a license are two separate things.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102428,
+      "id": "db_EventInfo:121014:9",
+      "jp": "もっとも卒業できるだけの実力者の方が、高度なライセンスを持てるのだが。ミルテは【『二つ名』】持ちであるからな",
+      "en": "Of course, the really skilled ones who can graduate are the ones who get the advanced licenses. Myrte here even has a 'Title'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102429,
+      "id": "db_EventInfo:121015:12",
+      "jp": "しかし不正にライセンスを発行することで、実力を持ち合わせてない魔術師が出回るのです",
+      "en": "But by issuing licenses illegally, unskilled mages are now running around everywhere.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102430,
+      "id": "db_EventInfo:121016:12",
+      "jp": "これは【『<ruby=ソルシア>学院</ruby>』】ならびに、私たち魔術師の信頼の失墜に繋がります",
+      "en": "This leads to a loss of trust for the 'Solsia Academy' and for us mages.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102431,
+      "id": "db_EventInfo:121017:1",
+      "jp": "ふむ……ミルテたちには死活問題っぽいな",
+      "en": "Hmm... Sounds like a life-or-death issue for Myrte and the others.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102432,
+      "id": "db_EventInfo:121020:0",
+      "jp": "学院に資金援助して、不正ライセンス取り締まりを強化しよう",
+      "en": "Fund the academy and strengthen the crackdown on fake licenses.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102433,
+      "id": "db_EventInfo:121022:12",
+      "jp": "資金援助ありがとうございます。【『<ruby=ソルシア>学院</ruby>』】と協力して、不正者を取り締まっていきましょう",
+      "en": "Thank you for the funding. We will work with the 'Solsia Academy' to crack down on the lawbreakers.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102434,
+      "id": "db_EventInfo:121023:1",
+      "jp": "具体的にはどうするんだ？",
+      "en": "So, what specifically will you do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102435,
+      "id": "db_EventInfo:121024:12",
+      "jp": "問題になるのは、ライセンスを持たない者が冒険者として活動することです。未熟な魔術師を連れた探索は事故に繋がりますから",
+      "en": "The problem is people without licenses acting as adventurers. Explorations with unskilled mages lead to accidents.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102436,
+      "id": "db_EventInfo:121025:12",
+      "jp": "なので冒険者ギルドへの登録やクエスト受注の際に、ライセンスの確認を行ないます。【『学院』】からも認定員を派遣させましょう",
+      "en": "So, we will check licenses when people register at the Adventurer's Guild or take on quests. We'll also send inspectors from the 'Academy'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102437,
+      "id": "db_EventInfo:121026:1",
+      "jp": "なんだか大がかりだな……そういうのは、ちゃんとした機関が行うんじゃないか？",
+      "en": "Seems like a big operation... Shouldn't that be done by a proper organization?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102438,
+      "id": "db_EventInfo:121027:9",
+      "jp": "何を言っている。この地方で一番権力があるのは領主たる店長殿ではないか",
+      "en": "What are you talking about? The person with the most authority in this region is you, the shopkeeper, as the lord.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102439,
+      "id": "db_EventInfo:121028:1",
+      "jp": "そ、そうか……そういえば、そういうことだったなぁ",
+      "en": "Oh... right... I guess that's how it works, huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102440,
+      "id": "db_EventInfo:121031:0",
+      "jp": "その後、不正ライセンスの発行者は逮捕され、不正な魔術師の権利は剥奪されていった。",
+      "en": "After that, the people handing out fake licenses were arrested, and the unlicensed mages lost their rights.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102441,
+      "id": "db_EventInfo:121032:1",
+      "jp": "しかし……なんでライセンスみたいなものがあるんだ？",
+      "en": "But... why is there even a license system?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102442,
+      "id": "db_EventInfo:121033:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】はライセンスを管理することで、大きな利益を得ているのです",
+      "en": "The Sorshia Academy makes a lot of money by controlling the licenses.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102443,
+      "id": "db_EventInfo:121034:12",
+      "jp": "不正ライセンス発行者は、【『<ruby=ソルシア>学院</ruby>』】に打撃を与えたかったのかもしれませんね",
+      "en": "Maybe the people selling fake licenses wanted to hurt the Sorshia Academy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102444,
+      "id": "db_EventInfo:121035:9",
+      "jp": "もっとも……新しいライセンス発行者が現れたとしても、新たな既得権益が生み出されるだけにすぎんがな",
+      "en": "Of course... even if a new license issuer showed up, they'd just create another bunch of people with vested interests.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102445,
+      "id": "db_EventInfo:121036:1",
+      "jp": "利益の奪い合いか……どこもそんなもんなんだな",
+      "en": "Just fighting over profits... guess it's the same everywhere.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102446,
+      "id": "db_EventInfo:121037:12",
+      "jp": "魔術は悪用されれば危険なものです。私は例外として……普通の人間も扱いを間違えれば、たやすく暴走するものなんですよ",
+      "en": "Magic is dangerous if it's misused. Even for normal people—I'm an exception—it's easy to lose control if you handle it wrong.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102447,
+      "id": "db_EventInfo:121038:12",
+      "jp": "その場合は他者を傷つける前に、自滅するものではありますが",
+      "en": "In that case, they'd destroy themselves before hurting anyone else, though.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102448,
+      "id": "db_EventInfo:121039:1",
+      "jp": "怖いな",
+      "en": "That's scary.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102449,
+      "id": "db_EventInfo:121040:12",
+      "jp": "ええ、とても。だから【『<ruby=ソルシア>学院</ruby>』】は魔術を管理するのです",
+      "en": "Yes, very. That's why the Sorshia Academy manages magic.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102450,
+      "id": "db_EventInfo:121041:12",
+      "jp": "欲に溺れた一部の人間は、それを忘れていますけどね",
+      "en": "But some people, blinded by greed, forget that.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    }
+  ]
+}

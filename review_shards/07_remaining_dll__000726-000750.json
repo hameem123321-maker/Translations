@@ -1,0 +1,183 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 726,
+  "range_end": 750,
+  "pairs": [
+    {
+      "n": 726,
+      "id": "dll_0726",
+      "jp": "派遣をコンプリートしたので、【派遣系ミッション】がクリア扱いになるデス！！",
+      "en": "Dispatch completed. Dispatch Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 727,
+      "id": "dll_0727",
+      "jp": "施設改良をコンプリートしたので、【施設改良系ミッション】がクリア扱いになるデス！！",
+      "en": "Facilities upgraded. Facility Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 728,
+      "id": "dll_0728",
+      "jp": "【すべてのスキル】が能力開発可能になり、【限界数まで】習得出来るようになったデス！！",
+      "en": "All Skills can be developed to max level!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 729,
+      "id": "dll_0729",
+      "jp": "『鍛冶工房』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Blacksmith'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 730,
+      "id": "dll_0730",
+      "jp": "『錬金工房』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Alchemy Lab'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 731,
+      "id": "dll_0731",
+      "jp": "『魔女っ娘ルーム』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Witch Girl Room'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 732,
+      "id": "dll_0732",
+      "jp": "『魔女っ娘ルーム』を作るデス\n\n【(店全体のＣＰを高めることができます)】",
+      "en": "Build 'Witch Girl Room'.\n\n【Boosts overall CP】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 733,
+      "id": "dll_0733",
+      "jp": "『豪華な財宝部屋』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Luxury Treasure Vault'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 734,
+      "id": "dll_0734",
+      "jp": "『礼拝堂』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Chapel'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 735,
+      "id": "dll_0735",
+      "jp": "『豪華な事務所』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Luxury Office'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 736,
+      "id": "dll_0736",
+      "jp": "【ならずもの】の襲撃だ！",
+      "en": "Rogue raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 737,
+      "id": "dll_0737",
+      "jp": "【邪教徒】の襲撃だ！",
+      "en": "Cultist raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 738,
+      "id": "dll_0738",
+      "jp": "【ゴブリン】の襲撃だ！",
+      "en": "Goblin raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 739,
+      "id": "dll_0739",
+      "jp": "【{0}ゴールド】でゴミを一掃するデス？\n(所持ゴールド:{1})",
+      "en": "Clear trash for 【{0} Gold】?\n(Gold: {1})",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 740,
+      "id": "dll_0740",
+      "jp": "これ以上は雇用できないデス。追加雇用するなら、誰かを解雇するデス【(キャンセル可)】",
+      "en": "Can't hire more. Fire someone to add staff.【Can cancel】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 741,
+      "id": "dll_0741",
+      "jp": "【{0}(★{1})】を解雇するのデス？",
+      "en": "Fire {0} (★{1})?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 742,
+      "id": "dll_0742",
+      "jp": "【{0}】を解雇したデス",
+      "en": "{0} fired.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 743,
+      "id": "dll_0743",
+      "jp": "『{0}』が『店員』になったデス",
+      "en": "{0} is now Shopkeeper.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 744,
+      "id": "dll_0744",
+      "jp": "商人トライアル発生！",
+      "en": "Merchant Trial started!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 745,
+      "id": "dll_0745",
+      "jp": "パートナーミッション発生！",
+      "en": "Partner Mission started!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 746,
+      "id": "dll_0746",
+      "jp": "えっ？",
+      "en": "Huh?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 747,
+      "id": "dll_0747",
+      "jp": "ん？",
+      "en": "Mm?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 748,
+      "id": "dll_0748",
+      "jp": "どうやらやってもらいたいことがあるようだ。",
+      "en": "It seems they have a request.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 749,
+      "id": "dll_0749",
+      "jp": "はい……",
+      "en": "Yes...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 750,
+      "id": "dll_0750",
+      "jp": "「商人トライアル」が発生しました。クリアすると店の売上が強化されます。ミッションと並行して4件まで同時に請けることが出来ます。",
+      "en": "A Merchant Trial started. Clear it to boost shop sales. You can have up to 4 tasks alongside missions.",
+      "category": "remaining_dll"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4251,
+  "range_end": 4275,
+  "pairs": [
+    {
+      "n": 4251,
+      "id": "rem_31870",
+      "jp": "命中精度-50%",
+      "en": "Accuracy -50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4252,
+      "id": "rem_31871",
+      "jp": "【<dst>】は意識が朦朧として動けない……！",
+      "en": "【<dst>】 is dazed and cannot move...!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4253,
+      "id": "rem_31872",
+      "jp": "【<dst>】は酔っぱらってしまった！",
+      "en": "【<dst>】 got drunk!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4254,
+      "id": "rem_31873",
+      "jp": "【<dst>】の意識が戻った……",
+      "en": "【<dst>】 regained consciousness...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4255,
+      "id": "rem_31874",
+      "jp": "酩酊",
+      "en": "Intoxication",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4256,
+      "id": "rem_31875",
+      "jp": "【<dst>】の命中率が下がった！",
+      "en": "【<dst>】's accuracy dropped!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4257,
+      "id": "rem_31876",
+      "jp": "【<dst>】の命中率が元に戻った……",
+      "en": "【<dst>】's accuracy returned to normal...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4258,
+      "id": "rem_31877",
+      "jp": "盲目",
+      "en": "Blind",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4259,
+      "id": "rem_31878",
+      "jp": "物理ダメージ軽減率-30% + クリティカルを受ける確率+30%",
+      "en": "Physical Damage Reduction -30% + Critical Chance Taken +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4260,
+      "id": "rem_31879",
+      "jp": "【<dst>】は身体が凍結して行動できない！",
+      "en": "【<dst>】's body is frozen and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4261,
+      "id": "rem_31880",
+      "jp": "【<dst>】の身体が凍結した！",
+      "en": "【<dst>】 is frozen solid!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4262,
+      "id": "rem_31881",
+      "jp": "【<dst>】の凍結から解放された！",
+      "en": "【<dst>】 breaks free from the ice!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4263,
+      "id": "rem_31882",
+      "jp": "凍結",
+      "en": "Frozen",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4264,
+      "id": "rem_31883",
+      "jp": "物理ダメージ軽減率+30%",
+      "en": "Physical damage taken -30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4265,
+      "id": "rem_31884",
+      "jp": "【<dst>】は身体が動かない！",
+      "en": "【<dst>】's body won't move!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4266,
+      "id": "rem_31885",
+      "jp": "【<dst>】は石化の魔術にかけられた！",
+      "en": "【<dst>】 has been turned to stone!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4267,
+      "id": "rem_31886",
+      "jp": "【<dst>】の石化の魔術が消え去った！",
+      "en": "【<dst>】's stone curse is lifted!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4268,
+      "id": "rem_31887",
+      "jp": "石化",
+      "en": "Petrified",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4269,
+      "id": "rem_31888",
+      "jp": "物理ダメージ-50%",
+      "en": "Physical damage dealt -50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4270,
+      "id": "rem_31889",
+      "jp": "【<dst>】は腹が痛くて動けない……！",
+      "en": "【<dst>】 has a stomach ache and can't move...!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4271,
+      "id": "rem_31890",
+      "jp": "【<dst>】はお腹を壊してしまった！",
+      "en": "【<dst>】 got an upset stomach!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4272,
+      "id": "rem_31891",
+      "jp": "【<dst>】の体調が戻った……",
+      "en": "【<dst>】's feeling better now...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4273,
+      "id": "rem_31892",
+      "jp": "腹痛",
+      "en": "Stomach Ache",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4274,
+      "id": "rem_31893",
+      "jp": "【<dst>】の攻撃力が下がった！",
+      "en": "【<dst>】's attack fell!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4275,
+      "id": "rem_31894",
+      "jp": "【<dst>】の攻撃力が元に戻った！",
+      "en": "【<dst>】's attack returned to normal!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

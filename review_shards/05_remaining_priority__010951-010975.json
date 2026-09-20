@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10951,
+  "range_end": 10975,
+  "pairs": [
+    {
+      "n": 10951,
+      "id": "rem_38712",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の大神殿を建築する資金に協力する。かなりの大工事で、数年がかりの大仕事になるだろう。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 10952,
+      "id": "rem_38713",
+      "jp": "教会Lv15・ゼカリウス大神殿の建築",
+      "en": "Build Level 15 Church: Great Temple of Zecarius",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10953,
+      "id": "rem_38714",
+      "jp": "困窮する『魔女達のお茶会』の薬師達を資金援助する。住む場所や施設を用意し、働く場を与えることで、錬金系商品の売値が高まるはず。",
+      "en": "Provide financial aid to the impoverished alchemists of the Witch's Tea Party. By offering them housing, facilities, and work opportunities, the selling price of alchemical goods should increase.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10954,
+      "id": "rem_38715",
+      "jp": "お茶会Lv8・恵まれない薬師の資金援助",
+      "en": "Tea Party Lv8 • Funding Aid for the Unfortunate Pharmacist",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10955,
+      "id": "rem_38716",
+      "jp": "カリストがデザインした高性能ポーションの生成工房を建設する。既存のポーションを遙かに上回る上級ポーションが出回れば、ポーション市場を独占できるというもくろみだが。",
+      "en": "Build a workshop to produce the high-performance potions designed by Callisto. The plan is to dominate the potion market by flooding it with superior potions that far surpass existing ones.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10956,
+      "id": "rem_38717",
+      "jp": "お茶会Lv10・高性能ポーション工房建設",
+      "en": "Tea Party Lv10・High-Performance Potion Workshop Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 10957,
+      "id": "rem_38718",
+      "jp": "既存のポーション市場を席巻するのは難しいようだ。まずはカリストが生産する高性能ポーションを買取り、それをうちの店舗のネットワークで売りさばき、認知度を上げていこう。",
+      "en": "Taking over the existing potion market seems difficult. First, we'll purchase the high-performance potions that Callisto produces, then sell them through our shop's network to build recognition.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10958,
+      "id": "rem_38719",
+      "jp": "お茶会Lv12・魔女の秘薬販売網の構築",
+      "en": "Tea Party Lv12 · Establish Witch Potion Sales Network",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10959,
+      "id": "rem_38720",
+      "jp": "サージとのほぼ無制限の交易権を得る。サージの商人に認められた証でもある。サージから流れる贅沢品の売値が大幅にアップする。高級品を売りさばこう。",
+      "en": "Gain nearly unlimited trade rights with Sarge. A symbol of recognition from Sarge's merchants. Selling price of luxury goods from Sarge increases significantly. Sell high-end items.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10960,
+      "id": "rem_38721",
+      "jp": "サージLv8・サージとの上級交易権獲得",
+      "en": "Surge Lv8 - Acquire Advanced Trade Rights with Surge",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10961,
+      "id": "rem_38722",
+      "jp": "主人公の名を騙り、サージから禁止物を買い付ける悪徳商人を取り締まる。取り締まれば交易が安定し、より安全に商品を取引することで商業活動が活発化する。",
+      "en": "Crack down on crooked merchants who use Ren's name to buy contraband from Surge. Doing so will stabilize trade and invigorate commerce by making transactions safer.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10962,
+      "id": "rem_38723",
+      "jp": "サージLv11・悪徳商人の取り締まり",
+      "en": "Surge Lv11 • Crackdown on Crooked Merchants",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10963,
+      "id": "rem_38724",
+      "jp": "フリズLv8・北方防衛への資金投入",
+      "en": "Frizz Lv8 • Funding for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10964,
+      "id": "rem_38725",
+      "jp": "アーマニア海戦の後処理を任せる。平穏な戦後処理にはカネが必要だ。",
+      "en": "Entrust them with the post-war handling of the Armena Naval Battle. A peaceful aftermath requires money.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10965,
+      "id": "rem_38726",
+      "jp": "フリズLv15・アーマニア海戦の後処理",
+      "en": "Frizz Lv15 • Post-War Handling of Armena Naval Battle",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10966,
+      "id": "rem_38727",
+      "jp": "『北方防衛要塞フリズ』に資金投入する。ノーザリアとは和平を結んだが、和平を結べない『ゴブリン』への対処はしなくてはならない。",
+      "en": "Invest funds into the Northern Defense Fortress Frizz. We've made peace with Northerlia, but we must still deal with the Goblins, who refuse peace.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10967,
+      "id": "rem_38728",
+      "jp": "フリズLv12・北方防衛への資金投入",
+      "en": "Frizz Lv12 • Funding for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10968,
+      "id": "rem_38729",
+      "jp": "違法な魔術品が詐欺商品として流通している。魔術品は一般人を騙す典型的な品だ。それらが横行すると魔術品でトラブルも起るだろう。上手く管理して治安を守ろう。",
+      "en": "Illegal magical items are circulating as fraudulent goods. They are a typical product used to scam ordinary people. If they spread unchecked, it will cause trouble. Manage them well to protect public order.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10969,
+      "id": "rem_38730",
+      "jp": "学院Lv8・違法魔術品の取り締まり",
+      "en": "Academy Lv8 • Crackdown on Illegal Magical Items",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10970,
+      "id": "rem_38731",
+      "jp": "違法な魔術師ライセンスが出回り、未熟な魔術師が冒険者として登録されている。彼らが冒険に失敗すると『ソルシア学院』の魔術師の信用が失墜するしトラブルも増える。ライセンスを管理しよう。",
+      "en": "Illegal mage licenses are in circulation, and unskilled mages are registering as adventurers. If they fail on adventures, it will damage the credibility of Sorsia Academy mages and increase trouble. Manage the licenses.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10971,
+      "id": "rem_38732",
+      "jp": "学院Lv10・魔術師ライセンス管理機関",
+      "en": "Academy Lv10 • Mage License Management Office",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10972,
+      "id": "rem_38733",
+      "jp": "『ソルシア学院』の方から、魔術研究大学の設置を提案された。様々な学者系組織が協力して研究するための、学術的な研究施設である。大規模建築なのでカネがかかる。",
+      "en": "Sorsia Academy has proposed building a Magical Research University. It's an academic research facility for various scholarly organizations to collaborate. It's a large-scale construction, so it will be costly.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10973,
+      "id": "rem_38734",
+      "jp": "学院Lv12・魔術研究大学の建築",
+      "en": "Academy Lv12 • Construction of Magical Research University",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10974,
+      "id": "rem_38735",
+      "jp": "『ソルシア学院』の最高機関である、最上級魔術を研究する魔術の最高学府を設置する。建築することで最上級の魔術師が集まり、彼らへの売上はさらに高まるだろう。",
+      "en": "Establish a Tower of Mages, the highest institution of Sorsia Academy, dedicated to studying supreme-level magic. Building it will attract top-tier mages, and sales to them will increase further.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10975,
+      "id": "rem_38736",
+      "jp": "学院Lv15・魔術師の塔の設置",
+      "en": "Academy Lv15 • Establishment of Tower of Mages",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

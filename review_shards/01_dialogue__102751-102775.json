@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102751,
+  "range_end": 102775,
+  "pairs": [
+    {
+      "n": 102751,
+      "id": "db_EventInfo:121415:6",
+      "jp": "うーん……しかしこれは……ドッグ？　フロッグ？　判断に困りますわね……",
+      "en": "Hmm... But this is... a dog? A frog? It's hard to tell...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102752,
+      "id": "db_EventInfo:121416:1",
+      "jp": "何がモチーフの動物か分からないな……これが芸術なのか……？",
+      "en": "I can't tell what animal it's supposed to be... Is this art...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102753,
+      "id": "db_EventInfo:121417:2",
+      "jp": "前衛的な彫刻家だったようデスね……",
+      "en": "He must have been an avant-garde sculptor...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102754,
+      "id": "db_EventInfo:121418:2",
+      "jp": "まあいいんじゃないデス？　小さな像なら邪魔にならないデスし、冒険者の待ち合わせにも良さそうデス。おみやげとしても売れそうデス",
+      "en": "Well, it's fine, isn't it? Small statues won't be in the way, and they seem good for adventurers to meet up at. They could probably be sold as souvenirs too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102755,
+      "id": "db_EventInfo:121419:6",
+      "jp": "そうですわね、小さいなら持ち運びも楽ですし、聖獣の像として各地に布教しやすいですわ",
+      "en": "That's true. If it's small, it's easy to carry, and it makes spreading the faith of the Holy Beast easier in various places.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102756,
+      "id": "db_EventInfo:121420:1",
+      "jp": "布教する気なのか……どちらかというと魔獣では……",
+      "en": "You're going to use it for that...? If anything, it looks more like a monster...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102757,
+      "id": "db_EventInfo:121423:0",
+      "jp": "彫像を建築した事で、冒険者達の利便性が上がり、宿の人気もアップしたようだ。",
+      "en": "After building the statue, it became more convenient for adventurers, and the inn became more popular.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102758,
+      "id": "db_EventInfo:121424:0",
+      "jp": "しかし、その後聖獣の像を見に来た【『<ruby=ヒエペリオ>教会</ruby>』】の使者は、困惑した表情を浮かべていた……",
+      "en": "However, the messenger from the \"Church of Hyperio\" who later came to see the Holy Beast statue had a puzzled look on his face...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102759,
+      "id": "db_EventInfo:121426:6",
+      "jp": "店長様、以前紹介した彫刻家様なのですが、今度は聖女像を彫りたいとのことです",
+      "en": "Manager, regarding the sculptor I introduced before, it seems they want to carve a Saint statue this time.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102760,
+      "id": "db_EventInfo:121427:1",
+      "jp": "聖女像……？",
+      "en": "A Saint statue...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102761,
+      "id": "db_EventInfo:121428:1",
+      "jp": "つまりはマリーゼルの像か",
+      "en": "So, a statue of Marisel?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102762,
+      "id": "db_EventInfo:121429:6",
+      "jp": "ええ、恥ずかしながら",
+      "en": "Yes, it's a bit embarrassing.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102763,
+      "id": "db_EventInfo:121430:6",
+      "jp": "私などよりも、シイネ様の像を彫るべきと思うのですが……",
+      "en": "Rather than someone like me... I think a statue of Lady Shiine would be better.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102764,
+      "id": "db_EventInfo:121431:2",
+      "jp": "それはもう沢山あるデス",
+      "en": "We already have plenty of those, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102765,
+      "id": "db_EventInfo:121432:6",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102766,
+      "id": "db_EventInfo:121433:2",
+      "jp": "おっと失言デス",
+      "en": "Oops, I said too much, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102767,
+      "id": "db_EventInfo:121434:1",
+      "jp": "……ま、まあともかく。マリーゼルの像か",
+      "en": "...W-well, anyway. A statue of Marisel, huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102768,
+      "id": "db_EventInfo:121435:1",
+      "jp": "一考の価値はある……のかな？",
+      "en": "Maybe it's worth thinking about...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102769,
+      "id": "db_EventInfo:121436:6",
+      "jp": "は、はい。恥ずかしいですけど……",
+      "en": "Y-yes. It's embarrassing, but...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102770,
+      "id": "db_EventInfo:121439:0",
+      "jp": "余裕が出来たら、彫刻家のために、投資をしてみよう。",
+      "en": "When things ease up, I'll try investing some funds for the sculptor.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102771,
+      "id": "db_EventInfo:121441:6",
+      "jp": "資金提供の方ありがとうございます。彫刻家様も喜んでおられましたわ",
+      "en": "Thank you for the funding. The sculptor was very happy.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102772,
+      "id": "db_EventInfo:121442:6",
+      "jp": "でも本当によろしいのですか？　わたくしよりも、シイネ様の像の方がよくありませんか？",
+      "en": "But are you sure? Wouldn't a statue of Lady Shiine be better than one of me?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102773,
+      "id": "db_EventInfo:121443:1",
+      "jp": "まあまあ、人気があるのはマリーゼルなんだから",
+      "en": "Well, well, you're the popular one, Marisel.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102774,
+      "id": "db_EventInfo:121444:2",
+      "jp": "なんだとデス？",
+      "en": "What was that, des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102775,
+      "id": "db_EventInfo:121445:6",
+      "jp": "恥ずかしいですわД",
+      "en": "This is so embarrassingД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    }
+  ]
+}

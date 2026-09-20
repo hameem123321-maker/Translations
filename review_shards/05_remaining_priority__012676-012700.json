@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12676,
+  "range_end": 12700,
+  "pairs": [
+    {
+      "n": 12676,
+      "id": "rem_40437",
+      "jp": "アーマニア海を漂流する謎の島。随所に宝石のような鉱物が散見される、島そのものが鉱物のように見える島。周囲は激しい潮流が渦巻いており、生半可な船では近寄ることはできない。",
+      "en": "A mysterious island drifting in the Amanian Sea. Jewel-like minerals are scattered about, making the island itself look like a giant gem. Fierce currents swirl around it, keeping most ships away.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12677,
+      "id": "rem_40438",
+      "jp": "魔の島",
+      "en": "Demon Island",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12678,
+      "id": "rem_40439",
+      "jp": "かつて繁栄した都市だったが、海に没して滅亡した古代の都。今は海に住む強力な魔獣の巣窟となっている。中には海に適応した者も存在するという。ゼカリウス古代王朝の遺物。",
+      "en": "An ancient city that once flourished, now sunken beneath the sea. It's become a den for powerful sea monsters. Some say beings adapted to the sea live within. A relic of Zecarius's ancient dynasty.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12679,
+      "id": "rem_40440",
+      "jp": "★ワールドマップから選択できない特殊ダンジョン★",
+      "en": "★Special Dungeon - Not selectable from World Map★",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12680,
+      "id": "rem_40441",
+      "jp": "海竜の腹中",
+      "en": "Inside the Sea Dragon",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12681,
+      "id": "rem_40442",
+      "jp": "海中より浮上した、かつてのゼカリウス古代王朝。その真の姿は古代の魔術により武装された要塞都市であった。空中要塞キングホエールはいまだ沈黙しているが、動き出す前に封印しなくてはならない。",
+      "en": "The ancient Zecarius dynasty has risen from the sea. Its true form is a fortress city armed with ancient magic. The flying fortress King Whale remains silent but must be sealed before it awakens.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12682,
+      "id": "rem_40443",
+      "jp": "人間界と異世界を結ぶ、この世ならざる都。死神と、それに連なる者しか存在を許されない。試練と災厄を乗り越えた若き死神に、最後の選択が開かれる。",
+      "en": "An otherworldly city connecting the human world and another realm. Only the Shinigami and their followers are permitted to exist. For a young Shinigami who has overcome trials and calamities, the final choice now opens.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12683,
+      "id": "rem_40444",
+      "jp": "死都ルーメ・ルーデス",
+      "en": "Dead Capital: Lume Ludus",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12684,
+      "id": "rem_43771",
+      "jp": "マリーゼルの提案に乗り、修道院を建築してみよう。修道院長としてマリーゼルの知り合いといわれる【クリスティナ】という人物を呼ぶことになる。",
+      "en": "Let's try building a monastery, following Marisel's proposal. This will involve summoning 【Christina】, an acquaintance of Marisel's, to serve as the abbess.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12685,
+      "id": "rem_43772",
+      "jp": "修道院を建築してみよう",
+      "en": "Let's Build a Monastery",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12686,
+      "id": "rem_43773",
+      "jp": "修道院の資金繰りに困っているらしい。修道院は直接カネを稼ぐことができそうにない事業だ。余裕を見て資金援助してみよう。",
+      "en": "The monastery seems to be having money troubles. It's a venture unlikely to generate direct income. Let's offer financial aid if we can spare it.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12687,
+      "id": "rem_43774",
+      "jp": "また修道院の資金繰りに困っているらしい。修道院は直接カネを稼ぐことができそうにない事業だ。余裕を見て資金援助してみよう。",
+      "en": "The monastery is having money trouble again. As a venture that can't earn much directly, let's offer financial aid when we have the funds.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12688,
+      "id": "rem_43775",
+      "jp": "修道院の資金繰りに援助する・再",
+      "en": "Donate to Monastery Funds (Again)",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12689,
+      "id": "rem_43776",
+      "jp": "修道院のカネ遣いが荒すぎる気がする。クリスティナはカネに困っているらしい。横領していないか、ファシィに調査をさせてみよう。……こんなに依頼料が必要なのだろうか？",
+      "en": "The monastery's spending seems excessive. Christina appears strapped for cash. Let's have Facy investigate for possible embezzlement... But is this investigation fee really necessary?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12690,
+      "id": "rem_43777",
+      "jp": "『邪教徒』が動きを活発化しているらしい。『盗賊ギルド』を介して、『邪教徒』の動きを調べさせ、対応できるようにしよう。",
+      "en": "The 'Cultists' seem to be getting more active. Let's use the 'Thieves' Guild' to monitor their movements and prepare a response.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12691,
+      "id": "rem_43778",
+      "jp": "ファシィに邪教徒の動きを調査依頼",
+      "en": "Ask Facy to Investigate the Cultists",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12692,
+      "id": "rem_43779",
+      "jp": "ゼカリウスの田舎で大規模な農民反乱が企てられているらしい。もし起こってしまえば、せっかくの平和が乱されてしまう。『邪教徒』が糸を引いているという反乱を未然に防ごう。",
+      "en": "A large-scale peasant rebellion is being plotted in the Zecarius countryside. If it happens, the hard-won peace will be shattered. Let's prevent this rebellion, reportedly led by 'Cultists', before it starts.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12693,
+      "id": "rem_43780",
+      "jp": "農民反乱を企てる者の特定",
+      "en": "Identify the Rebellion Plotters",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12694,
+      "id": "rem_43781",
+      "jp": "美食に投資するため、その先導者となる『暴食のグラット』と呼ばれる魔族を『魔界』から召喚する。大丈夫だろうか。シイネは渋っているが、『淫魔』二人は乗り気だ。",
+      "en": "To invest in gourmet food, we'll summon 'Gluttony Gratt', a demon from the 'Demon World', as its pioneer. Is this okay? Shiine is hesitant, but the two 'Succubi' are eager.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12695,
+      "id": "rem_43782",
+      "jp": "コッペリナの召喚儀式の準備",
+      "en": "Prepare Koppelina's Summoning Ritual",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12696,
+      "id": "rem_43783",
+      "jp": "最後の食材である、『巨獣王』がなかなか見つからないらしい。ハヅキさんに『巨獣王』の居場所を特定してもらうことができるようだ。",
+      "en": "The final ingredient, the 'Beast King', seems hard to find. Ms. Hazuki might be able to locate it for us.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12697,
+      "id": "rem_43784",
+      "jp": "メイドの珍獣サーチサービス",
+      "en": "Maid's Rare Beast Search Service",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12698,
+      "id": "rem_43785",
+      "jp": "魔界のフルコースを完成させるためには、特別な施設が必要らしい。『魔界』の食材集めもこれで最後だ。投資していこう。",
+      "en": "A special facility is needed to complete the Demon World Full Course. This is also the final stage of gathering the ingredients. Let's invest.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12699,
+      "id": "rem_43786",
+      "jp": "魔界のフルコース完成のために",
+      "en": "To Complete the Demon World Full Course",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12700,
+      "id": "rem_43787",
+      "jp": "冒険者を使い、【魔界料理】の素材集めを手伝ってもらう。冒険者の新しい働き口にもなりそうだ。",
+      "en": "Let's use adventurers to help gather ingredients for 【Demon World Cuisine】. It could also be new work for them.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

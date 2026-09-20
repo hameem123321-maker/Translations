@@ -1,0 +1,183 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 401,
+  "range_end": 425,
+  "pairs": [
+    {
+      "n": 401,
+      "id": "dll_0401",
+      "jp": "【邪教徒】が破壊工作を行い、店に【{0}G】の損害が出た！",
+      "en": "【Cultist】's sabotage cost the shop 【{0}G】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 402,
+      "id": "dll_0402",
+      "jp": "【ゴブリン】が店で略奪し、店に【{0}G】の損害が出た！",
+      "en": "【Goblin】 looted the shop, costing 【{0}G】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 403,
+      "id": "dll_0403",
+      "jp": "主人公チーム",
+      "en": "Ren's Team",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 404,
+      "id": "dll_0404",
+      "jp": "第2チーム",
+      "en": "Team 2",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 405,
+      "id": "dll_0405",
+      "jp": "第3チーム",
+      "en": "Team 3",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 406,
+      "id": "dll_0406",
+      "jp": "第4チーム",
+      "en": "Team 4",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 407,
+      "id": "dll_0407",
+      "jp": "第5チーム",
+      "en": "Team 5",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 408,
+      "id": "dll_0408",
+      "jp": "ルース",
+      "en": "Luth",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 409,
+      "id": "dll_0409",
+      "jp": "マジカル☆ファシィ",
+      "en": "Magical☆Facy",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 410,
+      "id": "dll_0410",
+      "jp": "よお、兄貴！",
+      "en": "Hey, boss!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 411,
+      "id": "dll_0411",
+      "jp": "『{0}』からの好感度が上がった！",
+      "en": "Affection from 『{0}』 rose!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 412,
+      "id": "dll_0412",
+      "jp": "『{0}』からの好感度が下がった……。",
+      "en": "Affection from 『{0}』 fell...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 413,
+      "id": "dll_0413",
+      "jp": "『{0}』【が仲間に加わった！】",
+      "en": "『{0}』【has joined!】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 414,
+      "id": "dll_0414",
+      "jp": "『{0}』【が離脱した……。】",
+      "en": "『{0}』【has left...】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 415,
+      "id": "dll_0415",
+      "jp": "『{0}』【が帰還した！】",
+      "en": "『{0}』【has returned!】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 416,
+      "id": "dll_0416",
+      "jp": "【{0}ゴールド】ゲット！",
+      "en": "Got 【{0} Gold】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 417,
+      "id": "dll_0417",
+      "jp": "【{0}ゴールド】失った……",
+      "en": "Lost 【{0} Gold】...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 418,
+      "id": "dll_0418",
+      "jp": "【パーティー全員】のＭＰを奪われた！",
+      "en": "【All Party】 MP drained!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 419,
+      "id": "dll_0419",
+      "jp": "【パーティー全員】はダメージを受けた！",
+      "en": "【All Party】 took damage!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 420,
+      "id": "dll_0420",
+      "jp": "【{0}】はダメージを受けた！",
+      "en": "【{0}】 took damage!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 421,
+      "id": "dll_0421",
+      "jp": "パーティー全員が癒された！",
+      "en": "Party fully healed!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 422,
+      "id": "dll_0422",
+      "jp": "パーティー全員のレベルがアップした！",
+      "en": "Party leveled up!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 423,
+      "id": "dll_0423",
+      "jp": "主人公のレベルが下がってしまった……",
+      "en": "Ren's level fell…",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 424,
+      "id": "dll_0424",
+      "jp": "主人公のレベルが大きく下がってしまった……",
+      "en": "Ren's level fell sharply…",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 425,
+      "id": "dll_0425",
+      "jp": "主人公のレベルが1まで下がってしまった……",
+      "en": "Ren's level dropped to 1…",
+      "category": "remaining_dll"
+    }
+  ]
+}

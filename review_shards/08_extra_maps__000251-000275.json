@@ -1,0 +1,161 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 251,
+  "range_end": 275,
+  "pairs": [
+    {
+      "n": 251,
+      "id": "extra_ui_0251",
+      "jp": "経営",
+      "en": "Ops"
+    },
+    {
+      "n": 252,
+      "id": "extra_ui_0252",
+      "jp": "仕事を割り当てていないデス。何かの部門を割り当てるデス！",
+      "en": "No job assigned. Put them in a department!"
+    },
+    {
+      "n": 253,
+      "id": "extra_ui_0253",
+      "jp": "待機部門",
+      "en": "Idle dept"
+    },
+    {
+      "n": 254,
+      "id": "extra_ui_0254",
+      "jp": "待機",
+      "en": "Idle"
+    },
+    {
+      "n": 255,
+      "id": "extra_ui_0255",
+      "jp": "スタッフを冒険に出すデス。スタッフどもはもともとは冒険者デスからね",
+      "en": "Send staff out adventuring. They were adventurers first, after all."
+    },
+    {
+      "n": 256,
+      "id": "extra_ui_0256",
+      "jp": "派遣部門",
+      "en": "Dispatch dept"
+    },
+    {
+      "n": 257,
+      "id": "extra_ui_0257",
+      "jp": "アイテムの販売と娯楽施設を担当させるデス。ショップを設置するには必須デスね",
+      "en": "Sales and entertainment. You need this to even have a shop."
+    },
+    {
+      "n": 258,
+      "id": "extra_ui_0258",
+      "jp": "接客部門",
+      "en": "Reception dept"
+    },
+    {
+      "n": 259,
+      "id": "extra_ui_0259",
+      "jp": "素材を使用して、『料理』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Cooking' items."
+    },
+    {
+      "n": 260,
+      "id": "extra_ui_0260",
+      "jp": "料理部門",
+      "en": "Cooking dept"
+    },
+    {
+      "n": 261,
+      "id": "extra_ui_0261",
+      "jp": "素材を使用して、『鍛冶』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Smithing' items."
+    },
+    {
+      "n": 262,
+      "id": "extra_ui_0262",
+      "jp": "鍛冶部門",
+      "en": "Smithing dept"
+    },
+    {
+      "n": 263,
+      "id": "extra_ui_0263",
+      "jp": "素材を使用して、『錬金』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Alchemy' items."
+    },
+    {
+      "n": 264,
+      "id": "extra_ui_0264",
+      "jp": "錬金部門",
+      "en": "Alchemy dept"
+    },
+    {
+      "n": 265,
+      "id": "extra_ui_0265",
+      "jp": "店内を清掃させるデス。店の経営によって発生する汚れを退治してくれるデス",
+      "en": "Have them clean the shop. They deal with the filth business creates."
+    },
+    {
+      "n": 266,
+      "id": "extra_ui_0266",
+      "jp": "清掃部門",
+      "en": "Cleaning dept"
+    },
+    {
+      "n": 267,
+      "id": "extra_ui_0267",
+      "jp": "店内の食い逃げ犯を捕まえて、犯罪を防止するデス",
+      "en": "Catch dine-and-dashers and keep crime down."
+    },
+    {
+      "n": 268,
+      "id": "extra_ui_0268",
+      "jp": "防犯部門",
+      "en": "Security dept"
+    },
+    {
+      "n": 269,
+      "id": "extra_ui_0269",
+      "jp": "普通に働かせる状態デス。",
+      "en": "Just working normally."
+    },
+    {
+      "n": 270,
+      "id": "extra_ui_0270",
+      "jp": "エッチ部門・待機",
+      "en": "H dept: Idle"
+    },
+    {
+      "n": 271,
+      "id": "extra_ui_0271",
+      "jp": "オマエのアバターを使ってエッチさせるデス。射精すれば、その精液を淫魔どもに売りつけて、カネを稼ぐことが出来るデス。アバターをたくさん作ればたんさん儲かるデス",
+      "en": "H using your avatar. Cum, sell the semen to succubi, make money. More avatars, more cash.",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 272,
+      "id": "extra_ui_0272",
+      "jp": "エッチ部門・搾精",
+      "en": "H dept: Milk"
+    },
+    {
+      "n": 273,
+      "id": "extra_ui_0273",
+      "jp": "スタッフに客を取らせて売春させるデス。男の客から精気とカネを搾り取ってやるデス！ (売春シーンの条件になることがあります。「搾精」と利益的な差はありません)",
+      "en": "Have staff take clients and sell sex. Squeeze energy and money out of male guests! (Can unlock prostitution scenes. Same profit as 'Milking'.)"
+    },
+    {
+      "n": 274,
+      "id": "extra_ui_0274",
+      "jp": "エッチ部門・売春",
+      "en": "H dept: Sex work"
+    },
+    {
+      "n": 275,
+      "id": "extra_ui_0275",
+      "jp": "売春",
+      "en": "Sex work"
+    }
+  ]
+}

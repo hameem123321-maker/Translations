@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11001,
+  "range_end": 11025,
+  "pairs": [
+    {
+      "n": 11001,
+      "id": "rem_38762",
+      "jp": "調査団Lv15・ロオン記念大博物館の建築",
+      "en": "Research Team Lv15 - Construct Loane Memorial Grand Museum",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11002,
+      "id": "rem_38763",
+      "jp": "売れない画家のパトロンになり、生活の面倒を見る。画家ってわりと生活が派手な気がする……。なんでも好きなモノを書いてくれる特典付き。",
+      "en": "Become a patron for a struggling painter and take care of their living. Painters seem to have rather extravagant lifestyles... Comes with the perk of them painting anything you like.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11003,
+      "id": "rem_38764",
+      "jp": "文芸Lv8・画家のパトロンになる",
+      "en": "Arts Lv8 - Become a Patron of a Painter",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11004,
+      "id": "rem_38765",
+      "jp": "貧乏で生活に困りがちな芸術家が作った投資商品。購入することで長期的には利益をもたらしてくれる。失敗することはない……はず。",
+      "en": "An investment product created by impoverished artists struggling to make ends meet. Purchasing it can bring long-term profits. It shouldn't fail... probably.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11005,
+      "id": "rem_38766",
+      "jp": "文芸Lv10・芸術家保護ファンドに出資",
+      "en": "Arts Lv10 - Invest in Artist Protection Fund",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11006,
+      "id": "rem_38767",
+      "jp": "路頭に迷いがちな芸術家達をまとめて面倒見る、巨大な舘を建築する。ここまでやる必要があるのかという気もするが、ここまで関わってしまったなら面倒を見るしか。",
+      "en": "Build a huge mansion to collectively care for artists who are prone to destitution. One might wonder if it's necessary to go this far, but having gotten involved to this extent, there's no choice but to look after them.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11007,
+      "id": "rem_38768",
+      "jp": "文芸Lv12・芸術家の館を建造",
+      "en": "Arts Lv12 - Build Artists' Mansion",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11008,
+      "id": "rem_38769",
+      "jp": "『文芸美術保護組合』のメンバーや、各地の芸術家の作品を一堂に集める大美術館を建築する。本来は富豪が独占する芸術品だが、公開することで観光地収益も得られる。赤くて恐い人が付近にいるので、防犯も完璧だ。",
+      "en": "Construct a grand art museum to gather works from members of the 'Arts Protection Union' and artists from various regions. Normally these art pieces are monopolized by the wealthy, but making them public also yields tourist revenue. A scary red person is nearby, so security is perfect.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11009,
+      "id": "rem_38770",
+      "jp": "文芸Lv15・ゼカリウス大美術館の建築",
+      "en": "Arts Lv15 - Construct Zecarius Grand Art Museum",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11010,
+      "id": "rem_38771",
+      "jp": "ダムブナックの森の交易路を整備する。通常の交易路から離れた場所にあるダムブナックの村が、その隔離性から『邪教徒』の巣窟になった反省によるものである。",
+      "en": "Develop the trade route to Dumbnack Forest. This is a reflection on Dumbnack village, which became a 'cultist' stronghold due to its isolation away from normal trade routes.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11011,
+      "id": "rem_38772",
+      "jp": "林業Lv10・ダムブナックへの交易路整備",
+      "en": "Forestry Lv10 - Develop Dumbnack Trade Route",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11012,
+      "id": "rem_38773",
+      "jp": "まだ明かされていない、ダムブナックの森の深奥には、得体の知れない怪異が眠っている恐れがある。好奇心や欲に取り憑かれた者が深奥に踏み入り、それを目覚めさせないように、『<ruby=ウィッチ>魔女</ruby>』の結界で封印することにする。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 11013,
+      "id": "rem_38774",
+      "jp": "林業Lv15・黒の森の最深部を封印",
+      "en": "Forestry Lv15 – Seal Deepest Black Forest",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11014,
+      "id": "rem_38775",
+      "jp": "アンジュ特製ゴーレム",
+      "en": "Anju's Custom Golem",
+      "table": "db_ScenarioEpisode",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11015,
+      "id": "rem_38776",
+      "jp": "内に秘められた強大な魔力を解放し、大地を崩壊させる。最大の威力で放てば天をも引き裂くという。神の名を戴く禁忌の魔族が放つとされる秘術。",
+      "en": "Releases immense hidden magical power, shattering the earth. At its peak, said to even tear the heavens. A secret art wielded by forbidden demons bearing the name of god.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11016,
+      "id": "rem_38777",
+      "jp": "全体攻撃 威力[A] +  命中[70%] + 必殺率[+30%] + 【雷属性】 + 防御貫通(大)",
+      "en": "AoE attack: Potency[A] + 70% Hit +30% Crit 【Lightning】 Major Defense Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11017,
+      "id": "rem_38778",
+      "jp": "【<src>】の[ヘヴンドライブ]！",
+      "en": "",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 11018,
+      "id": "rem_38779",
+      "jp": "振り下ろされた手と共に巨大な雷撃が天を震わせる。その威力を目の当たりにした人間達は、神罰を連想したという。",
+      "en": "A colossal bolt of thunder shook the heavens as a hand descended. Witnessing its might, humans could only liken it to divine punishment.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11019,
+      "id": "rem_38780",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 必殺率[+50%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack Power[S+] + Hit[50%] + Critical Rate[+50%] + 【Lightning】 + Minor DEF Penetration + Inflicts [Paralyze] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11020,
+      "id": "rem_38781",
+      "jp": "【<src>】の[アークスマッシュ]！",
+      "en": "【<src>】's [Arc Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11021,
+      "id": "rem_38782",
+      "jp": "ゴルドヴァーナに封印された大禁呪。ヴァニッシュを超える魔術を同時に対極の二属性として使わなければならない究極の魔術であり、奈落の姉妹でなければ必ず暴走して世界を滅ぼす。",
+      "en": "The Grand Forbidden Spell sealed in Goldvarna. An ultimate magic requiring simultaneous use of two opposing attributes surpassing Vanishing. If not cast by the Sisters of the Abyss, it will run rampant and destroy the world.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11022,
+      "id": "rem_38783",
+      "jp": "全体攻撃 威力[EX] +  [必中] + 強制デスクリティカル + ダメージ限界突破",
+      "en": "AoE Attack. Power [EX] + [Guaranteed Hit] + Forced Des-critical + Damage Limit Break.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11023,
+      "id": "rem_38784",
+      "jp": "【<src>】の[エクスティンクション]！",
+      "en": "【<src>】's [Extinction]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11024,
+      "id": "rem_38785",
+      "jp": "勇者の里に住む者たちが伝承し、後に託してきた伝説の絶技。命と引き換えに放つ必殺剣。そこには技はなく、世界を救う結果のみが残る。その発動には尊き魂が必要となる。",
+      "en": "The legendary ultimate technique passed down by the people of the Hero's village and entrusted to future generations. A final sword strike traded for one's life. It leaves no technique, only the result of saving the world. It requires a noble soul to activate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11025,
+      "id": "rem_38786",
+      "jp": "全体攻撃 威力[EX] +  [必中] + 強制デスクリティカル + ダメージ限界突破 + 【死神技】",
+      "en": "AoE Attack. Power [EX] + [Guaranteed Hit] + Forced Des-critical + Damage Limit Break + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

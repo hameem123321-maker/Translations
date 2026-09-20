@@ -1,0 +1,183 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 201,
+  "range_end": 225,
+  "pairs": [
+    {
+      "n": 201,
+      "id": "dll_0201",
+      "jp": "を派遣中",
+      "en": "Deploying",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 202,
+      "id": "dll_0202",
+      "jp": "あと",
+      "en": "Time left",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 203,
+      "id": "dll_0203",
+      "jp": "派遣完了",
+      "en": "Deploy done",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 204,
+      "id": "dll_0204",
+      "jp": "派遣条件",
+      "en": "Deploy cond.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 205,
+      "id": "dll_0205",
+      "jp": "派遣期間<size=24>",
+      "en": "Deploy time<size=24>",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 206,
+      "id": "dll_0206",
+      "jp": "</size>時間\n",
+      "en": "</size>hrs\n",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 207,
+      "id": "dll_0207",
+      "jp": "クラスの条件なし\n",
+      "en": "No class req\n",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 208,
+      "id": "dll_0208",
+      "jp": "系】のクラス\n",
+      "en": "-type class\n",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 209,
+      "id": "dll_0209",
+      "jp": "ランク<size=24>【★",
+      "en": "Rank<size=24>【★",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 210,
+      "id": "dll_0210",
+      "jp": "】</size>以上",
+      "en": "】</size>+",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 211,
+      "id": "dll_0211",
+      "jp": "該当者あり",
+      "en": "Qualified",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 212,
+      "id": "dll_0212",
+      "jp": "\n(※該当者なし)",
+      "en": "\n(No match)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 213,
+      "id": "dll_0213",
+      "jp": "資金を投入をする部門を選択してください",
+      "en": "Pick dept. to fund",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 214,
+      "id": "dll_0214",
+      "jp": "死神メニューを選択してください",
+      "en": "Select Shinigami",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 215,
+      "id": "dll_0215",
+      "jp": "施設の操作内容を選択してください",
+      "en": "Select facility action",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 216,
+      "id": "dll_0216",
+      "jp": "夜伽を行う部屋を選択してください",
+      "en": "Pick night room",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 217,
+      "id": "dll_0217",
+      "jp": "スキルを習得するデス。顔アイコンクリックでリセットできるデスよ",
+      "en": "Pick skill to learn. Click face icon to reset.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 218,
+      "id": "dll_0218",
+      "jp": "カネを融通して、組織の協力を得るデス！",
+      "en": "Trade cash for org help!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 219,
+      "id": "dll_0219",
+      "jp": "カネを使って、働きやすい店を作るデス！",
+      "en": "Spend to upgrade shop!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 220,
+      "id": "dll_0220",
+      "jp": "ダンジョンに投資して、開発ポイントを集めるデス！",
+      "en": "Invest in dungeons!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 221,
+      "id": "dll_0221",
+      "jp": "習得可能<size=30>{0}</size>/{1}\n<size=15>(修得EXPは最大に達しました)</size>",
+      "en": "Learnable<size=30>{0}</size>/{1}\n<size=15>(EXP is maxed)</size>",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 222,
+      "id": "dll_0222",
+      "jp": "設備投資",
+      "en": "Facility Invest",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 223,
+      "id": "dll_0223",
+      "jp": "事業投資",
+      "en": "Business Invest",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 224,
+      "id": "dll_0224",
+      "jp": "資源投資",
+      "en": "Resource Invest",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 225,
+      "id": "dll_0225",
+      "jp": "組織献金",
+      "en": "Org. Donation",
+      "category": "remaining_dll"
+    }
+  ]
+}

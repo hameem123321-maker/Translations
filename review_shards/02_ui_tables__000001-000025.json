@@ -1,0 +1,208 @@
+{
+  "source_file": "02_ui_tables.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1,
+  "range_end": 25,
+  "pairs": [
+    {
+      "n": 1,
+      "id": "ui_db_SystemMessage_1_3",
+      "jp": "装備強化・{0}",
+      "en": "Equipment Enhancement • {0}",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 2,
+      "id": "ui_db_SystemMessage_2_3",
+      "jp": "【{0}装備時】の攻撃力【+{1}】",
+      "en": "【Equipped with {0}】ATK 【+{1}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 3,
+      "id": "ui_db_SystemMessage_3_3",
+      "jp": "最大強化でさらにアップ",
+      "en": "Further increased at max enhancement",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 4,
+      "id": "ui_db_SystemMessage_4_3",
+      "jp": "能力強化・{0}",
+      "en": "Stat Enhancement • {0}",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 5,
+      "id": "ui_db_SystemMessage_5_3",
+      "jp": "【{0}】のパラメータが【+{1}】",
+      "en": "【{0}】parameter 【+{1}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 6,
+      "id": "ui_db_SystemMessage_6_3",
+      "jp": "スキル強化・{0}",
+      "en": "Skill Enhancement • {0}",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 7,
+      "id": "ui_db_SystemMessage_7_3",
+      "jp": "【{0}スキル】の効果が【{1}】",
+      "en": "【{0} Skill】effect is 【{1}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 8,
+      "id": "ui_db_SystemMessage_8_3",
+      "jp": "タイプ特攻・{0}",
+      "en": "Type Advantage • {0}",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 9,
+      "id": "ui_db_SystemMessage_9_3",
+      "jp": "【{0}タイプ】の敵への攻撃力【+{1}】",
+      "en": "ATK vs. 【{0} Type】enemies 【+{1}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 10,
+      "id": "ui_db_SystemMessage_10_3",
+      "jp": "タイプ一致で防御を一部貫通",
+      "en": "Partially pierces defense on type match",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 11,
+      "id": "ui_db_SystemMessage_11_3",
+      "jp": "【単体攻撃】 威力【{0}%】",
+      "en": "【Single Attack】 Power 【{0}%】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 12,
+      "id": "ui_db_SystemMessage_12_3",
+      "jp": "【全体攻撃】 威力【{0}%】",
+      "en": "【All Attack】 Power 【{0}%】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 13,
+      "id": "ui_db_SystemMessage_13_3",
+      "jp": "【{0}】を付与",
+      "en": "Apply 【{0}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 14,
+      "id": "ui_db_SystemMessage_14_3",
+      "jp": "【仲間】に【{0}】を付与",
+      "en": "Apply 【{0}】 to 【Ally】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 15,
+      "id": "ui_db_SystemMessage_15_3",
+      "jp": "【自分】に【{0}】を付与",
+      "en": "Apply 【{0}】 to 【Self】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 16,
+      "id": "ui_db_SystemMessage_16_3",
+      "jp": "【フィールド】に【{0}】を付与",
+      "en": "Apply 【{0}】 to 【Field】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 17,
+      "id": "ui_db_SystemMessage_17_3",
+      "jp": "【{0}】装備で威力アップ",
+      "en": "Power up when 【{0}】 is equipped",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 18,
+      "id": "ui_db_SystemMessage_18_3",
+      "jp": "【グループ攻撃】 威力【{0}%】",
+      "en": "【Group Attack】 Power 【{0}%】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 19,
+      "id": "ui_db_SystemMessage_19_3",
+      "jp": "【<src>】は{0}を使用した！",
+      "en": "【<src>】used {0}!",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 20,
+      "id": "ui_db_SystemMessage_20_3",
+      "jp": "【{0}スキル】の効果が【+{1}】",
+      "en": "【{0} Skill】effect 【+{1}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 21,
+      "id": "ui_db_SystemMessage_21_3",
+      "jp": "娼婦*ちゃん",
+      "en": "Prostitute Girl",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 22,
+      "id": "ui_db_SystemMessage_32_3",
+      "jp": "【{0}】の『{1}』が【Lv{2}】必要",
+      "en": "【{0}】's『{1}』needs【Lv{2}】",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 23,
+      "id": "ui_db_SystemMessage_33_3",
+      "jp": "【{0}】が『{1}Lv{2}』必要",
+      "en": "【{0}】needs『{1}Lv{2}』",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 24,
+      "id": "ui_db_SystemMessage_34_3",
+      "jp": "【{0}】の『{1}Lv{2}』が必要",
+      "en": "Need【{0}】's『{1}Lv{2}』",
+      "table": "db_SystemMessage",
+      "category": "ui_table"
+    },
+    {
+      "n": 25,
+      "id": "ui_db_SystemCommand_1_5",
+      "jp": "店員",
+      "en": "Clerk",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97751,
+  "range_end": 97775,
+  "pairs": [
+    {
+      "n": 97751,
+      "id": "db_EventInfo:115430:19",
+      "jp": "力を貸して欲しいときは、いつでも呼んでくれたまえ！　なんたって俺は【『勇者』】だからな！　はははっ！",
+      "en": "If you need help, just call for me anytime! After all, I'm the 'Hero'! Hahaha!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97752,
+      "id": "db_EventInfo:115431:1",
+      "jp": "(おい……大丈夫か？)",
+      "en": "(Hey... are you okay?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97753,
+      "id": "db_EventInfo:115432:2",
+      "jp": "(こいつは【『勇者』】デスよ？　こいつの評判は利用できそうデス)",
+      "en": "(This guy is the 'Hero', Desu. We might be able to use his reputation, Desu.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97754,
+      "id": "db_EventInfo:115433:1",
+      "jp": "(うーむ)",
+      "en": "(Hmmm...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97755,
+      "id": "db_EventInfo:115436:0",
+      "jp": "【『勇者ラシェウス』】が宿にやってくるようになってしまった。",
+      "en": "Now 'Hero Rasieus' has started coming to the inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97756,
+      "id": "db_EventInfo:115437:0",
+      "jp": "ラシェウスは評判の勇者だ。彼が居着けば、それだけで店の評判がアップするだろう。",
+      "en": "Rasieus is a famous hero. If he stays here, our shop's reputation will get better.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97757,
+      "id": "db_EventInfo:115438:0",
+      "jp": "★アナザービュー",
+      "en": "--- Another Viewpoint ---",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97758,
+      "id": "db_EventInfo:115441:134",
+      "jp": "領主様……【『ドルワミール鉱山』】での【『ゴブリン』】鎮圧が完了したようです",
+      "en": "My lord... It seems the suppression of the 'Goblins' in the 'Dolwamir Mine' is complete.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97759,
+      "id": "db_EventInfo:115442:18",
+      "jp": "うむ……？",
+      "en": "Hmm...?",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97760,
+      "id": "db_EventInfo:115443:18",
+      "jp": "武装した【『ゴブリン』】どもが立てこもっていたと聞いたが",
+      "en": "I heard armed 'Goblins' were holed up in there.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97761,
+      "id": "db_EventInfo:115444:134",
+      "jp": "それが……。<shop>により多額の支援金が送られ、大規模な冒険者動員が行なわれたそうです",
+      "en": "Well... It seems <shop> sent a lot of support money, and they gathered a large number of adventurers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97762,
+      "id": "db_EventInfo:115445:18",
+      "jp": "ふム……",
+      "en": "I see...",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97763,
+      "id": "db_EventInfo:115446:18",
+      "jp": "【『ドルワミール鉱山』】を制圧できるほどの戦力を集められる組織が現れたということか",
+      "en": "So, an organization has appeared that can gather enough force to take over the 'Dolwamir Mine'.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 97764,
+      "id": "db_EventInfo:115447:15",
+      "jp": "やあ店長君、【『ドルワミール鉱山』】のことなんだけど",
+      "en": "Hey, Shopkeeper, about that 'Dolwamir Mine' thing.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97765,
+      "id": "db_EventInfo:115449:15",
+      "jp": "【『ゴブリン』】から解放できたのはいいんだけどさ、【領主】の方から釘を刺されちゃったよ",
+      "en": "It's good we freed it from the 'Goblins', but the 'Lord' gave us a warning.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97766,
+      "id": "db_EventInfo:115450:1",
+      "jp": "またか？",
+      "en": "Again?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97767,
+      "id": "db_EventInfo:115451:15",
+      "jp": "【『ゴブリン』】を倒すために冒険者を集めたのが悪かったみたいだね",
+      "en": "Looks like gathering adventurers to fight the Goblins was a bad idea.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97768,
+      "id": "db_EventInfo:115452:15",
+      "jp": "【『ゼカリウス自警団』】みたいな軍事組織と見なされたみたいで……",
+      "en": "They probably saw it as a military force, like the 'Zecarius Vigilantes'...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97769,
+      "id": "db_EventInfo:115453:2",
+      "jp": "ウチは単なる宿屋デスよ？",
+      "en": "We're just an inn, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97770,
+      "id": "db_EventInfo:115454:15",
+      "jp": "それは表向きの話でさ、要は大規模な戦力を動員できる資金があるってことを証明しちゃっただろ？",
+      "en": "That's what we say on the surface. But we proved we have the funds to mobilize a large force.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97771,
+      "id": "db_EventInfo:115455:15",
+      "jp": "権力者にとっては、自分がコントロールできない【戦力】が存在するのは脅威だからね……",
+      "en": "To those in power, a military force they can't control is a threat...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97772,
+      "id": "db_EventInfo:115456:2",
+      "jp": "横暴デス。冒険者を集めなければ、アンジュたちを救出できなかったデス",
+      "en": "That's tyranny. If we hadn't gathered adventurers, we couldn't have rescued Anju and the others.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97773,
+      "id": "db_EventInfo:115457:2",
+      "jp": "というか、領主とやらが速やかに兵士を派遣してくれれば良かったのデス",
+      "en": "Or, if that lord had just sent soldiers quickly, it would've been fine.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97774,
+      "id": "db_EventInfo:115458:15",
+      "jp": "そうなんだけどね……",
+      "en": "Yeah, but...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97775,
+      "id": "db_EventInfo:115459:15",
+      "jp": "まあ、なるべく領主の方を刺激しないよう頼むよ",
+      "en": "Anyway, please try not to provoke the lord.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10251,
+  "range_end": 10275,
+  "pairs": [
+    {
+      "n": 10251,
+      "id": "rem_37973",
+      "jp": "犯罪値の上昇率+50%",
+      "en": "Crime rate increase +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10252,
+      "id": "rem_37974",
+      "jp": "汚染値の上昇率+10%",
+      "en": "Pollution rate increase +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10253,
+      "id": "rem_37975",
+      "jp": "汚染値の上昇率-20%",
+      "en": "Pollution rate increase -20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10254,
+      "id": "rem_37976",
+      "jp": "汚染値の上昇率-50%",
+      "en": "Pollution rate increase -50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10255,
+      "id": "rem_37977",
+      "jp": "汚染値の上昇率+20%",
+      "en": "Pollution rate increase +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10256,
+      "id": "rem_37978",
+      "jp": "汚染値の上昇率+30%",
+      "en": "Pollution rate increase +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10257,
+      "id": "rem_37979",
+      "jp": "汚染値の上昇率+40%",
+      "en": "Pollution rate increase +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10258,
+      "id": "rem_37980",
+      "jp": "汚染値の上昇率+50%",
+      "en": "Pollution rate increase +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10259,
+      "id": "rem_37981",
+      "jp": "汚染値の上昇率+200%",
+      "en": "Pollution rate increase +200%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10260,
+      "id": "rem_37982",
+      "jp": "死神パワーの入手量+20%",
+      "en": "Shinigami Power obtained +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10261,
+      "id": "rem_37983",
+      "jp": "死神パワーの入手量+30%",
+      "en": "Shinigami Power Gain +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10262,
+      "id": "rem_37984",
+      "jp": "死神パワーの入手量+100%",
+      "en": "Shinigami Power Gain +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10263,
+      "id": "rem_37985",
+      "jp": "すべてのダメージ+50% + 物理ダメージ軽減率-50%",
+      "en": "All Damage +50% + Physical Damage Reduction -50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10264,
+      "id": "rem_37986",
+      "jp": "料理CP+20",
+      "en": "Cooking CP+20",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10265,
+      "id": "rem_37987",
+      "jp": "鍛冶CP+10",
+      "en": "Smithing CP+10",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10266,
+      "id": "rem_37988",
+      "jp": "鍛冶CP+20",
+      "en": "Smithing CP+20",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10267,
+      "id": "rem_37989",
+      "jp": "錬金CP+10",
+      "en": "Alchemy CP+10",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10268,
+      "id": "rem_37990",
+      "jp": "錬金CP+20",
+      "en": "Alchemy CP+20",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10269,
+      "id": "rem_37991",
+      "jp": "すべての商品の売値+80%",
+      "en": "All Item Sell Price +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10270,
+      "id": "rem_37992",
+      "jp": "ランクアップに必要な経験-25%",
+      "en": "Rank-Up Exp Required -25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10271,
+      "id": "rem_37993",
+      "jp": "すべての商品の売値+200%",
+      "en": "All Item Sell Price +200%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10272,
+      "id": "rem_37994",
+      "jp": "ランクアップに必要な経験-50%",
+      "en": "Rank-Up Exp Required -50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10273,
+      "id": "rem_37995",
+      "jp": "ランクアップに必要な経験+75%",
+      "en": "Rank-Up Exp Required +75%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10274,
+      "id": "rem_37996",
+      "jp": "ランクアップに必要な経験+100%",
+      "en": "Rank-Up Exp Required +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10275,
+      "id": "rem_37997",
+      "jp": "エッチ好き-2",
+      "en": "Lewd Fanatic -2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

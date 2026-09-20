@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4351,
+  "range_end": 4375,
+  "pairs": [
+    {
+      "n": 4351,
+      "id": "rem_31970",
+      "jp": "呪縛",
+      "en": "Bind",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4352,
+      "id": "rem_31971",
+      "jp": "【<dst>】は病気のため動けない！",
+      "en": "【<dst>】 cannot move due to sickness!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4353,
+      "id": "rem_31972",
+      "jp": "【<dst>】は病魔に冒された！",
+      "en": "【<dst>】 has been afflicted by disease!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4354,
+      "id": "rem_31973",
+      "jp": "【<dst>】は病魔から回復した！",
+      "en": "【<dst>】 has recovered from the disease!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4355,
+      "id": "rem_31974",
+      "jp": "病気",
+      "en": "Sickness",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4356,
+      "id": "rem_31975",
+      "jp": "【<dst>】は絶望している……！",
+      "en": "【<dst>】 is in despair...!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4357,
+      "id": "rem_31976",
+      "jp": "【<dst>】の心が闇に閉ざされた！",
+      "en": "【<dst>】's heart has been shut in darkness!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4358,
+      "id": "rem_31977",
+      "jp": "【<dst>】の心が闇から解放された！",
+      "en": "【<dst>】's heart has been freed from darkness!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4359,
+      "id": "rem_31978",
+      "jp": "絶望",
+      "en": "Despair",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4360,
+      "id": "rem_31979",
+      "jp": "毒によりターンごとにダメージ+10%",
+      "en": "Takes 10% more damage each turn from poison.",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4361,
+      "id": "rem_31980",
+      "jp": "デバフ(ダメ)",
+      "en": "Debuff (Damage)",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4362,
+      "id": "rem_31981",
+      "jp": "【<dst>】は毒の痛みで苦しんでいる！",
+      "en": "【<dst>】 is writhing in pain from poison!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4363,
+      "id": "rem_31982",
+      "jp": "【<dst>】は毒に冒された！",
+      "en": "【<dst>】 has been poisoned!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4364,
+      "id": "rem_31983",
+      "jp": "【<dst>】の身体から毒が消え去った！",
+      "en": "The poison has left 【<dst>】's body!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4365,
+      "id": "rem_31984",
+      "jp": "毒化",
+      "en": "Poison",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4366,
+      "id": "rem_31985",
+      "jp": "毒によりターンごとにダメージ+20%",
+      "en": "+20% damage per turn from poison.",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4367,
+      "id": "rem_31986",
+      "jp": "【<dst>】は猛毒の痛みで動けない！",
+      "en": "【<dst>】 is immobilized by deadly poison pain!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4368,
+      "id": "rem_31987",
+      "jp": "【<dst>】は猛毒に冒された！",
+      "en": "【<dst>】 has been afflicted with deadly poison!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4369,
+      "id": "rem_31988",
+      "jp": "【<dst>】の身体から猛毒が消え去った！",
+      "en": "The deadly poison has left 【<dst>】's body!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4370,
+      "id": "rem_31989",
+      "jp": "猛毒",
+      "en": "Deadly Poison",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4371,
+      "id": "rem_31990",
+      "jp": "炎によりターンごとにダメージ+10%",
+      "en": "+10% damage per turn from fire.",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4372,
+      "id": "rem_31991",
+      "jp": "【<dst>】は燃えて行動できない！",
+      "en": "【<dst>】 is burning and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4373,
+      "id": "rem_31992",
+      "jp": "【<dst>】の周りが炎上した！",
+      "en": "【<dst>】's surroundings have caught fire!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4374,
+      "id": "rem_31993",
+      "jp": "【<dst>】の炎上が消えた……",
+      "en": "【<dst>】's fire has been extinguished...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4375,
+      "id": "rem_31994",
+      "jp": "炎上",
+      "en": "Burning",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

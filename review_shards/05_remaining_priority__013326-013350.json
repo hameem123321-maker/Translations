@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 13326,
+  "range_end": 13350,
+  "pairs": [
+    {
+      "n": 13326,
+      "id": "rem_48995",
+      "jp": "海から産出される黒い宝石。高額で取引される。",
+      "en": "A black gem harvested from the sea. Traded at high prices.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13327,
+      "id": "rem_48996",
+      "jp": "安寧のブラックパール",
+      "en": "Serene Black Pearl",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13328,
+      "id": "rem_48997",
+      "jp": "金色に輝くインゴット。カネの語源となったカネそのもの。古来より人を惑わせ続けてきた、もっとも原始的な宝。",
+      "en": "A glittering gold ingot. The very origin of the word for money. The most primitive treasure that has captivated people since ancient times.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13329,
+      "id": "rem_48998",
+      "jp": "黄金のゴールド",
+      "en": "Gold Bullion",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13330,
+      "id": "rem_48999",
+      "jp": "竜のような見事な細工が施された置物。非常に繊細で壊れやすく、完成品はほとんど出回らない。何か途方もない魔力が感じられる。",
+      "en": "An ornament with exquisite, dragon-like craftsmanship. Extremely delicate and fragile; few complete pieces exist. An immense magical power can be felt.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13331,
+      "id": "rem_49000",
+      "jp": "ドラゴンシンボル",
+      "en": "Dragon Symbol",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13332,
+      "id": "rem_49001",
+      "jp": "深海から引き上げられた、開かない宝箱。中身を観測するまではとてつもない宝が入っている状態と空っぽ、あるいはガラクタの状態が重なりあった状態らしい。",
+      "en": "A treasure chest fished from the deep sea that cannot be opened. Its contents are said to be in a state of superposition—simultaneously holding immense treasure, nothing, or mere junk—until observed.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13333,
+      "id": "rem_49002",
+      "jp": "事象重ね合わせ存在箱",
+      "en": "Superposition Existence Chest",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13334,
+      "id": "rem_49003",
+      "jp": "強大な魔獣であるバジリスクの物……として入手した怪しい肉。真偽は不明だがその肉の味わいは他とは一線を画す。バジリスクと言われても信じられる高級品。",
+      "en": "Suspicious meat acquired as being from the mighty beast, the Basilisk. Its authenticity is unclear, but its flavor is in a class of its own. A luxury item convincing enough to be believed.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13335,
+      "id": "rem_49004",
+      "jp": "バジリスクステーキ肉",
+      "en": "Basilisk Steak Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13336,
+      "id": "rem_49005",
+      "jp": "魔界の水辺でしか採れないエビを、人間界で養殖した高級品。人間界で育てる手法は研究段階だが、実現を心待ちにする美食家は多い。",
+      "en": "A luxury item: shrimp only found in the demon world's waters, now farmed in the human realm. The farming method is still under research, eagerly awaited by many gourmands.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13337,
+      "id": "rem_49006",
+      "jp": "魔界ロブスター",
+      "en": "Demon World Lobster",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13338,
+      "id": "rem_49007",
+      "jp": "業と執着心が強い人間の魂が何らかの理由で物質化したものと言われる粉砂糖。背徳的な味がする。しかし摂取すると元の人格を一部受け継ぐ可能性がある。",
+      "en": "Powdered sugar said to be the materialized soul of a human with strong karma and obsession. Has a decadent taste. Ingestion may cause one to partly inherit the original personality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13339,
+      "id": "rem_49008",
+      "jp": "ソウルシュガー",
+      "en": "Soul Sugar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13340,
+      "id": "rem_49009",
+      "jp": "深海から引き上げられた巨大な卵。サーペントと呼ばれる何らかの魚卵であり、本当の海竜が産んだ卵ではないらしい。",
+      "en": "A giant egg retrieved from the deep sea. Likely the egg of some fish called a 'Serpent', not a true sea dragon.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13341,
+      "id": "rem_49010",
+      "jp": "サーペントの卵",
+      "en": "Serpent's Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13342,
+      "id": "rem_49011",
+      "jp": "勇従の女賢者レミル？",
+      "en": "Remil? The Loyal Sage",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13343,
+      "id": "rem_49012",
+      "jp": "俺のアバター？",
+      "en": "My avatar?",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13344,
+      "id": "rem_49013",
+      "jp": "最果ての放浪者ダーケン(怒)",
+      "en": "Darken the Edge-Wanderer (Angry)",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13345,
+      "id": "rem_49014",
+      "jp": "フレスミスの住人A",
+      "en": "Fressmis Resident A",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13346,
+      "id": "rem_49015",
+      "jp": "フレスミスの住人B",
+      "en": "Fressmis Resident B",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13347,
+      "id": "rem_49016",
+      "jp": "【デイジー】が登場する。",
+      "en": "【Daisy】 has appeared.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13348,
+      "id": "rem_49017",
+      "jp": "シイネはとくに資金を使わなくてもいいじゃないかと考えている。カネを数えるだけでも、彼女は幸せらしい。それはそれで、いいだろうか……。投資すれば新しい運命が開かれるだろう。",
+      "en": "Shiine thinks it's fine not to spend funds. Just counting money makes her happy. Is that okay, though...? Investing may open a new fate.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13349,
+      "id": "rem_49018",
+      "jp": "デイジーの運命改変",
+      "en": "Alter Daisy's Fate",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    },
+    {
+      "n": 13350,
+      "id": "rem_49019",
+      "jp": "【クリスティナ】が登場する。",
+      "en": "【Christina】 has appeared.",
+      "table": "db_AchievementDestiny",
+      "category": "remaining_table"
+    }
+  ]
+}

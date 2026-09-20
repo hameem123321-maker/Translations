@@ -1,0 +1,158 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 126,
+  "range_end": 150,
+  "pairs": [
+    {
+      "n": 126,
+      "id": "extra_ui_0126",
+      "jp": "必殺",
+      "en": "Crit"
+    },
+    {
+      "n": 127,
+      "id": "extra_ui_0127",
+      "jp": "行動の優先度が高まるデス。また、相手の速度を下回ると命中率が下がり、上回ると【ダブルアタック】しやすくなるデス。【クリティカルヒット】も一緒に発生すると強力な【デスクリティカル】になるデス",
+      "en": "Act sooner. Slower than the foe and you miss more; faster and 【double attacks】 land. Pair that with a crit for a nasty 【death crit】."
+    },
+    {
+      "n": 128,
+      "id": "extra_ui_0128",
+      "jp": "速度",
+      "en": "SPD"
+    },
+    {
+      "n": 129,
+      "id": "extra_ui_0129",
+      "jp": "魔術攻撃で与えるダメージに影響するデス。魔術攻撃は大勢をまとめて相手できる攻撃が多いデス。魔術を使わないなら不要デス",
+      "en": "Magic damage. Lots of magic hits groups. Skip it if you don't use magic."
+    },
+    {
+      "n": 130,
+      "id": "extra_ui_0130",
+      "jp": "魔攻",
+      "en": "MATK"
+    },
+    {
+      "n": 131,
+      "id": "extra_ui_0131",
+      "jp": "魔術攻撃から受けるダメージに影響するデス。優先度は低めデスが、レベルが高いダンジョンに行くなら、ちょっとぐらいは上げたいデス",
+      "en": "Magic damage you take. Lower priority, but raise it a bit for high-level dungeons."
+    },
+    {
+      "n": 132,
+      "id": "extra_ui_0132",
+      "jp": "魔防",
+      "en": "MDEF"
+    },
+    {
+      "n": 133,
+      "id": "extra_ui_0133",
+      "jp": "【ダブルアタック】の威力に影響するデス。ダブルアタックは、相手より『速度』が上回っていないといけないので、『速度』が高いキャラには重要デス",
+      "en": "【Double attack】 damage. You need more 'SPD' than the foe, so it matters on fast characters."
+    },
+    {
+      "n": 134,
+      "id": "extra_ui_0134",
+      "jp": "連撃",
+      "en": "Combo"
+    },
+    {
+      "n": 135,
+      "id": "extra_ui_0135",
+      "jp": "敵からのダメージを受けられる合計デス。前衛キャラはもちろん、後衛キャラも重要デス",
+      "en": "How much damage you can take. Frontliners need it, backliners too."
+    },
+    {
+      "n": 136,
+      "id": "extra_ui_0136",
+      "jp": "消耗するスキルの使用回数に影響するデス。スキルをばんばん撃つにはたくさんのMPが必要なのデス",
+      "en": "How many times you can use spendy skills. Spamming skills eats a lot of MP."
+    },
+    {
+      "n": 137,
+      "id": "extra_ui_0137",
+      "jp": "探索メンバーを入れ替えるデス",
+      "en": "Swap who goes exploring."
+    },
+    {
+      "n": 138,
+      "id": "extra_ui_0138",
+      "jp": "編成",
+      "en": "Party"
+    },
+    {
+      "n": 139,
+      "id": "extra_ui_0139",
+      "jp": "エネミー発見率。高いと隠れている敵を発見し、不意打ちを防ぐことが出来るデス",
+      "en": "Enemy detect rate. High enough and you spot hidden foes before they ambush you."
+    },
+    {
+      "n": 140,
+      "id": "extra_ui_0140",
+      "jp": "敵発見",
+      "en": "Detect"
+    },
+    {
+      "n": 141,
+      "id": "extra_ui_0141",
+      "jp": "エネミー発見率",
+      "en": "Enemy detect rate"
+    },
+    {
+      "n": 142,
+      "id": "extra_ui_0142",
+      "jp": "トラップ発見率。高いと仕掛けられているトラップを発見できる。トラップが発見できても、トラップの解除は別なので注意するデス。発見できないと問答無用で罠にかかるデス！",
+      "en": "Trap detect rate. Spotting a trap is not the same as disarming it. Miss it and you eat the trap, no questions."
+    },
+    {
+      "n": 143,
+      "id": "extra_ui_0143",
+      "jp": "罠発見",
+      "en": "Traps"
+    },
+    {
+      "n": 144,
+      "id": "extra_ui_0144",
+      "jp": "トラップ発見率",
+      "en": "Trap detect rate"
+    },
+    {
+      "n": 145,
+      "id": "extra_ui_0145",
+      "jp": "機械系トラップの解除率に影響するデス。トラップのダメージは非常に大きいデス。敵と戦うより危険かもしれないので、解除率が低い時は心して開けるデス！",
+      "en": "Disarm rate for mechanical traps. Trap damage is huge — maybe worse than a fight. Open carefully if this is low!"
+    },
+    {
+      "n": 146,
+      "id": "extra_ui_0146",
+      "jp": "機械罠",
+      "en": "Mech"
+    },
+    {
+      "n": 147,
+      "id": "extra_ui_0147",
+      "jp": "機械系トラップ解除率",
+      "en": "Mech trap disarm"
+    },
+    {
+      "n": 148,
+      "id": "extra_ui_0148",
+      "jp": "自然系トラップの解除率に影響するデス。トラップのダメージは非常に大きいデス。敵と戦うより危険かもしれないので、解除率が低い時は心して開けるデス！",
+      "en": "Disarm rate for nature traps. Trap damage is huge. Open carefully if this is low!"
+    },
+    {
+      "n": 149,
+      "id": "extra_ui_0149",
+      "jp": "自然罠",
+      "en": "Nature"
+    },
+    {
+      "n": 150,
+      "id": "extra_ui_0150",
+      "jp": "自然系トラップ解除率",
+      "en": "Nature trap disarm"
+    }
+  ]
+}

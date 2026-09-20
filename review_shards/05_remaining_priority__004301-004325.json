@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4301,
+  "range_end": 4325,
+  "pairs": [
+    {
+      "n": 4301,
+      "id": "rem_31920",
+      "jp": "阻害罠",
+      "en": "Obstruction Trap",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4302,
+      "id": "rem_31921",
+      "jp": "【<dst>】は不運の魔術にかけられた！",
+      "en": "【<dst>】 was cursed with misfortune!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4303,
+      "id": "rem_31922",
+      "jp": "【<dst>】から不運が消え去った！",
+      "en": "【<dst>】's misfortune faded!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4304,
+      "id": "rem_31923",
+      "jp": "不運",
+      "en": "Misfortune",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4305,
+      "id": "rem_31924",
+      "jp": "【<dst>】は体勢を崩している！",
+      "en": "【<dst>】 is off-balance!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4306,
+      "id": "rem_31925",
+      "jp": "【<dst>】はバランスを崩した！",
+      "en": "【<dst>】 lost their footing!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4307,
+      "id": "rem_31926",
+      "jp": "【<dst>】は体勢を立て直した！",
+      "en": "【<dst>】 regained their balance!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4308,
+      "id": "rem_31927",
+      "jp": "崩し",
+      "en": "Trip",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4309,
+      "id": "rem_31928",
+      "jp": "【<dst>】は転倒して行動できない！",
+      "en": "【<dst>】 is prone and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4310,
+      "id": "rem_31929",
+      "jp": "【<dst>】は転倒した！",
+      "en": "【<dst>】 fell down!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4311,
+      "id": "rem_31930",
+      "jp": "【<dst>】は起き上がった！",
+      "en": "【<dst>】 got up!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4312,
+      "id": "rem_31931",
+      "jp": "転倒",
+      "en": "Prone",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4313,
+      "id": "rem_31932",
+      "jp": "【<dst>】は身体が麻痺して行動できない！",
+      "en": "【<dst>】 is paralyzed and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4314,
+      "id": "rem_31933",
+      "jp": "【<dst>】は麻痺毒に冒された！",
+      "en": "【<dst>】 was afflicted with paralysis poison!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4315,
+      "id": "rem_31934",
+      "jp": "【<dst>】の身体から麻痺が消え去った！",
+      "en": "The paralysis faded from 【<dst>】's body!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4316,
+      "id": "rem_31935",
+      "jp": "麻痺",
+      "en": "Paralysis",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4317,
+      "id": "rem_31936",
+      "jp": "【<dst>】は縛られて行動できない！",
+      "en": "【<dst>】 is bound and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4318,
+      "id": "rem_31937",
+      "jp": "【<dst>】は身体を縛られ、拘束された！",
+      "en": "【<dst>】 was bound and restrained!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4319,
+      "id": "rem_31938",
+      "jp": "【<dst>】は解放された！",
+      "en": "【<dst>】 was released!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4320,
+      "id": "rem_31939",
+      "jp": "束縛",
+      "en": "Bind",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4321,
+      "id": "rem_31940",
+      "jp": "【<dst>】は押し倒されて行動できない！",
+      "en": "【<dst>】 is pinned and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4322,
+      "id": "rem_31941",
+      "jp": "【<dst>】は押し倒された！",
+      "en": "【<dst>】 has been pinned!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4323,
+      "id": "rem_31942",
+      "jp": "【<dst>】は押し倒しから解放された！",
+      "en": "【<dst>】 has been freed from the pin!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4324,
+      "id": "rem_31943",
+      "jp": "押倒",
+      "en": "Pin",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4325,
+      "id": "rem_31944",
+      "jp": "スキルが使用できなくなる",
+      "en": "Cannot use skills",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

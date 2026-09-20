@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6526,
+  "range_end": 6550,
+  "pairs": [
+    {
+      "n": 6526,
+      "id": "rem_34145",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 【闇属性】",
+      "en": "Area (L) Attack Power[B+] + Hit[60%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6527,
+      "id": "rem_34146",
+      "jp": "【<src>】は[カオスウェイブ]を放った！",
+      "en": "【<src>】cast [Chaos Wave]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6528,
+      "id": "rem_34147",
+      "jp": "彼は人間に宿り人を導く者の一人。人間に擬態した彼は魔術の塔を作り、人間に叡智を授けてきた。『神』の超技術を人間にも扱えるように授けるのは、彼の十八番である。",
+      "en": "One of the Guides who dwells within humans. Disguised as human, he built the Magic Tower and granted wisdom to mankind. Granting 'God's' super-technology to humans is his specialty.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6529,
+      "id": "rem_34148",
+      "jp": "パーティー全員の経験値[+80%]",
+      "en": "Party EXP [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6530,
+      "id": "rem_34149",
+      "jp": "神話の時代から存在する、制御装置。その存在は表に現れることはなく、常に相手の行動を束縛して、妨害する試練を担う。何度乗り越えてもより強くなる。",
+      "en": "A control unit existing since the Mythic Age. It never appears openly, always binding opponents' actions and bearing trials to hinder them. Grows stronger each time overcome.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6531,
+      "id": "rem_34150",
+      "jp": "レベル同期・主人公と同じに([+5]) + 魔攻超強化",
+      "en": "Level Sync: Match Ren's Level ([+5]) + Greatly Boost Mag. Atk",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6532,
+      "id": "rem_34151",
+      "jp": "魔界の七公の一角たる色欲の縁者たち。次代の当主を争う間柄ではあるが、生まれ持っての資質は平等でなく妬まれた。一方で、必ずしも無能と侮っているわけでもなかった。",
+      "en": "Members of the Lust lineage, one of the Seven Dukes of the Demon Realm. Rivals for the next headship, but born unequal in talent, breeding envy. Yet not necessarily dismissed as incompetent.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6533,
+      "id": "rem_34152",
+      "jp": "レベル同期・ルーシェ/シェルフィと同じに",
+      "en": "Level Sync: Match Lusche/Shelfi's Level",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6534,
+      "id": "rem_34153",
+      "jp": "パーティーの自己再生力を高めることで、少しずつＨＰを回復させる。瞬間的な回復量は少ないが、範囲が広いために生存力を底上げする。持続力もかなり長い。",
+      "en": "Boosts the party's self-regeneration, gradually restoring HP. Low instant recovery, but wide area increases survivability. Fairly long duration.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6535,
+      "id": "rem_34154",
+      "jp": "【仲間】に【再生】を付与 (ターンごとにHP回復[+10%])",
+      "en": "Grants 【Ally】 【Regen】 (Restores HP[+10%] per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6536,
+      "id": "rem_34155",
+      "jp": "【<src>】の[リジェネレイト]が再生の力を与える！",
+      "en": "【<src>】's [Regenerate] grants the power of renewal!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6537,
+      "id": "rem_34156",
+      "jp": "聖女の奇跡の一つ。フィールドに聖なる大結界を張る、その場にいる聖属性の攻撃を強化し、さらに常時回復状態にする。",
+      "en": "A miracle of the Saintess. Envelops the field in a great holy barrier, boosting Holy attacks and granting constant HP regeneration within.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6538,
+      "id": "rem_34157",
+      "jp": "【フィールド】に【聖域】を付与 (聖属性ダメージ[+50%] + ターンごとにHP自動回復(味方のみ)[+10%])",
+      "en": "Grants 【Field】 【Sanctuary】 (Holy DMG[+50%] + Auto HP Regen (Allies only)[+10%] per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6539,
+      "id": "rem_34158",
+      "jp": "【<src>】は[サンクチュアリ]を使用！",
+      "en": "【<src>】used [Sanctuary]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6540,
+      "id": "rem_34159",
+      "jp": "戦闘開始直後、不死の存在を弱体化させる、聖なる言葉を浴びせる。不死者には効果覿面だが、それ以外には効果がない。",
+      "en": "Immediately after battle starts, bathes undead beings in sacred words to weaken them. Highly effective against undead, useless otherwise.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6541,
+      "id": "rem_34160",
+      "jp": "ターンアンデッドで先制ダメージ[+50%]",
+      "en": "Turn Undead - First Strike DMG [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6542,
+      "id": "rem_34161",
+      "jp": "真空の刃を放って相手を切り裂く。空中を飛ぶ相手には効果が非常に高いが、固い相手は不向き。",
+      "en": "Slashes foes with blades of vacuum. Very effective against airborne enemies, but weak against hard targets.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6543,
+      "id": "rem_34162",
+      "jp": "全体攻撃 威力[D] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "All Attack - Power[D] + Hit[80%] + Combo Rate[+10%] + 【Wind Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6544,
+      "id": "rem_34163",
+      "jp": "【<src>】の[エアロストーム]が敵を切り刻む！",
+      "en": "【<src>】's [Aero Storm] shreds the enemy!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6545,
+      "id": "rem_34164",
+      "jp": "自らに攻撃した痛みを攻撃のエネルギーにして武器のパワーに上乗せする。攻撃を受ければ受けるほどにダメージがアップする。",
+      "en": "Converts pain from being attacked into energy to boost weapon power. Damage increases the more you're hit.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6546,
+      "id": "rem_34165",
+      "jp": "【自分】に【復讐者】を付与 (被ダメージ回数に応じて最大攻撃力[+30%])",
+      "en": "Apply 【Avenger】 to 【Self】 (Max ATK[+30%] based on times hit)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6547,
+      "id": "rem_34166",
+      "jp": "【<src>】は反撃の構えを取った！",
+      "en": "【<src>】 takes a counter stance!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6548,
+      "id": "rem_34167",
+      "jp": "剣に聖属性の魔術を付与して放つ強撃。不浄な存在はひとたまりもない。強化された剣の威力は高い。",
+      "en": "A mighty strike imbuing the blade with holy magic. Unholy beings cannot withstand it. The enhanced sword is highly powerful.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6549,
+      "id": "rem_34168",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 連撃率[+10%] + 【聖属性】 + 回避(小)",
+      "en": "Small Area Attack - Power[E+] + Hit[80%] + Combo Rate[+10%] + 【Holy Element】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6550,
+      "id": "rem_34169",
+      "jp": "【<src>】は[ホーリースマッシュ]で聖なる一撃！",
+      "en": "【<src>】 lands a holy blow with [Holy Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

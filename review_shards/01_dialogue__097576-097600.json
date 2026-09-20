@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97576,
+  "range_end": 97600,
+  "pairs": [
+    {
+      "n": 97576,
+      "id": "db_EventInfo:115236:13",
+      "jp": "無事で良かったですぞ",
+      "en": "I'm glad you're safe.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97577,
+      "id": "db_EventInfo:115237:3",
+      "jp": "じいか……そうか、そなたが助けを呼んでくれたのじゃな",
+      "en": "Old man... right, so you're the one who called for help?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97578,
+      "id": "db_EventInfo:115238:3",
+      "jp": "そうじゃ、里は……！？　皆はどうなったのじゃ！？",
+      "en": "That's right, the village...!? What happened to everyone!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97579,
+      "id": "db_EventInfo:115239:13",
+      "jp": "姫様のおかげで、無事ですじゃ",
+      "en": "Thanks to the Princess, everyone is safe.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97580,
+      "id": "db_EventInfo:115240:3",
+      "jp": "そ、そうか……皆無事じゃったか……良かったのじゃ……",
+      "en": "I-is that so... everyone's safe... that's good...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97581,
+      "id": "db_EventInfo:115241:10",
+      "jp": "何が良かっただ！　いいわけあるか！",
+      "en": "What's so good about it!? Do you have any excuse!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97582,
+      "id": "db_EventInfo:115242:3",
+      "jp": "エリオルダ？",
+      "en": "Eliorda?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97583,
+      "id": "db_EventInfo:115243:10",
+      "jp": "貴様一人で突っ走って、どれだけ心配をかけたと思ってる！",
+      "en": "You rushed ahead all on your own, do you know how much worry you caused!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97584,
+      "id": "db_EventInfo:115244:3",
+      "jp": "うっ、すっ、すまん……のじゃ……",
+      "en": "Ugh... s-sorry... I am...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97585,
+      "id": "db_EventInfo:115245:10",
+      "jp": "フン……わかればいい",
+      "en": "Hmph... as long as you understand.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97586,
+      "id": "db_EventInfo:115246:1",
+      "jp": "ドワームたちとアンジュは救出できた、これで解決だな",
+      "en": "We saved Dwarm and Anju. This should solve it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97587,
+      "id": "db_EventInfo:115247:3",
+      "jp": "いや、終わってないのじゃ！　この奥は【『ゴブリン』】に占拠されているのじゃ",
+      "en": "No, it's not over! The area deeper in is occupied by Goblins.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97588,
+      "id": "db_EventInfo:115248:1",
+      "jp": "まだ奥が……？",
+      "en": "There's more inside...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97589,
+      "id": "db_EventInfo:115249:3",
+      "jp": "うむ、この先はドワームにとって神聖な場所、【『ゴブリン』】どもに好き勝手させるのは我慢ならぬのじゃ！",
+      "en": "Yes. That place is sacred to us Dwarm. I cannot stand to let those Goblins do as they please there!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97590,
+      "id": "db_EventInfo:115250:3",
+      "jp": "頼む【<pl>】、<ruby=わらわ>妾</ruby>に力を貸してくれ！",
+      "en": "I beg you, 【<pl>】, lend me your strength!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97591,
+      "id": "db_EventInfo:115251:2",
+      "jp": "しかし【『ゴブリン』】どもは強力な武具を身につけてるデス。私たちの武器では、これ以上はつらいデスね",
+      "en": "But those Goblins have powerful weapons and armor. With our gear, going further would be tough.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97592,
+      "id": "db_EventInfo:115252:3",
+      "jp": "武具？　武具があればいいのじゃな？",
+      "en": "Weapons? You'd be fine if you had weapons, yes?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97593,
+      "id": "db_EventInfo:115253:1",
+      "jp": "あ、ああ……",
+      "en": "Ah, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97594,
+      "id": "db_EventInfo:115254:3",
+      "jp": "わかったのじゃ……ならば<ruby=わらわ>妾</ruby>を、【『鍛冶工房』】に連れて行くのじゃ！",
+      "en": "I understand... Then take me to the Smithy!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97595,
+      "id": "db_EventInfo:115255:3",
+      "jp": "【『鍛冶工房』】は当然建築済みじゃな？　【『建築』】してないなら用意するのじゃ！！",
+      "en": "The Smithy is built, of course? If it's not, go build it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97596,
+      "id": "db_EventInfo:115258:0",
+      "jp": "アンジュは【『鍛冶工房』】を使いたがっている。",
+      "en": "Anju wants to use the Smithy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97597,
+      "id": "db_EventInfo:115259:0",
+      "jp": "俺は彼女に従い、一度ダンジョンを脱出することにした。",
+      "en": "I followed her lead and decided to leave the dungeon for now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97598,
+      "id": "db_EventInfo:115261:0",
+      "jp": "宿に戻ったきり、アンジュは【『鍛冶工房』】に籠もり始めた。",
+      "en": "Once back at the inn, Anju shut herself in the Smithy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97599,
+      "id": "db_EventInfo:115262:1",
+      "jp": "アンジュの様子はどうだ？",
+      "en": "How is Anju doing?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97600,
+      "id": "db_EventInfo:115263:2",
+      "jp": "ずっと【『鍛冶工房』】を使っているデス。ドルガノンも付き合ってるデスね",
+      "en": "She's been using the [Blacksmith Workshop] nonstop. Dorganon is with her.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

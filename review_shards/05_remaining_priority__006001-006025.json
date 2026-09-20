@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6001,
+  "range_end": 6025,
+  "pairs": [
+    {
+      "n": 6001,
+      "id": "rem_33620",
+      "jp": "範囲(小)攻撃 威力[S] +  命中[60%] + 【氷属性】 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [S] + 60% hit rate + 【Ice】 + Inflicts [Stun] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6002,
+      "id": "rem_33621",
+      "jp": "【<src>】は[ソウルシューター]で魂の一撃！",
+      "en": "【<src>】 fires a soul strike with [Soul Shooter]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6003,
+      "id": "rem_33622",
+      "jp": "火の小さなつぶてを作成し、敵めがけてぶつける。複数のつぶてを放つため、密集している敵に攻撃すると多くヒットする。",
+      "en": "Creates small fire pellets and hurls them at enemies. Fires multiple pellets, so it hits grouped enemies more.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6004,
+      "id": "rem_33623",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[60%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Small-area attack. Power [E+] + 60% hit rate + 【Fire】 + Inflicts [Burn] (+10% dmg per turn from flames).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6005,
+      "id": "rem_33624",
+      "jp": "【<src>】は[ファイアー]の魔術を放った！",
+      "en": "【<src>】 cast [Fire] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6006,
+      "id": "rem_33625",
+      "jp": "小さな雷電を生み出し、敵に照射する。攻撃範囲は狭く、少数の相手しか攻撃できないが、貫通力が高い。",
+      "en": "Creates a small lightning bolt to strike an enemy. Narrow range, few targets, but high piercing.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6007,
+      "id": "rem_33626",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [E] + 70% hit rate + 【Thunder】 + Small defense pierce + Inflicts [Shock] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6008,
+      "id": "rem_33627",
+      "jp": "【<src>】は[ライトニング]の魔術を放った！",
+      "en": "【<src>】 cast [Lightning] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6009,
+      "id": "rem_33628",
+      "jp": "仲間呼び(自他) + 【仲間】に【興奮】を付与 (すべてのダメージ[+30%] + 物理ダメージ軽減率[-30%])",
+      "en": "Summon allies (self/other) + Inflicts 【Excitement】 on 【allies】 (All damage [+30%] + Physical damage reduction [-30%]).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6010,
+      "id": "rem_33629",
+      "jp": "【<src>】は[緊急アラート]を使用した！",
+      "en": "【<src>】 used [Emergency Alert]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6011,
+      "id": "rem_33630",
+      "jp": "氷のつぶてを放ち、接触した敵を瞬間凍結させる。魔術ランクが低いために殺傷力は低いが、複数を足止めしたり、支援魔術としては効果が高い。",
+      "en": "Shoots ice pellets to instantly freeze enemies on contact. Low lethality but can immobilize groups or support effectively.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6012,
+      "id": "rem_33631",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [E] + 70% hit rate + 【Ice】 + Inflicts [Freeze] (-30% phys dmg reduction + Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6013,
+      "id": "rem_33632",
+      "jp": "【<src>】は[アイス]の魔術を放った！",
+      "en": "【<src>】 cast [Ice] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6014,
+      "id": "rem_33633",
+      "jp": "武器を叩き付けることで、ダメージと共に振動と衝撃波を発生させる。威力は低いが、範囲内の相手の体勢を崩すことがある。",
+      "en": "Smashes weapon to cause damage with vibration and shockwaves. Low power but can knock foes in range off-balance.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6015,
+      "id": "rem_33634",
+      "jp": "グループ攻撃 威力[B+] +  命中[60%] + 必殺率[+10%] + 【風属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group attack. Power [B+] + 60% hit rate + 10% crit rate + 【Wind】 + Inflicts [Knockdown] (Critically hit chance +50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6016,
+      "id": "rem_33635",
+      "jp": "【<src>】の[グランドスラム]が敵を砕く！",
+      "en": "【<src>】's [Ground Slam] crushes the enemy!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6017,
+      "id": "rem_33636",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Group attack. Power [] + 80% hit rate + Inflicts [Shock] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6018,
+      "id": "rem_33637",
+      "jp": "【<src>】の[エレキショック]！",
+      "en": "【<src>】's [Electric Shock]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6019,
+      "id": "rem_33638",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + 【風属性】 + デバフ特化 + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Group attack. Power [] + 80% hit rate + 【Wind】 + Debuff focus + Inflicts [Charm] (All attack damage -30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6020,
+      "id": "rem_33639",
+      "jp": "【<src>】の[チャームミスト]！",
+      "en": "【<src>】's [Charm Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6021,
+      "id": "rem_33640",
+      "jp": "単体攻撃 威力[] +  命中[70%] + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single attack Power[] + Hit[70%] + Inflicts [Weakness] (Phys. Damage -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6022,
+      "id": "rem_33641",
+      "jp": "【<src>】の[虚脱アタック]！",
+      "en": "【<src>】's [Weakness Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6023,
+      "id": "rem_33642",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + [押倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group attack Power[] + Hit[70%] + Inflicts [Knockdown] (Crit. Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6024,
+      "id": "rem_33643",
+      "jp": "【<src>】は押し倒してきた！",
+      "en": "【<src>】 charged and knocked you down!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6025,
+      "id": "rem_33644",
+      "jp": "小さな真空の刃を敵に放つ。広範囲の敵を切り裂くカマイタチだが、魔術のランクが低いために、大きな傷は与えにくい。",
+      "en": "Fires small vacuum blades. A wide-range Kamaitachi slash, but low magic rank means it can't deal heavy wounds.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

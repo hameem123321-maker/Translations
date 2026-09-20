@@ -1,0 +1,232 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 84176,
+  "range_end": 84200,
+  "pairs": [
+    {
+      "n": 84176,
+      "id": "db_EventInfo:99445:57",
+      "jp": "ふむ……まあ先祖なら、今はそっちにやるデスが",
+      "en": "Hmm... Well, as our ancestor, I'll let you have this one for now.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84177,
+      "id": "db_EventInfo:99446:57",
+      "jp": "見たところオマエ、【『死神』】の気質は薄いデスね",
+      "en": "Looks like you don't have much of a Shinigami's spirit.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84178,
+      "id": "db_EventInfo:99447:2",
+      "jp": "ギクリデス",
+      "en": "Gulp.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84179,
+      "id": "db_EventInfo:99448:57",
+      "jp": "おそらくは【『神』】の気質に寄っているようデス",
+      "en": "Seems like you lean more towards having a god's temperament.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84180,
+      "id": "db_EventInfo:99449:57",
+      "jp": "しかし私は純なる【『死神』】、【『死神』】としてのスキルはたくさんあるデス",
+      "en": "But I am a pure Shinigami. I have many Shinigami skills.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84181,
+      "id": "db_EventInfo:99450:57",
+      "jp": "さあ、オマエの知らない【『死神』】のスペシャルスキル、見せてやるデスよ",
+      "en": "Alright, I'll show you a special Shinigami skill you've never seen before.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84182,
+      "id": "db_EventInfo:99451:3",
+      "jp": "ん？　何をするつもりじゃ？",
+      "en": "Huh? What are you planning to do?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 84183,
+      "id": "db_EventInfo:99452:57",
+      "jp": "いただきますデス～Д",
+      "en": "Let's eat~Д",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84184,
+      "id": "db_EventInfo:99454:57",
+      "jp": "むむむ、せっかく高レベルの人間がいるのにデス",
+      "en": "Hmm, what a waste. There's a high-level human right here.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84185,
+      "id": "db_EventInfo:99455:57",
+      "jp": "魂を食べ放題デス",
+      "en": "I could eat all the souls I want.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット"
+    },
+    {
+      "n": 84186,
+      "id": "db_EventInfo:99456:2",
+      "jp": "やかましいデス。【『死神』】のくせに人間の命を吸うなデス！　吸うならカネにするデス",
+      "en": "Shut up,デス! For a 'Shinigami', don't suck people's lives out,デス! If you're gonna suck, get money for it,デス!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84187,
+      "id": "db_EventInfo:99457:57",
+      "jp": "何を言ってやがるデス。【『死神』】がカネを貰ってどうするデス？",
+      "en": "What are you talking about,デス? What's a 'Shinigami' gonna do with money,デス?",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84188,
+      "id": "db_EventInfo:99458:2",
+      "jp": "なんだとデス！？　カネの素晴らしさを理解しないデスか！？",
+      "en": "What did you say,デス!? You don't understand how wonderful money is,デス!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84189,
+      "id": "db_EventInfo:99459:1",
+      "jp": "なんか、シイネとは根本的な価値観の違いがあるようだな……",
+      "en": "Huh... It seems Shiine and I have a pretty basic difference in our values...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84190,
+      "id": "db_EventInfo:99460:57",
+      "jp": "まあいいデス。オマエ、私はおなかペコペコデス",
+      "en": "Whatever,デス. You, I'm starving,デス.",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84191,
+      "id": "db_EventInfo:99461:57",
+      "jp": "これから、たらふく食わせろデス！",
+      "en": "From now on, feed me lots,デス!",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84192,
+      "id": "db_EventInfo:99462:1",
+      "jp": "食わせろっていうと……メシか？",
+      "en": "Feed you... You mean food?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84193,
+      "id": "db_EventInfo:99463:57",
+      "jp": "そんなの、オマエの精液に決まってるデスД",
+      "en": "Of course, it's your cum,デス.Д",
+      "speaker": "Sitlut",
+      "speaker_jp": "シトルット",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 84194,
+      "id": "db_EventInfo:99464:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★Episode - Training Ground Scene Common Start",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84195,
+      "id": "db_EventInfo:99465:0",
+      "jp": "★エッチシーン・修練場・シトルット②・逆転後背位",
+      "en": "H-Scene: Training Ground, Sitlut 2, Reverse Doggystyle",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84196,
+      "id": "db_EventInfo:99466:0",
+      "jp": "★エピソード・修練場Lv13②・試練Lv9・シトルット(HARD)②",
+      "en": "Episode: Training Ground Lv13 2, Trial Lv9, Sitlut (HARD) 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84197,
+      "id": "db_EventInfo:99467:0",
+      "jp": "★エピソード・修練場シーン共通終了",
+      "en": "Episode: End of Training Ground Common Scene",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84198,
+      "id": "db_EventInfo:99468:0",
+      "jp": "★エッチシーン・修練場・シトルット③・ふえる死神4P",
+      "en": "H-Scene: Training Ground, Sitlut 3, Four Shinigami Foursome",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84199,
+      "id": "db_EventInfo:99469:0",
+      "jp": "【『最果ての修練場』】の【試練】が襲いかかってきた！",
+      "en": "A Trial from the 'Farthest Training Ground' attacked!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84200,
+      "id": "db_EventInfo:99471:20",
+      "jp": "よーし、がんばるぞー",
+      "en": "Alright, I'll do my best!",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

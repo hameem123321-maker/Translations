@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97326,
+  "range_end": 97350,
+  "pairs": [
+    {
+      "n": 97326,
+      "id": "db_EventInfo:114960:2",
+      "jp": "たしかに強い気を感じるデス……",
+      "en": "I definitely feel a strong presence, death...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97327,
+      "id": "db_EventInfo:114961:1",
+      "jp": "どうやら、あれがダンジョンのボスとやらのようだな",
+      "en": "It looks like that's the so-called dungeon boss.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97328,
+      "id": "db_EventInfo:114962:2",
+      "jp": "準備するデス！",
+      "en": "Get ready, death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97329,
+      "id": "db_EventInfo:114963:0",
+      "jp": "戦闘の末、敵を撃破した！",
+      "en": "After the battle, the enemy is defeated!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97330,
+      "id": "db_EventInfo:114964:3",
+      "jp": "なんと、本当に倒してしまうとは……オヌシらは一体……",
+      "en": "Incredible, to think you really beat it... Just who are you people...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97331,
+      "id": "db_EventInfo:114965:2",
+      "jp": "ふふん……まあただの普通の宿屋の主人デス",
+      "en": "Heheh... Well, just your ordinary innkeepers, death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97332,
+      "id": "db_EventInfo:114966:3",
+      "jp": "いやそんな、そんなわけなかろう",
+      "en": "No way, that can't be right.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97333,
+      "id": "db_EventInfo:114967:2",
+      "jp": "知らんデス",
+      "en": "Don't know, death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97334,
+      "id": "db_EventInfo:114968:1",
+      "jp": "あれが【『フレスミス森林道』】の開通を邪魔していたようだな",
+      "en": "It seems that was what was blocking the opening of the [Fressmiss Forest Path].",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97335,
+      "id": "db_EventInfo:114969:2",
+      "jp": "大ボスを倒してしまえばこっちのものデス。あとは他の人間どもに開通作業は任せれば良さそうデスね",
+      "en": "Once we defeat the big boss, it's all ours. We can probably leave the job of opening the road to the other people.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97336,
+      "id": "db_EventInfo:114970:3",
+      "jp": "うむっ、この道を通れば、【『ドルワミール鉱山』】にたどりつくのじゃ",
+      "en": "Hmm. If we take this road, we can reach the Dourwamir Mine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97337,
+      "id": "db_EventInfo:114971:15",
+      "jp": "やあ店長君、【『フレスミス森林道』】が完全に開通して、【『ドルワミール鉱山』】への交易路が復活したそうだよ",
+      "en": "Hey, Shopkeeper. I hear the Freshmiss Forest Road has fully opened, and the trade route to the Dourwamir Mine is back.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97338,
+      "id": "db_EventInfo:114972:15",
+      "jp": "鉱山は豊富な資源が産出されるのはもちろん、森林道自体が資源の宝庫だからね",
+      "en": "The mine produces abundant resources, of course, and the forest road itself is a treasure trove of resources.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97339,
+      "id": "db_EventInfo:114973:15",
+      "jp": "【『ダムブナック林業組合』】の人たちも、森林道に大勢押しかけているみたいだ",
+      "en": "It seems a lot of people from the Dumbnack Forestry Union have also rushed to the forest road.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97340,
+      "id": "db_EventInfo:114974:2",
+      "jp": "物流が復活すれば、【『ゼカリウス』】も活気が出るデスね",
+      "en": "Once logistics revive, Zecarius will get more lively too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97341,
+      "id": "db_EventInfo:114975:0",
+      "jp": "★アナザービュー",
+      "en": "★Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97342,
+      "id": "db_EventInfo:114976:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, at that time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97343,
+      "id": "db_EventInfo:114977:3",
+      "jp": "うーむ、鉱山への道が復活するとは……",
+      "en": "Hmm, the road to the mine has reopened...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97344,
+      "id": "db_EventInfo:114978:13",
+      "jp": "姫様、これで【里】に戻りやすくなりますな",
+      "en": "Princess, this will make it easier for us to return to the village.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97345,
+      "id": "db_EventInfo:114979:3",
+      "jp": "いやじゃーっ！　<ruby=わらわ>妾</ruby>はここで自由を満喫するのじゃ！",
+      "en": "No way! I am going to enjoy my freedom here!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97346,
+      "id": "db_EventInfo:114980:3",
+      "jp": "あんな金属と宝石のニオイしかしない場所に戻りとうない！",
+      "en": "I don't want to go back to a place that only smells of metal and gems!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97347,
+      "id": "db_EventInfo:114981:13",
+      "jp": "そんなこと言わないでくだされ、【里】の者も、姫様の帰りを待ち続けております",
+      "en": "Please don't say that. The people of the Village have also been waiting for you to come back, Princess.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97348,
+      "id": "db_EventInfo:114982:3",
+      "jp": "いやじゃーっ！　いやじゃーっ！　いやじゃーっ！",
+      "en": "Noooo! No way! I don't want to!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97349,
+      "id": "db_EventInfo:114983:13",
+      "jp": "……きっと、スイーツもたくさん用意しておりますのにのう",
+      "en": "...I'm sure we have lots of sweets ready for you.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97350,
+      "id": "db_EventInfo:114984:3",
+      "jp": "(ピタッ)",
+      "en": "(Stops suddenly)",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

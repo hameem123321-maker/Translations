@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7676,
+  "range_end": 7700,
+  "pairs": [
+    {
+      "n": 7676,
+      "id": "rem_35327",
+      "jp": "MP消費軽減",
+      "en": "Reduced MP Cost",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7677,
+      "id": "rem_35328",
+      "jp": "パーティー全員のダメージ",
+      "en": "Party Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7678,
+      "id": "rem_35329",
+      "jp": "パーティー全員のクリティカル率",
+      "en": "Party Crit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7679,
+      "id": "rem_35330",
+      "jp": "パーティー全員の経験値",
+      "en": "Party EXP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7680,
+      "id": "rem_35331",
+      "jp": "パーティー全員の四属性ダメージ",
+      "en": "Party Elemental Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7681,
+      "id": "rem_35332",
+      "jp": "火属性付与",
+      "en": "Fire Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7682,
+      "id": "rem_35333",
+      "jp": "氷属性付与",
+      "en": "Ice Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7683,
+      "id": "rem_35334",
+      "jp": "風属性付与",
+      "en": "Wind Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7684,
+      "id": "rem_35335",
+      "jp": "雷属性付与",
+      "en": "Lightning Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7685,
+      "id": "rem_35336",
+      "jp": "聖属性付与",
+      "en": "Holy Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7686,
+      "id": "rem_35337",
+      "jp": "闇属性付与",
+      "en": "Dark Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7687,
+      "id": "rem_35338",
+      "jp": "死属性付与",
+      "en": "Death Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7688,
+      "id": "rem_35339",
+      "jp": "霊体属性付与",
+      "en": "Spirit Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7689,
+      "id": "rem_35340",
+      "jp": "矢雨による先制ダメージ",
+      "en": "Arrow Rain Preemptive Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7690,
+      "id": "rem_35341",
+      "jp": "ターンアンデッドダメージ",
+      "en": "Turn Undead Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7691,
+      "id": "rem_35342",
+      "jp": "XXXXへの先制ダメージ",
+      "en": "Preemptive Damage to XXXX",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7692,
+      "id": "rem_35343",
+      "jp": "味方への強化効果ターン延長",
+      "en": "Ally Buff Duration Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7693,
+      "id": "rem_35344",
+      "jp": "相手への弱体効果ターン延長",
+      "en": "Enemy Debuff Duration Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7694,
+      "id": "rem_35345",
+      "jp": "不利な状態異常の回避率",
+      "en": "Adverse Status Avoidance",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7695,
+      "id": "rem_35346",
+      "jp": "攻撃範囲が拡大",
+      "en": "Attack Range Expanded",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7696,
+      "id": "rem_35347",
+      "jp": "通常攻撃のダブルアタック率",
+      "en": "Normal Attack Double Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7697,
+      "id": "rem_35348",
+      "jp": "スキル封印",
+      "en": "Skill Seal",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7698,
+      "id": "rem_35349",
+      "jp": "近接攻撃ヒットで阻害罠",
+      "en": "Impeding Trap on Melee Hit",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7699,
+      "id": "rem_35350",
+      "jp": "スキル使用による速度低下軽減",
+      "en": "Skill Cast Speed Debuff Reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7700,
+      "id": "rem_35351",
+      "jp": "逃走率",
+      "en": "Escape Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

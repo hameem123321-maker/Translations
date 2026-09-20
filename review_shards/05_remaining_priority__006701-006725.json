@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6701,
+  "range_end": 6725,
+  "pairs": [
+    {
+      "n": 6701,
+      "id": "rem_34320",
+      "jp": "【<src>】は[エレメントチェイス]で追撃した！",
+      "en": "<src> pursued with [Element Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6702,
+      "id": "rem_34321",
+      "jp": "槍を螺旋状に高速回転させながら突進（チャージ）を加える。突進は一撃では終わらず、追撃することも。命中には熟練を要する最難技の一つ。",
+      "en": "A supreme technique that spirals the spear for a charging assault. It can continue with follow-up hits. Requires mastery to land.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6703,
+      "id": "rem_34322",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[60%] + 連撃率[+30%] + 必殺率[+5%] + 【雷属性】 + 防御貫通(小) + 回避(中) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Small AoE, Power[B], Hit[60%], Combo[+30%], Crit[+5%], 【Lightning】, Small Armor Pierce, Medium Evasion, Inflicts [Knockdown] (Crit chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6704,
+      "id": "rem_34323",
+      "jp": "【<src>】は[ハイパーランス]で突進！",
+      "en": "<src> charges with [Hyper Lance]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6705,
+      "id": "rem_34324",
+      "jp": "稀少なアイテムを見逃さない、匠の目利き。ダンジョンにレアアイテムオブジェクトが出現しやすくなる。",
+      "en": "An artisan's discerning eye, never missing rare items. Makes rare item objects appear more often in dungeons.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6706,
+      "id": "rem_34325",
+      "jp": "ダンジョン内のレアトレジャー発生率[+20%]",
+      "en": "Dungeon rare treasure spawn rate [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6707,
+      "id": "rem_34326",
+      "jp": "異性の心を掴み、とろけさせる魔性の色香。アイテム販売金額がアップし、売上が伸びる。",
+      "en": "A bewitching charm that captivates and melts hearts. Increases item sales revenue.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6708,
+      "id": "rem_34327",
+      "jp": "接客による売上[+20%]",
+      "en": "Sales from service [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6709,
+      "id": "rem_34328",
+      "jp": "本人自体が店の名物。なぜか客が集まってしまう。たまに客が手を合わせて拝んでいくらしい。接客時の売上がものすごくアップする。接客だろうか……？",
+      "en": "They themselves are the shop's attraction. Customers flock, sometimes even bowing. Sales from service increase massively. Is this really service...?",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6710,
+      "id": "rem_34329",
+      "jp": "接客による売上[+50%]",
+      "en": "Sales from service [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6711,
+      "id": "rem_34330",
+      "jp": "味方が【全ての属性スキル】を使用した際に追撃する。直前に使用したスキルに属性が変化する。通常のチェイスより発動率は控えめ。",
+      "en": "Follows up when an ally uses 【Any Element Skill】. Changes to that skill's element. Lower trigger rate than regular Chase.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6712,
+      "id": "rem_34331",
+      "jp": "【<src>】は[マルチチェイス]で追撃した！",
+      "en": "<src> pursued with [Multi Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6713,
+      "id": "rem_34332",
+      "jp": "ハヅキがどこからともなく乱入し、弟子のフリをして【弟子の攻撃】に追撃する。【相手の弱点に属性が変化】する。ハヅキに投資していると乱入確率アップ。",
+      "en": "Hazuki barges in from nowhere, pretending to be a disciple to follow up on 【Disciple's Attack】. 【Changes to target's weakness】. Investing in Hazuki increases her intrusion rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6714,
+      "id": "rem_34333",
+      "jp": "ハヅキがときどき乱入して追撃",
+      "en": "Hazuki occasionally barges in for a follow-up",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6715,
+      "id": "rem_34334",
+      "jp": "シズハ＆クレハが主人公を主人と認めるようになる。双翼のメイド殺法のコンビネーションの範囲に「主人公の属性攻撃」が含まれるようになり、強力な追撃サポートが可能になる。",
+      "en": "Shizuha & Kureha recognize Ren as their master. The Twin Wings Maid Strike combo now includes \"Ren's elemental attacks\", enabling powerful chase support.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6716,
+      "id": "rem_34335",
+      "jp": "双翼のメイド殺法の範囲に主人公を含める",
+      "en": "Includes Ren in Twin Wings Maid Strike range",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6717,
+      "id": "rem_34336",
+      "jp": "自称従順な僕のシェルフィが、二人の主人に追随して攻撃する。意外とちゃんとメイドをしているらしい。主人公とノースリンデの攻撃に確実に追撃し、属性は主人の物に変更される。",
+      "en": "Shelfi, the self-proclaimed obedient servant, follows her two masters into attack. Surprisingly diligent. Guaranteed to chase Ren's and Northlinde's attacks, inheriting their element.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6718,
+      "id": "rem_34337",
+      "jp": "単体攻撃 威力[A] +  命中[70%] + 防御貫通(中)",
+      "en": "Single target, Power[A], Hit[70%], Medium Armor Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6719,
+      "id": "rem_34338",
+      "jp": "【<src>】は主人に従って追撃した！",
+      "en": "<src> obeyed the master and attacked!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6720,
+      "id": "rem_34339",
+      "jp": "『夢魔』の本性を露わにして主人公に襲いかかり、濃厚なミルクを頂いてしまう。ＭＰ回復と強化バフを一瞬だけ得られる。大技を使う前は一服キメよう。【(コマンドセット不可)】",
+      "en": "Revealing her 'Succubus' nature, she pounces on Ren for some rich milk. Briefly recovers MP and grants a buff. Take a break before a big move. 【(Cannot set as command)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6721,
+      "id": "rem_34340",
+      "jp": "MP回復(大) + MP消費なし + 使用時に主人公レベルダウン + たまに恍惚状態に + 【自分】に【夢で一つに】を付与 (すべての攻撃ダメージ[+500%])",
+      "en": "Restores MP (Large) + No MP cost + Lowers Ren's level + May cause ecstasy + Grants 【Dream of Unity】 to【self】 (All attack damage[+500%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6722,
+      "id": "rem_34341",
+      "jp": "【<src>】が突然に襲いかかってきた！",
+      "en": "【<src>】suddenly attacks!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6723,
+      "id": "rem_34342",
+      "jp": "『夢魔』の本性を露わにして主人公に襲いかかり、濃厚なミルクを頂き、ＭＰとして還元する。主人公以外のＭＰが大きく回復。主人公は干涸らびる。【(コマンドセット不可)】",
+      "en": "Reveals its true nature as a 『Nightmare』, attacks Ren, drains him of thick milk, and converts it to MP. Greatly restores MP for everyone except Ren. Ren is drained dry.【(Cannot be set as command)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6724,
+      "id": "rem_34343",
+      "jp": "MP回復(中) + 使用時に主人公レベルダウン + たまに恍惚状態に + 主人公以外に効果 + 【仲間】に【興奮++】を付与 (すべてのダメージ[+70%] + 物理ダメージ軽減率[-50%])",
+      "en": "Restores MP (Medium) + Lowers Ren's level + May cause ecstasy + Only affects allies + Grants 【Excitement++】 to【ally】 (All damage[+70%] + Physical damage reduction[-50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6725,
+      "id": "rem_34344",
+      "jp": "【<src>】の[スペルマディバイド]！",
+      "en": "【<src>】's [Sperma Divide]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

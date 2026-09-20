@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7601,
+  "range_end": 7625,
+  "pairs": [
+    {
+      "n": 7601,
+      "id": "rem_35252",
+      "jp": "ハヅキをH部屋に配置してエッチする",
+      "en": "Place Hazuki in H-Room for H-Scene",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7602,
+      "id": "rem_35253",
+      "jp": "命中値",
+      "en": "Hit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7603,
+      "id": "rem_35254",
+      "jp": "回避値",
+      "en": "Evade Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7604,
+      "id": "rem_35255",
+      "jp": "クリティカル率",
+      "en": "Critical Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7605,
+      "id": "rem_35256",
+      "jp": "デスクリティカル率",
+      "en": "Anti-Crit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7606,
+      "id": "rem_35257",
+      "jp": "クリティカルを受ける値",
+      "en": "Crit Receive Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7607,
+      "id": "rem_35258",
+      "jp": "ダブルアタック値",
+      "en": "Double Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7608,
+      "id": "rem_35259",
+      "jp": "すべてのダメージ",
+      "en": "All Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7609,
+      "id": "rem_35260",
+      "jp": "すべてのダメージ(味方のみ)",
+      "en": "All Damage (Allies Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7610,
+      "id": "rem_35261",
+      "jp": "すべてのダメージ(味方のみ・淫魔領域)",
+      "en": "All Damage (Allies Only, Succubus Zone)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7611,
+      "id": "rem_35262",
+      "jp": "すべてのダメージ(敵のみ)",
+      "en": "All Damage (Enemies Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7612,
+      "id": "rem_35263",
+      "jp": "すべてのダメージ(敵のみ・淫魔領域)",
+      "en": "All Damage (Enemies Only, Succubus Zone)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7613,
+      "id": "rem_35264",
+      "jp": "すべてのダメージ(一部魔族のみ)",
+      "en": "All Damage (Some Demons Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7614,
+      "id": "rem_35265",
+      "jp": "ラスボスへのダメージ",
+      "en": "Damage to Final Boss",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7615,
+      "id": "rem_35266",
+      "jp": "祝福時のダメージ",
+      "en": "Damage When Blessed",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7616,
+      "id": "rem_35267",
+      "jp": "スキルのダメージ",
+      "en": "Skill Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7617,
+      "id": "rem_35268",
+      "jp": "スキルのダメージ(物理)",
+      "en": "Skill Damage (Physical)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7618,
+      "id": "rem_35269",
+      "jp": "スキルのダメージ(魔術)",
+      "en": "Skill Damage (Magic)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7619,
+      "id": "rem_35270",
+      "jp": "スキルのダメージ(死神)",
+      "en": "Skill Damage (Shinigami)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7620,
+      "id": "rem_35271",
+      "jp": "火属性のダメージ",
+      "en": "Fire Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7621,
+      "id": "rem_35272",
+      "jp": "氷属性のダメージ",
+      "en": "Ice damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7622,
+      "id": "rem_35273",
+      "jp": "風属性のダメージ",
+      "en": "Wind damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7623,
+      "id": "rem_35274",
+      "jp": "雷属性のダメージ",
+      "en": "Thunder damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7624,
+      "id": "rem_35275",
+      "jp": "聖属性のダメージ",
+      "en": "Holy damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7625,
+      "id": "rem_35276",
+      "jp": "闇属性のダメージ",
+      "en": "Dark damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

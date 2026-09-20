@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6901,
+  "range_end": 6925,
+  "pairs": [
+    {
+      "n": 6901,
+      "id": "rem_34520",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 【聖属性】 + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single-target attack, Power [] + 70% Hit + 【Holy element】 + Inflicts [Exhaustion] (Physical DMG -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6902,
+      "id": "rem_34521",
+      "jp": "【<src>】の[聖なる一撃]！",
+      "en": "【<src>】's [Holy Strike]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6903,
+      "id": "rem_34522",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single-target attack, Power [] + 70% Hit + +10% Crit Rate + Inflicts [Exhaustion] (Physical DMG -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6904,
+      "id": "rem_34523",
+      "jp": "【<src>】の[ナイトスウィフト]！",
+      "en": "【<src>】's [Night Swift]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6905,
+      "id": "rem_34524",
+      "jp": "ダンジョンの危険を警戒し、不確定要素を徹底的に排除する。彼が随伴した時点でトラップや不意打ちを見逃すことはなくなる。ベテラン冒険者から見ても変わり者らしい。",
+      "en": "Wary of dungeon dangers, thoroughly eliminates uncertainties. With him, traps and ambushes are never missed. Even veteran adventurers find him odd.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6906,
+      "id": "rem_34525",
+      "jp": "エネミー発見率[+100%] + トラップ発見率[+100%]",
+      "en": "Enemy Discovery Rate [+100%] + Trap Discovery Rate [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6907,
+      "id": "rem_34526",
+      "jp": "戦力変換・見る＞魔防",
+      "en": "Power Shift: Observe > Magic Defense",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6908,
+      "id": "rem_34527",
+      "jp": "一気呵成に敵を殲滅するべく全体号令を発する。仲間のクールダウンが回復して加速し、スキルを連発しやすくなる。さらにチェイススキルの成功率がアップする",
+      "en": "Issues an all-out command to annihilate foes. Recovers allies' cooldowns, accelerating skill chains and boosting Chase skill success.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6909,
+      "id": "rem_34528",
+      "jp": "CT回復(中) + 【仲間】に【一気呵成】を付与 (チェイススキル発生率[+50%])",
+      "en": "CT Recovery (Medium) + Grants 【Allies】 【All-Out】 (Chase Skill Proc Rate [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6910,
+      "id": "rem_34529",
+      "jp": "【<src>】の[一気呵成の計]！",
+      "en": "【<src>】's [All-Out Strategy]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6911,
+      "id": "rem_34530",
+      "jp": "敵の弱点を見抜くパッシブスキル。仲間のクリティカル率がアップする",
+      "en": "A passive that sees enemy weak points. Boosts allies' critical rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6912,
+      "id": "rem_34531",
+      "jp": "パーティー全員のクリティカル率[+10%]",
+      "en": "All party members' Critical Rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6913,
+      "id": "rem_34532",
+      "jp": "スーパーメイドであるハヅキの弟子たるシズハ・クレハはメイドとして厳しい稽古を付けられていた。これによりダンジョン探索において一通りのことができる。",
+      "en": "As Hazuki's pupils, Shizuha & Kureha underwent strict maid training, mastering all dungeon basics.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6914,
+      "id": "rem_34533",
+      "jp": "サキュバス因子を持つ者の権能。死神の力を奪う「淫魔領域」を無効化する。特に強力な淫魔であるシェルフィと戦うには必須。【(バトル中に使用しないと効果は発揮されない)】。",
+      "en": "Power of a Succubus bearer. Nullifies the \"Succubus Domain\" that steals Shinigami power. Essential against powerful succubi like Shelfi. 【(No effect unless used in battle)】.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6915,
+      "id": "rem_34534",
+      "jp": "【フィールド】に【夢魔の輪】を付与 (淫魔領域の効果を完全無効化)",
+      "en": "Grants 【Field】 【Succubus Circle】 (Completely nullifies Succubus Domain effects)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6916,
+      "id": "rem_34535",
+      "jp": "【<src>】は[統べし夢魔の輪]を使用！",
+      "en": "【<src>】 used [Unifying Succubus Circle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6917,
+      "id": "rem_34536",
+      "jp": "どう見てもケモミミなノースリンデの直感。戦闘力に劣るが、ウルフィナ以上に危険察知能力に秀でている。それを察知した後どうするかは、また別の話である。",
+      "en": "Clearly a kemomimi, Northlinde's intuition. Weak in combat, but excels in danger detection more than Wolfina. What she does after sensing it is another story.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6918,
+      "id": "rem_34537",
+      "jp": "エネミー発見率[+60%] + トラップ発見率[+80%]",
+      "en": "Enemy Discovery Rate [+60%] + Trap Discovery Rate [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6919,
+      "id": "rem_34538",
+      "jp": "刀匠たちが夢見て求める武器。かつて彼女らの王を二度殺した剣を前に、幻想の魔族は本能的に畏怖してしまう。人間の仇敵が現れたとき、神は『加護の剣』の顕現を許可する。",
+      "en": "A weapon dreamt of by smiths. The sword that twice slew their king instinctively terrifies illusory demons. When humanity's foe appears, God permits the Sword of Protection's manifestation.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6920,
+      "id": "rem_34539",
+      "jp": "物理ダメージ[+50%] + 竜タイプには[+500%] + 祝福有効時に強化",
+      "en": "Physical DMG [+50%] + [+500%] vs. Dragon type + Enhanced when blessed",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6921,
+      "id": "rem_34540",
+      "jp": "戦闘終了時にパーティー全員のＣＴを回復させる。戦闘を得意としない技能によるスキルだが、支援することで味方全員の戦力を引き出すことができる。",
+      "en": "Recovers all party members' CT after battle. A skill based on non-combat expertise, but its support can boost the entire team's fighting power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6922,
+      "id": "rem_34541",
+      "jp": "戦闘後パーティー回復・CT[+30%]",
+      "en": "Post-Battle Party Heal・CT[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6923,
+      "id": "rem_34542",
+      "jp": "信仰心が強いため、神と思い込んだマリーゼルは、常日頃から主人公の素晴らしさについて布教している。『聖女』の力のせいか、皆も本気に……。神の力が伝達しやすくなる。",
+      "en": "Her strong faith leads her to preach about Ren's greatness, convinced he's a god. Perhaps due to her 'Saint' power, everyone starts to believe... Makes divine power easier to convey.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6924,
+      "id": "rem_34543",
+      "jp": "パーティー全員の経験値[+15%]",
+      "en": "Party EXP[+15%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6925,
+      "id": "rem_34544",
+      "jp": "味方が【聖属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Holy Skill】. Can trigger consecutively if multiple skills are used. Follow-up damage scales with both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

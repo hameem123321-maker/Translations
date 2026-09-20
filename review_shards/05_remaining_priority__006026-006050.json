@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6026,
+  "range_end": 6050,
+  "pairs": [
+    {
+      "n": 6026,
+      "id": "rem_33645",
+      "jp": "範囲(大)攻撃 威力[E] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "Large area attack Power[E] + Hit[80%] + Multi-hit rate[+10%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6027,
+      "id": "rem_33646",
+      "jp": "【<src>】は[エアロ]の魔術を放った！",
+      "en": "【<src>】 cast [Aero] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6028,
+      "id": "rem_33647",
+      "jp": "弓矢に雷属性の魔術を付与し、強力な一撃を放つ。魔術で強化されているために通常の弓矢よりも威力が高い。",
+      "en": "Enchants the Bow with lightning magic for a powerful shot. More potent than a normal arrow due to the magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6029,
+      "id": "rem_33648",
+      "jp": "範囲(大)攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large area attack Power[D+] + Hit[70%] + 【Thunder】 + Small Def. Pierce + Inflicts [Shock] (Crit. Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6030,
+      "id": "rem_33649",
+      "jp": "【<src>】の[ボルトアロー]！",
+      "en": "【<src>】's [Bolt Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6031,
+      "id": "rem_33650",
+      "jp": "全体攻撃 威力[] +  [必中] + 【聖属性】 + 防御貫通(小)",
+      "en": "All attack Power[] + [Sure Hit] + 【Holy】 + Small Def. Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6032,
+      "id": "rem_33651",
+      "jp": "【<src>】の[ゴッドパニッシュ]！",
+      "en": "【<src>】's [God Punish]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6033,
+      "id": "rem_33652",
+      "jp": "簡単な応急処置でパーティーの傷を癒やせる。比較的簡単な技術で、だれでも使える簡単なスキルで、コスパは良い。しかしクールタイム長めで、多用はできない。",
+      "en": "Simple first aid to heal party wounds. An easy, cost-effective skill anyone can use, but long cooldown prevents frequent use.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6034,
+      "id": "rem_33653",
+      "jp": "HP回復(小) + CT回復(小) + CT消費増加",
+      "en": "Small HP recovery + Small CT recovery + Increased CT cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6035,
+      "id": "rem_33654",
+      "jp": "【<src>】は[ファーストエイド]を使用した",
+      "en": "【<src>】 used [First Aid]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6036,
+      "id": "rem_33655",
+      "jp": "全体攻撃 威力[] +  [必中] + 【氷属性】 + 防御貫通(小) + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "All attack Power[] + [Sure Hit] + 【Ice】 + Small Def. Pierce + Inflicts [Freeze] (Phys. Damage Reduction -30% + Crit. Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6037,
+      "id": "rem_33656",
+      "jp": "【<src>】の[ワールドフリーズ]！",
+      "en": "【<src>】's [World Freeze]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6038,
+      "id": "rem_33657",
+      "jp": "精神集中し、スキルの使用ＣＴを回復させる。スキルを多く持っているほど有効だが、ＭＰは回復できない。",
+      "en": "Focuses mind to recover skill CT. More effective with many skills, but does not recover MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6039,
+      "id": "rem_33658",
+      "jp": "CT回復(中) + 【自分】に【攻撃】を付与 (物理ダメージ[+30%])",
+      "en": "Medium CT recovery + Grants 【Attack】 to 【Self】 (Phys. Damage[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6040,
+      "id": "rem_33659",
+      "jp": "【<src>】は[ウェポンバースト]を使用した！",
+      "en": "【<src>】 used [Weapon Burst]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6041,
+      "id": "rem_33660",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [恐怖]を付与 (スキルが使用できなくなる)",
+      "en": "Single Attack: Potency[] + Hit[60%] + Inflicts [Fear] (Skills cannot be used)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6042,
+      "id": "rem_33661",
+      "jp": "【<src>】の[不浄の威圧感]！",
+      "en": "【<src>】 uses [Impure Pressure]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6043,
+      "id": "rem_33662",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single Attack: Potency[] + Hit[60%] + Inflicts [Down] (Crit Chance Taken +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6044,
+      "id": "rem_33663",
+      "jp": "【<src>】の[押し倒し]！",
+      "en": "【<src>】 uses [Knock Down]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6045,
+      "id": "rem_33664",
+      "jp": "加速魔術を仲間全員に掛けることで、全員の速度がアップする。連続攻撃発生率と回避率がアップする攻防一体の技。",
+      "en": "Casts Accelerate on all allies, raising their speed. A balanced skill that increases consecutive attack chance and evasion rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6046,
+      "id": "rem_33665",
+      "jp": "CT回復(小) + 【仲間】に【加速】を付与 (ダブルアタック率[+50%])",
+      "en": "Small CT Recover + Grants【Allies】【Haste】 (Double Attack Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6047,
+      "id": "rem_33666",
+      "jp": "【<src>】の[ヘイストオール]が仲間を加速する！",
+      "en": "【<src>】's [Haste All] speeds up the party!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6048,
+      "id": "rem_33667",
+      "jp": "全体攻撃 威力[] +  命中[70%] + HP吸収(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Small HP Drain + Inflicts [Shock] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6049,
+      "id": "rem_33668",
+      "jp": "【<src>】の[生命波動]！",
+      "en": "【<src>】 uses [Life Wave]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6050,
+      "id": "rem_33669",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【火属性】 + 防御貫通(小) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Crit Rate[+100%] + 【Fire】 + Small Defense Penetration + Inflicts [Stun] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

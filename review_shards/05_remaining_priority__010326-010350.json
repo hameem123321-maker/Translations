@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10326,
+  "range_end": 10350,
+  "pairs": [
+    {
+      "n": 10326,
+      "id": "rem_38048",
+      "jp": "盾役の才能+1",
+      "en": "Tank Talent +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10327,
+      "id": "rem_38049",
+      "jp": "密着モード時の成功率+4%",
+      "en": "+4% Intimacy Mode Success Rate",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10328,
+      "id": "rem_38050",
+      "jp": "エッチな獲得経験値+5%",
+      "en": "+5% Lewd EXP Gain",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10329,
+      "id": "rem_38051",
+      "jp": "盾役の才能+2",
+      "en": "Tank Talent +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10330,
+      "id": "rem_38052",
+      "jp": "盾役の才能+3",
+      "en": "Tank Talent +3",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10331,
+      "id": "rem_38053",
+      "jp": "アバター人数+1",
+      "en": "Avatars +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10332,
+      "id": "rem_38054",
+      "jp": "盾役の才能-1",
+      "en": "Tank Talent -1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10333,
+      "id": "rem_38055",
+      "jp": "戦力の才能+1",
+      "en": "Combat Talent +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10334,
+      "id": "rem_38056",
+      "jp": "戦力の才能+2",
+      "en": "Combat Talent +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10335,
+      "id": "rem_38057",
+      "jp": "戦力の才能+3",
+      "en": "Combat Talent +3",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10336,
+      "id": "rem_38058",
+      "jp": "戦力の才能-1",
+      "en": "Combat Talent -1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10337,
+      "id": "rem_38059",
+      "jp": "探索の才能+1",
+      "en": "Exploration Talent +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10338,
+      "id": "rem_38060",
+      "jp": "探索の才能+2",
+      "en": "Exploration Talent +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10339,
+      "id": "rem_38061",
+      "jp": "探索の才能+3",
+      "en": "Exploration Talent +3",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10340,
+      "id": "rem_38062",
+      "jp": "探索の才能-1",
+      "en": "Exploration Talent -1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10341,
+      "id": "rem_38063",
+      "jp": "魔術の才能+1",
+      "en": "Magic Talent +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10342,
+      "id": "rem_38064",
+      "jp": "魔術の才能+2",
+      "en": "Magic Talent +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10343,
+      "id": "rem_38065",
+      "jp": "魔術の才能+3",
+      "en": "Magic Talent +3",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10344,
+      "id": "rem_38066",
+      "jp": "魔術の才能-1",
+      "en": "Magic Talent -1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10345,
+      "id": "rem_38067",
+      "jp": "すべての才能+1",
+      "en": "All Talents +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10346,
+      "id": "rem_38068",
+      "jp": "すべての才能+2",
+      "en": "All Talents +2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10347,
+      "id": "rem_38069",
+      "jp": "すべての才能-1",
+      "en": "All Talents -1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10348,
+      "id": "rem_38070",
+      "jp": "開発ポイント獲得量+5%",
+      "en": "Dev Point Gain +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10349,
+      "id": "rem_38071",
+      "jp": "すべての才能-2",
+      "en": "All Talents -2",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10350,
+      "id": "rem_38072",
+      "jp": "生産の才能+1",
+      "en": "Production Talent +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

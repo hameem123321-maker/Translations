@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 951,
+  "range_end": 975,
+  "pairs": [
+    {
+      "n": 951,
+      "id": "rem_01338",
+      "jp": "砕けた金属を集めたもの。一つの量は少ないが、小さい分加工しやすい。",
+      "en": "Assorted broken metal pieces. Small amounts but easy to work with due to size.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 952,
+      "id": "rem_01339",
+      "jp": "木っ端チップ",
+      "en": "Wood/Metal Scraps",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 953,
+      "id": "rem_01340",
+      "jp": "様々な宝石が混ざった原石。総合すれば高価だが、どうしても純度が低くなるため、取引額は低い。",
+      "en": "Mixed gemstone rough. Valuable in total, but low purity keeps trade value down.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 954,
+      "id": "rem_01341",
+      "jp": "混ざり合った原石",
+      "en": "Mixed Gem Rough",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 955,
+      "id": "rem_01342",
+      "jp": "穀物を刈り取った後の乾燥藁。軽くて燃えやすいが、かさばる上にすぐ燃え尽きてしまう為、種火としての扱いがメイン。",
+      "en": "Dry straw left after harvest. Light and flammable, but bulky and quick to burn—mainly used as kindling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 956,
+      "id": "rem_01343",
+      "jp": "種火の稲わら",
+      "en": "Kindling Straw",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 957,
+      "id": "rem_01344",
+      "jp": "人心を狂わせ災厄をもたらすオーナメント。戦争の影にはこの品があると囁かれるほどのいわくつき。",
+      "en": "An ornament said to drive people mad and bring calamity. Whispers link it to the shadows of war.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 958,
+      "id": "rem_01345",
+      "jp": "災厄のオーナメント",
+      "en": "Calamity Ornament",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 959,
+      "id": "rem_01346",
+      "jp": "深い闇に彩られた逆さの十字架。あしらわれた宝石は狂暴性を増し、周囲の人間を狂わせる。かつて憎い相手に送り、周囲の人間もろとも滅亡させる事件が多発した。",
+      "en": "An inverted cross tinged with deep darkness. Its gems incite frenzy, driving people insane. Once sent to hated foes, causing mass destruction.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 960,
+      "id": "rem_01347",
+      "jp": "ブラッディハングドクロス",
+      "en": "Bloody Hanged Cross",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 961,
+      "id": "rem_11390",
+      "jp": "ダンジョンを新規開拓した",
+      "en": "Discovered a new dungeon",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 962,
+      "id": "rem_11391",
+      "jp": "新しいエネミーを倒した",
+      "en": "Defeated a new enemy",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 963,
+      "id": "rem_11392",
+      "jp": "敵を１ターンキルした",
+      "en": "One-turn killed an enemy",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 964,
+      "id": "rem_11393",
+      "jp": "ジャイアントキルに成功！",
+      "en": "Giant Kill successful!",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 965,
+      "id": "rem_11394",
+      "jp": "新アイテムを発見した",
+      "en": "Found a new item",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 966,
+      "id": "rem_11395",
+      "jp": "敵に負けてしまった……",
+      "en": "Lost to the enemy...",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 967,
+      "id": "rem_11396",
+      "jp": "その他の評価点",
+      "en": "Other evaluation points",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 968,
+      "id": "rem_11397",
+      "jp": "エッチが好きで、異性と身体を重ねることに抵抗が少ないデス",
+      "en": "A Death who likes lewd stuff and has little hesitation getting physical with the opposite sex.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 969,
+      "id": "rem_11398",
+      "jp": "エッチ好き",
+      "en": "Likes Lewd Stuff",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 970,
+      "id": "rem_11399",
+      "jp": "足を使って射精させるテクニックデス。挿入しなくても満足させることが出来るデス",
+      "en": "A technique-des that uses feet to make them finish. Can satisfy without penetration-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 971,
+      "id": "rem_11400",
+      "jp": "足コキ名人",
+      "en": "Footjob Expert",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 972,
+      "id": "rem_11401",
+      "jp": "肛門を使って射精させるテクニックデス。本番行為より肛門の方が大好きデス",
+      "en": "A technique-des that uses the anus to make them finish. Loves the backdoor more than the main act-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 973,
+      "id": "rem_11402",
+      "jp": "アナル大好き",
+      "en": "Loves Anal",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 974,
+      "id": "rem_11403",
+      "jp": "エッチが特別好きでもなく、嫌いでもないデス",
+      "en": "A Death who doesn't particularly like lewd stuff, but doesn't dislike it either-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 975,
+      "id": "rem_11404",
+      "jp": "ノーマル性癖",
+      "en": "Normal Preference",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    }
+  ]
+}

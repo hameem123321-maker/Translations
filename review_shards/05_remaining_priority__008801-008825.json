@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8801,
+  "range_end": 8825,
+  "pairs": [
+    {
+      "n": 8801,
+      "id": "rem_36523",
+      "jp": "ハーブで下味をつけて香ばしく焼き上げた厚切りステーキ。これを食べている冒険者は、その日の仕事が成功したことを伺わせる。",
+      "en": "A thick-cut steak seasoned with herbs and grilled to perfection. Any adventurer eating this must have had a successful day.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8802,
+      "id": "rem_36524",
+      "jp": "ガーリックステーキ",
+      "en": "Garlic Steak",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8803,
+      "id": "rem_36525",
+      "jp": "仕留めた大型魔獣を大雑把に細切れにし、串刺しにして焼き上げた物。強靭な魔獣の肉は、一口食べると活力が溢れてくるような感覚をもたらしてくれる。",
+      "en": "Sliced roughly from a large monster and skewered before grilling. The tough meat gives a surge of energy with each bite.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8804,
+      "id": "rem_36526",
+      "jp": "串焼きモンスター",
+      "en": "Monster Skewers",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8805,
+      "id": "rem_36527",
+      "jp": "大きな骨付き塊肉をまるごと使った焼き肉。大雑把な味付けが逆に素材の味を引き立たせる。食の多い冒険者達が明日の活力を満たすためにかぶり付くだろう。",
+      "en": "A whole bone-in hunk of meat, grilled. The rough seasoning lets the ingredients shine. Adventurers will devour it for tomorrow's energy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8806,
+      "id": "rem_36528",
+      "jp": "ワイルド焼き肉",
+      "en": "Wild Roast",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8807,
+      "id": "rem_36529",
+      "jp": "高品質の獣肉を選び、熟成させた上でジューシーに焼き上げた贅沢な一品。",
+      "en": "A luxurious dish of select, aged beast meat, grilled to juicy perfection.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8808,
+      "id": "rem_36530",
+      "jp": "獣肉ロースト",
+      "en": "Beast Roast",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8809,
+      "id": "rem_36531",
+      "jp": "黒いソースがかかった濃厚な煮込み料理。深いコクがクセになる。しかし黒すぎて中身がほとんど見えない……。",
+      "en": "A rich stew covered in a dark sauce. Deep and addictive, but it's too black to see what's inside...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8810,
+      "id": "rem_36532",
+      "jp": "漆黒ビーフストロガノフ",
+      "en": "Pitch-Black Beef Stroganoff",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8811,
+      "id": "rem_36533",
+      "jp": "巨大なウシの肉を大きくカットし、丁寧に焼き上げた肉料理。存在そのものが稀少な、巨大なウシノシシを使った料理は、食通の憧れ。",
+      "en": "A massive cut of beef from a giant ox, carefully grilled. Using the rare, giant ox boar makes it a gourmet's dream.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8812,
+      "id": "rem_36534",
+      "jp": "幻の巨獣ステーキ",
+      "en": "Mythical Giant Beast Steak",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8813,
+      "id": "rem_36535",
+      "jp": "しっかりと熟成された上質な獣肉を挽肉にし、外はカリッと中はジューシーなハンバーグに仕上げた、贅沢な一品。",
+      "en": "A luxurious dish: high-quality aged beast meat, ground into a patty. Crispy outside, juicy inside.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8814,
+      "id": "rem_36536",
+      "jp": "熟成ハンバーグ",
+      "en": "Aged Hamburger Steak",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8815,
+      "id": "rem_36537",
+      "jp": "伝説のベヒんもスの肉と囁かれる肉を、贅沢に焼き上げた料理。本物かどうかはともかく、言われれば信じてしまいそうな程に旨い。",
+      "en": "A lavish grilled steak said to be made from legendary Behemoth meat. Real or not, it's so good you'd believe it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8816,
+      "id": "rem_36538",
+      "jp": "疑惑ベヒんもステーキ",
+      "en": "Suspicious Behemoth Steak",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8817,
+      "id": "rem_36539",
+      "jp": "僅かしか取れない稀少な肉の部位を、豪快に切って炙った物。噛めば噛むほど味わいが増す、食通が憧れる究極の肉料理。",
+      "en": "A rare cut of meat, grilled generously. Its flavor deepens with each chew—the ultimate meat dish for gourmets.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8818,
+      "id": "rem_36540",
+      "jp": "究極シャトーブリアン",
+      "en": "Ultimate Chateaubriand",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8819,
+      "id": "rem_36541",
+      "jp": "豚の腸に肉を詰めたオーソドックスな庶民料理。簡単に作れて保存もできる、便利な料理。",
+      "en": "A classic commoner's dish: minced meat stuffed into a pig's intestine. Easy to make and lasts well.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8820,
+      "id": "rem_36542",
+      "jp": "ブタの腸詰め",
+      "en": "Pig Intestine Sausage",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8821,
+      "id": "rem_36543",
+      "jp": "豚肉をじっくりと煮込み、甘辛いタレで味付けした煮込み焼き豚。主菜にもツマミにも最適な一品。",
+      "en": "Pork stewed until tender and glazed with sweet-savory sauce. A great main or side dish.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8822,
+      "id": "rem_36544",
+      "jp": "甘辛煮込みチャーシュー",
+      "en": "Sweet-Savory Stewed Chashu",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8823,
+      "id": "rem_36545",
+      "jp": "しっかりと味をつけた豚肉と、新鮮な野菜と合わせた炒め物。軽めの食事に最適。",
+      "en": "Stir-fry with well-seasoned pork and fresh vegetables. Perfect for a light meal.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8824,
+      "id": "rem_36546",
+      "jp": "肉野菜炒め",
+      "en": "Pork & Vegetable Stir-fry",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8825,
+      "id": "rem_36547",
+      "jp": "ブタの肉を野菜と一緒にトロトロになるまで煮込んだシチュー。トロリとした舌触りとアツアツの食感は、全ての冒険者に安らぎをもたらす。",
+      "en": "Pork and vegetables stewed until fall-apart tender. The rich flavor comforts every adventurer.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

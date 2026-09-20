@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6076,
+  "range_end": 6100,
+  "pairs": [
+    {
+      "n": 6076,
+      "id": "rem_33695",
+      "jp": "【<src>】の[先陣駆け]！",
+      "en": "【<src>】's [Charge Ahead]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6077,
+      "id": "rem_33696",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 【闇属性】 + [恍惚]を付与 (すべての攻撃ダメージ-100%)",
+      "en": "All Attack Power[] + Hit[70%] + Crit Rate[+10%] + 【Dark】 + Inflict [Ecstasy] (All attack damage -100%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6078,
+      "id": "rem_33697",
+      "jp": "【<src>】の[しょくしゅストリーム]！",
+      "en": "【<src>】's [Tentacle Stream]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6079,
+      "id": "rem_33698",
+      "jp": "縁をつないだ者たちをこの場に呼び寄せる。簡易的な召喚術。本来は非常に大きな対価を要求する奇跡であり、世界を何度か救った英雄にしか使用は許されない。",
+      "en": "Summons those bound by fate to this location. A simple summoning ritual. Normally a miracle demanding a great price, usable only by heroes who've saved the world multiple times.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6080,
+      "id": "rem_33699",
+      "jp": "【<src>】の[エンゲージリンク]！",
+      "en": "【<src>】's [Engage Link]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6081,
+      "id": "rem_33700",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【闇属性】 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large AoE Attack, Power[], 70% Hit Rate, +100% Crit Rate, 【Dark Element】, Inflicts [Stun] (Crit Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6082,
+      "id": "rem_33701",
+      "jp": "【<src>】の[しょくしゅバスター]！",
+      "en": "【<src>】's [Tentacle Buster]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6083,
+      "id": "rem_33702",
+      "jp": "回復の魔術により、仲間のHPを割合回復する。仲間全員を一気に癒やせる。自分の魔力を味方に分配する効果があり、仲間のMPも僅かに回復する。クールタイムは長め。",
+      "en": "Healing magic that restores an ally's HP proportionally. Can heal all allies at once. Distributes your magic power, slightly restoring allies' MP. Cooldown is long.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6084,
+      "id": "rem_33703",
+      "jp": "HP回復(中) + MP回復(極小) + CT消費増加",
+      "en": "Medium HP Recovery + Tiny MP Recovery + Increased CT Consumption",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6085,
+      "id": "rem_33704",
+      "jp": "【<src>】の[マジックヒール]が仲間を癒す！",
+      "en": "【<src>】's [Magic Heal] restores allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6086,
+      "id": "rem_33705",
+      "jp": "彷徨う復讐者が語ることはなく、その娘の身を案じ続ける。キャトリナのレベルが上がると、それを見守る衛兵さんのレベルがアップ。",
+      "en": "The wandering avenger does not speak, but continues to worry for the girl. As Catrina levels up, the Guard watching over her levels up too.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6087,
+      "id": "rem_33706",
+      "jp": "レベル同期・キャトリナと同じに([+5])",
+      "en": "Level Sync: Matches Catrina's level ([+5])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6088,
+      "id": "rem_33707",
+      "jp": "槍を構えて激しい突進（チャージ）を加える。守備に優れたクラスの技だが、その一撃は守備だけとは言わせない重さを誇る。",
+      "en": "Readies a spear for a fierce charging thrust. A technique of defensive classes, but the blow's weight cannot be called mere defense.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6089,
+      "id": "rem_33708",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【雷属性】 + 防御貫通(小) + 回避(中) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Small AoE Attack, Power[E], 70% Hit Rate, 【Lightning Element】, Small Defense Penetration, Medium Evasion, Inflicts [Knockdown] (Crit Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6090,
+      "id": "rem_33709",
+      "jp": "【<src>】は[ランスチャージ]で突進！",
+      "en": "【<src>】 charges with [Lance Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6091,
+      "id": "rem_33710",
+      "jp": "相手のレベルが自分よりある程度低い場合、攻撃力がアップ。ザコ敵をひたすら狩るときに効果が高い。",
+      "en": "Attack power increases if the enemy's level is considerably lower than yours. Very effective for hunting weak foes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6092,
+      "id": "rem_33711",
+      "jp": "ザコへのダメージ[+50%]",
+      "en": "Damage to Weak Foes [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6093,
+      "id": "rem_33712",
+      "jp": "手先の器用なドワーム族による罠解除技術。機械罠だけでなく、鉱山で生活するので自然罠にも対応できる。ただし彼らは頑丈すぎるせいか、危機察知はかなり鈍かったりする。",
+      "en": "The Dwarm's dexterous trap-disarming skill. Works on mechanical traps, and due to their life in mines, also works on natural traps. However, perhaps because they're too sturdy, their danger sense is quite dull.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6094,
+      "id": "rem_33713",
+      "jp": "機械と自然系トラップの解除率[+50%]",
+      "en": "Disarm Rate for Mechanical & Natural Traps [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6095,
+      "id": "rem_33714",
+      "jp": "弓矢に闘気を込めて、強力な一撃を放つ。連打はできないが非常に強い力を持ち、相手に大きいダメージを与えることもできる。",
+      "en": "Channels fighting spirit into an arrow to unleash a powerful single shot. Cannot be chained, but has immense force and can deal major damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6096,
+      "id": "rem_33715",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[60%] + 必殺率[+10%] + 【聖属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Large AoE Attack, Power[C], 60% Hit Rate, +10% Crit Rate, 【Holy Element】, Inflicts [Knockdown] (Crit Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6097,
+      "id": "rem_33716",
+      "jp": "【<src>】は[チャージアロー]を放った！",
+      "en": "【<src>】 fires a [Charged Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6098,
+      "id": "rem_33717",
+      "jp": "弓矢に魔力を付与し、降り注ぐように射かける。矢は天で炸裂し、広範囲の敵に降り注ぐ。",
+      "en": "Imbues arrows with magic and rains them down. Arrows burst in the sky, showering a wide area of enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6099,
+      "id": "rem_33718",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 【風属性】",
+      "en": "Large AoE Attack, Power[B+], 60% Hit Rate, 【Wind Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6100,
+      "id": "rem_33719",
+      "jp": "【<src>】は[アローストーム]で嵐を巻き起こす！",
+      "en": "【<src>】 stirs up a storm with [Arrow Storm]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

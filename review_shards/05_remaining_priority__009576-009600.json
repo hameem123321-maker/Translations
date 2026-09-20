@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9576,
+  "range_end": 9600,
+  "pairs": [
+    {
+      "n": 9576,
+      "id": "rem_37298",
+      "jp": "肌に塗るとほんのり光った気がする美容クリーム。心が浄化されたように感じるらしい。なお認定された『聖女』は商品には関与していない。",
+      "en": "A beauty cream that leaves a faint glow, making users feel spiritually cleansed. Note: The official 'Saint' has no involvement with this product.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9577,
+      "id": "rem_37299",
+      "jp": "聖女の微笑クリーム",
+      "en": "Saint's Smile Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9578,
+      "id": "rem_37300",
+      "jp": "修道院で作られたとされているカラフルなハーブ酒。大半は市井の業者に作られた物を教会で売っているだけ。人気なので出荷が止まらない。聖水なので酒よりも高い。",
+      "en": "A colorful herb liquor supposedly made in a monastery. Most are just commercial products sold through the church. Popular and in constant demand. It's priced higher than regular alcohol as it's marketed as holy water.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9579,
+      "id": "rem_37301",
+      "jp": "教会健康ハーブ酒",
+      "en": "Church Health Herb Liquor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9580,
+      "id": "rem_37302",
+      "jp": "石に小さな穴をあけ、糸を通して輪にしたアクセサリ。異邦の文化を取り入れた祈りのアイテムだが、ゼカリウスでは物珍しさから買い求められる。",
+      "en": "An accessory made by threading string through a small hole in a stone. A prayer item inspired by foreign culture, but bought in Zecarius mainly for its novelty.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9581,
+      "id": "rem_37303",
+      "jp": "連環ストーン",
+      "en": "Chain Stone",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9582,
+      "id": "rem_37304",
+      "jp": "聖なる力を運ぶと売り文句にされる高級メダル。実際はゴールドではなく金属のメダルをコーティングしたものだが、信じる者には人気。",
+      "en": "A high-end medal marketed as carrying sacred power. Actually just a coated metal medal, but popular among believers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9583,
+      "id": "rem_37305",
+      "jp": "聖なる黄金メダル",
+      "en": "Holy Gold Medal",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9584,
+      "id": "rem_37306",
+      "jp": "修道院の孤児が制作した微笑ましい土産物。金額は『お気持ち』だが、熱心な信者は浄財感覚で大金を積む。",
+      "en": "A charming souvenir made by monastery orphans. Price is 'voluntary,' but devout believers pay fortunes as offerings.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9585,
+      "id": "rem_37307",
+      "jp": "修道院のお土産",
+      "en": "Monastery Souvenir",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9586,
+      "id": "rem_37308",
+      "jp": "神聖な浄財箱に俗世の穢れを持ち込まぬよう、聖職者が発行するコイン。圧倒的な浄財効率のおかげで百万ゴールドだろうが一ゴールドにできる。",
+      "en": "Coins issued by clergy to keep worldly impurity from sacred offering boxes. Overwhelmingly efficient—can turn a million gold into one.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9587,
+      "id": "rem_37309",
+      "jp": "浄財用コイン",
+      "en": "Offering Coin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9588,
+      "id": "rem_37310",
+      "jp": "小さな切り傷に塗るとスーッと治る家庭用治療薬。家庭用の他、癒しの魔術が使えないパーティーもとりあえず持ち歩く。",
+      "en": "A household healing ointment that soothes small cuts. Also carried by parties without healing magic.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9589,
+      "id": "rem_37311",
+      "jp": "ヒーリング軟膏",
+      "en": "Healing Salve",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9590,
+      "id": "rem_37312",
+      "jp": "咳や鼻水に効く甘い薬。小さい子でも飲める味だが、薬効は中々。",
+      "en": "A sweet syrup effective against coughs and runny nose. Tastes good for kids, yet quite potent.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9591,
+      "id": "rem_37313",
+      "jp": "森の風邪シロップ",
+      "en": "Forest Cold Syrup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9592,
+      "id": "rem_37314",
+      "jp": "飲むと胃を落ち着かせる優しい薬液。食べすぎる冒険者だけでなく、食用に適さない品をやむを得ず食べた後にも効果を発揮する。",
+      "en": "A gentle potion that soothes the stomach. Works for both overeating adventurers and those forced to eat questionable food.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9593,
+      "id": "rem_37315",
+      "jp": "マイルド胃腸ポーション",
+      "en": "Mild Stomach Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9594,
+      "id": "rem_37316",
+      "jp": "目にさすと冷たい感覚がスーッと浸透し、視界がクリアになる薬。天然の成分を配合したもので、体にも優しい。",
+      "en": "Eyedrops that bring a cool sensation, clearing vision. Made with gentle, natural ingredients.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9595,
+      "id": "rem_37317",
+      "jp": "疲れ目の眼薬",
+      "en": "Tired-Eye Drops",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9596,
+      "id": "rem_37318",
+      "jp": "様々な状況に対応する為の救急セット。ただし自然治癒力を少し上げる程度の応急処置がメインで、緊急性の高い重篤な怪我や病気には対応できない。",
+      "en": "An emergency kit for various situations. Mainly provides first aid to boost natural healing; not for severe injuries or critical illness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9597,
+      "id": "rem_37319",
+      "jp": "万能救急セット",
+      "en": "All-Purpose First Aid Kit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9598,
+      "id": "rem_37320",
+      "jp": "すり潰して布に染み込ませ、額に貼るとひんやりと熱を奪う。解熱に効果がある他、薬効が浸透し体調を整えてくれる。魔術薬品を使うよりも安上がりに効能を発揮する。",
+      "en": "Crush, soak in cloth, and apply to the forehead for a cooling effect. Reduces fever and soothes the body—cheaper than magic potions.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9599,
+      "id": "rem_37321",
+      "jp": "熱さましハーブ",
+      "en": "Fever-Reducing Herb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9600,
+      "id": "rem_37322",
+      "jp": "昔から伝わる、薬草を漬け込み発酵させた治療用薬液。とある集落では家庭に一つ置かれていた薬品だが、いかなる薬効があるのか、研究が始まったのは近年になってから。",
+      "en": "A traditional medicinal brew made from fermented herbs. Once a household staple in some villages, its efficacy is only recently studied.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

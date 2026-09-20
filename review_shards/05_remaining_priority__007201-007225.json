@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7201,
+  "range_end": 7225,
+  "pairs": [
+    {
+      "n": 7201,
+      "id": "rem_34820",
+      "jp": "【<src>】の[クッキングフレア]！",
+      "en": "<src>'s [Cooking Flare]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7202,
+      "id": "rem_34821",
+      "jp": "魔界の炎を紹介して相手を焼き尽くす。『グラット』は暴食の魔族であり、熱を操ることを得意とする。感情や技能によって、無限に熱を高め、『禁呪』級の炎も操れる。",
+      "en": "Introduces demonic flames that incinerate the foe. 'Glutt' is a gluttonous demon, adept at controlling heat. Can endlessly raise heat based on emotions and skills, even wielding 'Forbidden Spell'-level fire.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7203,
+      "id": "rem_34822",
+      "jp": "全体攻撃 威力[A+] +  命中[60%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "AOE Attack | Power [A+] | Hit [60%] | 【Fire】 | Inflicts [Burn] (+10% dmg/turn from flames)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7204,
+      "id": "rem_34823",
+      "jp": "【<src>】の[グラットンフレア]！",
+      "en": "<src>'s [Glutton Flare]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7205,
+      "id": "rem_34824",
+      "jp": "退魔の一族の術と夜魔の術が融合した、冷凍魔術。血も凍るような超冷気を与え、さらには生命力を奪い取ってしまう。広範囲にダメージを耐える、強力なスキル。",
+      "en": "A fusion of exorcist and night-demon magic. An ice spell that deals bone-chilling cold and drains life force. A powerful skill with wide-range damage mitigation.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7206,
+      "id": "rem_34825",
+      "jp": "全体攻撃 威力[B+] +  命中[60%] + 【氷属性】 + 攻撃後パーティー回復 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "AOE Attack | Power [B+] | Hit [60%] | 【Ice】 | Heals party after attack | Inflicts [Freeze] (-30% phys. dmg resist, +30% crit chance taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7207,
+      "id": "rem_34826",
+      "jp": "【<src>】の[ブラッディフリーズ]！",
+      "en": "<src>'s [Bloody Freeze]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7208,
+      "id": "rem_34827",
+      "jp": "暴食の魔族『グラット』としての食材の目利き。料理人の目利きは、食材の確保能力にも通じており、美食モンスターへのダメージがアップ。【(食べれそうな敵全般に有効)。】",
+      "en": "The eye for ingredients of the gluttonous demon 'Glutt'. A chef's discernment also aids procurement, boosting damage against Gourmet Monsters. 【Effective against edible enemies in general.】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7209,
+      "id": "rem_34828",
+      "jp": "美食モンスターへのダメージ[+100%]",
+      "en": "Damage vs. Gourmet Monsters [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7210,
+      "id": "rem_34829",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【聖属性】 + HP吸収(小) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AOE Attack | Power [] | Hit [70%] | Crit Rate [+100%] | 【Holy】 | Minor HP Drain | Inflicts [Stun] (+30% crit chance taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7211,
+      "id": "rem_34830",
+      "jp": "【<src>】の[エンジェルウイング]！",
+      "en": "<src>'s [Angel Wing]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7212,
+      "id": "rem_34831",
+      "jp": "『死神』の権能をすべて解放する最強最後のスキル。権能の対価としてすべてのゴールドが消え、【天文学的な負債】を背負うことになる。",
+      "en": "The ultimate final skill, unleashing all of the 'Shinigami's' authority. As payment, all Gold vanishes, incurring 【an astronomical debt】.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7213,
+      "id": "rem_34832",
+      "jp": "MP消費なし + 【フィールド】に【神の権能】を付与 (プレイヤー側の能力が超極大上昇 + さまざまなボーナス)",
+      "en": "No MP Cost | Grants 【God's Authority】 to the 【Field】 (Player abilities massively increase + various bonuses)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7214,
+      "id": "rem_34833",
+      "jp": "ダーケン？から譲り受けた不思議なコイン。【ロスト状態】を回復することができる。使用すると控えを含めた、編成不可能状態を回復し、さらにエンゲージリンク同様に仲間を召喚。",
+      "en": "A strange coin inherited from Darken?. Can cure 【Lost】 status. Use to restore incapacitated party members (including reserves) and summon allies, similar to Engage Link.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7215,
+      "id": "rem_34834",
+      "jp": "【<src>】の[コンティニューのコイン]！",
+      "en": "<src>'s [Continue Coin]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7216,
+      "id": "rem_34835",
+      "jp": "主人公の宿が存在する場所。交通の要所であり、交易都市として栄えているゼカリウスには東西南北から様々な品が流れてくる。アーマニアの海の幸や、肥沃な農牧地帯の産物により、住民の幸福度は高い。",
+      "en": "The location of the protagonist's inn. Zecarius is a bustling trade hub at a major crossroads, receiving goods from all directions. Abundant seafood from Armarnia and fertile farmlands ensure high citizen happiness.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7217,
+      "id": "rem_34836",
+      "jp": "水上都市ゼカリウス",
+      "en": "Water City: Zecarius",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7218,
+      "id": "rem_34837",
+      "jp": "隕石の飛来により生じたとされる多数のクレーターが存在する、小規模な古墳群。古代から石切り場として有名。古来より神が降りたつ場という伝承があるが、もはや殆どの者が知らないものとなっている。",
+      "en": "A small group of ancient ruins with many craters believed formed by meteorites. Famous as a quarry since antiquity. Legends say it's where gods descended, but few know this now.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7219,
+      "id": "rem_34838",
+      "jp": "メテトス古墳地帯",
+      "en": "The Metetos Ruin Zone",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7220,
+      "id": "rem_34839",
+      "jp": "大農家であるアルダルク家に連なる者が束ねる牧場。大小様々な農家を束ねている農牧地帯が算出する食材は、ゼカリウス地方の食の半分近くを担っており、領主へもある程度の発言力を有しているという。",
+      "en": "A ranch managed by members of the large farming Aldaluc family. This agricultural zone, uniting farms of all sizes, produces nearly half the food for Zecarius and holds some influence with the lord.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7221,
+      "id": "rem_34840",
+      "jp": "アルダルク農牧地帯",
+      "en": "Aldaluk Farmlands",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7222,
+      "id": "rem_34841",
+      "jp": "ドルワミール鉱山へと結ぶ森林道が整備された道。鉱物資源の輸送路でもあり、同時に豊富な森林資源の山地である。経験の浅い旅人が経験を積める修行の場所としても有名。",
+      "en": "A forest road connecting to the Dorwamir Mines. Serves as a transport route for mineral resources and is also a mountainous area rich in forest resources. Famous as a training ground for novice travelers to gain experience.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7223,
+      "id": "rem_34842",
+      "jp": "フレスミス森林地方",
+      "en": "Fressmis Forest Region",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7224,
+      "id": "rem_34843",
+      "jp": "古代より地の民であるドワーム族が所有する鉱山。友好の証として人間たちにも一部は解放されていた。豊富な資源を有するが、近年は危険な魔獣が多く現れることもあり、冒険者の需要が急増している。",
+      "en": "A mine owned since ancient times by the native Dwarm people. Partially opened to humans as a token of friendship. Rich in resources, but the recent increase in dangerous magical beasts has led to a surge in demand for adventurers.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7225,
+      "id": "rem_34844",
+      "jp": "ドルワミール鉱山",
+      "en": "Dorwamir Mines",
+      "table": "db_WorldPlace",
+      "category": "remaining_table"
+    }
+  ]
+}

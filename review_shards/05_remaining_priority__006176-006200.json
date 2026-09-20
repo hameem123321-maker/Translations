@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6176,
+  "range_end": 6200,
+  "pairs": [
+    {
+      "n": 6176,
+      "id": "rem_33795",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 【雷属性】 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single Attack. Power[] + Hit[60%] + 【Lightning】 + Inflicts [Stun] (Crit received chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6177,
+      "id": "rem_33796",
+      "jp": "【<src>】の[スタンボイス]！",
+      "en": "【<src>】's [Stun Voice]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6178,
+      "id": "rem_33797",
+      "jp": "【<src>】の[ヴェノムバイト]！",
+      "en": "【<src>】's [Venom Bite]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6179,
+      "id": "rem_33798",
+      "jp": "【仲間】に【魔盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grants 【Ally】 【Magic Shield】 (Reduces attacks exceeding 20% Max HP by [+50%]).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6180,
+      "id": "rem_33799",
+      "jp": "【<src>】は[魔の障壁]を使用した！",
+      "en": "【<src>】 used [Demonic Barrier]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6181,
+      "id": "rem_33800",
+      "jp": "グループ攻撃 威力[] +  命中[90%] + 必殺率[+30%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group attack Power[] + 90% Hit +30% Crit +【Fire】+ [Burning] (Take +10% damage per turn from fire)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6182,
+      "id": "rem_33801",
+      "jp": "【<src>】の[炎の魔術]！",
+      "en": "【<src>】's [Fire Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6183,
+      "id": "rem_33802",
+      "jp": "すべての力を込めた超重の一撃。ダメージに加え、相手を転倒させることもある。非常に強力な威力を持っているが、外れると辛い。",
+      "en": "An ultra-heavy strike with all your might. Deals damage and may knock down foes. Very high power, but missing hurts.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6184,
+      "id": "rem_33803",
+      "jp": "範囲(小)攻撃 威力[A] +  命中[50%] + 必殺率[+5%] + 【雷属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Small area attack Power[A] + 50% Hit +5% Crit +【Thunder】+ [Knockdown] (+50% chance to receive a critical)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6185,
+      "id": "rem_33804",
+      "jp": "【<src>】は[ギガクラッシュ]を叩き付けた！",
+      "en": "【<src>】 slammed with [Giga Crash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6186,
+      "id": "rem_33805",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 必殺率[+10%] + 【闇属性】 + 防御貫通(小) + [病気]を付与 (すべての攻撃ダメージ-50%)",
+      "en": "Group attack Power[] + 60% Hit +10% Crit +【Dark】+ Small DEF Penetrate + [Sick] (All attack damage -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6187,
+      "id": "rem_33806",
+      "jp": "【<src>】の[病気感染]！",
+      "en": "【<src>】's [Disease Infection]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6188,
+      "id": "rem_33807",
+      "jp": "炸裂してまばゆい光を放つ仕掛け矢。相手の命中率を一時的に下げる。効果はしばらく持続するので、牽制技としてはなかなか有用。",
+      "en": "An explosive arrow that releases a dazzling light. Temporarily lowers the target's hit rate. The effect lasts, making it useful for restraint.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6189,
+      "id": "rem_33808",
+      "jp": "範囲(大)攻撃 威力[E] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [盲目]を付与 (命中精度-50%)",
+      "en": "Large area attack Power[E] + 70% Hit +【Thunder】+ Small DEF Penetrate + [Blind] (Accuracy -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6190,
+      "id": "rem_33809",
+      "jp": "【<src>】の[フラッシュアロー]！",
+      "en": "【<src>】's [Flash Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6191,
+      "id": "rem_33810",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [石化]を付与 (物理ダメージ軽減率+30%)",
+      "en": "Group attack Power[] + 60% Hit +【Dark】+ Debuff Focus + [Petrify] (Physical damage reduction +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6192,
+      "id": "rem_33811",
+      "jp": "【<src>】の[石化の魔術]！",
+      "en": "【<src>】's [Stone Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6193,
+      "id": "rem_33812",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [忘却]を付与 (スキルが使用できなくなる)",
+      "en": "Group attack Power[] + 60% Hit +【Dark】+ Debuff Focus + [Forget] (Skills cannot be used)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6194,
+      "id": "rem_33813",
+      "jp": "【<src>】の[忘却の魔術]！",
+      "en": "【<src>】's [Forget Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6195,
+      "id": "rem_33814",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [麻痺]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single attack Power[] + 60% Hit + [Paralyze] (+50% chance to receive a critical)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6196,
+      "id": "rem_33815",
+      "jp": "【<src>】の[しびれアタック]！",
+      "en": "【<src>】's [Numbing Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6197,
+      "id": "rem_33816",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 必殺率[+20%] + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Single attack Power[] + 60% Hit +20% Crit + Small DEF Penetrate + [Brittle] (Physical damage reduction -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6198,
+      "id": "rem_33817",
+      "jp": "【<src>】の[スライムプレイ]！",
+      "en": "【<src>】's [Slime Play]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6199,
+      "id": "rem_33818",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 【闇属性】 + LV吸収(小) + 攻撃後パーティー回復",
+      "en": "Single attack Power[] + 60% Hit +【Dark】+ Small Level Drain + Party heal after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6200,
+      "id": "rem_33819",
+      "jp": "【<src>】の[ドレインキッス]！",
+      "en": "【<src>】's [Drain Kiss]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

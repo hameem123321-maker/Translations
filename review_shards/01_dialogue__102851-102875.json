@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102851,
+  "range_end": 102875,
+  "pairs": [
+    {
+      "n": 102851,
+      "id": "db_EventInfo:121537:0",
+      "jp": "余裕が出来たら、彫刻家のために、投資をしてみよう。",
+      "en": "I'll invest in it for the sculptor when I have some spare cash.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102852,
+      "id": "db_EventInfo:121539:6",
+      "jp": "素晴らしいですわ、店長様の功績は後世にまで伝わりますわ！",
+      "en": "That's wonderful! The Shopkeeper's achievements will be passed down to posterity!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102853,
+      "id": "db_EventInfo:121540:6",
+      "jp": "【『教会』】も全面的に支援すると言っておりますし、店長様の勇名は永劫に語り継がれるでしょう！",
+      "en": "The 'Church' says they will provide full support! The Shopkeeper's brave name will be told forever!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102854,
+      "id": "db_EventInfo:121541:1",
+      "jp": "うーむ",
+      "en": "Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102855,
+      "id": "db_EventInfo:121544:0",
+      "jp": "その後、正式に大神殿が建設されることに決まってしまった。",
+      "en": "After that, it was officially decided that the Great Temple would be built.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102856,
+      "id": "db_EventInfo:121545:6",
+      "jp": "店長様、近く仰られていた記念碑、及び大神殿の建設が開始されるようですわ",
+      "en": "Shopkeeper, it seems the construction of the monument you mentioned before, and the Great Temple, is about to begin.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102857,
+      "id": "db_EventInfo:121546:1",
+      "jp": "そ、そうか……本当に建設を始めるんだな……",
+      "en": "R-really... They're really starting construction, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102858,
+      "id": "db_EventInfo:121547:6",
+      "jp": "ええ、わたくしも感慨深いですわ",
+      "en": "Yes, I'm deeply moved as well.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102859,
+      "id": "db_EventInfo:121548:2",
+      "jp": "【『大神殿』】ともなれば、うちの店より大きいデスね",
+      "en": "So it's a Grand Temple. It's bigger than our shop, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102860,
+      "id": "db_EventInfo:121549:6",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】も店長様の理念に共感していただいてますわ",
+      "en": "The Hyeperio Church is also sympathetic to the Shopkeeper's ideals.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102861,
+      "id": "db_EventInfo:121550:6",
+      "jp": "店長様にと、支援金も受けておりますし、将来的にも大切な施設になるのでは、と……",
+      "en": "They've even provided support funds for the Shopkeeper. I believe it will be an important facility in the future.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102862,
+      "id": "db_EventInfo:121551:2",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】の重要施設みたいに思われてるデスね……",
+      "en": "It's being treated like an important facility of the Hyeperio Church... desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102863,
+      "id": "db_EventInfo:121552:2",
+      "jp": "大変な事になっている気がするデス……人間世界に及ぼす影響が甚大なのでは……",
+      "en": "This feels like it could become a huge problem... The impact on the human world might be enormous.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102864,
+      "id": "db_EventInfo:121553:1",
+      "jp": "今更それを言うのか……",
+      "en": "You're only saying that now?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102865,
+      "id": "db_EventInfo:121554:2",
+      "jp": "それで、いつごろ完成予定なのデス？",
+      "en": "So, when is it scheduled to be completed, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102866,
+      "id": "db_EventInfo:121555:2",
+      "jp": "来月ぐらいには完成するデスかね",
+      "en": "Will it be done around next month, desu ka ne?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102867,
+      "id": "db_EventInfo:121556:6",
+      "jp": "えっ？　ええと、たしか急いで作っても、5年で済めばいい方だと仰ってましたね",
+      "en": "Huh? Um, they said even if they rushed it, it would be good if it finished in 5 years.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102868,
+      "id": "db_EventInfo:121557:2",
+      "jp": "時間かかりすぎじゃないデス？",
+      "en": "Isn't that taking too much time, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102869,
+      "id": "db_EventInfo:121558:6",
+      "jp": "歴史に残るほどの【『大神殿』】です。これだけの時間はかかるかと……",
+      "en": "It's a Grand Temple worthy of going down in history. I think it will take that long.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102870,
+      "id": "db_EventInfo:121559:2",
+      "jp": "ふむ。ならば店への影響は、当分なさそうデスね",
+      "en": "Hmm. In that case, it probably won't affect our shop for a while, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102871,
+      "id": "db_EventInfo:121560:2",
+      "jp": "安心したデス。アイツは【『大神殿』】やら【『塔』】やら、ポンポンと作ってたモノデス",
+      "en": "I'm relieved. He was popping those things out left and right - the 【<pl>『Divine Cathedral』】, the 【<pl>『Tower』】, and more.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102872,
+      "id": "db_EventInfo:121564:0",
+      "jp": "シイネが言ってることはよくわからないが。大神殿の建立が始まった事で、周辺の冒険者や巡礼者は大いに盛り上がるのだった。",
+      "en": "I didn't really get what Shiine was saying. But with the start of the Great Temple's construction, the adventurers and pilgrims around here got really pumped up.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102873,
+      "id": "db_EventInfo:121566:25",
+      "jp": "【『文芸美術保護組合』】に【『組織献金』】してくれるようになったのですな！",
+      "en": "So, the <pl>Writers and Artists Preservation Union</pl> has started making <pl>organizational donations</pl> to us!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102874,
+      "id": "db_EventInfo:121567:25",
+      "jp": "作家というモノはなにかとカネに困るモノ。支援は歓迎ですぞ！",
+      "en": "Being a writer means you're always struggling for money. Any financial support is very welcome!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102875,
+      "id": "db_EventInfo:121568:2",
+      "jp": "支援はいいデスから、働くデス",
+      "en": "I'm done supporting you, so get back to work.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

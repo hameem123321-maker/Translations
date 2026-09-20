@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6801,
+  "range_end": 6825,
+  "pairs": [
+    {
+      "n": 6801,
+      "id": "rem_34420",
+      "jp": "【<src>】は[カルネージレイド]を発動させた！",
+      "en": "【<src>】activated [Carnage Raid]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6802,
+      "id": "rem_34421",
+      "jp": "CT回復(大) + 自分以外に効果 + CT消費増加",
+      "en": "Large CT Regen + Affects Others + Increased CT Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6803,
+      "id": "rem_34422",
+      "jp": "【<src>】の[リフレッシュ＋]！",
+      "en": "【<src>】's [Refresh+]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6804,
+      "id": "rem_34423",
+      "jp": "エリオルダの本来の武器。修行として自分の力を縛るため、故郷に預けられていたらしい。国家間の戦争を止めるほどの力を秘めた神器であり、同郷のエルフィードにより運ばれてきた。",
+      "en": "Eliorda's true weapon. It was left in her homeland to seal her power as part of her training. It is a sacred artifact with the power to stop wars between nations, delivered by her fellow countrywoman Elfeed.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6805,
+      "id": "rem_34424",
+      "jp": "スキルダメージ[+50%] + デスクリティカル率[+30%] + 消費MP[+30%]",
+      "en": "Skill DMG [+50%] + Decritical Rate [+30%] + MP Cost [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6806,
+      "id": "rem_34425",
+      "jp": "キャトリナのアナザー衣装に変更する。攻撃力はそのままに、テクニカルな性能に変化する。ＭＰが高くなるが、やや打たれ弱くなる。【(クリックで衣装切り替え選択)】",
+      "en": "Change to Catrina's Another outfit. Attack power remains, but stats shift towards technique. MP increases, but defense slightly decreases.【(Click to switch outfits)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6807,
+      "id": "rem_34426",
+      "jp": "アナザー衣装に切り替え(キャトリナ)",
+      "en": "Switch to Another Outfit (Catrina)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6808,
+      "id": "rem_34427",
+      "jp": "ケモミミの有り余るエネルギーを使ったチェイス。味方の【全ての属性スキル】に追撃する。威力が高く、発動率も高め。範囲攻撃と併用すれば、ウルフィナの攻撃範囲の狭さを補える。",
+      "en": "A chase using Kemomimi's overflowing energy. Pursues an ally's 【all attribute skills】. High power and activation rate. Combined with area attacks, it compensates for Wolfina's limited range.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6809,
+      "id": "rem_34428",
+      "jp": "単体攻撃 威力[B] +  命中[60%]",
+      "en": "Single-target Power[B] + Hit[60%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6810,
+      "id": "rem_34429",
+      "jp": "【<src>】は[ケモミミチェイス]で追撃した！",
+      "en": "【<src>】pursued with [Kemomimi Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6811,
+      "id": "rem_34430",
+      "jp": "ミルテが制御に回していた魔力を攻撃に回し、全力の禁呪を放つ。ミルテの魔力がほぼ確実に暴走する代わり、凄まじい攻撃力となる。敵の攻撃で倒されないよう、防御を固めよう。",
+      "en": "Myrte unleashes her full power by diverting control magic to offense. Her magic almost certainly goes berserk, resulting in immense attack power. Fortify defenses to avoid being downed.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6812,
+      "id": "rem_34431",
+      "jp": "MP回復(大) + MP消費なし + CT回復(大) + 【自分】に【全力全開】を付与 (魔術ダメージ[+200%] + 魔術暴走率[+50%])",
+      "en": "Large MP Regen + No MP Cost + Large CT Regen + Grants【Self】【Full Power】 (Magic DMG[+200%] + Magic Berserk Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6813,
+      "id": "rem_34432",
+      "jp": "【<src>】は魔力の制御を開放した！",
+      "en": "【<src>】released magical control!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6814,
+      "id": "rem_34433",
+      "jp": "仲間に濃厚な強化薬が入った爆弾を叩き付ける。数え切れない食材とか薬物を天才的な配合で調合されたので、筋力がアップする。",
+      "en": "Hurls a bomb packed with a potent enhancer at an ally. Made from countless genius-blended ingredients, it boosts strength.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6815,
+      "id": "rem_34434",
+      "jp": "HP回復(中) + CT回復(中) + 【仲間】に【狂戦士】を付与 (物理ダメージ[+40%] + 命中精度[-20%])",
+      "en": "Medium HP Regen + Medium CT Regen + Grants【Ally】【Berserker】 (Physical DMG[+40%] + Hit Accuracy[-20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6816,
+      "id": "rem_34435",
+      "jp": "【<src>】の[ドーピングボム]が仲間を強化する！",
+      "en": "【<src>】's [Doping Bomb] strengthens an ally!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6817,
+      "id": "rem_34436",
+      "jp": "忌まれた一族に伝わる秘密のスキル。キスすることで主人公の濃厚なレベルを吸い取り、すべてを強大な破壊力に変換する。相手は選ぶ。吸い過ぎに注意。【(コマンドセット不可)】",
+      "en": "A secret skill passed down in a cursed clan. A kiss drains Ren's experience, converting it into immense destructive power. Choose your target. Beware overuse.【(Cannot set as command)】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6818,
+      "id": "rem_34437",
+      "jp": "MP回復(中) + MP消費なし + 使用時に主人公レベルダウン + たまに恍惚状態に + 【自分】に【奈落の力】を付与 (魔術ダメージ[+100%] + デスクリティカル率[+30%])",
+      "en": "Medium MP Regen + No MP Cost + Lowers Ren's level on use + Occasionally causes ecstasy + Grants【Self】【Abyssal Power】 (Magic DMG[+100%] + Decritical Rate[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6819,
+      "id": "rem_34438",
+      "jp": "味方が【聖闇属性スキル】を使用した際に追撃する。直前に使用したスキルに属性が変化する。マジカルなので通常のチェイスより発動率が高い。",
+      "en": "Pursues when an ally uses a 【Holy/Dark attribute skill】. Attribute changes to match the previous skill used. Magical, so higher activation rate than normal chases.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6820,
+      "id": "rem_34439",
+      "jp": "単体攻撃 威力[B] +  命中[80%] + 必殺率[+100%]",
+      "en": "Single-target Power[B] + Hit[80%] + Critical Rate[+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6821,
+      "id": "rem_34440",
+      "jp": "【<src>】は[マジカル☆チェイス]で追撃した！",
+      "en": "【<src>】 followed up with Magical Chase!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6822,
+      "id": "rem_34441",
+      "jp": "母なる海のチェイス。味方の【全ての属性スキル】に追撃する。威力が高いが通常のチェイスより発動率は低く。手数が少ないと発動しないことも。",
+      "en": "A pursuit born of the sea. Follows up all allies' attribute skills. High power, but lower activation chance than normal chase. May not trigger if hits are few.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6823,
+      "id": "rem_34442",
+      "jp": "単体攻撃 威力[C+] +  命中[70%] + 【水属性】",
+      "en": "Single target / Power [C+] / Hit [70%] / 【Water】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6824,
+      "id": "rem_34443",
+      "jp": "【<src>】は[オーシャンチェイス]で追撃した！",
+      "en": "【<src>】 followed up with Ocean Chase!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6825,
+      "id": "rem_34444",
+      "jp": "防御力を高める強化魔術を使う。効果はしばらく持続する。大きくダメージを削ぐものでは無いが、汎用的で使いやすい。",
+      "en": "Enhances defense. Effect lasts a while. Not a huge damage reducer, but versatile and easy to use.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

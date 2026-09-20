@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99051,
+  "range_end": 99075,
+  "pairs": [
+    {
+      "n": 99051,
+      "id": "db_EventInfo:116911:7",
+      "jp": "でもバケモノから人間に戻ったわけで。証拠がないんだよ",
+      "en": "But they turned back from monsters into humans. There's no proof.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99052,
+      "id": "db_EventInfo:116912:9",
+      "jp": "むう……人間に戻す薬を作ったのは、私のミスだったであるか？",
+      "en": "Hmm... Was it my mistake to make the medicine that turns them human?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99053,
+      "id": "db_EventInfo:116913:2",
+      "jp": "カリストは悪くないデス",
+      "en": "It's not Callisto's fault.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99054,
+      "id": "db_EventInfo:116914:7",
+      "jp": "とにかく、ミルテ達がどこに連れていかれたのか、情報を集めないといけないね",
+      "en": "Anyway, we need to gather information on where Myrte and the others were taken.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99055,
+      "id": "db_EventInfo:116915:7",
+      "jp": "もうちょっと情報を探ってみるよ！",
+      "en": "I'll go look for a bit more information!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99056,
+      "id": "db_EventInfo:116916:2",
+      "jp": "任せたデスよ",
+      "en": "Leave it to me.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99057,
+      "id": "db_EventInfo:116918:2",
+      "jp": "【『異端審問官』】ってのはどういう連中なんデス？",
+      "en": "What kind of people are these 'Inquisitors'?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99058,
+      "id": "db_EventInfo:116919:9",
+      "jp": "【『異端審問官』】は【『邪教徒』】の殲滅を使命とし、【『<ruby=ヒエペリオ>教会</ruby>』】が所有する過激派の聖騎士である",
+      "en": "The 'Inquisitors' are radical holy knights owned by the 'Church'. Their mission is to wipe out 'Heretics'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99059,
+      "id": "db_EventInfo:116920:9",
+      "jp": "【非常に強力な権限】を持っており、場合によっては都市の領主でも抗えないとか",
+      "en": "They have very powerful authority. I hear even a city's lord sometimes can't oppose them.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99060,
+      "id": "db_EventInfo:116921:7",
+      "jp": "引き続き、情報を集めてたんだけど……二人の【収監先】がわからないんだ",
+      "en": "I kept gathering info... but I can't find out where the two are being held.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99061,
+      "id": "db_EventInfo:116922:7",
+      "jp": "【『騎士団』】なら牢屋なんだろうけど【『異端審問官』】は管轄が別らしくてね",
+      "en": "If it was the 'Knights', it'd be a jail. But the 'Inquisitors' seem to have a different jurisdiction.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99062,
+      "id": "db_EventInfo:116923:7",
+      "jp": "ついでに、釈放された領主ゼルカも、行方知れずになっているんだよ",
+      "en": "Also, the released lord, Zelka, is missing too.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99063,
+      "id": "db_EventInfo:116924:2",
+      "jp": "ゼルカは【『魔界』】の穴を開こうとした【『災厄の先導者』】、放置しては危険デス",
+      "en": "Zelka is the 'Harbinger of Calamity' who tried to open a hole to the 'Demon Realm'. We can't leave him be. He's dangerous.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99064,
+      "id": "db_EventInfo:116925:1",
+      "jp": "かといって、今はミルテ達を放置するわけにはいかない……どうにかして探さないと",
+      "en": "But we also can't just leave Myrte and the others... I have to find a way to search for them.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99065,
+      "id": "db_EventInfo:116928:211",
+      "jp": "おい、聞いたか？　最年少で【『<ruby=ソルシア>学院</ruby>』】に入学して、【二つ名】まで与えられた奴……",
+      "en": "Hey, did you hear? That guy who got into Solcia Academy at the youngest age and even got a Title...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99066,
+      "id": "db_EventInfo:116929:212",
+      "jp": "ああ、【『銀灰の魔術師』】ミルテだっけ？　捕まったんだって？",
+      "en": "Yeah, you mean Myrte, the 'Silver-Grey Mage'? I heard he got caught.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99067,
+      "id": "db_EventInfo:116930:211",
+      "jp": "そうそう、【『邪教徒』】容疑だってよ、稀代の天才も、地に落ちたもんだぜ",
+      "en": "That's right. They suspect he's a 'cultist'. Even a once-in-a-lifetime genius has fallen to the ground.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99068,
+      "id": "db_EventInfo:116932:1",
+      "jp": "おい待て、鎌を構えてどうするつもりだ！",
+      "en": "Hey, wait! What are you planning to do, raising your scythe like that?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99069,
+      "id": "db_EventInfo:116933:2",
+      "jp": "うちのスタッフの侮辱は許さないデス。首を刎ねて黙らせてやるデス",
+      "en": "I won't let them insult our staff. I'll behead them to shut them up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99070,
+      "id": "db_EventInfo:116934:1",
+      "jp": "やめーい！",
+      "en": "Stop that!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99071,
+      "id": "db_EventInfo:116937:2",
+      "jp": "くう、奴ら、帰ってしまったデス！　どうしてくれるデス！？",
+      "en": "Ugh, they've gone back! What are you going to do about this?!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99072,
+      "id": "db_EventInfo:116938:1",
+      "jp": "まあまあ",
+      "en": "Easy now.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99073,
+      "id": "db_EventInfo:116939:1",
+      "jp": "しかし、普通の連中にまで広まっているとは……",
+      "en": "But still... even ordinary people are talking about it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99074,
+      "id": "db_EventInfo:116940:9",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】の天才が【『邪教徒』】に堕ちたというニュースは刺激的であるからな",
+      "en": "The news that the genius of Solcia Academy fell into being a 'cultist' is quite a sensation.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99075,
+      "id": "db_EventInfo:116941:1",
+      "jp": "いったいミルテ達はどこに……",
+      "en": "Where could Myrte and the others be...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

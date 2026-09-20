@@ -1,0 +1,217 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6226,
+  "range_end": 6250,
+  "pairs": [
+    {
+      "n": 6226,
+      "id": "rem_33845",
+      "jp": "【<src>】は気配を消した！",
+      "en": "【<src>】 has vanished from sight!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6227,
+      "id": "rem_33846",
+      "jp": "エッチな感度を開発されやすくなってしまう、女の子のスキル。密着モードで感度が上がりやすくなる。セクハラする前に入手すると効率が良い。",
+      "en": "A girl's skill that makes her more prone to developing lewd sensitivity. Easier sensitivity gains in close contact mode. Efficient to obtain before harassment.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6228,
+      "id": "rem_33847",
+      "jp": "エッチな獲得経験値[+50%]",
+      "en": "Lewd EXP Gain [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6229,
+      "id": "rem_33848",
+      "jp": "女の子の性感を引き出すエロスキル。密着モードでの感度経験値が上昇しやすくなる。さらに女の子の弱いところが見えるようになり、よりエッチにセクハラできる。",
+      "en": "An erotic skill that arouses a girl's sensitivity. Boosts sensitivity EXP in close contact mode. Also reveals her weak spots for more effective lewd harassment.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6230,
+      "id": "rem_33849",
+      "jp": "エッチな獲得経験値[+30%] + 感度開発サポート",
+      "en": "Lewd EXP Gain [+30%] + Sensitivity Development Support",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6231,
+      "id": "rem_33850",
+      "jp": "戦闘終了後の応急処置を施し、パーティー全員のＨＰが回復する。戦闘回数が多いほどに効果が累積される、便利なスキル。",
+      "en": "Applies first aid after battle, restoring the entire party's HP. Effect accumulates with more battles—a handy skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6232,
+      "id": "rem_33851",
+      "jp": "戦闘後パーティー回復・HP[+20%]",
+      "en": "Post-Battle Party Recovery・HP [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6233,
+      "id": "rem_33852",
+      "jp": "密着モードによるセクハラ耐性(感度開発度)が戦闘力に転換されるようになる。スキルを入手することによって、特定の部位の感度レベルに応じて能力がアップ。",
+      "en": "Converts resistance to close-contact harassment (sensitivity development) into combat power. Obtaining this skill boosts abilities based on specific body part sensitivity levels.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6234,
+      "id": "rem_33853",
+      "jp": "戦力変換・性器＞攻撃",
+      "en": "Combat Conversion・Genitals > Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6235,
+      "id": "rem_33854",
+      "jp": "人間を魅了する夢魔の特性。たとえ敵対したとしても、不思議な魔力によって骨向きにされてしまう。この力は男女問わず発揮する。人型に有効。",
+      "en": "A succubus trait that captivates humans. Even if hostile, mysterious magic turns them docile. Affects both genders. Effective on humanoids.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6236,
+      "id": "rem_33855",
+      "jp": "人間+亜人タイプへのダメージ[+100%]",
+      "en": "Damage vs. Human+Demihuman Types [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6237,
+      "id": "rem_33856",
+      "jp": "主人公ともっとエッチをしたくなり、部屋での搾精量がアップする。死神代行と助手は身体の相性がとても良く、エッチ未経験でも最高の相手になる資質がある。",
+      "en": "Makes you crave more intimacy with the protagonist, increasing semen extraction in the room. The Shinigami Agent and assistant have excellent physical compatibility, making them ideal partners even if inexperienced.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 6238,
+      "id": "rem_33857",
+      "jp": "搾精による売上[+10%]",
+      "en": "Sales from Extraction [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6239,
+      "id": "rem_33858",
+      "jp": "追撃スキルを使用した際、一定確率でリチャージして、連続使用することが出来る。他キャラが攻撃しなければ追撃しないのには注意。",
+      "en": "When using a chase skill, a chance to recharge and use it again consecutively. Note: only triggers if another character attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6240,
+      "id": "rem_33859",
+      "jp": "チェイススキルを連続使用[+20%]",
+      "en": "Consecutive Chase Skill Use [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6241,
+      "id": "rem_33860",
+      "jp": "動物に対して有利に立ち回れる戦闘術。特定の敵の防御力をある程度無視し、さらにダメージ自体も増幅する特攻スキル。自然界に殴り込みだ。",
+      "en": "Combat technique effective against animals. A special attack that partially ignores the target's defense and deals extra damage. Time to brawl with nature.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6242,
+      "id": "rem_33861",
+      "jp": "動物タイプへのダメージ[+20%]",
+      "en": "+20% damage to Animal type.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6243,
+      "id": "rem_33862",
+      "jp": "味方が【闇属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Dark skill】. Can chain if multiple are used. Uses both physical and magical stats.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6244,
+      "id": "rem_33863",
+      "jp": "単体攻撃 威力[E+] +  命中[80%] + 【闇属性】",
+      "en": "Single target. Power [E+], Hit [80%], 【Dark element】.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6245,
+      "id": "rem_33864",
+      "jp": "【<src>】は[ダークチェイス]で追撃した！",
+      "en": "【<src>】's [Dark Chase] follow-up attack!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6246,
+      "id": "rem_33865",
+      "jp": "空飛ぶ魔物に対して有利に立ち回れる戦闘術。特定の敵の防御力をある程度無視し、さらにダメージ自体も増幅する特攻スキル。当れば、だが。",
+      "en": "Combat technique effective against flying monsters. A special attack that partially ignores the target's defense and deals extra damage. If you can hit them, that is.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6247,
+      "id": "rem_33866",
+      "jp": "飛行タイプへのダメージ[+20%]",
+      "en": "+20% damage to Flying type.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6248,
+      "id": "rem_33867",
+      "jp": "硬質的な相手に対して有利に立ち回れる戦闘術。特定の敵の防御力をある程度無視し、さらにダメージ自体も増幅する特攻スキル。斧の出番だ！",
+      "en": "Combat technique effective against hard, rigid foes. A special attack that partially ignores the target's defense and deals extra damage. Axe's time to shine!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6249,
+      "id": "rem_33868",
+      "jp": "硬質タイプへのダメージ[+100%]",
+      "en": "+100% damage to Rigid type.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6250,
+      "id": "rem_33869",
+      "jp": "ダンジョン内にある「機械系」トラップに対策することが出来る。他の種別のトラップには効果がなく、サーチスキルが無ければ解除を試みないので注意。",
+      "en": "Allows countermeasures against \"Mechanical\" traps in dungeons. No effect on other trap types. Will not attempt disarming without Search skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 376,
+  "range_end": 400,
+  "pairs": [
+    {
+      "n": 376,
+      "id": "rem_00376",
+      "jp": "ポイズンバタフライ",
+      "en": "Poison Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 377,
+      "id": "rem_00377",
+      "jp": "魔術によって動く無機物の巨人。生物ではないため、自ら砕けようとも命令を守る。本来は生体ユニットを収めて動くが、代わりに大量の魔力を注ぐことで動かしている。",
+      "en": "A giant inorganic construct animated by magic. It obeys orders relentlessly. Normally houses a biological unit, but is powered by immense mana instead.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 378,
+      "id": "rem_00378",
+      "jp": "ゴーレム",
+      "en": "Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 379,
+      "id": "rem_00379",
+      "jp": "長く使い魔として使用していた魔生物。魔族の魔力をたくわえており、人間の魔術師が魔術の媒体として利用していた。",
+      "en": "A long-serving familiar. Stores demonic power and was used by human wizards as a magical medium.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 380,
+      "id": "rem_00380",
+      "jp": "グローリーハンド",
+      "en": "Glory Hand",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 381,
+      "id": "rem_00381",
+      "jp": "完全な魔獣になったブタ。生命力を見込まれ、魔術師に買われたはずだが、世話を投げ出された。狂暴な性格で、人間を見つけると手当たり次第に襲い掛かる。",
+      "en": "A fully monstrous pig. Valued for its vitality, it was purchased by a mage who later abandoned it. Ferocious, it attacks any human in sight.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 382,
+      "id": "rem_00382",
+      "jp": "ブラックミート",
+      "en": "Black Meat",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 383,
+      "id": "rem_00383",
+      "jp": "カエルのような生態を持ち、水辺の近くに住む魔物。粘性を帯びた肉体を持ち、相手を弄ぶように追い詰める。生命力旺盛で、実験素材にする魔導士もいる。",
+      "en": "A frog-like monster that lives near water. Its viscous body toys with prey. Prized by some mages as resilient lab material.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 384,
+      "id": "rem_00384",
+      "jp": "フロッグ",
+      "en": "Frog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 385,
+      "id": "rem_00385",
+      "jp": "前衛で戦う強さを身に着けたマジックウォーリアの中でも、場数を踏んだベテラン。仲間を守る事に秀でた能力を持ち、前衛に立つことで、天才への劣等感を克服しようとした。",
+      "en": "A veteran Magic Warrior, skilled in front-line combat. Excels at protecting allies, seeking to overcome his inferiority to geniuses.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 386,
+      "id": "rem_00386",
+      "jp": "マジックウォーリア・エリート",
+      "en": "Elite Magic Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 387,
+      "id": "rem_00387",
+      "jp": "ソルシア学院でも優秀な、マジシャンのエリート。エリートゆえにプライドが高く、ミルテやカリストのような真の天才にはコンプレックスを持っているようだ。",
+      "en": "An elite sorcerer from Solcia Academy. Proud, yet harbors complexes toward true geniuses like Myrte and Callisto.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 388,
+      "id": "rem_00388",
+      "jp": "マジシャン・エリート",
+      "en": "Elite Sorcerer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 389,
+      "id": "rem_00389",
+      "jp": "魔術師が番犬として飼っている犬。魔術によって意のままに操られているが、単純な命令しか聞かない為、見慣れない人間を手当たり次第に襲ってしまう。",
+      "en": "A mage's guard dog. Controlled by magic, it follows only simple orders, attacking unfamiliar people on sight.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 390,
+      "id": "rem_00390",
+      "jp": "魔術師の番犬",
+      "en": "Mage's Guard Dog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 391,
+      "id": "rem_00391",
+      "jp": "ヒエペリオ教会に遣わされた、異端の信徒を裁く審問官。その武力と、疑わしき者は滅ぼすという苛烈さゆえ恐れられ、無実の人間さえもうち滅ぼしてきた。",
+      "en": "An inquisitor sent by the Hyeperio Church to judge heretics. Feared for his might and ruthlessness, he has slain even the innocent.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 392,
+      "id": "rem_00392",
+      "jp": "異端審問の黒将軍",
+      "en": "Black General of Heresy Inquisition",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 393,
+      "id": "rem_00393",
+      "jp": "ソルシアに雇われた傭兵。魔術師相手の戦闘を想定した戦略と、騎士をも上回る剣技を持ち、相手を選ばない強さを発揮する。",
+      "en": "A mercenary hired by Solcia. Specializes in anti-mage tactics with sword skills surpassing knights, effective against any foe.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 394,
+      "id": "rem_00394",
+      "jp": "ソルシアの用心棒",
+      "en": "Solcia's Bodyguard",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 395,
+      "id": "rem_00395",
+      "jp": "魚に似たモンスターで、水の外にもやってくる。鋭い歯を持っており、小さいながら侮れない。",
+      "en": "A fish-like monster that ventures out of water. Though small, its sharp teeth make it a threat.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 396,
+      "id": "rem_00396",
+      "jp": "フィッシュ",
+      "en": "Fish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 397,
+      "id": "rem_00397",
+      "jp": "死の異名を持つ触手モンスター。しかし獲物を即死させることは好まず、捕食して体内でゆっくりと溶かす。その性質から、捕獲用途に使用する研究が行われている。",
+      "en": "A tentacled monster called 'death.' Prefers not to kill instantly, instead capturing and slowly dissolving prey. Studied for capture applications.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 398,
+      "id": "rem_00398",
+      "jp": "這い寄る触手",
+      "en": "Creeping Tentacle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 399,
+      "id": "rem_00399",
+      "jp": "大陸各地に存在する聖域に出現するニセ天使。人々の心を混乱させ、悪に誘う。可愛らしい少女の姿をしているが、その心は醜悪で邪悪。",
+      "en": "A false angel appearing in sacred sites. Corrupts hearts, luring people to evil. Looks like a lovely girl, but is vile and wicked.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 400,
+      "id": "rem_00400",
+      "jp": "デミエンジェル",
+      "en": "Demi-Angel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 76226,
+  "range_end": 76250,
+  "pairs": [
+    {
+      "n": 76226,
+      "id": "db_EventInfo:90214:1",
+      "jp": "うん？",
+      "en": "Hmm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76227,
+      "id": "db_EventInfo:90216:23",
+      "jp": "【『ミズイロケモミミ』】が姿を消したんや",
+      "en": "The 'Mizu-iro Kemomimi' has vanished.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76228,
+      "id": "db_EventInfo:90217:1",
+      "jp": "はあ？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76229,
+      "id": "db_EventInfo:90218:2",
+      "jp": "消えた……デス！？",
+      "en": "Vanished... you say!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76230,
+      "id": "db_EventInfo:90219:2",
+      "jp": "まさか、アレが解き放たれてしまったんデス！！？？",
+      "en": "Don't tell me it was unleashed!?!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76231,
+      "id": "db_EventInfo:90220:23",
+      "jp": "いや、違うみたいなんや。どうやら空間ごと、【どこかに飛ばされた】みたいでな。封印の地の辺りは大きくえぐり取られてたわ",
+      "en": "No, seems not. It looks like it was sent away, along with the space around it. The sealed area was gouged out big time.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76232,
+      "id": "db_EventInfo:90221:2",
+      "jp": "飛ばされた、デス？",
+      "en": "Sent away, you say?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76233,
+      "id": "db_EventInfo:90222:1",
+      "jp": "どういうことなんだ……？",
+      "en": "What does that mean...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76234,
+      "id": "db_EventInfo:90223:23",
+      "jp": "わからんわぁ。この空間ごと、なくなっとるんや。おそらく「どこか」に転移しとると思うで",
+      "en": "I dunno. It's gone, the whole space. Probably teleported 'somewhere'.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76235,
+      "id": "db_EventInfo:90224:2",
+      "jp": "まさか空間転移したってわけデス！？　それは、大魔術デスよ！？",
+      "en": "Spatial teleportation!? That's grand-scale magic!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76236,
+      "id": "db_EventInfo:90225:2",
+      "jp": "そんな魔術が使われたなら、大きな魔力震とかが観測されるはずデス。暴発ピンクが大騒ぎしているはずデス！",
+      "en": "If magic like that was used, huge mana tremors should've been detected. That pink-haired explosion girl would be making a big fuss!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76237,
+      "id": "db_EventInfo:90226:23",
+      "jp": "それがなぁ、魔力の痕跡がないんや。それだけの大魔術が使われたなら、魔力の痕跡があるはずなんやけど、空間が削り取られて、まるごと消失しとる",
+      "en": "That's the thing... there's no mana trace. With that much magic, there should be traces, but the space was just cut out and vanished whole.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76238,
+      "id": "db_EventInfo:90228:23",
+      "jp": "つまり……発生したのは「今」やない。【「過去」か「未来」にいる、誰か】が使ったんや。【『ミズイロケモミミ』】を誰かが召喚したんやな",
+      "en": "So... it didn't happen 'now'. Someone from the 'past' or 'future' used it. Someone summoned the 'Mizu-iro Kemomimi'.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76239,
+      "id": "db_EventInfo:90229:2",
+      "jp": "召喚……デスか",
+      "en": "Summoned... Death, huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76240,
+      "id": "db_EventInfo:90230:2",
+      "jp": "あんなロクでもない奴を召喚して、制御できるのデス？",
+      "en": "You think you can summon a guy like that, and control him?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76241,
+      "id": "db_EventInfo:90231:23",
+      "jp": "さあ？　これは人間に出来ることやない。相当な力を持ったヤツの仕業やし",
+      "en": "Who knows? This ain't something a human can do. Must be someone with serious power.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76242,
+      "id": "db_EventInfo:90232:23",
+      "jp": "少なくとも、魔界の大魔族級やろな。それゆえに、【『ミズイロケモミミ』】を制御できると思い上がってるんとちゃうやろか",
+      "en": "At least on the level of a high-class demon lord. Maybe they got cocky, thinkin' they could control [the 'Mizuiro Kemomimi'].",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76243,
+      "id": "db_EventInfo:90233:23",
+      "jp": "……まッ。痛い目を見るのはそいつやろし。気にせんでもええんとちゃう？",
+      "en": "...Well. Whoever it is'll get what's comin' to 'em. No need to worry about it.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76244,
+      "id": "db_EventInfo:90235:2",
+      "jp": "テキトーデスねぇ。まあ、いなくなったものは仕方ないデス。ほっとくデスかね",
+      "en": "You're so careless. Well, what's gone is gone. I guess we just leave it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76245,
+      "id": "db_EventInfo:90236:4",
+      "jp": "む～！　せっかくウルフィナのナカマに会えたと思ったのに！",
+      "en": "Muuh! And here I thought I finally got to meet one of Wolfina's friends!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76246,
+      "id": "db_EventInfo:90237:23",
+      "jp": "まあまあ。ノーザリアにも【『ケモミミ』】はおるで。ウルフィナはんを満足させられるほどかはわからんけど、まあまあ頑丈なやつはおるしなД",
+      "en": "Now, now. There are [Kemomimi] in Northlaria too. Dunno if they'll satisfy you enough, Wolfina, but there are some pretty tough onesД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76247,
+      "id": "db_EventInfo:90238:4",
+      "jp": "本当か！？",
+      "en": "Really!?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76248,
+      "id": "db_EventInfo:90239:23",
+      "jp": "せや。今度一緒に、遊びに行こうなД",
+      "en": "Yeah. Let's go play with 'em sometimeД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 76249,
+      "id": "db_EventInfo:90240:4",
+      "jp": "お～！！",
+      "en": "Ooh!!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 76250,
+      "id": "db_EventInfo:90244:20",
+      "jp": "おや",
+      "en": "Oh my.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

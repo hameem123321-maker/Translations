@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11776,
+  "range_end": 11800,
+  "pairs": [
+    {
+      "n": 11776,
+      "id": "rem_39537",
+      "jp": "魔物カラスの鶏ガラ",
+      "en": "Monster Crow Bone Broth",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11777,
+      "id": "rem_39538",
+      "jp": "魔獣すらひと飲みにするスネークの肉。瞬発力に優れた肉質は硬いが、火を通すと柔らかくなる。",
+      "en": "Snake meat from a beast that can swallow monsters whole. Its tough, explosively powerful flesh softens when cooked.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11778,
+      "id": "rem_39539",
+      "jp": "スネークのスタミナ肉",
+      "en": "Snake Stamina Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11779,
+      "id": "rem_39540",
+      "jp": "巨大なウシノシシのロース部分。並の人間では太刀打ちできないほどの魔獣だが、討伐難易度に見合った旨さを持つ。『ケモミミ』が好むらしい。",
+      "en": "The loin cut of a giant Boar-Cattle. A monster too formidable for ordinary humans, its flavor matches the challenge of hunting it. Said to be favored by 'Kemomimi'.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11780,
+      "id": "rem_39541",
+      "jp": "ウシノシシのロース肉",
+      "en": "Boar-Cattle Loin Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11781,
+      "id": "rem_39542",
+      "jp": "強烈な突進力を持つファングの中でも脂の乗ったいい部分。魔界食材としても非常に高級だが、近年は人間界で養殖されているらしい。",
+      "en": "A prime cut from the powerful, charging Fang monster. A premium demon realm ingredient, though lately it's being farmed in the human world.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11782,
+      "id": "rem_39543",
+      "jp": "霜降りファング肉",
+      "en": "Marbled Fang Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11783,
+      "id": "rem_39544",
+      "jp": "森を食らいつくすと言われるキャタピラーの肉。正規軍からなる討伐隊が編成されるほどの魔獣肉は、一般にはほぼ出回らず、その肉質は弾力に富む。",
+      "en": "Meat from the Caterpillar, a monster said to devour forests. So rare that the army forms squads to hunt it, its meat is exceptionally chewy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11784,
+      "id": "rem_39545",
+      "jp": "むちむちキャタピラ肉",
+      "en": "Plump Caterpillar Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11785,
+      "id": "rem_39546",
+      "jp": "霊峰に住む恐るべき狂暴な魔獣の肉。魔獣ながら聖なる力に満ちている。魔族が美味しく食べるには、適切な調理が必要。",
+      "en": "Meat from a fearsome, savage beast of the sacred peaks. Though a monster, it's imbued with holy power. Demons need to cook it just right to enjoy it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11786,
+      "id": "rem_39547",
+      "jp": "聖なる魔獣肉",
+      "en": "Sacred Monster Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11787,
+      "id": "rem_39548",
+      "jp": "果実のみを食べて育った赤コウモリの肉。果物とみなされるほど甘い獣肉だが、元が小さなコウモリなので大量に得る事はほぼ不可能。",
+      "en": "Meat from a red bat raised solely on fruit. Sweet as fruit itself, but the bats are small, making it nearly impossible to gather in large quantities.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11788,
+      "id": "rem_39549",
+      "jp": "赤コウモリの果肉",
+      "en": "Red Bat Fruit Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11789,
+      "id": "rem_39550",
+      "jp": "魔界ではありふれたベリー植物。スッキリと甘い。",
+      "en": "A common demon realm berry plant. Refreshingly sweet.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11790,
+      "id": "rem_39551",
+      "jp": "魔性のベリー",
+      "en": "Demonic Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11791,
+      "id": "rem_39552",
+      "jp": "特定の果物を食べ、蜜を蓄える性質を持つフルーツワームの特性を利用した物。天然フルーツの甘さを凝縮した蜜は、お菓子制作に欠かせない。",
+      "en": "Made by exploiting the Fruit Worm's trait of eating specific fruits and storing nectar. This condensed, natural fruit sweetness is essential for candy-making.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11792,
+      "id": "rem_39553",
+      "jp": "フルーツワームの蜜",
+      "en": "Fruit Worm Nectar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11793,
+      "id": "rem_39554",
+      "jp": "魔獣が貯め込んだ蜜を集めた天然の甘味。元まで辿れば花の蜜なので、安心の天然素材なのだが、魔界花である事には注意が必要。",
+      "en": "A natural sweetener gathered from nectar stored by monsters. It's ultimately flower nectar, a safe natural ingredient, but beware—the flowers are from the demon realm.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11794,
+      "id": "rem_39555",
+      "jp": "天然の魔獣ハチミツ",
+      "en": "Natural Monster Honey",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11795,
+      "id": "rem_39556",
+      "jp": "クモが好むリンゴの木から採取した果実。樹木に近寄るだけでスパイダーが襲ってくる為、入手難度は高い。別にクモが育てているというわけではない。",
+      "en": "Fruit gathered from apple trees favored by spiders. Hard to obtain because spiders attack anyone approaching the trees. The spiders aren't farming them, though.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11796,
+      "id": "rem_39557",
+      "jp": "スパイダーアップル",
+      "en": "Spider Apple",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11797,
+      "id": "rem_39558",
+      "jp": "魔界花のフラワーが撒き散らす花粉を丁寧に採取した粉。吸い込むと様々な悪影響を及ぼすが、お菓子の隠し味に使うと、食べた者に美味しさと多幸感をもたらす。",
+      "en": "Fine powder collected from pollen scattered by demon realm Flower monsters. Inhaling it has harmful effects, but used as a secret ingredient in sweets, it brings deliciousness and euphoria.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11798,
+      "id": "rem_39559",
+      "jp": "芳醇フラワーの花粉",
+      "en": "Aromatic Flower Pollen",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11799,
+      "id": "rem_39560",
+      "jp": "生命力あふれるトレントから採取した木の実。個体によって味わいは違うものの、概ね味の方向性は似通っているようだ。",
+      "en": "Nuts harvested from vibrant Treants. The flavor varies by individual, but the general taste profile seems similar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11800,
+      "id": "rem_39561",
+      "jp": "トレントの木の実",
+      "en": "Treant Nut",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

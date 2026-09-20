@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9301,
+  "range_end": 9325,
+  "pairs": [
+    {
+      "n": 9301,
+      "id": "rem_37023",
+      "jp": "水揚げされた怪魚を煮込んだ料理。新鮮な魚を煮込んで取れた味わいは、他の地方では味わえない、唯一の無二。",
+      "en": "A stew made from the strange fish hauled in here. A flavor you won't find anywhere else, derived from simmering the fresh catch.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9302,
+      "id": "rem_37024",
+      "jp": "怪魚の煮込み",
+      "en": "Strange Fish Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9303,
+      "id": "rem_37025",
+      "jp": "地下水をそのまま組み上げた井戸水。海水と違い、塩分を含まないので環境の清潔さを保つのにも欠かせない。しかし、飲料水にするには、熱を通した方が無難。",
+      "en": "Plain well water drawn from groundwater. Unlike seawater, it contains no salt, making it essential for sanitation. It's safer to boil before drinking.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9304,
+      "id": "rem_37026",
+      "jp": "汲んだだけの井戸水",
+      "en": "Plain Well Water",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9305,
+      "id": "rem_37027",
+      "jp": "飲料水としても使える、調整された清潔な水。海水から精製するには手間がかかる為、そのまま飲めるほどの清水は高値で取引されている。",
+      "en": "Clean, treated water suitable for drinking. Distilling it from seawater is laborious, so pure, ready-to-drink water commands a high price.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9306,
+      "id": "rem_37028",
+      "jp": "清潔な美味しい清水",
+      "en": "Clean, Delicious Water",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9307,
+      "id": "rem_37029",
+      "jp": "精神を落ち着かせる効果がある、清涼な香りを放つお茶。古代の英雄も愛飲したといわれ、鎮静効果が高い。",
+      "en": "A soothing tea with a cool, refreshing aroma. Said to have been favored by ancient heroes for its potent calming effect.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9308,
+      "id": "rem_37030",
+      "jp": "ミントティー",
+      "en": "Mint Tea",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9309,
+      "id": "rem_37031",
+      "jp": "新鮮な果実から絞り出した果汁をミックスし、飲みやすい配合で作り上げた果汁飲料。甘酸っぱい爽やかな味は、女性や子供に大人気。",
+      "en": "A fruit drink made by mixing freshly squeezed juices into an easy-to-drink blend. Its sweet and sour, refreshing taste is popular with women and children.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9310,
+      "id": "rem_37032",
+      "jp": "フレッシュジュース",
+      "en": "Fresh Juice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9311,
+      "id": "rem_37033",
+      "jp": "ゼカリウスで考案された茶葉を独自にブレンドして普及させた飲料。都市部の人間にも馴染みのある味を、手軽に持ち運べるとして人気。",
+      "en": "A popular portable drink featuring Zecarius's unique blend of tea leaves he devised and popularized. Its taste is familiar even to city dwellers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9312,
+      "id": "rem_37034",
+      "jp": "ゼカリウスブレンド",
+      "en": "Zecarius Blend",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9313,
+      "id": "rem_37035",
+      "jp": "香りの良い茶葉を厳選し、温めたミルクで煮出したお茶。暖かくホッとする味わいは、寒い地域では特に好まれる。",
+      "en": "A tea made by infusing carefully selected aromatic leaves in warmed milk. Its warm, comforting flavor is especially loved in cold regions.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9314,
+      "id": "rem_37036",
+      "jp": "ハピネスミルクティー",
+      "en": "Happiness Milk Tea",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9315,
+      "id": "rem_37037",
+      "jp": "飲めば幸福になると言われる、多大な多幸感をもたらす薬湯。七色に輝く飴色の液体は、多くの権力者を魅了してきた魔性の雫。",
+      "en": "A medicinal brew said to bring happiness, inducing immense euphoria. Its iridescent amber liquid has enchanted many in power, a bewitching drop.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9316,
+      "id": "rem_37038",
+      "jp": "至福のプリズムカフェ",
+      "en": "Blissful Prism Cafe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9317,
+      "id": "rem_37039",
+      "jp": "月光に当てて魔力を注ぎ抽出したラテ。ほんのりと神秘的な光を放ち、柔らかいのど越しが人気の一杯。",
+      "en": "A latte brewed under moonlight and imbued with magic. Slightly radiant with a gentle, smooth mouthfeel—a popular cup.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9318,
+      "id": "rem_37040",
+      "jp": "ムーンラテ",
+      "en": "Moon Latte",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9319,
+      "id": "rem_37041",
+      "jp": "飲むと生命力がみなぎり、涸れた精力も戻るほどの効果を秘めた、生命力を漲らせる飲料。噂を聞いた貴族や王族が大金を積んで欲しがるという。",
+      "en": "A vitalizing drink rumored to surge with life force, capable of restoring even withered stamina. Nobles and royalty are said to offer fortunes for it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9320,
+      "id": "rem_37042",
+      "jp": "ロイヤルリーフ",
+      "en": "Royal Leaf",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9321,
+      "id": "rem_37043",
+      "jp": "珍しい果実を使ったフレッシュなジュース。稀少な果実や野菜の果汁を詰め込み、美味しいだけでなく、大地の栄養を一息に取り入れる事ができる。",
+      "en": "A fresh juice made with rare fruits. Packed with the juice of exotic fruits and vegetables, it's not only delicious but also lets you take in the earth's nutrients in one gulp.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9322,
+      "id": "rem_37044",
+      "jp": "エキゾチックジュース",
+      "en": "Exotic Juice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9323,
+      "id": "rem_37045",
+      "jp": "神秘的な力を秘めた聖杯。中には絶えず、聖なる液体が満たされており、奇跡の液体として宗教家や富裕層が求める。ひっくりかえしたら一面が水浸しになりそうだ。",
+      "en": "A holy grail imbued with mysterious power. It is perpetually filled with a sacred liquid, sought after by the religious and wealthy as a miracle elixir. If knocked over, it would likely flood an entire surface.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9324,
+      "id": "rem_37046",
+      "jp": "神秘の聖杯",
+      "en": "Mystic Holy Grail",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9325,
+      "id": "rem_37047",
+      "jp": "疲れた体を元気にする効果がある飲み物。",
+      "en": "A drink with the effect of revitalizing a tired body.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

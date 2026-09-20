@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101126,
+  "range_end": 101150,
+  "pairs": [
+    {
+      "n": 101126,
+      "id": "db_EventInfo:119426:0",
+      "jp": "高性能ポーションの精製工房が作られ、【『錬金』】部門の品質も高まりそうだ。",
+      "en": "A high-performance potion workshop has been built, and the quality of the 【『Alchemy』】 department looks set to improve.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101127,
+      "id": "db_EventInfo:119427:1",
+      "jp": "カリストは市場を塗り替えるつもりのようだが",
+      "en": "Callisto seems to want to change the whole market.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101128,
+      "id": "db_EventInfo:119428:5",
+      "jp": "そんなに上手く行きますかね",
+      "en": "Will it really go that well?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101129,
+      "id": "db_EventInfo:119430:9",
+      "jp": "うーむ……【<pl>】殿、高性能ポーションの生成は進んでいるのだが",
+      "en": "Hmm... Master【<pl>】, I've been making the high-performance potions.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101130,
+      "id": "db_EventInfo:119431:9",
+      "jp": "なかなか売上が伸びないのである",
+      "en": "But my sales just aren't growing.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101131,
+      "id": "db_EventInfo:119432:9",
+      "jp": "性能は既存のポーションを凌駕しているはずなのだが、何故であろうか",
+      "en": "The quality beats all the old potions. So why?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101132,
+      "id": "db_EventInfo:119433:5",
+      "jp": "おそらくは、既存のポーションを取り扱う商人達の妨害を受けておりますわね",
+      "en": "The old potion merchants are probably working against us.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101133,
+      "id": "db_EventInfo:119434:5",
+      "jp": "彼らも自分の商材であるポーションが売れなくなりますから",
+      "en": "Their potions won't sell if yours do.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101134,
+      "id": "db_EventInfo:119435:9",
+      "jp": "むう。その商人たちも、我らの高性能ポーションを取り扱ってくれれば良いのであるが",
+      "en": "Hmm. If only those merchants sold our potions too.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101135,
+      "id": "db_EventInfo:119436:5",
+      "jp": "彼らは彼らで、ポーションの工房を持っているはずです。それらを無駄にされたら、たまったものではありません",
+      "en": "They have their own workshops. If those became useless, it would be terrible for them.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101136,
+      "id": "db_EventInfo:119437:9",
+      "jp": "む、むー",
+      "en": "Ugh...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101137,
+      "id": "db_EventInfo:119438:9",
+      "jp": "【<pl>】殿、助けてくれである～！",
+      "en": "Master【<pl>】, please help me~!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101138,
+      "id": "db_EventInfo:119439:1",
+      "jp": "ううむ……俺の店で売る分には、いつも通りでいいと思うんだけど",
+      "en": "Hmm... I think selling them at my shop the usual way should be fine.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101139,
+      "id": "db_EventInfo:119440:9",
+      "jp": "……やりたいのは、この店の外で売ることである",
+      "en": "...What I want is to sell it outside this shop.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101140,
+      "id": "db_EventInfo:119441:1",
+      "jp": "だよなぁ。ハーヴェスタ、いい案はないか？",
+      "en": "Right. Harvester, any good ideas?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101141,
+      "id": "db_EventInfo:119442:5",
+      "jp": "そうですわね。聞くところによると、そのポーションはかなり高価な素材を使っているとのこと",
+      "en": "Yes. From what I hear, that potion uses quite expensive ingredients.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101142,
+      "id": "db_EventInfo:119443:5",
+      "jp": "それを大量生産して値を下げるという作戦のようですが",
+      "en": "It seems the strategy is to mass produce it and lower the price, but...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101143,
+      "id": "db_EventInfo:119444:5",
+      "jp": "むしろ、高級ポーションとして売っておけばよいのでは？",
+      "en": "Wouldn't it be better to sell it as a high-end potion?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101144,
+      "id": "db_EventInfo:119445:9",
+      "jp": "高級ポーションであるか。それでは、手に取って貰いたい者の元に届かないのではないか？",
+      "en": "A high-end potion, huh? But then, wouldn't it fail to reach the hands of those who really need it?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101145,
+      "id": "db_EventInfo:119446:5",
+      "jp": "ええ。それとは別に、まとまった数を【『冒険者ギルド』】や【『ゼカリウス自警団』】に卸しましょう",
+      "en": "True. Separately, let's sell bulk lots to the 【Adventurer's Guild】 and the 【Zecarius Vigilantes】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101146,
+      "id": "db_EventInfo:119447:5",
+      "jp": "その有効度が分かれば、自然と使われるはずですわ",
+      "en": "If its effectiveness is proven, its use should spread naturally.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101147,
+      "id": "db_EventInfo:119448:5",
+      "jp": "【<pl>】様、カリスト様のポーションをまとめて購入して、組織に配ってもよろしくて？",
+      "en": "【<pl>】, would you be so kind as to purchase a large batch of Callisto's potion and distribute it to the organizations?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101148,
+      "id": "db_EventInfo:119449:1",
+      "jp": "わかった。それでやってみよう",
+      "en": "Got it. Let's try it that way.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101149,
+      "id": "db_EventInfo:119452:0",
+      "jp": "カリストの高性能ポーションを売るために、資金を投資していこう。",
+      "en": "I'll invest funds to sell Callisto's high-performance potion.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101150,
+      "id": "db_EventInfo:119454:9",
+      "jp": "【<pl>】殿、高性能ポージョンを【『冒険者ギルド』】や【『ゼカリウス自警団』】に配っているのだが",
+      "en": "【<pl>】, I hear you're distributing the high-performance potion to the 【Adventurer's Guild】 and 【Zecarius Vigilantes】.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

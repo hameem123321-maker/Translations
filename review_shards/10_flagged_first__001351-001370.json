@@ -1,0 +1,193 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1351,
+  "range_end": 1370,
+  "pairs": [
+    {
+      "n": 1351,
+      "id": "dll_0820",
+      "jp": "無視する#無視した！",
+      "en": "Ignore#Ignored!",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1352,
+      "id": "dll_0821",
+      "jp": "スルー#スルーした！",
+      "en": "Ignore",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1353,
+      "id": "dll_0822",
+      "jp": "流す#流すことにした！",
+      "en": "Flow",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1354,
+      "id": "dll_0877",
+      "jp": "【SPACE】:アプローチ中のUI:<color=#ff88ff>非表示</color>",
+      "en": "【SPACE】: UI in Approach:<color=#ff88ff>Hide</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1355,
+      "id": "dll_0878",
+      "jp": "【SPACE】:アプローチ中のUI:<color=#88ffff>表示</color>",
+      "en": "【SPACE】: UI in Approach:<color=#88ffff>Show</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1356,
+      "id": "extra_ui_0116",
+      "jp": "移動",
+      "en": "Move",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 1357,
+      "id": "extra_ui_0271",
+      "jp": "オマエのアバターを使ってエッチさせるデス。射精すれば、その精液を淫魔どもに売りつけて、カネを稼ぐことが出来るデス。アバターをたくさん作ればたんさん儲かるデス",
+      "en": "H using your avatar. Cum, sell the semen to succubi, make money. More avatars, more cash.",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1358,
+      "id": "leftover_ui_0009",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』がよくない噂を振りまいている。民衆を変に煽動して騒ぎにならないように、釘を刺しておこう。そのためには影響力が必要だ。",
+      "en": "The 『<ruby=ヒエペリオ>Church</ruby>』 is spreading ugly rumors. We need clout to warn them off before they rile people up.",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1359,
+      "id": "leftover_ui_0010",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の施設を誘致するための資金提供をする。近所に宗教施設を建てれば、信者が客としてやってくるだろうか。",
+      "en": "Fund a 『<ruby=ヒエペリオ>Church</ruby>』 site nearby. If they build, maybe the faithful show up as customers.",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1360,
+      "id": "leftover_ui_0011",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の大神殿を建築する資金に協力する。かなりの大工事で、数年がかりの大仕事になるだろう。",
+      "en": "Help fund the 『<ruby=ヒエペリオ>Church</ruby>』 grand temple. Huge build. Years of work.",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1361,
+      "id": "leftover_ui_0012",
+      "jp": "まだ明かされていない、ダムブナックの森の深奥には、得体の知れない怪異が眠っている恐れがある。好奇心や欲に取り憑かれた者が深奥に踏み入り、それを目覚めさせないように、『<ruby=ウィッチ>魔女</ruby>』の結界で封印することにする。",
+      "en": "Something unknown may sleep in the deep Dambnack woods. Seal it with a 『<ruby=ウィッチ>witch</ruby>』 barrier so the curious don't wake it.",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1362,
+      "id": "leftover_ui_0042",
+      "jp": "<pl>様の<ruby=化身>アバター</ruby>に、全身を犯して頂きましたД　周囲の方々も、羨ましそうでしたわД",
+      "en": "Your <ruby=化身>avatar</ruby> took my whole body, <pl>Д Everyone around looked jealousД",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1363,
+      "id": "leftover_ui_0071",
+      "jp": "【<pl>】様の子種を頂きとうございますわД　ピンクの部屋で愛でてくださいませД　ついでに、店の経営計画も練りましょうД",
+      "en": "I would like your seed, 【<pl>】Д Please love me in the pink roomД We can plan the shop tooД",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1364,
+      "id": "leftover_ui_0073",
+      "jp": "【<pl>】様の子種は【『神』】の子種、【『淫魔』】どもが価値を見出すというのも当然ですわね。せっかくです【『淫魔』】からカネを巻き上げましょうД",
+      "en": "Your seed is a 【『God』】's seed, 【<pl>】. Of course the 【『succubi』】 value it. Let's squeeze gold out of themД",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1365,
+      "id": "force_dll_0078",
+      "jp": "<color=#ff8800><size=30>{0}</size></color>ゴールドいただきます",
+      "en": "<color=#ff8800><size=30>{0}</size></color> gold",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1366,
+      "id": "force_dll_0080",
+      "jp": "<color=#ff8800><size=18>派遣先</size></color>\n",
+      "en": "<color=#ff8800><size=18>Dst</size></color>\n",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1367,
+      "id": "force_dll_0093",
+      "jp": "<color=#FFFFFF>{0}</color>Lv<size=30>ひみつ</size>",
+      "en": "<color=#FFFFFF>{0}</color>Lv<size=30>???</size>",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1368,
+      "id": "force_dll_0138",
+      "jp": "『料理』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『料理部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Cook items. Drop some, or add Cook staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1369,
+      "id": "force_dll_0139",
+      "jp": "『鍛冶』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『鍛冶部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Smith items. Drop some, or add Smith staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 1370,
+      "id": "force_dll_0140",
+      "jp": "『錬金』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『錬金部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Alch items. Drop some, or add Alch staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    }
+  ]
+}

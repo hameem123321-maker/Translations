@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 326,
+  "range_end": 350,
+  "pairs": [
+    {
+      "n": 326,
+      "id": "rem_00326",
+      "jp": "腕利きの傭兵",
+      "en": "Skilled Mercenary",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 327,
+      "id": "rem_00327",
+      "jp": "怪しげな動物実験に利用された生物たちのなれの果て。その身に何が起こったのかも分からず、食欲のみに突き動かされて行動する。",
+      "en": "The wretched outcome of creatures used in dubious animal experiments. Driven only by hunger, unaware of what happened to them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 328,
+      "id": "rem_00328",
+      "jp": "失敗作",
+      "en": "Failed Creation",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 329,
+      "id": "rem_00329",
+      "jp": "邪悪な儀式によって生まれたアンデッド。魔力か生け贄の霊格が足りなかったのか、醜悪な不定形の魔物にされてしまった。",
+      "en": "An undead born from a wicked ritual. Whether due to insufficient magic or the sacrifice's spiritual grade, it became a hideous, amorphous monster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 330,
+      "id": "rem_00330",
+      "jp": "なりそこない",
+      "en": "Wretched One",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 331,
+      "id": "rem_00331",
+      "jp": "魔族に敗北し、忠誠を誓った人間の裏切り者。魔力で強化された全身鎧に身を包み、鍛え上げた武芸を人類に向けて放つ。",
+      "en": "A human traitor who pledged loyalty after defeat by demons. Clad in magically-enhanced full armor, they turn their honed skills against humanity.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 332,
+      "id": "rem_00332",
+      "jp": "ダークナイト",
+      "en": "Dark Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 333,
+      "id": "rem_00333",
+      "jp": "無数の触手を持つ軟体生物の魔物。本体は動かず、獲物が近づくのをじっと待っている。意外に殺傷力は低く、捕獲が容易。食用としている地域もあるとか。",
+      "en": "A molluscan monster with countless tentacles. It lies in wait for prey. Surprisingly low lethality and easy to capture. Some regions even eat them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 334,
+      "id": "rem_00334",
+      "jp": "テンタクル",
+      "en": "Tentacle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 335,
+      "id": "rem_00335",
+      "jp": "小型の昆虫型飛行機械。外敵排除は主な任務では無いが弛緩毒を内蔵しており、多数が組むと非常に強力な戦力となる。暗殺組織が放った偵察機械。",
+      "en": "A small insectoid flying machine. Eliminating enemies isn't its main task, but it carries paralysis venom. Deployed in numbers, they become a powerful force. A reconnaissance machine sent by an assassination organization.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 336,
+      "id": "rem_00336",
+      "jp": "メタルビー",
+      "en": "Metal Bee",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 337,
+      "id": "rem_00337",
+      "jp": "夜王やその眷属によって闇の住人になった吸血鬼の少女。吸血することによって、さらに仲間を増やすこともできる。自我を与えられた、夜王の小間使い。たまに強力に出世する個体もいる。",
+      "en": "A vampire girl made a denizen of darkness by the Night King or his kin. She can create more of her kind by drinking blood. A self-aware handmaiden of the Night King; some rise to great power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 338,
+      "id": "rem_00338",
+      "jp": "ヴァンパイア",
+      "en": "Vampire",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 339,
+      "id": "rem_00339",
+      "jp": "恨みを持つ存在が死を与える為に差し向けた闇の住人。その対象は定かではないが、闇に生きる彼らの姿を見た人間は、その瞬間に彼らの標的となる。",
+      "en": "A denizen of darkness sent by a grudge-bearing entity to grant death. Their target is unclear, but any human who sees them becomes their mark.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 340,
+      "id": "rem_00340",
+      "jp": "アサシン",
+      "en": "Assassin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 341,
+      "id": "rem_00341",
+      "jp": "領主ゼルカの意思を汲み、闇から実力を行使するゼカリウスの暗部。障害を排除する手段は、非合法かつ冷酷な手段によるもの。",
+      "en": "Zecarius's covert unit, carrying out Lord Zelka's will from the shadows. Their methods for eliminating obstacles are ruthless and illegal.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 342,
+      "id": "rem_00342",
+      "jp": "ゼルカ親衛隊",
+      "en": "Zelka Guard",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 343,
+      "id": "rem_00343",
+      "jp": "怪しげな呪法によって異形へと変貌した領主ゼルカ。身も心も闇に捕らわれ、本能のままに破壊の力を振るう。",
+      "en": "Lord Zelka, transformed into a monstrosity by sinister curses. His body and soul are trapped in darkness, unleashing destructive power by instinct alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 344,
+      "id": "rem_00344",
+      "jp": "変異した領主ゼルカ",
+      "en": "Mutated Lord Zelka",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 345,
+      "id": "rem_00345",
+      "jp": "ごろつきのなかでも腕が立つ輩。その戦闘力は正規の軍人にも劣らないとされている。当然、欲望に正直で、上に立つ人間には扱いやすい手駒。",
+      "en": "Skilled thugs whose combat prowess rivals that of regular soldiers. Governed by desire, they are easily manipulated pawns for those in power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 346,
+      "id": "rem_00346",
+      "jp": "ごろつき・エリート",
+      "en": "Elite Thug",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 347,
+      "id": "rem_00347",
+      "jp": "地方領主に雇われた私兵の中でも、統率を任されたリーダー的存在。雇い主への忠誠心が高く、盲目的に命令に従う。",
+      "en": "Leaders among the local lord's hired mercenaries. Fiercely loyal, they obey their employer's commands without question.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 348,
+      "id": "rem_00348",
+      "jp": "ダークソルジャー",
+      "en": "Dark Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 349,
+      "id": "rem_00349",
+      "jp": "失意のまま死んでいった人間の骨に魔力が宿り、動きだしたアンデッド。生者に強い憎悪を持ち、襲いかかってくる。",
+      "en": "The bones of those who died in despair, animated by magic. Driven by hatred for the living, they attack relentlessly.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 350,
+      "id": "rem_00350",
+      "jp": "ガイコツ",
+      "en": "Skeleton",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

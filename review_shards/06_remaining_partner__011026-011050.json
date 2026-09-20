@@ -1,0 +1,224 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11026,
+  "range_end": 11050,
+  "pairs": [
+    {
+      "n": 11026,
+      "id": "rem_12428",
+      "jp": "<pl>さんに孕ませてもらっちゃって、こんなの幸せ過ぎだよねД　ケインも子育てに協力させるし、家族ならそういう手当もくれるでしょД　別に、孕んでても抱いてくれていいわよД",
+      "en": "Getting knocked up by <pl> is way too happyД Kane's gonna help raise the kid, and family gets that kind of support, rightД You can still hold me even if I'm pregnantД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11027,
+      "id": "rem_12429",
+      "jp": "司祭とは司祭長に次ぐ序列、一般の神官や上級神官の上に位置しております。強い献身と加護を持つことで、それに至れるのですわ。もっとも、<pl>様の御身に満ちた祝福に比べれば、些末なものですがД",
+      "en": "A bishop is the rank right below the archbishop, positioned above regular priests and senior priests. You can only reach it through strong devotion and possessing divine protection. Of course, compared to the abundant blessings filling your body, <pl>-sama, it's something trivialД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11028,
+      "id": "rem_12430",
+      "jp": "マリーゼル様……今代に認定された『聖女』がこの地に現れたことを不思議に思っておりましたが、それが<pl>様のおわす場所であるなら納得のことでございますわ。『聖女』は我が主の導きにより、責務を負う娘に課せられる祝福。神の現し身である<pl>様の偉業を支えるために、我が神が遣わしたのでしょう",
+      "en": "Lady Marisel... I wondered why a 'Saintess' recognized in this generation appeared here, but if it's the place where <pl> resides, that makes sense. A 'Saintess' is a blessing laid on a daughter given duty by our lord's guidance. Our god sent her to support the great work of <pl>, god made flesh",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11029,
+      "id": "rem_12431",
+      "jp": "神官の術は魔術師の術に似て異なるもの。魔術師の術は摂理に従うものに対し、神官の術は摂理を歪めるものであります。傷の治療や死霊の調伏は摂理を抗うものです。そして、時列の上位者ほど、その歪みは大きくなるのです。もっとも、『聖女』であらせられる方々の術は、私とは次元が異なります。それは術というより、いわば奇跡といったものですね",
+      "en": "A priestess's arts are similar to, yet different from, a sorceress's arts. A sorceress's arts conform to the laws of nature, whereas a priestess's arts distort those laws. Healing wounds or subduing wraiths is an act of defying nature's order. And the higher one's temporal rank, the greater the distortion becomes. Of course, the arts performed by the 'Saintesses' are on a completely different level from mine. They are less like arts and more akin to miracles, one might say.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11030,
+      "id": "rem_12432",
+      "jp": "ああっ……神の現し身である<pl>様の祝福を胎に授かれることなど、このうえない光栄ですわ……Д　もしこのことが『<ruby=ヒエペリオ>教会</ruby>』に伝われば、聖都の女神官はこぞって<pl>様の精を求めるに違いありませんわД　それはまさに、伝説の初代聖王様の再来でございます。これからも、私を『使徒』として仕えさせてくださいませ……Д",
+      "en": "Aaah... to receive the blessing of <pl>, god made flesh, in my womb is the highest honor...Д If this reached the '<ruby=ヒエペリオ>Church</ruby>', the holy capital's priestesses would surely all seek <pl>'s seedД That would be the return of the legendary first Holy King. Please let me keep serving as an 'apostle'...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11031,
+      "id": "rem_12433",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』に認定された『聖女』様ですわ。我らが神の思し召しにより、神の現し身である<pl>様に奉仕する役目を受けておられるのです。",
+      "en": "A 'Saintess' recognized by the '<ruby=ヒエペリオ>Church</ruby>'. By our god's will, she took the duty of serving <pl>, god made flesh.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 11032,
+      "id": "rem_12434",
+      "jp": "マリーゼル様と同時期に『勇者』に覚醒した方と聞いております。それはおそらく、神の現し身である<pl>様に剣を捧げるため、『聖女』様の身を守る剣でもあるのでしょう。しかし大いなる使命を受けて混乱されてる模様。神の道を説かなければなりませんね",
+      "en": "I've heard you awoke as the 'Hero' around the same time as Lady Marisel. You probably exist to offer your sword to <pl>-sama, the avatar of god, and also to act as the sword protecting the 'Saint'. However, it seems the weight of your great mission has left you confused. I must enlighten you on the path of god.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11033,
+      "id": "rem_12435",
+      "jp": "いつも<pl>様の傍らにおられる方ですよね。<pl>様は神の現し身であるならば、彼女は一体どういう存在なのでしょうか。『聖女』ではないようでありますが、神聖な気配を感じることもあります。なにやら存在が上手く誤魔化され、私は上手く把握することはできません……",
+      "en": "The one always at <pl>'s side, yes. If <pl> is god made flesh, what is she? She doesn't seem to be a 'Saintess', but I sometimes sense something holy. Her presence is somehow disguised, and I can't grasp it well...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11034,
+      "id": "rem_12436",
+      "jp": "私におちんちんを撫でろ、と？　まあ、拒否する理由も、今はありませんけど、私は不慣れですわよ？",
+      "en": "You want me to stroke your cock? Well, I have no reason to refuse right now, but I'm not very experienced, you know?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11035,
+      "id": "rem_12437",
+      "jp": "邪教徒と戦う同志の求めですから、当然、私は受け入れますД　私が撫でてあげると、雄々しくそそり勃ち、我が身で受け入れられるか、不安になってしまいますД",
+      "en": "Since it's a request from a comrade fighting the cultists, of course I'll accept. But when I stroke it, it stands up so proudly and mighty, I get nervous wondering if my body can even take it in.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11036,
+      "id": "rem_12438",
+      "jp": "私でよろしいのでしょうか？　まあ、構いませんわよ",
+      "en": "Am I really good enough for you? Well, I suppose I don't mind.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11037,
+      "id": "rem_12439",
+      "jp": "袋まで全体を舐めてから、大きくなったおちんちんをしゃぶってあげると、<pl>様はすぐにビクビクしてしまいますわよねД　もっと舐めますので、色々な表情を見せて下さいませД",
+      "en": "If I lick the whole sack first then suck the grown cock, <pl> starts twitching right away, don't theyД I'll lick more, so show me all kinds of facesД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11038,
+      "id": "rem_12440",
+      "jp": "パイズリ、ですか？　もちろん構いませんわよ……経験はありませんけども",
+      "en": "Titfuck? Of course, I don't mind... though I have no experience with it.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11039,
+      "id": "rem_12441",
+      "jp": "<pl>様のペニスを挟むくらい、簡単ですわД　射精に導くのも、共に戦う同志への鼓舞と考えれば、さほど変な行為ではありませんし……Д",
+      "en": "Sandwiching <pl>'s penis is easyД Leading you to cum is just rallying a comrade, so it's not that strange...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11040,
+      "id": "rem_12442",
+      "jp": "そのような行為を、<pl>様にさせていただくわけには……",
+      "en": "I couldn't possibly have <pl> do such a thing...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11041,
+      "id": "rem_12443",
+      "jp": "優しく舐めていただくと、すぐにイってしまいますわД　私のオマンコが、男性を求めているのでしょうか……Д　いずれ、絶頂するだけでは満足できなくなってしまいそうですわД",
+      "en": "If you gently lick it, I cum almost immediatelyД My pussy must really be craving a man...Д At this rate, I think I'll stop being satisfied with just climaxingД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11042,
+      "id": "rem_12444",
+      "jp": "まあ、そこまで求められるなんて……構いませんが、行為の重さは理解して下さいませね",
+      "en": "Well, to be asked that far... I don't mind, but please understand the weight of the act.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11043,
+      "id": "rem_12445",
+      "jp": "殿方と近付いたとき、相手が武器を隠し持っていたらと不安だったのですが……<pl>様に抱かれる時は、そんな疑念も湧きませんわД　今夜も私を、存分に犯して下さいД",
+      "en": "When I got close to a man, I used to worry he had a weapon hidden... but when <pl> holds me, that doubt doesn't even come upД Tonight, please use me thoroughlyД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11044,
+      "id": "rem_12446",
+      "jp": "もちろん、お望みとあらば、出産いたしますわ",
+      "en": "Of course, if you wish it, I'll give birth for you.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11045,
+      "id": "rem_12447",
+      "jp": "<pl>様の赤ちゃんを宿すなど、何という幸福なのでしょうД　私達の子を正しく育て上げ、より一層<pl>様に尽くすことを誓いますわД",
+      "en": "How blessed I am, to be carrying <pl>'s baby. I vow to raise our child right, so I can serve <pl> even better.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11046,
+      "id": "rem_12448",
+      "jp": "ロオン遺跡調査団は、かの『<ruby=ソルシア>学院</ruby>』において燦然と名を輝かせている伝説級の大魔術師、アルミータ・ロオン教授が打ち立てた栄誉ある遺跡調査団であります！　ロオン教授は魔術師でもあり、古代の叡智を解き明かす学者であり、『勇者』と共に人々を救う賢者でもありました",
+      "en": "The Roon Ruin Survey Corps is an honored ruin survey corps founded by Professor Almita Roon, a legendary grand mage whose name shines at that '<ruby=ソルシア>Academy</ruby>'! Professor Roon was a mage, a scholar unlocking ancient wisdom, and a sage who saved people alongside the 'Hero'",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 11047,
+      "id": "rem_12449",
+      "jp": "私が身に纏う赤き衣は、ロオン教授が身につけていた賢者の礼装を模したものです。この服は『<ruby=ソルシア>学院</ruby>』でも賢者を名乗るに相応しい者にのみ着衣を許される、栄誉あるものなのですよ。ただの学者であれば、赤く染めず青く染めたものを身に纏うに留まります。……なっ、私の能力を疑うつもりですか！？",
+      "en": "This crimson robe I wear is modeled after the Sage's Raiment worn by Professor Roon. In the <ruby=ソルシア>Academy</ruby> as well, this garment is a great honor, permitted only to those truly worthy of the name 'Sage'. A mere scholar would be limited to wearing one dyed blue, not red... Wha- are you doubting my ability!?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 11048,
+      "id": "rem_12450",
+      "jp": "赤き衣は『<ruby=ソルシア>学院</ruby>』に認められた者にしか許されません。それなのに、『<ruby=ソルシア>学院</ruby>』でろくな業績を残していない、野良の魔術師に着衣を許すとは……しかも、正式なデザインでなく、下品に着衣を乱したようなものに作り替えるとは、教授に対する冒涜です！　……もっと腹立たしいのは、『<ruby=ソルシア>学院</ruby>』がヤツを重用しているところです！",
+      "en": "The crimson robes are only permitted to those officially recognized by the <ruby=ソルシア>Academy</ruby>. Despite this, they allow some stray mage who hasn't accomplished anything noteworthy at the <ruby=ソルシア>Academy</ruby> to wear it... And on top of that, they've re-made it not into the official design, but into something vulgar that twists the sacred garments. It's an insult to the professors! ... What's even more infuriating is that the <ruby=ソルシア>Academy</ruby> itself holds him in such high regard!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 11049,
+      "id": "rem_12451",
+      "jp": "まあ、渋々ながら、私、あのピンク魔術師の力は認めておりますし、ヤツも遺跡調査団のスタッフとしてよく働いております。気分次第ですぐに抜け出すのですが。ロオン教授も、奔放な立ち振る舞いで、スタッフを振り回していると先輩方が愚痴っていましたし、似ているところがあるのかもしれませんね。……ん？　ロオン教授は存命の方ですよ、ええ",
+      "en": "Well, though reluctantly, I do acknowledge the power of that pink magician, and they work quite well as staff for the ruins investigation team. They tend to slip away on a whim, though. Senior colleagues have been grumbling that Professor Loon also swings the staff around with their unrestrained behavior... maybe they have something in common. …Huh? Professor Loon is still alive, yes.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11050,
+      "id": "rem_12452",
+      "jp": "『学院』の出来損ないのくせに、我々赤い賢者の装いを身に纏う不届きな女ですね。赤いマントは教授に認められた者が身につけられる、栄光あるものだというのに。いくら先代からの言い伝えだからって、特別扱いは良くないと思いますね！",
+      "en": "What an impudent woman, wearing the attire of us Scarlet Sages despite being a failure from the 『Academy』. The red cloak is a glorious item permitted only to those recognized by the professor. I don't think it's good to get special treatment, no matter that it's based on a tradition from the previous generation!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

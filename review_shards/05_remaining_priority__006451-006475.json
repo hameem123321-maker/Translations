@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6451,
+  "range_end": 6475,
+  "pairs": [
+    {
+      "n": 6451,
+      "id": "rem_34070",
+      "jp": "フィールドに魔力増幅結界を張る。このフィールドでの魔術ダメージは大きくアップする。敵からのダメージもアップするので注意。",
+      "en": "Creates a magic amplification field on the battlefield. Magic damage in this field is significantly increased. Note: Enemy damage is also increased.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6452,
+      "id": "rem_34071",
+      "jp": "【フィールド】に【魔術】を付与 (魔術ダメージ[+25%])",
+      "en": "Grants 【Field】 【Magic】 (Magic Damage[+25%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6453,
+      "id": "rem_34072",
+      "jp": "【<src>】は[魔力増幅の結界]を使用！",
+      "en": "【<src>】 used [Magic Amplification Field]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6454,
+      "id": "rem_34073",
+      "jp": "味方が【火属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Fire Skill】. May trigger consecutively if used multiple times. Follow-up uses both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6455,
+      "id": "rem_34074",
+      "jp": "単体攻撃 威力[E+] +  命中[80%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Single-target attack Power[E+] + Hit[80%] + 【Fire】 + Inflicts [Burn] (Turn-based damage +10% from flames)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6456,
+      "id": "rem_34075",
+      "jp": "【<src>】は[ファイアチェイス]で追撃した！",
+      "en": "【<src>】 followed up with [Fire Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6457,
+      "id": "rem_34076",
+      "jp": "味方が【氷属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses an 【Ice Skill】. May trigger consecutively if used multiple times. Follow-up uses both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6458,
+      "id": "rem_34077",
+      "jp": "単体攻撃 威力[E+] +  命中[80%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Single-target attack Power[E+] + Hit[80%] + 【Ice】 + Inflicts [Freeze] (Physical damage reduction -30% + Critical hit chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6459,
+      "id": "rem_34078",
+      "jp": "【<src>】は[アイスチェイス]で追撃した！",
+      "en": "【<src>】 followed up with [Ice Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6460,
+      "id": "rem_34079",
+      "jp": "味方が【風属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Wind Skill】. May trigger consecutively if used multiple times. Follow-up uses both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6461,
+      "id": "rem_34080",
+      "jp": "単体攻撃 威力[D] +  命中[80%] + 【風属性】",
+      "en": "Single Attack Power[D] + Accuracy[80%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6462,
+      "id": "rem_34081",
+      "jp": "【<src>】は[エアチェイス]で追撃した！",
+      "en": "【<src>】chases with [Air Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6463,
+      "id": "rem_34082",
+      "jp": "力を託されたことによって思い出された、過去の自分の技の一つ。不可視の引力により、受け手は回避することができない。本来は命を対価にする絶技を神の子はさらに昇華させた。",
+      "en": "A technique from your past, remembered by being entrusted with power. Unavoidable due to invisible gravity. The Child of God refined this ultimate skill, which originally cost your life.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6464,
+      "id": "rem_34083",
+      "jp": "全体攻撃 威力[S+] +  [必中] + 【聖属性】 + 強制デスクリティカル + ダメージ限界突破 + 【死神技】",
+      "en": "All Attack Power[S+] + [Sure Hit] + 【Holy】 + Forced Des.Critical + Damage Limit Break + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6465,
+      "id": "rem_34084",
+      "jp": "【<src>】の[真・死神斬り]！",
+      "en": "【<src>】's [True Shinigami Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6466,
+      "id": "rem_34085",
+      "jp": "夢魔の力を使用し敵の生命力を吸い取る。生物には抗えない危険な攻撃魔術で、広範囲の敵から生命力を吸い取って味方に還元する。",
+      "en": "Uses succubus power to drain enemy life force. A dangerous magic irresistible to living things. Drains life from a wide area, restoring your party.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6467,
+      "id": "rem_34086",
+      "jp": "グループ攻撃 威力[C] +  命中[80%] + 【闇属性】 + 攻撃後パーティー回復",
+      "en": "Group Attack Power[C] + Accuracy[80%] + 【Dark】 + Party Heal After Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6468,
+      "id": "rem_34087",
+      "jp": "【<src>】は[ライフドレイン]で生命吸収！",
+      "en": "【<src>】absorbs life with [Life Drain]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6469,
+      "id": "rem_34088",
+      "jp": "生命力に直接ダメージを耐えるという超スキル。怪盗に目覚めたことにより、ついには魂までも盗むことが出来るようになったらしいが？",
+      "en": "An incredible skill that directly steals life force. As a Phantom Thief, it seems you can now steal even souls...?",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6470,
+      "id": "rem_34089",
+      "jp": "範囲(小)攻撃 威力[S] +  [必中] + 必殺率[+10%] + 【闇属性】",
+      "en": "Small Area Attack Power[S] + [Sure Hit] + Critical Rate[+10%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6471,
+      "id": "rem_34090",
+      "jp": "【<src>】の[ソウルスティール]！",
+      "en": "【<src>】's [Soul Steal]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6472,
+      "id": "rem_34091",
+      "jp": "夢魔の魔力を解き放ち、相手の精神を侵食する。男性エネミーに対して大きいダメージを与える。",
+      "en": "Unleashes succubus magic, eroding the target's mind. Deals great damage to male enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6473,
+      "id": "rem_34092",
+      "jp": "男性へのダメージ[+30%]",
+      "en": "Damage to Males [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6474,
+      "id": "rem_34093",
+      "jp": "世界を侵食する闇で攻撃する。魔を統べる存在の一角を担う者の特権のスキル。多用すると世界のバランスが崩れ、魔界が人間界に侵食するともいわれる。",
+      "en": "Attacks with darkness that erodes the world. A skill for those who rule demons. Overuse risks unbalancing the world, letting the demon realm invade ours.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6475,
+      "id": "rem_34094",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 【闇属性】 + 攻撃後パーティー回復",
+      "en": "All Attack Power[S+] + Accuracy[50%] + 【Dark】 + Party Heal After Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

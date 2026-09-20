@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10151,
+  "range_end": 10175,
+  "pairs": [
+    {
+      "n": 10151,
+      "id": "rem_37873",
+      "jp": "宿泊施設の売上+50%",
+      "en": "Lodging sales +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10152,
+      "id": "rem_37874",
+      "jp": "料理系商品の売値+30%",
+      "en": "Food item sell price +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10153,
+      "id": "rem_37875",
+      "jp": "富裕層への売上+30%",
+      "en": "Sales to wealthy +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10154,
+      "id": "rem_37876",
+      "jp": "錬金系商品の売値+20%",
+      "en": "Alchemy item sell price +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10155,
+      "id": "rem_37877",
+      "jp": "すべての商品の売値+1%",
+      "en": "All item sell price +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10156,
+      "id": "rem_37878",
+      "jp": "料理系商品の売値+60%",
+      "en": "Food item sell price +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10157,
+      "id": "rem_37879",
+      "jp": "冒険者への売上+8%",
+      "en": "Sales to adventurers +8%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10158,
+      "id": "rem_37880",
+      "jp": "料理系商品の売値+100%",
+      "en": "Food item sell price +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10159,
+      "id": "rem_37881",
+      "jp": "鍛冶系商品の売値+15%",
+      "en": "Smithing item sell price +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10160,
+      "id": "rem_37882",
+      "jp": "一般人への売上+5%",
+      "en": "Sales to commoners +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10161,
+      "id": "rem_37883",
+      "jp": "店員の最大人数+5",
+      "en": "Max Staff +5",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10162,
+      "id": "rem_37884",
+      "jp": "客の滞在時間の延長率+5%",
+      "en": "Customer Stay Time +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10163,
+      "id": "rem_37885",
+      "jp": "すべての商品の売値+2%",
+      "en": "All Item Sell Price +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10164,
+      "id": "rem_37886",
+      "jp": "物理ダメージ軽減率+50% + 霊体化",
+      "en": "Physical Damage Reduction +50% + Intangibility",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10165,
+      "id": "rem_37887",
+      "jp": "鍛冶系商品の売値+60%",
+      "en": "Blacksmithing Sell Price +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10166,
+      "id": "rem_37888",
+      "jp": "物理ダメージ軽減率+50%",
+      "en": "Physical Damage Reduction +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10167,
+      "id": "rem_37889",
+      "jp": "犯罪値の上昇率-3%",
+      "en": "Crime Rate Increase -3%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10168,
+      "id": "rem_37890",
+      "jp": "錬金系商品の売値+15%",
+      "en": "Alchemy Sell Price +15%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10169,
+      "id": "rem_37891",
+      "jp": "錬金系商品の売値+30%",
+      "en": "Alchemy Sell Price +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10170,
+      "id": "rem_37892",
+      "jp": "敷地のサイズ+1",
+      "en": "Plot Size +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10171,
+      "id": "rem_37893",
+      "jp": "魔術ダメージ+5%",
+      "en": "Magic Damage +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10172,
+      "id": "rem_37894",
+      "jp": "錬金系商品の売値+60%",
+      "en": "Alchemy Sell Price +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10173,
+      "id": "rem_37895",
+      "jp": "水産資源を使用した商品の売値+20%",
+      "en": "Aquatic Goods Sell Price +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10174,
+      "id": "rem_37896",
+      "jp": "林業資源を使用した商品の売値+20%",
+      "en": "Forestry Goods Sell Price +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10175,
+      "id": "rem_37897",
+      "jp": "農業資源を使用した商品の売値+20%",
+      "en": "Agriculture Goods Sell Price +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

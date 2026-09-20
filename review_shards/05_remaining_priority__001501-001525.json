@@ -1,0 +1,214 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1501,
+  "range_end": 1525,
+  "pairs": [
+    {
+      "n": 1501,
+      "id": "rem_27076",
+      "jp": "シイネはハーヴェスタに借金をしていたらしい。その一部を返済しなくては……。",
+      "en": "It seems Shiine was in debt to the Harvester. I have to repay part of it...",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1502,
+      "id": "rem_27077",
+      "jp": "ハーヴェスタ・ノルマの支払いLv1",
+      "en": "Harvester Norma Payment Lv1",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1503,
+      "id": "rem_27078",
+      "jp": "『アルダルク農業組合』の仕入業者と契約を結び、安定的な農作物を届けてもらう。料理の質がアップするはずだ。",
+      "en": "Sign a contract with the 'Ardaluk Agricultural Union' suppliers to receive stable produce. Cooking quality should improve.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1504,
+      "id": "rem_27079",
+      "jp": "農業Lv2・農産物仕入れ業者との契約",
+      "en": "Agriculture Lv2: Contract with Produce Supplier",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1505,
+      "id": "rem_27080",
+      "jp": "キャトリナの村を復興するための資金を提供する。大半はハーヴェスタが出資してくれるようだが、こちらも出来る限りの支援はしよう。",
+      "en": "Provide funds to rebuild Catrina's village. The Harvester will cover most, but I'll give what support I can.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1506,
+      "id": "rem_27081",
+      "jp": "農業Lv4・復興支援金を出す",
+      "en": "Agriculture Lv4: Offer Revival Support Funds",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1507,
+      "id": "rem_27082",
+      "jp": "『アルダルク農業組合』で豊穣祭を開催するためのスポンサーになる。",
+      "en": "Become a sponsor for the Harvest Festival held by the 'Ardaluk Agricultural Union'.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1508,
+      "id": "rem_27083",
+      "jp": "農業Lv6・豊穣祭のスポンサー",
+      "en": "Agriculture Lv6: Harvest Festival Sponsor",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1509,
+      "id": "rem_27084",
+      "jp": "冒険者用の発注ライセンスを取得する。今までよりも上級なダンジョンへのクエストを発注することが出来る。これがあれば、ダンジョンへの事業投資の最大レベルがアップする。",
+      "en": "Obtain an adventurer order license. Allows issuing quests for higher-level dungeons and raises max investment level.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1510,
+      "id": "rem_27085",
+      "jp": "冒険者Lv6・上級冒険者発注ライセンス",
+      "en": "Adventurer Lv6: Advanced Adventurer Order License",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1511,
+      "id": "rem_27086",
+      "jp": "ハーヴェスタに店の経営についてアドバイスをもらう。それなりにカネが必要だが、店をよりよくするには近道になるだろう。",
+      "en": "Get shop management advice from the Harvester. Costs a fair amount, but it should help improve the shop faster.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1512,
+      "id": "rem_27087",
+      "jp": "商会Lv2・経営コンサルタントを依頼",
+      "en": "Commerce Lv2: Hire Management Consultant",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1513,
+      "id": "rem_27088",
+      "jp": "商会Lv4・経営コンサルタントを依頼",
+      "en": "Commerce Lv4: Hire Management Consultant",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1514,
+      "id": "rem_27089",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』がよくない噂を振りまいている。民衆を変に煽動して騒ぎにならないように、釘を刺しておこう。そのためには影響力が必要だ。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1515,
+      "id": "rem_27090",
+      "jp": "教会Lv2・ヒエペリオ教会への寄付",
+      "en": "Donate to Church Lv2: Hyeperio Church",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1516,
+      "id": "rem_27091",
+      "jp": "マリーゼルの自伝の聖書を出版する。『聖書』として頒布するのは犯罪なのだが、マリーゼルは『聖女』なので『教会』も文句言えないらしい。職権乱用じゃないかな？",
+      "en": "Publish Marisel's autobiography as a holy scripture. Distributing it as a 'Bible' is a crime, but since Marisel is a 'saint,' the 'Church' apparently can't complain. Isn't that an abuse of authority?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1517,
+      "id": "rem_27092",
+      "jp": "教会Lv4・マリーゼルの聖書出版",
+      "en": "Church Lv4: Marisel's Bible Published",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1518,
+      "id": "rem_27093",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の施設を誘致するための資金提供をする。近所に宗教施設を建てれば、信者が客としてやってくるだろうか。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1519,
+      "id": "rem_27094",
+      "jp": "教会Lv6・宗教施設建築の資金提供",
+      "en": "Church Lv6 - Fund Religious Facility Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1520,
+      "id": "rem_27095",
+      "jp": "研究所や鍛冶場の煙を抑える施設をアンジュとカリストに研究してもらう。完成すれば、店が汚れにくくなるはずだ。",
+      "en": "Have Anju and Callisto research facilities to reduce smoke from the lab and forge. Once completed, the shop should stay cleaner.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1521,
+      "id": "rem_27096",
+      "jp": "お茶会Lv4・煙除去装置の開発資金",
+      "en": "Tea Party Lv4 · Smoke Remover Dev. Fund",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1522,
+      "id": "rem_27097",
+      "jp": "『灼熱の都サージ』との国境付近で発生している【疫病】の対策のため、『魔女達のお茶会』に資金提供をすることにする。他地域とはいえ疫病は人ごとではない。",
+      "en": "To counter the 【Plague】 near the border with 'The Scorching City of Surge,' funds will be provided to 'The Witches' Tea Party.' Disease elsewhere is still our concern.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1523,
+      "id": "rem_27098",
+      "jp": "お茶会Lv6・疫病対策の資金援助",
+      "en": "Tea Party Lv6 · Plague Countermeasure Aid",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1524,
+      "id": "rem_27099",
+      "jp": "ムファードからサージとの交易権を獲得する。海千山千の商人達を相手にすると、生半可な商売人はぼったくられてしまう。正式な交易権があると、ちょっと手加減してくれる。",
+      "en": "Acquire trade rights with Surge from Mufard. Novice merchants get fleeced dealing with these shrewd traders. Official rights earn some leniency.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1525,
+      "id": "rem_27100",
+      "jp": "サージLv4・サージとの通常交易権獲得",
+      "en": "Surge Lv4 · Obtain Normal Trade Rights",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

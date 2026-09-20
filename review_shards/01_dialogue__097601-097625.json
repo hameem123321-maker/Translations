@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97601,
+  "range_end": 97625,
+  "pairs": [
+    {
+      "n": 97601,
+      "id": "db_EventInfo:115264:15",
+      "jp": "やあ店長君",
+      "en": "Hey, shopkeeper.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97602,
+      "id": "db_EventInfo:115265:1",
+      "jp": "デシルスか。【『ドルワミール鉱山』】の戦況はどうなんだ？",
+      "en": "Desilus. How's the fight going at the [Dorwamir Mine]?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97603,
+      "id": "db_EventInfo:115266:15",
+      "jp": "うん。アンジュ君や里の人々は救出できたけど、依然として鉱山は【『ゴブリン』】の支配下だ",
+      "en": "Well. We rescued Anju and the villagers, but the mine is still under [Goblin] control.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97604,
+      "id": "db_EventInfo:115267:15",
+      "jp": "奥にはひときわ強力な【『ゴブリン』】がいるそうでね。決死隊が向かってるけど、返り討ちだよ",
+      "en": "Word is there's a very strong [Goblin] deep inside. A suicide squad went in, but they got wiped out.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97605,
+      "id": "db_EventInfo:115268:1",
+      "jp": "【『ゴブリン』】が……",
+      "en": "[Goblins]...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97606,
+      "id": "db_EventInfo:115269:15",
+      "jp": "鉱山内は入り組んでいて迷いやすいだろう？",
+      "en": "The mine is a real maze, easy to get lost.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97607,
+      "id": "db_EventInfo:115270:15",
+      "jp": "それに【『ゴブリン』】達は夜目が効く上に奇襲、不意打ちの類が得意だからね",
+      "en": "Plus, the [Goblins] see well in the dark. They're good at ambushes and sneak attacks.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97608,
+      "id": "db_EventInfo:115271:2",
+      "jp": "卑劣な奴らデス",
+      "en": "Such cowardly brutes.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97609,
+      "id": "db_EventInfo:115272:15",
+      "jp": "そういう事情もあって、中々攻略が進まないみたいだよ",
+      "en": "With all that, the assault just isn't moving forward.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97610,
+      "id": "db_EventInfo:115273:1",
+      "jp": "そういえば【『勇者』】が攻略に参加していると聞いたけど……",
+      "en": "By the way, I heard a [Hero] is helping with the attack...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97611,
+      "id": "db_EventInfo:115274:15",
+      "jp": "【勇者ラシェウス】のことかい？　彼なら……",
+      "en": "You mean the Hero Rasieus? Well, he...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97612,
+      "id": "db_EventInfo:115276:19",
+      "jp": "呼んだかい？",
+      "en": "Did someone call me?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97613,
+      "id": "db_EventInfo:115277:2",
+      "jp": "オマエは……どこかで",
+      "en": "You... I've seen you somewhere before.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97614,
+      "id": "db_EventInfo:115278:2",
+      "jp": "思い出したデス。たしか森で出会った、変な男デス",
+      "en": "I remember desu. Definitely that weird guy we met in the forest desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97615,
+      "id": "db_EventInfo:115279:19",
+      "jp": "変な！？　ひどいな！",
+      "en": "Weird!? That's harsh!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97616,
+      "id": "db_EventInfo:115280:19",
+      "jp": "まあともかく、俺の名前はラシェウス。今評判の【『勇者』】さ！　君がここの店長だね！",
+      "en": "Anyway, my name's Rasieus. I'm the famous 'Hero' everyone's talking about! You must be the shop owner here!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97617,
+      "id": "db_EventInfo:115281:1",
+      "jp": "あ、ああ……",
+      "en": "Uh, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97618,
+      "id": "db_EventInfo:115282:19",
+      "jp": "よろしくな、店長さん！",
+      "en": "Nice to meet you, shop owner!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97619,
+      "id": "db_EventInfo:115283:2",
+      "jp": "【『勇者』】デスか……オマエ、【『ゴブリン』】はどうしたデス？",
+      "en": "A 'Hero' desu... What happened to the 'Goblin' desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97620,
+      "id": "db_EventInfo:115284:19",
+      "jp": "いやあ、俺も攻略に参加したけど、【『ゴブリン』】は手強くてね",
+      "en": "Well, I joined the fight too, but that 'Goblin' was tough.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97621,
+      "id": "db_EventInfo:115285:19",
+      "jp": "まあ心配ないよ。俺にかかれば、【『ゴブリン』】はいずれ討伐され――",
+      "en": "But don't worry. With me around, that 'Goblin' will be defeated eventually—",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97622,
+      "id": "db_EventInfo:115287:3",
+      "jp": "【いずれ討伐】、じゃないのじゃ！",
+      "en": "'Eventually' is not good enough, it isn't!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97623,
+      "id": "db_EventInfo:115288:19",
+      "jp": "うわっ！？",
+      "en": "Whoa!?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97624,
+      "id": "db_EventInfo:115289:1",
+      "jp": "アンジュ！？",
+      "en": "Anju!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97625,
+      "id": "db_EventInfo:115290:3",
+      "jp": "汚らわしい【『ゴブリン』】共め……<ruby=わらわ>妾</ruby>達の里をあのようなボロボロの姿に変えおって……！",
+      "en": "These filthy Goblins... They've turned our village into this wretched state...!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

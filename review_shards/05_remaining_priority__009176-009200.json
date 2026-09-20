@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9176,
+  "range_end": 9200,
+  "pairs": [
+    {
+      "n": 9176,
+      "id": "rem_36898",
+      "jp": "果実の発酵酒",
+      "en": "Fruit Ferment",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9177,
+      "id": "rem_36899",
+      "jp": "密閉した樽の中で長時間熟成させた酒。完全に熟成しきったこの酒は、スッキリした飲み口とキレを実現した。その分、アルコールの強さもかなりのもの。",
+      "en": "A spirit aged for a long time in a sealed barrel. Fully matured, it achieves a clean, sharp taste and finish, but the alcohol strength is also considerable.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9178,
+      "id": "rem_36900",
+      "jp": "樽詰めの熟成酒",
+      "en": "Barrel-Aged Spirit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9179,
+      "id": "rem_36901",
+      "jp": "薬草と糖類をバランスよく加え、精製したアルコール飲料でエキスを抽出した酒。中身の見えない容器は、飲めば体調が良くなる不思議な酒の魅力を引き立てる。",
+      "en": "An alcohol drink refined with a balanced mix of herbs and sugars, extracting their essences. The opaque container enhances the allure of this mysterious drink said to improve one's condition.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9180,
+      "id": "rem_36902",
+      "jp": "ミステリアスリキュール",
+      "en": "Mysterious Liqueur",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9181,
+      "id": "rem_36903",
+      "jp": "『魔女達のお茶会』上層部が勝手に醸造していた、薬草酒。届け出をしていなかった為に密造酒とされたが、追徴課税を支払わされた後、世間で人気を博した。",
+      "en": "『Witches' Tea Party』 An herbal wine secretly brewed by the top brass. Deemed illicit for lack of proper filing, it became popular after paying back taxes.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9182,
+      "id": "rem_36904",
+      "jp": "魔女の密造酒",
+      "en": "Witches' Moonshine",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9183,
+      "id": "rem_36905",
+      "jp": "世界を席巻できるとまで言われる、熟成酒を何度も蒸留して作った酒。強烈なアルコールと重厚な熟成の賜物である風味は、まさに人の歴史の到達点。",
+      "en": "A liquor made by repeatedly distilling an aged brew said to conquer the world. Its intense alcohol and rich flavor are a testament to human history.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9184,
+      "id": "rem_36906",
+      "jp": "ワールドウィスキー",
+      "en": "World Whiskey",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9185,
+      "id": "rem_36907",
+      "jp": "夜の魔力を使って発酵させた青いアルコール飲料。冷やして飲むとスッキリした味わいを楽しめる。魔界の関係者が人間に伝えたという噂がある。",
+      "en": "A blue alcoholic beverage fermented using night's magic. Chilled, it offers a crisp taste. Rumor says it was passed to humans by the demon world.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9186,
+      "id": "rem_36908",
+      "jp": "真夜中のブルーエール",
+      "en": "Midnight Blue Ale",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9187,
+      "id": "rem_36909",
+      "jp": "液体そのものが輝いてるかの如き酒。伝承に謳われる酒を参考に精製されたこの酒は、人が飲めばたちまち陽気に踊り出すほどの幸福感をもたらす。",
+      "en": "A liquor that seems to glow. Based on legendary brews, it brings such happiness that drinkers immediately start dancing cheerfully.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9188,
+      "id": "rem_36910",
+      "jp": "七色の蒸留酒",
+      "en": "Seven-Color Distilled Spirit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9189,
+      "id": "rem_36911",
+      "jp": "神々が愛したと言われる伝説の酒を、今に蘇らせた至福のワイン。深紅の雫を飲み干せば、今際の際にいる老人も、たちまち活力を取り戻すという。",
+      "en": "A blissful wine resurrecting the legendary drink loved by gods. A sip of its crimson droplets can revitalize even a dying elder.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9190,
+      "id": "rem_36912",
+      "jp": "深紅のロイヤルワイン",
+      "en": "Crimson Royal Wine",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9191,
+      "id": "rem_36913",
+      "jp": "稀少種族エルフィードが、酒豪のドワーム族に対抗心を燃やして作り出した秘密の酒。熟成には長い年月が必要な為、今を生きる人間が飲めるのは極少量。",
+      "en": "A secret brew created by the rare Elfied race in rivalry with Dwarm, the heavy drinkers. It requires long aging, so only a tiny amount reaches humans today.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9192,
+      "id": "rem_36914",
+      "jp": "エルフィードの秘蔵酒",
+      "en": "Elfied's Reserve",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9193,
+      "id": "rem_36915",
+      "jp": "特殊な薬草を砕いて干したもの。火を付けると常習性の高い煙が出る。身分の低い者が愛用しており、束の間の多幸感を得られるが、フィードバックは重い。",
+      "en": "Crushed and dried special herbs. When lit, they produce highly addictive smoke. Loved by the lower class for fleeting euphoria, but the backlash is severe.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9194,
+      "id": "rem_36916",
+      "jp": "煙のでる草",
+      "en": "Smoke-Weed",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9195,
+      "id": "rem_36917",
+      "jp": "乾燥させ、燃えやすくした葉っぱ。煙を吸えば、一時、贅沢な気分を味わえる。",
+      "en": "Dried, flammable leaves. Inhaling the smoke gives a temporary feeling of luxury.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9196,
+      "id": "rem_36918",
+      "jp": "上質な葉っぱ",
+      "en": "Quality Leaves",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9197,
+      "id": "rem_36919",
+      "jp": "煙の出る草を選別し、良い部分のみを煎じたもの。より高濃度の煙を作ることができる。愛好者が言うには美味いらしいが、常習性もより高くなる。",
+      "en": "Selective parts of smoke-weed brewed for higher potency smoke. Tastier, connoisseurs say, but also more addictive.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9198,
+      "id": "rem_36920",
+      "jp": "上質な煙の出る草",
+      "en": "Quality Smoke-Weed",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9199,
+      "id": "rem_36921",
+      "jp": "煙の出る草から、さらに一部の効果の強いものを選別。草ではなく乳液を抽出して粉末状に加工した。常習性が高く、幸福感も味わうことができる。",
+      "en": "The most potent parts of smoke-weed, processed into powder from extracted sap. Highly addictive, it also offers a sense of euphoria.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9200,
+      "id": "rem_36922",
+      "jp": "フォーチュンスモーク",
+      "en": "Fortune-Smoke",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 626,
+  "range_end": 650,
+  "pairs": [
+    {
+      "n": 626,
+      "id": "rem_00626",
+      "jp": "カースドドラゴン",
+      "en": "Cursed Dragon",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 627,
+      "id": "rem_00627",
+      "jp": "死都ルーメ・ルーデスに残った最後の神。彼が見出した一つの魂。それはまさしく種を導く覇王。しかしそれは人を滅ぼし、新たな種が成り代わるものだとしても、彼らにとっての神は見放すことはできない。",
+      "en": "The last god remaining in the dead capital of Lume-Ludes. The soul he found is truly a Tyrant to guide the seeds. Even if it meant humanity's ruin and a new breed's ascension, their god could not forsake them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 628,
+      "id": "rem_00628",
+      "jp": "死都を見届ける者",
+      "en": "The Witness of the Dead Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 629,
+      "id": "rem_00629",
+      "jp": "死都にて幾度となく世代交代を繰り返し、地上よりも遙かな高みに進化したゴブリン。残虐性と繁殖力はそのままに、地上に現れるゴブリンとは明らかに違う戦闘能力を持っている。",
+      "en": "A Goblin that has undergone countless generations of evolution in the dead capital, reaching heights far beyond surface-dwellers. Retaining its cruelty and fertility, its combat prowess is clearly superior.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 630,
+      "id": "rem_00630",
+      "jp": "死都のゴブリン",
+      "en": "Dead Capital Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 631,
+      "id": "rem_00631",
+      "jp": "冥界を闊歩するゴブリンの荒くれ者。死者の魂を蹂躙するこのゴブリンは、あらゆる次元における厄介者。",
+      "en": "A Goblin brute roaming the underworld. This Goblin, which tramples the souls of the dead, is a troublemaker across all dimensions.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 632,
+      "id": "rem_00632",
+      "jp": "死都のホブゴブリン",
+      "en": "Dead Capital Hobgoblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 633,
+      "id": "rem_00633",
+      "jp": "死都を徘徊するシーゴブリンの亜種。ゴブリンとは考えられないほどの俊敏性を持ち、死者と生者の区別なく襲い掛かる。",
+      "en": "A variant of Sea Goblin that prowls the dead capital. Possessing unbelievable agility for a Goblin, it attacks the dead and the living alike.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 634,
+      "id": "rem_00634",
+      "jp": "死都のシーゴブリン",
+      "en": "Dead Capital Sea Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 635,
+      "id": "rem_00635",
+      "jp": "死都で発生した、軍略を駆使する異端のゴブリン戦略家。しかしその凶暴性は他のゴブリンよりも強く、戦闘能力も他の個体に勝るとも劣らない。",
+      "en": "A heretical Goblin strategist who employs military tactics, spawned in the dead capital. Its ferocity and combat abilities surpass those of its kin.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 636,
+      "id": "rem_00636",
+      "jp": "死都の変異ゴブリン",
+      "en": "Dead Capital Mutant Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 637,
+      "id": "rem_00637",
+      "jp": "死都に蔓延るゴブリン達を統率する指揮官。戦闘・略奪を行うゴブリンの全てはこの魔物の指揮で動いているが、自身も何者かの意思によって動いているようだ。",
+      "en": "The commander leading the Goblins infesting the dead capital. All Goblin combat and plunder operates under this fiend's command, though it too seems to act on someone else's will.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 638,
+      "id": "rem_00638",
+      "jp": "死都のゴブリンロード",
+      "en": "Dead Capital Goblin Lord",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 639,
+      "id": "rem_00639",
+      "jp": "死者の霊魂を操るゴブリンシャーマン。死都に至った事で絶大な魔術を行使する。死者の眠りを妨げ冒涜する。",
+      "en": "A Goblin Shaman that manipulates the souls of the dead. Having reached the dead capital, it wields immense magic, disturbing and desecrating the dead's slumber.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 640,
+      "id": "rem_00640",
+      "jp": "死都のゴブリンシャーマン",
+      "en": "Dead Capital Goblin Shaman",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 641,
+      "id": "rem_00641",
+      "jp": "軍団の先頭に立つ歴戦のゴブリン。大規模な隊を指揮する身でありながら、先頭に立って戦場を駆ける。しかしその振る舞いは災禍の渦そのものであり、全てを略奪していく。",
+      "en": "A battle-hardened Goblin at the head of the legion. Though he commands a large force, he leads from the front, charging across the battlefield. Yet his actions are a vortex of calamity, plundering everything in his path.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 642,
+      "id": "rem_00642",
+      "jp": "死都のゴブリンパラディン",
+      "en": "Goblin Paladin of the Death Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 643,
+      "id": "rem_00643",
+      "jp": "死都を蹂躙するほどの巨体に成長した、ゴブリンの英雄。あらゆる敵を叩き潰す圧倒的な戦闘力を持ち、死都を混沌に叩き落とした。",
+      "en": "A Goblin hero who grew to a colossal size capable of ravaging the Death Capital. Possesses overwhelming combat strength to crush all foes, plunging the capital into chaos.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 644,
+      "id": "rem_00644",
+      "jp": "死都のゴブリンチャンピオン",
+      "en": "Goblin Champion of the Death Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 645,
+      "id": "rem_00645",
+      "jp": "ゼカリウスの秘奥を解き明かした領主。人間の領域を超え、魔神に等しい能力を得ている。魔界と接続したことによって本来使えないはずの強大な攻撃魔術を操る。",
+      "en": "A lord who unlocked the secret arts of Zecarius. Transcending human limits, he gained power akin to a demon god. By connecting to the demon realm, he wields immensely powerful attack magic normally unusable.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 646,
+      "id": "rem_00646",
+      "jp": "狂王ゼルカ",
+      "en": "Zelka the Mad King",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 647,
+      "id": "rem_00647",
+      "jp": "ゴブリンの神によって召喚された最初のゴブリンと、月の世界樹が融合されたもの。神に等しい力を振るい、その力は全てゴブリンの生産に使われていた。100年間に繁殖したゴブリンの数は兆を超える。",
+      "en": "A fusion of the first Goblin, summoned by the Goblin God, and the Lunar World Tree. Wields power equal to a god, all dedicated to Goblin production. In a century, the number of Goblins bred surpassed a trillion.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 648,
+      "id": "rem_00648",
+      "jp": "ゴブリンコア",
+      "en": "Goblin Core",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 649,
+      "id": "rem_00649",
+      "jp": "北方に住む巨大な人型魔獣。本来は温厚な性格をしているが、テリトリーを侵された場合は激しく抵抗し、暴れ回る。分厚い毛皮を通常の武器で切り裂くのは非常に難しい。",
+      "en": "A giant humanoid beast dwelling in the north. Naturally gentle, but fiercely defends its territory if invaded. Its thick fur is extremely difficult to cut with ordinary weapons.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 650,
+      "id": "rem_00650",
+      "jp": "イエティ",
+      "en": "Yeti",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

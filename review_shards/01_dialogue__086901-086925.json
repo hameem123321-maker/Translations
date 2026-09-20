@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 86901,
+  "range_end": 86925,
+  "pairs": [
+    {
+      "n": 86901,
+      "id": "db_EventInfo:102649:1",
+      "jp": "ここが【『鍛鉄の街フレスミス』】……？",
+      "en": "This is [The Iron Forging City of Fresmis]...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86902,
+      "id": "db_EventInfo:102651:10",
+      "jp": "かつて、鍛冶屋の街として栄えたと聞いている",
+      "en": "I heard it was once a prosperous blacksmithing city.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 86903,
+      "id": "db_EventInfo:102652:10",
+      "jp": "【『フレスミス森林道』】で同郷の者と住んでいたときは、何度か足を運んだこともあるが……",
+      "en": "When I lived with fellow countrymen in the [Fresmis Forest Road], I came here a few times, but...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 86904,
+      "id": "db_EventInfo:102653:10",
+      "jp": "およそ人が住める場所ではない",
+      "en": "This is no place for people to live.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 86905,
+      "id": "db_EventInfo:102654:105",
+      "jp": "ここはならずもの達の巣窟だ。早くアンジュ殿を見付けなければ",
+      "en": "This is a den of villains. We must find Lady Anju quickly.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 86906,
+      "id": "db_EventInfo:102655:2",
+      "jp": "……ならずものデス？",
+      "en": "...Villains desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86907,
+      "id": "db_EventInfo:102656:1",
+      "jp": "ああ、アンジュが――",
+      "en": "Oh, Anju is...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86908,
+      "id": "db_EventInfo:102657:2",
+      "jp": "ならずものが危ないデス！",
+      "en": "That scoundrel is dangerous!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86909,
+      "id": "db_EventInfo:102658:1",
+      "jp": "おい",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86910,
+      "id": "db_EventInfo:102659:2",
+      "jp": "オマエこそ、アイツを誰だと思ってるデス？",
+      "en": "And you, who do you think that guy is?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86911,
+      "id": "db_EventInfo:102660:2",
+      "jp": "以前、ドワーム族の里で、変な服を着て暴れ回ったのを忘れたデスか",
+      "en": "Have you forgotten? Before, in the Dwarm village, he went crazy in weird clothes.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86912,
+      "id": "db_EventInfo:102661:2",
+      "jp": "あれでちょっと、ドワーム族の里が壊滅しかかってたデス！",
+      "en": "That almost destroyed the whole Dwarm village!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86913,
+      "id": "db_EventInfo:102662:105",
+      "jp": "ああ。怒り狂ったアンジュ殿を止めるのは、我々でも難しい",
+      "en": "Yes. Even we would struggle to stop Lord Anju when he's in a blind rage.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 86914,
+      "id": "db_EventInfo:102663:105",
+      "jp": "多少武器が強い程度の人間などひとたまりもないだろう",
+      "en": "A human who's just a bit stronger with a weapon would stand no chance.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 86915,
+      "id": "db_EventInfo:102664:2",
+      "jp": "ならずものはウチのカネヅルデス！　キズモノにされる前に、さっさと止めるデス！",
+      "en": "The scoundrel is my money-maker! We've got to stop this before he gets hurt!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86916,
+      "id": "db_EventInfo:102666:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86917,
+      "id": "db_EventInfo:102667:0",
+      "jp": "【『鍛鉄の街フレスミス』】の工房はざわついていた。",
+      "en": "The workshop in Forge-City Fresmis was in an uproar.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86918,
+      "id": "db_EventInfo:102669:38",
+      "jp": "おうおう！　お前ら！　何か騒がしくねえか？",
+      "en": "Hey! You all! What's all this noise?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 86919,
+      "id": "db_EventInfo:102670:0",
+      "jp": "彼女の名前はエルザ。",
+      "en": "Her name is Elsa.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86920,
+      "id": "db_EventInfo:102671:0",
+      "jp": "【『鍛鉄の街フレスミス』】の若き女棟梁だ。",
+      "en": "She's the young master builder of 'the Ironforge City of Fresmis'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86921,
+      "id": "db_EventInfo:102672:429",
+      "jp": "姐さん！　襲撃だ！",
+      "en": "Boss! We're under attack!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86922,
+      "id": "db_EventInfo:102673:38",
+      "jp": "ああ？　襲撃だと！？",
+      "en": "Huh? Under attack!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 86923,
+      "id": "db_EventInfo:102674:429",
+      "jp": "へい！　でかい【巨人】が暴れ狂ってるらしいって、見張りの者が！",
+      "en": "Yes! The lookouts say a huge giant is going wild!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86924,
+      "id": "db_EventInfo:102675:38",
+      "jp": "【巨人】だって！？",
+      "en": "A giant!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 86925,
+      "id": "db_EventInfo:102676:429",
+      "jp": "へいっ、そんなヤツ相手に戦えるわけねえです！　さっさと逃げ……",
+      "en": "We can't fight something like that! We gotta run...",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

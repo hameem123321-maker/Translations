@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93951,
+  "range_end": 93975,
+  "pairs": [
+    {
+      "n": 93951,
+      "id": "db_EventInfo:111017:1",
+      "jp": "どういうことだ……？",
+      "en": "What does that mean...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93952,
+      "id": "db_EventInfo:111018:15",
+      "jp": "さて、それは僕らが知るところではないんだが",
+      "en": "Well, that's not for us to know.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93953,
+      "id": "db_EventInfo:111019:15",
+      "jp": "【税金】を徴収しているのは【領主ゼルカ】だ。【『ゼカリウス』】は彼の独裁でね",
+      "en": "The one collecting the taxes is Lord Zelka. Zecarius is his dictatorship.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93954,
+      "id": "db_EventInfo:111020:15",
+      "jp": "独裁と言っても、市民にはそれなりの自由は与えられているんだけど……",
+      "en": "Even though it's a dictatorship, the citizens are given a certain amount of freedom...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93955,
+      "id": "db_EventInfo:111021:15",
+      "jp": "これ以上【税金】が増えれば、不満も大きくなるだろうね",
+      "en": "If the taxes increase any more, the dissatisfaction will grow too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93956,
+      "id": "db_EventInfo:111022:15",
+      "jp": "このままでは農業組合や漁業組合が結託して、クーデター発生、何てことになりかねないな",
+      "en": "If things go on like this, the farmers' and fishermen's unions might join forces. A coup could happen.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93957,
+      "id": "db_EventInfo:111023:15",
+      "jp": "店長君は【『ゼカリウス』】のことはどれだけ知っているんだい？",
+      "en": "How much do you know about Zecarius, store manager?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93958,
+      "id": "db_EventInfo:111024:1",
+      "jp": "いや、海に面した都市というぐらいにしか",
+      "en": "Not much, just that it's a city by the sea.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93959,
+      "id": "db_EventInfo:111025:15",
+      "jp": "うん。【『ゼカリウス』】の別名は【水上都市】",
+      "en": "Yeah. Zecarius is also called the Floating City.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93960,
+      "id": "db_EventInfo:111026:15",
+      "jp": "東の海と西の農業地帯に囲まれ、海と大地に恵まれた豊かな地方だ",
+      "en": "It's a rich region, blessed by the eastern sea and the western farmland.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93961,
+      "id": "db_EventInfo:111027:15",
+      "jp": "だから【『ゼカリウス』】には敵が多くてね。北には【『北方都市ノーザリア』】、南には【『灼熱の都サージ』】がある",
+      "en": "That's why Zecarius has many enemies. To the north is the Northern City of Nosalia. To the south is the Blazing City of Surge.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93962,
+      "id": "db_EventInfo:111028:15",
+      "jp": "どちらも過去に何度も【『ゼカリウス』】と戦争があってね。最近は平和だけど、たまにピリピリするんだ",
+      "en": "Both have fought wars with Zecarius many times in the past. It's peaceful lately, but things sometimes get tense.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93963,
+      "id": "db_EventInfo:111029:15",
+      "jp": "店長君は投資もしているだろう？　よかったら、そこに関わる組織にも支援を頼むよ",
+      "en": "Manager, you're investing too, right? If it's okay, I'd like to ask for support from organizations involved in that as well.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93964,
+      "id": "db_EventInfo:111030:2",
+      "jp": "おいオマエ……客が来ているデス",
+      "en": "Hey you... a customer is here, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93965,
+      "id": "db_EventInfo:111031:1",
+      "jp": "客？",
+      "en": "A customer?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93966,
+      "id": "db_EventInfo:111032:1",
+      "jp": "まあ、今となっては客なんて珍しくないが",
+      "en": "Well, customers aren't rare anymore these days.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93967,
+      "id": "db_EventInfo:111033:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93968,
+      "id": "db_EventInfo:111035:20",
+      "jp": "はじめまして、御主人様",
+      "en": "Nice to meet you, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93969,
+      "id": "db_EventInfo:111036:1",
+      "jp": "はッ――！？",
+      "en": "Hah――!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93970,
+      "id": "db_EventInfo:111037:20",
+      "jp": "私の名前はハヅキ、なんの変哲もない、さすらいの雇われメイドでございます",
+      "en": "My name is Hazuki. I'm just an ordinary wandering hired maid.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93971,
+      "id": "db_EventInfo:111038:20",
+      "jp": "この度はゼカリウスでの開店おめでとうございます。といっても開店してから何十日も経過しているようですが",
+      "en": "Congratulations on opening in Zecarius. Though it seems like dozens of days have passed since the opening.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93972,
+      "id": "db_EventInfo:111039:20",
+      "jp": "ハーヴェスタさんの組合員の方々はすぐに潰れると言ってましたが、私は御主人様ならやれると信じてましたよ。知ったのは昨日ぐらいですけど",
+      "en": "The Harvester's union members said this place would fail immediately, but I believed you could do it, Master. I only found out about it yesterday though.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93973,
+      "id": "db_EventInfo:111040:20",
+      "jp": "そりゃあもう、この店に居着けばチャリンチャリンと儲かると私の第六感が叫んでまして。ちなみに第六感はハヅキ流の基本",
+      "en": "My sixth sense was screaming that if I settled in this shop, the money would just keep rolling in. By the way, sixth sense is a basic part of the Hazuki style.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93974,
+      "id": "db_EventInfo:111041:20",
+      "jp": "明鏡止水で無念無想の境地に至ることができればメイド稼業も万全、家内安全で家の繁栄も約束というものでありまして――",
+      "en": "If you can reach a state of clear mirror, still water, with no thoughts or attachments, maid work becomes perfect, home safety is assured, and family prosperity is guaranteed――",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 93975,
+      "id": "db_EventInfo:111042:1",
+      "jp": "わああああああああああっ！？？",
+      "en": "Whaaaaaaaaat!??",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

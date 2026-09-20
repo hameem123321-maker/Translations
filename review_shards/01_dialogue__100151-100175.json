@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 100151,
+  "range_end": 100175,
+  "pairs": [
+    {
+      "n": 100151,
+      "id": "db_EventInfo:118220:3",
+      "jp": "文献は確か、オーレリアのヤツめが読んでいたな",
+      "en": "I think that document... that Aurelia was reading it.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 100152,
+      "id": "db_EventInfo:118221:1",
+      "jp": "オーレリアか……",
+      "en": "Aurelia, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100153,
+      "id": "db_EventInfo:118222:0",
+      "jp": "ちょっと様子を見てみようかな？",
+      "en": "Maybe I should go check on her?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 100154,
+      "id": "db_EventInfo:118224:108",
+      "jp": "店長よ、ゼルカに持ち去られた文献の解読が終わったぞい",
+      "en": "Boss, I finished deciphering the document that Zelka took.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100155,
+      "id": "db_EventInfo:118225:1",
+      "jp": "おぉ！　これで【『災厄』】の根源に辿りつけるな！",
+      "en": "Wow! Now we can find the source of the Calamity!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 100156,
+      "id": "db_EventInfo:118226:108",
+      "jp": "【黒神殿に祀られている神】の名前が分かったのじゃ！",
+      "en": "I've learned the name of the god enshrined in the Black Temple!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100157,
+      "id": "db_EventInfo:118227:2",
+      "jp": "む？　【『災厄』】の発生源が分かったのではないのデス？",
+      "en": "Huh? So we found where the Calamity comes from, yes?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100158,
+      "id": "db_EventInfo:118228:108",
+      "jp": "まあ聞け……ダムブナック黒神殿は、邪教徒によって邪悪な儀式に使われていたようだが、元々は別の神を奉っていたのじゃ",
+      "en": "Listen... The Dambunak Black Temple was used for evil rituals by cultists, but it originally worshipped a different god.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100159,
+      "id": "db_EventInfo:118229:108",
+      "jp": "名前は【『火の神カストロイア』】",
+      "en": "The name is the Fire God, Castroyia.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100160,
+      "id": "db_EventInfo:118230:3",
+      "jp": "【『カストロイア』】じゃと！？　我らドワームが信仰する【『火の神カストロイア』】様と同じ名前じゃ！",
+      "en": "Castroyia?! That's the same name as the Fire God Castroyia that we Dwarm worship!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 100161,
+      "id": "db_EventInfo:118232:108",
+      "jp": "カストロイアというのは、【『古代王国ゼカリウス』】において信仰されていた【『神』】の名前のようじゃ",
+      "en": "Castroyia seems to be the name of a god worshipped in the Ancient Kingdom of Zecarius.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100162,
+      "id": "db_EventInfo:118233:108",
+      "jp": "だがその実体は、自然精霊をコントロールし、大陸の気象を制御できるという【古代文明の魔導機械】……",
+      "en": "But in truth, it was an ancient magical machine that could control nature spirits and the continent's weather...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100163,
+      "id": "db_EventInfo:118234:108",
+      "jp": "真の名を【『災厄制御機関カストロイア』】というのじゃ",
+      "en": "Its true name is the Calamity Control Unit, Castroyia.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100164,
+      "id": "db_EventInfo:118235:3",
+      "jp": "【『火の神カストロイア』】様が……機械？",
+      "en": "The Fire God Castroyia... is a machine?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 100165,
+      "id": "db_EventInfo:118236:108",
+      "jp": "無論、機械である正体は隠されておった",
+      "en": "Of course, its true nature as a machine was hidden.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100166,
+      "id": "db_EventInfo:118237:108",
+      "jp": "【『古代王国ゼカリウス』】の権力者達は災厄制御機関を神と偽り、それと対話する【巫女や神官】として、自然を制御したのだろう",
+      "en": "The rulers of the Ancient Kingdom of Zecarius pretended the Calamity Control Unit was a god. They controlled nature by having priestesses and priests 'talk' to it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100167,
+      "id": "db_EventInfo:118238:108",
+      "jp": "その有効範囲は大陸全土に及んだとか……そして制御機関によれば大地震に津波、竜巻や大雨洪水といった災厄を自在に操れたそうだ",
+      "en": "Its effective range covered the entire continent... And according to the control agency, it could freely command disasters like earthquakes, tsunamis, tornadoes, and heavy rain floods.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100168,
+      "id": "db_EventInfo:118239:108",
+      "jp": "といっても、自然は人間の手で制御しきれるモノではない。",
+      "en": "But nature isn't something human hands can completely control.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100169,
+      "id": "db_EventInfo:118240:108",
+      "jp": "やがて自然はコントロールを離れ、逆に大災害を引き起こしてしまった……",
+      "en": "Eventually, nature slipped from control and, in turn, caused a great disaster...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100170,
+      "id": "db_EventInfo:118241:108",
+      "jp": "【『災厄』】というカタチでな",
+      "en": "In the form of 'The Calamity'.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100171,
+      "id": "db_EventInfo:118242:2",
+      "jp": "古代にも【『災厄』】は起こってたのデスね",
+      "en": "So, 'The Calamity' happened in ancient times too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 100172,
+      "id": "db_EventInfo:118243:108",
+      "jp": "古代の【『災厄』】――それによって【『古代王国ゼカリウス』】は滅び、海の底に沈んだとされておる",
+      "en": "The ancient 'Calamity'—it's said that because of it, 'The Ancient Kingdom Zecarius' fell and sank to the bottom of the sea.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100173,
+      "id": "db_EventInfo:118244:108",
+      "jp": "現在【『アーマニア海』】と呼ばれる内海には、かつての【『古代王国』】が沈んでおる。【『ゼカリウス』】はその生き残りの民が作ったのだ",
+      "en": "The current inland sea called 'Amanian Sea' holds the sunken 'Ancient Kingdom'. 'Zecarius' was built by its surviving people.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100174,
+      "id": "db_EventInfo:118245:108",
+      "jp": "そして、【『古代王国ゼカリウス』】の最後の王の名前は――ゼルカという",
+      "en": "And, the last king of 'The Ancient Kingdom Zecarius' was named—Zelka.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 100175,
+      "id": "db_EventInfo:118246:1",
+      "jp": "奴が【古代王族の末裔】……？",
+      "en": "He's the descendant of the ancient royal family...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6151,
+  "range_end": 6175,
+  "pairs": [
+    {
+      "n": 6151,
+      "id": "rem_33770",
+      "jp": "【<src>】の[次元切断の一撃]！",
+      "en": "【<src>】's [Dimensional Slash Strike]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6152,
+      "id": "rem_33771",
+      "jp": "単体攻撃 威力[] +  命中[60%] + デバフ特化 + [妄想]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Single attack Power[] + Hit[60%] + Debuff focused + Inflicts [Delusion] (All attack damage -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6153,
+      "id": "rem_33772",
+      "jp": "【<src>】の[恋の誘い]！",
+      "en": "【<src>】's [Love's Seduction]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6154,
+      "id": "rem_33773",
+      "jp": "巨大な津波を作り出し、敵をまとめて叩き潰す。さらに、海賊女帝の威圧により、仲間は後に続くように襲いかかる。一斉に襲撃される様はまさに津波のようである。",
+      "en": "Creates a huge tidal wave to crush all enemies. Then, pressured by the Pirate Empress, allies charge in after her. The combined assault is like a tsunami.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6155,
+      "id": "rem_33774",
+      "jp": "全体攻撃 威力[S+] +  命中[60%] + 【水属性】 + 全チェイス追撃可能",
+      "en": "All attack Power[S+] + Hit[60%] + 【Water】 + Triggers all chase attacks",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6156,
+      "id": "rem_33775",
+      "jp": "【<src>】の[タイダルウェイブ]！",
+      "en": "【<src>】's [Tidal Wave]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6157,
+      "id": "rem_33776",
+      "jp": "【<src>】は[回避アクション]を使用した！",
+      "en": "【<src>】used [Evade Action]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6158,
+      "id": "rem_33777",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 【闇属性】 + [毒化]を付与 (毒によりターンごとにダメージ+10%)",
+      "en": "Single attack Power[] + Hit[70%] + 【Dark】 + Inflicts [Toxic] (Poison deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6159,
+      "id": "rem_33778",
+      "jp": "【<src>】の[ポイズンバイト]！",
+      "en": "【<src>】's [Poison Bite]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6160,
+      "id": "rem_33779",
+      "jp": "単体攻撃 威力[] +  命中[70%]",
+      "en": "Single attack Power[] + Hit[70%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6161,
+      "id": "rem_33780",
+      "jp": "【<src>】の[くすくす笑う]！",
+      "en": "【<src>】[giggles]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6162,
+      "id": "rem_33781",
+      "jp": "謎の技術によって移動するゴーレムを呼び出して味方を守る。効果中はゴーレムが攻撃を肩代わりするため、ダメージが軽減する……らしい。鍛冶姫特別のスキルで強力。",
+      "en": "Summons a golem that moves via mysterious tech to protect allies. While active, the golem takes hits, reducing damage... supposedly. A powerful skill unique to the Forging Princess.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6163,
+      "id": "rem_33782",
+      "jp": "【仲間】に【防御++】を付与 (すべてのダメージ軽減率[+50%])",
+      "en": "Grants 【Ally】 【Defense++】 (All damage reduction [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6164,
+      "id": "rem_33783",
+      "jp": "【<src>】の携帯ゴーレムが仲間を守る！",
+      "en": "【<src>】's pocket golem protects its allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6165,
+      "id": "rem_33784",
+      "jp": "【<src>】は[受け流し斬り]を使用した！",
+      "en": "【<src>】 used [Parry Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6166,
+      "id": "rem_33785",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + 【聖属性】 + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Group Attack. Power[] + Hit[80%] + 【Holy】 + Inflicts [Exhaustion] (Physical damage -50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6167,
+      "id": "rem_33786",
+      "jp": "【<src>】の[浄化のオーラ]！",
+      "en": "【<src>】's [Purification Aura]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6168,
+      "id": "rem_33787",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 連撃率[+30%] + 必殺率[+10%] + HP吸収(小) + 攻撃後パーティー回復",
+      "en": "Single Attack. Power[] + Hit[60%] + Combo Rate[+30%] + Crit Rate[+10%] + HP Drain(Small) + Heals party after attack.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6169,
+      "id": "rem_33788",
+      "jp": "【<src>】の[吸血]！",
+      "en": "【<src>】's [Life Drain]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6170,
+      "id": "rem_33789",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [忘却]を付与 (スキルが使用できなくなる)",
+      "en": "Single Attack. Power[] + Hit[60%] + Inflicts [Amnesia] (Cannot use skills).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6171,
+      "id": "rem_33790",
+      "jp": "【<src>】の[マインドブロウ]！",
+      "en": "【<src>】's [Mind Blow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6172,
+      "id": "rem_33791",
+      "jp": "単体攻撃 威力[] +  命中[80%] + 必殺率[+10%] + HP吸収(小) + 防御貫通(小)",
+      "en": "Single Attack. Power[] + Hit[80%] + Crit Rate[+10%] + HP Drain(Small) + Armor Pierce(Small).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6173,
+      "id": "rem_33792",
+      "jp": "【<src>】の[消化液]！",
+      "en": "【<src>】's [Digestive Fluid]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6174,
+      "id": "rem_33793",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 必殺率[+20%] + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single Attack. Power[] + Hit[60%] + Crit Rate[+20%] + Inflicts [Knockdown] (Crit received chance +50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6175,
+      "id": "rem_33794",
+      "jp": "【<src>】の[突進]！",
+      "en": "【<src>】's [Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

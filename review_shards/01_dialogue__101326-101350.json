@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101326,
+  "range_end": 101350,
+  "pairs": [
+    {
+      "n": 101326,
+      "id": "db_EventInfo:119654:16",
+      "jp": "そうですな。今以上に【『サージ貿易管理局』】に出資すれば問題ありますまい",
+      "en": "Let's see. It shouldn't be a problem if you invest more in the 【『Surge Trade Management Bureau』】 than you do now.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101327,
+      "id": "db_EventInfo:119655:4",
+      "jp": "がんばれよ、てんちょー！",
+      "en": "You can do it, boss!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 101328,
+      "id": "db_EventInfo:119656:2",
+      "jp": "またカネを積めば良いということデスね",
+      "en": "So, it's just about piling up money again.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101329,
+      "id": "db_EventInfo:119659:0",
+      "jp": "資金の余裕を見て、投資してみよう。",
+      "en": "When I have spare funds, I'll try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101330,
+      "id": "db_EventInfo:119661:16",
+      "jp": "【<pl>】さんの商人としての力量と覚悟、しかと見届けました",
+      "en": "I have duly witnessed your skill and resolve as a merchant, 【<pl>】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101331,
+      "id": "db_EventInfo:119662:16",
+      "jp": "【『サージ貿易管理局』】を通じて、【<pl>】さんにサージとの上級交易権を推薦しておきましょう",
+      "en": "I'll recommend to the 'Sage Trade Management Bureau' that they give you, 【<pl>】, a higher-level trade right with Sage.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101332,
+      "id": "db_EventInfo:119663:16",
+      "jp": "これにて、サージ地方とは、ほぼ無制限の交易が可能になりました",
+      "en": "With this, you can trade with the Sage region with almost no limits.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101333,
+      "id": "db_EventInfo:119664:16",
+      "jp": "【『サージ貿易管理局』】では、厳しい取引制限が行なわれておりますが",
+      "en": "The 'Sage Trade Management Bureau' has very strict trade restrictions,",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101334,
+      "id": "db_EventInfo:119665:16",
+      "jp": "【<pl>】さん相手の取引であれば、それも格段に軽くなるでしょう",
+      "en": "But if it's a deal with you, 【<pl>】, those will be much lighter.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101335,
+      "id": "db_EventInfo:119666:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101336,
+      "id": "db_EventInfo:119667:2",
+      "jp": "しかし、なんで厳しい制限なんてあるデス？　サージってのはケチなんデス？",
+      "en": "But why are there such strict rules, desu? Is Sage just stingy, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101337,
+      "id": "db_EventInfo:119668:16",
+      "jp": "サージは海千山千の商人が集まる都",
+      "en": "Sage is a capital where experienced, crafty merchants gather.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101338,
+      "id": "db_EventInfo:119669:5",
+      "jp": "その中には悪どい商人もございます。そういった者が、他国の商材を荒らすことを防ぐものですわ",
+      "en": "Among them are some shady merchants. It's to stop such people from ruining other countries' goods.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101339,
+      "id": "db_EventInfo:119670:2",
+      "jp": "オマエみたいな悪の商人がいるって事デスか。なるほどデス",
+      "en": "You mean there are bad merchants like you, desu? I get it, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101340,
+      "id": "db_EventInfo:119671:5",
+      "jp": "なっ、誰が悪の商人ですかっ……！　私はきわめてまっとうですわ",
+      "en": "Wha—who's a bad merchant?! I am perfectly above board!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101341,
+      "id": "db_EventInfo:119672:16",
+      "jp": "ふぉっふぉっ",
+      "en": "Foh foh.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101342,
+      "id": "db_EventInfo:119673:1",
+      "jp": "(……ハーヴェスタがまとも基準だと、そうとうヤバいな)",
+      "en": "(...If Harvester is the 'above board' standard, things are pretty messed up.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101343,
+      "id": "db_EventInfo:119676:0",
+      "jp": "そのあと、サージとの上級交易権を得たとの通達を受けた。",
+      "en": "After that, I got a notice. It said I now have advanced trade rights with Sarge.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101344,
+      "id": "db_EventInfo:119677:0",
+      "jp": "今後はサージが得意とする商材の品質も上がりそうだ。",
+      "en": "Looks like the quality of Sarge's specialty goods will be better now too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101345,
+      "id": "db_EventInfo:119679:16",
+      "jp": "このたびは、領主への就任おめでとうございます",
+      "en": "Congratulations on officially becoming the lord.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101346,
+      "id": "db_EventInfo:119680:1",
+      "jp": "ムファードさん",
+      "en": "Mufard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101347,
+      "id": "db_EventInfo:119681:16",
+      "jp": "サージの民を代表して、これからもよき交易を求めますよ",
+      "en": "On behalf of the Sarge people, I look forward to good trading from now on.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101348,
+      "id": "db_EventInfo:119682:1",
+      "jp": "こちらこそ",
+      "en": "Same here.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101349,
+      "id": "db_EventInfo:119683:2",
+      "jp": "オマエ、聞くところによると、けっこう偉いヤツと聞いたデス",
+      "en": "You. I hear you're a pretty important guy, I'm told.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101350,
+      "id": "db_EventInfo:119684:2",
+      "jp": "そんなやつが、他の地方をフラフラしてよいデス？",
+      "en": "Should someone like that be wandering around other regions?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

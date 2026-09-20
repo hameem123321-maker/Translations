@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95026,
+  "range_end": 95050,
+  "pairs": [
+    {
+      "n": 95026,
+      "id": "db_EventInfo:112292:15",
+      "jp": "そのために、大金を払ってでも【『天使憑き』】を集めて……親と引き離しているそうだ。親から離れていると【『天使憑き』】の力は長持ちするらしいし",
+      "en": "To do that, they pay big money to gather 'angel-possessed' kids... And separate them from their parents. The power lasts longer away from family, apparently.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95027,
+      "id": "db_EventInfo:112293:2",
+      "jp": "大金と言ったデス？　ということは、マリーゼルは親によって【『<ruby=ヒエペリオ>教会</ruby>』】に売られたということデス？",
+      "en": "Big money? So... Marisel was sold to the 'Church' by her parents?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95028,
+      "id": "db_EventInfo:112294:15",
+      "jp": "そういうことだね",
+      "en": "That's right.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95029,
+      "id": "db_EventInfo:112295:15",
+      "jp": "信仰心の強い親によって預けられることもあるようだけど……彼女の実家である【『クシエル侯爵家』】はあまり裕福じゃないようだから",
+      "en": "Some parents with strong faith do hand them over... But her family, the 'Cusiel Marquis Household', isn't very rich.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95030,
+      "id": "db_EventInfo:112296:2",
+      "jp": "カネは大事デスが、カネのために子供を売るのは考えられないデスね",
+      "en": "Money is important, but selling your kid for it... I can't even imagine.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95031,
+      "id": "db_EventInfo:112297:15",
+      "jp": "そうだね……【『天使憑き』】の多くは親に疎まれるようだからね……",
+      "en": "That's right... Many of the 'Heavenly Possessed' become disliked by their parents...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95032,
+      "id": "db_EventInfo:112298:15",
+      "jp": "なんたって、【神がかり的に運が良い】とか【子供離れして頭が良い】みたいな子供だ。すごい才能なことは確かだけど",
+      "en": "They're kids who are 'insanely lucky' or 'unnaturally smart'. It's true they have amazing talents.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95033,
+      "id": "db_EventInfo:112299:15",
+      "jp": "それを怖がる親も多いんだよ。優れた子供は嬉しいけど、凡才にとって優秀すぎる子供は気持ち悪いもんだ",
+      "en": "But a lot of parents are scared of that. You'd be happy with a gifted child, but an ordinary person might find a child who's too talented to be creepy.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95034,
+      "id": "db_EventInfo:112300:2",
+      "jp": "難儀デスね",
+      "en": "That's a tough situation.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95035,
+      "id": "db_EventInfo:112301:1",
+      "jp": "マリーゼルが子供の頃から親と離されていたことはわかったけど……",
+      "en": "So we know Marisel was taken from her parents as a child...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95036,
+      "id": "db_EventInfo:112302:1",
+      "jp": "じゃあなんで今更、彼女を引き取りに来たんだ？",
+      "en": "Then why are they coming to take her back now?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95037,
+      "id": "db_EventInfo:112303:15",
+      "jp": "さっき【『クシエル侯爵家』】が【王族と密接な関わりがある貴族】って言っただろう？",
+      "en": "Earlier I said the 'House of Marquis Xiel' is a noble family 'closely connected to the royal family', right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95038,
+      "id": "db_EventInfo:112304:15",
+      "jp": "どうやら、そちらの方向からマリーゼルを欲しいと言われているみたいでね……要は政略結婚の道具にしたいのさ",
+      "en": "It seems they're being told from that side that they want Marisel... Basically, they want to use her as a pawn in a political marriage.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95039,
+      "id": "db_EventInfo:112305:15",
+      "jp": "神学校に入れたのは【『<ruby=ヒエペリオ>教会</ruby>』】に売ったという意味と、いざって時のために管理するという理由があったんだろうね",
+      "en": "Sending her to the seminary meant they sold her to the 'Church', and also had her managed for when the time came.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95040,
+      "id": "db_EventInfo:112306:2",
+      "jp": "なんとも救えない親デスね",
+      "en": "Truly irredeemable parents.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95041,
+      "id": "db_EventInfo:112307:1",
+      "jp": "政略結婚って……マリーゼルは知っているのか？",
+      "en": "A political marriage... Does Marisel know about this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95042,
+      "id": "db_EventInfo:112308:15",
+      "jp": "知らないだろうね。彼女は貴族の娘だ、そういう身分の人間には個人の意思は軽んじられるのさ",
+      "en": "I doubt it. She's a noble's daughter. For people of that status, personal feelings are often ignored.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95043,
+      "id": "db_EventInfo:112309:1",
+      "jp": "……これはマリーゼルには言えない話だな",
+      "en": "Yeah... I can't talk to Marisel about this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95044,
+      "id": "db_EventInfo:112311:1",
+      "jp": "今日も仕事を頑張るか……",
+      "en": "Guess I'll work hard again today...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95045,
+      "id": "db_EventInfo:112312:0",
+      "jp": "(クラッ)",
+      "en": "(Crack)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95046,
+      "id": "db_EventInfo:112313:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95047,
+      "id": "db_EventInfo:112314:2",
+      "jp": "おいオマエ、大丈夫デス？",
+      "en": "Hey you, are you okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95048,
+      "id": "db_EventInfo:112315:1",
+      "jp": "あ、ああ……",
+      "en": "Ah, ah... yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95049,
+      "id": "db_EventInfo:112316:2",
+      "jp": "それよりオマエ、マリーゼルの父親が来ているデス",
+      "en": "More importantly, you. Marisel's father is here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95050,
+      "id": "db_EventInfo:112317:2",
+      "jp": "マリーゼルを出せと叫んでるデスよ",
+      "en": "He's yelling to give Marisel back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

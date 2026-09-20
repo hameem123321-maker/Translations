@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4326,
+  "range_end": 4350,
+  "pairs": [
+    {
+      "n": 4326,
+      "id": "rem_31945",
+      "jp": "【<dst>】は忘却の魔術にかけられた！",
+      "en": "【<dst>】 was hit by a forgetting spell!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4327,
+      "id": "rem_31946",
+      "jp": "【<dst>】は正気に戻った！",
+      "en": "【<dst>】 has regained sanity!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4328,
+      "id": "rem_31947",
+      "jp": "忘却",
+      "en": "Forget",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4329,
+      "id": "rem_31948",
+      "jp": "【<dst>】は恐慌状態のため行動できない！",
+      "en": "【<dst>】 cannot act due to panic!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4330,
+      "id": "rem_31949",
+      "jp": "【<dst>】は恐怖状態に陥った！",
+      "en": "【<dst>】 has been overcome with terror!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4331,
+      "id": "rem_31950",
+      "jp": "【<dst>】の恐慌状態から復帰した！",
+      "en": "【<dst>】 has recovered from panic!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4332,
+      "id": "rem_31951",
+      "jp": "恐怖",
+      "en": "Terror",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4333,
+      "id": "rem_31952",
+      "jp": "すべての攻撃ダメージ-30%",
+      "en": "All attack damage -30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4334,
+      "id": "rem_31953",
+      "jp": "【<dst>】は妄想に包まれ行動できない！",
+      "en": "【<dst>】 is lost in delusion and cannot act!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4335,
+      "id": "rem_31954",
+      "jp": "【<dst>】は不思議な妄想に覆われた！",
+      "en": "【<dst>】 has been shrouded in strange delusion!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4336,
+      "id": "rem_31955",
+      "jp": "【<dst>】の妄想が消え去った！",
+      "en": "【<dst>】's delusion has faded!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4337,
+      "id": "rem_31956",
+      "jp": "妄想",
+      "en": "Delusion",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4338,
+      "id": "rem_31957",
+      "jp": "【<dst>】は相手に見とれている！",
+      "en": "【<dst>】 is captivated by the opponent!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4339,
+      "id": "rem_31958",
+      "jp": "【<dst>】は相手に魅了された！",
+      "en": "【<dst>】 has been charmed by the opponent!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4340,
+      "id": "rem_31959",
+      "jp": "【<dst>】はしょうきにもどった！",
+      "en": "【<dst>】 has returned to their senses!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4341,
+      "id": "rem_31960",
+      "jp": "魅了",
+      "en": "Charm",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4342,
+      "id": "rem_31961",
+      "jp": "【<dst>】は欲情した！",
+      "en": "【<dst>】 is aroused!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4343,
+      "id": "rem_31962",
+      "jp": "欲情",
+      "en": "Arousal",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4344,
+      "id": "rem_31963",
+      "jp": "【<dst>】は満腹で動けない……！",
+      "en": "【<dst>】 is too full to move...!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4345,
+      "id": "rem_31964",
+      "jp": "【<dst>】は満腹になってしまった！",
+      "en": "【<dst>】 has become full!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4346,
+      "id": "rem_31965",
+      "jp": "満腹",
+      "en": "Full",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4347,
+      "id": "rem_31966",
+      "jp": "すべての攻撃ダメージ-50%",
+      "en": "All attack damage -50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4348,
+      "id": "rem_31967",
+      "jp": "【<dst>】は呪縛の魔術で行動できない！",
+      "en": "【<dst>】 cannot act due to binding magic!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4349,
+      "id": "rem_31968",
+      "jp": "【<dst>】は呪縛の魔術にかけられた！",
+      "en": "【<dst>】 has been bound by magic!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4350,
+      "id": "rem_31969",
+      "jp": "【<dst>】の呪縛が消え去った！",
+      "en": "【<dst>】's binding has faded!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

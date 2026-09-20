@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8851,
+  "range_end": 8875,
+  "pairs": [
+    {
+      "n": 8851,
+      "id": "rem_36573",
+      "jp": "鳥のアラ肉と骨を何時間も煮込み、旨味を凝縮させたスープ。一口飲めば、心も体も温まる。",
+      "en": "A soup made by simmering chicken scraps and bones for hours to concentrate the flavor. A single sip warms both heart and body.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8852,
+      "id": "rem_36574",
+      "jp": "鶏ガラ煮込みスープ",
+      "en": "Chicken Bone Broth Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8853,
+      "id": "rem_36575",
+      "jp": "肉質を管理し、育て上げたチキンを使用した贅沢な一品。脂がのったジューシーな肉質は、高級な獣肉にも引けを取らない。",
+      "en": "An extravagant dish made from chicken raised and prepared with care for its meat quality. Its juicy, well-marbled meat rivals that of high-end game.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8854,
+      "id": "rem_36576",
+      "jp": "まるまるローストチキン",
+      "en": "Whole Roast Chicken",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8855,
+      "id": "rem_36577",
+      "jp": "穀物を砕いた粉を均等にまぶし、熱した油の海で旨味を閉じ込め、玉子をベースにしたソースを振り掛けた料理。サクリとした歯触りと濃厚な旨味が楽しめる。",
+      "en": "Coated evenly in crushed grain flour, fried in hot oil to lock in flavor, and topped with an egg-based sauce. Enjoy its crispy texture and rich, savory taste.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8856,
+      "id": "rem_36578",
+      "jp": "ソース掛けオイル焼き",
+      "en": "Sauced Oil-Fried Cutlet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8857,
+      "id": "rem_36579",
+      "jp": "鳥肉と野菜を交互に挟むことによって、脂っこさを中和し、さっぱりとした食感に仕上げた人気の焼き肉。シンプルながら引き立つ匂いが食欲をかき立てる。",
+      "en": "Popular grilled meat where chicken and vegetables are skewered alternately, balancing the richness for a refreshing taste. Its simple, enticing aroma stimulates appetite.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8858,
+      "id": "rem_36580",
+      "jp": "異国風の焼き鳥",
+      "en": "Exotic-Style Grilled Chicken",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8859,
+      "id": "rem_36581",
+      "jp": "霊峰の近辺で採取された、神秘的な香辛料で味付けされた焼き鳥。独特の風味が楽しめる上に、不思議な活力が漲る。",
+      "en": "Chicken grilled with mystical spices gathered near the Sacred Peak. Offers a unique flavor and a surge of strange vitality.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8860,
+      "id": "rem_36582",
+      "jp": "霊峰の神秘焼き鳥",
+      "en": "Sacred Peak Mystery Grilled Chicken",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8861,
+      "id": "rem_36583",
+      "jp": "巨大な鳥から取れたもも肉。大きくジューシーで、一度食べると忘れられない味わいを持つが、仕留めるのは命がけ。",
+      "en": "Juicy drumstick from a giant bird. The unforgettable taste is worth the risk of hunting it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8862,
+      "id": "rem_36584",
+      "jp": "巨鳥のドラムスティック",
+      "en": "Giant Bird Drumstick",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8863,
+      "id": "rem_36585",
+      "jp": "内臓をとった小魚を容器に移し、腐敗しないように塩蔵したもの。時間が経つほど旨味が凝縮され、魚本来の味わいを引き出す。",
+      "en": "Gutted small fish packed with salt to preserve them. Their flavor concentrates over time.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8864,
+      "id": "rem_36586",
+      "jp": "保存用密閉小魚",
+      "en": "Preserved Salted Minnows",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8865,
+      "id": "rem_36587",
+      "jp": "採れたばかりの新鮮な魚を丸ごと煮込んだスープ。魚介の旨味が溶けだしたスープは、食通をも唸らせるのだが、魚の骨が喉に突き刺さる弱点がある。",
+      "en": "A soup made from whole, fresh fish. Richly flavorful, but watch out for the bones.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8866,
+      "id": "rem_36588",
+      "jp": "丸ごとフィッシュスープ",
+      "en": "Whole Fish Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8867,
+      "id": "rem_36589",
+      "jp": "柑橘類とハーブで生臭さを消して焼き上げたフィッシュ。圧倒的な存在感は宴会の席でも歓声が上がるほど。ホカホカの身を口に含むと、一日の苦労も報われる。",
+      "en": "Fish roasted with citrus and herbs to remove any fishy taste. A heartwarming, crowd-pleasing dish.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8868,
+      "id": "rem_36590",
+      "jp": "香草焼きフィッシュ",
+      "en": "Herb-Roasted Fish",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8869,
+      "id": "rem_36591",
+      "jp": "麦を砕いた粉を魚介に振り掛け、熱いオイルで旨味ごと閉じ込めた料理。臭みを取り除き、魚介の美味さだけを贅沢に味わえる。",
+      "en": "Seafood coated in flour and deep-fried in hot oil to seal in the flavor without the smell.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8870,
+      "id": "rem_36592",
+      "jp": "熱々フィッシュフライ",
+      "en": "Hot & Crispy Fried Fish",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8871,
+      "id": "rem_36593",
+      "jp": "低温蒸気でしっとり柔らかく仕上げたフィッシュ。この一皿の為に漁に出ている漁師もいるとか。",
+      "en": "Fish steamed at low temperature until tender. A dish worth going fishing for.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8872,
+      "id": "rem_36594",
+      "jp": "蒸し焼きフィッシュ",
+      "en": "Steamed Fish",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8873,
+      "id": "rem_36595",
+      "jp": "ゼカリウス近海で採れた魚を生きたまま捌き、元の形状を損ねずに盛り付けた料理。肉がピクピク動いているのは新鮮さの証拠。調味料を使わずとも、非常に美味。",
+      "en": "Freshly caught Zecarius fish, sliced while still alive and served whole. Its twitching flesh proves its freshness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8874,
+      "id": "rem_36596",
+      "jp": "究極魚介活作り",
+      "en": "Ultimate Live Fish Sashimi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8875,
+      "id": "rem_36597",
+      "jp": "パスタを作る為のスープに魚介をふんだんに取り入れたスープパスタ。濃厚なスープともちもちしたパスタのハーモニーはまさに病み付き。",
+      "en": "A seafood pasta soup with a rich broth made from fish. The chewy pasta and thick soup are addictive.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

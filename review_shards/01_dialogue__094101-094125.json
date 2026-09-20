@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94101,
+  "range_end": 94125,
+  "pairs": [
+    {
+      "n": 94101,
+      "id": "db_EventInfo:111190:1",
+      "jp": "おい、それって【『借金』】というやつでは……？",
+      "en": "Hey, isn't that what you call a ['loan']?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94102,
+      "id": "db_EventInfo:111191:2",
+      "jp": "そうなのデス？",
+      "en": "Is that what it is?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94103,
+      "id": "db_EventInfo:111192:1",
+      "jp": "【『借金』】か……それも返していかないとな。ちなみに誰に借りたんだ？",
+      "en": "A ['loan']... We'll have to pay that back, then. So, who did you borrow it from?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94104,
+      "id": "db_EventInfo:111193:2",
+      "jp": "【『ハーヴェスタ商会』】の使いとか名乗ってたデス",
+      "en": "Someone who said they were a messenger from the ['Harvester Company'].",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94105,
+      "id": "db_EventInfo:111194:2",
+      "jp": "商人の育成や支援をしているとかで、店をやりたいって言ったら、カネをくれたデス",
+      "en": "They said they help train and support merchants. When I told them I wanted to run a shop, they gave me the money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94106,
+      "id": "db_EventInfo:111195:1",
+      "jp": "【『ハーヴェスタ商会』】か……",
+      "en": "The ['Harvester Company']...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94107,
+      "id": "db_EventInfo:111196:2",
+      "jp": "そのうち、向こうからやってくるはずデス",
+      "en": "He should be coming from over there soon, I'm sure.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94108,
+      "id": "db_EventInfo:111197:0",
+      "jp": "★アナザービュー",
+      "en": "★ANOTHER VIEW",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94109,
+      "id": "db_EventInfo:111199:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, around that time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94110,
+      "id": "db_EventInfo:111200:5",
+      "jp": "【あの土地】で新しい店ができた……この報告書は本当なのかしら？",
+      "en": "A new shop in [that land]... Is this report true, I wonder?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94111,
+      "id": "db_EventInfo:111201:144",
+      "jp": "はっ",
+      "en": "Gasp.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94112,
+      "id": "db_EventInfo:111202:5",
+      "jp": "ふむ……<shop>、ね。営業許可の申請もあり、冒険者ギルドとしての活動も開始された、ということだけど",
+      "en": "Hmm... <shop>, huh. It says they've applied for a business permit and have also begun operating as an adventurer's guild.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94113,
+      "id": "db_EventInfo:111203:5",
+      "jp": "数多の店舗が開店しては消えていく【死神の土地】……あの場所で店を開くとか正気かしら",
+      "en": "Countless shops have opened and vanished in the [Shinigami's land]... Are they in their right mind, opening a shop there?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94114,
+      "id": "db_EventInfo:111204:144",
+      "jp": "長らく、あの土地で商店をやりたがる者は現れなかったと聞いておりますが。酔狂な輩が現れたものです",
+      "en": "I hear no one has wanted to run a store on that land for a long time. It seems an eccentric fool has appeared.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94115,
+      "id": "db_EventInfo:111205:5",
+      "jp": "ふむ。それにこのような金額……実績の無い商人に、これほどの大金を貸し与えたのですか？",
+      "en": "Hmm. And this sum of money... You lent this huge amount to a merchant with no track record?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94116,
+      "id": "db_EventInfo:111206:144",
+      "jp": "え、ええ……その、女主人と話をしていたら、いつのまにか……",
+      "en": "Uh, yes... Well, while I was talking with the proprietress, before I knew it...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94117,
+      "id": "db_EventInfo:111207:5",
+      "jp": "まったく、嘆かわしい",
+      "en": "Utterly deplorable.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94118,
+      "id": "db_EventInfo:111208:144",
+      "jp": "も、申し訳ありません",
+      "en": "M-my apologies.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94119,
+      "id": "db_EventInfo:111209:5",
+      "jp": "まあいいです。契約書は有効のようですし、しばらくは様子を見ましょう",
+      "en": "Oh, well. The contract seems valid, so let's just watch how things go for now.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94120,
+      "id": "db_EventInfo:111210:144",
+      "jp": "はっ",
+      "en": "Yes, ma'am.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94121,
+      "id": "db_EventInfo:111211:0",
+      "jp": "★アナザービュー",
+      "en": "★ ANOTHER VIEW",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94122,
+      "id": "db_EventInfo:111213:5",
+      "jp": "<shop>の経営は順調なようね",
+      "en": "The shop seems to be running smoothly.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94123,
+      "id": "db_EventInfo:111214:5",
+      "jp": "数多の店舗が開店しては消えていく【死神の土地】……いまだ潰れていないのは驚きです",
+      "en": "Countless shops open and vanish in the Shinigami's land... I'm surprised it hasn't gone under yet.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94124,
+      "id": "db_EventInfo:111215:5",
+      "jp": "聞くところによると、【変な格好】の女主人がいるそうね？",
+      "en": "I hear there's a mistress with... a strange outfit?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94125,
+      "id": "db_EventInfo:111216:144",
+      "jp": "はっ",
+      "en": "Yes, ma'am.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9401,
+  "range_end": 9425,
+  "pairs": [
+    {
+      "n": 9401,
+      "id": "rem_37123",
+      "jp": "錠剤ヒールポーション",
+      "en": "Healing Pill Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9402,
+      "id": "rem_37124",
+      "jp": "最高品質の薬草をふんだんに使った回復ポーション。瀕死の重傷もたちどころに治療する回復力はベテラン冒険者の切り札として人気が高い。",
+      "en": "A potent healing potion made from premium herbs. Its ability to instantly heal near-fatal wounds makes it a veteran adventurer's favorite.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9403,
+      "id": "rem_37125",
+      "jp": "メガポーション",
+      "en": "Mega Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9404,
+      "id": "rem_37126",
+      "jp": "毒を治しながら傷を癒すことができるポーション。猛毒を持った相手と戦う際に、重要な役目を果たす。",
+      "en": "A potion that heals wounds and cures poison. Essential when fighting venomous foes.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9405,
+      "id": "rem_37127",
+      "jp": "キュアポーション",
+      "en": "Cure Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9406,
+      "id": "rem_37128",
+      "jp": "あらゆる状態異常を回復するポーション。毒も麻痺も石化も回復する、最強の治療薬。危険な魔獣と戦うベテラン冒険者のみならず、富裕層にも好んで購入される。",
+      "en": "A potion that cures all status ailments. It heals poison, paralysis, and even petrification. Prized by veteran adventurers and the wealthy alike.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9407,
+      "id": "rem_37129",
+      "jp": "スーパー万能薬",
+      "en": "Super Elixir",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9408,
+      "id": "rem_37130",
+      "jp": "傷を治し、体力を全回復することができるポーション。後日、回復の反動が訪れるが、命の危機に使わない手はない。",
+      "en": "A potion that heals wounds and fully restores vitality. Has a recoil effect later, but is invaluable in a life-or-death crisis.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9409,
+      "id": "rem_37131",
+      "jp": "フルポーション",
+      "en": "Full Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9410,
+      "id": "rem_37132",
+      "jp": "天才薬師ウィルチの名前を冠する最上級の回復ポーション。魔女達からからも成分を認められるライセンス品で、飲むと若返る……と言われるほどの回復力がある。",
+      "en": "The highest-grade healing potion, named after the genius apothecary Wilch. Licensed by witches for its ingredients, its restorative power is said to rejuvenate the drinker.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9411,
+      "id": "rem_37133",
+      "jp": "ウィルチのエリクサー",
+      "en": "Wilch's Elixir",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9412,
+      "id": "rem_37134",
+      "jp": "木の実を使った大人のクッキー。甘すぎず、大人達も愛食する。飲み物が欲しくなる人気のスイーツ。子供と女冒険者が大好き。",
+      "en": "An adult cookie made with nuts. Not too sweet, popular with grown-ups. A popular sweet that makes you thirsty. Loved by children and female adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9413,
+      "id": "rem_37135",
+      "jp": "ビタークッキー",
+      "en": "Bitter Cookie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9414,
+      "id": "rem_37136",
+      "jp": "小麦粉を練って焼き上げた、シンプルなドーナツ。シンプルな中に感じられる、仄かな甘さが人気の秘訣。",
+      "en": "A simple donut made from kneaded and baked flour. Its subtle sweetness is the secret to its popularity.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9415,
+      "id": "rem_37137",
+      "jp": "シンプルドーナツ",
+      "en": "Simple Donut",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9416,
+      "id": "rem_37138",
+      "jp": "砂糖を練り込んで作った、シンプルなキャンディー。安価なので子供に好まれているが、携帯できるので旅に持っていく女冒険者もいるらしい。",
+      "en": "A simple candy made with kneaded sugar. Cheap and popular with kids, but some female adventurers carry it on their travels.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9417,
+      "id": "rem_37139",
+      "jp": "ぐるぐるキャンディ",
+      "en": "Swirl Candy",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9418,
+      "id": "rem_37140",
+      "jp": "とろけるように甘いクリームを練り込まれたパン。かなりの贅沢品で、庶民はなかなか口にできない。女の子に大人気。",
+      "en": "A bread kneaded with melt-in-your-mouth sweet cream. Quite a luxury, rarely eaten by commoners. Extremely popular with girls.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9419,
+      "id": "rem_37141",
+      "jp": "エンジェルクリーム",
+      "en": "Angel Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9420,
+      "id": "rem_37142",
+      "jp": "プルプルした可愛らしいスイーツ。皿の先に、何者かの視線を感じる……。",
+      "en": "A cute, wobbly dessert. You feel someone's gaze from the edge of the plate...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9421,
+      "id": "rem_37143",
+      "jp": "スライムプリン",
+      "en": "Slime Pudding",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9422,
+      "id": "rem_37144",
+      "jp": "薬草を利用した高級菓子。女子が好きな甘味物でありながら、体力も回復する。なかなかの高級品。健康に良く、保存も利くので女冒険者にも好まれている。",
+      "en": "A high-class sweet made with medicinal herbs. Beloved by girls for its sweetness, it also restores health. A quality item that's popular with female adventurers for being healthy and long-lasting.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9423,
+      "id": "rem_37145",
+      "jp": "フォーチュンクッキー",
+      "en": "Fortune Cookie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9424,
+      "id": "rem_37146",
+      "jp": "熱を扱う魔術によって作られた凍ったお菓子。お腹いっぱいに食べた後でも別腹で一杯入ってしまう。案外、お腹に貯まる甘いスイーツ。",
+      "en": "A frozen treat created with heat-based magic. It fits into the 'dessert stomach' even after a full meal. A surprisingly filling sweet.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9425,
+      "id": "rem_37147",
+      "jp": "とろけるアイスクリン",
+      "en": "Melting Ice Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

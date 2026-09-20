@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1226,
+  "range_end": 1250,
+  "pairs": [
+    {
+      "n": 1226,
+      "id": "rem_11655",
+      "jp": "体力バカ",
+      "en": "Stamina Freak",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1227,
+      "id": "rem_11656",
+      "jp": "他人とすぐに打ち解ける会話上手デス",
+      "en": "",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 1228,
+      "id": "rem_11657",
+      "jp": "コミュ強者",
+      "en": "Communication Expert",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1229,
+      "id": "rem_11658",
+      "jp": "陰のある根暗な印象を与える特性デス。相手と向かいあって会話するのは苦手デス",
+      "en": "A gloomy, dark aura that makes face-to-face conversation difficult.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1230,
+      "id": "rem_11659",
+      "jp": "陰キャラ",
+      "en": "Gloomy Character",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1231,
+      "id": "rem_11660",
+      "jp": "あまり普通の生き方ができない性格をしているデス",
+      "en": "A personality that can't quite live a normal life.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1232,
+      "id": "rem_11661",
+      "jp": "刹那的",
+      "en": "Live in the Moment",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1233,
+      "id": "rem_11662",
+      "jp": "包み込むような母性で男性を虜にする資質デス。非常に稀少で得難い、天性の能力デス",
+      "en": "An enveloping maternal charm that captivates men. A rare and precious innate quality.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1234,
+      "id": "rem_11663",
+      "jp": "溢れる母性",
+      "en": "Overflowing Motherly Charm",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1235,
+      "id": "rem_11664",
+      "jp": "昼間と夜では別人のような二面性を持つデス。そのギャップに魅力を感じる者もいるようだデス",
+      "en": "Has two faces, like a different person between day and night. Some find this gap charming.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1236,
+      "id": "rem_11665",
+      "jp": "夜は別の顔",
+      "en": "A Different Face at Night",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1237,
+      "id": "rem_11666",
+      "jp": "手入れが行き届いた女性の肌デス。綺麗すぎて観賞したくなるデス",
+      "en": "A woman's skin, perfectly cared for. So beautiful it's almost like art.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1238,
+      "id": "rem_11667",
+      "jp": "肌美人",
+      "en": "Beautiful Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1239,
+      "id": "rem_11668",
+      "jp": "ザラザラとした皮膚の異常デス。見ただけで男の気が萎えてしまうデス",
+      "en": "A rough, abnormal skin condition. The sight alone deflates a man's spirits.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1240,
+      "id": "rem_11669",
+      "jp": "サメ肌",
+      "en": "Shark Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1241,
+      "id": "rem_11670",
+      "jp": "もちもちな女性の肌デス。抱いたらやみつきデス",
+      "en": "Soft and bouncy skin. You'll get addicted to holding her.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1242,
+      "id": "rem_11671",
+      "jp": "もちもち肌",
+      "en": "Soft Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1243,
+      "id": "rem_11672",
+      "jp": "なんでもできる伝説のスーパーメイドデス。あらゆる仕事の才能を持つインチキ個性デス",
+      "en": "A legendary super maid who can do anything. A fake personality with talent for all kinds of work.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1244,
+      "id": "rem_11673",
+      "jp": "スーパーメイド",
+      "en": "Super Maid",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1245,
+      "id": "rem_11674",
+      "jp": "本心を相手に悟らせず、客の望む態度を演じることができる能力デス",
+      "en": "The ability to hide your true feelings and act the way the customer wants.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1246,
+      "id": "rem_11675",
+      "jp": "演技派",
+      "en": "Talented Actress",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1247,
+      "id": "rem_11676",
+      "jp": "多くの人の心を掴む女性の特性デス。この特性を持つ人間を目当てに人が集まるほどの、強力な能力デス",
+      "en": "A woman's trait that captures many hearts. A powerful ability that draws crowds.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1248,
+      "id": "rem_11677",
+      "jp": "大女優",
+      "en": "Star Actress",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1249,
+      "id": "rem_11678",
+      "jp": "被虐趣味で苦痛を受けることに悦びを見出すデス",
+      "en": "A masochist who finds joy in receiving pain.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1250,
+      "id": "rem_11679",
+      "jp": "マゾヒスト",
+      "en": "Masochist",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    }
+  ]
+}

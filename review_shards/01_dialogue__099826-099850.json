@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99826,
+  "range_end": 99850,
+  "pairs": [
+    {
+      "n": 99826,
+      "id": "db_EventInfo:117822:2",
+      "jp": "エリオルダはどうしたデス！？",
+      "en": "What happened to Eliorda!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99827,
+      "id": "db_EventInfo:117823:4",
+      "jp": "アイツは向こうにいるぞ、はやく助けに……【『だむぶなっくくろしんでん』】に向かうんだぞ……",
+      "en": "She's over there. You have to hurry and save her... Head to the 'Dam Black Death Shrine'...",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99828,
+      "id": "db_EventInfo:117824:1",
+      "jp": "【『だむぶなっくくろしんでん』】……？",
+      "en": "The 'Dam Black Death Shrine'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99829,
+      "id": "db_EventInfo:117825:9",
+      "jp": "【『ダムブナック黒神殿』】……であるか？　そのような地名、聞いたことがないであるな",
+      "en": "The 'Dam Black Death Shrine'... is it? I have not heard of such a place name.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99830,
+      "id": "db_EventInfo:117826:11",
+      "jp": "【『ダムブナック』】というのだから【『ダムブナックの森』】の中にあるのよね？",
+      "en": "Since it's called 'Dam Black', it must be inside the 'Dam Black Forest', right?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 99831,
+      "id": "db_EventInfo:117827:11",
+      "jp": "【『ダムブナック林業組合』】の人に聞いてみたらわかるかしら？",
+      "en": "Maybe we should ask someone from the 'Dambknack Forestry Union'?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 99832,
+      "id": "db_EventInfo:117828:1",
+      "jp": "よし、手分けして組合の人を探して――",
+      "en": "Alright, let's split up and find someone from the union--",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99833,
+      "id": "db_EventInfo:117830:4",
+      "jp": "そんな時間はねーぞ！",
+      "en": "We don't have time for that!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99834,
+      "id": "db_EventInfo:117831:1",
+      "jp": "ウルフィナ！？",
+      "en": "Wolfina!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99835,
+      "id": "db_EventInfo:117832:2",
+      "jp": "お前、ケガは……あれ、無くなってるデス",
+      "en": "You, your injuries... huh, they're gone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99836,
+      "id": "db_EventInfo:117833:4",
+      "jp": "休憩したら回復したぞ。ケモミミの回復力をなめるなー！",
+      "en": "I recovered after resting. Don't underestimate the recovery power of a Kemomimi!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99837,
+      "id": "db_EventInfo:117834:4",
+      "jp": "おいてんちょー、さっさとナガミミを助けにいくぞ！",
+      "en": "Boss, let's go save Nagamimi now!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99838,
+      "id": "db_EventInfo:117835:3",
+      "jp": "そうじゃ、早く救出するのじゃ！",
+      "en": "That's right, we must rescue them quickly!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 99839,
+      "id": "db_EventInfo:117836:1",
+      "jp": "でも詳しい場所が……",
+      "en": "But we don't know the exact location...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99840,
+      "id": "db_EventInfo:117837:4",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99841,
+      "id": "db_EventInfo:117838:4",
+      "jp": "そういえば、ナガミミが、【ちず】を持って行けって言ってたな、ほら！",
+      "en": "Now that you mention it, Nagamimi said to take the [map]. Here, look!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99842,
+      "id": "db_EventInfo:117839:2",
+      "jp": "おお、詳しい場所が書かれているデス。さすがはエリオルダデスね",
+      "en": "Wow, the exact location is written here. As expected of Eliorda.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99843,
+      "id": "db_EventInfo:117840:1",
+      "jp": "よし、急いでエリオルダを救出しよう！",
+      "en": "Okay, let's hurry and rescue Eliorda!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99844,
+      "id": "db_EventInfo:117841:2",
+      "jp": "待つデス、エリオルダ救出もそうデスが、そもそもの目的は領主ゼルカを捕まえることデス",
+      "en": "Wait. Rescuing Eliorda is important, but our main goal is to catch Lord Zelka.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99845,
+      "id": "db_EventInfo:117842:9",
+      "jp": "邪教の神殿の位置は、異端審問官の黒将軍にも報せておくとしよう",
+      "en": "I should also let the Black General, the Inquisitor, know the location of the heretics' temple.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99846,
+      "id": "db_EventInfo:117845:0",
+      "jp": "【『ダムブナック黒神殿』】に向かい、エリオルダを救出しよう！",
+      "en": "Head to the 'Damn Black Temple' and rescue Eliorda!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99847,
+      "id": "db_EventInfo:117848:2",
+      "jp": "ゼルカめ、往生際が悪いデス……",
+      "en": "Zelka... you just won't give up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99848,
+      "id": "db_EventInfo:117849:1",
+      "jp": "【『ダムブナック黒神殿』】にいることは確かなんだよな",
+      "en": "We're sure she's in the 'Damn Black Temple', right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99849,
+      "id": "db_EventInfo:117850:2",
+      "jp": "エリオルダも救出しないと、ウルフィナの働きが無駄になってしまうデス",
+      "en": "We have to save Eliorda, or Wolfina's hard work will be for nothing.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99850,
+      "id": "db_EventInfo:117853:1",
+      "jp": "ん？　何だ？　地震？",
+      "en": "Huh? What's that? An earthquake?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

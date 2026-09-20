@@ -1,0 +1,211 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2951,
+  "range_end": 2975,
+  "pairs": [
+    {
+      "n": 2951,
+      "id": "db_EventInfo:3219:2",
+      "jp": "そういうわけで、友好的になった組織は、ウチに対して協力的になるデス",
+      "en": "So, when those groups get friendly, they become cooperative with our store, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2952,
+      "id": "db_EventInfo:3220:2",
+      "jp": "それらの組織に所属する人間の強さがアップするデスし、ウチの店を積極的に使って、より多くのカネを落としてくれるようになるはずデス",
+      "en": "The people in those groups get stronger, Death. And they'll use our shop more, spending even more money, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2953,
+      "id": "db_EventInfo:3221:1",
+      "jp": "カネを与えて、より多くのカネを落としてもらう、か……",
+      "en": "We give them money, so they'll spend more money...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2954,
+      "id": "db_EventInfo:3222:2",
+      "jp": "経済は回していくのが健全デス",
+      "en": "Keeping the economy moving is healthy, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2955,
+      "id": "db_EventInfo:3223:2",
+      "jp": "取引する【『組織』】がレベルアップすることは、単純に仲が良くなることを意味するデス。また、組織の勢力も増すデス",
+      "en": "When the 'Organization' you trade with levels up, it basically means you're getting along better. And the organization's power grows too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2956,
+      "id": "db_EventInfo:3224:2",
+      "jp": "カネを突っ込めば突っ込むほど、組織が勢いづくということデスね。カネの力で【世界のパワーバランス】を調整してやるデス",
+      "en": "The more money you pour in, the stronger the organization becomes. Use money to tweak the 'world's power balance'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2957,
+      "id": "db_EventInfo:3225:2",
+      "jp": "【『設備投資』】では、店の設備をパワーアップさせて、【『店員』】を働きやすくするデス。店を直接パワーアップするデス",
+      "en": "'Facility Investment' powers up your shop's equipment. It makes things easier for your 'employees'. It directly makes the shop better.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2958,
+      "id": "db_EventInfo:3226:2",
+      "jp": "【『店員』】に適切な労働環境を与えることで、より効率的にカネを稼がせることが可能になるデス",
+      "en": "Give your 'employees' a good work environment. Then they can make money for you more efficiently.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2959,
+      "id": "db_EventInfo:3227:2",
+      "jp": "まあ、多少効率が悪くても、長い時間働かせれば稼げるといえば稼げるデス",
+      "en": "Well, even if it's not that efficient, if you make them work really long hours, they'll still make money... eventually.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2960,
+      "id": "db_EventInfo:3228:1",
+      "jp": "（悪い顔してる……）",
+      "en": "(He's got a mean look on his face...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2961,
+      "id": "db_EventInfo:3229:2",
+      "jp": "【『メテトス百穴古墳』】の攻略、おつかれだったデス。あそこには、まだまだ色んな素材が眠っているようデス",
+      "en": "Good work clearing 'Metetoss Hyakketsu Kofun'. Looks like there are still all kinds of materials sleeping in there.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2962,
+      "id": "db_EventInfo:3230:1",
+      "jp": "【『商品』】を開発するには【『開発ポイント』】が必要だけど、いちいち【『ダンジョン』】を探索するのは面倒だな",
+      "en": "Developing 'products' needs 'development points', but it's a pain to have to go explore a 'dungeon' every single time.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 2963,
+      "id": "db_EventInfo:3231:2",
+      "jp": "ならば人を使うデス。ウチはそもそも冒険者ギルド、冒険者を使うのが本分デス",
+      "en": "Then use people. We're an adventurer's guild at heart. Using adventurers is our main job.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2964,
+      "id": "db_EventInfo:3232:2",
+      "jp": "それを使うのは【『資源投資』】デス。【『投資メニュー』】から実行できるデスよ",
+      "en": "That's what 'Resource Investment' is for. You can do it from the 'Investment Menu'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2965,
+      "id": "db_EventInfo:3233:2",
+      "jp": "★ガイド・【『投資メニュー』】から【『資源投資』】を開く",
+      "en": "★ Guide: Open 'Resource Investment' from the 'Investment Menu'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2966,
+      "id": "db_EventInfo:3234:2",
+      "jp": "【『資源投資』】はオマエが攻略したダンジョンを収益物件に変えるデス",
+      "en": "'Resource Investment' turns dungeons you've cleared into money-making properties.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2967,
+      "id": "db_EventInfo:3235:2",
+      "jp": "ダンジョンの周りにキャンプ地などを整備して、一般冒険者を派遣するデス。お礼とし、冒険者の成果の分け前を貰うデス",
+      "en": "We set up camps around the dungeon and send out regular adventurers. As thanks, we get a share of what they find.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2968,
+      "id": "db_EventInfo:3236:2",
+      "jp": "具体的には、ダンジョンから定期的に【開発ポイント】をもらえるようになるデス。いちいち自分で探索に行かなくなるから、楽になるデスね！",
+      "en": "Specifically, we start getting [Development Points] regularly from the dungeon. It's easier because we don't have to go explore ourselves!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2969,
+      "id": "db_EventInfo:3237:2",
+      "jp": "カネをかければ、【『開発ポイント』】もガッポガッポ、そうしたら新しい【『商品』】を開発しまくって、さらに利益を増やせるはずデス！",
+      "en": "If we spend money, we'll get lots of [Development Points]. Then we can develop loads of new [Products] and make even more profit!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2970,
+      "id": "db_EventInfo:3238:2",
+      "jp": "たくさんダンジョンを攻略して、どんどん開発したいデスね！",
+      "en": "We want to conquer lots of dungeons and keep developing!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2971,
+      "id": "db_EventInfo:3239:8",
+      "jp": "【『H部屋開発』】では、【『搾精ルーム』】で行われる、いかがわしいプレイを開発することが出来るよД",
+      "en": "With [H-Room Development], you can develop the naughty play that happens in the [Semen Extraction Room]Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 2972,
+      "id": "db_EventInfo:3240:2",
+      "jp": "なんてモノを増やすんデス！　うちの店にいかがわしいモノを作るなデス！",
+      "en": "What kind of stuff is that?! Don't make naughty things in our shop!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2973,
+      "id": "db_EventInfo:3241:8",
+      "jp": "え？　でも儲かるんだよ",
+      "en": "Huh? But it makes money.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 2974,
+      "id": "db_EventInfo:3242:2",
+      "jp": "話を続けるデス",
+      "en": "Let's continue talking.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 2975,
+      "id": "db_EventInfo:3243:1",
+      "jp": "おい",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

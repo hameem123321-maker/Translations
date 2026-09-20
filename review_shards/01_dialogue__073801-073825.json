@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73801,
+  "range_end": 73825,
+  "pairs": [
+    {
+      "n": 73801,
+      "id": "db_EventInfo:87289:15",
+      "jp": "【『ノーザリアとの平和条約』】が締結されている以上、何かの見間違いだと思うんだけど",
+      "en": "Since 【『the Peace Treaty with Northerlia』】 has been established, I think it must be a case of mistaken identity.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73802,
+      "id": "db_EventInfo:87290:15",
+      "jp": "うん。まあ、見かけた海域は潮の流れが速くて、漁師達ですら寄り付かないし",
+      "en": "Yeah. Well, the area where it was seen has strong currents. Even the fishermen avoid it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73803,
+      "id": "db_EventInfo:87291:15",
+      "jp": "とくに魚が捕れる場所でもないから、うろつく理由もないだろうけどさ",
+      "en": "It's not even a good fishing spot, so there's no reason for them to be hanging around.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73804,
+      "id": "db_EventInfo:87292:1",
+      "jp": "ふむ……よくわからない話だな",
+      "en": "Hmm... I don't really get what you're talking about.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73805,
+      "id": "db_EventInfo:87295:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, at that time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73806,
+      "id": "db_EventInfo:87296:24",
+      "jp": "将軍、【『魔の島』】を発見しました",
+      "en": "General, we have located Demon Island.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73807,
+      "id": "db_EventInfo:87297:33",
+      "jp": "おお、やっとかね！　まったく、待たせてくれたものだ！",
+      "en": "Oh, finally! You certainly kept me waiting!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73808,
+      "id": "db_EventInfo:87298:33",
+      "jp": "それで、よもや発見しただけで終わりではないだろうね？",
+      "en": "So, I trust you haven't stopped at just finding it?",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73809,
+      "id": "db_EventInfo:87299:24",
+      "jp": "はっ、現在漁船にカモフラージュした軍艦を近付け、基地の建設を進めております",
+      "en": "Understood! We have disguised warships as fishing boats and are moving them close to begin constructing a base.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73810,
+      "id": "db_EventInfo:87300:24",
+      "jp": "【『平和条約』】により、ノーザリアの船が航行しても不審がられることはありません。工作は簡単でしたわ",
+      "en": "Thanks to the Peace Treaty, Northerlia's ships can sail without raising suspicion. The covert operation was simple.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73811,
+      "id": "db_EventInfo:87301:33",
+      "jp": "うむ、よろしい",
+      "en": "Good.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73812,
+      "id": "db_EventInfo:87302:33",
+      "jp": "ククク、あの女狐め、上手くやったものだねェ",
+      "en": "Heheh, that fox of a woman played her part well.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73813,
+      "id": "db_EventInfo:87303:33",
+      "jp": "引き続き【『魔の島』】を探索し、【『魔海要塞』】の起動を急ぎたまえ",
+      "en": "Continue exploring Demon Island and expedite the activation of the Demon Sea Fortress.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73814,
+      "id": "db_EventInfo:87304:24",
+      "jp": "はっ",
+      "en": "Understood.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73815,
+      "id": "db_EventInfo:87305:33",
+      "jp": "ククク……愚かなゼカリウスの民め、この海の、真の所有者が誰か、知らしめてくれる",
+      "en": "Kukuku... You foolish people of Zecarius. I'll show you who the true owner of this sea is.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73816,
+      "id": "db_EventInfo:87307:8",
+      "jp": "【『縁』】を失った皆が、戻ってきてくれたみたいだね、お兄ちゃん",
+      "en": "It looks like everyone who lost their [『Connections』] came back, big brother.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73817,
+      "id": "db_EventInfo:87308:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73818,
+      "id": "db_EventInfo:87309:8",
+      "jp": "でも、まだ安心はできないよ。せっかく皆を取り戻しても、またシェルフィにやられちゃったら、元も子もないもんД",
+      "en": "But we can't relax yet. Even if we got everyone back, if Shelfi does it again, we'll lose it all.Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73819,
+      "id": "db_EventInfo:87310:8",
+      "jp": "お兄ちゃんはエッチな女の子に弱いからねぇД",
+      "en": "Because you're weak against sexy girls, big brother.Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73820,
+      "id": "db_EventInfo:87311:1",
+      "jp": "ううっ……言い返せない",
+      "en": "Ugh... I can't argue with that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73821,
+      "id": "db_EventInfo:87312:1",
+      "jp": "しかしそんなことを言われても、どうやってシェルフィに対策すればいいんだ",
+      "en": "But even if you say that, how am I supposed to counter Shelfi?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73822,
+      "id": "db_EventInfo:87313:8",
+      "jp": "そんなの決まってるよぉД　悪いことをした子は、しっかり懲らしめてあげなくちゃねД",
+      "en": "That's obvious.Д A bad girl needs to be properly punished, right?Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73823,
+      "id": "db_EventInfo:87314:8",
+      "jp": "お兄ちゃんの【『死神』】パワーで、アイツの立場を分からせちゃおД",
+      "en": "We'll use your [『Shinigami』] power to make her understand her place.Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73824,
+      "id": "db_EventInfo:87315:1",
+      "jp": "いや、そんなこと言われても……相手は【『淫魔』】だろ？　いったいどうやって……",
+      "en": "Wait, even if you say that... she's a [『Succubus』], right? How exactly do I...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73825,
+      "id": "db_EventInfo:87316:8",
+      "jp": "心配ないよД　だって、今度のお兄ちゃんには、ルーシェがいるもんД",
+      "en": "Don't worry.Д Because this time, big brother has Lusche with him.Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    }
+  ]
+}

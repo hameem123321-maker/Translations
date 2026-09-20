@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4226,
+  "range_end": 4250,
+  "pairs": [
+    {
+      "n": 4226,
+      "id": "rem_31845",
+      "jp": "【<dst>】に魔界化の効果が与えられた！",
+      "en": "Demonic effect cast on 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4227,
+      "id": "rem_31846",
+      "jp": "【<dst>】の魔界化効果が消えた……",
+      "en": "Demonic effect on 【<dst>】 has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4228,
+      "id": "rem_31847",
+      "jp": "魔界化",
+      "en": "Demonic Realm",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4229,
+      "id": "rem_31848",
+      "jp": "単体攻撃以外のダメージ-40%",
+      "en": "Non-single-target DMG -40%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4230,
+      "id": "rem_31849",
+      "jp": "【<dst>】に矢逸らしの効果が与えられた！",
+      "en": "Arrow Deflection effect cast on 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4231,
+      "id": "rem_31850",
+      "jp": "【<dst>】の矢逸らし効果が消えた……",
+      "en": "Arrow Deflection effect on 【<dst>】 has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4232,
+      "id": "rem_31851",
+      "jp": "矢逸らし",
+      "en": "Arrow Deflection",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4233,
+      "id": "rem_31852",
+      "jp": "単体攻撃以外のダメージ-80%",
+      "en": "Non-single-target DMG -80%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4234,
+      "id": "rem_31853",
+      "jp": "【<dst>】にプロテクトの効果が与えられた！",
+      "en": "Protect effect cast on 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4235,
+      "id": "rem_31854",
+      "jp": "【<dst>】のプロテクトが消えた……",
+      "en": "Protect on 【<dst>】 has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4236,
+      "id": "rem_31855",
+      "jp": "プロテク",
+      "en": "Protect",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4237,
+      "id": "rem_31856",
+      "jp": "沈黙フィールド生成 + 先制攻撃率アップ+60%",
+      "en": "Creates Silence field + First strike rate +60%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4238,
+      "id": "rem_31857",
+      "jp": "【<dst>】に沈黙の効果が与えられた！",
+      "en": "Silence effect cast on 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4239,
+      "id": "rem_31858",
+      "jp": "【<dst>】の沈黙効果が消えた……",
+      "en": "Silence effect on 【<dst>】 has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4240,
+      "id": "rem_31859",
+      "jp": "サイレス",
+      "en": "Silence",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4241,
+      "id": "rem_31860",
+      "jp": "先制攻撃",
+      "en": "First Strike",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4242,
+      "id": "rem_31861",
+      "jp": "【<dst>】に罠サーチ効果が与えられた！",
+      "en": "Trap Search effect applied to 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4243,
+      "id": "rem_31862",
+      "jp": "【<dst>】の先制攻撃が消えた……",
+      "en": "【<dst>】's First Strike faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4244,
+      "id": "rem_31863",
+      "jp": "【<dst>】の不意打ちが消えた……",
+      "en": "【<dst>】's Surprise Attack faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4245,
+      "id": "rem_31864",
+      "jp": "不意打ち",
+      "en": "Surprise Attack",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4246,
+      "id": "rem_31865",
+      "jp": "魔術ダメージ-80%",
+      "en": "Magic Damage -80%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4247,
+      "id": "rem_31866",
+      "jp": "デバフ",
+      "en": "Debuff",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4248,
+      "id": "rem_31867",
+      "jp": "【<dst>】に術法阻害の効果が与えられた！！",
+      "en": "Spell Disruption effect applied to 【<dst>】!!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4249,
+      "id": "rem_31868",
+      "jp": "【<dst>】の術法阻害効果が消えた……",
+      "en": "Spell Disruption effect on 【<dst>】 faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4250,
+      "id": "rem_31869",
+      "jp": "術法阻害",
+      "en": "Spell Disruption",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

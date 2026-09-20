@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75726,
+  "range_end": 75750,
+  "pairs": [
+    {
+      "n": 75726,
+      "id": "db_EventInfo:89569:19",
+      "jp": "そうそう、と言っても、死者の国にまで【『ゴブリン』】がいるとは思わなかったがな",
+      "en": "Yeah, that's right. But, I didn't expect to see Goblins even in the land of the dead.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75727,
+      "id": "db_EventInfo:89570:14",
+      "jp": "それよりも、俺も【『ゴブリン』】達と戦わせてくれよ！",
+      "en": "More importantly, let me fight the Goblins too!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75728,
+      "id": "db_EventInfo:89571:19",
+      "jp": "おう、せっかくだから、ついでに生き返らせてくれよ",
+      "en": "Hey, since we're at it, bring us back to life too, will you?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75729,
+      "id": "db_EventInfo:89572:0",
+      "jp": "確かに、今の状況なら、一人でも多くの戦力が欲しいところだが。",
+      "en": "It's true, we need as many fighters as we can get right now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75730,
+      "id": "db_EventInfo:89573:1",
+      "jp": "いいのかなぁ",
+      "en": "Is that okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75731,
+      "id": "db_EventInfo:89574:0",
+      "jp": "俺はチラリとシイネを見た。",
+      "en": "I glanced at Shiine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75732,
+      "id": "db_EventInfo:89575:2",
+      "jp": "……許すデス",
+      "en": "...I allow it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75733,
+      "id": "db_EventInfo:89576:0",
+      "jp": "許された。",
+      "en": "It was allowed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75734,
+      "id": "db_EventInfo:89578:0",
+      "jp": "ポンタとラシェウス(ルース)が仲間になった。",
+      "en": "Ponta and Rasieus (Ruth) have joined the party.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75735,
+      "id": "db_EventInfo:89579:19",
+      "jp": "と言っても、今の俺達は足手まといだ、後方支援に徹することにさせてもらうぜ",
+      "en": "But to be honest, right now we'd just be in your way. Let us focus on supporting from the back.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75736,
+      "id": "db_EventInfo:89580:14",
+      "jp": "おう。へへ、世界を救う【『勇者』】か……！　燃えるぜ！",
+      "en": "Yeah. Heh heh, saving the world as the ['Hero']...! I'm fired up!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75737,
+      "id": "db_EventInfo:89581:1",
+      "jp": "ま、まあいいけど……",
+      "en": "W-well, okay then...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75738,
+      "id": "db_EventInfo:89584:0",
+      "jp": "ポンタとラシェウスが仲間に加わりました。二人はメインメンバーにすることはできません。",
+      "en": "Ponta and Rasieus have joined your party. You cannot set them as main party members.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75739,
+      "id": "db_EventInfo:89585:0",
+      "jp": "ただしサポートにしたときの比率が、通常よりも高くなっています。上手くこきつかいましょう。",
+      "en": "However, when set as Support, their effectiveness is higher than normal. Use them wisely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75740,
+      "id": "db_EventInfo:89586:0",
+      "jp": "戦闘に出してレベルアップすることはできませんが、それぞれ主人公とマリーゼルのレベルと同期してますので、レベルは勝手に上がります。",
+      "en": "You cannot level them up by sending them into battle, but their levels automatically sync with the Player and Marisel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75741,
+      "id": "db_EventInfo:89587:0",
+      "jp": "没になったイベント",
+      "en": "Cutscene - Not used in the final game.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75742,
+      "id": "db_EventInfo:89589:1",
+      "jp": "しかし、世界の危機とはいえ、生き返って良かったのか？",
+      "en": "But... even with the world in danger, was it good that you came back to life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75743,
+      "id": "db_EventInfo:89590:19",
+      "jp": "ん？　何がだよ",
+      "en": "Hm? What do you mean?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75744,
+      "id": "db_EventInfo:89591:1",
+      "jp": "だって、あの時は生き返りたくないって言ってたじゃないか",
+      "en": "Well, back then you said you didn't want to come back to life.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75745,
+      "id": "db_EventInfo:89592:19",
+      "jp": "あれは兄貴に力を返すためだったからな。【あの技】を託して、死ななきゃいけなかったのさ",
+      "en": "That was to return my power to my big bro. I had to die to pass on ['that technique'].",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75746,
+      "id": "db_EventInfo:89593:19",
+      "jp": "それに、今はあの時とは違って、ただ生き返りたいんだ",
+      "en": "Besides, it's different now. This time, I really do want to be alive again.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75747,
+      "id": "db_EventInfo:89594:1",
+      "jp": "そんな理由で生き返っていいのかなぁ",
+      "en": "Is that really a good enough reason to come back to life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75748,
+      "id": "db_EventInfo:89596:1",
+      "jp": "本当のところはどうなんだ。生き返りたい理由とか出来たんじゃないのか？",
+      "en": "What's the real story? Didn't you get a reason to want to come back?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75749,
+      "id": "db_EventInfo:89597:19",
+      "jp": "おう！",
+      "en": "Hey!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75750,
+      "id": "db_EventInfo:89598:19",
+      "jp": "兄貴に力を戻したら、急にモテモテになってさ、こっちで可愛い嫁もできたんだぜ！",
+      "en": "After we got my big brother's power back, I suddenly got really popular! I even found a cute wife back home!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

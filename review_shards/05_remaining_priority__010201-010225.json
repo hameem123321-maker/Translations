@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10201,
+  "range_end": 10225,
+  "pairs": [
+    {
+      "n": 10201,
+      "id": "rem_37923",
+      "jp": "ダンジョン内のレアトレジャー発生率+50%",
+      "en": "Dungeon rare treasure rate +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10202,
+      "id": "rem_37924",
+      "jp": "ダンジョン内のレアトレジャー発生率+80%",
+      "en": "Dungeon rare treasure rate +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10203,
+      "id": "rem_37925",
+      "jp": "開発ポイント獲得量+30% + レア+20%",
+      "en": "Dev points +30% + Rare +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10204,
+      "id": "rem_37926",
+      "jp": "ザコへのダメージ+5%",
+      "en": "Damage to grunts +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10205,
+      "id": "rem_37927",
+      "jp": "開発ポイント獲得量+25% + レア+25%",
+      "en": "Dev points +25% + Rare +25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10206,
+      "id": "rem_37928",
+      "jp": "開発ポイント獲得量+40% + レア+40%",
+      "en": "Dev points +40% + Rare +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10207,
+      "id": "rem_37929",
+      "jp": "開発ポイント獲得量+20% + レア+20%",
+      "en": "Dev points +20% + Rare +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10208,
+      "id": "rem_37930",
+      "jp": "開発ポイント獲得量+40% + レア+20%",
+      "en": "Dev points +40% + Rare +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10209,
+      "id": "rem_37931",
+      "jp": "エネミー発見率+30%",
+      "en": "Enemy discovery rate +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10210,
+      "id": "rem_37932",
+      "jp": "エネミー発見率+50%",
+      "en": "Enemy discovery rate +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10211,
+      "id": "rem_37933",
+      "jp": "エネミー発見率+80%",
+      "en": "Enemy discovery rate +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10212,
+      "id": "rem_37934",
+      "jp": "エネミー発見率+40% + トラップ発見率+40%",
+      "en": "Enemy discovery +40% + Trap discovery +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10213,
+      "id": "rem_37935",
+      "jp": "お気に入りボーナス+10%",
+      "en": "Favorite bonus +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10214,
+      "id": "rem_37936",
+      "jp": "トラップ発見率+30% + トラップ解除率+10%",
+      "en": "Trap discovery +30% + Disarm rate +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10215,
+      "id": "rem_37937",
+      "jp": "トラップ発見率+30% + トラップ解除率+100%",
+      "en": "Trap discovery +30% + Disarm rate +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10216,
+      "id": "rem_37938",
+      "jp": "トラップ発見率+50% + トラップ解除率+20%",
+      "en": "Trap discovery +50% + Disarm rate +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10217,
+      "id": "rem_37939",
+      "jp": "トラップ発見率+80%",
+      "en": "Trap discovery rate +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10218,
+      "id": "rem_37940",
+      "jp": "エネミー発見率+50% + トラップ発見率+50%",
+      "en": "Enemy discovery +50% + Trap discovery +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10219,
+      "id": "rem_37941",
+      "jp": "エネミー発見率+30% + トラップ発見率+70%",
+      "en": "Enemy discovery +30% + Trap discovery +70%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10220,
+      "id": "rem_37942",
+      "jp": "エネミー発見率+60% + トラップ発見率+20%",
+      "en": "Enemy discovery +60% + Trap discovery +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10221,
+      "id": "rem_37943",
+      "jp": "エネミー発見率+60% + トラップ発見率+60%",
+      "en": "Enemy Encounter Rate +60% + Trap Discovery Rate +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10222,
+      "id": "rem_37944",
+      "jp": "エネミー発見率+60% + トラップ発見率+80%",
+      "en": "Enemy Encounter Rate +60% + Trap Discovery Rate +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10223,
+      "id": "rem_37945",
+      "jp": "エネミー発見率+100% + トラップ発見率+100%",
+      "en": "Enemy Encounter Rate +100% + Trap Discovery Rate +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10224,
+      "id": "rem_37946",
+      "jp": "機械系トラップの解除率+40%",
+      "en": "Mechanical Trap Disarm Rate +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10225,
+      "id": "rem_37947",
+      "jp": "自然系トラップの解除率+40%",
+      "en": "Natural Trap Disarm Rate +40%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

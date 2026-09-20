@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9126,
+  "range_end": 9150,
+  "pairs": [
+    {
+      "n": 9126,
+      "id": "rem_36848",
+      "jp": "ゴージャスファッション服",
+      "en": "Gorgeous Fashion Wear",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9127,
+      "id": "rem_36849",
+      "jp": "投擲の練習に最適な、威力の小さい爆弾。これでも一か所に集めて着火すれば、大変な事になる。",
+      "en": "A low-power bomb ideal for throwing practice. Gather enough in one spot and it can still cause serious trouble.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9128,
+      "id": "rem_36850",
+      "jp": "初心者用練習爆弾",
+      "en": "Novice Practice Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9129,
+      "id": "rem_36851",
+      "jp": "鉱山の発破で使用されることを想定された爆発物。質が悪いので起爆まで時間が掛かり、破壊力もそれなり。",
+      "en": "An explosive meant for mining. Low quality, so it takes time to detonate and the force is only moderate.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9130,
+      "id": "rem_36852",
+      "jp": "発破用ボム",
+      "en": "Blasting Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9131,
+      "id": "rem_36853",
+      "jp": "燃えやすいオイルを詰めた瓶に、着火用の布を詰めた簡素な品。衝撃こそ無いが、手軽に広範囲に火炎をまき散らす事が可能な迷惑兵器。",
+      "en": "A crude weapon: a bottle filled with flammable oil and a cloth wick. No impact, but easily spreads flames over a wide area.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9132,
+      "id": "rem_36854",
+      "jp": "火炎瓶",
+      "en": "Flame Bottle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9133,
+      "id": "rem_36855",
+      "jp": "金属粉末入りの煙幕。周囲の視界を遮断しながら衣服や防具の耐久まで削りとる。ただし粉塵を吸い込むと重篤な中毒症状を引き起こす為、閉所での爆発は厳禁。",
+      "en": "A smoke bomb with metal powder. Obscures vision and wears down clothing and armor. Causes severe poisoning if inhaled—never set off indoors.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9134,
+      "id": "rem_36856",
+      "jp": "粉塵煙幕爆裂弾",
+      "en": "Dust-Smoke Blast Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9135,
+      "id": "rem_36857",
+      "jp": "鉱山の発破で使用されることを想定されていた爆発物。起爆速度や破壊力が向上している。あまりにも性能が上がっているため、軍隊による需要が高まっている。",
+      "en": "An improved explosive for mining. Faster detonation and greater force. Demand from the military has soared due to its high performance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9136,
+      "id": "rem_36858",
+      "jp": "発破用ボム改",
+      "en": "Enhanced Blasting Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9137,
+      "id": "rem_36859",
+      "jp": "硬い岩盤を破壊することができる、特別に調合された火薬爆弾。威力がありすぎる為、鉱山内での使用は禁止された。",
+      "en": "A specially mixed gunpowder bomb that can shatter hard bedrock. Too powerful—banned inside mines.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9138,
+      "id": "rem_36860",
+      "jp": "高硬度岩盤用発破弾",
+      "en": "Hard Rock Blasting Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9139,
+      "id": "rem_36861",
+      "jp": "戦場の概念を塗り替える強力爆薬。魔力を持たない者でも、少量の粉末で上位攻撃魔術級の破壊力を放てる。コストも相応に高いのだが、喜んで欲しがる勢力は後を絶たない。",
+      "en": "A potent explosive that rewrites battlefield tactics. Even non-magical users can unleash high-level attack magic damage with a small amount. Costs a fortune, but factions clamor for it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9140,
+      "id": "rem_36862",
+      "jp": "軍用マジックボム",
+      "en": "Military Magic Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9141,
+      "id": "rem_36863",
+      "jp": "衝撃を放たず、煙のみを一気に放つ煙幕弾。相手を混乱させることが狙いだが、ある時から煙に毒薬を配合する者が現れたため、対策が急がれている。",
+      "en": "Smoke Grenade for Adventurers",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9142,
+      "id": "rem_36864",
+      "jp": "冒険者向け量産煙幕",
+      "en": "Adventurer's Mass-Produced Smoke Grenade",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9143,
+      "id": "rem_36865",
+      "jp": "新世代爆薬。上位魔術師数人による戦略魔術級の破壊力を誇り、なおかつ遠距離まで飛行する。あまりの能力に、各組織もざわめいている。",
+      "en": "Military Magic Missile",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9144,
+      "id": "rem_36866",
+      "jp": "軍用マジックミサイル",
+      "en": "Military Magic Missile",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9145,
+      "id": "rem_36867",
+      "jp": "水中で爆発させることを可能にした、高度な魔法爆弾。漁場の影響を危惧した漁師達が、廃絶を訴えている。",
+      "en": "Military Torpedo",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9146,
+      "id": "rem_36868",
+      "jp": "軍用魚雷",
+      "en": "Military Torpedo",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9147,
+      "id": "rem_36869",
+      "jp": "魔力が込められた巨大な矢を放ち、体内で炸裂させる二段構えの爆弾。大型魔獣も一撃で仕留めることができる威力を誇る。人間相手に使わないように。",
+      "en": "Magic Arrow for Large Beasts",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9148,
+      "id": "rem_36870",
+      "jp": "大型魔獣用マジックアロー",
+      "en": "Magic Arrow for Large Beasts",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9149,
+      "id": "rem_36871",
+      "jp": "使用人を呼び出す為の、音を鳴らすベル。使用人を雇っていなくても、あれば鳴らしたくなる。",
+      "en": "Summoning Bell",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9150,
+      "id": "rem_36872",
+      "jp": "呼び出しベル",
+      "en": "Summoning Bell",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

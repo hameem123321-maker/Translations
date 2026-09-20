@@ -1,0 +1,284 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1126,
+  "range_end": 1150,
+  "pairs": [
+    {
+      "n": 1126,
+      "id": "rem_11073",
+      "jp": "奥義――<ruby=よる>夜</ruby>斬り！",
+      "en": "Secret art — <ruby=よる>Night</ruby> Slash!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1127,
+      "id": "rem_11334",
+      "jp": "開け<ruby=しんえん>深淵</ruby>の門！",
+      "en": "Open the gate of the <ruby=しんえん>Abyss</ruby>!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1128,
+      "id": "rem_11386",
+      "jp": "お兄ちゃん、ルーシェ喉渇いちゃったぁД",
+      "en": "Big bro, Lusche got thirstyぁД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1129,
+      "id": "rem_11863",
+      "jp": "<ruby=ドラッグ>魔薬</ruby>の始祖である天才薬師「ウィルチ」の名を冠しておる薬草調合師である。<pl>殿の宿に間借りをさせて貰っておるぞ。ククク……",
+      "en": "I am an herbal alchemist bearing the name of 'Wilch', the genius pharmacist who originated <ruby=ドラッグ>魔薬</ruby> (drugs/magical medicine). I am borrowing a room at your lodgings, <pl>-dono. Hehehe…",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1130,
+      "id": "rem_11874",
+      "jp": "『<ruby=ソルシア>学院</ruby>』より、『勇者』の従者となることを義務づけられました。魔術師の代表として、恥じない働きはする",
+      "en": "I have been obligated by the '<ruby=ソルシア>学院</ruby> (Solcia Academy)' to serve as the 'Hero's' attendant. As a representative of mages, I shall perform work that brings no shame.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1131,
+      "id": "rem_11885",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』より参りました、リリエーヌと申します。<pl>様の元で働けること、光栄の至りですわ。全霊をもちまして、奉仕させていただきますわねД",
+      "en": "I am Lilienne, from the '<ruby=ヒエペリオ>Church</ruby>'. It is an honor to work under <pl>. I will serve with all my soulД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1132,
+      "id": "rem_12004",
+      "jp": "<pl>様の精液を注いで頂く感覚は、とても素晴らしいものですわД　このような幸福を与えて下さるなんて、やはり<pl>様の存在は神と言って差し支えありませんД",
+      "en": "The feeling of <pl> pouring semen in is wonderfulД To grant such happiness, <pl> may as well be called a godД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1133,
+      "id": "rem_12035",
+      "jp": "ルーシェは『ブロッサ娼会』からお仕事で来たの。お兄ちゃんから吸い取った精液は、『ブロッサ娼会』が有効活用してあげるから、安心して吸い取られてあげてねД",
+      "en": "Lusche came here on business from the 'Blossa Prostitute Guild'. The semen I suck out of you, big bro, the 'Blossa Prostitute Guild' will make good use of it, so relax and let me drain youД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1134,
+      "id": "rem_12041",
+      "jp": "ルーシェのお手々で可愛がってあげると、お兄ちゃん、すぐ出ちゃうよねД　イかせてほしいなら、ルーシェがいつでも射精させてあげちゃうよД",
+      "en": "If I spoil you with Lusche's hands, you cum right away, don't you, big broД? If you want me to make you cum, Lusche can make you ejaculate anytimeД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1135,
+      "id": "rem_12061",
+      "jp": "私の師匠である。先代魔女であり、先代の「ウィルチ」である。深海に沈んだ禁代の図書館を引き上げた偉業をなしとげたのだが。『学院』から恐れられて、すべて封印扱いにされたようである。すねた師匠殿は図書館の地下に引っ越して、引きこもってしまったのであるぞ。まったく、私と違ってお騒がせな方である。私にとってはもう一つ呼び方があるが、そちらで呼ぶと怒るぞ",
+      "en": "She is my master. The former witch, the former \"Wyrch\". She accomplished the feat of raising the forbidden library from the deep sea. However, it seems the 'Academy' feared her and had it all sealed away. My sulking master moved into the library's basement and shut herself in. Really, unlike me, she's quite the troublemaker. I have another name for her, but she'll get angry if I call her that.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1136,
+      "id": "rem_12064",
+      "jp": "少々早漏のケはあるが、いたって健康であるな。最初はどうも違和感を覚えたものだが、私の手でペニスを嬲られ、快感に悶える<pl>殿は、普段より可愛らしくて好きであるぞД",
+      "en": "There's a slight case of premature ejaculation, but you're perfectly healthy, aren't you? At first, I felt quite strange about it, but <pl>-sama, writhing in pleasure as I toy with your penis with my hand, is cuter than usual, and I like it, you know.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1137,
+      "id": "rem_12066",
+      "jp": "『魔女』として、ペニスの喜ばせ方くらいは知っているД　射精を感覚で捉えられるのはいいのだが、唾液が混ざらぬように採取せねばなД",
+      "en": "As a 'witch', I know how to please a penis, you know. Being able to sense the ejaculation is good, but I have to collect it without letting saliva mix in.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1138,
+      "id": "rem_12068",
+      "jp": "乳房で陰茎を擦り射精に導く……うむ、やってみれば存外、簡単であるなД　唾液や愛液が混ざらないのもグッドであるД　まあ、顔に飛び散ると、回収が大変ではあるがな……Д",
+      "en": "Rubbing the penis between my breasts to lead to ejaculation... Hmm, it's surprisingly easy once you try, you know. It's also good that saliva or love juices don't mix in. Well, if it splatters on my face, collecting it is a pain though...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1139,
+      "id": "rem_12087",
+      "jp": "勃起させるのは思ったより簡単なのだが……射精まで、となると時間がかかるな。まあ、武具の手入れのように、丁寧にやれ、と、そういうことなのだろうД",
+      "en": "Getting you hard is easier than I thought... but getting to ejaculation takes time. Well, like maintaining equipment, just do it carefully, I supposeД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1140,
+      "id": "rem_12112",
+      "jp": "精液って独特な味だったわД　でも、これが<pl>君の味なのねД　お姉ちゃんなら、いっぱい飲んでも大丈夫だから、してほしい時はいつでも言ってねД",
+      "en": "Semen has a unique tasteД But this is your taste, <pl> Д For big sis, it's fine to drink lots, so tell me anytime you want itД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1141,
+      "id": "rem_12157",
+      "jp": "アタイのオマンコに夢中になってる姿は、何か、ちょっと、嬉しいよなД　中出しされて、精液がいっぱい溢れるとよ、アタイで気持ち良くなってくれたんだって、嬉しくなるぜД",
+      "en": "I feel kinda happy seeing you so obsessed with my pussy, y'know? When you cum inside and all that semen overflows, it makes me happy knowing you felt good with me.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1142,
+      "id": "rem_12192",
+      "jp": "この赤い衣は賢者の装い。かの高名な遺跡学者、アルミータ・ロオン教授の身に纏う魔術礼装を模したもの。この礼装を身につけることを許される魔術師は、『<ruby=ソルシア>学院</ruby>』でも一握り。いずれも『<ruby=ソルシア>学院</ruby>』で優秀な成績を残している",
+      "en": "This red robe is a sage's dress. Modeled on the mage vestments of the famed ruin scholar, Professor Almita Roon. Only a handful of mages at '<ruby=ソルシア>Academy</ruby>' are allowed to wear it. All of them posted excellent marks at '<ruby=ソルシア>Academy</ruby>'",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1143,
+      "id": "rem_12194",
+      "jp": "伝説のロオン教授は「門」を開く魔術の天才だったというのは『<ruby=ソルシア>学院</ruby>』の禁忌。そして<pl>と身体を重ねてから、私の奥から魔力が溢れてくるのを感じる。これが姉様を悩ましていた力……その力が私の中にも。これからはもっと、勇従の賢者としての責務を全うすることが出来るはず",
+      "en": "That the legendary Professor Roon was a genius of gate-opening magecraft is a taboo of '<ruby=ソルシア>Academy</ruby>'. And since I joined bodies with <pl>, I feel magic welling from deep inside me. The power that troubled my sister... that power is in me too. From here I should be able to fulfill my duty as a sage of the hero's retinue even more",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1144,
+      "id": "rem_12224",
+      "jp": "こんな素敵……いや、汚いものを咥えさせて、精液まで飲ませて、鬼畜ですね御主人様Д　私はもう、体の中まで御主人様の所有物ですよД　私の息が精液臭くなって、本当、最悪ですД",
+      "en": "Making me suck on something so nice... I mean, dirty... and even swallow your cum, you're a beast, MasterД I'm your possession all the way to the inside of my body nowД My breath smells like semen, really, this is the worstД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1145,
+      "id": "rem_12289",
+      "jp": "『<ruby=ソルシア>学院</ruby>』の希代の天才を姉に持つ賢者ですね。強すぎる者を身内に持つ憧れと、それと常に比較される劣等感による鬱憤……なにやら親近感がありますわねД　そういう方の内面が黒く淀んでいくのを感じるのは、とても心地が良いですわД",
+      "en": "A sage with a once-in-a-generation genius for an older sister at '<ruby=ソルシア>Academy</ruby>'. Longing for someone too strong in the family, and the frustration of always being compared... I feel a kinshipД Watching someone like that go dark inside is very pleasantД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1146,
+      "id": "rem_12330",
+      "jp": "まあまあД　どうやら私の『<ruby=化身>アバター</ruby>』を打ち倒してしまったようですわね。私は大商会の派遣管財人ではありますが、かの大邪竜の七色の一角を担う海竜でもございます。しかし大商人にして、海竜を仕留める大勇者でもあらせられるとはД　私の竜としての嗅覚はそれだけ優れていたということですわねД　これからも財宝の管理はお任せ下さいませД",
+      "en": "Now nowД Seems you struck down my '<ruby=化身>Avatar</ruby>'. I am a dispatch treasurer of the grand company, and also a sea dragon of the seven colors of that great evil dragon. To be a great merchant and a great hero who fell a sea dragon besidesД That just means my dragon nose was that sharpД Please leave treasure management to me from here tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1147,
+      "id": "rem_12337",
+      "jp": "<pl>様のおちんちんを舐めさせて頂けて、私は幸せ者ですわД　飲ませてもらうか、オマンコに注いで頂くか、全身を精液で彩って下さるか……Д　想像しただけで濡れてしまいますД",
+      "en": "Getting to lick <pl>'s cock, I am blessedД Drink it, pour it in my pussy, or paint my whole body in semen...Д Just imagining it gets me wetД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1148,
+      "id": "rem_12339",
+      "jp": "私のおっぱいで奉仕させていただけるなんて、身に余る光栄ですわД　射精する瞬間の表情を拝見しながら、全身に精液をかけていただくと、私も絶頂してしまいますД",
+      "en": "It's an honor beyond my station to be allowed to serve you with my breastsД Being able to watch your face at the moment you cum, and being covered in your semen all over my body, makes me climax tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1149,
+      "id": "rem_12432",
+      "jp": "ああっ……神の現し身である<pl>様の祝福を胎に授かれることなど、このうえない光栄ですわ……Д　もしこのことが『<ruby=ヒエペリオ>教会</ruby>』に伝われば、聖都の女神官はこぞって<pl>様の精を求めるに違いありませんわД　それはまさに、伝説の初代聖王様の再来でございます。これからも、私を『使徒』として仕えさせてくださいませ……Д",
+      "en": "Aaah... to receive the blessing of <pl>, god made flesh, in my womb is the highest honor...Д If this reached the '<ruby=ヒエペリオ>Church</ruby>', the holy capital's priestesses would surely all seek <pl>'s seedД That would be the return of the legendary first Holy King. Please let me keep serving as an 'apostle'...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 1150,
+      "id": "rem_12433",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』に認定された『聖女』様ですわ。我らが神の思し召しにより、神の現し身である<pl>様に奉仕する役目を受けておられるのです。",
+      "en": "A 'Saintess' recognized by the '<ruby=ヒエペリオ>Church</ruby>'. By our god's will, she took the duty of serving <pl>, god made flesh.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    }
+  ]
+}

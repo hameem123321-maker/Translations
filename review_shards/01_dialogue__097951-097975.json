@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97951,
+  "range_end": 97975,
+  "pairs": [
+    {
+      "n": 97951,
+      "id": "db_EventInfo:115655:2",
+      "jp": "ついこないだまで、武器作りを嫌ってたくせにデス",
+      "en": "Pretty cheeky for someone who hated making weapons until just a while ago.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97952,
+      "id": "db_EventInfo:115656:3",
+      "jp": "う、うるさいのじゃ！",
+      "en": "Q-quiet, you!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97953,
+      "id": "db_EventInfo:115657:202",
+      "jp": "ゴブゴ、ゴブゴ！？",
+      "en": "Gobo, Gobo!?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97954,
+      "id": "db_EventInfo:115658:0",
+      "jp": "ゴーレムを倒された【『ゴブリン』】は、悲鳴を上げると大灯台の奥へと逃げ出した。",
+      "en": "The Goblins cried out and ran deeper into the Great Lighthouse as their Golem fell.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97955,
+      "id": "db_EventInfo:115659:3",
+      "jp": "【『ゴブリン』】め、逃がすか！",
+      "en": "Those Goblins! I won't let them get away!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97956,
+      "id": "db_EventInfo:115660:2",
+      "jp": "待つデス。ここまでにするデス",
+      "en": "Wait. We stop here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97957,
+      "id": "db_EventInfo:115661:3",
+      "jp": "なぜじゃ、【『ゴブリン』】どもは皆殺しにするのじゃ！",
+      "en": "Why? We should kill all the Goblins!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97958,
+      "id": "db_EventInfo:115662:2",
+      "jp": "そうしたいところデスが、私たちが目立ちすぎるのはよくないデス……残りは、後から来る冒険者達に任せるデス",
+      "en": "I'd like to, but drawing too much attention is bad... We'll leave the rest to the adventurers coming later.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97959,
+      "id": "db_EventInfo:115663:1",
+      "jp": "そうだな、【『ゴーレム』】は他にはないみたいだし",
+      "en": "Yeah, I guess a 'Golem' is something you don't see every day.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97960,
+      "id": "db_EventInfo:115664:3",
+      "jp": "むう……手柄を他の者に与えるのか",
+      "en": "Hmm... So you'll let someone else have the credit?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97961,
+      "id": "db_EventInfo:115665:2",
+      "jp": "そうデス",
+      "en": "That's right.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97962,
+      "id": "db_EventInfo:115666:3",
+      "jp": "まあ、仕方があるまい",
+      "en": "Well, I suppose there's no helping it.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97963,
+      "id": "db_EventInfo:115667:1",
+      "jp": "ともあれ、これで【『イルニエル大灯台』】の【『ゴブリン』】退治は終わるな",
+      "en": "Anyway, that wraps up the 'Goblin' extermination at the 'Ilniel Lighthouse'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97964,
+      "id": "db_EventInfo:115668:2",
+      "jp": "デス。これで【『イルニエル漁業組合』】の活動も安心デスね",
+      "en": "Desu. Now the 'Ilniel Fishing Guild' can operate in peace, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97965,
+      "id": "db_EventInfo:115669:1",
+      "jp": "……そうだな",
+      "en": "...Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97966,
+      "id": "db_EventInfo:115672:1",
+      "jp": "それにしても、古代兵器なんかを【『ゴブリン』】が操れるモノなのか？",
+      "en": "But still, could 'Goblins' really operate something like an ancient weapon?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97967,
+      "id": "db_EventInfo:115673:2",
+      "jp": "確かにそうデスね。【『ゴブリン』】は狡猾な奴らではあるデスが……人間より知恵があるわけでも無いデス",
+      "en": "That's a good point, desu. 'Goblins' are cunning, desu... but they're not smarter than humans, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97968,
+      "id": "db_EventInfo:115674:1",
+      "jp": "何者かが【『ゴブリン』】に知恵を与えているのかもしれないな",
+      "en": "Maybe someone is teaching them.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97969,
+      "id": "db_EventInfo:115677:0",
+      "jp": "疑問は残るが、考えていても仕方が無い。",
+      "en": "Questions remained, but thinking about it wouldn't help.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97970,
+      "id": "db_EventInfo:115678:0",
+      "jp": "俺達は帰り支度を整えると、【『ダンジョン』】を脱出した。",
+      "en": "We got our things ready and left the dungeon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97971,
+      "id": "db_EventInfo:115682:19",
+      "jp": "勇者見参！　【『イルニエル大灯台』】の平和は俺が取り戻す！",
+      "en": "The hero arrives! I'll bring peace back to the \"Iluniel Great Lighthouse\"!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97972,
+      "id": "db_EventInfo:115683:19",
+      "jp": "むむっ、あれがウワサに聞く古代兵器か！　正義の刃、受けてみろ！",
+      "en": "Hmm, so that's the ancient weapon I've heard rumors about! Taste the blade of justice!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97973,
+      "id": "db_EventInfo:115684:0",
+      "jp": "★クリア",
+      "en": "*Clear*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97974,
+      "id": "db_EventInfo:115685:0",
+      "jp": "ボコッ！",
+      "en": "*Wham!*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97975,
+      "id": "db_EventInfo:115686:19",
+      "jp": "ふっ……正義の勝利だ",
+      "en": "Hah... Justice prevails.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    }
+  ]
+}

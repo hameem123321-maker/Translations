@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7126,
+  "range_end": 7150,
+  "pairs": [
+    {
+      "n": 7126,
+      "id": "rem_34745",
+      "jp": "店頭にいるだけで皆から愛されてしまう。接客能力が拙くても、それはそれでと愛されてしまって売上アップ。",
+      "en": "Loved by everyone just by being at the shop. Sales increase even with poor service skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7127,
+      "id": "rem_34746",
+      "jp": "本人は自覚していない色気が異性を引きつけ、接客させると売上アップ。なにもしてなくても効果があるし、接客が得意ならますまず効果あり。",
+      "en": "Unconscious charm attracts the opposite sex. Boosts sales when serving. Works even when idle; enhanced if good at service.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7128,
+      "id": "rem_34747",
+      "jp": "『聖女』に備わる神聖なオーラが見えそうになって、客は思わずお金をたくさん出してしまう。接客をさせると売上アップ。",
+      "en": "A sacred 'Saintess' aura makes customers spend more freely. Boosts sales when serving.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7129,
+      "id": "rem_34748",
+      "jp": "淫魔とそれに匹敵する魅力を持った助手達を満足させるほどの、底知れない精力を得る。主人公の精力が増すので、全ヒロインとの搾精エッチに適用。これでもう腹上死はしない！",
+      "en": "Gains boundless stamina to satisfy succubi and equally charming assistants. Increases Ren's stamina for all heroine drain scenes. No more death by climax!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7130,
+      "id": "rem_34749",
+      "jp": "搾精による売上[+20%]",
+      "en": "Sales from drain [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7131,
+      "id": "rem_34750",
+      "jp": "仲間呼び(自他) + 【仲間】に【防御++】を付与 (すべてのダメージ軽減率[+50%])",
+      "en": "Call Ally (self/others) + Grants 【Ally】 【Defense++】 (All Damage Reduction [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7132,
+      "id": "rem_34751",
+      "jp": "仲間の力を集める『勇者』のスキル。『勇者』が持つ天性のカリスマに引き寄せられ、自分の攻撃に対するチェイススキルの発生率が大幅にアップする。味方の力を借りて一斉攻撃だ。",
+      "en": "A 'Hero' skill that rallies allies. Drawn by the Hero's natural charisma, chase skill rate for own attacks increases greatly. Coordinated assault with allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7133,
+      "id": "rem_34752",
+      "jp": "【自分】に【連携収束】を付与 (自分へのチェイススキル発生率[+50%])",
+      "en": "Grants 【Self】 【Synergy Focus】 (Chase Skill Rate for Self [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7134,
+      "id": "rem_34753",
+      "jp": "【<src>】は武器を掲げて味方の力を集める！",
+      "en": "【<src>】 raises their weapon, rallying allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7135,
+      "id": "rem_34754",
+      "jp": "仲間の力を集める『大勇者』のスキル。『縁』を紡いだ者たちの力を引き寄せて、自分の攻撃に対するチェイススキルの発生率が大幅にアップする。味方の力を借りて一斉攻撃だ。",
+      "en": "A 'Great Hero' skill that rallies allies. Draws power from those bound by 'fate', greatly increasing chase skill rate for own attacks. Coordinated assault with allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7136,
+      "id": "rem_34755",
+      "jp": "【自分】に【連携収束++】を付与 (自分へのチェイススキル発生率[+80%])",
+      "en": "Grants 【Self】 【Synergy Focus++】 (Chase Skill Rate for Self [+80%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7137,
+      "id": "rem_34756",
+      "jp": "考えることをやめて、小細工を抜きに暴れまくる野性的なスキル。特に何もかんがえなくても、攻撃の範囲が一定確率で広がる。考えても考えなくても効果が変わらない。適当に暴れろ。",
+      "en": "A wild skill to stop thinking and rampage without tricks. Attack range expands at a certain rate. Effectiveness is the same whether you think or not. Just go wild.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7138,
+      "id": "rem_34757",
+      "jp": "攻撃[+20%] + 攻撃の範囲拡大率[+50%]",
+      "en": "Attack [+20%] + Attack Range Expansion Rate [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7139,
+      "id": "rem_34758",
+      "jp": "『勇者』に備わるモテ能力。能力と実績が備わり、本人の意図にかかわらずモテてしまう。同時に『淫魔』のターゲットにされる。ラシェウスはこのスキルを積極的に使わない。",
+      "en": "The 'Hero's' natural appeal. Gains ability and achievements, attracting attention unintentionally. Also becomes a target for 'Succubi'. Rasieus avoids using this skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7140,
+      "id": "rem_34759",
+      "jp": "女性へのダメージ[+100%] + 女性からのチェイス発生率[+20%]",
+      "en": "Damage to Females [+100%] + Chase Rate from Females [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7141,
+      "id": "rem_34760",
+      "jp": "『大勇者』に備わるモテ能力。能力と実績が備わり、本人の意図にかかわらずモテてしまう。同時に『淫魔』のターゲットにされる。対抗手段がないと破滅する、ろくでもないスキル。",
+      "en": "The Hero's 'charisma'. Gains charm and achievements, attracting others regardless of intent. Also marks the user as a target for 'Succubi'. A terrible skill that leads to ruin without countermeasures.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7142,
+      "id": "rem_34761",
+      "jp": "女性へのダメージ[+200%] + 女性からのチェイス発生率[+20%]",
+      "en": "Damage to females [+200%] + Chase rate from females [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7143,
+      "id": "rem_34762",
+      "jp": "仲間全員の武器の切れ味を高める、魔界料理魔術。料理だが戦闘に転用可能。武器の鋭さを大きく高めるが、スキルＣＴを回復する効果は無い。",
+      "en": "Dark-cooking magic that sharpens all allies' weapons. Usable in battle. Greatly boosts weapon sharpness, but doesn't restore skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7144,
+      "id": "rem_34763",
+      "jp": "【<src>】の[調理器具強化の魔術]が武器に宿った！",
+      "en": "【<src>】's [Utensil Enhancement Magic] inhabits the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7145,
+      "id": "rem_34764",
+      "jp": "『グラット』の魔族に伝わる、調理魔術。食材と認識した相手に特攻ダメージが発生し、【ダメージ限界突破】効果を与える。なお、禁忌の食材に対する食材判定は封印されている。",
+      "en": "Cooking magic passed down by Glutt's demons. Deals extra damage to targets recognized as 'ingredients' and grants 【Damage Limit Break】. Forbidden ingredient checks are sealed.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7146,
+      "id": "rem_34765",
+      "jp": "【フィールド】に【暴食結界】を付与 (すべての攻撃ダメージ[+30%] + 食材へのダメージ[+100%])",
+      "en": "Grants 【Field】 【Gluttony Barrier】 (All attack damage [+30%] + Damage to ingredients [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7147,
+      "id": "rem_34766",
+      "jp": "【<src>】の[食材解体の結界]が周りを覆った！",
+      "en": "【<src>】's [Ingredient Dismantling Barrier] covers the area!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7148,
+      "id": "rem_34767",
+      "jp": "世界を侵食する闇で攻撃する。魔を統べる存在の一角を担う者の特権のスキル。多用すると世界のバランスが崩れ、魔界が人間界に侵食するともいわれる。魔界七大禁忌術の一つ。",
+      "en": "Attacks with world-corrupting darkness. A skill of those who rule demons. Overuse risks destroying the world's balance, letting the Demon Realm invade. One of the Seven Dark Taboos.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7149,
+      "id": "rem_34768",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 【闇属性】 + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "All-target attack, Power[S+] + Hit[50%] + 【Dark】 + Small DEF Pierce + Inflicts 【Brittle】 (Physical DMG Reduction -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7150,
+      "id": "rem_34769",
+      "jp": "【<src>】の[ゲートオブグラット]！",
+      "en": "【<src>】's [Gate of Glutt]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

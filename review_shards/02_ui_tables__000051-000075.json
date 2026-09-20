@@ -1,0 +1,208 @@
+{
+  "source_file": "02_ui_tables.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 51,
+  "range_end": 75,
+  "pairs": [
+    {
+      "n": 51,
+      "id": "ui_db_SystemCommand_28_5",
+      "jp": "仕事に戻る",
+      "en": "Return to Work",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 52,
+      "id": "ui_db_SystemCommand_29_5",
+      "jp": "特別",
+      "en": "Special",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 53,
+      "id": "ui_db_SystemCommand_30_5",
+      "jp": "パートナーと別れる",
+      "en": "Leave Partner",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 54,
+      "id": "ui_db_SystemCommand_31_5",
+      "jp": "【プレイルーム】に移動",
+      "en": "Go to 【Playroom】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 55,
+      "id": "ui_db_SystemCommand_32_5",
+      "jp": "【ラグジュアリー】に移動",
+      "en": "Go to 【Luxury】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 56,
+      "id": "ui_db_SystemCommand_33_5",
+      "jp": "【コスプレイルーム】に移動",
+      "en": "Go to 【Cosplay Room】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 57,
+      "id": "ui_db_SystemCommand_34_5",
+      "jp": "絆を深める",
+      "en": "Deepen Bond",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 58,
+      "id": "ui_db_SystemCommand_35_5",
+      "jp": "迫る【(密着モード)】",
+      "en": "Approach 【(Close Mode)】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 59,
+      "id": "ui_db_SystemCommand_36_5",
+      "jp": "【通常服】に着替えさせる",
+      "en": "Change to 【Normal Clothes】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 60,
+      "id": "ui_db_SystemCommand_37_5",
+      "jp": "【エロ服】に着替えさせる",
+      "en": "Change to 【Erotic Clothes】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 61,
+      "id": "ui_db_SystemCommand_38_5",
+      "jp": "【全裸】になってもらう",
+      "en": "Get you 【completely naked】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 62,
+      "id": "ui_db_SystemCommand_40_5",
+      "jp": "セクハラ耐性の確認",
+      "en": "Check sexual harassment tolerance",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 63,
+      "id": "ui_db_SystemCommand_41_5",
+      "jp": "他キャラの部屋に移動",
+      "en": "Go to another character's room",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 64,
+      "id": "ui_db_SystemCommand_43_5",
+      "jp": "スタッフロール 【(ゲーム終了)】",
+      "en": "Staff Roll 【(Game End)】",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 65,
+      "id": "ui_db_SystemCommand_44_5",
+      "jp": "強くてニューゲーム",
+      "en": "New Game Plus",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 66,
+      "id": "ui_db_SystemCommand_46_5",
+      "jp": "【{0}】の話",
+      "en": "【{0}】's Story",
+      "table": "db_SystemCommand",
+      "category": "ui_table"
+    },
+    {
+      "n": 67,
+      "id": "ui_db_MessageClubInfo_1_4",
+      "jp": "できないと、思ってねぇか？",
+      "en": "You think I can't? Don't you?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 68,
+      "id": "ui_db_MessageClubInfo_2_4",
+      "jp": "ん、ん、大丈夫、動ける、から……Д",
+      "en": "Mmm, ah, I'm okay, I can move...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 69,
+      "id": "ui_db_MessageClubInfo_3_4",
+      "jp": "ん、ん、ふあ、あぁん……Д",
+      "en": "Mm, mmm, fuaa, aaah...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 70,
+      "id": "ui_db_MessageClubInfo_4_4",
+      "jp": "はぁ、はぁ、ど、どう、だ？",
+      "en": "Haa, haa, h-how, is it?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 71,
+      "id": "ui_db_MessageClubInfo_5_4",
+      "jp": "あぁ、ちょ、オマンコ、広がって……Д",
+      "en": "Aah, wa-wait, my pussy, it's spreading...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 72,
+      "id": "ui_db_MessageClubInfo_6_4",
+      "jp": "あっ、あっ、これ、すご、あんД",
+      "en": "Ah, ah, th-this, so, aahД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 73,
+      "id": "ui_db_MessageClubInfo_7_4",
+      "jp": "はぁ、はぁ、頑張りますわねД",
+      "en": "Haa, haa, I'll do my bestД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 74,
+      "id": "ui_db_MessageClubInfo_8_4",
+      "jp": "ん、く、なるほど、これが、鍛錬……Д",
+      "en": "Mm, hk, I see, so this is, training...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 75,
+      "id": "ui_db_MessageClubInfo_9_4",
+      "jp": "く、う、こ、これ、声が、あぁんД",
+      "en": "Kuh, uu, th-this, my voice, aaahД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    }
+  ]
+}

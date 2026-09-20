@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 451,
+  "range_end": 475,
+  "pairs": [
+    {
+      "n": 451,
+      "id": "rem_00451",
+      "jp": "鱗の肌と人間の四肢を持つ魚人。手にした武器で人間に襲い掛かる。高い文化レベルを持つが、人間との意思疎通は困難。ゴブリンとも敵対しているらしい。",
+      "en": "A fishman with scaly skin and human limbs. Attacks humans with weapons it wields. Possesses a high level of culture but communication with humans is difficult. Seems to be hostile toward goblins as well.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 452,
+      "id": "rem_00452",
+      "jp": "マーマン",
+      "en": "Merman",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 453,
+      "id": "rem_00453",
+      "jp": "鱗の肌と人間の四肢を持つ魚人の小隊長。通常のマーマンよりも卓越した技を持つが、肉体の強さは通常のマーマンとあまり変わっていないようだ。",
+      "en": "A squad leader of the fishmen with scaly skin and human limbs. Has skills superior to a regular merman, though physical strength seems not much different.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 454,
+      "id": "rem_00454",
+      "jp": "マーマンチーフ",
+      "en": "Merman Chief",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 455,
+      "id": "rem_00455",
+      "jp": "先陣を切って外敵と戦うマーマン族の特攻隊長。歴戦の猛者らしく、非常に強力な攻撃力と堅牢な守備力を併せ持つ。",
+      "en": "A special assault leader of the merman tribe who fights external enemies at the forefront. Like a seasoned veteran, it possesses both formidable offensive power and robust defensive capabilities.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 456,
+      "id": "rem_00456",
+      "jp": "マーマンナイト",
+      "en": "Merman Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 457,
+      "id": "rem_00457",
+      "jp": "甲羅の代わりに強力な攻撃力を持つ砲台を背負った亀の魔物。遠距離から一方的に砲弾を打ち出すこの魔物は、敵集団に存在するだけで脅威。",
+      "en": "A turtle monster that bears a powerful cannon on its back instead of a shell. This creature, which fires shells unilaterally from a distance, is a threat simply by being present in an enemy group.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 458,
+      "id": "rem_00458",
+      "jp": "チャリオットタートル",
+      "en": "Chariot Turtle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 459,
+      "id": "rem_00459",
+      "jp": "生け贄をさらい、邪悪な儀式を実行する禁じられた宗教者。人間なのだが、薬物で精神を暴走させており、多少傷つけられた程度では止まらない。",
+      "en": "A forbidden cultist who steals sacrifices and performs evil rituals. Although human, their mind is driven to frenzy by drugs and minor injuries won't stop them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 460,
+      "id": "rem_00460",
+      "jp": "邪教徒",
+      "en": "Cultist",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 461,
+      "id": "rem_00461",
+      "jp": "邪教徒の儀式を監督する悪の上級神官。信仰心をねじ曲げられた結果、価値観が逆転しており、通常とは逆転した正義感を持つ。しかし行使する聖なる力まで闇に染まったわけではない。",
+      "en": "An evil high priest overseeing cult rituals. His twisted faith has inverted his sense of justice, yet the holy power he wields remains uncorrupted.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 462,
+      "id": "rem_00462",
+      "jp": "邪教の司祭",
+      "en": "Cult Priest",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 463,
+      "id": "rem_00463",
+      "jp": "邪教に傾倒し、欲望のままに行動する戦士。邪教の敵を排除するために行動する。",
+      "en": "A warrior who acts on desire, devoted to the cult. He eliminates its enemies.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 464,
+      "id": "rem_00464",
+      "jp": "ダークファイター",
+      "en": "Dark Fighter",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 465,
+      "id": "rem_00465",
+      "jp": "邪教に魂をささげた悪魔の騎士。邪教の教義により、倫理観はすでに反転してしまっている。しかし訓練された戦闘力は健在で、危険度は魔獣を上回る。",
+      "en": "A demonic knight who pledged his soul to the cult. His ethics are reversed, but his trained combat prowess surpasses even fiends.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 466,
+      "id": "rem_00466",
+      "jp": "邪教の騎士",
+      "en": "Cult Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 467,
+      "id": "rem_00467",
+      "jp": "生け贄をさらい、邪悪な儀式を実行することを使命とする異教徒。絶対に相容れない価値観を持っており、コミュニケーションを取ることはできない。",
+      "en": "A heretic tasked with seizing sacrifices and performing evil rites. His values are irreconcilable; communication is impossible.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 468,
+      "id": "rem_00468",
+      "jp": "邪教徒・エリート",
+      "en": "Elite Cultist",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 469,
+      "id": "rem_00469",
+      "jp": "邪教徒の中でも最上位の神官。ねじれた正義感と信仰心により研鑽を積み重ねていった彼らは教会の高僧と比べても力で劣ることはなく、悪に堕ちた正義の力で圧倒する。",
+      "en": "A supreme high priest of the cult. His warped justice and faith grant him power equal to high clergy, overwhelming foes with fallen divine might.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 470,
+      "id": "rem_00470",
+      "jp": "邪教の大司祭",
+      "en": "Cult Archbishop",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 471,
+      "id": "rem_00471",
+      "jp": "邪教の儀式に興味を持ち、魔界から覗きに来た魔族。少女の姿をしているが、上位の魔族であり、実力は本物。面白半分で精を吸うが、男の好みには結構うるさい。",
+      "en": "A high-ranking demon from the netherworld, drawn to cult rituals. She appears as a girl but is genuinely powerful, draining essence for fun—and picky about men.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 472,
+      "id": "rem_00472",
+      "jp": "ナイトレディ",
+      "en": "Night Lady",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 473,
+      "id": "rem_00473",
+      "jp": "邪教の思想に染まり、邪悪な神殿を守護するようになった騎士。優れた肉体と魔術の適性を持ち、暗黒騎士として外敵を打ち払う。",
+      "en": "A knight corrupted by cult ideology, now guarding its evil temple. With fine physique and magic affinity, he repels outsiders as a dark knight.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 474,
+      "id": "rem_00474",
+      "jp": "邪教の守護騎士",
+      "en": "Cult Guardian Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 475,
+      "id": "rem_00475",
+      "jp": "邪教徒が飼っている番犬。覚えさせたニオイの持ち主以外は殺傷することを許可されている。独自の調教により、軍用犬並みの戦闘力を持つ。",
+      "en": "A guard dog bred by cultists. Trained to kill anyone except those with a permitted scent, it fights like a military hound.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

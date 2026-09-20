@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 401,
+  "range_end": 425,
+  "pairs": [
+    {
+      "n": 401,
+      "id": "rem_00401",
+      "jp": "獲物の返り血によって真っ赤に染まったコウモリ。もっとも、赤いのは血ではなく魔力によるもの。通常のコウモリよりも好戦的で、攻撃力が増している。",
+      "en": "A bat dyed crimson by the blood of its prey—or rather, by its own magic. More aggressive than a normal bat, and packs a greater punch.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 402,
+      "id": "rem_00402",
+      "jp": "血塗れコウモリ",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 403,
+      "id": "rem_00403",
+      "jp": "魔獣化が進んだカラス。単独の攻撃力が高い上に集団で獲物を追い詰める狡猾さを持つ。場数を踏んだ冒険者でも、集団に襲われればひとたまりもない。",
+      "en": "A crow further twisted by demonic power. Attacks fiercely alone and hunts cunningly in packs. Even seasoned adventurers can't survive a swarm.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 404,
+      "id": "rem_00404",
+      "jp": "レッドクロウ",
+      "en": "Red Crow",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 405,
+      "id": "rem_00405",
+      "jp": "通常のドッグよりも魔獣化が進んだ魔犬。鋭い牙を付き立てられれば、大型の獣すら倒れる。うち捨てられた建物に潜んで狩りをしたり、素早い動きによって獲物をどこまでも追跡する。",
+      "en": "A demonic hound, more beast than dog. Its sharp fangs can bring down large prey. Lairs in abandoned buildings and relentlessly tracks its quarry.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 406,
+      "id": "rem_00406",
+      "jp": "ワイルドドッグ",
+      "en": "Wild Dog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 407,
+      "id": "rem_00407",
+      "jp": "生者に底知れない殺意を持つ悪霊に憑りつかれた、人間のなれの果て。実態と霊体の中間存在であり、武器攻撃が通じにくい。出会ってしまえば死が近づく。",
+      "en": "The withered remains of a human, possessed by a hateful wraith. A semi-corporeal spirit; weapon attacks are less effective. To encounter one is to court death.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 408,
+      "id": "rem_00408",
+      "jp": "レイス",
+      "en": "Wraith",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 409,
+      "id": "rem_00409",
+      "jp": "巨大な芋虫型の昆虫モンスター。普段は大人しいが、ひとたび食事を始めると、嵐のようにすべてをなぎ倒し、森ごと獲物を捕食する。",
+      "en": "A giant caterpillar monster. Usually docile, but once it starts feeding, it ravages everything like a storm, devouring whole forests.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 410,
+      "id": "rem_00410",
+      "jp": "キャタピラー",
+      "en": "Caterpillar",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 411,
+      "id": "rem_00411",
+      "jp": "通常のオオカミよりもさらに魔獣化が進んだ。夜行性で、夜を進む無謀な冒険者を餌食にする。元は野生化した軍用犬と言われ、フリズを始めとした軍事拠点に批判が集まる原因となっている。",
+      "en": "A wolf steeped in demonic power. Nocturnal, it preys on reckless night travelers. Said to descend from feral war dogs—a reason why military bases like Fliz are criticized.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 412,
+      "id": "rem_00412",
+      "jp": "キラーウルフ",
+      "en": "Killer Wolf",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 413,
+      "id": "rem_00413",
+      "jp": "強力な殺傷力を持つ危険な昆虫。大型の肉食獣にも襲い掛かる獰猛さを持つうえ、相手がメスであれば産卵を行い、自身の繁殖に利用する。",
+      "en": "A dangerous insect with lethal force. Fierce enough to attack large carnivores. If the target is female, it lays eggs inside to reproduce.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 414,
+      "id": "rem_00414",
+      "jp": "キラーインセクト",
+      "en": "Killer Insect",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 415,
+      "id": "rem_00415",
+      "jp": "太古の機械人形。人々を守り、外敵から人々の営みを守るはずだったが、長い年月は守るべき人を失くし、敵を排除する事のみに機械を動かした。",
+      "en": "An ancient mechanical doll. Meant to protect people, but over the ages it lost those to guard. Now it simply eliminates anything it perceives as a threat.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 416,
+      "id": "rem_00416",
+      "jp": "プロトゴーレム",
+      "en": "Proto-Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 417,
+      "id": "rem_00417",
+      "jp": "影が魔物化したもの。純粋な魔力の固まりであり、物質化していないために物理攻撃が効きにくい。魔力による攻撃でなければ干渉できない。",
+      "en": "A shadow turned monster—a pure mass of magic, barely material. Physical attacks are weak; only magic can affect it.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 418,
+      "id": "rem_00418",
+      "jp": "さまよえるたましい",
+      "en": "Wandering Soul",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 419,
+      "id": "rem_00419",
+      "jp": "人体に害のある鱗粉をまき散らす、危険きわまりない蝶々。鱗粉の毒素はさらに深さを増しているが、少量の鱗粉で強力な薬効を得られる為、魔女達のお茶会で求められる。",
+      "en": "An extremely dangerous butterfly that scatters toxic scales. The poison is potent, but a small amount yields powerful medicine—highly sought after by witches for their teas.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 420,
+      "id": "rem_00420",
+      "jp": "デンジャラスフライ",
+      "en": "Dangerous Fly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 421,
+      "id": "rem_00421",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。雷の魔法を得意とし、周囲を稲妻の結界へと引きずり込む。",
+      "en": "A spirit mimicking a burning skull. It circles the living in a set pattern, mockingly sapping their life force. It excels in lightning magic, dragging the area into a thunderstorm barrier.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 422,
+      "id": "rem_00422",
+      "jp": "サンダースピリット",
+      "en": "Thunder Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 423,
+      "id": "rem_00423",
+      "jp": "北方にて発生した変異種。見た目は最弱のゴブリンに見えるが、その戦闘力は尋常で無いほどに高い。",
+      "en": "A mutant species born in the north. It looks like the weakest Goblin, yet its combat power is extraordinarily high.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 424,
+      "id": "rem_00424",
+      "jp": "ゴブリン・北方種",
+      "en": "Goblin: Northern Breed",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 425,
+      "id": "rem_00425",
+      "jp": "変異したゴブリンの中でも更に凶暴性を増した個体。執拗に急所を狙ってくる。たかがゴブリンと侮った冒険者は、生還する事はできないだろう。",
+      "en": "A particularly ferocious mutant Goblin. It relentlessly targets vital spots. Adventurers who underestimate mere Goblins will not survive.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75201,
+  "range_end": 75225,
+  "pairs": [
+    {
+      "n": 75201,
+      "id": "db_EventInfo:88938:0",
+      "jp": "ダンジョンの奥に辿り着くと……。",
+      "en": "Finally, we reached the depths of the dungeon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75202,
+      "id": "db_EventInfo:88940:23",
+      "jp": "ようやく来たみたいやな、【<pl>】はん",
+      "en": "Took ya long enough to get here, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75203,
+      "id": "db_EventInfo:88941:24",
+      "jp": "ふふ、ご無事だったようで何よりですわね",
+      "en": "Fufu, I'm so very glad to see you safe and sound.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75204,
+      "id": "db_EventInfo:88942:1",
+      "jp": "ノースリンデ！　シェルフィも！",
+      "en": "Northlinde! Shelfi's here too!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75205,
+      "id": "db_EventInfo:88943:0",
+      "jp": "俺は二人の姿を見つけ、思わず駆け出そうとするが。",
+      "en": "Seeing the two of them, I started to run toward them without thinking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75206,
+      "id": "db_EventInfo:88944:2",
+      "jp": "待つデス、凄い数の兵士達デス！",
+      "en": "Wait, desu! There's a crazy number of soldiers, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75207,
+      "id": "db_EventInfo:88945:23",
+      "jp": "せやで、【<pl>】はんらが来ると思ってかき集めた、選りすぐりの兵士達どす",
+      "en": "Yep! These are my handpicked best soldiers, gathered here because I thought you might come, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75208,
+      "id": "db_EventInfo:88946:105",
+      "jp": "ふん、兵士がなんだ。【<pl>】殿はこの程度の妨害で歩みを止めたりしない！",
+      "en": "Hmph, so what?【<pl>】 won't stop for something as small as this!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75209,
+      "id": "db_EventInfo:88947:115",
+      "jp": "【<pl>】の道は、私達が開く",
+      "en": "We'll clear the path for 【<pl>】.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75210,
+      "id": "db_EventInfo:88948:23",
+      "jp": "あっはっは、これだけの戦力差があるっちゅうに、戦うつもりなんやな",
+      "en": "Ah ha ha! You still wanna fight, even with odds stacked this much against you?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75211,
+      "id": "db_EventInfo:88949:24",
+      "jp": "ふふ、最後まで抗おうなんて、人間は可愛いですわね",
+      "en": "My, my, resisting to the very end... how cute humans are.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75212,
+      "id": "db_EventInfo:88950:4",
+      "jp": "はは、ザコどもを集めていい気になってる方が、よっぽど可愛いぞ",
+      "en": "Ha ha, the ones getting cocky gathering all these nobodies are way cuter!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75213,
+      "id": "db_EventInfo:88951:27",
+      "jp": "行くぜ【<pl>】ちゃん、そろそろ決着って奴をつける時だ！",
+      "en": "Let's go, 【<pl>】! It's about time we settled this for good!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75214,
+      "id": "db_EventInfo:88952:26",
+      "jp": "こんなものが空にあったら、海の中も大変ですの。破壊させていただきますわ",
+      "en": "Things would be terrible for the sea below if something like this was in the sky. Allow me to destroy it.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 75215,
+      "id": "db_EventInfo:88954:23",
+      "jp": "ええやろ、【<pl>】はん、そして仲間どもの力、見せてもらうで！",
+      "en": "Alright then, 【<pl>】! Show me what you and your friends can do!",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75216,
+      "id": "db_EventInfo:88955:1",
+      "jp": "いくぞ！",
+      "en": "Let's go!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75217,
+      "id": "db_EventInfo:88956:0",
+      "jp": "俺達は武器を構えるノーザリア軍に向かっていった！",
+      "en": "We charged at the Northlarian soldiers who had raised their weapons!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75218,
+      "id": "db_EventInfo:88957:23",
+      "jp": "ウソやろ！？　これだけの兵士を集めても勝たれへんなんて！？",
+      "en": "No way!? I gathered all these soldiers and I still can't win!?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75219,
+      "id": "db_EventInfo:88958:4",
+      "jp": "そんなザコどもを集めても、ウルフィナ達は止められないぞ！",
+      "en": "You think a bunch of small fry can stop us?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75220,
+      "id": "db_EventInfo:88959:27",
+      "jp": "アタシたちを止めたきゃ、百倍集めてくるんだな！",
+      "en": "You wanna stop us, bring a hundred times more!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75221,
+      "id": "db_EventInfo:88960:23",
+      "jp": "ま、まあええやろ、この場はこの程度で勘弁したるわ",
+      "en": "Ah, whatever. We'll let this one slide for now.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75222,
+      "id": "db_EventInfo:88961:24",
+      "jp": "そうですわ、次はこう簡単にはいきませんわよ！",
+      "en": "Yes, it won't be this easy next time!",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75223,
+      "id": "db_EventInfo:88962:0",
+      "jp": "ノースリンデたちは逃げ出してしまった。",
+      "en": "Northlinde and the others ran away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75224,
+      "id": "db_EventInfo:88963:3",
+      "jp": "あっ！　逃げたぞ！",
+      "en": "Ah! They ran!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75225,
+      "id": "db_EventInfo:88964:1",
+      "jp": "追わなくては！",
+      "en": "We have to chase them!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

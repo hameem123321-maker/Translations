@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11076,
+  "range_end": 11100,
+  "pairs": [
+    {
+      "n": 11076,
+      "id": "rem_38837",
+      "jp": "養殖新鮮チキン",
+      "en": "Farm-Fresh Chicken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11077,
+      "id": "rem_38838",
+      "jp": "内臓を取り去り、血抜きをした鳥肉を燻し、しっかりと味を付けた物。保存に耐え、骨までスープに利用できる、無駄のない鳥肉素材。",
+      "en": "Bird meat, gutted, bled, smoked, and well-seasoned. Preserves well; even the bones can be used for soup, making it a resourceful ingredient.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11078,
+      "id": "rem_38839",
+      "jp": "下処理済みスモークチキン",
+      "en": "Prepared Smoked Chicken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11079,
+      "id": "rem_38840",
+      "jp": "冒険者集団によって仕留められた、巨大な魔獣鳥の肉。魔力が籠もっているせいか、鮮度が長持ちしてなかなか傷まない。食べるとなぜか皆走り出す。",
+      "en": "Meat from a giant monstrous bird taken down by an adventurer group. Perhaps due to its magical essence, it stays fresh for a long time. Eating it makes everyone inexplicably start running.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11080,
+      "id": "rem_38841",
+      "jp": "巨大鳥のチキン肉",
+      "en": "Giant Bird Chicken Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11081,
+      "id": "rem_38842",
+      "jp": "神秘的な翼を持つ、珍しい鳥の肉。サッパリした味わいと栄養価で知られる。体力回復に優れ、魔力を高める効果もあるとされる。",
+      "en": "The meat of a rare bird with mystical wings. Known for its light flavor and nutritional value. Excellent for restoring HP and said to boost magic power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11082,
+      "id": "rem_38843",
+      "jp": "神秘鳥の肉",
+      "en": "Mystical Bird Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11083,
+      "id": "rem_38844",
+      "jp": "稀少なフロッグから取れた、トリニクより高価なトリニクモドキ。その味わいに比べれば、何の肉かなど些細な事。",
+      "en": "A high-quality imitation bird meat, more expensive than actual bird meat, harvested from a rare frog. Compared to its taste, what kind of meat it is is trivial.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11084,
+      "id": "rem_38845",
+      "jp": "高級トリニクモドキ",
+      "en": "Premium Imitation Bird Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11085,
+      "id": "rem_38846",
+      "jp": "霊峰に住まう怪鳥の肉。魔力を行使する鳥の肉は、体力だけでなく、魔力の回復にも適している。",
+      "en": "The meat of a monstrous bird that dwells on sacred peaks. The meat of a bird that wields magic is suitable for recovering both HP and MP.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11086,
+      "id": "rem_38847",
+      "jp": "霊峰の怪鳥肉",
+      "en": "Sacred Peak Monstrous Bird Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11087,
+      "id": "rem_38848",
+      "jp": "食用になる豚の内臓。しっかりとした手順で調理すれば、立派な料理となる。",
+      "en": "Edible pig offal. With proper preparation, it can become a proper dish.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11088,
+      "id": "rem_38849",
+      "jp": "野生豚の内臓",
+      "en": "Wild Boar Offal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11089,
+      "id": "rem_38850",
+      "jp": "フレスミス森林道で狩猟された何かの獣の肉。味は豚に似ているので、豚肉ということで売ることにする。毒は無いとのこと。",
+      "en": "The meat of some beast hunted on the Fresmise Forest Road. Tastes like pork, so we'll sell it as pork. Said to be non-toxic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11090,
+      "id": "rem_38851",
+      "jp": "森林道のポーク",
+      "en": "Forest Road Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11091,
+      "id": "rem_38852",
+      "jp": "ブタの肉を叩いて刻んだものを、そのまま腸に詰めた物。生で食べるのは危険だが、加熱すれば閉じ込めた肉汁が旨味と共に引き立つ。",
+      "en": "Minced pork stuffed directly into intestine. Eating it raw is dangerous, but heating it releases the trapped juices, enhancing the flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11092,
+      "id": "rem_38853",
+      "jp": "腸詰豚肉ミンチ",
+      "en": "Minced Pork Sausage",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11093,
+      "id": "rem_38854",
+      "jp": "アルダルクの酪農家が丹精込めて作った豚肉のソーセージ。安定・安心の品質であり、めったなことでは食中毒にならない。上級市民達が好んで食す。",
+      "en": "Pork sausage meticulously crafted by Aldaluc dairy farmers. A stable, reliable product that rarely causes food poisoning. Favored by upper-class citizens.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11094,
+      "id": "rem_38855",
+      "jp": "酪農家のソーセージ",
+      "en": "Dairy Farmer's Sausage",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11095,
+      "id": "rem_38856",
+      "jp": "獰猛な黒いブタの肉を、塊のまま取り出した物。食べやすい大きさに切って煮込めば、たちまち頬が蕩ける料理となる。",
+      "en": "The meat of a fierce black pig, extracted in large chunks. Chopping it into bite-sized pieces and stewing it creates a dish that melts in your mouth.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11096,
+      "id": "rem_38857",
+      "jp": "煮込み料理用黒ブタ肉",
+      "en": "Stew-Grade Black Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11097,
+      "id": "rem_38858",
+      "jp": "ファングという、巨大な野生豚を仕留めて得た肉。上級の魔獣の肉はとても美味しく、富裕層が好んで求める。入手の危険度もあり、価値は非常に高い。",
+      "en": "Meat obtained from hunting a Fang, a giant wild boar. Meat from high-level magical beasts is delicious and sought after by the wealthy. Its danger and rarity make it extremely valuable.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11098,
+      "id": "rem_38859",
+      "jp": "特大ファングの塊肉",
+      "en": "Giant Fang Chunk Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11099,
+      "id": "rem_38860",
+      "jp": "脂がのったブタの高級な部分を厚切りにした物。そのまま焼くのはもちろん、煮込み料理にも極上の味わいをもたらしてくれる。",
+      "en": "Thick-cut slices from a premium, fatty part of a pig. Excellent grilled or adding supreme flavor to stews.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11100,
+      "id": "rem_38861",
+      "jp": "高級シモフリポーク",
+      "en": "Premium Shimofuri Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

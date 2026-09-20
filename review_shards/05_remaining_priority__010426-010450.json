@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10426,
+  "range_end": 10450,
+  "pairs": [
+    {
+      "n": 10426,
+      "id": "rem_38148",
+      "jp": "魔術耐性貫通+2%",
+      "en": "Magic Resist Pen. +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10427,
+      "id": "rem_38149",
+      "jp": "HP回復量アップ+1%",
+      "en": "HP Recovery +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10428,
+      "id": "rem_38150",
+      "jp": "MP回復量アップ+1%",
+      "en": "MP Recovery +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10429,
+      "id": "rem_38151",
+      "jp": "不利な状態異常の回避率+5%",
+      "en": "Debuff Evasion +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10430,
+      "id": "rem_38152",
+      "jp": "獲得経験値アップ+2%",
+      "en": "EXP Gain +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10431,
+      "id": "rem_38153",
+      "jp": "パーティー全員のクリティカル率+1%",
+      "en": "Party Crit Rate +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10432,
+      "id": "rem_38154",
+      "jp": "機械系トラップの解除率+1%",
+      "en": "Machine Trap Disarm +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10433,
+      "id": "rem_38155",
+      "jp": "自然系トラップの解除率+1%",
+      "en": "Nature Trap Disarm +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10434,
+      "id": "rem_38156",
+      "jp": "魔術系トラップの解除率+1%",
+      "en": "Magic Trap Disarm +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10435,
+      "id": "rem_38157",
+      "jp": "パーティー全員のクリティカル率+5%",
+      "en": "Party Crit Rate +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10436,
+      "id": "rem_38158",
+      "jp": "パーティー全員の経験値+5%",
+      "en": "Party EXP +5%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10437,
+      "id": "rem_38159",
+      "jp": "料理系商品の売値+4%",
+      "en": "Cooking Item Sell Price +4%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10438,
+      "id": "rem_38160",
+      "jp": "鍛冶系商品の売値+4%",
+      "en": "Smithing Item Sell Price +4%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10439,
+      "id": "rem_38161",
+      "jp": "錬金系商品の売値+7%",
+      "en": "Alchemy Item Sell Price +7%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10440,
+      "id": "rem_38162",
+      "jp": "性的用品タイプの売値+50%",
+      "en": "Sexual Item Sell Price +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10441,
+      "id": "rem_38163",
+      "jp": "デスクリティカル率+30%",
+      "en": "Critical Rate +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10442,
+      "id": "rem_38164",
+      "jp": "修練場でのダメージ限界+1",
+      "en": "Training Room Dmg Cap +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10443,
+      "id": "rem_38165",
+      "jp": "戦闘不能時に自動復活+50%",
+      "en": "Auto-Revive on KO +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10444,
+      "id": "rem_38166",
+      "jp": "美食モンスターへのダメージ+100%",
+      "en": "Dmg to Food Monsters +100%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10445,
+      "id": "rem_38167",
+      "jp": "一般料理タイプの売値+50%",
+      "en": "General Food Sell Price +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10446,
+      "id": "rem_38168",
+      "jp": "雑貨タイプの売値+30%",
+      "en": "General Goods Sell Price +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10447,
+      "id": "rem_38169",
+      "jp": "嗜好品タイプの売値+30%",
+      "en": "Luxury Goods Sell Price +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10448,
+      "id": "rem_38170",
+      "jp": "料理系商品の売値+1%",
+      "en": "Cooking Items Sell Price +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10449,
+      "id": "rem_38171",
+      "jp": "鍛冶系商品の売値+1%",
+      "en": "Blacksmith Items Sell Price +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10450,
+      "id": "rem_38172",
+      "jp": "錬金系商品の売値+1%",
+      "en": "Alchemy Items Sell Price +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

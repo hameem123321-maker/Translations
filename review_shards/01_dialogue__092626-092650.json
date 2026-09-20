@@ -1,0 +1,212 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 92626,
+  "range_end": 92650,
+  "pairs": [
+    {
+      "n": 92626,
+      "id": "db_EventInfo:109490:3",
+      "jp": "そういうことがあって大ケンカして、【『ゼカリウス』】で別行動することになったのじゃ",
+      "en": "That happened, we had a big fight, and decided to split up at 【『Zecarius』】.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92627,
+      "id": "db_EventInfo:109491:3",
+      "jp": "……そんなヤツと一緒に仕事をすることになるとはのう",
+      "en": "...Never thought I'd end up working with that guy again.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92628,
+      "id": "db_EventInfo:109492:10",
+      "jp": "ふん……",
+      "en": "Hmph...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 92629,
+      "id": "db_EventInfo:109494:6",
+      "jp": "礼拝堂！　それはとても素晴らしいことですわД",
+      "en": "A chapel! That's wonderfulД.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 92630,
+      "id": "db_EventInfo:109495:6",
+      "jp": "【<pl>】様とシイネ様、それらを崇める場所があれば、信仰も広まりますД",
+      "en": "【<pl>】様 and Lady Shiine, if there's a place to worship you, the faith will spreadД.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル",
+      "flags": [
+        "cjk_in_en",
+        "leftover_honorific"
+      ]
+    },
+    {
+      "n": 92631,
+      "id": "db_EventInfo:109496:0",
+      "jp": "礼拝堂について、何となくマリーゼルに話を振ったら、大賛成されてしまった。",
+      "en": "I mentioned the chapel to Marisel. She was totally for it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92632,
+      "id": "db_EventInfo:109497:1",
+      "jp": "いやいや、【『教団』】とかを作るわけじゃないんだしさ",
+      "en": "Hold on, I'm not trying to make some 'cult' or anything.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92633,
+      "id": "db_EventInfo:109498:6",
+      "jp": "そこをなんとか！　アンジュ様、建築出来ませんか？",
+      "en": "We can work with that! Lady Anju, can you build it?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 92634,
+      "id": "db_EventInfo:109499:3",
+      "jp": "いやまぁ、作れる作れないというと作れるんじゃが……そういう宗教施設を作ると後が面倒になりそうなんじゃよなぁ",
+      "en": "Well, sure I *can* build it... but making a religious place seems like it'll cause trouble later.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92635,
+      "id": "db_EventInfo:109500:3",
+      "jp": "勝手に作ると【『<ruby=ヒエペリオ>教会</ruby>』】の方がうるさく言ってこないじゃろうか",
+      "en": "If we build it on our own, the 'Hyperio Church' might come complaining.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92636,
+      "id": "db_EventInfo:109501:15",
+      "jp": "そこは問題ないんじゃないかな。そこは彼らが認定する【『聖女』】様がおられることだし",
+      "en": "I don't think that'll be a problem. They have their recognized 'Saint' here, after all.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 92637,
+      "id": "db_EventInfo:109502:6",
+      "jp": "そうですわ。【<pl>】様の像も建築しましょう！　きっとご利益がありますわ！",
+      "en": "Exactly! Let's build a statue of 【<pl>】 too! It'll definitely bring blessings!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 92638,
+      "id": "db_EventInfo:109503:1",
+      "jp": "勘弁してくれよ",
+      "en": "Please, cut it out.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92639,
+      "id": "db_EventInfo:109504:3",
+      "jp": "そうじゃな。作るとしたらシイネの方じゃろ？",
+      "en": "Yeah. If we're making a statue, it should be of Shiine, right?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92640,
+      "id": "db_EventInfo:109505:6",
+      "jp": "それも素晴らしいですわД",
+      "en": "That's also wonderful Д",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 92641,
+      "id": "db_EventInfo:109506:1",
+      "jp": "そういう問題じゃなーい！！",
+      "en": "That's not the issue!!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92642,
+      "id": "db_EventInfo:109507:0",
+      "jp": "マリーゼルはすでに建築を確定した物だと考えたのか、笑顔で神像の建築まで提案しだした。",
+      "en": "Marisel must have already decided the building was a sure thing. She smiled and started suggesting we build a god statue too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92643,
+      "id": "db_EventInfo:109508:1",
+      "jp": "(でも、【『<ruby=ヒエペリオ>教会</ruby>』】の礼拝堂があれば、信者の人は助かるかな)",
+      "en": "(But if we had a 'church' chapel, maybe the believers would be saved.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92644,
+      "id": "db_EventInfo:109509:1",
+      "jp": "(それに、うちは邪教に加担してないぞってアピールにもなるかもな)",
+      "en": "(Plus, it might be a good way to show we're not involved with the heretics.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92645,
+      "id": "db_EventInfo:109512:0",
+      "jp": "【礼拝堂】を作ればマリーゼルたちは喜びそうだ。資金が許すなら作ってみようか？",
+      "en": "If we build a chapel, Marisel and the others will probably be happy. Should we build one if we have the money?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92646,
+      "id": "db_EventInfo:109514:9",
+      "jp": "店長殿、ポーションを売る店が狭くなってきていると思うのである",
+      "en": "Manager, I think the potion shop is getting cramped.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 92647,
+      "id": "db_EventInfo:109515:9",
+      "jp": "もっと大々的なブースを用意した方が、売上が伸びると思うぞ",
+      "en": "I think we'd get more sales if we set up a bigger, more prominent booth.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 92648,
+      "id": "db_EventInfo:109516:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92649,
+      "id": "db_EventInfo:109517:13",
+      "jp": "うむ、大きいブースがあれば陳列も増やせて、客も多く呼び込めますかのう",
+      "en": "Indeed. A large booth would allow us to display more and attract more customers.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92650,
+      "id": "db_EventInfo:109518:3",
+      "jp": "スタッフが数人入ることができれば、交代で仕事もできるじゃろな！",
+      "en": "If several staff can fit inside, they can take turns working!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

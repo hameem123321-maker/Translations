@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6201,
+  "range_end": 6225,
+  "pairs": [
+    {
+      "n": 6201,
+      "id": "rem_33820",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 必殺率[+30%] + デバフ特化 + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Single-target attack. Potency [] + Hit [60%] + Crit rate [+30%]. Debuff focus. Applies [Brittle] (Physical damage reduction -50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6202,
+      "id": "rem_33821",
+      "jp": "【<src>】の[鎧溶かし]！",
+      "en": "【<src>】's [Armor Melt]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6203,
+      "id": "rem_33822",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [崩し]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single-target attack. Potency [] + Hit [60%]. Applies [Breach] (Crit received chance +50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6204,
+      "id": "rem_33823",
+      "jp": "【<src>】の[ぴちぴち]！",
+      "en": "【<src>】's [Zap Zap]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6205,
+      "id": "rem_33824",
+      "jp": "槍を構え、力を溜めて強烈な突撃を加える。当たれば強烈、しかし命中率も下がってしまう。",
+      "en": "Ready the spear, build power for a fierce thrust. Devastating if it hits, but accuracy drops.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6206,
+      "id": "rem_33825",
+      "jp": "範囲(小)攻撃 威力[C] +  命中[60%] + 【雷属性】 + 防御貫通(小) + 回避(中) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Small AOE attack. Potency [C] + Hit [60%] + 【Thunder】 + Small DEF Penetration + Medium Evasion + Applies [Knockdown] (Crit received chance +50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6207,
+      "id": "rem_33826",
+      "jp": "【<src>】は[メガチャージ]で突進！",
+      "en": "【<src>】 charges with [Mega Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6208,
+      "id": "rem_33827",
+      "jp": "防御(小) + 【仲間】に【魔盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Small Defense + Grants an 【Ally】 【Magic Shield】 (Reduces damage over 20% max HP by [+50%]).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6209,
+      "id": "rem_33828",
+      "jp": "【<src>】は[光の障壁]を使用した！",
+      "en": "【<src>】 used [Barrier of Light]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6210,
+      "id": "rem_33829",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + 連撃率[+20%] + 【闇属性】 + デバフ特化 + [呪縛]を付与 (すべての攻撃ダメージ-50%)",
+      "en": "Group attack. Potency [] + Hit [80%] + Combo rate [+20%] + 【Dark】 + Debuff focus. Applies [Curse Bind] (All attack damage -50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6211,
+      "id": "rem_33830",
+      "jp": "【<src>】の[呪縛の魔術]！",
+      "en": "【<src>】's [Binding Curse Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6212,
+      "id": "rem_33831",
+      "jp": "エネミー専用・淫魔領域Lv2",
+      "en": "Enemy Only · Succubus Domain Lv2",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6213,
+      "id": "rem_33832",
+      "jp": "少女を守ろうと散った少年の魂は、『聖女』の『奇跡』によって花開くことになる。その力は『奇跡』由来であるゆえに、『聖女』のレベルに比例して強くなる。",
+      "en": "The soul of a boy who fell protecting a girl will bloom through the 『Saintess』's 『Miracle』. Its power scales with the 『Saintess』's level, as it originates from the 『Miracle』.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6214,
+      "id": "rem_33833",
+      "jp": "レベル同期・マリーゼルと同じに([+5])",
+      "en": "Level Sync · Matches Marisel's level ([+5])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6215,
+      "id": "rem_33834",
+      "jp": "狙いをさだめ、弓による命中精度を高める。攻撃力が高い弓の力を引き出すスキル。安定して敵を各個撃破していく。",
+      "en": "Aims to improve bow accuracy. A skill that unleashes the bow's high power. Reliably defeats enemies one by one.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6216,
+      "id": "rem_33835",
+      "jp": "単体攻撃 威力[E] +  命中[90%] + 【風属性】",
+      "en": "Single-target attack. Potency [E] + Hit [90%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6217,
+      "id": "rem_33836",
+      "jp": "【<src>】は[エイミングショット]で狙い撃った！",
+      "en": "【<src>】 sniped with [Aiming Shot]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6218,
+      "id": "rem_33837",
+      "jp": "斧を力任せに叩き付け、強烈な攻撃を狙う。命中率はいまいち信用できないが、攻撃力はとても高いので、上手く狙っていきたい。",
+      "en": "Swing the axe with brute force for a powerful strike. Accuracy is unreliable, but the attack power is very high, so aim well.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6219,
+      "id": "rem_33838",
+      "jp": "単体攻撃 威力[C] +  命中[60%] + 必殺率[+30%] + 【風属性】 + 防御貫通(小) + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Single-target attack. Potency [C] + Hit [60%] + Crit rate [+30%] + 【Wind】 + Small DEF Penetration + Applies [Brittle] (Physical damage reduction -50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6220,
+      "id": "rem_33839",
+      "jp": "【<src>】は[ヘヴィスマッシュ]を放った！",
+      "en": "【<src>】 unleashed [Heavy Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6221,
+      "id": "rem_33840",
+      "jp": "極限まで集中力を高めることで、相手の動きが遅く見える。速度が高まれば連続攻撃発生率と回避率もアップする攻防一体の技。",
+      "en": "By focusing to the extreme, an opponent's movements appear slow. Boosts speed, raising double attack and evasion rates—a balanced technique.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6222,
+      "id": "rem_33841",
+      "jp": "【自分】に【加速】を付与 (ダブルアタック率[+50%])",
+      "en": "Grants 【Acceleration】 to 【self】 (Double Attack Rate [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6223,
+      "id": "rem_33842",
+      "jp": "【<src>】は[加速魔術]を使用した！",
+      "en": "【<src>】 used [Acceleration Magic]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6224,
+      "id": "rem_33843",
+      "jp": "気配を消す暗殺術。完全に気配を遮断してターゲットから隠れ、死角から必殺の一撃を放つ。技量を極めた者が放つ一撃は驚異的な威力となる。",
+      "en": "An assassination art that erases presence. Completely conceals oneself from the target, delivering a fatal blow from a blind spot. Mastery yields devastating power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6225,
+      "id": "rem_33844",
+      "jp": "【自分】に【暗殺++】を付与 (クリティカル率[+100%] + 弱点へのダメージ[+20%])",
+      "en": "Grants 【Assassination++】 to 【self】 (Critical Rate [+100%] + Weakness Damage [+20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

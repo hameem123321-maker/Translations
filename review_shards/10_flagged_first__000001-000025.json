@@ -1,0 +1,283 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1,
+  "range_end": 25,
+  "pairs": [
+    {
+      "n": 1,
+      "id": "db_EventInfo:3239:8",
+      "jp": "【『H部屋開発』】では、【『搾精ルーム』】で行われる、いかがわしいプレイを開発することが出来るよД",
+      "en": "With [H-Room Development], you can develop the naughty play that happens in the [Semen Extraction Room]Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 2,
+      "id": "db_EventInfo:3244:8",
+      "jp": "うん！　女の子と【『絆』】を深めることによって【『搾精』】の効率を高めて、質の高い精液をより多く搾り取ることが出来るの！",
+      "en": "Yes! By deepening the [Bond] with a girl, you can make [Semen Extraction] more efficient! You get more high-quality semen!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 3,
+      "id": "db_EventInfo:3245:8",
+      "jp": "質の高い精液は淫魔の好物、魔術の媒体にも使えるの。流通ルートは限られるけど、そこは押さえているのでバッチリД　いい儲けになるはずだよ～Д",
+      "en": "High-quality semen is a succubus favorite, and you can use it for magic too. The sales channels are limited, but we've got that coveredД It should be a great moneymaker~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 4,
+      "id": "db_EventInfo:3250:8",
+      "jp": "高く売れるのは質の高い精液と言ったじゃない。どこの馬の骨と分からんヤツの精液なんて売れないよぉД",
+      "en": "I told you, high-quality semen sells for a high price. We can't sell some nobody's semenД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 5,
+      "id": "db_EventInfo:3251:2",
+      "jp": "ふむ。たしかにオマエなら安心、【『死神』】の代行といえば、神の第一の使徒、精液の質の高さはこれ以上ないに違いないデス！",
+      "en": "Hmm. Indeed, if it's you, we can be at ease. As a proxy for the Shinigami, God's first apostle, the quality of your semen must be second to none!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 6,
+      "id": "db_EventInfo:3469:0",
+      "jp": "★bgm・不穏",
+      "en": "★bgm・Ominous",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 7,
+      "id": "db_EventInfo:3537:2",
+      "jp": "【『搾精ルーム』】を作ったデスね",
+      "en": "It's a 'Semen Extraction Room'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 8,
+      "id": "db_EventInfo:3540:8",
+      "jp": "【『搾精ルーム』】はお兄ちゃんと【『死神代行助手』】たちの【『絆』】を深める夢の部屋だよД　一緒に【『絆』】を深めて、搾精してねД",
+      "en": "The 'Semen Extraction Room' is a dream room to deepen the Bond between Big Bro and the Shinigami AssistantsД Let's deepen that Bond and extract some semen togetherД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 9,
+      "id": "db_EventInfo:3542:8",
+      "jp": "ザコどもでも使わせることが出来るね。どちらにしろ、使っていると搾精していくよ。採れた精液は高く買い取るからねД",
+      "en": "We can even let the low-level guys use it. Either way, using it will lead to extraction. I'll buy the collected semen for a high priceД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 10,
+      "id": "db_EventInfo:3942:1",
+      "jp": "エッチな行為をするなら【『搾精ルーム』】！　これは必要なことなんだよ！",
+      "en": "For lewd acts, the [Semen Extraction Room]! This is something we need to do!",
+      "speaker": "I",
+      "speaker_jp": "主人公",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11,
+      "id": "db_EventInfo:3955:6",
+      "jp": "【『搾精ルーム』】というのは、もしかしてここは娼館という所では？",
+      "en": "This place called the 【『Semen Extraction Room』】... is this perhaps a brothel?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 12,
+      "id": "db_EventInfo:3972:7",
+      "jp": "【『搾精ルーム』】……？",
+      "en": "【The『Semen Extraction Room』】...?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 13,
+      "id": "db_EventInfo:3994:9",
+      "jp": "【『搾精ルーム』】……なるほど、これは娼婦との遊び場という奴だな。",
+      "en": "'Semen Extraction Room'... I see. So this is the kind of play area used with prostitutes.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 14,
+      "id": "db_EventInfo:4014:10",
+      "jp": "【『搾精ルーム』】だと？　このような場所に連れ込むとは……",
+      "en": "The 'Semen Extraction Room'? You brought me to a place like this...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 15,
+      "id": "db_EventInfo:4463:25",
+      "jp": "ほほう、ここがウワサの【『搾精ルーム』】ですなД",
+      "en": "Ho-ho, so this is the famous 【'Semen Extraction Room'】 I've heard aboutД",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 16,
+      "id": "db_EventInfo:4478:108",
+      "jp": "ほう、【『搾精ルーム』】かД　ワシに体を売らせるつもりじゃなД",
+      "en": "Hoh, the【'Semen Harvesting Room'】Д You intend to sell my body, do you Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 17,
+      "id": "db_EventInfo:4521:112",
+      "jp": "何だここ、【『搾精ルーム』】？　こんなところで、俺に何をしろってんだよ？",
+      "en": "What is this place, the 'Semen Extraction Room'? What are you supposed to do to me in a spot like this?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 18,
+      "id": "db_EventInfo:4535:110",
+      "jp": "ここは【『搾精ルーム』】でありますか？　これはもしや、私に体を売れと……？",
+      "en": "Is this the... 【『Semen Collection Room』】? Does this mean you want me to sell my body...?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 19,
+      "id": "db_EventInfo:4582:1",
+      "jp": "ああ、ここは【『搾精ルーム』】で、一緒に【絆】を……",
+      "en": "Oh, this is the【<pl>Semen Extraction Room</pl>】. Here, I'll... with【Bond】...",
+      "speaker": "I",
+      "speaker_jp": "主人公",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 20,
+      "id": "db_EventInfo:4591:102",
+      "jp": "え、【『搾精ルーム』】って……娼婦をやれって事ですか！？",
+      "en": "Huh, [『Semen Extraction Room』]... You want me to be a prostitute?!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 21,
+      "id": "db_EventInfo:4600:106",
+      "jp": "【『搾精ルーム』】だぁ？　おいおい、【『勇者』】の俺に、変な仕事させるんじゃねぇよ",
+      "en": "[『Semen Extraction Room』]? Come on, man, don't give weird jobs to me, the [『Hero』].",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 22,
+      "id": "db_EventInfo:4785:34",
+      "jp": "そ、そういう意味じゃないからね！？　もう、【『ルーラ』】の息がかかった部屋に連れてきて、やる事なんて一つでしょД",
+      "en": "Th-That's not what I meant!? Come on, you bring me to a room influenced by 【『ルーラ』】, there's only one thing to doД",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 23,
+      "id": "db_EventInfo:4856:24",
+      "jp": "うふふД 　はぁ、ああんД　諦めて、んんД　身を、委ねて、下さいませД　【<pl>】様も、嬉しそうに、感じているでは、んんっД　ありませんかД",
+      "en": "UhuhuД... haa, aahnnД... Just give in, nnnД... please, surrenderД... You too, 【<pl>】, you seem happy, mnnっД... don't youД?",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 24,
+      "id": "db_EventInfo:4984:0",
+      "jp": "シェルフィの膣内はウネウネと蠢き、まるで精を搾り取るだけの、別の生物であるかのようだ。",
+      "en": "Inside Shelfi is writhing, like some other creature just meant to squeeze out my seed.",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 25,
+      "id": "db_EventInfo:4986:24",
+      "jp": "遠慮、しないでД　んんД　精液、吐き出して、しまいましょうД　オマンコ、あんД　中に、出して、しまいましょうねД",
+      "en": "Don't hold backД NnД Let your semen flow outД Ah, inside my pussyД Cum inside, pleaseД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ",
+      "flags": [
+        "h_wording_check"
+      ]
+    }
+  ]
+}

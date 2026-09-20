@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10826,
+  "range_end": 10850,
+  "pairs": [
+    {
+      "n": 10826,
+      "id": "rem_38587",
+      "jp": "ゴルドヴァーナへ一般冒険者を派遣する。かつては幻の都とされていたが、発見して攻略に成功したことで、その場所は公になった。その奥にはいまだ多くの文明の遺産が眠っており、引き続き調査する遺跡調査団の護衛が中心になるだろう。",
+      "en": "Dispatch general adventurers to Goldvarna. Once a fabled city, it's now public knowledge. Its depths hold many relics, so guarding the ongoing investigation is key.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10827,
+      "id": "rem_38588",
+      "jp": "黄金の都ゴルドヴァーナ",
+      "en": "Golden City Goldvarna",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10828,
+      "id": "rem_38589",
+      "jp": "北方の氷原地帯にある迷宮に一般冒険者を向かわせる。他国との境界線上に存在しており、冒険者も滅多に向かうことは無かったが、このたび攻略路も開発できた。多くの資金を投資して、バックアップして資源を独占しよう。",
+      "en": "Send general adventurers to the labyrinth in the northern icy plains. On the border, rarely visited, but we've now developed a route. Invest heavily, secure backup, and monopolize the resources.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10829,
+      "id": "rem_38590",
+      "jp": "フリュジットの氷獄迷宮",
+      "en": "Fryudgit's Ice Prison Labyrinth",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10830,
+      "id": "rem_38591",
+      "jp": "かつて繁栄した都市だったが、海に没して滅亡した古代の都。今は海に住む強力な魔獣の巣窟となっている。攻略に成功したことで、一般冒険者も向かわせることが出来た。資金を投入する必要があるが、中は資源の宝庫だ。",
+      "en": "An ancient city that sank into the sea. Now a den for powerful sea monsters. Opened to general adventurers after conquest. Requires investment, but it's a treasure trove of resources.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10831,
+      "id": "rem_38592",
+      "jp": "海底都市ディープゼカル",
+      "en": "Sunken City Deep Zekal",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10832,
+      "id": "rem_38593",
+      "jp": "『フレスミス森林道』の整備に資金投入する。ゼカリウスから『ドルワミール鉱山』に続く道である森林道は先日の災害で分断されている状態らしい。開通すれば『ドルワミール鉱山』との交易路が復活し、『ゼカリウス』の経済も潤うだろう。",
+      "en": "Invest in developing the 'Fresmis Forest Path'. The road linking Zecarius to Dorwamir Mines was severed in a recent disaster. Reopening it will revive trade and boost Zecarius's economy.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10833,
+      "id": "rem_38594",
+      "jp": "フレスミス攻略プロジェクト",
+      "en": "Fresmis Conquest Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10834,
+      "id": "rem_38595",
+      "jp": "エルフィード族のエリオルダを雇用する。ベテラン冒険者であり、戦闘や探索のエキスパートである彼女がいれば、ダンジョン攻略も有利に進むはず。それだけでなく美人の彼女が宿屋のスタッフになれば、宿も華やかになるだろう。かなりのゴールドが必要そうだが……。",
+      "en": "Hire Eliorda of the Elfid tribe. A veteran adventurer, expert in combat and exploration. Her presence will aid dungeon conquests, and she'll brighten up the inn as staff. Requires substantial gold...",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10835,
+      "id": "rem_38596",
+      "jp": "エリオルダを雇用する",
+      "en": "Hire Eliorda",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10836,
+      "id": "rem_38597",
+      "jp": "『フレスミス森林道』の交易を活発化させるため、ミーシャとケインの二人に出資する。大丈夫だろうか……？",
+      "en": "Invest in Misha and Kane to invigorate trade on the 'Fresmis Forest Path'. Is this a good idea...?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10837,
+      "id": "rem_38598",
+      "jp": "フレスミス森林交易商会に投資Lv1",
+      "en": "Invest Lv1 in Fresmis Forest Trade Guild",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10838,
+      "id": "rem_38599",
+      "jp": "フレスミス森林交易商会に投資Lv2",
+      "en": "Invest Lv2 in Fresmis Forest Trade Guild",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10839,
+      "id": "rem_38600",
+      "jp": "フレスミス森林交易商会に投資Lv3",
+      "en": "Invest Lv3 in Fresmis Forest Trade Guild",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10840,
+      "id": "rem_38601",
+      "jp": "フレスミス森林交易商会に投資Lv4",
+      "en": "Invest Lv4 in Fresmis Forest Trade Guild",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10841,
+      "id": "rem_38602",
+      "jp": "フレスミス森林交易商会に投資Lv5",
+      "en": "Fresmis Forest Trade Association Investment Lv5",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10842,
+      "id": "rem_38603",
+      "jp": "ゴブリンがドワーム族の里を襲撃し、占拠してしまったらしい。ゴブリンはドワーム族の装備を奪って武装し、並の冒険者では太刀打ちできない。ベテランの冒険者を中心に雇用し、ゴブリンからドワーム族の集落と鉱山を取り戻そう。",
+      "en": "Goblins have apparently attacked and occupied the Dwarm village. Armed with stolen Dwarm equipment, ordinary adventurers are no match for them. Let's hire veteran adventurers to reclaim the Dwarm settlement and mine from the goblins.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10843,
+      "id": "rem_38604",
+      "jp": "ドルワミール攻略プロジェクト",
+      "en": "Dolwamir Subjugation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10844,
+      "id": "rem_38605",
+      "jp": "キャトリナが住む村の付近に、ゴブリンの大群が押し寄せて来る気配がある。ゴブリンといえども、大群となればパーティーという規模ではなく、かなりの集団として動く必要がありそうだ。ゴブリンの群れを殲滅し農場の平和とキャトリナを守ろう。",
+      "en": "There are signs of a large goblin horde approaching Catrina's village. Even goblins in such numbers would require a sizable force, not just a small party. Let's exterminate the goblin horde to protect the farm's peace and Catrina.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10845,
+      "id": "rem_38606",
+      "jp": "キャトリナの村防衛に投資",
+      "en": "Invest in Catrina's Village Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10846,
+      "id": "rem_38607",
+      "jp": "『イルニエル大灯台』が魔獣の巣窟になっているとの報告が来た。大灯台は『アーマニア海』の夜の道しるべとなり、漁師や貿易船にとって重要な場所である。『ゼカリウス』の海を安全に航行ができるようにするため、魔獣を掃討する冒険者を雇い、灯台に光を取り戻そう。",
+      "en": "Reports say the 'Iluniel Great Lighthouse' has become a den of monsters. The lighthouse is a vital night-time guide on the 'Armania Sea' for fishermen and trade ships. To ensure safe navigation on Zecarius's seas, let's hire adventurers to clear out the monsters and restore light to the lighthouse.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10847,
+      "id": "rem_38608",
+      "jp": "イルニエル攻略プロジェクト",
+      "en": "Iluniel Subjugation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10848,
+      "id": "rem_38609",
+      "jp": "薬師カリスト・ウィルチが行方不明になった。彼女の行方を追う為、情報を収集する。『盗賊ギルド』など裏世界の事情に詳しい者の協力を仰げると良いが……。",
+      "en": "The apothecary Callisto Wilch has gone missing. To trace her whereabouts, we'll gather information. Seeking help from those familiar with the underworld, like the 'Thieves' Guild', might be wise...",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10849,
+      "id": "rem_38610",
+      "jp": "薬師カリストの捜索を依頼",
+      "en": "Request to Search for Apothecary Callisto",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10850,
+      "id": "rem_38611",
+      "jp": "ゼカリウスを襲う流行り病の特効薬を量産する為にはカリストだけでは手が足りない。『魔女達のお茶会』に支援を要請し、流行病を撲滅しよう。",
+      "en": "Callisto alone can't mass-produce the specific medicine for the epidemic hitting Zecarius. Let's request support from the 'Witches' Tea Party' to eradicate the epidemic.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

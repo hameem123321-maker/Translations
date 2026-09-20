@@ -1,0 +1,283 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 951,
+  "range_end": 975,
+  "pairs": [
+    {
+      "n": 951,
+      "id": "rem_38180",
+      "jp": "変態",
+      "en": "Pervert",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 952,
+      "id": "rem_38181",
+      "jp": "見る",
+      "en": "Look",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 953,
+      "id": "rem_38182",
+      "jp": "移動",
+      "en": "Move",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 954,
+      "id": "rem_38183",
+      "jp": "謝罪",
+      "en": "Apology",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 955,
+      "id": "rem_38184",
+      "jp": "挿入",
+      "en": "Insert",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 956,
+      "id": "rem_38276",
+      "jp": "大衆浴場・男湯",
+      "en": "Public Bath・Men's Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 957,
+      "id": "rem_38278",
+      "jp": "大衆浴場・女湯",
+      "en": "Public Bath・Women's Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 958,
+      "id": "rem_38280",
+      "jp": "大衆浴場・混浴",
+      "en": "Public Bath・Mixed Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 959,
+      "id": "rem_38712",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の大神殿を建築する資金に協力する。かなりの大工事で、数年がかりの大仕事になるだろう。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 960,
+      "id": "rem_38717",
+      "jp": "お茶会Lv10・高性能ポーション工房建設",
+      "en": "Tea Party Lv10・High-Performance Potion Workshop Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 961,
+      "id": "rem_38773",
+      "jp": "まだ明かされていない、ダムブナックの森の深奥には、得体の知れない怪異が眠っている恐れがある。好奇心や欲に取り憑かれた者が深奥に踏み入り、それを目覚めさせないように、『<ruby=ウィッチ>魔女</ruby>』の結界で封印することにする。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 962,
+      "id": "rem_38778",
+      "jp": "【<src>】の[ヘヴンドライブ]！",
+      "en": "",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 963,
+      "id": "rem_38896",
+      "jp": "繁殖力に優れた麦粒。不毛の地と化した砂漠でも繁茂する、希望の種。今を我慢すれば、未来には黄金の麦畑が広がるだろう。",
+      "en": "Wheat grains with superior reproductive power. Seeds of hope that thrive even in desertified wastelands. Endure the present, and golden wheat fields will spread in the future.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 964,
+      "id": "rem_38897",
+      "jp": "未来への種麦",
+      "en": "Seed Wheat for the Future",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 965,
+      "id": "rem_38933",
+      "jp": "邪教のブラッドベリ―",
+      "en": "",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 966,
+      "id": "rem_39500",
+      "jp": "世界樹の種とも呼ばれる大きな種子。生命の起源と呼ばれる世界樹は発芽が難しく、実行するには巨大な魔力が必要になる。何の役にも立たない貴重品。",
+      "en": "A large seed also called the Seed of the World Tree. Germinating the legendary World Tree requires immense magic. A rare item with no practical use.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 967,
+      "id": "rem_39681",
+      "jp": "物理的に他者を踏みつけるのは疲れますわ。しっかり射精できるように、今後は頑張りますわねД",
+      "en": "Physically trampling others is tiring. I'll work hard from now on so you can ejaculate properly.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 968,
+      "id": "rem_39710",
+      "jp": "ようやく<pl>様に射精いただけるようになった時ですわねД　これも<pl>様のご指導のおかげですわД",
+      "en": "The time I was finally able to make <pl> ejaculateД This was also thanks to <pl>'s guidanceД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 969,
+      "id": "rem_39717",
+      "jp": "一緒に体を綺麗にいたしましたわД　遠慮せず、たくさん中出ししてほしいですわねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 970,
+      "id": "rem_39720",
+      "jp": "姿を変えた<pl>様に、嫌がってと言われました……ですが、どのような姿でも、<pl>様を拒絶などできませんわД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 971,
+      "id": "rem_39726",
+      "jp": "皆様の前で、<pl>様がどれだけの偉業を成す方か、見せつけて差し上げましたわД　私はもう<pl>様の物ですものД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 972,
+      "id": "rem_39756",
+      "jp": "<pl>にいっぱい射精してもらった時だよねД　夢中になって射精しちゃう<pl>も、可愛かったよД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 973,
+      "id": "rem_39761",
+      "jp": "仕事中でも、ボクは気にしないよД　ボクが好きなのは<pl>だけだって、知らしめなくちゃД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 974,
+      "id": "rem_39859",
+      "jp": "おっぱいを吸ってる<pl>君、とっても可愛いよД　遠慮しないで、もっとしてあげるД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 975,
+      "id": "rem_39861",
+      "jp": "<pl>君をたくさん癒してあげちゃったД　<pl>君はいつも頑張ってるんだから、いっぱい射精して、癒されてねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    }
+  ]
+}

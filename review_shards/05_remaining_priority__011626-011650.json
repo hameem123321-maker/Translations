@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11626,
+  "range_end": 11650,
+  "pairs": [
+    {
+      "n": 11626,
+      "id": "rem_39387",
+      "jp": "冷たい氷の花",
+      "en": "Frost Bloom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11627,
+      "id": "rem_39388",
+      "jp": "特殊な成分を持つ葉を乾燥させた物。砕いて燃やした煙を吸うと、快楽と幻覚を得られるが、依存性がある為、長期に渡って吸い続けると危険。",
+      "en": "Dried leaves with special properties. Crushed and smoked, they induce pleasure and hallucinations but carry a risk of addiction.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11628,
+      "id": "rem_39389",
+      "jp": "不思議な香りの葉っぱ",
+      "en": "Leaves of Mystic Scent",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11629,
+      "id": "rem_39390",
+      "jp": "取り締まりを逃れ、違法品を摂取するためのパイプ。何食わぬ顔で煙を吸っていても、つかの間の幸福感と引き換えに、その一生を奈落に叩き落とす。",
+      "en": "A pipe for discreetly using illegal substances. A fleeting high at the cost of one's life, plunging it into ruin.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11630,
+      "id": "rem_39391",
+      "jp": "虚脱のパイプ",
+      "en": "Pipe of Despair",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11631,
+      "id": "rem_39392",
+      "jp": "自立して動いていた植物の根っこ。すでにビクビクと跳ねるだけだが、その生命力は疑いようがない。ビクンビクンと痙攣する姿はちょっと気持ち悪い。",
+      "en": "A plant root that once moved on its own. Still twitching with undeniable vitality, its spasms are unsettling to watch.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11632,
+      "id": "rem_39393",
+      "jp": "ビクビクマンドラゴラ",
+      "en": "Twitching Mandragora",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11633,
+      "id": "rem_39394",
+      "jp": "開花期間が非常に短く、咲いている瞬間を目撃すれば幸せになると言われる花。しかし、真実の由来は枯れた後の花を燃やした煙を吸う事で得られる幸福感。",
+      "en": "A flower with a fleeting bloom. True happiness comes not from seeing it, but from inhaling the smoke of its withered remains.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11634,
+      "id": "rem_39395",
+      "jp": "幸せの花",
+      "en": "Bliss Flower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11635,
+      "id": "rem_39396",
+      "jp": "サソリのような節足動物の抜け殻。殻の内に残った天然の毒素は、燃やすと人に幻覚を見せる煙を生み出す。一度体験してしまうと、その体験を忘れられなくなる。",
+      "en": "The shed carapace of a scorpion-like arthropod. Its residual toxins produce hallucinogenic smoke when burned, creating an unforgettable, addictive experience.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11636,
+      "id": "rem_39397",
+      "jp": "甲殻類の抜け殻",
+      "en": "Arthropod Carapace",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11637,
+      "id": "rem_39398",
+      "jp": "人の中枢神経を狂わせる白い粉。吸引すると幸福な幻覚を見られる。強烈な依存性を持ち、一度体験した人間は、この薬の事しか考えられなくなる。",
+      "en": "A white powder that disrupts the central nervous system. Inhaling it causes euphoric hallucinations and intense, all-consuming addiction.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11638,
+      "id": "rem_39399",
+      "jp": "合成ハーブ包み",
+      "en": "Synthetic Herb Pack",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11639,
+      "id": "rem_39400",
+      "jp": "夢魔の滴とも言われる不思議な液体を生み出す過程で生まれた残滓。薬師の夢を現実に留めておけず残った失敗作だが、それでも生み出す快楽と依存性は強烈。",
+      "en": "The residue from creating a wondrous liquid called 'Succubus Drops'. A failed experiment that still produces intense pleasure and fierce addiction.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11640,
+      "id": "rem_39401",
+      "jp": "サキュバスコロン",
+      "en": "Succubus Cologne",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11641,
+      "id": "rem_39402",
+      "jp": "呼吸と共に体内に取り入れると、尋常ならざる幸福感と酩酊感を与える粉。一吸いで人を幸福のままに木偶に変える、所持しているだけで極刑に処される。",
+      "en": "A powder that brings extreme bliss and intoxication when inhaled. A single whiff turns a person into a blissful puppet. Mere possession is punishable by execution.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11642,
+      "id": "rem_39403",
+      "jp": "七色の幻惑粉",
+      "en": "Seven-Color Bewitching Powder",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11643,
+      "id": "rem_39404",
+      "jp": "人生に深い絶望をもたらすとされる黒い粉末。一時快楽をもたらすが、呼吸器系に深刻なダメージを与える。これによって国家が滅亡したほど。",
+      "en": "A black powder said to bring deep despair to life. Grants fleeting pleasure but severely damages the respiratory system. It has toppled nations.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11644,
+      "id": "rem_39405",
+      "jp": "絶望の粉",
+      "en": "Powder of Despair",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11645,
+      "id": "rem_39406",
+      "jp": "不老長寿の力があるとされる、植物の根。しかしそのまま摂取すると、引き換えに堪えがたい苦痛をもたらす。薬効のみを得るには、熟練の薬師の腕が必要。",
+      "en": "The root of a plant believed to grant immortality. However, consuming it raw brings unbearable agony in exchange. A skilled apothecary is needed to extract only its efficacy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11646,
+      "id": "rem_39407",
+      "jp": "不老長寿の根っこ",
+      "en": "Root of Immortality",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11647,
+      "id": "rem_39408",
+      "jp": "異界に潜む魔神の血液。絶大な魔力を生むリソースではあるが、魔神が顕現していたら世界が滅ぶ為、本物ではないと思われる。迂闊に触ると頭がおかしくなる。",
+      "en": "Blood of a demon god lurking in another world. A resource of immense magical power, but likely not genuine, as its manifestation would doom the world. Touching it carelessly can drive one mad.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11648,
+      "id": "rem_39409",
+      "jp": "デーモンブラッド",
+      "en": "Demon Blood",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11649,
+      "id": "rem_39410",
+      "jp": "磨り潰して取り込むと滋養に良いとされる獣の角。秘められた生命力を魔術に利用しようと、魔術師が触媒として買い求める。",
+      "en": "A beast's horn. When ground and consumed, it is said to be nourishing. Mages seek it as a catalyst, hoping to harness its latent life force for magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11650,
+      "id": "rem_39411",
+      "jp": "獣の角",
+      "en": "Beast Horn",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

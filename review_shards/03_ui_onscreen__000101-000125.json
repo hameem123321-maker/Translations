@@ -1,0 +1,189 @@
+{
+  "source_file": "03_ui_onscreen.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101,
+  "range_end": 125,
+  "pairs": [
+    {
+      "n": 101,
+      "id": "ui_mb_00245",
+      "jp": "薬草採集の為、メテトス百穴古墳近隣の森に立ち入ったヘレン。しかしそこはゴブリンの住処になっており、逃げ遅れたヘレンは凌辱され、ゴブリンの子を孕んでしまう。",
+      "en": "Helen entered the forest near the Metetos Hundred-Hole Tumulus to gather herbs. But it had become a goblin den. She couldn't escape in time, was violated, and became pregnant with a goblin's child.",
+      "category": "ui"
+    },
+    {
+      "n": 102,
+      "id": "ui_mb_00246",
+      "jp": "ドキドキ",
+      "en": "Heart Pounding",
+      "category": "ui",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 103,
+      "id": "ui_mb_00247",
+      "jp": "物理攻撃<size=24><color=#FF8800>+20</size>%</color>ううううううううううううううううううううううううううううううううううううううううううううううaaaaうううううううううううう",
+      "en": "Physical Attack<size=24><color=#FF8800>+20</size>%</color>uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuaaaauuuuuuuuuuuuuuuuuu",
+      "category": "ui",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 104,
+      "id": "ui_mb_00256",
+      "jp": "クラスLv<size=16>99</size>",
+      "en": "Class Lv<size=16>99</size>",
+      "category": "ui"
+    },
+    {
+      "n": 105,
+      "id": "ui_mb_00258",
+      "jp": "Ｈ配置",
+      "en": "H Placement",
+      "category": "ui"
+    },
+    {
+      "n": 106,
+      "id": "ui_mb_00261",
+      "jp": "淫乱",
+      "en": "Lustful",
+      "category": "ui"
+    },
+    {
+      "n": 107,
+      "id": "ui_mb_00263",
+      "jp": "ランクアップ",
+      "en": "Rank Up",
+      "category": "ui"
+    },
+    {
+      "n": 108,
+      "id": "ui_mb_00266",
+      "jp": "このキャラを研修対象にする",
+      "en": "Select This Character for Training",
+      "category": "ui"
+    },
+    {
+      "n": 109,
+      "id": "ui_mb_00268",
+      "jp": "ううううううううううううううううううううううううううううううううううううううううううう<emoji=moji1>絵文字<size=12>size</size>fff",
+      "en": "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<emoji=moji1>Emoji<size=12>size</size>fff",
+      "category": "ui"
+    },
+    {
+      "n": 110,
+      "id": "ui_mb_00272",
+      "jp": "マテリナ素材収集場の開拓プロジジジ",
+      "en": "Opening Project for Materina Material Collection Site",
+      "category": "ui"
+    },
+    {
+      "n": 111,
+      "id": "ui_mb_00275",
+      "jp": "ああああああああああううううううううううああああああああああううううううううううああああああああああうううううううううう７０文字ああああああああああああああああううううううううううああああああああああううううう",
+      "en": "Aaaaaaaaaauuuuuuuuuuaaaaaaaaaauuuuuuuuuuaaaaaaaaaauuuuuuuuuu70 characters aaaaaaaaaaaaaaaaaauuuuuuuuuuaaaaaaaaaauuuu",
+      "category": "ui"
+    },
+    {
+      "n": 112,
+      "id": "ui_mb_00277",
+      "jp": "CT回復(中) + 主人公のみ効果 + 【仲間】に【戦神】を付与 (物理ダメージ[+100%] + クリティカル率[+30%])",
+      "en": "CT Recovery (Med) + Player Only + Grants【Allies】the【War God】effect (Phys Dmg[+100%] + Crit Rate[+30%])",
+      "category": "ui"
+    },
+    {
+      "n": 113,
+      "id": "ui_mb_00280",
+      "jp": "改変前",
+      "en": "Before Alteration",
+      "category": "ui"
+    },
+    {
+      "n": 114,
+      "id": "ui_mb_00283",
+      "jp": "進捗<size=20>99%</size>",
+      "en": "Progress<size=20>99%</size>",
+      "category": "ui"
+    },
+    {
+      "n": 115,
+      "id": "ui_mb_00285",
+      "jp": "敵の名前は最大１２字○○",
+      "en": "Enemy Name Max 12 Characters○○",
+      "category": "ui"
+    },
+    {
+      "n": 116,
+      "id": "ui_mb_00288",
+      "jp": "Hイベントあり",
+      "en": "H Event Available",
+      "category": "ui"
+    },
+    {
+      "n": 117,
+      "id": "ui_mb_00291",
+      "jp": "衣装\n",
+      "en": "Costume\n",
+      "category": "ui"
+    },
+    {
+      "n": 118,
+      "id": "ui_mb_00292",
+      "jp": "ソープルーム",
+      "en": "Soap Room",
+      "category": "ui"
+    },
+    {
+      "n": 119,
+      "id": "ui_mb_00303",
+      "jp": "ドルワミール鉱夫組合",
+      "en": "Dolwamir Miners' Guild",
+      "category": "ui"
+    },
+    {
+      "n": 120,
+      "id": "ui_mb_00317",
+      "jp": "あと<size=24>999</size>時間",
+      "en": "Time left: <size=24>999</size> hrs",
+      "category": "ui"
+    },
+    {
+      "n": 121,
+      "id": "ui_mb_00322",
+      "jp": "キャラクター名",
+      "en": "Character Name",
+      "category": "ui"
+    },
+    {
+      "n": 122,
+      "id": "ui_mb_00325",
+      "jp": "鍛冶力<size=30>200</size>",
+      "en": "Smithing Power: <size=30>200</size>",
+      "category": "ui"
+    },
+    {
+      "n": 123,
+      "id": "ui_mb_00338",
+      "jp": "スキル一覧(99/99)AAAAAAAAAAAAAAAAAAAAAAAAA",
+      "en": "Skill List (99/99)",
+      "category": "ui"
+    },
+    {
+      "n": 124,
+      "id": "ui_mb_00356",
+      "jp": "クリティカル",
+      "en": "Critical",
+      "category": "ui"
+    },
+    {
+      "n": 125,
+      "id": "ui_mb_00357",
+      "jp": "進捗<size=18>100</size>%",
+      "en": "Progress: <size=18>100</size>%",
+      "category": "ui"
+    }
+  ]
+}

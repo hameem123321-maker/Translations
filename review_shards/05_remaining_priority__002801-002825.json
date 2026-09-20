@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2801,
+  "range_end": 2825,
+  "pairs": [
+    {
+      "n": 2801,
+      "id": "rem_30420",
+      "jp": "CT回復(小)",
+      "en": "CT Recovery (S)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2802,
+      "id": "rem_30421",
+      "jp": "使用時に主人公レベルダウン + たまに恍惚状態に",
+      "en": "Ren levels down + may become Ecstatic on use",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2803,
+      "id": "rem_30422",
+      "jp": "全回復",
+      "en": "Full Recovery",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2804,
+      "id": "rem_30423",
+      "jp": "防御(小)",
+      "en": "Defense (S)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2805,
+      "id": "rem_30424",
+      "jp": "MP節約",
+      "en": "MP Saver",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2806,
+      "id": "rem_30425",
+      "jp": "MP回復(極小)",
+      "en": "MP Recovery (XS)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2807,
+      "id": "rem_30426",
+      "jp": "服破壊",
+      "en": "Armor Break",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2808,
+      "id": "rem_30427",
+      "jp": "男特攻",
+      "en": "Anti-Male",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2809,
+      "id": "rem_30428",
+      "jp": "CT回復(中)",
+      "en": "CT Recovery (M)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2810,
+      "id": "rem_30429",
+      "jp": "CT回復(大)",
+      "en": "CT Recovery (L)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2811,
+      "id": "rem_30430",
+      "jp": "CT消費増加",
+      "en": "Increased CT Cost",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2812,
+      "id": "rem_30431",
+      "jp": "ダメージ限界突破",
+      "en": "Damage Limit Break",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2813,
+      "id": "rem_30432",
+      "jp": "蘇生",
+      "en": "Revive",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2814,
+      "id": "rem_30433",
+      "jp": "HP回復(特大)",
+      "en": "HP Recovery (XL)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2815,
+      "id": "rem_30434",
+      "jp": "転生封じ",
+      "en": "Reincarnation Seal",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2816,
+      "id": "rem_30435",
+      "jp": "使用後死亡",
+      "en": "Death after Use",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2817,
+      "id": "rem_30436",
+      "jp": "逆鱗時CT短縮",
+      "en": "CT Shortened in Fury",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2818,
+      "id": "rem_30437",
+      "jp": "獣王時CT退縮",
+      "en": "CT Reduced in Beast King Mode",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2819,
+      "id": "rem_30438",
+      "jp": "攻撃後パーティー回復",
+      "en": "Party Heal after Attack",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2820,
+      "id": "rem_30439",
+      "jp": "禁呪暴走抑制",
+      "en": "Forbidden Spell Rampage Suppression",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2821,
+      "id": "rem_30440",
+      "jp": "超威力",
+      "en": "Superpower",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2822,
+      "id": "rem_30441",
+      "jp": "主人公のみ効果",
+      "en": "Effect on Ren only",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2823,
+      "id": "rem_30442",
+      "jp": "仲間呼び(自他)",
+      "en": "Summon Ally (Self & Others)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2824,
+      "id": "rem_30443",
+      "jp": "強制デスクリティカル",
+      "en": "Force Critical",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2825,
+      "id": "rem_30444",
+      "jp": "CT回復(特大)",
+      "en": "CT Recovery (XL)",
+      "table": "db_UnitSkillAction",
+      "category": "remaining_table"
+    }
+  ]
+}

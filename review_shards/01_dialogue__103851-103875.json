@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 103851,
+  "range_end": 103875,
+  "pairs": [
+    {
+      "n": 103851,
+      "id": "db_EventInfo:122790:2",
+      "jp": "前の大金はあやうく捕まるところだったし、こないだの毒ガスでは休業させられたデス。酷い目に遭ったデス",
+      "en": "We almost got caught with that big money before, and now the poison gas shut us down. We've had it rough.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103852,
+      "id": "db_EventInfo:122791:1",
+      "jp": "一体何者なんだ、調べられないか？",
+      "en": "Who the heck are they? Can't we look into it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103853,
+      "id": "db_EventInfo:122792:7",
+      "jp": "うーん。【『盗賊ギルド』】に依頼してくれれば調べられるよ？",
+      "en": "Hmm... We can investigate if you ask the ['Thieves Guild'] for help?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103854,
+      "id": "db_EventInfo:122795:0",
+      "jp": "資金に余裕を作って、盗賊ギルドに依頼しなければ。",
+      "en": "We need to save up some money and hire the Thieves Guild.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103855,
+      "id": "db_EventInfo:122797:7",
+      "jp": "怪しい贈り物の出所がわかったよ",
+      "en": "I found out where the suspicious gifts came from.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103856,
+      "id": "db_EventInfo:122798:7",
+      "jp": "どうやら、ウチのライバル店みたいなところが原因のようだね。商売敵に目を付けられたってことかな",
+      "en": "It seems like it's caused by a store that's our rival or something like that. Maybe a business competitor has their eyes on us.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103857,
+      "id": "db_EventInfo:122799:2",
+      "jp": "むう、ヒトの商売を邪魔するとは、許せんデス",
+      "en": "Hmm, interfering with someone's business is unacceptable, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103858,
+      "id": "db_EventInfo:122800:7",
+      "jp": "まあ、店長の店は調子良いからねぇ。嫉妬されることもあるかもね",
+      "en": "Well, your shop is doing well, Manager. It might make people jealous.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103859,
+      "id": "db_EventInfo:122801:7",
+      "jp": "【『盗賊ギルド』】の方を通して「注意」してもらったから、今後はその店からの妨害はなくなると思うよ？",
+      "en": "I had a \"warning\" sent through the ['Thieves Guild'] side, so I think the interference from that shop will stop from now on.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103860,
+      "id": "db_EventInfo:122802:1",
+      "jp": "「その店からの」妨害はなくなる、か……",
+      "en": "\"From that shop\"... will stop, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103861,
+      "id": "db_EventInfo:122803:7",
+      "jp": "他の妨害は、その都度対処しないといけないね。",
+      "en": "For other interference, we'll have to deal with it as it comes.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103862,
+      "id": "db_EventInfo:122804:1",
+      "jp": "やれやれ……",
+      "en": "Jeez...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103863,
+      "id": "db_EventInfo:122807:0",
+      "jp": "「注意」が聞いたのか、店に対する嫌がらせは減り、犯罪値も少し上がりにくくなった。",
+      "en": "Maybe the \"warning\" was heeded. The harassment against the shop decreased, and the crime value became a little harder to increase.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103864,
+      "id": "db_EventInfo:122809:7",
+      "jp": "店長、最近この宿、探られてるみたいだよ？",
+      "en": "Manager, it seems this inn has been scoped out recently?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103865,
+      "id": "db_EventInfo:122810:1",
+      "jp": "探られてる？",
+      "en": "Scoped out?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103866,
+      "id": "db_EventInfo:122811:7",
+      "jp": "まあ見た感じは普通なんだけど、視線が怪しいんだよね。どこかの<ruby=スパイ>密偵</ruby>かな？",
+      "en": "Well, they look normal, but their gaze is suspicious. A spy from somewhere, maybe?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103867,
+      "id": "db_EventInfo:122812:2",
+      "jp": "同業者同士、わかるってわけデスか",
+      "en": "Guess people in the same business can tell, huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103868,
+      "id": "db_EventInfo:122813:7",
+      "jp": "あはは、ひどいな～？",
+      "en": "Ahaha, that's harsh~?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103869,
+      "id": "db_EventInfo:122814:7",
+      "jp": "ま、店長の店は目立っているからね、色んな奴らに探られるってのは悪いことじゃないよ。仲の良い組織でもやるだろうね",
+      "en": "Well, your inn really stands out, so getting scoped out by all sorts of people isn't a bad thing. Even friendly organizations would do it.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103870,
+      "id": "db_EventInfo:122815:7",
+      "jp": "ただ、探るだけじゃなく。悪評を振りまいたり、物を盗む輩もでるかもしれないよ",
+      "en": "But, it might not just be scouting. Some folks might spread bad rumors or try to steal stuff.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103871,
+      "id": "db_EventInfo:122816:7",
+      "jp": "前みたいに他の宿から偵察に来てるぐらいならいいけど、【危険組織】の構成員だったり、盗みの下見だったらダメだよね",
+      "en": "It was fine when it was just other inns scouting like before. But if it's members of a [dangerous organization] or people casing the place for a theft, that's no good.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103872,
+      "id": "db_EventInfo:122817:2",
+      "jp": "防犯設備を重視するデス！",
+      "en": "We should focus on security measures!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103873,
+      "id": "db_EventInfo:122818:7",
+      "jp": "スタッフの皆に注意してもらうの？",
+      "en": "Have all the staff be careful?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103874,
+      "id": "db_EventInfo:122819:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103875,
+      "id": "db_EventInfo:122820:7",
+      "jp": "お客さんと触れ合うのはスタッフだし、注意してもらうのはいいかもしれないね！",
+      "en": "The staff are the ones interacting with the guests, so having them be careful might be a good idea!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    }
+  ]
+}

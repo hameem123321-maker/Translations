@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 78901,
+  "range_end": 78925,
+  "pairs": [
+    {
+      "n": 78901,
+      "id": "db_EventInfo:93365:1",
+      "jp": "ということは、別の製法が書かれているのか？",
+      "en": "So there's a different formula written?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78902,
+      "id": "db_EventInfo:93366:9",
+      "jp": "うむ。ご先祖様が研究していたものというのは",
+      "en": "Yes. What our ancestor was researching was...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78903,
+      "id": "db_EventInfo:93367:9",
+      "jp": "……【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】である",
+      "en": "...It's a 'Succubus Potion'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78904,
+      "id": "db_EventInfo:93368:1",
+      "jp": "【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】……？",
+      "en": "A 'Succubus Potion'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78905,
+      "id": "db_EventInfo:93369:1",
+      "jp": "どこかで、聞いたことが",
+      "en": "I think I've heard of it somewhere.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78906,
+      "id": "db_EventInfo:93370:9",
+      "jp": "以前言ったであろう。私が師匠殿から譲り受けた【『レシピ』】に書かれていたものだ",
+      "en": "I told you before. It was written in the 'Recipe' I received from my master.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78907,
+      "id": "db_EventInfo:93371:108",
+      "jp": "うむ、【『奈落』】より力を得て【願望を叶える薬】。それが【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】じゃ",
+      "en": "Yes. A 'potion that grants wishes' by drawing power from the 'Abyss'. That is the 'Succubus Potion'.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78908,
+      "id": "db_EventInfo:93372:108",
+      "jp": "ワシは魔術の深奥に辿り着き、その製法書を発明した",
+      "en": "I reached the depths of magic and invented that formula.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78909,
+      "id": "db_EventInfo:93373:108",
+      "jp": "もっとも、それは究極の薬。生前のワシが人生を賭けても、【未完成】のままじゃったが……",
+      "en": "However, it is the ultimate potion. Even when I gambled my life on it, it remained 'unfinished'...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78910,
+      "id": "db_EventInfo:93374:108",
+      "jp": "おそらくは、その【完成形】が記されておる",
+      "en": "Probably, the 'completed form' is written there.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78911,
+      "id": "db_EventInfo:93375:1",
+      "jp": "なんだって……？",
+      "en": "What...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78912,
+      "id": "db_EventInfo:93376:108",
+      "jp": "もっとも、【『奈落』】は無限の力を持つが、願望の成就には【対価】を要求する",
+      "en": "However, while the 'Abyss' holds infinite power, it demands a 'price' to grant a wish.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78913,
+      "id": "db_EventInfo:93377:108",
+      "jp": "未完成なものの対価ですら、ゼカリウスが壊滅しかけたのじゃ。【完成形】の【対価】はいかほどじゃろうな",
+      "en": "The price for the unfinished version nearly destroyed Zecarius. I wonder how great the 'price' for the 'completed form' would be.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78914,
+      "id": "db_EventInfo:93378:1",
+      "jp": "そんなものが……",
+      "en": "Such a thing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78915,
+      "id": "db_EventInfo:93379:108",
+      "jp": "【『レシピ』】が解読されれば【『聖都』】が壊滅する……。それが小娘の口伝じゃったが",
+      "en": "It was said that if the \"Recipe\" is deciphered, the \"Holy City\" will be destroyed... That's what the girl told me.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78916,
+      "id": "db_EventInfo:93380:108",
+      "jp": "むしろ、【『聖都』】程度で済めば御の字かもしれんぞ？",
+      "en": "In fact, we might be lucky if it's only the \"Holy City\" that gets destroyed.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78917,
+      "id": "db_EventInfo:93382:0",
+      "jp": "そう言って、オーレリアは炎の魔術を発動させた。",
+      "en": "Saying that, Aurelia activated her fire magic.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78918,
+      "id": "db_EventInfo:93383:0",
+      "jp": "そして躊躇無く、【名もなき魔女】の【『レシピ』】に火を着けてしまう。",
+      "en": "And without hesitation, she set the \"Nameless Witch's\" \"Recipe\" on fire.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78919,
+      "id": "db_EventInfo:93384:1",
+      "jp": "【『レシピ』】が……！？",
+      "en": "The \"Recipe\"...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78920,
+      "id": "db_EventInfo:93386:108",
+      "jp": "【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】は危険なものじゃ。これは存在してはならぬ",
+      "en": "The \"Succubus Potion\" is a dangerous thing. It shouldn't exist.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78921,
+      "id": "db_EventInfo:93387:108",
+      "jp": "なにせ、ワシら二人がかりでも、完全には解読出来んかったからのう",
+      "en": "After all, even the two of us together couldn't fully decipher it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78922,
+      "id": "db_EventInfo:93388:9",
+      "jp": "このまま作成したとしたら、確実に暴発してしまうのである",
+      "en": "If we tried to make it, it would definitely blow up.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78923,
+      "id": "db_EventInfo:93389:9",
+      "jp": "仕組みを理解できないということは、これに仕掛けた罠にも気付かないことであるからな",
+      "en": "If we can't understand how it works, we also won't notice any traps hidden within.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78924,
+      "id": "db_EventInfo:93390:9",
+      "jp": "このレシピに【悪意】が込められているならば、この地は【『魔界』】に飲み込まれるであろう",
+      "en": "If this recipe contains \"malice\", this land will be swallowed by the \"Demon Realm\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78925,
+      "id": "db_EventInfo:93391:1",
+      "jp": "【『魔界』】に……",
+      "en": "Swallowed by the \"Demon Realm\"...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

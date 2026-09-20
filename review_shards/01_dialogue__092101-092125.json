@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 92101,
+  "range_end": 92125,
+  "pairs": [
+    {
+      "n": 92101,
+      "id": "db_EventInfo:108869:7",
+      "jp": "ねえ店長、ゼカリウスの港で祭りをするそうだよ！",
+      "en": "Hey Boss! I heard there's going to be a festival in Zecarius's port!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92102,
+      "id": "db_EventInfo:108870:1",
+      "jp": "祭り？",
+      "en": "A festival?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92103,
+      "id": "db_EventInfo:108871:2",
+      "jp": "祭りデス？",
+      "en": "A festival?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92104,
+      "id": "db_EventInfo:108872:7",
+      "jp": "ゼカリウスは毎年この時期になると、交易商人が集まって、大規模な祭りを開くんだ",
+      "en": "Every year around this time, Zecarius holds a big festival where all the traveling merchants gather.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92105,
+      "id": "db_EventInfo:108873:7",
+      "jp": "海の玄関口だからどこからでも来やすいでしょ？　各地から商人が集まって、定期的に開催されるようになったんだよ",
+      "en": "Since it's a gateway to the sea, it's easy to get to from anywhere. Merchants from all over come here, and it started being held regularly.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92106,
+      "id": "db_EventInfo:108874:1",
+      "jp": "ほう、それは楽しそうだな",
+      "en": "Hmm, that sounds fun.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92107,
+      "id": "db_EventInfo:108875:7",
+      "jp": "祭りの参加は自由で、屋台を出してもいいんだよ！",
+      "en": "Anyone can join the festival, and you can even set up a food stall!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92108,
+      "id": "db_EventInfo:108876:1",
+      "jp": "ふむ",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92109,
+      "id": "db_EventInfo:108877:7",
+      "jp": "大勢で賑わう祭りでね、屋台もかなり儲かるみたいなんだ。ゼカリウス中の商人が参加する勢いだよ！",
+      "en": "The festival is packed with people, and it seems the stalls can make a lot of money. It feels like every merchant in Zecarius is joining!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92110,
+      "id": "db_EventInfo:108878:7",
+      "jp": "屋台を出すことで店の宣伝になるかもしれないし、できるだけ参加したいな",
+      "en": "Setting up a stall could be good publicity for the shop too. I really want us to take part.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92111,
+      "id": "db_EventInfo:108879:2",
+      "jp": "やるからには儲けたいデスね。オマエ、何かいい考えはないデス？",
+      "en": "If we're doing it, we want to make a profit. Do you have any good ideas?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92112,
+      "id": "db_EventInfo:108880:7",
+      "jp": "ボクに任せてくれるの？",
+      "en": "You're leaving it to me?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92113,
+      "id": "db_EventInfo:108881:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92114,
+      "id": "db_EventInfo:108882:2",
+      "jp": "なるほど、コイツの空気は人を引き付けるデスからね",
+      "en": "Makes sense. This guy's vibe really draws people in.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92115,
+      "id": "db_EventInfo:108883:7",
+      "jp": "よーし、ボクに任せて！　きっと店長の期待に応えて見せるよ！",
+      "en": "Alright, leave it to me! I'll definitely meet your expectations, Boss!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92116,
+      "id": "db_EventInfo:108887:0",
+      "jp": "俺達の屋台は大勢の客で賑わった。",
+      "en": "Our stall was bustling with a lot of customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92117,
+      "id": "db_EventInfo:108888:7",
+      "jp": "あ、店長！　へへ、どう？　この賑わいっぷり",
+      "en": "Ah, Boss! Hehe, see? Look at this crowd.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92118,
+      "id": "db_EventInfo:108889:2",
+      "jp": "おお、中々の行列デスね",
+      "en": "Oh, quite the line, I see.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92119,
+      "id": "db_EventInfo:108890:1",
+      "jp": "やったな",
+      "en": "You did it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92120,
+      "id": "db_EventInfo:108891:7",
+      "jp": "まだまだ売り物は用意してあるからね！　しっかり稼いじゃうよ！",
+      "en": "We still have plenty of goods ready! We're gonna earn a lot!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92121,
+      "id": "db_EventInfo:108894:0",
+      "jp": "ファシィの屋台は成功し、俺達は一日で中々の利益を叩き出した。",
+      "en": "Facy's stall was a success, and we made a pretty good profit in just one day.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92122,
+      "id": "db_EventInfo:108896:8",
+      "jp": "お祭りの客引き？　ふ～ん、いいよ、ルーシェにお任せД",
+      "en": "Pulling in customers for the festival? Hmm, okay, leave it to LuscheД.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 92123,
+      "id": "db_EventInfo:108897:2",
+      "jp": "なるほど、コイツに呼び込みをさせれば、フラフラと人が寄って来そうデスね",
+      "en": "I see. With her doing the calling, people will probably wander over, I bet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92124,
+      "id": "db_EventInfo:108898:7",
+      "jp": "いいねいいね、ガンガン呼び込んで、ガッポリ儲けちゃおうよ！",
+      "en": "That's great! Let's pull them in hard and make a ton of money!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 92125,
+      "id": "db_EventInfo:108899:8",
+      "jp": "えへへ、ルーシェ、お兄ちゃんのために頑張っちゃうよД",
+      "en": "Ehehe, Lusche will do her best for you, Big BrotherД.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    }
+  ]
+}

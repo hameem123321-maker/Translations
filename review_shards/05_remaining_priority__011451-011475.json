@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11451,
+  "range_end": 11475,
+  "pairs": [
+    {
+      "n": 11451,
+      "id": "rem_39212",
+      "jp": "森の獣の毛皮。上手く扱われており、素材としての価値も高い。",
+      "en": "Hide from a forest beast. Well-treated and highly valuable as a material.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11452,
+      "id": "rem_39213",
+      "jp": "森の獣の毛皮",
+      "en": "Forest Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11453,
+      "id": "rem_39214",
+      "jp": "森の凶暴な狼からの戦利品。しなやかで上品質な毛皮で、素材として価値が高い。",
+      "en": "Trophy from a ferocious forest wolf. Supple, high-quality hide prized as a valuable material.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11454,
+      "id": "rem_39215",
+      "jp": "オオカミの毛皮",
+      "en": "Wolf Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11455,
+      "id": "rem_39216",
+      "jp": "北に近い場所に住む大型魔獣の毛皮。高い防御力と防寒性を持つ。大型魔獣の素材ということでステイタスになり、貴族のインテリアにも好まれる。",
+      "en": "Hide from a large magical beast residing in northern regions. High defense and cold resistance. A status symbol among nobles, also favored for interior decor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11456,
+      "id": "rem_39217",
+      "jp": "魔獣のなめし革",
+      "en": "Tanned Magical Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11457,
+      "id": "rem_39218",
+      "jp": "大型の魔獣の毛皮を素材として処理したもの。生前の獣の生命力を感じさせる。",
+      "en": "Processed hide from a large magical beast, still bearing the vitality of the creature in life.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11458,
+      "id": "rem_39219",
+      "jp": "丈夫な毛皮",
+      "en": "Sturdy Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11459,
+      "id": "rem_39220",
+      "jp": "紫色のいかにも毒を持ってそうな毛皮。カラフルで綺麗なのだが、触るのには少々ためらわれる……呪具としてなら、使えなくもないだろうか？",
+      "en": "A purplish hide that looks distinctly toxic. Colorful and pretty, but one hesitates to touch it... Perhaps it could serve as a cursed object?",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11460,
+      "id": "rem_39221",
+      "jp": "どくどくアニマル毛皮",
+      "en": "Poisonous Animal Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11461,
+      "id": "rem_39222",
+      "jp": "灰色熊と恐れられる巨大な魔獣の毛皮を素材化したもの。ベテランの冒険者パーティを粉砕する巨大魔獣は討伐するだけで勇者と称えられ、大金で取引される。",
+      "en": "Processed hide of a giant, feared beast. Defeating one that can crush veteran parties earns the title of Hero, and its hide fetches a high price.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11462,
+      "id": "rem_39223",
+      "jp": "グリズリーの毛皮",
+      "en": "Grizzly Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11463,
+      "id": "rem_39224",
+      "jp": "魔法生物が持つ魔力によって棘のような体毛が生える毛皮。革の持ち主はすでに死んでいるはずなのに、魔力に反応する性質は失われていない。",
+      "en": "Leather from a magical creature, still covered in thorn-like fur. Even in death, it retains its magical reactivity.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11464,
+      "id": "rem_39225",
+      "jp": "魔法生物の毛皮",
+      "en": "Magical Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11465,
+      "id": "rem_39226",
+      "jp": "火山地帯に生息する獣の毛皮で、高い耐熱性と耐火性を持つ。防具や衣服の材料として使われるが、持ち帰るにはかなり重い。",
+      "en": "Heat and flame-resistant hide from volcanic beasts. Ideal for gear, but quite heavy to carry.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11466,
+      "id": "rem_39227",
+      "jp": "燃える獣の毛皮",
+      "en": "Blazing Beast Hide",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11467,
+      "id": "rem_39228",
+      "jp": "霊峰に生息する魔獣の皮。魔術的な障壁を発生させるのか、物理的のみならず、魔術に対して高い防御力を持つ。当然、これを持つ対象の討伐は容易ではない。",
+      "en": "Hide from a peak-dwelling magical beast. It creates a barrier, offering high defense against both physical and magical attacks, making the hunt very difficult.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11468,
+      "id": "rem_39229",
+      "jp": "魔海獣の水かき",
+      "en": "Magical Sea Beast Flipper",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11469,
+      "id": "rem_39230",
+      "jp": "糸を紡いで作った布を、後から染料で染めた物。染め方や織り方によって、使用用途や丈夫さが変わってくるため、職人の腕の見せ所。",
+      "en": "Fabric woven from thread and dyed later. A crafter's skill determines its use and durability through dyeing and weaving.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11470,
+      "id": "rem_39231",
+      "jp": "染め上げた反物",
+      "en": "Dyed Fabric",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11471,
+      "id": "rem_39232",
+      "jp": "地下に住む大蜘蛛が分泌した糸。粘性を持ち、加工を困難にしているが、この糸から生まれる布は、美しく煌めくような光沢を持ち、貴婦人にも求められる。",
+      "en": "Viscous thread from giant cave spiders. Difficult to work with, but yields a beautiful, lustrous fabric prized by nobles.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11472,
+      "id": "rem_39233",
+      "jp": "スパイダーシルク",
+      "en": "Spider Silk",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11473,
+      "id": "rem_39234",
+      "jp": "まるで鮮血に染まったかのように鮮やかな、肉食烏の羽束。忌まわしい存在ではあるが美しく、職人が欲しがる。",
+      "en": "A vibrant, blood-red plume from a carnivorous crow. Beautiful but ill-omened, coveted by craftsmen.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11474,
+      "id": "rem_39235",
+      "jp": "レッドクロウの羽",
+      "en": "Red Crow Feather",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11475,
+      "id": "rem_39236",
+      "jp": "魔力を帯びた黄金の羽。柔らかくふかふかした素材でありながら、集めて敷き詰めれば、刃をも通さない、強靭な防御盾にもなる。",
+      "en": "Magic-infused golden feather. Soft and fluffy, yet when layered, it forms a tough shield that can block blades.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 251,
+  "range_end": 275,
+  "pairs": [
+    {
+      "n": 251,
+      "id": "rem_00251",
+      "jp": "ゴブリンの群れを統率する宗教家。呪文使いであり、宗教的な儀式を行っていた。ゴブリンの宗教は、その全てが人間を害し、欲望を満たす物。",
+      "en": "A religious leader who rules Goblin hordes. A spellcaster whose rituals are meant to harm humans and satisfy Goblin desires.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 252,
+      "id": "rem_00252",
+      "jp": "ゴブリンシャーマン",
+      "en": "Goblin Shaman",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 253,
+      "id": "rem_00253",
+      "jp": "ハチ型の昆虫に見えるモンスター。極めて高い感知力を持つ。一匹あたりは強くないのだが、数が多いため、冒険者を悩ませる。",
+      "en": "A wasp-like insect monster with keen senses. Not strong alone, but troublesome in swarms.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 254,
+      "id": "rem_00254",
+      "jp": "ハチ",
+      "en": "Wasp",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 255,
+      "id": "rem_00255",
+      "jp": "動物の豚のような魔物。貪欲な食欲を持ち、弱った人間と交尾しようとする。強靭な足腰を持つ為、突進には注意。",
+      "en": "A pig-like monster with a greedy appetite. Charges with powerful legs. Avoid its rush.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 256,
+      "id": "rem_00256",
+      "jp": "ブタ",
+      "en": "Boar",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 257,
+      "id": "rem_00257",
+      "jp": "手のひらに収まるサイズの妖精。物理的な力はほぼないが、人間の精神に異常をもたらす力がある。好奇心が強く友好的。淫魔ではないが必要に応じては精を吸う。",
+      "en": "A palm-sized fairy. Physically weak but can affect the mind. Curious and friendly, though it may drain energy if needed.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 258,
+      "id": "rem_00258",
+      "jp": "フェアリー",
+      "en": "Fairy",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 259,
+      "id": "rem_00259",
+      "jp": "イノシシ型のモンスター。野生化したブタの進化体で、更に突進力が高い。その突進力は槍を構えた騎士団の騎馬突撃に匹敵するといわれ、強固な防壁にも穴を空ける。",
+      "en": "A wild boar monster. Evolved from feral pigs, its charge rivals a knight's spear thrust, capable of piercing strong walls.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 260,
+      "id": "rem_00260",
+      "jp": "ファング",
+      "en": "Fang Boar",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 261,
+      "id": "rem_00261",
+      "jp": "黒い毛並みを持つ鳥の魔物。行動範囲が広く、自由に空を飛ぶ上、戦闘力もそこそこに高い危険な敵。光り物を集める性質があるようだ。",
+      "en": "A black-feathered bird monster. A dangerous foe with a wide range, free flight, and decent combat strength. It seems to have a habit of collecting shiny objects.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 262,
+      "id": "rem_00262",
+      "jp": "カラス",
+      "en": "Crow",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 263,
+      "id": "rem_00263",
+      "jp": "強靭な四肢と鋭い牙を持つモンスター。高い戦闘力を誇る狩人。貪欲な食欲を持ち、冒険者たちを<ruby=むさぼ>貪</ruby>る。",
+      "en": "A monster with powerful limbs and sharp fangs. A proud hunter with high combat strength. Possesses a voracious appetite and <ruby=むさぼ>devours</ruby> adventurers.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 264,
+      "id": "rem_00264",
+      "jp": "オオカミ",
+      "en": "Wolf",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 265,
+      "id": "rem_00265",
+      "jp": "蝶々のようにひらひらと舞う魔物。見ているだけなら美しいのだが。生物に害のある鱗粉をまき散らしてくる。吸い込むと危険だが、用法・用量によっては薬の材料にもなる。",
+      "en": "A monster that flutters about like a butterfly. Beautiful to look at, but... It scatters harmful scales. Dangerous if inhaled, but can be used as medicine in the right doses.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 266,
+      "id": "rem_00266",
+      "jp": "バタフライ",
+      "en": "Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 267,
+      "id": "rem_00267",
+      "jp": "魔力を帯びて動くようになった魔花。人間の身体をむしばむ花粉を飛ばし、苦しめてくる。快楽を求める淫魔がオナニーに使っているらしい。",
+      "en": "A magical flower animated by mana. It scatters pollen that corrodes the human body, causing suffering. Succubi seeking pleasure seem to use it for masturbation.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 268,
+      "id": "rem_00268",
+      "jp": "フラワー",
+      "en": "Flower",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 269,
+      "id": "rem_00269",
+      "jp": "商人や旅人を襲う盗賊。一般人が武装した程度の戦力しか持たないが、徒党を組むことで気が大きくなっている。不利になると逃げてしまう。",
+      "en": "Bandits who attack merchants and travelers. They only have the strength of armed civilians, but grow bold in groups. They flee when at a disadvantage.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 270,
+      "id": "rem_00270",
+      "jp": "野盗",
+      "en": "Bandit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 271,
+      "id": "rem_00271",
+      "jp": "生物の身体に寄生する植物型モンスター。身体はひ弱だが、寄生されてしまうと逃られず、精を吸い尽くして自壊し、胞子をばらまく。",
+      "en": "A plant-type monster that parasitizes living bodies. Physically weak, but once it latches on, escape is impossible. It drains its host's essence until they collapse, scattering spores.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 272,
+      "id": "rem_00272",
+      "jp": "パラサイト",
+      "en": "Parasite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 273,
+      "id": "rem_00273",
+      "jp": "植物の淫魔。フェアリーよりも植物に近く、思考も魔物に近い。女性の姿にとまどった新人冒険者を虜にし、精を吸う。自らのテリトリーを持ち、菜園が趣味。",
+      "en": "A plant-type succubus. Closer to plants than fairies, with a monster-like mindset. Enslaves novice adventurers confused by its female form to drain their essence. Has its own territory; gardening is its hobby.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 274,
+      "id": "rem_00274",
+      "jp": "アルラウネ",
+      "en": "Alraune",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 275,
+      "id": "rem_00275",
+      "jp": "長寿の植物淫魔。高い知恵を持つと言われ、育てている根菜は長寿の元。人々を誘惑し、その精気を養分にしていた。見た目は少女だが、かなり昔から森林道にいたらしい。",
+      "en": "A long-lived plant succubus. Said to possess high wisdom; the root vegetables it cultivates are a source of longevity. It lured people, using their life force as nourishment. Appears as a girl but has been in the forest path for ages.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

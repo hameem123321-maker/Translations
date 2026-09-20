@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7426,
+  "range_end": 7450,
+  "pairs": [
+    {
+      "n": 7426,
+      "id": "rem_35045",
+      "jp": "究極料理",
+      "en": "Ultimate Cuisine",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7427,
+      "id": "rem_35046",
+      "jp": "珍味料理",
+      "en": "Delicacy Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7428,
+      "id": "rem_35047",
+      "jp": "キノコ素材",
+      "en": "Mushroom Material",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7429,
+      "id": "rem_35048",
+      "jp": "糸・布素材",
+      "en": "Thread & Cloth Material",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7430,
+      "id": "rem_35049",
+      "jp": "禁止薬物",
+      "en": "Illegal Substance",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7431,
+      "id": "rem_35050",
+      "jp": "禁止鉱物",
+      "en": "Illegal Mineral",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7432,
+      "id": "rem_35051",
+      "jp": "薬草",
+      "en": "Medicinal Herb",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7433,
+      "id": "rem_35084",
+      "jp": "『商品』を実行する",
+      "en": "Execute 'Product'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7434,
+      "id": "rem_35085",
+      "jp": "いずれかの『商品』を開発してみる",
+      "en": "Develop one of the 'Products'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7435,
+      "id": "rem_35086",
+      "jp": "『店員』を実行する",
+      "en": "Execute 'Staff'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7436,
+      "id": "rem_35087",
+      "jp": "『施設』を実行する",
+      "en": "Execute 'Facility'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7437,
+      "id": "rem_35088",
+      "jp": "『宿屋の事務所』を建築する",
+      "en": "Build 'Inn Office'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7438,
+      "id": "rem_35089",
+      "jp": "『休憩ルーム』を建築する",
+      "en": "Build 'Break Room'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7439,
+      "id": "rem_35090",
+      "jp": "『調理工房』を建築する",
+      "en": "Build 'Workshop'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7440,
+      "id": "rem_35091",
+      "jp": "『レストラン』を建築する",
+      "en": "Build 'Restaurant'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7441,
+      "id": "rem_35092",
+      "jp": "『探索』を実行する",
+      "en": "Execute 'Exploration'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7442,
+      "id": "rem_35093",
+      "jp": "『死神メニュー』をオープンする",
+      "en": "Open the 'Shinigami Menu'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7443,
+      "id": "rem_35094",
+      "jp": "『施設改良』を実行する",
+      "en": "Execute 'Facility Upgrade'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7444,
+      "id": "rem_35095",
+      "jp": "『投資』を実行する",
+      "en": "Execute 'Investment'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7445,
+      "id": "rem_35096",
+      "jp": "『H部屋』を実行する",
+      "en": "Enter the 'H Room'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7446,
+      "id": "rem_35097",
+      "jp": "ダンジョン内はWASDキーで移動する",
+      "en": "Use WASD to move in dungeons",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7447,
+      "id": "rem_35098",
+      "jp": "ダンジョン内で右クリック＋移動でダッシュ",
+      "en": "Right-click + move to dash in dungeons",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7448,
+      "id": "rem_35099",
+      "jp": "『死神メニュー』から『死神研修』を開く",
+      "en": "Open 'Shinigami Training' from the 'Shinigami Menu'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7449,
+      "id": "rem_35100",
+      "jp": "『死神メニュー』から『能力開発』を開く",
+      "en": "Open 'Ability Development' from the 'Shinigami Menu'",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7450,
+      "id": "rem_35101",
+      "jp": "次のフロアに移動する",
+      "en": "Move to the next floor",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    }
+  ]
+}

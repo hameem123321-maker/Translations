@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7801,
+  "range_end": 7825,
+  "pairs": [
+    {
+      "n": 7801,
+      "id": "rem_35452",
+      "jp": "木こり・狩人の出現率",
+      "en": "Lumberjack/Hunter Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7802,
+      "id": "rem_35453",
+      "jp": "吟遊詩人・芸術家の出現率",
+      "en": "Bard/Artist Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7803,
+      "id": "rem_35454",
+      "jp": "船乗りの出現率",
+      "en": "Sailor Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7804,
+      "id": "rem_35455",
+      "jp": "作業員・職人の出現率",
+      "en": "Laborer/Craftsman Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7805,
+      "id": "rem_35456",
+      "jp": "学生・学者の出現率",
+      "en": "Student/Scholar Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7806,
+      "id": "rem_35457",
+      "jp": "執事・秘書・メイドの出現率",
+      "en": "Butler/Secretary/Maid Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7807,
+      "id": "rem_35458",
+      "jp": "商人の出現率",
+      "en": "Merchant Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7808,
+      "id": "rem_35459",
+      "jp": "娼婦・遊び人の出現率",
+      "en": "Courtesan/Rogue Appearance Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7809,
+      "id": "rem_35460",
+      "jp": "ランクアップに必要な経験",
+      "en": "XP Needed to Rank Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7810,
+      "id": "rem_35461",
+      "jp": "体力(店員)の才能",
+      "en": "Endurance (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7811,
+      "id": "rem_35462",
+      "jp": "接客(店員)の才能",
+      "en": "Hospitality (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7812,
+      "id": "rem_35463",
+      "jp": "清掃(店員)の才能",
+      "en": "Cleaning (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7813,
+      "id": "rem_35464",
+      "jp": "防犯(店員)の才能",
+      "en": "Security (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7814,
+      "id": "rem_35465",
+      "jp": "料理(店員)の才能",
+      "en": "Cooking (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7815,
+      "id": "rem_35466",
+      "jp": "鍛冶(店員)の才能",
+      "en": "Smithing (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7816,
+      "id": "rem_35467",
+      "jp": "錬金(店員)の才能",
+      "en": "Alchemy (Staff) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7817,
+      "id": "rem_35468",
+      "jp": "士気(派遣)の才能",
+      "en": "Morale (Away Team) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7818,
+      "id": "rem_35469",
+      "jp": "盾役(派遣)の才能",
+      "en": "Tank (Away Team) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7819,
+      "id": "rem_35470",
+      "jp": "戦力(派遣)の才能",
+      "en": "Combat (Away Team) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7820,
+      "id": "rem_35471",
+      "jp": "探索(派遣)の才能",
+      "en": "Scouting (Away Team) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7821,
+      "id": "rem_35472",
+      "jp": "回復(派遣)の才能",
+      "en": "Recovery (Dispatch) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7822,
+      "id": "rem_35473",
+      "jp": "魔術(派遣)の才能",
+      "en": "Magic (Dispatch) Talent",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7823,
+      "id": "rem_35474",
+      "jp": "密着モード時の成功率がアップ",
+      "en": "Success Rate Up in Closeness Mode",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7824,
+      "id": "rem_35475",
+      "jp": "エッチ経験値",
+      "en": "Erotic EXP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7825,
+      "id": "rem_35476",
+      "jp": "感度開発サポート",
+      "en": "Sensitivity Development Support",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 83051,
+  "range_end": 83075,
+  "pairs": [
+    {
+      "n": 83051,
+      "id": "db_EventInfo:98200:1",
+      "jp": "よく言うよ、勝手に先に行ってしまったのは二人の方だろ",
+      "en": "You can talk! You two are the ones who just went on ahead without me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83052,
+      "id": "db_EventInfo:98201:9",
+      "jp": "うむ、言われてみればそうであるな。これも【<pl>】殿が受けたドレインの影響か",
+      "en": "Hmm, now that you mention it, that is true. Is this also an effect of the Drain you suffered, Lord 【<pl>】?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83053,
+      "id": "db_EventInfo:98202:108",
+      "jp": "じゃが、とりあえず合流することができたのじゃ。良いではないか",
+      "en": "Ja, but we've managed to meet up, ja. That's good, isn't it?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83054,
+      "id": "db_EventInfo:98203:0",
+      "jp": "二人は【『縁ドレイン』】の影響を受けていないのか、普段のような気安さで接してくる。",
+      "en": "Perhaps they aren't affected by the ['Fate Drain'], as they're acting towards me with their usual casual familiarity.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83055,
+      "id": "db_EventInfo:98204:1",
+      "jp": "ドレインの影響……って、知っていたのか！？",
+      "en": "Wait, you knew about the drain's effects?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83056,
+      "id": "db_EventInfo:98205:108",
+      "jp": "うむ、【『<ruby=ウィッチ>魔女</ruby>』】はそのようなものの影響は少ないのである",
+      "en": "Yes, a 'Witch' is less affected by such things.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83057,
+      "id": "db_EventInfo:98206:108",
+      "jp": "しかし、【『縁』】を奪われ、最も弱体化するのは、店の経営よりも、他ならぬ【『死神』】じゃろう？",
+      "en": "However, the one who loses the 'Bonds' and is weakened the most isn't the shop's management. It's the 'Shinigami', is it not?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83058,
+      "id": "db_EventInfo:98207:9",
+      "jp": "シイネ殿の力なくしては、我々は瓦解するであるからな",
+      "en": "Without Lord Shiine's power, we would fall apart.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83059,
+      "id": "db_EventInfo:98208:108",
+      "jp": "ゆえにワシらは、【『死神』】の力を補う事を優先するよう動いていたのじゃよ",
+      "en": "Therefore, we were prioritizing moves to support the 'Shinigami's' power.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83060,
+      "id": "db_EventInfo:98209:1",
+      "jp": "そうだったのか……しかし、シイネの力と、メテトス古墳とどう関係するんだ？",
+      "en": "I see... But what does Shiine's power have to do with the Metetos Tomb?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83061,
+      "id": "db_EventInfo:98210:108",
+      "jp": "うむ！　この地ではかつて神を降ろす儀式があったのじゃ",
+      "en": "Yes! This land once had a ritual to summon gods.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83062,
+      "id": "db_EventInfo:98211:108",
+      "jp": "百穴と呼ばれる古墳の穴は、古代の部族が信仰の儀式を行なおうとしたもの",
+      "en": "The tomb's holes, called the 'Hundred Holes', are where ancient tribes performed their faith rituals.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83063,
+      "id": "db_EventInfo:98212:108",
+      "jp": "つまりは、【『サバト』】にうってつけの場所じゃ！",
+      "en": "In other words, it's the perfect place for a 'Sabbat'!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83064,
+      "id": "db_EventInfo:98213:1",
+      "jp": "【『サバト』】……！？",
+      "en": "A 'Sabbat'...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83065,
+      "id": "db_EventInfo:98215:108",
+      "jp": "男達を呼びまくってサバトをしたら神が呼べるに違いない！　それだけの力があれば、【『死神』】の力も取り戻せるじゃろう！",
+      "en": "If we hold a huge Sabbat and call lots of men, we can surely summon a god! With that kind of power, the 'Shinigami' should get his strength back!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83066,
+      "id": "db_EventInfo:98216:9",
+      "jp": "師匠殿、こんな場所に人間が来るわけもないのである",
+      "en": "Master, it's unlikely humans would come to a place like this.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83067,
+      "id": "db_EventInfo:98219:108",
+      "jp": "カリスト",
+      "en": "Callisto.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83068,
+      "id": "db_EventInfo:98220:9",
+      "jp": "はいである",
+      "en": "Yes, I am.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83069,
+      "id": "db_EventInfo:98221:108",
+      "jp": "どうにかしろ",
+      "en": "Do something about it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83070,
+      "id": "db_EventInfo:98223:9",
+      "jp": "簡単に言うであるな！？　まあ、こんなこともあろうかと、常に薬は用意しているであるが",
+      "en": "You say that like it's easy!? Well, I figured this might happen, so I always keep some medicine ready.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83071,
+      "id": "db_EventInfo:98224:1",
+      "jp": "薬？　一体……",
+      "en": "Medicine? What kind...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83072,
+      "id": "db_EventInfo:98225:9",
+      "jp": "無論、【『<ruby=化身>アバター</ruby>』】の力で【<pl>】殿を増やす薬である",
+      "en": "Of course, it's medicine to increase your 【<pl>】-san using the power of the 【『Avatar』】.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 83073,
+      "id": "db_EventInfo:98226:108",
+      "jp": "おおでかした！　ささ、こんな場所に人間が来るわけもない。気を失うまで【『サバト』】に興じようではないかД",
+      "en": "Oh, well done! Come on, no human is going to cum to a place like this. Let's enjoy our 【『Sabbath』】 until we pass outД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 83074,
+      "id": "db_EventInfo:98227:1",
+      "jp": "一応聞くが……拒否する、というわけには",
+      "en": "I have to ask... 'refusing' isn't really an option, is it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83075,
+      "id": "db_EventInfo:98228:9",
+      "jp": "行かぬであるなД",
+      "en": "You're not going anywhereД",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

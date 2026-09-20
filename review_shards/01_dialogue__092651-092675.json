@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 92651,
+  "range_end": 92675,
+  "pairs": [
+    {
+      "n": 92651,
+      "id": "db_EventInfo:109519:13",
+      "jp": "店を完全に空けるのは機会損失ですからのう",
+      "en": "Leaving the shop completely empty is a missed opportunity.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92652,
+      "id": "db_EventInfo:109520:9",
+      "jp": "ついでに特製の薬を売る店舗も欲しいであるな",
+      "en": "While we're at it, I'd also like a shop to sell our special medicines.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 92653,
+      "id": "db_EventInfo:109521:1",
+      "jp": "なるほど……アンジュ、設計してもらえるか？",
+      "en": "I see... Anju, can you handle the design?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92654,
+      "id": "db_EventInfo:109522:3",
+      "jp": "任されたのじゃ！",
+      "en": "Leave it to me!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92655,
+      "id": "db_EventInfo:109524:11",
+      "jp": "ねえ【<pl>】君、お店が広くなってきたから、いままでの施設だと手狭になったと思わない？",
+      "en": "Hey 【<pl>】, our shop is getting bigger. Don't you think our current facilities are getting a bit cramped?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 92656,
+      "id": "db_EventInfo:109525:1",
+      "jp": "まあ、確かに……",
+      "en": "Well, yeah, that's true...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92657,
+      "id": "db_EventInfo:109526:11",
+      "jp": "もっと大きい【『レストラン』】や【『スタッフルーム』】があるといいと思うの",
+      "en": "I think we need bigger places, like a 'Restaurant' and a 'Staff Room'.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 92658,
+      "id": "db_EventInfo:109527:13",
+      "jp": "そうですな。大きい施設があれば、もっと効率的に店舗を回せますぞ",
+      "en": "Indeed. Bigger facilities would let us manage the shop more efficiently.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92659,
+      "id": "db_EventInfo:109528:3",
+      "jp": "うむ！　大きい宿には大きい食堂がふさわしいのじゃ！",
+      "en": "Hmm! A big inn deserves a big dining hall!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92660,
+      "id": "db_EventInfo:109529:11",
+      "jp": "そうすると食材などを置く場所が欲しいわよね。【『倉庫』】もあるといいんじゃない？",
+      "en": "Then we'd also need a place to keep things like ingredients. A 'Warehouse' would be good, right?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 92661,
+      "id": "db_EventInfo:109530:13",
+      "jp": "ですな。物流に余裕が出来て、店の運営効率も高まるはずですぞ",
+      "en": "Yes. It would make logistics smoother and improve the shop's operational efficiency.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92662,
+      "id": "db_EventInfo:109531:1",
+      "jp": "うーむ……検討してみるか",
+      "en": "Hmm... I'll think about it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92663,
+      "id": "db_EventInfo:109533:3",
+      "jp": "任されておくのじゃ！",
+      "en": "Leave it to us!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92664,
+      "id": "db_EventInfo:109534:13",
+      "jp": "【『豪華な財宝部屋』】を作りたいのですぞ？",
+      "en": "Do you want to build a 'Luxurious Treasure Room'?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92665,
+      "id": "db_EventInfo:109536:3",
+      "jp": "イヤじゃのー。とうとう【<pl>】も成金趣味になってしまったのじゃ",
+      "en": "Ugh. So even 【<pl>】 has developed tacky nouveau riche tastes now.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92666,
+      "id": "db_EventInfo:109537:1",
+      "jp": "ちっ、違う！　これはシイネがネルディーネを迎えようと……！",
+      "en": "Hey, no! That's not it! This is for Shiine, to welcome Neldine...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92667,
+      "id": "db_EventInfo:109538:3",
+      "jp": "なんで【『豪華な財宝部屋』】が必要なのかよくわからんが……まあいいじゃろ",
+      "en": "I don't really get why we need a 'Fancy Treasure Room'... but whatever, it's fine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92668,
+      "id": "db_EventInfo:109539:3",
+      "jp": "鍛冶姫の腕を振るって、豪華絢爛な宝物庫を建築してやるのじゃ！",
+      "en": "I, the Forging Princess, will use my skills to build a super fancy treasure vault for you!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92669,
+      "id": "db_EventInfo:109540:13",
+      "jp": "装飾の方はまかせてくだされ。職人どもを集めて参りますぞ",
+      "en": "Leave the decorations to me. I'll gather the craftsmen.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92670,
+      "id": "db_EventInfo:109542:3",
+      "jp": "しばらく店を離れていてリフレッシュしたせいか、建築のアイデアが湧いてきたのじゃ",
+      "en": "Maybe because I left the shop for a while and relaxed, but I've got some new building ideas.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92671,
+      "id": "db_EventInfo:109543:3",
+      "jp": "今なら、今までよりもさらにグレードアップした工房を建築出来るぞ！",
+      "en": "Right now, I can build a workshop that's even better than before!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92672,
+      "id": "db_EventInfo:109544:9",
+      "jp": "それは素晴らしい、更なる高品質の【『錬金』】のためにも頼みたいである",
+      "en": "That's wonderful. I'd like that too, for even higher quality 'Alchemy'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 92673,
+      "id": "db_EventInfo:109545:11",
+      "jp": "ええ、【『料理』】にも調理場は必要だものね",
+      "en": "Yes, we do need a kitchen for 'Cooking' as well.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 92674,
+      "id": "db_EventInfo:109546:3",
+      "jp": "任せておけい！　最高の工房、最高の販売所、最高のレストランを建築するのじゃ！",
+      "en": "Leave it to me! I'll build the best workshop, the best shop, and the best restaurant!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92675,
+      "id": "db_EventInfo:109547:13",
+      "jp": "これは一世一代の大仕事になりそうですな",
+      "en": "This looks like it will be the biggest job of our lives.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102251,
+  "range_end": 102275,
+  "pairs": [
+    {
+      "n": 102251,
+      "id": "db_EventInfo:120797:2",
+      "jp": "おいオマエ、【『ソルシア魔導船団』】から客デス",
+      "en": "Hey you, there's a customer here from the 'Solthia Magic Fleet'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102252,
+      "id": "db_EventInfo:120798:225",
+      "jp": "おお、貴方がこの宿の店長様ですか！　【『<ruby=ソルシア>学院</ruby>』】の救世主様！",
+      "en": "Oh, you must be the master of this inn! The Savior of the Solthia Academy!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102253,
+      "id": "db_EventInfo:120799:225",
+      "jp": "我ら魔術師の研究と住処を守り、救っていただいた【救世主の宿】のお話は我々も聞き及んでおります！",
+      "en": "We have also heard tales of the 'Savior's Inn' that protected the research and dwellings of us mages, and saved them!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102254,
+      "id": "db_EventInfo:120800:1",
+      "jp": "【救世主の宿】って……",
+      "en": "The 'Savior's Inn'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102255,
+      "id": "db_EventInfo:120801:2",
+      "jp": "なるほど、中々いい響きデス",
+      "en": "Hmm, that's quite a nice ring to it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102256,
+      "id": "db_EventInfo:120802:225",
+      "jp": "我々【『<ruby=ソルシア>学院</ruby>』】の魔術師達も、頭がぼんやりとしておりまして……",
+      "en": "We mages from the Solthia Academy have also been feeling a bit fuzzy-headed...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102257,
+      "id": "db_EventInfo:120803:225",
+      "jp": "そもそも我々は、【『アーマニア海』】の海底調査に来ていたのです",
+      "en": "Originally, we came here for a seabed investigation in the 'Amania Sea'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102258,
+      "id": "db_EventInfo:120804:225",
+      "jp": "軍艦でやってきたのも、【『アーマニア海』】には強力な魔獣が出現するためであって",
+      "en": "The reason we came by warship is because powerful magical beasts appear in the 'Amania Sea'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102259,
+      "id": "db_EventInfo:120805:225",
+      "jp": "しかし、途中からよくわからず、【『ゴブリン』】を【養殖】する手伝いをさせられておりました……",
+      "en": "But partway through, I didn't get it. They just made me help raise Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102260,
+      "id": "db_EventInfo:120806:2",
+      "jp": "どうも領主ゼルカの意のままに操られていたようデスね",
+      "en": "It seems you were being manipulated by Lord Zelka.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102261,
+      "id": "db_EventInfo:120807:225",
+      "jp": "このような失態を二度と犯さないためにも、我々は貴方達に、全面協力をお約束しましょう！",
+      "en": "To make sure we don't mess up like this again, we promise to fully cooperate with you!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102262,
+      "id": "db_EventInfo:120808:2",
+      "jp": "うむ、よきにはからうデス",
+      "en": "Hmm, we'll see what we can do.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102263,
+      "id": "db_EventInfo:120810:12",
+      "jp": "駄犬、【『魔術学院ソルシア』】に【『組織献金』】するつもりですか",
+      "en": "So, dog. Do you plan to give a donation to the Solthia Magic Academy?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102264,
+      "id": "db_EventInfo:120811:2",
+      "jp": "魔術師は貧乏って言ってたデスね",
+      "en": "You said mages are poor.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102265,
+      "id": "db_EventInfo:120812:12",
+      "jp": "ま、まあそうですね……魔術師は浪費家が多いですから",
+      "en": "W-well, yes... Many mages spend too much.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102266,
+      "id": "db_EventInfo:120813:2",
+      "jp": "オマエのようにデスね",
+      "en": "Like you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102267,
+      "id": "db_EventInfo:120814:12",
+      "jp": "うっ、うるさいですね！　研究と節約は相性が悪いんです！！",
+      "en": "Ugh, quiet! Research and saving money don't mix well!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102268,
+      "id": "db_EventInfo:120815:12",
+      "jp": "まあとにかく魔術師が作る品自体は、高値で売れます",
+      "en": "Anyway, the stuff mages make sells for high prices.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102269,
+      "id": "db_EventInfo:120816:12",
+      "jp": "関係を築ければ金づる……もとい、良い商売相手になるハズですよ",
+      "en": "Build a good relationship, and they could be a great business partner... I mean, a great business partner.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 102270,
+      "id": "db_EventInfo:120818:2",
+      "jp": "おいオマエ、【『魔術学院ソルシア』】がやらかしたようデス",
+      "en": "Hey, you. Looks like the Solthia Magic Academy messed up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102271,
+      "id": "db_EventInfo:120819:1",
+      "jp": "【『学院』】が？",
+      "en": "The 'Academy' did?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102272,
+      "id": "db_EventInfo:120820:15",
+      "jp": "ゼカリウス地方では【地震】が多いことは知ってるかい？",
+      "en": "Do you know that Zecarius gets a lot of earthquakes?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 102273,
+      "id": "db_EventInfo:120821:15",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 102274,
+      "id": "db_EventInfo:120822:15",
+      "jp": "最近【地震】が多くてね……まあ、家屋が崩れるような地震は少ないんだけど",
+      "en": "Lately the earthquakes are happening a lot... Well, they're rarely strong enough to make houses collapse.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 102275,
+      "id": "db_EventInfo:120823:15",
+      "jp": "学院の上級魔術師がね、これは大陸を揺るがす大魔術儀式の影響とか、そういう発表をしちゃったんだよ",
+      "en": "A senior mage from the Academy announced that this is the effect of a massive magical ritual shaking the continent, stuff like that.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    }
+  ]
+}

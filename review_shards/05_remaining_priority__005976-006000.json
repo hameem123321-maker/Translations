@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5976,
+  "range_end": 6000,
+  "pairs": [
+    {
+      "n": 5976,
+      "id": "rem_33595",
+      "jp": "【フィールド】に【雷強化】を付与 (雷属性ダメージ[+30%])",
+      "en": "Applies 【Field】 effect 【Thunder Boost】 (Thunder damage [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5977,
+      "id": "rem_33596",
+      "jp": "【<src>】は[サンダーブースト]を使用！",
+      "en": "【<src>】 uses [Thunder Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5978,
+      "id": "rem_33597",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + デバフ特化 + [束縛]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group Attack Power[] + Hit[60%] + Debuff Focus + Applies [Bind] (Crit Chance received +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5979,
+      "id": "rem_33598",
+      "jp": "【<src>】の[触手からみつき]！",
+      "en": "【<src>】's [Tentacle Entangle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5980,
+      "id": "rem_33599",
+      "jp": "全体攻撃 威力[] +  命中[80%] + 必殺率[+10%] + デバフ特化 + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "All Attack Power[] + Hit[80%] + Crit Rate[+10%] + Debuff Focus + Applies [Leg Bind] (Crit Chance received +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5981,
+      "id": "rem_33600",
+      "jp": "【<src>】の[触手ストリーム]！",
+      "en": "【<src>】's [Tentacle Stream]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5982,
+      "id": "rem_33601",
+      "jp": "単体攻撃 威力[] +  命中[80%] + [毒化]を付与 (毒によりターンごとにダメージ+10%)",
+      "en": "Single-target attack Potency[] + Hit[80%] + Inflicts [Poison] (10% damage/turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5983,
+      "id": "rem_33602",
+      "jp": "【<src>】の[ポイズンニードル]！",
+      "en": "【<src>】's [Poison Needle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5984,
+      "id": "rem_33603",
+      "jp": "単体攻撃 威力[] +  命中[80%] + 必殺率[+20%] + [麻痺]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single-target attack Potency[] + Hit[80%] + Crit rate[+20%] + Inflicts [Paralysis] (+50% crit vulnerability)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5985,
+      "id": "rem_33604",
+      "jp": "【<src>】の[パライズニードル]！",
+      "en": "【<src>】's [Paralyze Needle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5986,
+      "id": "rem_33605",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + デバフ特化 + [毒化]を付与 (毒によりターンごとにダメージ+10%)",
+      "en": "Group attack Potency[] + Hit[60%] + Debuff focus + Inflicts [Poison] (10% damage/turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5987,
+      "id": "rem_33606",
+      "jp": "【<src>】の[毒の鱗粉]！",
+      "en": "【<src>】's [Poison Scales]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5988,
+      "id": "rem_33607",
+      "jp": "単体攻撃 威力[] +  命中[80%] + 【風属性】 + デバフ特化 + [麻痺]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single-target attack Potency[] + Hit[80%] + 【Wind】 + Debuff focus + Inflicts [Paralysis] (+50% crit vulnerability)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5989,
+      "id": "rem_33608",
+      "jp": "【<src>】の[麻痺の鱗粉]！",
+      "en": "【<src>】's [Paralysis Scales]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5990,
+      "id": "rem_33609",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 連撃率[+30%] + デバフ特化 + [脆化]を付与 (物理ダメージ軽減率-50%)",
+      "en": "Group attack Potency[] + Hit[70%] + Combo rate[+30%] + Debuff focus + Inflicts [Brittle] (-50% phys. damage reduction)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5991,
+      "id": "rem_33610",
+      "jp": "【<src>】の[溶解液]！",
+      "en": "【<src>】's [Dissolving Fluid]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5992,
+      "id": "rem_33611",
+      "jp": "単体攻撃 威力[] +  命中[60%] + 必殺率[+50%] + 防御貫通(小) + 【死神技】",
+      "en": "Single-target attack Potency[] + Hit[60%] + Crit rate[+50%] + Defense pierce(small) + 【Shinigami Skill】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5993,
+      "id": "rem_33612",
+      "jp": "【<src>】の[即死針]！",
+      "en": "【<src>】's [Instant Death Needle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5994,
+      "id": "rem_33613",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + デバフ特化 + [睡眠]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Group attack Potency[] + Hit[80%] + Debuff focus + Inflicts [Sleep] (+30% crit vulnerability)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5995,
+      "id": "rem_33614",
+      "jp": "【<src>】の[睡眠の鱗粉]！",
+      "en": "【<src>】's [Sleep Scales]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5996,
+      "id": "rem_33615",
+      "jp": "初回攻撃での攻撃力がアップする。すみやかに先手を打つことで、被弾を減らすことができる。",
+      "en": "First strike damage is increased. Strike first to reduce incoming damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5997,
+      "id": "rem_33616",
+      "jp": "初回攻撃のダメージ[+100%]",
+      "en": "First strike damage[+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5998,
+      "id": "rem_33617",
+      "jp": "味方への攻撃を引き受ける。ターゲットになる上限がアップする。その代わり､自らが窮地に追いやられやすくなる。",
+      "en": "Takes attacks for allies. Max target rate increased. Makes you more vulnerable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5999,
+      "id": "rem_33618",
+      "jp": "被ターゲット率[+300%]",
+      "en": "Target rate[+300%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6000,
+      "id": "rem_33619",
+      "jp": "弓矢に闘気を込めて、強力な一撃を放つ。敵の中心で炸裂した矢により、相手は貫通せずに吹っ飛び、一時的に行動不能になる。",
+      "en": "Charges an arrow with fighting spirit for a powerful strike. The arrow explodes at the enemy's center, knocking them back and stunning them briefly.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6401,
+  "range_end": 6425,
+  "pairs": [
+    {
+      "n": 6401,
+      "id": "rem_34020",
+      "jp": "CT回復(小) + 【仲間】に【興奮】を付与 (すべてのダメージ[+30%] + 物理ダメージ軽減率[-30%])",
+      "en": "CT Recovery (Small) + Grants 【Allies】 【Excitement】 (All damage[+30%] + Physical Damage Reduction Rate[-30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6402,
+      "id": "rem_34021",
+      "jp": "【<src>】の[ウォークライ]が仲間を鼓舞する！",
+      "en": "【<src>】's [War Cry] inspires allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6403,
+      "id": "rem_34022",
+      "jp": "敵から目立つように行動し、相手の攻撃を引きつける。後衛がターゲットになりにくくなる。その分、自分に危険が及ぶことになる。",
+      "en": "Act conspicuously to draw enemy attacks, making back row less likely to be targeted. Increases danger to self.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6404,
+      "id": "rem_34023",
+      "jp": "【自分】に【挑発】を付与 (被ターゲット率[+1000%])",
+      "en": "Grants 【Self】 【Provoke】 (Targeting Rate[+1000%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6405,
+      "id": "rem_34024",
+      "jp": "【<src>】は敵を[挑発]した！",
+      "en": "【<src>】 taunted the enemy!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6406,
+      "id": "rem_34025",
+      "jp": "勇者は負けない、勇者を信じる者がいるかぎり。ということで、倒れても死の淵から復活することがある。",
+      "en": "As long as someone believes in the Hero, they won't stay down. They can sometimes revive from death's door.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6407,
+      "id": "rem_34026",
+      "jp": "戦闘不能時に自動復活[+40%]",
+      "en": "Auto-revive on KO[+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6408,
+      "id": "rem_34027",
+      "jp": "ケモミミの嗅覚を発揮し、アイテム収集の速度を高める。ダンジョンで拾えるトレジャーの量がアップして、開発ポイントをたくさん入手しやすくなる。",
+      "en": "Unleash kemomimi senses to speed up item collection. Boosts dungeon treasure and Development Points.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6409,
+      "id": "rem_34028",
+      "jp": "開発ポイント獲得量[+30%] + レア[+20%]",
+      "en": "Dev. Pts. Gain[+30%] + Rarity[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6410,
+      "id": "rem_34029",
+      "jp": "どんな死地からも、運命をねじ曲げてまで必ず生還するという、特異体質。",
+      "en": "An unusual constitution that bends fate to survive from any deadly situation.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6411,
+      "id": "rem_34030",
+      "jp": "パーティーの武器を修復する魔術を掛ける。スキルの回復が早まり、戦闘を有利に進めることができる。パーティーサポートスキル。",
+      "en": "Party magic to repair weapons. Speeds skill recovery for an advantage. A Party Support Skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6412,
+      "id": "rem_34031",
+      "jp": "CT回復(中) + 自分以外に効果",
+      "en": "CT Recovery (Medium) + Effect on others",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6413,
+      "id": "rem_34032",
+      "jp": "【<src>】は[ウェポンリペア]を使用した",
+      "en": "【<src>】 used [Weapon Repair]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6414,
+      "id": "rem_34033",
+      "jp": "本人は不服そうだがドロボウならではの危険察知能力。敏感に敵の気配を知らせる。通常のエネミーサーチより強力に周囲を察知する。",
+      "en": "A thief's keen danger sense, despite owner's reluctance. Strongly detects enemy presence better than normal.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6415,
+      "id": "rem_34034",
+      "jp": "エネミー発見率[+30%] + トラップ発見率[+70%]",
+      "en": "Enemy Detection[+30%] + Trap Detection[+70%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6416,
+      "id": "rem_34035",
+      "jp": "正と負の魔力を融合させた最強の攻撃魔術。起源の魔術師が創った最強の攻撃魔術だが、その存在を隠されていた。",
+      "en": "Ultimate attack magic fusing positive and negative energies. The strongest, hidden by its originator.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6417,
+      "id": "rem_34036",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 必殺率[+20%] + 【闇属性】 + 禁呪暴走抑制",
+      "en": "AoE Attack Power[S+] + Hit Rate[50%] + Crit Rate[+20%] + 【Dark】 + Forbidden Curse Control",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6418,
+      "id": "rem_34037",
+      "jp": "【<src>】は禁呪[ヴァニッシュ]を発動させた！",
+      "en": "【<src>】 unleashed the forbidden curse [Vanish]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6419,
+      "id": "rem_34038",
+      "jp": "ついに出会ってしまったエリオルダの修行仲間。過酷なゴリラエルフィードの修行に嬉々として付いてくる剣豪ゴリラ。二人に近付くと特訓に巻込まれるので恐れられている。",
+      "en": "Eliorda's old training partner. A gorilla swordsman who relished harsh elf training. Feared for dragging others into drills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6420,
+      "id": "rem_34039",
+      "jp": "レベル同期・エリオルダ/ツバキと同じに",
+      "en": "Level Sync: Match Eliorda/Tsubaki",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6421,
+      "id": "rem_34040",
+      "jp": "戦力変換・胸＞防御",
+      "en": "Combat Conversion: Chest > Defense",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6422,
+      "id": "rem_34041",
+      "jp": "味方が【雷属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Thunder skill】. Multiple uses may trigger consecutive follow-ups. Uses both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6423,
+      "id": "rem_34042",
+      "jp": "単体攻撃 威力[D] +  命中[80%] + 【雷属性】 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single-target Power[D] + Hit[80%] + 【Thunder】 + Inflicts [Shock] (Crit chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6424,
+      "id": "rem_34043",
+      "jp": "【<src>】は[ボルトチェイス]で追撃した！",
+      "en": "【<src>】 followed up with [Bolt Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6425,
+      "id": "rem_34044",
+      "jp": "邪悪なる存在と戦うための退魔師の力と、主に従うメイドのたしなみが融合した結果、追撃に特化した才能を開花させた。チェイススキルのダメージが大幅にアップ。",
+      "en": "A fusion of exorcist power against evil and maid discipline for her master, birthing a talent for follow-ups. Chase skill damage greatly increased.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

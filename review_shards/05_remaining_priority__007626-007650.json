@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7626,
+  "range_end": 7650,
+  "pairs": [
+    {
+      "n": 7626,
+      "id": "rem_35277",
+      "jp": "ダブルアタックのダメージ",
+      "en": "Double Attack damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7627,
+      "id": "rem_35278",
+      "jp": "クリティカルのダメージ",
+      "en": "Critical damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7628,
+      "id": "rem_35279",
+      "jp": "弱点ヘのダメージ",
+      "en": "Weakness damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7629,
+      "id": "rem_35280",
+      "jp": "格下のダメージ",
+      "en": "Damage to weaker foes",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7630,
+      "id": "rem_35281",
+      "jp": "初回攻撃のダメージ",
+      "en": "First attack damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7631,
+      "id": "rem_35282",
+      "jp": "格上とボスへのダメージ",
+      "en": "Damage to bosses/stronger foes",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7632,
+      "id": "rem_35283",
+      "jp": "男性へのダメージ",
+      "en": "Damage to males",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7633,
+      "id": "rem_35284",
+      "jp": "女性へのダメージ",
+      "en": "Damage to females",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7634,
+      "id": "rem_35285",
+      "jp": "チェイススキルのダメージ",
+      "en": "Chase skill damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7635,
+      "id": "rem_35286",
+      "jp": "ゴッドハンドのダメージ",
+      "en": "God Hand damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7636,
+      "id": "rem_35287",
+      "jp": "被ダメージ回数に応じて最大攻撃力",
+      "en": "Max ATK based on hits taken",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7637,
+      "id": "rem_35288",
+      "jp": "単体攻撃以外のダメージ",
+      "en": "Non-single-target damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7638,
+      "id": "rem_35289",
+      "jp": "美食モンスターへのダメージ",
+      "en": "Damage to gourmet monsters",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7639,
+      "id": "rem_35290",
+      "jp": "樹木タイプへのダメージ",
+      "en": "Damage to plant types",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7640,
+      "id": "rem_35291",
+      "jp": "人間タイプへのダメージ",
+      "en": "Damage to human types",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7641,
+      "id": "rem_35292",
+      "jp": "亜人タイプへのダメージ",
+      "en": "Damage to Demihuman type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7642,
+      "id": "rem_35293",
+      "jp": "動物タイプへのダメージ",
+      "en": "Damage to Animal type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7643,
+      "id": "rem_35294",
+      "jp": "飛行タイプへのダメージ",
+      "en": "Damage to Flying type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7644,
+      "id": "rem_35295",
+      "jp": "不形タイプへのダメージ",
+      "en": "Damage to Amorphous type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7645,
+      "id": "rem_35296",
+      "jp": "硬質タイプへのダメージ",
+      "en": "Damage to Hardened type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7646,
+      "id": "rem_35297",
+      "jp": "死霊タイプへのダメージ",
+      "en": "Damage to Undead type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7647,
+      "id": "rem_35298",
+      "jp": "xxxxタイプへのダメージ",
+      "en": "Damage to xxxx type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7648,
+      "id": "rem_35299",
+      "jp": "竜タイプへのダメージ",
+      "en": "Damage to Dragon type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7649,
+      "id": "rem_35300",
+      "jp": "物理ダメージ軽減",
+      "en": "Physical damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7650,
+      "id": "rem_35301",
+      "jp": "魔術ダメージ軽減",
+      "en": "Magic damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

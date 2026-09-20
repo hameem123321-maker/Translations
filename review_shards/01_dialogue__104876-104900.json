@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104876,
+  "range_end": 104900,
+  "pairs": [
+    {
+      "n": 104876,
+      "id": "db_EventInfo:124098:3",
+      "jp": "いわゆる爆弾岩というヤツじゃ",
+      "en": "It's what they call a bomb-rock, you see.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104877,
+      "id": "db_EventInfo:124099:3",
+      "jp": "うっかり爆発させたら、大変な事になるかもしれんのじゃ！　しかし妾は頑丈なドワーム族、ちょっとやそこらの爆発では……って、店長？",
+      "en": "If you set it off carelessly, it could be a big problem, you know! But I'm a sturdy Dwarm, a little explosion won't... hey, Shopkeep?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104878,
+      "id": "db_EventInfo:124100:0",
+      "jp": "俺は逃げ出したところを、アンジュにまわりこまれてしまった。",
+      "en": "I tried to run away, but Anju got around and blocked me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104879,
+      "id": "db_EventInfo:124104:9",
+      "jp": "それで私が駆り出されたというわけか",
+      "en": "So that's why I've been called out.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104880,
+      "id": "db_EventInfo:124105:9",
+      "jp": "他でもない店長殿の頼み。危険な仕事であるが、任せるが良い",
+      "en": "Since it's your request, Shopkeep. It's dangerous work, but you can leave it to me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104881,
+      "id": "db_EventInfo:124106:3",
+      "jp": "む、なぜカリストが出てくるのじゃ？",
+      "en": "Huh, why is Callisto coming out?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104882,
+      "id": "db_EventInfo:124107:1",
+      "jp": "そりゃ、爆発物ならカリストは専門家だし……",
+      "en": "Well, if it's explosives, Callisto is the expert...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104883,
+      "id": "db_EventInfo:124108:9",
+      "jp": "失礼であるな。それはどちらかというとミルテのほうであろう",
+      "en": "That's rude. If anything, that would be Myrte's field.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104884,
+      "id": "db_EventInfo:124109:1",
+      "jp": "その、爆発物の取り扱いという意味で……",
+      "en": "I meant, in terms of handling explosives...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104885,
+      "id": "db_EventInfo:124110:9",
+      "jp": "わはは！　なるほど。さすがは店長殿であるな！",
+      "en": "Wahaha! I see. As expected of you, Shopkeep!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104886,
+      "id": "db_EventInfo:124111:3",
+      "jp": "む、待つのじゃ！　今回の依頼は妾が受けたんじゃぞ！",
+      "en": "Hey, wait! I took this job!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104887,
+      "id": "db_EventInfo:124112:1",
+      "jp": "まあまあ、二人で協力してくれ",
+      "en": "Alright, alright, both of you work together.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104888,
+      "id": "db_EventInfo:124113:1",
+      "jp": "アンジュはなるべくカリストの前に立つようにな",
+      "en": "Anju, try to stay in front of Callisto.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104889,
+      "id": "db_EventInfo:124114:3",
+      "jp": "<ruby=わらわ>妾</ruby>はシールドじゃなーい！！",
+      "en": "I'm not a shield!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104890,
+      "id": "db_EventInfo:124117:0",
+      "jp": "アンジュとカリストは無事に危険物の処理を終了させることに成功した。",
+      "en": "Anju and Callisto successfully finished disposing of the hazardous materials.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104891,
+      "id": "db_EventInfo:124118:9",
+      "jp": "ククク、これで簡単には爆発しなくなったぞ。楽な仕事であるな",
+      "en": "Keh keh keh, it won't explode so easily now. That was an easy job.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104892,
+      "id": "db_EventInfo:124119:3",
+      "jp": "流石じゃな、危険物の処理などお手の物か",
+      "en": "Impressive. Handling dangerous materials is right up your alley, isn't it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104893,
+      "id": "db_EventInfo:124120:1",
+      "jp": "カリストに鉱石の知識もあったとは……",
+      "en": "You knew about minerals too, Callisto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104894,
+      "id": "db_EventInfo:124121:9",
+      "jp": "ん？　そんなものあるわけなかろう？",
+      "en": "Huh? There's no way I'd know about that stuff.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104895,
+      "id": "db_EventInfo:124122:1",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104896,
+      "id": "db_EventInfo:124123:3",
+      "jp": "何じゃと？",
+      "en": "What did you say?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104897,
+      "id": "db_EventInfo:124124:9",
+      "jp": "クク、危険かどうかを判断する程度、五感を働かせれば雑作も無いである",
+      "en": "Keh keh, to judge if something's dangerous or not? It's nothing if you just use your senses.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104898,
+      "id": "db_EventInfo:124125:3",
+      "jp": "恐ろしいことを言ってるのじゃ",
+      "en": "That's terrifying.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104899,
+      "id": "db_EventInfo:124126:9",
+      "jp": "それで、この爆発物を使い、どこに攻め入るのであるか？",
+      "en": "So, where are you planning to use this explosive to attack?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104900,
+      "id": "db_EventInfo:124127:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6776,
+  "range_end": 6800,
+  "pairs": [
+    {
+      "n": 6776,
+      "id": "rem_34395",
+      "jp": "「こんなこともあろうかと！」とウィルチ師弟が最後の戦いに備えて編み出した決戦魔術。レイズデッドによる蘇生を妨害し、復活時のＨＰ回復を阻害する。師弟どちらも覚えられる。",
+      "en": "A decisive magic developed by the Willt master and disciple for the final battle, anticipating this scenario. It hinders Raise Dead revival and blocks HP recovery upon revival. Both master and disciple can learn it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6777,
+      "id": "rem_34396",
+      "jp": "【フィールド】に【復活阻害】を付与 (レイズデッド時のHP回復を妨害)",
+      "en": "Grants 【Field】 【Revival Hindrance】 (prevents HP recovery from Raise Dead).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6778,
+      "id": "rem_34397",
+      "jp": "【<src>】は[アンチレイズデッド]を使用！",
+      "en": "【<src>】 uses [Anti-Raise Dead]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6779,
+      "id": "rem_34398",
+      "jp": "超低温で標的の周囲を包み込み、瞬間凍結させる大魔術。限りなく絶対零度に近い超冷気に晒された生物は、凍結して砕ける。",
+      "en": "A grand magic enveloping the target's vicinity in extreme cold, instantly freezing them. Creatures exposed to this near-absolute zero chill freeze and shatter.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6780,
+      "id": "rem_34399",
+      "jp": "範囲(大)攻撃 威力[A+] +  命中[70%] + 【氷属性】 + 防御貫通(小) + 禁呪暴走抑制 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Large area attack Power[A+] + Hit[70%] + 【Ice】 + Minor defense pierce + Forbidden Rampage suppression + applies [Freeze] (Physical damage reduction -30% + Critical receive rate +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6781,
+      "id": "rem_34400",
+      "jp": "【<src>】は禁呪[アブソリュートゼロ]で空間ごと凍結させる！",
+      "en": "【<src>】 uses forbidden spell [Absolute Zero] to freeze even the space itself!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6782,
+      "id": "rem_34401",
+      "jp": "戦利品を獲得しやすい、仕込みの一撃。このスキルで敵にダメージを与えてから、敵を倒すと、良いアイテムが入手しやすくなる。",
+      "en": "A setup strike that makes spoils easier to obtain. Damaging an enemy with this skill before defeating them improves the chance of getting good items.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6783,
+      "id": "rem_34402",
+      "jp": "単体攻撃 威力[E] +  命中[80%] + 【風属性】 + ドロップ上昇(小) + 回避(大)",
+      "en": "Single Attack Potency[E] + Hit[80%] + 【Wind Attribute】 + Drop Rate Up (Slight) + Evasion (High)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6784,
+      "id": "rem_34403",
+      "jp": "【<src>】は[トレハン斬り]を放った！",
+      "en": "【<src>】 unleashes [Trehan Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6785,
+      "id": "rem_34404",
+      "jp": "大気を変動させ、局地的な竜巻を発生させる大魔術。天地の理すらも操作するその威力は、周囲の生態系をずたずたに破壊させるという。",
+      "en": "A grand magic that shifts the atmosphere, creating localized tornadoes. Its power, which manipulates the very laws of nature, is said to shred the surrounding ecosystem to pieces.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6786,
+      "id": "rem_34405",
+      "jp": "全体攻撃 威力[B+] +  命中[80%] + 連撃率[+10%] + 【風属性】 + 禁呪暴走抑制",
+      "en": "All Attack Potency[B+] + Hit[80%] + Combo Rate[+10%] + 【Wind Attribute】 + Forbidden Spell Rampage Suppression",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6787,
+      "id": "rem_34406",
+      "jp": "【<src>】の禁呪[サイクロン]が猛烈な竜巻となる！",
+      "en": "【<src>】's forbidden spell [Cyclone] becomes a violent tornado!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6788,
+      "id": "rem_34407",
+      "jp": "CT回復(小) + 【仲間】に【攻撃++】を付与 (物理ダメージ[+40%])",
+      "en": "CT Recovery (Slight) + Grants 【Ally】 with 【Attack++】 (Physical Damage [+40%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6789,
+      "id": "rem_34408",
+      "jp": "【<src>】のウェポンブレスが武器に宿った！",
+      "en": "【<src>】's Weapon Breath imbues the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6790,
+      "id": "rem_34409",
+      "jp": "CT回復(中) + 【仲間】に【加速++】を付与 (ダブルアタック率[+100%])",
+      "en": "CT Recovery (Medium) + Grants 【Ally】 with 【Haste++】 (Double Attack Rate[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6791,
+      "id": "rem_34410",
+      "jp": "【<src>】のヘイストオールが仲間を加速する！",
+      "en": "【<src>】's Haste All speeds up the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6792,
+      "id": "rem_34411",
+      "jp": "HP回復(大) + MP回復(小) + CT消費増加",
+      "en": "HP Recovery (Large) + MP Recovery (Slight) + CT Consumption Increase",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6793,
+      "id": "rem_34412",
+      "jp": "【<src>】のマジックヒールが仲間を癒す！",
+      "en": "【<src>】's Magic Heal mends the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6794,
+      "id": "rem_34413",
+      "jp": "歴戦の戦術家が演出する、雷のアトラクション。謎のギミックが発動し、敵全体が感電してしまう。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A lightning attraction staged by a veteran tactician. A mysterious gimmick activates, shocking all enemies. While damage is low, the foes should be thrown into great confusion. Let's stack chases.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6795,
+      "id": "rem_34414",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【雷属性】 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "All Attack Potency[C+] + Hit[70%] + 【Thunder Attribute】 + Inflicts [Shock] (Crit Receive Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6796,
+      "id": "rem_34415",
+      "jp": "【<src>】の[感電地獄の計]！",
+      "en": "【<src>】's [Shock Hell Scheme]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6797,
+      "id": "rem_34416",
+      "jp": "CT回復(中) + MP回復(中) + 自分以外に効果",
+      "en": "CT Recovery (Medium) + MP Recovery (Medium) + Effects all except self",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6798,
+      "id": "rem_34417",
+      "jp": "【<src>】はメディケーションを使用した",
+      "en": "【<src>】 used Medication",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6799,
+      "id": "rem_34418",
+      "jp": "攻撃的な本能をたぎらせ暴れ回る、最強クラスの物理攻撃スキル。純粋な暴力により戦場を強引に制圧する。",
+      "en": "A top-tier physical attack skill that runs wild, stoking aggressive instincts. It forcibly dominates the battlefield through sheer violence.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6800,
+      "id": "rem_34419",
+      "jp": "グループ攻撃 威力[S] +  命中[70%] + 必殺率[+10%] + 【火属性】 + 防御貫通(小) + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group Attack Potency[S] + Hit[70%] + Crit Rate[+10%] + 【Fire Attribute】 + Defense Penetration (Slight) + Inflicts [Burn] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

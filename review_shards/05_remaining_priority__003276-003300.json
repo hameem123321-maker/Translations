@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3276,
+  "range_end": 3300,
+  "pairs": [
+    {
+      "n": 3276,
+      "id": "rem_30895",
+      "jp": "接客してアイテムを売った際、客への売価が【{0}%】アップ！",
+      "en": "When you sell an item to a customer, the selling price to them increases by 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3277,
+      "id": "rem_30896",
+      "jp": "【MP】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【MP】 parameter 【+{0}】 + further increases when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3278,
+      "id": "rem_30897",
+      "jp": "【LP】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【LP】 parameter 【+{0}】 + further increases when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3279,
+      "id": "rem_30898",
+      "jp": "【EP】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【EP】 parameter 【+{0}】 + further increases when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3280,
+      "id": "rem_30899",
+      "jp": "戦闘後、パーティー全員のHPが【+{0}%】回復！",
+      "en": "After battle, all party members recover 【+{0}%】 HP!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3281,
+      "id": "rem_30900",
+      "jp": "【戦技スキル】の効果が【+{0}%】",
+      "en": "【Martial Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3282,
+      "id": "rem_30901",
+      "jp": "【魔術スキル】の効果が【+{0}%】",
+      "en": "【Magic Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3283,
+      "id": "rem_30902",
+      "jp": "マップオブジェクトが増加し、全ての階に出現する",
+      "en": "Increased map objects, appear on all floors",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3284,
+      "id": "rem_30903",
+      "jp": "弱点を突いた際の攻撃力が【+{0}%】アップ！",
+      "en": "Weakness attack power increased by【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3285,
+      "id": "rem_30904",
+      "jp": "【魔防】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【M.Def】parameter【+{0}】 + further increase when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3286,
+      "id": "rem_30905",
+      "jp": "【騎士技スキル】の効果が【+{0}%】",
+      "en": "【Knight Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3287,
+      "id": "rem_30906",
+      "jp": "【行動力】の最大値が【+{0}】アップする",
+      "en": "Maximum【Action】increased by【+{0}】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3288,
+      "id": "rem_30907",
+      "jp": "【魔闘技スキル】の効果が【+{0}%】",
+      "en": "【Arcane Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3289,
+      "id": "rem_30908",
+      "jp": "【命中】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Accuracy】parameter【+{0}】 + further increase when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3290,
+      "id": "rem_30909",
+      "jp": "【神術スキル】の効果が【+{0}%】",
+      "en": "【Divine Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3291,
+      "id": "rem_30910",
+      "jp": "経験値がアップ（敵用スキル）",
+      "en": "EXP increased (Enemy skill)",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3292,
+      "id": "rem_30911",
+      "jp": "【獣王技スキル】の効果が【+{0}%】",
+      "en": "【Beast Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3293,
+      "id": "rem_30912",
+      "jp": "【聖闘技スキル】の効果が【+{0}%】",
+      "en": "【Holy Combat Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3294,
+      "id": "rem_30913",
+      "jp": "【勇者技スキル】の効果が【+{0}%】",
+      "en": "【Hero Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3295,
+      "id": "rem_30914",
+      "jp": "【英雄技スキル】の効果が【+{0}%】",
+      "en": "【Legendary Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3296,
+      "id": "rem_30915",
+      "jp": "【盗技スキル】の効果が【+{0}%】",
+      "en": "【Thief Skill】effect increased by【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3297,
+      "id": "rem_30916",
+      "jp": "【人間タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "Attack vs. 【Human-type】enemies【+{0}%】 + partial DEF penetration on type match",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3298,
+      "id": "rem_30917",
+      "jp": "【剣装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "Attack when【Equipping Sword】【+{0}】 + further increase when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3299,
+      "id": "rem_30918",
+      "jp": "【弓装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "Attack when【Equipping Bow】【+{0}】 + further increase when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3300,
+      "id": "rem_30919",
+      "jp": "【斧装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "Attack when【Equipping Axe】【+{0}】 + further increase when max enhanced",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    }
+  ]
+}

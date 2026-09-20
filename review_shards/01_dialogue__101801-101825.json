@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101801,
+  "range_end": 101825,
+  "pairs": [
+    {
+      "n": 101801,
+      "id": "db_EventInfo:120255:15",
+      "jp": "いやはは……まあ今回は、【『初心者の館』】の建造プロジェクトだね",
+      "en": "Ahaha... Well, this time it's the construction project for the 【'Novice Hall'】.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101802,
+      "id": "db_EventInfo:120256:1",
+      "jp": "【『初心者の館』】？",
+      "en": "The 【'Novice Hall'】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101803,
+      "id": "db_EventInfo:120257:15",
+      "jp": "うん。冒険者技能をマスターしたベテラン教官を常駐させ、初心者冒険者に最低限の技能を学ばせる大規模施設の予定らしいね",
+      "en": "Yeah. They plan to make it a big facility. Veteran instructors who've mastered adventurer skills will be there full-time. They'll teach beginner adventurers the minimum essential skills.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101804,
+      "id": "db_EventInfo:120258:15",
+      "jp": "訓練施設だけでなく、さらには冒険者の宿泊施設や、使い古した装備を初心者向けとして販売したり、クエストを発注する総合施設だ",
+      "en": "It's not just training facilities. It'll be a complex with lodging for adventurers, selling used gear to beginners, and posting quests too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101805,
+      "id": "db_EventInfo:120259:15",
+      "jp": "初心者冒険者は貧乏だ。だから館は無料で利用できるようにするそうだよ",
+      "en": "Beginner adventurers are poor. So I hear the hall will be free for them to use.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101806,
+      "id": "db_EventInfo:120260:2",
+      "jp": "……無料だと採算とれないデス",
+      "en": "...If it's free, they won't make any money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101807,
+      "id": "db_EventInfo:120261:15",
+      "jp": "館が無料なのは初心者冒険者の間のみ。経験を積んで、冒険者のランクが高まったら返金するという形だね",
+      "en": "The hall being free is only for beginner adventurers. After they gain experience and their rank goes up, they'll pay it back.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101808,
+      "id": "db_EventInfo:120262:1",
+      "jp": "出世払いってやつか",
+      "en": "Oh, pay after you succeed.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101809,
+      "id": "db_EventInfo:120263:15",
+      "jp": "そうだね。でもそれだけの施設を建築するには、かなりの資金が必要だから。【<pl>】君に出資して欲しいそうだね",
+      "en": "That's right. But building such a large facility needs a lot of funds. So they'd like 【<pl>】 to invest.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101810,
+      "id": "db_EventInfo:120264:2",
+      "jp": "ふむ……そういった施設があれば、多くの冒険者を育成できるデスけど",
+      "en": "Hmm... Having a facility like that could train a lot of adventurers though.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101811,
+      "id": "db_EventInfo:120265:2",
+      "jp": "ちょっと待つデス。宿泊施設や装備を売るとかって……【『初心者の舘』】、なんだかウチと被ってないデス？",
+      "en": "Wait a minute. Selling rooms and gear... This 'Beginner's Palace'... sounds a lot like it's stepping on our turf.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101812,
+      "id": "db_EventInfo:120266:2",
+      "jp": "ウチの客を奪うつもりデス！",
+      "en": "They're trying to steal our customers!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101813,
+      "id": "db_EventInfo:120267:15",
+      "jp": "いやあ？　あはは、そんなことないんじゃないかなぁ……！？",
+      "en": "Nah? Ahaha, I don't think it's like that...!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101814,
+      "id": "db_EventInfo:120268:2",
+      "jp": "ゆ、許せんデス、商売ガタキは叩き潰すデス！！",
+      "en": "I, I won't stand for it! I'll crush any business rivals!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101815,
+      "id": "db_EventInfo:120269:1",
+      "jp": "まあまあ……",
+      "en": "Now, now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101816,
+      "id": "db_EventInfo:120270:1",
+      "jp": "どちらにしろ大規模なプロジェクトのようだ。こういうことはハーヴェスタあたりに相談した方が良さそうだな",
+      "en": "Either way, it seems like a big project. We should probably consult Harvester about something like this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101817,
+      "id": "db_EventInfo:120271:0",
+      "jp": "デシルスから聞いていた【『初心者の舘』】プロジェクトについて、ハーヴェスタに相談してみた。",
+      "en": "I tried consulting Harvester about the 'Beginner's Palace' project I'd heard about from Desilus.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101818,
+      "id": "db_EventInfo:120273:5",
+      "jp": "話はすべて聞きましたわ。ここはたしかに、私の出番でございますわね！",
+      "en": "I've heard the whole story. This does seem like my time to shine!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101819,
+      "id": "db_EventInfo:120274:1",
+      "jp": "ああ、シイネの言う通り、うちと競合しそうな施設だし、どうしたものだか",
+      "en": "Yeah, like Shiine says, it seems like a facility that could compete with ours. What should we do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101820,
+      "id": "db_EventInfo:120275:5",
+      "jp": "簡単ですわ。乗っ取ってしまえば良いのです",
+      "en": "It's simple. We just take it over.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101821,
+      "id": "db_EventInfo:120276:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101822,
+      "id": "db_EventInfo:120277:5",
+      "jp": "おほほほ！　ギルド連盟のプロジェクトに馬鹿正直に出資してやる必要などございません",
+      "en": "Ohohoho! There's no need to play nice and fund the Guild League's project.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101823,
+      "id": "db_EventInfo:120278:5",
+      "jp": "私に資金を提供していただければ、それを元手に完璧な舘を建築して参りますわ！",
+      "en": "If you provide me with the funds, I'll use them as capital to build the perfect guild hall!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101824,
+      "id": "db_EventInfo:120279:1",
+      "jp": "おお……",
+      "en": "Oh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101825,
+      "id": "db_EventInfo:120280:0",
+      "jp": "なんだかよくわからないが。すごい自信だ……余裕が出来たら出資してみよう。",
+      "en": "I'm not totally sure what's going on, but... she's so confident. I'll try investing when I have some spare money.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

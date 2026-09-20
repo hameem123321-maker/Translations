@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 88851,
+  "range_end": 88875,
+  "pairs": [
+    {
+      "n": 88851,
+      "id": "db_EventInfo:104928:19",
+      "jp": "ま、気休めになるか分かんねぇけどさ。今日は付き合うぜ",
+      "en": "Well, I don't know if this'll help you feel better. But I'll keep you company today.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 88852,
+      "id": "db_EventInfo:104929:14",
+      "jp": "おう！　呑もうぜー！",
+      "en": "Alright! Let's get drinking!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 88853,
+      "id": "db_EventInfo:104930:1",
+      "jp": "男だらけなのが気になるが……",
+      "en": "I'm a little bothered it's all guys...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88854,
+      "id": "db_EventInfo:104931:1",
+      "jp": "ま、たまにはいいか",
+      "en": "Ah well, once in a while is fine.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88855,
+      "id": "db_EventInfo:104934:0",
+      "jp": "酒場の夜は更けていくのであった。",
+      "en": "The night at the tavern grew later and later.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88856,
+      "id": "db_EventInfo:104936:20",
+      "jp": "御主人様、少々よろしいでしょうか",
+      "en": "Master, do you have a moment?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88857,
+      "id": "db_EventInfo:104937:1",
+      "jp": "ん、どうしたんだい、ハヅキさん",
+      "en": "Hm? What is it, Hazuki?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88858,
+      "id": "db_EventInfo:104938:2",
+      "jp": "また【『最果ての修練場』】関係デス？",
+      "en": "Is this about [The Farthest Training Grounds] again?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88859,
+      "id": "db_EventInfo:104939:20",
+      "jp": "いえ。【『最果ての修練場』】の攻略は順調でございます",
+      "en": "No. Conquering [The Farthest Training Grounds] is proceeding smoothly.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88860,
+      "id": "db_EventInfo:104940:20",
+      "jp": "今回は御主人様に、半魔の里への融資をお願いしたいと思いまして",
+      "en": "This time, Master, I would like to request you provide funding for the half-demon village.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88861,
+      "id": "db_EventInfo:104941:1",
+      "jp": "半魔の里……？",
+      "en": "The half-demon village...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88862,
+      "id": "db_EventInfo:104942:20",
+      "jp": "ええ。元領主ゼルカの屋敷跡地を、より良い居住地にする為の融資でございます",
+      "en": "Yes. It is funding to turn the grounds of the former lord Zelka's mansion into a better place to live.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88863,
+      "id": "db_EventInfo:104943:2",
+      "jp": "コラー！　コイツの領地で何を勝手に建築してるデス！？",
+      "en": "Hey! What are you building on my land without permission!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88864,
+      "id": "db_EventInfo:104944:20",
+      "jp": "勝手ではありません。ゼルカの屋敷は、私どもの方で自由にしていいと、許可状もあります。ほら",
+      "en": "It's not without permission. We have a permit, look. It says we're free to do what we want with Zelka's mansion.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88865,
+      "id": "db_EventInfo:104945:2",
+      "jp": "うぐ、いつのまに……デス",
+      "en": "Ugh, when did that happen...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88866,
+      "id": "db_EventInfo:104946:20",
+      "jp": "まあまあ、これも庶民への公共事業ということで",
+      "en": "Now, now, think of it as public works for the common folk.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88867,
+      "id": "db_EventInfo:104947:20",
+      "jp": "御主人様をお慕いしております、半魔の者達も少なくありません",
+      "en": "Many half-demons adore our master, you know.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88868,
+      "id": "db_EventInfo:104948:20",
+      "jp": "シズハやクレハのような綺麗どころもございます。どうですか、完成の暁には皆で接待を――",
+      "en": "There are beauties like Shizuha and Kureha too. How about it? When it's finished, we could all entertain you...",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88869,
+      "id": "db_EventInfo:104949:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88870,
+      "id": "db_EventInfo:104950:2",
+      "jp": "やめろデス",
+      "en": "Stop it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88871,
+      "id": "db_EventInfo:104953:0",
+      "jp": "余裕を作って、投資してみよう。",
+      "en": "Take a deep breath and try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88872,
+      "id": "db_EventInfo:104955:20",
+      "jp": "投資の方ありがとうございました。これで半魔の里も潤います",
+      "en": "Thank you for the investment. This will help the half-demon village prosper.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88873,
+      "id": "db_EventInfo:104956:2",
+      "jp": "言い方が気になるデス",
+      "en": "I don't like how you said that.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88874,
+      "id": "db_EventInfo:104957:2",
+      "jp": "まさか、ウチのカネを使いまくって、豪勢な生活をしてるのではデス",
+      "en": "Don't tell me you're using my money to live a lavish lifestyle?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88875,
+      "id": "db_EventInfo:104958:20",
+      "jp": "ははは、まさかそんなことは――",
+      "en": "Hahaha, as if that would ever happen—",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

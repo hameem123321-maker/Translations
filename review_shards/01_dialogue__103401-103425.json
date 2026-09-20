@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 103401,
+  "range_end": 103425,
+  "pairs": [
+    {
+      "n": 103401,
+      "id": "db_EventInfo:122222:10",
+      "jp": "調べによると、【『ダムブナック林業組合』】の中にも【『邪教徒』】が混じっていたらしい",
+      "en": "According to the investigation, it seems 【『Cultists』】 had infiltrated the 【『Dumbnuck Forestry Union』】 as well.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103402,
+      "id": "db_EventInfo:122223:1",
+      "jp": "【『ダムブナック林業組合』】が【『邪教』】だったのか？",
+      "en": "Was the 【『Dumbnuck Forestry Union』】 itself the 【『Cult』】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103403,
+      "id": "db_EventInfo:122224:10",
+      "jp": "いや、そこは安心してくれ。【『ダムブナック林業組合』】自体は無関係だ",
+      "en": "No, you can rest easy about that. The 【『Dumbnuck Forestry Union』】 itself is unrelated.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103404,
+      "id": "db_EventInfo:122225:5",
+      "jp": "しかし、その運営資金の一部は、【『邪教徒』】に流れていたようです",
+      "en": "However, it appears some of its operational funds were flowing to the 【『Cultists』】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103405,
+      "id": "db_EventInfo:122226:5",
+      "jp": "現在、組合の内部に【『邪教徒』】の残党が混じっていないか調査させているところですわ",
+      "en": "Currently, we are having them investigate whether any remnants of the 【『Cultists』】 remain inside the union.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103406,
+      "id": "db_EventInfo:122227:1",
+      "jp": "【『邪教徒』】か……根絶できるといいんだが",
+      "en": "The 【『Cultists』】... I hope we can wipe them out.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103407,
+      "id": "db_EventInfo:122230:0",
+      "jp": "【『邪教徒』】の厄介さを思い知るのであった。",
+      "en": "I realized just how troublesome the 【『Cultists』】 are.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103408,
+      "id": "db_EventInfo:122232:10",
+      "jp": "【<pl>】殿、【『ダムブナック林業組合』】のことなんだが、ゼカリウスへの交易路の整備を提案されている",
+      "en": "Sir 【<pl>】, about the 【『Dumbnuck Forestry Union』】, there's a proposal to develop a trade route to Zecarius.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103409,
+      "id": "db_EventInfo:122233:1",
+      "jp": "交易路？",
+      "en": "A trade route?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103410,
+      "id": "db_EventInfo:122234:10",
+      "jp": "うむ、ダムブナックの村は森の奥にあってな。フレスミスがそうであったように交易路が整備されてない",
+      "en": "Indeed. The village of Dumbnuck is deep in the forest. Like Fresmise, it lacks a proper trade route.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103411,
+      "id": "db_EventInfo:122235:10",
+      "jp": "今まではベテランの運び手だけが村の外に資源を持ち出せていたのだが……",
+      "en": "Until now, only veteran haulers could move resources outside the village...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103412,
+      "id": "db_EventInfo:122236:10",
+      "jp": "そういった秘匿性が、【『邪教徒』】の根城にする余地にしていたと思うのだ",
+      "en": "That secrecy, I think it gave the 'Cultists' room to set up a base.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103413,
+      "id": "db_EventInfo:122237:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103414,
+      "id": "db_EventInfo:122238:10",
+      "jp": "具体的には、ダムブナックの森の外に、小さな村を建設して、村の施設を徐々に移動させるそうだ",
+      "en": "Specifically, they plan to build a small village outside Dumbnack Forest and gradually move the village's facilities there.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103415,
+      "id": "db_EventInfo:122239:1",
+      "jp": "なるほど、資金援助しないとな",
+      "en": "I see. We'll need to provide financial aid.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103416,
+      "id": "db_EventInfo:122242:0",
+      "jp": "予算の空きを見て、投資をしよう。",
+      "en": "I'll check the budget and make an investment.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103417,
+      "id": "db_EventInfo:122244:10",
+      "jp": "【<pl>】殿、【『ダムブナック林業組合』】に資金援助助かるぞ",
+      "en": "Lord 【<pl>】, your financial aid to the 'Dumbnack Forestry Association' is a big help.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103418,
+      "id": "db_EventInfo:122245:10",
+      "jp": "さっそく交易路を整備され、ダムブナックの森外の村が建設されているようだ",
+      "en": "They've already started preparing the trade route. It seems the village outside Dumbnack Forest is under construction.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103419,
+      "id": "db_EventInfo:122246:1",
+      "jp": "村が二つになるのか……大丈夫なのか？",
+      "en": "Two villages... is that going to be okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103420,
+      "id": "db_EventInfo:122247:5",
+      "jp": "もともと、ダムブナックの村の開発が進んで住民が増え、今の村では許容出来なくなってたのですわ",
+      "en": "Actually, development in Dumbnack Village was progressing, the population grew, and the current village can't hold them anymore.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103421,
+      "id": "db_EventInfo:122248:5",
+      "jp": "これからは外の村が主たる住居となり、古い村は木こり達の拠点になりそうですわね",
+      "en": "From now on, the new outer village will be the main residence. The old village will likely become the loggers' base.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 103422,
+      "id": "db_EventInfo:122249:1",
+      "jp": "なるほど。森林開拓が上手く進むといいな",
+      "en": "I see. I hope the forest development goes well.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103423,
+      "id": "db_EventInfo:122252:0",
+      "jp": "ダムブナックの森が開拓され、より高品質な森林資源が得られるようになった。",
+      "en": "We developed the Damnbnac forest. Now we can get better wood and other resources.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103424,
+      "id": "db_EventInfo:122254:10",
+      "jp": "ううむ、またもやダムブナックの森に、【『邪教徒』】の巣窟が生まれるとは……",
+      "en": "Hmm... The cultists have made another hideout in the Damnbnac forest...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103425,
+      "id": "db_EventInfo:122255:1",
+      "jp": "【『ダムブナック林業組合』】の中にも【『邪教徒』】が残っていたとか？",
+      "en": "Were there cultists still hiding in the Damnbnac Forestry Union?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

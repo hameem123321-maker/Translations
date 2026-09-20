@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95951,
+  "range_end": 95975,
+  "pairs": [
+    {
+      "n": 95951,
+      "id": "db_EventInfo:113351:11",
+      "jp": "そうね、衛兵さんがいてくれたら、安心できそう！",
+      "en": "Yes! Having the Guard here would make me feel safe!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 95952,
+      "id": "db_EventInfo:113352:17",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95953,
+      "id": "db_EventInfo:113353:2",
+      "jp": "デスデス",
+      "en": "Yes, yes, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95954,
+      "id": "db_EventInfo:113354:2",
+      "jp": "なにを遠慮しているデス？",
+      "en": "Why are you holding back, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95955,
+      "id": "db_EventInfo:113355:17",
+      "jp": "そうですね。さしあたり、【『ゴブリン』】も居ないようですし。お手伝いしましょう",
+      "en": "Right. For now, I don't see any Goblins around. Let me help you.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95956,
+      "id": "db_EventInfo:113356:2",
+      "jp": "やったデス",
+      "en": "We did it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95957,
+      "id": "db_EventInfo:113359:0",
+      "jp": "衛兵さんがスタッフになった！",
+      "en": "The guard became a staff member!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95958,
+      "id": "db_EventInfo:113361:17",
+      "jp": "店長さん。付近の村より、【『ゴブリン』】の群れを目撃したという情報が入りました",
+      "en": "Manager. We got news from a nearby village. They saw a horde of Goblins.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95959,
+      "id": "db_EventInfo:113362:17",
+      "jp": "近く……早ければ今夜にも、この宿が襲撃される恐れがあります",
+      "en": "Nearby... The inn could be attacked. Maybe even tonight.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95960,
+      "id": "db_EventInfo:113363:1",
+      "jp": "な、何だって！？",
+      "en": "W-what!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95961,
+      "id": "db_EventInfo:113364:17",
+      "jp": "どうやら【『メテトス百穴古墳』】を巣とする【『ゴブリン』】の集団のようです",
+      "en": "It seems to be a Goblin group. They live in the 'Metetos Hundred-Hole Ancient Tomb'.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95962,
+      "id": "db_EventInfo:113365:2",
+      "jp": "この地は冒険者が集う宿、こんな所を攻めるとは命知らずの【『ゴブリン』】デスね",
+      "en": "This place is an inn for adventurers. Goblins who attack here must have a death wish.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95963,
+      "id": "db_EventInfo:113366:17",
+      "jp": "ええ。この宿を攻めたことを後悔させてあげましょう",
+      "en": "Yes. Let's make them regret ever attacking this inn.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95964,
+      "id": "db_EventInfo:113368:17",
+      "jp": "店長さん。【『フレスミス森林道』】付近の村より、【『ゴブリン』】の群れを目撃したという情報が入りました",
+      "en": "Manager. We got news from a village near the 'Fresmis Forest Road'. They saw a horde of Goblins.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95965,
+      "id": "db_EventInfo:113369:17",
+      "jp": "近く……早ければ今夜にも、この宿が襲撃される恐れがあります",
+      "en": "Nearby... The inn could be attacked. Maybe even tonight.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95966,
+      "id": "db_EventInfo:113370:1",
+      "jp": "な、何だって！？",
+      "en": "W-what!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95967,
+      "id": "db_EventInfo:113371:2",
+      "jp": "この地は冒険者が集う宿、こんな所を攻めるとは命知らずの【『ゴブリン』】デスね",
+      "en": "This is an inn for adventurers. Only a foolhardy goblin would attack here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95968,
+      "id": "db_EventInfo:113372:17",
+      "jp": "ええ。この宿を攻めたことを後悔させてあげましょう",
+      "en": "Yes. Let's make them regret attacking this inn.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95969,
+      "id": "db_EventInfo:113374:17",
+      "jp": "店長さん。【『フレスミス森林道』】付近の村より、【『ゴブリン』】の群れを目撃したという情報が入りました",
+      "en": "Innkeeper. We got a report from a village near the Freshmiss Forest Road. A group of goblins was spotted.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95970,
+      "id": "db_EventInfo:113375:17",
+      "jp": "近く……早ければ今夜にも、この宿が襲撃される恐れがあります",
+      "en": "Soon... maybe even tonight, this inn could be attacked.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95971,
+      "id": "db_EventInfo:113376:1",
+      "jp": "な、何だって！？",
+      "en": "W-what?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95972,
+      "id": "db_EventInfo:113377:17",
+      "jp": "どうやら【『ドルワミール鉱山』】に現れた【『ゴブリン』】の残党のようです",
+      "en": "They seem to be goblins that survived from the Dolwamir Mine.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95973,
+      "id": "db_EventInfo:113378:2",
+      "jp": "討ち漏らしがあったデスね",
+      "en": "Some got away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95974,
+      "id": "db_EventInfo:113379:17",
+      "jp": "ええ。【『ゴブリン』】は根絶やしにしてあげましょう",
+      "en": "Yes. Let's wipe the goblins out for good.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 95975,
+      "id": "db_EventInfo:113381:17",
+      "jp": "店長さん。付近の漁村より、【『ゴブリン』】の群れを目撃したという情報が入りました",
+      "en": "Innkeeper. We got a report from a nearby fishing village. A group of goblins was spotted.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    }
+  ]
+}

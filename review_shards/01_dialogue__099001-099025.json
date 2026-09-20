@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99001,
+  "range_end": 99025,
+  "pairs": [
+    {
+      "n": 99001,
+      "id": "db_EventInfo:116848:0",
+      "jp": "俺達は有無を言わさず、【『異端審問官』】の調査に協力させられた。",
+      "en": "We were forced, no questions asked, to cooperate with the Inquisitor's investigation.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99002,
+      "id": "db_EventInfo:116851:1",
+      "jp": "ミルテが【『邪教徒』】……？　どういうことだ？",
+      "en": "Myrte is a heretic cultist...? What's going on?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99003,
+      "id": "db_EventInfo:116852:2",
+      "jp": "あれは領主ゼルカが【『魔界』】の穴を開こうとしたのが原因デス。それがなんでミルテに濡れ衣がかかってるデスか",
+      "en": "That's because Lord Zelka tried to open a [Demonic Realm] hole. So why is Myrte getting blamed for it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99004,
+      "id": "db_EventInfo:116853:9",
+      "jp": "しかし【『ジルド聖騎士団』】といえば、【『ゼカリウス』】の治安を守る立場にある法的機関だ",
+      "en": "But speaking of the [Zild Knight Order], they are the legal authority that maintains peace in [Zecarius].",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99005,
+      "id": "db_EventInfo:116854:9",
+      "jp": "我々がうかつに動けば不利になるであろう。今は様子を見るしかないであるな",
+      "en": "If we act carelessly, it could go badly for us. For now, all we can do is watch and wait.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99006,
+      "id": "db_EventInfo:116855:1",
+      "jp": "くそ……",
+      "en": "Dammit...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99007,
+      "id": "db_EventInfo:116856:0",
+      "jp": "★アナザービュー",
+      "en": "★ANOTHER VIEW",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99008,
+      "id": "db_EventInfo:116857:0",
+      "jp": "少し前の出来事……。",
+      "en": "An event from a short while ago...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99009,
+      "id": "db_EventInfo:116860:108",
+      "jp": "見つけたぞ……おそらくこれが【『災厄』】の原因となるモノじゃ",
+      "en": "I found it... This is likely the thing that is the source of the [Calamity].",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99010,
+      "id": "db_EventInfo:116861:12",
+      "jp": "【『ゼカリウス』】の地下に、そんな危険なモノが埋まっているなんて……",
+      "en": "That something so dangerous was buried beneath [Zecarius]...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99011,
+      "id": "db_EventInfo:116862:108",
+      "jp": "うむ。詳細はさらに調べる必要があるが、まずは【『死神』】どもに報せる必要があるじゃろう",
+      "en": "Indeed. I need to investigate the details further, but first, we must report this to the [Shinigami].",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99012,
+      "id": "db_EventInfo:116863:12",
+      "jp": "ええ。さっそく店長達を呼びに――",
+      "en": "Yes. I'll go call the shopkeepers right away--",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99013,
+      "id": "db_EventInfo:116867:101",
+      "jp": "ほほう、こんな所にいたのか……",
+      "en": "Well, well... so this is where you were...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99014,
+      "id": "db_EventInfo:116868:108",
+      "jp": "むむ……？　誰じゃ貴様は。乙女の領域に無断で入って来るのは感心しないな？",
+      "en": "Hmm...? And who are you? I don't appreciate a man barging into a lady's space without permission?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99015,
+      "id": "db_EventInfo:116869:107",
+      "jp": "異端の毒婦共に名乗る名はありません！",
+      "en": "You poisonous heretics don't deserve a name!",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99016,
+      "id": "db_EventInfo:116870:108",
+      "jp": "なに……？",
+      "en": "What...?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99017,
+      "id": "db_EventInfo:116871:108",
+      "jp": "まさか貴様、【『異端審問官』】か！？",
+      "en": "No way... are you an Inquisitor!?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99018,
+      "id": "db_EventInfo:116872:101",
+      "jp": "左様。なるほど、人間を惑わす【『魔女』】、己の罪を自認しているようだな",
+      "en": "Correct. I see. The 'witch' who deceives people, you seem to acknowledge your own guilt.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99019,
+      "id": "db_EventInfo:116873:12",
+      "jp": "【『異端審問官』】ですって！？　なんで、そんなヤツがこんなところに……！",
+      "en": "An Inquisitor!? Why is someone like that here...!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99020,
+      "id": "db_EventInfo:116874:101",
+      "jp": "貴様らには【『邪教』】に関わっている疑惑がある",
+      "en": "There is suspicion that you are involved with a heretical cult.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99021,
+      "id": "db_EventInfo:116875:12",
+      "jp": "ど、どういうことですか！？　説明しなさい！",
+      "en": "W-what does that mean!? Explain yourself!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99022,
+      "id": "db_EventInfo:116876:107",
+      "jp": "その必要はありません",
+      "en": "There's no need for that.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99023,
+      "id": "db_EventInfo:116877:107",
+      "jp": "黒将軍様、彼女らを連行してもよろしいでしょうか？",
+      "en": "Lord Black General, may we take them into custody?",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99024,
+      "id": "db_EventInfo:116878:101",
+      "jp": "うむ。後のことは任せたぞ",
+      "en": "Yes. I leave the rest to you.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99025,
+      "id": "db_EventInfo:116879:107",
+      "jp": "お任せください！",
+      "en": "Leave it to me!",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    }
+  ]
+}

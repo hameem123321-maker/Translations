@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10026,
+  "range_end": 10050,
+  "pairs": [
+    {
+      "n": 10026,
+      "id": "rem_37748",
+      "jp": "鍛冶系商品の売値+5%",
+      "en": "Smithing goods: +5% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10027,
+      "id": "rem_37749",
+      "jp": "料理系商品の売値+5%",
+      "en": "Cooking goods: +5% sell price",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10028,
+      "id": "rem_37750",
+      "jp": "パーティー全員のダメージ+2%",
+      "en": "All party damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10029,
+      "id": "rem_37751",
+      "jp": "開発ポイント貯蔵上限+50000",
+      "en": "Dev. Points cap +50,000",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10030,
+      "id": "rem_37752",
+      "jp": "修練場でのHP+50%",
+      "en": "Training ground HP +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10031,
+      "id": "rem_37753",
+      "jp": "魔術ダメージ軽減率+50%",
+      "en": "Magic damage reduction +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10032,
+      "id": "rem_37754",
+      "jp": "すべてのダメージ軽減率+20%",
+      "en": "All damage reduction +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10033,
+      "id": "rem_37755",
+      "jp": "料理レシピランク+1",
+      "en": "Cooking recipe rank +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10034,
+      "id": "rem_37756",
+      "jp": "鍛冶レシピランク+1",
+      "en": "Smithing recipe rank +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10035,
+      "id": "rem_37757",
+      "jp": "錬金レシピランク+1",
+      "en": "Alchemy recipe rank +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10036,
+      "id": "rem_37758",
+      "jp": "すべてのダメージ軽減率+30% + 死属性耐性",
+      "en": "All damage reduction +30% & Death resistance",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10037,
+      "id": "rem_37759",
+      "jp": "聖+闇属性ダメージを無効化+80%",
+      "en": "Holy & Dark damage nullify +80%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10038,
+      "id": "rem_37760",
+      "jp": "物理攻撃ダメージを無効化+30%",
+      "en": "Phys. attack nullify +30%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10039,
+      "id": "rem_37761",
+      "jp": "魔術攻撃ダメージを無効化+50%",
+      "en": "Magic attack nullify +50%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10040,
+      "id": "rem_37762",
+      "jp": "トラップで敵の攻撃を妨害+10%",
+      "en": "Traps disrupt enemy atk +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10041,
+      "id": "rem_37763",
+      "jp": "トラップで敵の攻撃を妨害+20%",
+      "en": "Traps disrupt enemy attack +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10042,
+      "id": "rem_37764",
+      "jp": "武器で敵の攻撃を妨害+10%",
+      "en": "Weapons disrupt enemy attack +10%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10043,
+      "id": "rem_37765",
+      "jp": "武器で敵の攻撃を妨害+20%",
+      "en": "Weapons disrupt enemy attack +20%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10044,
+      "id": "rem_37766",
+      "jp": "開発ポイント貯蔵上限+5000000",
+      "en": "Dev. point storage limit +5,000,000",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10045,
+      "id": "rem_37767",
+      "jp": "贅沢品タイプの売値+25%",
+      "en": "Luxury item sell price +25%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10046,
+      "id": "rem_37768",
+      "jp": "戦闘不能時に自動復活+60%",
+      "en": "Auto-revive when KO'd +60%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10047,
+      "id": "rem_37769",
+      "jp": "速度+1",
+      "en": "Speed +1",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10048,
+      "id": "rem_37770",
+      "jp": "ダブルアタック率+2%",
+      "en": "Double Attack rate +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10049,
+      "id": "rem_37771",
+      "jp": "クリティカル率+1%",
+      "en": "Critical rate +1%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10050,
+      "id": "rem_37772",
+      "jp": "すべての攻撃ダメージ+2%",
+      "en": "All attack damage +2%",
+      "table": "db_DefineValueIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

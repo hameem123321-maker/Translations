@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5351,
+  "range_end": 5375,
+  "pairs": [
+    {
+      "n": 5351,
+      "id": "rem_32970",
+      "jp": "『アンジュ』のＬＶが【30】以上",
+      "en": "Anju's Lv is【30】or above",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5352,
+      "id": "rem_32971",
+      "jp": "アンジュの軌跡デス３",
+      "en": "Anju's Death Trajectory 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5353,
+      "id": "rem_32972",
+      "jp": "『アンジュ』のＬＶが【40】以上",
+      "en": "Anju's Lv is【40】or above",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5354,
+      "id": "rem_32973",
+      "jp": "アンジュの軌跡デス４",
+      "en": "Anju's Death Trajectory 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5355,
+      "id": "rem_32974",
+      "jp": "『アンジュ』のＬＶが【65】以上",
+      "en": "Anju's Lv is【65】or above",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5356,
+      "id": "rem_32975",
+      "jp": "アンジュの軌跡デス５",
+      "en": "Anju's Death Trajectory 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5357,
+      "id": "rem_32976",
+      "jp": "『アンジュ』のＬＶが【85】以上",
+      "en": "Anju's Lv is【85】or above",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5358,
+      "id": "rem_32977",
+      "jp": "アンジュの軌跡デス６",
+      "en": "Anju's Death Trajectory 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5359,
+      "id": "rem_32978",
+      "jp": "『アンジュ』のＬＶが【110】以上",
+      "en": "Anju's Lv is【110】or above",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5360,
+      "id": "rem_32979",
+      "jp": "アンジュの軌跡デス７",
+      "en": "Anju's Death Trajectory 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5361,
+      "id": "rem_32980",
+      "jp": "『アンジュ』のＬＶが【130】以上",
+      "en": "Anju's Lv. is at least 【130】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5362,
+      "id": "rem_32981",
+      "jp": "アンジュの軌跡デス８",
+      "en": "Anju's Trail Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5363,
+      "id": "rem_32982",
+      "jp": "『アンジュ』のＬＶが【150】以上",
+      "en": "Anju's Lv. is at least 【150】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5364,
+      "id": "rem_32983",
+      "jp": "アンジュの軌跡デス９",
+      "en": "Anju's Trail Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5365,
+      "id": "rem_32984",
+      "jp": "『アンジュ』のＬＶが【170】以上",
+      "en": "Anju's Lv. is at least 【170】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5366,
+      "id": "rem_32985",
+      "jp": "アンジュの軌跡デス１０",
+      "en": "Anju's Trail Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5367,
+      "id": "rem_32986",
+      "jp": "『アンジュ』のＬＶが【200】以上",
+      "en": "Anju's Lv. is at least 【200】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5368,
+      "id": "rem_32987",
+      "jp": "アンジュの軌跡デス１１",
+      "en": "Anju's Trail Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5369,
+      "id": "rem_32988",
+      "jp": "『アンジュ』のＬＶが【240】以上",
+      "en": "Anju's Lv. is at least 【240】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5370,
+      "id": "rem_32989",
+      "jp": "アンジュの軌跡デス１２",
+      "en": "Anju's Trail Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5371,
+      "id": "rem_32990",
+      "jp": "『アンジュ』のＬＶが【270】以上",
+      "en": "Anju's Lv. is at least 【270】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5372,
+      "id": "rem_32991",
+      "jp": "アンジュの軌跡デス１３",
+      "en": "Anju's Trail Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5373,
+      "id": "rem_32992",
+      "jp": "『アンジュ』のＬＶが【300】以上",
+      "en": "Anju's Lv. is at least 【300】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5374,
+      "id": "rem_32993",
+      "jp": "アンジュの軌跡デス１４",
+      "en": "Anju's Trail Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5375,
+      "id": "rem_32994",
+      "jp": "『アンジュ』のＬＶが【350】以上",
+      "en": "Anju's Lv. is at least 【350】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

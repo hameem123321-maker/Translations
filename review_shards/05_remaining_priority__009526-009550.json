@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9526,
+  "range_end": 9550,
+  "pairs": [
+    {
+      "n": 9526,
+      "id": "rem_37248",
+      "jp": "食べると体がムズムズするカップケーキ。魔界由来のハーブを使っているらしいが、現状人体に深刻な影響を及ぼすものではない。らしい……。",
+      "en": "A cupcake that makes your body tingle. Made with underworld herbs, currently with no serious effects on humans. Probably...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9527,
+      "id": "rem_37249",
+      "jp": "魔界カップケーキ",
+      "en": "Underworld Cupcake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9528,
+      "id": "rem_37250",
+      "jp": "魔界で取れた果実を生地に混ぜて焼き上げたお手軽スイーツ。サクサクの食感とトロリと甘いチョコレートは広く一般に受け入れられている。",
+      "en": "An easy treat baked with underworld fruits. Its crisp texture and rich chocolate are widely popular.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9529,
+      "id": "rem_37251",
+      "jp": "森のチョコチップクッキー",
+      "en": "Forest Chocolate Chip Cookie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9530,
+      "id": "rem_37252",
+      "jp": "ゼカリウスでは珍しい魔界果実と濃厚チョコレートを利用したケーキ。魔界の『淫魔』も好む人気スイーツ。",
+      "en": "A rare cake in Zecarius using underworld fruits and rich chocolate. A popular dessert even with underworld 'Succubi'.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9531,
+      "id": "rem_37253",
+      "jp": "フルーツチョコケーキ",
+      "en": "Fruit Chocolate Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9532,
+      "id": "rem_37254",
+      "jp": "テリブルな色彩を放つ柔らかい氷結クリーム。舌の上で上品な甘さを放ち、吸い込まれるように消える甘さで、広く魔界料理を知らしめた。",
+      "en": "Soft frozen cream with a terrible color. Elegantly sweet, it melts away, introducing many to underworld cuisine.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9533,
+      "id": "rem_37255",
+      "jp": "ブラッドベリークリーム",
+      "en": "Bloodberry Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9534,
+      "id": "rem_37256",
+      "jp": "食べると少し幸運が宿るとも言われる、魔界貴族御用達スイーツ。材料の果実を巡り、土地の所有権を巡った争いがあったとか。",
+      "en": "A dessert for underworld nobility said to bring a bit of luck. The fruit's source led to land disputes.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9535,
+      "id": "rem_37257",
+      "jp": "天上果実のロイヤルゼリー",
+      "en": "Royal Jelly of Celestial Fruit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9536,
+      "id": "rem_37258",
+      "jp": "滑らかで冷たい刺激が走る、魔界発の清涼系ジェラート。アイスドラゴンのくしゃみを元に考案されたという魔界お伽噺があるほど浸透した魔界スイーツ。",
+      "en": "A smooth, cool gelato from the underworld. So ingrained that tales say it was inspired by an Ice Dragon's sneeze.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9537,
+      "id": "rem_37259",
+      "jp": "氷晶クリスタルジェラート",
+      "en": "Ice Crystal Gelato",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9538,
+      "id": "rem_37260",
+      "jp": "強力な思念を注ぎ込んで作るふわふわアイスクリーム。何かを訴えかけるような気配を感じる。",
+      "en": "A fluffy ice cream made with intense emotion. You can feel it trying to say something.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9539,
+      "id": "rem_37261",
+      "jp": "ゴーストミルクアイス",
+      "en": "Ghost Milk Ice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9540,
+      "id": "rem_37262",
+      "jp": "魔界果実を練り込んだチョコレートソースをかけたドーナツ。甘酸っぱさと甘さが調和した人気スイーツ。",
+      "en": "A donut topped with chocolate sauce infused with underworld fruits. A popular blend of sweet and tart.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9541,
+      "id": "rem_37263",
+      "jp": "カラフルドーナツ",
+      "en": "Colorful Donut",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9542,
+      "id": "rem_37264",
+      "jp": "泡のように細かく繊細な生地をふんわりと焼き上げたカップケーキ。魔界のベリーをあしらった緑のケーキは怪しい魅力を感じさせる。",
+      "en": "A fluffy baked cupcake with a delicate, airy texture. The green cake, adorned with demon world berries, exudes a strange allure.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9543,
+      "id": "rem_37265",
+      "jp": "ベリーカップケーキ",
+      "en": "Berry Cupcake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9544,
+      "id": "rem_37266",
+      "jp": "床から数センチだけ浮く魔法ホウキ。掃除はできるがたまに暴走する。魔術に疎い職人が練習用に作るアイテムの代表例。",
+      "en": "A magical broom that floats a few centimeters off the floor. It can clean, but occasionally runs amok. A typical practice item made by magic-unfamiliar craftsmen.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9545,
+      "id": "rem_37267",
+      "jp": "ちょっと浮くホウキ",
+      "en": "Slightly Floating Broom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9546,
+      "id": "rem_37268",
+      "jp": "ペンを入れると延々クルクル回転する。書く時は取りづらい。かき混ぜる必要がある料理に使えばいいと思うのだが。",
+      "en": "A pen placed inside will spin endlessly. It's hard to take out for writing. It would be good for stirring dishes that need it, I suppose.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9547,
+      "id": "rem_37269",
+      "jp": "自動で回り続けるペン立て",
+      "en": "Automatic Spinning Pen Holder",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9548,
+      "id": "rem_37270",
+      "jp": "熱い飲み物は冷たくなり、冷たい物が沸騰するまで熱くなる迷惑アイテム。適切な温度になったタイミングで他の容器に移すのが得策。",
+      "en": "A troublesome item that cools hot drinks and heats cold ones to a boil. Best to transfer to another container at the right temperature.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9549,
+      "id": "rem_37271",
+      "jp": "温度循環マグカップ",
+      "en": "Temperature Cycle Mug",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9550,
+      "id": "rem_37272",
+      "jp": "この上に置いた容器の液体が数％だけ蒸発する。長らく使用用途に悩まれていたが、芳香剤の開発で重要アイテムとなった。",
+      "en": "Liquid in a container placed on this evaporates by a few percent. Long puzzled over for use, it became key in developing air fresheners.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

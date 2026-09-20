@@ -1,0 +1,208 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 98551,
+  "range_end": 98575,
+  "pairs": [
+    {
+      "n": 98551,
+      "id": "db_EventInfo:116342:9",
+      "jp": "なるほど。たしかに領主は【『災厄の先導者』】であるのは間違いないが、そいつが捕らえられても【『災厄』】は止まらない",
+      "en": "I see. The lord is definitely the 'Harbinger of Calamity', but even if they are caught, the 'Calamity' won't stop.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98552,
+      "id": "db_EventInfo:116343:9",
+      "jp": "簡単なことではないか……【『災厄の先導者』】は一人ではないということだ",
+      "en": "Isn't it simple?... It means there isn't just one 'Harbinger of Calamity'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98553,
+      "id": "db_EventInfo:116344:2",
+      "jp": "なんだとデス！？",
+      "en": "What did you say desu!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98554,
+      "id": "db_EventInfo:116345:1",
+      "jp": "たしかに、【『災厄』】の原因が一つだけとは限らないな",
+      "en": "That's true. The cause of the 'Calamity' might not be the only one.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98555,
+      "id": "db_EventInfo:116346:8",
+      "jp": "現に、こないだはカリストが作った【『レシピ』】が元の病気で、【『ゼカリウス』】が壊滅しかけたんだからね",
+      "en": "In fact, last time, the disease came from a 'Recipe' Callisto made. 'Zecarius' was almost wiped out.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98556,
+      "id": "db_EventInfo:116347:9",
+      "jp": "わはは",
+      "en": "Wahaha.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98557,
+      "id": "db_EventInfo:116348:1",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98558,
+      "id": "db_EventInfo:116349:3",
+      "jp": "【『災厄』】を起こすモノが、他にもあるということじゃな",
+      "en": "So, there are other things that can cause the 'Calamity'.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 98559,
+      "id": "db_EventInfo:116350:6",
+      "jp": "それでは、私達が領主様を止めたのは、意味が無かったことでしょうか？",
+      "en": "So, does that mean we didn't need to stop the lord?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 98560,
+      "id": "db_EventInfo:116351:9",
+      "jp": "それはないな。あのまま放置すれば、ヤツは【『奈落』】を開き、世界を【『魔界』】に変えていたであろう",
+      "en": "No, it does not. If we left him alone, he would have opened the 'Abyss' and turned the world into a 'Demon Realm'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98561,
+      "id": "db_EventInfo:116352:9",
+      "jp": "それとひとつ、気がかりがあるのだ",
+      "en": "That's not all. There's one more thing that bothers me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98562,
+      "id": "db_EventInfo:116353:8",
+      "jp": "【なぜ領主はレシピを解読できたか】だよね",
+      "en": "It's about 'why the lord could read the recipe', right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98563,
+      "id": "db_EventInfo:116354:8",
+      "jp": "カリストの【『レシピ』】は高度な暗号化がされている。これを読めるのは【『ウィルチ』】のみなのに",
+      "en": "Callisto's 'Recipes' have strong codes. Only the 'Wiltchi' can read them.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98564,
+      "id": "db_EventInfo:116355:9",
+      "jp": "うむ、だからヤツは私を誘拐し、【『レシピ』】を解読させようとしたのだ",
+      "en": "Yes. So, he tried to kidnap me and make me read the 'Recipe' for him.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98565,
+      "id": "db_EventInfo:116356:1",
+      "jp": "しかし、見た感じ、途中からカリストは不要みたいな態度になってたな",
+      "en": "But looking back, it seemed like at some point he stopped caring about having you around.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98566,
+      "id": "db_EventInfo:116357:9",
+      "jp": "うむ……",
+      "en": "Yes...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98567,
+      "id": "db_EventInfo:116358:3",
+      "jp": "その【『レシピ』】だが、本当にオヌシしか読めないのか？　<ruby=わらわ>妾</ruby>も見たが、特別な魔術で封印されているわけではなかったぞ？",
+      "en": "About that 'Recipe'. Are you really the only one who can read it? I saw it too. It's not sealed with any special magic.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 98568,
+      "id": "db_EventInfo:116359:3",
+      "jp": "そうじゃな……<ruby=カリスト>オヌシ</ruby>並の【『天才』】がいれば、解読は可能ではないのか？",
+      "en": "That's right. If there was another 'genius' like you, Callisto, maybe they could read it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 98569,
+      "id": "db_EventInfo:116360:9",
+      "jp": "我々【『ウィルチ』】に匹敵する【『天才』】か……たしかにそれなら……",
+      "en": "A 'genius' who can match us 'Wiltchi'... Yes, that could...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98570,
+      "id": "db_EventInfo:116363:9",
+      "jp": "あっ",
+      "en": "Oh!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98571,
+      "id": "db_EventInfo:116364:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98572,
+      "id": "db_EventInfo:116366:9",
+      "jp": "いや、アイツは、いやまさか……ううむ……",
+      "en": "No, that guy... no, it can't be... hmm...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98573,
+      "id": "db_EventInfo:116367:1",
+      "jp": "ど、どうしたカリスト？",
+      "en": "W-what's wrong, Callisto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98574,
+      "id": "db_EventInfo:116368:9",
+      "jp": "心当たりがある。しかし、そのためには時間が必要だ",
+      "en": "I have a hunch. But I'll need some time for it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98575,
+      "id": "db_EventInfo:116369:9",
+      "jp": "店長殿、しばし時間をくれ。【『災厄の先導者』】の手がかりを集める為、道しるべを呼び寄せよう",
+      "en": "Boss, give me a moment. I'll call for a guide to help gather clues about the 'Guide of Calamity'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

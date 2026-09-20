@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4101,
+  "range_end": 4125,
+  "pairs": [
+    {
+      "n": 4101,
+      "id": "rem_31720",
+      "jp": "暗殺",
+      "en": "Assassinate",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4102,
+      "id": "rem_31721",
+      "jp": "【<dst>】は気配を消した！",
+      "en": "【<dst>】vanished!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4103,
+      "id": "rem_31722",
+      "jp": "【<dst>】の隠密効果が元に戻った……",
+      "en": "【<dst>】's stealth wore off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4104,
+      "id": "rem_31723",
+      "jp": "クリティカル率+100% + 弱点へのダメージ+20%",
+      "en": "Crit Rate +100% + Weakness DMG +20%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4105,
+      "id": "rem_31724",
+      "jp": "暗殺++",
+      "en": "Assassinate++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4106,
+      "id": "rem_31725",
+      "jp": "被ターゲット率+1000%",
+      "en": "Taunt Rate +1000%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4107,
+      "id": "rem_31726",
+      "jp": "【<dst>】は敵を挑発状態に入った！",
+      "en": "【<dst>】taunted the enemy!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4108,
+      "id": "rem_31727",
+      "jp": "【<dst>】は相手にされなくなった……",
+      "en": "【<dst>】is no longer targeted...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4109,
+      "id": "rem_31728",
+      "jp": "最大HPの20%を超える攻撃を軽減+50%",
+      "en": "Reduce DMG >20% Max HP by 50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4110,
+      "id": "rem_31729",
+      "jp": "【<dst>】に守護が与えられた！",
+      "en": "【<dst>】was protected!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4111,
+      "id": "rem_31730",
+      "jp": "【<dst>】の大盾効果が消えた……",
+      "en": "【<dst>】's Great Shield ended...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4112,
+      "id": "rem_31731",
+      "jp": "大盾",
+      "en": "Great Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4113,
+      "id": "rem_31732",
+      "jp": "【<dst>】の前に魔力の盾が張られた！",
+      "en": "A magic shield appeared before 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4114,
+      "id": "rem_31733",
+      "jp": "【<dst>】の魔盾効果が消えた……",
+      "en": "【<dst>】's Magic Shield ended...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4115,
+      "id": "rem_31734",
+      "jp": "魔盾",
+      "en": "Magic Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4116,
+      "id": "rem_31735",
+      "jp": "最大HPの20%を超える攻撃を軽減+70%",
+      "en": "Reduce DMG >20% Max HP by 70%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4117,
+      "id": "rem_31736",
+      "jp": "【<dst>】の前に聖盾が張られた！",
+      "en": "A holy shield appeared before 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4118,
+      "id": "rem_31737",
+      "jp": "【<dst>】の聖盾が消滅した……",
+      "en": "【<dst>】's Holy Shield vanished...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4119,
+      "id": "rem_31738",
+      "jp": "聖盾",
+      "en": "Holy Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4120,
+      "id": "rem_31739",
+      "jp": "最大HPの20%を超える攻撃を軽減+90%",
+      "en": "Reduce DMG >20% Max HP by 90%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4121,
+      "id": "rem_31740",
+      "jp": "【<dst>】に死神バリアが張られた！",
+      "en": "【<dst>】has a Shinigami Barrier!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4122,
+      "id": "rem_31741",
+      "jp": "【<dst>】の死神バリアが消えた……",
+      "en": "【<dst>】's Shinigami Barrier is gone...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4123,
+      "id": "rem_31742",
+      "jp": "神盾",
+      "en": "Divine Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4124,
+      "id": "rem_31743",
+      "jp": "【<dst>】は見切りバリアを張った！",
+      "en": "【<dst>】raised an Insight Barrier!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4125,
+      "id": "rem_31744",
+      "jp": "【<dst>】は見切れなくなった……",
+      "en": "【<dst>】can no longer see through...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

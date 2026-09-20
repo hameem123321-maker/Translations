@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12801,
+  "range_end": 12825,
+  "pairs": [
+    {
+      "n": 12801,
+      "id": "rem_43888",
+      "jp": "怪魚も釣れる針",
+      "en": "Hook for Fishing Monsters",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12802,
+      "id": "rem_43889",
+      "jp": "鍛冶姫アンジュ監修のスーパーな金床。自分で道具を修理できるマニュアルつきで、見習い鍛冶職人も一流になれるという触れ込み。",
+      "en": "A super anvil endorsed by Forging Princess Anju. Comes with a manual for self-repair, allowing apprentice smiths to become masters.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12803,
+      "id": "rem_43890",
+      "jp": "鍛冶姫監修スーパー金床",
+      "en": "Forging Princess Super Anvil",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12804,
+      "id": "rem_43891",
+      "jp": "東国で発展した計算装置で、とある宗教の信者が見出した。カネを数えやすくなると評判で、信者が求めているらしい。どこの教徒用なのかは不明。",
+      "en": "A calculating tool from the East, discovered by a certain sect's followers. Valued for easy money counting, popular among them. Its specific sect is unknown.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12805,
+      "id": "rem_43892",
+      "jp": "教徒のためのそろばん",
+      "en": "Abacus for Believers",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12806,
+      "id": "rem_43893",
+      "jp": "物を隙間なく接着する為の、魔力を帯びた万能テープ。巨大な船の亀裂も、これで塞ぐだけで元通りに航行が可能になるとの評判。一度割れた船に乗りたいとは思わないが……。",
+      "en": "Enchanted, all-purpose tape for seamless adhesion. Rumored to let giant ships sail perfectly after sealing cracks. Not that you'd want to sail a broken ship...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12807,
+      "id": "rem_43894",
+      "jp": "魔法の万能テープ",
+      "en": "Magic All-Purpose Tape",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12808,
+      "id": "rem_43895",
+      "jp": "海の交通が増えたのを契機に、海の魔獣用装備として考案された冒険者用の投擲槍。投げても戻ってくる機構が搭載されている。",
+      "en": "An adventurer's throwing spear for sea monsters, designed as maritime traffic grew. Features a return mechanism.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12809,
+      "id": "rem_43896",
+      "jp": "海戦向けのトライデント",
+      "en": "Marine Combat Trident",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12810,
+      "id": "rem_43897",
+      "jp": "聖都の神官向けの装備。砕かれた岩はもはや岩ではなく、砕石や釘打ちにも振るわれ、拠点開拓にも使える。",
+      "en": "Equipment for the Holy Capital's priests. Broken stones become gravel or nails, useful for settlement development.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12811,
+      "id": "rem_43898",
+      "jp": "聖なるバトルハンマー",
+      "en": "Sacred Warhammer",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12812,
+      "id": "rem_43899",
+      "jp": "平和になった世界で、旅を志す初心者向けの快適マジックマント。装備の損耗を防ぎ、快適な温度を保ち、獣除け効果も併せ持つ。快適過ぎて歩くだけの旅になりがち。",
+      "en": "A comfy magic cloak for novice travelers in a peaceful world. Reduces wear, maintains temperature, and repels beasts. Often leads to walking-only journeys.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12813,
+      "id": "rem_43900",
+      "jp": "遠き旅のマジックマント",
+      "en": "Magic Cloak for Long Journeys",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12814,
+      "id": "rem_43901",
+      "jp": "腕力を倍増させる、汎用性重視の装備。本人次第で倒木や大岩の撤去も可能で、工事業者にも求められている。",
+      "en": "Versatile equipment that doubles strength. Useful for felling trees or moving boulders, popular with construction workers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12815,
+      "id": "rem_43902",
+      "jp": "怪力のガントレット",
+      "en": "Gauntlets of Great Strength",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12816,
+      "id": "rem_43903",
+      "jp": "聖都セグルメットを中心に流行している高級服。ネルディーネが流行らせようとしていたようだが、近年では経済的に豊かなゼカリウスでも流行の兆し。",
+      "en": "High-fashion popular in Holy City Segulmet. Neldine tried to spread it, and it's trending in prosperous Zecarius.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12817,
+      "id": "rem_43904",
+      "jp": "都会的デザインの高級服",
+      "en": "Urban-Design High-End Clothes",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12818,
+      "id": "rem_43905",
+      "jp": "着ると素速くなり、防御力も兼ね備えた、なぞのパワーを持つメイド服。一体誰が開発しているのか。",
+      "en": "A mysterious maid outfit that boosts speed and defense. Who could have developed it?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12819,
+      "id": "rem_43906",
+      "jp": "秘密のブランドメイド服",
+      "en": "Secret Brand Maid Outfit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12820,
+      "id": "rem_43907",
+      "jp": "内部に仕込まれた薬品によって、一発で目が覚める時限式煙幕爆弾。仕事人だけでなく冒険者にも愛用される。",
+      "en": "A timed smoke bomb with an internal agent for instant wakefulness. Favored by agents and adventurers alike.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12821,
+      "id": "rem_43908",
+      "jp": "仕事用めざまし爆弾",
+      "en": "Work Wake-up Bomb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12822,
+      "id": "rem_43909",
+      "jp": "薬剤を効率的に散布する為の医療用爆弾。過酷な戦場でもこれを爆裂させる事で多くの命を救えるとの触れ込み。",
+      "en": "A medical bomb for efficient drug dispersal. Promoted as saving many lives when detonated, even on harsh battlefields.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12823,
+      "id": "rem_43910",
+      "jp": "医療用マジックニトロ",
+      "en": "Medical Magic Nitro",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12824,
+      "id": "rem_43911",
+      "jp": "幸運を授かるという希少なウサギの耳を模したヘアバンド。装着者に幸運をもたらすという噂がまことしやかに流れている。",
+      "en": "A hairband modeled after the ears of a rare rabbit said to grant luck. Rumors of it bringing fortune circulate as truth.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12825,
+      "id": "rem_43912",
+      "jp": "幸運のバニーハット",
+      "en": "Lucky Bunny Hat",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

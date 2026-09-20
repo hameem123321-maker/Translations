@@ -1,0 +1,208 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12651,
+  "range_end": 12675,
+  "pairs": [
+    {
+      "n": 12651,
+      "id": "rem_40412",
+      "jp": "若き日の領主が、傭兵団を率いて、王都の騎士、リンドリエルを凌辱するスピンオフですぞ！",
+      "en": "Spin-off: The young lord, leading a mercenary band, violates the knight Rindorieru of the royal capital!",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12652,
+      "id": "rem_40413",
+      "jp": "冒険ロマン外伝・リンドリエル編",
+      "en": "Adventure Romance: Rindorieru's Tale",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12653,
+      "id": "rem_40414",
+      "jp": "ついに革命を起こされた領主が、貴族令嬢エレオノーラを強姦するシリーズクライマックスですぞ！",
+      "en": "Volume 5: The climax! The lord, with revolution at hand, rapes the noble daughter Ereonora!",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12654,
+      "id": "rem_40415",
+      "jp": "冒険ロマン五章・エレオノーラ編",
+      "en": "Adventure Romance: Ereonora's Tale",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12655,
+      "id": "rem_40416",
+      "jp": "王都を脱出した悪逆の領主が、伝説の淫魔を呼び出すシリーズ完結編ですぞ！",
+      "en": "Final Volume: The wicked lord, having fled the capital, summons a legendary succubus!",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12656,
+      "id": "rem_40417",
+      "jp": "冒険ロマン最終章・メローザ編",
+      "en": "Adventure Romance: Meroza's Tale",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12657,
+      "id": "rem_40418",
+      "jp": "ゼカリウス近辺から山地に続く、森を切り開いた道。昔はドワーム族との取引に用いられていたが、暴風雨による災害により遮断されていた。最近は交易路開通を求める人間を狙う野盗が出没している。",
+      "en": "A path cut through the woods leading from near Zecarius into the mountains. Once used for trade with the Dwarm tribe, it was cut off by storm damage. Bandits now target those seeking to reopen the trade route.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12658,
+      "id": "rem_40419",
+      "jp": "ドワーム族が所有する鉱山。友好の証として人間たちにも一部は解放されており、労働力としての働き口になっていた。奥にある火の神カストロイアを信仰する聖地は人間に解放されてない。",
+      "en": "A mine owned by the Dwarm tribe. Partially opened to humans as a token of friendship, providing work. The inner sanctuary dedicated to the fire god Castroia is off-limits to humans.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12659,
+      "id": "rem_40420",
+      "jp": "古来より漁師達の海上の安全をサポートしてきた大灯台。古代の要塞を改造して作られたというこの灯台は、最近になって魔物の巣窟になっており、海上交易をさまたげている。",
+      "en": "A great lighthouse long safeguarding fishermen. Built from a remodeled ancient fortress, it has recently become a monster nest, hindering sea trade.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12660,
+      "id": "rem_40421",
+      "jp": "地方領主が所有する地下施設。彼の屋敷は古代の遺跡を改造したものらしく、その深奥は彼にしか分からない。地下図書館は古代の遺物であり、多くの叡智が眠っているが、発掘は禁止されていた。",
+      "en": "An underground facility owned by the regional lord. His mansion is said to be a remodeled ancient ruin, its depths known only to him. The underground library is an ancient relic holding vast knowledge, but excavation was forbidden.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12661,
+      "id": "rem_40422",
+      "jp": "都市の近辺に停泊していた武装船団。その所有者は魔道の大家ソルシア学院のもの。強固な魔術武装をされており、並の冒険者や傭兵は容易く弾く。近海にある海底遺跡の発掘のためやってきたらしい。",
+      "en": "An armed fleet anchored near the city, owned by the Solcia Academy of magic. Fortified with powerful magical armaments, it easily repels ordinary adventurers. They seem to have come to excavate an underwater ruin in the nearby sea.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12662,
+      "id": "rem_40423",
+      "jp": "ドルワミール鉱山の北西にある霊峰ヤークァリムの山頂にある遺跡。天空から地上を見下ろすと言われるこの遺跡には、常人でも天使を目視できるほど霊気が濃いが、巡礼は命がけの試練となる。",
+      "en": "A ruin at the summit of the sacred peak Yakuarim, northwest of the Doruwamir mines. Its dense spiritual energy lets even ordinary people see angels, but the pilgrimage is a perilous trial.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12663,
+      "id": "rem_40424",
+      "jp": "黒の森の異名を持つダムブナックの村近郊に建設された神殿。元々は古代の神を奉る土着の宗教施設だったようだが、邪教に染められて装いを変えた。中では邪悪な儀式が日夜繰り広げられているという。",
+      "en": "A shrine built near Damubunak village, also called the Black Forest. It was originally a native religious site for an ancient god, but was corrupted by a sinister cult. Evil rituals are said to be performed day and night inside.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12664,
+      "id": "rem_40425",
+      "jp": "ドルワミール鉱山の奥にある、ドワーム族が聖地として守ってきた場所。熱き力は火の神カストロイアの名として一族に伝えられ、その火の加護によりドワーム族は高い職人の技術を伝えてきた。",
+      "en": "A place deep within the Doruwamir mines, protected as a holy land by the Dwarm tribe. Its fiery power is known as the Fire God Castrouia, whose blessing granted the Dwarm their high craftsmanship.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12665,
+      "id": "rem_40426",
+      "jp": "ドワーム族の鍛冶姫と鍛冶頭のみが立ち入ることを許された、ドワーム族の聖地奥にある古代遺跡。超高度な魔術によって建設されたその施設は、天候と自然をコントロールする機能を持つ、危険な遺跡。",
+      "en": "An ancient ruin deep in the Dwarm holy land. Only the Forging Princess and master smiths may enter. Built with ultra-advanced magic, it can control weather and nature, making it a dangerous site.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12666,
+      "id": "rem_40427",
+      "jp": "砂漠地帯に存在するという古代の墓。太古の文明の遺産の宝庫と言われ、遺跡調査団によって存在だけは示されていた。未知の迷宮には謎と財宝が眠っている。",
+      "en": "An ancient tomb said to exist in the desert region. A treasure trove of an ancient civilization. Exploration teams confirmed its existence. Its unknown labyrinth holds mysteries and wealth.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12667,
+      "id": "rem_40428",
+      "jp": "北方の氷原地帯にある迷宮。他国との境界線上に存在しているため、長らく放置されていた。強力な魔獣の巣窟である最奥には世界を滅ぼすという恐るべき獣が封じられているという噂がある。",
+      "en": "A labyrinth in the northern icy plains. Located on a border, it was long neglected. Rumors say its deepest depths, a den of powerful monsters, hold a beast capable of destroying the world.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12668,
+      "id": "rem_40429",
+      "jp": "ハーヴェスタを罠にはめた違法取引グループが所有する船。船上にて富裕者たちが豪華なパーティーを催しており、日が沈めば怪しい明かりが点る。",
+      "en": "A ship owned by the illegal trade group that trapped Harvester. Wealthy guests hold lavish parties aboard. When night falls, strange lights appear.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12669,
+      "id": "rem_40430",
+      "jp": "詐欺グループの違法船",
+      "en": "Illegal ship (fraud group)",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12670,
+      "id": "rem_40431",
+      "jp": "アルダルク農牧地帯の開拓者である、旧アルダルク大地主の廃村。ゼカリウスから離れているために防衛力に乏しく、数年前のゴブリン大侵攻によって滅び、当主とその家族はその際に行方不明となった。",
+      "en": "The ruined village of the former Aldaluk landowner, a pioneer of the Aldaluk farmlands. Far from Zecarius and poorly defended, it was destroyed years ago by a massive Goblin invasion. The family vanished.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12671,
+      "id": "rem_40432",
+      "jp": "旧アルダルク大地主の廃村",
+      "en": "Ruined village (former Aldaluk landowner)",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12672,
+      "id": "rem_40433",
+      "jp": "【縁】の力を奪い取った『淫魔』シェルフィの領域。この世ならざる気配を感じる、異空間に作られた彼女の宮殿。シェルフィを倒し、力を取り戻さなければ。",
+      "en": "The domain of Shelfi, the 'Succubus' who stole the power of 【En】. Her palace exists in a strange, otherworldly space. You must defeat Shelfi and reclaim your power.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12673,
+      "id": "rem_40434",
+      "jp": "シェルフィの淫魔領域",
+      "en": "Shelfi's Succubus Domain",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12674,
+      "id": "rem_40435",
+      "jp": "アーマニア海に侵攻してきたノーザリア軍艦。彼らは『魔の島』にやってきたらしい。彼らを自由に為てしまえばゼカリウスは侵略される。なんとか追い払わなければ。",
+      "en": "A Northaria warship invading the Amanian Sea. They seem headed for 'Demon Island'. If left unchecked, they will invade Zecarius. We must repel them.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12675,
+      "id": "rem_40436",
+      "jp": "ノーザリア軍艦",
+      "en": "Northaria Warship",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    }
+  ]
+}
