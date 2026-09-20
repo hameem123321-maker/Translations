@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99301,
+  "range_end": 99400,
+  "pairs": [
+    {
+      "n": 99301,
+      "id": "db_EventInfo:117192:107",
+      "jp": "黒将軍様！　いま、お助けいたします！",
+      "en": "Black General, sir! I'll help you right now!",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99302,
+      "id": "db_EventInfo:117193:101",
+      "jp": "ふん、今日はここまでだ……",
+      "en": "Hmph, that's enough for today...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99303,
+      "id": "db_EventInfo:117194:101",
+      "jp": "憶えておけ、必ず邪教の異端者共を殲滅してやる！",
+      "en": "Remember this, I will destroy those heretic cultists for sure!",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99304,
+      "id": "db_EventInfo:117195:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99305,
+      "id": "db_EventInfo:117196:0",
+      "jp": "異端審問官の黒将軍は逃げて行った……",
+      "en": "The Black General of the Inquisition ran away...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99306,
+      "id": "db_EventInfo:117197:108",
+      "jp": "異端審問官、怖いのじゃー",
+      "en": "The Inquisitor is scary!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99307,
+      "id": "db_EventInfo:117198:108",
+      "jp": "ワシは今も昔も【『邪教徒』】ではないのじゃが、嫌疑を掛けられたことは何度かあるぞい",
+      "en": "I've never been one of those ['cultists'], not now or ever. But I've been suspected a few times.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99308,
+      "id": "db_EventInfo:117199:2",
+      "jp": "証拠もないのに、酷い言い草デス",
+      "en": "That's terrible talk, without any proof.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99309,
+      "id": "db_EventInfo:117200:12",
+      "jp": "やれやれ、無駄な時間を食いましたね……とにかく、早く残りの【『ゴブリン』】共を駆除しましょう",
+      "en": "Good grief, what a waste of time... Anyway, let's hurry up and wipe out the rest of the ['Goblins'].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99310,
+      "id": "db_EventInfo:117202:1",
+      "jp": "な、何だかでかいのがいるぞ……あ、あれも【『ゴブリン』】なのか！？",
+      "en": "Wh-what's that big thing...? Is that also a ['Goblin']!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99311,
+      "id": "db_EventInfo:117203:12",
+      "jp": "ふん、雑魚どもを従えて王様気取りですかね",
+      "en": "Hmph. Leading around some weaklings, acting like a king.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99312,
+      "id": "db_EventInfo:117204:2",
+      "jp": "さっさと片付けて帰るデス！",
+      "en": "Let's finish this fast and go home!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99313,
+      "id": "db_EventInfo:117205:1",
+      "jp": "はぁ、はぁ、こいつ、本当に【『ゴブリン』】か……？",
+      "en": "Hah... hah... is this thing really a ['Goblin']...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99314,
+      "id": "db_EventInfo:117206:12",
+      "jp": "実験の成功例か、それとも突然変異か……まったく、とんでもない奴でしたね",
+      "en": "A successful experiment, or a mutation... That was one unbelievable guy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99315,
+      "id": "db_EventInfo:117207:108",
+      "jp": "うむうむ",
+      "en": "Yeah, yeah.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99316,
+      "id": "db_EventInfo:117208:12",
+      "jp": "とにかく、大物は仕留めましたし、【『ゴブリン』】はほぼ掃討したようです",
+      "en": "Anyway, we took down the big one. And the Goblins are pretty much cleaned up.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99317,
+      "id": "db_EventInfo:117209:12",
+      "jp": "後は魔術師や【『<ruby=ソルシア>学院</ruby>』】の用心棒共に任せておけばいいでしょう",
+      "en": "We can leave the rest to the mages and the academy guards.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99318,
+      "id": "db_EventInfo:117210:2",
+      "jp": "ということは、ようやくこの船ともおさらばデスかね",
+      "en": "So, we're finally saying goodbye to this ship?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99319,
+      "id": "db_EventInfo:117211:108",
+      "jp": "やっと帰れるぞい！",
+      "en": "We can finally go home!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99320,
+      "id": "db_EventInfo:117212:12",
+      "jp": "そうですね……その、店長、シイネも……助けに来てくれて、ありがとうございました",
+      "en": "Yes... um, Shopkeeper, and Shiine... thank you for coming to help.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99321,
+      "id": "db_EventInfo:117213:2",
+      "jp": "礼は後でたっぷりしてもらうデス！　【『災厄』】の調査結果を聞かせるデスよ！",
+      "en": "You can thank me properly later! You'll tell me all about the Calamity investigation!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99322,
+      "id": "db_EventInfo:117216:0",
+      "jp": "俺達は宿に帰ることにした。",
+      "en": "We decided to go back to the inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99323,
+      "id": "db_EventInfo:117218:108",
+      "jp": "いやあ、船団では酷い目に遭ったのじゃ",
+      "en": "Whew, what a terrible time we had on the fleet.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99324,
+      "id": "db_EventInfo:117219:1",
+      "jp": "オーレリアにも世話になったな",
+      "en": "Aurelia helped out a lot too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99325,
+      "id": "db_EventInfo:117220:1",
+      "jp": "その、ミルテを庇ってもらって……",
+      "en": "You know, shielding Myrte...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99326,
+      "id": "db_EventInfo:117221:108",
+      "jp": "そうじゃ！　あの娘っ子を庇うために、【『ゴブリン』】どもに乙女の純潔をささげてしまったのじゃ！　この貸しはどうやって返してもらおうか！",
+      "en": "That's right! To protect that girl, I offered up my maiden's purity to those Goblins! How are you going to pay me back for this?!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99327,
+      "id": "db_EventInfo:117222:1",
+      "jp": "うっ……ど、どうすれば",
+      "en": "Ugh... wh-what should I do",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99328,
+      "id": "db_EventInfo:117223:108",
+      "jp": "そうじゃな～？　ワシは転生したせいで、かつての研究所は手放してもうた、件の図書館は【『ゴブリン』】の巣にされてしもうたし",
+      "en": "Hmm... Let's see~? After I got reincarnated, I had to give up my old lab, and that library became a nest for【『Goblins』】.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99329,
+      "id": "db_EventInfo:117224:108",
+      "jp": "ずっと引きこもれる、ワシ専用のラボが欲しいところじゃな～",
+      "en": "I'd really like my own private lab, a place I can just hole up in~",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99330,
+      "id": "db_EventInfo:117225:1",
+      "jp": "ラボ……",
+      "en": "A lab...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99331,
+      "id": "db_EventInfo:117226:108",
+      "jp": "おおっ！　よく見れば、この店にはワシが好みそうな、魔女っ娘研究所があるではないか(すっとぼけ)！　オヌシは手回しがいいのう～Д",
+      "en": "Ohh! Now that I look, this shop has just the kind of witch-girl lab I'd love (playing innocent)! You're well-prepared~Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99332,
+      "id": "db_EventInfo:117227:1",
+      "jp": "いやそれは、カリストの……",
+      "en": "No, that's... Callisto's...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99333,
+      "id": "db_EventInfo:117228:108",
+      "jp": "弟子のものはワシのもの。ワシのものはワシのものじゃ～！",
+      "en": "What belongs to my apprentice belongs to me. What belongs to me belongs to me~!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99334,
+      "id": "db_EventInfo:117229:1",
+      "jp": "お、横暴……ッ！",
+      "en": "Th-that's tyranny...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99335,
+      "id": "db_EventInfo:117230:108",
+      "jp": "あとはワシの奪われた純潔も補填してほしいものじゃな～",
+      "en": "And I'd like you to make up for my stolen purity too~",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99336,
+      "id": "db_EventInfo:117231:108",
+      "jp": "たしか、【『死神』】のうんめいとかなんとか、口には出さぬがー……(チラッ)",
+      "en": "Something about a【『Shinigami's』】fate or whatever... I won't say it out loud but—...(Glances)",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99337,
+      "id": "db_EventInfo:117232:108",
+      "jp": "もしワシが男を知らない生娘の状態じゃったらなー？　【<pl>】に誘われたら、この店に居着いてやらなくもなかったんじゃがなー？(チラチラッ)",
+      "en": "What if I was still an untouched maiden who didn't know men~? If【<pl>】invited me, I might have even settled down in this shop~?(Glancing repeatedly)",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99338,
+      "id": "db_EventInfo:117233:1",
+      "jp": "ううっ……露骨に催促している。いやらしい",
+      "en": "Ugh... She's pushing so obviously. Dirty.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99339,
+      "id": "db_EventInfo:117234:0",
+      "jp": "オーレリアは【『運命改変』】をさせて、凌辱を無かったことにして欲しいらしい。",
+      "en": "Aurelia seems to want me to use 'Fate Alteration' to erase the humiliation she experienced.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99340,
+      "id": "db_EventInfo:117235:108",
+      "jp": "処女にもどしてくれたら、研究ついでに、めくるめく快楽に<ruby=いざな>誘</ruby>ってもよいぞД",
+      "en": "If you make me a virgin again, as part of my research, I might guide you into dizzying pleasureД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 99341,
+      "id": "db_EventInfo:117236:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99342,
+      "id": "db_EventInfo:117237:0",
+      "jp": "彼女は強力な魔女だ、力になってくれるというのは間違いないと思うのだが。いいんだろうか……なんだか、問題も起こしそうな気もする。",
+      "en": "She's a powerful witch. I'm sure she'd be a great help. But is this okay? Something feels like it might cause trouble...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99343,
+      "id": "db_EventInfo:117238:0",
+      "jp": "……【『運命改変』】して、オーレリアをなんとかしよう。",
+      "en": "...Use 'Fate Alteration' to deal with Aurelia somehow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99344,
+      "id": "db_EventInfo:117240:12",
+      "jp": "オーレリアのヤツをスタッフにしたみたいですね……大丈夫なんですか？",
+      "en": "Looks like you made Aurelia a staff member... Is that okay?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99345,
+      "id": "db_EventInfo:117241:9",
+      "jp": "師匠殿の色香に惑わされて……嘆かわしいのである",
+      "en": "Seduced by Master's charms... It is lamentable indeed.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99346,
+      "id": "db_EventInfo:117242:1",
+      "jp": "うっ、うるさいな……！",
+      "en": "Ugh, shut up...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99347,
+      "id": "db_EventInfo:117243:12",
+      "jp": "といっても、図書館で見付けた古代文書を解読するために部屋に籠もってしまいました。しばらくは静かなはずです",
+      "en": "That said, she's locked herself in her room to decipher some ancient documents she found in the library. It should be quiet for a while.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99348,
+      "id": "db_EventInfo:117244:9",
+      "jp": "師匠殿は研究が大好きであるからなぁ。もっとアウトドアに活動するべきである",
+      "en": "Master does love her research. She should be more active outdoors.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99349,
+      "id": "db_EventInfo:117245:2",
+      "jp": "オマエが言うなデス",
+      "en": "You're one to talk, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99350,
+      "id": "db_EventInfo:117246:1",
+      "jp": "それで、【『ゼカリウス地下図書館』】には何があったんだ？",
+      "en": "So, what was in the 'Zecarius Underground Library'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99351,
+      "id": "db_EventInfo:117247:12",
+      "jp": "はい……まだ文献の一部を見つけたに過ぎないのですが……",
+      "en": "Yes... we've only found part of the documents, but...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99352,
+      "id": "db_EventInfo:117249:12",
+      "jp": "記述によると、名を【『災厄制御機関』】と呼ぶそうです",
+      "en": "According to the records, it's called the 'Calamity Control Institution'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99353,
+      "id": "db_EventInfo:117250:2",
+      "jp": "【『災厄制御機関』】……それが【『災厄』】の原因となるモノデスか！？",
+      "en": "The 'Calamity Control Institution'... So that's what causes the 'Calamity'!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99354,
+      "id": "db_EventInfo:117251:12",
+      "jp": "ええ",
+      "en": "Yes.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99355,
+      "id": "db_EventInfo:117252:12",
+      "jp": "それは【『災厄』】を呼び寄せる、恐るべき存在",
+      "en": "It's a terrible being that summons the 'Calamity'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99356,
+      "id": "db_EventInfo:117253:12",
+      "jp": "そして【『災厄制御機関』】は【『ゼカリウス』】の地下に眠ると、オーレリアは言ってました",
+      "en": "And Aurelia said the 'Calamity Control Institution' sleeps beneath Zecarius.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99357,
+      "id": "db_EventInfo:117254:2",
+      "jp": "【『災厄』】の原因が、この地下にデス……！？",
+      "en": "The cause of the 'Calamity' is underground here...!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99358,
+      "id": "db_EventInfo:117255:1",
+      "jp": "【『ゼカリウス』】の地下に、そんな危険なモノが埋まっているなんて……",
+      "en": "Something that dangerous is buried under Zecarius...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99359,
+      "id": "db_EventInfo:117256:12",
+      "jp": "これ以上は、引き続きの調査が必要です",
+      "en": "To know more, we need to keep investigating.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99360,
+      "id": "db_EventInfo:117257:12",
+      "jp": "今回のことで【『<ruby=ソルシア>学院</ruby>』】にも恩を売れました。彼らの力を借りれば、文献調査はさらに進むでしょう",
+      "en": "Because of this, we owe a favor to Solacia Academy. With their help, our document search should progress further.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99361,
+      "id": "db_EventInfo:117258:2",
+      "jp": "これからに期待デスね",
+      "en": "We'll look forward to what comes next.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99362,
+      "id": "db_EventInfo:117262:12",
+      "jp": "そういえば店長……その",
+      "en": "Speaking of which, Boss... well, um...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99363,
+      "id": "db_EventInfo:117263:1",
+      "jp": "どうした？",
+      "en": "What's wrong?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99364,
+      "id": "db_EventInfo:117264:12",
+      "jp": "その……あのですね、助けてくれて、色々と、その、ありがとうございます",
+      "en": "Um... Well, thank you. For helping me. And for everything, really.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99365,
+      "id": "db_EventInfo:117265:1",
+      "jp": "ん？　お、おう……いや、気にしなくていいぞ",
+      "en": "Huh? Oh, uh... no, don't worry about it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99366,
+      "id": "db_EventInfo:117266:12",
+      "jp": "そういうわけにはいきません！",
+      "en": "I can't just do that!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99367,
+      "id": "db_EventInfo:117267:12",
+      "jp": "アナタのような駄犬に助けられて、ろくに礼もしないのは、この天才のプライドが許さないんです！",
+      "en": "Being saved by a useless mutt like you and not even thanking you properly? My genius pride won't allow it!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99368,
+      "id": "db_EventInfo:117268:1",
+      "jp": "は、はい……",
+      "en": "Yes... got it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99369,
+      "id": "db_EventInfo:117269:12",
+      "jp": "かくなる上は、私の持っている【一番大切なモノ】を贈りますから、覚悟しなさい！！",
+      "en": "In that case, I'll give you the [most important thing I have], so be prepared!!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99370,
+      "id": "db_EventInfo:117270:12",
+      "jp": "いいですか、自然に、丁重に、【私と一緒に仕事をして】自然にそうなるように【ムードを高める】んですよ！　分かりましたね！？",
+      "en": "Got it? Naturally and politely, you need to [raise the mood] so it happens naturally, [where you work with me]! Understood!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99371,
+      "id": "db_EventInfo:117271:1",
+      "jp": "ハイ！",
+      "en": "YES!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99372,
+      "id": "db_EventInfo:117273:12",
+      "jp": "駄犬、【『ロオン遺跡調査団』】と【『魔術学院ソルシア』】の合同探索チームが、【『ゼカリウス地下図書館』】に入りましたよ",
+      "en": "Mutt, the joint exploration team from the [Loon Ruins Investigation Team] and [Sorcia Magic Academy] has entered the [Zecarius Underground Library].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99373,
+      "id": "db_EventInfo:117274:2",
+      "jp": "大分遠回りしたデスが、ようやく【『災厄』】の手がかりをつかんだデス。調査には期待するデスよ",
+      "en": "We took a very roundabout route, but we've finally caught a lead on the [Calamity]. I expect a lot from this investigation.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99374,
+      "id": "db_EventInfo:117275:12",
+      "jp": "ええ。【『<ruby=ソルシア>学院</ruby>』】の魔術師も研究対象ができて喜んでますね",
+      "en": "Yeah. The mages from [Sorcia Academy] are happy to have a research subject too.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99375,
+      "id": "db_EventInfo:117276:9",
+      "jp": "うむ？　ミルテは調査には行かないであるか？　古文書が読み放題なのであろう？",
+      "en": "Hmm? Myrte, you're not going to the investigation? Isn't it a chance to read all the old documents you want?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99376,
+      "id": "db_EventInfo:117277:12",
+      "jp": "そ、それは、ですね……わ、私には駄犬の面倒を見る仕事がありますから！",
+      "en": "Th-that's, you see... I-I have the job of looking after the good-for-nothing dog!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99377,
+      "id": "db_EventInfo:117278:2",
+      "jp": "ふふん、オマエ、コイツに面倒を見てもらわないといけないデス？",
+      "en": "Heheh. You're the one who needs looking after by her, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99378,
+      "id": "db_EventInfo:117279:9",
+      "jp": "ククク、よさんかシイネ殿……そういう事にしておくである",
+      "en": "Kukuku, good guess, Shiine... we'll leave it at that.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99379,
+      "id": "db_EventInfo:117280:12",
+      "jp": "何なんですか！？　駄犬は、その、本当に駄犬で……面倒な奴なんですよ！？",
+      "en": "What's that supposed to mean!? The good-for-nothing dog is, well, truly a good-for-nothing... he's a troublesome guy, you know!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99380,
+      "id": "db_EventInfo:117281:1",
+      "jp": "(俺はすっかり【『駄犬』】なんだな……)",
+      "en": "(I'm completely the ['Good-for-Nothing Dog'] now...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99381,
+      "id": "db_EventInfo:117282:6",
+      "jp": "いらっしゃいませですわ",
+      "en": "Welcome.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99382,
+      "id": "db_EventInfo:117285:2",
+      "jp": "む、オマエは……異端審問官の黒将軍デス！",
+      "en": "Wh-who are you...? You're the Inquisition's Black General!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99383,
+      "id": "db_EventInfo:117286:1",
+      "jp": "な、何をしにきたんだ……？",
+      "en": "Wh-what are you here for...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99384,
+      "id": "db_EventInfo:117287:107",
+      "jp": "客に向かってとんだ言いようですわね",
+      "en": "What a rude thing to say to a customer.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99385,
+      "id": "db_EventInfo:117288:101",
+      "jp": "言わせておけ",
+      "en": "Let them speak.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99386,
+      "id": "db_EventInfo:117289:107",
+      "jp": "はっ",
+      "en": "Yes.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99387,
+      "id": "db_EventInfo:117290:101",
+      "jp": "今日はただの連絡に来ただけだ。魔術師ミルテの【『邪教徒』】容疑の解除をな",
+      "en": "I'm just here to inform you today. The suspicion of Myrte the mage being a 'heretic' is cleared.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99388,
+      "id": "db_EventInfo:117291:12",
+      "jp": "と、当然ですね……！",
+      "en": "Well, of course...!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99389,
+      "id": "db_EventInfo:117292:101",
+      "jp": "ふん",
+      "en": "Hmph.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99390,
+      "id": "db_EventInfo:117293:2",
+      "jp": "こんなところで油を売ってないで、ゼルカの方を探したらどうデス？",
+      "en": "Instead of wasting time here, why not look for Zelka?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99391,
+      "id": "db_EventInfo:117294:101",
+      "jp": "領主ゼルカか……確かにヤツも行方をくらませているし、何かを隠しているようだな",
+      "en": "Lord Zelka, huh... It's true he's also disappeared and seems to be hiding something.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99392,
+      "id": "db_EventInfo:117295:1",
+      "jp": "……アンタでも領主がどこにいるのか分からないのか？",
+      "en": "...So even you don't know where the lord is?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99393,
+      "id": "db_EventInfo:117296:101",
+      "jp": "ああ",
+      "en": "That's right.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99394,
+      "id": "db_EventInfo:117297:6",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】の最前線である、異端審問官様でも行方を掴めないのですか？",
+      "en": "Even you, an Inquisitor on the front lines of the church, can't find him?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99395,
+      "id": "db_EventInfo:117298:2",
+      "jp": "自分たちが釈放したくせに、情けないデスね",
+      "en": "Pathetic, even though you were the ones who released him.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99396,
+      "id": "db_EventInfo:117299:101",
+      "jp": "ふん……とにかく、まだこの宿の疑惑が完全には晴れたわけではない",
+      "en": "Hmph... Anyway, this inn isn't completely cleared of suspicion yet.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99397,
+      "id": "db_EventInfo:117300:101",
+      "jp": "怪しい素振りを見せたら容赦はしない……覚悟しておくことだ",
+      "en": "If you act suspiciously, I won't show mercy... Be prepared for that.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99398,
+      "id": "db_EventInfo:117301:101",
+      "jp": "行くぞ",
+      "en": "Let's go.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99399,
+      "id": "db_EventInfo:117302:107",
+      "jp": "はい！",
+      "en": "Yes!",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 99400,
+      "id": "db_EventInfo:117303:0",
+      "jp": "★クリア",
+      "en": "★ CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

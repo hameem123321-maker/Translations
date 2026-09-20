@@ -1,0 +1,823 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3301,
+  "range_end": 3400,
+  "pairs": [
+    {
+      "n": 3301,
+      "id": "rem_30920",
+      "jp": "【槍装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Spear Equipped】ATK【+{0}】 + increases further when maxed.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3302,
+      "id": "rem_30921",
+      "jp": "パーティー全員の戦闘後の経験値が【+{0}%】アップ！",
+      "en": "Increases post-battle EXP for all party members by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3303,
+      "id": "rem_30922",
+      "jp": "クリティカル時の攻撃力が【+{0}%】アップ！",
+      "en": "Increases ATK on critical hit by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3304,
+      "id": "rem_30923",
+      "jp": "【動物タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Animal Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3305,
+      "id": "rem_30924",
+      "jp": "敵のクリティカル率を【{0}%】ダウンさせる",
+      "en": "Lowers enemy crit rate by 【{0}%】.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3306,
+      "id": "rem_30925",
+      "jp": "【{0}%】の確率で先制攻撃し、一方的に攻撃できる",
+      "en": "【{0}%】 chance to strike first and attack unopposed.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3307,
+      "id": "rem_30926",
+      "jp": "【回避】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【EVA】 parameter【+{0}】 + increases further when maxed.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3308,
+      "id": "rem_30927",
+      "jp": "【樹木タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Plant Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3309,
+      "id": "rem_30928",
+      "jp": "【人間+亜人タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Human+Demihuman Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3310,
+      "id": "rem_30929",
+      "jp": "【{0}%】の確率で、相手の攻撃を妨害する",
+      "en": "【{0}%】 chance to disrupt the enemy's attack.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3311,
+      "id": "rem_30930",
+      "jp": "【死霊タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Undead Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3312,
+      "id": "rem_30931",
+      "jp": "【魔攻】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【MATK】 parameter【+{0}】 + increases further when maxed.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3313,
+      "id": "rem_30932",
+      "jp": "【{0}%】の確率で、致命ダメージをHP１で生き残る",
+      "en": "【{0}%】 chance to survive lethal damage with 1 HP.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3314,
+      "id": "rem_30933",
+      "jp": "【硬質タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Hard Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3315,
+      "id": "rem_30934",
+      "jp": "物理攻撃によるダメージが【{0}%】に軽減ダウン！",
+      "en": "Reduces damage from physical attacks to 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3316,
+      "id": "rem_30935",
+      "jp": "【飛行タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Flying Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3317,
+      "id": "rem_30936",
+      "jp": "【亜人タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Demihuman Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3318,
+      "id": "rem_30937",
+      "jp": "【樹木+硬質タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs.【Plant+Hard Type】enemies【+{0}%】 + pierces defense if type matches.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3319,
+      "id": "rem_30938",
+      "jp": "性的な攻撃以外に無敵になる",
+      "en": "Grants invincibility to non-sexual attacks.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3320,
+      "id": "rem_30939",
+      "jp": "【攻撃】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【ATK】 parameter【+{0}】 + increases further when maxed.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3321,
+      "id": "rem_30940",
+      "jp": "パーティー全員の回避率が【+{0}%】アップ！",
+      "en": "Party's Evasion +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3322,
+      "id": "rem_30941",
+      "jp": "【防御】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Defense】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3323,
+      "id": "rem_30942",
+      "jp": "【必殺】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Special】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3324,
+      "id": "rem_30943",
+      "jp": "ボスやレア敵に対し、攻撃力が【+{0}%】アップ！",
+      "en": "ATK vs bosses/rare foes +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3325,
+      "id": "rem_30944",
+      "jp": "戦闘後、パーティー全員のMPが【+{0}】回復！",
+      "en": "Recover 【+{0}】 MP for all after battle!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3326,
+      "id": "rem_30945",
+      "jp": "【速度】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Speed】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3327,
+      "id": "rem_30946",
+      "jp": "１ターン目の攻撃力が【+{0}%】アップ！",
+      "en": "1st-turn ATK +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3328,
+      "id": "rem_30947",
+      "jp": "『トラップ系』のダンジョンハプニングをクリアする際に有効",
+      "en": "Useful for clearing 'Trap-type' dungeon events",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3329,
+      "id": "rem_30948",
+      "jp": "セックスバトル時の攻撃力が【+{0}%】アップ！",
+      "en": "ATK in Sex Battles +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3330,
+      "id": "rem_30949",
+      "jp": "【追撃力】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【Pursuit】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3331,
+      "id": "rem_30950",
+      "jp": "【杖装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Staff】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3332,
+      "id": "rem_30951",
+      "jp": "【射撃技スキル】の効果が【+{0}%】",
+      "en": "【Shooting Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3333,
+      "id": "rem_30952",
+      "jp": "【WT】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【WT】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3334,
+      "id": "rem_30953",
+      "jp": "【刀装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Katana】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3335,
+      "id": "rem_30954",
+      "jp": "【魔爪装備時】の攻撃力【+{0}】 + 最大強化でさらにアップ",
+      "en": "ATK with 【Demon Claw】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3336,
+      "id": "rem_30955",
+      "jp": "【HP】のパラメータが【+{0}】 + 最大強化でさらにアップ",
+      "en": "【HP】+【+{0}】, increases further at max rank",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3337,
+      "id": "rem_30956",
+      "jp": "【死神技スキル】の効果が【+{0}%】",
+      "en": "【Shinigami Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3338,
+      "id": "rem_30957",
+      "jp": "【魔技スキル】の効果が【+{0}%】",
+      "en": "【Magic Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3339,
+      "id": "rem_30958",
+      "jp": "逃走確率が【+{0}%】アップ！",
+      "en": "Escape chance +【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3340,
+      "id": "rem_30959",
+      "jp": "【支援技スキル】の効果が【+{0}%】",
+      "en": "【Support Skill】 effect +【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3341,
+      "id": "rem_30960",
+      "jp": "【猛将技スキル】の効果が【+{0}%】",
+      "en": "【Mighty Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3342,
+      "id": "rem_30961",
+      "jp": "【禁呪スキル】の効果が【+{0}%】",
+      "en": "【Forbidden Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3343,
+      "id": "rem_30962",
+      "jp": "【奇跡スキル】の効果が【+{0}%】",
+      "en": "【Miracle Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3344,
+      "id": "rem_30963",
+      "jp": "【魔砲技スキル】の効果が【+{0}%】",
+      "en": "【Magical Cannon Skill】 effect increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3345,
+      "id": "rem_30964",
+      "jp": "すべての属性攻撃力が【+{0}%】アップ！",
+      "en": "All elemental ATK increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3346,
+      "id": "rem_30965",
+      "jp": "自分が攻撃を優先的に受ける率が【+{0}%】アップする",
+      "en": "Rate you are targeted for attack increased by 【+{0}%】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3347,
+      "id": "rem_30966",
+      "jp": "ダメージを負った相手を優先する確率が【+{0}%】アップ！",
+      "en": "Targeting injured foes rate up 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3348,
+      "id": "rem_30967",
+      "jp": "戦闘後、パーティー全員のCTが【{0}】ターン早まる",
+      "en": "After battle, all party CT advances by 【{0}】 turn",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3349,
+      "id": "rem_30968",
+      "jp": "先制攻撃時、開始直後に矢による攻撃を実行する",
+      "en": "On ambush, launches arrow attack at start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3350,
+      "id": "rem_30969",
+      "jp": "回復系スキルの効果が【+{0}%】アップ！",
+      "en": "Healing skill effect increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3351,
+      "id": "rem_30970",
+      "jp": "マップのトレジャーオブジェクトの個数が【{0}%】の確率でアップ！",
+      "en": "Map treasure object count increased by 【{0}%】 chance!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3352,
+      "id": "rem_30971",
+      "jp": "技能レベルアップ時の必要ポイントが【{0}%】ダウン！",
+      "en": "Skill level-up points required reduced by 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3353,
+      "id": "rem_30972",
+      "jp": "男性エネミーに対するダメージが【+{0}%】アップ！",
+      "en": "Damage vs. Male enemies increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3354,
+      "id": "rem_30973",
+      "jp": "売春時の獲得マッカが【+{0}%】アップ！",
+      "en": "Earned Macca from prostitution increased by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3355,
+      "id": "rem_30974",
+      "jp": "追撃発生後、【{0}%】の確率で追加で行動可能になる",
+      "en": "After a follow-up, 【{0}%】 chance for another action",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3356,
+      "id": "rem_30975",
+      "jp": "すべての武器攻撃力が【+{0}】アップ！ + 最大強化でさらにアップ",
+      "en": "All weapon ATK increased by 【+{0}】! + More at max enhance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3357,
+      "id": "rem_30976",
+      "jp": "【不形タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "ATK vs. 【Amorphous】 enemies 【+{0}%】 + Type match pierces some DEF",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3358,
+      "id": "rem_30977",
+      "jp": "デバフが【+{0}】ターン延長される(例外あり)",
+      "en": "Debuffs extended by 【+{0}】 turn(s) (exceptions)",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3359,
+      "id": "rem_30978",
+      "jp": "サポート効果が強化され、バフが【+{0}】ターン延長される(例外あり)",
+      "en": "Support effect boosted, buffs extended by 【+{0}】 turn(s) (exceptions)",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3360,
+      "id": "rem_30979",
+      "jp": "敵の魔術攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy magic attacks 【{0}%】 of the time",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3361,
+      "id": "rem_30980",
+      "jp": "敵の死属性攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy death attacks with a 【{0}%】 chance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3362,
+      "id": "rem_30981",
+      "jp": "敵の物理攻撃を【{0}%】の確率で無効化する",
+      "en": "Nullifies enemy physical attacks with a 【{0}%】 chance",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3363,
+      "id": "rem_30982",
+      "jp": "【××タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "Attack power vs 【××-type】 enemies 【+{0}%】 + partial defense penetration on type match",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3364,
+      "id": "rem_30983",
+      "jp": "【水棲タイプ】の敵への攻撃力【+{0}%】 + タイプ一致で防御を一部貫通",
+      "en": "Attack power vs 【Aquatic-type】 enemies 【+{0}%】 + partial defense penetration on type match",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3365,
+      "id": "rem_30984",
+      "jp": "パーティー全員の命中率が【+{0}%】アップ！",
+      "en": "Increases party hit rate by 【+{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3366,
+      "id": "rem_30985",
+      "jp": "仕入れる際のアイテム入手量が【{0}%】アップ！",
+      "en": "Increases item acquisition from procurement by 【{0}%】!",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3367,
+      "id": "rem_30986",
+      "jp": "戦闘不能時に常に復活",
+      "en": "Always revives when knocked out",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3368,
+      "id": "rem_30987",
+      "jp": "先制攻撃時、開始直後に××に攻撃を実行する",
+      "en": "On first strike, immediately attacks ×× at battle start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3369,
+      "id": "rem_30988",
+      "jp": "30ターン経過で強制敗北",
+      "en": "Forced defeat after 30 turns",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3370,
+      "id": "rem_30989",
+      "jp": "敵専用。マップオブジェクトが見えなくなり、接触すると先制。",
+      "en": "Enemy only. Hides map objects, contact triggers ambush.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3371,
+      "id": "rem_30990",
+      "jp": "【{0}%】の確率でスキルが暴走する。",
+      "en": "Skills may go haywire with a 【{0}%】 chance.",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3372,
+      "id": "rem_30991",
+      "jp": "戦闘開始直後、【死霊タイプ】の敵のHPを【{0}%】ダウンさせる",
+      "en": "Reduces 【Undead-type】 enemy HP by 【{0}%】 at battle start",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3373,
+      "id": "rem_30992",
+      "jp": "【魔鞭装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Whip】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3374,
+      "id": "rem_30993",
+      "jp": "【魔書装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Tome】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3375,
+      "id": "rem_30994",
+      "jp": "【魔扇装備時】の攻撃力【+{0}】",
+      "en": "Attack power 【+{0}】 when 【equipped with Magic Fan】",
+      "table": "db_UnitSkillPassive",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3376,
+      "id": "rem_30995",
+      "jp": "セックス(騎乗位)",
+      "en": "Sex (Cowgirl)",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3377,
+      "id": "rem_30996",
+      "jp": "セックス(後背位)",
+      "en": "Sex (Doggy Style)",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3378,
+      "id": "rem_30997",
+      "jp": "パイズリLv1",
+      "en": "Paizuri Lv1",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3379,
+      "id": "rem_30998",
+      "jp": "フェラ",
+      "en": "Blowjob",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 3380,
+      "id": "rem_30999",
+      "jp": "クンニ",
+      "en": "Cunnilingus",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 3381,
+      "id": "rem_31000",
+      "jp": "スマタ",
+      "en": "Sumata",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 3382,
+      "id": "rem_31001",
+      "jp": "泡プレイ",
+      "en": "Bubble Play",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 3383,
+      "id": "rem_31002",
+      "jp": "手コキ",
+      "en": "Handjob",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 3384,
+      "id": "rem_31003",
+      "jp": "ぱふぱふ",
+      "en": "Paizuri",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3385,
+      "id": "rem_31004",
+      "jp": "アナル舐め",
+      "en": "Anal Licking",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3386,
+      "id": "rem_31005",
+      "jp": "シックスナイン",
+      "en": "69",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3387,
+      "id": "rem_31006",
+      "jp": "改変前",
+      "en": "Pre-Edit",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3388,
+      "id": "rem_31007",
+      "jp": "改変後",
+      "en": "Post-Edit",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3389,
+      "id": "rem_31008",
+      "jp": "世界樹",
+      "en": "World Tree",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3390,
+      "id": "rem_31009",
+      "jp": "神話",
+      "en": "Mythology",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3391,
+      "id": "rem_31010",
+      "jp": "魔族話",
+      "en": "Demon Tale",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3392,
+      "id": "rem_31011",
+      "jp": "共通",
+      "en": "Common",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3393,
+      "id": "rem_31012",
+      "jp": "裏話",
+      "en": "Hidden Story",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3394,
+      "id": "rem_31013",
+      "jp": "海賊女帝",
+      "en": "Pirate Empress",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3395,
+      "id": "rem_31014",
+      "jp": "森人",
+      "en": "Elf",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3396,
+      "id": "rem_31015",
+      "jp": "冒険",
+      "en": "Adventure",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3397,
+      "id": "rem_31016",
+      "jp": "天文",
+      "en": "Astronomy",
+      "table": "db_ScenarioTownUnitEvent",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3398,
+      "id": "rem_31017",
+      "jp": "◆ツリーセンター◆",
+      "en": "◆Tree Center◆",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3399,
+      "id": "rem_31018",
+      "jp": "サンダーブースト",
+      "en": "Thunder Boost",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3400,
+      "id": "rem_31019",
+      "jp": "タイダルウェイブ",
+      "en": "Tidal Wave",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

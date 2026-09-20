@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 85801,
+  "range_end": 85900,
+  "pairs": [
+    {
+      "n": 85801,
+      "id": "db_EventInfo:101357:0",
+      "jp": "シイネが手をかざすと、シロウサギはぐったりとしてしまった。",
+      "en": "Shiine waved his hand, and the white rabbit went limp.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85802,
+      "id": "db_EventInfo:101358:6",
+      "jp": "……死んで、しまわれたのですか？",
+      "en": "...Is it... dead?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 85803,
+      "id": "db_EventInfo:101359:2",
+      "jp": "コイツの魂を天に送っただけデス",
+      "en": "I just sent its soul to heaven.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85804,
+      "id": "db_EventInfo:101360:2",
+      "jp": "今のこいつは魂が抜けた、ただの獣肉デス",
+      "en": "What's left now is just an empty body. Plain animal meat.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85805,
+      "id": "db_EventInfo:101361:6",
+      "jp": "そうですか……ご冥福を",
+      "en": "I see... May it rest in peace.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 85806,
+      "id": "db_EventInfo:101362:2",
+      "jp": "向こうに行ったら、可愛がってやるデスよ",
+      "en": "When it gets there, I'll look after it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85807,
+      "id": "db_EventInfo:101365:0",
+      "jp": "こうして、俺達は店に戻るのであった。",
+      "en": "And so, we headed back to the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85808,
+      "id": "db_EventInfo:101368:34",
+      "jp": "ふー。最初の食材はゲットできたね～♪",
+      "en": "Whew. Got our first ingredient~♪",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85809,
+      "id": "db_EventInfo:101369:1",
+      "jp": "珍獣【『パナイシロウサギ』】の様子は？",
+      "en": "How is the rare beast, the 'Panai White Rabbit'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85810,
+      "id": "db_EventInfo:101370:34",
+      "jp": "うん、普通のウサギ肉になっちゃったよ",
+      "en": "Yeah, it's turned into regular rabbit meat.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85811,
+      "id": "db_EventInfo:101371:34",
+      "jp": "でも珍獣としての加護はまだ残ってるみたいだね。食材にするなら問題ないよ～",
+      "en": "But it seems the special blessing from being a rare beast is still there. It'll be fine to use as an ingredient~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85812,
+      "id": "db_EventInfo:101372:34",
+      "jp": "他の食材が揃うまでは、空間ごと凍結して熟成するつもりだよ",
+      "en": "I plan to freeze the whole space it's in to age it until we get the other ingredients.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85813,
+      "id": "db_EventInfo:101373:1",
+      "jp": "そうか",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85814,
+      "id": "db_EventInfo:101374:1",
+      "jp": "(空間ごと凍結……？)",
+      "en": "(Freeze the whole space...?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85815,
+      "id": "db_EventInfo:101375:1",
+      "jp": "喋ってるのを見てたから、食べるのには抵抗あるけど……",
+      "en": "I saw it talking, so I'm not sure about eating it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85816,
+      "id": "db_EventInfo:101376:1",
+      "jp": "マリーゼルなんかは、だいぶ感情移入してたみたいだし",
+      "en": "And it looked like Marisel really got attached to it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85817,
+      "id": "db_EventInfo:101377:34",
+      "jp": "ま、まあそこは、なんとかするから大丈夫だよ～！",
+      "en": "W-well, I'll figure something out there, so it's fine~!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85818,
+      "id": "db_EventInfo:101378:1",
+      "jp": "そうか。任せたよ",
+      "en": "Oh, yeah? I'll leave it to you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85819,
+      "id": "db_EventInfo:101379:1",
+      "jp": "じゃあ、俺はこの辺で……",
+      "en": "Alright, I'll be off now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85820,
+      "id": "db_EventInfo:101380:34",
+      "jp": "え～っ？",
+      "en": "Huh~?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85821,
+      "id": "db_EventInfo:101381:34",
+      "jp": "夜にオトメの部屋を訪れて、それだけ～？",
+      "en": "You come to a maiden's room at night and that's it~?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85822,
+      "id": "db_EventInfo:101382:1",
+      "jp": "ん……？",
+      "en": "Hmm...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85823,
+      "id": "db_EventInfo:101383:34",
+      "jp": "ねぇ、正直なところ、ルーシェとはエッチしちゃってるよね～？",
+      "en": "Hey, be honest. You've been having sex with Lusche, right~?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85824,
+      "id": "db_EventInfo:101384:1",
+      "jp": "そ、それは……その",
+      "en": "Th-that's... uh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85825,
+      "id": "db_EventInfo:101385:0",
+      "jp": "コッペリナにじっくりと顔を覗き込まれる。",
+      "en": "Koppelina leans in close, staring right into my face.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85826,
+      "id": "db_EventInfo:101386:0",
+      "jp": "なんとなく恥ずかしさが込み上げてくる。",
+      "en": "I feel a bit embarrassed for some reason.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85827,
+      "id": "db_EventInfo:101387:34",
+      "jp": "どんな味がするのかぁ……ボクも味見しちゃっても、いいよねぇ～？",
+      "en": "I wonder how you taste... It's okay if I have a little taste test, right~?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85828,
+      "id": "db_EventInfo:101388:1",
+      "jp": "え……コッペリナ……？",
+      "en": "Huh... Koppelina...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85829,
+      "id": "db_EventInfo:101389:34",
+      "jp": "あの身持ちの堅い、ルーシェが選んだ人間、興味あるんだよねぇ",
+      "en": "I'm interested in the human that uptight Lusche picked.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85830,
+      "id": "db_EventInfo:101390:34",
+      "jp": "ボクだって淫魔なわけだし……まずはこっちで確かめないと……Д",
+      "en": "I am a succubus, you know... I have to check for myself first... Д",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85831,
+      "id": "db_EventInfo:101391:1",
+      "jp": "お、落ち着けってコッペリナ……出口を塞がれて……！",
+      "en": "Hey, calm down, Koppelina... You're blocking the exit...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85832,
+      "id": "db_EventInfo:101392:34",
+      "jp": "まあまあ、これもフルコース完成に必要なことだから～Д",
+      "en": "Now, now, this is also needed to complete the full course~ Д",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85833,
+      "id": "db_EventInfo:101393:34",
+      "jp": "ルーシェが認めたおちんちん、素直に出しちゃってね～？",
+      "en": "Just be a good boy and let out the cock Lusche approved~?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85834,
+      "id": "db_EventInfo:101394:0",
+      "jp": "魔族のコッペリナに抵抗できるはずもなく、そのままズボンを下ろされた。",
+      "en": "I couldn't possibly resist Koppelina, a demon. She pulled down my pants right away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85835,
+      "id": "db_EventInfo:101395:0",
+      "jp": "★エッチシーン・コッペリナ・個別①・つまみぐいフェラ",
+      "en": "★H-Scene: Koppelina Solo ①: Tasting Fellatio",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85836,
+      "id": "db_EventInfo:101396:1",
+      "jp": "コッペリナの一族は、みんな魔界料理人なのか？",
+      "en": "Is everyone in Koppelina's clan a demon world chef?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85837,
+      "id": "db_EventInfo:101398:34",
+      "jp": "う～ん、料理人は多いけど、他には舞踏とか調教とか、歌が好きな子もいるね",
+      "en": "Hmm, there are a lot of chefs, but some like dancing, training others, or singing.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85838,
+      "id": "db_EventInfo:101399:1",
+      "jp": "……大魔族というんだから、エッチなことばかり好きかと",
+      "en": "...I thought, being a great demon clan, they'd only be into lewd stuff.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85839,
+      "id": "db_EventInfo:101400:34",
+      "jp": "ひど～い",
+      "en": "That's so mean~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85840,
+      "id": "db_EventInfo:101401:1",
+      "jp": "淫魔なのに？",
+      "en": "You're a succubus, aren't you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85841,
+      "id": "db_EventInfo:101402:34",
+      "jp": "淫魔だからって、年中エッチなこと考えるのは、ルーシェたち【『ルーラ』】だけだよぉ",
+      "en": "Just because we're succubi, it's only the Lulas like Lusche who think about sex all year round~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85842,
+      "id": "db_EventInfo:101403:8",
+      "jp": "ひど～い",
+      "en": "That's so mean~",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 85843,
+      "id": "db_EventInfo:101404:1",
+      "jp": "うーん、そういえばカリストたち【『ウィルチ』】も大魔族がどうとか言ってたような",
+      "en": "Hmm, now that you mention it, the Wilch like Callisto were also talking about high demons or something.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85844,
+      "id": "db_EventInfo:101405:1",
+      "jp": "魔族ってのは、思ったよりエッチなことは好きじゃないのか？",
+      "en": "So demons, in general, aren't as into sex as I thought?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85845,
+      "id": "db_EventInfo:101406:24",
+      "jp": "七大公爵家は、それぞれ得意な領分がございます",
+      "en": "The Seven Great Ducal Houses each have their own expertise.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 85846,
+      "id": "db_EventInfo:101407:24",
+      "jp": "文化や芸術を好む【『グラット』】、薬学や叡智を好む【『ウィルチ』】などと",
+      "en": "Such as the Gratt who favor culture and the arts, the Wilch who favor pharmacy and wisdom.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 85847,
+      "id": "db_EventInfo:101408:24",
+      "jp": "私たち【『ルーラ』】は、まあ……【『色欲』】の魔族と言われますので。夜の営みが得意ですわД",
+      "en": "And we, the Lulas, well... we're known as the demons of Lust. So we're good at nighttime activities Д.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 85848,
+      "id": "db_EventInfo:101409:24",
+      "jp": "どうです？　この後はご一緒に……Д",
+      "en": "So? How about we go together after this... Д.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 85849,
+      "id": "db_EventInfo:101410:8",
+      "jp": "そうだよお兄ちゃん、ムラムラしたらいつでも相手してあげるからねД",
+      "en": "That's right, big brother, if you're feeling horny, I'm always ready to take care of you Д.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 85850,
+      "id": "db_EventInfo:101411:34",
+      "jp": "そういうところなんだよねー",
+      "en": "See, that's exactly what they're like~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85851,
+      "id": "db_EventInfo:101412:0",
+      "jp": "【『魔界五大珍味』】の情報が集まってきたようだ。",
+      "en": "I've gathered info on the 'Five Demonic Delicacies'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85852,
+      "id": "db_EventInfo:101414:34",
+      "jp": "五大珍味のひとつ、珍獣【『パナイシロウサギ』】はゲットしたね",
+      "en": "We got one of the Five Delicacies - the rare beast, the 'Panai White Rabbit'.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85853,
+      "id": "db_EventInfo:101415:34",
+      "jp": "今回は発見すること自体が大変だったけど、次の【『魔界五大珍味』】はもう少し見付けやすいはずだよ！",
+      "en": "Just finding it this time was tough, but the next 'Demonic Delicacy' should be a bit easier to find!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85854,
+      "id": "db_EventInfo:101416:1",
+      "jp": "そうだといいんだけど……【珍味】だもんな",
+      "en": "Hope so... but it is a 'delicacy'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85855,
+      "id": "db_EventInfo:101417:2",
+      "jp": "簡単に見つかるようじゃ、【珍味】とは言えないデス",
+      "en": "If it were easy to find, you couldn't call it a 'delicacy'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85856,
+      "id": "db_EventInfo:101418:34",
+      "jp": "そうなんだよねー。今度の珍味も、捕獲は激ムズ！",
+      "en": "Exactly. Catching this next delicacy will be super hard!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85857,
+      "id": "db_EventInfo:101419:34",
+      "jp": "次の目標は大海の大怪魚、【『アマニアオオナマズ』】だよ！",
+      "en": "The next target is the great sea monster fish, the 'Amania Giant Catfish'!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85858,
+      "id": "db_EventInfo:101420:1",
+      "jp": "大海の大怪魚……",
+      "en": "A great sea monster fish...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85859,
+      "id": "db_EventInfo:101421:2",
+      "jp": "なんというか、既視感がある相手デスね",
+      "en": "Somehow, this opponent feels familiar.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85860,
+      "id": "db_EventInfo:101422:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85861,
+      "id": "db_EventInfo:101423:1",
+      "jp": "……【『アマニアオオナマズ』】か。アマニアって、あのアーマニア海のことだよな？",
+      "en": "...The 'Amania Giant Catfish'. 'Amania', that's the Amania Sea, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85862,
+      "id": "db_EventInfo:101424:34",
+      "jp": "【<pl>】ちゃん、意外と頭回るね～？　うんうん、大正解っ♪　アーマニア海の深海に生息するオオナマズだよ",
+      "en": "【<pl>】, you're sharper than you look! Yep, spot on! It's a giant catfish that lives in the deep sea of the Amania Sea.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85863,
+      "id": "db_EventInfo:101425:1",
+      "jp": "オオナマズって言うからには……相当なサイズだろうなぁ",
+      "en": "If it's called 'Giant Catfish'... it must be pretty huge.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85864,
+      "id": "db_EventInfo:101426:34",
+      "jp": "んー、そうみたいだね",
+      "en": "Hmm, looks that way.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85865,
+      "id": "db_EventInfo:101427:34",
+      "jp": "ふふっ、大きな屋敷を飲み込むぐらい巨大な怪物魚だよ",
+      "en": "Hehe, it's a monster fish big enough to swallow a large mansion.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85866,
+      "id": "db_EventInfo:101428:34",
+      "jp": "そいつが暴れるだけで、船がひっくり返るほどの巨体なんだ",
+      "en": "It's so big, just thrashing around could capsize a ship.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85867,
+      "id": "db_EventInfo:101429:34",
+      "jp": "うふふ、ビビった？",
+      "en": "Ooh, scared?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85868,
+      "id": "db_EventInfo:101432:34",
+      "jp": "……あれ？　なんだか反応が薄いなぁ",
+      "en": "...Huh? Your reaction is kinda weak.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85869,
+      "id": "db_EventInfo:101433:34",
+      "jp": "船がひっくり返るほどの怪物魚だよ、怖いでしょ？",
+      "en": "It's a monster fish that can flip ships! That's scary, right?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85870,
+      "id": "db_EventInfo:101434:1",
+      "jp": "そう言われてもなぁ",
+      "en": "Even if you say that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85871,
+      "id": "db_EventInfo:101435:2",
+      "jp": "そいつ、島ぐらいデカいんデス？",
+      "en": "Is it as big as an island, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85872,
+      "id": "db_EventInfo:101436:34",
+      "jp": "えっ、島？",
+      "en": "Huh? An island?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85873,
+      "id": "db_EventInfo:101437:34",
+      "jp": "そんなのいるわけないじゃない～",
+      "en": "No way something like that exists~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85874,
+      "id": "db_EventInfo:101438:1",
+      "jp": "なるほど。キングホエールより大きい相手なら、対策を考える必要があったが",
+      "en": "I see. If the opponent was bigger than King Whale, we would've needed a plan.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85875,
+      "id": "db_EventInfo:101439:2",
+      "jp": "問題なさそうデス",
+      "en": "Looks fine to me.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85876,
+      "id": "db_EventInfo:101440:34",
+      "jp": "え～～～～～～！？",
+      "en": "Whhhhaaaat!?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85877,
+      "id": "db_EventInfo:101441:2",
+      "jp": "まあともあれ、海に詳しそうなヤツに居場所を聞いておくかデス",
+      "en": "Anyway, we should ask someone who knows the ocean where it is.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85878,
+      "id": "db_EventInfo:101443:25",
+      "jp": "ほほー、【『アマニアオオナマズ』】でありますか",
+      "en": "Hoho... The 'Great Armany Ocean Catfish'.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85879,
+      "id": "db_EventInfo:101444:25",
+      "jp": "自分と同じ名前が付いていると、なんだかこうムズムズしますな！",
+      "en": "It's got the same name as me! That gives me an itchy feeling, you know!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85880,
+      "id": "db_EventInfo:101445:2",
+      "jp": "オマエみたいにぐーたらしてたら、手間も少なくなるデスけどねー",
+      "en": "If it were lazy like you, that'd be less hassle for us.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85881,
+      "id": "db_EventInfo:101446:25",
+      "jp": "ひどいですな～！",
+      "en": "That's so mean!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85882,
+      "id": "db_EventInfo:101447:25",
+      "jp": "しかし、敵はアーマニア海の大怪魚、腕が鳴りますな！",
+      "en": "But, the enemy is the great monster fish of the Armany Sea! My arms are tingling!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85883,
+      "id": "db_EventInfo:101448:34",
+      "jp": "え～？　コイツが海に詳しいってヤツ？",
+      "en": "Huh? Is *this* the guy who knows the ocean?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85884,
+      "id": "db_EventInfo:101449:34",
+      "jp": "覇気というか、オーラを感じないんだけど～？",
+      "en": "He's got no... fighting spirit or aura, you know?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85885,
+      "id": "db_EventInfo:101450:25",
+      "jp": "ひどいですぞ～！",
+      "en": "That's so mean!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85886,
+      "id": "db_EventInfo:101451:2",
+      "jp": "まあ、陸の上のコイツは役立たずデス",
+      "en": "Yeah, this guy here on land is useless.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 85887,
+      "id": "db_EventInfo:101452:1",
+      "jp": "でも海の上なら頼りになるんだよな。捕獲の際には頼りにしてるよ",
+      "en": "But I can count on you at sea, right? I rely on you when we're capturing stuff.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85888,
+      "id": "db_EventInfo:101453:25",
+      "jp": "任せてくだされ～Д",
+      "en": "Leave it to me~Д",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 85889,
+      "id": "db_EventInfo:101454:1",
+      "jp": "【『アマニアオオナマズ』】はアーマニア海の深海にいるって言っていたな",
+      "en": "So, you said the 'Giant Armany Catfish' lives in the deep sea of the Armany Ocean.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85890,
+      "id": "db_EventInfo:101455:1",
+      "jp": "ネルディーネは知らないか？",
+      "en": "Neldine, do you know anything about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85891,
+      "id": "db_EventInfo:101457:26",
+      "jp": "地上住みの私は存じませんが、海住みの私の方なら、存じてるかもしれませんわね",
+      "en": "I, the land-dweller, do not. But my sea-dwelling self might know.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85892,
+      "id": "db_EventInfo:101458:1",
+      "jp": "なるほど、でも海底まで行くのは、骨が折れるんだよなぁ",
+      "en": "I see. But getting all the way to the seafloor sounds like a real pain.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 85893,
+      "id": "db_EventInfo:101459:34",
+      "jp": "えっ、海底……？",
+      "en": "Huh, the seafloor...?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 85894,
+      "id": "db_EventInfo:101460:26",
+      "jp": "ご心配なく。どれ、呼び出して差し上げましょう",
+      "en": "Don't worry. Here, I'll call her out for you.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85895,
+      "id": "db_EventInfo:101461:26",
+      "jp": "え～と、もしもし海底のワタクシ？　【<pl>】様がお呼びですわ",
+      "en": "Um, hello? Myself on the seafloor? 【<pl>】 is calling for you.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85896,
+      "id": "db_EventInfo:101462:26",
+      "jp": "【影】をこっちに寄越しなさいませ？",
+      "en": "Send your 【shadow】 over here, would you?",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85897,
+      "id": "db_EventInfo:101463:26",
+      "jp": "……はあ？　昼メシを食べたばかりで眠い？",
+      "en": "...Hah? You just ate lunch and you're sleepy?",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85898,
+      "id": "db_EventInfo:101464:26",
+      "jp": "さっさと起きないなら、例のドワームの娘をそっちに向かわせてもいいんですわよ？",
+      "en": "If you don't get up right now, I could send that Dwarm girl over to you, you know?",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 85899,
+      "id": "db_EventInfo:101467:28",
+      "jp": "お～ほほほ！　お招きいただき光栄ですわ～！",
+      "en": "O-ho-ho-ho! I'm honored by your invitation!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 85900,
+      "id": "db_EventInfo:101468:2",
+      "jp": "頭が悪い方のネルディーネデス",
+      "en": "That's Neldine, the dumb one.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

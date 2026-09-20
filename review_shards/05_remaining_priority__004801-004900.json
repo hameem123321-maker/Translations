@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4801,
+  "range_end": 4900,
+  "pairs": [
+    {
+      "n": 4801,
+      "id": "rem_32420",
+      "jp": "『資源投資』を【10回】以上実行",
+      "en": "Perform 'Resource Investment' 【10+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4802,
+      "id": "rem_32421",
+      "jp": "カネを使ってガッポリデス２",
+      "en": "Use money to get rich 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4803,
+      "id": "rem_32422",
+      "jp": "『資源投資』を【20回】以上実行",
+      "en": "Perform 'Resource Investment' 【20+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4804,
+      "id": "rem_32423",
+      "jp": "カネを使ってガッポリデス３",
+      "en": "Use money to get rich 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4805,
+      "id": "rem_32424",
+      "jp": "『資源投資』を【25回】以上実行",
+      "en": "Perform 'Resource Investment' 【25+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4806,
+      "id": "rem_32425",
+      "jp": "カネを使ってガッポリデス４",
+      "en": "Use money to get rich 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4807,
+      "id": "rem_32426",
+      "jp": "『資源投資』を【40回】以上実行",
+      "en": "Perform 'Resource Investment' 【40+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4808,
+      "id": "rem_32427",
+      "jp": "カネを使ってガッポリデス５",
+      "en": "Use money to get rich 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4809,
+      "id": "rem_32428",
+      "jp": "『資源投資』を【55回】以上実行",
+      "en": "Perform 'Resource Investment' 【55+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4810,
+      "id": "rem_32429",
+      "jp": "カネを使ってガッポリデス６",
+      "en": "Use money to get rich 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4811,
+      "id": "rem_32430",
+      "jp": "『資源投資』を【70回】以上実行",
+      "en": "Perform 'Resource Investment' 【70+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4812,
+      "id": "rem_32431",
+      "jp": "カネを使ってガッポリデス７",
+      "en": "Use money to get rich 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4813,
+      "id": "rem_32432",
+      "jp": "『資源投資』を【80回】以上実行",
+      "en": "Perform 'Resource Investment' 【80+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4814,
+      "id": "rem_32433",
+      "jp": "カネを使ってガッポリデス８",
+      "en": "Use money to get rich 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4815,
+      "id": "rem_32434",
+      "jp": "『組織献金』を【10回】以上実行",
+      "en": "Perform 'Organization Donation' 【10+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4816,
+      "id": "rem_32435",
+      "jp": "カネーアンドピースデス１",
+      "en": "Money and Peace 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4817,
+      "id": "rem_32436",
+      "jp": "『組織献金』を【20回】以上実行",
+      "en": "Perform 'Organization Donation' 【20+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4818,
+      "id": "rem_32437",
+      "jp": "カネーアンドピースデス２",
+      "en": "Money and Peace 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4819,
+      "id": "rem_32438",
+      "jp": "『組織献金』を【30回】以上実行",
+      "en": "Perform 'Organization Donation' 【30+】 times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4820,
+      "id": "rem_32439",
+      "jp": "カネーアンドピースデス３",
+      "en": "Money and Peace 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4821,
+      "id": "rem_32440",
+      "jp": "『組織献金』を【40回】以上実行",
+      "en": "Perform『Organization Donations』【40】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4822,
+      "id": "rem_32441",
+      "jp": "カネーアンドピースデス４",
+      "en": "Money and Peace Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4823,
+      "id": "rem_32442",
+      "jp": "『組織献金』を【60回】以上実行",
+      "en": "Perform『Organization Donations』【60】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4824,
+      "id": "rem_32443",
+      "jp": "カネーアンドピースデス５",
+      "en": "Money and Peace Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4825,
+      "id": "rem_32444",
+      "jp": "『組織献金』を【80回】以上実行",
+      "en": "Perform『Organization Donations』【80】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4826,
+      "id": "rem_32445",
+      "jp": "カネーアンドピースデス６",
+      "en": "Money and Peace Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4827,
+      "id": "rem_32446",
+      "jp": "『組織献金』を【100回】以上実行",
+      "en": "Perform『Organization Donations』【100】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4828,
+      "id": "rem_32447",
+      "jp": "カネーアンドピースデス７",
+      "en": "Money and Peace Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4829,
+      "id": "rem_32448",
+      "jp": "『組織献金』を【120回】以上実行",
+      "en": "Perform『Organization Donations』【120】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4830,
+      "id": "rem_32449",
+      "jp": "カネーアンドピースデス８",
+      "en": "Money and Peace Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4831,
+      "id": "rem_32450",
+      "jp": "『事業投資』を【5回】以上実行",
+      "en": "Perform『Business Investments』【5】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4832,
+      "id": "rem_32451",
+      "jp": "カネで世界を動かすデス１",
+      "en": "Move the World with Money Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4833,
+      "id": "rem_32452",
+      "jp": "『事業投資』を【10回】以上実行",
+      "en": "Perform『Business Investments』【10】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4834,
+      "id": "rem_32453",
+      "jp": "カネで世界を動かすデス２",
+      "en": "Move the World with Money Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4835,
+      "id": "rem_32454",
+      "jp": "『事業投資』を【15回】以上実行",
+      "en": "Perform『Business Investments』【15】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4836,
+      "id": "rem_32455",
+      "jp": "カネで世界を動かすデス３",
+      "en": "Move the World with Money Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4837,
+      "id": "rem_32456",
+      "jp": "『事業投資』を【20回】以上実行",
+      "en": "Perform『Business Investments』【20】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4838,
+      "id": "rem_32457",
+      "jp": "カネで世界を動かすデス４",
+      "en": "Move the World with Money Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4839,
+      "id": "rem_32458",
+      "jp": "『事業投資』を【30回】以上実行",
+      "en": "Perform『Business Investments』【30】or more times",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4840,
+      "id": "rem_32459",
+      "jp": "カネで世界を動かすデス５",
+      "en": "Move the World with Money Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4841,
+      "id": "rem_32460",
+      "jp": "『事業投資』を【40回】以上実行",
+      "en": "Perform 【40】 or more 'Business Investments'",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4842,
+      "id": "rem_32461",
+      "jp": "カネで世界を動かすデス６",
+      "en": "Money Makes the World Go Round 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4843,
+      "id": "rem_32462",
+      "jp": "『事業投資』を【50回】以上実行",
+      "en": "Perform 【50】 or more 'Business Investments'",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4844,
+      "id": "rem_32463",
+      "jp": "カネで世界を動かすデス７",
+      "en": "Money Makes the World Go Round 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4845,
+      "id": "rem_32464",
+      "jp": "『事業投資』を【60回】以上実行",
+      "en": "Perform 【60】 or more 'Business Investments'",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4846,
+      "id": "rem_32465",
+      "jp": "カネで世界を動かすデス８",
+      "en": "Money Makes the World Go Round 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4847,
+      "id": "rem_32466",
+      "jp": "『料理』の開発メニューが【5種】以上",
+      "en": "Develop 【5】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4848,
+      "id": "rem_32467",
+      "jp": "料理メニューを開発デス１",
+      "en": "Develop Cuisine Menus 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4849,
+      "id": "rem_32468",
+      "jp": "『料理』の開発メニューが【10種】以上",
+      "en": "Develop 【10】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4850,
+      "id": "rem_32469",
+      "jp": "料理メニューを開発デス２",
+      "en": "Develop Cuisine Menus 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4851,
+      "id": "rem_32470",
+      "jp": "『料理』の開発メニューが【15種】以上",
+      "en": "Develop 【15】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4852,
+      "id": "rem_32471",
+      "jp": "料理メニューを開発デス３",
+      "en": "Develop Cuisine Menus 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4853,
+      "id": "rem_32472",
+      "jp": "『料理』の開発メニューが【20種】以上",
+      "en": "Develop 【20】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4854,
+      "id": "rem_32473",
+      "jp": "料理メニューを開発デス４",
+      "en": "Develop Cuisine Menus 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4855,
+      "id": "rem_32474",
+      "jp": "『料理』の開発メニューが【30種】以上",
+      "en": "Develop 【30】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4856,
+      "id": "rem_32475",
+      "jp": "料理メニューを開発デス５",
+      "en": "Develop Cuisine Menus 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4857,
+      "id": "rem_32476",
+      "jp": "『料理』の開発メニューが【40種】以上",
+      "en": "Develop 【40】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4858,
+      "id": "rem_32477",
+      "jp": "料理メニューを開発デス６",
+      "en": "Develop Cuisine Menus 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4859,
+      "id": "rem_32478",
+      "jp": "『料理』の開発メニューが【50種】以上",
+      "en": "Develop 【50】 or more 'Cuisine' menu items",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4860,
+      "id": "rem_32479",
+      "jp": "料理メニューを開発デス７",
+      "en": "Develop Cuisine Menus 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4861,
+      "id": "rem_32480",
+      "jp": "『料理』の開発メニューが【60種】以上",
+      "en": "Cooking development menus: over 【60】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4862,
+      "id": "rem_32481",
+      "jp": "料理メニューを開発デス８",
+      "en": "Develop cooking menus 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4863,
+      "id": "rem_32482",
+      "jp": "『鍛冶』の開発メニューが【5種】以上",
+      "en": "Smithing development menus: over 【5】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4864,
+      "id": "rem_32483",
+      "jp": "鍛冶メニューを開発デス１",
+      "en": "Develop smithing menus 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4865,
+      "id": "rem_32484",
+      "jp": "『鍛冶』の開発メニューが【10種】以上",
+      "en": "Smithing development menus: over 【10】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4866,
+      "id": "rem_32485",
+      "jp": "鍛冶メニューを開発デス２",
+      "en": "Develop smithing menus 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4867,
+      "id": "rem_32486",
+      "jp": "『鍛冶』の開発メニューが【15種】以上",
+      "en": "Smithing development menus: over 【15】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4868,
+      "id": "rem_32487",
+      "jp": "鍛冶メニューを開発デス３",
+      "en": "Develop smithing menus 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4869,
+      "id": "rem_32488",
+      "jp": "『鍛冶』の開発メニューが【20種】以上",
+      "en": "Smithing development menus: over 【20】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4870,
+      "id": "rem_32489",
+      "jp": "鍛冶メニューを開発デス４",
+      "en": "Develop smithing menus 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4871,
+      "id": "rem_32490",
+      "jp": "『鍛冶』の開発メニューが【30種】以上",
+      "en": "Smithing development menus: over 【30】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4872,
+      "id": "rem_32491",
+      "jp": "鍛冶メニューを開発デス５",
+      "en": "Develop smithing menus 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4873,
+      "id": "rem_32492",
+      "jp": "『鍛冶』の開発メニューが【40種】以上",
+      "en": "Smithing development menus: over 【40】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4874,
+      "id": "rem_32493",
+      "jp": "鍛冶メニューを開発デス６",
+      "en": "Develop smithing menus 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4875,
+      "id": "rem_32494",
+      "jp": "『鍛冶』の開発メニューが【50種】以上",
+      "en": "Smithing development menus: over 【50】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4876,
+      "id": "rem_32495",
+      "jp": "鍛冶メニューを開発デス７",
+      "en": "Develop smithing menus 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4877,
+      "id": "rem_32496",
+      "jp": "『鍛冶』の開発メニューが【60種】以上",
+      "en": "Smithing development menus: over 【60】 types.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4878,
+      "id": "rem_32497",
+      "jp": "鍛冶メニューを開発デス８",
+      "en": "Develop smithing menus 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4879,
+      "id": "rem_32498",
+      "jp": "『搾精』の累計売上が【800万ゴールド】以上",
+      "en": "Cumulative \"Extraction\" sales: over 【8 million Gold】.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4880,
+      "id": "rem_32499",
+      "jp": "カネも精も搾り取るデス１",
+      "en": "Draining both money and essence 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4881,
+      "id": "rem_32500",
+      "jp": "『搾精』の累計売上が【1600万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【16 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4882,
+      "id": "rem_32501",
+      "jp": "カネも精も搾り取るデス２",
+      "en": "Draining Coin and Essence: Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4883,
+      "id": "rem_32502",
+      "jp": "『搾精』の累計売上が【3200万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【32 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4884,
+      "id": "rem_32503",
+      "jp": "カネも精も搾り取るデス３",
+      "en": "Draining Coin and Essence: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4885,
+      "id": "rem_32504",
+      "jp": "『搾精』の累計売上が【6500万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【65 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4886,
+      "id": "rem_32505",
+      "jp": "カネも精も搾り取るデス４",
+      "en": "Draining Coin and Essence: Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4887,
+      "id": "rem_32506",
+      "jp": "『搾精』の累計売上が【1億3000万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【130 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4888,
+      "id": "rem_32507",
+      "jp": "カネも精も搾り取るデス５",
+      "en": "Draining Coin and Essence: Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4889,
+      "id": "rem_32508",
+      "jp": "『搾精』の累計売上が【2億7000万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【270 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4890,
+      "id": "rem_32509",
+      "jp": "カネも精も搾り取るデス６",
+      "en": "Draining Coin and Essence: Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4891,
+      "id": "rem_32510",
+      "jp": "『搾精』の累計売上が【5億5000万ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【550 million gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4892,
+      "id": "rem_32511",
+      "jp": "カネも精も搾り取るデス７",
+      "en": "Draining Coin and Essence: Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4893,
+      "id": "rem_32512",
+      "jp": "『搾精』の累計売上が【11億ゴールド】以上",
+      "en": "Cumulative sales of 'Essence Extraction' reach 【1.1 billion gold】 or more.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4894,
+      "id": "rem_32513",
+      "jp": "カネも精も搾り取るデス８",
+      "en": "Draining Coin and Essence: Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4895,
+      "id": "rem_32514",
+      "jp": "『錬金』の開発メニューが【5種】以上",
+      "en": "Developed 【5】 or more types of 'Alchemy' menu items.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4896,
+      "id": "rem_32515",
+      "jp": "錬金メニューを開発デス１",
+      "en": "Develop Alchemy Menu: Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4897,
+      "id": "rem_32516",
+      "jp": "『錬金』の開発メニューが【10種】以上",
+      "en": "Developed 【10】 or more types of 'Alchemy' menu items.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4898,
+      "id": "rem_32517",
+      "jp": "錬金メニューを開発デス２",
+      "en": "Develop Alchemy Menu: Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4899,
+      "id": "rem_32518",
+      "jp": "『錬金』の開発メニューが【15種】以上",
+      "en": "Developed 【15】 or more types of 'Alchemy' menu items.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4900,
+      "id": "rem_32519",
+      "jp": "錬金メニューを開発デス３",
+      "en": "Develop Alchemy Menu: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

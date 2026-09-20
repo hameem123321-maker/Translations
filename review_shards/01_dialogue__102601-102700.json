@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102601,
+  "range_end": 102700,
+  "pairs": [
+    {
+      "n": 102601,
+      "id": "db_EventInfo:121222:2",
+      "jp": "まったく、無駄遣いしやがってデス",
+      "en": "Tch. What a waste of money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102602,
+      "id": "db_EventInfo:121223:1",
+      "jp": "か、カネならある……！",
+      "en": "W-we have the money...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102603,
+      "id": "db_EventInfo:121224:6",
+      "jp": "さすがは店長様です。さっそく、【『<ruby=ヒエペリオ>教会</ruby>』】の方々を呼んで参りますわね",
+      "en": "As expected of you, Store Manager. I'll go and call the 'Hieperio Church' people right away.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102604,
+      "id": "db_EventInfo:121227:0",
+      "jp": "その後、【『<ruby=ヒエペリオ>教会</ruby>』】から派遣された神父が、気持ち悪いぐらいニコニコしながら握手してきた。",
+      "en": "Later, a priest sent by the 'Hieperio Church' came and shook my hand, smiling so much it was creepy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102605,
+      "id": "db_EventInfo:121228:0",
+      "jp": "【『<ruby=ヒエペリオ>教会</ruby>』】が支援して、この店の宣伝もしてくれたらしく。客足も増えることになった。",
+      "en": "With the 'Hieperio Church' backing us, they seem to have spread the word about the shop. We started getting more customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102606,
+      "id": "db_EventInfo:121229:2",
+      "jp": "癒着デス。こうして宗教とカネはズブズブになっていくのデスね",
+      "en": "Collusion. This is how religion and money get all tangled up together.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102607,
+      "id": "db_EventInfo:121231:2",
+      "jp": "おいオマエ、商売の話デス",
+      "en": "Hey you, it's about business.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102608,
+      "id": "db_EventInfo:121232:1",
+      "jp": "お前が商売の話をすると、ろくでもない気がするんだが",
+      "en": "When you talk business, I get a bad feeling.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102609,
+      "id": "db_EventInfo:121233:2",
+      "jp": "何を言うのデス、これは絶対にもうかる話デス！",
+      "en": "What are you saying? This is a surefire money-maker!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102610,
+      "id": "db_EventInfo:121234:2",
+      "jp": "名付けて【聖女グッズ】、これは確実にもうかるデス！",
+      "en": "Call it 'Saintess Goods.' We're sure to make a profit!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102611,
+      "id": "db_EventInfo:121235:1",
+      "jp": "本当にろくでもない……",
+      "en": "It really is shady...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102612,
+      "id": "db_EventInfo:121239:6",
+      "jp": "えっ、わたくしを商品化ですか？",
+      "en": "What? You want to turn me into a product?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102613,
+      "id": "db_EventInfo:121240:2",
+      "jp": "デスデス。いまやオマエは、【『<ruby=ヒエペリオ>教会</ruby>』】認定の【『聖女』】デス",
+      "en": "Yes, yes. You're now officially the 'Saintess' as recognized by the 'Hyperion Church'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102614,
+      "id": "db_EventInfo:121241:6",
+      "jp": "あのその、私はそんな大層な者では……",
+      "en": "Oh, um, I'm not really that important...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102615,
+      "id": "db_EventInfo:121242:2",
+      "jp": "黙るデス。オマエが【『聖女』】ってのは、あいつらが認めてるデス",
+      "en": "Be quiet. They're the ones who declared you a 'Saintess'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102616,
+      "id": "db_EventInfo:121243:2",
+      "jp": "【『聖女』】というのは【『神』】の次ぐらいにありがたい存在デス。そんなのが店にいるんだから、カネにしないのは勿体ないデス！！",
+      "en": "A 'Saintess' is almost as revered as a 'God'. Having one in our shop, it'd be a waste not to cash in!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102617,
+      "id": "db_EventInfo:121244:2",
+      "jp": "よってそのブランドは商品になるデス。ありがたいツボとか売りさばくデス！",
+      "en": "So, that brand becomes our product. We'll sell blessed pots and stuff!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102618,
+      "id": "db_EventInfo:121245:6",
+      "jp": "ええっ……！？",
+      "en": "Huh...!?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102619,
+      "id": "db_EventInfo:121246:1",
+      "jp": "マリーゼルは困惑しているなぁ",
+      "en": "Marisel seems confused.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102620,
+      "id": "db_EventInfo:121247:2",
+      "jp": "何を傍観してるデス？　オマエも説得するデス。宿の発展のための重要な仕事デスよ？",
+      "en": "What are you just standing there for, Shine? You need to persuade her too. It's important work for the inn's development!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102621,
+      "id": "db_EventInfo:121248:1",
+      "jp": "う、ううむ……ええと",
+      "en": "Uh... um...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102622,
+      "id": "db_EventInfo:121249:1",
+      "jp": "こ……これも信仰を広げるためなんだ",
+      "en": "Th... this is also to spread the faith.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102623,
+      "id": "db_EventInfo:121250:6",
+      "jp": "信仰！",
+      "en": "Faith!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102624,
+      "id": "db_EventInfo:121251:6",
+      "jp": "それは素晴らしいことですわ。わたくしも協力させていただきます！！",
+      "en": "That is wonderful. Please allow me to help as well!!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102625,
+      "id": "db_EventInfo:121252:2",
+      "jp": "ククク……ちょろいデス。これで大もうけ間違いないデス！",
+      "en": "Hehehe... too easy. With this, we're sure to make a huge profit!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102626,
+      "id": "db_EventInfo:121253:2",
+      "jp": "さっそく商品を考えるデス。何を売るデス？",
+      "en": "Let's start thinking of products right away. What should we sell?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102627,
+      "id": "db_EventInfo:121254:1",
+      "jp": "そうは言っても、思いつかないぞ",
+      "en": "Even so, I can't think of anything.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102628,
+      "id": "db_EventInfo:121255:2",
+      "jp": "ちっ。使えねーやつデス",
+      "en": "Tch. You're useless.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102629,
+      "id": "db_EventInfo:121256:2",
+      "jp": "しかしウチには優秀なスタッフがたくさんいるデス。そいつらにアイデアを出させるデス！",
+      "en": "But we have lots of great staff. We'll make them come up with ideas!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102630,
+      "id": "db_EventInfo:121258:25",
+      "jp": "【『聖女』】様を商品化するですと？　バチがあたるのではありませんかな？",
+      "en": "Turning the 'Saint' into a product, you say? Won't that bring divine punishment?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102631,
+      "id": "db_EventInfo:121259:2",
+      "jp": "やかましいデス。私は神、いわゆるゴッドデスよ？　バチなんて当たるかデス",
+      "en": "Shut up, Death. I'm a god, you know? A God-Death. No curse's gonna hit me, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102632,
+      "id": "db_EventInfo:121260:2",
+      "jp": "さあアイデアを出すデス。出さなきゃ、オマエの原稿を全部燃やしてやるデス",
+      "en": "Now, give me some ideas, Death. If you don't, I'll burn all your manuscripts, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102633,
+      "id": "db_EventInfo:121261:25",
+      "jp": "ひいい！　ご勘弁を……！",
+      "en": "Eeek! Have mercy...!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102634,
+      "id": "db_EventInfo:121262:1",
+      "jp": "邪神だ……",
+      "en": "She's an evil god...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102635,
+      "id": "db_EventInfo:121263:2",
+      "jp": "サイン入り水着ブロマイドを限定生産するデス？　これは高く売れるデス！",
+      "en": "How about limited-edition signed swimsuit photos? Death. These'll sell for a high price, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102636,
+      "id": "db_EventInfo:121264:6",
+      "jp": "あの、これと信仰がどう関係が……",
+      "en": "Um, how does this relate to faith...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102637,
+      "id": "db_EventInfo:121265:25",
+      "jp": "デュフフ、美少女の裸体は高く売れるというのは、古代からの真理なのですぞ",
+      "en": "Dehehe, it is an eternal truth from ancient times that a beautiful girl's nude form sells for a high price, you know.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102638,
+      "id": "db_EventInfo:121266:2",
+      "jp": "うむ。信仰とは世俗に広めることが重要なのデス。多少俗っぽいこともなきにしもあらずデス",
+      "en": "Hmm. Spreading faith in the secular world is important, Death. A little vulgarity isn't out of the question, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102639,
+      "id": "db_EventInfo:121267:6",
+      "jp": "なるほど",
+      "en": "I see.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102640,
+      "id": "db_EventInfo:121268:2",
+      "jp": "さあ、服を脱げデス、水着に着替えろデス！",
+      "en": "Now, take off your clothes, Death! Change into a swimsuit, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102641,
+      "id": "db_EventInfo:121271:0",
+      "jp": "マリーゼルは最初は恥ずかしがっていたが、シイネの説得で合意し、最終的にはわりとノリノリで撮影してくれた。",
+      "en": "Marisel was shy at first, but Shiine persuaded her and she agreed. In the end, she got quite into the photoshoot.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102642,
+      "id": "db_EventInfo:121272:2",
+      "jp": "ククク……いつもの接客の仕事の成果が出たデス。これで爆売れ間違いないデス",
+      "en": "Kukuku... This shows the results of her usual customer service work, Death. These are definitely gonna sell like crazy, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102643,
+      "id": "db_EventInfo:121273:25",
+      "jp": "デュフフ、その折りには私めにも一口嚙ませていただきたいですぞ",
+      "en": "Duhehe, when that happens, I'd like to have a bite too.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102644,
+      "id": "db_EventInfo:121274:2",
+      "jp": "そちも悪いヤツデスねぇ。仕方ないデス",
+      "en": "You're a bad person too, aren't you. No choice.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102645,
+      "id": "db_EventInfo:121275:25",
+      "jp": "デュフフフフ",
+      "en": "Duhehehehe",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102646,
+      "id": "db_EventInfo:121276:6",
+      "jp": "あのー。シイネ様、お客様が来ておりますわ。【『<ruby=ヒエペリオ>教会</ruby>』】の方々です",
+      "en": "Um. Miss Shiine, a customer has arrived. It's people from the 'Church'.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102647,
+      "id": "db_EventInfo:121277:2",
+      "jp": "ん？　お客さんデス？",
+      "en": "Huh? A customer?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102648,
+      "id": "db_EventInfo:121278:2",
+      "jp": "なんデス、私はマリーゼルの商品化の件で忙し……えっ、その商品は販売が認められない？",
+      "en": "What is it? I'm busy with the Marisel product matter... Wait, that product's sales aren't approved?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102649,
+      "id": "db_EventInfo:121279:2",
+      "jp": "ネガを燃やすデス？　せっかく撮影したのに、酷いデス！　こらーっ！",
+      "en": "Burn the negatives? After I went to the trouble of taking pictures, that's terrible! Hey!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102650,
+      "id": "db_EventInfo:121282:0",
+      "jp": "写真はすべて処分させられてしまった。悪い商売はするべきではないという神の思し召しだろうか。いや、目の前のこの女も自称神だが。",
+      "en": "All the photos were made to be disposed of. I guess it's God's will that you shouldn't do bad business. No, but this woman in front of me calls herself a god too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102651,
+      "id": "db_EventInfo:121283:2",
+      "jp": "失敗デス",
+      "en": "Failure.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102652,
+      "id": "db_EventInfo:121284:1",
+      "jp": "いわんこっちゃない",
+      "en": "Serves you right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102653,
+      "id": "db_EventInfo:121285:2",
+      "jp": "ぐぬぬデス",
+      "en": "Grrr.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102654,
+      "id": "db_EventInfo:121286:2",
+      "jp": "もっと！　もっと別のアイデアを出させるデス！",
+      "en": "More! Come up with more different ideas!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102655,
+      "id": "db_EventInfo:121287:0",
+      "jp": "ちなみに当のマリーゼルは、ブロマイド作成を気に入ってしまったらしい。",
+      "en": "By the way, Marisel herself seems to really like making the bromides.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102656,
+      "id": "db_EventInfo:121288:0",
+      "jp": "その後、鏡の前で軽くポーズを決める、マリーゼルの姿が目撃されたとか、なんとか……。",
+      "en": "After that, there were sightings... like Marisel posing in front of a mirror or something.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102657,
+      "id": "db_EventInfo:121290:9",
+      "jp": "マリーゼルを商品化するのであるか？",
+      "en": "Are you going to merchandise Marisel?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102658,
+      "id": "db_EventInfo:121291:9",
+      "jp": "別にそのようなことをせんでも、店頭に出させておけば十分な利益をもたらしてくれると思うのであるが",
+      "en": "I think just having her out front brings in enough profit. You don't need to do that.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102659,
+      "id": "db_EventInfo:121292:2",
+      "jp": "やかましいデス。天才なら天才らしく、アイデアを出すデス！",
+      "en": "You're too loud! If you're a genius, act like one and give us an idea!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102660,
+      "id": "db_EventInfo:121293:2",
+      "jp": "ほほう、ツボ……天才らしからぬ、凡庸なアイデアデス",
+      "en": "Hohoh... Pots?... A mundane idea, not fitting for a genius.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102661,
+      "id": "db_EventInfo:121294:2",
+      "jp": "しかしツボ……そこはかとなく美しい響き。やはり信仰といえばツボに限るデス",
+      "en": "But pots... have a certain beautiful ring to them. For faith, it's all about pots!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102662,
+      "id": "db_EventInfo:121295:9",
+      "jp": "うむ。ちょうどいい錬金用のツボが余っていたから、持っていけである",
+      "en": "Hmm. I have a spare alchemy pot, so you can take it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 102663,
+      "id": "db_EventInfo:121296:2",
+      "jp": "おお、持っていると幸運になりそうなツボデス！。これを好事家どもに売りに行くデス",
+      "en": "Ooh, a pot that looks like it brings good luck! Let's go sell this to collectors!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102664,
+      "id": "db_EventInfo:121298:1",
+      "jp": "ああ……あからさまな詐欺商品が……って、カリストは部屋に戻ってしまったぞ。めんどくさいから適当にあしらわれたなこれ",
+      "en": "Ah... That's obviously a scam product... Hey, Callisto went back to his room. He just brushed us off because it was a hassle.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102665,
+      "id": "db_EventInfo:121300:2",
+      "jp": "聞こえないデース。とにかくマリーゼル、【『<ruby=ブレッシング>祝福</ruby>』】をかけるデス☆",
+      "en": "I can't hear youuu! Anyway, Marisel, cast ['Blessing'] on it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102666,
+      "id": "db_EventInfo:121301:6",
+      "jp": "はっ、はい！",
+      "en": "Yes, sir!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102667,
+      "id": "db_EventInfo:121304:0",
+      "jp": "マリーゼルが【『<ruby=ブレッシング>祝福</ruby>』】をかけた瞬間、ツボは音もなく砕け散ってしまった。",
+      "en": "As soon as Marisel cast 'Blessing', the pot shattered into pieces without a sound.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102668,
+      "id": "db_EventInfo:121305:6",
+      "jp": "あら？",
+      "en": "Oh my?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102669,
+      "id": "db_EventInfo:121306:2",
+      "jp": "ツボがー！　ありがたく見せさせるツボがー！",
+      "en": "The pot! The pot that makes people look grateful!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102670,
+      "id": "db_EventInfo:121307:1",
+      "jp": "バチが当たったんじゃないかな？",
+      "en": "Maybe it was divine punishment?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102671,
+      "id": "db_EventInfo:121308:6",
+      "jp": "ツボは罪の重さに耐えかねて割れてしまったのですわ",
+      "en": "The pot couldn't bear the weight of your sins and broke.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 102672,
+      "id": "db_EventInfo:121309:2",
+      "jp": "仕方ないデス。それでは割れたツボの破片を売ることにするデス",
+      "en": "Can't be helped desu. We'll just sell the broken pieces of the pot then desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102673,
+      "id": "db_EventInfo:121312:0",
+      "jp": "その後。人の罪を代替わりするありがたい遺物、との名目で売ったツボの破片は、それなりに売れたというのは、また別の話である。",
+      "en": "Later. It's a different story how we sold the pot pieces pretty well, saying they were precious relics that take on people's sins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102674,
+      "id": "db_EventInfo:121313:2",
+      "jp": "失敗デス",
+      "en": "Failure desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102675,
+      "id": "db_EventInfo:121314:1",
+      "jp": "いわんこっちゃない",
+      "en": "Told you so.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102676,
+      "id": "db_EventInfo:121315:2",
+      "jp": "ぐぬぬデス",
+      "en": "Grunu desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102677,
+      "id": "db_EventInfo:121316:2",
+      "jp": "もっと！　もっと別のアイデアを出させるデス！",
+      "en": "More! Come up with more different ideas desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102678,
+      "id": "db_EventInfo:121319:10",
+      "jp": "マリーゼルにすごいモノを作らせる？",
+      "en": "Have Marisel make something amazing?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102679,
+      "id": "db_EventInfo:121320:2",
+      "jp": "そうデス！　とにかくすごいものを作らせたいのデス！！",
+      "en": "That's right! I really want to make something incredible, no matter what!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102680,
+      "id": "db_EventInfo:121321:10",
+      "jp": "【『聖女』】の力を無理に使うとよくないと、聞いたことがあるのだが？",
+      "en": "I've heard it's not good to force the use of the 'Saintess's' power?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102681,
+      "id": "db_EventInfo:121322:2",
+      "jp": "やかましいデス。やってみないとわからないのデスー！",
+      "en": "You're being noisy! You won't know until you try!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102682,
+      "id": "db_EventInfo:121323:1",
+      "jp": "いやもう、すでに結果は出ている気がするんだが",
+      "en": "Well, no, I feel like the result is already pretty clear.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102683,
+      "id": "db_EventInfo:121324:2",
+      "jp": "聞こえないデース！　私はもっと手軽に簡単に、大金が欲しいんデス！",
+      "en": "I can't hear you! I want a lot of money, easily and simply!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102684,
+      "id": "db_EventInfo:121325:1",
+      "jp": "ダメすぎる……",
+      "en": "That's just terrible...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102685,
+      "id": "db_EventInfo:121326:2",
+      "jp": "オマエはエルフィードで物知りデス。【『聖女』】に関わるもので、なんかすごいモノはないのデス！？",
+      "en": "You're an elf and know things. Do you know of anything amazing related to the 'Saintess'!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102686,
+      "id": "db_EventInfo:121327:10",
+      "jp": "ふむ……。そうだな",
+      "en": "Hmm... Let me think.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102687,
+      "id": "db_EventInfo:121328:2",
+      "jp": "【『聖女』】の剣！　それを忘れていたデス！",
+      "en": "The 'Saintess's' sword! I forgot about that!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102688,
+      "id": "db_EventInfo:121331:10",
+      "jp": "うむ、かつて人類を絶滅寸前まで追い詰めた、語るもおぞましき【『<ruby=メイガス>大邪竜</ruby>』】",
+      "en": "Yes. It's the dreadful 'Megas', the great evil dragon that once drove humanity to the brink of extinction.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102689,
+      "id": "db_EventInfo:121332:10",
+      "jp": "それを退けたのが、かの【『<ruby=ドラゴンスレイヤー>聖女の加護の剣</ruby>』】――それはかつて【『聖女』】の【『祝福』】を受けたドワームの【『勇者』】が作ったという",
+      "en": "The one that repelled it was the legendary 'Dragon Slayer' sword, blessed by the Saintess. They say it was made by Dwarm's Hero, who once received the Saintess's 'Blessing'.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102690,
+      "id": "db_EventInfo:121333:10",
+      "jp": "我らが長老も、その剣を見たことがあるとかないとか。聞いたことがあるようなないような",
+      "en": "Our elder might have seen that sword, or maybe not. I've sort of heard about it, or maybe I haven't.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102691,
+      "id": "db_EventInfo:121334:10",
+      "jp": "うちにもすごい【魔弓】はあるんだが、それも差し置いて――その点だけに関しては、手放しでドワームを褒め称えるんだ。よほどすごかったんだろう",
+      "en": "We have some amazing magic bows too, but even compared to those... just on that point, I can praise Dwarm without any reservations. It must have been truly incredible.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102692,
+      "id": "db_EventInfo:121335:10",
+      "jp": "といっても、滅亡に瀕した人類が最後に生み出した【『奇跡』】。いくらあの金床女が【『鍛冶姫』】と呼ばれようと、簡単には再現できないだろうがな",
+      "en": "Then again, it was a Miracle created by humanity on the brink of extinction. No matter how much that anvil woman is called the Forging Princess, she probably can't easily recreate it.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102693,
+      "id": "db_EventInfo:121336:10",
+      "jp": "いや、まあアイツが本当に命賭けて一心不乱に剣を打ったら、もしかしたらもしかするかもしれんしなぁ……いや、アイツがそんな殊勝なタマか？",
+      "en": "Well, no... if she really risked her life and hammered away single-mindedly, maybe, just maybe... Nah, is she really that noble a soul?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102694,
+      "id": "db_EventInfo:121337:10",
+      "jp": "って、あれ？　シイネ殿はいずこに？",
+      "en": "Wait, huh? Where did Sir Shiine go?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102695,
+      "id": "db_EventInfo:121338:1",
+      "jp": "シイネなら、アンジュの工房に飛んでいったぞ",
+      "en": "Shiine? He flew off to Anju's workshop.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102696,
+      "id": "db_EventInfo:121339:10",
+      "jp": "そ、そうか……",
+      "en": "O-oh, I see...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102697,
+      "id": "db_EventInfo:121341:10",
+      "jp": "……店長殿、私がいま喋ったことは他言しないように",
+      "en": "...Shopkeeper, please don't repeat what I just said to anyone.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102698,
+      "id": "db_EventInfo:121342:1",
+      "jp": "えっ？　あ、ああ？",
+      "en": "Huh? O-okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102699,
+      "id": "db_EventInfo:121345:0",
+      "jp": "そう言うと、エリオルダは逃げ出してしまった。",
+      "en": "Saying that, Eliorda ran away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102700,
+      "id": "db_EventInfo:121346:1",
+      "jp": "嫌な予感がする",
+      "en": "I have a bad feeling about this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

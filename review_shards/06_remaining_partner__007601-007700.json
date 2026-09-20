@@ -1,0 +1,808 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7601,
+  "range_end": 7700,
+  "pairs": [
+    {
+      "n": 7601,
+      "id": "rem_08561",
+      "jp": "おい、大丈夫か……？",
+      "en": "Hey, are you okay...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7602,
+      "id": "rem_08562",
+      "jp": "進んでも大丈夫かしら？",
+      "en": "Is it okay to proceed?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7603,
+      "id": "rem_08563",
+      "jp": "あの、大丈夫ですか？",
+      "en": "Um, are you okay?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7604,
+      "id": "rem_08564",
+      "jp": "ねえ、進んで大丈夫なの？",
+      "en": "Hey, is it okay to proceed?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7605,
+      "id": "rem_08565",
+      "jp": "進んでも大丈夫であるか？",
+      "en": "Is proceeding acceptable?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7606,
+      "id": "rem_08566",
+      "jp": "【<pl>】殿、本当に大丈夫なのか？",
+      "en": "Lord 【<pl>】, are you truly sure about this?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7607,
+      "id": "rem_08567",
+      "jp": "本当に大丈夫なのですか？",
+      "en": "Are you really sure about this?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7608,
+      "id": "rem_08568",
+      "jp": "少し危ないかな……そろそろ引き上げも考えた方がいいよ",
+      "en": "This seems a bit dangerous... we should consider retreating soon.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7609,
+      "id": "rem_08569",
+      "jp": "このまま進んで大丈夫でしょうか……？",
+      "en": "Is it really okay to proceed like this...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7610,
+      "id": "rem_08570",
+      "jp": "ほ、本当に大丈夫か……？",
+      "en": "R-really, are you sure...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7611,
+      "id": "rem_08571",
+      "jp": "このまま進んで大丈夫かねぇ……",
+      "en": "Is it really okay to proceed like this...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7612,
+      "id": "rem_08572",
+      "jp": "おいおい店長よ、まだ進むつもりなのか？",
+      "en": "Hey, hey, Shopkeeper, do you really still intend to go on?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7613,
+      "id": "rem_08573",
+      "jp": "大丈夫か？　震えるんじゃないぞ",
+      "en": "You okay? Don't be shaking now.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7614,
+      "id": "rem_08574",
+      "jp": "そろそろ危険じゃないかな……？",
+      "en": "Isn't it getting dangerous soon...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7615,
+      "id": "rem_08575",
+      "jp": "御主人様、本当に大丈夫です？",
+      "en": "Master, are you really alright?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7616,
+      "id": "rem_08576",
+      "jp": "まだ戻らないんですの？",
+      "en": "Aren't they back yet?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7617,
+      "id": "rem_08577",
+      "jp": "そんな進んで、大丈夫かいな……",
+      "en": "Going that far ahead, you sure it's okay...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7618,
+      "id": "rem_08578",
+      "jp": "【<pl>】様、大丈夫なのですか？",
+      "en": "【<pl>】-sama, are you okay?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7619,
+      "id": "rem_08579",
+      "jp": "大丈夫でしょうか？　無理なさらないで下さいませ",
+      "en": "Are you alright? Please don't push yourself too hard.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7620,
+      "id": "rem_08580",
+      "jp": "今の見た？　昇給してくれてもいいんですよД",
+      "en": "Did you see that? You could give me a raise, you knowД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7621,
+      "id": "rem_08581",
+      "jp": "今のはいいのが入りましたわ！",
+      "en": "That one was a good shot!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7622,
+      "id": "rem_08582",
+      "jp": "どないや？　ええ一撃やったろ！",
+      "en": "How about that? Pretty good hit, right!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7623,
+      "id": "rem_08583",
+      "jp": "決まりましたわ……！",
+      "en": "Got them...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7624,
+      "id": "rem_08584",
+      "jp": "クリーンヒットですわ！",
+      "en": "Clean hit!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7625,
+      "id": "rem_08585",
+      "jp": "どうじゃ！",
+      "en": "How's that!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7626,
+      "id": "rem_08586",
+      "jp": "見たか、勇者の実力！",
+      "en": "See, the Hero's real power!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7627,
+      "id": "rem_08587",
+      "jp": "よし、良い当りだ！",
+      "en": "Yes, good hit!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7628,
+      "id": "rem_08588",
+      "jp": "おや、雑魚デスね",
+      "en": "Oh, small fry, aren't you.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7629,
+      "id": "rem_08589",
+      "jp": "さっさと蹴散らすのじゃ",
+      "en": "Let's kick them out of the way quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7630,
+      "id": "rem_08590",
+      "jp": "なんだ、弱そうだな",
+      "en": "What, they look weak.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7631,
+      "id": "rem_08591",
+      "jp": "早く倒してしまいましょう",
+      "en": "Let's defeat them quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7632,
+      "id": "rem_08592",
+      "jp": "弱い者いじめになってしまいますわ",
+      "en": "This might turn into bullying the weak.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7633,
+      "id": "rem_08593",
+      "jp": "ささっと仕留めちゃおうよ",
+      "en": "Let's take 'em out quick.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7634,
+      "id": "rem_08594",
+      "jp": "早く倒しちゃお？",
+      "en": "Wanna finish 'em fast?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7635,
+      "id": "rem_08595",
+      "jp": "とっとと仕留めてしまおう",
+      "en": "Let's finish them off quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7636,
+      "id": "rem_08596",
+      "jp": "蹴散らすぞ",
+      "en": "We're gonna kick 'em to the curb.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7637,
+      "id": "rem_08597",
+      "jp": "大したことないけど……油断しないでね",
+      "en": "They don't seem like much... but don't let your guard down, okay?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7638,
+      "id": "rem_08598",
+      "jp": "早く終わらせましょう",
+      "en": "Let's wrap this up quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7639,
+      "id": "rem_08599",
+      "jp": "この程度の連中なら、楽勝かな？",
+      "en": "If it's just a bunch like this, it should be a piece of cake, right?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7640,
+      "id": "rem_08600",
+      "jp": "ふむ、こんな連中に時間をかけてはいられませんね",
+      "en": "Hmm, we can't afford to waste time on a crowd like this.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7641,
+      "id": "rem_08601",
+      "jp": "へへ、この程度、俺一人で十分かもな！",
+      "en": "Heh heh, for this level, I might be enough on my own!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7642,
+      "id": "rem_08602",
+      "jp": "へっ、さっさと蹴散らしてやるか！",
+      "en": "Heh, I'll just kick 'em to the curb real quick!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7643,
+      "id": "rem_08603",
+      "jp": "こんな奴らしかおらんのでは、腕も鈍るわい",
+      "en": "If there's only guys like this around, my skills are gonna get rusty.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7644,
+      "id": "rem_08604",
+      "jp": "ザコか。露払いは任せてくれ",
+      "en": "Cannon fodder. Leave the clearing out to me.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7645,
+      "id": "rem_08605",
+      "jp": "油断しないで",
+      "en": "Don't get careless.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7646,
+      "id": "rem_08606",
+      "jp": "さっさと片付けて下さいよ",
+      "en": "Hurry up and take care of them, please.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7647,
+      "id": "rem_08607",
+      "jp": "早く片付けましょう",
+      "en": "Let's take care of it quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7648,
+      "id": "rem_08608",
+      "jp": "ザコやん？　さっさと片付けましょ",
+      "en": "They're just small fry, right? Let's finish 'em off quick.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7649,
+      "id": "rem_08609",
+      "jp": "早く片付けてしまいましょう",
+      "en": "Let's get this taken care of quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7650,
+      "id": "rem_08610",
+      "jp": "相手をするのも時間の無駄ですわね",
+      "en": "It's a waste of time to even deal with them, isn't it?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7651,
+      "id": "rem_08611",
+      "jp": "さっさと始末せい",
+      "en": "Get it over with quickly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7652,
+      "id": "rem_08612",
+      "jp": "さっさと片付けてやるぜ",
+      "en": "I'll finish 'em off real quick.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7653,
+      "id": "rem_08613",
+      "jp": "ザコだからって手を抜くんじゃないよ！",
+      "en": "Don't hold back just 'cause it's a weak one!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7654,
+      "id": "rem_08614",
+      "jp": "気を付けて行くデス",
+      "en": "I'll be careful",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7655,
+      "id": "rem_08615",
+      "jp": "手強そうじゃな……",
+      "en": "Looks like a tough one...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7656,
+      "id": "rem_08616",
+      "jp": "仕留めがいのあるエモノだぞ！",
+      "en": "This is a worthy foe!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7657,
+      "id": "rem_08617",
+      "jp": "逃げた方がよろしいのでは……？",
+      "en": "Wouldn't it be better to run...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7658,
+      "id": "rem_08618",
+      "jp": "これは強敵ですわ……！",
+      "en": "This is a strong enemy...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7659,
+      "id": "rem_08619",
+      "jp": "ちょっと厳しい相手じゃない……？",
+      "en": "Isn't this opponent a bit tough...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7660,
+      "id": "rem_08620",
+      "jp": "た、大変な相手だよぉ……",
+      "en": "Th-this is a terrible opponent...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7661,
+      "id": "rem_08621",
+      "jp": "強敵であるな",
+      "en": "This is a formidable enemy.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7662,
+      "id": "rem_08622",
+      "jp": "気を付けろ……！",
+      "en": "Be careful...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7663,
+      "id": "rem_08623",
+      "jp": "逃げる事も考えなくちゃ、かな……",
+      "en": "We have to think about running, maybe...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7664,
+      "id": "rem_08624",
+      "jp": "迂闊に挑むのは危険ですね……",
+      "en": "Challenging it recklessly is dangerous...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7665,
+      "id": "rem_08625",
+      "jp": "はは、もうイきそうかぁ？　震えやがって……Д　可愛い奴だなぁД",
+      "en": "Haha, about to cum already? You're trembling...Д Cute little thing.Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7666,
+      "id": "rem_08626",
+      "jp": "あは☆　凄く、震えちゃってますねД　えへへ、我慢しないで、気持ち良くなって下さいねД",
+      "en": "Aha☆ You're trembling so much, aren't you?Д Ehehe, don't hold back, just feel good.Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7667,
+      "id": "rem_08627",
+      "jp": "ふぅん、もう我慢できないのかい？　仕方ないねぇ……Д",
+      "en": "Hmm, can't hold back anymore? Well, can't be helped...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7668,
+      "id": "rem_08628",
+      "jp": "あぁんД　今度は、私も、んんД　もっと、激しく、してくださいД",
+      "en": "AhhnД This time, I'm also, nnnД Please, more, harder.Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7669,
+      "id": "rem_08629",
+      "jp": "あん、は、早く……Д　私も、もっと、気持ち良く……Д",
+      "en": "Ah, ha, faster...Д I also, want to feel better...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7670,
+      "id": "rem_08630",
+      "jp": "あっ、うっ、は、はい……Д　その、もっと、私も……Д",
+      "en": "Ah, uh, ha, yes...Д That, more, I also...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7671,
+      "id": "rem_08631",
+      "jp": "んぐ、んく、んっ、ちゅ、んんっД　口に、んんっД　多すぎ、んんんっД",
+      "en": "Ngh, nk, nn, chu, nnnД In my mouth, nnnД Too much, nnnnД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7672,
+      "id": "rem_08632",
+      "jp": "あんД　ちょ、わわわっД　手に、んんっД",
+      "en": "AhnД Whoa, wowowД On my hand, nnnД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7673,
+      "id": "rem_08633",
+      "jp": "【<pl>】様、も、もう少し、続けてはいただけませんか……Д",
+      "en": "【<pl>】, c-can you go a little longer... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7674,
+      "id": "rem_08634",
+      "jp": "ねぇ……Д　まだ終わりじゃないよねД",
+      "en": "Hey... Д It's not over yet, right? Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7675,
+      "id": "rem_08635",
+      "jp": "ふぅん、もっと楽しいこと言ってくださいよ",
+      "en": "Hmm, tell me something more fun.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7676,
+      "id": "rem_08636",
+      "jp": "何を仰っておりますの？",
+      "en": "What are you saying?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7677,
+      "id": "rem_08637",
+      "jp": "ふぅん、よく知っとるな",
+      "en": "Hmm, you know it well.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7678,
+      "id": "rem_08638",
+      "jp": "中々興味深いですわね",
+      "en": "That's quite interesting, isn't it?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7679,
+      "id": "rem_08639",
+      "jp": "ふむ……一応ネタになりそうですな",
+      "en": "Hmm... it could be material, I suppose.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7680,
+      "id": "rem_08640",
+      "jp": "はぁ、はぁ、もっと、激しくしなさい……Д",
+      "en": "Hah, hah, harder... do it harder... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7681,
+      "id": "rem_08641",
+      "jp": "んんД　もっと、動いてД　乱暴に、してくれぇД",
+      "en": "Nnn Д More... move more... Д Roughly... do it rough... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7682,
+      "id": "rem_08642",
+      "jp": "まだ、足りないよД　んんД　もっと、一緒に、あんД　気持ち良く、なろД",
+      "en": "It's... not enough yet... Д Nnn Д More... together... ahn Д Let's feel good... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7683,
+      "id": "rem_08643",
+      "jp": "はぁ、はぁ、もっと、強く、しなさいよД　メイドを、イジメて、あぁんД　気持ち良く、なって、はぁ、いいですよД",
+      "en": "Hah, hah, harder... do it harder... Д Bully the maid... aaahn Д Feels good... I'm feeling good... hah, it's fine... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7684,
+      "id": "rem_08644",
+      "jp": "んんД　全然、足りませんわД　もっと、あんД　激しく、お願いしますД",
+      "en": "Nnn Д Not at all... enough... Д More... ahn Д Roughly... please... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7685,
+      "id": "rem_08645",
+      "jp": "あんД　そこ、気持ちいいД　んんД　もっと、あぁんД",
+      "en": "Ahn Д There... feels good... Д Nnn Д More... aaahn... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7686,
+      "id": "rem_08646",
+      "jp": "んんД　私、全然、満足、できませんわД　もっと、んんД　動いて、下さいませД",
+      "en": "Nnn Д I... I can't... feel satisfied at all... Д More... nnn Д Move... please... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7687,
+      "id": "rem_08647",
+      "jp": "んんД　もっと、あんД　強くぅД　オマンコ、はぁ、激しく、して下されД",
+      "en": "Nnn Д More... ahn Д Harder... Д My pussy... hah... do it hard... please... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7688,
+      "id": "rem_08648",
+      "jp": "あん、もう、我慢、できないД　もっと、ふあぁД　強く、お願いしますわД",
+      "en": "Ahn... I can't... hold back anymore... Д More... fuahh Д Harder... I beg you... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7689,
+      "id": "rem_08649",
+      "jp": "あんД　はぁ、はぁ、あんД　奥まで、欲しくて、んんД　もっと、腰を、振るのじゃД",
+      "en": "Ahn Д Hah, hah, ahn Д I want it... deep inside... nnn Д More... move your hips... I'm moving them... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7690,
+      "id": "rem_08650",
+      "jp": "あんД　もっと、んんД　強く、しろよД　はぁ、大丈夫、だからぁД",
+      "en": "Ahn Д More... nnn Д Harder... do it... Д Hah, it's fine... so... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7691,
+      "id": "rem_08651",
+      "jp": "はぁ、はぁ、もっと、んんД　奥まで、はぁ、強くして、あぁんД　【<pl>】様Д",
+      "en": "Hah, hah, more... nnn Д Deep inside... hah... do it hard... aaahn Д 【<pl>】... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7692,
+      "id": "rem_08652",
+      "jp": "あぁんД　凄いの、はぁ、足りないД　もっと、んんД　【<pl>】さんД　もっとぉД",
+      "en": "Aaahn Д It's amazing... hah, not enough... Д More... nnn Д 【<pl>】... Moree... Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7693,
+      "id": "rem_08653",
+      "jp": "はぁ、はぁ、【<pl>】様Д　あぁんД　もっと、はぁ、強く、お願いしますわД",
+      "en": "Hah, hah, 【<pl>】sama... Aahn... More, hah, harder, please...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7694,
+      "id": "rem_08654",
+      "jp": "あんД　これ、ふぁぁД　気持ちいいД　もっと、んんД　【<pl>】様Д",
+      "en": "Ahhn... This, faahh... feels so good... More, nnn... 【<pl>】sama...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7695,
+      "id": "rem_08655",
+      "jp": "んんД　自分は、はぁ、大丈夫、ですからД　もっと、んんД　乱暴にして、はぁ、大丈夫、ですよД",
+      "en": "Nnn... I'm, hah, fine... so... More, nnn... Be rougher with me, hah, it's okay...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7696,
+      "id": "rem_08656",
+      "jp": "あぁんД　もっと、んんД　乱暴に、してよД　私、んんД　もっと、欲しいのД",
+      "en": "Aaahn... More, nnn... Be rougher with me... I, nnn... want more...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7697,
+      "id": "rem_08657",
+      "jp": "このまま、はぁ、ウルフィナの中で、射精させてやるぞ……Д",
+      "en": "I'm gonna... hah... cum inside you just like this, Wolfina...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7698,
+      "id": "rem_08658",
+      "jp": "こんなに、好きなのに……Д　はぁ、ちゃんと、中で……Д",
+      "en": "Even though I like you this much... hah... properly... inside...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7699,
+      "id": "rem_08659",
+      "jp": "嬉しいですけど、無理だけはしないで下さいね☆",
+      "en": "I'm happy, but please don't push yourself too hard, okay? ☆",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7700,
+      "id": "rem_08660",
+      "jp": "でもさ、アタシよりも自分の身を守りなよ",
+      "en": "But hey, protect yourself before you worry about me.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

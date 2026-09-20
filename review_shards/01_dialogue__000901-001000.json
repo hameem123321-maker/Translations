@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 901,
+  "range_end": 1000,
+  "pairs": [
+    {
+      "n": 901,
+      "id": "db_EventInfo:1164:117",
+      "jp": "団長の黒将軍ローグバルトは【『邪教徒』】を憎み、一切の悪を許さないとか",
+      "en": "Captain Rogubaruto hates 'cultists'. He doesn't accept any evil.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 902,
+      "id": "db_EventInfo:1165:117",
+      "jp": "姫様が彼に惚れ込まないか不安でございます",
+      "en": "I'm worried the Princess might fall for him.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 903,
+      "id": "db_EventInfo:1166:117",
+      "jp": "姫様は【闇オークション】という存在を探っているようでございます",
+      "en": "It seems the Princess is looking for something called the 'Dark Auction'.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 904,
+      "id": "db_EventInfo:1167:117",
+      "jp": "多くの富豪が、非合法な商品を取引している、表沙汰にできない集まり……その商品は犯罪によって集められたものでしょう",
+      "en": "Many rich people trade illegal goods there. It's a secret group. The goods probably come from crime.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 905,
+      "id": "db_EventInfo:1168:117",
+      "jp": "犯罪を減らすためにも、そういった集まりは取り締まらなくてはいけないのはわかりますが",
+      "en": "I know we should stop such groups to reduce crime.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 906,
+      "id": "db_EventInfo:1169:117",
+      "jp": "なっ、なんと……姫様が【『ジルド聖騎士団』】の聖騎士として入団されてしまった",
+      "en": "Wha... what? The Princess has joined the 'Zild Holy Knight Order' as a member!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 907,
+      "id": "db_EventInfo:1170:117",
+      "jp": "実力主義の【『ジルド聖騎士団』】にて、ヒラの聖騎士団員を殴り倒してしまって、アピールしたらしいのでございます",
+      "en": "The 'Zild Holy Knight Order' values strength. She beat up a regular member to prove herself.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 908,
+      "id": "db_EventInfo:1171:117",
+      "jp": "なんと無茶な……",
+      "en": "How reckless...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 909,
+      "id": "db_EventInfo:1172:117",
+      "jp": "姫様が姿を消してしまわれました。きっと【『ジルド聖騎士団』】の作戦に参加しているのでございましょう",
+      "en": "The Princess is gone. She must be on a mission for the 'Zild Holy Knight Order'.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 910,
+      "id": "db_EventInfo:1173:117",
+      "jp": "私は待つしかありませぬ……",
+      "en": "I can only wait...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 911,
+      "id": "db_EventInfo:1174:117",
+      "jp": "姫様、よくぞご無事で……",
+      "en": "Princess, I'm so glad you're safe...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 912,
+      "id": "db_EventInfo:1175:117",
+      "jp": "しかし姫様は【『ボルケミア火山』】の作戦に参加するご様子",
+      "en": "But it seems the Princess will join the 'Volkemia Volcano' mission.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 913,
+      "id": "db_EventInfo:1176:117",
+      "jp": "……まさか、評判の【『勇者』】ラシェウス殿とやらに惚れてしまったのでは？",
+      "en": "You don't mean... you've fallen for that famous 'Hero' Rasieus?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 914,
+      "id": "db_EventInfo:1177:117",
+      "jp": "私も同行して、姫様の身をお守りしなくては！",
+      "en": "I must go with you and protect you, my Princess!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 915,
+      "id": "db_EventInfo:1178:117",
+      "jp": "姫様は何かとお考えのようです……",
+      "en": "The Princess seems to be thinking about something...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 916,
+      "id": "db_EventInfo:1179:117",
+      "jp": "なんという、姫様が夢に……",
+      "en": "Oh my, the Princess in my dream...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 917,
+      "id": "db_EventInfo:1180:117",
+      "jp": "しかも、あのようなあられもない姿で現れるとは",
+      "en": "And appearing in such an indecent state, too...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 918,
+      "id": "db_EventInfo:1181:117",
+      "jp": "しかも私の上にまたがって……あれが私の欲求というのでございますか……？",
+      "en": "And on top of me... was that my own desire?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 919,
+      "id": "db_EventInfo:1182:117",
+      "jp": "姫様はまだ、世直しを続けようとなさる",
+      "en": "The Princess still intends to continue her mission to fix the world.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 920,
+      "id": "db_EventInfo:1183:117",
+      "jp": "しかしその心は誰かに寄せられているような……？",
+      "en": "But her heart seems drawn to someone...?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 921,
+      "id": "db_EventInfo:1184:114",
+      "jp": "アナタがここの店長さんですか？　私は旅の剣士ティオナです☆",
+      "en": "Are you the manager here? I'm Tiona, a traveling swordswoman!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 922,
+      "id": "db_EventInfo:1185:114",
+      "jp": "この店の料理はモグモグ……荒っぽい味ですが美味しいですね☆",
+      "en": "The food here is a bit rough, but delicious. Munch munch!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 923,
+      "id": "db_EventInfo:1186:117",
+      "jp": "姫様、はしたないですぞ",
+      "en": "Princess, that's unbecoming of you!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 924,
+      "id": "db_EventInfo:1187:114",
+      "jp": "ここは城ではないのです、鄕に入っては郷に従えです☆",
+      "en": "This isn't the castle! When in Rome, do as the Romans do!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 925,
+      "id": "db_EventInfo:1188:114",
+      "jp": "領主さん、捕まったらしいですね",
+      "en": "Looks like the lord got arrested.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 926,
+      "id": "db_EventInfo:1189:114",
+      "jp": "もしかして悪い人だったんでしょうか☆",
+      "en": "Maybe he was a bad guy? ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 927,
+      "id": "db_EventInfo:1190:117",
+      "jp": "民衆からの評判は、かなり悪かったようでございますな。しかし【『魔界』】を開こうとするほどとは",
+      "en": "His reputation with the people was quite bad, it seems. But to try and open the 'Demon Realm'...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 928,
+      "id": "db_EventInfo:1191:114",
+      "jp": "誰が善人で、誰が悪人か、わからないものですね☆",
+      "en": "It's hard to tell who's good and who's bad, huh? ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 929,
+      "id": "db_EventInfo:1192:114",
+      "jp": "もぐもぐ☆",
+      "en": "Munch munch ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 930,
+      "id": "db_EventInfo:1193:114",
+      "jp": "このお店の料理の質がアップしてますね☆　お客の人もたくさん来ているみたいです☆",
+      "en": "The food quality at this shop has gone up! ☆ Looks like lots of customers are coming too ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 931,
+      "id": "db_EventInfo:1194:117",
+      "jp": "ここの店主はかなりの若手ですが、凄腕の様子ですな",
+      "en": "The owner here is quite young, but seems very skilled.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 932,
+      "id": "db_EventInfo:1195:114",
+      "jp": "へえー。どうやって切り盛りしているのか気になります☆",
+      "en": "Huh. I wonder how they manage it all ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 933,
+      "id": "db_EventInfo:1196:114",
+      "jp": "そうだ、私もここで働かせてもらうというのはどうでしょう、宿代も浮いて、一挙両得です",
+      "en": "I know! How about I work here too? I'd save on lodging costs, it's a win-win.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 934,
+      "id": "db_EventInfo:1197:117",
+      "jp": "まさか、姫様、ここの店主殿に懸想を？　許しませんぞ！",
+      "en": "What? Princess, have you taken a fancy to the shop owner? I won't allow it!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 935,
+      "id": "db_EventInfo:1198:114",
+      "jp": "あはは☆　店長さんに迷惑なこと言わないでくださいね☆",
+      "en": "Ahaha ☆ Please don't say weird things that might bother the manager ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 936,
+      "id": "db_EventInfo:1199:117",
+      "jp": "【『ジルド聖騎士団』】に入団するなんて、何を考えているんでございますか～！",
+      "en": "Joining the 'Zild Holy Knight Order'... what are you thinking?!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 937,
+      "id": "db_EventInfo:1200:114",
+      "jp": "正義を成すにはチーム戦です☆",
+      "en": "You need a team to do what's right! ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 938,
+      "id": "db_EventInfo:1201:114",
+      "jp": "黒将軍ローグバルトさんは素敵な人なんですよ、ドキドキ☆",
+      "en": "The Black General Rogubaruto is a wonderful person, it's so exciting! ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 939,
+      "id": "db_EventInfo:1202:117",
+      "jp": "姫様～！",
+      "en": "Princess~!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 940,
+      "id": "db_EventInfo:1203:114",
+      "jp": "【『ゼカリウス』】の危機です、私も義勇軍に参加しますよ☆",
+      "en": "Zecarius is in danger! I'm joining the volunteer army too! ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 941,
+      "id": "db_EventInfo:1204:117",
+      "jp": "そんな……【『ボルケミア火山』】は危険な場所です、姫様を向かわせるわけには！",
+      "en": "No... The Bolchemia Volcano is a dangerous place, I cannot let the Princess go there!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 942,
+      "id": "db_EventInfo:1205:114",
+      "jp": "私は一時ですが【『ジルド聖騎士団』】のメンバーだった者ですよ？",
+      "en": "I was a member of the Zild Holy Knight Order, even if only for a while, you know?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 943,
+      "id": "db_EventInfo:1206:114",
+      "jp": "私がダメなら、他の人だってダメですね☆",
+      "en": "If I can't go, then no one else can either! ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 944,
+      "id": "db_EventInfo:1207:117",
+      "jp": "そんな……ま、まさか【『勇者』】目当てでございますか！？",
+      "en": "What... Could it be... are you going for the Hero!?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 945,
+      "id": "db_EventInfo:1208:114",
+      "jp": "【『勇者』】ラシェウスさんも、団長さんの仇を討ちたいそうです。私も同行して応援したいですね！",
+      "en": "I hear the Hero Rasieus wants to avenge our leader. I want to go with him to support him!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 946,
+      "id": "db_EventInfo:1209:117",
+      "jp": "そんな～！",
+      "en": "No~!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 947,
+      "id": "db_EventInfo:1210:117",
+      "jp": "姫様、世直しを続けるとはどういうことです！？",
+      "en": "Princess, what do you mean by continuing to set the world right!?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 948,
+      "id": "db_EventInfo:1211:117",
+      "jp": "【『ゼカリウス』】は平和になったのです、家に戻って元の生活にもどりますぞ！",
+      "en": "Zecarius is at peace now. Please return home and go back to your old life!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 949,
+      "id": "db_EventInfo:1212:114",
+      "jp": "イヤですよ～☆　【『王都』】に戻っても、つまらない意地の張り合いばかりですし",
+      "en": "No way~☆ Even if I go back to the 【『Royal Capital』】, it's just full of boring stubborn fights.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 950,
+      "id": "db_EventInfo:1213:114",
+      "jp": "ゴハンもおいしいですし、これからも気兼ねなく、冒険者活動に専念します～☆",
+      "en": "The food here is delicious too, so I want to keep focusing on my adventurer work without any worries~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 951,
+      "id": "db_EventInfo:1214:117",
+      "jp": "そうはいわれましても、たまには戻らなければ家族の方が心配なされます",
+      "en": "Even if you say that, if you never go back, your family will get worried.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 952,
+      "id": "db_EventInfo:1215:117",
+      "jp": "それに、【『王立騎士団』】のとりまとめが居なくなったということで。大変困っているそうなのです",
+      "en": "Also, with the 【『Royal Knight Order』】's coordinator gone. I hear they're having a lot of trouble.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 953,
+      "id": "db_EventInfo:1216:117",
+      "jp": "放置すれば、この宿にも影響が出るかもしれませんぞ",
+      "en": "If it's ignored, it might even cause problems for this inn.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 954,
+      "id": "db_EventInfo:1217:114",
+      "jp": "ええ～？",
+      "en": "Huh~?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 955,
+      "id": "db_EventInfo:1218:114",
+      "jp": "ふう。まあしょうがないですね。戻りますか",
+      "en": "Sigh. Well, I guess there's no choice. I'll go back.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 956,
+      "id": "db_EventInfo:1219:117",
+      "jp": "まさか【『王立騎士団』】が駐屯することになるとは",
+      "en": "I never thought the 【『Royal Knight Order』】 would end up stationing here.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 957,
+      "id": "db_EventInfo:1220:114",
+      "jp": "【<pl>】さんの実力を考えれば、いずれはそうなるかなぁとは思ってました☆",
+      "en": "Thinking about 【<pl>】's skills, I kinda figured this might happen someday☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 958,
+      "id": "db_EventInfo:1221:117",
+      "jp": "にしても、姫様までが駐屯する必要は……",
+      "en": "Still, for the Princess herself to need to be stationed here...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 959,
+      "id": "db_EventInfo:1222:114",
+      "jp": "今の私は、【『王立騎士団』】の使者です☆　騎士団の方にも信頼してもらわないといけません",
+      "en": "Right now, I am an envoy of the 【『Royal Knight Order』】☆ I need to earn the trust of the knights too.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 960,
+      "id": "db_EventInfo:1223:114",
+      "jp": "アナタこそ、屋敷に戻ってもいいのですよ？",
+      "en": "You're the one who could go back to the mansion, you know?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 961,
+      "id": "db_EventInfo:1224:117",
+      "jp": "そんなことできませんぞ！　目を離していれば何をするかわかりませんからな！",
+      "en": "I can't do that! If I take my eyes off you, who knows what you'll do!",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 962,
+      "id": "db_EventInfo:1225:114",
+      "jp": "ちぇ～☆",
+      "en": "Aw maaan~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 963,
+      "id": "db_EventInfo:1226:117",
+      "jp": "なにやら、この宿屋に大きな人事異動があったようですな",
+      "en": "It seems there's been a big change in staff at this inn.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 964,
+      "id": "db_EventInfo:1227:114",
+      "jp": "そうですね～。メインのスタッフさんがまとめて出て行くなんて……不思議ですね",
+      "en": "Yeah~. All the main staff leaving at once... that's weird.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 965,
+      "id": "db_EventInfo:1228:117",
+      "jp": "店長殿の人望がないというわけでもありますまいに",
+      "en": "It can't be because the manager isn't well-liked.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 966,
+      "id": "db_EventInfo:1229:117",
+      "jp": "もしや、痴話喧嘩ですかな？",
+      "en": "Maybe it's a lover's quarrel?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 967,
+      "id": "db_EventInfo:1230:114",
+      "jp": "そんな単純な話じゃないでしょうけどね～",
+      "en": "It's probably not that simple~",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 968,
+      "id": "db_EventInfo:1231:117",
+      "jp": "黄金の都とやらの遺跡が発掘されて、噂になってますな",
+      "en": "There are rumors about the ruins of the so-called 'Golden Capital' being dug up.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 969,
+      "id": "db_EventInfo:1232:114",
+      "jp": "ゼカリウスは遺跡密集地帯と呼ばれてますからね、そういう古代の遺物が出てもおかしくないです",
+      "en": "Zecarius is called a dense ruin zone, so finding ancient relics like that isn't strange.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 970,
+      "id": "db_EventInfo:1233:117",
+      "jp": "【『王都』】からも発掘隊を派遣するべきですかなぁ",
+      "en": "Should the [Royal Capital] send an excavation team too?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 971,
+      "id": "db_EventInfo:1234:114",
+      "jp": "派遣するのはいいですけど、変なものを掘り当てて、騒動になるのは御免ですよ☆",
+      "en": "Sending them is fine, but I'd rather they don't dig up something weird and cause a fuss☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 972,
+      "id": "db_EventInfo:1235:117",
+      "jp": "なにやら、北の方が騒がしいようですな",
+      "en": "Seems like it's getting noisy up north.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 973,
+      "id": "db_EventInfo:1236:114",
+      "jp": "ええ。面倒ごとは収まったはずなんですけど……警戒しておきましょうか？",
+      "en": "Yes. The trouble should be over... but should we stay on guard?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 974,
+      "id": "db_EventInfo:1237:114",
+      "jp": "なにやら、とんでもない要塞が空を飛んでるそうですね",
+      "en": "I hear some unbelievable fortress is flying in the sky.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 975,
+      "id": "db_EventInfo:1238:117",
+      "jp": "これは緊急事態ですぞ。もしアレがゼカリウスを壊滅させれば、【『王都』】にも被害は甚大です",
+      "en": "This is an emergency. If that thing destroys Zecarius, the damage to the 【『Royal Capital』】 will be massive.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 976,
+      "id": "db_EventInfo:1239:114",
+      "jp": "かといって、アレを撃墜させるような兵器を【『王都』】が出せば、大問題です",
+      "en": "But if the 【『Royal Capital』】 uses a weapon to shoot it down, that would cause big problems.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 977,
+      "id": "db_EventInfo:1240:117",
+      "jp": "そうですな……こちらも起動させるわけには……",
+      "en": "Indeed... we can't activate ours either...",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 978,
+      "id": "db_EventInfo:1241:114",
+      "jp": "【<pl>】さんがどうにかしてくれることを、祈るのみですね",
+      "en": "We can only hope 【<pl>】 can do something about it.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 979,
+      "id": "db_EventInfo:1242:117",
+      "jp": "多くの騒動は収まったようですな",
+      "en": "It seems most of the commotion has settled down.",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 980,
+      "id": "db_EventInfo:1243:114",
+      "jp": "ええ。さすがは【<pl>】さんです",
+      "en": "Yes. As expected of 【<pl>】.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 981,
+      "id": "db_EventInfo:1244:114",
+      "jp": "私も【『王立騎士団』】のハブとして、頑張った甲斐があります",
+      "en": "My hard work as the hub of the 【『Royal Knight Order』】 paid off too.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 982,
+      "id": "db_EventInfo:1245:114",
+      "jp": "このまま私も、ゼカリウスに住まわせてもらいましょう☆",
+      "en": "Let me keep living in Zecarius like this ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 983,
+      "id": "db_EventInfo:1246:117",
+      "jp": "【『王都』】は大丈夫ですかな？",
+      "en": "Will the 【『Royal Capital』】 be alright?",
+      "speaker": "Egubaruto",
+      "speaker_jp": "エグバルト"
+    },
+    {
+      "n": 984,
+      "id": "db_EventInfo:1247:114",
+      "jp": "大丈夫じゃないですか？　いくら馬鹿の集まりだからって、【『神』】にケンカなんて売らないでしょう",
+      "en": "It'll be fine, right? Even if it's a bunch of fools, they wouldn't pick a fight with a 【『God』】.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 985,
+      "id": "db_EventInfo:1248:104",
+      "jp": "私は【『ゼカリウス』】に近い小さな村から、農作物の販売に参りました",
+      "en": "I came from a small village near Zecarius to sell my farm goods.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 986,
+      "id": "db_EventInfo:1249:104",
+      "jp": "頑張って美味しい野菜を作りますので、たくさん買ってくださいねД",
+      "en": "I work hard to grow tasty vegetables, so please buy a lotД",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 987,
+      "id": "db_EventInfo:1250:104",
+      "jp": "私の村は【『アルダルク』】の農牧地帯にあるのですが、何者かによって畑が荒らされているのです",
+      "en": "My village is in the Aldaruk farming region, but someone is ruining our fields.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 988,
+      "id": "db_EventInfo:1251:104",
+      "jp": "ケモノがいるのでしょうか？",
+      "en": "Maybe it's a wild animal?",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 989,
+      "id": "db_EventInfo:1252:104",
+      "jp": "冒険者さんを雇って、追い払って貰おうにも、村は貧乏で……",
+      "en": "We'd like to hire an adventurer to chase it off, but the village is too poor...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 990,
+      "id": "db_EventInfo:1253:104",
+      "jp": "私の村は【『アルダルク』】の農牧地帯にあるのですが、何者かによって畑が荒らされているのです",
+      "en": "My village is in the Aldaruk farming region, but someone is ruining our fields.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 991,
+      "id": "db_EventInfo:1254:104",
+      "jp": "ケモノがいるのでしょうか？",
+      "en": "Maybe it's a wild animal?",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 992,
+      "id": "db_EventInfo:1255:104",
+      "jp": "冒険者さんを雇って、追い払って貰おうにも、村は貧乏で……",
+      "en": "We'd like to hire an adventurer to chase it off, but the village is too poor...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 993,
+      "id": "db_EventInfo:1256:104",
+      "jp": "……連れ戻さないと……私の、赤ちゃん……",
+      "en": "...I have to bring it back... My baby...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 994,
+      "id": "db_EventInfo:1257:104",
+      "jp": "……違うの……あいつはまだ、死んでない……",
+      "en": "...That's wrong... That one isn't dead yet...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 995,
+      "id": "db_EventInfo:1258:104",
+      "jp": "……助けて……私の赤ちゃんが……あああ……",
+      "en": "...Help... My baby... Ahhh...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 996,
+      "id": "db_EventInfo:1259:104",
+      "jp": "……私の赤ちゃん……",
+      "en": "...My baby...",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 997,
+      "id": "db_EventInfo:1260:104",
+      "jp": "村娘のヘレンです",
+      "en": "I'm Helen, the village girl.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 998,
+      "id": "db_EventInfo:1261:104",
+      "jp": "冒険のお役に立てませんが、私に出来ることでしたら、なんでも申しつけください",
+      "en": "I'm not much help for adventures, but if there's anything I can do, just tell me.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 999,
+      "id": "db_EventInfo:1262:104",
+      "jp": "宿が慌ただしいですね……大丈夫でしょうか？",
+      "en": "The inn is really busy, huh? Is everything okay?",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    },
+    {
+      "n": 1000,
+      "id": "db_EventInfo:1263:104",
+      "jp": "大きな騒動が収まったみたいですね、きっと【<pl>】様のおかげですね",
+      "en": "It seems the big commotion has settled down. It must be thanks to you, 【<pl>】.",
+      "speaker": "Helen",
+      "speaker_jp": "ヘレン"
+    }
+  ]
+}

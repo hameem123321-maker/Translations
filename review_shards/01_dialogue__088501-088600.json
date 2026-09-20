@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 88501,
+  "range_end": 88600,
+  "pairs": [
+    {
+      "n": 88501,
+      "id": "db_EventInfo:104529:20",
+      "jp": "どうしました騒々しい。今は大切なセレモニーの最中ですよ",
+      "en": "What's all this noise? We're in the middle of an important ceremony.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88502,
+      "id": "db_EventInfo:104530:20",
+      "jp": "いくら修行をしたくないからって、セレモニーを妨害することは許しませ――",
+      "en": "Even if you don't want to train, I won't allow you to disrupt the cere—",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88503,
+      "id": "db_EventInfo:104531:21",
+      "jp": "違うんです！",
+      "en": "No, that's not it!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88504,
+      "id": "db_EventInfo:104532:22",
+      "jp": "この修練場……もう起動しちゃってます！！",
+      "en": "This training ground... it's already activated!!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88505,
+      "id": "db_EventInfo:104533:20",
+      "jp": "……なんですと？",
+      "en": "...What did you say?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88506,
+      "id": "db_EventInfo:104534:0",
+      "jp": "<big>ゴゴゴゴゴゴ……</big>",
+      "en": "GRRRRRRRRR...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88507,
+      "id": "db_EventInfo:104535:1",
+      "jp": "ということは、さっきから聞こえるこの音は……",
+      "en": "So that means... this sound we've been hearing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88508,
+      "id": "db_EventInfo:104536:21",
+      "jp": "【『最果ての修練場』】が起動している音です～っ！！！",
+      "en": "It's the sound of the 【'Training Ground at the World's End'】 activating~!!!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88509,
+      "id": "db_EventInfo:104537:22",
+      "jp": "ちょっと中を覗こうとしたら、【見たこともないぐらい強いヒト】が出てきて！！",
+      "en": "We just tried to peek inside, and a 【person stronger than we've ever seen】 came out!!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88510,
+      "id": "db_EventInfo:104538:21",
+      "jp": "私たちじゃ手に負えません～！！",
+      "en": "We're no match for them~!!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88511,
+      "id": "db_EventInfo:104539:1",
+      "jp": "……ハヅキさん",
+      "en": "...Hazuki",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88512,
+      "id": "db_EventInfo:104541:20",
+      "jp": "なにもしないのに、壊れちゃいましたか？",
+      "en": "It broke... and we didn't even do anything?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88513,
+      "id": "db_EventInfo:104542:2",
+      "jp": "<big>デス～！？</big>",
+      "en": "WHAAAAAAT~!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88514,
+      "id": "db_EventInfo:104545:0",
+      "jp": "こうして、俺達の……。",
+      "en": "And so, our...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88515,
+      "id": "db_EventInfo:104546:0",
+      "jp": "【『最果ての修練場』】を巡る戦いが始まったのであった……！",
+      "en": "The battle for [The Farthest Training Ground] has begun...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88516,
+      "id": "db_EventInfo:104547:0",
+      "jp": "【『最果ての修練場』】が勝手に起動するとは……。",
+      "en": "[The Farthest Training Ground] started up on its own...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88517,
+      "id": "db_EventInfo:104549:20",
+      "jp": "あれから止めようと頑張ったのですが、止まってくれませんでした",
+      "en": "I tried to stop it after that, but I couldn't.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88518,
+      "id": "db_EventInfo:104550:2",
+      "jp": "おいデス",
+      "en": "Hey, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88519,
+      "id": "db_EventInfo:104551:20",
+      "jp": "大変なことになってしまいましたね、御主人様",
+      "en": "This is a serious problem, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88520,
+      "id": "db_EventInfo:104552:2",
+      "jp": "なに人ごとみたいなこと言ってるデス！！　責任を取れデス、責任を！！",
+      "en": "Stop talking like it's someone else's problem!! Take responsibility! Take it!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88521,
+      "id": "db_EventInfo:104553:20",
+      "jp": "まあまあ、落ち着いてくださいませ",
+      "en": "Now, now, please calm down.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88522,
+      "id": "db_EventInfo:104554:20",
+      "jp": "しかしこのようなことも想定するのが【『退魔の一族』】。対応プランは用意しております",
+      "en": "But expecting things like this is what it means to be [The Demon-Hunting Clan]. I have a response plan ready.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88523,
+      "id": "db_EventInfo:104555:1",
+      "jp": "ふむ……具体的には？",
+      "en": "Hmm... What, specifically?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88524,
+      "id": "db_EventInfo:104556:20",
+      "jp": "御主人様が【『最果ての修練場』】に入り、すべての【試練】を突破すればいいのです",
+      "en": "Master simply needs to enter [The Farthest Training Ground] and clear all of the [Trials].",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88525,
+      "id": "db_EventInfo:104557:21",
+      "jp": "そんな、他力本願な……",
+      "en": "That's... so irresponsible...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88526,
+      "id": "db_EventInfo:104558:22",
+      "jp": "製造者責任として、師匠がどうにかしてくださいよ",
+      "en": "As the manufacturer, Sensei, you should do something about this.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88527,
+      "id": "db_EventInfo:104559:20",
+      "jp": "もちろん、私も手伝いはしますが。私は表だっては手伝えません",
+      "en": "Of course, I'll help too. But I can't help with the main part.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88528,
+      "id": "db_EventInfo:104560:20",
+      "jp": "なぜなら【『最果ての修練場』】に出現する【試練】は、入る者の強さに合わされるからです",
+      "en": "That's because the challenges in the 'Ultimate Training Ground' are scaled to match the strength of the person who enters.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88529,
+      "id": "db_EventInfo:104561:20",
+      "jp": "私が入ると……。私の強さに合った【強敵】が出現してしまいます",
+      "en": "If I go in... powerful enemies matching my strength will appear.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88530,
+      "id": "db_EventInfo:104562:21",
+      "jp": "げっ……",
+      "en": "Eek...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88531,
+      "id": "db_EventInfo:104563:22",
+      "jp": "師匠に見合った【強敵】というと、やっぱ【アレ】ですよね……？",
+      "en": "If we're talking about an enemy that matches Master, it's probably that thing, right?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88532,
+      "id": "db_EventInfo:104564:20",
+      "jp": "はい",
+      "en": "Yes.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88533,
+      "id": "db_EventInfo:104565:1",
+      "jp": "【アレ】……？",
+      "en": "That thing?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88534,
+      "id": "db_EventInfo:104566:20",
+      "jp": "聞かない方が良いですよ、御主人様",
+      "en": "You're better off not asking, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88535,
+      "id": "db_EventInfo:104567:20",
+      "jp": "せっかく世界が平和になったのです。出現しない方が良いでしょう",
+      "en": "The world is finally peaceful. It's better if it doesn't show up.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88536,
+      "id": "db_EventInfo:104568:2",
+      "jp": "でも、コイツの強さに合った【強敵】だって、大概な強さになる気がするデスが",
+      "en": "But even an enemy scaled to his strength sounds like it'll be pretty tough, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88537,
+      "id": "db_EventInfo:104569:20",
+      "jp": "そこは大丈夫です。御主人様が相手なら、先方も手加減してくれるはずですし",
+      "en": "That's okay. If the opponent is you, Master, they'll probably go easy.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88538,
+      "id": "db_EventInfo:104570:1",
+      "jp": "えっ、手加減……？",
+      "en": "Huh? Go easy?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88539,
+      "id": "db_EventInfo:104571:20",
+      "jp": "負けたとしても、それはそれでオッケーです",
+      "en": "Even if you lose, that's okay too.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88540,
+      "id": "db_EventInfo:104572:1",
+      "jp": "えっ？　な、なんで……？",
+      "en": "Huh? Wh-why...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88541,
+      "id": "db_EventInfo:104573:20",
+      "jp": "それはまあ、特権みたいなものですから、【『最果ての修練場』】を突破できるのは御主人様しかいません",
+      "en": "Well, it's kind of a special privilege. Only you, Master, can get through the 'Ultimate Training Ground'.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88542,
+      "id": "db_EventInfo:104574:20",
+      "jp": "ということで、準備が出来ましたら、レッツゴーです",
+      "en": "So, whenever you're ready, let's go.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88543,
+      "id": "db_EventInfo:104575:20",
+      "jp": "どうせ封印を解放したら行くつもりだったんですよね？　手間が省けたじゃないですか",
+      "en": "You were planning to go there once the seal was released anyway, right? This just saved you some trouble.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88544,
+      "id": "db_EventInfo:104576:2",
+      "jp": "こ、こいつは……デス",
+      "en": "Th-this is... Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88545,
+      "id": "db_EventInfo:104579:0",
+      "jp": "準備が出来たら【『最果ての修練場』】に向かおう。",
+      "en": "Head to the 'Ultimate Training Ground' when you're ready.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88546,
+      "id": "db_EventInfo:104580:2",
+      "jp": "ここが最果ての修練場デスか",
+      "en": "So this is the Ultimate Training Ground, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88547,
+      "id": "db_EventInfo:104581:2",
+      "jp": "まったく、こんな面倒な事に大事なカネを使うなんて……デス",
+      "en": "Seriously, using important money on such a bothersome thing... Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88548,
+      "id": "db_EventInfo:104582:1",
+      "jp": "まあまあ……。ハヅキさんがせっかく用意してくれたんだから",
+      "en": "Now, now... Hazuki went to the trouble of preparing it for us.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88549,
+      "id": "db_EventInfo:104583:2",
+      "jp": "だからこそ不安なんデスが",
+      "en": "That's exactly why I'm worried, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 88550,
+      "id": "db_EventInfo:104584:21",
+      "jp": "そうです。ここは師匠が作った地獄の修練場。細心の注意を払わなければ",
+      "en": "That's right. This is the hellish training ground Master created. We must be extremely careful.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88551,
+      "id": "db_EventInfo:104585:22",
+      "jp": "……まあ、御主人様なら、天国の修練場になるかもしれませんが",
+      "en": "Well... if it's you, Master, it might become a heavenly training ground.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88552,
+      "id": "db_EventInfo:104586:1",
+      "jp": "えっ、それってどういう……",
+      "en": "Huh, what does that mean...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88553,
+      "id": "db_EventInfo:104587:20",
+      "jp": "ひみつです",
+      "en": "It's a secret.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88554,
+      "id": "db_EventInfo:104588:0",
+      "jp": "俺達が先に進むと……。",
+      "en": "As we move forward...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88555,
+      "id": "db_EventInfo:104590:35",
+      "jp": "来たわね貴女たち、私が相手よ！！",
+      "en": "Here you are, you guys! I'll be your opponent!!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88556,
+      "id": "db_EventInfo:104591:0",
+      "jp": "やたらと元気な少女が戦いを挑んできた！",
+      "en": "An overly energetic girl challenges us to a fight!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88557,
+      "id": "db_EventInfo:104592:21",
+      "jp": "あーっ！　コイツですよコイツ！",
+      "en": "Ah—! This is the one, this one!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88558,
+      "id": "db_EventInfo:104593:22",
+      "jp": "中の様子を見に行った、私たちをボッコボコにした変な女です！",
+      "en": "The weird woman who beat us up when we went to check inside!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88559,
+      "id": "db_EventInfo:104594:35",
+      "jp": "ふんっ、情けないわね。今度は仲間を連れてきたってわけ？",
+      "en": "Hmph, pathetic. So you brought friends this time?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88560,
+      "id": "db_EventInfo:104595:35",
+      "jp": "アンタたちも【退魔巫女】みたいだけど、情けないと思わないの",
+      "en": "You guys look like [Demon-Slaying Priestesses] too, don't you think that's pathetic?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88561,
+      "id": "db_EventInfo:104596:21",
+      "jp": "ふんっ、なんとでも言ってください！",
+      "en": "Hmph, say whatever you want!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88562,
+      "id": "db_EventInfo:104597:22",
+      "jp": "さあっ師匠、やっちゃってください！！",
+      "en": "Come on, Master, go get her!!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88563,
+      "id": "db_EventInfo:104598:20",
+      "jp": "えー",
+      "en": "Ugh...",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88564,
+      "id": "db_EventInfo:104599:35",
+      "jp": "げっ！？　ちょっと！！　師匠連れて来るのはズルじゃない！",
+      "en": "Eek!? Hey!! It's not fair to bring your master along!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88565,
+      "id": "db_EventInfo:104600:21",
+      "jp": "ふっふっふっ、勝てば良いんですよ、勝てば",
+      "en": "Hehehe, winning is all that matters. Just win.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88566,
+      "id": "db_EventInfo:104601:20",
+      "jp": "……私は手を出しませんよ",
+      "en": "...I won't get involved.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88567,
+      "id": "db_EventInfo:104602:21",
+      "jp": "そんなー",
+      "en": "Aw, come on...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88568,
+      "id": "db_EventInfo:104603:1",
+      "jp": "……なにやら醜い争いが始まってるんだが",
+      "en": "...A pretty ugly fight is starting, isn't it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88569,
+      "id": "db_EventInfo:104604:35",
+      "jp": "ちょっ！　アンタまで！！　なんでそっちの味方してるのよ！　この浮気者！！",
+      "en": "Hey! You too!? Why are you on her side, you cheater!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88570,
+      "id": "db_EventInfo:104605:1",
+      "jp": "ええっ！？　俺！？",
+      "en": "Huh!? Me!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88571,
+      "id": "db_EventInfo:104606:20",
+      "jp": "御主人様の姿は、【先方には別の姿】に映っているのです。これも修練場マジック",
+      "en": "Master, you look like 【someone else】 to them. It's part of the training ground magic.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88572,
+      "id": "db_EventInfo:104607:1",
+      "jp": "べ、別の姿？",
+      "en": "S-someone else?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88573,
+      "id": "db_EventInfo:104608:20",
+      "jp": "まあ、御主人様と【『縁』】がある、過去と未来の誰か……ですかね？",
+      "en": "Well, someone from your past or future who has a 【『connection』】 with you... I guess?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88574,
+      "id": "db_EventInfo:104609:35",
+      "jp": "なにゴチャゴチャと話してるのよ……",
+      "en": "What are you two babbling about...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88575,
+      "id": "db_EventInfo:104610:35",
+      "jp": "いいわ、アンタとは、いつか勝敗をつけようと思ってたの",
+      "en": "Good. I've been wanting to settle things with you one day.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88576,
+      "id": "db_EventInfo:104611:35",
+      "jp": "今日こそ、そのスケベ根性、たたき直して上げるわっ！！",
+      "en": "Today, I'm gonna knock that perverted attitude right out of you!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88577,
+      "id": "db_EventInfo:104612:35",
+      "jp": "な、なかなかやるわね……",
+      "en": "N-not bad...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88578,
+      "id": "db_EventInfo:104613:20",
+      "jp": "何をやってるのです。アナタの力はそんなものではないでしょう",
+      "en": "What are you doing? Your power isn't that weak, is it?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88579,
+      "id": "db_EventInfo:104614:20",
+      "jp": "やはり、修行を追加しないといけなさそうですね",
+      "en": "Looks like we need to add more training.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88580,
+      "id": "db_EventInfo:104615:35",
+      "jp": "ひえーっ！　もっとがんばります！！",
+      "en": "Yikes! I'll try harder!!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88581,
+      "id": "db_EventInfo:104616:35",
+      "jp": "ううっ……。多勢でかかるなんて卑怯よ……っ",
+      "en": "Ugh... It's not fair to gang up on me...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88582,
+      "id": "db_EventInfo:104618:21",
+      "jp": "ふふーん、いい気味です。連係プレーの勝利ですよ！",
+      "en": "Heheh, serves you right. That's a victory for teamwork!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88583,
+      "id": "db_EventInfo:104619:22",
+      "jp": "勝った者が勝利者なんですよー！　戦いは数ですからねー！！",
+      "en": "The winner is the winner! In battle, numbers matter!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88584,
+      "id": "db_EventInfo:104620:20",
+      "jp": "……アナタたちは、あとで修行の続きですね",
+      "en": "...You all will continue your training later.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88585,
+      "id": "db_EventInfo:104621:21",
+      "jp": "そんなー",
+      "en": "No way...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88586,
+      "id": "db_EventInfo:104622:35",
+      "jp": "むうーっ！！",
+      "en": "Ugh!!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88587,
+      "id": "db_EventInfo:104623:35",
+      "jp": "……まあいいわ、今回は私の負けよ。認めてあげるわ",
+      "en": "...Fine, I'll give it to you this time. I admit it.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88588,
+      "id": "db_EventInfo:104624:35",
+      "jp": "でも、ベッドの上で強気になれると、思わないことねД",
+      "en": "But don't get any ideas about being on top in bedД",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88589,
+      "id": "db_EventInfo:104625:1",
+      "jp": "えっ！？",
+      "en": "Huh!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88590,
+      "id": "db_EventInfo:104626:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★ Episode - Training Grounds Common Scene Start",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88591,
+      "id": "db_EventInfo:104627:0",
+      "jp": "★エッチシーン・修練場・シオン①・女性優位騎乗位",
+      "en": "★ Sex Scene - Training Grounds - Shion ① - Female-on-top Cowgirl",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88592,
+      "id": "db_EventInfo:104632:1",
+      "jp": "はっ……",
+      "en": "Haah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88593,
+      "id": "db_EventInfo:104633:0",
+      "jp": "俺は意識を取り戻した。",
+      "en": "My consciousness came back to me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88594,
+      "id": "db_EventInfo:104635:20",
+      "jp": "戻ってきましたね、御主人様",
+      "en": "You're back, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88595,
+      "id": "db_EventInfo:104636:20",
+      "jp": "ごほうびシーンは堪能していただけましたようですね",
+      "en": "Did you enjoy your reward scene?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88596,
+      "id": "db_EventInfo:104637:1",
+      "jp": "えっ、ごほうび？",
+      "en": "Huh, a reward?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88597,
+      "id": "db_EventInfo:104638:20",
+      "jp": "はい。【『最果ての修練場』】の【試練】をクリアすると、【『淫夢』】を見ていただけます",
+      "en": "Yes. Clearing the [Trial] of the [Farthest Training Grounds] lets you see the [Lecherous Dream].",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88598,
+      "id": "db_EventInfo:104639:1",
+      "jp": "【『淫夢』】……",
+      "en": "The [Lecherous Dream]...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88599,
+      "id": "db_EventInfo:104640:1",
+      "jp": "たしかに、夢の中の俺は、俺ではないような",
+      "en": "In that dream, I was... not really me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88600,
+      "id": "db_EventInfo:104641:20",
+      "jp": "はい。【試練】の影の方々のリクエストで、それぞれのお相手との情事を体験いただけますので",
+      "en": "Yes. At the request of the shadows of the Trial, you can experience intimacy with each partner.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

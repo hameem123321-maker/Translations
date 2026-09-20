@@ -1,0 +1,808 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8301,
+  "range_end": 8400,
+  "pairs": [
+    {
+      "n": 8301,
+      "id": "rem_09261",
+      "jp": "うおっと！　危なかった……",
+      "en": "Whoa! That was close...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8302,
+      "id": "rem_09262",
+      "jp": "止まって見えるぞ",
+      "en": "Looks like it stopped to me.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8303,
+      "id": "rem_09263",
+      "jp": "きゃっ、怖かった……",
+      "en": "Eek, that was scary...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8304,
+      "id": "rem_09264",
+      "jp": "くっ、危ないですね！",
+      "en": "Guh, that's dangerous!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8305,
+      "id": "rem_09265",
+      "jp": "ひょいっと……僕でも何とかなるもんだね",
+      "en": "Hup... even I can handle this, huh.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8306,
+      "id": "rem_09266",
+      "jp": "この程度なら……！",
+      "en": "If it's just this level...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8307,
+      "id": "rem_09267",
+      "jp": "うおっと！　あ、あぶねぇ……！",
+      "en": "Whoa! A-ah, that was close...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8308,
+      "id": "rem_09268",
+      "jp": "へっ、当たるかよ！",
+      "en": "Heh, like it'll hit!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8309,
+      "id": "rem_09269",
+      "jp": "おぉっと！？　ふぅ……ワシもまだまだイケとるわい！",
+      "en": "Whoa!? Phew... I've still got it, I tell ya!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8310,
+      "id": "rem_09270",
+      "jp": "遅い！",
+      "en": "Too slow!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8311,
+      "id": "rem_09271",
+      "jp": "うわ、危ない",
+      "en": "Whoa, dangerous.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8312,
+      "id": "rem_09272",
+      "jp": "うっ、あぶなっ",
+      "en": "Uh, that was clo...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8313,
+      "id": "rem_09273",
+      "jp": "危ないですわね！",
+      "en": "That was dangerous!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8314,
+      "id": "rem_09274",
+      "jp": "おっと、狙いが甘いで！",
+      "en": "Whoa, that was off the mark!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8315,
+      "id": "rem_09275",
+      "jp": "危ないですわね",
+      "en": "How dangerous.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8316,
+      "id": "rem_09276",
+      "jp": "ふっ、軽いものですわ！",
+      "en": "Hmph, that was nothing!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8317,
+      "id": "rem_09277",
+      "jp": "ふおぉ！？　寿命が縮まるじゃろ！",
+      "en": "Whoa!? You'll shorten my lifespan like that!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8318,
+      "id": "rem_09278",
+      "jp": "おっと、あぶねぇな！",
+      "en": "Whoa, that was close!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8319,
+      "id": "rem_09279",
+      "jp": "おっと、怖いねぇ",
+      "en": "Whoa, that's scary.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8320,
+      "id": "rem_09280",
+      "jp": "やりやがったデスね",
+      "en": "You actually did it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8321,
+      "id": "rem_09281",
+      "jp": "よくもやりおったな！",
+      "en": "How dare you do that!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8322,
+      "id": "rem_09282",
+      "jp": "よくもやったな！",
+      "en": "You actually did it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8323,
+      "id": "rem_09283",
+      "jp": "何てことするのかしら！",
+      "en": "What are you doing!?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8324,
+      "id": "rem_09284",
+      "jp": "ああ、何という事を……！",
+      "en": "Ah, what have you done...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8325,
+      "id": "rem_09285",
+      "jp": "ああっ、よくも！",
+      "en": "Ahh, how dare you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8326,
+      "id": "rem_09286",
+      "jp": "なにするのっ！！",
+      "en": "What are you doing!!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8327,
+      "id": "rem_09287",
+      "jp": "むうっ、よくも！",
+      "en": "Ugh, how dare you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8328,
+      "id": "rem_09288",
+      "jp": "くっ、よくも！",
+      "en": "Grr, how dare you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8329,
+      "id": "rem_09289",
+      "jp": "もう許さないから！",
+      "en": "I won't forgive you for this!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8330,
+      "id": "rem_09290",
+      "jp": "許しません！",
+      "en": "I won't forgive you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8331,
+      "id": "rem_09291",
+      "jp": "ああっ！？　なんてことだ……！",
+      "en": "Ahh!? What have you done...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8332,
+      "id": "rem_09292",
+      "jp": "これはいけません……！",
+      "en": "This won't do...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8333,
+      "id": "rem_09293",
+      "jp": "うおっ、なんてことしやがる！",
+      "en": "Whoa, what the hell did you just do!?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8334,
+      "id": "rem_09294",
+      "jp": "くそがっ……！",
+      "en": "Damn it...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8335,
+      "id": "rem_09295",
+      "jp": "ぬう、よくもやってくれたな！",
+      "en": "Grrr, you actually went and did it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8336,
+      "id": "rem_09296",
+      "jp": "おのれ、許さん！",
+      "en": "You bastard, I won't forgive this!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8337,
+      "id": "rem_09297",
+      "jp": "よくもやったね",
+      "en": "You really did it, huh",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8338,
+      "id": "rem_09298",
+      "jp": "何してくれてんのよ！？",
+      "en": "What the hell are you doing!?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8339,
+      "id": "rem_09299",
+      "jp": "やってくれましたわね！",
+      "en": "Well, you've done it now!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8340,
+      "id": "rem_09300",
+      "jp": "許さへんで！",
+      "en": "I ain't forgivin' this!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8341,
+      "id": "rem_09301",
+      "jp": "なんてことを！",
+      "en": "How could you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8342,
+      "id": "rem_09302",
+      "jp": "よくもやりましたわね！",
+      "en": "You've certainly done it now!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8343,
+      "id": "rem_09303",
+      "jp": "なんじゃと！？　おのれ……！",
+      "en": "What!? You...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8344,
+      "id": "rem_09304",
+      "jp": "ったく、やってくれるねぇ……！",
+      "en": "Jeez, you really went for it...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8345,
+      "id": "rem_09305",
+      "jp": "早く助けてやるデス！",
+      "en": "I'll help quickly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8346,
+      "id": "rem_09306",
+      "jp": "早く手当てするのじゃ！",
+      "en": "We must administer treatment swiftly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8347,
+      "id": "rem_09307",
+      "jp": "すぐ助けるぞ！",
+      "en": "I'll save you right away!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8348,
+      "id": "rem_09308",
+      "jp": "早く手当てを！",
+      "en": "Quick, get treatment!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8349,
+      "id": "rem_09309",
+      "jp": "手遅れになる前に、手当てを……！",
+      "en": "Before it's too late, we need treatment...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8350,
+      "id": "rem_09310",
+      "jp": "すぐに助けてあげるからね！",
+      "en": "I'll save you right away, okay!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8351,
+      "id": "rem_09311",
+      "jp": "早く手当てしなくっちゃ！",
+      "en": "We gotta treat this quickly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8352,
+      "id": "rem_09312",
+      "jp": "待っていろ、すぐ助けるぞ！",
+      "en": "Wait there, I'll save you right now!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8353,
+      "id": "rem_09313",
+      "jp": "早く手当てしてやってくれ！",
+      "en": "Hurry up and treat him!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8354,
+      "id": "rem_09314",
+      "jp": "早く手当てしてあげてください",
+      "en": "Please hurry and treat him.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8355,
+      "id": "rem_09315",
+      "jp": "まずい、すぐに何とかしないと……！",
+      "en": "This is bad, I have to do something right now...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8356,
+      "id": "rem_09316",
+      "jp": "冷静に、こういう時こそ落ち着いて！",
+      "en": "Stay calm, this is exactly the time to keep your cool!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8357,
+      "id": "rem_09317",
+      "jp": "くそ、頑張れ！　今助けるぞ！",
+      "en": "Damn it, hang in there! I'm saving you now!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8358,
+      "id": "rem_09318",
+      "jp": "待ってろ、今助けてやる……！",
+      "en": "Wait, I'm going to save you now...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8359,
+      "id": "rem_09319",
+      "jp": "待っとれ、すぐに助けてやるからな！",
+      "en": "Wait there, I'll save you right away!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8360,
+      "id": "rem_09320",
+      "jp": "手当を頼む！",
+      "en": "I'm counting on you for treatment!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8361,
+      "id": "rem_09321",
+      "jp": "救護、早く！",
+      "en": "Medical aid, hurry!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8362,
+      "id": "rem_09322",
+      "jp": "救護！　早く！",
+      "en": "Medical aid! Hurry!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8363,
+      "id": "rem_09323",
+      "jp": "急いで手当を！",
+      "en": "Treat him quickly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8364,
+      "id": "rem_09324",
+      "jp": "早く手当したって！",
+      "en": "Treat him quickly, I'm telling you!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8365,
+      "id": "rem_09325",
+      "jp": "早く手当をいたしましょう！",
+      "en": "Let's provide treatment quickly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8366,
+      "id": "rem_09326",
+      "jp": "早く後方に、手当を急いで！",
+      "en": "Quickly to the rear, hurry with the treatment!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8367,
+      "id": "rem_09327",
+      "jp": "安全な場所へ運べ！　治療させよ！",
+      "en": "Carry him to a safe place! Let me treat him!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8368,
+      "id": "rem_09328",
+      "jp": "重傷だ、早く手当を！",
+      "en": "It's a serious injury, treat him quickly!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8369,
+      "id": "rem_09329",
+      "jp": "待ってな、カタキは討ってやる",
+      "en": "Wait, I'll take down your enemy for you",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8370,
+      "id": "rem_09330",
+      "jp": "あと一息デス！",
+      "en": "Just a little more, Death!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8371,
+      "id": "rem_09331",
+      "jp": "よし、次でトドメじゃな！",
+      "en": "Good, the next one will be the finishing blow!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8372,
+      "id": "rem_09332",
+      "jp": "いいぞ、その調子だ！",
+      "en": "Good, keep it up like that!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8373,
+      "id": "rem_09333",
+      "jp": "あと少しですわ！",
+      "en": "Almost there!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8374,
+      "id": "rem_09334",
+      "jp": "もう一息ですわ！",
+      "en": "Just a little more!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8375,
+      "id": "rem_09335",
+      "jp": "良い調子だよ！",
+      "en": "Good pace!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8376,
+      "id": "rem_09336",
+      "jp": "もう一息！",
+      "en": "One more push!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8377,
+      "id": "rem_09337",
+      "jp": "よし、次でトドメであるな！",
+      "en": "Alright, the next one will finish it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8378,
+      "id": "rem_09338",
+      "jp": "一気にトドメを刺すぞ！",
+      "en": "Let's finish it off in one go!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8379,
+      "id": "rem_09339",
+      "jp": "次で倒せるね！",
+      "en": "We can take it down with the next one!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8380,
+      "id": "rem_09340",
+      "jp": "このまま倒してしまいましょう！",
+      "en": "Let's finish it off as we are!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8381,
+      "id": "rem_09341",
+      "jp": "あと一息だよ！",
+      "en": "One more push!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8382,
+      "id": "rem_09342",
+      "jp": "あと一息ですね",
+      "en": "Just one more push.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8383,
+      "id": "rem_09343",
+      "jp": "あと少しだ……！",
+      "en": "Just a little more...!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8384,
+      "id": "rem_09344",
+      "jp": "よっしゃ、あと少しだ！",
+      "en": "Alright, just a little more!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8385,
+      "id": "rem_09345",
+      "jp": "あと一息じゃ！",
+      "en": "Just one more push!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8386,
+      "id": "rem_09346",
+      "jp": "あと少しだ！",
+      "en": "Just a little more!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8387,
+      "id": "rem_09347",
+      "jp": "このまま仕留めよう",
+      "en": "Let's finish it off like this.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8388,
+      "id": "rem_09348",
+      "jp": "追い詰めたわよ！",
+      "en": "We've cornered them!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8389,
+      "id": "rem_09349",
+      "jp": "あと一息ですわ！",
+      "en": "One more push!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8390,
+      "id": "rem_09350",
+      "jp": "おし、あと一息や！",
+      "en": "Okay, just one more push!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8391,
+      "id": "rem_09351",
+      "jp": "追い詰めましたわよ！",
+      "en": "We've cornered them!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8392,
+      "id": "rem_09352",
+      "jp": "このままトドメをさすのじゃ！",
+      "en": "Let's deliver the finishing blow as we are!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8393,
+      "id": "rem_09353",
+      "jp": "追い詰めたぞ！",
+      "en": "We've got them cornered!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8394,
+      "id": "rem_09354",
+      "jp": "まだ息がある、油断するんじゃないよ",
+      "en": "They're still breathing, don't get careless.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8395,
+      "id": "rem_09355",
+      "jp": "中々いい一撃デス",
+      "en": "That was a pretty good hit.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8396,
+      "id": "rem_09356",
+      "jp": "なかなかやるのじゃ！",
+      "en": "You're pretty good!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8397,
+      "id": "rem_09357",
+      "jp": "よし、効いてるぞ！",
+      "en": "Nice, it's working!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8398,
+      "id": "rem_09358",
+      "jp": "決まりましたわ！",
+      "en": "That's settled it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8399,
+      "id": "rem_09359",
+      "jp": "今のはよかったよ！",
+      "en": "That one was good!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8400,
+      "id": "rem_09360",
+      "jp": "決まったね！",
+      "en": "That did it!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

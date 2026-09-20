@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5601,
+  "range_end": 5700,
+  "pairs": [
+    {
+      "n": 5601,
+      "id": "rem_33220",
+      "jp": "『キャトリナ』のＬＶが【130】以上",
+      "en": "Catrina Lv【130】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5602,
+      "id": "rem_33221",
+      "jp": "キャトリナの軌跡デス８",
+      "en": "Catrina's Chronicle Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5603,
+      "id": "rem_33222",
+      "jp": "『キャトリナ』のＬＶが【150】以上",
+      "en": "Catrina Lv【150】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5604,
+      "id": "rem_33223",
+      "jp": "キャトリナの軌跡デス９",
+      "en": "Catrina's Chronicle Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5605,
+      "id": "rem_33224",
+      "jp": "『キャトリナ』のＬＶが【170】以上",
+      "en": "Catrina Lv【170】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5606,
+      "id": "rem_33225",
+      "jp": "キャトリナの軌跡デス１０",
+      "en": "Catrina's Chronicle Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5607,
+      "id": "rem_33226",
+      "jp": "『キャトリナ』のＬＶが【200】以上",
+      "en": "Catrina Lv【200】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5608,
+      "id": "rem_33227",
+      "jp": "キャトリナの軌跡デス１１",
+      "en": "Catrina's Chronicle Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5609,
+      "id": "rem_33228",
+      "jp": "『キャトリナ』のＬＶが【240】以上",
+      "en": "Catrina Lv【240】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5610,
+      "id": "rem_33229",
+      "jp": "キャトリナの軌跡デス１２",
+      "en": "Catrina's Chronicle Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5611,
+      "id": "rem_33230",
+      "jp": "『キャトリナ』のＬＶが【270】以上",
+      "en": "Catrina Lv【270】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5612,
+      "id": "rem_33231",
+      "jp": "キャトリナの軌跡デス１３",
+      "en": "Catrina's Chronicle Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5613,
+      "id": "rem_33232",
+      "jp": "『キャトリナ』のＬＶが【300】以上",
+      "en": "Catrina Lv【300】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5614,
+      "id": "rem_33233",
+      "jp": "キャトリナの軌跡デス１４",
+      "en": "Catrina's Chronicle Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5615,
+      "id": "rem_33234",
+      "jp": "『キャトリナ』のＬＶが【350】以上",
+      "en": "Catrina Lv【350】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5616,
+      "id": "rem_33235",
+      "jp": "キャトリナの軌跡デス１５",
+      "en": "Catrina's Chronicle Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5617,
+      "id": "rem_33236",
+      "jp": "『ミルテ』のＬＶが【10】以上",
+      "en": "Myrte Lv【10】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5618,
+      "id": "rem_33237",
+      "jp": "ミルテの軌跡デス１",
+      "en": "Myrte's Chronicle Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5619,
+      "id": "rem_33238",
+      "jp": "『ミルテ』のＬＶが【20】以上",
+      "en": "Myrte Lv【20】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5620,
+      "id": "rem_33239",
+      "jp": "ミルテの軌跡デス２",
+      "en": "Myrte's Chronicle Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5621,
+      "id": "rem_33240",
+      "jp": "『ミルテ』のＬＶが【30】以上",
+      "en": "Myrte's Lv. is【30】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5622,
+      "id": "rem_33241",
+      "jp": "ミルテの軌跡デス３",
+      "en": "Myrte's Journey: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5623,
+      "id": "rem_33242",
+      "jp": "『ミルテ』のＬＶが【40】以上",
+      "en": "Myrte's Lv. is【40】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5624,
+      "id": "rem_33243",
+      "jp": "ミルテの軌跡デス４",
+      "en": "Myrte's Journey: Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5625,
+      "id": "rem_33244",
+      "jp": "『ミルテ』のＬＶが【65】以上",
+      "en": "Myrte's Lv. is【65】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5626,
+      "id": "rem_33245",
+      "jp": "ミルテの軌跡デス５",
+      "en": "Myrte's Journey: Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5627,
+      "id": "rem_33246",
+      "jp": "『ミルテ』のＬＶが【85】以上",
+      "en": "Myrte's Lv. is【85】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5628,
+      "id": "rem_33247",
+      "jp": "ミルテの軌跡デス６",
+      "en": "Myrte's Journey: Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5629,
+      "id": "rem_33248",
+      "jp": "『ミルテ』のＬＶが【110】以上",
+      "en": "Myrte's Lv. is【110】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5630,
+      "id": "rem_33249",
+      "jp": "ミルテの軌跡デス７",
+      "en": "Myrte's Journey: Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5631,
+      "id": "rem_33250",
+      "jp": "『ミルテ』のＬＶが【130】以上",
+      "en": "Myrte's Lv. is【130】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5632,
+      "id": "rem_33251",
+      "jp": "ミルテの軌跡デス８",
+      "en": "Myrte's Journey: Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5633,
+      "id": "rem_33252",
+      "jp": "『ミルテ』のＬＶが【150】以上",
+      "en": "Myrte's Lv. is【150】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5634,
+      "id": "rem_33253",
+      "jp": "ミルテの軌跡デス９",
+      "en": "Myrte's Journey: Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5635,
+      "id": "rem_33254",
+      "jp": "『ミルテ』のＬＶが【170】以上",
+      "en": "Myrte's Lv. is【170】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5636,
+      "id": "rem_33255",
+      "jp": "ミルテの軌跡デス１０",
+      "en": "Myrte's Journey: Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5637,
+      "id": "rem_33256",
+      "jp": "『ミルテ』のＬＶが【200】以上",
+      "en": "Myrte's Lv. is【200】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5638,
+      "id": "rem_33257",
+      "jp": "ミルテの軌跡デス１１",
+      "en": "Myrte's Journey: Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5639,
+      "id": "rem_33258",
+      "jp": "『ミルテ』のＬＶが【240】以上",
+      "en": "Myrte's Lv. is【240】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5640,
+      "id": "rem_33259",
+      "jp": "ミルテの軌跡デス１２",
+      "en": "Myrte's Journey: Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5641,
+      "id": "rem_33260",
+      "jp": "『ミルテ』のＬＶが【270】以上",
+      "en": "Myrte Lv【270】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5642,
+      "id": "rem_33261",
+      "jp": "ミルテの軌跡デス１３",
+      "en": "Myrte's Trail Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5643,
+      "id": "rem_33262",
+      "jp": "『ミルテ』のＬＶが【300】以上",
+      "en": "Myrte Lv【300】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5644,
+      "id": "rem_33263",
+      "jp": "ミルテの軌跡デス１４",
+      "en": "Myrte's Trail Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5645,
+      "id": "rem_33264",
+      "jp": "『ミルテ』のＬＶが【350】以上",
+      "en": "Myrte Lv【350】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5646,
+      "id": "rem_33265",
+      "jp": "ミルテの軌跡デス１５",
+      "en": "Myrte's Trail Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5647,
+      "id": "rem_33266",
+      "jp": "『ツバキ』のＬＶが【10】以上",
+      "en": "Tsubaki Lv【10】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5648,
+      "id": "rem_33267",
+      "jp": "ツバキの軌跡デス１",
+      "en": "Tsubaki's Trail Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5649,
+      "id": "rem_33268",
+      "jp": "『ツバキ』のＬＶが【20】以上",
+      "en": "Tsubaki Lv【20】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5650,
+      "id": "rem_33269",
+      "jp": "ツバキの軌跡デス２",
+      "en": "Tsubaki's Trail Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5651,
+      "id": "rem_33270",
+      "jp": "『ツバキ』のＬＶが【30】以上",
+      "en": "Tsubaki Lv【30】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5652,
+      "id": "rem_33271",
+      "jp": "ツバキの軌跡デス３",
+      "en": "Tsubaki's Trail Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5653,
+      "id": "rem_33272",
+      "jp": "『ツバキ』のＬＶが【40】以上",
+      "en": "Tsubaki Lv【40】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5654,
+      "id": "rem_33273",
+      "jp": "ツバキの軌跡デス４",
+      "en": "Tsubaki's Trail Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5655,
+      "id": "rem_33274",
+      "jp": "『ツバキ』のＬＶが【65】以上",
+      "en": "Tsubaki Lv【65】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5656,
+      "id": "rem_33275",
+      "jp": "ツバキの軌跡デス５",
+      "en": "Tsubaki's Trail Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5657,
+      "id": "rem_33276",
+      "jp": "『ツバキ』のＬＶが【85】以上",
+      "en": "Tsubaki Lv【85】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5658,
+      "id": "rem_33277",
+      "jp": "ツバキの軌跡デス６",
+      "en": "Tsubaki's Trail Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5659,
+      "id": "rem_33278",
+      "jp": "『ツバキ』のＬＶが【110】以上",
+      "en": "Tsubaki Lv【110】or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5660,
+      "id": "rem_33279",
+      "jp": "ツバキの軌跡デス７",
+      "en": "Tsubaki's Trail Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5661,
+      "id": "rem_33280",
+      "jp": "『ツバキ』のＬＶが【130】以上",
+      "en": "Tsubaki's Lv is 【130】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5662,
+      "id": "rem_33281",
+      "jp": "ツバキの軌跡デス８",
+      "en": "Tsubaki's Journey Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5663,
+      "id": "rem_33282",
+      "jp": "『ツバキ』のＬＶが【150】以上",
+      "en": "Tsubaki's Lv is 【150】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5664,
+      "id": "rem_33283",
+      "jp": "ツバキの軌跡デス９",
+      "en": "Tsubaki's Journey Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5665,
+      "id": "rem_33284",
+      "jp": "『ツバキ』のＬＶが【170】以上",
+      "en": "Tsubaki's Lv is 【170】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5666,
+      "id": "rem_33285",
+      "jp": "ツバキの軌跡デス１０",
+      "en": "Tsubaki's Journey Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5667,
+      "id": "rem_33286",
+      "jp": "『ツバキ』のＬＶが【200】以上",
+      "en": "Tsubaki's Lv is 【200】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5668,
+      "id": "rem_33287",
+      "jp": "ツバキの軌跡デス１１",
+      "en": "Tsubaki's Journey Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5669,
+      "id": "rem_33288",
+      "jp": "『ツバキ』のＬＶが【240】以上",
+      "en": "Tsubaki's Lv is 【240】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5670,
+      "id": "rem_33289",
+      "jp": "ツバキの軌跡デス１２",
+      "en": "Tsubaki's Journey Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5671,
+      "id": "rem_33290",
+      "jp": "『ツバキ』のＬＶが【270】以上",
+      "en": "Tsubaki's Lv is 【270】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5672,
+      "id": "rem_33291",
+      "jp": "ツバキの軌跡デス１３",
+      "en": "Tsubaki's Journey Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5673,
+      "id": "rem_33292",
+      "jp": "『ツバキ』のＬＶが【300】以上",
+      "en": "Tsubaki's Lv is 【300】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5674,
+      "id": "rem_33293",
+      "jp": "ツバキの軌跡デス１４",
+      "en": "Tsubaki's Journey Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5675,
+      "id": "rem_33294",
+      "jp": "『ツバキ』のＬＶが【350】以上",
+      "en": "Tsubaki's Lv is 【350】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5676,
+      "id": "rem_33295",
+      "jp": "ツバキの軌跡デス１５",
+      "en": "Tsubaki's Journey Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5677,
+      "id": "rem_33296",
+      "jp": "『レミル』のＬＶが【10】以上",
+      "en": "Remil's Lv is 【10】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5678,
+      "id": "rem_33297",
+      "jp": "レミルの軌跡デス１",
+      "en": "Remil's Journey Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5679,
+      "id": "rem_33298",
+      "jp": "『レミル』のＬＶが【20】以上",
+      "en": "Remil's Lv is 【20】 or higher.",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5680,
+      "id": "rem_33299",
+      "jp": "レミルの軌跡デス２",
+      "en": "Remil's Journey Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5681,
+      "id": "rem_33300",
+      "jp": "『レミル』のＬＶが【30】以上",
+      "en": "Remil's Lv is at least 30",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5682,
+      "id": "rem_33301",
+      "jp": "レミルの軌跡デス３",
+      "en": "Remil's Journey: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5683,
+      "id": "rem_33302",
+      "jp": "『レミル』のＬＶが【40】以上",
+      "en": "Remil's Lv is at least 40",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5684,
+      "id": "rem_33303",
+      "jp": "レミルの軌跡デス４",
+      "en": "Remil's Journey: Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5685,
+      "id": "rem_33304",
+      "jp": "『レミル』のＬＶが【65】以上",
+      "en": "Remil's Lv is at least 65",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5686,
+      "id": "rem_33305",
+      "jp": "レミルの軌跡デス５",
+      "en": "Remil's Journey: Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5687,
+      "id": "rem_33306",
+      "jp": "『レミル』のＬＶが【85】以上",
+      "en": "Remil's Lv is at least 85",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5688,
+      "id": "rem_33307",
+      "jp": "レミルの軌跡デス６",
+      "en": "Remil's Journey: Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5689,
+      "id": "rem_33308",
+      "jp": "『レミル』のＬＶが【110】以上",
+      "en": "Remil's Lv is at least 110",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5690,
+      "id": "rem_33309",
+      "jp": "レミルの軌跡デス７",
+      "en": "Remil's Journey: Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5691,
+      "id": "rem_33310",
+      "jp": "『レミル』のＬＶが【130】以上",
+      "en": "Remil's Lv is at least 130",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5692,
+      "id": "rem_33311",
+      "jp": "レミルの軌跡デス８",
+      "en": "Remil's Journey: Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5693,
+      "id": "rem_33312",
+      "jp": "『レミル』のＬＶが【150】以上",
+      "en": "Remil's Lv is at least 150",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5694,
+      "id": "rem_33313",
+      "jp": "レミルの軌跡デス９",
+      "en": "Remil's Journey: Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5695,
+      "id": "rem_33314",
+      "jp": "『レミル』のＬＶが【170】以上",
+      "en": "Remil's Lv is at least 170",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5696,
+      "id": "rem_33315",
+      "jp": "レミルの軌跡デス１０",
+      "en": "Remil's Journey: Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5697,
+      "id": "rem_33316",
+      "jp": "『レミル』のＬＶが【200】以上",
+      "en": "Remil's Lv is at least 200",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5698,
+      "id": "rem_33317",
+      "jp": "レミルの軌跡デス１１",
+      "en": "Remil's Journey: Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5699,
+      "id": "rem_33318",
+      "jp": "『レミル』のＬＶが【240】以上",
+      "en": "Remil's Lv is at least 240",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5700,
+      "id": "rem_33319",
+      "jp": "レミルの軌跡デス１２",
+      "en": "Remil's Journey: Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

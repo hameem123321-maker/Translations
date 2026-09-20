@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 88701,
+  "range_end": 88800,
+  "pairs": [
+    {
+      "n": 88701,
+      "id": "db_EventInfo:104755:0",
+      "jp": "(その前に【『最果ての修練場』】に投資をしないとな……)",
+      "en": "(First, I need to invest in 'The Edge of the World Training Ground'...)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88702,
+      "id": "db_EventInfo:104757:20",
+      "jp": "失礼いたします御主人様。【『最果ての修練場』】への投資ありがとうございます",
+      "en": "Excuse me, Master. Thank you for investing in 'The Edge of the World Training Ground'.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88703,
+      "id": "db_EventInfo:104758:20",
+      "jp": "新しく【試練Lv2】メニューが解禁されたことを報告いたします",
+      "en": "I'm reporting that the new 'Trial Lv2' menu has been unlocked.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88704,
+      "id": "db_EventInfo:104759:1",
+      "jp": "【試練Lv2】メニュー？",
+      "en": "'Trial Lv2' menu?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88705,
+      "id": "db_EventInfo:104760:20",
+      "jp": "はい。【『最果ての修練場』】はメニュー制となっております",
+      "en": "Yes. 'The Edge of the World Training Ground' uses a menu system.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88706,
+      "id": "db_EventInfo:104761:20",
+      "jp": "【試練】のレベルが高くなることで、より強力な猛者の影を召喚することが可能になるわけです",
+      "en": "As the 'Trial' level gets higher, it becomes possible to summon shadows of stronger, more powerful warriors.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88707,
+      "id": "db_EventInfo:104762:1",
+      "jp": "猛者の影というと、シオンみたいな……？",
+      "en": "A 'Mighty Shadow'... you mean, like Shion?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88708,
+      "id": "db_EventInfo:104763:20",
+      "jp": "あれは最弱の影といいますか、試運転のようなものですから",
+      "en": "Hers is what you'd call the weakest shadow, more like a test run.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88709,
+      "id": "db_EventInfo:104764:21",
+      "jp": "最弱ですって……ぷぷぷ",
+      "en": "The weakest... pfft.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88710,
+      "id": "db_EventInfo:104765:22",
+      "jp": "笑っちゃダメですよ、シズハД",
+      "en": "You shouldn't laugh, ShizuhaД",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88711,
+      "id": "db_EventInfo:104766:35",
+      "jp": "その最弱の影に、ぼこぼこにされたのは誰ですかねぇ",
+      "en": "And just who was it that got beat up so badly by that weakest shadow?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88712,
+      "id": "db_EventInfo:104767:21",
+      "jp": "ふ、ふん……私たちは支援タイプなので！",
+      "en": "Hmph... we're the support type!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88713,
+      "id": "db_EventInfo:104768:22",
+      "jp": "アナタのような前線脳筋とは違うのです！",
+      "en": "We're not muscle-headed frontliners like you!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88714,
+      "id": "db_EventInfo:104769:35",
+      "jp": "言ってて恥ずかしくならないんですか。まったく",
+      "en": "Aren't you ashamed to say that? Honestly.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88715,
+      "id": "db_EventInfo:104770:1",
+      "jp": "……シオンの強さだって大概だったんだぞ。投資せずに、強い影が出ないようにするんじゃダメなのか？",
+      "en": "...Shion's strength was something else too. Can't we just not invest and make sure strong shadows don't come out?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88716,
+      "id": "db_EventInfo:104771:20",
+      "jp": "勿体ないじゃないですか、せっかく作ったんですのに",
+      "en": "That would be such a waste, after going through the trouble of making them.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88717,
+      "id": "db_EventInfo:104772:20",
+      "jp": "それに、【『最果ての修練場』】を制御するには、完全なものにする必要があります",
+      "en": "Besides, to control the ['Farthest Training Ground'], we need to complete it.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88718,
+      "id": "db_EventInfo:104773:20",
+      "jp": "完全なものにする過程で、最強の猛者が出現すると思いますが、それはあくまで御主人様基準",
+      "en": "In the process of completing it, the strongest mighty one will appear. But that's only by your standards, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88719,
+      "id": "db_EventInfo:104774:20",
+      "jp": "御主人様が頑張れば、なんとかなる相手しか出ないハズですよ。たぶん",
+      "en": "Master, if you do your best, I think you'll only face opponents you can handle. Probably.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88720,
+      "id": "db_EventInfo:104775:1",
+      "jp": "……たぶん、って",
+      "en": "...'Probably,' huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88721,
+      "id": "db_EventInfo:104776:1",
+      "jp": "まあ……。過去と未来の英傑に、俺達の力がどれだけ通じるかは、ちょっと興味があるけど",
+      "en": "Well... I am a little interested to see how much our power works against heroes from the past and future.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88722,
+      "id": "db_EventInfo:104777:20",
+      "jp": "そうですよね。御主人様ならそう言ってくれると信じておりましたよ",
+      "en": "I thought so. I believed you'd say that, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88723,
+      "id": "db_EventInfo:104778:20",
+      "jp": "引き続き、【『最果ての修練場』】への挑戦、頑張ってくださいませ",
+      "en": "Please keep trying your best with the challenge at the 'Farthest Training Ground'.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88724,
+      "id": "db_EventInfo:104781:0",
+      "jp": "準備が出来たら、【『最果ての修練場』】に向かおう。",
+      "en": "When you're ready, head to the 'Farthest Training Ground'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88725,
+      "id": "db_EventInfo:104783:20",
+      "jp": "おつかれさまです、御主人様",
+      "en": "Good work, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88726,
+      "id": "db_EventInfo:104784:20",
+      "jp": "【試練Lv2】は無事にクリアできたようでございますね",
+      "en": "It seems you cleared 'Trial Lv. 2' without a problem.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88727,
+      "id": "db_EventInfo:104785:1",
+      "jp": "ああ……【試練Lv1】とはえらい違いだった",
+      "en": "Yeah... It was a huge difference from 'Trial Lv. 1'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88728,
+      "id": "db_EventInfo:104786:20",
+      "jp": "ええ、ごほうびモードも堪能していただいたようですね",
+      "en": "Yes, and you seemed to enjoy the reward mode quite a bit too.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88729,
+      "id": "db_EventInfo:104787:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88730,
+      "id": "db_EventInfo:104790:1",
+      "jp": "しかし、入った人間に合わせた相手を出すという仕組み、どうにかならなかったのか？",
+      "en": "But that system that pits you against an opponent matched to you... Couldn't they have done something about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88731,
+      "id": "db_EventInfo:104791:20",
+      "jp": "といいますと？",
+      "en": "How so?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88732,
+      "id": "db_EventInfo:104792:1",
+      "jp": "あらかじめ、【誰が出るか決まっている】みたいなシステムなら",
+      "en": "If it's a system where the opponent is fixed in advance...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88733,
+      "id": "db_EventInfo:104793:1",
+      "jp": "よほどの相手が出ない限り、ハヅキさんだけでなんとかなっただろ",
+      "en": "Then unless a really strong one shows up, Hazuki, you could handle it by yourself.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88734,
+      "id": "db_EventInfo:104794:20",
+      "jp": "まあそれはそうですね",
+      "en": "Well, that's true.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88735,
+      "id": "db_EventInfo:104795:1",
+      "jp": "でも、入った人間に合わせた相手が出る仕組みのせいで、こんなややこしいことになってるのでは？",
+      "en": "But this mess is because the system matches the opponent to whoever enters?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88736,
+      "id": "db_EventInfo:104796:20",
+      "jp": "それは【『最果ての修練場』】の【召喚機能】が、相手を呼び出すというのではなく……",
+      "en": "That's because the summoning function of the 'Farthest Training Ground'... doesn't just call an opponent.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88737,
+      "id": "db_EventInfo:104797:20",
+      "jp": "【入った人間に縁がある強者の影】を呼び出している仕組みだからです",
+      "en": "It calls the shadows of strong people connected to the one who enters.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88738,
+      "id": "db_EventInfo:104798:1",
+      "jp": "【縁がある強者の影】……？",
+      "en": "The shadows of strong people connected...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88739,
+      "id": "db_EventInfo:104799:20",
+      "jp": "はい。【過去と未来を繋ぐ】なんてことはできませんが",
+      "en": "Yes. We can't connect the past and future directly...",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88740,
+      "id": "db_EventInfo:104800:20",
+      "jp": "【『最果ての修練場』】の周囲は【夜の夢】の中です。そこは夜魔の領域ですから",
+      "en": "But the area around the 'Farthest Training Ground' is inside the 'Night's Dream'. That's the domain of the Nightmares.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88741,
+      "id": "db_EventInfo:104801:20",
+      "jp": "【過去と未来】の【『縁』】を引っ張って、強者と戦う夢を見ることが出来るのです",
+      "en": "From there, we can pull on the 'bonds' from past and future, and dream of fighting strong warriors.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88742,
+      "id": "db_EventInfo:104802:1",
+      "jp": "【過去と未来】の【『縁』】か……",
+      "en": "The 'bonds' from past and future, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88743,
+      "id": "db_EventInfo:104803:1",
+      "jp": "じゃあ、【『最果ての修練場』】が、なんだか俺の知り合いみたいな話し方をするのは……？",
+      "en": "So, why does ['The Farthest Training Ground'] talk like someone I know...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88744,
+      "id": "db_EventInfo:104804:20",
+      "jp": "御主人様に【『縁』】がある方々であるからですね",
+      "en": "Because those people have a ['Bond'] with you, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88745,
+      "id": "db_EventInfo:104805:20",
+      "jp": "呼ばれる方々は、【『最果ての修練場』】を介して、御主人様を別の方として見ています",
+      "en": "The people called through ['The Farthest Training Ground'] see you as a different person.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88746,
+      "id": "db_EventInfo:104806:1",
+      "jp": "【別の俺】か……",
+      "en": "A ['different me']...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88747,
+      "id": "db_EventInfo:104807:1",
+      "jp": "……【別の俺】ってのは、俺に【『縁』】がある人なのか？",
+      "en": "...Is this ['different me'] someone who has a ['Bond'] with me?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88748,
+      "id": "db_EventInfo:104808:20",
+      "jp": "まあそうですね。御主人様の【子孫や先祖】、もしくは【前世か来世】にあたる方なのでしょう",
+      "en": "Well, yes. It would be your [descendants or ancestors], or perhaps someone from your [past or future life].",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88749,
+      "id": "db_EventInfo:104809:20",
+      "jp": "まあ向こうからすると、別の方に見えてるのでオッケーです",
+      "en": "To them, they see a different person, so it's fine.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88750,
+      "id": "db_EventInfo:104810:20",
+      "jp": "そして、それを具現化して、実際に戦う事ができるという感じです",
+      "en": "And this makes it possible to manifest and actually fight them.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88751,
+      "id": "db_EventInfo:104811:1",
+      "jp": "……それはそれでむちゃくちゃな気がするが",
+      "en": "...That sounds pretty crazy to me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88752,
+      "id": "db_EventInfo:104812:20",
+      "jp": "えっへん",
+      "en": "Heh-heh.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88753,
+      "id": "db_EventInfo:104813:1",
+      "jp": "それじゃ、なんでシオンは未来から過去に飛ばされてるんだ？",
+      "en": "Then, why was Shion sent from the future to the past?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88754,
+      "id": "db_EventInfo:104814:20",
+      "jp": "シオンもまあ、御主人様と【『縁』】のある方と、【『縁』】があるということでしょう",
+      "en": "Well, Shion also has a ['Bond'] with someone who has a ['Bond'] with you, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88755,
+      "id": "db_EventInfo:104815:20",
+      "jp": "そもそもあの子は、私と【『縁』】が強いですし、私と似たような力を持ってますから",
+      "en": "To start with, she has a strong bond with me. And she has a power similar to mine.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88756,
+      "id": "db_EventInfo:104816:20",
+      "jp": "その力を使って、修練場の外に出られるのかもしれませんね",
+      "en": "She might be able to use that power to get out of the training grounds.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88757,
+      "id": "db_EventInfo:104817:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88758,
+      "id": "db_EventInfo:104820:0",
+      "jp": "ハヅキさんと似たような力があると、【修練場の外に出られるかもしれない】。",
+      "en": "If she has a power similar to Hazuki's, she might be able to leave the training grounds.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88759,
+      "id": "db_EventInfo:104821:0",
+      "jp": "その言葉に、ちょっと違和感を覚えたのであった。",
+      "en": "Hearing that, I felt a bit uneasy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88760,
+      "id": "db_EventInfo:104822:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone's talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88761,
+      "id": "db_EventInfo:104823:3",
+      "jp": "ふぅむ、この刃の輝き……中々の業物じゃな",
+      "en": "Hmm, this blade's shine... It's quite a fine piece.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 88762,
+      "id": "db_EventInfo:104825:35",
+      "jp": "ああ、やっぱりそうなの？　私もそうなんじゃないかな～とは思ってたのよね",
+      "en": "Oh, really? I kinda thought so too~",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88763,
+      "id": "db_EventInfo:104826:13",
+      "jp": "ツバキ殿が持っている刀剣と、よく似ておりますな",
+      "en": "It resembles the katana that Lady Tsubaki carries.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 88764,
+      "id": "db_EventInfo:104827:13",
+      "jp": "異邦の剣客の武器ということですかな",
+      "en": "So it's a weapon from a foreign swordsman, I presume?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 88765,
+      "id": "db_EventInfo:104828:3",
+      "jp": "服も気になるのう。ハヅキやシズハたちの衣装とも似ておるなぁ",
+      "en": "The clothes are interesting too. They're similar to what Hazuki and Shizuha wear.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 88766,
+      "id": "db_EventInfo:104829:35",
+      "jp": "これは代々伝わる【『退魔巫女』】の装束よ",
+      "en": "This is the ceremonial attire of the 'Exorcist Shrine Maiden', passed down through generations.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88767,
+      "id": "db_EventInfo:104830:3",
+      "jp": "そうなのじゃ？　なにやら邪悪な気を弾く力を感じるのう",
+      "en": "That so? I can sense some nasty, destructive power from it.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 88768,
+      "id": "db_EventInfo:104831:35",
+      "jp": "そうねー。もともと師匠が伝えている製法で作られてて",
+      "en": "Mhm. It was originally made using the crafting methods my master taught me.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88769,
+      "id": "db_EventInfo:104832:35",
+      "jp": "里では専門の鍛冶職人も居て、もともとはそっちで作られてたんだけど",
+      "en": "Our village even had specialized blacksmiths, and it was originally made by them.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88770,
+      "id": "db_EventInfo:104833:35",
+      "jp": "……まあ、ちょっとした強敵に壊されちゃったから、村の鍛冶屋で修復してもらったのよ",
+      "en": "...Well, a tough enemy wrecked it, so I had it fixed at the village smithy.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88771,
+      "id": "db_EventInfo:104834:3",
+      "jp": "ふーん。村の鍛冶屋が、これほどの出来映えの武具を作るとはのう",
+      "en": "Hmm. The village smithy made gear with this level of craftsmanship, huh.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 88772,
+      "id": "db_EventInfo:104835:35",
+      "jp": "ええ。なんでも、素材さえあったら、どんな魔剣や聖剣でも作るってヤツでね",
+      "en": "Yeah. That guy said if he has the materials, he can make any demon sword or holy sword.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88773,
+      "id": "db_EventInfo:104836:35",
+      "jp": "そういや、そこの爺さんと見た目が似てるような、そうでもないような……",
+      "en": "Oh yeah, he kinda looked like that old man over there... or maybe not...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88774,
+      "id": "db_EventInfo:104837:13",
+      "jp": "ほっほっ。もしかしたら、流れのドワーム鍛冶屋かもしれませんな",
+      "en": "Ho ho ho. Perhaps it was a traveling Dwarm blacksmith.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 88775,
+      "id": "db_EventInfo:104838:35",
+      "jp": "ドワーム族？　うーん、たしかにそうかも",
+      "en": "Dwarm tribe? Hmm, maybe you're right.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88776,
+      "id": "db_EventInfo:104841:0",
+      "jp": "話している会話はよく聞こえなかったが。邪魔しては悪いので、去ることにした。",
+      "en": "I couldn't really hear their conversation. I didn't want to bother them, so I decided to leave.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88777,
+      "id": "db_EventInfo:104843:20",
+      "jp": "御主人様、追加投資ありがとうございます",
+      "en": "Master, thank you for the additional investment.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88778,
+      "id": "db_EventInfo:104844:20",
+      "jp": "新しく【試練Lv3】メニューが解禁されたことを報告いたします",
+      "en": "I report that the new [Trial Lv.3] menu has been unlocked.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88779,
+      "id": "db_EventInfo:104845:1",
+      "jp": "【試練Lv3】か……",
+      "en": "Trial Level 3, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88780,
+      "id": "db_EventInfo:104846:20",
+      "jp": "【試練Lv2】では強者と言えば強者でしたが、【試練Lv3】からは本当の強者が出現します",
+      "en": "Level 2 had some strong ones, but Level 3 has the truly powerful ones.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88781,
+      "id": "db_EventInfo:104847:20",
+      "jp": "御主人様の仲間とも、特に【『縁』】が強い相手も出現すると思いますよ",
+      "en": "I think you'll also encounter opponents with a particularly strong 'Connection' to your companions.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88782,
+      "id": "db_EventInfo:104848:1",
+      "jp": "……誰が出てくるのか、予想できるのか？",
+      "en": "...Can you guess who might appear?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88783,
+      "id": "db_EventInfo:104849:20",
+      "jp": "もちろんでございます",
+      "en": "Of course I can.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88784,
+      "id": "db_EventInfo:104850:1",
+      "jp": "じゃあ、戦うヒントとかを……",
+      "en": "Then, how about a hint on how to fight...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88785,
+      "id": "db_EventInfo:104851:20",
+      "jp": "それを教えてしまえば、修練になりませんので、禁止となっております",
+      "en": "Telling you that would defeat the purpose of the training. It's not allowed.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88786,
+      "id": "db_EventInfo:104852:1",
+      "jp": "そんなー",
+      "en": "Aw, c'mon...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88787,
+      "id": "db_EventInfo:104855:0",
+      "jp": "準備が出来たら、【『最果ての修練場』】に向かおう。",
+      "en": "Head to the 'Training Grounds of the Farthest Ends' when you're ready.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88788,
+      "id": "db_EventInfo:104857:20",
+      "jp": "おつかれさまです、御主人様",
+      "en": "Welcome back, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88789,
+      "id": "db_EventInfo:104858:20",
+      "jp": "【試練Lv3】は無事にクリアできたようでございますね。さすがでございます",
+      "en": "It seems you cleared Trial Level 3 without trouble. Impressive as always.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88790,
+      "id": "db_EventInfo:104859:1",
+      "jp": "【試練】はいったい、いくつぐらいあるんだ？",
+      "en": "Just how many of these Trials are there, anyway?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88791,
+      "id": "db_EventInfo:104860:20",
+      "jp": "えーと、たしか【試練Lv5】までのはずでございます",
+      "en": "Umm, I'm sure it should be up to Trial Level 5.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88792,
+      "id": "db_EventInfo:104861:1",
+      "jp": "Lv5かぁ……",
+      "en": "Level 5, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88793,
+      "id": "db_EventInfo:104863:21",
+      "jp": "ねえ師匠、こんなゲロ強い敵ばかり出る【『最果ての修練場』】、本当に必要なんですか？",
+      "en": "Hey, Master. This 'Training Ground at the Edge' where we keep running into ridiculously strong enemies... is it really necessary?",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88794,
+      "id": "db_EventInfo:104864:20",
+      "jp": "はい？",
+      "en": "Huh?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88795,
+      "id": "db_EventInfo:104865:22",
+      "jp": "だってー、私たちもかなり強くなったはずなのに、それより上を出されてへこんじゃいますよ",
+      "en": "I mean, we've gotten a lot stronger ourselves, but we get demoralized when you put out enemies even stronger than that.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88796,
+      "id": "db_EventInfo:104866:1",
+      "jp": "まあたしかに、せっかく平和になったんだものな",
+      "en": "Well, it's true. Things just got peaceful, after all.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88797,
+      "id": "db_EventInfo:104867:20",
+      "jp": "何を言っているのです。【『魔界』】の住人は、そういう心の隙間につけこむのですよ",
+      "en": "What are you saying? The residents of the 'Demon World' will take advantage of that kind of mental weakness.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88798,
+      "id": "db_EventInfo:104868:21",
+      "jp": "ううっ……",
+      "en": "Ugh...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88799,
+      "id": "db_EventInfo:104869:22",
+      "jp": "だ、だからって……もうちょっと手頃な相手を出してもいいじゃないですか",
+      "en": "B-but still... you could send out more manageable opponents, right?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88800,
+      "id": "db_EventInfo:104870:20",
+      "jp": "無茶な強者が出てくるのは、強者である御主人様が利用されているからです",
+      "en": "These unreasonable strong foes appear because they are using our strong Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

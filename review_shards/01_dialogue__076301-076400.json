@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 76301,
+  "range_end": 76400,
+  "pairs": [
+    {
+      "n": 76301,
+      "id": "db_EventInfo:90301:1",
+      "jp": "（そのわりに、カストロイアは暴走しかけたよな）",
+      "en": "(But for all that, Castroia almost went out of control.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76302,
+      "id": "db_EventInfo:90302:2",
+      "jp": "（まったくデス）",
+      "en": "(Totally, Death.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76303,
+      "id": "db_EventInfo:90303:3",
+      "jp": "……しかし、相手が【『竜』】であるなら話は別のようじゃ！",
+      "en": "...However, it seems the story is different if the opponent is a Dragon!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76304,
+      "id": "db_EventInfo:90305:3",
+      "jp": "里には対ドラゴン用に開発した、兵器のプロトタイプがたくさんあるらしいぞ！！",
+      "en": "I hear our village has many prototype weapons developed specifically to fight Dragons!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76305,
+      "id": "db_EventInfo:90306:3",
+      "jp": "いずれも人間の城塞程度なら簡単に消滅させる程度の、人様には絶対向けられない威力の、禁術級兵器ばかりと聞いておるのじゃ！！",
+      "en": "They say they're all forbidden-level weapons, powerful enough to easily wipe out something like a human fortress, something absolutely never to be used on people!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76306,
+      "id": "db_EventInfo:90307:28",
+      "jp": "ひえ～っ！　なんでそんなもの作ってるんですか！！",
+      "en": "Eek~! Why would you even make stuff like that!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76307,
+      "id": "db_EventInfo:90308:3",
+      "jp": "趣味じゃろ？",
+      "en": "A hobby, perhaps?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76308,
+      "id": "db_EventInfo:90309:28",
+      "jp": "というか、そんなものあるなら、キングホエールに使えですわ！",
+      "en": "More like, if you have things like that, use them on King Whale!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76309,
+      "id": "db_EventInfo:90310:3",
+      "jp": "大陸の危機とはいえ、【『竜』】ではないキングホエールには使えんかったのじゃ。盟約ゆえ、いたしかたなしじゃ。おそらく皆、悔しかったはずなのじゃ……",
+      "en": "Even for a crisis on the continent, we couldn't use them on King Whale, who is not a Dragon. Because of our pact, it couldn't be helped. Surely everyone was frustrated...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76310,
+      "id": "db_EventInfo:90311:3",
+      "jp": "皆内心、試したくてたまらなかったはずなのじゃ……魔女どもなら、この気持ち、<ruby=わか>理解</ruby>るじゃろ！？",
+      "en": "Deep down, everyone must have been dying to try them... You witches must understand this feeling, right!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76311,
+      "id": "db_EventInfo:90312:9",
+      "jp": "……わかるのである",
+      "en": "I know it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 76312,
+      "id": "db_EventInfo:90313:108",
+      "jp": "……わかるのじゃ",
+      "en": "I know it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 76313,
+      "id": "db_EventInfo:90314:28",
+      "jp": "わからないでくださいませ～！",
+      "en": "Please don't understand it~!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76314,
+      "id": "db_EventInfo:90315:3",
+      "jp": "だって～！　先祖代々、いずれ現れる【『竜』】に対して準備しておるのじゃよ！？",
+      "en": "Because~! For generations, we have been preparing for the eventual appearance of the 【'Dragon'】!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76315,
+      "id": "db_EventInfo:90317:3",
+      "jp": "しかし肝心の【『竜』】は現れず、発明しては試し撃ちも出来ず、封印されていったのじゃ。それがどれだけ悔しかったか……今の妾ならわかるのじゃ！",
+      "en": "But the crucial 【'Dragon'】 never appeared. We would invent things, but couldn't even test-fire them; they just got sealed away. How frustrating that was... I, as I am now, understand it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76316,
+      "id": "db_EventInfo:90318:3",
+      "jp": "【『竜』】は里の憧れじゃ！　皆、自分の武器が【『竜』】にどれだけ通じるか、試し撃ちしたくてたまらないのじゃ！",
+      "en": "The 【'Dragon'】 is the village's dream! Everyone is dying to test-fire their own weapons on the 【'Dragon'】 to see how effective they'd be!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76317,
+      "id": "db_EventInfo:90319:3",
+      "jp": "さあオヌシ、我が里に来い！　歓迎するぞ！",
+      "en": "Now, you! Come to my village! We'll welcome you!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76318,
+      "id": "db_EventInfo:90320:28",
+      "jp": "ひえ～っ！　目が怖いですわ！　ごえんりょさせていただきますわ～！！",
+      "en": "Eeek~! Your eyes are scary! I must politely decline~!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76319,
+      "id": "db_EventInfo:90323:2",
+      "jp": "ドワーム族のせいで、【『災厄』】起こりすぎじゃないデス？",
+      "en": "Don't the Dwarm cause too many 【'Calamities'】, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76320,
+      "id": "db_EventInfo:90324:1",
+      "jp": "開発者ってそんなもんなんだろ。たぶん",
+      "en": "That's just how developers are, I guess. Probably.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76321,
+      "id": "db_EventInfo:90325:0",
+      "jp": "★エッチシーン・シイネ・個別④・縁のつなぎ直し①",
+      "en": "★H-Scene - Shiine - Individual ④ - Reconnecting Fate ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76322,
+      "id": "db_EventInfo:90326:0",
+      "jp": "★エッチシーン・シイネ・個別⑤・縁のつなぎ直し②",
+      "en": "★H-Scene - Shiine - Individual ⑤ - Reconnecting Fate ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76323,
+      "id": "db_EventInfo:90327:0",
+      "jp": "★エッチシーン・シイネ・個別⑥・世界を救っていちゃいちゃ",
+      "en": "Sex Scene: Shiine - Individual Route 6 - Saving the World with Affection",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76324,
+      "id": "db_EventInfo:90328:0",
+      "jp": "★エッチシーン・シイネ・個別⑦・全実績解除でいちゃいちゃ",
+      "en": "Sex Scene: Shiine - Individual Route 7 - All Achievements Unlocked for Affection",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76325,
+      "id": "db_EventInfo:90329:0",
+      "jp": "★エッチシーン・シイネ・H部屋・手コキ①",
+      "en": "Sex Scene: Shiine - H Room - Handjob 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76326,
+      "id": "db_EventInfo:90330:0",
+      "jp": "★エッチシーン・シイネ・H部屋・手コキ②",
+      "en": "★Sex Scene - Shiine - H Room - Handjob②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76327,
+      "id": "db_EventInfo:90331:0",
+      "jp": "★エッチシーン・シイネ・H部屋・フェラ①",
+      "en": "Sex Scene: Shiine - H Room - Blowjob 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76328,
+      "id": "db_EventInfo:90332:0",
+      "jp": "★エッチシーン・シイネ・H部屋・フェラ②",
+      "en": "Sex Scene: Shiine - H Room - Blowjob 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76329,
+      "id": "db_EventInfo:90333:0",
+      "jp": "★エッチシーン・シイネ・H部屋・パイズリ①",
+      "en": "Sex Scene: Shiine - H Room - Titjob 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76330,
+      "id": "db_EventInfo:90334:0",
+      "jp": "★エッチシーン・シイネ・H部屋・パイズリ②",
+      "en": "Sex Scene: Shiine - H Room - Titjob 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76331,
+      "id": "db_EventInfo:90335:0",
+      "jp": "★エッチシーン・シイネ・H部屋・足コキ①",
+      "en": "Sex Scene: Shiine - H Room - Footjob 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76332,
+      "id": "db_EventInfo:90336:0",
+      "jp": "★エッチシーン・シイネ・H部屋・足コキ②",
+      "en": "Sex Scene: Shiine - H Room - Footjob 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76333,
+      "id": "db_EventInfo:90337:0",
+      "jp": "★エッチシーン・シイネ・H部屋・騎乗位①",
+      "en": "Sex Scene: Shiine - H Room - Cowgirl Position 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76334,
+      "id": "db_EventInfo:90338:0",
+      "jp": "★エッチシーン・シイネ・H部屋・騎乗位②",
+      "en": "Sex Scene: Shiine - H Room - Cowgirl Position 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76335,
+      "id": "db_EventInfo:90339:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中に胸もみ①",
+      "en": "H-Scene: Shiine, Showing Off: Breast Fondling During Work Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76336,
+      "id": "db_EventInfo:90340:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中に胸もみ②",
+      "en": "H-Scene: Shiine, Showing Off: Breast Fondling During Work Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76337,
+      "id": "db_EventInfo:90341:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中にフェラ①",
+      "en": "H-Scene: Shiine, Showing Off: Blowjob During Work Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76338,
+      "id": "db_EventInfo:90342:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中にフェラ②",
+      "en": "H-Scene: Shiine, Showing Off: Blowjob During Work Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76339,
+      "id": "db_EventInfo:90343:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中にセックス①",
+      "en": "H-Scene: Shiine, Showing Off: Sex During Work Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76340,
+      "id": "db_EventInfo:90344:0",
+      "jp": "★エッチシーン・シイネ・見せ・仕事中にセックス②",
+      "en": "H-Scene: Shiine, Showing Off: Sex During Work Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76341,
+      "id": "db_EventInfo:90345:0",
+      "jp": "★エッチシーン・シイネ・妊娠時・ボテ腹セックス①",
+      "en": "H-Scene: Shiine, Pregnant: Sex with a Big Belly Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76342,
+      "id": "db_EventInfo:90346:0",
+      "jp": "★エッチシーン・シイネ・妊娠時・ボテ腹セックス②",
+      "en": "H-Scene: Shiine, Pregnant: Sex with a Big Belly Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76343,
+      "id": "db_EventInfo:90347:0",
+      "jp": "★エッチシーン・ルーシェ・個別②・正常位①(初体験)",
+      "en": "H-Scene: Lusche, Individual 2: Missionary Part 1 (First Time)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76344,
+      "id": "db_EventInfo:90348:0",
+      "jp": "★エッチシーン・ルーシェ・個別③・正常位②",
+      "en": "H-Scene: Lusche, Individual 3: Missionary Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76345,
+      "id": "db_EventInfo:90353:1",
+      "jp": "静かだ……",
+      "en": "It's quiet...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76346,
+      "id": "db_EventInfo:90354:0",
+      "jp": "何かがおかしい。",
+      "en": "Something is wrong.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76347,
+      "id": "db_EventInfo:90356:0",
+      "jp": "店はいつも通りだ。",
+      "en": "The shop is just like always.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76348,
+      "id": "db_EventInfo:90357:0",
+      "jp": "しかし何かが根本的に欠落している。",
+      "en": "But something important is missing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76349,
+      "id": "db_EventInfo:90358:1",
+      "jp": "従業員や客はいるのに……いや、従業員の数が少なすぎる……？",
+      "en": "There are workers and customers here... but wait, are there too few workers?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76350,
+      "id": "db_EventInfo:90360:2",
+      "jp": "おい、大変デス！",
+      "en": "Hey, this is bad!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76351,
+      "id": "db_EventInfo:90361:1",
+      "jp": "シイネか。どうしたんだ？",
+      "en": "Shiine. What's wrong?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76352,
+      "id": "db_EventInfo:90362:2",
+      "jp": "どうしたもこうしたも無いデス！　こんなものが大量に机の上に残っていたデス！",
+      "en": "Everything's wrong! A whole bunch of these were left on the desk!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76353,
+      "id": "db_EventInfo:90363:1",
+      "jp": "なんだこれは……置き手紙？",
+      "en": "What is this... a leaving note?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76354,
+      "id": "db_EventInfo:90364:0",
+      "jp": "シイネが持ってきた置き手紙には、これまで【『縁』】を繋いできた女の子達の名前が書かれていた。",
+      "en": "The note Shiine brought had the names of all the girls I'd formed 'bonds' with.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76355,
+      "id": "db_EventInfo:90365:1",
+      "jp": "な、なんだこれ！？",
+      "en": "Wh-what is this!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76356,
+      "id": "db_EventInfo:90366:2",
+      "jp": "これはどうやら、やられたデスね",
+      "en": "Looks like we've been had.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76357,
+      "id": "db_EventInfo:90367:2",
+      "jp": "オマエが【『縁』】を繋いできた【『死神代行助手』】が根こそぎ店を出て行ったデス",
+      "en": "All the Shinigami Agent Assistants you formed 'bonds' with have quit and left the shop.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76358,
+      "id": "db_EventInfo:90368:1",
+      "jp": "た、大変な事に",
+      "en": "Th-that's terrible!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76359,
+      "id": "db_EventInfo:90369:2",
+      "jp": "敵はオマエを弱体化させるために、まずは周りを切り崩しに来たデスね",
+      "en": "The enemy came to weaken you first by cutting off those around you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76360,
+      "id": "db_EventInfo:90370:1",
+      "jp": "そんな……どうしてこんな事に",
+      "en": "That's... why did it come to this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76361,
+      "id": "db_EventInfo:90371:8",
+      "jp": "それはね、お兄ちゃんの【『縁』】が吸われちゃったせいだよ",
+      "en": "That's because your [Bonds] got sucked away, big bro.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76362,
+      "id": "db_EventInfo:90372:2",
+      "jp": "ルーシェ、よかったオマエはいたデスね",
+      "en": "Lusche, good, you were here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76363,
+      "id": "db_EventInfo:90373:8",
+      "jp": "シェルフィとエッチしちゃったんだね。気を付けろって忠告したのに",
+      "en": "You had sex with Shelfi, huh. I warned you to be careful.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76364,
+      "id": "db_EventInfo:90374:1",
+      "jp": "(忠告されたかな……)",
+      "en": "(Was I warned...?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76365,
+      "id": "db_EventInfo:90375:8",
+      "jp": "ま、忠告されたからといって、人間のお兄ちゃんにはどうしようもないけど",
+      "en": "Well, even if you were warned, there's nothing a human big bro could do.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76366,
+      "id": "db_EventInfo:90376:8",
+      "jp": "相手は【『淫魔』】なんだから",
+      "en": "Because the other one is a [Succubus].",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76367,
+      "id": "db_EventInfo:90377:1",
+      "jp": "【『淫魔』】だって！？",
+      "en": "A [Succubus]!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76368,
+      "id": "db_EventInfo:90378:8",
+      "jp": "シェルフィの正体は【『ルーラ・ブロッサ娼会』】からの刺客",
+      "en": "Shelfi's true identity is an assassin from the [Rura Blossa Brothel Guild].",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76369,
+      "id": "db_EventInfo:90379:1",
+      "jp": "【『ルーラ・ブロッサ娼会』】……！？",
+      "en": "The [Rura Blossa Brothel Guild]...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76370,
+      "id": "db_EventInfo:90380:8",
+      "jp": "【『色欲』】を司る大淫魔が牛耳る、この大陸の娼館の元締め",
+      "en": "It's the top syndicate of brothels on this continent, ruled by a great Succubus who governs [Lust].",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76371,
+      "id": "db_EventInfo:90381:8",
+      "jp": "シェルフィはそこのエージェントなんだ",
+      "en": "Shelfi is their agent.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76372,
+      "id": "db_EventInfo:90382:8",
+      "jp": "お兄ちゃんの【『死神』】の力は【『ルーラ・ブロッサ娼会』】がずっと狙ってきたものなんだよ",
+      "en": "The power of the 'Shinigami' that my big brother has... The 'Rula Blossa Prostitute Guild' has been after it for a long time.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76373,
+      "id": "db_EventInfo:90383:8",
+      "jp": "だって、ルーシェも……",
+      "en": "Because, Lusche too...",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76374,
+      "id": "db_EventInfo:90384:8",
+      "jp": "ルーシェも娼会の命令で【『淫魔』】として、お兄ちゃんの力を奪うために来たんだもん！！",
+      "en": "Lusche came here too! As a 'Succubus', following the guild's orders to take my big brother's power!!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76375,
+      "id": "db_EventInfo:90386:1",
+      "jp": "……いや、知ってたけど",
+      "en": "...Yeah, I knew.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76376,
+      "id": "db_EventInfo:90387:8",
+      "jp": "あれ？",
+      "en": "Huh?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76377,
+      "id": "db_EventInfo:90389:8",
+      "jp": "なんで驚かないの",
+      "en": "Why aren't you surprised?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76378,
+      "id": "db_EventInfo:90390:2",
+      "jp": "……オマエみたいな、あからさまな【『淫魔』】が、下心なしに来るわけないデス",
+      "en": "...It was obvious. A clear 'Succubus' like you wouldn't come without an ulterior motive.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76379,
+      "id": "db_EventInfo:90391:8",
+      "jp": "はうう……",
+      "en": "Awww...",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76380,
+      "id": "db_EventInfo:90392:0",
+      "jp": "ルーシェはがっくりと肩を落とした。",
+      "en": "Lusche's shoulders slumped in defeat.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76381,
+      "id": "db_EventInfo:90393:0",
+      "jp": "と言っても、ルーシェに初めて会った時は吸われ尽くして死んだ気がする。",
+      "en": "But saying that, when I first met Lusche, I think she drained me until I died.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76382,
+      "id": "db_EventInfo:90394:0",
+      "jp": "その後も機会はあったと思うが……。",
+      "en": "There were other chances after that too, I think...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76383,
+      "id": "db_EventInfo:90395:2",
+      "jp": "そんなことより。【『縁』】が吸われたってどういうことデス？",
+      "en": "Anyway, what do you mean our 'Bonds' were taken?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76384,
+      "id": "db_EventInfo:90396:8",
+      "jp": "そんなことって",
+      "en": "'Anyway'?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76385,
+      "id": "db_EventInfo:90397:8",
+      "jp": "ええと、お兄ちゃんは色んな女とエッチして【『縁』】を繋いだんだよね",
+      "en": "Well... you had sex with all sorts of women and formed 'Bonds,' right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76386,
+      "id": "db_EventInfo:90398:1",
+      "jp": "あ、ああ……",
+      "en": "Uh... yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76387,
+      "id": "db_EventInfo:90399:8",
+      "jp": "【『縁』】を繋いだ女達は、エッチを通して【『死神』】の力を与えられた。おかげで凄い力を発揮するんだけど",
+      "en": "The women you bonded with got Shinigami's power from the sex. It let them use amazing power, but...",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76388,
+      "id": "db_EventInfo:90400:8",
+      "jp": "シェルフィは、お兄ちゃんとエッチすることで、その【『縁』】自体を【ドレイン】しちゃったんだ",
+      "en": "Shelfi had sex with you and ended up draining the 'Bonds' themselves.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76389,
+      "id": "db_EventInfo:90401:8",
+      "jp": "いわば【『縁ドレイン』】だね",
+      "en": "You could call it 'Bond Drain.'",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76390,
+      "id": "db_EventInfo:90402:1",
+      "jp": "【『縁ドレイン』】……！？",
+      "en": "'Bond Drain'...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76391,
+      "id": "db_EventInfo:90403:8",
+      "jp": "【『縁』】は人と人との繋がりの力……皆、それを失ったせいで、【この店に居続ける理由】がなくなっちゃったんだ",
+      "en": "Bonds are the power of connections between people... Everyone lost theirs, so they lost their reason to stay at this shop.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76392,
+      "id": "db_EventInfo:90404:8",
+      "jp": "もともと皆は、冒険者だったし。冒険者はひと所に収まらないでしょ？",
+      "en": "Originally, they were all adventurers. Adventurers don't settle in one place, right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76393,
+      "id": "db_EventInfo:90405:2",
+      "jp": "まあ、冒険者なんて、基本的には旅から旅への根無し草デスからね",
+      "en": "Yeah, adventurers are basically wanderers, drifting from one journey to the next.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76394,
+      "id": "db_EventInfo:90406:1",
+      "jp": "だからって、一度にいなくなるなんて……",
+      "en": "But still, for them all to leave at once...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76395,
+      "id": "db_EventInfo:90407:8",
+      "jp": "シェルフィは陰湿なやつだからね、事前に根回しして、皆が離散するように軽い催眠をかけていたかもね",
+      "en": "Shelfi is a sneaky one. Maybe he did some groundwork beforehand and put everyone under a light hypnotic suggestion so they'd split up.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76396,
+      "id": "db_EventInfo:90408:8",
+      "jp": "ちょうど平和になって、皆も目標がなくなっていた所だったのも痛かったね",
+      "en": "It also hurt that we'd just gotten peace, and everyone was losing sight of their goals.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76397,
+      "id": "db_EventInfo:90409:8",
+      "jp": "もしくは皆の夢に忍び込んで、潜在意識に働きかけてきたとか",
+      "en": "Or maybe he sneaked into everyone's dreams and worked on their subconscious.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76398,
+      "id": "db_EventInfo:90410:1",
+      "jp": "夢の中に……？",
+      "en": "Into their dreams...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76399,
+      "id": "db_EventInfo:90411:8",
+      "jp": "アイツも【『<ruby=サキュバス>夢魔</ruby>』】のはしくれだからね、それぐらいはやるよ",
+      "en": "He's a bit of a Succubus himself, you know? He'd do something like that.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 76400,
+      "id": "db_EventInfo:90412:1",
+      "jp": "そんな……どうすればいいんだ",
+      "en": "That's... what can I do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

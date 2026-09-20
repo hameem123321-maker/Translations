@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 102901,
+  "range_end": 103000,
+  "pairs": [
+    {
+      "n": 102901,
+      "id": "db_EventInfo:121600:2",
+      "jp": "……気付かないデス？　若い女とかの熱い視線が刺さってるデスよ",
+      "en": "...Don't you notice? Those intense stares from young women are really focused on you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102902,
+      "id": "db_EventInfo:121601:1",
+      "jp": "は、恥ずかしいな……",
+      "en": "This is... kind of embarrassing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102903,
+      "id": "db_EventInfo:121602:2",
+      "jp": "広告効果が出そうデスね。しばらくは稼がせてもらえそうデス",
+      "en": "Looks like the advertising is working. We should be able to make good money for a while.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102904,
+      "id": "db_EventInfo:121605:0",
+      "jp": "物語の影響を受けた客が増えたことで、客足が伸びそうだ。",
+      "en": "With more customers influenced by the story, it looks like business is going to pick up.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102905,
+      "id": "db_EventInfo:121606:2",
+      "jp": "おいオマエ、【『文芸美術保護組合』】から使者が来ているデス",
+      "en": "Hey, a messenger is here from the 'Literary and Artistic Protection Guild'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102906,
+      "id": "db_EventInfo:121608:25",
+      "jp": "フヒヒ。日頃からお世話になっている礼として、組合所属の画家が、宿屋の女どもをモデルに絵を書くですぞ",
+      "en": "Heheh. As thanks for our usual patronage, a painter from the guild is going to use the girls at this inn as models for a painting.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102907,
+      "id": "db_EventInfo:121609:1",
+      "jp": "絵を……？",
+      "en": "A painting...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102908,
+      "id": "db_EventInfo:121610:1",
+      "jp": "（まあ、コイツらは、見た目だけなら美人だし……モデルには欲しがりそうだな）",
+      "en": "(Well, these guys are beauties just to look at... So I bet they'd want models.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102909,
+      "id": "db_EventInfo:121611:25",
+      "jp": "……画家は小説家より食い扶持が少ないですからな。パトロンは喉から手が出るほど欲しいのです",
+      "en": "...Painters have a harder time making a living than novelists. We desperately want a patron.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102910,
+      "id": "db_EventInfo:121612:1",
+      "jp": "そうなのか？　小説家が少なそうだけど",
+      "en": "Really? Novelists seem rare too, though.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102911,
+      "id": "db_EventInfo:121613:25",
+      "jp": "絵は目立つですからな。小説家は普段は小説を書かず、書類とか触っておりまする",
+      "en": "Paintings are more eye-catching, you see. Novelists usually aren't writing novels; they're dealing with documents and such.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102912,
+      "id": "db_EventInfo:121614:25",
+      "jp": "なので絵の仕事は超レア！　絵の仕事は時間がかかりますし、カネもかかりますからな！",
+      "en": "So painting jobs are super rare! Painting work takes time and money!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102913,
+      "id": "db_EventInfo:121615:1",
+      "jp": "ふむ……なんでも描いてくれるのかな",
+      "en": "Hmm... Will they paint anything?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102914,
+      "id": "db_EventInfo:121616:25",
+      "jp": "そりゃもう、描けと言われれば、裸婦だろうとなんだって描きますな！",
+      "en": "Absolutely! If you tell them to paint it, they'll paint it, even if it's a nude!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102915,
+      "id": "db_EventInfo:121617:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102916,
+      "id": "db_EventInfo:121618:2",
+      "jp": "いやらしいデス",
+      "en": "How lewd.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102917,
+      "id": "db_EventInfo:121619:2",
+      "jp": "やってみるデス？　宿屋の広告になるかもしれないし、売れるかもデス",
+      "en": "Want to give it a try? It could become an ad for the inn, and it might sell.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102918,
+      "id": "db_EventInfo:121622:0",
+      "jp": "パトロンか……お金に余裕があったらやってみても良いかな？",
+      "en": "A patron... If I had some extra money, it might be fun to try.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102919,
+      "id": "db_EventInfo:121624:25",
+      "jp": "【<pl>】氏～Д　パトロンに名乗り出ていただき感謝いたしますぞ",
+      "en": "【<pl>】-san~Д Thank you so much for stepping up as a patron.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102920,
+      "id": "db_EventInfo:121625:25",
+      "jp": "フヒヒ、これで紹介料として、私めにもキックバックが……デュフフフ",
+      "en": "Fuhihi, this means I get a kickback as an introduction fee... duhufufu.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102921,
+      "id": "db_EventInfo:121626:2",
+      "jp": "なんだかむかつく顔をしているデス",
+      "en": "You're making a really annoying face desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102922,
+      "id": "db_EventInfo:121627:2",
+      "jp": "まあこいつのことはいいとして、どんな絵を書いてもらうデス？",
+      "en": "Well, forget about him. What kind of picture should we have painted desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102923,
+      "id": "db_EventInfo:121629:2",
+      "jp": "ほう、私をモデルに？",
+      "en": "Hoh, with me as the model?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102924,
+      "id": "db_EventInfo:121630:1",
+      "jp": "シイネは見た目だけなら美人だし、モデルとして適任だと思うんだ",
+      "en": "Shiine's good-looking, so I think she's perfect as a model.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102925,
+      "id": "db_EventInfo:121631:2",
+      "jp": "……言い方は引っかかるデスが、まあいいデス。やってやるデス",
+      "en": "...The way you put it bothers me desu, but fine desu. I'll do it desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102926,
+      "id": "db_EventInfo:121634:0",
+      "jp": "シイネをモデルにした絵は好評で、多くの話題を集めた。",
+      "en": "The painting with Shiine as the model was a hit and got a lot of people talking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102927,
+      "id": "db_EventInfo:121635:2",
+      "jp": "自分がモデルになった絵が好評なのは嬉しいデスが、なんだか恥ずかしいデスね",
+      "en": "It's nice that the painting of me as the model is popular desu, but it's a bit embarrassing desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102928,
+      "id": "db_EventInfo:121636:1",
+      "jp": "シイネが照れるなんて珍しいな",
+      "en": "It's rare to see Shiine get flustered.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102929,
+      "id": "db_EventInfo:121637:2",
+      "jp": "……どういう意味デス",
+      "en": "...What do you mean desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102930,
+      "id": "db_EventInfo:121638:2",
+      "jp": "まあ、集客効果もそこそこあったようデスし、客足も伸びているデス",
+      "en": "Well, it seems to have helped bring in customers desu shi, our foot traffic is growing desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102931,
+      "id": "db_EventInfo:121639:2",
+      "jp": "一枚の絵でこれだけ成果が出るなら、もう少し描かせた方が良かったデスかね",
+      "en": "If one painting gets this many results, maybe I should have her draw more.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102932,
+      "id": "db_EventInfo:121640:1",
+      "jp": "いやいや、お前の本業はモデルじゃないだろ",
+      "en": "Hey, hey, your main job isn't being a model, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102933,
+      "id": "db_EventInfo:121641:2",
+      "jp": "む、まあそれもそうデス。モデルをやっている間はカネにならないデスからね",
+      "en": "Mm, well, that's true. I don't make any money while I'm modeling.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102934,
+      "id": "db_EventInfo:121644:0",
+      "jp": "シイネの絵が人を集め、しばらく宿の客が増えるのであった。",
+      "en": "Shiine's painting drew people in, and for a while, more guests came to the inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102935,
+      "id": "db_EventInfo:121646:10",
+      "jp": "私にモデルをやれだと？",
+      "en": "You want me to model?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102936,
+      "id": "db_EventInfo:121647:2",
+      "jp": "なるほど、希少種族エルフィードであるコイツなら、話題性もあるデス",
+      "en": "Hmm, good point. This one is a rare Elfeed. That would be a real conversation starter.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102937,
+      "id": "db_EventInfo:121648:1",
+      "jp": "頼めないか？",
+      "en": "Can't you ask her?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102938,
+      "id": "db_EventInfo:121649:10",
+      "jp": "うぅむ……しかし裸体をむやみに晒すのは抵抗があるのだが……",
+      "en": "Hmm... But I'm not comfortable just showing my naked body...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102939,
+      "id": "db_EventInfo:121650:1",
+      "jp": "いや、裸のモデルじゃないから、そこは安心してくれ",
+      "en": "No, no, not as a nude model, so don't worry about that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102940,
+      "id": "db_EventInfo:121651:10",
+      "jp": "何だ、それなら別に構わんぞ",
+      "en": "Oh, is that all? In that case, it's fine.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102941,
+      "id": "db_EventInfo:121654:0",
+      "jp": "エリオルダをモデルにした絵は好評で、多くの話題を集めた。",
+      "en": "The painting with Eliorda as the model was very popular and got people talking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102942,
+      "id": "db_EventInfo:121655:2",
+      "jp": "やったデス！　実物のエリオルダを一目見ようと、客が集まっているデス！",
+      "en": "We did it! People are coming just to get a look at the real Eliorda!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102943,
+      "id": "db_EventInfo:121656:10",
+      "jp": "ううむ、見られているのは絵のはずなのだが、何だか恥ずかしいな……",
+      "en": "Hmm... It's just a picture people are looking at, but for some reason I'm embarrassed...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102944,
+      "id": "db_EventInfo:121657:2",
+      "jp": "いいことを思い付いたデス！　これだけ人気なら、絵はもっと売れるはずデス！",
+      "en": "I got a great idea Death! If it's this popular, the paintings should sell even more Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102945,
+      "id": "db_EventInfo:121658:2",
+      "jp": "もっと画家どもに書かせて、バンバン売りさばいてボロもうけしてやるデス！",
+      "en": "We'll have the painters draw more and sell tons, making a huge profit Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102946,
+      "id": "db_EventInfo:121659:1",
+      "jp": "いやいや、今から描いたんじゃ、展示するまでに時間がかかり過ぎるだろ？",
+      "en": "No way, if they start drawing now, it'll take way too long to get them on display, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102947,
+      "id": "db_EventInfo:121660:2",
+      "jp": "なるほど、もっと画家を雇って本格的に描かせるべきデスね",
+      "en": "I see, we should hire more painters to draw them properly Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102948,
+      "id": "db_EventInfo:121661:10",
+      "jp": "私の本業はモデルじゃないんだが……",
+      "en": "Being a model isn't my real job, you know...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 102949,
+      "id": "db_EventInfo:121664:0",
+      "jp": "エリオルダの絵が人を集め、しばらく宿の客が増えるのであった。",
+      "en": "The painting of Eliorda drew a crowd, and the inn's guests increased for a while.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102950,
+      "id": "db_EventInfo:121666:4",
+      "jp": "おー？　ウルフィナがもでる？　もでるってなんだー？",
+      "en": "Ohh? Wolfina do a model? What's a model?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 102951,
+      "id": "db_EventInfo:121667:2",
+      "jp": "なるほど、希少なケモミミ種族の絵を出せば注目は集まりそうデス",
+      "en": "I see, a painting of a rare beast-ear race would surely get a lot of attention Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102952,
+      "id": "db_EventInfo:121668:1",
+      "jp": "ウルフィナの絵を描きたいんだ。頼めないか？",
+      "en": "I want to draw a painting of Wolfina. Can't you ask her?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102953,
+      "id": "db_EventInfo:121669:4",
+      "jp": "よくわからんが、ニクをくれるっていうなら、いいぞー",
+      "en": "I don't really get it, but if you give me meat, sure.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 102954,
+      "id": "db_EventInfo:121672:0",
+      "jp": "ウルフィナをモデルにした絵は好評で、多くの話題を集めた。",
+      "en": "The painting using Wolfina as a model was well-received and sparked a lot of talk.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102955,
+      "id": "db_EventInfo:121673:2",
+      "jp": "やったデス！　実物のウルフィナを一目見ようと、客が集まっているデス！",
+      "en": "It's working! Customers are gathering, all wanting to see the real Wolfina!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102956,
+      "id": "db_EventInfo:121674:4",
+      "jp": "へー",
+      "en": "Huh.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 102957,
+      "id": "db_EventInfo:121675:2",
+      "jp": "ケモミミ種族のいる宿に泊まれるとあって、遠方からも客が来てるデス",
+      "en": "It's a chance to stay at an inn with a beastman race. Guests are even coming from far away!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102958,
+      "id": "db_EventInfo:121676:1",
+      "jp": "おお",
+      "en": "Wow.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102959,
+      "id": "db_EventInfo:121677:4",
+      "jp": "オレもてんちょーが喜んでくれてうれしいぞ",
+      "en": "I'm glad the owner is happy too.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 102960,
+      "id": "db_EventInfo:121680:0",
+      "jp": "ウルフィナの絵が人を集め、しばらく宿の客が増えるのであった。",
+      "en": "Thanks to Wolfina's picture, the inn's guests increased for a while.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102961,
+      "id": "db_EventInfo:121681:2",
+      "jp": "おいオマエ、【『文芸美術保護組合』】から使者が来ているデス",
+      "en": "Hey you, there's a messenger here from the 【『Arts and Literature Protection Guild』】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102962,
+      "id": "db_EventInfo:121682:1",
+      "jp": "またか",
+      "en": "Again?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102963,
+      "id": "db_EventInfo:121684:25",
+      "jp": "フヒヒ、日頃からお世話になっている礼として、組合所属の詩人と音楽家が、【<pl>】氏のリクエストで歌を作りますぞ",
+      "en": "Hehehe, as thanks for all your regular business, a poet and musician from the guild will compose a song for you, Mr.【<pl>】.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102964,
+      "id": "db_EventInfo:121685:1",
+      "jp": "歌を……？",
+      "en": "A song...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102965,
+      "id": "db_EventInfo:121686:25",
+      "jp": "……まあ、詩人も音楽家も貧乏ですからな。パトロンは喉から手が出るほど欲しいわけですな",
+      "en": "...Well, poets and musicians are poor, you know. They desperately need a patron.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102966,
+      "id": "db_EventInfo:121687:1",
+      "jp": "芸術家はそんなものばっかりなのか",
+      "en": "Are artists always like that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102967,
+      "id": "db_EventInfo:121688:25",
+      "jp": "ばっかりでござる",
+      "en": "Just kidding.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102968,
+      "id": "db_EventInfo:121689:2",
+      "jp": "やってみるデス？　宿屋の広告になるかもしれないし、売れるかもデス",
+      "en": "Wanna give it a try? It might be good advertising for the inn. Might even sell.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102969,
+      "id": "db_EventInfo:121690:1",
+      "jp": "売れる……のか？",
+      "en": "It would... sell?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102970,
+      "id": "db_EventInfo:121693:0",
+      "jp": "パトロンか……お金に余裕があったらやってみても良いかな？",
+      "en": "A patron...? If I had some extra money, maybe I could try it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102971,
+      "id": "db_EventInfo:121695:25",
+      "jp": "【<pl>】氏～Д　パトロンに名乗り出ていただき感謝いたしますぞ",
+      "en": "Mr. 【<pl>】Д! Thank you for stepping up as a patron.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102972,
+      "id": "db_EventInfo:121696:25",
+      "jp": "フヒヒ、これで紹介料として、私めにもキックバックが……デュフフフ",
+      "en": "Hehehe, this means a kickback for me as an intro fee... Du-fufufu.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102973,
+      "id": "db_EventInfo:121697:2",
+      "jp": "なんだかむかつく顔をしているデス",
+      "en": "He's making a really annoying face.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102974,
+      "id": "db_EventInfo:121698:2",
+      "jp": "まあこいつのことはいいとして、どんな曲を書いてもらうデス？",
+      "en": "Anyway, forget him. What kind of song do you want written?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102975,
+      "id": "db_EventInfo:121699:2",
+      "jp": "ふむ、良いイメージを人間共に植え付けるわけデスね",
+      "en": "Hmm. To plant a good image in the humans' minds, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102976,
+      "id": "db_EventInfo:121700:1",
+      "jp": "言い方",
+      "en": "Your wording.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102977,
+      "id": "db_EventInfo:121701:25",
+      "jp": "店の評判が上がる様な、と……そのように伝えておきますぞ",
+      "en": "A song that improves the shop's reputation... I shall convey it as such.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 102978,
+      "id": "db_EventInfo:121704:0",
+      "jp": "後日、完成した歌を聞いたという客がじわじわと訪れた。",
+      "en": "A few days later, customers who had heard the finished song started trickling in.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102979,
+      "id": "db_EventInfo:121705:2",
+      "jp": "やったデス！　完成した曲を聞いて、宿の評判が上がっているデス！",
+      "en": "We did it! The song is finished, and our inn's reputation is rising!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102980,
+      "id": "db_EventInfo:121706:1",
+      "jp": "おお",
+      "en": "Wow.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102981,
+      "id": "db_EventInfo:121707:2",
+      "jp": "宿のイメージもアップしているデスし、もっとガンガン歌わせた方が良いデスね",
+      "en": "Our inn's image is improving too. Maybe we should make them sing even more.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102982,
+      "id": "db_EventInfo:121708:2",
+      "jp": "コーラス隊でも結成するデス？　大演奏会をするデス！",
+      "en": "Should we form a choir? Have a big concert!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102983,
+      "id": "db_EventInfo:121709:1",
+      "jp": "おいー！",
+      "en": "Hey, wait!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102984,
+      "id": "db_EventInfo:121712:0",
+      "jp": "完成した歌は評判となり、スタッフも活気づいた。",
+      "en": "The completed song was a hit, and the staff became more lively.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102985,
+      "id": "db_EventInfo:121713:2",
+      "jp": "ほう、ラブソング、デス？",
+      "en": "Hmm? A love song?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102986,
+      "id": "db_EventInfo:121714:1",
+      "jp": "あ、ああ……",
+      "en": "Uh, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102987,
+      "id": "db_EventInfo:121715:2",
+      "jp": "オマエが言うなら、そのように作らせるデス",
+      "en": "If you say so, I'll have them make it that way.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102988,
+      "id": "db_EventInfo:121718:0",
+      "jp": "後日、完成した歌を聞かせてもらった。",
+      "en": "A few days later, they let me hear the finished song.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102989,
+      "id": "db_EventInfo:121719:2",
+      "jp": "随分熱烈なラブソングになったデスね",
+      "en": "It's become a pretty passionate love song, huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102990,
+      "id": "db_EventInfo:121720:1",
+      "jp": "何だか恥ずかしいな……",
+      "en": "Kinda embarrassing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102991,
+      "id": "db_EventInfo:121721:2",
+      "jp": "ふふ、オマエがしたい事を歌ってるんじゃないんデス？",
+      "en": "Hehe, I'm just singing what you want to do, aren't I?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102992,
+      "id": "db_EventInfo:121722:2",
+      "jp": "オマエが作らせた歌を聞いて、その気になってるヤツもいそうデスね",
+      "en": "I bet there are people who hear that song you had made and are getting fired up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102993,
+      "id": "db_EventInfo:121725:0",
+      "jp": "完成した歌は評判となり、スタッフも活気づいた。",
+      "en": "The finished song became a hit. It even boosted the staff's morale.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102994,
+      "id": "db_EventInfo:121726:2",
+      "jp": "ほほう、冒険者どもを集めるような曲デスね",
+      "en": "Hoho, it's a song to gather adventurers, huh.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102995,
+      "id": "db_EventInfo:121727:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 102996,
+      "id": "db_EventInfo:121728:2",
+      "jp": "分かったデス、ではそう伝えておくデス",
+      "en": "Got it. I'll tell them that.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102997,
+      "id": "db_EventInfo:121731:0",
+      "jp": "後日、完成した歌を聞かせてもらった。",
+      "en": "A few days later, they let me hear the finished song.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 102998,
+      "id": "db_EventInfo:121732:2",
+      "jp": "随分と働く喜びを強調する歌デスね",
+      "en": "It's quite a song, really emphasizes the joy of work.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 102999,
+      "id": "db_EventInfo:121733:1",
+      "jp": "そうだな",
+      "en": "Yeah, it is.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103000,
+      "id": "db_EventInfo:121734:2",
+      "jp": "しかし応募者が増えても、生きて帰ってくるかはそいつ次第デス。ちゃんと冒険者の力量を考えてクエストを与えるデスよ？",
+      "en": "But even if we get more applicants, whether they come back alive is up to them. We'll give out quests based on how skilled the adventurer is, okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

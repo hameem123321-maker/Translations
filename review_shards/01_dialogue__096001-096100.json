@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 96001,
+  "range_end": 96100,
+  "pairs": [
+    {
+      "n": 96001,
+      "id": "db_EventInfo:113411:2",
+      "jp": "冒険者どもの戦力を割かれては困るデス",
+      "en": "We can't afford to spare our adventurers' strength.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96002,
+      "id": "db_EventInfo:113412:17",
+      "jp": "ええ。皆殺しにしたのち、死体を火山に放り込んでやりましょう",
+      "en": "Right. We'll kill every last one and throw their bodies into the volcano.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 96003,
+      "id": "db_EventInfo:113415:1",
+      "jp": "前世までの俺のあらすじ",
+      "en": "The summary of my life before this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96004,
+      "id": "db_EventInfo:113416:1",
+      "jp": "俺の名前は【<pl>】",
+      "en": "My name is 【<pl>】.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96005,
+      "id": "db_EventInfo:113418:1",
+      "jp": "不慮の事故で死んだところ、シイネという名の変な【『死神』】に転生させられ、店の経営をさせられることになった",
+      "en": "I died in an accident. Then, a weird Shinigami named Shiine made me reincarnate. I ended up running a shop.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96006,
+      "id": "db_EventInfo:113419:1",
+      "jp": "店の経営も軌道に乗り始めたところに訪れた【過労死】という名の突然の死。転生の間際、シイネは【『死神代行助手』】を探せと告げる",
+      "en": "The shop was starting to do well. Then, sudden death from overwork hit me. Right before reincarnation, Shiine told me to find a 'Shinigami Agent Assistant'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96007,
+      "id": "db_EventInfo:113420:1",
+      "jp": "はたして【『死神代行助手』】とは一体……俺の来世、どうなっちゃうの？",
+      "en": "What even is a 'Shinigami Agent Assistant'...? What's going to happen to my next life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96008,
+      "id": "db_EventInfo:113424:2",
+      "jp": "おはようデス。今日もキリキリ働くデスよ",
+      "en": "Good morning. Let's work hard again today.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96009,
+      "id": "db_EventInfo:113425:1",
+      "jp": "えっ！？　シイネ！？",
+      "en": "Huh!? Shiine!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96010,
+      "id": "db_EventInfo:113426:2",
+      "jp": "過労死で死ぬとは情けないデス",
+      "en": "Dying from overwork is pathetic.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96011,
+      "id": "db_EventInfo:113427:1",
+      "jp": "ええと俺、死んだんだよな……過労死で",
+      "en": "So... I died, right? From overwork.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96012,
+      "id": "db_EventInfo:113428:2",
+      "jp": "そうデスね",
+      "en": "That's right.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96013,
+      "id": "db_EventInfo:113429:1",
+      "jp": "じゃあなんで、俺は生きているんだ",
+      "en": "Then why am I alive?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96014,
+      "id": "db_EventInfo:113430:2",
+      "jp": "そりゃ、私が時間を巻き戻したデスから",
+      "en": "Because I turned back time, that's why.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96015,
+      "id": "db_EventInfo:113431:1",
+      "jp": "じ、時間が……なんだって！？",
+      "en": "What... happened to the time!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96016,
+      "id": "db_EventInfo:113432:2",
+      "jp": "オマエ、私のことをなんだと思ってるデス？",
+      "en": "What do you think I am?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96017,
+      "id": "db_EventInfo:113433:2",
+      "jp": "私は【『神』】、いわゆるゴッドデスよ？　死を操作することなんて造作もないデス",
+      "en": "I'm a 'God,' you know? I can handle death easily.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96018,
+      "id": "db_EventInfo:113434:1",
+      "jp": "そんな馬鹿な",
+      "en": "No way...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96019,
+      "id": "db_EventInfo:113435:1",
+      "jp": "(本当に【『神』】だったのか……自称ではなく)",
+      "en": "(So she really is a 'God'... not just saying it.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96020,
+      "id": "db_EventInfo:113436:2",
+      "jp": "む、かなり失礼なコトを考えているのがわかるデス",
+      "en": "Hmph, I can tell you're thinking something rude.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96021,
+      "id": "db_EventInfo:113437:1",
+      "jp": "……じゃ、じゃあ、シイネが生き返らせてくれたってことか？",
+      "en": "...So... Shiine brought me back to life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96022,
+      "id": "db_EventInfo:113438:2",
+      "jp": "生き返らせる……はちょっと語弊があるデスね。【『神』】の【『奇跡』】である【『<ruby=リザレクション>蘇生魔術</ruby>』】は世界への影響が大きいデスから",
+      "en": "'Brought back to life' isn't quite right. The 'Resurrection' miracle has a big impact on the world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96023,
+      "id": "db_EventInfo:113439:2",
+      "jp": "死者が蘇ると、つじつま合わせが大変デス。だから手っ取り早く、時間を巻き戻してやったデス。これなら蘇生よりは簡単デス",
+      "en": "Bringing back the dead is a hassle. So I just rolled time back instead. That's easier than a true resurrection.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96024,
+      "id": "db_EventInfo:113440:1",
+      "jp": "そんなめちゃくちゃな……",
+      "en": "That's crazy...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96025,
+      "id": "db_EventInfo:113441:2",
+      "jp": "それが【『神』】の力デス。私への信仰――とカネがあれば、大抵のことは出来るデス",
+      "en": "That's the power of a 'God.' With faith in me—and money—I can do most things.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96026,
+      "id": "db_EventInfo:113442:2",
+      "jp": "でもその肝心のカネがないから、オマエは働く必要があるデス。目的を果たすまで、オマエは死んでも死んだままにさせないデス",
+      "en": "But without that key money, you need to work. Until my goal is done, I won't let you stay dead.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96027,
+      "id": "db_EventInfo:113443:2",
+      "jp": "オマエは死にやすいデスが、死んでも時間を巻き戻してやるデス。安心するデス",
+      "en": "You're easy to die. But I'll rewind time if you do. So don't worry.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96028,
+      "id": "db_EventInfo:113444:1",
+      "jp": "それは安心……なような、恐ろしいような",
+      "en": "That's... kind of reassuring, and kind of scary.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96029,
+      "id": "db_EventInfo:113445:2",
+      "jp": "気にするなデス",
+      "en": "Don't worry about it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96030,
+      "id": "db_EventInfo:113446:2",
+      "jp": "それじゃ、今後ともよろしくデス",
+      "en": "Well then, let's get along from now on.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96031,
+      "id": "db_EventInfo:113447:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96032,
+      "id": "db_EventInfo:113449:2",
+      "jp": "私は時間を巻き戻したデス。単に巻き戻したのではなく、都合の良い部分はそのままデス。私達は【『神』】なので、都合よくできてるのデス",
+      "en": "I rewound time. I didn't just rewind it. I kept the convenient parts. We're 'gods', so we can make things work in our favor.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96033,
+      "id": "db_EventInfo:113450:2",
+      "jp": "つまり、巻き戻されるほど強くなるデス。今のオマエはちっぽけな三流死神デスが、繰り返すことできっと、偉大な【『死神代行』】になるはずデス",
+      "en": "In other words, you get stronger every time I rewind it. You're just a tiny third-rate Shinigami now. But by repeating this, you'll surely become a great 'Shinigami Agent'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96034,
+      "id": "db_EventInfo:113451:1",
+      "jp": "ちっぽけって、あのなぁ……",
+      "en": "'Tiny', huh... Hey, listen...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96035,
+      "id": "db_EventInfo:113452:1",
+      "jp": "そういえば、俺は前のシイネを覚えているけど……前のシイネとお前は違うんだよな？",
+      "en": "Speaking of which, I remember the old Shiine... You're different from her, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96036,
+      "id": "db_EventInfo:113453:2",
+      "jp": "違うデス。でもたいした問題ではないデス",
+      "en": "Different. But it's not a big problem.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96037,
+      "id": "db_EventInfo:113454:2",
+      "jp": "あと、オマエ……死相が見えてるデスよ",
+      "en": "Also, you... I can see your death mark.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96038,
+      "id": "db_EventInfo:113455:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96039,
+      "id": "db_EventInfo:113456:2",
+      "jp": "そりゃそうデス。オマエの死の運命は変えられないのデス",
+      "en": "Of course, that's how it is. I can't change your fate of dying.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96040,
+      "id": "db_EventInfo:113457:2",
+      "jp": "オマエが死んだ瞬間のことは知らないデスが、これから死ぬということは見えてるデス。死んだ原因を取り除かなければ、また過労死するデスよ",
+      "en": "I don't know about the exact moment you died, but I can see that you're going to die soon. If you don't remove the cause, you'll die from overwork again.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96041,
+      "id": "db_EventInfo:113458:1",
+      "jp": "そ、そんな……",
+      "en": "N-no way...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96042,
+      "id": "db_EventInfo:113460:2",
+      "jp": "……そういえばオマエ、【『死神』】としての【仕事】のことは覚えてるデス？",
+      "en": "...Speaking of which, do you remember the 'work' you have as a Shinigami?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96043,
+      "id": "db_EventInfo:113461:1",
+      "jp": "【仕事】って、店の経営のことか？　それなら……",
+      "en": "'Work'... you mean running the shop? That, I...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96044,
+      "id": "db_EventInfo:113462:2",
+      "jp": "それも大事デスが……",
+      "en": "That's important too, but...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96045,
+      "id": "db_EventInfo:113464:2",
+      "jp": "私達の【本当の使命】は【人間どもを絶滅から救う】ことデス",
+      "en": "Our real mission is to save the humans from extinction.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96046,
+      "id": "db_EventInfo:113465:1",
+      "jp": "【『災厄』】……だな",
+      "en": "The 'Calamity'... right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96047,
+      "id": "db_EventInfo:113466:2",
+      "jp": "前にも言ったとおり、私は【『災厄』】により人間が絶滅するという伝言を聞いてるのデス……誰から聞いたかは忘れたデスが",
+      "en": "Like I said before, I heard a prophecy that humans will go extinct because of the 'Calamity'... I forgot who told me, though.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96048,
+      "id": "db_EventInfo:113467:2",
+      "jp": "それに、私も変に思ってたのデス",
+      "en": "Also, I've been feeling something was off.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96049,
+      "id": "db_EventInfo:113468:2",
+      "jp": "【『死神』】には、人間どもの寿命を見る能力があるというのは知ってるデス？",
+      "en": "Do you know that Shinigami have the ability to see a human's remaining lifespan?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96050,
+      "id": "db_EventInfo:113469:1",
+      "jp": "そういえば【死相】とか見てたな",
+      "en": "Now that you mention it, I remember seeing something like a 'death mark'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96051,
+      "id": "db_EventInfo:113470:2",
+      "jp": "そうデス。いわゆる【『死神の眼』】があれば、いつ死ぬかわかるのデス",
+      "en": "Yes. With the so-called 'Death God's Eye', you can know when someone will die.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96052,
+      "id": "db_EventInfo:113471:2",
+      "jp": "その能力で、人間どもの寿命を見ていた私は、あるとき【異変】に気付いたデス",
+      "en": "Using that power, I watched people's lifespans. Then, one day, I noticed something strange.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96053,
+      "id": "db_EventInfo:113472:2",
+      "jp": "【『死神の眼』】が【ある時期より先に伸びなくなった】のデス。老人だけじゃなく赤子もデス。これは明らかに変デス",
+      "en": "The 'Death God's Eye' showed that lifespans stopped extending past a certain point. Not just old people, but babies too. This is clearly wrong.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96054,
+      "id": "db_EventInfo:113473:1",
+      "jp": "先に伸びなくなった……？",
+      "en": "Stopped extending...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96055,
+      "id": "db_EventInfo:113474:2",
+      "jp": "多少の時間差はあるデスが、すべての人間が近い時期に死ぬということデス。これは、【人間という種が絶滅する】ことを意味するデス",
+      "en": "The timing is a little different for each person, but it means all humans will die around the same time. This means the entire human race will go extinct.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96056,
+      "id": "db_EventInfo:113475:1",
+      "jp": "それが【『災厄』】……",
+      "en": "So that's the 'Calamity'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96057,
+      "id": "db_EventInfo:113476:2",
+      "jp": "そうデス。この【『災厄』】を回避しなければ、人間どもは確実に絶滅するデス",
+      "en": "Yes. If we don't stop this 'Calamity', humanity is definitely doomed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96058,
+      "id": "db_EventInfo:113477:2",
+      "jp": "【『死神』】は人間どもの死を司るデスが、大局的には人間という種を維持する役目を持っているデス",
+      "en": "We Death Gods oversee human death, but our bigger job is to keep the human race going.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96059,
+      "id": "db_EventInfo:113478:2",
+      "jp": "ゆえに【『私』】が【『死神』】として受肉しているデス。【『災厄』】を回避し、【人間という種が絶滅する】ことを避けるために……",
+      "en": "That's why 'I' took on a physical form as a 'Death God'. To stop the 'Calamity' and prevent humanity's extinction...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96060,
+      "id": "db_EventInfo:113479:2",
+      "jp": "私は【『神』】、いわゆるゴッド。人間という種族に大きな干渉をするのは許されないデスが",
+      "en": "I am a 'God', what you might call God. I'm not really supposed to interfere much with humanity, but...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96061,
+      "id": "db_EventInfo:113480:2",
+      "jp": "人間が絶滅するとなれば、そうもいってられんデス",
+      "en": "If humanity is about to go extinct, the rules don't apply anymore.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96062,
+      "id": "db_EventInfo:113481:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96063,
+      "id": "db_EventInfo:113482:1",
+      "jp": "でもなんで、俺が召喚されたんだ？　シイネは【『神』】なんだろう？",
+      "en": "So why was I summoned? Shiine, you're a 'god', right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96064,
+      "id": "db_EventInfo:113483:2",
+      "jp": "【『神』】だからって、なんでもかんでもできるわけでもないデス。私の力を使うには途方もない――",
+      "en": "Just because I'm a 'god' doesn't mean I can do anything I want. To use my power, it takes an unbelievable amount of...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96065,
+      "id": "db_EventInfo:113485:2",
+      "jp": "カネが必要なのデス",
+      "en": "Money. I need money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96066,
+      "id": "db_EventInfo:113486:1",
+      "jp": "……おい",
+      "en": "...Seriously?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96067,
+      "id": "db_EventInfo:113487:2",
+      "jp": "うるさいデス！　そういうものになったんデスから！　とにかくカネが必要なんデス！　今の私はカネを奉納されないと力が発揮出来ないのデス！",
+      "en": "Shut up! That's just how it is now! I need money, okay? Right now, I can't use my full power unless someone gives me money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96068,
+      "id": "db_EventInfo:113488:1",
+      "jp": "し、【『死神』】なのに、なんて世知辛い",
+      "en": "A... a 'Grim Reaper' needing money? The world's a tough place.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96069,
+      "id": "db_EventInfo:113489:2",
+      "jp": "うるさいデース！　私の力を発揮させるために、ガッポガッポとカネをかせぐデス！",
+      "en": "Shut up! You're going to work hard and make lots and lots of money so I can use my power!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96070,
+      "id": "db_EventInfo:113490:2",
+      "jp": "……まあとにかく。カネを稼ぐためにも力を得る必要があるデス",
+      "en": "...Anyway. To make money, you need power first.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96071,
+      "id": "db_EventInfo:113491:2",
+      "jp": "オマエは想像以上に貧弱デス。寿命を延ばさないといけないデス",
+      "en": "You're weaker than I thought. You need to extend your lifespan.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96072,
+      "id": "db_EventInfo:113492:2",
+      "jp": "よってオマエが最初にする仕事は、【『死神代行助手』】を探すことデス。それがオマエと私を【『世界』】につなぎとめるデス",
+      "en": "So, your first job is to find a 'Grim Reaper Agent Assistant'. That will connect you and me to this 'world'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96073,
+      "id": "db_EventInfo:113493:1",
+      "jp": "【『死神代行助手』】……",
+      "en": "A 'Grim Reaper Agent Assistant'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96074,
+      "id": "db_EventInfo:113494:1",
+      "jp": "ううむ……稼いだ金が減っている",
+      "en": "Hmm... My money's going down.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96075,
+      "id": "db_EventInfo:113496:2",
+      "jp": "前のオマエは繁盛させたデス？",
+      "en": "Did the old you make the shop do well, Des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96076,
+      "id": "db_EventInfo:113497:1",
+      "jp": "……そのつもり",
+      "en": "... I think so.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96077,
+      "id": "db_EventInfo:113498:2",
+      "jp": "それは残念デス。きっと転生の余波で吹っ飛んだデスね",
+      "en": "That's too bad, Des. It must have blown away in the shock of your reincarnation, Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96078,
+      "id": "db_EventInfo:113499:2",
+      "jp": "時間を巻き戻すには莫大な【『死神パワー』】が必要デス。途方もない、おカネが必要なのデス",
+      "en": "To turn back time takes a huge amount of 'Shinigami Power', Des. That means you need a crazy amount of money, Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96079,
+      "id": "db_EventInfo:113500:1",
+      "jp": "稼ぎ直しだな",
+      "en": "Guess I have to earn it all back.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96080,
+      "id": "db_EventInfo:113501:2",
+      "jp": "投資した設備や経験はそのままデス。どんどん【『投資』】していけば無駄が少なくなるはずデス。そうすれば稼ぎ直しもラクになるデス",
+      "en": "The facilities you invested in and your experience are still here, Des. If you keep 'investing', there should be less waste, Des. That will make earning it back easier too, Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96081,
+      "id": "db_EventInfo:113504:15",
+      "jp": "やあ、店長君、今日も元気かい？",
+      "en": "Hey there, Manager-kun, are you doing well today?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96082,
+      "id": "db_EventInfo:113505:1",
+      "jp": "デシルス",
+      "en": "Desilus.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96083,
+      "id": "db_EventInfo:113506:15",
+      "jp": "今日こそ【『組織』】への【『投資』】を頼むよ！",
+      "en": "I'm asking you today for sure to 'invest' in an 'Organization'!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96084,
+      "id": "db_EventInfo:113507:15",
+      "jp": "ちょうど経営難に陥っていて、資金を必要としている【『組織』】がたくさんあるんだ",
+      "en": "There are lots of 'Organizations' right now that are in trouble and need money.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96085,
+      "id": "db_EventInfo:113508:15",
+      "jp": "そういった【『組織』】に【『投資』】していけば、取引や商売の幅も広げられると思うんだけど、どうだい？",
+      "en": "If you 'invest' in those 'Organizations', I think it will widen your options for deals and business. What do you say?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96086,
+      "id": "db_EventInfo:113509:1",
+      "jp": "あっ、ああ……",
+      "en": "Ah, ah, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96087,
+      "id": "db_EventInfo:113510:15",
+      "jp": "前向きに検討してくれるかい！？",
+      "en": "Will you think about it positively!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96088,
+      "id": "db_EventInfo:113511:15",
+      "jp": "それじゃ、僕の方からコネクションを用意しておくから、よろしく頼むよ！",
+      "en": "Alright, I'll set up the connections from my side, please take care of it!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 96089,
+      "id": "db_EventInfo:113514:0",
+      "jp": "デシルスは機嫌良く去って行った。",
+      "en": "Desilus left in a good mood.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96090,
+      "id": "db_EventInfo:113515:1",
+      "jp": "……あいつとは初対面じゃないよな？",
+      "en": "...That guy and I aren't meeting for the first time, are we?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96091,
+      "id": "db_EventInfo:113516:2",
+      "jp": "うーん？　こないだ会ったばかりデスけど",
+      "en": "Hmm? We just met the other day.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96092,
+      "id": "db_EventInfo:113517:1",
+      "jp": "そ、そうなのか……",
+      "en": "Oh, is that so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96093,
+      "id": "db_EventInfo:113518:2",
+      "jp": "記憶が混乱しているデス？　時間の巻き戻しに慣れていないせいデスね……そのうち慣れるデス",
+      "en": "Is your memory messed up? It's because you're not used to the time rewind yet... You'll get used to it eventually.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96094,
+      "id": "db_EventInfo:113519:1",
+      "jp": "慣れるって……巻き戻しするには、また死んだときなんだろ",
+      "en": "Get used to it... To rewind time, I have to die again, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96095,
+      "id": "db_EventInfo:113520:2",
+      "jp": "もちろんデス",
+      "en": "Of course.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96096,
+      "id": "db_EventInfo:113521:1",
+      "jp": "やだなぁ……",
+      "en": "That sucks...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96097,
+      "id": "db_EventInfo:113522:2",
+      "jp": "気にするなデス。巻戻っても【『縁』】は消えないデス",
+      "en": "Don't worry about it. Even if time rewinds, 【'Bonds'】 don't disappear.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96098,
+      "id": "db_EventInfo:113523:1",
+      "jp": "【『縁』】……",
+      "en": "【'Bonds'】...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96099,
+      "id": "db_EventInfo:113524:2",
+      "jp": "【『縁』】によって、この世界は少しずつ変わっていくのデス",
+      "en": "With 'En', the world slowly changes.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96100,
+      "id": "db_EventInfo:113525:2",
+      "jp": "オマエは世界を少しずつ変えて、【『災厄』】を回避するデスよ",
+      "en": "You slowly change the world to avoid the 'Calamity'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

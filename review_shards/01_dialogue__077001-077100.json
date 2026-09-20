@@ -1,0 +1,820 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 77001,
+  "range_end": 77100,
+  "pairs": [
+    {
+      "n": 77001,
+      "id": "db_EventInfo:91136:2",
+      "jp": "一概にそうとも言えんデス。手紙でも【『災厄』】の件には触れているし、他の女共の事にも言及しているデスからね",
+      "en": "You can't say that for sure. The letter mentions the【『Calamity』】and talks about the other women too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77002,
+      "id": "db_EventInfo:91137:1",
+      "jp": "しかし、このタイミングでいなくなられるとは、参ったな",
+      "en": "But them disappearing right now... that's tough.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77003,
+      "id": "db_EventInfo:91138:2",
+      "jp": "奴らはカストロイアの儀式をやり直すようデス。連れ戻すには、【『ドルワミール鉱山』】へ向かうデス！",
+      "en": "They are redoing Castroia's ritual. To bring them back, we need to go to the【『Dolwamir Mine』】!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77004,
+      "id": "db_EventInfo:91139:0",
+      "jp": "【『ドルワミール鉱山』】を進んでいると……。",
+      "en": "As I head into the【『Dolwamir Mine』】...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77005,
+      "id": "db_EventInfo:91140:13",
+      "jp": "おお【<pl>】殿！　わざわざこちらまで出向かれるとは！",
+      "en": "Oh, Master【<pl>】! You came all the way out here!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77006,
+      "id": "db_EventInfo:91141:1",
+      "jp": "ドルガノン！？　アンジュと一緒だったはずでは……",
+      "en": "Dorganon!? Weren't you supposed to be with Anju...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77007,
+      "id": "db_EventInfo:91142:0",
+      "jp": "俺の言葉に、ドルガノンは露骨に目を背けた。",
+      "en": "Dorganon turned away from my words.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77008,
+      "id": "db_EventInfo:91143:13",
+      "jp": "うム……姫様は先祖代々伝わる巫女の装いを身につけ、鉱山の奥にある修行場へと向かいましたですじゃ",
+      "en": "Um... The Princess put on the shrine maiden attire passed down by her ancestors and headed to the training grounds deep in the mines, yes.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77009,
+      "id": "db_EventInfo:91144:13",
+      "jp": "まあその、向かったというか向かわせたというか、あっちへ行けと誘導したというか……",
+      "en": "Well, I should say, she went, or rather, I made her go, or guided her to go over there...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77010,
+      "id": "db_EventInfo:91145:13",
+      "jp": "しかしそれが、あのようなことになるとは……！",
+      "en": "But that it would lead to *that*...!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77011,
+      "id": "db_EventInfo:91146:1",
+      "jp": "修行場だって？　こんな危険な場所に一人で？",
+      "en": "Training grounds? Alone in a dangerous place like this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77012,
+      "id": "db_EventInfo:91147:13",
+      "jp": "いやその、むしろ危険なのは姫様の方と言うか、その……",
+      "en": "No, actually, if anything, the dangerous one is the Princess, you see, that is...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77013,
+      "id": "db_EventInfo:91148:2",
+      "jp": "こいつなに言ってるデス？",
+      "en": "What's he talking about?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77014,
+      "id": "db_EventInfo:91149:1",
+      "jp": "とにかくアンジュの後を追おう！",
+      "en": "Anyway, let's go after Anju!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77015,
+      "id": "db_EventInfo:91151:0",
+      "jp": "【『ドルワミール鉱山』】の奥にて……。",
+      "en": "Deep within the Dorwamir Mines...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77016,
+      "id": "db_EventInfo:91152:1",
+      "jp": "ん？　なんだ、この地鳴りは……？",
+      "en": "Huh? What's this rumbling...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77017,
+      "id": "db_EventInfo:91154:2",
+      "jp": "爆発音の様な物も聞こえるデス。魔物が暴れているデスかね？",
+      "en": "I hear something like an explosion. Is a monster rampaging?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77018,
+      "id": "db_EventInfo:91155:13",
+      "jp": "ふむ、今この地で戦うような者がいるとすれば……",
+      "en": "Hmm, if there is someone fighting here now...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77019,
+      "id": "db_EventInfo:91157:0",
+      "jp": "アンジュしかいない！",
+      "en": "Only Anju is there!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77020,
+      "id": "db_EventInfo:91158:0",
+      "jp": "俺達は急いで音のする方へと走り出した！",
+      "en": "We rushed towards the sound!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77021,
+      "id": "db_EventInfo:91164:3",
+      "jp": "がおーっ！",
+      "en": "Growl!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77022,
+      "id": "db_EventInfo:91165:1",
+      "jp": "あ、アンジュ！？　なんだあの格好！？",
+      "en": "A-Anju!? What's that outfit!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77023,
+      "id": "db_EventInfo:91166:13",
+      "jp": "あれが先祖代々ドワームに伝わる伝説の鎧にして、巫女姫の正装ですじゃ",
+      "en": "That is the legendary armor passed down through the Dwarm for generations, and the ceremonial dress of the Priestess Princess.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77024,
+      "id": "db_EventInfo:91168:0",
+      "jp": "駆け付けると、アニマルな格好をしたアンジュが暴れている。",
+      "en": "We arrived to find Anju in an animal-like outfit, rampaging.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77025,
+      "id": "db_EventInfo:91169:3",
+      "jp": "がおーっ！",
+      "en": "Growl!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77026,
+      "id": "db_EventInfo:91171:0",
+      "jp": "アンジュが暴れると、近くの岩があっけなく破壊された。",
+      "en": "Anju thrashed around, easily destroying a nearby rock.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77027,
+      "id": "db_EventInfo:91172:1",
+      "jp": "うわっ！　見た目によらず、凄い威力だ！",
+      "en": "Whoa! It looks harmless, but it's crazy powerful!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77028,
+      "id": "db_EventInfo:91174:2",
+      "jp": "相手を狂戦士にしてしまう呪いの服デス！　いったいだれがあんなものを！",
+      "en": "It's a cursed outfit that turns the wearer into a berserker! Who would make such a thing!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77029,
+      "id": "db_EventInfo:91175:0",
+      "jp": "ドルガノンを見ると、露骨に目を逸らして、口笛を吹いていた。",
+      "en": "I looked at Dorganon. He was blatantly avoiding eye contact, whistling.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77030,
+      "id": "db_EventInfo:91177:13",
+      "jp": "と、とにかく、あの服を着た姫様は強敵ですぞ！",
+      "en": "A-Anyway, the Princess in that outfit is a formidable foe!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77031,
+      "id": "db_EventInfo:91178:13",
+      "jp": "何せ、今までほとんどの巫女が着れなかったという、いわくつきですからな！",
+      "en": "After all, it's a famous piece that almost no priestess has ever been able to wear before!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77032,
+      "id": "db_EventInfo:91179:1",
+      "jp": "(……あんな体型の巫女がいなかったから、着用されることがなかったのか？)",
+      "en": "(...So it never got worn because there weren't any priestesses with a figure like that?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77033,
+      "id": "db_EventInfo:91180:1",
+      "jp": "な、なんとか勝てた……",
+      "en": "W-we managed to win somehow...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77034,
+      "id": "db_EventInfo:91181:0",
+      "jp": "流石は伝説の装備。恐ろしい強さだ。",
+      "en": "It really is legendary gear. That was terrifyingly strong.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77035,
+      "id": "db_EventInfo:91182:2",
+      "jp": "しかし、アンジュは逃げてしまったデスね",
+      "en": "But, Anju managed to run away desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77036,
+      "id": "db_EventInfo:91183:1",
+      "jp": "ああ、急いで追いかけないと！",
+      "en": "Right, we need to hurry and chase her!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77037,
+      "id": "db_EventInfo:91184:0",
+      "jp": "★エッチシーン・アンジュ・個別③・ボス撃破後の逆レイプ",
+      "en": "★H-Scene・Anju・Individual③・Post-Boss Defeat Reverse Rape",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 77038,
+      "id": "db_EventInfo:91187:0",
+      "jp": "その後、正気を取り戻した俺達は、仲間と合流し、店に戻るのだった。",
+      "en": "After that, after regaining our senses, we rejoined our companions and returned to the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77039,
+      "id": "db_EventInfo:91188:0",
+      "jp": "俺はシェルフィにされた【『縁ドレイン』】によって、皆との【『縁』】を吸い取られたことを説明した。",
+      "en": "I explained that, due to the【『bond drain』】Shelfi used on me, my【『bond』】with everyone had been drained.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77040,
+      "id": "db_EventInfo:91190:3",
+      "jp": "……ふーむ、あのメイドのせいじゃったか",
+      "en": "...Hmm, so it was that maid's doing.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77041,
+      "id": "db_EventInfo:91191:3",
+      "jp": "まったく、色香のある娘と思ったが、それに釣られる【<pl>】も【<pl>】じゃ！",
+      "en": "Honestly, I thought she was a charming girl, but any【<pl>】who gets hooked by that is a【<pl>】!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77042,
+      "id": "db_EventInfo:91192:1",
+      "jp": "面目ない",
+      "en": "I'm ashamed.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77043,
+      "id": "db_EventInfo:91193:3",
+      "jp": "しかし、【『縁』】を吸うとは恐ろしい奴じゃ",
+      "en": "But sucking 【『縁』】... that's a scary guy.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 77044,
+      "id": "db_EventInfo:91194:2",
+      "jp": "【『縁』】を吸われたオマエは、コイツとの関わりが薄くなっていたデス",
+      "en": "Since it sucked your 【『縁』】, your connection with him had weakened.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 77045,
+      "id": "db_EventInfo:91195:2",
+      "jp": "【『縁』】と一緒に、気持ちも薄れていたんじゃないデス？",
+      "en": "And along with the 【『縁』】, didn't your feelings fade too?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 77046,
+      "id": "db_EventInfo:91196:3",
+      "jp": "むう、確かに店や【<pl>】のことなど、どうでもいいと思っていたのじゃ",
+      "en": "Hmm, yes, I truly thought the shop and 【<pl>】 didn't matter at all.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77047,
+      "id": "db_EventInfo:91197:3",
+      "jp": "……今ではそんなことを考えるとか信じられん！　今後は、絶対にないと思うのじゃ！",
+      "en": "...Now, I can't believe I thought that! I'm sure it will never happen again!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77048,
+      "id": "db_EventInfo:91198:1",
+      "jp": "気持ちを変えてしまうドレインか……",
+      "en": "A drain that changes your feelings...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77049,
+      "id": "db_EventInfo:91199:0",
+      "jp": "俺は【『淫魔』】の恐ろしさを思い知るのであった。",
+      "en": "I understood just how scary a 【『succubus』】 can be.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77050,
+      "id": "db_EventInfo:91200:3",
+      "jp": "まあとにかく、今後は妾が一緒にいてやるのじゃ！　安心して妾に任せるのじゃ！",
+      "en": "Anyway, from now on, I'll be right here with you! You can relax and leave it to me!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77051,
+      "id": "db_EventInfo:91201:1",
+      "jp": "ああ、頼りにしてるぞ",
+      "en": "Yeah, I'm counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77052,
+      "id": "db_EventInfo:91202:13",
+      "jp": "一応ワシもおるんですがのう",
+      "en": "Just so you know, I'm here too, you know.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77053,
+      "id": "db_EventInfo:91203:1",
+      "jp": "いやまあ……ドルガノンも頼りにしてるって！",
+      "en": "Oh, well... I'm counting on you too, Dorganon!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77054,
+      "id": "db_EventInfo:91204:13",
+      "jp": "ふぉっふぉっ",
+      "en": "Foh, foh.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 77055,
+      "id": "db_EventInfo:91207:0",
+      "jp": "アンジュとドルガノンがショップに復帰しました！",
+      "en": "Anju and Dorganon came back to the shop!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77056,
+      "id": "db_EventInfo:91209:10",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 77057,
+      "id": "db_EventInfo:91210:3",
+      "jp": "お？",
+      "en": "Oh?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77058,
+      "id": "db_EventInfo:91211:10",
+      "jp": "なんだ金床女",
+      "en": "What is it, anvil woman?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 77059,
+      "id": "db_EventInfo:91212:3",
+      "jp": "何か用か、チビ森人",
+      "en": "You got a problem, shorty elf?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77060,
+      "id": "db_EventInfo:91213:10",
+      "jp": "なんだコラ？　やんのか？",
+      "en": "What did you say?! You wanna fight?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 77061,
+      "id": "db_EventInfo:91214:3",
+      "jp": "ケンカなら買ってやるぞ、お？",
+      "en": "If it's a fight you want, I'll give you one. Huh?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 77062,
+      "id": "db_EventInfo:91215:1",
+      "jp": "仲良くしろよお前ら……",
+      "en": "Come on, you two... get along.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77063,
+      "id": "db_EventInfo:91216:301",
+      "jp": "ふん！！",
+      "en": "Hmph!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77064,
+      "id": "db_EventInfo:91217:0",
+      "jp": "二人は顔を見るたびにケンカを始めようとする。",
+      "en": "Every time they see each other, they try to start a fight.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77065,
+      "id": "db_EventInfo:91218:0",
+      "jp": "ダンジョン探索に行くときは驚くようなコンビネーションを見せるのだが、店の中ではこうだ。",
+      "en": "When they go dungeon crawling, their teamwork is amazing. But in the shop, they're like this.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77066,
+      "id": "db_EventInfo:91219:1",
+      "jp": "(戦いの中では共通の敵みたいなものがあるからかなぁ)",
+      "en": "(I guess it's because in a real fight, they have a common enemy or something.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77067,
+      "id": "db_EventInfo:91220:0",
+      "jp": "店の中でも仲良くして貰いたい。どうにかできないものか……。",
+      "en": "I want them to get along better inside the shop too. I wonder if there's anything I can do...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77068,
+      "id": "db_EventInfo:91222:9",
+      "jp": "ふむ、アンジュとエリオルダの喧嘩を止めたいとな？",
+      "en": "Hmm, you want to stop Anju and Eliorda from fighting?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 77069,
+      "id": "db_EventInfo:91223:1",
+      "jp": "ああ、何かいい方法はないかなって",
+      "en": "Yeah, I was hoping there might be a good way.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77070,
+      "id": "db_EventInfo:91224:9",
+      "jp": "任せるが良い！　精神に作用するピッタリな薬を調合してやるであるぞ！",
+      "en": "Leave it to me! I shall concoct the perfect drug that acts on the mind!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 77071,
+      "id": "db_EventInfo:91225:9",
+      "jp": "まあ、副作用として、人格まで変わってしまうであるが……要は従順になればよいのであろう？",
+      "en": "Well, a side effect might be a complete change in personality... But essentially, making them obedient would work, no?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 77072,
+      "id": "db_EventInfo:91226:1",
+      "jp": "いやいやそれって洗脳だよな？",
+      "en": "Wait, no, that's brainwashing, isn't it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77073,
+      "id": "db_EventInfo:91227:9",
+      "jp": "ククク、なに、万事この私に任せるである",
+      "en": "Kukuku, do not worry, leave everything to me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 77074,
+      "id": "db_EventInfo:91228:1",
+      "jp": "おい待て！　洗脳薬は中止だ中止！",
+      "en": "Hey, stop! Cancel the brainwashing drug! Cancel it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77075,
+      "id": "db_EventInfo:91229:0",
+      "jp": "俺は慌ててカリストを止めるのだった。",
+      "en": "I rushed to stop Callisto.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77076,
+      "id": "db_EventInfo:91231:11",
+      "jp": "なるほど、事情は分かったわ。",
+      "en": "I see. I understand the situation now.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77077,
+      "id": "db_EventInfo:91232:1",
+      "jp": "何かいい方法はないかな？",
+      "en": "Do you have any good ideas?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77078,
+      "id": "db_EventInfo:91233:11",
+      "jp": "うーん、そうねぇ……",
+      "en": "Hmm, let me think...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77079,
+      "id": "db_EventInfo:91234:11",
+      "jp": "あ、そうだ。一緒に美味しいものを食べればどうかしら？　きっと仲良くなれるわよ",
+      "en": "Oh, I know! How about we eat something tasty together? That'll definitely help you get along.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 77080,
+      "id": "db_EventInfo:91235:2",
+      "jp": "そうデスかねぇ？　アイツら、以前食堂でケンカしていたデスよ？",
+      "en": "You think so? They were fighting in the cafeteria before, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77081,
+      "id": "db_EventInfo:91236:1",
+      "jp": "ということは……食事路線はダメか",
+      "en": "So... the food plan is no good.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77082,
+      "id": "db_EventInfo:91237:0",
+      "jp": "俺達は揃って唸るのだった。",
+      "en": "We all groaned at once.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77083,
+      "id": "db_EventInfo:91239:8",
+      "jp": "あれれ、お兄ちゃん、面白い顔して、何を唸ってるの？",
+      "en": "Oh dear, big brother, you're making a funny face. What are you groaning about?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77084,
+      "id": "db_EventInfo:91240:2",
+      "jp": "む、ルーシェデス？　仕事はどうしたデス？",
+      "en": "Huh, Lusche? What about your work?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77085,
+      "id": "db_EventInfo:91241:8",
+      "jp": "えへへ、休憩Д",
+      "en": "Eh heh, on a breakД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77086,
+      "id": "db_EventInfo:91242:8",
+      "jp": "それより、何か悩んでるの？　ルーシェでよければ、お話聞くよД",
+      "en": "More importantly, are you worried about something? If it's okay with me, I'll listenД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77087,
+      "id": "db_EventInfo:91243:2",
+      "jp": "むう、ルーシェに頼るのは何だか不安デスね……",
+      "en": "Hmm, I'm not sure how I feel about relying on Lusche...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77088,
+      "id": "db_EventInfo:91244:1",
+      "jp": "まあ、今は手が無いんだから、皆で考えてもいいじゃないか",
+      "en": "Well, we have no leads right now, so there's no harm in all of us thinking about it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77089,
+      "id": "db_EventInfo:91245:8",
+      "jp": "え～何々？",
+      "en": "Ooh? What's what?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77090,
+      "id": "db_EventInfo:91246:1",
+      "jp": "実は……",
+      "en": "Actually...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77091,
+      "id": "db_EventInfo:91247:0",
+      "jp": "俺はルーシェに、アンジュとエリオルダを仲良くさせられないか、相談した。",
+      "en": "I asked Lusche for advice. I wanted to know if we could get Anju and Eliorda to get along.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 77092,
+      "id": "db_EventInfo:91248:8",
+      "jp": "なるほどね",
+      "en": "I see.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77093,
+      "id": "db_EventInfo:91249:2",
+      "jp": "何かいい考えがあるデス？",
+      "en": "Do you have a good idea?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 77094,
+      "id": "db_EventInfo:91250:8",
+      "jp": "そんなの簡単Д　共通の相手がいればいいんだよД",
+      "en": "It's easyД. They just need a common opponentД.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77095,
+      "id": "db_EventInfo:91251:8",
+      "jp": "ダンジョンの中だと息が合ってる。それは二人が似た者同士、同じ敵を見ているからでしょ？",
+      "en": "They work well together in the dungeon. That's because they're similar and are looking at the same enemy, right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77096,
+      "id": "db_EventInfo:91252:8",
+      "jp": "だから、お店の中に、共通の相手がいればいいんだよД",
+      "en": "So, they just need a common opponent inside the shopД.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77097,
+      "id": "db_EventInfo:91253:1",
+      "jp": "いやでも、店の中に敵なんて居ないぞ？",
+      "en": "Huh? But there's no enemy inside the shop.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77098,
+      "id": "db_EventInfo:91254:8",
+      "jp": "似たようなものがあるじゃな～いД",
+      "en": "There's something like it, isn't there?Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 77099,
+      "id": "db_EventInfo:91255:1",
+      "jp": "ん……？",
+      "en": "Hmm...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 77100,
+      "id": "db_EventInfo:91258:0",
+      "jp": "★エッチシーン・アンジュ・個別④・エリオルダと3p①",
+      "en": "★H-Scene • Anju • Individual ④ • Threesome with Eliorda ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

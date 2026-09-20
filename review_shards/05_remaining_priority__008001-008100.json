@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8001,
+  "range_end": 8100,
+  "pairs": [
+    {
+      "n": 8001,
+      "id": "rem_35652",
+      "jp": "葉月ひかり",
+      "en": "Hazuki Hikari",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8002,
+      "id": "rem_35653",
+      "jp": "(氷国の姫将軍ノースリンデ)",
+      "en": "(Princess-General of the Ice Kingdom, Northlinde)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8003,
+      "id": "rem_35654",
+      "jp": "梅木ちはる",
+      "en": "Chiharu Umeki",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8004,
+      "id": "rem_35655",
+      "jp": "(メイドのシェルフィ)",
+      "en": "(The Maid, Shelfi)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8005,
+      "id": "rem_35656",
+      "jp": "(海賊作家アーマニー14世)",
+      "en": "(Pirate Author, Armany XIV)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8006,
+      "id": "rem_35657",
+      "jp": "(派遣管財人ネルディーネ)",
+      "en": "(Dispatch Custodian, Neldine)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8007,
+      "id": "rem_35658",
+      "jp": "七種結花",
+      "en": "Yuka Nanakusa",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8008,
+      "id": "rem_35659",
+      "jp": "(女勇者ユーステル)",
+      "en": "(The Female Hero, Eustel)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8009,
+      "id": "rem_35660",
+      "jp": "稲荷結",
+      "en": "Yui Inari",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8010,
+      "id": "rem_35661",
+      "jp": "(先代魔女オーレリア・ウィルチ)",
+      "en": "(Former Witch, Aurelia Wilch)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8011,
+      "id": "rem_35662",
+      "jp": "天神祭",
+      "en": "Matsuri Amanokami",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8012,
+      "id": "rem_35663",
+      "jp": "(メイドのハヅキ)",
+      "en": "(The Maid, Hazuki)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8013,
+      "id": "rem_35664",
+      "jp": "秋野花",
+      "en": "Hana Akino",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8014,
+      "id": "rem_35665",
+      "jp": "(農家の娘ヘレン)",
+      "en": "(Farmer's Daughter, Helen)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8015,
+      "id": "rem_35666",
+      "jp": "彩瀬ゆり",
+      "en": "Yuri Ayase",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8016,
+      "id": "rem_35667",
+      "jp": "(旅の新米商人ミーシャ)",
+      "en": "(Rookie Traveling Merchant, Misha)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8017,
+      "id": "rem_35668",
+      "jp": "梅木ちはる",
+      "en": "Chiharu Umeki",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8018,
+      "id": "rem_35669",
+      "jp": "(女司祭リリエーヌ)",
+      "en": "(Female Priestess, Lilienne)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8019,
+      "id": "rem_35670",
+      "jp": "花屋敷やや",
+      "en": "Yaya Hanayashiki",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8020,
+      "id": "rem_35671",
+      "jp": "(遺跡学者イディット)",
+      "en": "(Ruins Scholar, Iditt)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8021,
+      "id": "rem_35672",
+      "jp": "大宮若葉",
+      "en": "Wakaba Omiya",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8022,
+      "id": "rem_35673",
+      "jp": "(新米兵士ソルネッタ)",
+      "en": "(Rookie Soldier Solnetta)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8023,
+      "id": "rem_35674",
+      "jp": "星羅あかね",
+      "en": "Akane Seira",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8024,
+      "id": "rem_35675",
+      "jp": "(女密偵パテラ)",
+      "en": "(Female Spy Patera)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8025,
+      "id": "rem_35676",
+      "jp": "綿雨たべ子",
+      "en": "Tabe Ko Amemai",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8026,
+      "id": "rem_35677",
+      "jp": "(女戦士ジャネット)",
+      "en": "(Warrior Janet)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8027,
+      "id": "rem_35678",
+      "jp": "アンスリウム蝶胡",
+      "en": "Choko Anthurium",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8028,
+      "id": "rem_35679",
+      "jp": "(女武闘家グレーテ)",
+      "en": "(Martial Artist Grete)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8029,
+      "id": "rem_35680",
+      "jp": "木多野あり",
+      "en": "Ari Kitano",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8030,
+      "id": "rem_35681",
+      "jp": "(令嬢剣士ティオナ)",
+      "en": "(Lady Swordsman Tiona)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8031,
+      "id": "rem_35682",
+      "jp": "(魔界料理人コッペリナ)",
+      "en": "(Demon World Cook Koppelina)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8032,
+      "id": "rem_35683",
+      "jp": "(吸血鬼狩人シオン)",
+      "en": "(Vampire Hunter Shion)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8033,
+      "id": "rem_35684",
+      "jp": "(修道院長クリスティナ)",
+      "en": "(Abbess Christina)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8034,
+      "id": "rem_35685",
+      "jp": "咲ゆたか",
+      "en": "Yutaka Saki",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8035,
+      "id": "rem_35686",
+      "jp": "(次期薬聖マルガレータ)",
+      "en": "(Next Sage of Medicine Margareta)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8036,
+      "id": "rem_35687",
+      "jp": "(鍛鉄街の首領エルザ)",
+      "en": "(Leader of the Ironforge District Elsa)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8037,
+      "id": "rem_35688",
+      "jp": "よもぎかすみ",
+      "en": "Kasumi Yomogi",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8038,
+      "id": "rem_35689",
+      "jp": "(不良娘のデイジー)",
+      "en": "(Delinquent Girl Daisy)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8039,
+      "id": "rem_35690",
+      "jp": "麦芽ぷりん",
+      "en": "Purine Mugiwara",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8040,
+      "id": "rem_35691",
+      "jp": "(強欲商人エネルフィ)",
+      "en": "(Greedy Merchant Enerphi)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8041,
+      "id": "rem_35692",
+      "jp": "(魔女ヘレーリオ)",
+      "en": "(Witch Helerio)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8042,
+      "id": "rem_35693",
+      "jp": "(遺跡学者アルティシア)",
+      "en": "(Ruins Scholar Articia)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8043,
+      "id": "rem_35694",
+      "jp": "(聖女フロティナ)",
+      "en": "(Saint Flotina)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8044,
+      "id": "rem_35695",
+      "jp": "(魔人ヴァージニア)",
+      "en": "(Demon Virginia)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8045,
+      "id": "rem_35696",
+      "jp": "(聖女レスタリア)",
+      "en": "(Saint Restaria)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8046,
+      "id": "rem_35697",
+      "jp": "(魔界料理人コッピナ)",
+      "en": "(Demon World Chef Koppina)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8047,
+      "id": "rem_35698",
+      "jp": "(死神シトルット)",
+      "en": "(Shinigami Sitlut)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8048,
+      "id": "rem_35699",
+      "jp": "(氷魔ゆきんこ)",
+      "en": "(Ice Demon Yukinko)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8049,
+      "id": "rem_35700",
+      "jp": "(メイドのシオリア)",
+      "en": "(Maid Sioria)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8050,
+      "id": "rem_35701",
+      "jp": "(メイドのクシーナ)",
+      "en": "(Maid Xina)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8051,
+      "id": "rem_35702",
+      "jp": "(魔女の弟子コレット)",
+      "en": "(Witch's Apprentice Colette)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8052,
+      "id": "rem_35703",
+      "jp": "(剣の魔術師シルドリア)",
+      "en": "(Sword Mage Sildoria)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8053,
+      "id": "rem_35704",
+      "jp": "(魔剣士ネルエーデ)",
+      "en": "(Demon Swordswoman Nereede)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8054,
+      "id": "rem_35705",
+      "jp": "叶みゆき",
+      "en": "Miyuki Kanou",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8055,
+      "id": "rem_35706",
+      "jp": "(チビケモミミ)",
+      "en": "(Chibi Kemomimi)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8056,
+      "id": "rem_35707",
+      "jp": "(死神娼館～死神商館時)",
+      "en": "(Reaper's Club)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8057,
+      "id": "rem_35708",
+      "jp": "音声制作",
+      "en": "Sound Production",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8058,
+      "id": "rem_35709",
+      "jp": "コトリボイス",
+      "en": "Kotori Voice",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8059,
+      "id": "rem_35710",
+      "jp": "(死神商館DLC時)",
+      "en": "(Reaper's Club DLC)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8060,
+      "id": "rem_35711",
+      "jp": "アイボリーノーツ",
+      "en": "Ivory Notes",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8061,
+      "id": "rem_35712",
+      "jp": "その他素材サイト",
+      "en": "Other Material Sites",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8062,
+      "id": "rem_35713",
+      "jp": "テストプレイ協力(体験版)",
+      "en": "Test Play Assistance (Demo)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8063,
+      "id": "rem_35714",
+      "jp": "ガチニート関根",
+      "en": "Sekine the True NEET",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8064,
+      "id": "rem_35715",
+      "jp": "デブネコ",
+      "en": "Fat Cat",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8065,
+      "id": "rem_35716",
+      "jp": "絶（塩）",
+      "en": "Salt",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8066,
+      "id": "rem_35717",
+      "jp": "ゴリラーマン",
+      "en": "Gorilla Man",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8067,
+      "id": "rem_35718",
+      "jp": "ゆっくりニャル子",
+      "en": "Yukkuri Nyaruko",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8068,
+      "id": "rem_35719",
+      "jp": "くろす",
+      "en": "Kurosu",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8069,
+      "id": "rem_35720",
+      "jp": "翠蓮",
+      "en": "Suiren",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8070,
+      "id": "rem_35721",
+      "jp": "ごい",
+      "en": "Goi",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8071,
+      "id": "rem_35722",
+      "jp": "犬毛たいたん",
+      "en": "Inuketa Taitan",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8072,
+      "id": "rem_35723",
+      "jp": "りすかい",
+      "en": "Risukai",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8073,
+      "id": "rem_35724",
+      "jp": "かわせみ",
+      "en": "Kawasemi",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8074,
+      "id": "rem_35725",
+      "jp": "テストプレイ協力(製品版)",
+      "en": "Test Play Assistance (Full Game)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8075,
+      "id": "rem_35726",
+      "jp": "ナスビ",
+      "en": "Nasubi",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8076,
+      "id": "rem_35727",
+      "jp": "コウ",
+      "en": "Ko",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8077,
+      "id": "rem_35728",
+      "jp": "そにっく",
+      "en": "Sonic",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8078,
+      "id": "rem_35729",
+      "jp": "匿名希望Ａ",
+      "en": "匿名希望A",
+      "table": "db_Staff",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 8079,
+      "id": "rem_35730",
+      "jp": "鬼丸",
+      "en": "Onimaru",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8080,
+      "id": "rem_35731",
+      "jp": "木金-kogane",
+      "en": "Mokkin-kogane",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8081,
+      "id": "rem_35732",
+      "jp": "悠梨",
+      "en": "Yuri",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8082,
+      "id": "rem_35733",
+      "jp": "かろらいん",
+      "en": "Karorain",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8083,
+      "id": "rem_35734",
+      "jp": "只野　乙三",
+      "en": "Tadano Otsumi",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8084,
+      "id": "rem_35735",
+      "jp": "甲佐",
+      "en": "Kosa",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8085,
+      "id": "rem_35736",
+      "jp": "ちろちろポン",
+      "en": "Chirochiro Pon",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8086,
+      "id": "rem_35737",
+      "jp": "風祭司",
+      "en": "Wind Priest",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8087,
+      "id": "rem_35738",
+      "jp": "石神",
+      "en": "Stone God",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8088,
+      "id": "rem_35739",
+      "jp": "レレン",
+      "en": "Reren",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8089,
+      "id": "rem_35740",
+      "jp": "クロカゲ",
+      "en": "Kurokage",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8090,
+      "id": "rem_35741",
+      "jp": "匿名希望Ｂ",
+      "en": "Anonymous Hope B",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8091,
+      "id": "rem_35742",
+      "jp": "イル",
+      "en": "Il",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8092,
+      "id": "rem_35743",
+      "jp": "瀬戸物大将",
+      "en": "Pottery General",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8093,
+      "id": "rem_35744",
+      "jp": "空月",
+      "en": "Soratsuki",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8094,
+      "id": "rem_35745",
+      "jp": "テストプレイ協力(DLC)",
+      "en": "Test Play Support (DLC)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8095,
+      "id": "rem_35746",
+      "jp": "星空シロ",
+      "en": "Hoshizora Shiro",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8096,
+      "id": "rem_35747",
+      "jp": "ココアSP",
+      "en": "Cocoa SP",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8097,
+      "id": "rem_35748",
+      "jp": "よろい",
+      "en": "Armor",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8098,
+      "id": "rem_35749",
+      "jp": "海豹Token",
+      "en": "Seal Token",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8099,
+      "id": "rem_35750",
+      "jp": "いぬげたいたん",
+      "en": "Inugetaitan",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8100,
+      "id": "rem_35751",
+      "jp": "Ci-enの支援者の方々(記名希望者のみ)",
+      "en": "Ci-en Supporters (Named Only)",
+      "table": "db_Staff",
+      "category": "remaining_table"
+    }
+  ]
+}

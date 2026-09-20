@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2501,
+  "range_end": 2600,
+  "pairs": [
+    {
+      "n": 2501,
+      "id": "db_EventInfo:2766:141",
+      "jp": "むにゃむにゃ……異端審問の人たちがすごい形相で動き回ってます",
+      "en": "Mumble mumble... The inquisitors are moving around with really intense looks on their faces.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2502,
+      "id": "db_EventInfo:2767:141",
+      "jp": "自分は隅っこを守ってますね……zzz",
+      "en": "I'm guarding this little corner...zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2503,
+      "id": "db_EventInfo:2768:141",
+      "jp": "どうやら寝ぼけている場合では無いようですね",
+      "en": "It seems this is no time for me to be dozing off.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2504,
+      "id": "db_EventInfo:2769:141",
+      "jp": "旦那様は戻ってこない……一体何処に行ったのだろう",
+      "en": "The master isn't coming back... I wonder where he went.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2505,
+      "id": "db_EventInfo:2770:141",
+      "jp": "このまま戻らないなら、次の領主は誰なのか……考えると……眠く……zzz",
+      "en": "If he doesn't come back like this, I wonder who the next lord will be... Thinking about it... makes me sleepy...zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2506,
+      "id": "db_EventInfo:2771:141",
+      "jp": "ん……御主人様が替わった？　まあいいか……",
+      "en": "Huh... Did the master change? Well, whatever...",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2507,
+      "id": "db_EventInfo:2772:141",
+      "jp": "御主人様、ここは私が守ります……御主人様はご武運を……むにゃ",
+      "en": "Master, I'll protect this place... May you have fortune in battle... mumble",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2508,
+      "id": "db_EventInfo:2773:141",
+      "jp": "御主人様、ご武運を……むにゃ……ん？　終わりました……？",
+      "en": "Master, may you have fortune in battle... mumble... huh? It's over...?",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2509,
+      "id": "db_EventInfo:2774:129",
+      "jp": "【『灼熱の都サージ』】から、仕事の関係で移り住みましたの。この街【『ゼカリウス』】の税金は高いですわね～",
+      "en": "I moved here for work from 【『The Blazing City, Surge』】. The taxes in this city, 【『Zecarius』】, are high, aren't they~",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2510,
+      "id": "db_EventInfo:2775:129",
+      "jp": "税金は裕福な者ほど高くなりますの",
+      "en": "The tax gets higher the wealthier you are.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2511,
+      "id": "db_EventInfo:2776:129",
+      "jp": "わたくしの税金は、庶民どもの数倍でございますわよ。ほほほ",
+      "en": "My taxes are many times higher than those commoners pay. Ohohoho.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2512,
+      "id": "db_EventInfo:2777:129",
+      "jp": "【『ハーヴェスタ商会』】は【『ゼカリウス』】の商人を牛耳る組織",
+      "en": "The 'Harvester Merchant Guild' is the organization that controls Zecarius's merchants.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2513,
+      "id": "db_EventInfo:2778:129",
+      "jp": "もともとは小さい組織でしたが、ハーヴェスタ様の活躍で、あっという間に大組織になりましたの",
+      "en": "It was originally a small group, but thanks to Master Harvester, it became a huge organization in no time.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2514,
+      "id": "db_EventInfo:2779:129",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】や【『<ruby=ヒエペリオ>教会</ruby>』】ですらも、うかつには手を出せないほどですのよ",
+      "en": "Even the 'Solsia Academy' and the 'Hieperio Church' cannot act carelessly against it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2515,
+      "id": "db_EventInfo:2780:129",
+      "jp": "【『灼熱の都サージ』】からの香辛料を使った絶品料理がありますの",
+      "en": "There are excellent dishes made with spices from the 'Blazing City of Sarge'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2516,
+      "id": "db_EventInfo:2781:129",
+      "jp": "わたくしたち富裕層であれば、そのような上級の料理でなければ満足できませんわね",
+      "en": "We wealthy people can only be satisfied with such high-class cuisine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2517,
+      "id": "db_EventInfo:2782:129",
+      "jp": "もし用意できるのでしたらチップは弾みますわよ、おほほ",
+      "en": "If you can prepare it, I'll tip generously, ohohoho.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2518,
+      "id": "db_EventInfo:2783:129",
+      "jp": "【『灼熱の都サージ』】からは庶民には手を出せない高級品が届きますの。【『ゼカリウス』】では堪能できない、富裕層のたしなみですわ",
+      "en": "From the 'Blazing City of Sarge' come high-end goods that commoners can't afford. It's a taste for the wealthy you can't enjoy in Zecarius.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2519,
+      "id": "db_EventInfo:2784:129",
+      "jp": "中でも垂涎の品は、【歩く宝石】と呼ばれる【『ケモミミ』】ですわ",
+      "en": "The most coveted item is the 'Kemomimi', called the 'Walking Jewel'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2520,
+      "id": "db_EventInfo:2785:129",
+      "jp": "【『ケモミミ』】は密林の奥に住むと言われる超稀少種族で、とても愛らしい姿をしておりますの",
+      "en": "The 'Kemomimi' are an ultra-rare species said to live deep in the jungle, with a very lovely appearance.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2521,
+      "id": "db_EventInfo:2786:129",
+      "jp": "ただし愛らしいのは見かけだけ、その正体は巨獣もたやすく仕留める怪物ですわ。人間には絶対に懐かない……ゆえに超高額で取引されますの",
+      "en": "But their cuteness is only skin deep. Their true nature is that of monsters who easily take down giant beasts. They never befriend humans... that's why they trade for astronomical prices.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2522,
+      "id": "db_EventInfo:2787:129",
+      "jp": "【『灼熱の都サージ』】は世界の富が集まるという場所、【『ハーヴェスタ商会』】すらも霞む、大商会が存在する話ですわ",
+      "en": "They say the 'Blazing City of Sarge' is where the world's wealth gathers, and that there are huge merchant guilds there that even make the 'Harvester Guild' pale in comparison.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2523,
+      "id": "db_EventInfo:2788:129",
+      "jp": "わたくしも戻れば、庶民に成り下がってしまいますわね。ほほほ",
+      "en": "I guess if I went back, I'd be just another commoner. Ohohoh.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2524,
+      "id": "db_EventInfo:2789:129",
+      "jp": "なにやら最近、【『騎士団』】が慌ただしいですわね",
+      "en": "The 'Knights' seem awfully busy lately.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2525,
+      "id": "db_EventInfo:2790:129",
+      "jp": "しばらくは【『灼熱の都サージ』】に戻った方が良さそうですわね",
+      "en": "It might be best to return to 'Surg, the Scorching Capital' for a while.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2526,
+      "id": "db_EventInfo:2791:129",
+      "jp": "【『ゼカリウス』】の危機が去ったようですわね",
+      "en": "It seems the danger for 'Zecarius' has passed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2527,
+      "id": "db_EventInfo:2792:129",
+      "jp": "わたくしも富裕層として、義勇軍には投資させていただいて、大儲けさせていただきましたわ",
+      "en": "As a wealthy person, I invested in the volunteer army and made a huge profit.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2528,
+      "id": "db_EventInfo:2793:129",
+      "jp": "庶民とは稼ぎ方が違いますの。おほほ",
+      "en": "We earn money differently than the common folk. Ohohoh.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2529,
+      "id": "db_EventInfo:2794:129",
+      "jp": "領主ゼルカさまが醜聞で失脚したそうですわ",
+      "en": "I heard Lord Zelka was ousted due to a scandal.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2530,
+      "id": "db_EventInfo:2795:129",
+      "jp": "新しい領主様は、どのような方なのでしょうか。気品のある方だと嬉しいですわねД",
+      "en": "I wonder what the new lord is like. I hope they have some class.Д",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2531,
+      "id": "db_EventInfo:2796:129",
+      "jp": "この宿で、異国風の衣装を身につけた女性を見かけましたわ",
+      "en": "I saw a woman in foreign-style clothes at this inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2532,
+      "id": "db_EventInfo:2797:129",
+      "jp": "ここの店長様の趣味なのかしら",
+      "en": "Perhaps it's the innkeeper's taste?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2533,
+      "id": "db_EventInfo:2798:129",
+      "jp": "この宿で【『ケモミミ』】を見かけるようになりましたわ",
+      "en": "I've started seeing 'Kemomimi' at this inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2534,
+      "id": "db_EventInfo:2799:129",
+      "jp": "はて、歩く宝石と呼ばれる稀少な彼女らを手元に置くとは、ここの店主様もなかなかですわね",
+      "en": "Hmm, to keep those rare girls, called 'walking jewels', close at hand... the owner here is quite something.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2535,
+      "id": "db_EventInfo:2800:129",
+      "jp": "ノーザリアの方との雲行きが怪しいようですわね",
+      "en": "Things seem tense with the people from Northernria.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2536,
+      "id": "db_EventInfo:2801:129",
+      "jp": "しばらくはサージにある実家の方に身を寄せさせていただきますわ",
+      "en": "For a while, I will stay with my family in our home in Surge.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2537,
+      "id": "db_EventInfo:2802:129",
+      "jp": "ノーザリアとのいざこざで、港に大きな被害が出たそうですわ",
+      "en": "I hear the trouble with Northernria caused a lot of damage to the port.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2538,
+      "id": "db_EventInfo:2803:129",
+      "jp": "その復旧には一口嚙ませていただきますわ",
+      "en": "I plan to help with the repairs.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2539,
+      "id": "db_EventInfo:2804:129",
+      "jp": "恩を貸し付けておけば、いずれ大きなリターンになるハズですから、おほほ",
+      "en": "If I lend them help now, I should get a big return later. Ohoho.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2540,
+      "id": "db_EventInfo:2805:125",
+      "jp": "メンバーに行動を指示するのはリーダーの役割だ",
+      "en": "It's the leader's job to tell the team what to do.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2541,
+      "id": "db_EventInfo:2806:125",
+      "jp": "【バトル】になったらかならず【『タクティクス』】を確認することだ。方針を示してやれば、いちいち細かい指示を出す必要は減る",
+      "en": "When a 【Battle】 starts, always check the 【『Tactics』】. If you set a plan, you won't have to give small orders all the time.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2542,
+      "id": "db_EventInfo:2807:125",
+      "jp": "……と、パーティーを組めたら指示をするつもりだ",
+      "en": "...That's what I plan to do, if I ever form a party.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2543,
+      "id": "db_EventInfo:2808:125",
+      "jp": "【『ＭＰ』】は有限だ。少しずつなら回復する手段があるようだが、基本的には使ったら回復しない",
+      "en": "【『MP』】 is limited. You can recover it slowly sometimes, but mostly, once it's used, it's gone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2544,
+      "id": "db_EventInfo:2809:125",
+      "jp": "いくら魔術師が【攻撃】と【回復】をこなせるといっても、両方任せたら【『ＭＰ』】はすぐに空になるぞ",
+      "en": "Even if a mage can do 【Attack】 and 【Heal】, if you make them do both, their 【『MP』】 will run out fast.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2545,
+      "id": "db_EventInfo:2810:125",
+      "jp": "いくつかの役割をこなせる仲間を用意したいな",
+      "en": "I want to have teammates who can handle a few different jobs.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2546,
+      "id": "db_EventInfo:2811:125",
+      "jp": "……まあ、ソロの冒険者なら一人でこなさないといけないんだけど",
+      "en": "...Well, if you're a solo adventurer, you have to handle it all yourself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2547,
+      "id": "db_EventInfo:2812:125",
+      "jp": "【『サポートスキル』】はコマンド選択中にも可能だが、選択中だと少しだけコストが増えるらしい。気の持ちようなのか？",
+      "en": "You can use 'Support Skills' during command selection, but I heard it costs a bit more that way. Is it just in my head?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2548,
+      "id": "db_EventInfo:2813:125",
+      "jp": "しょっちゅう使う【『サポートスキル』】なら、コマンドに登録しておいた方が、指示を与える手間もないな",
+      "en": "If it's a 'Support Skill' you use a lot, it's better to set it to a command. Saves the trouble of ordering it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2549,
+      "id": "db_EventInfo:2814:125",
+      "jp": "こないだ、臨時で組んだメンバーに教えてもらったんだ",
+      "en": "Someone from a temporary party taught me that the other day.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2550,
+      "id": "db_EventInfo:2815:125",
+      "jp": "【『フィールドスキル』】は敵味方すべてに影響が出る。たとえば火の効果を強めるスキルを使うと、火を使う敵からの攻撃も強くなる",
+      "en": "'Field Skills' affect both friends and enemies. Like, a skill that boosts fire power also makes fire attacks from enemies stronger.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2551,
+      "id": "db_EventInfo:2816:125",
+      "jp": "まあ、そんなスキルはかなりレアだし、気にすることは少ないみたいなんだけど",
+      "en": "But, those skills are pretty rare, so I guess you don't need to worry about it much.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2552,
+      "id": "db_EventInfo:2817:125",
+      "jp": "能力に特化した者だけで組んだ方が強いんだけど、パーティーを編成するときは複数の役割ができる方が組みやすいんだよな",
+      "en": "A party with people who specialize is stronger, but when forming a party, it's easier if people can do more than one thing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2553,
+      "id": "db_EventInfo:2818:125",
+      "jp": "そのはずなのに……なんで俺はなかなかパーティーが組めないんだろう",
+      "en": "That's how it should be... So why is it so hard for me to get a party together?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2554,
+      "id": "db_EventInfo:2819:125",
+      "jp": "敵が強くなってくると、【クリティカルヒット】や【罠】が効いてくる",
+      "en": "As enemies get stronger, 'Critical Hits' and 'Traps' become more effective.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2555,
+      "id": "db_EventInfo:2820:125",
+      "jp": "防御を固めておけばダメージは減らせるけど、防御できないダメージはとにかく痛いんだよなぁ",
+      "en": "A strong defense can reduce damage, but the damage you can't block really hurts.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2556,
+      "id": "db_EventInfo:2821:125",
+      "jp": "大規模な招集で冒険者が集まったせいで、さすがの俺もパーティーが組めそうだ",
+      "en": "Because of the big recruitment drive, even someone like me might finally get to join a party.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2557,
+      "id": "db_EventInfo:2822:125",
+      "jp": "ついでに固定で組んでくれる相手を探しておくか――",
+      "en": "Might as well look for someone to team up with regularly too--",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2558,
+      "id": "db_EventInfo:2823:125",
+      "jp": "【『ゼカリウス』】から出て、【『灼熱の都サージ』】の方に行くパーティーについていくことになった",
+      "en": "I left Zecarius and joined a party heading for 'The Scorching City, Surge'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2559,
+      "id": "db_EventInfo:2824:125",
+      "jp": "向こうもトラブルがあって、冒険のし甲斐がありそうだな。ようやく固定パーティーが組めるぜ！",
+      "en": "They seem to have troubles over there too. Looks like an adventure worth taking on! Finally, I can form a fixed party!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2560,
+      "id": "db_EventInfo:2825:128",
+      "jp": "この店が出来てから、変な夢を見るって噂があるんだ",
+      "en": "Ever since this shop opened, there's a rumor that you have strange dreams.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2561,
+      "id": "db_EventInfo:2826:128",
+      "jp": "すごくいい夢らしいんだけど、誰に聞いても内容を教えてくれない……",
+      "en": "Apparently they're really good dreams, but no one I ask will tell me what they're about...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2562,
+      "id": "db_EventInfo:2827:128",
+      "jp": "仕方ないし、自分で確かめてみるか",
+      "en": "Well, no choice. Guess I'll have to see for myself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2563,
+      "id": "db_EventInfo:2828:128",
+      "jp": "この店には綺麗な女冒険者がいて、パーティーを組みたいと思うんだが",
+      "en": "There's a beautiful female adventurer in this shop. I'd like to form a party with her, but...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2564,
+      "id": "db_EventInfo:2829:128",
+      "jp": "そういうのに限って先約済みなんだよな……はあ",
+      "en": "It's always the good ones who are already taken... Sigh.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2565,
+      "id": "db_EventInfo:2830:128",
+      "jp": "この店が来てから、変な夢を見るようになった。アイツらの言ってたことは本当だな",
+      "en": "Ever since this shop came, I started having weird dreams. What they said was true.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2566,
+      "id": "db_EventInfo:2831:128",
+      "jp": "こりゃ、この店にリピーターが多いのも納得だぜ",
+      "en": "No wonder this shop has so many repeat customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2567,
+      "id": "db_EventInfo:2832:128",
+      "jp": "でも気のせいか、妙に身体が怠いような……気のせいか？",
+      "en": "But maybe it's my imagination... My body feels strangely heavy... Is it just me?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2568,
+      "id": "db_EventInfo:2833:128",
+      "jp": "この店で見る夢に現れる人物の多くは、自分の知合いらしい",
+      "en": "Most of the people who appear in the dreams I see here seem to be my acquaintances.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2569,
+      "id": "db_EventInfo:2834:128",
+      "jp": "俺は知合いと、ああいうことをしたいみたいな欲求があるのか……？",
+      "en": "Do I... have a desire to do that kind of thing with people I know...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2570,
+      "id": "db_EventInfo:2835:128",
+      "jp": "例の夢に、綺麗な女神官や、小柄な女やらが出るようになった",
+      "en": "Beautiful priestesses and petite girls have started appearing in those dreams.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2571,
+      "id": "db_EventInfo:2836:128",
+      "jp": "どこかで見たような気がするんだが、顔は思い出せねえ……いやあ、でも良かった……",
+      "en": "I feel like I've seen her somewhere before, but I can't remember her face... Well, that's okay...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2572,
+      "id": "db_EventInfo:2837:128",
+      "jp": "お、俺にはあんな趣味はねえ……あんな小さいヤツとやるみたいな趣味は……",
+      "en": "No, I don't have that kind of interest... I'm not into doing it with someone that small...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2573,
+      "id": "db_EventInfo:2838:128",
+      "jp": "ここのところ、見る夢のバリエーションがすごくて、ずっと泊まっていたいぐらいだ",
+      "en": "The dreams I have here are so varied, I feel like staying forever.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2574,
+      "id": "db_EventInfo:2839:128",
+      "jp": "あんなに至れりつくせりされたら、いくらでも貢いでしまいそうだぜ……",
+      "en": "Getting treated that well... I'd probably pay anything...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2575,
+      "id": "db_EventInfo:2840:128",
+      "jp": "いや、夢なんだけどよ……気のせいか財布も軽く……なんでだ……？",
+      "en": "But it's just a dream... or is my wallet lighter? Why...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2576,
+      "id": "db_EventInfo:2841:128",
+      "jp": "この店で見る夢を目当てに、いろんな客が集まってるそうだ",
+      "en": "I hear all kinds of customers gather here, just for the dreams.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2577,
+      "id": "db_EventInfo:2842:128",
+      "jp": "冷静に考えると異常なんだが、それをどこかに密告するヤツはいないみたいだ……",
+      "en": "Thinking calmly, it's weird, but no one seems to snitch on the place...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2578,
+      "id": "db_EventInfo:2843:128",
+      "jp": "なんか、この店を出た瞬間に、そういうことをスパッと忘れてしまうんだよな",
+      "en": "Somehow, the moment I leave this shop, I just forget all about it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2579,
+      "id": "db_EventInfo:2844:128",
+      "jp": "ただなんとなく、この店に来ると、良いことがあった、みたいな記憶だけを残して……",
+      "en": "I'm just left with the memory that something good happened when I came here...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2580,
+      "id": "db_EventInfo:2845:128",
+      "jp": "この店に【『ケモミミ』】がいるような気がする……ゆ、夢じゃない……",
+      "en": "I feel like there are 'Kemomimi' here... n-no... it's not a dream...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2581,
+      "id": "db_EventInfo:2846:128",
+      "jp": "【『ボルケミア火山』】で大規模な攻略作戦が開始されているらしい",
+      "en": "Seems like a large-scale campaign has started at the 'Volekemia Volcano'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2582,
+      "id": "db_EventInfo:2847:128",
+      "jp": "俺もこの店を守るために、参加するか！",
+      "en": "I'll join in, to protect this shop!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2583,
+      "id": "db_EventInfo:2848:128",
+      "jp": "【『ゼカリウス』】は平和になったが、俺はこの店から離れられなさそうだ",
+      "en": "Zecarius is at peace now, but I can't seem to leave this shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2584,
+      "id": "db_EventInfo:2849:128",
+      "jp": "ふひひ……もっと楽しむために、カネを稼いでこなくちゃな！",
+      "en": "Hehehe... I need to make more money so I can have more fun!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2585,
+      "id": "db_EventInfo:2850:128",
+      "jp": "前の領主は裏でかなりあくどいことをしてて、奴隷や禁じられた薬の売買を行なっていたらしい",
+      "en": "The old lord was apparently into some nasty stuff behind the scenes, dealing in slaves and forbidden drugs.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2586,
+      "id": "db_EventInfo:2851:128",
+      "jp": "たしかに羽振りはよく見えたけど、単に用途のために集めたってきもするんだよな",
+      "en": "He sure seemed wealthy, but I get the feeling he just collected money for some specific purpose.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2587,
+      "id": "db_EventInfo:2852:128",
+      "jp": "でもその使い道って……考えたくないな",
+      "en": "But that purpose... I don't even want to think about it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2588,
+      "id": "db_EventInfo:2853:128",
+      "jp": "ゼカリウスから遙か東の異国には、剣聖ってのがいるらしい",
+      "en": "I hear there's something called a Sword Saint, far to the east of Zecarius, in a foreign land.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2589,
+      "id": "db_EventInfo:2854:128",
+      "jp": "なんでも、変な形の剣が得意で、その達人は何でも真っ二つにするそうだ",
+      "en": "Apparently, they're really good with weird-shaped swords. Masters can slice anything clean in two.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2590,
+      "id": "db_EventInfo:2855:128",
+      "jp": "恐ろしいのはその精神性で、勝つためには本当にどんな手段も使ってくるそうだぞ",
+      "en": "The scary part is their mindset. They'll use any means necessary to win, or so I've heard.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2591,
+      "id": "db_EventInfo:2856:128",
+      "jp": "彼らいわく、勝つのに手段を選ぶのは逆に失礼って考え方らしいな。といっても、あくまで実戦での話らしいが……",
+      "en": "Their philosophy is that picking your methods is actually rude if you want to win. But that's just for real combat, they say.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2592,
+      "id": "db_EventInfo:2857:128",
+      "jp": "ゼカリウスにはアルダルク家って大農家がいて、ゼカリウスに流通する食材のかなりの率に息が掛かってる",
+      "en": "There's a big farming family in Zecarius called the Ardalks. They have a huge hand in most of the food that gets around.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2593,
+      "id": "db_EventInfo:2858:128",
+      "jp": "ただ、そのアルダルク家は【『ゴブリン』】に襲撃されて、数年前に断絶したらしい",
+      "en": "But the Ardalks were wiped out a few years ago, after Goblins attacked them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2594,
+      "id": "db_EventInfo:2859:128",
+      "jp": "いまいるアルダルク家は、その親戚が名前だけ借りてるような状況だそうだ",
+      "en": "The Ardalks around now are just relatives using the name, from what I hear.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2595,
+      "id": "db_EventInfo:2860:128",
+      "jp": "この世界には世界樹という巨大な大樹があって、あらゆる生命の源になるらしい",
+      "en": "In this world, there's a giant tree called the World Tree. It's the source of all life.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2596,
+      "id": "db_EventInfo:2861:128",
+      "jp": "有名なエルフィード族は、その世界樹の守護者で、彼女らにとっての【『神』】にも等しい存在だとか",
+      "en": "The famous Elfeed race are its guardians. To them, it's like a god.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2597,
+      "id": "db_EventInfo:2862:128",
+      "jp": "俺も色んな所回ったけど、そんな巨大な大樹は見たこともないな",
+      "en": "I've been to a lot of places, but I've never seen such a huge tree.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2598,
+      "id": "db_EventInfo:2863:128",
+      "jp": "なんでも【『ゴブリン』】は色んな魔術師が捕まえて、増やされてるそうだ",
+      "en": "I hear mages catch Goblins and breed them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2599,
+      "id": "db_EventInfo:2864:128",
+      "jp": "【『ゴブリン』】なんて勝手に増えそうだが、捕まえて研究するほどの価値はあるんだろうか？",
+      "en": "Goblins seem like they'd multiply on their own. Are they really worth studying?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2600,
+      "id": "db_EventInfo:2865:128",
+      "jp": "時折、物凄く強い【『ゴブリン』】が出るって聞くけど、その研究から逃げ出したせいじゃないだろうな？",
+      "en": "Sometimes you hear about really strong Goblins. I wonder if they escaped from that research?",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

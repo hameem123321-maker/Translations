@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95601,
+  "range_end": 95700,
+  "pairs": [
+    {
+      "n": 95601,
+      "id": "db_EventInfo:112951:12",
+      "jp": "光っている本？　どういう意味です？",
+      "en": "A glowing book? What do you mean?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95602,
+      "id": "db_EventInfo:112952:0",
+      "jp": "俺はミルテをその場所に連れて行った。",
+      "en": "I brought Myrte to that spot.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95603,
+      "id": "db_EventInfo:112956:12",
+      "jp": "駄犬！　見つけました、見つけましたよ！",
+      "en": "Mutt! I found it, I found it!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95604,
+      "id": "db_EventInfo:112957:1",
+      "jp": "どうしたいきなり",
+      "en": "What's with the sudden outburst?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95605,
+      "id": "db_EventInfo:112958:0",
+      "jp": "ミルテが古書に飛びつき、両手には【古い本】を抱えた。",
+      "en": "Myrte lunged at the old book, clutching an old volume in both hands.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95606,
+      "id": "db_EventInfo:112959:12",
+      "jp": "これです、これこそ、我が一族の失伝魔術が載せられた古文書ですよ！",
+      "en": "This is it! This is the ancient text that contains the lost magic of my clan!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95607,
+      "id": "db_EventInfo:112960:1",
+      "jp": "まさか、それがその本だったのか……ん？",
+      "en": "Wait, that was the book? Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95608,
+      "id": "db_EventInfo:112961:0",
+      "jp": "ミルテが持ってる本……装丁に見覚えがあった。",
+      "en": "The book Myrte was holding... I recognized the binding.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95609,
+      "id": "db_EventInfo:112962:1",
+      "jp": "(……大学ノート？)",
+      "en": "(A school notebook?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95610,
+      "id": "db_EventInfo:112963:1",
+      "jp": "(いやいや、この世界に、そんなものがあるわけが)",
+      "en": "(No way, that can't exist in this world.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95611,
+      "id": "db_EventInfo:112964:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】の、どの本とも似ていない魔術書です。",
+      "en": "It's a grimoire unlike any other at the Soltia Academy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95612,
+      "id": "db_EventInfo:112965:12",
+      "jp": "書いている文字は解読できませんが、私の一族に伝えられる魔術文字に似てますね……！",
+      "en": "I can't read the writing, but it looks like the magical script passed down in my family!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95613,
+      "id": "db_EventInfo:112966:1",
+      "jp": "(【ボクのさいきょうまじゅつノート】って書いているように見えるが……気のせいだな)",
+      "en": "(It looks like it says 'My Most Powerful Magic Notebook'... Must be my imagination.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95614,
+      "id": "db_EventInfo:112967:12",
+      "jp": "これこそが、魔術の開祖……【『起源の魔術師』】が記した【『起源の魔術書』】に違いありません！",
+      "en": "This must be the Original Grimoire, written by the Founder of Magic, the Original Mage!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95615,
+      "id": "db_EventInfo:112968:1",
+      "jp": "へえ……",
+      "en": "Huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95616,
+      "id": "db_EventInfo:112969:12",
+      "jp": "これはどうやら写本らしくて、ページも破損が多いようですが……",
+      "en": "This seems to be a copied version, and many pages are damaged...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95617,
+      "id": "db_EventInfo:112970:1",
+      "jp": "じゃあ、魔術のヒントにはならないのか？",
+      "en": "So, it's no good for magic hints?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95618,
+      "id": "db_EventInfo:112971:12",
+      "jp": "いえ、十分です",
+      "en": "No, it's good enough.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95619,
+      "id": "db_EventInfo:112972:12",
+      "jp": "これさえ見つかれば長居は無用です。早く戻って解読しますよ、駄犬！",
+      "en": "Once we find this, we won't need to stay long. Let's go back and decode it quickly, you mutt!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95620,
+      "id": "db_EventInfo:112973:12",
+      "jp": "禁呪のありかを解読できました",
+      "en": "I managed to decode the location of the forbidden spell.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95621,
+      "id": "db_EventInfo:112974:0",
+      "jp": "ミルテの手にはいつぞやの【『起源の魔術書』】がある。",
+      "en": "Myrte is holding the same old [Book of Origin's Magic].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95622,
+      "id": "db_EventInfo:112975:12",
+      "jp": "この本によると、【『禁呪』】の一つは【大地の秘宝が眠る場所】だそうです",
+      "en": "According to this book, one of the [Forbidden Spells] is in [the place where the Earth's Treasure sleeps].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95623,
+      "id": "db_EventInfo:112976:1",
+      "jp": "【大地の秘宝】……",
+      "en": "[The Earth's Treasure]...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95624,
+      "id": "db_EventInfo:112977:12",
+      "jp": "おそらくは【『ドルワミール鉱山』】のことでしょう",
+      "en": "That's probably talking about the [Dolwamir Mine].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95625,
+      "id": "db_EventInfo:112978:1",
+      "jp": "【『ドルワミール鉱山』】か……",
+      "en": "The [Dolwamir Mine], huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95626,
+      "id": "db_EventInfo:112979:12",
+      "jp": "さっそく【『ドルワミール鉱山』】で発掘を行ないましょう。資金の方はよろしくお願いしますよ！",
+      "en": "Let's start excavating at the [Dolwamir Mine] right away. I'll leave the funding to you!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95627,
+      "id": "db_EventInfo:112981:2",
+      "jp": "か、カネを要求するのデス！？",
+      "en": "Y-you're asking for money, Desu!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95628,
+      "id": "db_EventInfo:112982:12",
+      "jp": "当然です。魔術の研究には大金が必要なんですよ",
+      "en": "Of course. Magic research requires a lot of money.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95629,
+      "id": "db_EventInfo:112983:2",
+      "jp": "……やっぱり、やめとかないデス？",
+      "en": "...Maybe we should give up on this, Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95630,
+      "id": "db_EventInfo:112984:12",
+      "jp": "何を言ってるんですか！　私の魔術がこれからも暴走していいと言うのですか！？",
+      "en": "What are you saying!? Are you saying it's okay for my magic to keep going out of control like this!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95631,
+      "id": "db_EventInfo:112985:2",
+      "jp": "逆ギレするなデス――！！",
+      "en": "Don't you turn this on me!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95632,
+      "id": "db_EventInfo:112988:0",
+      "jp": "二人はケンカを始めてしまった。",
+      "en": "The two of them started fighting.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95633,
+      "id": "db_EventInfo:112989:1",
+      "jp": "カネはかかりそうだが、ミルテの魔術が暴走しなくて威力も上がるというなら……投資する価値はありそうだ",
+      "en": "It'll probably cost money, but if Myrte's magic won't go out of control and will get stronger... it might be worth investing in.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95634,
+      "id": "db_EventInfo:112991:12",
+      "jp": "駄犬！　ついにやりましたよ！",
+      "en": "Master! I finally did it!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95635,
+      "id": "db_EventInfo:112992:12",
+      "jp": "【『ドルワミール鉱山』】から【『禁呪』】を示した碑文を発掘できたのです！",
+      "en": "I excavated a monument showing a [Forbidden Spell] from the [Dolwarmir Mine]!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95636,
+      "id": "db_EventInfo:112993:0",
+      "jp": "ミルテの傍らには、不思議な力を感じる金属レリーフがあった。",
+      "en": "Next to Myrte was a metal relief that felt like it had a strange power.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95637,
+      "id": "db_EventInfo:112994:1",
+      "jp": "これに【『禁呪』】が……？",
+      "en": "The [Forbidden Spell] is on this...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95638,
+      "id": "db_EventInfo:112995:12",
+      "jp": "ええ……【『禁呪』】の術式を記したものです。ドワーム族から無理を言って借りてきてるので、さっさと覚えていきましょう",
+      "en": "Yes... It records the spell formula. I sort of forced the Dwarm to lend it to me, so let's memorize it quickly.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95639,
+      "id": "db_EventInfo:112996:1",
+      "jp": "覚えて……って、そんなに早く……？",
+      "en": "Memorize it... wait, that fast...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95640,
+      "id": "db_EventInfo:112997:12",
+      "jp": "ふん、天才魔術師を甘く見ないことですね……ん？",
+      "en": "Hmph, don't underestimate a genius mage... huh?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95641,
+      "id": "db_EventInfo:112999:0",
+      "jp": "ミルテがレリーフに触っていると、付近からオーラのようなものが噴き上がってくる！",
+      "en": "As Myrte touched the relief, an aura-like energy shot up from it!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95642,
+      "id": "db_EventInfo:113002:12",
+      "jp": "さて、【『禁呪』】の封印は解かれました……名前は【『エクスプロージョン』】です",
+      "en": "Well then, the [Forbidden Spell]'s seal is broken... Its name is [Explosion].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95643,
+      "id": "db_EventInfo:113003:12",
+      "jp": "鉄をも溶かす高温を作り出す、最強の【『火属性』】攻撃魔術です。せいぜい活用しなさい",
+      "en": "This is the ultimate fire magic attack. It creates enough heat to melt iron. Make good use of it.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95644,
+      "id": "db_EventInfo:113004:0",
+      "jp": "ミルテが新しく攻撃スキルを習得できるようになった！",
+      "en": "Myrte can now learn a new attack skill!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95645,
+      "id": "db_EventInfo:113006:9",
+      "jp": "ミルテが【『禁呪』】を復活させたようであるな",
+      "en": "It seems Myrte has restored a 'Forbidden Spell'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95646,
+      "id": "db_EventInfo:113007:9",
+      "jp": "試しに実戦練習に付き合ったが、なかなか楽しめそうであるぞ",
+      "en": "We tried it out in a practice fight. Looks like it could be quite fun.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95647,
+      "id": "db_EventInfo:113008:1",
+      "jp": "そうなのか",
+      "en": "Is that so?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95648,
+      "id": "db_EventInfo:113009:1",
+      "jp": "……【『禁呪』】というなら、なおさらミルテに使わせちゃダメじゃないか？",
+      "en": "...If it's a 'Forbidden Spell', then it's even worse to let Myrte use it, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95649,
+      "id": "db_EventInfo:113010:9",
+      "jp": "そうとも限らん。ミルテの魔力で通常の魔術を使わせるのは逆に危険であるからな",
+      "en": "Not necessarily. It's more dangerous to let Myrte use normal magic with her power level.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95650,
+      "id": "db_EventInfo:113011:9",
+      "jp": "それに、ミルテ用といえば……たしかに、そういう仕様のようであるな",
+      "en": "Besides, for Myrte specifically... yes, it seems it was made that way.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95651,
+      "id": "db_EventInfo:113012:1",
+      "jp": "どういう意味だ？",
+      "en": "What do you mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95652,
+      "id": "db_EventInfo:113013:9",
+      "jp": "ククク……",
+      "en": "Heh heh heh...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95653,
+      "id": "db_EventInfo:113015:12",
+      "jp": "駄犬！　【『起源の魔術書』】の解読が進みましたよ",
+      "en": "Master! We've made progress decoding the 'Origin Grimoire'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95654,
+      "id": "db_EventInfo:113016:1",
+      "jp": "次の【『禁呪』】の在処がわかったのか？",
+      "en": "Did you find the location of the next 'Forbidden Spell'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95655,
+      "id": "db_EventInfo:113017:12",
+      "jp": "はい。次の禁呪は【数多の嵐を見守る場所】にあるそうです",
+      "en": "Yes. They say the next forbidden spell is at a place called [Where Many Storms Are Watched].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95656,
+      "id": "db_EventInfo:113018:1",
+      "jp": "【数多の嵐を見守る場所】……えらく抽象的な場所だな",
+      "en": "[Where Many Storms Are Watched]... That's a really vague place.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95657,
+      "id": "db_EventInfo:113019:12",
+      "jp": "【『イルニエル大灯台』】が怪しいですね",
+      "en": "The [Iluniel Great Lighthouse] seems suspicious.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95658,
+      "id": "db_EventInfo:113020:12",
+      "jp": "さっそく調査を始めましょう。投資はよろしくお願いしますよ！",
+      "en": "Let's start investigating right away. I'm counting on you for the investment!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95659,
+      "id": "db_EventInfo:113021:2",
+      "jp": "カネをたかるなデス！",
+      "en": "Don't shake us down for money, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95660,
+      "id": "db_EventInfo:113022:2",
+      "jp": "というか暴走しないスキルを習得したデス？　もう十分じゃないデスかね",
+      "en": "More importantly, didn't you learn a skill to stop yourself from going berserk? Isn't that enough, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95661,
+      "id": "db_EventInfo:113023:12",
+      "jp": "何を言ってるんです！",
+      "en": "What are you talking about?!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95662,
+      "id": "db_EventInfo:113024:12",
+      "jp": "【『禁呪』】はまだまだあるんです、すべての【『禁呪』】の封印を解くまで、資金援助してもらいますからね！",
+      "en": "There are still so many [Forbidden Spells] left! You'll be funding me until we've unsealed every single one of them!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95663,
+      "id": "db_EventInfo:113025:1",
+      "jp": "やはりカネを出すのはこちらか……",
+      "en": "So I am the one paying after all...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95664,
+      "id": "db_EventInfo:113026:0",
+      "jp": "シイネがにらむので、俺は怖くて目を逸らした……。",
+      "en": "Shiine was glaring, so I was scared and looked away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95665,
+      "id": "db_EventInfo:113028:12",
+      "jp": "駄犬！　ついにやりましたよ！",
+      "en": "Mutt! We finally did it!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95666,
+      "id": "db_EventInfo:113029:12",
+      "jp": "【『イルニエル大灯台』】から【『禁呪』】を示した碑文を発掘できたのです！",
+      "en": "We dug up an inscription from the [Iluniel Great Lighthouse] that indicates the [Forbidden Spell]!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95667,
+      "id": "db_EventInfo:113030:0",
+      "jp": "ミルテの傍らには、不思議な力を感じる金属レリーフがあった。",
+      "en": "Next to Myrte was a metal plaque that felt like it had a strange power.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95668,
+      "id": "db_EventInfo:113031:12",
+      "jp": "それでは【『禁呪』】の封印を解きますね",
+      "en": "Alright, I'll unseal the 'Forbidden Curse' now.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95669,
+      "id": "db_EventInfo:113032:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95670,
+      "id": "db_EventInfo:113034:0",
+      "jp": "ミルテがレリーフに触っていると、付近からオーラのようなものが噴き上がってくる！",
+      "en": "As Myrte touches the plaque, something like an aura shoots up from it!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95671,
+      "id": "db_EventInfo:113037:12",
+      "jp": "さて、【『禁呪』】の封印は解かれました……名前は【『サイクロン』】です",
+      "en": "So, the seal on the 'Forbidden Curse' is broken... Its name is 'Cyclone'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95672,
+      "id": "db_EventInfo:113038:12",
+      "jp": "放てばその場を嵐の渦中に飲み込ませる、最強の【『風属性』】攻撃魔術です。せいぜい活用しなさい",
+      "en": "It's the strongest 'Wind' attack magic. If you use it, it'll swallow the area in a storm. Make good use of it.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95673,
+      "id": "db_EventInfo:113039:0",
+      "jp": "ミルテが新しく攻撃スキルを習得できるようになった！",
+      "en": "Myrte can learn a new attack skill now!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95674,
+      "id": "db_EventInfo:113041:9",
+      "jp": "ミルテの【『禁呪』】は使わせているか？",
+      "en": "Are you letting Myrte use her 'Forbidden Curse'?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95675,
+      "id": "db_EventInfo:113042:1",
+      "jp": "ん、まあ……",
+      "en": "Mm, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95676,
+      "id": "db_EventInfo:113043:9",
+      "jp": "【『禁呪』】を使わせる限り、ミルテの魔術が暴走することはないのである",
+      "en": "As long as you let her use the 'Forbidden Curse', her magic won't run wild.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95677,
+      "id": "db_EventInfo:113044:9",
+      "jp": "……まあ、通常の魔術を使わせれば暴走するかもしれんが、【『禁呪』】を使うことで確率は下がるのである",
+      "en": "...Well, if you let her use normal magic, it might run wild. But using the 'Forbidden Curse' lowers the chance.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95678,
+      "id": "db_EventInfo:113045:1",
+      "jp": "そういえば、なんで【『禁呪』】は暴走しないんだ？　威力がある魔術なんだろ？",
+      "en": "That reminds me, why doesn't the 'Forbidden Curse' run wild? Isn't it powerful magic?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95679,
+      "id": "db_EventInfo:113046:9",
+      "jp": "うむ",
+      "en": "Right.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95680,
+      "id": "db_EventInfo:113047:9",
+      "jp": "一つは、【『禁呪』】の発動には膨大な魔力が必要だからである",
+      "en": "One reason is that activating a 'Forbidden Spell' needs a huge amount of magical power.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95681,
+      "id": "db_EventInfo:113048:9",
+      "jp": "ミルテは魔力が高すぎるせいで、自分でも知らないうちに必要以上に魔力を込めて使ってしまうのだ",
+      "en": "Myrte has too much magic. So, without knowing it, she puts in way more power than needed.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95682,
+      "id": "db_EventInfo:113049:9",
+      "jp": "薬でも、適量を守らなければ劇薬になる。燃料を間違えた炉が暴走するようなものである",
+      "en": "Even medicine can become poison if you take too much. It's like a furnace going out of control with the wrong fuel.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95683,
+      "id": "db_EventInfo:113050:9",
+      "jp": "しかし【『禁呪』】には膨大な魔力を使うことを想定しているため、あいつが魔力を注ぎ込んでも暴走しないのである",
+      "en": "But a 'Forbidden Spell' is made to handle a huge flow of magic. So even when she pours her power into it, it doesn't blow up.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95684,
+      "id": "db_EventInfo:113051:1",
+      "jp": "ふむふむ",
+      "en": "I see, I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95685,
+      "id": "db_EventInfo:113052:9",
+      "jp": "もう一つは、これまでミルテが使っていた魔術は【不完全な禁呪】だったからであるな",
+      "en": "The other reason is that until now, the magic Myrte used was an 'Imperfect Forbidden Spell'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95686,
+      "id": "db_EventInfo:113053:9",
+      "jp": "あやつが【『禁呪』】を使えるのは、あらかじめ【『禁呪』】に特化した身体を持っているからである",
+      "en": "She can use a 'Forbidden Spell' because she has a body specifically built for it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95687,
+      "id": "db_EventInfo:113054:9",
+      "jp": "なので……あやつが【『ファイアー』】の魔術を使おうとしても、心が無意識に【『エクスプロージョン』】とするのだ",
+      "en": "So... when she tries to use a 'Fire' spell, her mind unconsciously turns it into an 'Explosion' instead.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95688,
+      "id": "db_EventInfo:113055:9",
+      "jp": "これは無意識であるから、どうすることもできんな",
+      "en": "It's unconscious, so there's nothing she can do about it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95689,
+      "id": "db_EventInfo:113056:1",
+      "jp": "なるほどな……",
+      "en": "I get it now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95690,
+      "id": "db_EventInfo:113058:12",
+      "jp": "駄犬！　【『起源の魔術書』】の解読が進みましたよ",
+      "en": "Stupid dog! We've made progress deciphering the 'Primordial Grimoire'!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95691,
+      "id": "db_EventInfo:113059:1",
+      "jp": "次の【『禁呪』】の在処がわかったのか？",
+      "en": "Do we know where the next [Forbidden Curse] is?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95692,
+      "id": "db_EventInfo:113060:12",
+      "jp": "はい。次の禁呪は【古の叡智が眠る場所】だそうです",
+      "en": "Yes. They say the next Forbidden Curse is in [the place where ancient wisdom sleeps].",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95693,
+      "id": "db_EventInfo:113061:1",
+      "jp": "【叡智】……知識とかかな",
+      "en": "[Wisdom]... Maybe like knowledge?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95694,
+      "id": "db_EventInfo:113062:12",
+      "jp": "【『ゼカリウス地下図書館』】でしょうか？",
+      "en": "Could it be the [Zecarius Underground Library]?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95695,
+      "id": "db_EventInfo:113063:12",
+      "jp": "あそこは調査団もいます。発掘は簡単ですね",
+      "en": "There's an investigation team there too. The excavation should be easy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95696,
+      "id": "db_EventInfo:113064:1",
+      "jp": "……調べられそうな物が多すぎて、逆に大変そうだけどな",
+      "en": "It seems like there's too much stuff to look through, so it might be tough.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95697,
+      "id": "db_EventInfo:113066:12",
+      "jp": "駄犬！　ついにやりましたよ！",
+      "en": "We did it! You useless dog! Finally!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95698,
+      "id": "db_EventInfo:113067:12",
+      "jp": "【『ゼカリウス地下図書館』】から【『禁呪』】を示した碑文を発掘できたのです！",
+      "en": "We excavated a stele that points to the [Forbidden Curse] from the [Zecarius Underground Library]!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 95699,
+      "id": "db_EventInfo:113068:0",
+      "jp": "ミルテの傍らには、不思議な力を感じる金属レリーフがあった。",
+      "en": "Next to Myrte was a metal relief that felt strangely powerful.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95700,
+      "id": "db_EventInfo:113069:12",
+      "jp": "さっそく【『禁呪』】の封印を解きますから、周りに気を配ってくださいね",
+      "en": "I'm going to unseal the [Forbidden Curse] now, so keep an eye out around us.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11701,
+  "range_end": 11800,
+  "pairs": [
+    {
+      "n": 11701,
+      "id": "rem_39462",
+      "jp": "魔性を秘めたクリスタル。獣性を目覚めさせる闇黒の輝きは、近隣に存在する動植物を魔物に変えてしまう。",
+      "en": "A crystal that holds a demonic nature. Its dark gleam awakens beast-like instincts, turning nearby plants and animals into monsters.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11702,
+      "id": "rem_39463",
+      "jp": "漆黒のダーククリスタル",
+      "en": "Jet-Black Dark Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11703,
+      "id": "rem_39464",
+      "jp": "邪悪な魔力が宿った結晶。持ち主の魔力を高めるが、半面、周囲に災厄をもたらすと言われる。",
+      "en": "A crystal imbued with evil magic. It amplifies the owner's power, but is said to bring calamity to the surroundings.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11704,
+      "id": "rem_39465",
+      "jp": "不浄な魔力の欠片",
+      "en": "Fragment of Impure Magic",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11705,
+      "id": "rem_39466",
+      "jp": "異邦に伝わる、邪悪な神を封印した術式を施した石。異邦の封印術はゼカリウスの民には不明だが、時折岩の中から呻き声が聞こえるという。",
+      "en": "A foreign stone sealed with a spell to imprison an evil god. The sealing magic is unknown to Zecarius's people, but groans are sometimes heard from within the rock.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11706,
+      "id": "rem_39467",
+      "jp": "異邦の封印石",
+      "en": "Foreign Sealing Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11707,
+      "id": "rem_39468",
+      "jp": "邪教徒が邪悪な救世主の為に作ろうとした、禍々しい剣。邪悪な魔術に反応し、凄まじい破壊をまき散らすと言うが、何者かに阻止され海に沈んだ。",
+      "en": "A sinister sword cultists tried to forge for their evil savior. It reacts to dark magic, unleashing terrible destruction, but was stopped by someone and sunk in the sea.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11708,
+      "id": "rem_39469",
+      "jp": "邪教の救世剣",
+      "en": "Cultist's Savior Sword",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11709,
+      "id": "rem_39470",
+      "jp": "邪悪な力を封印するという、異邦の封印呪具。しかし長い封印の末に呪いを吸収し、負の力を垂れ流すようになってしまった。",
+      "en": "A foreign cursed tool meant to seal evil power. After ages of containment, it absorbed the curse and now leaks negative energy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11710,
+      "id": "rem_39471",
+      "jp": "封魔の呪印",
+      "en": "Demonic Seal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11711,
+      "id": "rem_39472",
+      "jp": "集中力を増す力を秘めた宝石。持ち主の命中能力を高めることができるといわれる。",
+      "en": "A gem that enhances focus. It's said to improve the wielder's accuracy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11712,
+      "id": "rem_39473",
+      "jp": "情熱のガーネット",
+      "en": "Passionate Garnet",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11713,
+      "id": "rem_39474",
+      "jp": "無垢なる心を感じさせる淡い乳白色の宝石。持ち主の身体を異常から守るといわれる。",
+      "en": "A pale, milky-white gem that evokes purity. It's said to protect the wearer from ailments.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11714,
+      "id": "rem_39475",
+      "jp": "希望のオパール",
+      "en": "Hopeful Opal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11715,
+      "id": "rem_39476",
+      "jp": "紅い宝石。持ち主の精神力を高める力があるといわれる。",
+      "en": "A crimson gem. It's said to have the power to strengthen the wielder's spirit.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11716,
+      "id": "rem_39477",
+      "jp": "愛のルビー",
+      "en": "Ruby of Love",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11717,
+      "id": "rem_39478",
+      "jp": "誠実さを意味するという青い宝石。持ち主に幸運を与えるといわれる。",
+      "en": "A blue gem symbolizing sincerity. It's said to bring luck to its owner.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11718,
+      "id": "rem_39479",
+      "jp": "慈愛のサファイア",
+      "en": "Sapphire of Compassion",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11719,
+      "id": "rem_39480",
+      "jp": "海の生き物が産出する宝石。加工するすることでピンク色の美しい装飾品になる。",
+      "en": "A gem produced by sea creatures. When processed, it becomes a beautiful pink ornament.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11720,
+      "id": "rem_39481",
+      "jp": "清涼なパール",
+      "en": "Cool Pearl",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11721,
+      "id": "rem_39482",
+      "jp": "精神を安定させる翠色の宝石。持ち主に閃きを与え、必殺の機会を与えるといわれる。",
+      "en": "A green gem that calms the mind. Said to grant its owner flashes of insight and critical opportunities.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11722,
+      "id": "rem_39483",
+      "jp": "精神のエメラルド",
+      "en": "Emerald of Spirit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11723,
+      "id": "rem_39484",
+      "jp": "不思議な魅力を感じる緑色の宝石。持ち主の魔ヘの耐性を高めるといわれる。",
+      "en": "A mysterious green gem that fascinates. Said to boost its owner's resistance to magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11724,
+      "id": "rem_39485",
+      "jp": "運命のペリドット",
+      "en": "Peridot of Fate",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11725,
+      "id": "rem_39486",
+      "jp": "幸福をもたらす白色の宝石。持ち主に財宝と冨を与えるといわれる。",
+      "en": "A white gem said to bring happiness. Grants its owner treasure and wealth.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11726,
+      "id": "rem_39487",
+      "jp": "純心のアクアマリン",
+      "en": "Aquamarine of Purity",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11727,
+      "id": "rem_39488",
+      "jp": "友愛を意味するという黄色の宝石。持ち主に悪霊と戦う力を与えるといわれる。",
+      "en": "A yellow gem symbolizing friendship. Said to grant power to fight evil spirits.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11728,
+      "id": "rem_39489",
+      "jp": "友情のトパーズ",
+      "en": "Topaz of Friendship",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11729,
+      "id": "rem_39490",
+      "jp": "至高の輝きと硬度を持つ宝石。持ち主を害毒から守る力があるともいわれる。",
+      "en": "A gem of supreme brilliance and hardness. Said to protect its owner from harmful toxins.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11730,
+      "id": "rem_39491",
+      "jp": "光輝のダイアモンド",
+      "en": "Diamond of Radiance",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11731,
+      "id": "rem_39492",
+      "jp": "鋭く暗い黒曜石。闇の魔力を強く秘めていると言われる。",
+      "en": "A sharp, dark obsidian. Said to strongly conceal the power of darkness.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11732,
+      "id": "rem_39493",
+      "jp": "闇に輝くオブシディアン",
+      "en": "Obsidian Glowing in Darkness",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11733,
+      "id": "rem_39494",
+      "jp": "様々な色を反射する、円形のマジックアイテム。莫大な魔力が込められた精巧な芸術品は、何に使われたのか全く分からない。だが、溢れ出る魔力は本物。",
+      "en": "A round magic item that reflects many colors. An exquisite artifact imbued with vast, unknown power. Its purpose is a mystery, but its overflowing magic is real.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11734,
+      "id": "rem_39495",
+      "jp": "輝くプリズムメダリオン",
+      "en": "Shining Prism Locket",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11735,
+      "id": "rem_39496",
+      "jp": "品性を感じさせる月長の宝石。持ち主の生命力を高める力があるといわれる。",
+      "en": "A refined moonstone gem. Said to have the power to boost its owner's vitality.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11736,
+      "id": "rem_39497",
+      "jp": "母なるムーンストーン",
+      "en": "Mother Moonstone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11737,
+      "id": "rem_39498",
+      "jp": "全なる力を持つという神の金属。持ち主をあらゆる異常から守るといわれる。",
+      "en": "A divine metal said to possess complete power. Said to protect its owner from all ailments.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11738,
+      "id": "rem_39499",
+      "jp": "幻想のオリハルコン",
+      "en": "Orichalcum of Fantasy",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11739,
+      "id": "rem_39500",
+      "jp": "世界樹の種とも呼ばれる大きな種子。生命の起源と呼ばれる世界樹は発芽が難しく、実行するには巨大な魔力が必要になる。何の役にも立たない貴重品。",
+      "en": "A large seed also called the Seed of the World Tree. Germinating the legendary World Tree requires immense magic. A rare item with no practical use.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11740,
+      "id": "rem_39501",
+      "jp": "樹の卵",
+      "en": "Tree Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11741,
+      "id": "rem_39502",
+      "jp": "シイネの髪飾りに似ている紋様のメダル。簡単な作りではあるが、素材は不明で強い魔力も感じる。なんらかの邪教の儀式に使われていた物かも知れない。",
+      "en": "A medal with a pattern resembling Shiine's hair ornament. Simple in make, but the material is unknown and it radiates strong magic. Perhaps used in some heretical ritual.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11742,
+      "id": "rem_39503",
+      "jp": "死神のアーティファクト",
+      "en": "Shinigami Artifact",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11743,
+      "id": "rem_39504",
+      "jp": "何だか重要な事が書いてある気がする石板の破片。この石板を完成させ、解読しようと学者たちが買い漁っているが、それゆえ偽物も多く出回る結果となった。",
+      "en": "A fragment of a stone slab that seems to contain something important. Scholars are scrambling to buy and complete the slab to decipher it, resulting in many fakes circulating.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11744,
+      "id": "rem_39505",
+      "jp": "ヒエログリフの破片",
+      "en": "Hieroglyph Fragment",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11745,
+      "id": "rem_39506",
+      "jp": "地下火山の中心で燃えさかる魔法の火種。ドワーム族が神とも称する魔力の結晶で、その火を炉にくべて鍛えた武器は伝説に称えられる強さに鍛えられるという。",
+      "en": "A magical ember burning at the heart of an underground volcano. This crystallized mana, revered as a god by the Dwarm, can forge weapons of legendary strength when fed into a furnace.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11746,
+      "id": "rem_39507",
+      "jp": "鍛冶神の火種",
+      "en": "Forge God's Ember",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11747,
+      "id": "rem_39508",
+      "jp": "時折雷鳴のような稲光が内部に発生するオーブ。荒れ狂う雷鳴が発生しているかのような内部の魔力を解析しようと、魔術師が研究を進めている。",
+      "en": "An orb where lightning-like flashes occasionally erupt within. Magicians are studying it to analyze the chaotic thunderous magic energy churning inside.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11748,
+      "id": "rem_39509",
+      "jp": "雷鳴のオーブ",
+      "en": "Orb of Thunder",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11749,
+      "id": "rem_39510",
+      "jp": "酷寒の地に巡る魔力が長い年月を経て結晶化した物。けっして溶けることはなく、永遠に強い冷気を発する宝石。生成には非常に時間がかかり、きわめて稀少。",
+      "en": "A gem crystallized over long years from mana swirling in frozen lands. It never melts and perpetually emits intense cold. Extremely rare due to the long formation time.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11750,
+      "id": "rem_39511",
+      "jp": "永久氷晶",
+      "en": "Eternal Ice Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11751,
+      "id": "rem_39512",
+      "jp": "厳重な封印が施された本。染み出る瘴気を取り除き、中を見る方法を、日夜研究者が探している。",
+      "en": "A book under heavy seal. Researchers search day and night for a way to purge the seeping miasma and see inside.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11752,
+      "id": "rem_39513",
+      "jp": "封印されし魔本",
+      "en": "Sealed Tome of Magic",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11753,
+      "id": "rem_39514",
+      "jp": "魔神が災厄をもたらす言葉を綴ったという石板。人には読めない不思議な文字からは、確かに邪悪な力が感じられる。",
+      "en": "A stone slab said to bear words of calamity from a demon god. The strange, unreadable script indeed feels imbued with an evil power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11754,
+      "id": "rem_39515",
+      "jp": "災厄の予言版",
+      "en": "Tablet of Calamity",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11755,
+      "id": "rem_39516",
+      "jp": "煉獄に座す魔神を象ったと言われる小型の像。人の死を冒涜する悪魔の像は、破滅願望のある人間に好まれる。",
+      "en": "A small figurine said to depict a demon god seated in purgatory. This blasphemous idol of death is favored by those with destructive desires.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11756,
+      "id": "rem_39517",
+      "jp": "煉獄の魔像",
+      "en": "Purgatory Demon Statue",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11757,
+      "id": "rem_39518",
+      "jp": "中央に魔力を増幅する結晶体を配置し、魔法の力を循環させて増幅させる機構装置。一度流した魔力は常に循環し続け、永久に魔法力を取り出せる魔術界の至宝。",
+      "en": "A mechanism with a central crystal that amplifies and cycles magical power. Once activated, the mana circulates perpetually, making it a supreme treasure of the magical world.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11758,
+      "id": "rem_39519",
+      "jp": "輪廻の冥界機関",
+      "en": "Cycle of Underworld Engine",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11759,
+      "id": "rem_39520",
+      "jp": "遺跡から出土したドーム型の薄い鉱物。光を屈折させ、不思議な像を浮かばせるマジックアイテムは、用途不明のまま、多くの学者が探し求める。",
+      "en": "A thin, dome-shaped mineral unearthed from ruins. This magic item refracts light to project mysterious images. Its purpose unknown, it is sought by many scholars.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11760,
+      "id": "rem_39521",
+      "jp": "不思議なレンズ",
+      "en": "Mysterious Lens",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11761,
+      "id": "rem_39522",
+      "jp": "カストロイアの中にあった何らかの機械人形。ゼカリウスの人間では理解できない技術で作られており、技術者にとっては格好の研究対象になる。",
+      "en": "A mechanical doll found within Castloir. Made with technology beyond Zecarius's human comprehension, it is a prime research subject for technicians.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11762,
+      "id": "rem_39523",
+      "jp": "カストロイアの機械人形",
+      "en": "Castloir Mechanical Doll",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11763,
+      "id": "rem_39524",
+      "jp": "古代の王をかたどったとされる黄金の像。黄金の都の墓に安置されているが、うっかり持ち帰ると古代の王の呪いを受けるとも言われる。",
+      "en": "A golden statue said to be modeled after an ancient king. Enshrined in the Golden City's tomb; carelessly taking it may incur the ancient king's curse.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11764,
+      "id": "rem_39525",
+      "jp": "黄金の王の墓像",
+      "en": "Golden King's Tomb Statue",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11765,
+      "id": "rem_39526",
+      "jp": "氷獄に封印された伝説のミズイロケモミミの爪。強い魔力を秘めた彼女の一部は不滅とされ、現代にも残ることがあるようだ。見た目は普通の爪。",
+      "en": "The claw of the legendary Mizuirokemomimi, sealed in the Ice Prison. Her parts, imbued with strong magic, are said to be immortal and sometimes remain to this day. Looks like an ordinary claw.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11766,
+      "id": "rem_39527",
+      "jp": "魔獣王の爪の化石",
+      "en": "Monster King's Claw Fossil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11767,
+      "id": "rem_39528",
+      "jp": "コウモリの肉の内、モモの部分。ひ弱なコウモリは剣の一振りでバラバラになってしまうため、意図的に残すのは大変。",
+      "en": "The thigh part of bat meat. Frail bats are easily chopped apart, making it hard to intentionally preserve this cut.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11768,
+      "id": "rem_39529",
+      "jp": "コウモリのモモ肉",
+      "en": "Bat Thigh Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11769,
+      "id": "rem_39530",
+      "jp": "魔獣の肉を細かく砕き、洗った腸の中に詰めた猟奇的な肉素材。肉の旨味と特有の肉汁をうちに閉じ込める為、調理法としては理にかなっている。",
+      "en": "A grotesque meat product: minced monster meat stuffed into cleaned intestines. Seals in the meat's flavor and juices, making it a logical cooking method.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11770,
+      "id": "rem_39531",
+      "jp": "魔獣の腸詰め肉",
+      "en": "Monster Sausage Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11771,
+      "id": "rem_39532",
+      "jp": "バタフライから採取した、幻惑効果のある鱗粉。既存の調味料と混ぜ合わせ、料理に振りかけると、感覚が鋭敏になり、刺激的な体験ができる。",
+      "en": "Pollen with illusionary effects collected from butterflies. Mixed with existing seasonings and sprinkled on food, it heightens the senses for a thrilling experience.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11772,
+      "id": "rem_39533",
+      "jp": "バタフライの鱗粉",
+      "en": "Butterfly Pollen",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11773,
+      "id": "rem_39534",
+      "jp": "食用のスライムから採取した粘性のある液体。混ぜると液体を固める効果を持つ。植物由来のゼラチン質とはまた違った食感を楽しめる。",
+      "en": "A viscous liquid extracted from edible slimes. Mixing it solidifies liquids. Offers a different texture compared to plant-based gelatin.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11774,
+      "id": "rem_39535",
+      "jp": "スライムゼラチン",
+      "en": "Slime Gelatin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11775,
+      "id": "rem_39536",
+      "jp": "魔獣と化したクロウの骨。食用の鶏ガラとは一味違う、野趣溢れるダシが取れる。",
+      "en": "The bone of a monstrous crow. Yields a broth with a wild, rustic flavor distinct from regular chicken bones.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11776,
+      "id": "rem_39537",
+      "jp": "魔物カラスの鶏ガラ",
+      "en": "Monster Crow Bone Broth",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11777,
+      "id": "rem_39538",
+      "jp": "魔獣すらひと飲みにするスネークの肉。瞬発力に優れた肉質は硬いが、火を通すと柔らかくなる。",
+      "en": "Snake meat from a beast that can swallow monsters whole. Its tough, explosively powerful flesh softens when cooked.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11778,
+      "id": "rem_39539",
+      "jp": "スネークのスタミナ肉",
+      "en": "Snake Stamina Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11779,
+      "id": "rem_39540",
+      "jp": "巨大なウシノシシのロース部分。並の人間では太刀打ちできないほどの魔獣だが、討伐難易度に見合った旨さを持つ。『ケモミミ』が好むらしい。",
+      "en": "The loin cut of a giant Boar-Cattle. A monster too formidable for ordinary humans, its flavor matches the challenge of hunting it. Said to be favored by 'Kemomimi'.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11780,
+      "id": "rem_39541",
+      "jp": "ウシノシシのロース肉",
+      "en": "Boar-Cattle Loin Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11781,
+      "id": "rem_39542",
+      "jp": "強烈な突進力を持つファングの中でも脂の乗ったいい部分。魔界食材としても非常に高級だが、近年は人間界で養殖されているらしい。",
+      "en": "A prime cut from the powerful, charging Fang monster. A premium demon realm ingredient, though lately it's being farmed in the human world.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11782,
+      "id": "rem_39543",
+      "jp": "霜降りファング肉",
+      "en": "Marbled Fang Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11783,
+      "id": "rem_39544",
+      "jp": "森を食らいつくすと言われるキャタピラーの肉。正規軍からなる討伐隊が編成されるほどの魔獣肉は、一般にはほぼ出回らず、その肉質は弾力に富む。",
+      "en": "Meat from the Caterpillar, a monster said to devour forests. So rare that the army forms squads to hunt it, its meat is exceptionally chewy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11784,
+      "id": "rem_39545",
+      "jp": "むちむちキャタピラ肉",
+      "en": "Plump Caterpillar Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11785,
+      "id": "rem_39546",
+      "jp": "霊峰に住む恐るべき狂暴な魔獣の肉。魔獣ながら聖なる力に満ちている。魔族が美味しく食べるには、適切な調理が必要。",
+      "en": "Meat from a fearsome, savage beast of the sacred peaks. Though a monster, it's imbued with holy power. Demons need to cook it just right to enjoy it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11786,
+      "id": "rem_39547",
+      "jp": "聖なる魔獣肉",
+      "en": "Sacred Monster Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11787,
+      "id": "rem_39548",
+      "jp": "果実のみを食べて育った赤コウモリの肉。果物とみなされるほど甘い獣肉だが、元が小さなコウモリなので大量に得る事はほぼ不可能。",
+      "en": "Meat from a red bat raised solely on fruit. Sweet as fruit itself, but the bats are small, making it nearly impossible to gather in large quantities.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11788,
+      "id": "rem_39549",
+      "jp": "赤コウモリの果肉",
+      "en": "Red Bat Fruit Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11789,
+      "id": "rem_39550",
+      "jp": "魔界ではありふれたベリー植物。スッキリと甘い。",
+      "en": "A common demon realm berry plant. Refreshingly sweet.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11790,
+      "id": "rem_39551",
+      "jp": "魔性のベリー",
+      "en": "Demonic Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11791,
+      "id": "rem_39552",
+      "jp": "特定の果物を食べ、蜜を蓄える性質を持つフルーツワームの特性を利用した物。天然フルーツの甘さを凝縮した蜜は、お菓子制作に欠かせない。",
+      "en": "Made by exploiting the Fruit Worm's trait of eating specific fruits and storing nectar. This condensed, natural fruit sweetness is essential for candy-making.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11792,
+      "id": "rem_39553",
+      "jp": "フルーツワームの蜜",
+      "en": "Fruit Worm Nectar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11793,
+      "id": "rem_39554",
+      "jp": "魔獣が貯め込んだ蜜を集めた天然の甘味。元まで辿れば花の蜜なので、安心の天然素材なのだが、魔界花である事には注意が必要。",
+      "en": "A natural sweetener gathered from nectar stored by monsters. It's ultimately flower nectar, a safe natural ingredient, but beware—the flowers are from the demon realm.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11794,
+      "id": "rem_39555",
+      "jp": "天然の魔獣ハチミツ",
+      "en": "Natural Monster Honey",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11795,
+      "id": "rem_39556",
+      "jp": "クモが好むリンゴの木から採取した果実。樹木に近寄るだけでスパイダーが襲ってくる為、入手難度は高い。別にクモが育てているというわけではない。",
+      "en": "Fruit gathered from apple trees favored by spiders. Hard to obtain because spiders attack anyone approaching the trees. The spiders aren't farming them, though.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11796,
+      "id": "rem_39557",
+      "jp": "スパイダーアップル",
+      "en": "Spider Apple",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11797,
+      "id": "rem_39558",
+      "jp": "魔界花のフラワーが撒き散らす花粉を丁寧に採取した粉。吸い込むと様々な悪影響を及ぼすが、お菓子の隠し味に使うと、食べた者に美味しさと多幸感をもたらす。",
+      "en": "Fine powder collected from pollen scattered by demon realm Flower monsters. Inhaling it has harmful effects, but used as a secret ingredient in sweets, it brings deliciousness and euphoria.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11798,
+      "id": "rem_39559",
+      "jp": "芳醇フラワーの花粉",
+      "en": "Aromatic Flower Pollen",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11799,
+      "id": "rem_39560",
+      "jp": "生命力あふれるトレントから採取した木の実。個体によって味わいは違うものの、概ね味の方向性は似通っているようだ。",
+      "en": "Nuts harvested from vibrant Treants. The flavor varies by individual, but the general taste profile seems similar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11800,
+      "id": "rem_39561",
+      "jp": "トレントの木の実",
+      "en": "Treant Nut",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

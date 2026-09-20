@@ -1,0 +1,817 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 700,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "rem_00601",
+      "jp": "冥府の要所を守る骸骨兵士。生前は優秀な兵士であり、戦争などで命を落とした彼らを冥界の主が評価し、自らの眷属として迎え入れた。冥界に溢れるゴブリンのせいで、休日が無い。",
+      "en": "Skeleton soldiers guarding key points of the underworld. Once skilled warriors who fell in battle, they were recognized by the lord of the netherworld and taken in as his followers. No days off thanks to all the Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 602,
+      "id": "rem_00602",
+      "jp": "冥府の門番",
+      "en": "Netherworld Gatekeeper",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 603,
+      "id": "rem_00603",
+      "jp": "冥府の要所を守る骸骨兵士。休日が無いのに働き続けたのを評価され、さらなる要所を任された。休日はないのだが、彼らが疲れることもない。よく寝ている。",
+      "en": "Skeleton soldiers guarding key points of the underworld. Praised for working without days off, they were given even more important posts. They don't tire, nor do they get days off. Often seen sleeping.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 604,
+      "id": "rem_00604",
+      "jp": "地獄の門番",
+      "en": "Hell's Gatekeeper",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 605,
+      "id": "rem_00605",
+      "jp": "人間の魂ではなく、長く冥界に住む精霊のようなもの。生者が冥界の世界に迷い込むと、その魂を食い尽くしてしまう。自動的な門番だが、多すぎるゴブリンのせいで手が足りていない。",
+      "en": "Spirit-like beings, not human souls, long-time residents of the netherworld. If the living wander into the underworld, these spirits devour their souls. Automatic gatekeepers, but understaffed due to too many Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 606,
+      "id": "rem_00606",
+      "jp": "ヘルスピリット",
+      "en": "Hell Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 607,
+      "id": "rem_00607",
+      "jp": "七つの目を持つという凶兆の怪物。イビルアイという魔生物が冥界の魔虫に寄生した者であり、邪眼によって高い魔力を持ち、魔術の触媒になる。",
+      "en": "A monster of ill omen said to have seven eyes. An Evil Eye magical creature parasitized by underworld insects, possessing high magical power through its evil eye and serving as a catalyst for spells.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 608,
+      "id": "rem_00608",
+      "jp": "ナナホシ",
+      "en": "Seven-Star",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 609,
+      "id": "rem_00609",
+      "jp": "冥界のルールをはずれ、さまよう死体となった死者。生者との境界があいまいなこの世界で、たまたま迷い込んだ生者を見つけては襲っている。",
+      "en": "A deceased being that has strayed from the underworld's rules, becoming a wandering corpse. In this world where the boundary with the living is blurred, they attack any living beings who happen to wander in.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 610,
+      "id": "rem_00610",
+      "jp": "さまよいびと",
+      "en": "Wanderer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 611,
+      "id": "rem_00611",
+      "jp": "グールとも言われる半生半死の怪物。死都を彷徨い、死者を食らう。生者に対して明確な憎悪を持ち、この地に迷い込んだ人間が対峙して、生きて帰ることはない。",
+      "en": "A half-living, half-dead monster also known as a ghoul. Wanders the City of the Dead, consuming the deceased. Harbors clear hatred for the living; no human who encounters them here returns alive.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 612,
+      "id": "rem_00612",
+      "jp": "屍食鬼",
+      "en": "Ghoul",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 613,
+      "id": "rem_00613",
+      "jp": "死都の水辺を泳ぐ、骨のような魚。獰猛かつ悪食で、何でも水に引きずり込み、その肉を喰らう。",
+      "en": "Bone-like fish swimming in the waters of the City of the Dead. Fierce and omnivorous, they drag anything into the water to feed on its flesh.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 614,
+      "id": "rem_00614",
+      "jp": "化石のフィッシュ",
+      "en": "Fossil Fish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 615,
+      "id": "rem_00615",
+      "jp": "冥界の戦乙女。天界とは戦争状態にあり、勇者の魂を奪い合っているとのこと。冥界に強力な人間が迷い込んだのを察知し、勇者の魂を持つ者として探しに来る。",
+      "en": "Valkyries of the netherworld. At war with Heaven, competing for Hero souls. Sensing powerful humans in the underworld, they come seeking those who possess a Hero's soul.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 616,
+      "id": "rem_00616",
+      "jp": "メイデン",
+      "en": "Maiden",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 617,
+      "id": "rem_00617",
+      "jp": "死都を舞う蝶。その鱗粉は美しく、魔術的な価値が高い。ひとたび吸い込めば、長寿を得られるとして金と同じ重さで取引されるが、実物を持ち帰った生者はいない。",
+      "en": "Butterflies that flutter through the City of the Dead. Their scales are beautiful and hold high magical value. Inhaling them is said to grant longevity, traded for their weight in gold, but no living person has ever brought one back.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 618,
+      "id": "rem_00618",
+      "jp": "ヨミアゲハ",
+      "en": "Yomi Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 619,
+      "id": "rem_00619",
+      "jp": "死都を舞うヨミアゲハの中でも希少な、七色に輝く蝶。その鱗粉を吸い込むと人間はゾンビの仲間入りしてしまう。人間世界ではまだ存在を確認されていない。",
+      "en": "A rare, seven-colored butterfly among the Yomi Butterflies. Inhaling its scales turns humans into zombies. Its existence has not yet been confirmed in the human world.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 620,
+      "id": "rem_00620",
+      "jp": "ナナイロヨミアゲハ",
+      "en": "Seven-Color Yomi Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 621,
+      "id": "rem_00621",
+      "jp": "七つの眼を持つ怪物。封印されていた八つの眼が開いたとき、それを見た者は即座に命を落とすと言われる。邪眼は最上級の魔術の触媒とされる。",
+      "en": "A monster with seven eyes. Legend says when its eighth sealed eye opens, anyone who sees it instantly dies. Its evil eye is considered a supreme catalyst for magic.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 622,
+      "id": "rem_00622",
+      "jp": "死のナナホシ",
+      "en": "The Seven-Eyed Death Star",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 623,
+      "id": "rem_00623",
+      "jp": "邪悪な力によって、ドラゴンの死体がモンスター化したもの。眠りを妨げられ、狂乱した伝説の魔物は、理性を失い全てを破壊しようと襲い掛かる。",
+      "en": "A dragon corpse corrupted into a monster by evil forces. Disturbed from its slumber, this frenzied legendary beast has lost all reason and attacks to destroy everything.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 624,
+      "id": "rem_00624",
+      "jp": "ドラゴンゾンビ",
+      "en": "Dragon Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 625,
+      "id": "rem_00625",
+      "jp": "ドラゴンの死体が呪詛によってモンスター化したもの。強い呪いをまとっており、一帯を不浄の地に変える力を持っている。生半可な魔獣は近寄る事すらできない。",
+      "en": "A dragon corpse turned monster by a powerful curse. It wields a potent curse capable of turning the surrounding area into unholy ground. Lesser magical beasts cannot even approach.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 626,
+      "id": "rem_00626",
+      "jp": "カースドドラゴン",
+      "en": "Cursed Dragon",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 627,
+      "id": "rem_00627",
+      "jp": "死都ルーメ・ルーデスに残った最後の神。彼が見出した一つの魂。それはまさしく種を導く覇王。しかしそれは人を滅ぼし、新たな種が成り代わるものだとしても、彼らにとっての神は見放すことはできない。",
+      "en": "The last god remaining in the dead capital of Lume-Ludes. The soul he found is truly a Tyrant to guide the seeds. Even if it meant humanity's ruin and a new breed's ascension, their god could not forsake them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 628,
+      "id": "rem_00628",
+      "jp": "死都を見届ける者",
+      "en": "The Witness of the Dead Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 629,
+      "id": "rem_00629",
+      "jp": "死都にて幾度となく世代交代を繰り返し、地上よりも遙かな高みに進化したゴブリン。残虐性と繁殖力はそのままに、地上に現れるゴブリンとは明らかに違う戦闘能力を持っている。",
+      "en": "A Goblin that has undergone countless generations of evolution in the dead capital, reaching heights far beyond surface-dwellers. Retaining its cruelty and fertility, its combat prowess is clearly superior.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 630,
+      "id": "rem_00630",
+      "jp": "死都のゴブリン",
+      "en": "Dead Capital Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 631,
+      "id": "rem_00631",
+      "jp": "冥界を闊歩するゴブリンの荒くれ者。死者の魂を蹂躙するこのゴブリンは、あらゆる次元における厄介者。",
+      "en": "A Goblin brute roaming the underworld. This Goblin, which tramples the souls of the dead, is a troublemaker across all dimensions.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 632,
+      "id": "rem_00632",
+      "jp": "死都のホブゴブリン",
+      "en": "Dead Capital Hobgoblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 633,
+      "id": "rem_00633",
+      "jp": "死都を徘徊するシーゴブリンの亜種。ゴブリンとは考えられないほどの俊敏性を持ち、死者と生者の区別なく襲い掛かる。",
+      "en": "A variant of Sea Goblin that prowls the dead capital. Possessing unbelievable agility for a Goblin, it attacks the dead and the living alike.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 634,
+      "id": "rem_00634",
+      "jp": "死都のシーゴブリン",
+      "en": "Dead Capital Sea Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 635,
+      "id": "rem_00635",
+      "jp": "死都で発生した、軍略を駆使する異端のゴブリン戦略家。しかしその凶暴性は他のゴブリンよりも強く、戦闘能力も他の個体に勝るとも劣らない。",
+      "en": "A heretical Goblin strategist who employs military tactics, spawned in the dead capital. Its ferocity and combat abilities surpass those of its kin.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 636,
+      "id": "rem_00636",
+      "jp": "死都の変異ゴブリン",
+      "en": "Dead Capital Mutant Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 637,
+      "id": "rem_00637",
+      "jp": "死都に蔓延るゴブリン達を統率する指揮官。戦闘・略奪を行うゴブリンの全てはこの魔物の指揮で動いているが、自身も何者かの意思によって動いているようだ。",
+      "en": "The commander leading the Goblins infesting the dead capital. All Goblin combat and plunder operates under this fiend's command, though it too seems to act on someone else's will.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 638,
+      "id": "rem_00638",
+      "jp": "死都のゴブリンロード",
+      "en": "Dead Capital Goblin Lord",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 639,
+      "id": "rem_00639",
+      "jp": "死者の霊魂を操るゴブリンシャーマン。死都に至った事で絶大な魔術を行使する。死者の眠りを妨げ冒涜する。",
+      "en": "A Goblin Shaman that manipulates the souls of the dead. Having reached the dead capital, it wields immense magic, disturbing and desecrating the dead's slumber.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 640,
+      "id": "rem_00640",
+      "jp": "死都のゴブリンシャーマン",
+      "en": "Dead Capital Goblin Shaman",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 641,
+      "id": "rem_00641",
+      "jp": "軍団の先頭に立つ歴戦のゴブリン。大規模な隊を指揮する身でありながら、先頭に立って戦場を駆ける。しかしその振る舞いは災禍の渦そのものであり、全てを略奪していく。",
+      "en": "A battle-hardened Goblin at the head of the legion. Though he commands a large force, he leads from the front, charging across the battlefield. Yet his actions are a vortex of calamity, plundering everything in his path.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 642,
+      "id": "rem_00642",
+      "jp": "死都のゴブリンパラディン",
+      "en": "Goblin Paladin of the Death Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 643,
+      "id": "rem_00643",
+      "jp": "死都を蹂躙するほどの巨体に成長した、ゴブリンの英雄。あらゆる敵を叩き潰す圧倒的な戦闘力を持ち、死都を混沌に叩き落とした。",
+      "en": "A Goblin hero who grew to a colossal size capable of ravaging the Death Capital. Possesses overwhelming combat strength to crush all foes, plunging the capital into chaos.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 644,
+      "id": "rem_00644",
+      "jp": "死都のゴブリンチャンピオン",
+      "en": "Goblin Champion of the Death Capital",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 645,
+      "id": "rem_00645",
+      "jp": "ゼカリウスの秘奥を解き明かした領主。人間の領域を超え、魔神に等しい能力を得ている。魔界と接続したことによって本来使えないはずの強大な攻撃魔術を操る。",
+      "en": "A lord who unlocked the secret arts of Zecarius. Transcending human limits, he gained power akin to a demon god. By connecting to the demon realm, he wields immensely powerful attack magic normally unusable.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 646,
+      "id": "rem_00646",
+      "jp": "狂王ゼルカ",
+      "en": "Zelka the Mad King",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 647,
+      "id": "rem_00647",
+      "jp": "ゴブリンの神によって召喚された最初のゴブリンと、月の世界樹が融合されたもの。神に等しい力を振るい、その力は全てゴブリンの生産に使われていた。100年間に繁殖したゴブリンの数は兆を超える。",
+      "en": "A fusion of the first Goblin, summoned by the Goblin God, and the Lunar World Tree. Wields power equal to a god, all dedicated to Goblin production. In a century, the number of Goblins bred surpassed a trillion.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 648,
+      "id": "rem_00648",
+      "jp": "ゴブリンコア",
+      "en": "Goblin Core",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 649,
+      "id": "rem_00649",
+      "jp": "北方に住む巨大な人型魔獣。本来は温厚な性格をしているが、テリトリーを侵された場合は激しく抵抗し、暴れ回る。分厚い毛皮を通常の武器で切り裂くのは非常に難しい。",
+      "en": "A giant humanoid beast dwelling in the north. Naturally gentle, but fiercely defends its territory if invaded. Its thick fur is extremely difficult to cut with ordinary weapons.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 650,
+      "id": "rem_00650",
+      "jp": "イエティ",
+      "en": "Yeti",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 651,
+      "id": "rem_00651",
+      "jp": "魔族によって生み出された魔術人形。氷獄に封印された恐るべき大魔獣を監視するために作られたらしく、彼女の封印を解こうとする愚か者を排除する。",
+      "en": "A magical puppet created by demons. Likely made to monitor a fearsome great beast sealed in the Ice Prison, eliminating any fool who tries to break the seal.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 652,
+      "id": "rem_00652",
+      "jp": "アイスゴーレム",
+      "en": "Ice Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 653,
+      "id": "rem_00653",
+      "jp": "ドワームに伝わるケモミミ衣装を身につけることによって、バーサーカーになってしまったアンジュ。わがまま娘のはずなのに、なにかとストレスを押しつけられる役回りのせいで、普段から鬱憤が溜まっていたのかも。",
+      "en": "Anju, who became a berserker after wearing a kemomimi outfit from Dwarm. Despite being a spoiled girl, pent-up frustration from always being the stress receptacle might be the cause.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 654,
+      "id": "rem_00654",
+      "jp": "バーサークアンジュ",
+      "en": "Berserk Anju",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 655,
+      "id": "rem_00655",
+      "jp": "メイドのシェルフィの正体はルーラ・ブロッサ娼会の幹部候補。ハーフサキュバスの血を引く淫魔である。シェルフィはルーシェのことを半人前と考えているが、ルーシェからは出来損ないと思われている。",
+      "en": "Maid Shelfi's true identity is a leadership candidate in the Lura Blossa Brothel. A succubus descended from a half-succubus lineage. Shelfi sees Lusche as half-baked, while Lusche considers her a failure.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 656,
+      "id": "rem_00656",
+      "jp": "淫魔メイドのシェルフィ①",
+      "en": "Succubus Maid Shelfi (1)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 657,
+      "id": "rem_00657",
+      "jp": "淫魔メイドのシェルフィ",
+      "en": "Succubus Maid Shelfi",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 658,
+      "id": "rem_00658",
+      "jp": "淫魔メイドのシェルフィ②",
+      "en": "Succubus Maid Shelfi (2)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 659,
+      "id": "rem_00659",
+      "jp": "ユーステルの仲間の重戦士。わがままで突っ走りがちなユーステルをフォローしている。彼女のことは親戚の娘ぐらいに思っており、首尾範囲外でもあるのでまったく意識していない。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 660,
+      "id": "rem_00660",
+      "jp": "穏やかな重戦士オーディ",
+      "en": "Gentle Heavy Warrior Odei",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 661,
+      "id": "rem_00661",
+      "jp": "突如マジカルな力に目覚めてしまったファシィ。変身能力は彼女の潜在能力の表れであり、これは淫魔と似て異なる力とされている。マジカルは幻を操る力であり、レアかつ非常に強力な洗脳能力。",
+      "en": "Facy awoke to a sudden magical power. Her transformation ability is a manifestation of her latent potential, a power similar to but distinct from a succubus. The magical power manipulates illusions and is a rare, potent form of brainwashing.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 662,
+      "id": "rem_00662",
+      "jp": "怪盗マジカル☆ファシィ",
+      "en": "Phantom Thief Magical☆Facy",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 663,
+      "id": "rem_00663",
+      "jp": "海底都市を統べる海竜の姫。ウミディーネの王。七色の虹を冠する偉大なる竜姫の一人(自称)。大商会のネルディーネの化身でもあるが、本能に従って生活したせいか知能がかなり弱くなっている。",
+      "en": "The sea dragon princess who rules the underwater city, and queen of the undine. She's one of the great dragon princesses crowned with a rainbow (self-proclaimed). Though also a manifestation of the great merchant Neldine, her intelligence has dulled by living on instinct.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 664,
+      "id": "rem_00664",
+      "jp": "海竜姫ネルディーネ①",
+      "en": "Sea Dragon Princess Neldine①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 665,
+      "id": "rem_00665",
+      "jp": "海竜姫ネルディーネ",
+      "en": "Sea Dragon Princess Neldine",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 666,
+      "id": "rem_00666",
+      "jp": "海竜姫ネルディーネ②",
+      "en": "Sea Dragon Princess Neldine②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 667,
+      "id": "rem_00667",
+      "jp": "秘められていた力を引き出してしまったハーヴェスタ。彼女の力は『淫魔』のようであって、実体は異なる者であり。人類に対する強力なリミッター。超古代の大戦で二つの星の間で結ばれた約定の擬人化である。",
+      "en": "Harvester unleashed her hidden power. While similar to a 'Succubus,' she is fundamentally different. She is a powerful limiter for humanity—the personification of a pact forged between two stars during an ancient war.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 668,
+      "id": "rem_00668",
+      "jp": "覚醒したハーヴェスタ",
+      "en": "Awakened Harvester",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 669,
+      "id": "rem_00669",
+      "jp": "恐慌状態に陥った村人。理性を失っており、暴徒と化している……。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 670,
+      "id": "rem_00670",
+      "jp": "錯乱した村人",
+      "en": "Maddened Villager",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 671,
+      "id": "rem_00671",
+      "jp": "近年になって出現した、ホブゴブリンの亜種。通常のホブゴブリンを遙かに上回る能力を持っている。",
+      "en": "A subspecies of hobgoblin that appeared in recent years. Their abilities far surpass those of regular hobgoblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 672,
+      "id": "rem_00672",
+      "jp": "ホブゴブリン・亜種",
+      "en": "Hobgoblin Subspecies",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 673,
+      "id": "rem_00673",
+      "jp": "『聖女』の負の力に目覚めてしまったマリーゼル。強力な『聖女』であるほど負に染まりやすく、我欲に力を使うほど邪に染まりやすくなるとされる。そのため真の『聖女』はまず自らの心を律さなくてはならない。",
+      "en": "Marisel awakened to the negative aspect of the 'Saintess' power. The stronger a 'Saintess' is, the more susceptible she is to corruption. The more power is used for selfish desires, the easier it is to fall to darkness. Therefore, a true 'Saintess' must first master her own heart.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 674,
+      "id": "rem_00674",
+      "jp": "邪聖女マリーゼル",
+      "en": "Dark Saintess Marisel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 675,
+      "id": "rem_00675",
+      "jp": "マミーの中でもさらに強力な死人。生前は歴戦の勇士であり、古代の王に死してなお仕えるために、自ら守護者の術を受けて死人となった。",
+      "en": "A particularly powerful mummy. In life, a veteran warrior who willingly underwent a guardian ritual to serve an ancient king even in death.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 676,
+      "id": "rem_00676",
+      "jp": "守護者",
+      "en": "The Guardian",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 677,
+      "id": "rem_00677",
+      "jp": "『運命改変』により、『勇者』になるべき少年の因果を受けた女勇者。もともとは突っ走りがちな少女剣士で非常に乱暴者として、保護者のオーディを困らせていたらしい。",
+      "en": "A female hero who received the destiny of the boy meant to become the 'Hero' through 'Altered Fate.' Originally a reckless, rough-and-tumble swordswoman who often caused trouble for her guardian, Odei.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 678,
+      "id": "rem_00678",
+      "jp": "女勇者ユーステル",
+      "en": "Female Hero Eustel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 679,
+      "id": "rem_00679",
+      "jp": "フリュジットの氷獄迷宮に封じられていた古代のケモミミ。フリュジットとは彼女を封じた偉大なる竜姫の名前から取られているとされるが、封印という名目で昼寝場所を提供するのがやっとだったらしい。",
+      "en": "An ancient kemonomimi sealed within Frizhut's Frozen Prison Labyrinth. 'Frizhut' is said to be named after the great dragon princess who sealed her, though it seems the 'sealing' was merely a pretext to provide a napping spot.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 680,
+      "id": "rem_00680",
+      "jp": "ミズイロケモミミ？",
+      "en": "Mizuiro Kemonomimi?",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 681,
+      "id": "rem_00681",
+      "jp": "海底神殿で生活するネルディーネの気合いを入れていないときの姿。気合いを入れているときはもっと別のすがたをするらしい。この姿でも生半可な冒険者はまったく歯が立たない。",
+      "en": "Neldine's relaxed form when not fired up. When she's fired up, she supposedly looks quite different. Even in this form, average adventurers are no match for her.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 682,
+      "id": "rem_00682",
+      "jp": "突然出てきたドラゴン？",
+      "en": "A dragon that suddenly appeared?",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 683,
+      "id": "rem_00683",
+      "jp": "北方都市ノーザリアを裏からひっかきまわす、厄介なケモミミ将軍。実はノーザリアはケモミミの国が支配しており、彼女の姉妹が王族を牛耳っている。ノースリンデはその中では真面目で働き者な方。",
+      "en": "An annoying beast-ear general who stirs up trouble behind the scenes of the northern city of Northalia. Northalia is actually ruled by a beast-ear nation, with her sisters controlling the royalty. Northlinde is the diligent and serious one among them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 684,
+      "id": "rem_00684",
+      "jp": "氷国の姫将軍ノースリンデ①",
+      "en": "Northlinde: Ice Country Princess General I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 685,
+      "id": "rem_00685",
+      "jp": "氷国の姫将軍ノースリンデ",
+      "en": "Northlinde: Ice Country Princess General",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 686,
+      "id": "rem_00686",
+      "jp": "氷国の姫将軍ノースリンデ②",
+      "en": "Northlinde: Ice Country Princess General II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 687,
+      "id": "rem_00687",
+      "jp": "勇者になることは彼の夢であり、引き継がれた使命だった。『運命改変』を受けた際に、最も親しい者を忘れてしまっていたが、魂が縁を手繰り寄せた。兄の店を盛り立てることが彼の夢であった。",
+      "en": "Becoming the Hero was his dream and his inherited mission. When he underwent Fate Alteration, he forgot his closest person, but his soul drew their bond back. His dream was to make his brother's shop prosper.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 688,
+      "id": "rem_00688",
+      "jp": "評判の勇者ラシェウス①",
+      "en": "Rasieus, the Renowned Hero I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 689,
+      "id": "rem_00689",
+      "jp": "評判の勇者ラシェウス",
+      "en": "Rasieus, the Renowned Hero",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 690,
+      "id": "rem_00690",
+      "jp": "評判の勇者ラシェウス②",
+      "en": "Rasieus, the Renowned Hero II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 691,
+      "id": "rem_00691",
+      "jp": "評判の勇者ラシェウス③",
+      "en": "Rasieus, the Renowned Hero III",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 692,
+      "id": "rem_00692",
+      "jp": "無意識に使っていた力を制御できなくなったキャトリナ。淫魔のような姿を見せているが、淫魔と相反する血が強いため、ほとんど魔力はない。大淫魔の力にすら抗う強力な抗魔力が、彼女の祖先の力である。",
+      "en": "Catrina, unable to control a power she used unconsciously. She shows a succubus-like form, but her opposing bloodline is strong, leaving her with almost no magic. Her powerful anti-magic, which can even resist a great succubus, is her ancestors' power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 693,
+      "id": "rem_00693",
+      "jp": "暴走したキャトリナ",
+      "en": "Catrina Out of Control",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 694,
+      "id": "rem_00694",
+      "jp": "魔海要塞キングホエール①",
+      "en": "Demon Sea Fortress King Whale I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 695,
+      "id": "rem_00695",
+      "jp": "魔海要塞キングホエール②",
+      "en": "Demon Sea Fortress King Whale II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 696,
+      "id": "rem_00696",
+      "jp": "アーマニア海を漂う魔島の正体。背中の宝石は愚かな人間を釣るための疑似餌であるが、海の上を移動する人間は稀少なために、封印はなかなか解けないという。海には様々な古代の危険が眠っている。",
+      "en": "The true form of the demon island drifting the Armagnia Sea. The jewel on its back is fake bait to lure foolish humans, but since humans traveling the seas are rare, its seal is hard to break. Various ancient dangers sleep in the sea.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 697,
+      "id": "rem_00697",
+      "jp": "魔海要塞キングホエール③",
+      "en": "Demon Sea Fortress King Whale III",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 698,
+      "id": "rem_00698",
+      "jp": "魔海要塞キングホエール",
+      "en": "Demon Sea Fortress King Whale",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 699,
+      "id": "rem_00699",
+      "jp": "ノーザリアの主力兵士。強力な武具に身を包んでいる。ノーザリアは傭兵の輸出を産業としており、他地方よりも平均的な兵士の練度が高いと言われている。",
+      "en": "A main force soldier of Northalia, clad in powerful arms and armor. Northalia exports mercenaries as an industry, and its average soldier quality is said to be higher than other regions.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 700,
+      "id": "rem_00700",
+      "jp": "ノーザリア兵士",
+      "en": "Northalia Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 401,
+  "range_end": 500,
+  "pairs": [
+    {
+      "n": 401,
+      "id": "db_EventInfo:658:19",
+      "jp": "いやあ店長さん、アンタのおかけで命拾いしたぜ",
+      "en": "Well, shopkeeper, thanks to you, I got my life back.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 402,
+      "id": "db_EventInfo:659:19",
+      "jp": "アンタに助けてもらった命、まだまだ【『勇者』】として使い道があるらしいな！",
+      "en": "The life you saved for me, it seems there's still plenty of use for it as a 【『Hero』】!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 403,
+      "id": "db_EventInfo:660:19",
+      "jp": "ゼルカも倒されて、この地は平和になっちまったなぁ！",
+      "en": "Zelka has been defeated too, and this land has become peaceful!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 404,
+      "id": "db_EventInfo:661:19",
+      "jp": "これでもう、【『勇者』】の仕事は終わりなのか？",
+      "en": "Is this the end of a 【『Hero』】's work?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 405,
+      "id": "db_EventInfo:662:19",
+      "jp": "ま、それもいいよな！　平和が一番だ！",
+      "en": "Well, that's fine too! Peace is the best!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 406,
+      "id": "db_EventInfo:663:19",
+      "jp": "ついに【<pl>】さんと一緒に戦える日が来ちまったな！",
+      "en": "Finally, the day has come when I can fight alongside 【<pl>】!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 407,
+      "id": "db_EventInfo:664:19",
+      "jp": "評判の【『勇者』】の力は、アンタのためにある。ぜひ頼ってくれよな！",
+      "en": "The power of the famed 【『Hero』】 is for you. Please rely on it!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 408,
+      "id": "db_EventInfo:666:1",
+      "jp": "(ラシェウスは何か考え事をしているようだ)",
+      "en": "(Rasieus seems to be thinking about something.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 409,
+      "id": "db_EventInfo:667:19",
+      "jp": "お、アニキじゃねえか。宿も立派になったもんだよな",
+      "en": "Oh, if it isn't big bro. The inn's really come up in the world, huh?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 410,
+      "id": "db_EventInfo:668:19",
+      "jp": "ところで俺は【『勇者』】じゃねえのに、【『勇者』】みたいに見られるみたいなんだ。変だよなぁ",
+      "en": "So, thing is, people seem to see me like I'm the 'Hero' even though I'm not. Weird, right?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 411,
+      "id": "db_EventInfo:669:115",
+      "jp": "私は【『勇者』】ラシェウスの従者レミル……よろしく",
+      "en": "I am Remil, attendant to the 'Hero' Rasieus... pleased to meet you.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 412,
+      "id": "db_EventInfo:670:115",
+      "jp": "この付近は【『ダンジョン』】が多い……クエストには困らないね",
+      "en": "There are a lot of 'Dungeons' around here... you won't be short on quests.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 413,
+      "id": "db_EventInfo:671:115",
+      "jp": "けほけほ……これ、ただの風邪じゃない……",
+      "en": "*cough, cough*... This isn't just a common cold...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 414,
+      "id": "db_EventInfo:672:115",
+      "jp": "強い魔の力を感じる……けほ",
+      "en": "I sense a powerful demonic force... *cough*",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 415,
+      "id": "db_EventInfo:673:115",
+      "jp": "この近くに、私と同じ【『賢者』】がいる……",
+      "en": "There is another 'Sage' here nearby, like me...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 416,
+      "id": "db_EventInfo:674:115",
+      "jp": "【『賢者』】は叡智を求める者……【『ロオン教授』】の遺志を継ぐ者……",
+      "en": "A 'Sage' is one who seeks wisdom... one who inherits the will of 'Professor Loon'...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 417,
+      "id": "db_EventInfo:675:115",
+      "jp": "私は袂を分かった。私が求める叡智はラシェウスの中にあるから……",
+      "en": "I parted ways. Because the wisdom I seek lies within Rasieus...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 418,
+      "id": "db_EventInfo:676:115",
+      "jp": "この地に潜む悪はとても強い……きっと、ラシェウスでも勝てない……",
+      "en": "The evil lurking in this land is very strong... Surely, even Rasieus could not win...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 419,
+      "id": "db_EventInfo:677:115",
+      "jp": "必要なのは【『勇者』】の力を引き出す【『聖剣』】……",
+      "en": "What's needed is the 'Sacred Sword' that draws out the power of the 'Hero'...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 420,
+      "id": "db_EventInfo:678:115",
+      "jp": "【『霊峰ヤークァリム』】の頂きに、それはあるはず",
+      "en": "It should be at the summit of the 'Spirit Peak Yakuarim'.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 421,
+      "id": "db_EventInfo:679:115",
+      "jp": "……ラシェウスが、なんでこの宿に滞在するかわかったよ",
+      "en": "...I've figured out why Rasieus is staying at this inn.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 422,
+      "id": "db_EventInfo:680:115",
+      "jp": "アナタは……",
+      "en": "You...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 423,
+      "id": "db_EventInfo:682:115",
+      "jp": "でも……私達はそれを知らない。知るべきではないから",
+      "en": "But... we don't know about that. Because we shouldn't know.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 424,
+      "id": "db_EventInfo:683:115",
+      "jp": "【『ボルケミア火山』】の奥……そこに【『勇者』】が倒すべき悪がいる",
+      "en": "Deep within the 【Volcamia Volcano】... that's where the evil the 【Hero】 must defeat lies.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 425,
+      "id": "db_EventInfo:684:115",
+      "jp": "私……私達はラシェウスを死なせない",
+      "en": "I... we won't let Rasieus die.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 426,
+      "id": "db_EventInfo:685:115",
+      "jp": "絶対に、あの技は使わせないから……",
+      "en": "I absolutely won't let him use that technique...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 427,
+      "id": "db_EventInfo:686:115",
+      "jp": "私は【『賢者』】として【『勇者』】を導いたまで……",
+      "en": "I've merely guided the 【Hero】 as a 【Sage】...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 428,
+      "id": "db_EventInfo:687:115",
+      "jp": "アナタの所にも【『賢者』】はいるでしょ。役には立った……？",
+      "en": "You have a 【Sage】 in your party too, right? Were they of any help...?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 429,
+      "id": "db_EventInfo:688:115",
+      "jp": "この宿に来た時は、まさか店員にされてしまうとは思わなかった",
+      "en": "When I came to this inn, I never thought I'd end up being made a staff member.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 430,
+      "id": "db_EventInfo:689:115",
+      "jp": "でもやるからには賢者として、姉様の代理として役目を果たしてみせる",
+      "en": "But since I'm doing this, I'll fulfill my duty as a Sage and as my sister's proxy.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 431,
+      "id": "db_EventInfo:690:115",
+      "jp": "なんだか嫌な予感がする……先に進んでもいいの？",
+      "en": "I have a bad feeling about this... Is it okay to proceed?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 432,
+      "id": "db_EventInfo:691:115",
+      "jp": "ラシェ……【<pl>】。もう無茶はしないで",
+      "en": "Rasie...【<pl>】. Don't push yourself anymore.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 433,
+      "id": "db_EventInfo:692:115",
+      "jp": "あそこにいる、あなたの弟。とても不快",
+      "en": "That person over there, your brother... is extremely unpleasant.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 434,
+      "id": "db_EventInfo:693:115",
+      "jp": "見ているだけで、なんだかモヤモヤして、吹き飛ばしたくなる",
+      "en": "Just looking at him makes me feel inexplicably irritated, like I want to blow him away.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 435,
+      "id": "db_EventInfo:694:105",
+      "jp": "魔物狩りを生業としているツバキと申す。風体が違うのか、異国の出身とよく言われる",
+      "en": "I am Tsubaki, by trade a monster hunter. Perhaps my appearance differs, but I am often told I look like I'm from a foreign land.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 436,
+      "id": "db_EventInfo:695:105",
+      "jp": "私の主はお人好しでな、人助けとみるとすぐに行ってしまうのが困りどころだ",
+      "en": "My master is a bit too soft-hearted, you see. The moment he sees someone in need, he rushes off to help them—it's quite the troublesome habit.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 437,
+      "id": "db_EventInfo:696:105",
+      "jp": "ここの女主人……シイネ殿といったか",
+      "en": "The mistress of this place... Shiine-dono, was it?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 438,
+      "id": "db_EventInfo:697:105",
+      "jp": "彼女の服装は私同様、この国の装いではないとお見受けする……一体どこの出身なのだろうか",
+      "en": "Her attire, like mine, does not seem to be the customary dress of this country... I wonder where she hails from.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 439,
+      "id": "db_EventInfo:698:105",
+      "jp": "隙だらけの佇まいのようでいて、まったく隙が無い",
+      "en": "Her posture seems full of openings, yet she has none at all.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 440,
+      "id": "db_EventInfo:699:105",
+      "jp": "しかも時折、なにか大きな獲物を持っている幻覚が……闘気が武器のように見えているのだろうか",
+      "en": "Moreover, at times, I have these hallucinations of her carrying some enormous prey... Perhaps her fighting spirit is manifesting visibly, like a weapon.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 441,
+      "id": "db_EventInfo:700:105",
+      "jp": "どちらにしろ、ただものではないな",
+      "en": "In any case, she is no ordinary person.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 442,
+      "id": "db_EventInfo:701:105",
+      "jp": "……けほけほ",
+      "en": "...*cough cough*",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 443,
+      "id": "db_EventInfo:702:105",
+      "jp": "【『勇者』】の従者に恥ずべき……けほけほ",
+      "en": "Unbecoming of a follower of the Hero... *cough cough*",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 444,
+      "id": "db_EventInfo:703:105",
+      "jp": "レミルのやつが、遙か北西の地、【『霊峰ヤークァリム』】を目指すよう主張している",
+      "en": "That Remil fellow is insisting we head for a place far to the northwest—the 'Sacred Peak Yaakurimu'.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 445,
+      "id": "db_EventInfo:704:105",
+      "jp": "【『勇者』】の試練があるそうだが……",
+      "en": "I hear there's a trial for the 'Hero'...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 446,
+      "id": "db_EventInfo:705:105",
+      "jp": "ここのところ、ラシェウス殿の倒すべき【悪】も見当たらないようだし、行ってみるか？",
+      "en": "Lately, it seems there's no 'evil' in sight for Lord Rasieus to defeat either. Shall we go take a look?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 447,
+      "id": "db_EventInfo:706:105",
+      "jp": "……貴公らの正体、だんだんと謎になってきたぞ",
+      "en": "...Your true natures are becoming more and more of a mystery to me.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 448,
+      "id": "db_EventInfo:707:105",
+      "jp": "ラシェウス殿は良いと言っていたが……もし不穏な態度を取るならば、容赦なく斬るからな",
+      "en": "Lord Rasieus has given his approval... but if you show any treacherous behavior, I will cut you down without mercy.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 449,
+      "id": "db_EventInfo:708:105",
+      "jp": "黒将軍ローグバルト……惜しい御仁をなくしたものだ。できればもっと、ゆっくりと、剣を交えたかったものだが",
+      "en": "The Black General, Rogubaruto... A shame to have lost such a formidable man. I would have liked to cross swords with him more leisurely.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 450,
+      "id": "db_EventInfo:709:105",
+      "jp": "ラシェウス殿も気落ちをしてなさる……",
+      "en": "Lord Rasieus seems rather despondent too...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 451,
+      "id": "db_EventInfo:710:105",
+      "jp": "【『邪教徒』】、やはり奴らこそが、諸悪の根元か……！",
+      "en": "The 'Heretics'... So they truly are the root of all evil...!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 452,
+      "id": "db_EventInfo:711:105",
+      "jp": "【『勇者』】殿の活躍により、【『ゼカリウス』】に平和が戻ったようだ",
+      "en": "Thanks to the exploits of the 'Hero', peace seems to have returned to 'Zecarius'.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 453,
+      "id": "db_EventInfo:712:105",
+      "jp": "街の人間の羨望や賞賛はラシェウス殿に向いている。たいへん喜ばしいことだ",
+      "en": "The envy and admiration of the townsfolk are directed at Lord Rasieus. A most joyous thing.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 454,
+      "id": "db_EventInfo:713:105",
+      "jp": "……しかし、何者かの掌の上で動いている、そんな感覚があるのだが……",
+      "en": "...However, I have this feeling... as if we are moving according to someone else's design.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 455,
+      "id": "db_EventInfo:714:105",
+      "jp": "店員かぁ……うーん、剣の道に生まれて、志したことはないなぁ",
+      "en": "A shopkeeper, huh... Hmm, having been born into the way of the sword, I never really aspired to that.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 456,
+      "id": "db_EventInfo:715:105",
+      "jp": "しかし剣の道を究めるのに、剣だけを振ってはいけないと、誰かに聞いたことがある",
+      "en": "However, I once heard from someone that to master the way of the sword, you cannot simply swing a blade.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 457,
+      "id": "db_EventInfo:716:105",
+      "jp": "ならば誠心誠意を持って、接客業とやらに打ち込んでみせるぞ！",
+      "en": "Well then, I'll put my whole heart into this 'customer service' job!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 458,
+      "id": "db_EventInfo:717:105",
+      "jp": "……ん？　鍛冶？　そういうのもあるのか",
+      "en": "...Huh? Blacksmithing? That's a thing too?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 459,
+      "id": "db_EventInfo:718:105",
+      "jp": "私達はゼカリウスの外からやってきたんだ",
+      "en": "We came here from outside Zecarius.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 460,
+      "id": "db_EventInfo:719:105",
+      "jp": "故郷の里は遙か東にある。その道程でアーマニア海も渡ったんだが、船乗りは皆避けるんだ",
+      "en": "Our home village is far to the east. We crossed the Armania Sea on our way, but all the sailors avoid it.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 461,
+      "id": "db_EventInfo:720:105",
+      "jp": "なにやらおそろしい物が眠っているのか……それとも、この海自体を恐れているのか",
+      "en": "Something scary sleeps there... Or maybe they're afraid of the sea itself.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 462,
+      "id": "db_EventInfo:721:105",
+      "jp": "【『魔海要塞』】……おそろしい相手だった",
+      "en": "【『Demon Sea Fortress』】... It was a terrifying foe.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 463,
+      "id": "db_EventInfo:722:105",
+      "jp": "しかし剣一本でそれを押し返した、【<pl>】殿の力量には恐れ入る。あれが【『勇者』】の秘剣というものなのか",
+      "en": "But you pushed it back with just one sword, 【<pl>】. Your power is amazing. Is that the secret sword of the 'Hero'?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 464,
+      "id": "db_EventInfo:723:105",
+      "jp": "かつて【『勇者』】の里におられた伝説の剣聖は、その剣でかの大邪竜を討伐したというが……",
+      "en": "They say the legendary Sword Saint from the Hero's village once used that sword to slay the great evil dragon...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 465,
+      "id": "db_EventInfo:724:105",
+      "jp": "おそらくは【『勇者』】の血筋に代々受け継がれる技なのだろうな",
+      "en": "It's probably a skill passed down through the generations of the 'Hero's' bloodline.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 466,
+      "id": "db_EventInfo:725:105",
+      "jp": "どうやら【『勇者』】としての務めを果たしたようだな、【<pl>】殿！",
+      "en": "It seems you've fulfilled your duty as the 'Hero', 【<pl>】!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 467,
+      "id": "db_EventInfo:726:105",
+      "jp": "しかし使命を果たしたとして、安心はしてはならぬぞ。【『勇者』】の血は絶やしてはいけないのだ",
+      "en": "But even with your mission done, you can't relax. The 'Hero's' bloodline must not die out.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 468,
+      "id": "db_EventInfo:727:105",
+      "jp": "もちろん、剣聖の血もだなД　里の者も待ち侘びているはずだぞ",
+      "en": "And of course, neither should the Sword Saint's bloodД Our village folks are surely waiting.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 469,
+      "id": "db_EventInfo:728:19",
+      "jp": "【『ドルワミール鉱山』】の事件も解決したし、次の【『ダンジョン』】も探さないとな！",
+      "en": "We solved the case at the 'Dolwamir Mine'. Now we have to find the next 'Dungeon'!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 470,
+      "id": "db_EventInfo:729:115",
+      "jp": "北東の砂漠には【『黄金の都』】があった……【『勇者』】ならそこに行くべき",
+      "en": "There's a 'City of Gold' in the northeast desert... A 'Hero' should go there.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 471,
+      "id": "db_EventInfo:730:105",
+      "jp": "いや、ラシェウス殿は修行が足りん",
+      "en": "No, Lord Rasieus needs more training.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 472,
+      "id": "db_EventInfo:731:105",
+      "jp": "【『フレスミス森林道』】の奥の秘境には剣の達人がいるというウワサだ。その人物に会いに行こう！",
+      "en": "I hear there's a master swordsman deep in the 'Fresmis Forest Path'. Let's go see them!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 473,
+      "id": "db_EventInfo:732:115",
+      "jp": "修行ばかりでは面白くない……脳筋は黙っとけ",
+      "en": "Just training is boring... Shut up, muscle-head.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 474,
+      "id": "db_EventInfo:733:105",
+      "jp": "なんだと！？　お前こそ、趣味の遺跡探索にラシェウス殿を付き合わせるな！",
+      "en": "What did you say!? Don't you drag Lord Rasieus along on your hobby of exploring ruins!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 475,
+      "id": "db_EventInfo:734:115",
+      "jp": "ラシェウスは冒険をしたがっている……【『賢者』】は【『勇者』】を導くのが仕事。修行したいならひとりでやれ",
+      "en": "Rasieus wants to go on adventures... It's a 'Sage's' job to guide the 'Hero'. If you want to train, go do it alone.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 476,
+      "id": "db_EventInfo:735:105",
+      "jp": "なんだと！？",
+      "en": "What did you say!?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 477,
+      "id": "db_EventInfo:736:19",
+      "jp": "はっはっ、ケンカするなよー",
+      "en": "Haha, don't fight~",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 478,
+      "id": "db_EventInfo:737:105",
+      "jp": "このパーティーのことを考えてみたのだが……まず、私は剣士で前衛、アタッカーであるよな",
+      "en": "I've been thinking about our party... First, I'm a swordsman. Front line, attacker, right?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 479,
+      "id": "db_EventInfo:738:115",
+      "jp": "うん。私は後衛……バッファーでありヒーラー、支援アタッカーでもある",
+      "en": "Yeah. I'm back line... Buffer and healer, and also a support attacker.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 480,
+      "id": "db_EventInfo:739:105",
+      "jp": "そしてラシェウス殿も剣士、アタッカーだ。冒険をするには、やはり【『探索』】担当が必要ではないだろうか？",
+      "en": "And Lord Rasieus is also a swordsman, an attacker. To adventure, don't we need someone for 'Scouting'?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 481,
+      "id": "db_EventInfo:740:115",
+      "jp": "脳筋にしてはいい観点",
+      "en": "For a muscle-brain, that's a pretty good point.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 482,
+      "id": "db_EventInfo:741:105",
+      "jp": "なんだと！？",
+      "en": "What did you say!?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 483,
+      "id": "db_EventInfo:742:115",
+      "jp": "でも他のメンバーは入れたくない……ラシェウスには私が居れば十分。ついでにオマエもいなくてもいい",
+      "en": "But I don't want the other members... Rasieus only needs me. And we don't need you either.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 484,
+      "id": "db_EventInfo:743:105",
+      "jp": "それはこっちのセリフだ！",
+      "en": "That's my line!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 485,
+      "id": "db_EventInfo:744:19",
+      "jp": "まあまあ、ケンカするなよー",
+      "en": "Hey now, don't fight.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 486,
+      "id": "db_EventInfo:745:19",
+      "jp": "それに【『探索』】なら俺に任せてくれ、鍵開けからマッピング、気配探知もやるぜ！",
+      "en": "Besides, for the 'exploring', you can leave it to me! I'll handle lockpicking, mapping, and spotting danger!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 487,
+      "id": "db_EventInfo:746:105",
+      "jp": "【『勇者』】がそんな盗賊みたいなことを、しないでくだされ……",
+      "en": "The 'Hero' shouldn't be doing such thief-like things, I beg you...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 488,
+      "id": "db_EventInfo:747:19",
+      "jp": "なに！？　先祖代々続く、由緒正しい役割のはずなんだが！？",
+      "en": "What!? It's a respectable role, passed down through generations!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 489,
+      "id": "db_EventInfo:748:19",
+      "jp": "【『イルニエル大灯台』】に【『ゴーレム』】ってのがいたよな",
+      "en": "There was a 'Golem' at the 'Iruniel Lighthouse', right?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 490,
+      "id": "db_EventInfo:749:115",
+      "jp": "いた",
+      "en": "There was.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 491,
+      "id": "db_EventInfo:750:105",
+      "jp": "ああ、あの頑丈なヤツ",
+      "en": "Yeah, that tough guy.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 492,
+      "id": "db_EventInfo:751:19",
+      "jp": "四人目のメンバーだが、彼をスカウトするというのはどうだろう",
+      "en": "For our fourth member, how about we try to recruit him?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 493,
+      "id": "db_EventInfo:752:19",
+      "jp": "あれだけ頑丈なら、前衛としても優秀だし、いざとなったら背負ってもらえば乗り物代わりになるぞ！",
+      "en": "If it's that strong, it'd be great on the front line. And if we really need it, we could just carry it and use it as a ride!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 494,
+      "id": "db_EventInfo:753:115",
+      "jp": "名案",
+      "en": "Great idea.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 495,
+      "id": "db_EventInfo:754:105",
+      "jp": "名案じゃなーい！　ラシェウス殿もです、【『ゴーレム』】なんてどうやってスカウトするつもりですか！",
+      "en": "That's not a great idea! You too, Lord Rasieus. How exactly do you plan to recruit a Golem?!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 496,
+      "id": "db_EventInfo:755:19",
+      "jp": "いやだって……【『ゴブリン』】にだって操れるんだろ？　なら、【『勇者』】の俺だっていけるはずだ",
+      "en": "Well... I mean, Goblins can control them, right? If they can, then I, the Hero, should be able to do it too.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 497,
+      "id": "db_EventInfo:756:19",
+      "jp": "そう、俺は【『勇者』】……不可能を可能にしてみせる！",
+      "en": "That's right, I am the Hero... I make the impossible possible!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 498,
+      "id": "db_EventInfo:757:105",
+      "jp": "変なところで【『勇者』】の資質を発揮しようとしないでくだされ！！",
+      "en": "Please don't try to show off your 'Hero' talent in such weird ways!!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 499,
+      "id": "db_EventInfo:758:19",
+      "jp": "【『ゴーレム』】君のことは残念だった……",
+      "en": "It's a shame about you, Golem...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 500,
+      "id": "db_EventInfo:759:105",
+      "jp": "まさか、本当にスカウトに行くとは……",
+      "en": "I can't believe he actually went to try and recruit it...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 78301,
+  "range_end": 78400,
+  "pairs": [
+    {
+      "n": 78301,
+      "id": "db_EventInfo:92660:111",
+      "jp": "大変だったんですよ。特別ボーナスが欲しいくらいだったわね",
+      "en": "It was tough, you know. I almost want a special bonus or something.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78302,
+      "id": "db_EventInfo:92661:2",
+      "jp": "うむ、よくやってくれたデス、コソ泥コンビ！",
+      "en": "Indeed, well done, you pickpocket duo!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78303,
+      "id": "db_EventInfo:92662:7",
+      "jp": "コソ泥って、ひどいなー",
+      "en": "Thieves... they're the worst.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78304,
+      "id": "db_EventInfo:92663:111",
+      "jp": "そうですそうです！",
+      "en": "Yeah, totally!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78305,
+      "id": "db_EventInfo:92664:2",
+      "jp": "黙るデス。それで居場所はわかったデス？",
+      "en": "Quiet. So, did you find their location?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78306,
+      "id": "db_EventInfo:92665:7",
+      "jp": "もちろん！　ボクの懸命な調査に感謝して欲しいね。本当、苦労したんだから！",
+      "en": "Of course! You should thank me for my hard work. I really went through a lot!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78307,
+      "id": "db_EventInfo:92666:111",
+      "jp": "なにいってるのよ。面倒な調査や危険な調査は、全部私に押しつけたくせに！",
+      "en": "What are you talking about? You dumped all the tricky and dangerous work on me!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78308,
+      "id": "db_EventInfo:92667:7",
+      "jp": "あはは！　そんなことあったっけ～？",
+      "en": "Haha! Did I really do that?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78309,
+      "id": "db_EventInfo:92668:2",
+      "jp": "早く結果を報告するデス",
+      "en": "Just give us your report.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78310,
+      "id": "db_EventInfo:92669:7",
+      "jp": "ごめんごめん。どうやら連中、ゼカリウスの港にある客船で違法パーティをやってるみたいなんだ",
+      "en": "Sorry, sorry. It seems they're throwing an illegal party on a passenger ship at Zecarius's port.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78311,
+      "id": "db_EventInfo:92670:1",
+      "jp": "客船……？",
+      "en": "A passenger ship...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78312,
+      "id": "db_EventInfo:92672:7",
+      "jp": "うん。あやしい奴らを集めて商談をしたりしてるみたいだね",
+      "en": "Yeah. Looks like they're gathering shady people for business deals.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78313,
+      "id": "db_EventInfo:92673:111",
+      "jp": "しばらく前に入港して、物々しい警備をしてる船ですよ",
+      "en": "It's a ship that docked a while ago with very heavy security.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78314,
+      "id": "db_EventInfo:92674:111",
+      "jp": "忍び混むの、すっごい大変だったんですからね！",
+      "en": "Sneaking in was super hard!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78315,
+      "id": "db_EventInfo:92675:7",
+      "jp": "そうだそうだ！",
+      "en": "Right, right!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78316,
+      "id": "db_EventInfo:92676:1",
+      "jp": "う、うん、お疲れ様……それで、ハーヴェスタは？",
+      "en": "Uh-huh, good work... So, what about Harvester?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78317,
+      "id": "db_EventInfo:92677:7",
+      "jp": "もちろん、ハーヴェスタもバッチリ捕まってたよ",
+      "en": "Of course, Harvester was caught too, perfectly.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78318,
+      "id": "db_EventInfo:92678:2",
+      "jp": "やっぱりデスか。さっさと助けに行くデス！",
+      "en": "It was Death, as expected. We gotta go save them right away, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78319,
+      "id": "db_EventInfo:92680:2",
+      "jp": "いや待つデス。というか、それを知ってて見殺しにしてきたデス？",
+      "en": "Wait a sec, Death. Actually, did you know and leave them to die, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78320,
+      "id": "db_EventInfo:92681:2",
+      "jp": "オマエ、こないだまで怪盗とか名乗って忍び込んでたデスよね。娘一人運ぶのなんて簡単じゃないデス？",
+      "en": "You, you were calling yourself a phantom thief and sneaking in until recently, Death, right? Carrying just one girl shouldn't be that hard, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78321,
+      "id": "db_EventInfo:92682:7",
+      "jp": "ひええ！　そ、その……警備が凄くて、そんな余裕なかったんだよぉ！",
+      "en": "Eeek! W-well... the security was so tight, I had no room to spare!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78322,
+      "id": "db_EventInfo:92683:2",
+      "jp": "ふうん……宝に目が眩んでたとかじゃないデスよね",
+      "en": "Hmm... It wasn't because you got dazzled by the treasure or anything, right Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78323,
+      "id": "db_EventInfo:92684:7",
+      "jp": "ギクゥ！　そっ、そんなことないよよよ！！",
+      "en": "Guh! N-n-no way, no no no!!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78324,
+      "id": "db_EventInfo:92685:111",
+      "jp": "コイツのことはさておき、警備が厳重すぎるのは本当ですよ",
+      "en": "Setting this guy aside, it's true the security is way too strict.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78325,
+      "id": "db_EventInfo:92686:111",
+      "jp": "しかも相手は船の中、下手に騒げば海の上で追いかけられて、逃げるところもなくなっちゃいますし",
+      "en": "Plus, the enemy is on a ship. If we make a racket carelessly, we'll get chased out on the open sea with nowhere to run.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78326,
+      "id": "db_EventInfo:92687:2",
+      "jp": "ふーむ、どうするデスかね",
+      "en": "Hmm, what should we do, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78327,
+      "id": "db_EventInfo:92688:7",
+      "jp": "ふむー。パーティーの参加者になるのかい？",
+      "en": "Hmm. Are you going to join the party?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78328,
+      "id": "db_EventInfo:92689:2",
+      "jp": "良い案かもしれないデス。今やウチはなかなかリッチな領主的存在デス",
+      "en": "That might be a good idea. We're pretty rich and important now.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78329,
+      "id": "db_EventInfo:92690:2",
+      "jp": "領主と言えば先立つものがなんとやらなジョブ。そういうパーティーには呼ばれそうデス",
+      "en": "When you're important, you need money first. We might get invited to that kind of party.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78330,
+      "id": "db_EventInfo:92691:111",
+      "jp": "そのためには、おカネが必要ですよね",
+      "en": "We need money for that, right?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 78331,
+      "id": "db_EventInfo:92692:7",
+      "jp": "オッケー、【『盗賊ギルド』】のコネを使って、上手く【<pl>】を誘うように仕向けてみるよ",
+      "en": "Okay, I'll use my 【Thieves' Guild】 connections to set things up and lure 【<pl>】 in nicely.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78332,
+      "id": "db_EventInfo:92693:7",
+      "jp": "【『投資』】の方よろしくねД",
+      "en": "Please handle the 【'Investment'】 sideД",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78333,
+      "id": "db_EventInfo:92695:2",
+      "jp": "おいオマエ、あやしいパーティーからの招待状が届いたデス",
+      "en": "Hey you, you got an invitation from a shady party.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78334,
+      "id": "db_EventInfo:92696:1",
+      "jp": "来たか……",
+      "en": "It's here...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78335,
+      "id": "db_EventInfo:92697:2",
+      "jp": "【ハーヴェスタを詐欺ではめた奴ら】の違法パーティーデスよね？　まさか本当に誘われるとは",
+      "en": "It's from the ones who scammed Harvester, right? That illegal party. I can't believe they really invited you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78336,
+      "id": "db_EventInfo:92698:7",
+      "jp": "【<pl>】ってば、傍から見ればメチャクチャにおカネ持ってるから、相手からみたら良いカモだよね",
+      "en": "To others, 【<pl>】 looks like they have crazy amounts of money, so you seem like easy prey to them.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78337,
+      "id": "db_EventInfo:92699:7",
+      "jp": "しかも女の子を食い荒らしている、すごくタチの悪い領主だし",
+      "en": "Plus, you're a really nasty lord who's been preying on girls.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78338,
+      "id": "db_EventInfo:92700:1",
+      "jp": "し、失礼な！",
+      "en": "Th-that's rude!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78339,
+      "id": "db_EventInfo:92701:2",
+      "jp": "客観的に見れば、女を侍らせまくるクソ領主デス",
+      "en": "If you look at it objectively, you're a shitty lord who has women waiting on you hand and foot, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78340,
+      "id": "db_EventInfo:92702:2",
+      "jp": "まあとにかく、相手がウェルカムなら都合が良いデス。とっとと潜り込んでハーヴェスタを助けるデス！",
+      "en": "Anyway, it's convenient if they're welcoming us, desu. Let's sneak in quickly and save Harvester, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78341,
+      "id": "db_EventInfo:92703:0",
+      "jp": "違法パーティーとやらの船内に入ることが出来た。",
+      "en": "We were able to get inside the so-called illegal party's ship.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78342,
+      "id": "db_EventInfo:92704:131",
+      "jp": "貴方が新しい領主様ですね、噂はかねがね……",
+      "en": "You're the new lord, I hear... I've been hearing rumors...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78343,
+      "id": "db_EventInfo:92705:131",
+      "jp": "ここには様々な場所から取り寄せた、素晴らしい品があります",
+      "en": "Here we have wonderful items gathered from all sorts of places.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78344,
+      "id": "db_EventInfo:92706:131",
+      "jp": "領主様の目にかなう【商品】もきっとあるかと……へっへっへ",
+      "en": "I'm sure there are... 'products'... that will catch your lordship's eye... heh heh heh.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78345,
+      "id": "db_EventInfo:92707:0",
+      "jp": "★クリア",
+      "en": "★CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78346,
+      "id": "db_EventInfo:92708:0",
+      "jp": "男は揉み手で俺達を迎え入れた。",
+      "en": "The man welcomed us in, rubbing his hands together.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78347,
+      "id": "db_EventInfo:92709:0",
+      "jp": "周りを見れば、武装した用心棒のような者が多数見受けられる。",
+      "en": "Looking around, I could see many armed men who looked like guards.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78348,
+      "id": "db_EventInfo:92710:2",
+      "jp": "さっさとハーヴェスタを探すデス",
+      "en": "Let's find Harvester quickly, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78349,
+      "id": "db_EventInfo:92711:1",
+      "jp": "そうだな。急いで調査しよう",
+      "en": "Right. Let's hurry and investigate.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78350,
+      "id": "db_EventInfo:92712:7",
+      "jp": "うん！",
+      "en": "Yeah!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78351,
+      "id": "db_EventInfo:92713:0",
+      "jp": "船内には少なくない人間の気配と、独特な香のニオイがたちこめていた。",
+      "en": "The ship was filled with the presence of many people and the smell of a strange incense.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78352,
+      "id": "db_EventInfo:92714:2",
+      "jp": "気になったんデスが。違法パーティって、具体的には何をするつもりなんデス？",
+      "en": "I'm curious. This illegal party... what exactly do they plan to do?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78353,
+      "id": "db_EventInfo:92715:7",
+      "jp": "そりゃもう、色んな薬や品物の取引だね。もちろん表で売れないような【『<ruby=ドラッグ>魔薬</ruby>』】とか",
+      "en": "Well, it's trading all kinds of drugs and goods. Like 'magic potions' you can't sell out in the open.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78354,
+      "id": "db_EventInfo:92716:7",
+      "jp": "手に入ったら、すごく高く売れそうだよね",
+      "en": "If you get them, you can probably sell them for a huge price.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78355,
+      "id": "db_EventInfo:92717:2",
+      "jp": "侮るなデス。いくら儲けられるといっても、そういう手段で儲けることはあんまり考えてないデス",
+      "en": "Don't underestimate me. Even if it makes a lot of money, I don't really think about earning it that way.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78356,
+      "id": "db_EventInfo:92718:7",
+      "jp": "あんまりなんだ……",
+      "en": "Not really, huh...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78357,
+      "id": "db_EventInfo:92719:7",
+      "jp": "あとはまあ……人も【商品】として売買されるって話だね",
+      "en": "And also... people are bought and sold as 'merchandise' too, I hear.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78358,
+      "id": "db_EventInfo:92720:7",
+      "jp": "気に入った【商品】を買って、その場で楽しんだりしてるんじゃないの？",
+      "en": "Buy 'merchandise' you like and have fun with it right there, I bet.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78359,
+      "id": "db_EventInfo:92721:0",
+      "jp": "たまに聞こえる、男女の嬌声……。",
+      "en": "The occasional sound of a man and woman moaning...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78360,
+      "id": "db_EventInfo:92722:0",
+      "jp": "この場は、そういう場所でもあるらしい。",
+      "en": "It seems this place is also for that sort of thing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78361,
+      "id": "db_EventInfo:92723:0",
+      "jp": "船内には少なくない人間の気配と、独特な香のニオイがたちこめている。",
+      "en": "The ship is filled with the presence of many people and the smell of a strange incense.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78362,
+      "id": "db_EventInfo:92724:2",
+      "jp": "このニオイを嗅いでいると、なんだか変な気分になってくるデス",
+      "en": "If I keep smelling this scent, I start to feel kind of strange.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78363,
+      "id": "db_EventInfo:92725:7",
+      "jp": "あはは、【『<ruby=ドラッグ>魔薬</ruby>』】っぽいかな。長く吸ってると媚薬みたいな効果があると思うよ",
+      "en": "Ahaha, maybe it's like a drug. If you keep inhaling it for a long time, I think it has an effect like an aphrodisiac.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78364,
+      "id": "db_EventInfo:92726:2",
+      "jp": "なぬデス！",
+      "en": "What?!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78365,
+      "id": "db_EventInfo:92727:7",
+      "jp": "だからもう、さっきから気分が変になっちゃってД",
+      "en": "So that's why, for a while now I've been feeling strange...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78366,
+      "id": "db_EventInfo:92728:7",
+      "jp": "ねえ【<pl>】、先に調査する前に、スッキリしとかない～Д",
+      "en": "Hey 【<pl>】, before we go investigate, shouldn't we... clear things up first~?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78367,
+      "id": "db_EventInfo:92729:2",
+      "jp": "こらあデス！　正気に戻るデス！！",
+      "en": "Hey, stop! Get ahold of yourself!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78368,
+      "id": "db_EventInfo:92732:131",
+      "jp": "へへへ、領主様もなかなか出来上ってきているようですね……",
+      "en": "Hehehe, it seems the Lord is coming along quite nicely too...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78369,
+      "id": "db_EventInfo:92733:131",
+      "jp": "それでは今回の【目玉商品】を買っていただいて、楽しんで頂ければどうですかね？",
+      "en": "So, how about buying this time's 'featured product' and enjoying yourselves?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78370,
+      "id": "db_EventInfo:92734:1",
+      "jp": "目玉商品……？",
+      "en": "Featured product...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78371,
+      "id": "db_EventInfo:92735:131",
+      "jp": "きっと、領主様の目にかなうかと……へっへっへ",
+      "en": "I'm sure it will meet your approval, my Lord... hehehe",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78372,
+      "id": "db_EventInfo:92738:0",
+      "jp": "なんだか嫌な予感がする",
+      "en": "I have a bad feeling about this.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78373,
+      "id": "db_EventInfo:92740:0",
+      "jp": "船内の奥に人が集まっている。ここは競売の会場のようだった。",
+      "en": "A crowd of people had gathered deep inside the ship. This seemed to be the auction venue.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78374,
+      "id": "db_EventInfo:92741:0",
+      "jp": "その中央に、ハーヴェスタはいた。",
+      "en": "In the center of it all was Harvester.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78375,
+      "id": "db_EventInfo:92742:134",
+      "jp": "さあ、本日の目玉商品はこちら！",
+      "en": "Now, for today's main attraction!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78376,
+      "id": "db_EventInfo:92743:5",
+      "jp": "くっ……",
+      "en": "Guh...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78377,
+      "id": "db_EventInfo:92744:134",
+      "jp": "とある貴族令嬢、商いをされている方ならご存じでは？",
+      "en": "A certain noble's daughter. Those in the trade should know her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78378,
+      "id": "db_EventInfo:92745:0",
+      "jp": "ハーヴェスタの姿を見て、周りの人間もどよめいた。界隈では有名らしい。",
+      "en": "Seeing Harvester, the people around also stirred. Seems she's famous in these circles.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78379,
+      "id": "db_EventInfo:92746:134",
+      "jp": "敏腕商人にして器量も極上のこの方。商売でしてやられた方も多くいると存じます",
+      "en": "A sharp merchant with top-class looks. Many here have been bested by her in business, I believe.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78380,
+      "id": "db_EventInfo:92747:134",
+      "jp": "落札した方々には【隷属の首輪】をプレゼント",
+      "en": "For the winning bidders, we present a [Collar of Subjugation].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78381,
+      "id": "db_EventInfo:92748:134",
+      "jp": "主人の言うことならなんでも聞いてしまう首輪を使い、日頃のウラミや過去の鬱憤を自由に発散してくださいませ！",
+      "en": "Use this collar that makes her obey her master's every word! Vent your everyday grudges and past frustrations freely!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78382,
+      "id": "db_EventInfo:92749:0",
+      "jp": "有名な人間の売買。",
+      "en": "Selling a famous person.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78383,
+      "id": "db_EventInfo:92750:0",
+      "jp": "異常な状況を皆が受け入れている。船内にたちこめる【『<ruby=ドラッグ>魔薬</ruby>』】の香のせいだろうか。",
+      "en": "Everyone is accepting this crazy situation. Probably because of the scent of the [Magic Drug] filling the ship.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78384,
+      "id": "db_EventInfo:92753:0",
+      "jp": "ハーヴェスタの競売が始まった。",
+      "en": "Harvester's auction began.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78385,
+      "id": "db_EventInfo:92754:0",
+      "jp": "百万、二百万と、参加者が口々に値を出し合っている。",
+      "en": "One million, two million... the participants called out bids, one after another.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78386,
+      "id": "db_EventInfo:92755:2",
+      "jp": "早く助けるデス！",
+      "en": "We need to save her now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78387,
+      "id": "db_EventInfo:92756:7",
+      "jp": "待ってよ、ここから割って入っても人質に取られちゃうよ！　そうなったら終わりじゃないか",
+      "en": "Wait, if we just rush in, they'll just take us hostage too! That would be game over!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78388,
+      "id": "db_EventInfo:92757:1",
+      "jp": "ど、どうすれば……",
+      "en": "Wh-what should we do...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78389,
+      "id": "db_EventInfo:92758:1",
+      "jp": "でも早くしないと、ハーヴェスタが落札されてしまう",
+      "en": "But we have to hurry, or Harvester will be sold.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78390,
+      "id": "db_EventInfo:92759:7",
+      "jp": "うん。【隷属の首輪】を付けるみたいなことを言ってる。きっと【落札者の言うことを聞いちゃう】んだ",
+      "en": "Yeah. They're talking about putting on a [Collar of Servitude]. I bet [the winner will make them obey].",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78391,
+      "id": "db_EventInfo:92760:2",
+      "jp": "えっ、本当デス？",
+      "en": "Eh, really?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78392,
+      "id": "db_EventInfo:92761:7",
+      "jp": "うん……呪われた装備だし――",
+      "en": "Yeah... it's cursed gear, so--",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 78393,
+      "id": "db_EventInfo:92763:2",
+      "jp": "<big>百億ゴールド払うデス！！</big>",
+      "en": "I'll pay ten billion gold!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78394,
+      "id": "db_EventInfo:92764:1",
+      "jp": "ぶっ！！",
+      "en": "Wh-what!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78395,
+      "id": "db_EventInfo:92765:134",
+      "jp": "ひゃっ、百億ですって！！？？",
+      "en": "Wh-what!? Ten billion!?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78396,
+      "id": "db_EventInfo:92767:0",
+      "jp": "競売は、ようやく値が一千万を超えそうなところだったはずだが。",
+      "en": "The bidding had only just passed ten million...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78397,
+      "id": "db_EventInfo:92768:5",
+      "jp": "えっ？　今の声は……",
+      "en": "Huh? That voice just now...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78398,
+      "id": "db_EventInfo:92769:2",
+      "jp": "ククク――【隷属の首輪】で言うことを聞いてしまうデス？",
+      "en": "Hehehe-- A [Collar of Servitude] that makes you obey?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78399,
+      "id": "db_EventInfo:92770:2",
+      "jp": "ということは、首輪を付けたら二度とノルマの支払いとかなくなるデス！　この機を逃すまいデス！！",
+      "en": "That means if I put on the collar, there'll be no more quota payments ever again! I won't let this chance slip by!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78400,
+      "id": "db_EventInfo:92771:134",
+      "jp": "いやその……正気でございますか？",
+      "en": "Uh, seriously? Are you in your right mind?",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

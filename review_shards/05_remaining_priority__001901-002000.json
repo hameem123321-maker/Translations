@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1901,
+  "range_end": 2000,
+  "pairs": [
+    {
+      "n": 1901,
+      "id": "rem_27476",
+      "jp": "遺跡学者イディット",
+      "en": "Archaeologist Iditt",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1902,
+      "id": "rem_27477",
+      "jp": "調査団の遺跡博士ヤキム",
+      "en": "Ruins Scholar Yakimu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1903,
+      "id": "rem_27478",
+      "jp": "調査団員スティーヴ",
+      "en": "Survey Team Member Suteivu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1904,
+      "id": "rem_27479",
+      "jp": "ロオン遺跡調査団チーム",
+      "en": "Roon Ruins Survey Team",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1905,
+      "id": "rem_27480",
+      "jp": "パーティー(商人)",
+      "en": "Party (Merchants)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1906,
+      "id": "rem_27481",
+      "jp": "旅の新米商人ミーシャ",
+      "en": "Novice Traveling Merchant Misha",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1907,
+      "id": "rem_27482",
+      "jp": "お調子者の商人ケイン",
+      "en": "Joker Merchant Kane",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1908,
+      "id": "rem_27483",
+      "jp": "旅の商人コンビ",
+      "en": "Traveling Merchant Duo",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1909,
+      "id": "rem_27484",
+      "jp": "パーティー(自警団)",
+      "en": "Party (Self-Defense Force)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1910,
+      "id": "rem_27485",
+      "jp": "新米兵士ソルネッタ",
+      "en": "Novice Soldier Solnetta",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1911,
+      "id": "rem_27486",
+      "jp": "自警団の青年ジクレス",
+      "en": "Self-Defense Force Youth Jikuresu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1912,
+      "id": "rem_27487",
+      "jp": "ゼカリウス自警団の二人組",
+      "en": "Zecarius Self-Defense Force Pair",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1913,
+      "id": "rem_27488",
+      "jp": "パーティー(盗賊ギルド)",
+      "en": "Party (Thieves' Guild)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1914,
+      "id": "rem_27489",
+      "jp": "女密偵パテラ",
+      "en": "Female Spy Patera",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1915,
+      "id": "rem_27490",
+      "jp": "熟達の盗賊ヒューム",
+      "en": "Expert Thief Hyumu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1916,
+      "id": "rem_27491",
+      "jp": "盗賊ギルドの二人組",
+      "en": "Thieves' Guild Pair",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1917,
+      "id": "rem_27492",
+      "jp": "パーティー(冒険者コンビ)",
+      "en": "Party (Adventurer Duo)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1918,
+      "id": "rem_27493",
+      "jp": "女戦士ジャネット",
+      "en": "Female Warrior Janet",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1919,
+      "id": "rem_27494",
+      "jp": "女武闘家グレーテ",
+      "en": "Female Martial Artist Grete",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1920,
+      "id": "rem_27495",
+      "jp": "ベテランの女冒険者コンビ",
+      "en": "Veteran Female Adventurer Duo",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1921,
+      "id": "rem_27496",
+      "jp": "パーティー(姫と執事)",
+      "en": "Party (Princess and Butler)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1922,
+      "id": "rem_27497",
+      "jp": "令嬢剣士ティオナ",
+      "en": "Lady Swordsman Tiona",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1923,
+      "id": "rem_27498",
+      "jp": "悩み多き執事エグバルト",
+      "en": "The Worried Butler Egubaruto",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1924,
+      "id": "rem_27499",
+      "jp": "やんごとなき雰囲気の二人",
+      "en": "An Air of High Status",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1925,
+      "id": "rem_27500",
+      "jp": "パーティー(女勇者)",
+      "en": "Party (Female Hero)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1926,
+      "id": "rem_27501",
+      "jp": "異国の女勇者とその仲間",
+      "en": "Foreign Heroine and Allies",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1927,
+      "id": "rem_27502",
+      "jp": "パーティー(ドワーム族)",
+      "en": "Party (Dwarm Clan)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1928,
+      "id": "rem_27503",
+      "jp": "ドワーム大工マンヴィール",
+      "en": "Dwarm Carpenter Manvir",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1929,
+      "id": "rem_27504",
+      "jp": "ドワーム職人ダルトン",
+      "en": "Dwarm Craftsman Dalton",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1930,
+      "id": "rem_27505",
+      "jp": "酒を飲んでるドワーム族",
+      "en": "Dwarm Clan Drinker",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1931,
+      "id": "rem_27506",
+      "jp": "悪役のサブキャラ",
+      "en": "Villainous Side Character",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1932,
+      "id": "rem_27507",
+      "jp": "フードを被った男",
+      "en": "Hooded Man",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1933,
+      "id": "rem_27508",
+      "jp": "領主の秘書",
+      "en": "Lord's Secretary",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1934,
+      "id": "rem_27509",
+      "jp": "ハーヴェスタ商会員",
+      "en": "Harvester Merchant Guild Member",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1935,
+      "id": "rem_27510",
+      "jp": "野心を持つ商売人",
+      "en": "Ambitious Merchant",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1936,
+      "id": "rem_27511",
+      "jp": "修行好きな女剣士",
+      "en": "Training-Obsessed Swordswoman",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1937,
+      "id": "rem_27512",
+      "jp": "仕事熱心な漁師ヨダフ",
+      "en": "Dedicated Fisherman Yodafu",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1938,
+      "id": "rem_27513",
+      "jp": "仲間に恵まれない冒険者",
+      "en": "Lone Adventurer",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1939,
+      "id": "rem_27514",
+      "jp": "うわさ話が好きな少女",
+      "en": "Gossip-Loving Girl",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1940,
+      "id": "rem_27515",
+      "jp": "富裕層の一般女性",
+      "en": "Wealthy Lady",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1941,
+      "id": "rem_27516",
+      "jp": "商売上手な行商人",
+      "en": "Savvy Merchant",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1942,
+      "id": "rem_27517",
+      "jp": "森林レンジャーのユタン",
+      "en": "Forest Ranger Yutan",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1943,
+      "id": "rem_27518",
+      "jp": "学院の研修生トール",
+      "en": "Academy Trainee Toru",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1944,
+      "id": "rem_27519",
+      "jp": "冒険者の青年剣士",
+      "en": "Young Adventurer Swordsman",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1945,
+      "id": "rem_27520",
+      "jp": "貧乏なゼカリウス市民",
+      "en": "Poor Zecarius Citizen",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1946,
+      "id": "rem_27521",
+      "jp": "寝ぼけている兵士モルター",
+      "en": "Sleepy Soldier Moruta",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1947,
+      "id": "rem_27522",
+      "jp": "信心深い巡礼者メイソン",
+      "en": "Devout Pilgrim Meison",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1948,
+      "id": "rem_27523",
+      "jp": "REEX伏線用のモブ",
+      "en": "Mob (REEX Foreshadowing)",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1949,
+      "id": "rem_27524",
+      "jp": "心配性な漁師",
+      "en": "Worried Fisherman",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1950,
+      "id": "rem_27525",
+      "jp": "噂好きな船乗り",
+      "en": "Gossipy Sailor",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1951,
+      "id": "rem_27526",
+      "jp": "ソルシアの遺物調査人",
+      "en": "Solsia Relic Researcher",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1952,
+      "id": "rem_27527",
+      "jp": "好奇心旺盛な船乗り",
+      "en": "Curious Sailor",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1953,
+      "id": "rem_27528",
+      "jp": "北方への行商人",
+      "en": "Merchant to the North",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1954,
+      "id": "rem_27529",
+      "jp": "冒険者と天文学者",
+      "en": "Adventurer & Astronomer",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1955,
+      "id": "rem_27530",
+      "jp": "慎重派の船乗り",
+      "en": "Cautious Sailor",
+      "table": "db_ScenarioTownUnit",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1956,
+      "id": "rem_27531",
+      "jp": "ボス(修練場)",
+      "en": "Boss (Training Ground)",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1957,
+      "id": "rem_27532",
+      "jp": "メイドのハヅキ(NM002)",
+      "en": "Maid Hazuki (NM002)",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1958,
+      "id": "rem_27533",
+      "jp": "メイドのクシーナ＆シオリア",
+      "en": "Maids Xina & Sioria",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1959,
+      "id": "rem_27534",
+      "jp": "強欲商人エネルフィ＆同胞二人",
+      "en": "Greedy Merchant Enerphi & Two Kin",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1960,
+      "id": "rem_27535",
+      "jp": "魔女ヘレーリオ＆チビ",
+      "en": "Witch Helerio & Little One",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1961,
+      "id": "rem_27536",
+      "jp": "魔界料理人コッピナ(NM002)",
+      "en": "Koppina, Demon Chef",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1962,
+      "id": "rem_27537",
+      "jp": "死神シトルット(NM002)",
+      "en": "Sitlut, Shinigami",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1963,
+      "id": "rem_27538",
+      "jp": "氷魔ゆきんこ(NM002)",
+      "en": "Yukinko, Ice Demon",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1964,
+      "id": "rem_27539",
+      "jp": "見届ける者",
+      "en": "Witness",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1965,
+      "id": "rem_27540",
+      "jp": "ボス(グルメ)",
+      "en": "Boss (Gourmet)",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1966,
+      "id": "rem_27541",
+      "jp": "ボス",
+      "en": "Boss",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1967,
+      "id": "rem_27542",
+      "jp": "オーラ",
+      "en": "Aura",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1968,
+      "id": "rem_27543",
+      "jp": "オーラ（グルメ)",
+      "en": "Aura (Gourmet)",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1969,
+      "id": "rem_27544",
+      "jp": "オーラ（最果て)",
+      "en": "Aura (Farthest End)",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1970,
+      "id": "rem_27545",
+      "jp": "魔物娘",
+      "en": "Monster Girl",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1971,
+      "id": "rem_27546",
+      "jp": "巨人兵",
+      "en": "Giant Soldier",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1972,
+      "id": "rem_27547",
+      "jp": "植物",
+      "en": "Plant",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1973,
+      "id": "rem_27548",
+      "jp": "甲虫",
+      "en": "Beetle",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1974,
+      "id": "rem_27549",
+      "jp": "不死者",
+      "en": "Undead",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1975,
+      "id": "rem_27550",
+      "jp": "人間",
+      "en": "Human",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1976,
+      "id": "rem_27551",
+      "jp": "ウィザードマン",
+      "en": "Wizard Man",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1977,
+      "id": "rem_27552",
+      "jp": "ウィッチ",
+      "en": "Witch",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1978,
+      "id": "rem_27553",
+      "jp": "ウシノシシ",
+      "en": "Cattle Boar",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1979,
+      "id": "rem_27554",
+      "jp": "ウンディーネ",
+      "en": "Undine",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1980,
+      "id": "rem_27555",
+      "jp": "浮遊",
+      "en": "Floating",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1981,
+      "id": "rem_27556",
+      "jp": "エレメンタル",
+      "en": "Elemental",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1982,
+      "id": "rem_27557",
+      "jp": "オーガ",
+      "en": "Ogre",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1983,
+      "id": "rem_27558",
+      "jp": "獣",
+      "en": "Beast",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1984,
+      "id": "rem_27559",
+      "jp": "オークマン",
+      "en": "Ork-Man",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1985,
+      "id": "rem_27560",
+      "jp": "オークレディ",
+      "en": "Ork-Lady",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1986,
+      "id": "rem_27561",
+      "jp": "おばけ",
+      "en": "Ghost",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1987,
+      "id": "rem_27562",
+      "jp": "飛行",
+      "en": "Flying",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1988,
+      "id": "rem_27563",
+      "jp": "虫",
+      "en": "Insect",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1989,
+      "id": "rem_27564",
+      "jp": "クマ",
+      "en": "Bear",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1990,
+      "id": "rem_27565",
+      "jp": "人形",
+      "en": "Doll",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1991,
+      "id": "rem_27566",
+      "jp": "クラウン",
+      "en": "Clown",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1992,
+      "id": "rem_27567",
+      "jp": "魔法生物",
+      "en": "Magic Beast",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1993,
+      "id": "rem_27568",
+      "jp": "ゴブリンミュータント",
+      "en": "Goblin Mutant",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1994,
+      "id": "rem_27569",
+      "jp": "は虫類",
+      "en": "Reptile",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1995,
+      "id": "rem_27570",
+      "jp": "不定形",
+      "en": "Amorphous",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1996,
+      "id": "rem_27571",
+      "jp": "デーモン",
+      "en": "Demon",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1997,
+      "id": "rem_27572",
+      "jp": "ドラゴン",
+      "en": "Dragon",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1998,
+      "id": "rem_27573",
+      "jp": "魔人兵",
+      "en": "Demon Soldier",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1999,
+      "id": "rem_27574",
+      "jp": "魚類",
+      "en": "Fish",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2000,
+      "id": "rem_27575",
+      "jp": "ベヒンモス",
+      "en": "Behemoth",
+      "table": "db_UnitEnemy",
+      "category": "remaining_table"
+    }
+  ]
+}

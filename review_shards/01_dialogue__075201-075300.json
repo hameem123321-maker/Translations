@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75201,
+  "range_end": 75300,
+  "pairs": [
+    {
+      "n": 75201,
+      "id": "db_EventInfo:88938:0",
+      "jp": "ダンジョンの奥に辿り着くと……。",
+      "en": "Finally, we reached the depths of the dungeon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75202,
+      "id": "db_EventInfo:88940:23",
+      "jp": "ようやく来たみたいやな、【<pl>】はん",
+      "en": "Took ya long enough to get here, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75203,
+      "id": "db_EventInfo:88941:24",
+      "jp": "ふふ、ご無事だったようで何よりですわね",
+      "en": "Fufu, I'm so very glad to see you safe and sound.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75204,
+      "id": "db_EventInfo:88942:1",
+      "jp": "ノースリンデ！　シェルフィも！",
+      "en": "Northlinde! Shelfi's here too!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75205,
+      "id": "db_EventInfo:88943:0",
+      "jp": "俺は二人の姿を見つけ、思わず駆け出そうとするが。",
+      "en": "Seeing the two of them, I started to run toward them without thinking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75206,
+      "id": "db_EventInfo:88944:2",
+      "jp": "待つデス、凄い数の兵士達デス！",
+      "en": "Wait, desu! There's a crazy number of soldiers, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75207,
+      "id": "db_EventInfo:88945:23",
+      "jp": "せやで、【<pl>】はんらが来ると思ってかき集めた、選りすぐりの兵士達どす",
+      "en": "Yep! These are my handpicked best soldiers, gathered here because I thought you might come, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75208,
+      "id": "db_EventInfo:88946:105",
+      "jp": "ふん、兵士がなんだ。【<pl>】殿はこの程度の妨害で歩みを止めたりしない！",
+      "en": "Hmph, so what?【<pl>】 won't stop for something as small as this!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75209,
+      "id": "db_EventInfo:88947:115",
+      "jp": "【<pl>】の道は、私達が開く",
+      "en": "We'll clear the path for 【<pl>】.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75210,
+      "id": "db_EventInfo:88948:23",
+      "jp": "あっはっは、これだけの戦力差があるっちゅうに、戦うつもりなんやな",
+      "en": "Ah ha ha! You still wanna fight, even with odds stacked this much against you?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75211,
+      "id": "db_EventInfo:88949:24",
+      "jp": "ふふ、最後まで抗おうなんて、人間は可愛いですわね",
+      "en": "My, my, resisting to the very end... how cute humans are.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75212,
+      "id": "db_EventInfo:88950:4",
+      "jp": "はは、ザコどもを集めていい気になってる方が、よっぽど可愛いぞ",
+      "en": "Ha ha, the ones getting cocky gathering all these nobodies are way cuter!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75213,
+      "id": "db_EventInfo:88951:27",
+      "jp": "行くぜ【<pl>】ちゃん、そろそろ決着って奴をつける時だ！",
+      "en": "Let's go, 【<pl>】! It's about time we settled this for good!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75214,
+      "id": "db_EventInfo:88952:26",
+      "jp": "こんなものが空にあったら、海の中も大変ですの。破壊させていただきますわ",
+      "en": "Things would be terrible for the sea below if something like this was in the sky. Allow me to destroy it.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 75215,
+      "id": "db_EventInfo:88954:23",
+      "jp": "ええやろ、【<pl>】はん、そして仲間どもの力、見せてもらうで！",
+      "en": "Alright then, 【<pl>】! Show me what you and your friends can do!",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75216,
+      "id": "db_EventInfo:88955:1",
+      "jp": "いくぞ！",
+      "en": "Let's go!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75217,
+      "id": "db_EventInfo:88956:0",
+      "jp": "俺達は武器を構えるノーザリア軍に向かっていった！",
+      "en": "We charged at the Northlarian soldiers who had raised their weapons!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75218,
+      "id": "db_EventInfo:88957:23",
+      "jp": "ウソやろ！？　これだけの兵士を集めても勝たれへんなんて！？",
+      "en": "No way!? I gathered all these soldiers and I still can't win!?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75219,
+      "id": "db_EventInfo:88958:4",
+      "jp": "そんなザコどもを集めても、ウルフィナ達は止められないぞ！",
+      "en": "You think a bunch of small fry can stop us?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75220,
+      "id": "db_EventInfo:88959:27",
+      "jp": "アタシたちを止めたきゃ、百倍集めてくるんだな！",
+      "en": "You wanna stop us, bring a hundred times more!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75221,
+      "id": "db_EventInfo:88960:23",
+      "jp": "ま、まあええやろ、この場はこの程度で勘弁したるわ",
+      "en": "Ah, whatever. We'll let this one slide for now.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75222,
+      "id": "db_EventInfo:88961:24",
+      "jp": "そうですわ、次はこう簡単にはいきませんわよ！",
+      "en": "Yes, it won't be this easy next time!",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75223,
+      "id": "db_EventInfo:88962:0",
+      "jp": "ノースリンデたちは逃げ出してしまった。",
+      "en": "Northlinde and the others ran away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75224,
+      "id": "db_EventInfo:88963:3",
+      "jp": "あっ！　逃げたぞ！",
+      "en": "Ah! They ran!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75225,
+      "id": "db_EventInfo:88964:1",
+      "jp": "追わなくては！",
+      "en": "We have to chase them!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75226,
+      "id": "db_EventInfo:88966:23",
+      "jp": "ふふ、やっぱり追ってきてくれはったなД",
+      "en": "Hehe, I knew you'd come after usД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75227,
+      "id": "db_EventInfo:88967:24",
+      "jp": "たった一人で追ってくるなんて、怖いもの知らずですのねД",
+      "en": "Chasing us all alone? You're so braveД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75228,
+      "id": "db_EventInfo:88968:1",
+      "jp": "ノースリンデ……シェルフィ！",
+      "en": "Northlinde... Shelfi!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75229,
+      "id": "db_EventInfo:88969:23",
+      "jp": "さっきは寄ってたかって、やってくれはったな？",
+      "en": "You all ganged up on us earlier, didn't you?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75230,
+      "id": "db_EventInfo:88972:24",
+      "jp": "戦闘では不覚を取りましたが、エッチの方はどうですかねД",
+      "en": "We lost the fight, but how about we see who wins in bedД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75231,
+      "id": "db_EventInfo:88973:0",
+      "jp": "シェルフィは俺の前で、【『淫魔』】としての本性を現した！",
+      "en": "Shelfi showed me her true self as a 【Succubus】!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75232,
+      "id": "db_EventInfo:88974:1",
+      "jp": "くっ……",
+      "en": "Dammit...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75233,
+      "id": "db_EventInfo:88975:24",
+      "jp": "【『淫魔』】には絶対に勝てません、それはもう最初から決まっているのですД",
+      "en": "You can't beat a 【Succubus】. That was decided from the very startД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75234,
+      "id": "db_EventInfo:88976:23",
+      "jp": "うんうん、せやなД",
+      "en": "Yup yup, that's rightД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75235,
+      "id": "db_EventInfo:88977:24",
+      "jp": "この空間に一人でやってきた以上、もはや勝ち目はありませんД　再び育った【『縁』】の全て、頂きますわねД",
+      "en": "Since you came here alone, you have no chance of winningД I'll take everything from that【Fate】you nurtured againД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75236,
+      "id": "db_EventInfo:88978:0",
+      "jp": "シェルフィは自ら衣服をはだけ、襲って来た……！",
+      "en": "Shelfi pulled off her own clothes and attacked...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75237,
+      "id": "db_EventInfo:88979:0",
+      "jp": "★エッチシーン・ノースリンデ・個別④・おしおきセックス",
+      "en": "★ H-Scene - Northlinde - Personal ④ - Punishment Sex",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75238,
+      "id": "db_EventInfo:88980:0",
+      "jp": "★エピソード・魔海要塞⑦・ノースリンデたちとの対決③",
+      "en": "★ Episode - Demon Sea Fortress ⑦ - Battle with Northlinde and the Others ③",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75239,
+      "id": "db_EventInfo:88981:0",
+      "jp": "★エッチシーン・シェルフィ・個別⑤・おしおき焦らし乱交",
+      "en": "★ H-Scene - Shelfi - Personal ⑤ - Punishment & Teasing Orgy",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75240,
+      "id": "db_EventInfo:88984:0",
+      "jp": "それからしばらくして、俺達は仲間の元に合流したのだが。",
+      "en": "A little while later, we met back up with our companions.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75241,
+      "id": "db_EventInfo:88985:2",
+      "jp": "……(不満そうな顔)",
+      "en": "...... (Looking unhappy)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75242,
+      "id": "db_EventInfo:88987:24",
+      "jp": "……(ニコッ)",
+      "en": "...... (Grin)",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75243,
+      "id": "db_EventInfo:88988:23",
+      "jp": "……(ニコニコ)",
+      "en": "...(smiling)",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75244,
+      "id": "db_EventInfo:88989:2",
+      "jp": "おい、なんでコイツらがいるんデス？",
+      "en": "Hey, why are they here?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75245,
+      "id": "db_EventInfo:88990:23",
+      "jp": "そんな冷たいこと言わんといてぇなД　新しい仲間やでД",
+      "en": "Don't be so coldД. They're new alliesД.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75246,
+      "id": "db_EventInfo:88991:24",
+      "jp": "そうですそうです。これからは【<pl>】様のために誠心誠意奉仕いたしましょうД",
+      "en": "Yes, yes. From now on, we shall serve 【<pl>】-sama with all our devotionД.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75247,
+      "id": "db_EventInfo:88992:2",
+      "jp": "怪しすぎるデス！",
+      "en": "That's way too suspicious!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75248,
+      "id": "db_EventInfo:88993:4",
+      "jp": "どうせ、またこいつらと交尾したんだろ",
+      "en": "I bet you fucked them again, didn't you?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75249,
+      "id": "db_EventInfo:88994:105",
+      "jp": "まったくラシェ……【<pl>】殿ときたら",
+      "en": "Honestly, Rasche... 【<pl>】-dono, what are we going to do with you?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75250,
+      "id": "db_EventInfo:88995:115",
+      "jp": "女とみれば見境がない",
+      "en": "You have no standards when it comes to women.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75251,
+      "id": "db_EventInfo:88996:12",
+      "jp": "とんだ駄犬です",
+      "en": "What a useless dog.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75252,
+      "id": "db_EventInfo:88997:0",
+      "jp": "女性陣の視線が冷たすぎる……。",
+      "en": "The women's stares are way too cold...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75253,
+      "id": "db_EventInfo:88998:23",
+      "jp": "まあとにかく、ウチらが中枢のキングホエールの最終防衛線みたいなもんや",
+      "en": "Anyway, we're basically the last line of defense for the King Whale's core.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75254,
+      "id": "db_EventInfo:88999:24",
+      "jp": "ここから先はゲトレオス将軍がいる、【『魔海要塞』】の中枢となります",
+      "en": "Beyond this point is the core of the 'Demon Sea Fortress', where General Getoreosu is.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75255,
+      "id": "db_EventInfo:89000:2",
+      "jp": "いよいよ決戦デスね。正念場デス！！",
+      "en": "The final battle is here, desu. It's do or die, desu!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75256,
+      "id": "db_EventInfo:89003:0",
+      "jp": "俺達――いや、俺は再び【『魔海要塞キングホエール』】と対面した。",
+      "en": "We... no, I faced the Demon Sea Fortress King Whale once more.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75257,
+      "id": "db_EventInfo:89004:0",
+      "jp": "巨大な怪物は今まさに空に飛翔しようとしている。",
+      "en": "The huge monster was just about to take off into the sky.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75258,
+      "id": "db_EventInfo:89005:33",
+      "jp": "ゼカリウス……殲滅……！！",
+      "en": "Zecarius... destroy...!!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 75259,
+      "id": "db_EventInfo:89006:0",
+      "jp": "キングホエールからゲトレオス将軍の声が聞こえる。",
+      "en": "I heard General Getoreos's voice from King Whale.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75260,
+      "id": "db_EventInfo:89007:0",
+      "jp": "しかしその声はか細く、途切れていき。",
+      "en": "But the voice was weak, and it kept cutting out.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75261,
+      "id": "db_EventInfo:89008:0",
+      "jp": "消えてしまった。",
+      "en": "Then it faded away completely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75262,
+      "id": "db_EventInfo:89009:0",
+      "jp": "そして……。",
+      "en": "And then...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75263,
+      "id": "db_EventInfo:89010:380",
+      "jp": "<big>オオオオオオオオオオオオオオオオオ！！！</big>",
+      "en": "ROOOOOOOOOOOOOOOOOOOOAAAARRR!!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75264,
+      "id": "db_EventInfo:89011:0",
+      "jp": "【『魔海要塞キングホエール』】が咆吼する。",
+      "en": "The Demon Sea Fortress King Whale roared.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75265,
+      "id": "db_EventInfo:89012:0",
+      "jp": "ゲトレオスの制御がなくなったキングホエールは、遙か空に飛び立とうとする！",
+      "en": "With Getoreos's control gone, King Whale tried to launch into the distant sky!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75266,
+      "id": "db_EventInfo:89013:0",
+      "jp": "それはこの場で【『魔海要塞キングホエール』】を撃破しなくては、世界が滅亡してしまうことを意味していた。",
+      "en": "If I didn't destroy the Demon Sea Fortress King Whale right here, right now, the world would be doomed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75267,
+      "id": "db_EventInfo:89014:12",
+      "jp": "確認しますよ",
+      "en": "Let me check.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75268,
+      "id": "db_EventInfo:89015:12",
+      "jp": "【『キングホエール』】を撃破するには【『大禁呪エクスティンクション』】が必要です",
+      "en": "To defeat the King Whale, you need the great forbidden spell, Extinction.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75269,
+      "id": "db_EventInfo:89016:115",
+      "jp": "使用には【私と姉様の二人が必要。だけど、発動するまで一切の行動ができない】",
+      "en": "To use it, both me and my sister are needed. But we can't take any action at all until it's cast.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75270,
+      "id": "db_EventInfo:89017:12",
+      "jp": "どちらかが倒された時点で負けです。途中で蘇生しても、詠唱が途切れるのでダメです",
+      "en": "If either one of us is knocked out, we lose. Even if revived partway, the chant breaks, so it's no good.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75271,
+      "id": "db_EventInfo:89018:0",
+      "jp": "★クリア",
+      "en": "★ Clear Condition",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75272,
+      "id": "db_EventInfo:89019:224",
+      "jp": "この戦闘は特殊なイベントバトルとなります。【『ミルテ』】と【『レミル』】が【『エクスティンクション』】を使用可能になります。",
+      "en": "This battle is a special event fight. Myrte and Remil become able to use Extinction.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75273,
+      "id": "db_EventInfo:89020:224",
+      "jp": "二人が【『エクスティンクション』】を使用すると、カウンタが増えていきます。【この値が最大】になると大禁呪が発動成功となり、戦闘が終了します。",
+      "en": "When they use Extinction, a counter increases. When this value reaches max, the great forbidden spell is successfully cast and the battle ends.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75274,
+      "id": "db_EventInfo:89021:224",
+      "jp": "その間、キングホエールはこちらを攻撃してきます。【二人がターン終了時に戦闘不能になる】とカウンタがリセットされてしまいます。",
+      "en": "During that time, King Whale will attack us. If both are knocked out at the end of a turn, the counter resets.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75275,
+      "id": "db_EventInfo:89022:224",
+      "jp": "相手は最強の敵です。防御バフや【『死神バリア』】で守りましょう。また、【『オートリレイズ』】で即時復活すれば、カウンタリセットを回避出来ます。",
+      "en": "The foe is the strongest enemy. Protect them with defense buffs and the Shinigami Barrier. Also, if you use Auto-Reraise for instant revival, you can avoid the counter reset.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75276,
+      "id": "db_EventInfo:89023:0",
+      "jp": "【詠唱が終わるまで】、ミルテ達を守り抜きましょう！",
+      "en": "Protect Myrte and the others until the chant finishes!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75277,
+      "id": "db_EventInfo:89026:0",
+      "jp": "ミルテとレミルによる【『大禁呪エクスティンクション』】の発動に成功した！",
+      "en": "Myrte and Remil successfully cast the great forbidden spell, Extinction!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75278,
+      "id": "db_EventInfo:89027:0",
+      "jp": "【『キングホエール』】の身体が大きく震え、轟音が鳴り響く！",
+      "en": "The King Whale's body trembles violently, and a thunderous roar echoes!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75279,
+      "id": "db_EventInfo:89028:1",
+      "jp": "【『大禁呪エクスティンクション』】……いったいどんな魔術なん――",
+      "en": "\"The Great Forbidden Curse: Extinction\"... What kind of magic is that—",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75280,
+      "id": "db_EventInfo:89029:12",
+      "jp": "なにやってるんです！　さっさと逃げますよ！",
+      "en": "What are you doing?! We're running away, now!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75281,
+      "id": "db_EventInfo:89030:1",
+      "jp": "えっ？　まだ魔術が発動してないのでは……",
+      "en": "Huh? But the magic hasn't even gone off yet...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75282,
+      "id": "db_EventInfo:89031:12",
+      "jp": "違います！　大禁呪が発動するのはこれからです！　さっさと逃げないと巻き込まれますよ！",
+      "en": "No! The Great Forbidden Curse is about to activate! If we don't run now, we'll get caught in it!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75283,
+      "id": "db_EventInfo:89033:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75284,
+      "id": "db_EventInfo:89035:0",
+      "jp": "★白フェード",
+      "en": "★White Fade",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75285,
+      "id": "db_EventInfo:89036:0",
+      "jp": "轟音はさらに大きくなっていく。",
+      "en": "The roaring sound grows even louder.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75286,
+      "id": "db_EventInfo:89037:0",
+      "jp": "俺達は全力で【『キングホエール』】の元から退却した。",
+      "en": "We got out of there as fast as we could, away from the King Whale.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75287,
+      "id": "db_EventInfo:89040:0",
+      "jp": "直後、海が消滅した。",
+      "en": "Right after that, the sea vanished.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75288,
+      "id": "db_EventInfo:89042:15",
+      "jp": "【『魔海要塞キングホエール』】、破壊に成功したよ",
+      "en": "We successfully destroyed the King Whale Sea Fortress.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75289,
+      "id": "db_EventInfo:89043:15",
+      "jp": "いやあ、凄い威力だったね、【付近の海が全部無くなった】よ、あはは！",
+      "en": "Man, that was some power. The entire nearby sea is gone, haha!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75290,
+      "id": "db_EventInfo:89044:1",
+      "jp": "海が……？",
+      "en": "The sea...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75291,
+      "id": "db_EventInfo:89045:15",
+      "jp": "うんうん。同時に発生した津波で、港の方に壊滅的被害が出たね。まあ、事前に避難していたからよかったけど",
+      "en": "Yeah, yeah. The tsunami that hit at the same time caused massive damage to the harbor area. Well, it's a good thing everyone evacuated in advance.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75292,
+      "id": "db_EventInfo:89046:15",
+      "jp": "地上で使えばどうなるかわからないね。ははは",
+      "en": "Who knows what would happen if you used it on land. Hahaha.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75293,
+      "id": "db_EventInfo:89047:12",
+      "jp": "まさか、ここまでの威力があるとは、思いもしませんでした",
+      "en": "I had no idea it would be this powerful.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75294,
+      "id": "db_EventInfo:89048:115",
+      "jp": "使用すれば国が消えると言われて、誇張表現だと思ってた",
+      "en": "When they said using it could wipe out a country, I thought that was an exaggeration.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75295,
+      "id": "db_EventInfo:89049:15",
+      "jp": "そんなことないさ。そもそもゼカリウス内海の変な地形も【『大禁呪』】のせいだからね",
+      "en": "Not at all. The weird shape of the Zecarius inland sea is because of the【『Great Forbidden Curse』】in the first place.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75296,
+      "id": "db_EventInfo:89050:15",
+      "jp": "沖の方で使ってなきゃ、とんでもないことになってたさ",
+      "en": "If it hadn't been used far out at sea, things would have been a real disaster.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75297,
+      "id": "db_EventInfo:89051:15",
+      "jp": "良い場所で足止めをしてくれた、ラシェウス君には感謝しないといけないよね",
+      "en": "We really should thank Rasieus for keeping them pinned down in a good spot.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75298,
+      "id": "db_EventInfo:89052:1",
+      "jp": "ああ……",
+      "en": "Ah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75299,
+      "id": "db_EventInfo:89053:1",
+      "jp": "(ん？)",
+      "en": "(Huh?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75300,
+      "id": "db_EventInfo:89054:12",
+      "jp": "ともあれ、避難していたとはいえ、港の方の被害は甚大です",
+      "en": "Anyway, even with the evacuation, the damage to the harbor is huge.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    }
+  ]
+}

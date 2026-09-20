@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 103901,
+  "range_end": 104000,
+  "pairs": [
+    {
+      "n": 103901,
+      "id": "db_EventInfo:122851:4",
+      "jp": "つかまえたぞ、てんちょー",
+      "en": "We caught them, Boss.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 103902,
+      "id": "db_EventInfo:122852:1",
+      "jp": "おお、よくやってくれたか",
+      "en": "Oh, you did well. Thanks.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103903,
+      "id": "db_EventInfo:122853:10",
+      "jp": "うむ、さすがはウルフィナといったところだ。ヤツの鼻から逃れることはできん",
+      "en": "Well, that's Wolfina for you. You can't hide from her nose.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103904,
+      "id": "db_EventInfo:122854:1",
+      "jp": "ああ、頼りになるなぁ",
+      "en": "Yeah, she's really reliable.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103905,
+      "id": "db_EventInfo:122855:10",
+      "jp": "しかし店長、尋問しても口を割らないんだ",
+      "en": "But Boss, he won't talk even under questioning.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 103906,
+      "id": "db_EventInfo:122858:7",
+      "jp": "コイツはきっと【『邪教徒』】だろうね。ヤツらは口が硬いんだ",
+      "en": "This guy is definitely a 'Heretic Cultist'. Those guys don't talk.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103907,
+      "id": "db_EventInfo:122859:7",
+      "jp": "【『邪教徒』】の活動には【『盗賊ギルド』】も注意しているんだ。ヤツら、加減ってモノを知らないからねぇ",
+      "en": "The 'Thieves Guild' is watching the 'Heretic Cultists' too. They don't know how to hold back.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103908,
+      "id": "db_EventInfo:122860:7",
+      "jp": "そいつらは自警団より、【『盗賊ギルド』】に連れて行った方が良いよ。自警団にはできないような、「お話」ができるだろうしね",
+      "en": "You should take him to the 'Thieves Guild', not the militia. We can have a 'little chat' the militia can't.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103909,
+      "id": "db_EventInfo:122863:0",
+      "jp": "俺達は【『邪教徒』】らしき人物を【『盗賊ギルド』】に突き出すことにした。後のことは【『盗賊ギルド』】に任せよう。",
+      "en": "We decided to hand the person who looked like a 'Heretic Cultist' over to the 'Thieves Guild'. We'll leave the rest to them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103910,
+      "id": "db_EventInfo:122864:0",
+      "jp": "スパイを処理したことで、店の治安もアップするのであった。",
+      "en": "Dealing with the spy improved the store's security.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103911,
+      "id": "db_EventInfo:122866:7",
+      "jp": "えへへっ、店長、ダンジョンから出て来たっていう変な箱を貰っちゃった",
+      "en": "Heheh, Boss, I got this weird box from the dungeon.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103912,
+      "id": "db_EventInfo:122867:7",
+      "jp": "やっぱり盗賊たるもの、宝箱のトラップ解除はできないとね～",
+      "en": "A good thief has to be able to disarm traps on treasure chests~",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103913,
+      "id": "db_EventInfo:122868:1",
+      "jp": "トラップ……っておい",
+      "en": "Traps... hey now",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103914,
+      "id": "db_EventInfo:122869:7",
+      "jp": "大丈夫だよ、これは【『盗賊ギルド』】から支給された宝箱だから",
+      "en": "It's fine, this chest was supplied by the 'Thieves Guild'.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103915,
+      "id": "db_EventInfo:122870:7",
+      "jp": "なんでも、ギルドのメンバーが開くことが出来なかった箱なんだって。何が入ってるのかな～",
+      "en": "They say it's a box the guild members couldn't open. I wonder what's inside~",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103916,
+      "id": "db_EventInfo:122871:2",
+      "jp": "そんなもの開くなデス！",
+      "en": "Don't open something like that!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103917,
+      "id": "db_EventInfo:122872:7",
+      "jp": "中はきっとお宝でギッシリだよ♪",
+      "en": "I bet it's totally packed with treasure inside♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103918,
+      "id": "db_EventInfo:122873:2",
+      "jp": "さっさと開くデス",
+      "en": "Go ahead and open it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103919,
+      "id": "db_EventInfo:122874:1",
+      "jp": "こらーっ！！",
+      "en": "Hey!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103920,
+      "id": "db_EventInfo:122875:7",
+      "jp": "ええ、大丈夫なの～？",
+      "en": "Huh? Are you sure~?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103921,
+      "id": "db_EventInfo:122876:2",
+      "jp": "無理するなデス",
+      "en": "Don't push yourself.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103922,
+      "id": "db_EventInfo:122877:1",
+      "jp": "危ない箱かもしれないだろ？　俺だってやればできるところを見せてやる！",
+      "en": "It could be a dangerous box, right? I'll show you I can do it if I try!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103923,
+      "id": "db_EventInfo:122880:0",
+      "jp": "ぬぐぐぐ……",
+      "en": "Nnngh……",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103924,
+      "id": "db_EventInfo:122881:7",
+      "jp": "店長～？　そろそろ諦めたら？",
+      "en": "Manager~? Maybe you should give up soon?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103925,
+      "id": "db_EventInfo:122882:2",
+      "jp": "諦めが悪いデス",
+      "en": "You're too stubborn.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103926,
+      "id": "db_EventInfo:122883:1",
+      "jp": "むう、悔しいが俺には無理そうだ",
+      "en": "Ugh, it's frustrating, but it seems impossible for me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103927,
+      "id": "db_EventInfo:122884:7",
+      "jp": "あはは、まあまあ、【『盗賊ギルド』】のメンバーでも無理だったんだから、気を落とす事ないって",
+      "en": "Haha, well, even the 'Thieves' Guild' members couldn't do it, so don't feel down.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103928,
+      "id": "db_EventInfo:122887:0",
+      "jp": "後ほど、ファシィに箱を開けてもらったのだが、解除について楽しく盛り上がったのであった。",
+      "en": "Later, I had Facy open the box. We had a lot of fun talking about disabling the lock.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103929,
+      "id": "db_EventInfo:122888:7",
+      "jp": "うん！　っていうか、最初からそのつもりで貰って来たんだよね～",
+      "en": "Yep! Actually, that was the plan all along when I took it~",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103930,
+      "id": "db_EventInfo:122889:2",
+      "jp": "しっかり罠を解除するデスよ！",
+      "en": "Make sure to disable the trap properly, desu yo!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103931,
+      "id": "db_EventInfo:122890:7",
+      "jp": "任せてってば！　んもー気が散るなぁ",
+      "en": "Leave it to me! Ugh, it's so distracting!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103932,
+      "id": "db_EventInfo:122893:7",
+      "jp": "よし、解除成功！　えっと、中身は……おお、金貨だよ！　やったね！",
+      "en": "Alright, success! Uh, the contents are... oh, gold coins! We did it!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103933,
+      "id": "db_EventInfo:122894:2",
+      "jp": "やったデス！　私のカネがまた増えたデス！",
+      "en": "We did it, desu! My money just increased, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103934,
+      "id": "db_EventInfo:122895:7",
+      "jp": "えぇー？　全部シイネのお金になっちゃうの？　……うーん、ボクも宿に所属してる身だし、まあいいけど",
+      "en": "Huh? So it all becomes Shiine's money? ...Well, since I'm part of the inn now, I guess it's okay.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103935,
+      "id": "db_EventInfo:122896:1",
+      "jp": "ん？　それでいいのか……？",
+      "en": "Hm? Are you sure about that...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103936,
+      "id": "db_EventInfo:122897:2",
+      "jp": "うむ、ファシィも自分の立場が分かってきたデスね",
+      "en": "Right. Facy is starting to understand his place, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103937,
+      "id": "db_EventInfo:122900:1",
+      "jp": "(ファシィが開けた時に、中に手を入れていたような気がしたけど……気のせいか？)",
+      "en": "(I thought I saw Facy put his hand in the box when he opened it... was I just imagining it?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103938,
+      "id": "db_EventInfo:122901:0",
+      "jp": "ちなみに金貨は二人が持っていったので、店に入ることはなかった。",
+      "en": "By the way, the two of them took the gold coins, so they never made it into the shop's funds.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103939,
+      "id": "db_EventInfo:122902:7",
+      "jp": "えー？　せっかくもらって来たのに―！",
+      "en": "What?! But I went to all the trouble to get it!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103940,
+      "id": "db_EventInfo:122903:2",
+      "jp": "オマエ、何を言ってるデス！？",
+      "en": "You, what are you saying!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103941,
+      "id": "db_EventInfo:122904:1",
+      "jp": "罠があるかもしれないんだろ？　だったらギルドで処理してもらった方が安全だし確実だって",
+      "en": "It might be trapped, right? It's safer and surer to let the guild handle it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103942,
+      "id": "db_EventInfo:122905:7",
+      "jp": "もー、せっかくの宝箱なのにー！",
+      "en": "Aw, man... it's such a cool treasure chest!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103943,
+      "id": "db_EventInfo:122908:0",
+      "jp": "ファシィとシイネは散々文句を言っていたが、最後には納得してくれたのだった……。",
+      "en": "Facy and Shiine complained a lot, but in the end, they agreed...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103944,
+      "id": "db_EventInfo:122910:0",
+      "jp": "(ごそごそ)",
+      "en": "(rustle rustle)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103945,
+      "id": "db_EventInfo:122911:2",
+      "jp": "おや、そこにいるのは誰デス？",
+      "en": "Oh? Who is that over there?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103946,
+      "id": "db_EventInfo:122913:7",
+      "jp": "えっ！？",
+      "en": "Huh!?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103947,
+      "id": "db_EventInfo:122914:1",
+      "jp": "ファシィじゃないか、ドロボウかと思ったぞ",
+      "en": "Facy? I thought you were a thief.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103948,
+      "id": "db_EventInfo:122915:7",
+      "jp": "いやあ？　あはは……",
+      "en": "What? Ahaha...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103949,
+      "id": "db_EventInfo:122916:2",
+      "jp": "あながち間違いじゃない気がするデス。オマエ、何をしていたデス？",
+      "en": "I'm starting to think that wasn't entirely wrong. What were you doing?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103950,
+      "id": "db_EventInfo:122917:7",
+      "jp": "な、なんでもないかな？",
+      "en": "I... I wasn't doing anything, maybe?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103951,
+      "id": "db_EventInfo:122918:2",
+      "jp": "まさかうちの金庫を……？",
+      "en": "You didn't... break into our safe?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103952,
+      "id": "db_EventInfo:122919:2",
+      "jp": "素直に吐かないなら……",
+      "en": "If you won't talk...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103953,
+      "id": "db_EventInfo:122921:7",
+      "jp": "わわっ、鎌を振り上げないでよ！　つまみ食いだよつまみ食い！",
+      "en": "Whoa, don't raise your sickle! It was just a snack, just a snack!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103954,
+      "id": "db_EventInfo:122922:1",
+      "jp": "なんだつまみ食いか……",
+      "en": "Oh, just a snack...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103955,
+      "id": "db_EventInfo:122923:2",
+      "jp": "ドロボウでなくてよかったデス",
+      "en": "Good. I'm glad you're not a thief.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103956,
+      "id": "db_EventInfo:122924:2",
+      "jp": "……ん？　つまみ食いデス？　たしか棚の中に、私が後で食べようと思っていたドラヤキが……",
+      "en": "...Huh? A snack? I'm sure there was a dorayaki on the shelf I was saving for later...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103957,
+      "id": "db_EventInfo:122925:7",
+      "jp": "(ギクッ)",
+      "en": "(Gulp)",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103958,
+      "id": "db_EventInfo:122926:2",
+      "jp": "やっぱ死刑デス。【『死神』】のモノをドロボウするとは万死に値するデス",
+      "en": "Death sentence. Stealing from a Shinigami deserves death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103959,
+      "id": "db_EventInfo:122927:7",
+      "jp": "いや～～～～～っ！",
+      "en": "Nooooo!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103960,
+      "id": "db_EventInfo:122928:1",
+      "jp": "こらこら！　あのお菓子はお前のモノでもなかっただろ！",
+      "en": "Hey, hey! That wasn't even your snack, was it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103961,
+      "id": "db_EventInfo:122929:2",
+      "jp": "じゃあ、私とファシィ、どっちにくれるデス？",
+      "en": "So, who are you giving it to, me or Facy?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103962,
+      "id": "db_EventInfo:122930:7",
+      "jp": "あのお菓子は小さいんだ。半分こなんてできないよ",
+      "en": "That snack is tiny. We can't split it in half.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103963,
+      "id": "db_EventInfo:122931:1",
+      "jp": "えっ、そ、それは……",
+      "en": "Huh? Th-that is...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103964,
+      "id": "db_EventInfo:122932:1",
+      "jp": "争いになるぐらいなら、こうだ！",
+      "en": "If it'll stop a fight, then... this!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103965,
+      "id": "db_EventInfo:122933:0",
+      "jp": "俺はひと思いに、ドラヤキをほおばった！",
+      "en": "I ate the dang dangyo in one go!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103966,
+      "id": "db_EventInfo:122934:7",
+      "jp": "ああっ！",
+      "en": "Ahhh!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103967,
+      "id": "db_EventInfo:122935:2",
+      "jp": "ひどいデス～！",
+      "en": "That's so mean, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103968,
+      "id": "db_EventInfo:122936:0",
+      "jp": "文句を言われたが、二人がケンカするよりはマシ――。",
+      "en": "They complained, but it's better than them fighting.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103969,
+      "id": "db_EventInfo:122938:2",
+      "jp": "死神キーックデス！！",
+      "en": "Death KICK, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103970,
+      "id": "db_EventInfo:122939:1",
+      "jp": "ゲホ～～～～～ッ！！",
+      "en": "Gahhhk! COUGH!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103971,
+      "id": "db_EventInfo:122940:2",
+      "jp": "それでこそオマエデス！",
+      "en": "That's more like you, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103972,
+      "id": "db_EventInfo:122941:7",
+      "jp": "え～ん！　ま、いいけどさー",
+      "en": "Waaah! ...Well, fine, I guess.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103973,
+      "id": "db_EventInfo:122942:7",
+      "jp": "やったー！",
+      "en": "Yay!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103974,
+      "id": "db_EventInfo:122943:2",
+      "jp": "ぐぬぬデス……オマエ、おぼえおくデス！",
+      "en": "Grrr, Death... I'll remember this, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103975,
+      "id": "db_EventInfo:122946:0",
+      "jp": "その後、代りのケーキを二人にご馳走することになった。",
+      "en": "After that, I ended up treating both of them to a replacement cake.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103976,
+      "id": "db_EventInfo:122948:7",
+      "jp": "ねえ店長、盗賊ギルドにたくさん支援ありがとね♪",
+      "en": "Hey, boss, thanks for all the support for the Thieves' Guild!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103977,
+      "id": "db_EventInfo:122949:1",
+      "jp": "そういえば……",
+      "en": "That reminds me...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103978,
+      "id": "db_EventInfo:122950:0",
+      "jp": "盗賊ギルドにもかなりの額を投資してきた気がする。",
+      "en": "I feel like I've invested a pretty large amount into the Thieves' Guild too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103979,
+      "id": "db_EventInfo:122951:7",
+      "jp": "それでね～、盗賊ギルドのメンバーと一緒に考えてたんだけど",
+      "en": "So, yeah... I was thinking about it with the other guild members,",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103980,
+      "id": "db_EventInfo:122952:7",
+      "jp": "店長に盗賊のギルドのボスをやってもらおうと思って♪",
+      "en": "and we want you to be the new boss of the Thieves' Guild!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103981,
+      "id": "db_EventInfo:122953:1",
+      "jp": "……はい？",
+      "en": "...What?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103982,
+      "id": "db_EventInfo:122954:7",
+      "jp": "いやぁ、店長ってば、色んな組織とコネ作ってたりして、顔が利くでしょ？",
+      "en": "Oh, come on, boss, you have connections with all sorts of groups, right? You have a lot of pull.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103983,
+      "id": "db_EventInfo:122955:7",
+      "jp": "そういう人がトップだといろいろと便利だからさ♪",
+      "en": "It'd be really useful to have someone like that at the top!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103984,
+      "id": "db_EventInfo:122956:1",
+      "jp": "いやいや、勝手にそんなものにしないでくれよ。俺は盗賊ギルドとかわからないぞ！",
+      "en": "No, no, don't just decide that on your own! I don't know anything about running a Thieves' Guild!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103985,
+      "id": "db_EventInfo:122957:7",
+      "jp": "大丈夫大丈夫！　ギルドの運営については、引き続きボクがやるからさ",
+      "en": "It's fine, it's fine! I'll keep handling the day-to-day running of the guild.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103986,
+      "id": "db_EventInfo:122958:7",
+      "jp": "盗賊ギルドは闇の組織ということで表には出ないし、店長は資金だけ援助してくれれば良いからД",
+      "en": "Since the Thieves' Guild is an underworld organization, it won't be public. You just need to keep providing the funds, boss Д",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103987,
+      "id": "db_EventInfo:122959:1",
+      "jp": "そ、そうか……それなら",
+      "en": "Oh... okay then...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103988,
+      "id": "db_EventInfo:122960:7",
+      "jp": "やったー！　ありがとね！",
+      "en": "Yay! Thank you!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 103989,
+      "id": "db_EventInfo:122963:0",
+      "jp": "なにやら気になる言葉が含まれてた気がするか、怖いのでそこには触れないことにした。",
+      "en": "I felt like there were some concerning words in there, but I decided not to touch on that because it's scary.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 103990,
+      "id": "db_EventInfo:122964:15",
+      "jp": "やあ店長君。【『ゼカリウス自警団』】に【『組織献金』】してみないかい？",
+      "en": "Hey, Shopkeeper. How about making a 'donation to the organization' to the 'Zecarius Vigilante Corps'?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103991,
+      "id": "db_EventInfo:122965:1",
+      "jp": "【『ゼカリウス自警団』】？",
+      "en": "The 'Zecarius Vigilante Corps'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 103992,
+      "id": "db_EventInfo:122966:15",
+      "jp": "うん。【『自警団』】はゼカリウスの有力者によって作られた、治安維持を行う民間の軍事組織だ",
+      "en": "Yeah. The 'Vigilante Corps' is a private military organization formed by Zecarius's influential people to keep the peace.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103993,
+      "id": "db_EventInfo:122967:15",
+      "jp": "民間といっても王都に認められてるし、領主とは独立した組織でもある",
+      "en": "Even though it's private, it's recognized by the capital, and it's also an organization independent from the lord.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103994,
+      "id": "db_EventInfo:122968:15",
+      "jp": "もっとも、領主ゼルカの横暴を止められないところを見るに、力不足ではあるようだけどね",
+      "en": "Of course, seeing how they can't stop Lord Zelka's tyranny, they seem a bit powerless though.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103995,
+      "id": "db_EventInfo:122969:2",
+      "jp": "有力者ってのは、カネもちデス？",
+      "en": "'Influential people'... you mean rich people, Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103996,
+      "id": "db_EventInfo:122970:15",
+      "jp": "ん？　地方貴族というか……そういう連中かな？　かなり低いけど、爵位を持っている人間もいるし",
+      "en": "Huh? Local nobles, or... that sort of crowd, I guess? Some of them even have titles, though pretty low-ranking ones.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103997,
+      "id": "db_EventInfo:122971:2",
+      "jp": "ふむ……【『ゼカリウス自警団』】と仲良くすれば、貴族や富裕層連中と仲良く出来そうデスね",
+      "en": "Hmm... If we get on good terms with the 'Zecarius Vigilante Corps', we might get on good terms with nobles and the rich crowd, Desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 103998,
+      "id": "db_EventInfo:122972:15",
+      "jp": "やあ店長君、今日は【『ゼカリウス自警団』】の方から仕事をもらってきたよ",
+      "en": "Hey, Shopkeeper. Today I got a job from the 'Zecarius Vigilante Corps'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 103999,
+      "id": "db_EventInfo:122973:1",
+      "jp": "【『ゼカリウス自警団』】から？",
+      "en": "From the Zecarius Self-Defense Group?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104000,
+      "id": "db_EventInfo:122975:2",
+      "jp": "おいデシルス、余計な仕事を持ってきたんじゃないデスか？",
+      "en": "Hey Desilus, you didn't bring us some useless extra job, did you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

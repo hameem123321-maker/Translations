@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 74001,
+  "range_end": 74100,
+  "pairs": [
+    {
+      "n": 74001,
+      "id": "db_EventInfo:87536:12",
+      "jp": "その条項を結ぶように誘導したのがノーザリアの姫将軍――ノースリンデ",
+      "en": "The one who pushed for that term in the treaty was Northaria's Princess-General – Northlinde.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74002,
+      "id": "db_EventInfo:87537:2",
+      "jp": "まったく、ろくなことをしないデス！",
+      "en": "Seriously, she never does anything good!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74003,
+      "id": "db_EventInfo:87538:2",
+      "jp": "む？　いや待てよデス？　アイツ、シェルフィと一緒に逃げたってことは……",
+      "en": "Huh? Wait a minute. She ran off with Shelfi, right? That means...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74004,
+      "id": "db_EventInfo:87539:12",
+      "jp": "あの時から……いえ、もともと最初から、シェルフィとグルだったと考えられますね",
+      "en": "From that moment... No, I think they've been in cahoots from the very beginning.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74005,
+      "id": "db_EventInfo:87540:2",
+      "jp": "あのケモミミ女――デスッ！！",
+      "en": "That beast-ear woman!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74006,
+      "id": "db_EventInfo:87543:0",
+      "jp": "【『淫魔領域』】では、ルーシェも彼女を警戒していたようだった。",
+      "en": "Back in the 'Succubus Realm', even Lusche seemed wary of her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74007,
+      "id": "db_EventInfo:87544:0",
+      "jp": "彼女は一体何を考えているのだろうか。",
+      "en": "I wonder what she's thinking about.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74008,
+      "id": "db_EventInfo:87546:7",
+      "jp": "【『魔の島』】に行くって事は、【ノーザリアの軍艦】と戦う事になるよね",
+      "en": "If we go to Demon Island, we'll have to fight the Northerlia warships, right?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 74009,
+      "id": "db_EventInfo:87547:1",
+      "jp": "ああ、急いで海軍を準備しなくては！",
+      "en": "Right! I need to get the navy ready, fast!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74010,
+      "id": "db_EventInfo:87548:5",
+      "jp": "しかし、今から海軍なんて用意できませんわ。そもそも軍艦がありません",
+      "en": "But we can't prepare a navy right now. We don't even have any warships to start with.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 74011,
+      "id": "db_EventInfo:87549:12",
+      "jp": "軍艦ならあるじゃないですか。【『<ruby=ソルシア>学院</ruby>』】の船団が",
+      "en": "But there are warships. The fleet from Solthia Academy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74012,
+      "id": "db_EventInfo:87550:1",
+      "jp": "あ、ああ、そういえばずっと駐留してたっけ",
+      "en": "Oh, right. They've been docked here for a while.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74013,
+      "id": "db_EventInfo:87551:12",
+      "jp": "あれを領主の権限で接収してしまえばいいじゃないですか",
+      "en": "You should just seize them using your authority as the Lord.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74014,
+      "id": "db_EventInfo:87552:12",
+      "jp": "どうせ【『<ruby=ソルシア>学院</ruby>』】には、裏から投資してるんでしょう？　ちょうどいいリターンですよ",
+      "en": "You're basically investing in Solthia Academy from behind the scenes anyway, right? This would be a good return.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74015,
+      "id": "db_EventInfo:87553:5",
+      "jp": "ふふ、でしたら、私にお任せをД　【<pl>】様のために、しっかりと接収してまいりますわ",
+      "en": "Hehe. In that case, leave it to meД. For 【<pl>】's sake, I'll make sure we seize them properly.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 74016,
+      "id": "db_EventInfo:87554:1",
+      "jp": "そ、そうか。よし、任せた",
+      "en": "O-oh, right. Okay, I'll leave it to you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74017,
+      "id": "db_EventInfo:87555:2",
+      "jp": "船はいいとして、海戦になるんデスよね？　誰が指揮を執るデス？　私達は船なんか使えないデス",
+      "en": "The ships are fine, but we'll be fighting a sea battle, right? Who will take command? We can't use ships.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74018,
+      "id": "db_EventInfo:87556:12",
+      "jp": "ええ。相手は軍隊として組織された奴ら。それを急ごしらえの船団で撃退するには――",
+      "en": "Exactly. They are a properly organized military force. To defeat them with a makeshift fleet...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74019,
+      "id": "db_EventInfo:87557:1",
+      "jp": "【海戦に強いヤツ】、か",
+      "en": "Someone good at naval battles, huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74020,
+      "id": "db_EventInfo:87558:1",
+      "jp": "どこかで、そんな奴がいたような……",
+      "en": "I feel like I've heard of someone like that before...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74021,
+      "id": "db_EventInfo:87559:12",
+      "jp": "いるじゃないですか。かつて、世界中の海を支配した――",
+      "en": "But we have one, don't we? Someone descended from her...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74022,
+      "id": "db_EventInfo:87560:12",
+      "jp": "偉大なる【海賊女帝】の子孫が",
+      "en": "The great \"Pirate Empress\" who once ruled all the world's seas.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74023,
+      "id": "db_EventInfo:87562:0",
+      "jp": "俺は自称大海賊の子孫に会いにいくことにした。",
+      "en": "I decided to go meet this so-called descendant of a great pirate.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74024,
+      "id": "db_EventInfo:87564:25",
+      "jp": "ふえっ！？　かっ、海軍！？",
+      "en": "Huh-wha!? Th-th-the navy!?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74025,
+      "id": "db_EventInfo:87565:2",
+      "jp": "オマエは【『海賊女帝アーマニア』】の子孫デス",
+      "en": "You are the descendant of the \"Pirate Empress Armany\". I know it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74026,
+      "id": "db_EventInfo:87566:2",
+      "jp": "アーマニアは海では無敵だったと聞くデス。その秘めた力を今こそ発揮するデス！",
+      "en": "I hear Armany was invincible at sea. The time has come to unleash that hidden power!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74027,
+      "id": "db_EventInfo:87567:25",
+      "jp": "えええええ！？　そんなのムリですぞおおおお！！",
+      "en": "Wh-whaaaaaat!? Th-that's impossible, you knooooooow!!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74028,
+      "id": "db_EventInfo:87568:2",
+      "jp": "オマエも前に、先祖が海賊とか言ってたデス！！",
+      "en": "And you said before your ancestor was a pirate, didn't you!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74029,
+      "id": "db_EventInfo:87569:25",
+      "jp": "ひええ！　た、確かに言ったっすけど、海賊、だったのは、ご先祖様の話ですぞ……！",
+      "en": "Eeek! I-I did say that, but that's just a story about my great-great-great-grandparents, you know...!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74030,
+      "id": "db_EventInfo:87570:25",
+      "jp": "それに、それを聞いたのは、子供の頃の話で……！　私、ボートにすら、乗ったことも、ないのでござる！",
+      "en": "And besides, I only heard those stories when I was a kid...! I've never even been on a boat, I tell you!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74031,
+      "id": "db_EventInfo:87571:2",
+      "jp": "じゃあ今すぐ乗るデス！",
+      "en": "Then we're getting on right now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74032,
+      "id": "db_EventInfo:87572:25",
+      "jp": "そんなぁ～！",
+      "en": "No way~!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74033,
+      "id": "db_EventInfo:87576:0",
+      "jp": "俺達はアーマニーを連れて港にやってきた。",
+      "en": "We brought Armany to the harbor.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74034,
+      "id": "db_EventInfo:87577:25",
+      "jp": "うわっ、船だらけですな！　凄いっすねぇ！",
+      "en": "Wow, it's full of ships! This is amazing!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74035,
+      "id": "db_EventInfo:87578:25",
+      "jp": "う、ウチみたいな、落ちぶれ家系には、眩しすぎる、船体ばかりだよぉ……フヒヒ",
+      "en": "A-all these shiny hulls... they're too dazzling for a fallen family like mine... Hehehe",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74036,
+      "id": "db_EventInfo:87579:2",
+      "jp": "オラッ！　さあ、無敵の海賊女帝っぷりを見せるデス！",
+      "en": "Hey! Come on, show me your unbeatable pirate empress skills!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74037,
+      "id": "db_EventInfo:87580:25",
+      "jp": "い、いやいや、まずは小さい船から、お試しで……",
+      "en": "N-no, no, let's start with a small ship first, just to try...",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74038,
+      "id": "db_EventInfo:87581:2",
+      "jp": "もう【『魔の島』】には軍艦がきてるのデス！　いつ港に攻めてくるか分からないデスよ！",
+      "en": "There's already a warship at Demon Island! We don't know when they'll attack the harbor!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74039,
+      "id": "db_EventInfo:87582:25",
+      "jp": "そんな、ことを、言われても……",
+      "en": "E-even if you say that...",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74040,
+      "id": "db_EventInfo:87583:0",
+      "jp": "アーマニーは生来のネガティブ思考でやりたがらないようだ。",
+      "en": "It looks like Armany's born-negative thinking makes him not want to do it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74041,
+      "id": "db_EventInfo:87584:25",
+      "jp": "そ、そんな、私が身を削って書いてきた、傑作冒険ロマンが……っ！！？",
+      "en": "W-what?! My master adventure romance novel, the one I poured my soul into writing...!!?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74042,
+      "id": "db_EventInfo:87586:25",
+      "jp": "は！！！？？？？",
+      "en": "Huh!???",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74043,
+      "id": "db_EventInfo:87587:0",
+      "jp": "と、油断したアーマニーを船内に押し込んだ。",
+      "en": "I pushed the careless Armany into the ship.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74044,
+      "id": "db_EventInfo:87588:2",
+      "jp": "(こいつが書いてるの、エロ小説ばかりじゃないデス？)",
+      "en": "(What he writes... it's not just dirty stories, right?)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74045,
+      "id": "db_EventInfo:87589:1",
+      "jp": "(しっ！　余計なことを言うな)",
+      "en": "(Shh! Don't say things you don't need to.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74046,
+      "id": "db_EventInfo:87590:25",
+      "jp": "そうっすか……なるほど、文化と芸術の敵が迫ってきている、わけですな",
+      "en": "Is that so... I see. So the enemies of culture and art are closing in, huh?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74047,
+      "id": "db_EventInfo:87591:25",
+      "jp": "つまりは、フヒヒ……",
+      "en": "Which means... hehehe...",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74048,
+      "id": "db_EventInfo:87592:25",
+      "jp": "そいつらは沈めてもいいってわけだよなァ？",
+      "en": "It's okay to sink those guys, right?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 74049,
+      "id": "db_EventInfo:87593:2",
+      "jp": "アーマニー……？",
+      "en": "Armany...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74050,
+      "id": "db_EventInfo:87594:1",
+      "jp": "さん？",
+      "en": "Hey?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74051,
+      "id": "db_EventInfo:87595:0",
+      "jp": "★白フェード",
+      "en": "★White Fade",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74052,
+      "id": "db_EventInfo:87600:0",
+      "jp": "俺達の目の前で、アーマニーが纏う雰囲気が、急激に変貌する。",
+      "en": "Right in front of our eyes, the feeling Armany gives off changes fast.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74053,
+      "id": "db_EventInfo:87601:0",
+      "jp": "★フェードクリア",
+      "en": "★Fade Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74054,
+      "id": "db_EventInfo:87603:27",
+      "jp": "いいぜ……上等だ。アタシの作品を汚す蛮族ども、全て海の藻屑にしてやんよ！",
+      "en": "Fine... Bring it on. I'll send all you barbarians who stain my work to a watery grave!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74055,
+      "id": "db_EventInfo:87604:2",
+      "jp": "デス？",
+      "en": "Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74056,
+      "id": "db_EventInfo:87605:1",
+      "jp": "なんか雰囲気が……？",
+      "en": "The mood feels... different?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74057,
+      "id": "db_EventInfo:87606:0",
+      "jp": "アーマニーを取り巻く「圧」が変わった。思わずひれ伏してしまいそうなオーラを感じる。",
+      "en": "The 'pressure' around Armany changed. I felt an aura that almost made me want to kneel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74058,
+      "id": "db_EventInfo:87607:27",
+      "jp": "確かに……来てるようだな、蛮族どものニオイが海から来てるぜ",
+      "en": "Yeah... Seems they're here. I can smell the savages coming from the sea.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74059,
+      "id": "db_EventInfo:87608:27",
+      "jp": "もう時間がねェ。行くぞ【<pl>】ちゃん、出航だ！　蛮族どもを海の藻屑にしてやんぞ！！",
+      "en": "We're out of time. Let's go,【<pl>】-chan! We set sail! We'll turn those savages into sea foam!!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74060,
+      "id": "db_EventInfo:87609:0",
+      "jp": "【『魔の島』】に【『探索』】に行こう！",
+      "en": "Let's go to the【『Demon Island』】for【『Exploration』】!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74061,
+      "id": "db_EventInfo:87610:0",
+      "jp": "アーマニーの巧みな指揮により、ノーザリアの旗艦に突入した！",
+      "en": "Thanks to Armany's skilled command, we boarded the Northerlia flagship!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74062,
+      "id": "db_EventInfo:87612:27",
+      "jp": "よーし、あとは白兵戦だ",
+      "en": "Alright, now it's close-quarters combat.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74063,
+      "id": "db_EventInfo:87613:27",
+      "jp": "ここから先は、【<pl>】ちゃんの出番だ。任せたぜ？",
+      "en": "From here on out, it's your show,【<pl>】-chan. I'm counting on you, okay?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74064,
+      "id": "db_EventInfo:87614:1",
+      "jp": "はいっ！　お任せを！",
+      "en": "Yes! Leave it to me!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74065,
+      "id": "db_EventInfo:87615:2",
+      "jp": "オーラに気圧されるなデス",
+      "en": "Don't let her aura intimidate you, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74066,
+      "id": "db_EventInfo:87616:1",
+      "jp": "そんなこと言われても、あのアーマニーを前にすると震え上がってしまうというか",
+      "en": "Even if you say that, facing that Armany just makes me tremble.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74067,
+      "id": "db_EventInfo:87617:12",
+      "jp": "さすがは【『女帝』】ということですかね。こんな所にも駄犬マスターがいたとは",
+      "en": "Guess that's what being an 'Empress' means, huh? So there's a dog trainer master here too.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74068,
+      "id": "db_EventInfo:87618:2",
+      "jp": "オマエの前にいるのは【『死神』】なんデスが。なんで私を前にしている時より、腰が低くなってるデス",
+      "en": "What's in front of you is a 'Shinigami,' you know. Why are you more humble in front of her than when you're with me?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74069,
+      "id": "db_EventInfo:87619:1",
+      "jp": "いやなんというか、身体の方が勝手に……",
+      "en": "No, it's just... my body moved on its own...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74070,
+      "id": "db_EventInfo:87620:2",
+      "jp": "……まあいいデス、さっさとノースリンデを仕留めて、戦闘を終わらせるデス！",
+      "en": "...Fine, whatever. Hurry up and take down Northlinde, let's end this fight!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74071,
+      "id": "db_EventInfo:87621:1",
+      "jp": "いや、仕留めちゃダメと言うか、艦隊を引いてもらわないとだし、停戦協定を……",
+      "en": "No, we can't just take her down—we need her to withdraw the fleet and make a truce...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74072,
+      "id": "db_EventInfo:87622:27",
+      "jp": "おうよ。さっさと行くぜ、【<pl>】ちゃん！",
+      "en": "Hell yeah! Let's get moving, 【<pl>】!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74073,
+      "id": "db_EventInfo:87623:1",
+      "jp": "はいっ！　お供します！",
+      "en": "Yes, ma'am! I'll follow you!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74074,
+      "id": "db_EventInfo:87624:0",
+      "jp": "うっかり返事してしまう俺。",
+      "en": "I accidentally answered without thinking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74075,
+      "id": "db_EventInfo:87625:0",
+      "jp": "この有無を言わせぬ「圧」は、なんとなくキャトリナ姉さんを思い浮かべてしまうのであった。",
+      "en": "That overwhelming 'pressure' that leaves no room for argument reminds me of Catrina-sis somehow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74076,
+      "id": "db_EventInfo:87627:12",
+      "jp": "足が地に付いたらこちらのものですね。私の魔術で吹っ飛ばしてやります！",
+      "en": "Once we're on solid ground, it's our show. I'll blast them away with my magic!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74077,
+      "id": "db_EventInfo:87628:2",
+      "jp": "うっかり船を沈めるなデス？",
+      "en": "Don't blow up the ship by accident, okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74078,
+      "id": "db_EventInfo:87629:12",
+      "jp": "わ、わかってますよ！",
+      "en": "I-I know that!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 74079,
+      "id": "db_EventInfo:87630:27",
+      "jp": "ノースリンデのヤツを捕まえることを忘れるなよ",
+      "en": "Don't forget to capture Northlinde.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74080,
+      "id": "db_EventInfo:87631:27",
+      "jp": "うっかりヤツを沈めちまったら、ノーザリアの奴らは止まらなくなるぜ",
+      "en": "If you accidentally sink her, the Northalians will go crazy.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74081,
+      "id": "db_EventInfo:87632:2",
+      "jp": "オマエ、さっき藻屑にするぞとか言ってたデス！",
+      "en": "You were just saying you'd send her to the bottom!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74082,
+      "id": "db_EventInfo:87633:27",
+      "jp": "はっはっ。そんな昔のことは忘れたねぇ",
+      "en": "Ha ha. Let's forget that ancient history.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74083,
+      "id": "db_EventInfo:87634:27",
+      "jp": "なあ【<pl>】ちゃん、アタシはそんなこと言ってたかい？",
+      "en": "Hey 【<pl>】, did I really say that?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74084,
+      "id": "db_EventInfo:87635:1",
+      "jp": "いえ、記憶にございません",
+      "en": "No, I don't recall that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74085,
+      "id": "db_EventInfo:87636:2",
+      "jp": "オマエも従ってるんじゃないデス！！",
+      "en": "You're just going along with it!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74086,
+      "id": "db_EventInfo:87639:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 74087,
+      "id": "db_EventInfo:87640:23",
+      "jp": "まさか海戦で圧倒されるとは思わんかったわ",
+      "en": "I never thought we'd be overwhelmed in a sea battle.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74088,
+      "id": "db_EventInfo:87641:23",
+      "jp": "こんなん聞いてへんで。海に面してる言うても、ゼカリウスに海軍は存在しないとちゃうんか？",
+      "en": "I haven't heard about this. Even though they face the sea, doesn't Zecarius not have a navy?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74089,
+      "id": "db_EventInfo:87642:24",
+      "jp": "あの軍艦は【『<ruby=ソルシア>学院</ruby>』】のモノのようです",
+      "en": "Those warships seem to be from the 'Solsia Academy'.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 74090,
+      "id": "db_EventInfo:87643:24",
+      "jp": "どうやら、それらを接収して用いたようですね",
+      "en": "It appears they seized them and are using them.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 74091,
+      "id": "db_EventInfo:87644:23",
+      "jp": "はあっ！？　ってことは、急造の海軍兵力で、ウチらを圧倒してきおったんか！？",
+      "en": "Huh!? So you're saying they overwhelmed us with a makeshift navy!?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74092,
+      "id": "db_EventInfo:87645:24",
+      "jp": "……そのようで",
+      "en": "...That seems to be the case.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 74093,
+      "id": "db_EventInfo:87646:23",
+      "jp": "なんやそれ、どんなバケモンが率いてるんや",
+      "en": "What the hell? What kind of monster is leading them?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74094,
+      "id": "db_EventInfo:87648:23",
+      "jp": "ふふ、ここまで来たか、【<pl>】はん",
+      "en": "Hehe, so you've come this far, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74095,
+      "id": "db_EventInfo:87649:1",
+      "jp": "ノースリンデ！",
+      "en": "Northlinde!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 74096,
+      "id": "db_EventInfo:87650:23",
+      "jp": "そうや、久しぶりやなぁД",
+      "en": "That's right. Long time no seeД.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74097,
+      "id": "db_EventInfo:87651:2",
+      "jp": "こいつ。どのツラ下げて言ってるデス……！",
+      "en": "This guy. How dare he say that...!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 74098,
+      "id": "db_EventInfo:87652:27",
+      "jp": "話は後だ、姫将軍さんよ",
+      "en": "Talk later, Princess-General.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 74099,
+      "id": "db_EventInfo:87653:23",
+      "jp": "ははーん。大方、急造の海軍を率いているのはソイツやな",
+      "en": "Hah. I bet that one's the leader of the makeshift navy.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 74100,
+      "id": "db_EventInfo:87654:23",
+      "jp": "【<pl>】はんってば、とんでもないヤツを引き入れたもんやなぁ",
+      "en": "【<pl>】, you sure pulled in someone incredible.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    }
+  ]
+}

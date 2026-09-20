@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1101,
+  "range_end": 1200,
+  "pairs": [
+    {
+      "n": 1101,
+      "id": "db_EventInfo:1364:111",
+      "jp": "急所を突けば一撃は強いんだけど、もともとの火力が無いのよね",
+      "en": "They can be strong with a critical hit, but their base damage is low.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1102,
+      "id": "db_EventInfo:1365:111",
+      "jp": "盗賊に一番重要なスキルは【逃走成功率を高めるスキル】でしょ",
+      "en": "The most important skill for a thief is [skills that boost escape chance].",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1103,
+      "id": "db_EventInfo:1366:111",
+      "jp": "形勢が不利になってから逃げて、その時に逃げに失敗したら目も当てられないし。保険ってヤツよね",
+      "en": "When things go bad and you run, failing to escape is the worst. It's like insurance.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1104,
+      "id": "db_EventInfo:1367:111",
+      "jp": "一部のスキルは【クリティカルヒット】の確率や威力を高めることができる",
+      "en": "Some skills can raise [critical hit] chance and power.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1105,
+      "id": "db_EventInfo:1368:111",
+      "jp": "攻撃力を上乗せできるし、パッシブスキルなら常に効果があるから取り得よね",
+      "en": "They add attack power, and if they're passive, they're always on. It's a good deal.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1106,
+      "id": "db_EventInfo:1369:111",
+      "jp": "まあ……珍しいスキルだから、それができるヤツに限るんだけど",
+      "en": "Well... those skills are rare, so only a few can use them.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1107,
+      "id": "db_EventInfo:1370:111",
+      "jp": "【『イルニエル大灯台』】に向かったベテランパーティーが壊滅したそうよ",
+      "en": "I heard the veteran party that went to the [Iluniel Great Lighthouse] got wiped out.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1108,
+      "id": "db_EventInfo:1371:111",
+      "jp": "【『ゴブリン』】の仕掛けたトラップに引っかかったそうで……やっぱ、アイツの言ったとおりなのね",
+      "en": "They fell for a [Goblin] trap... just like he said would happen.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1109,
+      "id": "db_EventInfo:1372:111",
+      "jp": "言質とったわよ～うふふД",
+      "en": "I got it in writing~ HeheheД",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1110,
+      "id": "db_EventInfo:1373:111",
+      "jp": "あんな目に遭ったときは人生終わったと思ったけど、怪我の功名ってヤツよね～Д",
+      "en": "When I went through all that, I thought my life was over, but I guess it was a blessing in disguise~Д",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1111,
+      "id": "db_EventInfo:1374:111",
+      "jp": "これからドンドン追い詰めてやるわД",
+      "en": "From now on, I'm going to corner them step by stepД",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1112,
+      "id": "db_EventInfo:1375:111",
+      "jp": "うふふ、アイツったらようやく覚悟を決めてくれたわД",
+      "en": "Hehehe, they finally made up their mindД",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1113,
+      "id": "db_EventInfo:1376:111",
+      "jp": "密偵なんて仕事は足を洗って、次は行商人か劇団員でもやろうかしら？",
+      "en": "Maybe I should quit this spy business and become a merchant or an actor next?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1114,
+      "id": "db_EventInfo:1377:111",
+      "jp": "うーん……",
+      "en": "Hmm...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1115,
+      "id": "db_EventInfo:1378:111",
+      "jp": "ヒュームのヤツを救って、大ピンチになった私だけど。そのピンチも見事に回避して、脱出してやったわ！",
+      "en": "I saved Hyumu and ended up in a huge pinch. But I avoided that pinch brilliantly and got out!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1116,
+      "id": "db_EventInfo:1379:111",
+      "jp": "……なんだか、すごく勿体ないことをしたような気がするけど。まあいいか！",
+      "en": "...Somehow, I feel like I did something really wasteful. But oh well!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1117,
+      "id": "db_EventInfo:1380:111",
+      "jp": "うーん、アイツったら花屋を始めるとか言い出したわ",
+      "en": "Hmm, they said they're starting a flower shop.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1118,
+      "id": "db_EventInfo:1381:111",
+      "jp": "私も密偵なんて仕事は足を洗って、次は行商人か劇団員でもやろうかしら？　【<pl>】さんも考えてくれない？",
+      "en": "Maybe I should quit this spy business too and become a merchant or an actor next? What do you think, 【<pl>】?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1119,
+      "id": "db_EventInfo:1382:130",
+      "jp": "探索者のスキルは重要だ。マッピングに罠探知、冒険者には必須の技能と言える",
+      "en": "Explorer skills are important. Mapping and trap detection are essential skills for an adventurer.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1120,
+      "id": "db_EventInfo:1383:111",
+      "jp": "でもそれって、宝探しをしなければ、なくてもいいんじゃないの？",
+      "en": "But if you're not treasure hunting, you don't really need them, right?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1121,
+      "id": "db_EventInfo:1384:130",
+      "jp": "だからオマエは素人なんだ",
+      "en": "That's why you're such an amateur.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1122,
+      "id": "db_EventInfo:1385:111",
+      "jp": "だれが素人だよ！",
+      "en": "Who are you calling an amateur?!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1123,
+      "id": "db_EventInfo:1386:130",
+      "jp": "【『ダンジョン』】に仕掛けられた【罠】は危険だ……ヘタすれば大型の魔獣よりも危険だ",
+      "en": "Traps in dungeons are dangerous... sometimes more than large monsters.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1124,
+      "id": "db_EventInfo:1387:130",
+      "jp": "それに【『探索』】のスキルは攻撃的に発展するものも多い。他のメンバーと協力すれば更に効果が出る",
+      "en": "Also, many exploration skills develop for offense. Working with others makes them even better.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1125,
+      "id": "db_EventInfo:1388:111",
+      "jp": "ふーん",
+      "en": "Hmm.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1126,
+      "id": "db_EventInfo:1389:130",
+      "jp": "【『フレスミス森林道』】は自然の迷路、【『探索』】ができる者は必須だ",
+      "en": "The Fressmiss Forest Path is a natural maze. You need someone who can explore.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1127,
+      "id": "db_EventInfo:1390:111",
+      "jp": "【罠】が危ないってんでしょ？　それなら、怪しいところを避ければ良いじゃない",
+      "en": "You said traps are dangerous, right? Then we can just avoid any suspicious spots.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1128,
+      "id": "db_EventInfo:1391:130",
+      "jp": "怪しく見えない場所に設置するのが【罠】なのだ、この三下が",
+      "en": "That's what a trap is, you third-rater. They're placed where they don't look suspicious.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1129,
+      "id": "db_EventInfo:1392:111",
+      "jp": "誰が三下よ！",
+      "en": "Who's a third-rater?!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1130,
+      "id": "db_EventInfo:1393:130",
+      "jp": "【罠】は【『探索』】の罠察知のスキルがない人間には見えない。スキルがあれば危険はわかるが……",
+      "en": "People without the trap detection skill from exploration can't see traps. The skill lets you sense danger, but...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1131,
+      "id": "db_EventInfo:1394:130",
+      "jp": "ないならば、危険が増える。獲得できるはずの宝をむだにすることもあるんだぞ",
+      "en": "Without it, danger increases. You might even waste treasure you could have gotten.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1132,
+      "id": "db_EventInfo:1395:130",
+      "jp": "【『ドルワミール鉱山』】が【『ゴブリン』】どもに占拠されたそうだな",
+      "en": "I hear the Dolwamir Mine has been taken over by Goblins.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1133,
+      "id": "db_EventInfo:1396:130",
+      "jp": "【『ゴブリン』】はずる賢く【罠】を張る。いわば【『探索』】を相手にするようなものだ",
+      "en": "Goblins are clever and set traps. It's like they're trying to out-think 'explorers'.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1134,
+      "id": "db_EventInfo:1397:111",
+      "jp": "うちらの同業とでもいうの？",
+      "en": "So they're sort of like our rivals, you mean?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1135,
+      "id": "db_EventInfo:1398:130",
+      "jp": "だからオマエは三流盗賊なのだ",
+      "en": "That's why you're a third-rate thief.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1136,
+      "id": "db_EventInfo:1399:111",
+      "jp": "だれが三流盗賊よ！",
+      "en": "Who are you calling a third-rate thief!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1137,
+      "id": "db_EventInfo:1400:130",
+      "jp": "【『ゴブリン』】は【罠】を張る。しかし我々一流の盗賊にとっては児戯のようなものだ",
+      "en": "Goblins set traps. But for us first-class thieves, it's child's play.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1138,
+      "id": "db_EventInfo:1401:130",
+      "jp": "……もっとも、その児戯に多くのベテラン冒険者も苦戦を強いられるようだが",
+      "en": "...Though, to be fair, even many veteran adventurers struggle with that 'child's play'.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1139,
+      "id": "db_EventInfo:1402:130",
+      "jp": "【クリティカルヒット】に成功すると、通常の倍のダメージを与えることができる",
+      "en": "A Critical Hit does double the normal damage.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1140,
+      "id": "db_EventInfo:1403:130",
+      "jp": "しかも防御力をある程度貫通できる、非常に強力な攻撃だ",
+      "en": "It's a very powerful attack that can even ignore some defense.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1141,
+      "id": "db_EventInfo:1404:111",
+      "jp": "なるほど。じゃあ必殺率の高い攻撃を使わなきゃね！",
+      "en": "I see. So we need to use attacks with a high crit chance!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1142,
+      "id": "db_EventInfo:1405:130",
+      "jp": "脳筋め",
+      "en": "You meathead.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1143,
+      "id": "db_EventInfo:1406:111",
+      "jp": "だれが脳筋よ！",
+      "en": "Who are you calling a meathead!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1144,
+      "id": "db_EventInfo:1407:130",
+      "jp": "一撃が大きいスキルは命中率が低いことが多い。やみくもに攻撃力だけを求めるな",
+      "en": "Skills with big single hits often have low accuracy. Don't just blindly focus on attack power.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1145,
+      "id": "db_EventInfo:1408:111",
+      "jp": "そうね、堅実に頑張る……",
+      "en": "Yeah, I'll play it safe and do my best...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1146,
+      "id": "db_EventInfo:1409:130",
+      "jp": "まあ俺は高威力スキル使うけどね",
+      "en": "Well, I'm gonna use my high-power skill.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1147,
+      "id": "db_EventInfo:1410:111",
+      "jp": "待てい",
+      "en": "Wait.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1148,
+      "id": "db_EventInfo:1411:111",
+      "jp": "けほけほ……まだ喉が痛いわね……",
+      "en": "*Cough*... My throat still hurts...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1149,
+      "id": "db_EventInfo:1412:130",
+      "jp": "盗賊ギルドから指令が下っている。支度を終えたら行くぞ",
+      "en": "We've got orders from the Thieves' Guild. We're heading out once we're ready.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1150,
+      "id": "db_EventInfo:1413:111",
+      "jp": "うん……",
+      "en": "Okay...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1151,
+      "id": "db_EventInfo:1414:111",
+      "jp": "ったく、あのクソオヤジめ……",
+      "en": "Seriously, that damn old man...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1152,
+      "id": "db_EventInfo:1415:130",
+      "jp": "領主の一味に輪姦されたんだってな？　ははっ、トロいからそうなるんだ",
+      "en": "Heard the lord's gang had their way with you? Haha, you're just too slow, that's why.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1153,
+      "id": "db_EventInfo:1416:111",
+      "jp": "あんたねぇ……アンタを庇ったから、あんな目にあったのよ！",
+      "en": "You... I went through that because I was covering for you!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1154,
+      "id": "db_EventInfo:1417:130",
+      "jp": "おかけで任務を遂行できた。感謝するぞ",
+      "en": "Because of that, I finished the mission. I'm grateful.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1155,
+      "id": "db_EventInfo:1418:111",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1156,
+      "id": "db_EventInfo:1419:130",
+      "jp": "俺が身代わりになり、お前を逃がせば、時間稼ぎどころかその場で殺されていたからな",
+      "en": "If I took your place and let you escape, I would've been killed right then, not just buying time.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1157,
+      "id": "db_EventInfo:1420:130",
+      "jp": "その後は、お前も捕まって、同じことになる……助けを呼べない分、もっと酷い目に遭ってただろうな",
+      "en": "After that, you would've gotten caught too. You would have gone through the same thing... It probably would've been even worse for you since you couldn't call for help.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1158,
+      "id": "db_EventInfo:1421:111",
+      "jp": "だからって……",
+      "en": "Even so...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1159,
+      "id": "db_EventInfo:1422:130",
+      "jp": "お前は美人だからな。男なら簡単に放っておかないもんな",
+      "en": "You're a beautiful woman. Any man would find it hard to just leave you alone.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1160,
+      "id": "db_EventInfo:1423:111",
+      "jp": "ううっ……そんなこと言われても……っ！",
+      "en": "Ugh... Even if you say that...!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1161,
+      "id": "db_EventInfo:1424:111",
+      "jp": "そもそも、アンタがしくじらなきゃ、捕まることもなかったんじゃないっ！",
+      "en": "If you hadn't messed up in the first place, maybe we wouldn't have been caught at all!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1162,
+      "id": "db_EventInfo:1425:130",
+      "jp": "うっ",
+      "en": "Oof.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1163,
+      "id": "db_EventInfo:1426:111",
+      "jp": "責任取ってもらうからねッ！　覚悟しなさいよっ！！",
+      "en": "You're taking responsibility for this! You'd better be ready!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1164,
+      "id": "db_EventInfo:1427:130",
+      "jp": "ハイ！",
+      "en": "Yes, ma'am!",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1165,
+      "id": "db_EventInfo:1428:111",
+      "jp": "ったく、あのクソオヤジめ……",
+      "en": "Ugh, that damn old man...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1166,
+      "id": "db_EventInfo:1429:130",
+      "jp": "領主の一味に捕まりそうになったんだってな？　ははっ、トロいからそうなるんだ",
+      "en": "Heard you almost got caught by the Lord's gang? Haha, you're too slow, that's why it happens.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1167,
+      "id": "db_EventInfo:1430:111",
+      "jp": "あんたねぇ……アンタを庇ったから、あんな目にあったのよ！",
+      "en": "Hey, you... I went through all that because I was covering for you!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1168,
+      "id": "db_EventInfo:1431:130",
+      "jp": "うっ",
+      "en": "Urk.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1169,
+      "id": "db_EventInfo:1432:111",
+      "jp": "アンタが身代わりになったら、その場で殺されていたでしょーね",
+      "en": "If you had taken my place, you would have been killed on the spot.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1170,
+      "id": "db_EventInfo:1433:111",
+      "jp": "なんせ私は美人だからね。男なら簡単に放っておかないのよД",
+      "en": "Because I'm a beautiful woman, after all. Men can't easily let that goД",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1171,
+      "id": "db_EventInfo:1434:111",
+      "jp": "おかけで任務を遂行できたでしょ。感謝してよД",
+      "en": "Thanks to that, we could finish the mission. You should be gratefulД",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1172,
+      "id": "db_EventInfo:1435:130",
+      "jp": "まったく……すぐに調子に乗る。そこがお前の欠点だ",
+      "en": "Seriously... you get carried away so fast. That's your weak point.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1173,
+      "id": "db_EventInfo:1436:111",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1174,
+      "id": "db_EventInfo:1437:130",
+      "jp": "といっても。お前に助けられなかったら、俺は死んでいただろう。感謝する",
+      "en": "But saying that. If you hadn't helped me, I'd be dead. Thanks.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1175,
+      "id": "db_EventInfo:1438:111",
+      "jp": "うっ……真面目にそんなこと言われても……っ！",
+      "en": "Ugh... Don't say something so serious all of a sudden...!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1176,
+      "id": "db_EventInfo:1439:130",
+      "jp": "じゃあここまでにしとくか",
+      "en": "I guess I'll stop here then.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1177,
+      "id": "db_EventInfo:1440:111",
+      "jp": "おいっ！",
+      "en": "Hey!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1178,
+      "id": "db_EventInfo:1441:111",
+      "jp": "領主ゼルカが討伐されたようね",
+      "en": "Seems like Lord Zelka has been defeated.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1179,
+      "id": "db_EventInfo:1442:130",
+      "jp": "ああ。領主ゼルカは【『邪教徒』】の首魁であり、禁忌の術により異形化していたらしい",
+      "en": "Yeah. Lord Zelka was the leader of the 【『cultists』】 and apparently transformed into a monster using forbidden magic.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1180,
+      "id": "db_EventInfo:1443:111",
+      "jp": "異形化ねぇ。人間の範疇を超えてまで欲しい力があったのかしら",
+      "en": "A transformation, huh. I wonder what kind of power he wanted so badly that he went beyond being human.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1181,
+      "id": "db_EventInfo:1444:111",
+      "jp": "そんなものなくても、ゼカリウスの領主として一番権力があったじゃない",
+      "en": "Even without that, Zecarius had the most power as the lord.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1182,
+      "id": "db_EventInfo:1445:130",
+      "jp": "人の欲には限界がないのかもしれんな……",
+      "en": "Maybe people's greed has no limits...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1183,
+      "id": "db_EventInfo:1446:111",
+      "jp": "ゼルカがなくなったわけだけど、新しい領主は誰がなるのかしら",
+      "en": "Zelka is gone, so who will be the new lord?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1184,
+      "id": "db_EventInfo:1447:130",
+      "jp": "ふむ……誰がなったとしても、次の監視対象がその人物になるだけであろう",
+      "en": "Hmm... No matter who it is, they'll just become our next target to watch.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1185,
+      "id": "db_EventInfo:1448:111",
+      "jp": "領主が変わったのはいいけど、赴任したてなのをいいことに、裏組織の奴らが好き勝手してるわね",
+      "en": "A change in lords is fine, but those underground groups are taking advantage of the new arrival to do as they please.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1186,
+      "id": "db_EventInfo:1449:130",
+      "jp": "【詐欺グループ】のことか……",
+      "en": "The [fraud group]...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1187,
+      "id": "db_EventInfo:1450:130",
+      "jp": "奴らは法の編み目を掻い潜って悪行をなしている。狡猾さは【『邪教徒』】と変わりない",
+      "en": "They slip through legal loopholes to commit their crimes. They're as cunning as the 【『cultists』】.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1188,
+      "id": "db_EventInfo:1451:111",
+      "jp": "あーあ！　表から踏み込んじゃえば、悪事の証拠なんて山盛りでしょうに",
+      "en": "Ugh! If you just busted in openly, you'd find tons of evidence of their crimes.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1189,
+      "id": "db_EventInfo:1452:130",
+      "jp": "詐欺グループには協力者も多い、そう簡単にはいかないだろう",
+      "en": "The fraud group has many collaborators. It won't be that easy.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1190,
+      "id": "db_EventInfo:1453:111",
+      "jp": "最近、【『退魔の一族』】の話を聞くわね",
+      "en": "Lately, I've been hearing talk of the 【『Demon-Slaying Clan』】.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1191,
+      "id": "db_EventInfo:1454:130",
+      "jp": "ああ。異国の術法を使うといわれる、魔に特化した戦闘術を身につけた者たちだ",
+      "en": "Yes. They are said to use foreign techniques, specializing in combat against demons.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1192,
+      "id": "db_EventInfo:1455:130",
+      "jp": "彼女らは呪術に対する強い耐性と、邪悪な存在への強力な攻撃手段を持ち合わせているらしい",
+      "en": "It seems they have strong resistance to curses and powerful means of attacking evil beings.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1193,
+      "id": "db_EventInfo:1456:111",
+      "jp": "物理的な攻撃しかできない私達にはうらやましいわねぇ",
+      "en": "We can only make physical attacks. I'm kind of jealous.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1194,
+      "id": "db_EventInfo:1457:111",
+      "jp": "でも私達には、この諜報能力があるし？",
+      "en": "But we have our spying skills, right?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1195,
+      "id": "db_EventInfo:1458:130",
+      "jp": "【『退魔の一族』】は市井に混じって活動する。諜報能力も我々に遜色ないと聞くが？",
+      "en": "The 'Exorcist Clan' works among the people. I hear their spy skills are just as good as ours?",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1196,
+      "id": "db_EventInfo:1459:111",
+      "jp": "ええーっ？　それじゃ、なんでもありじゃない！！",
+      "en": "Huh? So they can do anything!?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1197,
+      "id": "db_EventInfo:1460:111",
+      "jp": "アーマニア海にノーザリアの連中が集まってるようね？",
+      "en": "Seems like Northalia's people are gathering in the Armena Sea?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1198,
+      "id": "db_EventInfo:1461:130",
+      "jp": "ああ。平和条約の穴を突いて、軍艦を回しているらしい",
+      "en": "Yeah. Looks like they're moving warships, using a loophole in the peace treaty.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1199,
+      "id": "db_EventInfo:1462:111",
+      "jp": "ゼカリウスには海軍の準備がないものね～。大丈夫なのかしら",
+      "en": "Zecarius doesn't have a navy ready~. I wonder if they'll be okay.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1200,
+      "id": "db_EventInfo:1463:130",
+      "jp": "あまりよくないな……しかし現在、ゼカリウスの港にはソルシアの軍艦が停泊している",
+      "en": "Not great... But right now, Solthia's warships are docked at Zecarius's port.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95101,
+  "range_end": 95200,
+  "pairs": [
+    {
+      "n": 95101,
+      "id": "db_EventInfo:112378:1",
+      "jp": "マリーゼル……",
+      "en": "Marisel...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95102,
+      "id": "db_EventInfo:112379:206",
+      "jp": "ふん、それでいいのだ……では、行くぞ",
+      "en": "Hmph, that's more like it... Now, let's go.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95103,
+      "id": "db_EventInfo:112380:203",
+      "jp": "はっ！",
+      "en": "Hah!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95104,
+      "id": "db_EventInfo:112381:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95105,
+      "id": "db_EventInfo:112382:0",
+      "jp": "マリーゼルの父親は兵士たちに指示し、マリーゼルを連れて行こうとする。",
+      "en": "Marisel's father orders the soldiers and tries to take Marisel away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95106,
+      "id": "db_EventInfo:112384:15",
+      "jp": "まあ待ちたまえ、クシエル侯",
+      "en": "Now wait a moment, Lord Ksiel.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95107,
+      "id": "db_EventInfo:112385:0",
+      "jp": "そこにやってきたのはデシルスだった。",
+      "en": "The one who arrived there was Desilus.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95108,
+      "id": "db_EventInfo:112386:15",
+      "jp": "彼女は【心残り】があるようだ。家に戻るのは、それを果たしてからで良いのではないかな？",
+      "en": "It seems she has some lingering regrets. Wouldn't it be better for her to return home after fulfilling them?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95109,
+      "id": "db_EventInfo:112387:206",
+      "jp": "なんだと……？",
+      "en": "What's that...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95110,
+      "id": "db_EventInfo:112388:15",
+      "jp": "彼女は何年も神官としての修行をし、短い間だが神官として、冒険者をしている",
+      "en": "She trained for years as a shrine maiden, and though briefly, she has been working as a shrine maiden and an adventurer.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95111,
+      "id": "db_EventInfo:112389:15",
+      "jp": "その間に行なった神官の仕事を放り投げ、責務を果たしていないというのは、彼女の経歴に傷を付けることになるだろう",
+      "en": "If she abandons her shrine maiden duties during that time and doesn't fulfill her responsibilities, it will tarnish her record.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95112,
+      "id": "db_EventInfo:112390:206",
+      "jp": "ふ、ふん……そんなこと、嫁に行けば関係ない",
+      "en": "Hmph... That won't matter once she's married off.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95113,
+      "id": "db_EventInfo:112391:15",
+      "jp": "クシエル侯の子女を娶るような者が、中途半端な仕事しかしていない者をどう思うかな？",
+      "en": "What kind of person do you think would marry the child of Lord Ksiel? One who only does half-finished work?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95114,
+      "id": "db_EventInfo:112392:15",
+      "jp": "それに、貴方の一存は【『<ruby=ヒエペリオ>教会</ruby>』】の活動を妨害する行為だ",
+      "en": "Moreover, your arbitrary decision is an act that obstructs the activities of the Hyperion Church.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95115,
+      "id": "db_EventInfo:112393:15",
+      "jp": "彼らの範疇を荒らすということなら、あの組織と【『聖王』】を敵に回すことになると思われるけど？",
+      "en": "If you mess with their turf, you'll make enemies of that organization and the 'Saint King'. You know that, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95116,
+      "id": "db_EventInfo:112394:206",
+      "jp": "うっ……",
+      "en": "Urgh...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95117,
+      "id": "db_EventInfo:112395:206",
+      "jp": "そ、そんなことを言って、引き延ばすつもりだろう！",
+      "en": "Y-you're just saying that to stall!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95118,
+      "id": "db_EventInfo:112396:15",
+      "jp": "ははは。そんなことは言わないよ、数日のうちには【心残り】も解決するはずさ",
+      "en": "Hahaha. I wouldn't do that. I should wrap up my 'unfinished business' in a few days.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95119,
+      "id": "db_EventInfo:112397:206",
+      "jp": "むう……いいだろう",
+      "en": "Mmmph... Fine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95120,
+      "id": "db_EventInfo:112398:206",
+      "jp": "その間は、娘を預けておいてやる……。いいか、娘をどこかにやろうと思うなよ！",
+      "en": "I'll leave my daughter here until then. Got it? Don't even think about sending her somewhere else!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95121,
+      "id": "db_EventInfo:112399:0",
+      "jp": "そう言い捨て、マリーゼルの父親は帰っていった。",
+      "en": "With that final remark, Marisel's father left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95122,
+      "id": "db_EventInfo:112402:15",
+      "jp": "ふう、なんとかなったようだね",
+      "en": "Whew, looks like we managed it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95123,
+      "id": "db_EventInfo:112404:2",
+      "jp": "助かったデス。オマエの口八丁には助けられたデス",
+      "en": "Saved by your silver tongue, we were, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95124,
+      "id": "db_EventInfo:112405:15",
+      "jp": "はっはっ",
+      "en": "Hah hah.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95125,
+      "id": "db_EventInfo:112406:15",
+      "jp": "まあ、これはあくまで一時しのぎでしかないからね",
+      "en": "Well, this is only a temporary fix, after all.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95126,
+      "id": "db_EventInfo:112407:2",
+      "jp": "なんとかならないのデスか？",
+      "en": "Can't we do anything about it, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95127,
+      "id": "db_EventInfo:112408:15",
+      "jp": "うーん。相手は【『クシエル侯爵家』】という、れっきとした貴族だ。平民の店長君たちがどうこうするのは難しいね",
+      "en": "Hmm. The other party is a proper noble house, the \"Kushiel Marquis Family.\" It would be hard for commoner store managers like you to do much about it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95128,
+      "id": "db_EventInfo:112409:2",
+      "jp": "使えないヤツデス",
+      "en": "You're useless.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95129,
+      "id": "db_EventInfo:112410:15",
+      "jp": "ひどいなぁ！",
+      "en": "That's harsh!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95130,
+      "id": "db_EventInfo:112411:15",
+      "jp": "ま、まあ……マリーゼル君も気持ちの整理ぐらいは必要だろう？",
+      "en": "W-well... Marisel probably needs some time to sort out his feelings, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95131,
+      "id": "db_EventInfo:112412:15",
+      "jp": "その、最後にやり残したことはあるんじゃないかな？",
+      "en": "Like, maybe there's something left unfinished?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95132,
+      "id": "db_EventInfo:112413:6",
+      "jp": "私の【心残り】……ですか？　心当たりがありませんが……",
+      "en": "My regrets...? I can't think of anything...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95133,
+      "id": "db_EventInfo:112414:2",
+      "jp": "……おいデシルス、もしかして、マリーゼルの【心残り】ってのは",
+      "en": "...Hey Desilus, what if Marisel's \"regret\" is...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95134,
+      "id": "db_EventInfo:112415:15",
+      "jp": "えっ？　そりゃもちろん、その場しのぎの言い訳さ！",
+      "en": "Huh? Of course that was just a convenient excuse!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95135,
+      "id": "db_EventInfo:112416:2",
+      "jp": "オマエ、やっぱりペテン師デス？",
+      "en": "You really are a con man, aren't you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95136,
+      "id": "db_EventInfo:112417:15",
+      "jp": "はっはっ！　そんなに褒めないでくれたまえよ",
+      "en": "Haha! Don't flatter me so much.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 95137,
+      "id": "db_EventInfo:112418:6",
+      "jp": "あっ……",
+      "en": "Ah...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95138,
+      "id": "db_EventInfo:112420:6",
+      "jp": "ありましたわ……",
+      "en": "There was something...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95139,
+      "id": "db_EventInfo:112421:1",
+      "jp": "マリーゼル……？",
+      "en": "Marisel...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95140,
+      "id": "db_EventInfo:112422:6",
+      "jp": "ポンタの埋葬をしたいのです",
+      "en": "I want to bury Ponta.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95141,
+      "id": "db_EventInfo:112423:1",
+      "jp": "ポンタの？",
+      "en": "Ponta's?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95142,
+      "id": "db_EventInfo:112424:2",
+      "jp": "アイツは【『メテトス百穴古墳』】でオマエを庇って死んだデス",
+      "en": "He died protecting you in the 'Hundred-Hole Barrows of Metetos'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95143,
+      "id": "db_EventInfo:112425:6",
+      "jp": "ええ……彼がいなければ、私はここにはいられませんでした",
+      "en": "Yes... If not for him, I wouldn't be here.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95144,
+      "id": "db_EventInfo:112426:6",
+      "jp": "ですから、彼が死んだ場所に連れて行って欲しいのです",
+      "en": "So, please take me to the place where he died.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95145,
+      "id": "db_EventInfo:112427:6",
+      "jp": "ポンタは……私に夢を見せてくれた人ですから……",
+      "en": "Ponta... He showed me a dream...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95146,
+      "id": "db_EventInfo:112428:1",
+      "jp": "……そうだな、わかった",
+      "en": "...Yeah, okay. I understand.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95147,
+      "id": "db_EventInfo:112429:6",
+      "jp": "ありがとうございますわ！",
+      "en": "Thank you so much!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95148,
+      "id": "db_EventInfo:112430:1",
+      "jp": "(【『探索』】で【『メテトス百穴古墳』】に向かおう)",
+      "en": "(Let's head for the 'Hundred-Hole Barrows of Metetos' using the 'Explore' option.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95149,
+      "id": "db_EventInfo:112431:1",
+      "jp": "たしかこの辺りが……",
+      "en": "I think it was around here...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95150,
+      "id": "db_EventInfo:112433:0",
+      "jp": "ダンジョンの地形に見覚えがある場所を見つけた。",
+      "en": "I found a spot in the dungeon that looked familiar.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95151,
+      "id": "db_EventInfo:112434:2",
+      "jp": "ポンタとかいう人間の遺体があった場所デス",
+      "en": "This is the place where there was a human body, Ponta was his name.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95152,
+      "id": "db_EventInfo:112435:6",
+      "jp": "ここでポンタが……",
+      "en": "Ponta was here...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95153,
+      "id": "db_EventInfo:112436:0",
+      "jp": "その場所にはすでに肉片はない。ダンジョンの魔物に喰われたのだろうか。",
+      "en": "There are no pieces of flesh there now. Maybe the dungeon monsters ate them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95154,
+      "id": "db_EventInfo:112437:0",
+      "jp": "そして彼の遺品は俺が持っている。",
+      "en": "And I have his things.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95155,
+      "id": "db_EventInfo:112438:6",
+      "jp": "ありがとうポンタ……",
+      "en": "Thank you, Ponta...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95156,
+      "id": "db_EventInfo:112439:6",
+      "jp": "アナタのおかげで、わたくしは生きのびることができました",
+      "en": "Because of you, I was able to survive.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95157,
+      "id": "db_EventInfo:112440:6",
+      "jp": "やすらかに眠ってください、ポンタ……",
+      "en": "Rest peacefully, Ponta...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95158,
+      "id": "db_EventInfo:112441:2",
+      "jp": "安らかに眠るデス……ん？",
+      "en": "Rest peacefully... huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95159,
+      "id": "db_EventInfo:112443:2",
+      "jp": "……むっ",
+      "en": "...Mmm.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95160,
+      "id": "db_EventInfo:112444:0",
+      "jp": "★白フェード",
+      "en": "The screen fades to white.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95161,
+      "id": "db_EventInfo:112446:1",
+      "jp": "どうしたシイネ……うわっ！",
+      "en": "What is it, Shiine... Whoa!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95162,
+      "id": "db_EventInfo:112450:0",
+      "jp": "★フェードクリア",
+      "en": "The screen clears.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95163,
+      "id": "db_EventInfo:112451:2",
+      "jp": "マリーゼルの身体から、すさまじい力を感じるデス。まさか、これは……",
+      "en": "I can feel a huge power coming from Marisel's body. Wait, is this...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95164,
+      "id": "db_EventInfo:112452:2",
+      "jp": "なるほど、こいつも本来なら死んでいたハズ……。それをオマエが運命をねじまげて、救ったデス",
+      "en": "I get it... She was supposed to die too... But you twisted fate and saved her.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95165,
+      "id": "db_EventInfo:112453:2",
+      "jp": "本来死すべきだった運命を変えたことで、【『儀式』】を行なったのと同等の結果をもたらしたのデスね……！",
+      "en": "By changing a fate that should have ended in death, you created the same result as performing the 'Ritual'!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95166,
+      "id": "db_EventInfo:112454:6",
+      "jp": "わたくしはずっと守られておりました……でも",
+      "en": "I've always been protected... But",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95167,
+      "id": "db_EventInfo:112455:6",
+      "jp": "わたくしも、皆を守れるように、強くならないと……！",
+      "en": "I need to get stronger too... so I can protect everyone!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95168,
+      "id": "db_EventInfo:112456:0",
+      "jp": "死の運命を乗り越えたマリーゼルは、眠っていた才能を覚醒させた！",
+      "en": "Marisel, who overcame the fate of death, awakened her sleeping talent!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95169,
+      "id": "db_EventInfo:112457:0",
+      "jp": "もはやこの場所に用はない。俺達は帰路につくことにした。",
+      "en": "We have no business here anymore. We decided to head back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95170,
+      "id": "db_EventInfo:112458:0",
+      "jp": "もはやこの場所に用はない。俺達は帰路につくことにした。",
+      "en": "We have no business here anymore. We decided to head back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95171,
+      "id": "db_EventInfo:112461:2",
+      "jp": "おいオマエ、マリーゼルの父親が来てしまったデス",
+      "en": "Hey, you. Marisel's father is here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95172,
+      "id": "db_EventInfo:112462:2",
+      "jp": "マリーゼルを出せと叫んでるデスよ",
+      "en": "He's yelling to hand Marisel over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95173,
+      "id": "db_EventInfo:112463:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95174,
+      "id": "db_EventInfo:112467:0",
+      "jp": "マリーゼルを連れて行かれるわけにはいかない。",
+      "en": "I can't let them take Marisel away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95175,
+      "id": "db_EventInfo:112468:0",
+      "jp": "しかし、彼女の父親に対し、俺が抗弁できる理由はない……。",
+      "en": "But I had no reason to argue against her father...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95176,
+      "id": "db_EventInfo:112469:0",
+      "jp": "俺は引き留めることが出来ず、マリーゼルを連れ去られてしまった。",
+      "en": "I couldn't stop him. Marisel was taken away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95177,
+      "id": "db_EventInfo:112470:0",
+      "jp": "そして、【『死神パワー』】の尽きた俺は、あっけなく【過労死】してしまった。",
+      "en": "And with my 'Shinigami Power' used up, I just died from overwork. Easy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95178,
+      "id": "db_EventInfo:112475:2",
+      "jp": "ざんねん、オマエの人生は終わってしまったデス",
+      "en": "Too bad. Your life is over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95179,
+      "id": "db_EventInfo:112476:2",
+      "jp": "死因は過労死デスね",
+      "en": "Cause of death: Overwork.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95180,
+      "id": "db_EventInfo:112477:2",
+      "jp": "今回もマリーゼルを奪われてしまったデス。なにかと取り合いの多い娘デスね",
+      "en": "This time, you lost Marisel again. She's a popular girl.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95181,
+      "id": "db_EventInfo:112478:1",
+      "jp": "むう……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95182,
+      "id": "db_EventInfo:112479:2",
+      "jp": "オマエ、アイツに頼まれごとをされてたデス？　さっさと叶えてやるデス",
+      "en": "Hey, did she ask you for a favor? Go ahead and grant it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95183,
+      "id": "db_EventInfo:112480:1",
+      "jp": "うう……ごめんなさい",
+      "en": "Uh... I'm sorry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95184,
+      "id": "db_EventInfo:112481:2",
+      "jp": "では、とっととダンジョンに向かうデス！",
+      "en": "Okay, off to the dungeon you go!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95185,
+      "id": "db_EventInfo:112482:2",
+      "jp": "★ゲームオーバー・マリーゼルが嫁に行ったデス",
+      "en": "★ Game Over. Marisel got married.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95186,
+      "id": "db_EventInfo:112485:2",
+      "jp": "おいオマエ、マリーゼルの父親が来てしまったデス",
+      "en": "Hey, you! Marisel's father showed up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95187,
+      "id": "db_EventInfo:112486:2",
+      "jp": "マリーゼルを出せと叫んでるデスよ",
+      "en": "They're yelling for us to bring Marisel out.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95188,
+      "id": "db_EventInfo:112487:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95189,
+      "id": "db_EventInfo:112491:0",
+      "jp": "マリーゼルを連れて行かれるわけにはいかない。",
+      "en": "I can't let them take Marisel away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95190,
+      "id": "db_EventInfo:112492:0",
+      "jp": "しかし、彼女の父親に対し、俺が抗弁できる理由はない……。",
+      "en": "But I have no good reason to argue with her father...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95191,
+      "id": "db_EventInfo:112493:0",
+      "jp": "俺は引き留めることが出来ず、マリーゼルを連れ去られてしまった。",
+      "en": "I couldn't stop them. They took Marisel away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95192,
+      "id": "db_EventInfo:112499:226",
+      "jp": "お待ちください",
+      "en": "Please wait.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95193,
+      "id": "db_EventInfo:112500:206",
+      "jp": "む……なんだ？",
+      "en": "Huh... what is it?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95194,
+      "id": "db_EventInfo:112501:226",
+      "jp": "マリーゼル嬢に認定が下りました",
+      "en": "A decree has been issued for Lady Marisel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95195,
+      "id": "db_EventInfo:112502:206",
+      "jp": "認定……？　なんのことだ？",
+      "en": "A decree...? What are you talking about?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95196,
+      "id": "db_EventInfo:112503:226",
+      "jp": "マリーゼル嬢は神の加護を受けた存在――【『聖女』】と認められたのです",
+      "en": "Lady Marisel has been recognized as one blessed by the gods—she has been acknowledged as the ['Saintess'].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95197,
+      "id": "db_EventInfo:112504:6",
+      "jp": "私が、ですか……？",
+      "en": "Me...?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 95198,
+      "id": "db_EventInfo:112505:206",
+      "jp": "【『聖女』】だと……！？　マリーが……！？　馬鹿な！！",
+      "en": "The ['Saintess']?! Mari?! That's ridiculous!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95199,
+      "id": "db_EventInfo:112506:2",
+      "jp": "デス？",
+      "en": "Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95200,
+      "id": "db_EventInfo:112507:1",
+      "jp": "【『聖女』】認定？　そんな、いつの間に……",
+      "en": "\"Saint\"? What? When did that happen...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

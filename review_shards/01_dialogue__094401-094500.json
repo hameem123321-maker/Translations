@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94401,
+  "range_end": 94500,
+  "pairs": [
+    {
+      "n": 94401,
+      "id": "db_EventInfo:111541:1",
+      "jp": "俺達にもなにがなんだか",
+      "en": "I'm confused too, to be honest.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94402,
+      "id": "db_EventInfo:111542:2",
+      "jp": "こんな、とんでもないことをできるのは……",
+      "en": "Who could do something this crazy...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94403,
+      "id": "db_EventInfo:111544:16",
+      "jp": "まったく、いつもながら詰めが甘いなハーヴェスタ",
+      "en": "Honestly, Harvester, you always leave things half-done.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94404,
+      "id": "db_EventInfo:111545:1",
+      "jp": "む、ムファードさん！？",
+      "en": "M-Mufard!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94405,
+      "id": "db_EventInfo:111546:4",
+      "jp": "きたかジジイ！　おせーぞ！",
+      "en": "Finally, old man! You're late!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 94406,
+      "id": "db_EventInfo:111547:16",
+      "jp": "ほっほっ、あまり老人を動かすでないぞ、ウルフィナ",
+      "en": "Hoho, don't make an old man move around so much, Wolfina.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94407,
+      "id": "db_EventInfo:111548:4",
+      "jp": "うるせー！　オマエはウルフィナの家来なんだから、黙って走って来いよ！",
+      "en": "Shut up! You're my servant, so just run over here and keep quiet!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 94408,
+      "id": "db_EventInfo:111549:1",
+      "jp": "(ウルフィナがムファードさんに擦り寄ってる)",
+      "en": "(Wolfina is cozying up to Mufard.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94409,
+      "id": "db_EventInfo:111550:2",
+      "jp": "(……尻尾まで振ってるデス。信じられないデス……)",
+      "en": "(She's even wagging her tail. Unbelievable...)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94410,
+      "id": "db_EventInfo:111551:5",
+      "jp": "アナタの仕業でしたのね……やっぱり",
+      "en": "So it was you after all...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94411,
+      "id": "db_EventInfo:111552:1",
+      "jp": "どういうことだ、まさかムファードさんがハーヴェスタを救出してくれたのか？",
+      "en": "What's going on? Did Mufard rescue Harvester?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94412,
+      "id": "db_EventInfo:111553:16",
+      "jp": "ほっほっ",
+      "en": "Ho ho",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94413,
+      "id": "db_EventInfo:111554:1",
+      "jp": "ムファードさん、いったいアンタは何者なんだ……",
+      "en": "Mufard, just who are you...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94414,
+      "id": "db_EventInfo:111555:2",
+      "jp": "……【100兆ゴールド】を一瞬で捻出し、さらに【『ハーヴェスタ商会』】の幹部を黙らせる【発言力】の持ち主デス",
+      "en": "He's someone who can make 100 trillion gold appear instantly and has the influence to silence the executives of 'Harvester & Co.'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94415,
+      "id": "db_EventInfo:111556:2",
+      "jp": "ただの商人ってわけじゃなかったってわけデスね……？",
+      "en": "So he wasn't just any merchant...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94416,
+      "id": "db_EventInfo:111557:5",
+      "jp": "その方は大陸一の大富豪ムファード――",
+      "en": "He is Mufard, the wealthiest man on the continent—",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94417,
+      "id": "db_EventInfo:111558:5",
+      "jp": "……私のお父様です",
+      "en": "...my father.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94418,
+      "id": "db_EventInfo:111560:2",
+      "jp": "デス？",
+      "en": "What?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94419,
+      "id": "db_EventInfo:111561:1",
+      "jp": "いま、なんと？",
+      "en": "What did you just say?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94420,
+      "id": "db_EventInfo:111563:5",
+      "jp": "……お父様ですわ",
+      "en": "...He's my father.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94421,
+      "id": "db_EventInfo:111564:1",
+      "jp": "誰の？",
+      "en": "Whose?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94422,
+      "id": "db_EventInfo:111565:5",
+      "jp": "私の",
+      "en": "Mine.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94423,
+      "id": "db_EventInfo:111566:2",
+      "jp": "なん……デス……っと！？",
+      "en": "What... in Death...!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94424,
+      "id": "db_EventInfo:111567:1",
+      "jp": "お、おと、父親！？",
+      "en": "Y-y-your, father!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94425,
+      "id": "db_EventInfo:111569:16",
+      "jp": "ほっほっ。やはり、私のことは彼に話していなかったようだな。ハーヴェスタ",
+      "en": "Hoh hoh. So, it seems you hadn't told him about me. Harvester.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94426,
+      "id": "db_EventInfo:111570:16",
+      "jp": "私と店長さんとの関わりは知っておったのであろう？　娘らしく、大人しく頼れば良いものを",
+      "en": "You knew about my connection with the shopkeeper, right? You should have simply asked me for help, like a proper daughter.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94427,
+      "id": "db_EventInfo:111571:5",
+      "jp": "ふんっ、あれぐらいの窮地、お父様の力を借りなくても脱することができましたわ！",
+      "en": "Hmph! I could have gotten out of that tight spot just fine without your help, Father!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94428,
+      "id": "db_EventInfo:111572:16",
+      "jp": "それがお前の未熟な所だぞ",
+      "en": "That's exactly where your immaturity shows.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94429,
+      "id": "db_EventInfo:111573:16",
+      "jp": "まったくお前は、私譲りの商才はあるものの、仲間を作ることが苦手であるな",
+      "en": "You have my talent for business, but you are terrible at making friends.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94430,
+      "id": "db_EventInfo:111574:5",
+      "jp": "ううっ……そんなこといわれても……",
+      "en": "Ugh... saying that... I...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94431,
+      "id": "db_EventInfo:111575:1",
+      "jp": "あの気の強いハーヴェスタが、まったく言い返せてない……本当に親子なんだ",
+      "en": "That tough Harvester can't talk back at all... They really are parent and child.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94432,
+      "id": "db_EventInfo:111576:2",
+      "jp": "いや、そんなの冗談デス！？　オマエら、全然似てないデス！",
+      "en": "No way, that's a joke, right!? You two look nothing alike!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94433,
+      "id": "db_EventInfo:111577:5",
+      "jp": "私は、お母様に似ておりますから",
+      "en": "I take after my mother.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94434,
+      "id": "db_EventInfo:111578:16",
+      "jp": "ほっほっ",
+      "en": "Hoh hoh.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94435,
+      "id": "db_EventInfo:111579:16",
+      "jp": "改めて……娘がいつも世話になっておりますな、店長さん",
+      "en": "Let me say again... My daughter is always in your care, Manager.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94436,
+      "id": "db_EventInfo:111580:0",
+      "jp": "どうやら、信じるしかないらしい。",
+      "en": "Looks like I have no choice but to believe it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94437,
+      "id": "db_EventInfo:111581:1",
+      "jp": "あっ",
+      "en": "Ah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94438,
+      "id": "db_EventInfo:111582:1",
+      "jp": "ま、まさか……ムファードさんがこの店に来るようになったのって",
+      "en": "W-wait... Don't tell me... The reason you started coming to this store, Mr. Mufard...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94439,
+      "id": "db_EventInfo:111583:16",
+      "jp": "その通り。店長さんのことを知ったのは娘の動向を調べていたからですな",
+      "en": "Exactly. I learned about you, Manager, because I was keeping an eye on my daughter's activities.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94440,
+      "id": "db_EventInfo:111584:16",
+      "jp": "近頃、入れあげている【宿】があると聞きまして。どのような男が経営しているか、直接見てみたかったのです",
+      "en": "I heard she was obsessed with an [Inn] lately. I wanted to see for myself what kind of man was running it.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94441,
+      "id": "db_EventInfo:111586:5",
+      "jp": "もうっ、お父様！",
+      "en": "Oh, Father!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94442,
+      "id": "db_EventInfo:111587:16",
+      "jp": "ほっほっ。まあそういうわけで、これからも娘のことをよろしく頼みますぞ、店長さん",
+      "en": "Hoh hoh. Well, that's why. I leave my daughter in your good hands from now on, Manager.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94443,
+      "id": "db_EventInfo:111588:16",
+      "jp": "では行くぞハーヴェスタ。今晩は説教じゃ",
+      "en": "Let's go, Harvester. Tonight, it's a lecture.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 94444,
+      "id": "db_EventInfo:111589:5",
+      "jp": "ううっ、ごめんなさい、お父様ぁ……",
+      "en": "Ugh... I'm sorry, father...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94445,
+      "id": "db_EventInfo:111592:0",
+      "jp": "ムファードさんとハーヴェスタはそう言って、出て行ってしまった。",
+      "en": "Mufard and Harvester said that and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94446,
+      "id": "db_EventInfo:111593:1",
+      "jp": "衝撃的なことがあったが。とにかくハーヴェスタは無事で良かった……かな？",
+      "en": "That was shocking. But at least Harvester's safe... I think?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94447,
+      "id": "db_EventInfo:111594:2",
+      "jp": "人間は不可解デス",
+      "en": "Humans are hard to understand.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94448,
+      "id": "db_EventInfo:111595:1",
+      "jp": "ふう、今日も仕事を頑張るか",
+      "en": "Phew. Let's get to work today.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94449,
+      "id": "db_EventInfo:111597:5",
+      "jp": "ええ！",
+      "en": "Yes!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94450,
+      "id": "db_EventInfo:111598:1",
+      "jp": "うわあっ！？",
+      "en": "Wah!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94451,
+      "id": "db_EventInfo:111599:1",
+      "jp": "なっ、なんだっ！？",
+      "en": "Wh-what!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94452,
+      "id": "db_EventInfo:111600:2",
+      "jp": "なにごとデス！！",
+      "en": "What's going on!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94453,
+      "id": "db_EventInfo:111604:1",
+      "jp": "なんで、ハーヴェスタがいるんだ",
+      "en": "Why is Harvester here?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94454,
+      "id": "db_EventInfo:111605:5",
+      "jp": "その。あれからお父様に説教されまして……しばらく、この店で厄介になることにしましたの",
+      "en": "Well... After that, father gave me a lecture... I'll be staying at this shop for a while.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94455,
+      "id": "db_EventInfo:111606:5",
+      "jp": "部下の裏切りとはいえ、それを見抜けなかったのは私の責任",
+      "en": "Even if my subordinate betrayed me, it's my fault for not seeing it.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94456,
+      "id": "db_EventInfo:111607:5",
+      "jp": "今一度、人を見る眼を養うため、この店で鍛え直したいのですわ！",
+      "en": "I want to work in this shop to get better at judging people again!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94457,
+      "id": "db_EventInfo:111608:2",
+      "jp": "スタッフになるデス？　オマエ、客商売なんてできるデス？",
+      "en": "You want to be staff, Death? Can you even do customer service, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94458,
+      "id": "db_EventInfo:111609:5",
+      "jp": "おほほ、私を見くびられては困りますわ。同じ商品でしたら数倍の値段で売りつけることも出来ますわよ！",
+      "en": "Ohoho, you underestimate me. I can sell the same item for many times the price!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94459,
+      "id": "db_EventInfo:111610:2",
+      "jp": "よし、採用デス",
+      "en": "Alright, you're hired, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94460,
+      "id": "db_EventInfo:111611:5",
+      "jp": "おまかせあれ！",
+      "en": "Leave it to me!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94461,
+      "id": "db_EventInfo:111612:1",
+      "jp": "ちょっとまて、それボッタクリだから！？",
+      "en": "Wait a second, that's just ripping people off!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94462,
+      "id": "db_EventInfo:111613:1",
+      "jp": "そういや、ハーヴェスタが持っていた、この店の権利ってどうなったんだ？",
+      "en": "Come to think of it, what happened to the store rights Harvester had?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94463,
+      "id": "db_EventInfo:111614:5",
+      "jp": "え、ええ、取り上げられた私の資産は……ええと",
+      "en": "Ah, yes, all my seized assets... um...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94464,
+      "id": "db_EventInfo:111615:4",
+      "jp": "よお！　ウルフィナの子分と、子分の子分ども～！",
+      "en": "Heya! Wolfina's underlings, and my underlings' underlings~!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 94465,
+      "id": "db_EventInfo:111616:5",
+      "jp": "あの子のモノになってるらしいですわ",
+      "en": "They seem to belong to her now.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94466,
+      "id": "db_EventInfo:111617:5",
+      "jp": "店の権利も取り上げられたウチですから、権利上はウルフィナちゃんが、この店のオーナーということになってます",
+      "en": "Since my store rights were taken away too, legally, Wolfina-chan is the owner of this shop.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94467,
+      "id": "db_EventInfo:111618:2",
+      "jp": "ウルフィナが……頭が痛いデス",
+      "en": "Wolfina is... giving me a headache. Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94468,
+      "id": "db_EventInfo:111619:2",
+      "jp": "ハーヴェスタのやつが逮捕された時はどうかと思ったデスが",
+      "en": "I was really worried when Harvester got arrested. Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94469,
+      "id": "db_EventInfo:111620:2",
+      "jp": "アイツの資産はウルフィナのものデス？",
+      "en": "Are his assets Wolfina's now? Des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94470,
+      "id": "db_EventInfo:111621:2",
+      "jp": "じゃあ、もうノルマとか払う必要はないデスね！　やったーデス！",
+      "en": "Then we don't have to pay quotas anymore! Des! Yay! Des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94471,
+      "id": "db_EventInfo:111622:5",
+      "jp": "というわけで、本日からノルマ復活ですわД",
+      "en": "And so, as of today, the quota is back in effect. Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94472,
+      "id": "db_EventInfo:111623:2",
+      "jp": "デス～～～～～～～～～っ！！？",
+      "en": "Deeeeeeeeees!!? Des!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94473,
+      "id": "db_EventInfo:111624:5",
+      "jp": "ウルフィナちゃんが、資産を全部預けてくださったのですわ",
+      "en": "Wolfina-chan entrusted all the assets to me. Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94474,
+      "id": "db_EventInfo:111626:4",
+      "jp": "管理めんどくせー！",
+      "en": "Managing it's a pain!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 94475,
+      "id": "db_EventInfo:111627:2",
+      "jp": "このイヌコロ……",
+      "en": "This damn dog...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94476,
+      "id": "db_EventInfo:111628:5",
+      "jp": "いまや店長様は【『ゴールド会員』】、これからますますの活躍を期待しておりますわД",
+      "en": "You, Shop Manager, are now a 【『Gold Member』】. We expect even greater things from you from now on. Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94477,
+      "id": "db_EventInfo:111629:2",
+      "jp": "期待されたくないデス～っ！！",
+      "en": "I don't want you to expect anything! Des~!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94478,
+      "id": "db_EventInfo:111630:5",
+      "jp": "……もっとも、私が【店長様の物】になれば、別ですがД",
+      "en": "...Of course, if I were to become 【Yours】, that would be different. Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94479,
+      "id": "db_EventInfo:111631:5",
+      "jp": "うふっ、この意味はおわかりですわよねД",
+      "en": "Hehe, you know what this meansД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94480,
+      "id": "db_EventInfo:111632:2",
+      "jp": "むう……しかたがないデス。さっさと仕留めてくるデス～っ！！",
+      "en": "Ugh... fine. I'll go finish them off quickly~!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94481,
+      "id": "db_EventInfo:111633:1",
+      "jp": "仕留めるとか物騒な",
+      "en": "Finish them off? That sounds dangerous.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94482,
+      "id": "db_EventInfo:111634:1",
+      "jp": "そういえば、ムファードさんには悪いことしたな",
+      "en": "Come to think of it, I feel bad about what I did to Mufard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94483,
+      "id": "db_EventInfo:111636:5",
+      "jp": "なにがですの？",
+      "en": "About what?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94484,
+      "id": "db_EventInfo:111637:1",
+      "jp": "その、ハーヴェスタを釈放するために、すごい金を……【100兆ゴールド】も払って",
+      "en": "Well, to get Harvester released, I had to pay a crazy amount... [100 trillion gold].",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94485,
+      "id": "db_EventInfo:111638:5",
+      "jp": "あのお金ですか……",
+      "en": "Ah, that money...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94486,
+      "id": "db_EventInfo:111639:5",
+      "jp": "あれはデタラメですわ",
+      "en": "That was a lie.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94487,
+      "id": "db_EventInfo:111640:1",
+      "jp": "は？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94488,
+      "id": "db_EventInfo:111641:5",
+      "jp": "あの時の私は絶望しておりましたの",
+      "en": "I was in despair back then.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94489,
+      "id": "db_EventInfo:111642:5",
+      "jp": "それに、あれ以上店長様を巻き込みたくありませんでしたし……諦めるような金額を提示したのですわ",
+      "en": "And I didn't want to drag you, Manager, into it any further... So I gave you a number I thought you'd give up on.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94490,
+      "id": "db_EventInfo:111643:1",
+      "jp": "じゃあ【100兆ゴールド】ってのは必要なかったのか",
+      "en": "So you never needed the [100 trillion gold]?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94491,
+      "id": "db_EventInfo:111644:5",
+      "jp": "ええ。本当に必要だったのは【発言権】の方ですわ。それは新参の店長様では、絶対に不可能なことでしたの",
+      "en": "Yes. What I really needed was [the authority to speak]. As the new store manager, that was absolutely impossible for you.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94492,
+      "id": "db_EventInfo:111645:5",
+      "jp": "でも私のお父様――ムファードは【『ハーヴェスタ商会』】の創設者であり、オーナーでもあります",
+      "en": "But my father—Mufard—is the founder and owner of [the 'Harvester Company'].",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94493,
+      "id": "db_EventInfo:111646:5",
+      "jp": "まあそれも、お父様が持っている事業の一つにすぎませんけどね",
+      "en": "Of course, that's just one of the many businesses he owns.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94494,
+      "id": "db_EventInfo:111647:5",
+      "jp": "幹部にはお父様を崇拝する者も多いですし、絶対の発言力をもっておりますわ",
+      "en": "Many executives worship him, so he holds absolute sway.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94495,
+      "id": "db_EventInfo:111648:1",
+      "jp": "そういう人物の発言だったから、【幹部】も言うことを聞かざるを得なかった、ってことか",
+      "en": "So it was because it came from a person like him that the [executives] had no choice but to listen?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94496,
+      "id": "db_EventInfo:111649:5",
+      "jp": "ええ……問い詰められれば、裏切り者も自分の悪事を吐き出して、逮捕されたというわけですわ",
+      "en": "Yes... When pressed, the traitor confessed to his crimes and was arrested.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94497,
+      "id": "db_EventInfo:111650:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94498,
+      "id": "db_EventInfo:111651:1",
+      "jp": "まあそうだよな【100兆ゴールド】なんて異次元の大金、簡単に用意できるわけ――",
+      "en": "Well, yeah. An otherworldly sum like [100 trillion gold]... no way you could just pull that together easily—",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94499,
+      "id": "db_EventInfo:111652:5",
+      "jp": "もっとも、お父様なら【100兆ゴールド】を用立てるのも、可能でしょうが",
+      "en": "Although, if it were my father, he probably could manage to raise [100 trillion gold].",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94500,
+      "id": "db_EventInfo:111654:0",
+      "jp": "ハーヴェスタのノルマを払い終えた。",
+      "en": "I finished paying Harvester's quota.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

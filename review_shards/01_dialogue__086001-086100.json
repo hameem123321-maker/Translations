@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 86001,
+  "range_end": 86100,
+  "pairs": [
+    {
+      "n": 86001,
+      "id": "db_EventInfo:101587:11",
+      "jp": "この前捕獲した、【『アマニアオオナマズ』】の肉のことなんだけど……",
+      "en": "About the meat from that 'Amanian Giant Catfish' we caught before...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86002,
+      "id": "db_EventInfo:101591:4",
+      "jp": "ニク～～！　ウマイぞ～！！　モグモグモグ！",
+      "en": "Meat! It's so good! Munch munch munch!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86003,
+      "id": "db_EventInfo:101592:34",
+      "jp": "ちょっと！　このケモミミ！　食べるのをやめなさ～い！",
+      "en": "Hey! You furry ears! Stop eating it!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86004,
+      "id": "db_EventInfo:101593:4",
+      "jp": "ウマすぎる～～～～！　食べるのが止まらない！！",
+      "en": "It's way too tasty! I can't stop eating it!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86005,
+      "id": "db_EventInfo:101594:1",
+      "jp": "うわっ！　ウルフィナが！",
+      "en": "Whoa! Wolfina!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86006,
+      "id": "db_EventInfo:101595:34",
+      "jp": "【<pl>】ちゃん～！　このケモミミが食べ尽くす勢いでつまみ食いして～！",
+      "en": "【<pl>】! This beast-eared girl is practically devouring it all as a snack!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86007,
+      "id": "db_EventInfo:101596:34",
+      "jp": "このままじゃ、フルコースの分までなくなっちゃうよ～！",
+      "en": "If this keeps up, we'll run out before we even get to the full course meal!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86008,
+      "id": "db_EventInfo:101597:11",
+      "jp": "そうなのよね～",
+      "en": "That's right...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86009,
+      "id": "db_EventInfo:101598:11",
+      "jp": "でも、ウルフィナちゃんは可愛いから、いいかなって",
+      "en": "But Wolfina's so cute, so maybe it's okay.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86010,
+      "id": "db_EventInfo:101599:34",
+      "jp": "ダメだよ～っ！！",
+      "en": "It's NOT okay!!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86011,
+      "id": "db_EventInfo:101600:34",
+      "jp": "キャトリナさん、そのへんの動物にエサをあげちゃうタイプでしょ～！！",
+      "en": "Catrina, you're the type who feeds any animal you see, aren't you?!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86012,
+      "id": "db_EventInfo:101601:11",
+      "jp": "えっ？　なんでわかるの？",
+      "en": "Huh? How did you know?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86013,
+      "id": "db_EventInfo:101602:4",
+      "jp": "このニク、ウマい！　体がなんだかシビれるけど、それがヤミツキ！",
+      "en": "This meat's good! My body feels all tingly, but it's addicting!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86014,
+      "id": "db_EventInfo:101603:1",
+      "jp": "シビ……？",
+      "en": "Tingly...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86015,
+      "id": "db_EventInfo:101604:0",
+      "jp": "見れば、ウルフィナのシッポが時々ビリビリと放電している。",
+      "en": "Looking over, I see Wolfina's tail is occasionally crackling with electricity.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86016,
+      "id": "db_EventInfo:101605:34",
+      "jp": "【『アマニアオオナマズ』】のニクは、猛毒があって、そのまま食べると感電するんだ",
+      "en": "The meat from the 'Electric Catfish' has a strong poison. Eating it raw makes you feel an electric shock.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86017,
+      "id": "db_EventInfo:101606:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86018,
+      "id": "db_EventInfo:101607:34",
+      "jp": "猛毒は普通の人間なら、そのまま死に至るぐらい強力で",
+      "en": "The poison is so powerful it could easily kill a normal human.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86019,
+      "id": "db_EventInfo:101608:34",
+      "jp": "だから、処理しないと食べられたもんじゃないはずなんだけど……",
+      "en": "If it's not processed, you shouldn't be able to eat it...",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86020,
+      "id": "db_EventInfo:101609:4",
+      "jp": "モグモグモグ！　モグモグモグ！",
+      "en": "Munch munch munch! Munch munch munch!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86021,
+      "id": "db_EventInfo:101610:34",
+      "jp": "……このケモミミは関係ないみたいだね",
+      "en": "...It seems this 'Kemonomimi' isn't a problem.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86022,
+      "id": "db_EventInfo:101611:34",
+      "jp": "魔界の食材をものともしないのは、さすがは【『ケモミミ』】ってところだけど",
+      "en": "It's impressive that the 'Kemonomimi' can handle ingredients from the Demon World.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86023,
+      "id": "db_EventInfo:101612:0",
+      "jp": "……この勢いで食べられたら、残りも食い尽くすな。",
+      "en": "...At this rate, the rest will get eaten too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86024,
+      "id": "db_EventInfo:101613:34",
+      "jp": "ちょっと困るよ～！",
+      "en": "That's a bit of a problem~!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86025,
+      "id": "db_EventInfo:101614:11",
+      "jp": "ウルフィナちゃ～ん！　食べるのを止めて～～",
+      "en": "Wolfina-chaaan! Stop eating~~",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86026,
+      "id": "db_EventInfo:101615:4",
+      "jp": "食べるの、止まらね～～～～～っ！！",
+      "en": "I can't stop eaaaatiiing~~!!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86027,
+      "id": "db_EventInfo:101618:0",
+      "jp": "その後、ウルフィナを止めるのには大層苦労したのであった。",
+      "en": "After that, it was really hard to get Wolfina to stop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86028,
+      "id": "db_EventInfo:101619:1",
+      "jp": "コッペリナたちは、【『ウィルチ』】も魔族みたいなこと言ってたけど",
+      "en": "Koppelina and them said Wilch was kinda like a demon too...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86029,
+      "id": "db_EventInfo:101620:1",
+      "jp": "ということは、オーレリアたちは淫魔なのか？",
+      "en": "So does that mean Aurelia and them are succubi?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86030,
+      "id": "db_EventInfo:101622:108",
+      "jp": "ん……？",
+      "en": "Hm...?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 86031,
+      "id": "db_EventInfo:101623:108",
+      "jp": "う、うーむ。我らはアッチから袂を分かっておるというか。関係があるともないともいうか",
+      "en": "Hmm, well... We sort of went our separate ways from that group. We're connected, but also not.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 86032,
+      "id": "db_EventInfo:101624:108",
+      "jp": "ほら、ワシやカリストも、見た目は人間と変らんじゃろ？",
+      "en": "See, me and Callisto here, we look pretty much human, right?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 86033,
+      "id": "db_EventInfo:101625:9",
+      "jp": "我らは魔界の七大公爵の力を受け継がず、叡智のみを受け継いだとされている",
+      "en": "It's said we didn't inherit the power of the Seven Great Dukes of the Demon Realm, only their wisdom.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 86034,
+      "id": "db_EventInfo:101626:9",
+      "jp": "そのあたりは、ドワーム族やエルフィード族に近い物であろう",
+      "en": "In that way, we're probably closer to the Dwarm or Elfeed tribes.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 86035,
+      "id": "db_EventInfo:101627:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86036,
+      "id": "db_EventInfo:101628:1",
+      "jp": "そのわりに、名家とか言われてたけど",
+      "en": "But you were still called a noble family.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86037,
+      "id": "db_EventInfo:101629:108",
+      "jp": "ん、まあ～、初代様は、いろいろとやんちゃされたとのことじゃからな。わはは！",
+      "en": "Hm, well~ I hear our first ancestor got up to all sorts of wild things. Wahaha!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 86038,
+      "id": "db_EventInfo:101630:9",
+      "jp": "わははは！",
+      "en": "Wahahaha!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 86039,
+      "id": "db_EventInfo:101633:0",
+      "jp": "なんとなく、はぐらかされてしまった。",
+      "en": "I feel like they dodged the question somehow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86040,
+      "id": "db_EventInfo:101634:2",
+      "jp": "あの説明好きの二人が言わないことデス",
+      "en": "Those two who love explaining things aren't saying it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86041,
+      "id": "db_EventInfo:101635:2",
+      "jp": "言えないか、言わない事情ぐらいはあるかもデスね",
+      "en": "Maybe they can't say it, or have a reason not to.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 86042,
+      "id": "db_EventInfo:101636:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86043,
+      "id": "db_EventInfo:101637:0",
+      "jp": "魔女二人の恐ろしい一面を、ちょっと想像してしまうのであった。",
+      "en": "I couldn't help but imagine a terrifying side to the two witches.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86044,
+      "id": "db_EventInfo:101638:0",
+      "jp": "【『魔界五大珍味』】の情報が集まってきたようだ。",
+      "en": "Seems info on the 'Demon Realm Five Delicacies' is coming in.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86045,
+      "id": "db_EventInfo:101640:34",
+      "jp": "そろそろ、第三の【『魔界五大珍味』】の在処がわかりそうなんだ",
+      "en": "Looks like we're close to finding the location of the third 'Demon Realm Five Delicacy' soon.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86046,
+      "id": "db_EventInfo:101641:1",
+      "jp": "次は３つ目。ちょうど折り返しだな",
+      "en": "Third one next. That's the halfway point.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86047,
+      "id": "db_EventInfo:101642:1",
+      "jp": "ええと、次は【肉料理】だったな、確かエモノは……",
+      "en": "Right, next is the [meat dish]. The target, if I remember...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86048,
+      "id": "db_EventInfo:101643:34",
+      "jp": "次に狙うのは、珍獣【『ンガマニーク』】だよっ！",
+      "en": "The next target is the rare beast, the 'Ngamanique'!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86049,
+      "id": "db_EventInfo:101644:1",
+      "jp": "なんかすごい名前だな？",
+      "en": "That's one heck of a name.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86050,
+      "id": "db_EventInfo:101645:34",
+      "jp": "うん……見た目からしてすっごいらしいよ～♪",
+      "en": "Yeah... they say its appearance is absolutely insane~♪",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86051,
+      "id": "db_EventInfo:101646:34",
+      "jp": "歩く巨大肉っていわれる、伝説の食肉獣なんだ",
+      "en": "It's a legendary carnivore called 'walking giant meat'.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86052,
+      "id": "db_EventInfo:101647:1",
+      "jp": "肉食獣じゃなくて食肉獣なのか……",
+      "en": "Not a carnivore, but a meat-beast, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86053,
+      "id": "db_EventInfo:101648:34",
+      "jp": "うん。【ウシノシシ】や【シモフリノシシ】とかの最上位とされてるんだ",
+      "en": "Yep. It's considered the top-tier above things like Demon Ox Boar or Frost Boar.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86054,
+      "id": "db_EventInfo:101650:4",
+      "jp": "ニク！",
+      "en": "Meat!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86055,
+      "id": "db_EventInfo:101651:0",
+      "jp": "話にウルフィナが割り込んできた。",
+      "en": "Wolfina jumped into the conversation.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86056,
+      "id": "db_EventInfo:101652:4",
+      "jp": "ニク！　腹イッパイ食べたいぞ！　ニク！",
+      "en": "Meat! I wanna eat until I'm full! Meat!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86057,
+      "id": "db_EventInfo:101653:34",
+      "jp": "も～っ！　この【『ケモミミ』】ったら！　こないだ【『アマニアオオナマズ』】を食べたでしょ！",
+      "en": "Ugh! You 【『Kemomimi』】! You just ate that 【『Amanian Giant Catfish』】, didn't you!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86058,
+      "id": "db_EventInfo:101654:4",
+      "jp": "ウルフィナは、あれぐらいじゃ満足できね～ぞ！",
+      "en": "I can't be satisfied with just that!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86059,
+      "id": "db_EventInfo:101655:11",
+      "jp": "ウルフィナちゃんは育ち盛りだものねД",
+      "en": "Wolfina's at that growing ageД",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86060,
+      "id": "db_EventInfo:101656:34",
+      "jp": "【『ンガマニーク』】は【寒い場所】を好むらしいんだけど……心当たりない？",
+      "en": "It seems the 【『Ngamaniik』】 likes 【cold places】... any ideas?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86061,
+      "id": "db_EventInfo:101658:23",
+      "jp": "【『ンガマニーク』】？",
+      "en": "The 【『Ngamaniik』】?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86062,
+      "id": "db_EventInfo:101659:23",
+      "jp": "話は聞いてたけど。【<pl>】はんは、けったいなモノを探しているんやなぁ",
+      "en": "I've heard of it. 【<pl>】 is looking for a strange thing.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86063,
+      "id": "db_EventInfo:101660:24",
+      "jp": "コッペリナ様が言うには、【寒い場所】を好むとのことです",
+      "en": "As Lady Koppelina says, they prefer 【cold places】.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 86064,
+      "id": "db_EventInfo:101661:24",
+      "jp": "世界の情勢において博識である、お嬢様なら、ご存じでは？",
+      "en": "Given your vast knowledge of world affairs, you might know something, young lady?",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 86065,
+      "id": "db_EventInfo:101662:23",
+      "jp": "シェルフィったら、ウチを買いかぶりすぎやでД",
+      "en": "Shelfi, you overestimate meД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86066,
+      "id": "db_EventInfo:101663:23",
+      "jp": "【『魔界五大珍味』】というぐらいなら、【『魔界』】に近い場所やろし",
+      "en": "If it's one of the 【『Five Demon Realm Delicacies』】, it'd be somewhere close to the 【『Demon Realm』】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86067,
+      "id": "db_EventInfo:101664:23",
+      "jp": "そんでもって、【寒い場所】ってなら、【『フリュジットの氷獄迷宮』】以外にあらへんわ",
+      "en": "Yeah, and if you're looking for a cold place, there's really nowhere else but the 'Frigidite Ice Prison Labyrinth'.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86068,
+      "id": "db_EventInfo:101665:1",
+      "jp": "【『フリュジットの氷獄迷宮』】か……",
+      "en": "The 'Frigidite Ice Prison Labyrinth', huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86069,
+      "id": "db_EventInfo:101666:23",
+      "jp": "ちょうど、【何者か】がご先祖様を召喚した痕跡もあるもんなぁ",
+      "en": "Plus, we've got traces of someone summoning our ancestors there too.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 86070,
+      "id": "db_EventInfo:101667:24",
+      "jp": "強大な魔力の痕跡が残されてます。【『ンガマニーク』】がそれに呼び寄せられる可能性もありますわ",
+      "en": "Traces of powerful magic remain. It's possible the 'Ngamanik' could be drawn to it.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 86071,
+      "id": "db_EventInfo:101668:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86072,
+      "id": "db_EventInfo:101671:0",
+      "jp": "【『フリュジットの氷獄迷宮』】を探索する価値はありそうだ。",
+      "en": "It might be worth exploring the 'Frigidite Ice Prison Labyrinth'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86073,
+      "id": "db_EventInfo:101672:1",
+      "jp": "今回の目当ては、珍獣【『ンガマニーク』】だよな？",
+      "en": "Our target this time is the rare beast, the 'Ngamanik', right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86074,
+      "id": "db_EventInfo:101673:34",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86075,
+      "id": "db_EventInfo:101675:11",
+      "jp": "【『ンガマニーク』】ってのはどんな見た目なのかしら",
+      "en": "I wonder what the 'Ngamanik' looks like.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86076,
+      "id": "db_EventInfo:101676:34",
+      "jp": "そうだね。【走る骨付き肉】の異名を持ってるよ",
+      "en": "Well, it's nicknamed the 'running meat on bones'.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86077,
+      "id": "db_EventInfo:101677:1",
+      "jp": "……なんだそりゃ",
+      "en": "...What the heck is that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86078,
+      "id": "db_EventInfo:101678:34",
+      "jp": "すごく特徴的な見た目らしいんだけど、見た目に反して素速くてタフで",
+      "en": "Apparently it has a very distinctive look. But despite its appearance, it's fast and tough.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86079,
+      "id": "db_EventInfo:101679:34",
+      "jp": "なにより、すっごく美味しいんだよ！　普通に焼くだけでボリューム満点でね！",
+      "en": "Best of all, it's super tasty! Just grilling it normally makes a huge, filling meal!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86080,
+      "id": "db_EventInfo:101680:4",
+      "jp": "じゅるり……食べ甲斐がありそうだなー",
+      "en": "Slurp... Looks like it would be a real satisfying meal.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86081,
+      "id": "db_EventInfo:101681:34",
+      "jp": "その分、パワーはとんでもなくてね、生半可な城ぐらいは一撃で破壊するって言われてるよ",
+      "en": "With that comes insane power. They say a single blow from it can destroy a regular castle.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86082,
+      "id": "db_EventInfo:101682:11",
+      "jp": "まあ！",
+      "en": "My!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86083,
+      "id": "db_EventInfo:101683:1",
+      "jp": "うーむ、【『魔界五大珍味』】は強敵ばかりだな……",
+      "en": "Hmm... The [\"Five Demon Realm Delicacies\"] are all tough enemies...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86084,
+      "id": "db_EventInfo:101684:34",
+      "jp": "魔界の【グルメモンスター】は強いほど美味しいって言われてるからね～",
+      "en": "They say the stronger a [Gourmet Monster] in the Demon Realm is, the more delicious it is~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86085,
+      "id": "db_EventInfo:101685:34",
+      "jp": "もっと捕獲レベルの低い【グルメモンスター】もいるけど、フルコースのレシピにないからね～",
+      "en": "There are [Gourmet Monsters] with lower capture levels too, but they're not in the full course recipe~",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86086,
+      "id": "db_EventInfo:101686:1",
+      "jp": "そういうものか",
+      "en": "I see how it is.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86087,
+      "id": "db_EventInfo:101687:11",
+      "jp": "お姉ちゃんも、頑張って捕獲に協力するわねД",
+      "en": "I'll do my best to help with the capture tooД",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86088,
+      "id": "db_EventInfo:101688:4",
+      "jp": "おう！　捕まえて、お腹いっぱい食いたいぞ～！",
+      "en": "Yeah! Let's catch it and eat 'til we're stuffed~!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86089,
+      "id": "db_EventInfo:101689:0",
+      "jp": "俺達がダンジョンを進んでいると……。",
+      "en": "As we were advancing through the dungeon...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86090,
+      "id": "db_EventInfo:101691:4",
+      "jp": "くんくん……こっち、いいニオイがするぞ！",
+      "en": "Sniff sniff... This way! Something smells good over here!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86091,
+      "id": "db_EventInfo:101692:1",
+      "jp": "おい、ウルフィナ！？",
+      "en": "Hey, Wolfina!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86092,
+      "id": "db_EventInfo:101695:0",
+      "jp": "ウルフィナはどこかに走って行った……。",
+      "en": "Wolfina ran off somewhere...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86093,
+      "id": "db_EventInfo:101696:34",
+      "jp": "あの【『ケモミミ』】は何かを感じ取ったみたいだね",
+      "en": "Looks like that ['Kemomimi'] sensed something.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 86094,
+      "id": "db_EventInfo:101697:11",
+      "jp": "ウルフィナちゃんの後を追いましょう！",
+      "en": "Let's go after Wolfina!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 86095,
+      "id": "db_EventInfo:101698:0",
+      "jp": "ウルフィナが走って行った先には……。",
+      "en": "Ahead, where Wolfina ran to...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86096,
+      "id": "db_EventInfo:101700:4",
+      "jp": "おおおお～～～～！　あれが【『ンガマニーク』】か～～～！？",
+      "en": "Wooooooooow! Is that the ['Nga-maneek']!?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 86097,
+      "id": "db_EventInfo:101701:0",
+      "jp": "ウルフィナの歓喜に震える声が響く。",
+      "en": "Wolfina's voice, shaking with joy, rings out.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86098,
+      "id": "db_EventInfo:101702:0",
+      "jp": "すでによだれを垂らしている彼女の向こうに、完成された料理のようなモンスターの姿があった。",
+      "en": "Past her, already drooling, was a monster that looked like a perfect dish.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 86099,
+      "id": "db_EventInfo:101703:1",
+      "jp": "あ、あれが……珍獣【『ンガマニーク』】……？",
+      "en": "Th-that's... the rare beast ['Nga-maneek']...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 86100,
+      "id": "db_EventInfo:101704:11",
+      "jp": "すご～い、まるで歩く骨付き肉ね",
+      "en": "Wow~! It's like a walking bone-in steak.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    }
+  ]
+}

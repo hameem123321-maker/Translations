@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 78901,
+  "range_end": 79000,
+  "pairs": [
+    {
+      "n": 78901,
+      "id": "db_EventInfo:93365:1",
+      "jp": "ということは、別の製法が書かれているのか？",
+      "en": "So there's a different formula written?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78902,
+      "id": "db_EventInfo:93366:9",
+      "jp": "うむ。ご先祖様が研究していたものというのは",
+      "en": "Yes. What our ancestor was researching was...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78903,
+      "id": "db_EventInfo:93367:9",
+      "jp": "……【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】である",
+      "en": "...It's a 'Succubus Potion'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78904,
+      "id": "db_EventInfo:93368:1",
+      "jp": "【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】……？",
+      "en": "A 'Succubus Potion'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78905,
+      "id": "db_EventInfo:93369:1",
+      "jp": "どこかで、聞いたことが",
+      "en": "I think I've heard of it somewhere.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78906,
+      "id": "db_EventInfo:93370:9",
+      "jp": "以前言ったであろう。私が師匠殿から譲り受けた【『レシピ』】に書かれていたものだ",
+      "en": "I told you before. It was written in the 'Recipe' I received from my master.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78907,
+      "id": "db_EventInfo:93371:108",
+      "jp": "うむ、【『奈落』】より力を得て【願望を叶える薬】。それが【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】じゃ",
+      "en": "Yes. A 'potion that grants wishes' by drawing power from the 'Abyss'. That is the 'Succubus Potion'.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78908,
+      "id": "db_EventInfo:93372:108",
+      "jp": "ワシは魔術の深奥に辿り着き、その製法書を発明した",
+      "en": "I reached the depths of magic and invented that formula.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78909,
+      "id": "db_EventInfo:93373:108",
+      "jp": "もっとも、それは究極の薬。生前のワシが人生を賭けても、【未完成】のままじゃったが……",
+      "en": "However, it is the ultimate potion. Even when I gambled my life on it, it remained 'unfinished'...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78910,
+      "id": "db_EventInfo:93374:108",
+      "jp": "おそらくは、その【完成形】が記されておる",
+      "en": "Probably, the 'completed form' is written there.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78911,
+      "id": "db_EventInfo:93375:1",
+      "jp": "なんだって……？",
+      "en": "What...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78912,
+      "id": "db_EventInfo:93376:108",
+      "jp": "もっとも、【『奈落』】は無限の力を持つが、願望の成就には【対価】を要求する",
+      "en": "However, while the 'Abyss' holds infinite power, it demands a 'price' to grant a wish.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78913,
+      "id": "db_EventInfo:93377:108",
+      "jp": "未完成なものの対価ですら、ゼカリウスが壊滅しかけたのじゃ。【完成形】の【対価】はいかほどじゃろうな",
+      "en": "The price for the unfinished version nearly destroyed Zecarius. I wonder how great the 'price' for the 'completed form' would be.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78914,
+      "id": "db_EventInfo:93378:1",
+      "jp": "そんなものが……",
+      "en": "Such a thing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78915,
+      "id": "db_EventInfo:93379:108",
+      "jp": "【『レシピ』】が解読されれば【『聖都』】が壊滅する……。それが小娘の口伝じゃったが",
+      "en": "It was said that if the \"Recipe\" is deciphered, the \"Holy City\" will be destroyed... That's what the girl told me.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78916,
+      "id": "db_EventInfo:93380:108",
+      "jp": "むしろ、【『聖都』】程度で済めば御の字かもしれんぞ？",
+      "en": "In fact, we might be lucky if it's only the \"Holy City\" that gets destroyed.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78917,
+      "id": "db_EventInfo:93382:0",
+      "jp": "そう言って、オーレリアは炎の魔術を発動させた。",
+      "en": "Saying that, Aurelia activated her fire magic.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78918,
+      "id": "db_EventInfo:93383:0",
+      "jp": "そして躊躇無く、【名もなき魔女】の【『レシピ』】に火を着けてしまう。",
+      "en": "And without hesitation, she set the \"Nameless Witch's\" \"Recipe\" on fire.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78919,
+      "id": "db_EventInfo:93384:1",
+      "jp": "【『レシピ』】が……！？",
+      "en": "The \"Recipe\"...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78920,
+      "id": "db_EventInfo:93386:108",
+      "jp": "【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】は危険なものじゃ。これは存在してはならぬ",
+      "en": "The \"Succubus Potion\" is a dangerous thing. It shouldn't exist.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78921,
+      "id": "db_EventInfo:93387:108",
+      "jp": "なにせ、ワシら二人がかりでも、完全には解読出来んかったからのう",
+      "en": "After all, even the two of us together couldn't fully decipher it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78922,
+      "id": "db_EventInfo:93388:9",
+      "jp": "このまま作成したとしたら、確実に暴発してしまうのである",
+      "en": "If we tried to make it, it would definitely blow up.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78923,
+      "id": "db_EventInfo:93389:9",
+      "jp": "仕組みを理解できないということは、これに仕掛けた罠にも気付かないことであるからな",
+      "en": "If we can't understand how it works, we also won't notice any traps hidden within.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78924,
+      "id": "db_EventInfo:93390:9",
+      "jp": "このレシピに【悪意】が込められているならば、この地は【『魔界』】に飲み込まれるであろう",
+      "en": "If this recipe contains \"malice\", this land will be swallowed by the \"Demon Realm\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78925,
+      "id": "db_EventInfo:93391:1",
+      "jp": "【『魔界』】に……",
+      "en": "Swallowed by the \"Demon Realm\"...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78926,
+      "id": "db_EventInfo:93392:108",
+      "jp": "まったく……そんなモノを持ち出してくるとは、一体誰の口車に乗せられたやら",
+      "en": "Honestly... Who on earth talked you into bringing something like that here?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 78927,
+      "id": "db_EventInfo:93393:0",
+      "jp": "燃える炎が収まった時には、【『レシピ』】は消し炭になり、塵になって消えていった。",
+      "en": "When the flames died down, the 'Recipe' was just charcoal dust. It turned to ash and was gone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78928,
+      "id": "db_EventInfo:93394:9",
+      "jp": "やがて【『ウィルチ』】は、これに至るであろう。しかしそれは、今ではない",
+      "en": "The 'Wilch' will end up like this one day, too. But not now.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78929,
+      "id": "db_EventInfo:93395:9",
+      "jp": "それはきっと、私と【<pl>】殿の子供か、その子供である……Д",
+      "en": "That will probably be a child of mine and 【<pl>】, or maybe that child's child...Д",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 78930,
+      "id": "db_EventInfo:93398:0",
+      "jp": "こうして、【名もなき魔女】の【『レシピ』】の一件は完全に決着した。",
+      "en": "And so, the whole mess with the Nameless Witch's 'Recipe' was finally over.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78931,
+      "id": "db_EventInfo:93399:0",
+      "jp": "【『レシピ』】の本当の内容については気になるものの、今の俺が考えることではない。",
+      "en": "I'm still curious what the 'Recipe' really said. But it's not my problem to worry about now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78932,
+      "id": "db_EventInfo:93400:0",
+      "jp": "きっと未来の誰かが、対面する問題なのだろう。",
+      "en": "That's probably a problem for someone else in the future.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78933,
+      "id": "db_EventInfo:93402:34",
+      "jp": "聞いたよ～！",
+      "en": "I heard~!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78934,
+      "id": "db_EventInfo:93403:1",
+      "jp": "コッペリナ？",
+      "en": "Koppelina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78935,
+      "id": "db_EventInfo:93404:34",
+      "jp": "【<pl>】ちゃんってば、もともとは【美食】に投資したかったんだってね？",
+      "en": "【<pl>】, I heard you originally wanted to invest in 'Gastronomy'?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78936,
+      "id": "db_EventInfo:93405:1",
+      "jp": "【美食】に投資……そういえば、オーレリアに勧められたんだったかな",
+      "en": "Invest in 'Gastronomy'... Oh yeah, I think Aurelia suggested that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78937,
+      "id": "db_EventInfo:93406:1",
+      "jp": "文化の発展がどうとかで……。でも、【美食】の専門家なんていなかったわけで",
+      "en": "Something about cultural development... But there weren't any 'Gastronomy' experts around, so.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78938,
+      "id": "db_EventInfo:93407:34",
+      "jp": "うんうん！　でも今は、このボクがいるんだよね？",
+      "en": "Yeah, yeah! But now, you've got me, right?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78939,
+      "id": "db_EventInfo:93408:34",
+      "jp": "よ～し！　【<pl>】ちゃんのために、一肌脱いじゃおっか？",
+      "en": "Alright! How about I lend you【<pl>】a hand?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78940,
+      "id": "db_EventInfo:93409:8",
+      "jp": "性的な意味で？",
+      "en": "In a sexual way?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 78941,
+      "id": "db_EventInfo:93410:34",
+      "jp": "ルーシェと一緒にしないでよ～！",
+      "en": "Don't lump me in with Lusche!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78942,
+      "id": "db_EventInfo:93411:34",
+      "jp": "ボクは前々から、【『人間界』】に店を作って、【魔界料理】を広げたいと思ってたんだよね",
+      "en": "I've been wanting to open a shop in【'the Human World'】for a long time, to spread【demon world cuisine】.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78943,
+      "id": "db_EventInfo:93412:34",
+      "jp": "でも、店を作るには資金が必要でね～？",
+      "en": "But, to open a shop, you need money, right?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78944,
+      "id": "db_EventInfo:93413:2",
+      "jp": "馬鹿言うなデス。【魔界料理】って、モンスター料理を出すってわけデスよね",
+      "en": "Don't be stupid, desu.【Demon world cuisine】means serving monster dishes, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78945,
+      "id": "db_EventInfo:93414:34",
+      "jp": "ギクッ",
+      "en": "Gah!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78946,
+      "id": "db_EventInfo:93415:2",
+      "jp": "それはいわゆるゲテモノ料理と言うデス。カネになるか怪しいデス",
+      "en": "That's what you call gross food, desu. I doubt it'll make money, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78947,
+      "id": "db_EventInfo:93416:34",
+      "jp": "え～！　だからこそ、新境地を開けるものなんだよっ！",
+      "en": "Huh?! That's exactly why it can open new horizons!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78948,
+      "id": "db_EventInfo:93417:8",
+      "jp": "【魔界料理】なんて、【『グラット』】一族ぐらいしか作らないから、市場独占できるよ～！",
+      "en": "Only the【'Grat'】family makes【demon world cuisine】, so you can corner the market!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 78949,
+      "id": "db_EventInfo:93418:34",
+      "jp": "それに、【『魔界のフルコース』】を完成させるには、スタッフも必要なんだ",
+      "en": "Also, to finish the【'Demon World Full Course'】, you need staff.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78950,
+      "id": "db_EventInfo:93419:34",
+      "jp": "【『魔界五大珍味』】の捜索や、下ごしらえを手伝ってもらわないといけないしねっ！",
+      "en": "We'll need help searching for the【'Five Demon World Delicacies'】and doing the prep work too!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78951,
+      "id": "db_EventInfo:93420:8",
+      "jp": "そうだよ～っ！　ねねっ、お兄ちゃん、絶対【『投資』】してみるべきだよっ",
+      "en": "Yeah! Hey, brother, you should definitely 'invest'!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 78952,
+      "id": "db_EventInfo:93421:1",
+      "jp": "うーん……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78953,
+      "id": "db_EventInfo:93422:2",
+      "jp": "ダメデス～！　あの店には魔族がいる、なんてウワサが立ったら、どうするデス！",
+      "en": "No! What if a rumor starts that demons are in that shop!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78954,
+      "id": "db_EventInfo:93423:2",
+      "jp": "一応はコイツ、この地方の領主デス！　これ以上の醜聞はマジ勘弁デス！",
+      "en": "You're supposed to be the lord here! Please, no more scandals!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78955,
+      "id": "db_EventInfo:93424:1",
+      "jp": "これ以上……って",
+      "en": "No more...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78956,
+      "id": "db_EventInfo:93425:0",
+      "jp": "コッペリナは【魔界料理】を広げたいらしい。",
+      "en": "Koppelina seems to want to spread 'demon world cuisine'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78957,
+      "id": "db_EventInfo:93426:0",
+      "jp": "しかし、それを許せば世界が乱れると、シイネは懸念する。",
+      "en": "But Shiine worries it'll throw the world into chaos if we allow it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78958,
+      "id": "db_EventInfo:93427:0",
+      "jp": "意見が割れすぎて、判断が付かない俺は、助けを求めることにした。",
+      "en": "We're too split to decide. I decided to ask for help.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78959,
+      "id": "db_EventInfo:93428:15",
+      "jp": "えっ？　【魔界料理】を広げることについてだって？",
+      "en": "What? About spreading 'demon world cuisine'?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78960,
+      "id": "db_EventInfo:93429:15",
+      "jp": "う～ん？　まあ、別にいいんじゃないかな",
+      "en": "Hmm? Well, I don't see why not.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78961,
+      "id": "db_EventInfo:93431:2",
+      "jp": "オマエ、【『淫魔』】どもの肩を持つつもりデス？",
+      "en": "Are you taking the side of those 'succubi'?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78962,
+      "id": "db_EventInfo:93432:15",
+      "jp": "そうじゃなくて。【魔界料理】の食材は、【『魔界』】の食材なんだろうと思うけど",
+      "en": "No. It's just... 'Demon world cuisine' ingredients are from the 'demon world', right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78963,
+      "id": "db_EventInfo:93433:15",
+      "jp": "【『魔界』】によくある食材自体は、すでに【『人間界』】にもけっこうあるんだ",
+      "en": "A lot of the basic ingredients you find in the 'Netherworld' actually exist in the 'Human World' too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78964,
+      "id": "db_EventInfo:93434:15",
+      "jp": "ほら、【たこわさ】とか【トリニクモドキ】とか",
+      "en": "You know, stuff like octopus wasabi or mockbird meat.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78965,
+      "id": "db_EventInfo:93435:15",
+      "jp": "それに【貴重な食材】や【高級食材】は、多少なりとも【『魔界』】の息が掛かってるもんだからね",
+      "en": "Also, the really valuable or high-grade ingredients often have a touch of the 'Netherworld' about them.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78966,
+      "id": "db_EventInfo:93436:15",
+      "jp": "【高級食材】を使った料理は、自然と【美食】になる",
+      "en": "Dishes made with those high-grade ingredients naturally become gourmet cuisine.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78967,
+      "id": "db_EventInfo:93437:15",
+      "jp": "そういったモノを好き好んで食べる【食通】は、食材の出所や調理法の所以なんて、まあ気にしないんじゃないかな",
+      "en": "I doubt those gourmets, the ones who love to eat that stuff, care much about where it came from or how it was made.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78968,
+      "id": "db_EventInfo:93438:1",
+      "jp": "ふむ……【食通】は口が硬い……と",
+      "en": "Hmm... so gourmets keep their mouths shut...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78969,
+      "id": "db_EventInfo:93439:15",
+      "jp": "まあ【禁忌の食材】に手を出したら別だけど。そこまでやったら、シイネ君のセンサーが察知すると思うよ",
+      "en": "Well, it's a different story if someone uses forbidden ingredients. If they go that far, I think Shiine's sensors will pick it up.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78970,
+      "id": "db_EventInfo:93440:2",
+      "jp": "当然デス。魔族が世界を荒らしにきたら、首チョンパデス",
+      "en": "Of course desu. If a demon tries to wreck the world, I'll chop their head off desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78971,
+      "id": "db_EventInfo:93441:1",
+      "jp": "なるほどな……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78972,
+      "id": "db_EventInfo:93442:15",
+      "jp": "【『美食の殿堂クルクドール』】への【『組織献金』】が可能になったよ",
+      "en": "You can now make organizational donations to the 'Gourmet Hall Krukudorl'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78973,
+      "id": "db_EventInfo:93443:1",
+      "jp": "【『美食の殿堂』】？",
+      "en": "The 'Gourmet Hall'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78974,
+      "id": "db_EventInfo:93445:2",
+      "jp": "もしかして、コッペリナの言う【魔界料理】の店のことデス？",
+      "en": "Could that be the 'Netherworld Cuisine' shop Koppelina mentioned desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78975,
+      "id": "db_EventInfo:93446:15",
+      "jp": "さすがに、【魔界料理店】って名前を付けるわけにはいかないからねぇ",
+      "en": "Yeah, I can't exactly call it 'Demon Realm Cuisine Restaurant'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78976,
+      "id": "db_EventInfo:93447:1",
+      "jp": "ふむ。【『美食の殿堂クルクドール』】か",
+      "en": "Hmm. ['Gourmet Sanctuary Crudodor'].",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78977,
+      "id": "db_EventInfo:93448:15",
+      "jp": "コッペリナが中心となって、【魔界料理】を広めるために運営される組織だ",
+      "en": "It's an organization that Koppelina will run to spread [Demon Realm Cuisine].",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78978,
+      "id": "db_EventInfo:93449:15",
+      "jp": "店員は【『淫魔』】が中心になるだろうけど、まあそこは彼女にコントロールしてもらわないとね",
+      "en": "The staff will mostly be ['Succubi'], but she'll have to keep them in check.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 78979,
+      "id": "db_EventInfo:93450:2",
+      "jp": "ちゃんと目を光らせておくデスよ",
+      "en": "I'll be watching them closely.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78980,
+      "id": "db_EventInfo:93451:1",
+      "jp": "ああ",
+      "en": "Right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78981,
+      "id": "db_EventInfo:93454:0",
+      "jp": "俺は、コッペリナの動向を見守りつつ、【魔界料理】を広めることを許可することにした。",
+      "en": "I decided to let her spread [Demon Realm Cuisine] while keeping an eye on her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78982,
+      "id": "db_EventInfo:93456:34",
+      "jp": "【『美食の殿堂クルクドール』】の運営の許可、ありがとうね～Д",
+      "en": "Thanks for letting me run ['Gourmet Sanctuary Crudodor']Д",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78983,
+      "id": "db_EventInfo:93457:1",
+      "jp": "ああ、これから【『魔界のフルコース』】を作るわけだからな",
+      "en": "Sure. You'll be making ['The Demon Realm Full Course'] from now on.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78984,
+      "id": "db_EventInfo:93458:34",
+      "jp": "さっっすが【<pl>】ちゃん♪　気前いいとこ、大好きだよぉ♪",
+      "en": "Wow, 【<pl>】! I love how generous you are♪",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78985,
+      "id": "db_EventInfo:93459:34",
+      "jp": "お店を繁盛させて、美味しい料理を食べさせてあげるからね！",
+      "en": "I'll make the shop a hit and cook you lots of tasty food!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78986,
+      "id": "db_EventInfo:93460:2",
+      "jp": "繁盛させるのは大事デス",
+      "en": "Making it a hit is important.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78987,
+      "id": "db_EventInfo:93461:34",
+      "jp": "(くふふ……先っちょだけ入れたらこっちのもんだよぉ)",
+      "en": "(Hehe... Just the tip is enough to get started.)",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78988,
+      "id": "db_EventInfo:93462:34",
+      "jp": "(これを足がかりに。これから、この地を快楽と退廃のるつぼに)",
+      "en": "(I'll use this as a foothold. From here, I'll turn this place into a melting pot of pleasure and decay.)",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78989,
+      "id": "db_EventInfo:93463:1",
+      "jp": "……なんだか悪いことを考えてる顔をしているなぁ",
+      "en": "...You look like you're thinking about something bad.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78990,
+      "id": "db_EventInfo:93464:2",
+      "jp": "……もちろん、【『淫魔』】どもがそれに乗じて悪さするなら、どうなるかデスが",
+      "en": "...Of course, if any 『Succubi』 try to cause trouble, they'll regret it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78991,
+      "id": "db_EventInfo:93465:34",
+      "jp": "ひえっ！",
+      "en": "Eep!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78992,
+      "id": "db_EventInfo:93466:34",
+      "jp": "も、もちろん、スタッフの管理はしっかりするからねっ！！",
+      "en": "O-of course, I'll manage the staff properly!!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78993,
+      "id": "db_EventInfo:93468:34",
+      "jp": "【<pl>】ちゃん、【<pl>】ちゃん！",
+      "en": "【<pl>】, 【<pl>】!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78994,
+      "id": "db_EventInfo:93469:1",
+      "jp": "どうしたコッペリナ",
+      "en": "What's wrong, Koppelina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78995,
+      "id": "db_EventInfo:93470:34",
+      "jp": "【『美食の殿堂クルクドール』】なんだけど、食材の仕入に困っているんだよね",
+      "en": "It's about the 『Culinary Palace Cruckudor』, but I'm having trouble getting ingredients.",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 78996,
+      "id": "db_EventInfo:93471:1",
+      "jp": "食材の仕入？",
+      "en": "Trouble getting ingredients?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78997,
+      "id": "db_EventInfo:93472:11",
+      "jp": "食材なら、このお店でも仕入れているし、【『アルダルク農業組合』】も売っているわよ？",
+      "en": "We get ingredients here in this shop, and the 『Aldaluc Agricultural Union』 sells them too, you know?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 78998,
+      "id": "db_EventInfo:93473:11",
+      "jp": "もしかして、【魔界料理】だから、人間の食べる食材じゃダメなのかしら",
+      "en": "Maybe it's because it's 『Demon World cuisine』, so human food ingredients won't work?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 78999,
+      "id": "db_EventInfo:93474:2",
+      "jp": "どうせ【『淫魔』】は地獄の陰湿な洞窟の壁に生えるコケでも食べるデス",
+      "en": "I bet all Succubi eat is the mold growing on the damp walls of hell's caves.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79000,
+      "id": "db_EventInfo:93475:34",
+      "jp": "それは偏見だよ～！！？　【魔界料理】といっても、普通の食材は使うよ！",
+      "en": "That's so prejudiced! Even if it's 'Demon Realm Cuisine', we use normal ingredients!",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 301,
+  "range_end": 400,
+  "pairs": [
+    {
+      "n": 301,
+      "id": "extra_ui_0301",
+      "jp": "ヒロインの興奮度合いです。この値がマックスになれば、相手は絶頂するでしょう",
+      "en": "How aroused she is. Max it and she'll cum."
+    },
+    {
+      "n": 302,
+      "id": "extra_ui_0302",
+      "jp": "ムラムラ度",
+      "en": "Arousal"
+    },
+    {
+      "n": 303,
+      "id": "extra_ui_0303",
+      "jp": "このモードでのヒロインの好感度の変化度合いです",
+      "en": "How her affection is changing in this mode."
+    },
+    {
+      "n": 304,
+      "id": "extra_ui_0304",
+      "jp": "好感度",
+      "en": "Affection"
+    },
+    {
+      "n": 305,
+      "id": "extra_ui_0305",
+      "jp": "【初々しい感じ】で接客させるデス。可能なプレイが若干変化するデス。\\n<size=18>このモードのみのプレイ……なし</size>",
+      "en": "Have her serve with a 【fresh, new】 vibe. Plays shift a bit.\\n<size=18>This mode only... none</size>"
+    },
+    {
+      "n": 306,
+      "id": "extra_ui_0306",
+      "jp": "初心",
+      "en": "New"
+    },
+    {
+      "n": 307,
+      "id": "extra_ui_0307",
+      "jp": "【ベテランの感じ】で接客させるデス。可能なプレイが若干変化するデス。\\n<size=18>このモードのみのプレイ……『処女セックス』(モブのみ。絶望でも可)</size>",
+      "en": "Have her serve like a 【veteran】. Plays shift a bit.\\n<size=18>This mode only... 'virgin sex' (mobs; despair OK too)</size>"
+    },
+    {
+      "n": 308,
+      "id": "extra_ui_0308",
+      "jp": "習熟",
+      "en": "Pro"
+    },
+    {
+      "n": 309,
+      "id": "extra_ui_0309",
+      "jp": "【エッチな感じ】で接客させるデス。可能なプレイが若干変化するデス。\\n<size=18>このモードのみのプレイ……『コスプレ』(ユニークのみ)『泡プレイ』『特殊プレイ』</size>",
+      "en": "Have her serve with an 【H】 vibe. Plays shift a bit.\\n<size=18>This mode only... 'cosplay' (unique), 'soap', 'special'</size>"
+    },
+    {
+      "n": 310,
+      "id": "extra_ui_0310",
+      "jp": "妖艶",
+      "en": "Sexy"
+    },
+    {
+      "n": 311,
+      "id": "extra_ui_0311",
+      "jp": "【凌辱される感じ】で接客させるデス。可能なプレイが若干変化するデス。\\n<size=18>このモードのみのプレイ……『処女セックス』(モブのみ。習熟でも可)</size>",
+      "en": "Have her serve like she's being 【used】. Plays shift a bit.\\n<size=18>This mode only... 'virgin sex' (mobs; Pro OK too)</size>"
+    },
+    {
+      "n": 312,
+      "id": "extra_ui_0312",
+      "jp": "凌辱",
+      "en": "Abuse"
+    },
+    {
+      "n": 313,
+      "id": "extra_ui_0313",
+      "jp": "店員適性",
+      "en": "Work Apt"
+    },
+    {
+      "n": 314,
+      "id": "extra_ui_0314",
+      "jp": "冒険者適性",
+      "en": "Adv Apt"
+    },
+    {
+      "n": 315,
+      "id": "extra_ui_0315",
+      "jp": "エッチ適性",
+      "en": "H Apt"
+    },
+    {
+      "n": 316,
+      "id": "extra_ui_0316",
+      "jp": "詳細操作",
+      "en": "Details"
+    },
+    {
+      "n": 317,
+      "id": "extra_ui_0317",
+      "jp": "部門配置",
+      "en": "Assign"
+    },
+    {
+      "n": 318,
+      "id": "extra_ui_0318",
+      "jp": "H系指示",
+      "en": "H Orders"
+    },
+    {
+      "n": 319,
+      "id": "extra_ui_0319",
+      "jp": "ランクアップ",
+      "en": "Rank Up"
+    },
+    {
+      "n": 320,
+      "id": "extra_ui_0320",
+      "jp": "生産設備なし",
+      "en": "No shop"
+    },
+    {
+      "n": 321,
+      "id": "extra_ui_0321",
+      "jp": "スタッフリスト",
+      "en": "Staff List"
+    },
+    {
+      "n": 322,
+      "id": "extra_ui_0322",
+      "jp": "建築数制限",
+      "en": "Limit"
+    },
+    {
+      "n": 323,
+      "id": "extra_ui_0323",
+      "jp": "建築指示",
+      "en": "Build"
+    },
+    {
+      "n": 324,
+      "id": "extra_ui_0324",
+      "jp": "施設改良",
+      "en": "Upgrade"
+    },
+    {
+      "n": 325,
+      "id": "extra_ui_0325",
+      "jp": "H部屋運用",
+      "en": "H Room"
+    },
+    {
+      "n": 326,
+      "id": "extra_ui_0326",
+      "jp": "難易度",
+      "en": "Diff"
+    },
+    {
+      "n": 327,
+      "id": "extra_ui_0327",
+      "jp": "攻略状況",
+      "en": "Clear"
+    },
+    {
+      "n": 328,
+      "id": "extra_ui_0328",
+      "jp": "未入手のマテリアル",
+      "en": "Unowned mats"
+    },
+    {
+      "n": 329,
+      "id": "extra_ui_0329",
+      "jp": "獲得出来るダンジョン",
+      "en": "Dungeons"
+    },
+    {
+      "n": 330,
+      "id": "extra_ui_0330",
+      "jp": "×未出現のダンジョン×",
+      "en": "x Not found x"
+    },
+    {
+      "n": 331,
+      "id": "extra_ui_0331",
+      "jp": "アンロックボーナス",
+      "en": "Unlock bonus"
+    },
+    {
+      "n": 332,
+      "id": "extra_ui_0332",
+      "jp": "開発に必要な素材",
+      "en": "Need mats"
+    },
+    {
+      "n": 333,
+      "id": "extra_ui_0333",
+      "jp": "アクティブボーナス",
+      "en": "Active bonus"
+    },
+    {
+      "n": 334,
+      "id": "extra_ui_0334",
+      "jp": "戦闘能力",
+      "en": "Combat"
+    },
+    {
+      "n": 335,
+      "id": "extra_ui_0335",
+      "jp": "探索能力",
+      "en": "Explore"
+    },
+    {
+      "n": 336,
+      "id": "extra_ui_0336",
+      "jp": "適性",
+      "en": "Apt"
+    },
+    {
+      "n": 337,
+      "id": "extra_ui_0337",
+      "jp": "能力",
+      "en": "Abl"
+    },
+    {
+      "n": 338,
+      "id": "extra_ui_0338",
+      "jp": "全身",
+      "en": "Body"
+    },
+    {
+      "n": 339,
+      "id": "extra_ui_0339",
+      "jp": "決定",
+      "en": "OK"
+    },
+    {
+      "n": 340,
+      "id": "extra_ui_0340",
+      "jp": "なし",
+      "en": "None"
+    },
+    {
+      "n": 341,
+      "id": "extra_ui_0341",
+      "jp": "「料理」",
+      "en": "Food"
+    },
+    {
+      "n": 342,
+      "id": "extra_ui_0342",
+      "jp": "大陸冒険者ギルド連盟",
+      "en": "Adv. Guild"
+    },
+    {
+      "n": 343,
+      "id": "extra_ui_0343",
+      "jp": "Continental Adventurers' Guild Federation",
+      "en": "Adv. Guild"
+    },
+    {
+      "n": 344,
+      "id": "extra_ui_0344",
+      "jp": "アルダルク農業組合",
+      "en": "Aldark Farm"
+    },
+    {
+      "n": 345,
+      "id": "extra_ui_0345",
+      "jp": "Aldark Agricultural Union",
+      "en": "Aldark Farm"
+    },
+    {
+      "n": 346,
+      "id": "extra_ui_0346",
+      "jp": "大陸冒険者ギルド連盟Lv1",
+      "en": "Adv. Guild Lv1"
+    },
+    {
+      "n": 347,
+      "id": "extra_ui_0347",
+      "jp": "Continental Adventurers' Guild Federation Lv1",
+      "en": "Adv. Guild Lv1"
+    },
+    {
+      "n": 348,
+      "id": "extra_ui_0348",
+      "jp": "アルダルク農業組合Lv1",
+      "en": "Aldark Farm Lv1"
+    },
+    {
+      "n": 349,
+      "id": "extra_ui_0349",
+      "jp": "Aldark Agricultural Union Lv1",
+      "en": "Aldark Farm Lv1"
+    },
+    {
+      "n": 350,
+      "id": "extra_ui_0350",
+      "jp": "大陸冒険者ギルド連盟Lv2",
+      "en": "Adv. Guild Lv2"
+    },
+    {
+      "n": 351,
+      "id": "extra_ui_0351",
+      "jp": "Continental Adventurers' Guild Federation Lv2",
+      "en": "Adv. Guild Lv2"
+    },
+    {
+      "n": 352,
+      "id": "extra_ui_0352",
+      "jp": "アルダルク農業組合Lv2",
+      "en": "Aldark Farm Lv2"
+    },
+    {
+      "n": 353,
+      "id": "extra_ui_0353",
+      "jp": "Aldark Agricultural Union Lv2",
+      "en": "Aldark Farm Lv2"
+    },
+    {
+      "n": 354,
+      "id": "extra_ui_0354",
+      "jp": "大陸冒険者ギルド連盟Lv3",
+      "en": "Adv. Guild Lv3"
+    },
+    {
+      "n": 355,
+      "id": "extra_ui_0355",
+      "jp": "Continental Adventurers' Guild Federation Lv3",
+      "en": "Adv. Guild Lv3"
+    },
+    {
+      "n": 356,
+      "id": "extra_ui_0356",
+      "jp": "アルダルク農業組合Lv3",
+      "en": "Aldark Farm Lv3"
+    },
+    {
+      "n": 357,
+      "id": "extra_ui_0357",
+      "jp": "Aldark Agricultural Union Lv3",
+      "en": "Aldark Farm Lv3"
+    },
+    {
+      "n": 358,
+      "id": "extra_ui_0358",
+      "jp": "大陸冒険者ギルド連盟Lv4",
+      "en": "Adv. Guild Lv4"
+    },
+    {
+      "n": 359,
+      "id": "extra_ui_0359",
+      "jp": "Continental Adventurers' Guild Federation Lv4",
+      "en": "Adv. Guild Lv4"
+    },
+    {
+      "n": 360,
+      "id": "extra_ui_0360",
+      "jp": "アルダルク農業組合Lv4",
+      "en": "Aldark Farm Lv4"
+    },
+    {
+      "n": 361,
+      "id": "extra_ui_0361",
+      "jp": "Aldark Agricultural Union Lv4",
+      "en": "Aldark Farm Lv4"
+    },
+    {
+      "n": 362,
+      "id": "extra_ui_0362",
+      "jp": "大陸冒険者ギルド連盟Lv5",
+      "en": "Adv. Guild Lv5"
+    },
+    {
+      "n": 363,
+      "id": "extra_ui_0363",
+      "jp": "Continental Adventurers' Guild Federation Lv5",
+      "en": "Adv. Guild Lv5"
+    },
+    {
+      "n": 364,
+      "id": "extra_ui_0364",
+      "jp": "アルダルク農業組合Lv5",
+      "en": "Aldark Farm Lv5"
+    },
+    {
+      "n": 365,
+      "id": "extra_ui_0365",
+      "jp": "Aldark Agricultural Union Lv5",
+      "en": "Aldark Farm Lv5"
+    },
+    {
+      "n": 366,
+      "id": "extra_ui_0366",
+      "jp": "大陸冒険者ギルド連盟Lv6",
+      "en": "Adv. Guild Lv6"
+    },
+    {
+      "n": 367,
+      "id": "extra_ui_0367",
+      "jp": "Continental Adventurers' Guild Federation Lv6",
+      "en": "Adv. Guild Lv6"
+    },
+    {
+      "n": 368,
+      "id": "extra_ui_0368",
+      "jp": "アルダルク農業組合Lv6",
+      "en": "Aldark Farm Lv6"
+    },
+    {
+      "n": 369,
+      "id": "extra_ui_0369",
+      "jp": "Aldark Agricultural Union Lv6",
+      "en": "Aldark Farm Lv6"
+    },
+    {
+      "n": 370,
+      "id": "extra_ui_0370",
+      "jp": "大陸冒険者ギルド連盟Lv7",
+      "en": "Adv. Guild Lv7"
+    },
+    {
+      "n": 371,
+      "id": "extra_ui_0371",
+      "jp": "Continental Adventurers' Guild Federation Lv7",
+      "en": "Adv. Guild Lv7"
+    },
+    {
+      "n": 372,
+      "id": "extra_ui_0372",
+      "jp": "アルダルク農業組合Lv7",
+      "en": "Aldark Farm Lv7"
+    },
+    {
+      "n": 373,
+      "id": "extra_ui_0373",
+      "jp": "Aldark Agricultural Union Lv7",
+      "en": "Aldark Farm Lv7"
+    },
+    {
+      "n": 374,
+      "id": "extra_ui_0374",
+      "jp": "大陸冒険者ギルド連盟Lv8",
+      "en": "Adv. Guild Lv8"
+    },
+    {
+      "n": 375,
+      "id": "extra_ui_0375",
+      "jp": "Continental Adventurers' Guild Federation Lv8",
+      "en": "Adv. Guild Lv8"
+    },
+    {
+      "n": 376,
+      "id": "extra_ui_0376",
+      "jp": "アルダルク農業組合Lv8",
+      "en": "Aldark Farm Lv8"
+    },
+    {
+      "n": 377,
+      "id": "extra_ui_0377",
+      "jp": "Aldark Agricultural Union Lv8",
+      "en": "Aldark Farm Lv8"
+    },
+    {
+      "n": 378,
+      "id": "extra_ui_0378",
+      "jp": "大陸冒険者ギルド連盟Lv9",
+      "en": "Adv. Guild Lv9"
+    },
+    {
+      "n": 379,
+      "id": "extra_ui_0379",
+      "jp": "Continental Adventurers' Guild Federation Lv9",
+      "en": "Adv. Guild Lv9"
+    },
+    {
+      "n": 380,
+      "id": "extra_ui_0380",
+      "jp": "アルダルク農業組合Lv9",
+      "en": "Aldark Farm Lv9"
+    },
+    {
+      "n": 381,
+      "id": "extra_ui_0381",
+      "jp": "Aldark Agricultural Union Lv9",
+      "en": "Aldark Farm Lv9"
+    },
+    {
+      "n": 382,
+      "id": "extra_ui_0382",
+      "jp": "大陸冒険者ギルド連盟Lv10",
+      "en": "Adv. Guild Lv10"
+    },
+    {
+      "n": 383,
+      "id": "extra_ui_0383",
+      "jp": "Continental Adventurers' Guild Federation Lv10",
+      "en": "Adv. Guild Lv10"
+    },
+    {
+      "n": 384,
+      "id": "extra_ui_0384",
+      "jp": "アルダルク農業組合Lv10",
+      "en": "Aldark Farm Lv10"
+    },
+    {
+      "n": 385,
+      "id": "extra_ui_0385",
+      "jp": "Aldark Agricultural Union Lv10",
+      "en": "Aldark Farm Lv10"
+    },
+    {
+      "n": 386,
+      "id": "extra_ui_0386",
+      "jp": "大陸冒険者ギルド連盟Lv11",
+      "en": "Adv. Guild Lv11"
+    },
+    {
+      "n": 387,
+      "id": "extra_ui_0387",
+      "jp": "Continental Adventurers' Guild Federation Lv11",
+      "en": "Adv. Guild Lv11"
+    },
+    {
+      "n": 388,
+      "id": "extra_ui_0388",
+      "jp": "アルダルク農業組合Lv11",
+      "en": "Aldark Farm Lv11"
+    },
+    {
+      "n": 389,
+      "id": "extra_ui_0389",
+      "jp": "Aldark Agricultural Union Lv11",
+      "en": "Aldark Farm Lv11"
+    },
+    {
+      "n": 390,
+      "id": "extra_ui_0390",
+      "jp": "大陸冒険者ギルド連盟Lv12",
+      "en": "Adv. Guild Lv12"
+    },
+    {
+      "n": 391,
+      "id": "extra_ui_0391",
+      "jp": "Continental Adventurers' Guild Federation Lv12",
+      "en": "Adv. Guild Lv12"
+    },
+    {
+      "n": 392,
+      "id": "extra_ui_0392",
+      "jp": "アルダルク農業組合Lv12",
+      "en": "Aldark Farm Lv12"
+    },
+    {
+      "n": 393,
+      "id": "extra_ui_0393",
+      "jp": "Aldark Agricultural Union Lv12",
+      "en": "Aldark Farm Lv12"
+    },
+    {
+      "n": 394,
+      "id": "extra_ui_0394",
+      "jp": "大陸冒険者ギルド連盟Lv13",
+      "en": "Adv. Guild Lv13"
+    },
+    {
+      "n": 395,
+      "id": "extra_ui_0395",
+      "jp": "Continental Adventurers' Guild Federation Lv13",
+      "en": "Adv. Guild Lv13"
+    },
+    {
+      "n": 396,
+      "id": "extra_ui_0396",
+      "jp": "アルダルク農業組合Lv13",
+      "en": "Aldark Farm Lv13"
+    },
+    {
+      "n": 397,
+      "id": "extra_ui_0397",
+      "jp": "Aldark Agricultural Union Lv13",
+      "en": "Aldark Farm Lv13"
+    },
+    {
+      "n": 398,
+      "id": "extra_ui_0398",
+      "jp": "大陸冒険者ギルド連盟Lv14",
+      "en": "Adv. Guild Lv14"
+    },
+    {
+      "n": 399,
+      "id": "extra_ui_0399",
+      "jp": "Continental Adventurers' Guild Federation Lv14",
+      "en": "Adv. Guild Lv14"
+    },
+    {
+      "n": 400,
+      "id": "extra_ui_0400",
+      "jp": "アルダルク農業組合Lv14",
+      "en": "Aldark Farm Lv14"
+    }
+  ]
+}

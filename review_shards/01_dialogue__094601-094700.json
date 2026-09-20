@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94601,
+  "range_end": 94700,
+  "pairs": [
+    {
+      "n": 94601,
+      "id": "db_EventInfo:111767:1",
+      "jp": "なんてこった",
+      "en": "Oh, damn.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94602,
+      "id": "db_EventInfo:111768:2",
+      "jp": "ぐぬぬ……そんなトラップがあるとは",
+      "en": "Grrr... I didn't know there was a trap like that.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94603,
+      "id": "db_EventInfo:111769:2",
+      "jp": "土地の権利がハーヴェスタにある限り、永久に利益を上納することになるデス",
+      "en": "As long as Harvester owns this land, we'll be paying him profits forever.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94604,
+      "id": "db_EventInfo:111770:1",
+      "jp": "別の土地に移るしかない……ってことか",
+      "en": "So our only choice is to move to a different place...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94605,
+      "id": "db_EventInfo:111771:2",
+      "jp": "ここまで育てた店を捨てるわけにはいかないデス。それに、オマエを転生させるのはこの場所じゃないとダメデス",
+      "en": "We can't just abandon the shop we've built up to this point. Besides, this is the only place where I can reincarnate you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94606,
+      "id": "db_EventInfo:111772:2",
+      "jp": "いろいろとこう、土地の因縁みたいなのがあるデス……",
+      "en": "There's, like, all sorts of land karma or whatever tied to this spot...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94607,
+      "id": "db_EventInfo:111773:1",
+      "jp": "この場所にいる限りは、ハーヴェスタには逆らえないということか",
+      "en": "So as long as we're here, we can't go against Harvester?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94608,
+      "id": "db_EventInfo:111774:2",
+      "jp": "もしくは……アイツにものすごい恩を売って、こちらに逆らえないようにすればいいデス",
+      "en": "Or... we could do him a huge favor, so he can't go against us.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94609,
+      "id": "db_EventInfo:111775:2",
+      "jp": "ククク……そろそろ、ヤツとの【『縁』】も強くなっていく頃、時はきたれりデス",
+      "en": "Heh heh heh... The time is coming. Our ['fate'] with him is about to grow stronger.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94610,
+      "id": "db_EventInfo:111776:2",
+      "jp": "ヤツのピンチを救って弱みに付け込んで、言うこと聞かせるデスよД",
+      "en": "We'll save him when he's in a pinch, use that as leverage, and make him do what we sayД",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94611,
+      "id": "db_EventInfo:111777:1",
+      "jp": "悪い顔してる……",
+      "en": "You look upset...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94612,
+      "id": "db_EventInfo:111778:0",
+      "jp": "【『縁』】が強くなるということは、ハーヴェスタが【死に近い運命】に晒されるということだ。",
+      "en": "Our 'bond' getting stronger means Harvester faces a 'fate close to death'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94613,
+      "id": "db_EventInfo:111779:0",
+      "jp": "彼女に危険がないよう、気を付けておかなければ。",
+      "en": "I need to be careful to keep her safe.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94614,
+      "id": "db_EventInfo:111781:2",
+      "jp": "おいオマエ、客が来ているデス",
+      "en": "Hey, you, a customer is here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94615,
+      "id": "db_EventInfo:111782:224",
+      "jp": "君がこの店の主かね？",
+      "en": "Are you the owner of this shop?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94616,
+      "id": "db_EventInfo:111783:1",
+      "jp": "アンタは……？",
+      "en": "And you are...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94617,
+      "id": "db_EventInfo:111785:18",
+      "jp": "私の名前はゼルカ。【『ゼカリウス』】の領主だ",
+      "en": "My name is Zelka. I am the lord of 'Zecarius'.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94618,
+      "id": "db_EventInfo:111786:1",
+      "jp": "領主……！",
+      "en": "The lord...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94619,
+      "id": "db_EventInfo:111787:18",
+      "jp": "君のことは聞いている。【『フレスミス森林道』】【『ドルワミール鉱山』】に多額の投資を行い、発展に貢献しているそうだね",
+      "en": "I've heard about you. I heard you made big investments in the 'Freshmiss Forest Road' and the 'Dolwamir Mine', helping them grow.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94620,
+      "id": "db_EventInfo:111788:18",
+      "jp": "領主として【『ゼカリウス』】の発展に寄与している君の店には、大いに感謝している",
+      "en": "As the lord, I'm very grateful to your shop for contributing to 'Zecarius's development.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94621,
+      "id": "db_EventInfo:111789:18",
+      "jp": "なによりこの店の客入りを見るだけで……まだ若いというのに、君の手腕の高さがうかがえるからね",
+      "en": "And just seeing how busy your shop is... Even though you're young, I can tell you're very skilled.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94622,
+      "id": "db_EventInfo:111790:1",
+      "jp": "そ、それほどでも……",
+      "en": "I... It's not that big a deal...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94623,
+      "id": "db_EventInfo:111791:18",
+      "jp": "【『ゼカリウス』】は優秀な若人を歓迎している",
+      "en": "『Zecarius』 welcomes talented young people.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94624,
+      "id": "db_EventInfo:111792:18",
+      "jp": "少ないが、私からも支援をさせてもらおう",
+      "en": "It's not much, but let me help you out a little too.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94625,
+      "id": "db_EventInfo:111793:18",
+      "jp": "ふっ……これからの活躍を期待しているよ",
+      "en": "Hah... I'm looking forward to seeing what you do.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94626,
+      "id": "db_EventInfo:111794:0",
+      "jp": "★クリア",
+      "en": "★ Stage Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94627,
+      "id": "db_EventInfo:111795:0",
+      "jp": "領主ゼルカは帰っていった。",
+      "en": "Lord Zelka went home.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94628,
+      "id": "db_EventInfo:111796:2",
+      "jp": "おカネくれたデス。いいヤツデスね",
+      "en": "He gave us money. He's a nice guy.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94629,
+      "id": "db_EventInfo:111797:1",
+      "jp": "あ、ああ……",
+      "en": "Y-yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94630,
+      "id": "db_EventInfo:111798:2",
+      "jp": "いや待つデス？　領主といえば、この街の主デス……いつも税金を持っていくヤツデス！",
+      "en": "Wait a second? The lord, he's the boss of this town... He's the one who always takes our taxes!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94631,
+      "id": "db_EventInfo:111799:2",
+      "jp": "取られたものをちょっと返してもらっただけデス！　喜んで損したデス！！！",
+      "en": "He just gave back a tiny bit of what he took! We shouldn't be happy, we lost out!!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94632,
+      "id": "db_EventInfo:111800:1",
+      "jp": "まあまあ……",
+      "en": "Well, well...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94633,
+      "id": "db_EventInfo:111803:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94634,
+      "id": "db_EventInfo:111806:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, at that time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94635,
+      "id": "db_EventInfo:111807:18",
+      "jp": "あれがウワサの店主か……あの若さで、あれだけの経営を行うとは",
+      "en": "So that's the famous shopkeeper I've heard about... To run a business like that at such a young age...",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94636,
+      "id": "db_EventInfo:111808:18",
+      "jp": "なにか、ウラがあるに違いない",
+      "en": "There's got to be something behind it.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94637,
+      "id": "db_EventInfo:111809:134",
+      "jp": "……なにか、違法なことに手を染めていると？",
+      "en": "...Are you saying he's into something illegal?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94638,
+      "id": "db_EventInfo:111810:18",
+      "jp": "うム、そうでなくては理由が付かない。あれだけの求心力、異常だ",
+      "en": "Hmm, nothing else would make sense. That level of influence isn't normal.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94639,
+      "id": "db_EventInfo:111811:18",
+      "jp": "おそらく【『魔薬』】か、それに類するモノを売っているのだろう",
+      "en": "He's probably selling 'magic potions' or something like that.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94640,
+      "id": "db_EventInfo:111812:134",
+      "jp": "調べてみますか……？",
+      "en": "Should I look into it...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94641,
+      "id": "db_EventInfo:111815:18",
+      "jp": "うム……【ヤツ】を呼べ",
+      "en": "Hmm... Call in 'that guy'.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94642,
+      "id": "db_EventInfo:111817:1",
+      "jp": "今日も一日、がんばろう",
+      "en": "Alright, let's do our best again today.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94643,
+      "id": "db_EventInfo:111818:2",
+      "jp": "うむデス",
+      "en": "Yes, indeed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94644,
+      "id": "db_EventInfo:111820:7",
+      "jp": "がんばろー！！",
+      "en": "Let's do it!!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94645,
+      "id": "db_EventInfo:111822:1",
+      "jp": "だれだお前",
+      "en": "Who are you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94646,
+      "id": "db_EventInfo:111823:7",
+      "jp": "ええっ、ひどいなー！　新規スタッフのファシィだよ、忘れたの？",
+      "en": "Eh?! That's mean! I'm Facy, the new staff member! Did you forget?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94647,
+      "id": "db_EventInfo:111824:1",
+      "jp": "いや、そんな記憶はないが……",
+      "en": "No, I don't remember that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94648,
+      "id": "db_EventInfo:111825:7",
+      "jp": "そうだね！　この宿ぐらい繁盛していると、スタッフの名前を覚えるのは大変だよねー！",
+      "en": "I know, right?! When a place is this busy, it's tough to remember all the staff names!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94649,
+      "id": "db_EventInfo:111826:7",
+      "jp": "まあ任せてよ、ボクってば自分の名前を覚えさせるのは得意だから！",
+      "en": "Well, leave it to me! I'm really good at making people remember my name!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94650,
+      "id": "db_EventInfo:111827:7",
+      "jp": "じゃあ、今日も一日、がんばろうねー！！",
+      "en": "Okay, let's do our best today too!!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94651,
+      "id": "db_EventInfo:111828:1",
+      "jp": "お、おう",
+      "en": "O-oh, yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94652,
+      "id": "db_EventInfo:111829:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94653,
+      "id": "db_EventInfo:111830:0",
+      "jp": "ファシィと名乗る少女は、腕を振ってスタッフルームに消えていった。",
+      "en": "The girl who called herself Facy waved her arm and disappeared into the staff room.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94654,
+      "id": "db_EventInfo:111833:1",
+      "jp": "っておい！？",
+      "en": "Hey, wait!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94655,
+      "id": "db_EventInfo:111835:7",
+      "jp": "いやあ、お客さんが多くて忙しいね～",
+      "en": "Man, so many customers, we're busy~",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94656,
+      "id": "db_EventInfo:111836:2",
+      "jp": "オマエ、なんでウチにいるデス！？",
+      "en": "You! Why are you in our shop!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94657,
+      "id": "db_EventInfo:111837:7",
+      "jp": "いいじゃない、どうせスタッフは不足しているんでしょ？",
+      "en": "What's the problem? You're short on staff anyway, right?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94658,
+      "id": "db_EventInfo:111838:7",
+      "jp": "ボクが何人分も働いてあげるからさ～♪",
+      "en": "I'll work hard enough for several people~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94659,
+      "id": "db_EventInfo:111839:1",
+      "jp": "いや、そうじゃなくて",
+      "en": "No, that's not what I mean...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94660,
+      "id": "db_EventInfo:111840:208",
+      "jp": "ファシィちゃんは気が回るよい子じゃのう",
+      "en": "Facy-chan is such a good kid who pays attention, isn't she?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94661,
+      "id": "db_EventInfo:111841:210",
+      "jp": "ファシィちゃんのためなら、毎日店に来ちゃうぜ！",
+      "en": "For Facy-chan's sake, I'll come to the shop every day, seriously!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94662,
+      "id": "db_EventInfo:111842:2",
+      "jp": "……ファシィの周りに客が集まってきてるデス",
+      "en": "...Customers are gathering around Facy.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94663,
+      "id": "db_EventInfo:111843:2",
+      "jp": "なんという接客能力、これは逸材デスね……！",
+      "en": "What incredible customer service skills, she's a true find...!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94664,
+      "id": "db_EventInfo:111844:1",
+      "jp": "うう、これは追い出すと言いにくいな……",
+      "en": "Ugh, this makes it hard to say we're kicking her out...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94665,
+      "id": "db_EventInfo:111845:0",
+      "jp": "ファシィの接客能力で客が集められていく。",
+      "en": "Facy's service skills are pulling in the customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94666,
+      "id": "db_EventInfo:111846:0",
+      "jp": "おそらく彼女の持つ、【妙に気安い雰囲気】が、心のガードを無意識に下ろしてしまうのだろう……。",
+      "en": "It's probably her oddly easygoing vibe... it makes people let their guard down without even realizing it...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94667,
+      "id": "db_EventInfo:111849:0",
+      "jp": "それは俺も同じで、なんとなく彼女を受け入れてしまっており……。",
+      "en": "I'm the same way. I just kinda accepted her being here...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94668,
+      "id": "db_EventInfo:111850:0",
+      "jp": "俺はそのままファシィを雇うことにした。",
+      "en": "I decided to hire Facy as-is.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94669,
+      "id": "db_EventInfo:111851:2",
+      "jp": "そういえばファシィは冒険者デス？",
+      "en": "By the way, Facy, you're an adventurer, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94670,
+      "id": "db_EventInfo:111852:7",
+      "jp": "ボク？　そうだよ～♪",
+      "en": "Me? Yeah, I am~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94671,
+      "id": "db_EventInfo:111853:2",
+      "jp": "冒険者というなら、今までに攻略した【『ダンジョン』】とかあるデス？",
+      "en": "If you're an adventurer, have you ever beaten a dungeon before?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94672,
+      "id": "db_EventInfo:111854:7",
+      "jp": "え、あ、えーっと、それはとくにないね♪",
+      "en": "Huh, um, well... not really, nope!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94673,
+      "id": "db_EventInfo:111855:7",
+      "jp": "でもボクは【『<ruby=レンジャー>野伏</ruby>』】だからね！　トラップの扱いや物探しなんかは大得意だよ！",
+      "en": "But I'm a Ranger! I'm great with traps and finding things!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94674,
+      "id": "db_EventInfo:111856:1",
+      "jp": "【『<ruby=レンジャー>野伏</ruby>』】か……",
+      "en": "A Ranger, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94675,
+      "id": "db_EventInfo:111857:7",
+      "jp": "逆にボクも、店長たちのことが気になるよね",
+      "en": "Speaking of which, I'm curious about you all, too.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94676,
+      "id": "db_EventInfo:111858:2",
+      "jp": "デス？",
+      "en": "Hm?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94677,
+      "id": "db_EventInfo:111859:7",
+      "jp": "だって、キミ達、ちょっと普通じゃないよね？　なんか、【不思議な感じ】があるというか……",
+      "en": "Because, well, you guys aren't exactly normal, right? You have a kind of... strange vibe.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94678,
+      "id": "db_EventInfo:111860:1",
+      "jp": "えっ",
+      "en": "Huh?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94679,
+      "id": "db_EventInfo:111861:7",
+      "jp": "だって、そんな若いのに、これだけの店を切り盛りするって、異常だよね？",
+      "en": "I mean, running a shop this big when you're so young? That's not normal, right?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94680,
+      "id": "db_EventInfo:111862:7",
+      "jp": "【『魔性』】というか、なんだか【普通の人間じゃないパワー】みたいなのがない？",
+      "en": "It's like... a 'demonic' thing? Don't you have a kind of power that's not human?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94681,
+      "id": "db_EventInfo:111863:7",
+      "jp": "たとえばあそこの、紫の髪の女の子とか",
+      "en": "Like that girl over there with the purple hair, for example.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94682,
+      "id": "db_EventInfo:111864:8",
+      "jp": "ギクッ",
+      "en": "Eek!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 94683,
+      "id": "db_EventInfo:111865:2",
+      "jp": "アイツはなんというか、マスコットみたいなもんデス",
+      "en": "Well, she's like a mascot or something.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94684,
+      "id": "db_EventInfo:111866:1",
+      "jp": "そうそう",
+      "en": "Yeah, exactly.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94685,
+      "id": "db_EventInfo:111867:7",
+      "jp": "ふーん",
+      "en": "Hmm.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94686,
+      "id": "db_EventInfo:111868:7",
+      "jp": "まあいっか、じゃあ仕事に戻ってるね！",
+      "en": "Oh well, anyway, I'm gonna get back to work!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94687,
+      "id": "db_EventInfo:111872:2",
+      "jp": "何か鋭いヤツデスね……",
+      "en": "She's pretty sharp, huh...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94688,
+      "id": "db_EventInfo:111873:1",
+      "jp": "【『<ruby=レンジャー>野伏</ruby>』】って言ってたから、そのせいじゃないのか？",
+      "en": "She said she's a 'Ranger', right? Maybe that's why?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94689,
+      "id": "db_EventInfo:111874:2",
+      "jp": "たしかにそうデスが、私たちが【人間じゃない】ことに気がついてるみたいデス",
+      "en": "That's true, but she seems to realize we are 'not human'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94690,
+      "id": "db_EventInfo:111875:2",
+      "jp": "私たちには【『認識阻害』】の魔術がかかってるデス。マリーゼルのような特別な人間じゃなければ、正体は分からないデス",
+      "en": "We're under a 'Perception Blocking' spell. Unless someone is special like Marisel, they shouldn't be able to tell our true nature.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94691,
+      "id": "db_EventInfo:111876:1",
+      "jp": "つまり、ファシィも特別な人間だと？",
+      "en": "So, you mean Facy is also a special human?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94692,
+      "id": "db_EventInfo:111877:2",
+      "jp": "そうデスね。私も気になってたデス",
+      "en": "That's right. I've been wondering about that too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94693,
+      "id": "db_EventInfo:111878:2",
+      "jp": "なんというか、ファシィからはオマエと同じ、【この世界の人間じゃない】雰囲気を感じるのデスよ",
+      "en": "Somehow, I feel from Facy the same 'not from this world' vibe I get from you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94694,
+      "id": "db_EventInfo:111879:1",
+      "jp": "【この世界の人間じゃない】……【『転生者』】……？",
+      "en": "'Not from this world'... A 'Reincarnated One'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94695,
+      "id": "db_EventInfo:111880:2",
+      "jp": "かもしれない、という話デス",
+      "en": "That might be the case, you know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94696,
+      "id": "db_EventInfo:111881:2",
+      "jp": "ともあれファシィは何か、【異質なものを感じとる力】が優れているのかもしれないデスね",
+      "en": "Anyway, Facy might just be really good at sensing things that are... out of the ordinary.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94697,
+      "id": "db_EventInfo:111882:1",
+      "jp": "【俺と同じ】……そんな事があり得るのか……？",
+      "en": "The same as me... Could that even be possible...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94698,
+      "id": "db_EventInfo:111883:2",
+      "jp": "わからないデス。召喚は私の専売特許というわけでもないデスし",
+      "en": "I don't know. Summoning isn't exactly my own private thing.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94699,
+      "id": "db_EventInfo:111884:2",
+      "jp": "といっても、異世界から召喚ができるほどの高位魔族は、私ぐらいしかいないと思うデスが",
+      "en": "Still, I think I'm about the only high-level demon who can summon someone from another world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94700,
+      "id": "db_EventInfo:111885:1",
+      "jp": "……シイネって、実はすごい【『死神』】だったりするのか？",
+      "en": "...Shiine, are you actually an amazing 'Grim Reaper' or something?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

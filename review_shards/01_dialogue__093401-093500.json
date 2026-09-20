@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93401,
+  "range_end": 93500,
+  "pairs": [
+    {
+      "n": 93401,
+      "id": "db_EventInfo:110385:9",
+      "jp": "もとより【『魔術』】を極めるつもりはないのであるからな？",
+      "en": "I never intended to master 'magic' anyway.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93402,
+      "id": "db_EventInfo:110386:9",
+      "jp": "ならば、専門的に研鑽する者たちに交じっていては、彼らの業績に泥を塗るようなものであろう",
+      "en": "So, staying among those who specialize would just tarnish their work.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93403,
+      "id": "db_EventInfo:110387:15",
+      "jp": "必死で学んできたのに、飛び入りで入った彼女に追い抜かれて。心を折られた【『上級魔術師』】がけっこう多かったようだけどね",
+      "en": "Quite a few senior mages were devastated when she, a latecomer, overtook their hard work.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93404,
+      "id": "db_EventInfo:110388:1",
+      "jp": "うーむ、魔術師かぁ",
+      "en": "Hmm, a mage, huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93405,
+      "id": "db_EventInfo:110389:2",
+      "jp": "魔術師は便利デス。範囲攻撃魔術の使い手がいれば、【『ダンジョン』】探索も有利に進められるデスよ",
+      "en": "Mages are useful des. Having someone who can use area attacks makes exploring dungeons easier desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93406,
+      "id": "db_EventInfo:110390:1",
+      "jp": "そうなのか",
+      "en": "Is that right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93407,
+      "id": "db_EventInfo:110391:1",
+      "jp": "それなら、優秀な魔術師のカリストがいるのは助かるな",
+      "en": "In that case, having a skilled mage like Callisto is a big help.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93408,
+      "id": "db_EventInfo:110392:9",
+      "jp": "ん？　もしや、店長殿は優秀な【『魔術師』】が所望であるか？",
+      "en": "Hm? Could it be, Manager, that you desire a skilled mage?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93409,
+      "id": "db_EventInfo:110393:9",
+      "jp": "それならば心当たりがある。我が【親友】に声を掛けておこうではないか",
+      "en": "If so, I have an idea. Shall I contact my best friend?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93410,
+      "id": "db_EventInfo:110394:1",
+      "jp": "カリストの知合い……？",
+      "en": "Callisto's acquaintance...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93411,
+      "id": "db_EventInfo:110395:9",
+      "jp": "うむ。まあ多少問題はあるが、私よりも遙かに優秀な魔術師である",
+      "en": "Hmm. There are some issues, sure. But they're a far more excellent magician than I am.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93412,
+      "id": "db_EventInfo:110396:1",
+      "jp": "カリストより優秀だって……？",
+      "en": "Better than Callisto...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93413,
+      "id": "db_EventInfo:110397:9",
+      "jp": "うむ。私など足下にも及ばぬほど優れた魔術師だ。期待していいであるぞ",
+      "en": "Yes. A magician so superior, I don't even hold a candle to them. You should look forward to it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93414,
+      "id": "db_EventInfo:110398:15",
+      "jp": "君が足下に及ばないというと、ほとんどの【『魔術師』】は地面に頭が埋まってしまうよ",
+      "en": "If you say you don't hold a candle to them, then most so-called 'magicians' would have their heads buried in the ground.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 93415,
+      "id": "db_EventInfo:110399:2",
+      "jp": "どういうヤツなんデスかね",
+      "en": "What kind of person is this, I wonder.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93416,
+      "id": "db_EventInfo:110402:0",
+      "jp": "【多少問題】という言葉に……なんだろう。ひどく嫌な予感がする",
+      "en": "That phrase about 'some issues'... something about it gives me a really bad feeling.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93417,
+      "id": "db_EventInfo:110403:1",
+      "jp": "そういえば【『魔女達のお茶会』】のメンバーってのは、みんな魔女なんだろうか",
+      "en": "Come to think of it, are all the members of the 'Witches' Tea Party' actually witches?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93418,
+      "id": "db_EventInfo:110405:9",
+      "jp": "【『魔女達のお茶会』】の者のほとんどは、普通の人間であるな。魔術すら扱えないものも多いのである",
+      "en": "Most people in the 'Witches' Tea Party' are just ordinary humans. Many of them can't even use magic.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93419,
+      "id": "db_EventInfo:110406:1",
+      "jp": "なのに【『魔女』】なのか？",
+      "en": "But they're still called 'Witches'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93420,
+      "id": "db_EventInfo:110407:9",
+      "jp": "うむ。【『魔女達のお茶会』】とは、元々は地域の医療と薬の研究をしている民間組織である",
+      "en": "Yes. Originally, the 'Witches' Tea Party' was a private group researching local medicine and drugs.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93421,
+      "id": "db_EventInfo:110408:9",
+      "jp": "しかし、医療技術は時に人々の理解を得られない物であることは確かでな",
+      "en": "But it's true that medical techniques sometimes aren't understood by people.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93422,
+      "id": "db_EventInfo:110409:9",
+      "jp": "過去には【不老長寿を得る為の、魔女の邪法を研究している】として弾圧されたこともあるのである",
+      "en": "In the past, they were even suppressed, accused of 'studying evil witch magic to gain immortality'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93423,
+      "id": "db_EventInfo:110410:9",
+      "jp": "それゆえの蔑称、レッテルが【『魔女』】だ。だからお茶会の者は魔術を使えなくても【『魔女』】なのだ",
+      "en": "That's the insult, the label they give us: 'Witch'. So, the people of the Tea Party are 'Witches' even if they can't use magic.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93424,
+      "id": "db_EventInfo:110411:1",
+      "jp": "むう",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93425,
+      "id": "db_EventInfo:110412:9",
+      "jp": "にもかかわらず、権力者どもは【不老不死の薬】を作れとせがむのであるが。矛盾しておるな",
+      "en": "And yet, the people in power keep begging us to make an 'elixir of immortality'. It's a contradiction, isn't it?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93426,
+      "id": "db_EventInfo:110413:9",
+      "jp": "力と権力を得た者は、それが失われるのを酷く恐れるものであるよ",
+      "en": "Those who gain power and authority deeply fear losing it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93427,
+      "id": "db_EventInfo:110414:2",
+      "jp": "権力者の末路とは、そんなものデスね",
+      "en": "That's just how it ends for people in power, isn't it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93428,
+      "id": "db_EventInfo:110415:9",
+      "jp": "うム……そういう日々に飽き飽きしておったところ、店長殿の店から【『投資』】が来たのだ",
+      "en": "Hmm... I was getting really tired of those days when an 'Investment' came from the Manager's shop.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93429,
+      "id": "db_EventInfo:110416:9",
+      "jp": "まあこれでも【『魔女達のお茶会』】の【筆頭当主候補】であったからな、視察という名目でやってきておったのだが",
+      "en": "Well, I was the 'Leading Candidate for Head' of the 'Witches' Tea Party', so I came under the pretense of an inspection.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93430,
+      "id": "db_EventInfo:110417:9",
+      "jp": "存外……面白い者が集まっておった",
+      "en": "But unexpectedly... an interesting bunch had gathered here.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93431,
+      "id": "db_EventInfo:110418:9",
+      "jp": "【『鍛冶姫』】と【『聖女』】ばかりか、【『死神』】に【『<ruby=サキュバス>夢魔</ruby>』】、さらには【『異能』】持ちまでおる。研究対象の宝庫ではないか",
+      "en": "Not just the 'Forging Princess' and the 'Saint', but also a 'Shinigami', a 'Succubus', and even people with 'Special Abilities'. It's a treasure trove for research.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93432,
+      "id": "db_EventInfo:110419:1",
+      "jp": "……っ！？",
+      "en": "...What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93433,
+      "id": "db_EventInfo:110420:2",
+      "jp": "オマエ……わかるデス？",
+      "en": "You... you know about that?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93434,
+      "id": "db_EventInfo:110421:9",
+      "jp": "まあ、隠さんでもいいぞ。これでも【『魔女』】だ。【『認識阻害』】の魔術は、あまり効かないのである",
+      "en": "Well, you don't have to hide it. I am a 'Witch', after all. Magic that 'Impairs Recognition' doesn't work very well on me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93435,
+      "id": "db_EventInfo:110422:1",
+      "jp": "カリストは本物の【『魔女』】ってわけか……",
+      "en": "So Callisto really is a 'Witch'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93436,
+      "id": "db_EventInfo:110423:9",
+      "jp": "私が求めるのは、叡智の追求、そして我が技術を存分に振るい、皆に役立てる場所だ",
+      "en": "What I seek is a place to pursue wisdom, to fully use my skills, and to be of service to all.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93437,
+      "id": "db_EventInfo:110424:9",
+      "jp": "それを与えてくれるなら、我が主には無限の繁栄を約束してやろう",
+      "en": "If you can give me that, I promise my master endless prosperity.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93438,
+      "id": "db_EventInfo:110425:9",
+      "jp": "これからも頼むぞ、店長殿",
+      "en": "I'm counting on you, Shopkeeper.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93439,
+      "id": "db_EventInfo:110426:1",
+      "jp": "ああ、よろしくな",
+      "en": "Yeah, same here.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93440,
+      "id": "db_EventInfo:110427:9",
+      "jp": "そうそう、【『魔女』】は【『調合』】だけが能ではないぞ？",
+      "en": "Oh, by the way, being a 'Witch' isn't just about 'Alchemy'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93441,
+      "id": "db_EventInfo:110428:9",
+      "jp": "ククク……店長殿にならば、【『魔女』】の【もう一つの特技】を使って、奉仕してやってもいいぞ？",
+      "en": "Heh heh heh... For you, Shopkeeper, I could even use the 'other special skill' of a 'Witch' to serve you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93442,
+      "id": "db_EventInfo:110429:1",
+      "jp": "【もう一つの特技】って……",
+      "en": "An 'other special skill'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93443,
+      "id": "db_EventInfo:110430:9",
+      "jp": "おっと、ここでは言うことができんな。ククク……",
+      "en": "Oh dear, I can't say it here. Heh heh heh...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93444,
+      "id": "db_EventInfo:110431:2",
+      "jp": "おいカリスト、【『魔女達のお茶会』】から荷物が届いているデス",
+      "en": "Hey Callisto, a package from the 'Witches' Tea Party' has arrived.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93445,
+      "id": "db_EventInfo:110432:2",
+      "jp": "なんだか【古い書物】のようデスが、【中身がラクガキ】ばかりで、手に余るとのことデス",
+      "en": "It looks like some 'old books', but they say it's just full of 'scribbles' and they can't handle it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93446,
+      "id": "db_EventInfo:110433:9",
+      "jp": "ん……？",
+      "en": "Hm...?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93447,
+      "id": "db_EventInfo:110434:9",
+      "jp": "ああ、それか。私の部屋に運び込んでもらえると助かる",
+      "en": "Ah, that. It would help if you could carry it to my room.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93448,
+      "id": "db_EventInfo:110435:2",
+      "jp": "こんな【ラクガキ】、燃やしてしまえばいいのデス？",
+      "en": "This scribble, should we just burn it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93449,
+      "id": "db_EventInfo:110436:9",
+      "jp": "まあまあ、たしかに紙の屑であるがな",
+      "en": "Well, well. It certainly is scrap paper.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93450,
+      "id": "db_EventInfo:110437:9",
+      "jp": "ふむふむ……これをこうして",
+      "en": "Hmm, hmm... Like this...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93451,
+      "id": "db_EventInfo:110438:1",
+      "jp": "捗ってるみたいだな",
+      "en": "Looks like it's going well.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93452,
+      "id": "db_EventInfo:110439:9",
+      "jp": "うむ。調子が出てきたのである、どんどん私の方に仕事を回して欲しいのであるぞ",
+      "en": "Yes. I'm getting into the flow, so please keep passing the work my way.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93453,
+      "id": "db_EventInfo:110440:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93454,
+      "id": "db_EventInfo:110441:0",
+      "jp": "ふと、俺は部屋の片隅に書物の束が積まれているのに気付いた。",
+      "en": "I suddenly notice a stack of books piled in the corner of the room.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93455,
+      "id": "db_EventInfo:110442:1",
+      "jp": "これは……？",
+      "en": "These are...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93456,
+      "id": "db_EventInfo:110443:9",
+      "jp": "ん？　それは【『レシピ』】のメモであるな",
+      "en": "Hm? Those are notes for Recipes.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93457,
+      "id": "db_EventInfo:110444:9",
+      "jp": "傷薬から病の治療薬、害虫駆除まで、これまで【『魔女達のお茶会』】で作ってきた……まあ私の研究成果である",
+      "en": "From healing potions to disease cures and pest control, things we've made at the Witches' Tea Party... Well, my research results.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93458,
+      "id": "db_EventInfo:110445:1",
+      "jp": "これが【『レシピ』】……？　ちょっと読んでもいいか？",
+      "en": "These are the Recipes? Mind if I take a look?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93459,
+      "id": "db_EventInfo:110446:9",
+      "jp": "問題ないのである",
+      "en": "It's no problem.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93460,
+      "id": "db_EventInfo:110447:1",
+      "jp": "ふむふむ……",
+      "en": "Hmm, hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93461,
+      "id": "db_EventInfo:110449:1",
+      "jp": "わからん",
+      "en": "I don't get it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93462,
+      "id": "db_EventInfo:110450:9",
+      "jp": "ククク……それはそうである。わからないように暗号化して描いてあるのだ。悪用されないようにな",
+      "en": "Hehehe... That's right. I wrote it in code so you wouldn't understand. To keep it from being misused.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93463,
+      "id": "db_EventInfo:110451:1",
+      "jp": "なんだ、悪用って",
+      "en": "What? Misused how?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93464,
+      "id": "db_EventInfo:110452:9",
+      "jp": "まあ、用法を間違えると大変なことになるのである",
+      "en": "Well, if you use it wrong, something terrible could happen.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93465,
+      "id": "db_EventInfo:110453:9",
+      "jp": "たとえば【害虫駆除】の用法を間違えると、一つの村の家畜を全滅させる程度のことは出来るぞ",
+      "en": "For example, if you mess up the usage for [Pest Control], you could wipe out all the livestock in a whole village.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93466,
+      "id": "db_EventInfo:110454:1",
+      "jp": "そんな物騒な【『レシピ』】を残すなよ！",
+      "en": "Don't leave behind such a dangerous ['Recipe']!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93467,
+      "id": "db_EventInfo:110455:9",
+      "jp": "わはは",
+      "en": "Wahaha.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93468,
+      "id": "db_EventInfo:110456:9",
+      "jp": "用法を守れば大丈夫である",
+      "en": "It's fine if you follow the instructions.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93469,
+      "id": "db_EventInfo:110457:9",
+      "jp": "そもそも、私が作る簡単なポーションも、調合を間違えれば劇薬に変わるものもあるぞ？",
+      "en": "Besides, some of the simple potions I make can turn into deadly poison if you mix them wrong, you know?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93470,
+      "id": "db_EventInfo:110458:1",
+      "jp": "うへ……なるほどな",
+      "en": "Yikes... I see your point.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93471,
+      "id": "db_EventInfo:110459:1",
+      "jp": "おや。これはこの前、シイネが【『魔女達のお茶会』】から受け取った【『古い書物』】だっけ？",
+      "en": "Huh. Is this the old book Shiine got from the 'Witches' Tea Party' the other day?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93472,
+      "id": "db_EventInfo:110460:9",
+      "jp": "うむ？",
+      "en": "Hmm?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93473,
+      "id": "db_EventInfo:110461:1",
+      "jp": "こっちも【『レシピ』】なのか？",
+      "en": "Is this a recipe too?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93474,
+      "id": "db_EventInfo:110462:9",
+      "jp": "うむ……それもまあ、【私ら】が過去に作った【『レシピ』】であるかな",
+      "en": "Yes... I suppose that is also a recipe we made in the past.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93475,
+      "id": "db_EventInfo:110463:0",
+      "jp": "★エッチシーン・カリスト・個別①・正常位①(初体験)",
+      "en": "★Sex Scene - Callisto - Individual ① - Missionary ① (First Time)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93476,
+      "id": "db_EventInfo:110464:0",
+      "jp": "★エッチシーン・カリスト・個別②・正常位②",
+      "en": "★Sex Scene - Callisto - Individual ② - Missionary ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93477,
+      "id": "db_EventInfo:110465:9",
+      "jp": "ふむふむ……これをこうして",
+      "en": "Hmm hmm... Like this...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93478,
+      "id": "db_EventInfo:110466:1",
+      "jp": "捗ってるみたいだな",
+      "en": "Looks like you're making good progress.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93479,
+      "id": "db_EventInfo:110467:9",
+      "jp": "どうした。夜這いに来たであるか？",
+      "en": "What is it? Did you come for a night visit?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93480,
+      "id": "db_EventInfo:110468:1",
+      "jp": "……いや、たまには様子を見ないと不安で",
+      "en": "...No, I just get worried if I don't check on you sometimes.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93481,
+      "id": "db_EventInfo:110469:9",
+      "jp": "ほうほう、やはり【『魔女』】の【もう一つの特技】を使って、奉仕してほしいと？",
+      "en": "Oh ho, so you do want me to use 'the other special skill' of a 'Witch' to serve you?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93482,
+      "id": "db_EventInfo:110470:9",
+      "jp": "まったく……店長殿も好き者であるのうД",
+      "en": "Really... you're quite the hedonist, ManagerД",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93483,
+      "id": "db_EventInfo:110471:1",
+      "jp": "違う！",
+      "en": "No!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93484,
+      "id": "db_EventInfo:110472:1",
+      "jp": "ったく、カリストを放置すると、変な薬を作ってそうで怖くて怖くて",
+      "en": "Seriously, leaving you alone is scary. I just know you'd start making some weird potion.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93485,
+      "id": "db_EventInfo:110473:9",
+      "jp": "ククク……ならば、店長殿の関心を引くために、たまにはそういう薬を作るのもやぶさかではないな？",
+      "en": "Kuku... In that case, to catch the manager's attention, I might not be opposed to making such a potion once in a while.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93486,
+      "id": "db_EventInfo:110474:1",
+      "jp": "やめーい！",
+      "en": "Stop it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93487,
+      "id": "db_EventInfo:110475:9",
+      "jp": "冗談はそれまでとして。せっかく来たのだ、少し治験に協力してはくれまいか？",
+      "en": "Enough joking. Since you're here, won't you help me with a little clinical trial?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93488,
+      "id": "db_EventInfo:110476:1",
+      "jp": "治験？",
+      "en": "A clinical trial?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93489,
+      "id": "db_EventInfo:110477:9",
+      "jp": "うむ",
+      "en": "Yes.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93490,
+      "id": "db_EventInfo:110478:0",
+      "jp": "そう言って、フラスコを差し出す。",
+      "en": "He says that, holding out a flask.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93491,
+      "id": "db_EventInfo:110479:9",
+      "jp": "私の開発したドリンクを飲んでくれるだけで構わぬのだが",
+      "en": "It's simple. You just need to drink a beverage I developed.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93492,
+      "id": "db_EventInfo:110480:1",
+      "jp": "だ、大丈夫なのか……？",
+      "en": "I-is it safe...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93493,
+      "id": "db_EventInfo:110481:9",
+      "jp": "うむ、半端な病気や毒などでは死なない、丈夫な体を作る為のエキスが入った、ありがたい生薬である",
+      "en": "Yes. It's a beneficial herbal medicine. It contains an essence to build a robust body that won't die from minor diseases or poison.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93494,
+      "id": "db_EventInfo:110482:9",
+      "jp": "さあさあ、グイっといくである",
+      "en": "Now, now. Bottoms up.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93495,
+      "id": "db_EventInfo:110483:1",
+      "jp": "お、おう……",
+      "en": "O-oh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93496,
+      "id": "db_EventInfo:110484:1",
+      "jp": "……ええぃ！",
+      "en": "...Alright!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93497,
+      "id": "db_EventInfo:110485:0",
+      "jp": "俺はカリストのドリンクを一気に飲みほした！",
+      "en": "I downed Callisto's drink in one go!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93498,
+      "id": "db_EventInfo:110486:9",
+      "jp": "おお、中々の飲みっぷりであるな",
+      "en": "Oh, quite the impressive gulp.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 93499,
+      "id": "db_EventInfo:110487:1",
+      "jp": "……不味い",
+      "en": "...This tastes bad.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93500,
+      "id": "db_EventInfo:110488:9",
+      "jp": "クク、良薬は口に苦し、マズさは薬効の証である",
+      "en": "Kuku, good medicine is bitter. The foul taste is proof of its potency.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

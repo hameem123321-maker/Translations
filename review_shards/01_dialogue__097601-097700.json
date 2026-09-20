@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 97601,
+  "range_end": 97700,
+  "pairs": [
+    {
+      "n": 97601,
+      "id": "db_EventInfo:115264:15",
+      "jp": "やあ店長君",
+      "en": "Hey, shopkeeper.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97602,
+      "id": "db_EventInfo:115265:1",
+      "jp": "デシルスか。【『ドルワミール鉱山』】の戦況はどうなんだ？",
+      "en": "Desilus. How's the fight going at the [Dorwamir Mine]?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97603,
+      "id": "db_EventInfo:115266:15",
+      "jp": "うん。アンジュ君や里の人々は救出できたけど、依然として鉱山は【『ゴブリン』】の支配下だ",
+      "en": "Well. We rescued Anju and the villagers, but the mine is still under [Goblin] control.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97604,
+      "id": "db_EventInfo:115267:15",
+      "jp": "奥にはひときわ強力な【『ゴブリン』】がいるそうでね。決死隊が向かってるけど、返り討ちだよ",
+      "en": "Word is there's a very strong [Goblin] deep inside. A suicide squad went in, but they got wiped out.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97605,
+      "id": "db_EventInfo:115268:1",
+      "jp": "【『ゴブリン』】が……",
+      "en": "[Goblins]...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97606,
+      "id": "db_EventInfo:115269:15",
+      "jp": "鉱山内は入り組んでいて迷いやすいだろう？",
+      "en": "The mine is a real maze, easy to get lost.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97607,
+      "id": "db_EventInfo:115270:15",
+      "jp": "それに【『ゴブリン』】達は夜目が効く上に奇襲、不意打ちの類が得意だからね",
+      "en": "Plus, the [Goblins] see well in the dark. They're good at ambushes and sneak attacks.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97608,
+      "id": "db_EventInfo:115271:2",
+      "jp": "卑劣な奴らデス",
+      "en": "Such cowardly brutes.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97609,
+      "id": "db_EventInfo:115272:15",
+      "jp": "そういう事情もあって、中々攻略が進まないみたいだよ",
+      "en": "With all that, the assault just isn't moving forward.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97610,
+      "id": "db_EventInfo:115273:1",
+      "jp": "そういえば【『勇者』】が攻略に参加していると聞いたけど……",
+      "en": "By the way, I heard a [Hero] is helping with the attack...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97611,
+      "id": "db_EventInfo:115274:15",
+      "jp": "【勇者ラシェウス】のことかい？　彼なら……",
+      "en": "You mean the Hero Rasieus? Well, he...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97612,
+      "id": "db_EventInfo:115276:19",
+      "jp": "呼んだかい？",
+      "en": "Did someone call me?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97613,
+      "id": "db_EventInfo:115277:2",
+      "jp": "オマエは……どこかで",
+      "en": "You... I've seen you somewhere before.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97614,
+      "id": "db_EventInfo:115278:2",
+      "jp": "思い出したデス。たしか森で出会った、変な男デス",
+      "en": "I remember desu. Definitely that weird guy we met in the forest desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97615,
+      "id": "db_EventInfo:115279:19",
+      "jp": "変な！？　ひどいな！",
+      "en": "Weird!? That's harsh!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97616,
+      "id": "db_EventInfo:115280:19",
+      "jp": "まあともかく、俺の名前はラシェウス。今評判の【『勇者』】さ！　君がここの店長だね！",
+      "en": "Anyway, my name's Rasieus. I'm the famous 'Hero' everyone's talking about! You must be the shop owner here!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97617,
+      "id": "db_EventInfo:115281:1",
+      "jp": "あ、ああ……",
+      "en": "Uh, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97618,
+      "id": "db_EventInfo:115282:19",
+      "jp": "よろしくな、店長さん！",
+      "en": "Nice to meet you, shop owner!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97619,
+      "id": "db_EventInfo:115283:2",
+      "jp": "【『勇者』】デスか……オマエ、【『ゴブリン』】はどうしたデス？",
+      "en": "A 'Hero' desu... What happened to the 'Goblin' desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97620,
+      "id": "db_EventInfo:115284:19",
+      "jp": "いやあ、俺も攻略に参加したけど、【『ゴブリン』】は手強くてね",
+      "en": "Well, I joined the fight too, but that 'Goblin' was tough.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97621,
+      "id": "db_EventInfo:115285:19",
+      "jp": "まあ心配ないよ。俺にかかれば、【『ゴブリン』】はいずれ討伐され――",
+      "en": "But don't worry. With me around, that 'Goblin' will be defeated eventually—",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97622,
+      "id": "db_EventInfo:115287:3",
+      "jp": "【いずれ討伐】、じゃないのじゃ！",
+      "en": "'Eventually' is not good enough, it isn't!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97623,
+      "id": "db_EventInfo:115288:19",
+      "jp": "うわっ！？",
+      "en": "Whoa!?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97624,
+      "id": "db_EventInfo:115289:1",
+      "jp": "アンジュ！？",
+      "en": "Anju!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97625,
+      "id": "db_EventInfo:115290:3",
+      "jp": "汚らわしい【『ゴブリン』】共め……<ruby=わらわ>妾</ruby>達の里をあのようなボロボロの姿に変えおって……！",
+      "en": "These filthy Goblins... They've turned our village into this wretched state...!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97626,
+      "id": "db_EventInfo:115291:3",
+      "jp": "絶対に許さんのじゃ！　そこの【『勇者』】とやら！　さっさと【『ゴブリン』】を根絶やしにするのじゃ！！",
+      "en": "I will never forgive them! You there, so-called \"Hero\"! Wipe out the Goblins right now!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97627,
+      "id": "db_EventInfo:115292:19",
+      "jp": "い、いや、そうしたいところだけど、ちょうど俺の剣も折られちゃってね",
+      "en": "N-no, I'd like to, but my sword just broke, you see.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97628,
+      "id": "db_EventInfo:115293:19",
+      "jp": "ゼカリウスで売ってる最強の剣だったんだけど――",
+      "en": "It was the strongest sword sold in Zecarius—",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97629,
+      "id": "db_EventInfo:115294:3",
+      "jp": "そんなナマクラじゃ話にならんのじゃ！　ほれ、この剣を使うのじゃ！！",
+      "en": "Stop being useless! Here, use this sword!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97630,
+      "id": "db_EventInfo:115295:19",
+      "jp": "えっ――うっ、うおおおおおお！？　こっ、この剣は！！！",
+      "en": "Huh— Wha, whoooooaaaa!? Th-this sword!!!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97631,
+      "id": "db_EventInfo:115296:0",
+      "jp": "アンジュがラシェウスに渡した剣。それは素人の目にも、とてつもない強さを秘めた武器であることを感じ取れた。",
+      "en": "The sword Anju gave Rasieus. Even an amateur could feel it was a weapon hiding immense power.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97632,
+      "id": "db_EventInfo:115297:19",
+      "jp": "なっ、なんだこの剣は、【『神』】から与えられた古代からの伝説の剣なのかあああ！？",
+      "en": "Wh-what is this sword!? Is it an ancient legendary blade bestowed by the gods!?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97633,
+      "id": "db_EventInfo:115298:3",
+      "jp": "<ruby=わらわ>妾</ruby>が打った剣じゃが？",
+      "en": "It's a sword I forged.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97634,
+      "id": "db_EventInfo:115299:3",
+      "jp": "生まれて初めて本気で打った剣じゃ！　そこらの剣とはわけが違うぞ！！",
+      "en": "The first sword I've ever forged with my full effort! It's in a different league from the swords out there!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97635,
+      "id": "db_EventInfo:115300:19",
+      "jp": "この武器さえあれば！　【『ゴブリン』】なんかに負けるはずがない！",
+      "en": "With this weapon, I can't lose to a Goblin!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97636,
+      "id": "db_EventInfo:115301:3",
+      "jp": "うむ！",
+      "en": "Yeah!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97637,
+      "id": "db_EventInfo:115302:3",
+      "jp": "(……傑作の出来なのじゃ。あんなに上手く打てたのは初めてじゃし、くれてやるのが勿体ないのー)",
+      "en": "(This one is a masterpiece. I've never managed to forge one this well before. It's a waste to give it away...)",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97638,
+      "id": "db_EventInfo:115303:3",
+      "jp": "ほらっ、残りの冒険者どもも、妾の武器を手にして、さっさと【『ゴブリン』】どもを退治してくるのじゃ！",
+      "en": "Now, all you other adventurers, take my weapons and go finish off those Goblins!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97639,
+      "id": "db_EventInfo:115304:0",
+      "jp": "アンジュは山のような武器を積んでくる。そのいずれもが、尋常じゃない出来の武器ばかりだった。",
+      "en": "Anju brings over a mountain of weapons. Every single one is of extraordinary quality.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97640,
+      "id": "db_EventInfo:115305:15",
+      "jp": "こっ、これは……このような武器があるなんて……",
+      "en": "Th-this is... to think such weapons exist...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97641,
+      "id": "db_EventInfo:115306:1",
+      "jp": "これをアンジュが作ったのか？",
+      "en": "Did Anju make these?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97642,
+      "id": "db_EventInfo:115307:3",
+      "jp": "ふん……【『勇者』】に渡したモノよりは劣るが、【『ゴブリン』】どもを駆逐するには十分すぎるものじゃ！",
+      "en": "Hmph... They are inferior to the one I gave the Hero, but they are more than enough to get rid of those Goblins!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97643,
+      "id": "db_EventInfo:115308:13",
+      "jp": "うむ、これぞ【『鍛冶姫』】の腕……このドルガノン、感服しましたわい",
+      "en": "Yes, this is the skill of the Forging Princess... I, Dorganon, am impressed.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 97644,
+      "id": "db_EventInfo:115311:0",
+      "jp": "冒険者達はアンジュの武器を手に、【『ドルワミール鉱山』】攻略に戻っていった。",
+      "en": "The adventurers, now armed with Anju's weapons, went back to tackling the Dolwamir Mine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97645,
+      "id": "db_EventInfo:115312:15",
+      "jp": "明らかにゼカリウスの……いや、この大陸で流通している武器のレベルを逸脱してるよ。こんなの渡しちゃって大丈夫なのかな……",
+      "en": "These are clearly beyond Zecarius's... no, beyond the level of weapons circulating on this continent. Is it okay to hand these out...?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 97646,
+      "id": "db_EventInfo:115313:2",
+      "jp": "しばらく鉱山の攻略は、冒険者に任せられそうデスね",
+      "en": "It seems we can leave the mine conquest to the adventurers for a while, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97647,
+      "id": "db_EventInfo:115314:1",
+      "jp": "俺達の出番は終わりか",
+      "en": "Are we done here?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97648,
+      "id": "db_EventInfo:115315:2",
+      "jp": "そんなわけはないデス。あくまで時間稼ぎデス。それより、私達のやることが決まったデス",
+      "en": "No way, desu. We were just buying time, desu. More importantly, we've decided what to do, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97649,
+      "id": "db_EventInfo:115316:1",
+      "jp": "やること？",
+      "en": "What to do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97650,
+      "id": "db_EventInfo:115317:2",
+      "jp": "アンジュを【『死神代行助手』】にすることデス！",
+      "en": "We're making Anju a [『Shinigami Agent Assistant』], desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97651,
+      "id": "db_EventInfo:115318:2",
+      "jp": "この腕は使えるデス！　アンジュの作る【『武器』】はきっと高値で売れるデス！",
+      "en": "She's got skills, desu! The [『weapons』] Anju makes will sell for a high price, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97652,
+      "id": "db_EventInfo:115319:2",
+      "jp": "さあっ、とっととアイツと【契り】を結ぶデス！",
+      "en": "Come on, hurry up and make a [pact] with her, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97653,
+      "id": "db_EventInfo:115322:1",
+      "jp": "今日こそアンジュと【契り】を……",
+      "en": "Today, I will make a [pact] with Anju...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97654,
+      "id": "db_EventInfo:115323:0",
+      "jp": "(クラッ)",
+      "en": "(Crash)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97655,
+      "id": "db_EventInfo:115324:2",
+      "jp": "おいオマエ、大丈夫デス？",
+      "en": "Hey you, are you okay, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97656,
+      "id": "db_EventInfo:115325:2",
+      "jp": "ってオイ、オマエ！　しっかりするデス！",
+      "en": "Hey, you! Snap out of it, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97657,
+      "id": "db_EventInfo:115327:0",
+      "jp": "シイネが叫ぶ中、俺は倒れてしまった。",
+      "en": "As Shiine yelled, I fell down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97658,
+      "id": "db_EventInfo:115332:2",
+      "jp": "ざんねん、オマエの人生は終わってしまったデス",
+      "en": "So sad. Your life is over, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97659,
+      "id": "db_EventInfo:115334:2",
+      "jp": "……はあ、デス",
+      "en": "...Haa, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97660,
+      "id": "db_EventInfo:115335:1",
+      "jp": "ごめんなさい",
+      "en": "I'm sorry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97661,
+      "id": "db_EventInfo:115336:2",
+      "jp": "まったく。お膳立てしたのに手を出さないとは、どういうことデス？",
+      "en": "Really. I set it all up for you, and you didn't take action? What's the deal, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97662,
+      "id": "db_EventInfo:115337:1",
+      "jp": "いやその……",
+      "en": "Well, uh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97663,
+      "id": "db_EventInfo:115338:1",
+      "jp": "ごめんなさい",
+      "en": "I'm sorry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97664,
+      "id": "db_EventInfo:115339:2",
+      "jp": "へたれデス",
+      "en": "You're spineless, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97665,
+      "id": "db_EventInfo:115340:1",
+      "jp": "はい……",
+      "en": "Yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97666,
+      "id": "db_EventInfo:115341:2",
+      "jp": "【契り】を結ばないと、【『死神代行助手』】にはならないデス、これはオマエの運命デス",
+      "en": "If we don't form a 'Contract', you won't become a 'Shinigami Agent Assistant'. This is your fate, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97667,
+      "id": "db_EventInfo:115342:2",
+      "jp": "とっととやり直してくるデス！",
+      "en": "Hurry up and try again, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97668,
+      "id": "db_EventInfo:115343:2",
+      "jp": "★ゲームオーバー・据え膳はとっとと食えデス",
+      "en": "★ Game Over - Eat the meal that's set out for you quickly, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97669,
+      "id": "db_EventInfo:115344:3",
+      "jp": "よし、今度こそ<ruby=わらわ>妾</ruby>達の手で【『ゴブリン』】共を始末してくれる！",
+      "en": "Alright, this time we'll finish off the 'Goblins' with our own hands!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97670,
+      "id": "db_EventInfo:115345:10",
+      "jp": "ふん、足手まといになるなよ？",
+      "en": "Hmph, don't get in our way, okay?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97671,
+      "id": "db_EventInfo:115346:3",
+      "jp": "なんじゃと！",
+      "en": "What is it?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97672,
+      "id": "db_EventInfo:115347:1",
+      "jp": "まあまあ……",
+      "en": "Now, now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97673,
+      "id": "db_EventInfo:115348:2",
+      "jp": "鉱山内は【『ゴブリン』】の巣窟デス。油断するなデス。気を引き締めていくデスよ",
+      "en": "The mines are a nest of Goblins. Don't let your guard down. Let's stay sharp.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97674,
+      "id": "db_EventInfo:115349:10",
+      "jp": "任せておけ！",
+      "en": "Leave it to me!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97675,
+      "id": "db_EventInfo:115350:3",
+      "jp": "なあに、妾の武器があれば、【『ゴブリン』】など一捻りなのじゃ！",
+      "en": "It's nothing! With my weapon, Goblins are a cinch to crush!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97676,
+      "id": "db_EventInfo:115351:1",
+      "jp": "頼もしいな",
+      "en": "That's reassuring.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97677,
+      "id": "db_EventInfo:115352:3",
+      "jp": "うむ、今度こそ奴らを倒すのじゃ！",
+      "en": "Indeed! This time, we will defeat them for sure!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97678,
+      "id": "db_EventInfo:115353:2",
+      "jp": "どうやらあいつが【『ゴブリン』】達のボスのようデスね",
+      "en": "Looks like that one is the boss of the Goblins.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97679,
+      "id": "db_EventInfo:115354:1",
+      "jp": "あの巨体……あれも【『ゴブリン』】だっていうのか……",
+      "en": "That huge body... Is that still considered a Goblin...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97680,
+      "id": "db_EventInfo:115355:3",
+      "jp": "【『ゴブリン』】め！　妾が成敗してやるのじゃ！　とー！",
+      "en": "You Goblins! I will punish you! Hyaa!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97681,
+      "id": "db_EventInfo:115356:202",
+      "jp": "ゴブ！？",
+      "en": "Gob!?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97682,
+      "id": "db_EventInfo:115357:10",
+      "jp": "あのバカが！",
+      "en": "That idiot!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97683,
+      "id": "db_EventInfo:115358:0",
+      "jp": "止める間もなく、アンジュが飛び出して行ってしまった！",
+      "en": "Before I could stop her, Anju ran out!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97684,
+      "id": "db_EventInfo:115359:1",
+      "jp": "ああっ！　アンジュ！？　仕方ない、俺達も行くぞ！",
+      "en": "Agh! Anju!? No choice, we're going too!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 97685,
+      "id": "db_EventInfo:115360:2",
+      "jp": "やれやれ、仕方ないデスね。まあどちらにしても、やる事は変わらないデスが",
+      "en": "Well, well, no helping it. The job doesn't change either way.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97686,
+      "id": "db_EventInfo:115361:0",
+      "jp": "【『ゴブリン』】達に向かって、俺達は一気に突撃した！",
+      "en": "We charged at the Goblins!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97687,
+      "id": "db_EventInfo:115362:202",
+      "jp": "ゴブ、ゴブッ！",
+      "en": "Gob, gob!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97688,
+      "id": "db_EventInfo:115363:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97689,
+      "id": "db_EventInfo:115364:10",
+      "jp": "くっ、貴様、逃がすか！",
+      "en": "Damn it! I won't let you get away!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97690,
+      "id": "db_EventInfo:115365:2",
+      "jp": "待つデス",
+      "en": "Wait.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97691,
+      "id": "db_EventInfo:115366:3",
+      "jp": "なんじゃ、なぜ止める",
+      "en": "What? Why stop me?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97692,
+      "id": "db_EventInfo:115367:2",
+      "jp": "これ以上は他の冒険者に任せるデス",
+      "en": "Let other adventurers handle it from here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 97693,
+      "id": "db_EventInfo:115368:3",
+      "jp": "……ん？　まあそうか、たしかオヌシは目立ちすぎてはいけないのじゃったな。",
+      "en": "...Hm? Oh right, you can't draw too much attention.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97694,
+      "id": "db_EventInfo:115369:10",
+      "jp": "どういうことだ……？",
+      "en": "What do you mean...?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97695,
+      "id": "db_EventInfo:115370:3",
+      "jp": "お前にはヒミツじゃ",
+      "en": "I won't tell you.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 97696,
+      "id": "db_EventInfo:115371:10",
+      "jp": "なんだと！？",
+      "en": "What?!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 97697,
+      "id": "db_EventInfo:115372:0",
+      "jp": "【『ゴブリン』】の親玉が鉱山の奥に逃げ去るのを、俺達が見送ると。",
+      "en": "We watched the Goblin boss run deeper into the mine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 97698,
+      "id": "db_EventInfo:115373:19",
+      "jp": "待て、【『ゴブリン』】め！",
+      "en": "Stop, you Goblins!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97699,
+      "id": "db_EventInfo:115374:19",
+      "jp": "やあ君たち、【『ゴブリン』】の大物がいるはずなんだが、知らないかい？",
+      "en": "Hey, have you seen a big Goblin around here?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 97700,
+      "id": "db_EventInfo:115375:2",
+      "jp": "そこを逃げていったデス",
+      "en": "It ran that way.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

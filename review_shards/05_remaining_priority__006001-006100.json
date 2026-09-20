@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6001,
+  "range_end": 6100,
+  "pairs": [
+    {
+      "n": 6001,
+      "id": "rem_33620",
+      "jp": "範囲(小)攻撃 威力[S] +  命中[60%] + 【氷属性】 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [S] + 60% hit rate + 【Ice】 + Inflicts [Stun] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6002,
+      "id": "rem_33621",
+      "jp": "【<src>】は[ソウルシューター]で魂の一撃！",
+      "en": "【<src>】 fires a soul strike with [Soul Shooter]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6003,
+      "id": "rem_33622",
+      "jp": "火の小さなつぶてを作成し、敵めがけてぶつける。複数のつぶてを放つため、密集している敵に攻撃すると多くヒットする。",
+      "en": "Creates small fire pellets and hurls them at enemies. Fires multiple pellets, so it hits grouped enemies more.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6004,
+      "id": "rem_33623",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[60%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Small-area attack. Power [E+] + 60% hit rate + 【Fire】 + Inflicts [Burn] (+10% dmg per turn from flames).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6005,
+      "id": "rem_33624",
+      "jp": "【<src>】は[ファイアー]の魔術を放った！",
+      "en": "【<src>】 cast [Fire] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6006,
+      "id": "rem_33625",
+      "jp": "小さな雷電を生み出し、敵に照射する。攻撃範囲は狭く、少数の相手しか攻撃できないが、貫通力が高い。",
+      "en": "Creates a small lightning bolt to strike an enemy. Narrow range, few targets, but high piercing.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6007,
+      "id": "rem_33626",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [E] + 70% hit rate + 【Thunder】 + Small defense pierce + Inflicts [Shock] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6008,
+      "id": "rem_33627",
+      "jp": "【<src>】は[ライトニング]の魔術を放った！",
+      "en": "【<src>】 cast [Lightning] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6009,
+      "id": "rem_33628",
+      "jp": "仲間呼び(自他) + 【仲間】に【興奮】を付与 (すべてのダメージ[+30%] + 物理ダメージ軽減率[-30%])",
+      "en": "Summon allies (self/other) + Inflicts 【Excitement】 on 【allies】 (All damage [+30%] + Physical damage reduction [-30%]).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6010,
+      "id": "rem_33629",
+      "jp": "【<src>】は[緊急アラート]を使用した！",
+      "en": "【<src>】 used [Emergency Alert]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6011,
+      "id": "rem_33630",
+      "jp": "氷のつぶてを放ち、接触した敵を瞬間凍結させる。魔術ランクが低いために殺傷力は低いが、複数を足止めしたり、支援魔術としては効果が高い。",
+      "en": "Shoots ice pellets to instantly freeze enemies on contact. Low lethality but can immobilize groups or support effectively.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6012,
+      "id": "rem_33631",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Small-area attack. Power [E] + 70% hit rate + 【Ice】 + Inflicts [Freeze] (-30% phys dmg reduction + Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6013,
+      "id": "rem_33632",
+      "jp": "【<src>】は[アイス]の魔術を放った！",
+      "en": "【<src>】 cast [Ice] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6014,
+      "id": "rem_33633",
+      "jp": "武器を叩き付けることで、ダメージと共に振動と衝撃波を発生させる。威力は低いが、範囲内の相手の体勢を崩すことがある。",
+      "en": "Smashes weapon to cause damage with vibration and shockwaves. Low power but can knock foes in range off-balance.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6015,
+      "id": "rem_33634",
+      "jp": "グループ攻撃 威力[B+] +  命中[60%] + 必殺率[+10%] + 【風属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group attack. Power [B+] + 60% hit rate + 10% crit rate + 【Wind】 + Inflicts [Knockdown] (Critically hit chance +50%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6016,
+      "id": "rem_33635",
+      "jp": "【<src>】の[グランドスラム]が敵を砕く！",
+      "en": "【<src>】's [Ground Slam] crushes the enemy!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6017,
+      "id": "rem_33636",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Group attack. Power [] + 80% hit rate + Inflicts [Shock] (Critically hit chance +30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6018,
+      "id": "rem_33637",
+      "jp": "【<src>】の[エレキショック]！",
+      "en": "【<src>】's [Electric Shock]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6019,
+      "id": "rem_33638",
+      "jp": "グループ攻撃 威力[] +  命中[80%] + 【風属性】 + デバフ特化 + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Group attack. Power [] + 80% hit rate + 【Wind】 + Debuff focus + Inflicts [Charm] (All attack damage -30%).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6020,
+      "id": "rem_33639",
+      "jp": "【<src>】の[チャームミスト]！",
+      "en": "【<src>】's [Charm Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6021,
+      "id": "rem_33640",
+      "jp": "単体攻撃 威力[] +  命中[70%] + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single attack Power[] + Hit[70%] + Inflicts [Weakness] (Phys. Damage -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6022,
+      "id": "rem_33641",
+      "jp": "【<src>】の[虚脱アタック]！",
+      "en": "【<src>】's [Weakness Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6023,
+      "id": "rem_33642",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + [押倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group attack Power[] + Hit[70%] + Inflicts [Knockdown] (Crit. Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6024,
+      "id": "rem_33643",
+      "jp": "【<src>】は押し倒してきた！",
+      "en": "【<src>】 charged and knocked you down!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6025,
+      "id": "rem_33644",
+      "jp": "小さな真空の刃を敵に放つ。広範囲の敵を切り裂くカマイタチだが、魔術のランクが低いために、大きな傷は与えにくい。",
+      "en": "Fires small vacuum blades. A wide-range Kamaitachi slash, but low magic rank means it can't deal heavy wounds.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6026,
+      "id": "rem_33645",
+      "jp": "範囲(大)攻撃 威力[E] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "Large area attack Power[E] + Hit[80%] + Multi-hit rate[+10%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6027,
+      "id": "rem_33646",
+      "jp": "【<src>】は[エアロ]の魔術を放った！",
+      "en": "【<src>】 cast [Aero] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6028,
+      "id": "rem_33647",
+      "jp": "弓矢に雷属性の魔術を付与し、強力な一撃を放つ。魔術で強化されているために通常の弓矢よりも威力が高い。",
+      "en": "Enchants the Bow with lightning magic for a powerful shot. More potent than a normal arrow due to the magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6029,
+      "id": "rem_33648",
+      "jp": "範囲(大)攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large area attack Power[D+] + Hit[70%] + 【Thunder】 + Small Def. Pierce + Inflicts [Shock] (Crit. Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6030,
+      "id": "rem_33649",
+      "jp": "【<src>】の[ボルトアロー]！",
+      "en": "【<src>】's [Bolt Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6031,
+      "id": "rem_33650",
+      "jp": "全体攻撃 威力[] +  [必中] + 【聖属性】 + 防御貫通(小)",
+      "en": "All attack Power[] + [Sure Hit] + 【Holy】 + Small Def. Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6032,
+      "id": "rem_33651",
+      "jp": "【<src>】の[ゴッドパニッシュ]！",
+      "en": "【<src>】's [God Punish]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6033,
+      "id": "rem_33652",
+      "jp": "簡単な応急処置でパーティーの傷を癒やせる。比較的簡単な技術で、だれでも使える簡単なスキルで、コスパは良い。しかしクールタイム長めで、多用はできない。",
+      "en": "Simple first aid to heal party wounds. An easy, cost-effective skill anyone can use, but long cooldown prevents frequent use.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6034,
+      "id": "rem_33653",
+      "jp": "HP回復(小) + CT回復(小) + CT消費増加",
+      "en": "Small HP recovery + Small CT recovery + Increased CT cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6035,
+      "id": "rem_33654",
+      "jp": "【<src>】は[ファーストエイド]を使用した",
+      "en": "【<src>】 used [First Aid]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6036,
+      "id": "rem_33655",
+      "jp": "全体攻撃 威力[] +  [必中] + 【氷属性】 + 防御貫通(小) + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "All attack Power[] + [Sure Hit] + 【Ice】 + Small Def. Pierce + Inflicts [Freeze] (Phys. Damage Reduction -30% + Crit. Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6037,
+      "id": "rem_33656",
+      "jp": "【<src>】の[ワールドフリーズ]！",
+      "en": "【<src>】's [World Freeze]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6038,
+      "id": "rem_33657",
+      "jp": "精神集中し、スキルの使用ＣＴを回復させる。スキルを多く持っているほど有効だが、ＭＰは回復できない。",
+      "en": "Focuses mind to recover skill CT. More effective with many skills, but does not recover MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6039,
+      "id": "rem_33658",
+      "jp": "CT回復(中) + 【自分】に【攻撃】を付与 (物理ダメージ[+30%])",
+      "en": "Medium CT recovery + Grants 【Attack】 to 【Self】 (Phys. Damage[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6040,
+      "id": "rem_33659",
+      "jp": "【<src>】は[ウェポンバースト]を使用した！",
+      "en": "【<src>】 used [Weapon Burst]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6041,
+      "id": "rem_33660",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [恐怖]を付与 (スキルが使用できなくなる)",
+      "en": "Single Attack: Potency[] + Hit[60%] + Inflicts [Fear] (Skills cannot be used)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6042,
+      "id": "rem_33661",
+      "jp": "【<src>】の[不浄の威圧感]！",
+      "en": "【<src>】 uses [Impure Pressure]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6043,
+      "id": "rem_33662",
+      "jp": "単体攻撃 威力[] +  命中[60%] + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Single Attack: Potency[] + Hit[60%] + Inflicts [Down] (Crit Chance Taken +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6044,
+      "id": "rem_33663",
+      "jp": "【<src>】の[押し倒し]！",
+      "en": "【<src>】 uses [Knock Down]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6045,
+      "id": "rem_33664",
+      "jp": "加速魔術を仲間全員に掛けることで、全員の速度がアップする。連続攻撃発生率と回避率がアップする攻防一体の技。",
+      "en": "Casts Accelerate on all allies, raising their speed. A balanced skill that increases consecutive attack chance and evasion rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6046,
+      "id": "rem_33665",
+      "jp": "CT回復(小) + 【仲間】に【加速】を付与 (ダブルアタック率[+50%])",
+      "en": "Small CT Recover + Grants【Allies】【Haste】 (Double Attack Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6047,
+      "id": "rem_33666",
+      "jp": "【<src>】の[ヘイストオール]が仲間を加速する！",
+      "en": "【<src>】's [Haste All] speeds up the party!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6048,
+      "id": "rem_33667",
+      "jp": "全体攻撃 威力[] +  命中[70%] + HP吸収(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Small HP Drain + Inflicts [Shock] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6049,
+      "id": "rem_33668",
+      "jp": "【<src>】の[生命波動]！",
+      "en": "【<src>】 uses [Life Wave]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6050,
+      "id": "rem_33669",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【火属性】 + 防御貫通(小) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Crit Rate[+100%] + 【Fire】 + Small Defense Penetration + Inflicts [Stun] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6051,
+      "id": "rem_33670",
+      "jp": "【<src>】の[暴君デストロイ]！",
+      "en": "【<src>】 uses [Tyrant Destroy]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6052,
+      "id": "rem_33671",
+      "jp": "全体攻撃 威力[] +  [必中] + 【火属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + 【Sure Hit】 + 【Fire】 + Small Defense Penetration + Inflicts [Shock] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6053,
+      "id": "rem_33672",
+      "jp": "【<src>】の[にわかエクスプロージョン]！",
+      "en": "【<src>】 uses [Flash Explosion]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6054,
+      "id": "rem_33673",
+      "jp": "フィールドに、モンスターの弱点を突いた際の効果が増える結界を張る。弱点を突いた際のダメージが大きくアップする。",
+      "en": "Creates a field that enhances effects when targeting monster weaknesses. Greatly increases damage against weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6055,
+      "id": "rem_33674",
+      "jp": "【フィールド】に【ウィーク】を付与 (弱点へのダメージ[+30%])",
+      "en": "Grants【Field】【Weak Boost】 (Weakness Damage[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6056,
+      "id": "rem_33675",
+      "jp": "【<src>】は[ウィークブースト]を使用！",
+      "en": "【<src>】 uses [Weak Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6057,
+      "id": "rem_33676",
+      "jp": "全体攻撃 威力[] +  命中[70%] + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE Attack: Potency[] + Hit[70%] + Inflicts [Stun] (Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6058,
+      "id": "rem_33677",
+      "jp": "【<src>】の[いのちごい]！",
+      "en": "【<src>】 uses [Life Siphon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6059,
+      "id": "rem_33678",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 【闇属性】 + デバフ特化 + [妄想]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Group Attack: Potency[] + Hit[60%] + 【Dark】 + Debuff Focus + Inflicts [Delusion] (All Attack Damage -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6060,
+      "id": "rem_33679",
+      "jp": "【<src>】の[ハッピーミスト]！",
+      "en": "【<src>】 uses [Happy Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6061,
+      "id": "rem_33680",
+      "jp": "死神としての特権を使用し、戦闘不能になった味方を叩き起こし、さらに味方全体を中回復させる。本来死者蘇生は禁忌の魔術であるが、使っているのが『神』本人なので問題ない。",
+      "en": "Use Shinigami's privilege to revive downed allies and restore all allies' HP (Medium). Necromancy is forbidden, but it's fine since a 'God' is using it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6062,
+      "id": "rem_33681",
+      "jp": "蘇生 + HP回復(中) + 【仲間】に【復活】を付与 (戦闘不能時に自動復活[+100%])",
+      "en": "Revive + Heal HP (Med) + Grants 【Ally】 【Auto-Life】 (Auto-revive [+100%] when downed)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6063,
+      "id": "rem_33682",
+      "jp": "【<src>】の[オートリレイズ]！",
+      "en": "【<src>】's [Auto Reraise]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6064,
+      "id": "rem_33683",
+      "jp": "単体攻撃 威力[] +  命中[80%] + HP吸収(小) + 攻撃後パーティー回復",
+      "en": "Single Attack Power[] + Hit[80%] + HP Drain (Sml) + Heal Party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6065,
+      "id": "rem_33684",
+      "jp": "【<src>】の[飲み込む]！",
+      "en": "【<src>】's [Swallow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6066,
+      "id": "rem_33685",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 強制即死 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "All Attack Power[] + Hit[70%] + Crit Rate[+10%] + Instant Death + Inflict [Stun] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6067,
+      "id": "rem_33686",
+      "jp": "【<src>】は巨大な足で踏み潰してきた！",
+      "en": "【<src>】 is trying to crush you with a giant foot!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6068,
+      "id": "rem_33687",
+      "jp": "戦士が苦手とする、不定形な存在の弱点を突く攻撃術。魔術による攻撃を前提としているが、戦士が習得しても効果は発揮できる。",
+      "en": "A combat technique targeting the weakness of amorphous beings, which warriors struggle with. Primarily a magic attack, but still effective if mastered by a warrior.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6069,
+      "id": "rem_33688",
+      "jp": "不形タイプへのダメージ[+20%]",
+      "en": "Damage vs. Amorphous Type[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6070,
+      "id": "rem_33689",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 強制即死 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large Area Attack Power[] + Hit[70%] + Crit Rate[+10%] + Instant Death + Inflict [Stun] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6071,
+      "id": "rem_33690",
+      "jp": "【<src>】の[悪質タックル]！",
+      "en": "【<src>】's [Vicious Tackle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6072,
+      "id": "rem_33691",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【雷属性】 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large Area Attack Power[] + Hit[70%] + Crit Rate[+100%] + 【Lightning】 + Inflict [Paralyze] (Crit Chance taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6073,
+      "id": "rem_33692",
+      "jp": "【<src>】の[エレキアタック]！",
+      "en": "【<src>】's [Electric Attack]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6074,
+      "id": "rem_33693",
+      "jp": "仲間が動きやすいように、わざと大仰に振る舞って突撃する。仲間を勝利に導き、戦闘を加速させる。",
+      "en": "Charges in with an exaggerated act to let allies move freely. Leads allies to victory and speeds up combat.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6075,
+      "id": "rem_33694",
+      "jp": "【仲間】に【加速】を付与 (ダブルアタック率[+50%])",
+      "en": "Grants 【Ally】 【Haste】 (Double Attack Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6076,
+      "id": "rem_33695",
+      "jp": "【<src>】の[先陣駆け]！",
+      "en": "【<src>】's [Charge Ahead]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6077,
+      "id": "rem_33696",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 【闇属性】 + [恍惚]を付与 (すべての攻撃ダメージ-100%)",
+      "en": "All Attack Power[] + Hit[70%] + Crit Rate[+10%] + 【Dark】 + Inflict [Ecstasy] (All attack damage -100%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6078,
+      "id": "rem_33697",
+      "jp": "【<src>】の[しょくしゅストリーム]！",
+      "en": "【<src>】's [Tentacle Stream]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6079,
+      "id": "rem_33698",
+      "jp": "縁をつないだ者たちをこの場に呼び寄せる。簡易的な召喚術。本来は非常に大きな対価を要求する奇跡であり、世界を何度か救った英雄にしか使用は許されない。",
+      "en": "Summons those bound by fate to this location. A simple summoning ritual. Normally a miracle demanding a great price, usable only by heroes who've saved the world multiple times.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6080,
+      "id": "rem_33699",
+      "jp": "【<src>】の[エンゲージリンク]！",
+      "en": "【<src>】's [Engage Link]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6081,
+      "id": "rem_33700",
+      "jp": "範囲(大)攻撃 威力[] +  命中[70%] + 必殺率[+100%] + 【闇属性】 + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large AoE Attack, Power[], 70% Hit Rate, +100% Crit Rate, 【Dark Element】, Inflicts [Stun] (Crit Received Chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6082,
+      "id": "rem_33701",
+      "jp": "【<src>】の[しょくしゅバスター]！",
+      "en": "【<src>】's [Tentacle Buster]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6083,
+      "id": "rem_33702",
+      "jp": "回復の魔術により、仲間のHPを割合回復する。仲間全員を一気に癒やせる。自分の魔力を味方に分配する効果があり、仲間のMPも僅かに回復する。クールタイムは長め。",
+      "en": "Healing magic that restores an ally's HP proportionally. Can heal all allies at once. Distributes your magic power, slightly restoring allies' MP. Cooldown is long.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6084,
+      "id": "rem_33703",
+      "jp": "HP回復(中) + MP回復(極小) + CT消費増加",
+      "en": "Medium HP Recovery + Tiny MP Recovery + Increased CT Consumption",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6085,
+      "id": "rem_33704",
+      "jp": "【<src>】の[マジックヒール]が仲間を癒す！",
+      "en": "【<src>】's [Magic Heal] restores allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6086,
+      "id": "rem_33705",
+      "jp": "彷徨う復讐者が語ることはなく、その娘の身を案じ続ける。キャトリナのレベルが上がると、それを見守る衛兵さんのレベルがアップ。",
+      "en": "The wandering avenger does not speak, but continues to worry for the girl. As Catrina levels up, the Guard watching over her levels up too.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6087,
+      "id": "rem_33706",
+      "jp": "レベル同期・キャトリナと同じに([+5])",
+      "en": "Level Sync: Matches Catrina's level ([+5])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6088,
+      "id": "rem_33707",
+      "jp": "槍を構えて激しい突進（チャージ）を加える。守備に優れたクラスの技だが、その一撃は守備だけとは言わせない重さを誇る。",
+      "en": "Readies a spear for a fierce charging thrust. A technique of defensive classes, but the blow's weight cannot be called mere defense.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6089,
+      "id": "rem_33708",
+      "jp": "範囲(小)攻撃 威力[E] +  命中[70%] + 【雷属性】 + 防御貫通(小) + 回避(中) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Small AoE Attack, Power[E], 70% Hit Rate, 【Lightning Element】, Small Defense Penetration, Medium Evasion, Inflicts [Knockdown] (Crit Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6090,
+      "id": "rem_33709",
+      "jp": "【<src>】は[ランスチャージ]で突進！",
+      "en": "【<src>】 charges with [Lance Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6091,
+      "id": "rem_33710",
+      "jp": "相手のレベルが自分よりある程度低い場合、攻撃力がアップ。ザコ敵をひたすら狩るときに効果が高い。",
+      "en": "Attack power increases if the enemy's level is considerably lower than yours. Very effective for hunting weak foes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6092,
+      "id": "rem_33711",
+      "jp": "ザコへのダメージ[+50%]",
+      "en": "Damage to Weak Foes [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6093,
+      "id": "rem_33712",
+      "jp": "手先の器用なドワーム族による罠解除技術。機械罠だけでなく、鉱山で生活するので自然罠にも対応できる。ただし彼らは頑丈すぎるせいか、危機察知はかなり鈍かったりする。",
+      "en": "The Dwarm's dexterous trap-disarming skill. Works on mechanical traps, and due to their life in mines, also works on natural traps. However, perhaps because they're too sturdy, their danger sense is quite dull.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6094,
+      "id": "rem_33713",
+      "jp": "機械と自然系トラップの解除率[+50%]",
+      "en": "Disarm Rate for Mechanical & Natural Traps [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6095,
+      "id": "rem_33714",
+      "jp": "弓矢に闘気を込めて、強力な一撃を放つ。連打はできないが非常に強い力を持ち、相手に大きいダメージを与えることもできる。",
+      "en": "Channels fighting spirit into an arrow to unleash a powerful single shot. Cannot be chained, but has immense force and can deal major damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6096,
+      "id": "rem_33715",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[60%] + 必殺率[+10%] + 【聖属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Large AoE Attack, Power[C], 60% Hit Rate, +10% Crit Rate, 【Holy Element】, Inflicts [Knockdown] (Crit Received Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6097,
+      "id": "rem_33716",
+      "jp": "【<src>】は[チャージアロー]を放った！",
+      "en": "【<src>】 fires a [Charged Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6098,
+      "id": "rem_33717",
+      "jp": "弓矢に魔力を付与し、降り注ぐように射かける。矢は天で炸裂し、広範囲の敵に降り注ぐ。",
+      "en": "Imbues arrows with magic and rains them down. Arrows burst in the sky, showering a wide area of enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6099,
+      "id": "rem_33718",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 【風属性】",
+      "en": "Large AoE Attack, Power[B+], 60% Hit Rate, 【Wind Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6100,
+      "id": "rem_33719",
+      "jp": "【<src>】は[アローストーム]で嵐を巻き起こす！",
+      "en": "【<src>】 stirs up a storm with [Arrow Storm]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94201,
+  "range_end": 94300,
+  "pairs": [
+    {
+      "n": 94201,
+      "id": "db_EventInfo:111299:5",
+      "jp": "本日は、単にお礼をしに来ただけですわ。あの農場は【『ゼカリウス』】の胃袋といえる場所",
+      "en": "Today, I've come simply to thank you. That farm is a place you could call Zecarius's stomach.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94202,
+      "id": "db_EventInfo:111300:5",
+      "jp": "壊滅してしまっては、多くの餓死者を出した可能性すらもありましたから",
+      "en": "If it had been destroyed, there could have been many who died of starvation.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94203,
+      "id": "db_EventInfo:111301:5",
+      "jp": "ふふ、ですので今回は特別にお礼をするのですわ",
+      "en": "Hehe, so this time, I've come to say a special thank you.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94204,
+      "id": "db_EventInfo:111302:5",
+      "jp": "まあ、それはそれとしてノルマは課させていただきますけどもД",
+      "en": "Well, that said, I will still have to give you a quotaД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94205,
+      "id": "db_EventInfo:111303:2",
+      "jp": "ひどいデスー！！",
+      "en": "That's mean!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94206,
+      "id": "db_EventInfo:111306:0",
+      "jp": "という、ハーヴェスタの冗談だったらしい。",
+      "en": "It seems that was just one of Harvester's jokes.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94207,
+      "id": "db_EventInfo:111307:0",
+      "jp": "本当に礼を言いにきただけらしく、今回は【『ハーヴェスタ商会』】へのノルマは無かった。",
+      "en": "She really only came to thank us. This time, there was no quota for the 'Harvester Company'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94208,
+      "id": "db_EventInfo:111309:5",
+      "jp": "ごきげんようですわ、店長様",
+      "en": "Greetings, Mr. Shopkeeper.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94209,
+      "id": "db_EventInfo:111310:5",
+      "jp": "聞きましたわ。【『イルニエル大灯台』】を【『ゴブリン』】どもから解放する支援をしたそうですわね",
+      "en": "I heard. I heard you helped free the 'Iluniel Great Lighthouse' from those 'Goblins'.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94210,
+      "id": "db_EventInfo:111311:5",
+      "jp": "【『ゼカリウス』】の経済を活性化させる活動、【『ハーヴェスタ商会』】としても評価いたしますわ",
+      "en": "An activity that energizes Zecarius's economy. The 'Harvester Company' commends you for it.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94211,
+      "id": "db_EventInfo:111312:1",
+      "jp": "ま、まさか、また【『ノルマ』】を……",
+      "en": "W-wait, don't tell me, another 'quota'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94212,
+      "id": "db_EventInfo:111313:5",
+      "jp": "あら？　お見通しでしたか……さすがは店長様ですわ",
+      "en": "Oh my? You saw right through me... As expected of you, Mr. Shopkeeper.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94213,
+      "id": "db_EventInfo:111314:1",
+      "jp": "のおお……",
+      "en": "Oh, god...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94214,
+      "id": "db_EventInfo:111315:5",
+      "jp": "ふふ、私、アナタ様に興味が出て参りました",
+      "en": "Hehe, I'm becoming quite interested in you.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94215,
+      "id": "db_EventInfo:111316:5",
+      "jp": "私の考える通りなら、この程度の【『ノルマ』】には負けないと存じます。期待しておりますわД",
+      "en": "If I think about it right, I don't think you'll lose to a little quota like this. I'm looking forward to it.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94216,
+      "id": "db_EventInfo:111318:0",
+      "jp": "【『ハーヴェスタ商会』】に納める新しいノルマが課せられてしまった！",
+      "en": "I got hit with a new quota I have to meet for the Harvester Trade Company!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94217,
+      "id": "db_EventInfo:111319:15",
+      "jp": "相変わらず、【『ハーヴェスタ商会』】のノルマに苦しんでいるようだね",
+      "en": "Looks like you're still suffering under the Harvester Trade Company's quotas, huh.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94218,
+      "id": "db_EventInfo:111320:2",
+      "jp": "まったくデス",
+      "en": "Totally.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94219,
+      "id": "db_EventInfo:111321:2",
+      "jp": "あの小娘はなんなんデス？　見た目は若いようデスが",
+      "en": "What's the deal with that little girl? She looks pretty young.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94220,
+      "id": "db_EventInfo:111322:15",
+      "jp": "ハーヴェスタ君は、とある豪商の娘でね。幼い頃から英才教育を施されていたんだけど",
+      "en": "Harvester is the daughter of a certain rich merchant. They gave her a high-class education from a young age.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94221,
+      "id": "db_EventInfo:111323:15",
+      "jp": "その親が自分の事業を継ぐ条件として、彼女自身が事業を立ち上げ、成功させることを命じたんだ",
+      "en": "Her parents set a condition for her to inherit their business: she had to start and run her own successful company.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94222,
+      "id": "db_EventInfo:111324:2",
+      "jp": "金持ちの娘デスか……ただのボンボンというわけではないようデスね",
+      "en": "So she's a rich girl... She doesn't seem like just a spoiled brat, though.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94223,
+      "id": "db_EventInfo:111325:15",
+      "jp": "彼女の父親は商人の中でも「伝説」と呼ばれる人なんだけど、彼女はそれに負けない才能を見せているようだね",
+      "en": "Her father is a 'legend' among merchants, but she seems to have talent that doesn't fall short of his.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94224,
+      "id": "db_EventInfo:111326:15",
+      "jp": "ただなんというか、ずっと商売中心でやってきたせいか、年頃の感情を出すのが苦手らしくてね",
+      "en": "But I guess... maybe because she's always been focused on business, she seems bad at showing feelings for her age.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94225,
+      "id": "db_EventInfo:111327:15",
+      "jp": "身近な友人をほとんど作れず、【『ハーヴェスタ商会』】でも孤立しかけているそうなんだ",
+      "en": "She could hardly make any close friends, and they say she's almost isolated in the Harvester Trade Company too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94226,
+      "id": "db_EventInfo:111328:2",
+      "jp": "……敵を作りそうな性格をしてるデスからね",
+      "en": "...That's because she seems like the type to make enemies.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94227,
+      "id": "db_EventInfo:111331:0",
+      "jp": "ハーヴェスタが組織内で孤立……か。",
+      "en": "So Harvester is isolated within the organization...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94228,
+      "id": "db_EventInfo:111333:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94229,
+      "id": "db_EventInfo:111335:144",
+      "jp": "今回のカネを持ってきましたぜ",
+      "en": "I brought the money this time, boss.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94230,
+      "id": "db_EventInfo:111336:131",
+      "jp": "うむ、確かに受け取った……今回もご苦労だった",
+      "en": "Mmm, I have received it... Good work, as always.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94231,
+      "id": "db_EventInfo:111337:144",
+      "jp": "へへ、ありがとうございます",
+      "en": "Heh heh, thank you.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94232,
+      "id": "db_EventInfo:111338:131",
+      "jp": "……ところで【あの娘】だが。最近の動向を見ると、一つの宿に向かう頻度が高いようだが？",
+      "en": "...Now, about that girl. Looking at her recent movements, she seems to be going to a certain inn quite often?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94233,
+      "id": "db_EventInfo:111339:144",
+      "jp": "さあ、俺にはお嬢様の考えなどさっぱり",
+      "en": "Hah, I have no idea what the young lady is thinking.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94234,
+      "id": "db_EventInfo:111340:131",
+      "jp": "まあいい、このことは、あのお方にも報告しておく",
+      "en": "Well, fine. I will report this matter to that person as well.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94235,
+      "id": "db_EventInfo:111341:131",
+      "jp": "これからも【我らが神】のために、【さらなる奉仕と善行】を心がけるように",
+      "en": "Remember to devote yourself to further service and good deeds... for our god.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94236,
+      "id": "db_EventInfo:111342:144",
+      "jp": "へへ、もちろんでさぁ",
+      "en": "Heh heh, of course.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94237,
+      "id": "db_EventInfo:111344:5",
+      "jp": "ごきげんようですわ、店長様",
+      "en": "Good day to you, Store Manager.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94238,
+      "id": "db_EventInfo:111345:5",
+      "jp": "聞きましたわ。【『ゼカリウス』】を襲った大病災を退けたのは、店長様の活躍だそうですわね",
+      "en": "I heard. They say it was your efforts that repelled the great Calamity that attacked 'Zecarius'.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94239,
+      "id": "db_EventInfo:111346:5",
+      "jp": "【『ゼカリウス』】の経済のみならず、危機からも救う活動、私個人としても評価いたしますわ",
+      "en": "Your work has saved Zecarius not just from economic trouble, but from a real crisis. I respect that.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94240,
+      "id": "db_EventInfo:111347:5",
+      "jp": "ふふ、やはり私の見立て通り、アナタ様には私のビジネスパートナーになる資格ありですわね",
+      "en": "Hehe. Just as I thought. You have what it takes to be my business partner.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94241,
+      "id": "db_EventInfo:111348:1",
+      "jp": "なにを言って……",
+      "en": "What are you saying...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94242,
+      "id": "db_EventInfo:111349:5",
+      "jp": "店長様を【『ハーヴェスタ商会』】の【正式な商会員】として推薦してもよろしくてよ？",
+      "en": "May I recommend you, master innkeeper, as an official member of the Harvester Merchants' Guild?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94243,
+      "id": "db_EventInfo:111350:1",
+      "jp": "【正式な商会員】？",
+      "en": "An official member?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94244,
+      "id": "db_EventInfo:111351:5",
+      "jp": "ふふ……【正式な商会員】には【『投資』】ランクに応じて、【『幹部』】としての発言権も認められておりますの",
+      "en": "Hehe... As an official member, your level of investment grants you a say as an executive.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94245,
+      "id": "db_EventInfo:111352:5",
+      "jp": "そして、高ランクを達成した暁には……うふふ、【『商会幹部』】つまり商会の経営者として迎えて差し上げますわ",
+      "en": "And, if you reach a high enough rank... Ufufu, I will welcome you as a guild executive—an owner of the business.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94246,
+      "id": "db_EventInfo:111353:1",
+      "jp": "なんだか嫌な予感がするが、投資次第で俺達の宿が【『幹部』】扱いになるってことか？",
+      "en": "I've got a bad feeling about this. So, depending on our investment, our inn could be treated as an executive?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94247,
+      "id": "db_EventInfo:111354:5",
+      "jp": "うふふ。そんな店長様ならば、生半可な【『ノルマ』】では満足できませんわよね？",
+      "en": "Ufufu. Someone like you wouldn't be satisfied with a half-baked quota, right?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94248,
+      "id": "db_EventInfo:111355:5",
+      "jp": "新しい【『ノルマ』】を用意いたしますわД",
+      "en": "I'll prepare a new quota for youД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94249,
+      "id": "db_EventInfo:111356:1",
+      "jp": "おい！",
+      "en": "Hey!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94250,
+      "id": "db_EventInfo:111357:5",
+      "jp": "ふふ、期待しておりますわよД",
+      "en": "Hehe, I'll be looking forward to itД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94251,
+      "id": "db_EventInfo:111359:0",
+      "jp": "【『ハーヴェスタ商会』】への新しいノルマが課せられてしまった！",
+      "en": "The 'Harvester Merchant Association' gave me a new quota!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94252,
+      "id": "db_EventInfo:111360:0",
+      "jp": "【『ハーヴェスタ商会』】に【『組織献金』】すれば、【正式な会員】になれるようだが……？",
+      "en": "If I make an 'Organizational Donation' to the 'Harvester Merchant Association', I can become an 'official member'...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94253,
+      "id": "db_EventInfo:111362:5",
+      "jp": "ごきげんようですわ、店長様",
+      "en": "Good day, Shop Manager.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94254,
+      "id": "db_EventInfo:111363:5",
+      "jp": "聞きましたわ。【『ゼカリウス地下図書館』】の大規模調査を支援されてるそうですわね",
+      "en": "I heard. You're supporting a large-scale investigation of the 'Zecarius Underground Library'.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94255,
+      "id": "db_EventInfo:111364:5",
+      "jp": "店長様は【『ゼカリウス』】の文化も活性化させるおつもりかしら？",
+      "en": "Do you plan to help liven up 'Zecarius's' culture too?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94256,
+      "id": "db_EventInfo:111365:1",
+      "jp": "ま、まさか、また【『ノルマ』】を……",
+      "en": "No way, not another 'quota'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94257,
+      "id": "db_EventInfo:111366:5",
+      "jp": "【『ノルマ』】？",
+      "en": "A 'quota'?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94258,
+      "id": "db_EventInfo:111367:5",
+      "jp": "ええ……そういうのもありましたわね",
+      "en": "Oh yes... That was a thing, wasn't it.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94259,
+      "id": "db_EventInfo:111368:5",
+      "jp": "確か、次は借金を一括返済すると申しておりましたわよね？",
+      "en": "I believe you mentioned paying off your debt in a lump sum next?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94260,
+      "id": "db_EventInfo:111369:1",
+      "jp": "あ、ああ……",
+      "en": "Y-yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94261,
+      "id": "db_EventInfo:111370:5",
+      "jp": "払えるものか不安ですが、残りの借金を一括で払って頂きますわ",
+      "en": "I worry if you can pay it, but you will pay off the rest of your debt in one go.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94262,
+      "id": "db_EventInfo:111371:5",
+      "jp": "頑張ってくださいませ",
+      "en": "Do your best.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94263,
+      "id": "db_EventInfo:111373:0",
+      "jp": "【『ハーヴェスタ商会』】への新しいノルマが課せられてしまった！",
+      "en": "I got a new quota from the 'Harvester Merchant Guild'!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94264,
+      "id": "db_EventInfo:111374:0",
+      "jp": "借金を一括で払うらしい。これを払えば、もうノルマはなくなるはずだ！",
+      "en": "It's a lump sum payment for my debt. If I pay this, there should be no more quotas!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94265,
+      "id": "db_EventInfo:111376:5",
+      "jp": "ごきげんようですわ、店長様",
+      "en": "Good day, shopkeeper.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94266,
+      "id": "db_EventInfo:111377:5",
+      "jp": "ふふ、店長様の【『ハーヴェスタ商会』】における会員ランクが高まっておりますわ",
+      "en": "Hehe, your member rank in the 'Harvester Merchant Guild' has gone up.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94267,
+      "id": "db_EventInfo:111378:5",
+      "jp": "かなりの金額を投資なされたようですわね？",
+      "en": "It seems you've invested quite a sum of money?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94268,
+      "id": "db_EventInfo:111379:1",
+      "jp": "ま、まあな……",
+      "en": "W-well, yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94269,
+      "id": "db_EventInfo:111380:5",
+      "jp": "ふふ。私からしては端金ではありますが、店長様のお心遣いが感じられますわ",
+      "en": "Hehe. To me, it's just pocket change, but I can feel your thoughtful gesture.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94270,
+      "id": "db_EventInfo:111381:5",
+      "jp": "これならば、【『ハーヴェスタ商会』】でも、それなりの発言力を出せると思われます",
+      "en": "With this, you should be able to have a fair amount of say within the 'Harvester Merchant Guild', I think.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94271,
+      "id": "db_EventInfo:111382:5",
+      "jp": "今後の投資も楽しみにして参りますわねД",
+      "en": "I look forward to your future investmentsД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 94272,
+      "id": "db_EventInfo:111384:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, elsewhere...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94273,
+      "id": "db_EventInfo:111386:144",
+      "jp": "今回の支援金ですぜ",
+      "en": "Here's the support funds this time.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94274,
+      "id": "db_EventInfo:111387:131",
+      "jp": "うむ、確かに受け取った……いつもご苦労だな",
+      "en": "Hmm, I confirm receipt... good work, as always.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94275,
+      "id": "db_EventInfo:111388:144",
+      "jp": "へへ、ありがとうございますぜ",
+      "en": "Hehe, thank you very much.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94276,
+      "id": "db_EventInfo:111389:144",
+      "jp": "それで……例の件の方は……",
+      "en": "So then... about that matter we discussed...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94277,
+      "id": "db_EventInfo:111390:131",
+      "jp": "うむ、【『ハーヴェスタ商会』】の件だな。問題ない",
+      "en": "Hmm, the matter concerning [the 'Harvester Company']. There's no problem.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94278,
+      "id": "db_EventInfo:111391:131",
+      "jp": "我々にとっても、活動にはカネがかかるからな",
+      "en": "Even for us, our activities require money.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94279,
+      "id": "db_EventInfo:111392:144",
+      "jp": "へへ、頼みますぜ。すでに【『ハーヴェスタ商会』】の幹部の過半数は同志、あとはあの娘を……",
+      "en": "Hehe, we're counting on you. Already, the majority of the executives at [the 'Harvester Company'] are comrades. All that's left is that girl...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94280,
+      "id": "db_EventInfo:111393:144",
+      "jp": "そのためになら、いくらでもアンタらにカネを渡しましょうや",
+      "en": "For that purpose, I'll give you as much money as you need.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94281,
+      "id": "db_EventInfo:111394:144",
+      "jp": "ですから……【あの娘】を引き取る際には……",
+      "en": "Therefore... when you take [that girl]...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94282,
+      "id": "db_EventInfo:111395:131",
+      "jp": "うむ、我らが【『神』】のために、【さらなる奉仕と善行】を捧げるのであれば",
+      "en": "Hmm, if it is for our [God], and for offering [further service and good deeds]...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94283,
+      "id": "db_EventInfo:111396:131",
+      "jp": "我が神の供物にする前に、貴殿が洗礼を行う権利をくれてやろう",
+      "en": "Before she becomes an offering to our God, I will grant you the right to perform the baptism.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94284,
+      "id": "db_EventInfo:111397:144",
+      "jp": "へへ、ありがとうございまさぁ……",
+      "en": "Hehe, thank you so muuuuch...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94285,
+      "id": "db_EventInfo:111398:144",
+      "jp": "ひひ、あの生意気なお嬢様め、目に物を見せてやるぜ……！",
+      "en": "Heehee, that arrogant little miss, I'll show her what's what...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94286,
+      "id": "db_EventInfo:111400:1",
+      "jp": "このところハーヴェスタが来ないな",
+      "en": "Harvester hasn't been coming around lately.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94287,
+      "id": "db_EventInfo:111401:2",
+      "jp": "アイツがくるとロクでもないデス。来なくて良いデス！",
+      "en": "Whenever he shows up, it's always trouble. I wish he'd just stay away!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94288,
+      "id": "db_EventInfo:111403:15",
+      "jp": "大変だよ店長君、【『ハーヴェスタ商会』】で内部紛争が起きているんだ！",
+      "en": "Big trouble, boss! The Harvester Trading Co. is having an internal conflict!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94289,
+      "id": "db_EventInfo:111404:1",
+      "jp": "え、ええっ！？",
+      "en": "Wh-What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94290,
+      "id": "db_EventInfo:111405:15",
+      "jp": "どうも商会の幹部があつまって、代表であるハーヴェスタ君を強制的に更迭したそうなんだ",
+      "en": "From what I heard, the company's executives got together and forcibly removed Harvester from her position as the head.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94291,
+      "id": "db_EventInfo:111406:1",
+      "jp": "更迭？",
+      "en": "Removed?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94292,
+      "id": "db_EventInfo:111407:2",
+      "jp": "クビにすることデス",
+      "en": "They fired her, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94293,
+      "id": "db_EventInfo:111408:15",
+      "jp": "そう、いわばクーデターってやつだよ！",
+      "en": "Yeah, basically a coup!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94294,
+      "id": "db_EventInfo:111409:15",
+      "jp": "しかもハーヴェスタ君は【特別背任】の罪に問われて、逮捕されたそうなんだ！",
+      "en": "On top of that, they say Harvester was charged with 'special breach of trust' and arrested!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94295,
+      "id": "db_EventInfo:111410:1",
+      "jp": "なんだって！？",
+      "en": "What?! You're kidding!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94296,
+      "id": "db_EventInfo:111411:2",
+      "jp": "いい気味デス。牢屋にずっといればいいのにデス",
+      "en": "Serves her right, desu. I hope she stays in prison forever, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94297,
+      "id": "db_EventInfo:111412:15",
+      "jp": "彼女の資産は没収され、幹部達のモノになったらしい",
+      "en": "I heard her assets were seized and became the property of the executives.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94298,
+      "id": "db_EventInfo:111413:15",
+      "jp": "たしかこの店の土地の所有権は、もともとハーヴェスタ君にあるんだろう？　つまりこの店も……",
+      "en": "If I'm right, the ownership rights for the land this shop is on originally belong to Harvester, right? Which means this shop too…",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94299,
+      "id": "db_EventInfo:111414:2",
+      "jp": "おいオマエ、急いでハーヴェスタを救うデス！！",
+      "en": "Hey you! We need to save Harvester, and fast!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94300,
+      "id": "db_EventInfo:111418:5",
+      "jp": "あら、アナタたちは……ふん。私を笑いに来たのですか？",
+      "en": "Oh, it's you people... Hmph. Have you come to laugh at me?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    }
+  ]
+}

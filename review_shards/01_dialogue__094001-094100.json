@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94001,
+  "range_end": 94100,
+  "pairs": [
+    {
+      "n": 94001,
+      "id": "db_EventInfo:111071:20",
+      "jp": "エッチなことはしませんが、御主人様の業務を素敵にサポートします",
+      "en": "I won't do anything naughty, but I will provide wonderful support for Master's business.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94002,
+      "id": "db_EventInfo:111072:20",
+      "jp": "とりあえず雇用契約書を置いておきます。1億ゴールドはゆくゆくということで……気が向いたら契約の方よろしくお願いしますね",
+      "en": "Anyway, I'll leave the employment contract here. As for the 100 million Gold, we'll see about that later... Please sign it if you feel like it, okay?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94003,
+      "id": "db_EventInfo:111075:0",
+      "jp": "ハヅキと名乗ったメイドは、言いたいことだけ言って帰ってしまった。",
+      "en": "The maid who called herself Hazuki said what she wanted to say and then left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94004,
+      "id": "db_EventInfo:111076:2",
+      "jp": "変なヤツデスね",
+      "en": "She's a strange one, isn't she?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94005,
+      "id": "db_EventInfo:111077:1",
+      "jp": "素敵なメイドサービスか……どういうものか気になっちゃうな",
+      "en": "Wonderful maid service, huh... I'm kinda curious what that's like.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94006,
+      "id": "db_EventInfo:111078:2",
+      "jp": "……でも普通のメイドと違って、契約金が桁違いでバカにならないデス。そこまでして雇う価値はあるデス？",
+      "en": "...But unlike a normal maid, the contract fee is insane. Is she really worth hiring at that price?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94007,
+      "id": "db_EventInfo:111079:2",
+      "jp": "念のため言っておくデスが、アイツを雇ってもエッチなことはできないデス。カネが余ってるなら、止めないデスが",
+      "en": "Just to be clear, even if you hire her, you can't do anything naughty. If you've got money to burn, I won't stop you, but...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94008,
+      "id": "db_EventInfo:111080:2",
+      "jp": "アイツを雇用するには【『事業投資』】から行うデスよ",
+      "en": "To hire her, you go through ['Business Investment'].",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94009,
+      "id": "db_EventInfo:111081:2",
+      "jp": "……オマエ、あのメイドを雇用するのデス？",
+      "en": "...Are you hiring that maid?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94010,
+      "id": "db_EventInfo:111082:2",
+      "jp": "そんなカネあったデス？　アイツを雇ってもエッチなことはできないデス。メイドなら、代りはいくらでもいるデス",
+      "en": "You have that kind of money? Even if you hire her, you can't do anything naughty. There are plenty of other maids around, you know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94011,
+      "id": "db_EventInfo:111083:1",
+      "jp": "いや、なんというか、なんとなくというか……",
+      "en": "Well... I don't know. I just had a feeling...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94012,
+      "id": "db_EventInfo:111084:1",
+      "jp": "ところで、ハヅキはどこにいるんだ？",
+      "en": "Anyway, where is Hazuki?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94013,
+      "id": "db_EventInfo:111085:0",
+      "jp": "★クリア",
+      "en": "★CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94014,
+      "id": "db_EventInfo:111087:20",
+      "jp": "呼びましたか、御主人様",
+      "en": "Did you call for me, Master?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94015,
+      "id": "db_EventInfo:111088:1",
+      "jp": "うわああああああっ！？",
+      "en": "Waaaah!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94016,
+      "id": "db_EventInfo:111089:1",
+      "jp": "い、一体どこから",
+      "en": "Wh-where did you come from!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94017,
+      "id": "db_EventInfo:111090:20",
+      "jp": "私はさすらいのメイド、メイドといえば瞬間移動は必須スキル。これぐらいは軽いことでございます",
+      "en": "I am a wandering maid. For a maid, teleportation is a basic skill. This is nothing for me.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94018,
+      "id": "db_EventInfo:111091:1",
+      "jp": "は、はあ……",
+      "en": "Oh... okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94019,
+      "id": "db_EventInfo:111092:20",
+      "jp": "それよりも御主人様。このたびは、当方と契約頂きありがとうございます。これにて、基本的契約は完了いたしました",
+      "en": "Anyway, Master. Thank you for making a contract with me. This completes the basic agreement.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94020,
+      "id": "db_EventInfo:111093:20",
+      "jp": "今後は、私の提供するメイドサービスを、随時案内する予定でございます",
+      "en": "From now on, I plan to inform you about my maid services from time to time.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94021,
+      "id": "db_EventInfo:111094:2",
+      "jp": "おい、すぐに働かないデスか！？",
+      "en": "Hey, get to work right away, death!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94022,
+      "id": "db_EventInfo:111095:20",
+      "jp": "この契約書はあくまで基本的な雇用契約にすぎません。そもそも満額の1億ゴールド払ってないじゃないですか",
+      "en": "This contract is only a basic employment agreement. You haven't even paid the full 100 million Gold.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94023,
+      "id": "db_EventInfo:111096:2",
+      "jp": "そんなアホな金額払えるかデス！",
+      "en": "I can't pay that crazy amount!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94024,
+      "id": "db_EventInfo:111097:20",
+      "jp": "ご安心くださいませ。メイドサービスはサブスクリプション払いにも対応しております",
+      "en": "Don't worry. Our maid service also offers subscription payments.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94025,
+      "id": "db_EventInfo:111098:20",
+      "jp": "さらなるサポートを求めるなら、もっと課金してくださいませ",
+      "en": "If you want even more support, please spend more money.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94026,
+      "id": "db_EventInfo:111099:20",
+      "jp": "それではメイドサービスを活用するための、ガイドブックを置いておきますね。では",
+      "en": "I'll leave this guidebook here, so you can learn how to use the maid service. Bye.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94027,
+      "id": "db_EventInfo:111100:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94028,
+      "id": "db_EventInfo:111101:1",
+      "jp": "はっ！？",
+      "en": "Huh!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94029,
+      "id": "db_EventInfo:111102:1",
+      "jp": "き、消えた！？",
+      "en": "Sh-she's gone!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94030,
+      "id": "db_EventInfo:111103:2",
+      "jp": "さっ……",
+      "en": "It's...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94031,
+      "id": "db_EventInfo:111104:2",
+      "jp": "詐欺デス――！！！",
+      "en": "A SCAM!!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94032,
+      "id": "db_EventInfo:111105:0",
+      "jp": "ハヅキと名乗ったメイドは、まるで幻のように消えてしまった。",
+      "en": "The maid who called herself Hazuki vanished like a mirage.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94033,
+      "id": "db_EventInfo:111106:0",
+      "jp": "本当に詐欺に遭ってしまったのだろうか……？",
+      "en": "Did we really just get scammed...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94034,
+      "id": "db_EventInfo:111107:0",
+      "jp": "俺達の所には、ハヅキが残した謎のガイドブックだけが残されていた……。",
+      "en": "All that was left with us was a strange guidebook Hazuki left behind...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94035,
+      "id": "db_EventInfo:111110:0",
+      "jp": "【『事業投資』】をすることで、ハヅキのサービスを受けられるようになった。",
+      "en": "I unlocked Hazuki's service by doing a 'Business Investment'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94036,
+      "id": "db_EventInfo:111112:20",
+      "jp": "【『ハヅキ体感速度向上サービス』】の契約をいただきありがとうございます、ご主人様",
+      "en": "Thank you for signing the 'Hazuki Sensory Speed-Up Service' contract, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94037,
+      "id": "db_EventInfo:111113:1",
+      "jp": "体感速度……これはなんなんだ？",
+      "en": "Sensory speed... what is this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94038,
+      "id": "db_EventInfo:111114:20",
+      "jp": "これは時間の流れを加速させるような気がするサービスでございます",
+      "en": "It's a service that makes it feel like the flow of time is speeding up.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94039,
+      "id": "db_EventInfo:111115:20",
+      "jp": "実際に時間の流れを操作するわけではありませんが、このサービスはご主人様の体感時間を加速させることができます",
+      "en": "I don't actually control time itself. But this service can make your sense of time speed up.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94040,
+      "id": "db_EventInfo:111116:20",
+      "jp": "具体的には【『Ｆ８キー』】を押したときのスピードアップ効果の上限がアップします",
+      "en": "Specifically, it raises the max speed you can get by pressing the 'F8' key.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94041,
+      "id": "db_EventInfo:111117:1",
+      "jp": "すごい……",
+      "en": "Wow...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94042,
+      "id": "db_EventInfo:111118:20",
+      "jp": "なお、加速しすぎると、【ならずものやごみなどを貫通してしまう】ことが多発しますし、【経営が制御不能に】なりやすくなります",
+      "en": "By the way, going too fast can cause problems. You might start passing right through thugs and trash. And it's easy to lose control of the business.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94043,
+      "id": "db_EventInfo:111119:20",
+      "jp": "常に最高速は出さず、【『Ｆ７キー』】でスピードダウンしながら、最適な体感速度を模索してください",
+      "en": "Don't always run at top speed. Use the 'F7' key to slow down and find the best sensory speed for you.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94044,
+      "id": "db_EventInfo:111120:1",
+      "jp": "わ、わかった……",
+      "en": "O-okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94045,
+      "id": "db_EventInfo:111121:20",
+      "jp": "このサービスには追加料金はございません。存分にお使いくださいませ",
+      "en": "There are no extra charges for this service. Please use it all you like.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94046,
+      "id": "db_EventInfo:111124:0",
+      "jp": "【『経営モード』】の加速機能の上限がアップした！",
+      "en": "The speed boost limit in 'Business Mode' went up!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94047,
+      "id": "db_EventInfo:111126:20",
+      "jp": "【『ハヅキ破服剣伝授サービス』】の契約をいただきありがとうございます、ご主人様",
+      "en": "Thank you for the contract for 'Hazuki's Rending Garment Sword Tutoring Service,' Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94048,
+      "id": "db_EventInfo:111127:20",
+      "jp": "えっちですね……ぽっ",
+      "en": "How perverted... *poof*",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94049,
+      "id": "db_EventInfo:111128:1",
+      "jp": "いや！　メニューにあったから……！　俺は！",
+      "en": "No! It was on the menu...! I mean, I just...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94050,
+      "id": "db_EventInfo:111129:20",
+      "jp": "はいはい",
+      "en": "Right, right.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94051,
+      "id": "db_EventInfo:111130:1",
+      "jp": "そ、それで破服剣とは……？",
+      "en": "S-so, about this Rending Garment Sword... what is it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94052,
+      "id": "db_EventInfo:111131:20",
+      "jp": "破服剣……別名を【『クロスカッター』】とも言う、女性の衣服のみを破く伝説の剣技",
+      "en": "The Rending Garment Sword... also called the 'Cross Cutter.' It's a legendary sword technique that only cuts a woman's clothes.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94053,
+      "id": "db_EventInfo:111132:20",
+      "jp": "ひとたびヒットすれば、相手はあられもない姿を晒すという、恐るべき魔剣でございます。まあ、なぜか女性にしか通用しませんけど",
+      "en": "Once it hits, the target is left in a shameful state. It's a fearsome demonic sword. Well, for some reason it only works on women, though.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94054,
+      "id": "db_EventInfo:111133:1",
+      "jp": "はあ……エロ用の技か",
+      "en": "Hah... So it's just a lecherous skill.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94055,
+      "id": "db_EventInfo:111134:20",
+      "jp": "おっと、侮ってはいけません。ただのエロオヤジが扱えば、娼館の娘を剥ぎ取るプレイ程度にしか使えませんが",
+      "en": "Ah, don't underestimate it. If a regular dirty old man used it, it would only be good for playfully stripping a brothel girl.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94056,
+      "id": "db_EventInfo:111135:20",
+      "jp": "ヒットするなら魔界の女王だろうと、天界の主だろうと、それすらも超える■■だろうと、その霊的障壁を破壊してしまうのです",
+      "en": "But if it lands, it can destroy the spiritual barrier of anyone—be it the Demon World's queen, the Lord of Heaven, or even the one who surpasses them, ■■.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94057,
+      "id": "db_EventInfo:111136:20",
+      "jp": "かつて伝説の■■はこの剣技を使いこなし、■■と渡り合ったと、魔界間では伝説になっている究極スキルなのです",
+      "en": "Once, a legendary ■■ is said to have mastered this skill and faced ■■. In the demon world, it's a legendary ultimate skill.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94058,
+      "id": "db_EventInfo:111137:1",
+      "jp": "なんだかすごいような、凄くないような……そんな凄そうな技を伝授してもらっていいのか？",
+      "en": "It sounds kinda amazing, and kinda not... Are you sure it's okay to teach me such a powerful-sounding technique?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94059,
+      "id": "db_EventInfo:111138:20",
+      "jp": "大丈夫です。御主人様なら、エロオヤジが扱う程度にしか使えそうにありませんし",
+      "en": "It's fine, Master. It seems you'd only use it as much as a pervy old man would.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94060,
+      "id": "db_EventInfo:111139:1",
+      "jp": "おい",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94061,
+      "id": "db_EventInfo:111140:20",
+      "jp": "このサービスには追加料金はございません。存分にお使いくださいませ",
+      "en": "There's no extra charge for this service. Please use it as much as you like.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94062,
+      "id": "db_EventInfo:111143:0",
+      "jp": "【『密着モード』】のコマンドに【『クロスカッター』】が追加された！",
+      "en": "The command 'Close Contact Mode' now has 'Cross Cutter' added to it!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94063,
+      "id": "db_EventInfo:111145:20",
+      "jp": "【『ハヅキ清掃支援サービス』】の契約をいただきありがとうございます、ご主人様",
+      "en": "Thank you for your contract with 'Hazuki Cleaning Support Service', Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94064,
+      "id": "db_EventInfo:111146:20",
+      "jp": "メイドといえば掃除、掃除と言えばメイド",
+      "en": "Maids mean cleaning, cleaning means maids.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94065,
+      "id": "db_EventInfo:111147:20",
+      "jp": "グッドな判断です",
+      "en": "A good decision.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94066,
+      "id": "db_EventInfo:111148:1",
+      "jp": "はあ……まあ、【『清掃』】ならスタッフがいるから、不要な気もしたが",
+      "en": "Haa... Well, since we have staff for 'Cleaning', I thought it might be unnecessary.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94067,
+      "id": "db_EventInfo:111149:20",
+      "jp": "ふっふっ、この伝説のスーパーメイドとも呼ばれた私の【『清掃』】が、そんなものとお思いですか？",
+      "en": "Fufu, do you think my 'Cleaning'—once called that of a legendary super maid—is like that?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94068,
+      "id": "db_EventInfo:111150:20",
+      "jp": "私に任せて頂ければ、店内の全てのゴミと社会のゴミを一瞬で葬って、綺麗な状態にしてさしあげますよ",
+      "en": "If you leave it to me, I'll instantly bury all the trash in the shop and the trash of society, leaving it in a clean state.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94069,
+      "id": "db_EventInfo:111151:1",
+      "jp": "なんだって！？",
+      "en": "What did you say!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94070,
+      "id": "db_EventInfo:111152:20",
+      "jp": "ボタンワンタッチで一括清掃の安心サービス、それが【『ハヅキ清掃支援サービス』】でございます",
+      "en": "One-button bulk cleaning for your peace of mind—that is the 'Hazuki Cleaning Support Service'.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94071,
+      "id": "db_EventInfo:111153:20",
+      "jp": "ゴミと社会のゴミは世界から根絶はできませんけど、しばらくの間は出現もしなくなりますよ",
+      "en": "We can't wipe out trash and human trash from the world for good, but they won't be showing up for a while, either.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94072,
+      "id": "db_EventInfo:111154:1",
+      "jp": "なんだかすごいな……",
+      "en": "Wow, that's something...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94073,
+      "id": "db_EventInfo:111155:20",
+      "jp": "まあ一回ごとに、手数料を少々頂きますが",
+      "en": "Well, I do take a small fee for each time.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94074,
+      "id": "db_EventInfo:111156:1",
+      "jp": "む、むう……",
+      "en": "Huh, I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94075,
+      "id": "db_EventInfo:111157:20",
+      "jp": "すべてのゴミと社会のゴミを一掃できるのです。安いモノじゃないですか",
+      "en": "It gets rid of all the trash and human trash. That's not cheap, you know.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94076,
+      "id": "db_EventInfo:111158:1",
+      "jp": "たしかに",
+      "en": "True.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94077,
+      "id": "db_EventInfo:111160:1",
+      "jp": "社会のゴミってなんだ？",
+      "en": "What do you mean by 'human trash'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94078,
+      "id": "db_EventInfo:111161:20",
+      "jp": "そりゃ当然、【『チンピラ』】とか【『ならずもの』】のことです",
+      "en": "Why, it's obvious. I mean thugs and troublemakers.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94079,
+      "id": "db_EventInfo:111162:1",
+      "jp": "一掃してしまうのか？",
+      "en": "And you get rid of them?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94080,
+      "id": "db_EventInfo:111163:20",
+      "jp": "はい",
+      "en": "Yes.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94081,
+      "id": "db_EventInfo:111164:1",
+      "jp": "お、恐ろしい……",
+      "en": "S-scary...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94082,
+      "id": "db_EventInfo:111165:1",
+      "jp": "しかしまあ、チンピラとかは邪魔なんだよな",
+      "en": "But, well, thugs are a pain.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94083,
+      "id": "db_EventInfo:111166:1",
+      "jp": "……もしかして、【『ゴブリン』】とかも？",
+      "en": "...what about... 'Goblins' too?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94084,
+      "id": "db_EventInfo:111167:20",
+      "jp": "もちろんでございます",
+      "en": "Of course.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94085,
+      "id": "db_EventInfo:111169:17",
+      "jp": "素晴らしい！",
+      "en": "Great!",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 94086,
+      "id": "db_EventInfo:111170:17",
+      "jp": "店長さん、すぐに押してください！　徹底的に掃除していただきましょう！",
+      "en": "Owner, press it now! Let's get a thorough clean-up!",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 94087,
+      "id": "db_EventInfo:111171:20",
+      "jp": "かしこまりました",
+      "en": "Understood.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 94088,
+      "id": "db_EventInfo:111172:1",
+      "jp": "やめてくれ衛兵さん",
+      "en": "Stop it, Guard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94089,
+      "id": "db_EventInfo:111176:0",
+      "jp": "【『経営モード』】のコマンドに【『一掃』】が追加された！",
+      "en": "The 'Purge' command was added to 'Management Mode'!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94090,
+      "id": "db_EventInfo:111177:1",
+      "jp": "そういえば気になったんだが",
+      "en": "By the way, something just occurred to me.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94091,
+      "id": "db_EventInfo:111178:1",
+      "jp": "この店、俺が来るまでモノが売れたことがなかったみたいだな",
+      "en": "Before I came, this shop never sold anything, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94092,
+      "id": "db_EventInfo:111180:2",
+      "jp": "まことに遺憾ながら、そうデス",
+      "en": "Regrettably, that is correct.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94093,
+      "id": "db_EventInfo:111181:1",
+      "jp": "じゃあ、なんで最初から資金を持っていたんだ？",
+      "en": "Then, how did you have funds from the start?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94094,
+      "id": "db_EventInfo:111182:2",
+      "jp": "身体を売ったデス",
+      "en": "We sold our bodies.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94095,
+      "id": "db_EventInfo:111183:1",
+      "jp": "なに！",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94096,
+      "id": "db_EventInfo:111184:2",
+      "jp": "冗談デス",
+      "en": "Just kidding.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94097,
+      "id": "db_EventInfo:111185:2",
+      "jp": "親切なヤツが、【カネをくれた】のデス",
+      "en": "A nice person [gave us the money].",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94098,
+      "id": "db_EventInfo:111186:1",
+      "jp": "そ、そうか……",
+      "en": "O-oh, I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94099,
+      "id": "db_EventInfo:111188:1",
+      "jp": "【カネをくれた】？",
+      "en": "[Gave us the money]?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94100,
+      "id": "db_EventInfo:111189:2",
+      "jp": "そうデス。そのうち返せばいいとか言ってたデス",
+      "en": "Yes. They said we can pay it back later.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 81701,
+  "range_end": 81800,
+  "pairs": [
+    {
+      "n": 81701,
+      "id": "db_EventInfo:96633:0",
+      "jp": "ネルディーネは珍しく涙目になって許しを請う。",
+      "en": "Neldine is uncharacteristically teary-eyed, begging for forgiveness.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81702,
+      "id": "db_EventInfo:96634:2",
+      "jp": "ん？　海竜のネルディーネも、地上のオマエを【『<ruby=化身>アバター</ruby>』】と呼んでいたデスよ？",
+      "en": "Huh? Sea-dragon Neldine called you from the surface an 'Avatar' too?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81703,
+      "id": "db_EventInfo:96635:26",
+      "jp": "はあ、その、【<pl>】様も【『<ruby=化身>アバター</ruby>』】を使われているのでお分かりかと思いますが……",
+      "en": "Ah, well, I believe you, 【<pl>】-sama, might understand since you also use an 'Avatar'...",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81704,
+      "id": "db_EventInfo:96636:26",
+      "jp": "【『<ruby=化身>アバター</ruby>』】は自分の化身ですから、偽物とかではなく、どちらも本物なのですわ",
+      "en": "An 'Avatar' is your own incarnation, so it's not a fake. Both are the real you.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81705,
+      "id": "db_EventInfo:96637:2",
+      "jp": "つまりオマエも本物デス！　地上のオマエも同罪デス！",
+      "en": "So you're also the real deal! You're just as guilty!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81706,
+      "id": "db_EventInfo:96638:26",
+      "jp": "ひええ！",
+      "en": "Hieee!",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81707,
+      "id": "db_EventInfo:96639:1",
+      "jp": "まあまあ……あちらはあちらで懲らしめたんだから、もういいだろ",
+      "en": "Now, now... I've already punished that one over there, so let's leave it at that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81708,
+      "id": "db_EventInfo:96640:26",
+      "jp": "ああ、【<pl>】様、なんと慈悲深い……Д",
+      "en": "Oh, 【<pl>】-sama, how merciful...Д",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81709,
+      "id": "db_EventInfo:96641:2",
+      "jp": "でも正体がわかったということは、これからは海竜としても働いてもらうデスね",
+      "en": "But now that we know who she really is, she'll have to work as a sea-dragon from now on.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81710,
+      "id": "db_EventInfo:96642:26",
+      "jp": "そんなぁ……私は宝物庫で惰眠を貪ることをこの上ない娯楽としてますのに",
+      "en": "Nooo... My greatest joy is lazing about in the treasure vault...",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81711,
+      "id": "db_EventInfo:96643:2",
+      "jp": "やかましいデス！　ゼカリウスが【『災厄』】で滅んだら、ウチの宝物庫も消えてなくなるデス！",
+      "en": "Shut up, deth! If Zecarius gets destroyed by that 'Calamity', our treasure vault will vanish too, deth!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81712,
+      "id": "db_EventInfo:96644:26",
+      "jp": "……はっ！　たしかに、その通りですわね",
+      "en": "...Ah! You are quite right about that.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81713,
+      "id": "db_EventInfo:96645:26",
+      "jp": "仕方がありません。これからはお店からダンジョン攻略まで、何でも手伝いましょう",
+      "en": "We have no choice. From now on, I will assist you with anything, from the shop to dungeon conquests.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81714,
+      "id": "db_EventInfo:96646:2",
+      "jp": "うむデス。今後はオマエにも色々させるデスからね。キリキリ働くデスよ！",
+      "en": "Hmm deth. From now on, I'll have you do all sorts of things, deth. Work hard, deth!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 81715,
+      "id": "db_EventInfo:96647:26",
+      "jp": "は、はい！　それはもう、誠心誠意、勤めさせていただきますわ",
+      "en": "Y-yes! I will serve you with utmost sincerity, of course.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81716,
+      "id": "db_EventInfo:96648:0",
+      "jp": "★エッチシーン・ネルディーネ・個別②・立位①",
+      "en": "*H-Scene: Neldine - Individual 2 - Standing 1*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81717,
+      "id": "db_EventInfo:96649:0",
+      "jp": "★エッチシーン・ネルディーネ・個別③・立位②",
+      "en": "*H-Scene: Neldine - Individual 3 - Standing 2*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81718,
+      "id": "db_EventInfo:96650:0",
+      "jp": "★エッチシーン・ネルディーネ・個別④・アーマニーとイチャつき①",
+      "en": "*H-Scene: Neldine - Individual 4 - Flirting with Armany 1*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81719,
+      "id": "db_EventInfo:96651:0",
+      "jp": "★エッチシーン・ネルディーネ・個別⑤・アーマニーとイチャつき②",
+      "en": "*H-Scene: Neldine - Individual 5 - Flirting with Armany 2*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81720,
+      "id": "db_EventInfo:96652:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone is talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81721,
+      "id": "db_EventInfo:96654:27",
+      "jp": "初代アーマニア様は海竜と相打ちになって沈んだって聞いたんだけど……",
+      "en": "I heard the first Armany-sama and the Sea Dragon took each other out and sank...",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81722,
+      "id": "db_EventInfo:96655:6",
+      "jp": "もしやその海竜とは、ネルディーネ様のことなのでしょうか",
+      "en": "Could that Sea Dragon perhaps have been Neldine-sama?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 81723,
+      "id": "db_EventInfo:96656:26",
+      "jp": "とんでもない！　その話に伝えられる相手というのは、別の相手ですわ～",
+      "en": "No, no, no! The one you should be telling that story to is a completely different person.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81724,
+      "id": "db_EventInfo:96657:26",
+      "jp": "人間がキングホエールと呼んでいる、古代の要塞兵器です",
+      "en": "It's an ancient fortress weapon that humans call the King Whale.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81725,
+      "id": "db_EventInfo:96658:27",
+      "jp": "キングホエールが？",
+      "en": "The King Whale?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81726,
+      "id": "db_EventInfo:96659:26",
+      "jp": "ええ。遙か過去にも、現代のゲトレオス同様に、古代ゼカリウスの兵器を悪用した者がいたのです",
+      "en": "Yes. Long ago, just like Getoreosu today, someone misused the ancient Zecarius weapon.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81727,
+      "id": "db_EventInfo:96660:26",
+      "jp": "初代のアーマニアはそれを食い止めるため、家族とともにヤツに立ち向かったのですわ",
+      "en": "The first Armany tried to stop it. She faced it with her family.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81728,
+      "id": "db_EventInfo:96661:6",
+      "jp": "あんな巨大な相手に……お強い方だったのですわね",
+      "en": "Against such a huge enemy... She must have been very strong.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 81729,
+      "id": "db_EventInfo:96662:26",
+      "jp": "まあ、初代のあの子は海竜の一族が作った船を使ってたし、家族も海竜の一族としての力はありましたわ",
+      "en": "Well, that first girl used a ship made by the Sea Dragon clan, and her family had their power too.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81730,
+      "id": "db_EventInfo:96663:26",
+      "jp": "それに私達も、同族のよしみで手助けしてやりましたしね",
+      "en": "Also, we helped them out. You know, for the sake of our fellow clan members.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81731,
+      "id": "db_EventInfo:96664:27",
+      "jp": "なるほど……それで相討ちに……",
+      "en": "I see... So they fought to a stalemate...",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81732,
+      "id": "db_EventInfo:96665:26",
+      "jp": "いえ。大きな痛手を負いましたが、あの子達は勝利しましたわ",
+      "en": "No. They were badly hurt, but they won.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81733,
+      "id": "db_EventInfo:96666:26",
+      "jp": "その後、徹底的に破壊されたはずでしたが。いまだに動いているとは、思いませんでしたが",
+      "en": "After that, it was supposed to be completely destroyed. I never thought it could still be active.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81734,
+      "id": "db_EventInfo:96667:27",
+      "jp": "そんな、海竜一族の力を総出で使っても、完全に破壊することは出来なかったってのかい……？",
+      "en": "So... even with all the power of the Sea Dragon clan, they couldn't destroy it completely?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81735,
+      "id": "db_EventInfo:96668:26",
+      "jp": "そうですわ～。古代兵器というものは恐ろしいものです",
+      "en": "Yes~. Ancient weapons are truly terrifying things.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81736,
+      "id": "db_EventInfo:96669:26",
+      "jp": "その後のアーマニアは何を思ったのか。地上に上がることにしたのです。その後のことを、私は知りませんわ",
+      "en": "Who knows what Armany thought after that. She decided to go up to the surface. I don't know what happened after that.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81737,
+      "id": "db_EventInfo:96670:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone is talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81738,
+      "id": "db_EventInfo:96671:27",
+      "jp": "ネルディーネは海竜なんだよな……ってことは、伝説のドラゴンってことなのかい？",
+      "en": "So Neldine is a sea dragon... Does that make you a legendary dragon?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81739,
+      "id": "db_EventInfo:96672:26",
+      "jp": "人間がイメージするドラゴンとはちょっと違いますわね",
+      "en": "I am a little different from the dragons humans imagine.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81740,
+      "id": "db_EventInfo:96673:26",
+      "jp": "私たちは竜よりもウンディーネとしての気質を強く持った竜ですもの～",
+      "en": "We are dragons with a much stronger Undine temperament than other dragons~",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81741,
+      "id": "db_EventInfo:96674:27",
+      "jp": "竜には違いないのか……",
+      "en": "But you are still a dragon, right...",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81742,
+      "id": "db_EventInfo:96675:26",
+      "jp": "竜は様々な強い種族をツガイにしておりますからね～",
+      "en": "Dragons have mated with many strong races~",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81743,
+      "id": "db_EventInfo:96676:26",
+      "jp": "魚人ともツガイになった結果が私たちなのですわ～",
+      "en": "The result of a dragon mating with a fishman is our kind~",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81744,
+      "id": "db_EventInfo:96677:26",
+      "jp": "アーマニア……初代のあの子は、ウンディーネの気質によって発生した特異体でしたわね",
+      "en": "Armany... That first child was a special case, born from the Undine temperament.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81745,
+      "id": "db_EventInfo:96678:27",
+      "jp": "初代様が……特異体だって？",
+      "en": "The first one was... a special case?",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81746,
+      "id": "db_EventInfo:96679:26",
+      "jp": "ええ～。ウンディーネと言えば、私のように青い髪と水の魔力を持って生まれるのが大半ですわ",
+      "en": "Yes~. Most Undines are born like me, with blue hair and water magic.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81747,
+      "id": "db_EventInfo:96680:26",
+      "jp": "ですがあの子は、【赤いウンディーネ】でした。赤い者は、通常より強い力を持ってますの",
+      "en": "But that child was a [Red Undine]. Red ones have much stronger power than usual.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81748,
+      "id": "db_EventInfo:96681:26",
+      "jp": "ですが、ウンディーネでありながら地上に出るという禁を破ったせいで……",
+      "en": "However, because she broke the taboo of coming to the surface while being an Undine...",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81749,
+      "id": "db_EventInfo:96682:26",
+      "jp": "地上ではとてつもない<ruby=デバフ>呪い</ruby>を受けてたはずですわ～",
+      "en": "She should have received an incredibly strong curse on land.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 81750,
+      "id": "db_EventInfo:96683:27",
+      "jp": "なるほど……ということは、初代様は無敵と言われていた海での姿が本来ってことか……",
+      "en": "I see... So, the First Empress's true form is when she's at sea, which is said to be invincible...",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81751,
+      "id": "db_EventInfo:96684:27",
+      "jp": "くぅぅ、痺れるねぇ！　やっぱり初代様はすげぇや！",
+      "en": "Kuuu, that's thrilling! The First Empress is amazing, as expected!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 81752,
+      "id": "db_EventInfo:96685:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・騎乗位①",
+      "en": "★H Scene - Neldine - H Room - Cowgirl Position ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81753,
+      "id": "db_EventInfo:96686:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・騎乗位②",
+      "en": "★H Scene - Neldine - H Room - Cowgirl Position ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81754,
+      "id": "db_EventInfo:96687:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・泡奉仕①",
+      "en": "★H Scene - Neldine - H Room - Soap Service ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81755,
+      "id": "db_EventInfo:96688:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・泡奉仕②",
+      "en": "★H Scene - Neldine - H Room - Soap Service ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81756,
+      "id": "db_EventInfo:96689:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・おしおきプレイ①",
+      "en": "★H Scene - Neldine - H Room - Punishment Play ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81757,
+      "id": "db_EventInfo:96690:0",
+      "jp": "★エッチシーン・ネルディーネ・H部屋・おしおきプレイ②",
+      "en": "★H Scene - Neldine - H Room - Punishment Play ②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81758,
+      "id": "db_EventInfo:96691:0",
+      "jp": "★エッチシーン・ネルディーネ・見せ・仕事中にエッチ①",
+      "en": "★H Scene - Neldine - Exhibition - Having Sex During Work ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81759,
+      "id": "db_EventInfo:96692:0",
+      "jp": "★エッチシーン・ネルディーネ・見せ・仕事中にエッチ②",
+      "en": "(Sex scene: Neldine - Show - Sex while working 2)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81760,
+      "id": "db_EventInfo:96693:0",
+      "jp": "★エッチシーン・ネルディーネ・妊娠時・ボテ腹セックス①",
+      "en": "(Sex scene: Neldine - While pregnant - Sex with a big belly 1)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81761,
+      "id": "db_EventInfo:96694:0",
+      "jp": "★エッチシーン・ネルディーネ・妊娠時・ボテ腹セックス②",
+      "en": "(Sex scene: Neldine - While pregnant - Sex with a big belly 2)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81762,
+      "id": "db_EventInfo:96695:0",
+      "jp": "★エッチシーン・ノースリンデ・個別⑤・騎乗位で夜這い",
+      "en": "(Sex scene: Northlinde - Personal 5 - Cowgirl night visit)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81763,
+      "id": "db_EventInfo:96697:1",
+      "jp": "な、なぁ、ノースリンデって……",
+      "en": "Hey, about Northlinde...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81764,
+      "id": "db_EventInfo:96698:23",
+      "jp": "ん？",
+      "en": "Hmm?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81765,
+      "id": "db_EventInfo:96699:23",
+      "jp": "んん～？",
+      "en": "Mmm~?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81766,
+      "id": "db_EventInfo:96700:23",
+      "jp": "出会ったときから、妙な視線を感じるとは思ってたんやけど、このモフモフ、見えてるんやなぁ",
+      "en": "I thought I felt a strange gaze from you since we met. You can see this fluffy part, huh?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81767,
+      "id": "db_EventInfo:96701:23",
+      "jp": "そりゃまあ、エルフィードやら【『ケモミミ』】やら、そこらにウロウロする店やもん。不思議でもないなぁ",
+      "en": "Well, with elf ears and 'Kemomimi' around, and a shop like this. Guess it's not so strange.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81768,
+      "id": "db_EventInfo:96702:1",
+      "jp": "そりゃまあ……それで、どうなんだ？",
+      "en": "Well, yeah... So, what about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81769,
+      "id": "db_EventInfo:96703:23",
+      "jp": "正解や",
+      "en": "You're right.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81770,
+      "id": "db_EventInfo:96704:23",
+      "jp": "といってもウチは【『ケモミミ』】であり、【『ケモミミ』】でもないとも言えるけど",
+      "en": "But you could say I am 'Kemomimi', and also not 'Kemomimi'.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81771,
+      "id": "db_EventInfo:96705:23",
+      "jp": "ウチらはウルフィナはんとは似て異なる【『ケモミミ』】や。ウチらはウルフィナはんほど力が強くないしなぁ",
+      "en": "We're Kemomimi, kind of like Wolfina but different. We're not as strong as she is, you know.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81772,
+      "id": "db_EventInfo:96706:1",
+      "jp": "ウルフィナとは違う？",
+      "en": "Different from Wolfina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81773,
+      "id": "db_EventInfo:96707:23",
+      "jp": "せや。あちらはんは一人でも強い【『ケモミミ』】やけど、ウチらはまあ、群れないとダメや",
+      "en": "Yeah. She's a strong Kemomimi all on her own, but we, well, we need to stick together in a group.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81774,
+      "id": "db_EventInfo:96708:23",
+      "jp": "そのかわり、一族は基本的に人間をたらしこんで、堕落させるのは得意なんやけどな",
+      "en": "But in return, our kind is pretty good at tricking humans and making them corrupt.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81775,
+      "id": "db_EventInfo:96709:23",
+      "jp": "【『認識阻害』】の術を使って、普通の人間には見えなかったり、違和感を持ちにくくしてるんや",
+      "en": "We use a Perception Blocker technique. It makes it hard for normal humans to see us or feel anything weird.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81776,
+      "id": "db_EventInfo:96710:1",
+      "jp": "【『認識阻害』】……似たようなことをルーシェも前に言ってたな",
+      "en": "Perception Blocker... Lusche mentioned something similar before.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81777,
+      "id": "db_EventInfo:96711:23",
+      "jp": "ま、人間じゃないモンがいたら大騒ぎになるもんな",
+      "en": "Well, if non-humans were just out in the open, it'd cause a big fuss.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81778,
+      "id": "db_EventInfo:96712:1",
+      "jp": "まあそうだな。角とか耳とかは誰も見えてないか、作り物と思ってるみたいだけど",
+      "en": "Yeah, that's true. No one seems to see your horns or ears, or they just think they're fake.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81779,
+      "id": "db_EventInfo:96713:1",
+      "jp": "しかしやっぱり【『ケモミミ』】なんだなぁ",
+      "en": "But you really are Kemomimi, huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81780,
+      "id": "db_EventInfo:96714:23",
+      "jp": "ふふっД　旦那はんにやったら、触らしたってもええよД",
+      "en": "HeheД You can touch mine if you want, masterД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81781,
+      "id": "db_EventInfo:96717:0",
+      "jp": "モフモフさせてもらった。",
+      "en": "I got to pet the fluffy ears.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81782,
+      "id": "db_EventInfo:96718:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone's talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 81783,
+      "id": "db_EventInfo:96720:4",
+      "jp": "おい、ノースリンデ",
+      "en": "Hey, Northlinde.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81784,
+      "id": "db_EventInfo:96721:23",
+      "jp": "おやウルフィナはんやないですの。どないしたん？",
+      "en": "Oh, if it isn't Wolfina. What's up?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81785,
+      "id": "db_EventInfo:96722:4",
+      "jp": "お前、ウルフィナを【『戦闘種』】で、自分達を【『群体種』】だって言ってたよな？",
+      "en": "You called me a ['Combat Species'], and said you all were a ['Colony Species'], right?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81786,
+      "id": "db_EventInfo:96723:23",
+      "jp": "はあ、そんなことを言うた気もしますけど……それがどうしましたん？",
+      "en": "Hah, I do think I said something like that... What about it?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81787,
+      "id": "db_EventInfo:96724:4",
+      "jp": "それウソだろ。【『群体種』】だっていうなら、どうして群れねーで、ぼっちやってんだ？",
+      "en": "That's a lie. If you're a ['Colony Species'], why aren't you in a pack? Why are you alone?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81788,
+      "id": "db_EventInfo:96725:23",
+      "jp": "ふ……",
+      "en": "Heh...",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81789,
+      "id": "db_EventInfo:96726:23",
+      "jp": "ふふ、やっぱり気付かれとったんやなぁ。せやで、ウチは【『群体種』】やあらへん",
+      "en": "Heheh, you saw through me after all. Yeah, I'm not a ['Colony Species'].",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81790,
+      "id": "db_EventInfo:96727:23",
+      "jp": "【『ケモミミ』】は【『戦闘種』】と【『群体種』】の他にも【『追従種』】というのもおりましてなあ",
+      "en": "Besides ['Combat'] and ['Colony'] species, there's also a ['Devoted Species'] of Kemomimi.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81791,
+      "id": "db_EventInfo:96728:4",
+      "jp": "やっぱりか。隠し事のニオイがしたから、変だとおもったぞ",
+      "en": "I knew it. I smelled something fishy, so I thought it was weird.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81792,
+      "id": "db_EventInfo:96729:23",
+      "jp": "【『追従種』】はオスに従い、助ける事に価値を感じる、俗に言う良妻タイプの【『ケモミミ』】やけども",
+      "en": "The ['Devoted Species'] follows and supports a male. They find value in that, the so-called 'good wife' type of Kemomimi.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81793,
+      "id": "db_EventInfo:96730:23",
+      "jp": "悪巧みや旦那を惑わすのも大好きで、傾国の女狐とか、不名誉なことを言われがちや",
+      "en": "But we also love scheming and tempting our husbands, so we often get a bad rap. Like 'femme fatale vixen' or other nasty names.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81794,
+      "id": "db_EventInfo:96731:23",
+      "jp": "そんな悪評の多い【『ケモミミ』】やと、逃げられるかもしれんやろ？　惚れた相手に尽くしたいだけやのになぁД",
+      "en": "A Kemomimi with such a bad reputation might get driven away, right? Even though I just want to give my all to the one I loveД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81795,
+      "id": "db_EventInfo:96732:4",
+      "jp": "悪巧みとか誘惑とかやめりゃいーじゃねーか。面倒なヤツだな",
+      "en": "Just quit with the schemes and seduction. What a pain.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81796,
+      "id": "db_EventInfo:96733:23",
+      "jp": "ふふ、そうはいきまへん。好きな事を辞めたら、生きてても面白くありまへんやろ？",
+      "en": "Hehe, I can't do that. If I stopped doing what I love, life would be boringД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81797,
+      "id": "db_EventInfo:96734:4",
+      "jp": "それもそうだな。んじゃ、しょうがねえか",
+      "en": "Guess you're right about that. Well, whatever.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 81798,
+      "id": "db_EventInfo:96736:23",
+      "jp": "【<pl>】はんД　他に何か用事はあらへんやろかД",
+      "en": "【<pl>】Д Do you need anything else?Д",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 81799,
+      "id": "db_EventInfo:96737:1",
+      "jp": "そ、そうだな、ちょっと待ってくれ",
+      "en": "R-right, give me a second.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 81800,
+      "id": "db_EventInfo:96738:0",
+      "jp": "ノースリンデは戻って来てから、以前にもましてスキンシップが過剰になったような気がする。",
+      "en": "Ever since Northlinde came back, it feels like she's even more touchy-feely than before.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 5501,
+  "range_end": 5600,
+  "pairs": [
+    {
+      "n": 5501,
+      "id": "rem_33120",
+      "jp": "『ルーシェ』のＬＶが【30】以上",
+      "en": "Lusche's Lv is 30 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5502,
+      "id": "rem_33121",
+      "jp": "ルーシェの軌跡デス３",
+      "en": "Lusche's Path: Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5503,
+      "id": "rem_33122",
+      "jp": "『ルーシェ』のＬＶが【40】以上",
+      "en": "Lusche's Lv is 40 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5504,
+      "id": "rem_33123",
+      "jp": "ルーシェの軌跡デス４",
+      "en": "Lusche's Path: Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5505,
+      "id": "rem_33124",
+      "jp": "『ルーシェ』のＬＶが【65】以上",
+      "en": "Lusche's Lv is 65 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5506,
+      "id": "rem_33125",
+      "jp": "ルーシェの軌跡デス５",
+      "en": "Lusche's Path: Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5507,
+      "id": "rem_33126",
+      "jp": "『ルーシェ』のＬＶが【85】以上",
+      "en": "Lusche's Lv is 85 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5508,
+      "id": "rem_33127",
+      "jp": "ルーシェの軌跡デス６",
+      "en": "Lusche's Path: Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5509,
+      "id": "rem_33128",
+      "jp": "『ルーシェ』のＬＶが【110】以上",
+      "en": "Lusche's Lv is 110 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5510,
+      "id": "rem_33129",
+      "jp": "ルーシェの軌跡デス７",
+      "en": "Lusche's Path: Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5511,
+      "id": "rem_33130",
+      "jp": "『ルーシェ』のＬＶが【130】以上",
+      "en": "Lusche's Lv is 130 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5512,
+      "id": "rem_33131",
+      "jp": "ルーシェの軌跡デス８",
+      "en": "Lusche's Path: Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5513,
+      "id": "rem_33132",
+      "jp": "『ルーシェ』のＬＶが【150】以上",
+      "en": "Lusche's Lv is 150 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5514,
+      "id": "rem_33133",
+      "jp": "ルーシェの軌跡デス９",
+      "en": "Lusche's Path: Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5515,
+      "id": "rem_33134",
+      "jp": "『ルーシェ』のＬＶが【170】以上",
+      "en": "Lusche's Lv is 170 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5516,
+      "id": "rem_33135",
+      "jp": "ルーシェの軌跡デス１０",
+      "en": "Lusche's Path: Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5517,
+      "id": "rem_33136",
+      "jp": "『ルーシェ』のＬＶが【200】以上",
+      "en": "Lusche's Lv is 200 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5518,
+      "id": "rem_33137",
+      "jp": "ルーシェの軌跡デス１１",
+      "en": "Lusche's Path: Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5519,
+      "id": "rem_33138",
+      "jp": "『ルーシェ』のＬＶが【240】以上",
+      "en": "Lusche's Lv is 240 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5520,
+      "id": "rem_33139",
+      "jp": "ルーシェの軌跡デス１２",
+      "en": "Lusche's Path: Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5521,
+      "id": "rem_33140",
+      "jp": "『ルーシェ』のＬＶが【270】以上",
+      "en": "Lusche's Lv is at least 【270】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5522,
+      "id": "rem_33141",
+      "jp": "ルーシェの軌跡デス１３",
+      "en": "Lusche's Path Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5523,
+      "id": "rem_33142",
+      "jp": "『ルーシェ』のＬＶが【300】以上",
+      "en": "Lusche's Lv is at least 【300】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5524,
+      "id": "rem_33143",
+      "jp": "ルーシェの軌跡デス１４",
+      "en": "Lusche's Path Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5525,
+      "id": "rem_33144",
+      "jp": "『ルーシェ』のＬＶが【350】以上",
+      "en": "Lusche's Lv is at least 【350】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5526,
+      "id": "rem_33145",
+      "jp": "ルーシェの軌跡デス１５",
+      "en": "Lusche's Path Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5527,
+      "id": "rem_33146",
+      "jp": "『カリスト』のＬＶが【10】以上",
+      "en": "Callisto's Lv is at least 【10】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5528,
+      "id": "rem_33147",
+      "jp": "カリストの軌跡デス１",
+      "en": "Callisto's Path Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5529,
+      "id": "rem_33148",
+      "jp": "『カリスト』のＬＶが【20】以上",
+      "en": "Callisto's Lv is at least 【20】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5530,
+      "id": "rem_33149",
+      "jp": "カリストの軌跡デス２",
+      "en": "Callisto's Path Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5531,
+      "id": "rem_33150",
+      "jp": "『カリスト』のＬＶが【30】以上",
+      "en": "Callisto's Lv is at least 【30】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5532,
+      "id": "rem_33151",
+      "jp": "カリストの軌跡デス３",
+      "en": "Callisto's Path Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5533,
+      "id": "rem_33152",
+      "jp": "『カリスト』のＬＶが【40】以上",
+      "en": "Callisto's Lv is at least 【40】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5534,
+      "id": "rem_33153",
+      "jp": "カリストの軌跡デス４",
+      "en": "Callisto's Path Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5535,
+      "id": "rem_33154",
+      "jp": "『カリスト』のＬＶが【65】以上",
+      "en": "Callisto's Lv is at least 【65】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5536,
+      "id": "rem_33155",
+      "jp": "カリストの軌跡デス５",
+      "en": "Callisto's Path Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5537,
+      "id": "rem_33156",
+      "jp": "『カリスト』のＬＶが【85】以上",
+      "en": "Callisto's Lv is at least 【85】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5538,
+      "id": "rem_33157",
+      "jp": "カリストの軌跡デス６",
+      "en": "Callisto's Path Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5539,
+      "id": "rem_33158",
+      "jp": "『カリスト』のＬＶが【110】以上",
+      "en": "Callisto's Lv is at least 【110】",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5540,
+      "id": "rem_33159",
+      "jp": "カリストの軌跡デス７",
+      "en": "Callisto's Path Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5541,
+      "id": "rem_33160",
+      "jp": "『カリスト』のＬＶが【130】以上",
+      "en": "Callisto Lv. 【130】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5542,
+      "id": "rem_33161",
+      "jp": "カリストの軌跡デス８",
+      "en": "Callisto's Path of Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5543,
+      "id": "rem_33162",
+      "jp": "『カリスト』のＬＶが【150】以上",
+      "en": "Callisto Lv. 【150】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5544,
+      "id": "rem_33163",
+      "jp": "カリストの軌跡デス９",
+      "en": "Callisto's Path of Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5545,
+      "id": "rem_33164",
+      "jp": "『カリスト』のＬＶが【170】以上",
+      "en": "Callisto Lv. 【170】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5546,
+      "id": "rem_33165",
+      "jp": "カリストの軌跡デス１０",
+      "en": "Callisto's Path of Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5547,
+      "id": "rem_33166",
+      "jp": "『カリスト』のＬＶが【200】以上",
+      "en": "Callisto Lv. 【200】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5548,
+      "id": "rem_33167",
+      "jp": "カリストの軌跡デス１１",
+      "en": "Callisto's Path of Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5549,
+      "id": "rem_33168",
+      "jp": "『カリスト』のＬＶが【240】以上",
+      "en": "Callisto Lv. 【240】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5550,
+      "id": "rem_33169",
+      "jp": "カリストの軌跡デス１２",
+      "en": "Callisto's Path of Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5551,
+      "id": "rem_33170",
+      "jp": "『カリスト』のＬＶが【270】以上",
+      "en": "Callisto Lv. 【270】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5552,
+      "id": "rem_33171",
+      "jp": "カリストの軌跡デス１３",
+      "en": "Callisto's Path of Death 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5553,
+      "id": "rem_33172",
+      "jp": "『カリスト』のＬＶが【300】以上",
+      "en": "Callisto Lv. 【300】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5554,
+      "id": "rem_33173",
+      "jp": "カリストの軌跡デス１４",
+      "en": "Callisto's Path of Death 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5555,
+      "id": "rem_33174",
+      "jp": "『カリスト』のＬＶが【350】以上",
+      "en": "Callisto Lv. 【350】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5556,
+      "id": "rem_33175",
+      "jp": "カリストの軌跡デス１５",
+      "en": "Callisto's Path of Death 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5557,
+      "id": "rem_33176",
+      "jp": "『エリオルダ』のＬＶが【10】以上",
+      "en": "Eliorda Lv. 【10】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5558,
+      "id": "rem_33177",
+      "jp": "エリオルダの軌跡デス１",
+      "en": "Eliorda's Path of Death 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5559,
+      "id": "rem_33178",
+      "jp": "『エリオルダ』のＬＶが【20】以上",
+      "en": "Eliorda Lv. 【20】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5560,
+      "id": "rem_33179",
+      "jp": "エリオルダの軌跡デス２",
+      "en": "Eliorda's Path of Death 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5561,
+      "id": "rem_33180",
+      "jp": "『エリオルダ』のＬＶが【30】以上",
+      "en": "Eliorda's Lv is 【30】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5562,
+      "id": "rem_33181",
+      "jp": "エリオルダの軌跡デス３",
+      "en": "Eliorda's Tale Death 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5563,
+      "id": "rem_33182",
+      "jp": "『エリオルダ』のＬＶが【40】以上",
+      "en": "Eliorda's Lv is 【40】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5564,
+      "id": "rem_33183",
+      "jp": "エリオルダの軌跡デス４",
+      "en": "Eliorda's Tale Death 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5565,
+      "id": "rem_33184",
+      "jp": "『エリオルダ』のＬＶが【65】以上",
+      "en": "Eliorda's Lv is 【65】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5566,
+      "id": "rem_33185",
+      "jp": "エリオルダの軌跡デス５",
+      "en": "Eliorda's Tale Death 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5567,
+      "id": "rem_33186",
+      "jp": "『エリオルダ』のＬＶが【85】以上",
+      "en": "Eliorda's Lv is 【85】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5568,
+      "id": "rem_33187",
+      "jp": "エリオルダの軌跡デス６",
+      "en": "Eliorda's Tale Death 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5569,
+      "id": "rem_33188",
+      "jp": "『エリオルダ』のＬＶが【110】以上",
+      "en": "Eliorda's Lv is 【110】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5570,
+      "id": "rem_33189",
+      "jp": "エリオルダの軌跡デス７",
+      "en": "Eliorda's Tale Death 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5571,
+      "id": "rem_33190",
+      "jp": "『エリオルダ』のＬＶが【130】以上",
+      "en": "Eliorda's Lv is 【130】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5572,
+      "id": "rem_33191",
+      "jp": "エリオルダの軌跡デス８",
+      "en": "Eliorda's Tale Death 8",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5573,
+      "id": "rem_33192",
+      "jp": "『エリオルダ』のＬＶが【150】以上",
+      "en": "Eliorda's Lv is 【150】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5574,
+      "id": "rem_33193",
+      "jp": "エリオルダの軌跡デス９",
+      "en": "Eliorda's Tale Death 9",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5575,
+      "id": "rem_33194",
+      "jp": "『エリオルダ』のＬＶが【170】以上",
+      "en": "Eliorda's Lv is 【170】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5576,
+      "id": "rem_33195",
+      "jp": "エリオルダの軌跡デス１０",
+      "en": "Eliorda's Tale Death 10",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5577,
+      "id": "rem_33196",
+      "jp": "『エリオルダ』のＬＶが【200】以上",
+      "en": "Eliorda's Lv is 【200】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5578,
+      "id": "rem_33197",
+      "jp": "エリオルダの軌跡デス１１",
+      "en": "Eliorda's Tale Death 11",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5579,
+      "id": "rem_33198",
+      "jp": "『エリオルダ』のＬＶが【240】以上",
+      "en": "Eliorda's Lv is 【240】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5580,
+      "id": "rem_33199",
+      "jp": "エリオルダの軌跡デス１２",
+      "en": "Eliorda's Tale Death 12",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5581,
+      "id": "rem_33200",
+      "jp": "『エリオルダ』のＬＶが【270】以上",
+      "en": "Eliorda's Lv. is 【270】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5582,
+      "id": "rem_33201",
+      "jp": "エリオルダの軌跡デス１３",
+      "en": "Eliorda's Death Trajectory 13",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5583,
+      "id": "rem_33202",
+      "jp": "『エリオルダ』のＬＶが【300】以上",
+      "en": "Eliorda's Lv. is 【300】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5584,
+      "id": "rem_33203",
+      "jp": "エリオルダの軌跡デス１４",
+      "en": "Eliorda's Death Trajectory 14",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5585,
+      "id": "rem_33204",
+      "jp": "『エリオルダ』のＬＶが【350】以上",
+      "en": "Eliorda's Lv. is 【350】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5586,
+      "id": "rem_33205",
+      "jp": "エリオルダの軌跡デス１５",
+      "en": "Eliorda's Death Trajectory 15",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5587,
+      "id": "rem_33206",
+      "jp": "『キャトリナ』のＬＶが【10】以上",
+      "en": "Catrina's Lv. is 【10】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5588,
+      "id": "rem_33207",
+      "jp": "キャトリナの軌跡デス１",
+      "en": "Catrina's Death Trajectory 1",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5589,
+      "id": "rem_33208",
+      "jp": "『キャトリナ』のＬＶが【20】以上",
+      "en": "Catrina's Lv. is 【20】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5590,
+      "id": "rem_33209",
+      "jp": "キャトリナの軌跡デス２",
+      "en": "Catrina's Death Trajectory 2",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5591,
+      "id": "rem_33210",
+      "jp": "『キャトリナ』のＬＶが【30】以上",
+      "en": "Catrina's Lv. is 【30】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5592,
+      "id": "rem_33211",
+      "jp": "キャトリナの軌跡デス３",
+      "en": "Catrina's Death Trajectory 3",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5593,
+      "id": "rem_33212",
+      "jp": "『キャトリナ』のＬＶが【40】以上",
+      "en": "Catrina's Lv. is 【40】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5594,
+      "id": "rem_33213",
+      "jp": "キャトリナの軌跡デス４",
+      "en": "Catrina's Death Trajectory 4",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5595,
+      "id": "rem_33214",
+      "jp": "『キャトリナ』のＬＶが【65】以上",
+      "en": "Catrina's Lv. is 【65】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5596,
+      "id": "rem_33215",
+      "jp": "キャトリナの軌跡デス５",
+      "en": "Catrina's Death Trajectory 5",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5597,
+      "id": "rem_33216",
+      "jp": "『キャトリナ』のＬＶが【85】以上",
+      "en": "Catrina's Lv. is 【85】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5598,
+      "id": "rem_33217",
+      "jp": "キャトリナの軌跡デス６",
+      "en": "Catrina's Death Trajectory 6",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5599,
+      "id": "rem_33218",
+      "jp": "『キャトリナ』のＬＶが【110】以上",
+      "en": "Catrina's Lv. is 【110】 or higher",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    },
+    {
+      "n": 5600,
+      "id": "rem_33219",
+      "jp": "キャトリナの軌跡デス７",
+      "en": "Catrina's Death Trajectory 7",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10701,
+  "range_end": 10800,
+  "pairs": [
+    {
+      "n": 10701,
+      "id": "rem_38462",
+      "jp": "ジャスミン",
+      "en": "Jasmine",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10702,
+      "id": "rem_38463",
+      "jp": "アネモネ",
+      "en": "Anemone",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10703,
+      "id": "rem_38464",
+      "jp": "デイジィ",
+      "en": "Daisy",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10704,
+      "id": "rem_38465",
+      "jp": "アザミ",
+      "en": "Thistle",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10705,
+      "id": "rem_38466",
+      "jp": "アイシャ",
+      "en": "Aisha",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10706,
+      "id": "rem_38467",
+      "jp": "アーイダ",
+      "en": "Aida",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10707,
+      "id": "rem_38468",
+      "jp": "アースィマ",
+      "en": "Athima",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10708,
+      "id": "rem_38469",
+      "jp": "アーマール",
+      "en": "Amaal",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10709,
+      "id": "rem_38470",
+      "jp": "ジャミラ",
+      "en": "Jameela",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10710,
+      "id": "rem_38471",
+      "jp": "ファティマ",
+      "en": "Fatima",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10711,
+      "id": "rem_38472",
+      "jp": "ライラ",
+      "en": "Layla",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10712,
+      "id": "rem_38473",
+      "jp": "ザイナブ",
+      "en": "Zainab",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10713,
+      "id": "rem_38474",
+      "jp": "クルスーム",
+      "en": "Kulthum",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10714,
+      "id": "rem_38475",
+      "jp": "ハディージャ",
+      "en": "Khadija",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10715,
+      "id": "rem_38476",
+      "jp": "キシュリア",
+      "en": "Kishoria",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10716,
+      "id": "rem_38477",
+      "jp": "アジュダヤ",
+      "en": "Ajdaya",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10717,
+      "id": "rem_38478",
+      "jp": "アヒージョ",
+      "en": "Ahijo",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10718,
+      "id": "rem_38479",
+      "jp": "アマゾン",
+      "en": "Amazon",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10719,
+      "id": "rem_38480",
+      "jp": "アルマーダ",
+      "en": "Armada",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10720,
+      "id": "rem_38481",
+      "jp": "アレイヤ",
+      "en": "Aleya",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10721,
+      "id": "rem_38482",
+      "jp": "イオ",
+      "en": "Io",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10722,
+      "id": "rem_38483",
+      "jp": "イラオイ",
+      "en": "Iraoi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10723,
+      "id": "rem_38484",
+      "jp": "ヴィルキント",
+      "en": "Vilkint",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10724,
+      "id": "rem_38485",
+      "jp": "ウドンカラメル",
+      "en": "Udon Karamel",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10725,
+      "id": "rem_38486",
+      "jp": "エメラダ",
+      "en": "Emerada",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10726,
+      "id": "rem_38487",
+      "jp": "エルビラ",
+      "en": "Elvira",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10727,
+      "id": "rem_38488",
+      "jp": "エルル",
+      "en": "Elul",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10728,
+      "id": "rem_38489",
+      "jp": "オジーヤ",
+      "en": "Ojiya",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10729,
+      "id": "rem_38490",
+      "jp": "オニャンコリュー",
+      "en": "Onyankoryu",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10730,
+      "id": "rem_38491",
+      "jp": "オペラ",
+      "en": "Opera",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10731,
+      "id": "rem_38492",
+      "jp": "カスミ",
+      "en": "Kasumi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10732,
+      "id": "rem_38493",
+      "jp": "カティラ",
+      "en": "Katira",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10733,
+      "id": "rem_38494",
+      "jp": "カフェモカ",
+      "en": "Cafe Mocha",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10734,
+      "id": "rem_38495",
+      "jp": "カシール",
+      "en": "Kashir",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10735,
+      "id": "rem_38496",
+      "jp": "キツネダンサー",
+      "en": "Fox Dancer",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10736,
+      "id": "rem_38497",
+      "jp": "キヤナ",
+      "en": "Kiyana",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10737,
+      "id": "rem_38498",
+      "jp": "クリームパン",
+      "en": "Cream Pan",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10738,
+      "id": "rem_38499",
+      "jp": "クロ",
+      "en": "Kuro",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10739,
+      "id": "rem_38500",
+      "jp": "クロミ",
+      "en": "Chromi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10740,
+      "id": "rem_38501",
+      "jp": "ケイル",
+      "en": "Keil",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10741,
+      "id": "rem_38502",
+      "jp": "サイトウ",
+      "en": "Saito",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10742,
+      "id": "rem_38503",
+      "jp": "サカシー",
+      "en": "Sakashi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10743,
+      "id": "rem_38504",
+      "jp": "サダコ",
+      "en": "Sadako",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10744,
+      "id": "rem_38505",
+      "jp": "サバミソ",
+      "en": "Sabamiso",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10745,
+      "id": "rem_38506",
+      "jp": "サミーラ",
+      "en": "Samira",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10746,
+      "id": "rem_38507",
+      "jp": "サンドラ",
+      "en": "Sandra",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10747,
+      "id": "rem_38508",
+      "jp": "シェリー",
+      "en": "Shelly",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10748,
+      "id": "rem_38509",
+      "jp": "ジサイン",
+      "en": "Jisain",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10749,
+      "id": "rem_38510",
+      "jp": "シサムス・ムンカ",
+      "en": "Shisamus Munka",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10750,
+      "id": "rem_38511",
+      "jp": "シャーディ",
+      "en": "Shardy",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10751,
+      "id": "rem_38512",
+      "jp": "シャーロット",
+      "en": "Charlotte",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10752,
+      "id": "rem_38513",
+      "jp": "ジャスティス",
+      "en": "Justice",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10753,
+      "id": "rem_38514",
+      "jp": "シャマナ",
+      "en": "Shamana",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10754,
+      "id": "rem_38515",
+      "jp": "ショコラ",
+      "en": "Chocolat",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10755,
+      "id": "rem_38516",
+      "jp": "セイエキハエル",
+      "en": "Seiekihael",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10756,
+      "id": "rem_38517",
+      "jp": "ゼッペキ",
+      "en": "Zeppeki",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10757,
+      "id": "rem_38518",
+      "jp": "セレン",
+      "en": "Selen",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10758,
+      "id": "rem_38519",
+      "jp": "ソクオチニコマ",
+      "en": "Sokuochi Nikoma",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10759,
+      "id": "rem_38520",
+      "jp": "タピオカ",
+      "en": "Tapioca",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10760,
+      "id": "rem_38521",
+      "jp": "チアチワセ",
+      "en": "Chiachiwase",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10761,
+      "id": "rem_38522",
+      "jp": "チョコモナカ",
+      "en": "Choco Monaka",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10762,
+      "id": "rem_38523",
+      "jp": "チワワン",
+      "en": "Chiwawan",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10763,
+      "id": "rem_38524",
+      "jp": "ティーネ",
+      "en": "Tine",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10764,
+      "id": "rem_38525",
+      "jp": "ティターニア",
+      "en": "Titania",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10765,
+      "id": "rem_38526",
+      "jp": "テバチャン",
+      "en": "Teba-chan",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10766,
+      "id": "rem_38527",
+      "jp": "ナキータ",
+      "en": "Nakita",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10767,
+      "id": "rem_38528",
+      "jp": "ナターシャ",
+      "en": "Natasha",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10768,
+      "id": "rem_38529",
+      "jp": "ナツミ",
+      "en": "Natsumi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10769,
+      "id": "rem_38530",
+      "jp": "ナツミエトー",
+      "en": "Natsumi Etow",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10770,
+      "id": "rem_38531",
+      "jp": "ニーコ",
+      "en": "Niko",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10771,
+      "id": "rem_38532",
+      "jp": "ニタマゴ",
+      "en": "Nitamago",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10772,
+      "id": "rem_38533",
+      "jp": "ニベア",
+      "en": "Nivea",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10773,
+      "id": "rem_38534",
+      "jp": "ニャーデレフ",
+      "en": "Nya Derev",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10774,
+      "id": "rem_38535",
+      "jp": "ヌ・ナ",
+      "en": "Nu Na",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10775,
+      "id": "rem_38536",
+      "jp": "ネコモカ",
+      "en": "Nekomoka",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10776,
+      "id": "rem_38537",
+      "jp": "ハツネミク",
+      "en": "Hatsune Miku",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10777,
+      "id": "rem_38538",
+      "jp": "ハマーン",
+      "en": "Haman",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10778,
+      "id": "rem_38539",
+      "jp": "ハルヒ・ミウラ",
+      "en": "Haruhi Miura",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10779,
+      "id": "rem_38540",
+      "jp": "ハンジャ",
+      "en": "Hanja",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10780,
+      "id": "rem_38541",
+      "jp": "パンティラ",
+      "en": "Pantira",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10781,
+      "id": "rem_38542",
+      "jp": "フィー",
+      "en": "Fee",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10782,
+      "id": "rem_38543",
+      "jp": "フェア",
+      "en": "Fay",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10783,
+      "id": "rem_38544",
+      "jp": "プティヘルマ",
+      "en": "Petit Helma",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10784,
+      "id": "rem_38545",
+      "jp": "ブラン",
+      "en": "Bran",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10785,
+      "id": "rem_38546",
+      "jp": "フレイエル",
+      "en": "Freiyer",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10786,
+      "id": "rem_38547",
+      "jp": "ブロンコ",
+      "en": "Bronco",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10787,
+      "id": "rem_38548",
+      "jp": "マーニャ",
+      "en": "Manya",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10788,
+      "id": "rem_38549",
+      "jp": "マッシュドポテト",
+      "en": "Mashed Potatoes",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10789,
+      "id": "rem_38550",
+      "jp": "ミカン",
+      "en": "Mikan",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10790,
+      "id": "rem_38551",
+      "jp": "ミズホ",
+      "en": "Mizuno",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10791,
+      "id": "rem_38552",
+      "jp": "ミナトク",
+      "en": "Minatoku",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10792,
+      "id": "rem_38553",
+      "jp": "ミネア",
+      "en": "Minea",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10793,
+      "id": "rem_38554",
+      "jp": "ミミル",
+      "en": "Mimir",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10794,
+      "id": "rem_38555",
+      "jp": "ミラベル",
+      "en": "Mirabelle",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10795,
+      "id": "rem_38556",
+      "jp": "ミランダ",
+      "en": "Miranda",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10796,
+      "id": "rem_38557",
+      "jp": "メスオチ",
+      "en": "Mesiochi",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10797,
+      "id": "rem_38558",
+      "jp": "メルディ",
+      "en": "Merdy",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10798,
+      "id": "rem_38559",
+      "jp": "モーラ",
+      "en": "Maura",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10799,
+      "id": "rem_38560",
+      "jp": "モカ",
+      "en": "Mocha",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10800,
+      "id": "rem_38561",
+      "jp": "モッサリ",
+      "en": "Mossari",
+      "table": "db_UnitCharaClub",
+      "category": "remaining_table"
+    }
+  ]
+}

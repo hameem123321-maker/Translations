@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93601,
+  "range_end": 93700,
+  "pairs": [
+    {
+      "n": 93601,
+      "id": "db_EventInfo:110607:2",
+      "jp": "こいつは、【この世界での生活の記憶が無い】デス",
+      "en": "This guy has no memories of living in this world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93602,
+      "id": "db_EventInfo:110608:1",
+      "jp": "(おい、いいのか、そんなこと言って)",
+      "en": "(Hey, is it okay to say that?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93603,
+      "id": "db_EventInfo:110609:2",
+      "jp": "(どうせわからんデス)",
+      "en": "(You wouldn't get it anyway.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93604,
+      "id": "db_EventInfo:110610:11",
+      "jp": "えっ、それって……",
+      "en": "Huh, does that mean...?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93605,
+      "id": "db_EventInfo:110611:2",
+      "jp": "まあ、オマエでもわかる言葉を使うとするなら、【記憶喪失】デスかね",
+      "en": "Well, if I have to put it in words you can understand... I guess 'amnesia'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93606,
+      "id": "db_EventInfo:110612:11",
+      "jp": "ええっ！？",
+      "en": "Whaaat!?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93607,
+      "id": "db_EventInfo:110613:1",
+      "jp": "(おい、驚かれてるぞ)",
+      "en": "(Hey, you're scaring her.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93608,
+      "id": "db_EventInfo:110614:2",
+      "jp": "(ウソは言ってないデス)",
+      "en": "(It's not a lie.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93609,
+      "id": "db_EventInfo:110615:11",
+      "jp": "【記憶喪失】……ですって！？　じゃあ、家族の方は！？",
+      "en": "'Amnesia'...!? What about your family!?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93610,
+      "id": "db_EventInfo:110616:2",
+      "jp": "そんなもん、いるわけないデス？　【身寄りも無く】、この世界に独りぼっちデス",
+      "en": "There's no such thing. 'Alone in this world,' with no one to turn to.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93611,
+      "id": "db_EventInfo:110617:1",
+      "jp": "おいおい……",
+      "en": "Hey, hey...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93612,
+      "id": "db_EventInfo:110618:11",
+      "jp": "そんな……だっ、大丈夫、なの……？",
+      "en": "But... are you... okay?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93613,
+      "id": "db_EventInfo:110619:1",
+      "jp": "えっ、ああ、いやまあ、大丈夫、かな？",
+      "en": "Eh? Ah, well... yeah, I guess?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93614,
+      "id": "db_EventInfo:110620:11",
+      "jp": "……そう",
+      "en": "...I see.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93615,
+      "id": "db_EventInfo:110621:1",
+      "jp": "あっ、キャトリナさん！？",
+      "en": "Oh, Catrina!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93616,
+      "id": "db_EventInfo:110622:0",
+      "jp": "★クリア",
+      "en": "★Cleared",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93617,
+      "id": "db_EventInfo:110625:0",
+      "jp": "キャトリナと名乗った少女はショックを受けた様子のまま、帰ってしまった。",
+      "en": "The girl named Catrina left, still looking shocked.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93618,
+      "id": "db_EventInfo:110626:2",
+      "jp": "用件を言わずに帰ってしまったデス",
+      "en": "She left without even saying what she wanted, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93619,
+      "id": "db_EventInfo:110627:1",
+      "jp": "オマエが変な話をするからだろ",
+      "en": "That's because you said weird stuff.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93620,
+      "id": "db_EventInfo:110628:2",
+      "jp": "それもそうデス",
+      "en": "You're right about that, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93621,
+      "id": "db_EventInfo:110629:0",
+      "jp": "★クリア",
+      "en": "★Cleared",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93622,
+      "id": "db_EventInfo:110630:0",
+      "jp": "と、二人で話していたら。",
+      "en": "While we were talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93623,
+      "id": "db_EventInfo:110631:11",
+      "jp": "店長君！",
+      "en": "Shopkeeper!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93624,
+      "id": "db_EventInfo:110632:1",
+      "jp": "えっ？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93625,
+      "id": "db_EventInfo:110633:1",
+      "jp": "うわああああああっ！！？",
+      "en": "WHOOOOAAA!?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93626,
+      "id": "db_EventInfo:110634:0",
+      "jp": "キャトリナは、一人でとんでもない量の食材が入った荷車を引いて、宿屋の前まで走ってきた。",
+      "en": "Catrina had come running to the inn, pulling a cart all by herself loaded with a crazy amount of ingredients.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93627,
+      "id": "db_EventInfo:110635:0",
+      "jp": "ドサドサドサドサドサドサ～ッ！！",
+      "en": "Thud, thud, thud, thud, thud, thud~!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93628,
+      "id": "db_EventInfo:110636:0",
+      "jp": "それを軽々と店の前に並べていく！",
+      "en": "They easily line it up in front of the shop!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93629,
+      "id": "db_EventInfo:110637:2",
+      "jp": "すさまじい量デス。並の男が数人がかりで運ぶようなモノを……コイツ、とんでもない怪力デス",
+      "en": "That's an incredible amount. This is stuff it would take several normal men working together to move... this guy, he's got monstrous strength.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93630,
+      "id": "db_EventInfo:110638:11",
+      "jp": "店長君、この食材は挨拶代わりよ。受け取ってくれるかしら☆",
+      "en": "Shopkeeper, these ingredients are my way of saying hello. Will you accept them?☆",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93631,
+      "id": "db_EventInfo:110639:1",
+      "jp": "えっ、キャトリナさん……こんなに？",
+      "en": "Huh, Catrina... this much?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93632,
+      "id": "db_EventInfo:110640:11",
+      "jp": "ふふっ、私のことは【キャトリナおねえちゃん】と呼びなさい",
+      "en": "Hehe, you're to call me 'Big Sister Catrina'.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93633,
+      "id": "db_EventInfo:110641:1",
+      "jp": "は？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93634,
+      "id": "db_EventInfo:110642:11",
+      "jp": "私が店長君のお姉ちゃんになってあげるわ。なんでもしてあげるから、好きに言ってね☆",
+      "en": "I'll be your big sister. I'll do anything for you, just ask☆",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93635,
+      "id": "db_EventInfo:110643:1",
+      "jp": "いやその、キャトリナさん……？",
+      "en": "Um, well, Catrina...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93636,
+      "id": "db_EventInfo:110644:11",
+      "jp": "キャトリナおねえちゃん",
+      "en": "Big Sister Catrina.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93637,
+      "id": "db_EventInfo:110645:1",
+      "jp": "キャトリナ、姉さん……？",
+      "en": "Catrina... sis...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93638,
+      "id": "db_EventInfo:110646:11",
+      "jp": "よし☆",
+      "en": "Good☆",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93639,
+      "id": "db_EventInfo:110647:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93640,
+      "id": "db_EventInfo:110650:0",
+      "jp": "キャトリナ…姉さんは荷車を苦もなく引っ張って去って行った。気のせいか、後の車輪が浮いてたような。",
+      "en": "Catrina… Sis pulled the cart away without any trouble. I think the back wheels even lifted off the ground.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93641,
+      "id": "db_EventInfo:110651:1",
+      "jp": "……な、なんだったんだ？",
+      "en": "...Wh-what was that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93642,
+      "id": "db_EventInfo:110652:2",
+      "jp": "わからんデスが……",
+      "en": "Don't know, desu…",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93643,
+      "id": "db_EventInfo:110653:2",
+      "jp": "よかったデスね。こっちの世界で【『姉』】が出来てしまったみたいデスよ",
+      "en": "Looks good, desu ne. Seems you got a【『Big Sis』】in this world, desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93644,
+      "id": "db_EventInfo:110654:0",
+      "jp": "よくわからないが、俺に【『姉』】ができたらしい",
+      "en": "I don't really get it, but it seems I have a【『Big Sis』】now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93645,
+      "id": "db_EventInfo:110657:11",
+      "jp": "こんにちは、【<pl>】君",
+      "en": "Hello, 【<pl>】.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93646,
+      "id": "db_EventInfo:110658:0",
+      "jp": "キャトリナ姉さんがやってきた。",
+      "en": "Big Sis Catrina came.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93647,
+      "id": "db_EventInfo:110659:0",
+      "jp": "……山のような荷物が積まれた、荷台を引きながら。",
+      "en": "...Pulling a cart piled with a mountain of stuff.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93648,
+      "id": "db_EventInfo:110660:2",
+      "jp": "前に来た時もそうデスが、なんなんデスか、それは！？",
+      "en": "She did that last time too, desu ga, but what is that!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93649,
+      "id": "db_EventInfo:110661:11",
+      "jp": "【『アルダルク農業組合』】の商品よ。【<pl>】君の店にも卸しているから、よかったら買ってね",
+      "en": "They're goods from the【『Ardaluk Agriculture Association』】. I supply them to your shop too, 【<pl>】, so please buy some.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93650,
+      "id": "db_EventInfo:110662:1",
+      "jp": "いやそうじゃなく、その量が……",
+      "en": "No, not that… it's the amount of it…",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93651,
+      "id": "db_EventInfo:110663:11",
+      "jp": "うん？",
+      "en": "Huh?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93652,
+      "id": "db_EventInfo:110664:0",
+      "jp": "よくわかってない反応だ。",
+      "en": "That's a confused reaction.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93653,
+      "id": "db_EventInfo:110665:0",
+      "jp": "まさか、自分の怪力に自覚がないのだろうか。",
+      "en": "Wait, does she not realize her own crazy strength?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93654,
+      "id": "db_EventInfo:110666:2",
+      "jp": "ま、まあいいデス。良いメニューを作るには、良い素材が必要デス。いい素材を売るデス！",
+      "en": "We-well, it's fine Desu. To make a good menu, you need good ingredients Desu. Sell the good stuff Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93655,
+      "id": "db_EventInfo:110667:11",
+      "jp": "そうしたいところだけど……良い素材は奪い合いで、品切れなの",
+      "en": "I want to, but... everyone fights over the good stuff. It's all sold out.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93656,
+      "id": "db_EventInfo:110668:1",
+      "jp": "むむう",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93657,
+      "id": "db_EventInfo:110669:11",
+      "jp": "【『ダンジョン』】を探索することで、素材を見付けることがあるわ",
+      "en": "Sometimes you can find ingredients by exploring the 'Dungeon'.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93658,
+      "id": "db_EventInfo:110670:1",
+      "jp": "ダンジョン探索かぁ……冒険者を集めてみるか",
+      "en": "Dungeon exploring, huh... Maybe I'll try to gather some adventurers.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93659,
+      "id": "db_EventInfo:110671:2",
+      "jp": "人海戦術デスね",
+      "en": "The more people, the better Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93660,
+      "id": "db_EventInfo:110672:11",
+      "jp": "うん。【『アルダルク農業組合』】でも、良い素材が見つかることがあるの。もし見付けることが出来たら、積極的に教えに来て上げるね",
+      "en": "Yeah. The 'Aldaluk Agriculture Union' sometimes has good ingredients too. If I find any, I'll make sure to come tell you, okay?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93661,
+      "id": "db_EventInfo:110673:1",
+      "jp": "よろしく頼むよ",
+      "en": "Please do.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93662,
+      "id": "db_EventInfo:110674:11",
+      "jp": "それじゃ、私は仕入の手伝いがあるから行くね",
+      "en": "Well then, I have to go help with the shopping.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93663,
+      "id": "db_EventInfo:110675:0",
+      "jp": "そう言いながら、キャトリナ姉さんは、荷台に食材を積んで軽々と運び去ってしまった。",
+      "en": "After saying that, Catrina loaded the food onto the cart and carried it away effortlessly.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93664,
+      "id": "db_EventInfo:110676:2",
+      "jp": "涼しい顔して運んでるデス。なんつー怪力デスか……本当に人間デス？",
+      "en": "She carries it with such a cool face. What incredible strength... Is she really human?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93665,
+      "id": "db_EventInfo:110677:1",
+      "jp": "……俺に聞かないでくれよ",
+      "en": "Don't ask me that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93666,
+      "id": "db_EventInfo:110678:0",
+      "jp": "キャトリナ姉さんは見た目に寄らず、すごい怪力の持ち主のようだ。",
+      "en": "Catrina seems to have crazy strength, despite how she looks.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93667,
+      "id": "db_EventInfo:110679:0",
+      "jp": "それにあの容姿は目を引くようで、いろんな人間から声を掛けられている。",
+      "en": "And with her looks, she gets a lot of attention. People are always talking to her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93668,
+      "id": "db_EventInfo:110680:2",
+      "jp": "良い人材デス。欲しい、デスね……",
+      "en": "She's good talent. I want her...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93669,
+      "id": "db_EventInfo:110683:11",
+      "jp": "こんにちは、【<pl>】君",
+      "en": "Hello, 【<pl>】.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93670,
+      "id": "db_EventInfo:110684:0",
+      "jp": "キャトリナ姉さんがやってきた。",
+      "en": "Catrina came over.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93671,
+      "id": "db_EventInfo:110685:11",
+      "jp": "商売の方は順調かしら",
+      "en": "Is business going well?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93672,
+      "id": "db_EventInfo:110686:1",
+      "jp": "まあそれなりに",
+      "en": "Well, it's okay.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93673,
+      "id": "db_EventInfo:110688:11",
+      "jp": "それはよかった。【『アルダルク農業組合』】からもたくさん買ってくれてるみたいで、ありがとうね",
+      "en": "That's good. It seems you're buying a lot from the 'Aldark Farming Union' too. Thank you.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93674,
+      "id": "db_EventInfo:110689:11",
+      "jp": "組合の人たちも、投資をしてくれて助かるって言ってたわ",
+      "en": "The union people said they're glad for the investment. It really helps them.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93675,
+      "id": "db_EventInfo:110690:2",
+      "jp": "それなら、良い素材を売りやがれデス",
+      "en": "Then sell me some good materials.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93676,
+      "id": "db_EventInfo:110691:11",
+      "jp": "そうしたいところなんだけど……",
+      "en": "I'd like to, but...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93677,
+      "id": "db_EventInfo:110692:1",
+      "jp": "キャトリナ姉さんを困らせるなよ",
+      "en": "Don't make Catrina's job harder.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93678,
+      "id": "db_EventInfo:110693:2",
+      "jp": "むう",
+      "en": "Hmph.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93679,
+      "id": "db_EventInfo:110694:11",
+      "jp": "ごめんね。でも、これからもよろしくね",
+      "en": "Sorry. But, let's keep working together.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93680,
+      "id": "db_EventInfo:110695:11",
+      "jp": "お姉ちゃんが手伝えることがあるなら、いつでも言ってねД",
+      "en": "If there's anything your big sister can help with, just let me know anytime Д.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93681,
+      "id": "db_EventInfo:110698:0",
+      "jp": "そう言って、キャトリナ姉さんは、荷台を引いて去ってしまった。",
+      "en": "Saying that, Catrina pulled her cart and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93682,
+      "id": "db_EventInfo:110699:2",
+      "jp": "あの怪力、別のことに使うべきな気がするデス",
+      "en": "That crazy strength of hers... I feel like it should be used for something else.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93683,
+      "id": "db_EventInfo:110700:2",
+      "jp": "それに容姿も良いデス……客ウケがよさそうデス。荷物運びより適した仕事があるんじゃないデス？",
+      "en": "And she's good-looking too... probably popular with customers. There must be a job more suited for her than hauling cargo, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93684,
+      "id": "db_EventInfo:110701:1",
+      "jp": "そうなんだよなぁ……",
+      "en": "Yeah, you're right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93685,
+      "id": "db_EventInfo:110703:11",
+      "jp": "ねえ店長君のお店って、【傭兵さん】は雇ってくれたりしているのかしら？",
+      "en": "Hey, mister shop owner. Does your store ever hire [Mercenaries]?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93686,
+      "id": "db_EventInfo:110704:1",
+      "jp": "用心棒？　あんまり聞かないけど",
+      "en": "Bodyguards? I don't really hear much about that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93687,
+      "id": "db_EventInfo:110705:11",
+      "jp": "そ、そうなのね……",
+      "en": "I see...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93688,
+      "id": "db_EventInfo:110706:1",
+      "jp": "どうしたんだ？　何か困りごとでも？",
+      "en": "What's wrong? Something troubling you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93689,
+      "id": "db_EventInfo:110707:11",
+      "jp": "ううん……最近、私の村で農作物が荒らされていることがあってね",
+      "en": "No... It's just that lately, the crops in my village have been getting ruined.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93690,
+      "id": "db_EventInfo:110708:11",
+      "jp": "最初は野犬かなにかと思ってたんだけど",
+      "en": "At first, I thought it might be stray dogs or something.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93691,
+      "id": "db_EventInfo:110709:11",
+      "jp": "農作物を丸ごと持ち去られることから……【『ゴブリン』】の仕業じゃないかって、みんなウワサしてて",
+      "en": "But because entire crops are being taken away... people are whispering it might be the work of 【『Goblin』】.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93692,
+      "id": "db_EventInfo:110710:1",
+      "jp": "【『ゴブリン』】……？",
+      "en": "【『Goblin』】...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93693,
+      "id": "db_EventInfo:110711:2",
+      "jp": "弱っちいやつらデス。あんなもん、オマエの怪力で追い払えばいいんじゃないデス？",
+      "en": "They're weaklings. Can't you just scare them off with your strength?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93694,
+      "id": "db_EventInfo:110712:11",
+      "jp": "私が？　あはは、私なんて、とても無理よ……Д",
+      "en": "Me? Ahaha, there's no way I could do that...Д",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93695,
+      "id": "db_EventInfo:110713:2",
+      "jp": "デス？",
+      "en": "Huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93696,
+      "id": "db_EventInfo:110714:1",
+      "jp": "【『ゴブリン』】の仕業というなら、報酬を払ってくれれば冒険者を派遣することができるけど",
+      "en": "If it's the work of 【『Goblin』】, we can send adventurers if you pay a reward.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93697,
+      "id": "db_EventInfo:110715:2",
+      "jp": "もちろん、カネはいただくデス",
+      "en": "Of course, we'll take the money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93698,
+      "id": "db_EventInfo:110716:11",
+      "jp": "そ、そうなのよね……でも私の村、貧乏で",
+      "en": "Y-yeah, that's the thing... But my village is poor.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93699,
+      "id": "db_EventInfo:110717:1",
+      "jp": "キャトリナ姉さんには世話になってるし、なんとかしてあげたい所だけど",
+      "en": "Catrina has been so good to me. I really want to do something to help her.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93700,
+      "id": "db_EventInfo:110718:2",
+      "jp": "【『ゴブリン』】退治は稼げないし、みんな嫌がるデス",
+      "en": "No one wants to do Goblin hunts. You can't make much money from them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 88001,
+  "range_end": 88100,
+  "pairs": [
+    {
+      "n": 88001,
+      "id": "db_EventInfo:103935:35",
+      "jp": "別にいいですけど",
+      "en": "I don't really care.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88002,
+      "id": "db_EventInfo:103936:35",
+      "jp": "私としても、音に聞こえた【双翼の退魔巫女】の相手をできるとは、願ったりかなったりですしね",
+      "en": "From my side, getting to face the famous 'Twin Wing Exorcist Maidens' is more than I could ask for.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88003,
+      "id": "db_EventInfo:103937:21",
+      "jp": "えっ？　私たちって、有名人？",
+      "en": "Huh? We're famous?",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88004,
+      "id": "db_EventInfo:103939:22",
+      "jp": "ちょま……きゃあああああああ！？",
+      "en": "Wait, whoa... KYAAAAAAAAAH!?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88005,
+      "id": "db_EventInfo:103942:0",
+      "jp": "二人がかりで挑んだシズハとクレハは、シオンにぼこぼこにされてしまった。",
+      "en": "Shizuha and Kureha, who attacked together, were soundly beaten up by Shion.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88006,
+      "id": "db_EventInfo:103943:35",
+      "jp": "まあ、アナタたちが音に聞こえるのは、もっと先の話なんですけど",
+      "en": "Well, you two becoming famous is a story for much later.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88007,
+      "id": "db_EventInfo:103944:0",
+      "jp": "シオンはそう言って、すたすたと、どこかに立ち去ってしまった。",
+      "en": "Saying that, Shion briskly walked off somewhere.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88008,
+      "id": "db_EventInfo:103947:21",
+      "jp": "あうう……",
+      "en": "Oww...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88009,
+      "id": "db_EventInfo:103948:22",
+      "jp": "強すぎるぅ……",
+      "en": "Too strong...",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88010,
+      "id": "db_EventInfo:103949:1",
+      "jp": "二人がかりで挑んで、負けるとは",
+      "en": "You two attacked together and still lost.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88011,
+      "id": "db_EventInfo:103951:20",
+      "jp": "そうです、情けない。やはり最近、修行不足だったのでは？",
+      "en": "Yeah, it's pathetic. I guess I haven't been training enough lately, huh?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88012,
+      "id": "db_EventInfo:103952:21",
+      "jp": "そ、そんなー",
+      "en": "Wh- what? No way!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 88013,
+      "id": "db_EventInfo:103953:22",
+      "jp": "勘弁してくださいー",
+      "en": "Have mercy on us!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 88014,
+      "id": "db_EventInfo:103955:0",
+      "jp": "剣と剣がぶつかる音がする。",
+      "en": "The sound of swords clashing rings out.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88015,
+      "id": "db_EventInfo:103956:10",
+      "jp": "君が【『最果ての修練場』】から来た、未来の退魔巫女か？",
+      "en": "Are you the future demon-slaying shrine maiden from the 'Edge of the World Training Grounds'?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 88016,
+      "id": "db_EventInfo:103957:10",
+      "jp": "かなりのツワモノらしいな、稽古相手として願ってもないぞ！",
+      "en": "I hear you're pretty tough. You'd make a perfect sparring partner!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 88017,
+      "id": "db_EventInfo:103958:0",
+      "jp": "エリオルダとシオンが稽古をしているようだ。",
+      "en": "It looks like Eliorda and Shion are practicing together.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88018,
+      "id": "db_EventInfo:103960:35",
+      "jp": "なんか暑苦しい方ですね。私の知ってるエルフィードとは大違いですよ",
+      "en": "You're a bit intense, aren't you? Very different from the Elfiede I know.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88019,
+      "id": "db_EventInfo:103961:10",
+      "jp": "はっはっ、たしかに変わり者とは言われるな",
+      "en": "Ha ha, I do get called an oddball sometimes.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 88020,
+      "id": "db_EventInfo:103962:0",
+      "jp": "そう言いつつ、シオンはエリオルダとまともにやりあい続けている。",
+      "en": "Even while saying that, Shion keeps seriously trading blows with Eliorda.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88021,
+      "id": "db_EventInfo:103965:35",
+      "jp": "やりますねぇ。弓使いに剣で並ばれるとは思いませんでしたよ",
+      "en": "You're good. I didn't expect an archer to match me with a sword.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88022,
+      "id": "db_EventInfo:103966:10",
+      "jp": "そちらこそ。術なしで凌がれるとは。私もまだまだ修行が足りんな",
+      "en": "You're one to talk. I can't believe you're keeping up without using any magic. I've still got a lot of training to do.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 88023,
+      "id": "db_EventInfo:103967:105",
+      "jp": "エリオルダ殿と剣で互角にやり合うとは、ハヅキ殿が言ってた通り強者というのは本当のようだな",
+      "en": "Hazuki was right. To fight Eliorda evenly with a sword, you really are strong.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 88024,
+      "id": "db_EventInfo:103968:105",
+      "jp": "どれ、次は私も手合わせ願おう！",
+      "en": "Well then! I'll be your next sparring partner!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 88025,
+      "id": "db_EventInfo:103969:35",
+      "jp": "えっ！？　ユヅキさん……？",
+      "en": "Huh!? Mr. Yuzuki...?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88026,
+      "id": "db_EventInfo:103970:105",
+      "jp": "ん？",
+      "en": "Hm?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 88027,
+      "id": "db_EventInfo:103971:105",
+      "jp": "私はツバキという名だが",
+      "en": "My name is Tsubaki.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 88028,
+      "id": "db_EventInfo:103972:35",
+      "jp": "あっ",
+      "en": "Ah!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88029,
+      "id": "db_EventInfo:103973:35",
+      "jp": "そ、そうですよね！　失礼しました！",
+      "en": "R-right! Sorry about that!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88030,
+      "id": "db_EventInfo:103974:35",
+      "jp": "手合わせですよね、よろしくお願いします！",
+      "en": "Sparring, right? Nice to meet you!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88031,
+      "id": "db_EventInfo:103975:1",
+      "jp": "(ん？　なんだかツバキには物腰が丁寧だな)",
+      "en": "(Huh? For some reason, Shion is being really polite to Tsubaki.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88032,
+      "id": "db_EventInfo:103978:0",
+      "jp": "深く考えないことにした。",
+      "en": "I decided not to think too much about it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88033,
+      "id": "db_EventInfo:103980:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone is talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88034,
+      "id": "db_EventInfo:103981:108",
+      "jp": "なあなあ、シオン殿は未来から来ておるんじゃろ？",
+      "en": "Hey, hey, Mr. Shion, you came here from the future, right?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88035,
+      "id": "db_EventInfo:103983:35",
+      "jp": "ま、まあ……",
+      "en": "W-Well...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88036,
+      "id": "db_EventInfo:103984:108",
+      "jp": "じゃあ、未来の技術とか知っておるかのー？　ワシは気になるのじゃー",
+      "en": "So, do you know about any future technology or something? I'm really curious!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88037,
+      "id": "db_EventInfo:103985:9",
+      "jp": "師匠殿、そんなことをしたらタイムパラドクスが起こるのではないか？",
+      "en": "Master, wouldn't doing that cause a time paradox?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 88038,
+      "id": "db_EventInfo:103986:108",
+      "jp": "そんなこと言われても、叡智の探求者として、気になるのは気になるのじゃー！！",
+      "en": "Even if you say that, as a seeker of wisdom, I'm curious because I'm curious!!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88039,
+      "id": "db_EventInfo:103987:9",
+      "jp": "師匠殿ー",
+      "en": "Master--",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 88040,
+      "id": "db_EventInfo:103988:35",
+      "jp": "……まったく、アナタたち【『<ruby=ウィッチ>魔女</ruby>』】は相変わらずですねぇ",
+      "en": "...Really, you Witches never change.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88041,
+      "id": "db_EventInfo:103989:35",
+      "jp": "未来の技術を教えて上げたいのはやまやまではあるんですが……",
+      "en": "I'd love to teach you about future technology...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88042,
+      "id": "db_EventInfo:103990:35",
+      "jp": "私は【『<ruby=ウィッチ>魔女</ruby>』】の技術はわかりません",
+      "en": "But I don't understand Witches' technology.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88043,
+      "id": "db_EventInfo:103991:35",
+      "jp": "前に、魔女の弟子の仕事を手伝ったことがあるんですけど、どういう理屈で調合されてるかさっぱりでしたし",
+      "en": "I once helped a witch's apprentice with work, but I had no idea how the concoctions worked.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88044,
+      "id": "db_EventInfo:103992:108",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88045,
+      "id": "db_EventInfo:103993:108",
+      "jp": "じゃあ結果だけ！　結果だけおしえてくれ！　過程はいいから！！",
+      "en": "Then just the results! Just tell me the results! I don't care about the process!!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88046,
+      "id": "db_EventInfo:103994:9",
+      "jp": "師匠殿ー！　やめるであるー！！",
+      "en": "Master! Stop that!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 88047,
+      "id": "db_EventInfo:103995:35",
+      "jp": "言っても無駄だと思うんですけどねぇ",
+      "en": "Even if I say it, I think it's useless.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88048,
+      "id": "db_EventInfo:103996:35",
+      "jp": "たしか、私の時代のあの子とその師匠は、【男の精液が美味しくなる薬】を作ってましたね",
+      "en": "If I remember correctly, in my time, that girl and her master made a medicine that makes a man's semen taste better.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 88049,
+      "id": "db_EventInfo:103997:35",
+      "jp": "ついでに【力が増したり】、【無敵】になったり、【レアな宝が見付けやすくなる薬】とか",
+      "en": "Also, things like medicine to increase strength, become invincible, or find rare treasures easier.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88050,
+      "id": "db_EventInfo:103998:108",
+      "jp": "ふむ、とくに珍しく感じないのう",
+      "en": "Hmm, that doesn't feel particularly unusual.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88051,
+      "id": "db_EventInfo:104000:35",
+      "jp": "あとは■■■■■■■■■、■■■■■■■■■■ですかね",
+      "en": "Then there's ***********, ***************, I guess.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88052,
+      "id": "db_EventInfo:104001:108",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88053,
+      "id": "db_EventInfo:104002:9",
+      "jp": "今、なんと？",
+      "en": "What, just now?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 88054,
+      "id": "db_EventInfo:104003:35",
+      "jp": "ええ。ですから■■■■■■■■■、■■■■■■■■■■みたいな薬を作ってました",
+      "en": "Yes. So they made medicines like ***********, ***************.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88055,
+      "id": "db_EventInfo:104004:108",
+      "jp": "き、聞こえたような、聞こえてないような……",
+      "en": "I... I kinda heard it, but also didn't...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88056,
+      "id": "db_EventInfo:104005:35",
+      "jp": "言っちゃいけないことを言おうとすると、消されちゃうんです",
+      "en": "When I try to say things I shouldn't say, it gets erased.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88057,
+      "id": "db_EventInfo:104006:9",
+      "jp": "あわわ……師匠殿、これは【アレ】である、【アレが見ている】ってことであるぞ！",
+      "en": "Ah-ah-ah... Master, this is That! It means That is watching!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 88058,
+      "id": "db_EventInfo:104007:108",
+      "jp": "わ、ワシは知らないも～ん！",
+      "en": "I-I don't know anything~!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 88059,
+      "id": "db_EventInfo:104010:0",
+      "jp": "二人の【『<ruby=ウィッチ>魔女</ruby>』】は逃げ出してしまった。",
+      "en": "The two witches ran away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88060,
+      "id": "db_EventInfo:104011:1",
+      "jp": "……何を話していたんだ？",
+      "en": "...What were you talking about?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 88061,
+      "id": "db_EventInfo:104012:35",
+      "jp": "別に。大した話ではありません",
+      "en": "Nothing. It's not a big deal.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88062,
+      "id": "db_EventInfo:104013:35",
+      "jp": "まったく、自分の子孫の不始末なんですから、本人がどうにかしてほしいものですね",
+      "en": "Honestly, the one whose descendant made the mess should be the one to fix it.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88063,
+      "id": "db_EventInfo:104016:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone's talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88064,
+      "id": "db_EventInfo:104018:35",
+      "jp": "うーん、そっくりねぇ",
+      "en": "Hmm, you look just like her.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88065,
+      "id": "db_EventInfo:104019:115",
+      "jp": "むう、くすぐったい……",
+      "en": "Muu, that tickles...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 88066,
+      "id": "db_EventInfo:104020:0",
+      "jp": "シオンがレミルのほっぺたをぷにぷにしている。",
+      "en": "Shion is poking and squishing Remil's cheeks.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88067,
+      "id": "db_EventInfo:104021:35",
+      "jp": "まあ、アレに比べたら、ちょっと幼い気がするけど",
+      "en": "Well, compared to that one, you seem a bit younger though.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88068,
+      "id": "db_EventInfo:104022:12",
+      "jp": "ヒトの妹に何してるんですか",
+      "en": "What are you doing to my little sister?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 88069,
+      "id": "db_EventInfo:104023:35",
+      "jp": "あーごめん。私の知り合いに、そっくりな子がいると思って",
+      "en": "Ah, sorry. I just thought she looks exactly like someone I know.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88070,
+      "id": "db_EventInfo:104024:12",
+      "jp": "レミルが？　未来にもいるんです？",
+      "en": "Remil? She exists in the future too?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 88071,
+      "id": "db_EventInfo:104025:35",
+      "jp": "まあね。話しぶりは、アンタの方が似てる気がするけど",
+      "en": "Maybe. Though I think your way of talking is more like his.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88072,
+      "id": "db_EventInfo:104026:35",
+      "jp": "よく知らないけど。【『<ruby=ソルシア>学院</ruby>』】始まって以来の天才魔術師って言われてるわ",
+      "en": "I don't know him well, but... they say he's a genius mage like no other since the Solsia Academy started.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88073,
+      "id": "db_EventInfo:104027:12",
+      "jp": "はあっ！？",
+      "en": "Huh!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 88074,
+      "id": "db_EventInfo:104028:12",
+      "jp": "この【『<ruby=ソルシア>学院</ruby>』】が誇る超天才魔術師をさしおいてですって！？",
+      "en": "You mean, someone overshadows *me*, the super-genius mage this Solsia Academy is proud of!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 88075,
+      "id": "db_EventInfo:104029:115",
+      "jp": "姉様を超える魔術師なんて、ありえない",
+      "en": "A mage better than my big sister? Impossible.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 88076,
+      "id": "db_EventInfo:104030:35",
+      "jp": "ま、まあ、【『学院』】の事情は、私よく知らないし……上手く伝わってないんじゃない？",
+      "en": "W-Well, I don't really know the Academy's situation... Maybe the story got mixed up?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88077,
+      "id": "db_EventInfo:104031:12",
+      "jp": "許せませんね！　超天才魔術師は一人で十分です！",
+      "en": "Unforgivable! One super-genius mage is more than enough!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 88078,
+      "id": "db_EventInfo:104032:35",
+      "jp": "ま、まあ……あの子も相当な強者だったはずだし、【『修練場』】で会えるかもね",
+      "en": "W-well... She was supposed to be incredibly strong too, so... you might meet her at the training grounds.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88079,
+      "id": "db_EventInfo:104033:0",
+      "jp": "誰かが話している……。",
+      "en": "I hear someone talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88080,
+      "id": "db_EventInfo:104035:20",
+      "jp": "そちらの状況は分かりました。未来の私は上手くやってるようですね",
+      "en": "I understand your situation. My future self seems to be doing well.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88081,
+      "id": "db_EventInfo:104036:20",
+      "jp": "それにしても、未来の御主人様が……とは。長生きはするものです",
+      "en": "Still, for my future Master to be... I guess we really do live a long time.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88082,
+      "id": "db_EventInfo:104037:35",
+      "jp": "……師匠に言われてたので伝えましたけど、大丈夫なんです？",
+      "en": "...My master told me to tell you, but... is that really okay?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88083,
+      "id": "db_EventInfo:104038:35",
+      "jp": "過去や未来の人間を呼び出す装置なんて、いかにも悪用できそうですし、未来が変わったりしません？",
+      "en": "A device that summons people from the past or future... That sounds like it could easily be misused. Won't it change the future?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88084,
+      "id": "db_EventInfo:104039:20",
+      "jp": "もちろんオッケーです",
+      "en": "Of course it's okay.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88085,
+      "id": "db_EventInfo:104040:20",
+      "jp": "呼び出せるのはしょせんは影です。現世には影響を与えることはできません",
+      "en": "It can only summon shadows, after all. They can't affect the real world.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88086,
+      "id": "db_EventInfo:104041:35",
+      "jp": "……私、外に出てこれてるんですけど",
+      "en": "...But I managed to come out here.",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88087,
+      "id": "db_EventInfo:104043:20",
+      "jp": "さすがは未来の私の弟子、グッドですよ",
+      "en": "You are my future apprentice after all. Good job.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88088,
+      "id": "db_EventInfo:104044:35",
+      "jp": "グッドじゃありませーん！！",
+      "en": "This is NOT good!!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88089,
+      "id": "db_EventInfo:104047:0",
+      "jp": "なんだか込み入った話をしているようなので、俺は立ち去ることにした。",
+      "en": "They seemed to be talking about something complicated, so I decided to leave.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88090,
+      "id": "db_EventInfo:104049:0",
+      "jp": "誰かが話している……。",
+      "en": "Someone's talking...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 88091,
+      "id": "db_EventInfo:104051:20",
+      "jp": "ところでシオン。アナタもこちらで厄介になるのですから、【<pl>】様に尽くさねばなりませんよ",
+      "en": "By the way, Shion. Since you'll be staying here too, you must serve Master 【<pl>】.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88092,
+      "id": "db_EventInfo:104052:35",
+      "jp": "はぁ？　いや何言ってるんですか。なんでアイツに……？",
+      "en": "Huh? Wait, what are you talking about? Why should I serve him...?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88093,
+      "id": "db_EventInfo:104053:35",
+      "jp": "私が仕えるのは……えーと",
+      "en": "The one I serve is... um...",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88094,
+      "id": "db_EventInfo:104054:20",
+      "jp": "【あの方】はこの時代にはいません。そして【『退魔の一族』】が身を寄せるのは、その時代の有力者",
+      "en": "【That person】 is not in this era. And the 【'Exorcist Clan'】 must rely on the powerful people of the time.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88095,
+      "id": "db_EventInfo:104055:20",
+      "jp": "この土地で最も力があるのは【<pl>】様です",
+      "en": "The most powerful person in this land is 【<pl>】.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88096,
+      "id": "db_EventInfo:104056:35",
+      "jp": "い、イヤですよー。私はそんな尻の軽い女じゃないんですけど？",
+      "en": "W-wait, no way! I'm not that kind of easy girl, you know?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88097,
+      "id": "db_EventInfo:104057:20",
+      "jp": "問題ないですよ。【<pl>】様はそっちの方と【『縁』】があるようですし",
+      "en": "It's fine. It seems 【<pl>】 already has a 【connection】 with that side.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88098,
+      "id": "db_EventInfo:104058:20",
+      "jp": "今のうちに【『縁』】を深めておけば、戻ったときによりオイシイ思いが出来るはずです",
+      "en": "If you deepen that 【connection】 now, you should have a better time when you go back.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 88099,
+      "id": "db_EventInfo:104059:35",
+      "jp": "それ、例の師匠の先読み能力ですか？",
+      "en": "Is that one of Master's foresight abilities?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 88100,
+      "id": "db_EventInfo:104060:20",
+      "jp": "はい",
+      "en": "Yes.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}

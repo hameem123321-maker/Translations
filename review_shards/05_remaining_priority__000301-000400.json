@@ -1,0 +1,817 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 301,
+  "range_end": 400,
+  "pairs": [
+    {
+      "n": 301,
+      "id": "rem_00301",
+      "jp": "細長い体躯と猛毒を持つヘビ型のモンスター。音も無く獲物に這い寄り、執拗に相手を狙う厄介な敵。大きな個体は、人間の身体など丸呑みにしてしまう。",
+      "en": "A snake-like monster with a long body and potent venom. It silently slithers up to its prey and relentlessly pursues its target, making it a troublesome foe. Larger specimens can swallow humans whole.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 302,
+      "id": "rem_00302",
+      "jp": "スネーク",
+      "en": "Snake",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 303,
+      "id": "rem_00303",
+      "jp": "不定形の軟体生命体。武器攻撃が通用しにくい。動きは鈍いが、獲物を見つけるとどこまでも追いかける。暗闇に潜み、獲物を強襲する。鉱物の魔力が溶けだして生まれた、偶然の魔物。",
+      "en": "An amorphous soft-bodied lifeform. Physical attacks are less effective. Though slow, it will pursue its prey endlessly. It lurks in darkness to ambush victims. A monster born by chance from the dissolved magical power of minerals.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 304,
+      "id": "rem_00304",
+      "jp": "スライム",
+      "en": "Slime",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 305,
+      "id": "rem_00305",
+      "jp": "冒険者たちに恐れられる、巨大な魔獣。非常に高い攻撃力を持っており、手が付けられないほどの腕力を誇る。出現頻度は低いが、恐るべきモンスターである。",
+      "en": "A giant magical beast feared by adventurers. Possesses extremely high attack power and boasts strength that is nearly impossible to counter. Its appearance is rare, but it is a truly dreadful monster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 306,
+      "id": "rem_00306",
+      "jp": "デスベアー",
+      "en": "Death Bear",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 307,
+      "id": "rem_00307",
+      "jp": "大きなハサミを備えた昆虫のような魔物。極めて高い感知力を持つ。外皮も硬く獰猛で、冒険者でも手を焼く相手である。人間のメスを抑え込み、胎内に卵を産み付ける事もある。",
+      "en": "An insect-like monster equipped with large pincers. Possesses extremely high perception. Its carapace is hard and it is fierce, making it a tough opponent even for adventurers. It sometimes pins down human females to lay eggs inside them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 308,
+      "id": "rem_00308",
+      "jp": "インセクト",
+      "en": "Insect",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 309,
+      "id": "rem_00309",
+      "jp": "近年になって数が増える強力な変異ゴブリン。通常のゴブリンよりも土っぽい肌色をしている。",
+      "en": "A powerful mutated Goblin whose numbers have increased in recent years. It has a more earthen skin tone than normal Goblins.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 310,
+      "id": "rem_00310",
+      "jp": "ゴブリン・亜種",
+      "en": "Goblin・Variant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 311,
+      "id": "rem_00311",
+      "jp": "通常のホブゴブリンよりも強力な荒くれ者。単体でも冒険者の脅威になり得る、強大なゴブリン。",
+      "en": "A ruffian more powerful than a standard Hobgoblin. A formidable Goblin that can be a threat to adventurers even alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 312,
+      "id": "rem_00312",
+      "jp": "ホブゴブリン・エリート",
+      "en": "Hobgoblin・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 313,
+      "id": "rem_00313",
+      "jp": "ゴブリンの群れを統率する宗教家。呪文使いであり、宗教的な儀式を行っていた。人間を束縛し、苦しむ姿を見るのが、ゴブリンの喜びである。",
+      "en": "A religious leader who commands a Goblin pack. A spellcaster who performs religious rites. It is the Goblins' delight to see humans bound and suffering.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 314,
+      "id": "rem_00314",
+      "jp": "ゴブリンシャーマン・エリート",
+      "en": "Goblin Shaman・Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 315,
+      "id": "rem_00315",
+      "jp": "ゴブリンの群れを統率する、指導者ゴブリン。この魔物に率いられた群れは残虐性を増し、攻め込まれた村は、家屋はおろか、生存者すらも絶望的。",
+      "en": "The leader Goblin that commands a Goblin pack. Packs led by this monster become more cruel, and villages they attack face despair, with not only houses but survivors becoming hopeless.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 316,
+      "id": "rem_00316",
+      "jp": "ゴブリンロード",
+      "en": "Goblin Lord",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 317,
+      "id": "rem_00317",
+      "jp": "各地を冒険し、人々の依頼をこなして糧を得る者たち。ダンジョンの財宝を荒らし回る、マナーがなっていない者たち。",
+      "en": "Those who travel the land, taking on requests for a living. They are ill-mannered, recklessly plundering dungeon treasures.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 318,
+      "id": "rem_00318",
+      "jp": "トレジャーハンター",
+      "en": "Treasure Hunter",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 319,
+      "id": "rem_00319",
+      "jp": "とある地方領主に雇われた戦士たち。元々の気性が荒く、莫大な報酬につられて戦っている。",
+      "en": "Warriors employed by a certain local lord. Naturally hot-tempered, they fight lured by immense rewards.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 320,
+      "id": "rem_00320",
+      "jp": "雇われ戦士",
+      "en": "Mercenary Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 321,
+      "id": "rem_00321",
+      "jp": "地方領主に雇われた私兵。冒険者上がりの為、金のこと以外に興味が無く、相手が人間であっても、武器を振るう。",
+      "en": "A private soldier hired by a local lord. A former adventurer with no interest beyond money, they will wield their weapon even against other humans.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 322,
+      "id": "rem_00322",
+      "jp": "雇われ兵士",
+      "en": "Hired Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 323,
+      "id": "rem_00323",
+      "jp": "低級の魔族。魔物としては自我も知能も力も弱いが、夜目が効くため、暗所で相対するのは非常に危険。その肉体能力に目を付けられ、警備の為に利用されている。",
+      "en": "A low-rank demonkin. Weak in will, intellect, and power as monsters go. Their night vision makes them dangerous in darkness. They are exploited for their physical abilities as guards.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 324,
+      "id": "rem_00324",
+      "jp": "サーヴァント",
+      "en": "Servant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 325,
+      "id": "rem_00325",
+      "jp": "各地で戦いを続けてきた腕利きの傭兵。指揮官としても戦士としても一流の能力を持ち、特に集団戦では無類の強さを誇る。",
+      "en": "A skilled mercenary who has fought across the lands. Top-tier as both a commander and a warrior, boasting unrivaled strength in group battles.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 326,
+      "id": "rem_00326",
+      "jp": "腕利きの傭兵",
+      "en": "Skilled Mercenary",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 327,
+      "id": "rem_00327",
+      "jp": "怪しげな動物実験に利用された生物たちのなれの果て。その身に何が起こったのかも分からず、食欲のみに突き動かされて行動する。",
+      "en": "The wretched outcome of creatures used in dubious animal experiments. Driven only by hunger, unaware of what happened to them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 328,
+      "id": "rem_00328",
+      "jp": "失敗作",
+      "en": "Failed Creation",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 329,
+      "id": "rem_00329",
+      "jp": "邪悪な儀式によって生まれたアンデッド。魔力か生け贄の霊格が足りなかったのか、醜悪な不定形の魔物にされてしまった。",
+      "en": "An undead born from a wicked ritual. Whether due to insufficient magic or the sacrifice's spiritual grade, it became a hideous, amorphous monster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 330,
+      "id": "rem_00330",
+      "jp": "なりそこない",
+      "en": "Wretched One",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 331,
+      "id": "rem_00331",
+      "jp": "魔族に敗北し、忠誠を誓った人間の裏切り者。魔力で強化された全身鎧に身を包み、鍛え上げた武芸を人類に向けて放つ。",
+      "en": "A human traitor who pledged loyalty after defeat by demons. Clad in magically-enhanced full armor, they turn their honed skills against humanity.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 332,
+      "id": "rem_00332",
+      "jp": "ダークナイト",
+      "en": "Dark Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 333,
+      "id": "rem_00333",
+      "jp": "無数の触手を持つ軟体生物の魔物。本体は動かず、獲物が近づくのをじっと待っている。意外に殺傷力は低く、捕獲が容易。食用としている地域もあるとか。",
+      "en": "A molluscan monster with countless tentacles. It lies in wait for prey. Surprisingly low lethality and easy to capture. Some regions even eat them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 334,
+      "id": "rem_00334",
+      "jp": "テンタクル",
+      "en": "Tentacle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 335,
+      "id": "rem_00335",
+      "jp": "小型の昆虫型飛行機械。外敵排除は主な任務では無いが弛緩毒を内蔵しており、多数が組むと非常に強力な戦力となる。暗殺組織が放った偵察機械。",
+      "en": "A small insectoid flying machine. Eliminating enemies isn't its main task, but it carries paralysis venom. Deployed in numbers, they become a powerful force. A reconnaissance machine sent by an assassination organization.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 336,
+      "id": "rem_00336",
+      "jp": "メタルビー",
+      "en": "Metal Bee",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 337,
+      "id": "rem_00337",
+      "jp": "夜王やその眷属によって闇の住人になった吸血鬼の少女。吸血することによって、さらに仲間を増やすこともできる。自我を与えられた、夜王の小間使い。たまに強力に出世する個体もいる。",
+      "en": "A vampire girl made a denizen of darkness by the Night King or his kin. She can create more of her kind by drinking blood. A self-aware handmaiden of the Night King; some rise to great power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 338,
+      "id": "rem_00338",
+      "jp": "ヴァンパイア",
+      "en": "Vampire",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 339,
+      "id": "rem_00339",
+      "jp": "恨みを持つ存在が死を与える為に差し向けた闇の住人。その対象は定かではないが、闇に生きる彼らの姿を見た人間は、その瞬間に彼らの標的となる。",
+      "en": "A denizen of darkness sent by a grudge-bearing entity to grant death. Their target is unclear, but any human who sees them becomes their mark.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 340,
+      "id": "rem_00340",
+      "jp": "アサシン",
+      "en": "Assassin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 341,
+      "id": "rem_00341",
+      "jp": "領主ゼルカの意思を汲み、闇から実力を行使するゼカリウスの暗部。障害を排除する手段は、非合法かつ冷酷な手段によるもの。",
+      "en": "Zecarius's covert unit, carrying out Lord Zelka's will from the shadows. Their methods for eliminating obstacles are ruthless and illegal.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 342,
+      "id": "rem_00342",
+      "jp": "ゼルカ親衛隊",
+      "en": "Zelka Guard",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 343,
+      "id": "rem_00343",
+      "jp": "怪しげな呪法によって異形へと変貌した領主ゼルカ。身も心も闇に捕らわれ、本能のままに破壊の力を振るう。",
+      "en": "Lord Zelka, transformed into a monstrosity by sinister curses. His body and soul are trapped in darkness, unleashing destructive power by instinct alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 344,
+      "id": "rem_00344",
+      "jp": "変異した領主ゼルカ",
+      "en": "Mutated Lord Zelka",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 345,
+      "id": "rem_00345",
+      "jp": "ごろつきのなかでも腕が立つ輩。その戦闘力は正規の軍人にも劣らないとされている。当然、欲望に正直で、上に立つ人間には扱いやすい手駒。",
+      "en": "Skilled thugs whose combat prowess rivals that of regular soldiers. Governed by desire, they are easily manipulated pawns for those in power.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 346,
+      "id": "rem_00346",
+      "jp": "ごろつき・エリート",
+      "en": "Elite Thug",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 347,
+      "id": "rem_00347",
+      "jp": "地方領主に雇われた私兵の中でも、統率を任されたリーダー的存在。雇い主への忠誠心が高く、盲目的に命令に従う。",
+      "en": "Leaders among the local lord's hired mercenaries. Fiercely loyal, they obey their employer's commands without question.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 348,
+      "id": "rem_00348",
+      "jp": "ダークソルジャー",
+      "en": "Dark Soldier",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 349,
+      "id": "rem_00349",
+      "jp": "失意のまま死んでいった人間の骨に魔力が宿り、動きだしたアンデッド。生者に強い憎悪を持ち、襲いかかってくる。",
+      "en": "The bones of those who died in despair, animated by magic. Driven by hatred for the living, they attack relentlessly.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 350,
+      "id": "rem_00350",
+      "jp": "ガイコツ",
+      "en": "Skeleton",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 351,
+      "id": "rem_00351",
+      "jp": "死んだ人間の身体に魔力が宿り、動き出した魔物。飢えと渇きを満たそうと、生者に対して無差別に襲い掛かる。",
+      "en": "A monster born from a dead human body infused with magic. It attacks the living indiscriminately, driven by an endless hunger.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 352,
+      "id": "rem_00352",
+      "jp": "ゾンビ",
+      "en": "Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 353,
+      "id": "rem_00353",
+      "jp": "長い間彷徨い歩いたゾンビの変種。生者への執着は高まり続け、通常のゾンビとは比較にならない攻撃力を持っている。",
+      "en": "A variant zombie that has wandered for ages. Its obsession with the living grants it attack power far beyond that of a common zombie.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 354,
+      "id": "rem_00354",
+      "jp": "エルダーゾンビ",
+      "en": "Elder Zombie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 355,
+      "id": "rem_00355",
+      "jp": "うち捨てられた淫魔の機械に意思が宿り、精気を求めてさまよいだしたもの。男女問わずに襲い掛かり、自由を奪った上で生命力を吸収していく。",
+      "en": "An abandoned incubus machine that gained sentience. It roams, seeking vitality, attacking people regardless of gender to drain their life force.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 356,
+      "id": "rem_00356",
+      "jp": "ドレインホール",
+      "en": "Drain Hole",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 357,
+      "id": "rem_00357",
+      "jp": "現世に実体化した魂の魔物。とらえどころのない体に武器攻撃は通じ辛い。捕まってしまえば生気を吸われ、呪い殺される。手を出さなければ、意外とおとなしい。",
+      "en": "A spiritual monster materialized in the mortal realm. Its intangible body resists physical attacks. If caught, it will drain your life force. Surprisingly docile if left alone.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 358,
+      "id": "rem_00358",
+      "jp": "ゴースト",
+      "en": "Ghost",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 359,
+      "id": "rem_00359",
+      "jp": "しわしわの猿の手の形をした魔生物。魔族が使役する下級の使い魔だが、人間にも扱うことができる。戦闘力は低いが、どこにでも潜むので奇襲を受けやすい。雑用も得意。",
+      "en": "A demonic creature shaped like a shriveled monkey's hand. A low-tier familiar used by demons, but humans can control them too. Weak in combat but adept at ambushes and menial tasks.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 360,
+      "id": "rem_00360",
+      "jp": "ハンド",
+      "en": "Hand",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 361,
+      "id": "rem_00361",
+      "jp": "魔術師免許を持っている、一般魔術師。呪文使いとして一人前の魔術師で、後衛から呪文を唱え、攻守に渡りサポートする。",
+      "en": "A licensed, standard wizard. A full-fledged caster who supports the party from the rear with spells.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 362,
+      "id": "rem_00362",
+      "jp": "雇われマジシャン",
+      "en": "Hired Magician",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 363,
+      "id": "rem_00363",
+      "jp": "生物実験の末に廃棄された動物たちのなれの果て。自らを異形の姿へと変えた人間達に恨みを抱き、苛烈な攻撃をしかけてくる。",
+      "en": "The wretched result of discarded animal experiments. They hate the humans who deformed them, and attack fiercely.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 364,
+      "id": "rem_00364",
+      "jp": "狂暴キメラ",
+      "en": "Feral Chimera",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 365,
+      "id": "rem_00365",
+      "jp": "領主の宝を守る為に雇われた、騎士団所属の騎士。通常の兵士とは一線を画す強さを持つが、真に守るべき物は何なのかは、彼にも分かっていなかった。",
+      "en": "A knight hired to guard the lord's treasures. Stronger than regular soldiers, but even he didn't know what he was truly protecting.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 366,
+      "id": "rem_00366",
+      "jp": "雇われ騎士",
+      "en": "Hired Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 367,
+      "id": "rem_00367",
+      "jp": "魔術師でありながら、前線でも戦える実力を身に着けた魔導騎士。人間を相手にすることを想定し、様々な呪縛呪文で相手を束縛する。",
+      "en": "A magic knight who can fight on the frontlines. They use binding spells to subdue human foes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 368,
+      "id": "rem_00368",
+      "jp": "マジックウォーリア",
+      "en": "Magic Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 369,
+      "id": "rem_00369",
+      "jp": "裏社会の組織に雇われた腕利きの暗殺者。対象を抹殺することのみに特化した技術を持ち、彼らの標的になると非常に危険。",
+      "en": "A skilled assassin hired by an underworld syndicate. Specializes solely in eliminating targets, making them highly dangerous.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 370,
+      "id": "rem_00370",
+      "jp": "ダークストーカー",
+      "en": "Darkstalker",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 371,
+      "id": "rem_00371",
+      "jp": "より凶暴に、より貪欲に変化したゴブリンの変異体。地下でひっそりと進化を続けたこの変異種が、どれだけ世界中に散ったのかを知る者はいない。",
+      "en": "A mutated goblin, grown more vicious and greedy. No one knows how many of these subterranean-evolved mutants have spread worldwide.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 372,
+      "id": "rem_00372",
+      "jp": "変異ゴブリン",
+      "en": "Mutant Goblin",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 373,
+      "id": "rem_00373",
+      "jp": "各地を冒険し宝を得る為、魔導船団に参加した冒険者。魔術師には手に負えない直接的な危険に対応できる。船団内での地位は低い。",
+      "en": "An adventurer who joined the magic fleet seeking treasure. Handles direct dangers that wizards can't. Low rank within the fleet.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 374,
+      "id": "rem_00374",
+      "jp": "雇われ冒険者",
+      "en": "Hired Adventurer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 375,
+      "id": "rem_00375",
+      "jp": "ひらひらと宙を舞うバタフライの亜種。強力な毒の鱗粉を持つ反面、強力な薬効も得られるため、魔術師が実験用として手元に置いている。",
+      "en": "A subspecies of butterfly that flutters in the air. Its scales are highly poisonous, but also potent for alchemy, so wizards keep them for experiments.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 376,
+      "id": "rem_00376",
+      "jp": "ポイズンバタフライ",
+      "en": "Poison Butterfly",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 377,
+      "id": "rem_00377",
+      "jp": "魔術によって動く無機物の巨人。生物ではないため、自ら砕けようとも命令を守る。本来は生体ユニットを収めて動くが、代わりに大量の魔力を注ぐことで動かしている。",
+      "en": "A giant inorganic construct animated by magic. It obeys orders relentlessly. Normally houses a biological unit, but is powered by immense mana instead.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 378,
+      "id": "rem_00378",
+      "jp": "ゴーレム",
+      "en": "Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 379,
+      "id": "rem_00379",
+      "jp": "長く使い魔として使用していた魔生物。魔族の魔力をたくわえており、人間の魔術師が魔術の媒体として利用していた。",
+      "en": "A long-serving familiar. Stores demonic power and was used by human wizards as a magical medium.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 380,
+      "id": "rem_00380",
+      "jp": "グローリーハンド",
+      "en": "Glory Hand",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 381,
+      "id": "rem_00381",
+      "jp": "完全な魔獣になったブタ。生命力を見込まれ、魔術師に買われたはずだが、世話を投げ出された。狂暴な性格で、人間を見つけると手当たり次第に襲い掛かる。",
+      "en": "A fully monstrous pig. Valued for its vitality, it was purchased by a mage who later abandoned it. Ferocious, it attacks any human in sight.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 382,
+      "id": "rem_00382",
+      "jp": "ブラックミート",
+      "en": "Black Meat",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 383,
+      "id": "rem_00383",
+      "jp": "カエルのような生態を持ち、水辺の近くに住む魔物。粘性を帯びた肉体を持ち、相手を弄ぶように追い詰める。生命力旺盛で、実験素材にする魔導士もいる。",
+      "en": "A frog-like monster that lives near water. Its viscous body toys with prey. Prized by some mages as resilient lab material.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 384,
+      "id": "rem_00384",
+      "jp": "フロッグ",
+      "en": "Frog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 385,
+      "id": "rem_00385",
+      "jp": "前衛で戦う強さを身に着けたマジックウォーリアの中でも、場数を踏んだベテラン。仲間を守る事に秀でた能力を持ち、前衛に立つことで、天才への劣等感を克服しようとした。",
+      "en": "A veteran Magic Warrior, skilled in front-line combat. Excels at protecting allies, seeking to overcome his inferiority to geniuses.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 386,
+      "id": "rem_00386",
+      "jp": "マジックウォーリア・エリート",
+      "en": "Elite Magic Warrior",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 387,
+      "id": "rem_00387",
+      "jp": "ソルシア学院でも優秀な、マジシャンのエリート。エリートゆえにプライドが高く、ミルテやカリストのような真の天才にはコンプレックスを持っているようだ。",
+      "en": "An elite sorcerer from Solcia Academy. Proud, yet harbors complexes toward true geniuses like Myrte and Callisto.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 388,
+      "id": "rem_00388",
+      "jp": "マジシャン・エリート",
+      "en": "Elite Sorcerer",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 389,
+      "id": "rem_00389",
+      "jp": "魔術師が番犬として飼っている犬。魔術によって意のままに操られているが、単純な命令しか聞かない為、見慣れない人間を手当たり次第に襲ってしまう。",
+      "en": "A mage's guard dog. Controlled by magic, it follows only simple orders, attacking unfamiliar people on sight.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 390,
+      "id": "rem_00390",
+      "jp": "魔術師の番犬",
+      "en": "Mage's Guard Dog",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 391,
+      "id": "rem_00391",
+      "jp": "ヒエペリオ教会に遣わされた、異端の信徒を裁く審問官。その武力と、疑わしき者は滅ぼすという苛烈さゆえ恐れられ、無実の人間さえもうち滅ぼしてきた。",
+      "en": "An inquisitor sent by the Hyeperio Church to judge heretics. Feared for his might and ruthlessness, he has slain even the innocent.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 392,
+      "id": "rem_00392",
+      "jp": "異端審問の黒将軍",
+      "en": "Black General of Heresy Inquisition",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 393,
+      "id": "rem_00393",
+      "jp": "ソルシアに雇われた傭兵。魔術師相手の戦闘を想定した戦略と、騎士をも上回る剣技を持ち、相手を選ばない強さを発揮する。",
+      "en": "A mercenary hired by Solcia. Specializes in anti-mage tactics with sword skills surpassing knights, effective against any foe.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 394,
+      "id": "rem_00394",
+      "jp": "ソルシアの用心棒",
+      "en": "Solcia's Bodyguard",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 395,
+      "id": "rem_00395",
+      "jp": "魚に似たモンスターで、水の外にもやってくる。鋭い歯を持っており、小さいながら侮れない。",
+      "en": "A fish-like monster that ventures out of water. Though small, its sharp teeth make it a threat.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 396,
+      "id": "rem_00396",
+      "jp": "フィッシュ",
+      "en": "Fish",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 397,
+      "id": "rem_00397",
+      "jp": "死の異名を持つ触手モンスター。しかし獲物を即死させることは好まず、捕食して体内でゆっくりと溶かす。その性質から、捕獲用途に使用する研究が行われている。",
+      "en": "A tentacled monster called 'death.' Prefers not to kill instantly, instead capturing and slowly dissolving prey. Studied for capture applications.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 398,
+      "id": "rem_00398",
+      "jp": "這い寄る触手",
+      "en": "Creeping Tentacle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 399,
+      "id": "rem_00399",
+      "jp": "大陸各地に存在する聖域に出現するニセ天使。人々の心を混乱させ、悪に誘う。可愛らしい少女の姿をしているが、その心は醜悪で邪悪。",
+      "en": "A false angel appearing in sacred sites. Corrupts hearts, luring people to evil. Looks like a lovely girl, but is vile and wicked.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 400,
+      "id": "rem_00400",
+      "jp": "デミエンジェル",
+      "en": "Demi-Angel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

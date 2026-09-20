@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3801,
+  "range_end": 3900,
+  "pairs": [
+    {
+      "n": 3801,
+      "id": "rem_31420",
+      "jp": "攻撃アップLv3",
+      "en": "Attack Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3802,
+      "id": "rem_31421",
+      "jp": "防御アップLv1",
+      "en": "Defense Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3803,
+      "id": "rem_31422",
+      "jp": "エネミーサーチ",
+      "en": "Enemy Search",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3804,
+      "id": "rem_31423",
+      "jp": "防御アップLv2",
+      "en": "Defense Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3805,
+      "id": "rem_31424",
+      "jp": "防御アップLv3",
+      "en": "Defense Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3806,
+      "id": "rem_31425",
+      "jp": "大防御",
+      "en": "Great Defense",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3807,
+      "id": "rem_31426",
+      "jp": "命中アップLv1",
+      "en": "Accuracy Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3808,
+      "id": "rem_31427",
+      "jp": "命中アップLv2",
+      "en": "Accuracy Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3809,
+      "id": "rem_31428",
+      "jp": "アイテム運びの達人＋",
+      "en": "Master Item Porter+",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3810,
+      "id": "rem_31429",
+      "jp": "命中アップLv3",
+      "en": "Accuracy Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3811,
+      "id": "rem_31430",
+      "jp": "敵用・HP50%減",
+      "en": "Enemy: HP -50%",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3812,
+      "id": "rem_31431",
+      "jp": "マジックブリット",
+      "en": "Magic Brite",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3813,
+      "id": "rem_31432",
+      "jp": "敵用・HP50%増",
+      "en": "Enemy: HP +50%",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3814,
+      "id": "rem_31433",
+      "jp": "ワールドフリーズ",
+      "en": "World Freeze",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3815,
+      "id": "rem_31434",
+      "jp": "カオスウェイブ",
+      "en": "Chaos Wave",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3816,
+      "id": "rem_31435",
+      "jp": "必殺アップLv1",
+      "en": "Critical Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3817,
+      "id": "rem_31436",
+      "jp": "必殺アップLv2",
+      "en": "Critical Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3818,
+      "id": "rem_31437",
+      "jp": "リジェネレイト",
+      "en": "Regenerate",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3819,
+      "id": "rem_31438",
+      "jp": "必殺アップLv3",
+      "en": "Critical Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3820,
+      "id": "rem_31439",
+      "jp": "速度アップLv1",
+      "en": "Speed Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3821,
+      "id": "rem_31440",
+      "jp": "サンクチュアリ",
+      "en": "Sanctuary",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3822,
+      "id": "rem_31441",
+      "jp": "速度アップLv2",
+      "en": "Speed Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3823,
+      "id": "rem_31442",
+      "jp": "速度アップLv3",
+      "en": "Speed Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3824,
+      "id": "rem_31443",
+      "jp": "ターンアンデッド",
+      "en": "Turn Undead",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3825,
+      "id": "rem_31444",
+      "jp": "アークインパルス",
+      "en": "Arc Impulse",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3826,
+      "id": "rem_31445",
+      "jp": "アークインパルス＋",
+      "en": "Arc Impulse+",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3827,
+      "id": "rem_31446",
+      "jp": "エアロストーム",
+      "en": "Aero Storm",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3828,
+      "id": "rem_31447",
+      "jp": "バーサークビースト",
+      "en": "Berserk Beast",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3829,
+      "id": "rem_31448",
+      "jp": "魔攻アップLv1",
+      "en": "Magic Atk Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3830,
+      "id": "rem_31449",
+      "jp": "アヴェンジャー",
+      "en": "Avenger",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3831,
+      "id": "rem_31450",
+      "jp": "魔攻アップLv2",
+      "en": "Magic Atk Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3832,
+      "id": "rem_31451",
+      "jp": "魔攻アップLv3",
+      "en": "Magic Atk Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3833,
+      "id": "rem_31452",
+      "jp": "ホーリースマッシュ",
+      "en": "Holy Smash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3834,
+      "id": "rem_31453",
+      "jp": "魔防アップLv1",
+      "en": "Magic Def Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3835,
+      "id": "rem_31454",
+      "jp": "魔防アップLv2",
+      "en": "Magic Def Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3836,
+      "id": "rem_31455",
+      "jp": "バッシュ",
+      "en": "Bash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3837,
+      "id": "rem_31456",
+      "jp": "魔防アップLv3",
+      "en": "Magic Def Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3838,
+      "id": "rem_31457",
+      "jp": "追撃力アップLv1",
+      "en": "Follow-up Power Up Lv1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3839,
+      "id": "rem_31458",
+      "jp": "クリティカル強化",
+      "en": "Critical Enhance",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3840,
+      "id": "rem_31459",
+      "jp": "追撃力アップLv2",
+      "en": "Follow-up Power Up Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3841,
+      "id": "rem_31460",
+      "jp": "追撃力アップLv3",
+      "en": "Chase Up Lv3",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3842,
+      "id": "rem_31461",
+      "jp": "グランドクロス",
+      "en": "Grand Cross",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3843,
+      "id": "rem_31462",
+      "jp": "レディキラー",
+      "en": "Lady Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3844,
+      "id": "rem_31463",
+      "jp": "レディキラー＋",
+      "en": "Lady Killer+",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3845,
+      "id": "rem_31464",
+      "jp": "調理器具強化の魔術",
+      "en": "Culinary Tool Enchantment",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3846,
+      "id": "rem_31465",
+      "jp": "食材解体の結界",
+      "en": "Ingredient Prep Barrier",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3847,
+      "id": "rem_31466",
+      "jp": "サンダーボルト",
+      "en": "Thunderbolt",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3848,
+      "id": "rem_31467",
+      "jp": "ファイアボール",
+      "en": "Fireball",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3849,
+      "id": "rem_31468",
+      "jp": "先制の矢雨",
+      "en": "Preemptive Arrow Rain",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3850,
+      "id": "rem_31469",
+      "jp": "ゲートオブグラット",
+      "en": "Gate of Gluttony",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3851,
+      "id": "rem_31470",
+      "jp": "プロテクトフィールド",
+      "en": "Protect Field",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3852,
+      "id": "rem_31471",
+      "jp": "ヒーリングライト",
+      "en": "Healing Light",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3853,
+      "id": "rem_31472",
+      "jp": "フードデリバリー",
+      "en": "Food Delivery",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3854,
+      "id": "rem_31473",
+      "jp": "破邪の印",
+      "en": "Seal of Evil Purge",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3855,
+      "id": "rem_31474",
+      "jp": "レイズデッド",
+      "en": "Raise Dead",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3856,
+      "id": "rem_31475",
+      "jp": "ゴッドパニッシュ",
+      "en": "God Punish",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3857,
+      "id": "rem_31476",
+      "jp": "アイスブースト",
+      "en": "Ice Boost",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3858,
+      "id": "rem_31477",
+      "jp": "気配遮断",
+      "en": "Presence Concealment",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3859,
+      "id": "rem_31478",
+      "jp": "ハイパートレハン斬り",
+      "en": "Hyper Trehan Slash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3860,
+      "id": "rem_31479",
+      "jp": "天才的な戦術分析",
+      "en": "Genius Tactical Analysis",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3861,
+      "id": "rem_31480",
+      "jp": "逆境アタッカー",
+      "en": "Adversity Attacker",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3862,
+      "id": "rem_31481",
+      "jp": "マジックレジスト",
+      "en": "Magic Resist",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3863,
+      "id": "rem_31482",
+      "jp": "マルチヘルパー",
+      "en": "Multi Helper",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3864,
+      "id": "rem_31483",
+      "jp": "クッキングブースター",
+      "en": "Cooking Booster",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3865,
+      "id": "rem_31484",
+      "jp": "デモンズカーニバル",
+      "en": "Demons' Carnival",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3866,
+      "id": "rem_31485",
+      "jp": "リフレッシュ",
+      "en": "Refresh",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3867,
+      "id": "rem_31486",
+      "jp": "聖魔轟一",
+      "en": "Holy-Demon Blast",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3868,
+      "id": "rem_31487",
+      "jp": "ハーヴェスタの目",
+      "en": "Harvester's Eye",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3869,
+      "id": "rem_31488",
+      "jp": "セイントアロー",
+      "en": "Saint Arrow",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3870,
+      "id": "rem_31489",
+      "jp": "アイスブレイク",
+      "en": "Ice Break",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3871,
+      "id": "rem_31490",
+      "jp": "セントクリメイション",
+      "en": "Saint Cremation",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3872,
+      "id": "rem_31491",
+      "jp": "バーンストライク",
+      "en": "Burn Strike",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3873,
+      "id": "rem_31492",
+      "jp": "ハイパーランス",
+      "en": "Hyper Lance",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3874,
+      "id": "rem_31493",
+      "jp": "レアハンター",
+      "en": "Rare Hunter",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3875,
+      "id": "rem_31494",
+      "jp": "魔性の看板娘",
+      "en": "Demonic Signboard Girl",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3876,
+      "id": "rem_31495",
+      "jp": "超メイドチェイス",
+      "en": "Super Maid Chase",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3877,
+      "id": "rem_31496",
+      "jp": "ヒューマンキラー",
+      "en": "Human Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3878,
+      "id": "rem_31497",
+      "jp": "フラッシュボム",
+      "en": "Flash Bomb",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3879,
+      "id": "rem_31498",
+      "jp": "ハイパーヒール",
+      "en": "Hyper Heal",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3880,
+      "id": "rem_31499",
+      "jp": "アブソリュートゼロ",
+      "en": "Absolute Zero",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3881,
+      "id": "rem_31500",
+      "jp": "トレハン斬り",
+      "en": "Trehan Slash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3882,
+      "id": "rem_31501",
+      "jp": "サイクロン",
+      "en": "Cyclone",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3883,
+      "id": "rem_31502",
+      "jp": "カルネージレイド",
+      "en": "Carnage Raid",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3884,
+      "id": "rem_31503",
+      "jp": "ドーピングボム",
+      "en": "Doping Bomb",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3885,
+      "id": "rem_31504",
+      "jp": "アーマーブレス",
+      "en": "Armor Brace",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3886,
+      "id": "rem_31505",
+      "jp": "ホーリーウェポン",
+      "en": "Holy Weapon",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3887,
+      "id": "rem_31506",
+      "jp": "ホーリーライト",
+      "en": "Holy Light",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3888,
+      "id": "rem_31507",
+      "jp": "ウィークメーカー",
+      "en": "Weak Maker",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3889,
+      "id": "rem_31508",
+      "jp": "高速詠唱",
+      "en": "Fast Cast",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3890,
+      "id": "rem_31509",
+      "jp": "命を刈り取る者",
+      "en": "Life Reaper",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3891,
+      "id": "rem_31510",
+      "jp": "サイレンス",
+      "en": "Silence",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3892,
+      "id": "rem_31511",
+      "jp": "エクスティンクション",
+      "en": "Extinction",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3893,
+      "id": "rem_31512",
+      "jp": "デモンズフォーク",
+      "en": "Demon’s Fork",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3894,
+      "id": "rem_31513",
+      "jp": "ウインドブースト",
+      "en": "Wind Boost",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3895,
+      "id": "rem_31514",
+      "jp": "ブリザード",
+      "en": "Blizzard",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3896,
+      "id": "rem_31515",
+      "jp": "ウェポンブレス",
+      "en": "Weapon Breath",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3897,
+      "id": "rem_31516",
+      "jp": "シャドウサーバント",
+      "en": "Shadow Servant",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3898,
+      "id": "rem_31517",
+      "jp": "食材解体の大包丁",
+      "en": "Kitchen Cleaver",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3899,
+      "id": "rem_31518",
+      "jp": "セイントチェイス",
+      "en": "Saint Chase",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3900,
+      "id": "rem_31519",
+      "jp": "天からの贈り物",
+      "en": "Gift from Heaven",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

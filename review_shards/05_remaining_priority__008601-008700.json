@@ -1,0 +1,814 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8601,
+  "range_end": 8700,
+  "pairs": [
+    {
+      "n": 8601,
+      "id": "rem_36252",
+      "jp": "皆を笑顔にする娯楽施設Lv10",
+      "en": "Smile-for-All Entertainment Facility Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8602,
+      "id": "rem_36253",
+      "jp": "皆を笑顔にする娯楽施設Lv11",
+      "en": "Smile-for-All Entertainment Facility Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8603,
+      "id": "rem_36254",
+      "jp": "皆を笑顔にする娯楽施設Lv12",
+      "en": "Smile-for-All Entertainment Facility Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8604,
+      "id": "rem_36255",
+      "jp": "皆を笑顔にする娯楽施設Lv13",
+      "en": "Smile-for-All Entertainment Facility Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8605,
+      "id": "rem_36256",
+      "jp": "皆を笑顔にする娯楽施設Lv14",
+      "en": "Smile-for-All Entertainment Facility Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8606,
+      "id": "rem_36257",
+      "jp": "皆を笑顔にする娯楽施設Lv15",
+      "en": "Smile-for-All Entertainment Facility Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8607,
+      "id": "rem_36258",
+      "jp": "建築パフォーマンス改善Lv9",
+      "en": "Construction Performance Upgrade Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8608,
+      "id": "rem_36259",
+      "jp": "建築パフォーマンス改善Lv10",
+      "en": "Construction Performance Upgrade Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8609,
+      "id": "rem_36260",
+      "jp": "最果ての強敵への対抗Lv3",
+      "en": "Countermeasure: Farthest Foe Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8610,
+      "id": "rem_36261",
+      "jp": "アバター追加Lv11",
+      "en": "Avatar Addition Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8611,
+      "id": "rem_36262",
+      "jp": "アバター追加Lv12",
+      "en": "Avatar Addition Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8612,
+      "id": "rem_36263",
+      "jp": "アバター追加Lv13",
+      "en": "Avatar Addition Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8613,
+      "id": "rem_36264",
+      "jp": "アバター追加Lv14",
+      "en": "Avatar Addition Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8614,
+      "id": "rem_36265",
+      "jp": "個性を伸ばすカリキュラムLv9",
+      "en": "Cultivate Talent Curriculum Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8615,
+      "id": "rem_36266",
+      "jp": "個性を伸ばすカリキュラムLv10",
+      "en": "Cultivate Talent Curriculum Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8616,
+      "id": "rem_36267",
+      "jp": "アバター追加Lv15",
+      "en": "Avatar Addition Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8617,
+      "id": "rem_36268",
+      "jp": "あまねく愛の伝道師Lv16",
+      "en": "Love's Everywhere Evangelist Lv16",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8618,
+      "id": "rem_36269",
+      "jp": "よく眠れる夢見る宿屋Lv16",
+      "en": "Dreamy Sleep Inn Lv16",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8619,
+      "id": "rem_36270",
+      "jp": "未経験者にも安心なサポートLv9",
+      "en": "Novice-Friendly Support Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8620,
+      "id": "rem_36271",
+      "jp": "未経験者にも安心なサポートLv10",
+      "en": "Novice-Friendly Support Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8621,
+      "id": "rem_36272",
+      "jp": "未経験者にも安心なサポートLv11",
+      "en": "Beginner-Friendly Support Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8622,
+      "id": "rem_36273",
+      "jp": "未経験者にも安心なサポートLv12",
+      "en": "Beginner-Friendly Support Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8623,
+      "id": "rem_36274",
+      "jp": "未経験者にも安心なサポートLv13",
+      "en": "Beginner-Friendly Support Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8624,
+      "id": "rem_36275",
+      "jp": "未経験者にも安心なサポートLv14",
+      "en": "Beginner-Friendly Support Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8625,
+      "id": "rem_36276",
+      "jp": "未経験者にも安心なサポートLv15",
+      "en": "Beginner-Friendly Support Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8626,
+      "id": "rem_36277",
+      "jp": "えっちな教育システムLv9",
+      "en": "Lewd Education System Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8627,
+      "id": "rem_36278",
+      "jp": "えっちな教育システムLv10",
+      "en": "Lewd Education System Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8628,
+      "id": "rem_36279",
+      "jp": "えっちな教育システムLv11",
+      "en": "Lewd Education System Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8629,
+      "id": "rem_36280",
+      "jp": "えっちな教育システムLv12",
+      "en": "Lewd Education System Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8630,
+      "id": "rem_36281",
+      "jp": "えっちな教育システムLv13",
+      "en": "Lewd Education System Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8631,
+      "id": "rem_36282",
+      "jp": "えっちな教育システムLv14",
+      "en": "Lewd Education System Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8632,
+      "id": "rem_36283",
+      "jp": "えっちな教育システムLv15",
+      "en": "Lewd Education System Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8633,
+      "id": "rem_36284",
+      "jp": "アバター追加Lv1",
+      "en": "Avatar Addition Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8634,
+      "id": "rem_36285",
+      "jp": "アバター追加Lv2",
+      "en": "Avatar Addition Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8635,
+      "id": "rem_36286",
+      "jp": "アバター追加Lv3",
+      "en": "Avatar Addition Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8636,
+      "id": "rem_36287",
+      "jp": "アバター追加Lv4",
+      "en": "Avatar Addition Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8637,
+      "id": "rem_36288",
+      "jp": "アバター追加Lv5",
+      "en": "Avatar Addition Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8638,
+      "id": "rem_36289",
+      "jp": "アバター追加Lv6",
+      "en": "Avatar Addition Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8639,
+      "id": "rem_36290",
+      "jp": "アバター追加Lv7",
+      "en": "Avatar Addition Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8640,
+      "id": "rem_36291",
+      "jp": "アバター追加Lv8",
+      "en": "Avatar Addition Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8641,
+      "id": "rem_36292",
+      "jp": "アバター追加Lv9",
+      "en": "Add Avatar Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8642,
+      "id": "rem_36293",
+      "jp": "アバター追加Lv10",
+      "en": "Add Avatar Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8643,
+      "id": "rem_36294",
+      "jp": "最果ての限界を超える力Lv1",
+      "en": "Power Beyond the Utmost Limit Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8644,
+      "id": "rem_36295",
+      "jp": "あまねく愛の伝道師Lv1",
+      "en": "Apostle of Universal Love Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8645,
+      "id": "rem_36296",
+      "jp": "あまねく愛の伝道師Lv2",
+      "en": "Apostle of Universal Love Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8646,
+      "id": "rem_36297",
+      "jp": "あまねく愛の伝道師Lv3",
+      "en": "Apostle of Universal Love Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8647,
+      "id": "rem_36298",
+      "jp": "あまねく愛の伝道師Lv4",
+      "en": "Apostle of Universal Love Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8648,
+      "id": "rem_36299",
+      "jp": "あまねく愛の伝道師Lv5",
+      "en": "Apostle of Universal Love Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8649,
+      "id": "rem_36300",
+      "jp": "あまねく愛の伝道師Lv6",
+      "en": "Apostle of Universal Love Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8650,
+      "id": "rem_36301",
+      "jp": "あまねく愛の伝道師Lv7",
+      "en": "Apostle of Universal Love Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8651,
+      "id": "rem_36302",
+      "jp": "あまねく愛の伝道師Lv8",
+      "en": "Apostle of Universal Love Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8652,
+      "id": "rem_36303",
+      "jp": "あまねく愛の伝道師Lv9",
+      "en": "Apostle of Universal Love Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8653,
+      "id": "rem_36304",
+      "jp": "あまねく愛の伝道師Lv10",
+      "en": "Apostle of Universal Love Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8654,
+      "id": "rem_36305",
+      "jp": "あまねく愛の伝道師Lv11",
+      "en": "Apostle of Universal Love Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8655,
+      "id": "rem_36306",
+      "jp": "あまねく愛の伝道師Lv12",
+      "en": "Apostle of Universal Love Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8656,
+      "id": "rem_36307",
+      "jp": "あまねく愛の伝道師Lv13",
+      "en": "Apostle of Universal Love Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8657,
+      "id": "rem_36308",
+      "jp": "あまねく愛の伝道師Lv14",
+      "en": "Apostle of Universal Love Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8658,
+      "id": "rem_36309",
+      "jp": "あまねく愛の伝道師Lv15",
+      "en": "Apostle of Universal Love Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8659,
+      "id": "rem_36310",
+      "jp": "搾精エッチ技術の開発Lv1",
+      "en": "Develop Semen Drain Sex Technique Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 8660,
+      "id": "rem_36311",
+      "jp": "搾精エッチ技術の開発Lv2",
+      "en": "Develop Semen Drain Sex Technique Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 8661,
+      "id": "rem_36312",
+      "jp": "搾精エッチ技術の開発Lv3",
+      "en": "Extraction Skill Lv. 3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8662,
+      "id": "rem_36313",
+      "jp": "搾精エッチ技術の開発Lv4",
+      "en": "Extraction Skill Lv. 4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8663,
+      "id": "rem_36314",
+      "jp": "搾精エッチ技術の開発Lv5",
+      "en": "Extraction Skill Lv. 5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8664,
+      "id": "rem_36315",
+      "jp": "搾精エッチ技術の開発Lv6",
+      "en": "Extraction Skill Lv. 6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8665,
+      "id": "rem_36316",
+      "jp": "搾精エッチ技術の開発Lv7",
+      "en": "Extraction Skill Lv. 7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8666,
+      "id": "rem_36317",
+      "jp": "搾精エッチ技術の開発Lv8",
+      "en": "Extraction Skill Lv. 8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8667,
+      "id": "rem_36318",
+      "jp": "搾精エッチ技術の開発Lv9",
+      "en": "Extraction Skill Lv. 9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8668,
+      "id": "rem_36319",
+      "jp": "搾精エッチ技術の開発Lv10",
+      "en": "Extraction Skill Lv. 10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8669,
+      "id": "rem_36320",
+      "jp": "搾精エッチ技術の開発Lv11",
+      "en": "Extraction Skill Lv. 11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8670,
+      "id": "rem_36321",
+      "jp": "搾精エッチ技術の開発Lv12",
+      "en": "Extraction Skill Lv. 12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8671,
+      "id": "rem_36322",
+      "jp": "搾精エッチ技術の開発Lv13",
+      "en": "Extraction Skill Lv. 13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8672,
+      "id": "rem_36323",
+      "jp": "搾精エッチ技術の開発Lv14",
+      "en": "Extraction Skill Lv. 14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8673,
+      "id": "rem_36324",
+      "jp": "搾精エッチ技術の開発Lv15",
+      "en": "Extraction Skill Lv. 15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8674,
+      "id": "rem_36325",
+      "jp": "感度アップ技術の開発Lv1",
+      "en": "Sensitivity Boost Lv. 1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8675,
+      "id": "rem_36326",
+      "jp": "感度アップ技術の開発Lv2",
+      "en": "Sensitivity Boost Lv. 2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8676,
+      "id": "rem_36327",
+      "jp": "感度アップ技術の開発Lv3",
+      "en": "Sensitivity Boost Lv. 3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8677,
+      "id": "rem_36328",
+      "jp": "感度アップ技術の開発Lv4",
+      "en": "Sensitivity Boost Lv. 4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8678,
+      "id": "rem_36329",
+      "jp": "感度アップ技術の開発Lv5",
+      "en": "Sensitivity Boost Lv. 5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8679,
+      "id": "rem_36330",
+      "jp": "感度アップ技術の開発Lv6",
+      "en": "Sensitivity Boost Lv. 6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8680,
+      "id": "rem_36331",
+      "jp": "感度アップ技術の開発Lv7",
+      "en": "Sensitivity Boost Lv. 7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8681,
+      "id": "rem_36332",
+      "jp": "感度アップ技術の開発Lv8",
+      "en": "Sensitivity Tech Dev Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8682,
+      "id": "rem_36333",
+      "jp": "感度アップ技術の開発Lv9",
+      "en": "Sensitivity Tech Dev Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8683,
+      "id": "rem_36334",
+      "jp": "感度アップ技術の開発Lv10",
+      "en": "Sensitivity Tech Dev Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8684,
+      "id": "rem_36335",
+      "jp": "最果ての限界を超える力Lv2",
+      "en": "Power Beyond the End Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8685,
+      "id": "rem_36336",
+      "jp": "最果ての限界を超える力Lv3",
+      "en": "Power Beyond the End Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8686,
+      "id": "rem_36337",
+      "jp": "よく眠れる夢見る宿屋Lv1",
+      "en": "Dreamy Sleep Inn Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8687,
+      "id": "rem_36338",
+      "jp": "よく眠れる夢見る宿屋Lv2",
+      "en": "Dreamy Sleep Inn Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8688,
+      "id": "rem_36339",
+      "jp": "よく眠れる夢見る宿屋Lv3",
+      "en": "Dreamy Sleep Inn Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8689,
+      "id": "rem_36340",
+      "jp": "よく眠れる夢見る宿屋Lv4",
+      "en": "Dreamy Sleep Inn Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8690,
+      "id": "rem_36341",
+      "jp": "よく眠れる夢見る宿屋Lv5",
+      "en": "Dreamy Sleep Inn Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8691,
+      "id": "rem_36342",
+      "jp": "よく眠れる夢見る宿屋Lv6",
+      "en": "Dreamy Sleep Inn Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8692,
+      "id": "rem_36343",
+      "jp": "よく眠れる夢見る宿屋Lv7",
+      "en": "Dreamy Sleep Inn Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8693,
+      "id": "rem_36344",
+      "jp": "よく眠れる夢見る宿屋Lv8",
+      "en": "Dreamy Sleep Inn Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8694,
+      "id": "rem_36345",
+      "jp": "よく眠れる夢見る宿屋Lv9",
+      "en": "Dreamy Sleep Inn Lv9",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8695,
+      "id": "rem_36346",
+      "jp": "よく眠れる夢見る宿屋Lv10",
+      "en": "Dreamy Sleep Inn Lv10",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8696,
+      "id": "rem_36347",
+      "jp": "よく眠れる夢見る宿屋Lv11",
+      "en": "Dreamy Sleep Inn Lv11",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8697,
+      "id": "rem_36348",
+      "jp": "よく眠れる夢見る宿屋Lv12",
+      "en": "Dreamy Sleep Inn Lv12",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8698,
+      "id": "rem_36349",
+      "jp": "よく眠れる夢見る宿屋Lv13",
+      "en": "Dreamy Sleep Inn Lv13",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8699,
+      "id": "rem_36350",
+      "jp": "よく眠れる夢見る宿屋Lv14",
+      "en": "Dreamy Sleep Inn Lv14",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8700,
+      "id": "rem_36351",
+      "jp": "よく眠れる夢見る宿屋Lv15",
+      "en": "Dreamy Sleep Inn Lv15",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

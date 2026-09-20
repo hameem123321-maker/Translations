@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9501,
+  "range_end": 9600,
+  "pairs": [
+    {
+      "n": 9501,
+      "id": "rem_37223",
+      "jp": "コウモリのベリー煮込み",
+      "en": "Bat Berry Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9502,
+      "id": "rem_37224",
+      "jp": "蛇肉を塩蔵した後に乾燥させた干し肉。人間界でも親しまれている魔界料理。",
+      "en": "Dried meat made from snake, cured in salt. A demon realm dish beloved even in the human world.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9503,
+      "id": "rem_37225",
+      "jp": "スネークベーコン",
+      "en": "Snake Bacon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9504,
+      "id": "rem_37226",
+      "jp": "成形した甘味バーにバタフライの鱗粉を振りかけた、キラキラ光るスイーツ系魔界料理。食後に解毒しないと幸せな夢を見てしまう。",
+      "en": "A sparkly sweet demon realm dish—shaped sweet bars sprinkled with butterfly scales. Must detox after eating or you'll see happy dreams.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9505,
+      "id": "rem_37227",
+      "jp": "鱗粉ハニーパウダー焼き",
+      "en": "Scale Dust Honey Powder Bake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9506,
+      "id": "rem_37228",
+      "jp": "スパイダーの好むリンゴの果実を丸ごと使用し、ぷるぷるした弾力のゼリーに成形した。わざわざリンゴの形にしなくても良かったのでは？",
+      "en": "Made by shaping spider-preferred apple fruit into a firm, wobbly jelly. Did it really need to be apple-shaped?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9507,
+      "id": "rem_37229",
+      "jp": "スパイダーアップルゼリー",
+      "en": "Spider Apple Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9508,
+      "id": "rem_37230",
+      "jp": "フラワーの魔物を取り入れた、栄養満点の魔界カップスープ。咲き乱れる花の香りが漂う。",
+      "en": "A nutritious demon realm cup soup featuring flower monsters, giving off a blossoming floral scent.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9509,
+      "id": "rem_37231",
+      "jp": "ぽかぽかフラワースープ",
+      "en": "Warm Flower Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9510,
+      "id": "rem_37232",
+      "jp": "ワームの肉のいいところを選んで焼いた魔界料理。軽く塩を振って食べると、リーズナブルに腹を満たせる。冒険者にも人気の一品。",
+      "en": "A demon realm dish made by grilling choice cuts of worm meat. Lightly salted, it's a popular, filling meal for adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9511,
+      "id": "rem_37233",
+      "jp": "ワームグリル",
+      "en": "Worm Grill",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9512,
+      "id": "rem_37234",
+      "jp": "ウシノシシのステーキを豪快に焼き上げ、熟成ミルクで作ったチーズをのせた豪快スタミナ魔界料理。",
+      "en": "A hearty stamina-boosting demon realm dish—boldly grilled Ushinoshishi steak topped with cheese from aged milk.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9513,
+      "id": "rem_37235",
+      "jp": "ウシノシシオンザチーズ",
+      "en": "Ushinoshishi on the Cheese",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9514,
+      "id": "rem_37236",
+      "jp": "ファングの極上肉を薄く切り、野菜と共に盛りつけた一皿。並の店ではメインの一皿になってもおかしくない高級品。",
+      "en": "Thin-sliced premium Fang meat served with vegetables. A high-class dish fit for a main course.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9515,
+      "id": "rem_37237",
+      "jp": "霜降りファング盛り合わせ",
+      "en": "Marbled Fang Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9516,
+      "id": "rem_37238",
+      "jp": "甘味と肉汁が爆発する、魔界で人気のむっちり肉料理。ただしキャタピラーを倒せるのは魔界でも一握りの勇士か、強大な魔族のみ。",
+      "en": "A popular demon realm dish bursting with sweetness and meat juices. Only a handful of heroes or powerful demons can defeat a Caterpillar.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9517,
+      "id": "rem_37239",
+      "jp": "極上グリルキャタピラ",
+      "en": "Premium Grilled Caterpillar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9518,
+      "id": "rem_37240",
+      "jp": "魔界の希少果実をふんだんに取り入れた一皿。ベーコンスライスと一緒に食べると心身共に回復する。",
+      "en": "A dish packed with rare demon realm fruits. Paired with bacon, it restores both body and mind.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9519,
+      "id": "rem_37241",
+      "jp": "魔界果実ソテー",
+      "en": "Demon Realm Fruit Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9520,
+      "id": "rem_37242",
+      "jp": "魔界の甘味を詰め込んだキャンディボックス。魔族の女の子もスイーツが大好きで、特別に欲しがる者もいるとか。",
+      "en": "A candy box filled with demon realm sweets. Demon girls love sweets, and some even crave them specially.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9521,
+      "id": "rem_37243",
+      "jp": "お化けキャンディ",
+      "en": "Ghost Candy",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9522,
+      "id": "rem_37244",
+      "jp": "ゼカリウスベリーと魔性のベリー果汁を合わせて作ったソースで味を調えたゼリー。材料の一部にスライムを含むところが魔界流らしい。",
+      "en": "A jelly flavored with a sauce made from Zecarius berries and demonic berry juice. Its inclusion of slime as an ingredient is classic underworld style.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9523,
+      "id": "rem_37245",
+      "jp": "ゼカリウス魔界ゼリー",
+      "en": "Zecarius Underworld Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9524,
+      "id": "rem_37246",
+      "jp": "素朴な甘味と果実の風味が生きる、魔界では珍しい優しい味。原材料の一部に乳を含むらしいが、何の乳なのだろうか",
+      "en": "A rare gentle flavor in the underworld, featuring a simple sweetness and fruitiness. Contains some milk, but what kind?",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9525,
+      "id": "rem_37247",
+      "jp": "ナチュラルスイートプリン",
+      "en": "Natural Sweet Pudding",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9526,
+      "id": "rem_37248",
+      "jp": "食べると体がムズムズするカップケーキ。魔界由来のハーブを使っているらしいが、現状人体に深刻な影響を及ぼすものではない。らしい……。",
+      "en": "A cupcake that makes your body tingle. Made with underworld herbs, currently with no serious effects on humans. Probably...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9527,
+      "id": "rem_37249",
+      "jp": "魔界カップケーキ",
+      "en": "Underworld Cupcake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9528,
+      "id": "rem_37250",
+      "jp": "魔界で取れた果実を生地に混ぜて焼き上げたお手軽スイーツ。サクサクの食感とトロリと甘いチョコレートは広く一般に受け入れられている。",
+      "en": "An easy treat baked with underworld fruits. Its crisp texture and rich chocolate are widely popular.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9529,
+      "id": "rem_37251",
+      "jp": "森のチョコチップクッキー",
+      "en": "Forest Chocolate Chip Cookie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9530,
+      "id": "rem_37252",
+      "jp": "ゼカリウスでは珍しい魔界果実と濃厚チョコレートを利用したケーキ。魔界の『淫魔』も好む人気スイーツ。",
+      "en": "A rare cake in Zecarius using underworld fruits and rich chocolate. A popular dessert even with underworld 'Succubi'.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9531,
+      "id": "rem_37253",
+      "jp": "フルーツチョコケーキ",
+      "en": "Fruit Chocolate Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9532,
+      "id": "rem_37254",
+      "jp": "テリブルな色彩を放つ柔らかい氷結クリーム。舌の上で上品な甘さを放ち、吸い込まれるように消える甘さで、広く魔界料理を知らしめた。",
+      "en": "Soft frozen cream with a terrible color. Elegantly sweet, it melts away, introducing many to underworld cuisine.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9533,
+      "id": "rem_37255",
+      "jp": "ブラッドベリークリーム",
+      "en": "Bloodberry Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9534,
+      "id": "rem_37256",
+      "jp": "食べると少し幸運が宿るとも言われる、魔界貴族御用達スイーツ。材料の果実を巡り、土地の所有権を巡った争いがあったとか。",
+      "en": "A dessert for underworld nobility said to bring a bit of luck. The fruit's source led to land disputes.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9535,
+      "id": "rem_37257",
+      "jp": "天上果実のロイヤルゼリー",
+      "en": "Royal Jelly of Celestial Fruit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9536,
+      "id": "rem_37258",
+      "jp": "滑らかで冷たい刺激が走る、魔界発の清涼系ジェラート。アイスドラゴンのくしゃみを元に考案されたという魔界お伽噺があるほど浸透した魔界スイーツ。",
+      "en": "A smooth, cool gelato from the underworld. So ingrained that tales say it was inspired by an Ice Dragon's sneeze.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9537,
+      "id": "rem_37259",
+      "jp": "氷晶クリスタルジェラート",
+      "en": "Ice Crystal Gelato",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9538,
+      "id": "rem_37260",
+      "jp": "強力な思念を注ぎ込んで作るふわふわアイスクリーム。何かを訴えかけるような気配を感じる。",
+      "en": "A fluffy ice cream made with intense emotion. You can feel it trying to say something.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9539,
+      "id": "rem_37261",
+      "jp": "ゴーストミルクアイス",
+      "en": "Ghost Milk Ice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9540,
+      "id": "rem_37262",
+      "jp": "魔界果実を練り込んだチョコレートソースをかけたドーナツ。甘酸っぱさと甘さが調和した人気スイーツ。",
+      "en": "A donut topped with chocolate sauce infused with underworld fruits. A popular blend of sweet and tart.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9541,
+      "id": "rem_37263",
+      "jp": "カラフルドーナツ",
+      "en": "Colorful Donut",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9542,
+      "id": "rem_37264",
+      "jp": "泡のように細かく繊細な生地をふんわりと焼き上げたカップケーキ。魔界のベリーをあしらった緑のケーキは怪しい魅力を感じさせる。",
+      "en": "A fluffy baked cupcake with a delicate, airy texture. The green cake, adorned with demon world berries, exudes a strange allure.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9543,
+      "id": "rem_37265",
+      "jp": "ベリーカップケーキ",
+      "en": "Berry Cupcake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9544,
+      "id": "rem_37266",
+      "jp": "床から数センチだけ浮く魔法ホウキ。掃除はできるがたまに暴走する。魔術に疎い職人が練習用に作るアイテムの代表例。",
+      "en": "A magical broom that floats a few centimeters off the floor. It can clean, but occasionally runs amok. A typical practice item made by magic-unfamiliar craftsmen.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9545,
+      "id": "rem_37267",
+      "jp": "ちょっと浮くホウキ",
+      "en": "Slightly Floating Broom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9546,
+      "id": "rem_37268",
+      "jp": "ペンを入れると延々クルクル回転する。書く時は取りづらい。かき混ぜる必要がある料理に使えばいいと思うのだが。",
+      "en": "A pen placed inside will spin endlessly. It's hard to take out for writing. It would be good for stirring dishes that need it, I suppose.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9547,
+      "id": "rem_37269",
+      "jp": "自動で回り続けるペン立て",
+      "en": "Automatic Spinning Pen Holder",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9548,
+      "id": "rem_37270",
+      "jp": "熱い飲み物は冷たくなり、冷たい物が沸騰するまで熱くなる迷惑アイテム。適切な温度になったタイミングで他の容器に移すのが得策。",
+      "en": "A troublesome item that cools hot drinks and heats cold ones to a boil. Best to transfer to another container at the right temperature.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9549,
+      "id": "rem_37271",
+      "jp": "温度循環マグカップ",
+      "en": "Temperature Cycle Mug",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9550,
+      "id": "rem_37272",
+      "jp": "この上に置いた容器の液体が数％だけ蒸発する。長らく使用用途に悩まれていたが、芳香剤の開発で重要アイテムとなった。",
+      "en": "Liquid in a container placed on this evaporates by a few percent. Long puzzled over for use, it became key in developing air fresheners.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9551,
+      "id": "rem_37273",
+      "jp": "魔術搭載コースター",
+      "en": "Magic-Equipped Coaster",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9552,
+      "id": "rem_37274",
+      "jp": "容量以上に小物をしまえる不思議なバッグ。ただし入れるのも出すのも強引に引っ張り上げなければ不可能で、取り回しに難がある。",
+      "en": "A mysterious bag that holds more small items than its capacity. However, putting in or taking out requires forceful pulling, making it cumbersome to handle.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9553,
+      "id": "rem_37275",
+      "jp": "不思議インベントリ",
+      "en": "Mysterious Inventory",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9554,
+      "id": "rem_37276",
+      "jp": "使っているうちに勝手に残りの容量が増えるテープ。最大で3倍ぐらい伸びるが、その分粘着力が少しずつ衰えていく。ちぎった先は伸びない代わりに、粘着力が維持される。",
+      "en": "A tape that automatically increases its remaining length as used. Stretches up to about 3 times, but adhesive weakens gradually. Cut ends don't stretch but maintain adhesive strength.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9555,
+      "id": "rem_37277",
+      "jp": "伸びるダクトテープ",
+      "en": "Stretching Duct Tape",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9556,
+      "id": "rem_37278",
+      "jp": "魔力を流すと明るくなるフィラメントランプ、間違った方向に進もうとすると光が消えてしまう。便利なのだが敵襲に備えて振り向いた瞬間、視界が閉ざされる欠陥がある。",
+      "en": "A filament lamp that glows when mana flows, but light goes out if trying to go the wrong way. Convenient, but flawed as turning around for defense blocks vision.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9557,
+      "id": "rem_37279",
+      "jp": "自動案内ランプ",
+      "en": "Automatic Guide Lamp",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9558,
+      "id": "rem_37280",
+      "jp": "空気に触れると爆発的に泡が広がる薬剤。ジョークアイテムのはずだが、これに凝固剤を混ぜると、人間が泡の中に固められてしまう。変な物を混ぜてはいけない。",
+      "en": "A reagent that explosively spreads bubbles on air contact. Meant as a joke item, but mixing a coagulant can trap humans in hardened bubbles. Don't mix weird stuff.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9559,
+      "id": "rem_37281",
+      "jp": "魔力式バブルメーカー",
+      "en": "Mana-Type Bubble Maker",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9560,
+      "id": "rem_37282",
+      "jp": "決まった時間になると天候の予想が書き込まれるスクロール。便利なのだが長旅を耐えられる程の容量はなく、たまに外れる事もある。",
+      "en": "A scroll where weather forecasts are written at set times. Handy, but lacks capacity for long journeys and occasionally misses.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9561,
+      "id": "rem_37283",
+      "jp": "天気予報スクロール",
+      "en": "Weather Forecast Scroll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9562,
+      "id": "rem_37284",
+      "jp": "落ちる時間が不規則にズレる砂時計。職人の腕が悪いと思われていたが、重力異常を引き起こしている事が判明し、美しさと相まって工芸品として評価された。",
+      "en": "A sandglass with irregular timing. Once blamed on poor craftsmanship, its actual cause is gravitational anomalies. Its beauty and intrigue have made it a prized artifact.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9563,
+      "id": "rem_37285",
+      "jp": "時刻が曖昧な砂時計",
+      "en": "Unreliable Sandglass",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9564,
+      "id": "rem_37286",
+      "jp": "机の周りを歩きつつ会話を勝手にメモする人形。異邦からやってきた退魔の一族が協力しているらしい。",
+      "en": "A doll that wanders around a desk, autonomously taking notes. It's said to be aided by an exorcist clan from a foreign land.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9565,
+      "id": "rem_37287",
+      "jp": "自動で動くメモ取り人形",
+      "en": "Self-Moving Memo Doll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9566,
+      "id": "rem_37288",
+      "jp": "異邦の穀物に祈りを捧げ、着色料を混ぜたお米。「聖女が祝福した」という付加価値がついたおかげで割高で売れる。",
+      "en": "A prayer-infused rice blend with colored grains from foreign seeds. Marketed as \"blessed by a saint,\" it sells at a premium.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 9567,
+      "id": "rem_37289",
+      "jp": "神聖ブレンドライス",
+      "en": "Sacred Blend Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9568,
+      "id": "rem_37290",
+      "jp": "小さな宝珠。光を当てると綺麗に反射するが、それ以上は特に何も起きない。特に何かが起こるわけではないが、聖職者が売る事で価値があると思われている。",
+      "en": "A small crystal orb. It reflects light beautifully, but has no other function. Its value comes solely from being sold by clergy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9569,
+      "id": "rem_37291",
+      "jp": "ミニ聖光オーブ",
+      "en": "Mini Holy Light Orb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9570,
+      "id": "rem_37292",
+      "jp": "聖樹の朝露で育ったと宣伝されている茶葉。味は普通だが、信心深い者には人気。",
+      "en": "Tea leaves marketed as grown in sacred morning dew. The taste is ordinary, but it's popular among the devout.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9571,
+      "id": "rem_37293",
+      "jp": "聖なる朝露育ち茶葉",
+      "en": "Sacred Dew-Grown Tea",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9572,
+      "id": "rem_37294",
+      "jp": "部屋にそれっぽい香りが漂う香水。儀式の雰囲気作りに欠かせない。救われたいと願う浮浪者が訪れた後でも清浄な空気を演出する。",
+      "en": "A perfume that fills a room with a suitably holy scent. Essential for ritual atmosphere and for masking the odor of desperate visitors.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9573,
+      "id": "rem_37295",
+      "jp": "神聖な香水",
+      "en": "Holy Perfume",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9574,
+      "id": "rem_37296",
+      "jp": "ただの布だが、祝福されているという付加価値を付けた高価な布。一応布としての性能は高いようだ。",
+      "en": "A simple cloth, but sold at a high price due to its \"blessing.\" Its material quality is, admittedly, quite good.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9575,
+      "id": "rem_37297",
+      "jp": "祝福クロス",
+      "en": "Blessed Cloth",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9576,
+      "id": "rem_37298",
+      "jp": "肌に塗るとほんのり光った気がする美容クリーム。心が浄化されたように感じるらしい。なお認定された『聖女』は商品には関与していない。",
+      "en": "A beauty cream that leaves a faint glow, making users feel spiritually cleansed. Note: The official 'Saint' has no involvement with this product.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9577,
+      "id": "rem_37299",
+      "jp": "聖女の微笑クリーム",
+      "en": "Saint's Smile Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9578,
+      "id": "rem_37300",
+      "jp": "修道院で作られたとされているカラフルなハーブ酒。大半は市井の業者に作られた物を教会で売っているだけ。人気なので出荷が止まらない。聖水なので酒よりも高い。",
+      "en": "A colorful herb liquor supposedly made in a monastery. Most are just commercial products sold through the church. Popular and in constant demand. It's priced higher than regular alcohol as it's marketed as holy water.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9579,
+      "id": "rem_37301",
+      "jp": "教会健康ハーブ酒",
+      "en": "Church Health Herb Liquor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9580,
+      "id": "rem_37302",
+      "jp": "石に小さな穴をあけ、糸を通して輪にしたアクセサリ。異邦の文化を取り入れた祈りのアイテムだが、ゼカリウスでは物珍しさから買い求められる。",
+      "en": "An accessory made by threading string through a small hole in a stone. A prayer item inspired by foreign culture, but bought in Zecarius mainly for its novelty.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9581,
+      "id": "rem_37303",
+      "jp": "連環ストーン",
+      "en": "Chain Stone",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9582,
+      "id": "rem_37304",
+      "jp": "聖なる力を運ぶと売り文句にされる高級メダル。実際はゴールドではなく金属のメダルをコーティングしたものだが、信じる者には人気。",
+      "en": "A high-end medal marketed as carrying sacred power. Actually just a coated metal medal, but popular among believers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9583,
+      "id": "rem_37305",
+      "jp": "聖なる黄金メダル",
+      "en": "Holy Gold Medal",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9584,
+      "id": "rem_37306",
+      "jp": "修道院の孤児が制作した微笑ましい土産物。金額は『お気持ち』だが、熱心な信者は浄財感覚で大金を積む。",
+      "en": "A charming souvenir made by monastery orphans. Price is 'voluntary,' but devout believers pay fortunes as offerings.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9585,
+      "id": "rem_37307",
+      "jp": "修道院のお土産",
+      "en": "Monastery Souvenir",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9586,
+      "id": "rem_37308",
+      "jp": "神聖な浄財箱に俗世の穢れを持ち込まぬよう、聖職者が発行するコイン。圧倒的な浄財効率のおかげで百万ゴールドだろうが一ゴールドにできる。",
+      "en": "Coins issued by clergy to keep worldly impurity from sacred offering boxes. Overwhelmingly efficient—can turn a million gold into one.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9587,
+      "id": "rem_37309",
+      "jp": "浄財用コイン",
+      "en": "Offering Coin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9588,
+      "id": "rem_37310",
+      "jp": "小さな切り傷に塗るとスーッと治る家庭用治療薬。家庭用の他、癒しの魔術が使えないパーティーもとりあえず持ち歩く。",
+      "en": "A household healing ointment that soothes small cuts. Also carried by parties without healing magic.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9589,
+      "id": "rem_37311",
+      "jp": "ヒーリング軟膏",
+      "en": "Healing Salve",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9590,
+      "id": "rem_37312",
+      "jp": "咳や鼻水に効く甘い薬。小さい子でも飲める味だが、薬効は中々。",
+      "en": "A sweet syrup effective against coughs and runny nose. Tastes good for kids, yet quite potent.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9591,
+      "id": "rem_37313",
+      "jp": "森の風邪シロップ",
+      "en": "Forest Cold Syrup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9592,
+      "id": "rem_37314",
+      "jp": "飲むと胃を落ち着かせる優しい薬液。食べすぎる冒険者だけでなく、食用に適さない品をやむを得ず食べた後にも効果を発揮する。",
+      "en": "A gentle potion that soothes the stomach. Works for both overeating adventurers and those forced to eat questionable food.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9593,
+      "id": "rem_37315",
+      "jp": "マイルド胃腸ポーション",
+      "en": "Mild Stomach Potion",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9594,
+      "id": "rem_37316",
+      "jp": "目にさすと冷たい感覚がスーッと浸透し、視界がクリアになる薬。天然の成分を配合したもので、体にも優しい。",
+      "en": "Eyedrops that bring a cool sensation, clearing vision. Made with gentle, natural ingredients.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9595,
+      "id": "rem_37317",
+      "jp": "疲れ目の眼薬",
+      "en": "Tired-Eye Drops",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9596,
+      "id": "rem_37318",
+      "jp": "様々な状況に対応する為の救急セット。ただし自然治癒力を少し上げる程度の応急処置がメインで、緊急性の高い重篤な怪我や病気には対応できない。",
+      "en": "An emergency kit for various situations. Mainly provides first aid to boost natural healing; not for severe injuries or critical illness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9597,
+      "id": "rem_37319",
+      "jp": "万能救急セット",
+      "en": "All-Purpose First Aid Kit",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9598,
+      "id": "rem_37320",
+      "jp": "すり潰して布に染み込ませ、額に貼るとひんやりと熱を奪う。解熱に効果がある他、薬効が浸透し体調を整えてくれる。魔術薬品を使うよりも安上がりに効能を発揮する。",
+      "en": "Crush, soak in cloth, and apply to the forehead for a cooling effect. Reduces fever and soothes the body—cheaper than magic potions.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9599,
+      "id": "rem_37321",
+      "jp": "熱さましハーブ",
+      "en": "Fever-Reducing Herb",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9600,
+      "id": "rem_37322",
+      "jp": "昔から伝わる、薬草を漬け込み発酵させた治療用薬液。とある集落では家庭に一つ置かれていた薬品だが、いかなる薬効があるのか、研究が始まったのは近年になってから。",
+      "en": "A traditional medicinal brew made from fermented herbs. Once a household staple in some villages, its efficacy is only recently studied.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

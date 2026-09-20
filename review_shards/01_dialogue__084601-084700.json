@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 84601,
+  "range_end": 84700,
+  "pairs": [
+    {
+      "n": 84601,
+      "id": "db_EventInfo:99957:5",
+      "jp": "今の彼女らが求めるような額とは、釣り合いません",
+      "en": "But the amount they might need now doesn't match this sum.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84602,
+      "id": "db_EventInfo:99958:5",
+      "jp": "それに【<pl>】様を知る人間からすると、誘惑すれば資金を引き出せることはもはや常識ですし",
+      "en": "Besides, for those who know【<pl>】-sama, it's common sense that you can get funds if you just tempt them.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84603,
+      "id": "db_EventInfo:99959:1",
+      "jp": "おい",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84604,
+      "id": "db_EventInfo:99960:5",
+      "jp": "わざわざ盗みを働くリスクを背負う必要はありませんわ",
+      "en": "You don't need to take the risk of stealing anything.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84605,
+      "id": "db_EventInfo:99961:1",
+      "jp": "うーむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84606,
+      "id": "db_EventInfo:99962:2",
+      "jp": "つまりはフリーのドロボウデスか",
+      "en": "So you're saying it's a freelance thief, desu ka?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84607,
+      "id": "db_EventInfo:99963:2",
+      "jp": "でも金庫近くのセキュリティは動いてないんデスよねぇ",
+      "en": "But the security near the vault isn't active, desu yo ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84608,
+      "id": "db_EventInfo:99965:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84609,
+      "id": "db_EventInfo:99967:39",
+      "jp": "ぎゃははは！　どうだ！　アタシってすごいだろ！？",
+      "en": "Gyahahaha! How about that!? I'm amazing, right!?",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84610,
+      "id": "db_EventInfo:99968:0",
+      "jp": "デイジーはならずものに混じって、酒を煽っていた。",
+      "en": "Daisy was with a bunch of crooks, chugging booze.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84611,
+      "id": "db_EventInfo:99969:0",
+      "jp": "テーブルには大金が積まれている。およそ100万ゴールドはあるだろうか。",
+      "en": "A huge pile of money was on the table. There must be about 1 million gold.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84612,
+      "id": "db_EventInfo:99970:424",
+      "jp": "あの店の店員として入り込むとはなぁ、やるじゃねーか！",
+      "en": "Infiltraiting as a clerk from that store, huh? Not bad!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84613,
+      "id": "db_EventInfo:99971:39",
+      "jp": "ああ、あの店主ってば、ちょれーよなぁ！！　ぎゃははは！",
+      "en": "Ahh, that shop owner, he's such a pushover!! Gyahahaha!",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84614,
+      "id": "db_EventInfo:99972:424",
+      "jp": "ぎゃははは！　やるじゃねーか！",
+      "en": "Gyahahaha! Not bad!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84615,
+      "id": "db_EventInfo:99973:0",
+      "jp": "そう言いながら、大柄なならずものはデイジーの尻を揉む。",
+      "en": "As he says that, the big thug grabs Daisy's butt.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84616,
+      "id": "db_EventInfo:99974:39",
+      "jp": "きゃあっ！？",
+      "en": "Kyaa!?",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84617,
+      "id": "db_EventInfo:99975:424",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84618,
+      "id": "db_EventInfo:99976:39",
+      "jp": "あ、いや……まあ、あいつらの悔しがる顔、見せてやりたかったぜ！？",
+      "en": "Ah, no... well, I just really wanted to see their pissed-off faces!",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84619,
+      "id": "db_EventInfo:99977:0",
+      "jp": "苦笑いしながら、デイジーはならずものの手をあしらった。",
+      "en": "Smiling awkwardly, Daisy brushed the thug's hand away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84620,
+      "id": "db_EventInfo:99978:425",
+      "jp": "店員として入ったなら、店のカネにも手を付け放題だろうな",
+      "en": "If I get hired as a clerk, I guess I'll have free access to the store's money too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84621,
+      "id": "db_EventInfo:99979:39",
+      "jp": "まーな。金庫の近くに近寄らなきゃいいんだ、楽勝だぜ！",
+      "en": "Hell yeah. I just gotta stay away from the safe! Easy!",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84622,
+      "id": "db_EventInfo:99980:425",
+      "jp": "おお！　これからも頼むぜ！",
+      "en": "Hell yeah! I'm counting on you!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84623,
+      "id": "db_EventInfo:99981:0",
+      "jp": "別のならずものがデイジーの横に座り、いつものように彼女の乳を揉むが。",
+      "en": "Another thug sits next to Daisy and grabs her chest like usual.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84624,
+      "id": "db_EventInfo:99982:39",
+      "jp": "きゃああああっ！？",
+      "en": "KYAAAAAAH!?",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84625,
+      "id": "db_EventInfo:99983:0",
+      "jp": "デイジーは敏感に反応し、後ずさる。",
+      "en": "Daisy reacts sharply and pulls back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84626,
+      "id": "db_EventInfo:99984:425",
+      "jp": "おおおっ！？　ど、どうした！？",
+      "en": "Whoa!? Wha-what's wrong!?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84627,
+      "id": "db_EventInfo:99985:0",
+      "jp": "いつもの挨拶のようなセクハラに過剰に反応され、ならずものは戸惑った。",
+      "en": "I acted way too strong to my usual flirty greetings, and the thugs got confused.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84628,
+      "id": "db_EventInfo:99986:39",
+      "jp": "わ、わりー、なんか今日は感じが変でさ……触らないでくれ",
+      "en": "S-sorry, I just feel off today... Don't touch me.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84629,
+      "id": "db_EventInfo:99987:424",
+      "jp": "お、おお……",
+      "en": "Uh... okay...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84630,
+      "id": "db_EventInfo:99988:425",
+      "jp": "変なやつ……",
+      "en": "What a weirdo...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84631,
+      "id": "db_EventInfo:99989:39",
+      "jp": "ま、気にせず、続きを呑もうぜ……！",
+      "en": "Just... don't mind me, let's keep drinking...!",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84632,
+      "id": "db_EventInfo:99990:0",
+      "jp": "デイジーはならずもの達に酒を注ぎ、続きを促すのであった。",
+      "en": "Daisy poured drinks for the thugs and urged them to continue.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84633,
+      "id": "db_EventInfo:99991:0",
+      "jp": "彼女を見る、好色の目に気付かないようにしながら……。",
+      "en": "She tried not to notice their leering looks.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84634,
+      "id": "db_EventInfo:99994:0",
+      "jp": "ならずもの達の夜は更けていく……。",
+      "en": "The thugs' night went on...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84635,
+      "id": "db_EventInfo:99996:2",
+      "jp": "カネー！　またカネがあわないデス！！",
+      "en": "Money! The money's off again!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84636,
+      "id": "db_EventInfo:99997:0",
+      "jp": "カネを数えていたシイネが怒鳴り声を上げている。",
+      "en": "Shiine, who was counting the money, raised his voice in anger.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84637,
+      "id": "db_EventInfo:99998:2",
+      "jp": "帳簿のカネが合わないデス！　ゆゆしき事態デス！",
+      "en": "The money in the ledger doesn't match! This is a serious problem!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84638,
+      "id": "db_EventInfo:99999:5",
+      "jp": "……数え間違いではありませんか？",
+      "en": "...Are you sure you didn't miscount?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84639,
+      "id": "db_EventInfo:100000:1",
+      "jp": "ああ、金庫の額も今となっては途方もない額だし、人間に数えられる量では……",
+      "en": "Yeah, and the amount in the safe is huge now. No human could count it all...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84640,
+      "id": "db_EventInfo:100001:2",
+      "jp": "は？　私は【『神』】、いわゆるゴッドデスよ？",
+      "en": "Huh? I'm a 'God', you know? A God of Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84641,
+      "id": "db_EventInfo:100002:2",
+      "jp": "人間には不可能でも、【『神』】にとっては数えることはたやすいことデス",
+      "en": "Even if it's impossible for a human, counting it is easy for a 'God'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84642,
+      "id": "db_EventInfo:100003:1",
+      "jp": "もっと別のことに力を使ってくれ……",
+      "en": "Use your power on something else, please...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84643,
+      "id": "db_EventInfo:100004:2",
+      "jp": "私にとっては100ゴールドも100億ゴールドも等しく価値があるデス",
+      "en": "To me, 100 gold and 100 billion gold have the same value.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84644,
+      "id": "db_EventInfo:100005:2",
+      "jp": "なので、合わないのがたかが100万ゴールドだったとしても、等しく苛立つのデスー！！",
+      "en": "So even if the difference is just a million gold, I get equally annoyed!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84645,
+      "id": "db_EventInfo:100006:5",
+      "jp": "守銭奴ここに極まれり、ですわね",
+      "en": "A true miser, isn't she?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84646,
+      "id": "db_EventInfo:100007:1",
+      "jp": "ハーヴェスタに言われるとなぁ……",
+      "en": "Hearing that from you, Harvester...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84647,
+      "id": "db_EventInfo:100009:5",
+      "jp": "しかし、私たちにはどうしようもありませんわね。別の誰かに相談してみましょう",
+      "en": "But there's nothing we can do. Let's ask someone else.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84648,
+      "id": "db_EventInfo:100010:1",
+      "jp": "ドロボウに詳しいのはファシィだけど……",
+      "en": "The only one who knows about thieves is Facy, though...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84649,
+      "id": "db_EventInfo:100011:5",
+      "jp": "あの子を突けば、もっと大きなヤブヘビが出てきそうですわね",
+      "en": "If we poke her, we might stir up a bigger problem.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84650,
+      "id": "db_EventInfo:100012:1",
+      "jp": "ああ、それこそ【『神』】の怒りを買いかねないな",
+      "en": "Yeah, that might even make the 'God' angry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84651,
+      "id": "db_EventInfo:100015:0",
+      "jp": "俺は、こういう【わるだくみ】に詳しそうなヤツに相談することにした。",
+      "en": "I decided to talk to some people who looked like they'd know a lot about this kind of scheming.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84652,
+      "id": "db_EventInfo:100017:23",
+      "jp": "……それで、なんでウチらに話が来るんや",
+      "en": "...So, why come to us?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84653,
+      "id": "db_EventInfo:100018:24",
+      "jp": "そうですわ。お嬢様は清廉潔白が服を着たような人物です",
+      "en": "That's right. My lady is a person of such purity and integrity, it's as if she wears those qualities as her clothes.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 84654,
+      "id": "db_EventInfo:100019:2",
+      "jp": "ウチでわるだくみが得意そうなツートップじゃないデスか",
+      "en": "Aren't you two the dynamic duo around here that seems best at this sort of scheming?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84655,
+      "id": "db_EventInfo:100020:24",
+      "jp": "なんですって！？",
+      "en": "Excuse me!?",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 84656,
+      "id": "db_EventInfo:100021:2",
+      "jp": "今もコソコソとなんかやってそうデス",
+      "en": "Even now, I bet you're up to something sneaky.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84657,
+      "id": "db_EventInfo:100022:23",
+      "jp": "そんな～Д　褒めんといて～な～Д　たしかにウチらの趣味は暗躍やけど～Д",
+      "en": "Aww, stahpД~ Don't flatter meД~ It's true, our hobby is working in the shadowsД~",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84658,
+      "id": "db_EventInfo:100023:24",
+      "jp": "お嬢様～！？",
+      "en": "Milady!?",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 84659,
+      "id": "db_EventInfo:100024:2",
+      "jp": "とにかく、ウチでコソコソとドロボウしているヤツの目星はないデス？",
+      "en": "Anyway, do you have any leads on who's sneaking around and stealing here?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84660,
+      "id": "db_EventInfo:100025:2",
+      "jp": "……誰でもいい気分なんデス、オマエらが犯人ということにしてもいいデスよ？",
+      "en": "...I'm in a mood where I don't care who it is. I'm fine with pinning it on you two.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84661,
+      "id": "db_EventInfo:100026:23",
+      "jp": "ひええっ！　そんなコワい目で睨まんといて～な～",
+      "en": "Whoa, hey! Don't glare at us with those scary eyes~!",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84662,
+      "id": "db_EventInfo:100027:23",
+      "jp": "ていうか、目星も何も、さっさと助けに行った方がええんでない？",
+      "en": "Besides, forget leads. Shouldn't we hurry up and go help them?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84663,
+      "id": "db_EventInfo:100028:2",
+      "jp": "デス？",
+      "en": "Des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84664,
+      "id": "db_EventInfo:100029:23",
+      "jp": "だって、ドロボウしてたのは、新入りのデイジーってヤツやろ？",
+      "en": "Well, the thief was that new girl, Daisy, right?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84665,
+      "id": "db_EventInfo:100030:23",
+      "jp": "そいつ、今頃ならずもののアジトで、輪姦されそうになっとるで",
+      "en": "Right now, she's about to get gang-raped in the thugs' hideout.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84666,
+      "id": "db_EventInfo:100031:2",
+      "jp": "デスーー！？",
+      "en": "De...desu!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84667,
+      "id": "db_EventInfo:100032:1",
+      "jp": "なんだって！？　ど、どうしてそれを……！？",
+      "en": "What!? H-how do you know that...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84668,
+      "id": "db_EventInfo:100033:23",
+      "jp": "いやまあ、コソコソとレジで盗みを働いてたし……",
+      "en": "Well, I saw her sneaking around stealing from the register...",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84669,
+      "id": "db_EventInfo:100034:23",
+      "jp": "女将はんにチクったら、ウチらのポイントもアップできるかな～と、泳がせてたんやけどД",
+      "en": "So I thought, if I snitched to the madam, our points might go up, so I let her keep doing itД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84670,
+      "id": "db_EventInfo:100035:23",
+      "jp": "なんや、セクハラ耐性がなくなったとかで、ならずものに絡まれてるようやなД",
+      "en": "And now, for some reason her resistance to sexual harassment is gone, so she's getting messed with by thugsД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84671,
+      "id": "db_EventInfo:100036:2",
+      "jp": "それをさっさと言うデスー！！！",
+      "en": "You should have said that sooner!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84672,
+      "id": "db_EventInfo:100037:1",
+      "jp": "さっさとデイジーを助けに行かないと！！　場所はどこだ",
+      "en": "We need to go save Daisy right now!! Where is it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84673,
+      "id": "db_EventInfo:100038:23",
+      "jp": "場所は……えーっと、港の方やなぁ",
+      "en": "The place is... um, near the harbor.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 84674,
+      "id": "db_EventInfo:100041:0",
+      "jp": "急いでデイジーを救出に行こう。",
+      "en": "We hurried off to rescue Daisy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84675,
+      "id": "db_EventInfo:100042:1",
+      "jp": "このダンジョンにデイジーが……",
+      "en": "Daisy is in this dungeon...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84676,
+      "id": "db_EventInfo:100043:5",
+      "jp": "ここは以前、私が罠にはまった場所ですわね。忌々しい……",
+      "en": "This is where I fell into a trap before. So annoying...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84677,
+      "id": "db_EventInfo:100044:2",
+      "jp": "デス。ならず者が好みそうな場所デスね",
+      "en": "Des. Looks like a place scumbags would like, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84678,
+      "id": "db_EventInfo:100045:1",
+      "jp": "ああ、急いでデイジーを探そう",
+      "en": "Yeah, let's hurry up and find Daisy.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84679,
+      "id": "db_EventInfo:100046:2",
+      "jp": "見付けたら、超スペシャルなオシオキをするデス",
+      "en": "When we find her, I'll give her a super special punishment, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84680,
+      "id": "db_EventInfo:100048:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, around that time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84681,
+      "id": "db_EventInfo:100051:0",
+      "jp": "★エッチシーン・デイジー・救出①・輪姦直前に救出①",
+      "en": "★ H-Scene: Daisy Rescue 1 - Saved Right Before Gangbang 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84682,
+      "id": "db_EventInfo:100052:0",
+      "jp": "★エッチシーン・デイジー・救出①・輪姦直前に救出②",
+      "en": "★ H-Scene: Daisy Rescue 1 - Saved Right Before Gangbang 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84683,
+      "id": "db_EventInfo:100055:1",
+      "jp": "よしっ！　皆、戦闘だ！",
+      "en": "Alright! Everyone, get ready to fight!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84684,
+      "id": "db_EventInfo:100057:39",
+      "jp": "はぁ、はぁ……",
+      "en": "Haah, haah...",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84685,
+      "id": "db_EventInfo:100058:2",
+      "jp": "間に合ったようデスね。一安心デス",
+      "en": "Looks like we made it in time, des. What a relief, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84686,
+      "id": "db_EventInfo:100059:39",
+      "jp": "ちっ、余計なことしやがって。アタシ一人でも逃げられたぜ",
+      "en": "Tch, you had to go and meddle. I could've escaped on my own, y'know.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84687,
+      "id": "db_EventInfo:100060:2",
+      "jp": "なんだとデス！？",
+      "en": "What did you just say?!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84688,
+      "id": "db_EventInfo:100061:1",
+      "jp": "ま、まあ、無事で良かったな",
+      "en": "W-well, I'm just glad you're okay.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84689,
+      "id": "db_EventInfo:100062:39",
+      "jp": "……ふん",
+      "en": "...hmph",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84690,
+      "id": "db_EventInfo:100063:1",
+      "jp": "デイジーも無事だし、じゃあとりあえず、帰るか",
+      "en": "Daisy's fine too, so I guess we can just go home now.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84691,
+      "id": "db_EventInfo:100064:2",
+      "jp": "なんでデス？",
+      "en": "Why?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84692,
+      "id": "db_EventInfo:100065:1",
+      "jp": "ん……？",
+      "en": "Huh...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84693,
+      "id": "db_EventInfo:100066:5",
+      "jp": "シイネ様？",
+      "en": "Master Shiine?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 84694,
+      "id": "db_EventInfo:100067:0",
+      "jp": "納得していない【『死神』】が一人。",
+      "en": "One of the Shinigami wasn't convinced.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84695,
+      "id": "db_EventInfo:100068:2",
+      "jp": "こいつは、ウチの大事なカネを盗んだデス。謝罪の言葉を聞いていないデス",
+      "en": "This one stole our important money. We haven't heard an apology.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84696,
+      "id": "db_EventInfo:100069:39",
+      "jp": "は？　なんのことだよ",
+      "en": "Huh? What are you talking about?",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84697,
+      "id": "db_EventInfo:100070:2",
+      "jp": "コイツの手癖の悪さは相当デス。本当に悪いと思っているデス？",
+      "en": "This one's sticky fingers are really bad. Do you even feel sorry?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84698,
+      "id": "db_EventInfo:100071:39",
+      "jp": "ふん……別にアタシ、悪いことなんかしてねーし",
+      "en": "Hmph... I didn't do anything wrong in the first place.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84699,
+      "id": "db_EventInfo:100072:2",
+      "jp": "……ふむ、この期に及んで反省の色がゼロ。これはオシオキし甲斐があるデスねД",
+      "en": "...Hmm, zero sign of regret at this late stage. This is worth discipliningД",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84700,
+      "id": "db_EventInfo:100073:39",
+      "jp": "ひっ、なっ、なにをするつもりだ……！？",
+      "en": "Eek, w-what are you planning to do...!?",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    }
+  ]
+}

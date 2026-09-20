@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73201,
+  "range_end": 73300,
+  "pairs": [
+    {
+      "n": 73201,
+      "id": "db_EventInfo:86596:12",
+      "jp": "土地を戦火から守るのも、領主の務め、ということでしょう",
+      "en": "Protecting the land from the fires of war is likely a lord's duty.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73202,
+      "id": "db_EventInfo:86597:5",
+      "jp": "そうですわね。平和でなければ安心して商売もできません",
+      "en": "That's right. We can't do business in peace unless it's peaceful.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 73203,
+      "id": "db_EventInfo:86598:1",
+      "jp": "戦争か……",
+      "en": "War...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73204,
+      "id": "db_EventInfo:86600:2",
+      "jp": "ニンゲンは面倒デスね。協力すればいいのに、戦って奪おうとするとは",
+      "en": "Humans are such a hassle, desu. They could cooperate, but instead they fight and try to take things.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73205,
+      "id": "db_EventInfo:86601:2",
+      "jp": "まあ、それもニンゲンらしいと言えなくもないデスが……",
+      "en": "Well, I guess you could say that's very human too, desu...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73206,
+      "id": "db_EventInfo:86602:2",
+      "jp": "しかし、ティオナ、デス？　アイツ、【『王立騎士団』】から随分と権限を与えられているようデスね",
+      "en": "But, Tiona, desu? It seems she's been given a lot of authority from the 'Royal Knights', desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73207,
+      "id": "db_EventInfo:86603:2",
+      "jp": "ただの冒険者じゃなかったデス……？",
+      "en": "She wasn't just an adventurer, desu...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73208,
+      "id": "db_EventInfo:86604:1",
+      "jp": "そういえばそうだな",
+      "en": "Now that you mention it, yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73209,
+      "id": "db_EventInfo:86605:2",
+      "jp": "どちらにせよ、ノーザリアが本当に攻めて来る気があるのか、確かめねばならんデス",
+      "en": "Either way, we must find out if Nordalia really intends to attack, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73210,
+      "id": "db_EventInfo:86606:2",
+      "jp": "デシルス辺りに探らせるデスかね……",
+      "en": "Should we have Desilus or someone look into it, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73211,
+      "id": "db_EventInfo:86608:15",
+      "jp": "やあ、ノーザリアの調査が終わったよ",
+      "en": "Hey, I'm back from investigating Nordalia.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73212,
+      "id": "db_EventInfo:86609:15",
+      "jp": "結論から言うと、ノーザリアがここしばらく、急激に軍備を強化しているのは確かみたいだ",
+      "en": "Long story short, it seems true that Nordalia has been rapidly building up its military lately.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73213,
+      "id": "db_EventInfo:86610:15",
+      "jp": "そのせいで【『北方要塞フリズ』】も、ピリピリしちゃっててさ",
+      "en": "Because of that, the 'Northern Fortress Frizz' is really on edge.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73214,
+      "id": "db_EventInfo:86611:15",
+      "jp": "僕も危うくノーザリアのスパイだと勘違いされるところだったよ。あはは！",
+      "en": "I almost got mistaken for a Nordalian spy myself. Haha!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73215,
+      "id": "db_EventInfo:86612:2",
+      "jp": "よく無事に戻って来れたデスね……",
+      "en": "It's good you made it back safely...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73216,
+      "id": "db_EventInfo:86613:15",
+      "jp": "そこはそれ、どうにでもなることさ",
+      "en": "That part, well, it'll work out somehow.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73217,
+      "id": "db_EventInfo:86614:15",
+      "jp": "とにかく、軍拡を進めるノーザリアに、【『北方要塞フリズ』】が奇襲を受けたらどうしようもない",
+      "en": "Anyway, if Northernia expands its military and the 'Northern Fortress Frizz' gets hit by a surprise attack, we're done for.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73218,
+      "id": "db_EventInfo:86615:15",
+      "jp": "早いうちに、【『北方要塞フリズ』】を支援した方がいいと思うよ",
+      "en": "I think it's better to support the 'Northern Fortress Frizz' sooner rather than later.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73219,
+      "id": "db_EventInfo:86616:1",
+      "jp": "そうか……分かった、検討しよう",
+      "en": "I see... Alright, I'll consider it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73220,
+      "id": "db_EventInfo:86618:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, around that same time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73221,
+      "id": "db_EventInfo:86621:33",
+      "jp": "まだ例の準備は完了しないのかね？",
+      "en": "Isn't that particular preparation finished yet?",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73222,
+      "id": "db_EventInfo:86622:23",
+      "jp": "これは将軍。秘密裏に進めておりますんで、準備は遅々として進まん状態どす",
+      "en": "General, sir. We are proceeding in secret, so preparations are moving at a snail's pace.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73223,
+      "id": "db_EventInfo:86623:24",
+      "jp": "いましばらくお待ちください",
+      "en": "Please wait just a little longer.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73224,
+      "id": "db_EventInfo:86624:33",
+      "jp": "まったく、何をしているのかね。南方攻略は我らの悲願なのだよ？",
+      "en": "Really, what are you all doing? Conquering the south is our cherished wish.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73225,
+      "id": "db_EventInfo:86625:33",
+      "jp": "せっかく男に媚びるしか能のない女狐に地位を与えたのだ。ふさわしい働きをしてほしいものだがね",
+      "en": "We went to the trouble of giving position to a vixen whose only skill is charming men. I'd like her to do some proper work for it.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73226,
+      "id": "db_EventInfo:86626:24",
+      "jp": "重々承知しております",
+      "en": "I am fully aware of that, sir.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73227,
+      "id": "db_EventInfo:86627:23",
+      "jp": "せやかて、急に行動をするというのは無理どすえ",
+      "en": "But it's too hard to act right away.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73228,
+      "id": "db_EventInfo:86628:33",
+      "jp": "そこを何とかするのが君の仕事だろう？　しっかり働いてくれたまえよ",
+      "en": "Figuring that out is your job, isn't it? Work hard, please.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73229,
+      "id": "db_EventInfo:86629:12",
+      "jp": "酒場で聞いたのですが、漁師の間で「新しい島」がウワサになっているそうですね",
+      "en": "I heard at the tavern that fishermen are talking about a \"new island.\"",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73230,
+      "id": "db_EventInfo:86630:6",
+      "jp": "私も信徒の方々から聞きましたわ",
+      "en": "I heard about it from my followers too.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 73231,
+      "id": "db_EventInfo:86631:12",
+      "jp": "新しい島の通称は【『魔の島』】",
+      "en": "The new island's nickname is Demon Island.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73232,
+      "id": "db_EventInfo:86632:12",
+      "jp": "遠目からは【キラキラした宝石でできている島】にみえるようだとか",
+      "en": "From a distance, it looks like an island made of shiny jewels.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73233,
+      "id": "db_EventInfo:86633:2",
+      "jp": "宝石！　カネになりそうデス！",
+      "en": "Jewels! That sounds like money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73234,
+      "id": "db_EventInfo:86634:12",
+      "jp": "宝石と言ってもキラキラしているだけで、価値があるとは限りませんけどね",
+      "en": "Just because it sparkles like jewels doesn't mean it's valuable.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73235,
+      "id": "db_EventInfo:86635:12",
+      "jp": "まあ、島の付近は潮の流れが異常だそうで。近付こうとした漁師の船が、ことごとく沈むことから【『魔の島』】とも呼ばれるそうです",
+      "en": "Well, they say the currents around the island are strange. Every fisherman's boat that gets close sinks. That's why they call it Demon Island.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 73236,
+      "id": "db_EventInfo:86636:6",
+      "jp": "一攫千金を目論んで近付こうとしても、無策では船を失うだけになりそうですわね",
+      "en": "If you try to get close looking for quick money without a plan, you'll probably just lose your ship.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 73237,
+      "id": "db_EventInfo:86637:2",
+      "jp": "むう……海の藻屑はイヤデス",
+      "en": "Hmm... I don't want to end up as fish food.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73238,
+      "id": "db_EventInfo:86638:10",
+      "jp": "【<pl>】殿、【『魔の島』】のことはご存じか？",
+      "en": "【<pl>】, do you know about Demon Island?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 73239,
+      "id": "db_EventInfo:86639:1",
+      "jp": "たしか、ミルテたちがそんな話を……",
+      "en": "Yeah, I remember Myrte and the others talking about that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73240,
+      "id": "db_EventInfo:86640:7",
+      "jp": "酒場にたむろする漁師からもウワサになっているよ",
+      "en": "The fishermen at the bar are all buzzing about it too.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73241,
+      "id": "db_EventInfo:86641:7",
+      "jp": "いいよね、おたから一杯だよ！",
+      "en": "It's awesome, right? A whole island of treasure!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73242,
+      "id": "db_EventInfo:86642:9",
+      "jp": "しかし、話によると、報告される島の位置は人によって違うようだ",
+      "en": "But from what I hear, the island's location changes with each report.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 73243,
+      "id": "db_EventInfo:86643:9",
+      "jp": "運良く発見しても、周囲は潮の流れが速くて、小さい船では近づけないそうである",
+      "en": "Even if you're lucky enough to find it, the currents are too strong for a small boat to get close.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 73244,
+      "id": "db_EventInfo:86644:7",
+      "jp": "近付くには【軍艦】のような大きい船が必要なんじゃない？",
+      "en": "You'd probably need a big ship, like a【warship】, to get near it.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73245,
+      "id": "db_EventInfo:86645:9",
+      "jp": "宝石だけじゃなくて、魔力を帯びた鉱石や、特殊な鉱石もあるそうだ",
+      "en": "They say it's not just gems, but also ores with magic power, and special minerals.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 73246,
+      "id": "db_EventInfo:86646:10",
+      "jp": "うーむ。勿体ないな。きっと、途方もない価値があるというのに！",
+      "en": "Hmm. What a waste. It must be worth a fortune!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 73247,
+      "id": "db_EventInfo:86648:114",
+      "jp": "【<pl>】さん、北方の都ノーザリアの動きが活発化しています",
+      "en": "【<pl>】, activity is increasing in the northern capital, Northerlia.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73248,
+      "id": "db_EventInfo:86649:114",
+      "jp": "【『北方要塞フリズ』】の防衛設備の構築に出資をお願いできないでしょうか",
+      "en": "Could we ask for your help funding the construction of defense facilities for【『Northern Fortress Freeze』】?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73249,
+      "id": "db_EventInfo:86650:2",
+      "jp": "コイツはあくまで仮の領主デスよ？　軍備までウチからせしめるつもりデス？",
+      "en": "Hold on, you're just a temporary lord, right? You expect us to cover military expenses too?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73250,
+      "id": "db_EventInfo:86651:1",
+      "jp": "そういうのは税金でどうにかするものだと思うが……",
+      "en": "I think that sort of thing is supposed to be handled with taxes...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73251,
+      "id": "db_EventInfo:86652:114",
+      "jp": "仰ることはごもっともです。私としても、【<pl>】さんに戦費をお願いするのは心苦しいのですが……",
+      "en": "You're right, of course. I feel bad about asking 【<pl>】 for war funds too...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73252,
+      "id": "db_EventInfo:86653:114",
+      "jp": "しかし、すでに納められている税金などは、しかるべき機関を通して、公共事業に使われてまして",
+      "en": "But the taxes we've already collected go to public projects through the proper channels.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73253,
+      "id": "db_EventInfo:86654:114",
+      "jp": "軍備拡張の費用までは、とても回らないのが現状なんです",
+      "en": "The reality is, there just isn't enough left to cover expanding our defenses.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73254,
+      "id": "db_EventInfo:86655:2",
+      "jp": "本当デスかねぇ……何だかウチばかり支払っている気がするデス",
+      "en": "Is that really true...? Feels like we're the only ones paying up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73255,
+      "id": "db_EventInfo:86656:114",
+      "jp": "貴い者の義務として、戦費は多く支払っていただきたいのです",
+      "en": "As a person of means, I must ask you to contribute a larger share for the war effort.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73256,
+      "id": "db_EventInfo:86657:0",
+      "jp": "シイネは疑わし気な目を向けているが、ティオナは譲る気はないようだ。",
+      "en": "Shiine looks doubtful, but Tiona doesn't seem willing to back down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73257,
+      "id": "db_EventInfo:86658:0",
+      "jp": "しかし、戦火が広がれば、商売どころではないのも事実である。",
+      "en": "But it's also true that if the fighting spreads, there won't be any business left to run.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73258,
+      "id": "db_EventInfo:86659:1",
+      "jp": "まあ、侵略を受ける可能性があるなら、防備は必要だよな",
+      "en": "Well, if there's a chance we'll be attacked, we need to be ready.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73259,
+      "id": "db_EventInfo:86660:2",
+      "jp": "遺憾ながら支払わざるを得ないデスね",
+      "en": "Regrettably, we have no choice but to pay.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73260,
+      "id": "db_EventInfo:86661:114",
+      "jp": "【<pl>】さん、女将さん……！　ありがとうございます",
+      "en": "【<pl>】, Shiine...! Thank you.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 73261,
+      "id": "db_EventInfo:86662:0",
+      "jp": "俺達の返答に、ティオナは満足しているようだ。",
+      "en": "Tiona seems satisfied with our answer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73262,
+      "id": "db_EventInfo:86665:1",
+      "jp": "それにしても、とうとう領主っぽいモノになってしまったな",
+      "en": "Even so, I've really ended up acting like some kind of lord now.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73263,
+      "id": "db_EventInfo:86666:0",
+      "jp": "今や仮とはいえ、税金や政治的な事業に対する出資まで、俺が決めているような状況だ。",
+      "en": "Right now, even though it's temporary, I'm in a position where I decide things like taxes and political investments.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73264,
+      "id": "db_EventInfo:86667:2",
+      "jp": "私も最初はうれしいと思ってたデスが……これはあまり良い状況とは言えないデスね",
+      "en": "At first, I was happy too... but this isn't a good situation.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73265,
+      "id": "db_EventInfo:86668:1",
+      "jp": "そうなのか？",
+      "en": "Is that so?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73266,
+      "id": "db_EventInfo:86669:2",
+      "jp": "【『死神』】は世の中を直接動かしてはいけないデス",
+      "en": "【The 'Shinigami'】 must not directly control the world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73267,
+      "id": "db_EventInfo:86670:2",
+      "jp": "これまで裏方に徹して頑張ってきたデスが、こう表に出てきてしまうと注目されすぎるデスね",
+      "en": "We've worked hard behind the scenes until now. But if we step out into the open like this, we'll get too much attention.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73268,
+      "id": "db_EventInfo:86671:2",
+      "jp": "ま、今更でもあるデスが",
+      "en": "Well, I guess it's a bit late now anyway.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73269,
+      "id": "db_EventInfo:86672:0",
+      "jp": "いいんだろうか。",
+      "en": "Is this really okay?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73270,
+      "id": "db_EventInfo:86674:0",
+      "jp": "【『北方要塞フリズ』】がキナ臭くなっているらしい……。",
+      "en": "I hear things are getting tense at 【Friz, the Northern Fortress】...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73271,
+      "id": "db_EventInfo:86675:7",
+      "jp": "【<pl>】、いよいよヤバくなってきちゃったよ",
+      "en": "【<pl>】, things are finally getting seriously dangerous.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73272,
+      "id": "db_EventInfo:86676:1",
+      "jp": "ファシィか。ヤバい、というのは？",
+      "en": "Facy. Dangerous, meaning?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73273,
+      "id": "db_EventInfo:86677:7",
+      "jp": "ノーザリアが急速な軍拡を始めてから、盗賊ギルドはスパイを送り続けてるんだよね",
+      "en": "Since Northeria started rapidly expanding its military, the Thieves' Guild has been sending in spies.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73274,
+      "id": "db_EventInfo:86678:7",
+      "jp": "スパイからの情報によると、ノーザリアで絶大な人気の姫将軍ってヤツが、北方の前線に陣取ってるみたい",
+      "en": "Info from a spy says that Northeria's incredibly popular 'Princess General' has taken up position on the northern front lines.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73275,
+      "id": "db_EventInfo:86679:1",
+      "jp": "姫将軍……",
+      "en": "The Princess General...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73276,
+      "id": "db_EventInfo:86680:7",
+      "jp": "かなりの有能らしくて、すぐにでも攻めて来ちゃうような勢いだよ",
+      "en": "She's supposed to be really capable. Seems like she could attack any minute now.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 73277,
+      "id": "db_EventInfo:86683:0",
+      "jp": "どうやら、すでに開戦は秒読みと言った段階のようだ。",
+      "en": "It looks like war could start any second now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73278,
+      "id": "db_EventInfo:86685:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73279,
+      "id": "db_EventInfo:86688:33",
+      "jp": "作戦の準備は順調かね？",
+      "en": "Are the battle plans ready?",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73280,
+      "id": "db_EventInfo:86689:24",
+      "jp": "は、将軍。今しばらく時間がかかるものと思われます",
+      "en": "Yes, General. We think it will take a little more time.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73281,
+      "id": "db_EventInfo:86690:33",
+      "jp": "そのように悠長な事を言っている暇はないのだがね。領主ゼルカが死に、ゼカリウスが混乱している今が好機なのだよ",
+      "en": "We don't have time to take it easy. Lord Zelka is dead and Zecarius is in chaos. This is our best chance.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73282,
+      "id": "db_EventInfo:86691:23",
+      "jp": "そうですね……現在も大急ぎで進めておりますので、今しばらくは猶予を頼んます",
+      "en": "That's true... We're working as fast as we can now. Please, just give us a little more time.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73283,
+      "id": "db_EventInfo:86692:33",
+      "jp": "ふん、男に媚びるか、ガキを生むしか能がないのだから、与えた地位に見合った働きをしたまえよ",
+      "en": "Hmph. Your only skills are flattering men and popping out brats. Do some work worthy of the rank I gave you.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73284,
+      "id": "db_EventInfo:86693:33",
+      "jp": "それとも、この我が可愛がってやろうか？　ぐふふふ……",
+      "en": "Or perhaps... I should take care of you myself? Heh heh heh...",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73285,
+      "id": "db_EventInfo:86694:23",
+      "jp": "ツガイを選ぶくらい、自分でできますえ",
+      "en": "I can pick my own partner, thank you very much.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73286,
+      "id": "db_EventInfo:86695:33",
+      "jp": "……ふん、つまらん女だ。いいかね、しっかり働き給えよ",
+      "en": "...Hmph, a boring woman. Just make sure you work hard.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73287,
+      "id": "db_EventInfo:86698:23",
+      "jp": "ふん、なんやねん、偉そうにしよってからに",
+      "en": "Hmph, what's with that attitude, acting all high and mighty.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73288,
+      "id": "db_EventInfo:86699:24",
+      "jp": "ゼルカは死んだのではなく、倒されたのですわ",
+      "en": "Zelka wasn't just killed, he was defeated.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73289,
+      "id": "db_EventInfo:86700:24",
+      "jp": "あの愚者は、相手がゼルカより、更に強大な相手である可能性も、考えられないのでしょう",
+      "en": "That fool probably can't even imagine the possibility that their opponent is more powerful than Zelka.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73290,
+      "id": "db_EventInfo:86701:23",
+      "jp": "せやろなぁ……ノーザリアが逆に攻められることも考えんとあかんけど……今は従うしかできんなぁ",
+      "en": "Yeah, right... We should consider the possibility of Northalia being attacked in return... But for now, we have no choice but to follow orders.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73291,
+      "id": "db_EventInfo:86702:0",
+      "jp": "銀髪の女は溜息を吐くと、傍らの従者と共に、陣頭指揮へと戻っていった。",
+      "en": "The silver-haired woman let out a sigh and, along with her attendant, returned to the front lines to take command.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73292,
+      "id": "db_EventInfo:86704:6",
+      "jp": "【<pl>】様、失礼しますわ",
+      "en": "Master 【<pl>】, excuse me.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 73293,
+      "id": "db_EventInfo:86705:1",
+      "jp": "マリーゼル、と、リリエーヌも一緒か",
+      "en": "Marisel, and Lilienne is with you too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73294,
+      "id": "db_EventInfo:86706:107",
+      "jp": "はい。【『<ruby=ヒエペリオ>教会</ruby>』】は私達に避難勧告を出して参りました",
+      "en": "Yes. The 『Hiepelio Church』 has issued us an evacuation advisory.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 73295,
+      "id": "db_EventInfo:86707:1",
+      "jp": "避難勧告か……【『<ruby=ヒエペリオ>教会</ruby>』】も戦争は避けられないと思ってるんだな",
+      "en": "An evacuation advisory... So the 『Hiepelio Church』 also thinks the war is unavoidable.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73296,
+      "id": "db_EventInfo:86708:107",
+      "jp": "ええ……しかし、人間同士の争いに【『聖女』】の力が使われることは許されません",
+      "en": "Yes... However, the power of the 『Saintess』 must not be used in a conflict between humans.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 73297,
+      "id": "db_EventInfo:86709:6",
+      "jp": "そうなのですか？",
+      "en": "Is that so?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 73298,
+      "id": "db_EventInfo:86710:6",
+      "jp": "【『聖女』】の力があれば、早急に争いを終結させることも出来ると思うのですが",
+      "en": "I think if we had the 『Saintess's』 power, we could end the conflict quickly.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 73299,
+      "id": "db_EventInfo:86711:107",
+      "jp": "だっ、駄目です！　【『聖女』】の力を争いの道具にしてしまったら、それこそ【『邪教徒』】と変わらなくなります！",
+      "en": "No, we can't! If we use the 【'Saint's'】 power as a tool for fighting, then we're no different from the 【'cultists'】!",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 73300,
+      "id": "db_EventInfo:86712:6",
+      "jp": "たしかに……失言でしたね。申し訳ありません",
+      "en": "You're right... That was a poor choice of words. I apologize.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7301,
+  "range_end": 7400,
+  "pairs": [
+    {
+      "n": 7301,
+      "id": "rem_34920",
+      "jp": "残党エネミーの退治作戦",
+      "en": "Wipe Out Remnant Enemies",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7302,
+      "id": "rem_34921",
+      "jp": "古代の遺物を発掘しよう",
+      "en": "Excavate Ancient Relics",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7303,
+      "id": "rem_34922",
+      "jp": "イルニエル漁師との交流",
+      "en": "Connect with Iluniel Fishers",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7304,
+      "id": "rem_34923",
+      "jp": "調査の指揮官募集",
+      "en": "Seeking Investigation Commander",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7305,
+      "id": "rem_34924",
+      "jp": "邪魔なゴーレムの排除",
+      "en": "Remove Nuisance Golems",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7306,
+      "id": "rem_34925",
+      "jp": "壊れたゴーレムの修理技術者",
+      "en": "Broken Golem Repair Technician",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7307,
+      "id": "rem_34926",
+      "jp": "ゴーレムの回復してくれる人",
+      "en": "Someone to Repair Golems",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7308,
+      "id": "rem_34927",
+      "jp": "医者はいませんか！",
+      "en": "Is There a Doctor?!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7309,
+      "id": "rem_34928",
+      "jp": "隊のリーダー募集中",
+      "en": "Seeking Squad Leader",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7310,
+      "id": "rem_34929",
+      "jp": "一緒にならずものを鎮圧しよ",
+      "en": "Help Quell the Riot",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7311,
+      "id": "rem_34930",
+      "jp": "魔術品の鑑定できる人",
+      "en": "Magical Item Appraiser Needed",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7312,
+      "id": "rem_34931",
+      "jp": "品物の解呪担当募集",
+      "en": "Item Curse Breaker Wanted",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7313,
+      "id": "rem_34932",
+      "jp": "本探し(語学堪能者は尚可)",
+      "en": "Book Finder (Linguist a Plus)",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7314,
+      "id": "rem_34933",
+      "jp": "探索者の護衛募集",
+      "en": "Seeking Explorer Escort",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7315,
+      "id": "rem_34934",
+      "jp": "図書館の見取り図作成",
+      "en": "Make a Library Floor Plan",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7316,
+      "id": "rem_34935",
+      "jp": "貴重な書物を借りてきて",
+      "en": "Borrow a Rare Book",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7317,
+      "id": "rem_34936",
+      "jp": "広い図書館で本探し",
+      "en": "Book Hunt in the Vast Library",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7318,
+      "id": "rem_34937",
+      "jp": "腕っぷしの強い人いませんか",
+      "en": "Need Someone Strong",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7319,
+      "id": "rem_34938",
+      "jp": "魔女の秘密に興味はないか？",
+      "en": "Interested in Witch Secrets?",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7320,
+      "id": "rem_34939",
+      "jp": "本の呪いを解除して",
+      "en": "Lift This Book's Curse",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7321,
+      "id": "rem_34940",
+      "jp": "船内での作業員を指導して",
+      "en": "Supervise shipyard workers",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7322,
+      "id": "rem_34941",
+      "jp": "体力に自信のある方はぜひ！",
+      "en": "For those confident in their strength!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7323,
+      "id": "rem_34942",
+      "jp": "学院の卒業者はいないか？",
+      "en": "Any academy graduates?",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7324,
+      "id": "rem_34943",
+      "jp": "研究助手の募集",
+      "en": "Research assistant wanted",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7325,
+      "id": "rem_34944",
+      "jp": "危険な邪教の神殿探索",
+      "en": "Explore a dangerous cult temple",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7326,
+      "id": "rem_34945",
+      "jp": "邪教の犬をどうにかしてくれ",
+      "en": "Deal with the cult's hounds",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7327,
+      "id": "rem_34946",
+      "jp": "黒神殿の謎を解き明かそう",
+      "en": "Solve the Black Temple's mystery",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7328,
+      "id": "rem_34947",
+      "jp": "呪いを解除できる人募集",
+      "en": "Seeking someone to lift a curse",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7329,
+      "id": "rem_34948",
+      "jp": "神殿発掘メンバーを指揮して",
+      "en": "Command the temple excavation team",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7330,
+      "id": "rem_34949",
+      "jp": "邪教徒の掃討作戦参加者募集",
+      "en": "Seeking participants to purge cultists",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7331,
+      "id": "rem_34950",
+      "jp": "謎の遺物を持ち帰って下さい",
+      "en": "Retrieve a mysterious relic",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7332,
+      "id": "rem_34951",
+      "jp": "アーティファクトの解呪業務",
+      "en": "Artifact purification work",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7333,
+      "id": "rem_34952",
+      "jp": "巡礼者たちの取りまとめ役",
+      "en": "Organize the pilgrims",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7334,
+      "id": "rem_34953",
+      "jp": "聖なる遺跡の調査員募集",
+      "en": "Seeking holy ruins investigators",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7335,
+      "id": "rem_34954",
+      "jp": "天使の痕跡を持ち帰ってくれ",
+      "en": "Retrieve a trace of an angel",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7336,
+      "id": "rem_34955",
+      "jp": "危険地帯の探索者募集",
+      "en": "Seeking explorers for a dangerous zone",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7337,
+      "id": "rem_34956",
+      "jp": "ゴーレムにも負けない盾役",
+      "en": "A tank that can stand up to a golem",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7338,
+      "id": "rem_34957",
+      "jp": "暑すぎる誰か冷やしてくれ",
+      "en": "Someone cool me down, it's too hot",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7339,
+      "id": "rem_34958",
+      "jp": "救護所の運営員募集",
+      "en": "Seeking aid station operator",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7340,
+      "id": "rem_34959",
+      "jp": "火山地帯の探索者の指揮",
+      "en": "Command explorers in volcanic terrain",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7341,
+      "id": "rem_34960",
+      "jp": "護衛隊のタンク募集",
+      "en": "Looking for Tank for Guard",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7342,
+      "id": "rem_34961",
+      "jp": "熱を緩和できる魔術使い求む",
+      "en": "Seeking Mage to Mitigate Heat",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7343,
+      "id": "rem_34962",
+      "jp": "腕利きヒーラーいませんか",
+      "en": "Any Skilled Healers?",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7344,
+      "id": "rem_34963",
+      "jp": "ブラックボックスの解析",
+      "en": "Black Box Analysis",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7345,
+      "id": "rem_34964",
+      "jp": "魔術のスペシャリスト募集",
+      "en": "Seeking Magic Specialist",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7346,
+      "id": "rem_34965",
+      "jp": "黄金を持ち帰れ！",
+      "en": "Bring Back the Gold!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7347,
+      "id": "rem_34966",
+      "jp": "砂漠のバトル要員募集",
+      "en": "Seeking Desert Combat Staff",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7348,
+      "id": "rem_34967",
+      "jp": "発掘者を指導して欲しい",
+      "en": "Want Instructor for Excavators",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7349,
+      "id": "rem_34968",
+      "jp": "呪われた遺物の回収指揮",
+      "en": "Command Recovery of Cursed Relic",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7350,
+      "id": "rem_34969",
+      "jp": "古代のトラップが痛すぎる",
+      "en": "Ancient Traps Hurt Too Much",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7351,
+      "id": "rem_34970",
+      "jp": "黄金を根こそぎ取ってきて",
+      "en": "Take All the Gold",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7352,
+      "id": "rem_34971",
+      "jp": "遺物の仕分け作業できる方",
+      "en": "Seeking Sorter for Relics",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7353,
+      "id": "rem_34972",
+      "jp": "呪いの遺物を浄化して",
+      "en": "Purify the Cursed Relic",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7354,
+      "id": "rem_34973",
+      "jp": "重傷者の対応ができる人募集",
+      "en": "Seeking Critical Care Staff",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7355,
+      "id": "rem_34974",
+      "jp": "ロマン溢れる地域の探索",
+      "en": "Explore a Romantic Region",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7356,
+      "id": "rem_34975",
+      "jp": "最強の盾役よ来たれ",
+      "en": "The Strongest Shield, Come Forth",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7357,
+      "id": "rem_34976",
+      "jp": "沈んだ遺跡の調査員募集",
+      "en": "Seeking Sunken Ruins Surveyor",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7358,
+      "id": "rem_34977",
+      "jp": "エリート聖職者の募集",
+      "en": "Seeking Elite Cleric",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7359,
+      "id": "rem_34978",
+      "jp": "無敵の護衛員を集めて",
+      "en": "Gather Invincible Guards",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7360,
+      "id": "rem_34979",
+      "jp": "絶対にやられない盾になれ！",
+      "en": "Be an Unbreakable Shield!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7361,
+      "id": "rem_34980",
+      "jp": "究極の魔術師に来てほしい！",
+      "en": "I want an ultimate mage!",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7362,
+      "id": "rem_34981",
+      "jp": "探索隊の生命線になってくれ",
+      "en": "Become the lifeblood of our expedition",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7363,
+      "id": "rem_34982",
+      "jp": "貴重な素材を狙いたい",
+      "en": "I want to hunt rare materials",
+      "table": "db_ClubToushiDungeonHakenInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7364,
+      "id": "rem_34983",
+      "jp": "消耗品",
+      "en": "Consumables",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7365,
+      "id": "rem_34984",
+      "jp": "剣",
+      "en": "Sword",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7366,
+      "id": "rem_34985",
+      "jp": "口",
+      "en": "Mouth",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7367,
+      "id": "rem_34986",
+      "jp": "ゆっくりと動く",
+      "en": "Move slowly",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7368,
+      "id": "rem_34987",
+      "jp": "槍",
+      "en": "Spear",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7369,
+      "id": "rem_34988",
+      "jp": "胸",
+      "en": "Chest",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 7370,
+      "id": "rem_34989",
+      "jp": "小刻みに突く",
+      "en": "Stab repeatedly",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7371,
+      "id": "rem_34990",
+      "jp": "斧",
+      "en": "Axe",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7372,
+      "id": "rem_34991",
+      "jp": "尻",
+      "en": "Rear",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 7373,
+      "id": "rem_34992",
+      "jp": "激しい叩き付け",
+      "en": "Wild pounding",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7374,
+      "id": "rem_34993",
+      "jp": "弓",
+      "en": "Bow",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7375,
+      "id": "rem_34994",
+      "jp": "膣",
+      "en": "Vagina",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7376,
+      "id": "rem_34995",
+      "jp": "鋭い一撃を狙う",
+      "en": "Aim a sharp strike",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7377,
+      "id": "rem_34996",
+      "jp": "刀",
+      "en": "Katana",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7378,
+      "id": "rem_34997",
+      "jp": "鋭く動く",
+      "en": "Move sharply",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7379,
+      "id": "rem_34998",
+      "jp": "魔爪",
+      "en": "Demonic Claw",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7380,
+      "id": "rem_34999",
+      "jp": "ねっとりと動く",
+      "en": "Move thickly",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7381,
+      "id": "rem_35000",
+      "jp": "短剣",
+      "en": "Dagger",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7382,
+      "id": "rem_35001",
+      "jp": "魔鞭",
+      "en": "Magic Whip",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7383,
+      "id": "rem_35002",
+      "jp": "杖",
+      "en": "Staff",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7384,
+      "id": "rem_35003",
+      "jp": "魔扇",
+      "en": "Magic Fan",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7385,
+      "id": "rem_35004",
+      "jp": "鎧",
+      "en": "Armor",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7386,
+      "id": "rem_35005",
+      "jp": "服",
+      "en": "Clothing",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7387,
+      "id": "rem_35006",
+      "jp": "ドレス",
+      "en": "Dress",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7388,
+      "id": "rem_35007",
+      "jp": "魔書",
+      "en": "Grimoire",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7389,
+      "id": "rem_35008",
+      "jp": "盾",
+      "en": "Shield",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7390,
+      "id": "rem_35009",
+      "jp": "指輪",
+      "en": "Ring",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7391,
+      "id": "rem_35010",
+      "jp": "籠手",
+      "en": "Gauntlet",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7392,
+      "id": "rem_35011",
+      "jp": "接客用具",
+      "en": "Service Tools",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7393,
+      "id": "rem_35012",
+      "jp": "夜道具",
+      "en": "Night Gear",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7394,
+      "id": "rem_35013",
+      "jp": "エレメント",
+      "en": "Element",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7395,
+      "id": "rem_35014",
+      "jp": "パン",
+      "en": "Bread",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7396,
+      "id": "rem_35015",
+      "jp": "牛肉料理",
+      "en": "Beef Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7397,
+      "id": "rem_35016",
+      "jp": "豚肉料理",
+      "en": "Pork Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7398,
+      "id": "rem_35017",
+      "jp": "鳥肉料理",
+      "en": "Poultry Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7399,
+      "id": "rem_35018",
+      "jp": "魚肉料理",
+      "en": "Fish Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7400,
+      "id": "rem_35019",
+      "jp": "貝料理",
+      "en": "Shellfish Dish",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table"
+    }
+  ]
+}

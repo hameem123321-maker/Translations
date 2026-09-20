@@ -1,0 +1,611 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101,
+  "range_end": 200,
+  "pairs": [
+    {
+      "n": 101,
+      "id": "extra_ui_0101",
+      "jp": "エネミー図鑑を見ることが出来るデス",
+      "en": "Open the enemy codex."
+    },
+    {
+      "n": 102,
+      "id": "extra_ui_0102",
+      "jp": "図鑑",
+      "en": "Codex"
+    },
+    {
+      "n": 103,
+      "id": "extra_ui_0103",
+      "jp": "一緒に仕事をしているスタッフと【交流】するデス。コミュニケーションは大事デスかね。あまりしつこいと嫌われるデス。好感度が高いと成功しやすくなるデス",
+      "en": "【Talk】 with staff you're working with. Don't push it or they'll hate it. High affection makes it easier."
+    },
+    {
+      "n": 104,
+      "id": "extra_ui_0104",
+      "jp": "交流・会話",
+      "en": "Talk"
+    },
+    {
+      "n": 105,
+      "id": "extra_ui_0105",
+      "jp": "交流",
+      "en": "Chat"
+    },
+    {
+      "n": 106,
+      "id": "extra_ui_0106",
+      "jp": "セクハラするデス？　ちゃんと仕事しろデス！　好感度が高いと成功しやすくなるデス。人目に付く事務所だと成功しにくいデスが、仲良くなると関係なくなるデス",
+      "en": "Harassing? Get back to work! High affection helps. A busy office makes it harder, until you're close."
+    },
+    {
+      "n": 107,
+      "id": "extra_ui_0107",
+      "jp": "交流・触る",
+      "en": "Touch"
+    },
+    {
+      "n": 108,
+      "id": "extra_ui_0108",
+      "jp": "触る",
+      "en": "Touch"
+    },
+    {
+      "n": 109,
+      "id": "extra_ui_0109",
+      "jp": "仕事をサボってなにするつもりデス？",
+      "en": "Slacking off — what are you trying to do?"
+    },
+    {
+      "n": 110,
+      "id": "extra_ui_0110",
+      "jp": "交流・愛撫",
+      "en": "Caress"
+    },
+    {
+      "n": 111,
+      "id": "extra_ui_0111",
+      "jp": "愛撫",
+      "en": "Caress"
+    },
+    {
+      "n": 112,
+      "id": "extra_ui_0112",
+      "jp": "……仕事をサボってなにするつもりデス？",
+      "en": "...Slacking off — what are you trying to do?"
+    },
+    {
+      "n": 113,
+      "id": "extra_ui_0113",
+      "jp": "交流・エッチ",
+      "en": "Sex"
+    },
+    {
+      "n": 114,
+      "id": "extra_ui_0114",
+      "jp": "エッチ",
+      "en": "H"
+    },
+    {
+      "n": 115,
+      "id": "extra_ui_0115",
+      "jp": "仕事する場所を移動するデス。移動先にスタッフがいると【交流】することも出来るデス",
+      "en": "Move where you work. If staff are there, you can 【talk】 with them."
+    },
+    {
+      "n": 116,
+      "id": "extra_ui_0116",
+      "jp": "移動",
+      "en": "Move",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 117,
+      "id": "extra_ui_0117",
+      "jp": "物理的な攻撃により、敵に与えるダメージに影響するデス。とっても重要なステータスデス。暴力は全てを解決するデス",
+      "en": "Physical damage you deal. Super important. Violence solves everything."
+    },
+    {
+      "n": 118,
+      "id": "extra_ui_0118",
+      "jp": "攻撃",
+      "en": "ATK"
+    },
+    {
+      "n": 119,
+      "id": "extra_ui_0119",
+      "jp": "敵から受けるダメージに影響するデス。相手の攻撃に耐えるよりは、攻撃を高めてさっさと倒す方が楽デスが、相手の数が多すぎたらそんなこと言えないデス",
+      "en": "Damage you take. Raising ATK and finishing fights is easier — unless you're swarmed."
+    },
+    {
+      "n": 120,
+      "id": "extra_ui_0120",
+      "jp": "防御",
+      "en": "DEF"
+    },
+    {
+      "n": 121,
+      "id": "extra_ui_0121",
+      "jp": "攻撃の命中率に影響するデス。攻撃ミスが目立つようなら、高めておくが良いデス",
+      "en": "Hit rate. If you keep missing, raise this."
+    },
+    {
+      "n": 122,
+      "id": "extra_ui_0122",
+      "jp": "命中",
+      "en": "Hit"
+    },
+    {
+      "n": 123,
+      "id": "extra_ui_0123",
+      "jp": "敵から受ける攻撃の回避率に影響するデス",
+      "en": "Chance to dodge incoming attacks."
+    },
+    {
+      "n": 124,
+      "id": "extra_ui_0124",
+      "jp": "回避",
+      "en": "Eva"
+    },
+    {
+      "n": 125,
+      "id": "extra_ui_0125",
+      "jp": "【クリティカルヒット】の威力に影響するデス。クリティカルヒットの発生率は決まってるデスが、スキルを使用することでアップするデス。【弱点】を突くと、発生確率もアップするデス",
+      "en": "【Crit】 damage. Crit rate is fixed unless skills raise it. Hitting a 【weak point】 also helps the rate."
+    },
+    {
+      "n": 126,
+      "id": "extra_ui_0126",
+      "jp": "必殺",
+      "en": "Crit"
+    },
+    {
+      "n": 127,
+      "id": "extra_ui_0127",
+      "jp": "行動の優先度が高まるデス。また、相手の速度を下回ると命中率が下がり、上回ると【ダブルアタック】しやすくなるデス。【クリティカルヒット】も一緒に発生すると強力な【デスクリティカル】になるデス",
+      "en": "Act sooner. Slower than the foe and you miss more; faster and 【double attacks】 land. Pair that with a crit for a nasty 【death crit】."
+    },
+    {
+      "n": 128,
+      "id": "extra_ui_0128",
+      "jp": "速度",
+      "en": "SPD"
+    },
+    {
+      "n": 129,
+      "id": "extra_ui_0129",
+      "jp": "魔術攻撃で与えるダメージに影響するデス。魔術攻撃は大勢をまとめて相手できる攻撃が多いデス。魔術を使わないなら不要デス",
+      "en": "Magic damage. Lots of magic hits groups. Skip it if you don't use magic."
+    },
+    {
+      "n": 130,
+      "id": "extra_ui_0130",
+      "jp": "魔攻",
+      "en": "MATK"
+    },
+    {
+      "n": 131,
+      "id": "extra_ui_0131",
+      "jp": "魔術攻撃から受けるダメージに影響するデス。優先度は低めデスが、レベルが高いダンジョンに行くなら、ちょっとぐらいは上げたいデス",
+      "en": "Magic damage you take. Lower priority, but raise it a bit for high-level dungeons."
+    },
+    {
+      "n": 132,
+      "id": "extra_ui_0132",
+      "jp": "魔防",
+      "en": "MDEF"
+    },
+    {
+      "n": 133,
+      "id": "extra_ui_0133",
+      "jp": "【ダブルアタック】の威力に影響するデス。ダブルアタックは、相手より『速度』が上回っていないといけないので、『速度』が高いキャラには重要デス",
+      "en": "【Double attack】 damage. You need more 'SPD' than the foe, so it matters on fast characters."
+    },
+    {
+      "n": 134,
+      "id": "extra_ui_0134",
+      "jp": "連撃",
+      "en": "Combo"
+    },
+    {
+      "n": 135,
+      "id": "extra_ui_0135",
+      "jp": "敵からのダメージを受けられる合計デス。前衛キャラはもちろん、後衛キャラも重要デス",
+      "en": "How much damage you can take. Frontliners need it, backliners too."
+    },
+    {
+      "n": 136,
+      "id": "extra_ui_0136",
+      "jp": "消耗するスキルの使用回数に影響するデス。スキルをばんばん撃つにはたくさんのMPが必要なのデス",
+      "en": "How many times you can use spendy skills. Spamming skills eats a lot of MP."
+    },
+    {
+      "n": 137,
+      "id": "extra_ui_0137",
+      "jp": "探索メンバーを入れ替えるデス",
+      "en": "Swap who goes exploring."
+    },
+    {
+      "n": 138,
+      "id": "extra_ui_0138",
+      "jp": "編成",
+      "en": "Party"
+    },
+    {
+      "n": 139,
+      "id": "extra_ui_0139",
+      "jp": "エネミー発見率。高いと隠れている敵を発見し、不意打ちを防ぐことが出来るデス",
+      "en": "Enemy detect rate. High enough and you spot hidden foes before they ambush you."
+    },
+    {
+      "n": 140,
+      "id": "extra_ui_0140",
+      "jp": "敵発見",
+      "en": "Detect"
+    },
+    {
+      "n": 141,
+      "id": "extra_ui_0141",
+      "jp": "エネミー発見率",
+      "en": "Enemy detect rate"
+    },
+    {
+      "n": 142,
+      "id": "extra_ui_0142",
+      "jp": "トラップ発見率。高いと仕掛けられているトラップを発見できる。トラップが発見できても、トラップの解除は別なので注意するデス。発見できないと問答無用で罠にかかるデス！",
+      "en": "Trap detect rate. Spotting a trap is not the same as disarming it. Miss it and you eat the trap, no questions."
+    },
+    {
+      "n": 143,
+      "id": "extra_ui_0143",
+      "jp": "罠発見",
+      "en": "Traps"
+    },
+    {
+      "n": 144,
+      "id": "extra_ui_0144",
+      "jp": "トラップ発見率",
+      "en": "Trap detect rate"
+    },
+    {
+      "n": 145,
+      "id": "extra_ui_0145",
+      "jp": "機械系トラップの解除率に影響するデス。トラップのダメージは非常に大きいデス。敵と戦うより危険かもしれないので、解除率が低い時は心して開けるデス！",
+      "en": "Disarm rate for mechanical traps. Trap damage is huge — maybe worse than a fight. Open carefully if this is low!"
+    },
+    {
+      "n": 146,
+      "id": "extra_ui_0146",
+      "jp": "機械罠",
+      "en": "Mech"
+    },
+    {
+      "n": 147,
+      "id": "extra_ui_0147",
+      "jp": "機械系トラップ解除率",
+      "en": "Mech trap disarm"
+    },
+    {
+      "n": 148,
+      "id": "extra_ui_0148",
+      "jp": "自然系トラップの解除率に影響するデス。トラップのダメージは非常に大きいデス。敵と戦うより危険かもしれないので、解除率が低い時は心して開けるデス！",
+      "en": "Disarm rate for nature traps. Trap damage is huge. Open carefully if this is low!"
+    },
+    {
+      "n": 149,
+      "id": "extra_ui_0149",
+      "jp": "自然罠",
+      "en": "Nature"
+    },
+    {
+      "n": 150,
+      "id": "extra_ui_0150",
+      "jp": "自然系トラップ解除率",
+      "en": "Nature trap disarm"
+    },
+    {
+      "n": 151,
+      "id": "extra_ui_0151",
+      "jp": "魔術系トラップの解除率に影響するデス。トラップのダメージは非常に大きいデス。敵と戦うより危険かもしれないので、解除率が低い時は心して開けるデス！",
+      "en": "Disarm rate for magic traps. Trap damage is huge. Open carefully if this is low!"
+    },
+    {
+      "n": 152,
+      "id": "extra_ui_0152",
+      "jp": "魔術罠",
+      "en": "Magic"
+    },
+    {
+      "n": 153,
+      "id": "extra_ui_0153",
+      "jp": "魔術系トラップ解除率",
+      "en": "Magic trap disarm"
+    },
+    {
+      "n": 154,
+      "id": "extra_ui_0154",
+      "jp": "開発ポイントの獲得量に影響するデス。開発ポイントがないと、新しい商品を開発できないデス！",
+      "en": "How many development points you get. No points, no new goods!"
+    },
+    {
+      "n": 155,
+      "id": "extra_ui_0155",
+      "jp": "開発点",
+      "en": "Dev"
+    },
+    {
+      "n": 156,
+      "id": "extra_ui_0156",
+      "jp": "開発ポイント確率量",
+      "en": "Development point gain"
+    },
+    {
+      "n": 157,
+      "id": "extra_ui_0157",
+      "jp": "レアトレジャーの発見率に影響するデス。レアトレジャーは通常よりも多くの開発ポイントをゲットするチャンスがあるデスが、トラップが仕掛けられているデス。マテリアル入手するために、レアハントするデス！",
+      "en": "Rare treasure find rate. More development points, but traps are waiting. Hunt rares for materials!"
+    },
+    {
+      "n": 158,
+      "id": "extra_ui_0158",
+      "jp": "レア宝",
+      "en": "Rare"
+    },
+    {
+      "n": 159,
+      "id": "extra_ui_0159",
+      "jp": "レアトレジャー発見率",
+      "en": "Rare treasure find rate"
+    },
+    {
+      "n": 160,
+      "id": "extra_ui_0160",
+      "jp": "獲得経験値に影響するデス。この値が高いほど、レベルアップしやすくなるデス。仲間全体に効果があるスキルの値を示しているデス！",
+      "en": "EXP gained. Higher means faster levels. This is the party-wide skill value!"
+    },
+    {
+      "n": 161,
+      "id": "extra_ui_0161",
+      "jp": "パーティー経験値獲得量",
+      "en": "Party EXP gain"
+    },
+    {
+      "n": 162,
+      "id": "extra_ui_0162",
+      "jp": "敵から逃げられる確率に影響するデス。逃げたくなる強敵に限って、逃走率は低くなってるデス。いざってときのために、ある程度は欲しいデスね",
+      "en": "Chance to flee. The fights you want to run from are the ones with a low flee rate. Keep some around."
+    },
+    {
+      "n": 163,
+      "id": "extra_ui_0163",
+      "jp": "逃走率",
+      "en": "Flee"
+    },
+    {
+      "n": 164,
+      "id": "extra_ui_0164",
+      "jp": "戦闘からの逃走率",
+      "en": "Battle flee rate"
+    },
+    {
+      "n": 165,
+      "id": "extra_ui_0165",
+      "jp": "こいつに部門を割り当てるデス。適正に合わせた仕事を与えて、キリキリ働かせるデス",
+      "en": "Assign this one a department. Give them work that fits and make them hustle."
+    },
+    {
+      "n": 166,
+      "id": "extra_ui_0166",
+      "jp": "部門変更",
+      "en": "Dept"
+    },
+    {
+      "n": 167,
+      "id": "extra_ui_0167",
+      "jp": "神の名において、こいつに新たなる『名』を与えるデス。与えられない者もいるデス",
+      "en": "In a god's name, give this one a new 'name'. Some people can't get one."
+    },
+    {
+      "n": 168,
+      "id": "extra_ui_0168",
+      "jp": "エディット・名前",
+      "en": "Edit name"
+    },
+    {
+      "n": 169,
+      "id": "extra_ui_0169",
+      "jp": "神の名において、こいつに新たなる『姿』を与えるデス。与えられない者もいるデス",
+      "en": "In a god's name, give this one a new 'look'. Some people can't get one."
+    },
+    {
+      "n": 170,
+      "id": "extra_ui_0170",
+      "jp": "エディット・画像",
+      "en": "Edit image"
+    },
+    {
+      "n": 171,
+      "id": "extra_ui_0171",
+      "jp": "パートナーからの信頼感を示すパラメータです。『会話』をすることで増やせるかもしれません",
+      "en": "How much your partner trusts you. 'Talk' might raise it."
+    },
+    {
+      "n": 172,
+      "id": "extra_ui_0172",
+      "jp": "信頼",
+      "en": "Trust"
+    },
+    {
+      "n": 173,
+      "id": "extra_ui_0173",
+      "jp": "パートナーが異性を魅了する美しさ、身だしなみです。【ケモミミブラシ】を購入してから、【頭を撫でる】ことでアップできるかもしれません",
+      "en": "Looks and grooming that charm the other sex. Buy a 【kemomimi brush】, then 【pat their head】."
+    },
+    {
+      "n": 174,
+      "id": "extra_ui_0174",
+      "jp": "魅力",
+      "en": "Charm"
+    },
+    {
+      "n": 175,
+      "id": "extra_ui_0175",
+      "jp": "パートナーから御主人様への愛情を示すパラメータです。『遊ぶ』や『トレーニング』で成長させることができます",
+      "en": "Your partner's love toward you. Grow it with 'Play' or 'Training'."
+    },
+    {
+      "n": 176,
+      "id": "extra_ui_0176",
+      "jp": "愛情",
+      "en": "Love"
+    },
+    {
+      "n": 177,
+      "id": "extra_ui_0177",
+      "jp": "スタッフの仕事に対するモチベーションを示すパラメータデス。『体力』が高いスタッフは疲れにくくなるデス。健康的でもやる気が無いと仕事しないデス。……なんで私を見るデス？",
+      "en": "Work motivation. High 'Stamina' staff tire slower. Healthy but unmotivated still won't work. ...Why are you looking at me?"
+    },
+    {
+      "n": 178,
+      "id": "extra_ui_0178",
+      "jp": "店員能力・体力",
+      "en": "Staff: Stamina"
+    },
+    {
+      "n": 179,
+      "id": "extra_ui_0179",
+      "jp": "体力",
+      "en": "Stamina"
+    },
+    {
+      "n": 180,
+      "id": "extra_ui_0180",
+      "jp": "接客の能力を示すパラメータデス。商品を売ったときの販売額に影響するデス。能力が高いほど、高く売りつけることが出来るわけデス！",
+      "en": "Reception skill. Affects sale price. Higher means you can charge more!"
+    },
+    {
+      "n": 181,
+      "id": "extra_ui_0181",
+      "jp": "店員能力・接客",
+      "en": "Staff: Reception"
+    },
+    {
+      "n": 182,
+      "id": "extra_ui_0182",
+      "jp": "接客",
+      "en": "Front"
+    },
+    {
+      "n": 183,
+      "id": "extra_ui_0183",
+      "jp": "料理をする能力を示すパラメータデス。料理部門に割り振った際の、キャパシティの増加量に影響するデス。高いほどキャパシティも高くなり、多くのメニューをセットできるデス！",
+      "en": "Cooking skill. Raises capacity when assigned to Cooking, so you can set more menu items."
+    },
+    {
+      "n": 184,
+      "id": "extra_ui_0184",
+      "jp": "店員能力・料理",
+      "en": "Staff: Cooking"
+    },
+    {
+      "n": 185,
+      "id": "extra_ui_0185",
+      "jp": "料理",
+      "en": "Cook"
+    },
+    {
+      "n": 186,
+      "id": "extra_ui_0186",
+      "jp": "鍛冶をする能力を示すパラメータデス。鍛冶部門に割り振った際の、キャパシティの増加量に影響するデス。高いほどキャパシティも高くなり、多くのメニューをセットできるデス！",
+      "en": "Smithing skill. Raises capacity when assigned to Smithing."
+    },
+    {
+      "n": 187,
+      "id": "extra_ui_0187",
+      "jp": "店員能力・鍛冶",
+      "en": "Staff: Smithing"
+    },
+    {
+      "n": 188,
+      "id": "extra_ui_0188",
+      "jp": "鍛冶",
+      "en": "Smith"
+    },
+    {
+      "n": 189,
+      "id": "extra_ui_0189",
+      "jp": "錬金をする能力を示すパラメータデス。錬金部門に割り振った際の、キャパシティの増加量に影響するデス。高いほどキャパシティも高くなり、多くのメニューをセットできるデス！",
+      "en": "Alchemy skill. Raises capacity when assigned to Alchemy."
+    },
+    {
+      "n": 190,
+      "id": "extra_ui_0190",
+      "jp": "店員能力・錬金",
+      "en": "Staff: Alchemy"
+    },
+    {
+      "n": 191,
+      "id": "extra_ui_0191",
+      "jp": "錬金",
+      "en": "Alch"
+    },
+    {
+      "n": 192,
+      "id": "extra_ui_0192",
+      "jp": "清掃の能力を示すパラメータデス。清掃部門に割り振った際の、店内でゴミ掃除する際のダメージ量に影響するデス",
+      "en": "Cleaning skill. Affects trash-clear damage when assigned to Cleaning."
+    },
+    {
+      "n": 193,
+      "id": "extra_ui_0193",
+      "jp": "店員能力・清掃",
+      "en": "Staff: Cleaning"
+    },
+    {
+      "n": 194,
+      "id": "extra_ui_0194",
+      "jp": "清掃",
+      "en": "Clean"
+    },
+    {
+      "n": 195,
+      "id": "extra_ui_0195",
+      "jp": "防犯の能力を示すパラメータデス。防犯部門に割り振った際の、食い逃げ犯に与えるダメージ量に影響するデス。また、「ショップへの襲撃時」に現れたエネミーに与えるダメージにも影響するデス",
+      "en": "Security skill. Damage to dine-and-dashers, and to enemies in a shop raid."
+    },
+    {
+      "n": 196,
+      "id": "extra_ui_0196",
+      "jp": "店員能力・防犯",
+      "en": "Staff: Security"
+    },
+    {
+      "n": 197,
+      "id": "extra_ui_0197",
+      "jp": "防犯",
+      "en": "Guard"
+    },
+    {
+      "n": 198,
+      "id": "extra_ui_0198",
+      "jp": "派遣クエスト時のやる気や体力などを総合的に評価する値デス。派遣クエストが始まると徐々に下がっていき、士気がなくなるとクエストを途中で切り上げてしまうデス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Morale on dispatch. It drops as the quest goes, and at zero they quit early! Higher 【Talent】 means a higher rank cap."
+    },
+    {
+      "n": 199,
+      "id": "extra_ui_0199",
+      "jp": "派遣能力・士気",
+      "en": "Dispatch: Morale"
+    },
+    {
+      "n": 200,
+      "id": "extra_ui_0200",
+      "jp": "士気",
+      "en": "Morale"
+    }
+  ]
+}

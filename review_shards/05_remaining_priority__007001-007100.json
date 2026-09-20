@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7001,
+  "range_end": 7100,
+  "pairs": [
+    {
+      "n": 7001,
+      "id": "rem_34620",
+      "jp": "天才的な学習能力で、成長が早い。戦力増強のコストがダウンして、より早くスキルを習得しやすくなる。スキルの習得上限は増えず、最終的には他キャラクターと同じ習得数になる。",
+      "en": "Learns quickly with brilliant aptitude. Reduces level-up costs and speeds skill learning. Max skills unchanged; catches up to others.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7002,
+      "id": "rem_34621",
+      "jp": "『奈落の夢』を限定的に解禁し、深淵の魔力を仲間に与える。多用すると世界のバランスが崩れる、危険なスキルだが、開けたくても本人にも開けられない。",
+      "en": "Partially unlocks 'Abyssal Dream', granting allies abyssal power. Overuse risks world balance; a dangerous skill even the user can't fully control.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7003,
+      "id": "rem_34622",
+      "jp": "戦闘後パーティー回復・MP[+15%]",
+      "en": "Party recovers HP & MP [+15%] after battle",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7004,
+      "id": "rem_34623",
+      "jp": "鞭によって敵を激しく打ち付ける。二段攻撃なので威力も高い。",
+      "en": "Strikes foes fiercely with a whip. A two-hit attack with high power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7005,
+      "id": "rem_34624",
+      "jp": "範囲(小)攻撃 威力[D] +  命中[70%] + 【闇属性】 + 防御貫通(小) + 回避(中) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small AoE PWR[D] + Hit[70%] + 【Dark】 + Pierce(small) + Evade(mid) + Inflicts [Stun] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7006,
+      "id": "rem_34625",
+      "jp": "【<src>】は激しく鞭で攻撃！",
+      "en": "【<src>】lashes out with a fierce whip attack!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7007,
+      "id": "rem_34626",
+      "jp": "色欲の魔力と風属性の魔術を組み合わせて突風を巻き起こす。魔術攻撃力の威力もそうだが、魅了の魔術を伴った攻撃のため、非常に危険。",
+      "en": "Combines lustful magic with wind to whip up a gale. High magic power and carries a charm effect, making it dangerous.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7008,
+      "id": "rem_34627",
+      "jp": "全体攻撃 威力[B+] +  命中[60%] + 【風属性】 + 防御貫通(小) + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "All PWR[B+] + Hit[60%] + 【Wind】 + Pierce(small) + Inflicts [Charm] (All damage taken -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7009,
+      "id": "rem_34628",
+      "jp": "【<src>】の[ピンクハリケーン]！",
+      "en": "【<src>】's [Pink Hurricane]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7010,
+      "id": "rem_34629",
+      "jp": "色欲の魔力による強力な闇属性魔術。魅了の魔術は精神にも作用し、抵抗するのは難しいだけでなく、攻撃魔術としても強力である。",
+      "en": "Powerful dark magic fueled by lust. The charm affects the mind, hard to resist and potent as an attack.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7011,
+      "id": "rem_34630",
+      "jp": "範囲(大)攻撃 威力[A] +  命中[70%] + 【闇属性】 + 防御貫通(中) + [魅了]を付与 (すべての攻撃ダメージ-30%)",
+      "en": "Large AoE PWR[A] + Hit[70%] + 【Dark】 + Pierce(mid) + Inflicts [Charm] (All damage taken -30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7012,
+      "id": "rem_34631",
+      "jp": "【<src>】の[テンプテーション]！",
+      "en": "【<src>】's [Temptation]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7013,
+      "id": "rem_34632",
+      "jp": "歴戦の戦術家が演出する、氷のアトラクション。謎のギミックが発動し、敵全体が凍結してしまう。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's ice spectacle. Mysterious mechanisms freeze all foes. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7014,
+      "id": "rem_34633",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Ice】 + Inflicts [Freeze] (Phys. resist -30% + crit taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7015,
+      "id": "rem_34634",
+      "jp": "【<src>】の[酷寒地獄の計]！",
+      "en": "【<src>】's [Frigid Hell Stratagem]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7016,
+      "id": "rem_34635",
+      "jp": "歴戦の戦術家が演出する、炎のアトラクション。謎のギミックが発動し、敵全体が炎に包まれる。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's fire spectacle. Mysterious mechanisms engulf all foes in flames. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7017,
+      "id": "rem_34636",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Fire】 + Inflicts [Burn] (+10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7018,
+      "id": "rem_34637",
+      "jp": "【<src>】の[灼熱地獄の計]！",
+      "en": "【<src>】's [Scorching Hell Stratagem]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7019,
+      "id": "rem_34638",
+      "jp": "歴戦の戦術家が演出する、風のアトラクション。謎のギミックが発動し、敵全体が転倒してしまう。ダメージは低めなのだが、相手は大混乱に陥るはず。チェイスを重ねよう。",
+      "en": "A veteran tactician's wind spectacle. Mysterious mechanisms knock all foes down. Damage is low, but causes chaos. Great for chaining.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7020,
+      "id": "rem_34639",
+      "jp": "全体攻撃 威力[C+] +  命中[70%] + 【風属性】 + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "All PWR[C+] + Hit[70%] + 【Wind】 + Inflicts [Knockdown] (+50% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7021,
+      "id": "rem_34640",
+      "jp": "【<src>】の[転倒地獄の計]！",
+      "en": "【<src>】's [Tumbling Hell Scheme]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7022,
+      "id": "rem_34641",
+      "jp": "仲間に濃厚な秘薬が入ったビンを飲ませてしまう。数え切れない食材とか薬物を天才的な配合で調合されたので、筋力がアップし、ヤバいぐらい興奮して防御はおろそかになる。",
+      "en": "Makes an ally drink a vial of potent elixir. Made with countless geniusly combined ingredients and drugs, it boosts strength, causes intense excitement, and lowers defense.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7023,
+      "id": "rem_34642",
+      "jp": "HP回復(大) + CT回復(大) + 【仲間】に【興奮++】を付与 (すべてのダメージ[+70%] + 物理ダメージ軽減率[-50%])",
+      "en": "Major HP Recovery + Major CT Recovery + Grants 【Ally】 【Frenzy++】 (All Damage [+70%] + Physical Damage Reduction [-50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7024,
+      "id": "rem_34643",
+      "jp": "【<src>】のマル秘薬が炸裂する！",
+      "en": "【<src>】's secret elixir explodes with power!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7025,
+      "id": "rem_34644",
+      "jp": "戦力変換・全体＞ＨＰ",
+      "en": "Resource Conversion・All > HP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 7026,
+      "id": "rem_34645",
+      "jp": "レミルに秘められた潜在能力を解放して能力を高める。本人はすべての魔力を解放できたと考えているが、その力は片鱗に過ぎず。神すら欺く存在は、彼女の内から受肉の好機を伺う。",
+      "en": "Releases Remil's latent potential to boost her abilities. She thinks she's unlocked all her magic, but this is only a fraction. The being that can deceive even gods watches for its chance to incarnate within her.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7027,
+      "id": "rem_34646",
+      "jp": "MP回復(大) + MP消費なし + 【自分】に【夢と一つに】を付与 (魔術ダメージ[+100%])",
+      "en": "Major MP Recovery + No MP Cost + Grants 【Self】 【One with Dreams】 (Magic Damage [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7028,
+      "id": "rem_34647",
+      "jp": "【<src>】は潜在能力を解放した！",
+      "en": "【<src>】 has unlocked her potential!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7029,
+      "id": "rem_34648",
+      "jp": "なんでも吸収する異常な成長力。戦力増強のコストがダウンして、より早くスキルを習得しやすくなる。スキルの習得上限は増えず、最終的には他キャラクターと同じ習得数になる。",
+      "en": "An abnormal growth capacity that absorbs anything. Lowers the cost of strengthening and makes it easier to learn skills faster. The skill cap doesn't increase, and she'll end up with the same number as other characters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7030,
+      "id": "rem_34649",
+      "jp": "能力開発の消費SP[-10%] + 獲得経験値[+20%]",
+      "en": "Ability Development SP Cost [-10%] + EXP Gain [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7031,
+      "id": "rem_34650",
+      "jp": "武器による通常攻撃。行動コストは少なく、威力もあまりない。ＭＰを節約したいときに有効。",
+      "en": "A normal attack with a weapon. Low action cost and low power. Effective for saving MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7032,
+      "id": "rem_34651",
+      "jp": "単体攻撃 威力[E] +  命中[70%]",
+      "en": "Single Target Power[E] + Hit Rate[70%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7033,
+      "id": "rem_34652",
+      "jp": "【<src>】は[コモンアタック]を使用した",
+      "en": "【<src>】 used [Common Attack]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7034,
+      "id": "rem_34653",
+      "jp": "集中してＭＰを回復する。回復量は極めて小さく、行動コストも非常に多い。ＭＰを節約したいときに有効。",
+      "en": "Focus to recover MP. Recovery is minor and action cost high. Effective for saving MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7035,
+      "id": "rem_34654",
+      "jp": "MP回復(中) + MP消費なし",
+      "en": "Moderate MP Recovery + No MP Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7036,
+      "id": "rem_34655",
+      "jp": "【<src>】は[ＭＰチャージ]！",
+      "en": "【<src>】 uses [MP Charge]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7037,
+      "id": "rem_34656",
+      "jp": "敵の不意を突き、上手く逃げ出すスキル。自分だけではなく、味方を含めて逃げ出すのは高い技能を必要とする。上級冒険者に必須のスキル。",
+      "en": "A skill to escape by taking the enemy by surprise. Requires high skill to flee not just oneself, but allies too. Essential for high-level adventurers.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7038,
+      "id": "rem_34657",
+      "jp": "逃走成功率アップ[+40%]",
+      "en": "Escape Success Rate Up [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7039,
+      "id": "rem_34658",
+      "jp": "ウィルチの天才性を発揮し、サポートスキルのバフ効果が延長される。一部のスキルには効果が無いが、ちょっとした強化も凶悪な効果に変じるかも。",
+      "en": "Demonstrates Wilch's genius, extending the duration of buffs from support skills. Some skills aren't affected, but even a slight boost might turn them into a monstrous effect.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7040,
+      "id": "rem_34659",
+      "jp": "味方への強化効果ターン延長[+2]",
+      "en": "Ally Buff Effect Turn Extension [+2]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7041,
+      "id": "rem_34660",
+      "jp": "物理攻撃の勢いを逸らし、攻撃を無効化する。無効化する確率は低いものの、受ける回数が多いので、長い目で効いてくる。即死級の攻撃すら弾くことも。",
+      "en": "Has a chance to deflect and nullify physical attacks. The probability is low, but frequent activations make it effective over time. Can even deflect lethal strikes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7042,
+      "id": "rem_34661",
+      "jp": "物理攻撃ダメージを無効化[+30%]",
+      "en": "Physical Damage Nullification [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7043,
+      "id": "rem_34662",
+      "jp": "死を司る属性の攻撃が強化される。『死神』の力は強大すぎるため、何重ものセーフティがかけられている。排除するべき敵が強くなるごとに、その制限は解除されていく。",
+      "en": "Strengthens attacks of the death-governing Shinigami attribute. The Shinigami's power is immense, so multiple safety locks are in place. These restrictions lift as enemies grow stronger.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7044,
+      "id": "rem_34663",
+      "jp": "死神スキルの威力[+50%]",
+      "en": "Shinigami Skill Power [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7045,
+      "id": "rem_34664",
+      "jp": "強力な魔術の秘奥を知る者は、魔術に対する造詣も深い。一定確率で魔術を無効化する。禁呪を極めた行使者は、魔術の世界では無敵なのだ。",
+      "en": "Those who know powerful magic secrets have deep magical insight. Has a chance to nullify magic. Masters of forbidden arts are nearly invincible in the realm of magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7046,
+      "id": "rem_34665",
+      "jp": "魔術攻撃ダメージを無効化[+50%]",
+      "en": "Magic Damage Nullification [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7047,
+      "id": "rem_34666",
+      "jp": "武器で敵の攻撃を妨害[+10%]",
+      "en": "Weapon Attack Interference [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7048,
+      "id": "rem_34667",
+      "jp": "場に即席のトラップを仕掛け、敵の攻撃を妨害する。確率は低いが、全体的な被弾を減らすことができるので、全体的な生存力は確実に伸びる。",
+      "en": "Sets improvised traps to interfere with enemy attacks. Low activation rate, but reduces total hits taken, steadily improving overall survivability.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7049,
+      "id": "rem_34668",
+      "jp": "トラップで敵の攻撃を妨害[+20%]",
+      "en": "Trap Attack Interference [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7050,
+      "id": "rem_34669",
+      "jp": "ダンジョン内にある「自然系」トラップに対策することが出来る。他の種別のトラップには効果がなく、サーチスキルが無ければ解除を試みないので注意。",
+      "en": "Allows disarming of 'Nature-type' traps in dungeons. No effect on other trap types. Note: Won't attempt disarming without Search skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7051,
+      "id": "rem_34670",
+      "jp": "自然系トラップの解除率[+40%]",
+      "en": "Nature Trap Disarm Rate [+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7052,
+      "id": "rem_34671",
+      "jp": "ウィルチの天才的な目利き能力を生かし、稀少なアイテムを目利きする。ダンジョンにレアアイテムオブジェクトが出現しやすくなり、レアアイテムも発見する。",
+      "en": "Uses Willchi's genius appraiser eye to spot rare items. Increases appearance of rare item objects in dungeons and rare item discoveries.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7053,
+      "id": "rem_34672",
+      "jp": "開発ポイント獲得量[+25%] + レア[+25%]",
+      "en": "Development Points Gain [+25%] + Rare [+25%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7054,
+      "id": "rem_34673",
+      "jp": "長い時間を掛けて、精霊と対話をしてきたエリオルダの特性。彼女だけでなく、彼女に味方をする者にも精霊が味方して、火・氷・風・雷属性のダメージがアップする。",
+      "en": "Eliorda's trait from conversing with spirits over time. Spirits aid not only her but also her allies, boosting fire, ice, wind, and thunder damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7055,
+      "id": "rem_34674",
+      "jp": "パーティー全員の四属性ダメージ[+20%]",
+      "en": "All Allies' Four-Element Damage [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7056,
+      "id": "rem_34675",
+      "jp": "××××を殺すために全てを捨てて磨いた技。特定の敵に対してのみ、実力以上の能力を発揮する。それのみに特化しているため、対象はかなり限られる。",
+      "en": "A skill honed by abandoning all else to kill ××××. Unleashes power beyond normal ability, but only against specific enemies. Highly specialized with limited targets.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7057,
+      "id": "rem_34676",
+      "jp": "xxxxタイプへのダメージ[+200%]",
+      "en": "xxxx-type Damage [+200%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7058,
+      "id": "rem_34677",
+      "jp": "敵に××××がいる場合のみ発動。先制攻撃成功時に1体に対して致命的なダメージを与える。まずは先制攻撃で数を減らすのが定石だ。",
+      "en": "Activates only when ×××× is present among enemies. Deals fatal damage to one enemy on successful ambush. The best tactic is to reduce numbers first with ambush attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7059,
+      "id": "rem_34678",
+      "jp": "XXXXへの先制ダメージ[+80%]",
+      "en": "Ambush Damage to XXXX [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7060,
+      "id": "rem_34679",
+      "jp": "戦力変換・言葉＞魔攻",
+      "en": "Power Conversion: Words > Magic Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7061,
+      "id": "rem_34680",
+      "jp": "魔獣王の末裔が放つ存在感がオーラになって見えることにより、生半可な魔獣は萎縮する。エリートケモミミが一般動物に後れを取るはずがない。",
+      "en": "The descendant of the beast king's aura intimidates weaker monsters. Elite kemomimi won't fall behind mere animals.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7062,
+      "id": "rem_34681",
+      "jp": "動物タイプへのダメージ[+100%]",
+      "en": "Damage to Beast-type [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7063,
+      "id": "rem_34682",
+      "jp": "ラシェウスが先祖から受け継いだ勇者技の一つ。不可視の引力により、受け手は回避することができずに命中してしまう。結果を追求した秘剣。",
+      "en": "A Hero skill Rasieus inherited. Invisible gravity ensures it hits, unable to evade. A secret sword seeking results.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7064,
+      "id": "rem_34683",
+      "jp": "範囲(小)攻撃 威力[A] +  [必中] + 必殺率[+100%] + 【聖属性】",
+      "en": "Small AoE attack Power[A] + [Sure Hit] + Crit Rate[+100%] + 【Holy】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7065,
+      "id": "rem_34684",
+      "jp": "【<src>】の[ブレイブスラッシュ]！",
+      "en": "【<src>】's [Brave Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7066,
+      "id": "rem_34685",
+      "jp": "夢魔の力を使用し、接触した敵の生命力を吸い取る。生物には抗えない危険な攻撃魔術で、吸い取った生命力を仲間に還元する攻防一体の技。",
+      "en": "Uses succubus power to drain life from touched foes. A dangerous magic attack irresistible to living things. Drains life to restore allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7067,
+      "id": "rem_34686",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 【闇属性】 + 攻撃後パーティー回復",
+      "en": "Small AoE attack Power[E+] + Hit[80%] + 【Dark】 + Heal Party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7068,
+      "id": "rem_34687",
+      "jp": "【<src>】の[ドレインタッチ]！",
+      "en": "【<src>】's [Drain Touch]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7069,
+      "id": "rem_34688",
+      "jp": "MPの消費を抑えるパッシブスキル。優先して取得したい。",
+      "en": "Passive skill that reduces MP consumption. A priority to learn.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7070,
+      "id": "rem_34689",
+      "jp": "MP消費軽減[-30%]",
+      "en": "MP Cost Down[-30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7071,
+      "id": "rem_34690",
+      "jp": "魔界の七公の一角たる強欲の縁者たち。ヒマを見付けては互いに情報交換をして、新しい薬の開発に努めている。互いに師匠であり弟子でもあり、研鑽している。",
+      "en": "The Avarice kin, one of the Seven Dukes of Makai. They exchange info and develop new potions whenever they can. Master and apprentice to each other, ever studying.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7072,
+      "id": "rem_34691",
+      "jp": "レベル同期・カリスト/オーレリアと同じに",
+      "en": "Level Sync – Same as Callisto/Aurelia",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7073,
+      "id": "rem_34692",
+      "jp": "カリストお手製の謎のポーションを使って、敵全体を大変なことにしてしまう。使い手がアレすぎるので、わりと大変なことになりがちである。",
+      "en": "Uses a mysterious potion made by Callisto to wreak havoc on all enemies. The user being...unique tends to cause quite a mess.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7074,
+      "id": "rem_34693",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[50%] + 【闇属性】 + [毒化]を付与 (毒によりターンごとにダメージ+10%)",
+      "en": "Large AoE attack Power[C] + Hit[50%] + 【Dark】 + Inflicts [Toxic] (Poison deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7075,
+      "id": "rem_34694",
+      "jp": "【<src>】の[ポイズンミスト]！",
+      "en": "【<src>】's [Poison Mist]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7076,
+      "id": "rem_34695",
+      "jp": "CT回復(小) + 【仲間】に【火付与】を付与 (属性付与・火属性)",
+      "en": "Small CT recovery + Grants 【Ally】 【Fire Enchant】 (Adds Fire element)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7077,
+      "id": "rem_34696",
+      "jp": "【<src>】の[ファイアウェポン]効果が武器に宿った！",
+      "en": "【<src>】's [Fire Weapon] effect imbues the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7078,
+      "id": "rem_34697",
+      "jp": "CT回復(小) + 【仲間】に【風付与】を付与 (属性付与・風属性)",
+      "en": "Small CT recovery + Grants 【Ally】 【Wind Enchant】 (Adds Wind element)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7079,
+      "id": "rem_34698",
+      "jp": "【<src>】の[ウインドウェポン]効果が武器に宿った！",
+      "en": "【<src>】's [Wind Weapon] effect imbues the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7080,
+      "id": "rem_34699",
+      "jp": "CT回復(小) + 【仲間】に【雷付与】を付与 (属性付与・雷属性)",
+      "en": "Small CT recovery + Grants 【Ally】 【Thunder Enchant】 (Adds Thunder element)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7081,
+      "id": "rem_34700",
+      "jp": "【<src>】の[サンダーウェポン]効果が武器に宿った！",
+      "en": "【<src>】's weapon was imbued with [Thunder Weapon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7082,
+      "id": "rem_34701",
+      "jp": "仲間呼び(自) + 【仲間】に【防御++】を付与 (すべてのダメージ軽減率[+50%])",
+      "en": "Summon Ally (Self) + Grant 【Ally】 【Defense++】 (All damage taken -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7083,
+      "id": "rem_34702",
+      "jp": "【<src>】は仲間を呼んだ！",
+      "en": "【<src>】 called for an ally!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7084,
+      "id": "rem_34703",
+      "jp": "HP回復(中) + 仲間呼び(自) + 【自分】に【再生】を付与 (ターンごとにHP回復[+10%])",
+      "en": "Restore HP (Medium) + Summon Ally (Self) + Grant 【Self】 【Regeneration】 (Restore 10% HP per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7085,
+      "id": "rem_34704",
+      "jp": "【<src>】は[自己増殖]を使用した！",
+      "en": "【<src>】 used [Self-Replication]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7086,
+      "id": "rem_34705",
+      "jp": "CT回復(小) + 【仲間】に【闇付与】を付与 (属性付与・闇属性)",
+      "en": "Restore CT (Small) + Grant 【Ally】 【Dark Infusion】 (Inflict Dark element)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7087,
+      "id": "rem_34706",
+      "jp": "【<src>】の[ダークウェポン]効果が武器に宿った！",
+      "en": "【<src>】's weapon was imbued with [Dark Weapon]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7088,
+      "id": "rem_34707",
+      "jp": "戦力変換・キス＞魔攻",
+      "en": "Power Conversion: Kiss > Magic Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7089,
+      "id": "rem_34708",
+      "jp": "仲間呼び(他) + 【仲間】に【興奮】を付与 (すべてのダメージ[+30%] + 物理ダメージ軽減率[-30%])",
+      "en": "Summon Ally (Other) + Grant 【Ally】 【Excitement】 (All damage +30% & Phys. damage taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7090,
+      "id": "rem_34709",
+      "jp": "ハヅキ乱入の実行用",
+      "en": "Hazuki Interrupt Execution",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7091,
+      "id": "rem_34710",
+      "jp": "単体攻撃 威力[C] +  命中[80%] + MP消費なし",
+      "en": "Single Attack Power[C] + Hit Rate[80%] + No MP Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7092,
+      "id": "rem_34711",
+      "jp": "【ハヅキ】が乱入してきた！",
+      "en": "【Hazuki】 barged into the battle!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7093,
+      "id": "rem_34712",
+      "jp": "『聖女』にのみ許された、秘密のスキル。キスすることで魂を通わせて、自分の生命を主人公に分配する。さらに強力なバフも与える。",
+      "en": "A secret skill only allowed for the 'Saint'. Shares souls through a kiss, distributing her own life to Ren. Also grants a powerful buff.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7094,
+      "id": "rem_34713",
+      "jp": "全回復 + 主人公のみ効果 + 【仲間】に【聖女の祝福】を付与 (物理ダメージ[+30%] + ターンごとにMP回復(味方のみ)[+10%])",
+      "en": "Fully Restore HP + Ren Only + Grant 【Ally】 【Saint's Blessing】 (Phys. damage +30% & Restore 10% MP per turn (allies only))",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7095,
+      "id": "rem_34714",
+      "jp": "【<src>】の[聖女の口づけ]！",
+      "en": "【<src>】's [Saint's Kiss]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7096,
+      "id": "rem_34715",
+      "jp": "警戒心の強いケモミミの直感が敏感に敵の気配を知らせる。通常のエネミーサーチより強力に周囲を察知するが、罠の発見は苦手。罠はケモミミの数少ない弱点である。",
+      "en": "The keen intuition of a wary kemonomimi sensitively detects enemies. More powerful than normal Enemy Search, but weak at finding traps. Traps are one of their few weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7097,
+      "id": "rem_34716",
+      "jp": "エネミー発見率[+60%] + トラップ発見率[+20%]",
+      "en": "Enemy Discovery Rate[+60%] + Trap Discovery Rate[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7098,
+      "id": "rem_34717",
+      "jp": "良い商品に囲まれて育った者が備える特有の肥えた目。ダンジョン内のレアアイテムを見逃さない。開発ポイントが増え、ダンジョンでレアアイテムを入手しやすくなる。",
+      "en": "The sharp eye cultivated by one raised among fine wares. Won't miss rare items in dungeons. Increases Development Points and makes finding rare items easier.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7099,
+      "id": "rem_34718",
+      "jp": "開発ポイント獲得量[+40%] + レア[+40%]",
+      "en": "Dev. Points Gained[+40%] + Rare Items[+40%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7100,
+      "id": "rem_34719",
+      "jp": "ドワーム族が備える目利き能力。ダンジョン内の貴重なアイテムや素材を持ち帰るようになり、開発ポイントをたくさん入手しやすくなり、レアアイテムも発見する。",
+      "en": "An appraisal ability possessed by the Dwarm. Allows bringing back valuable dungeon items/materials, making it easier to gain Dev. Points and discover rare items.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

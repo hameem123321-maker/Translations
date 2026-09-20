@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 80501,
+  "range_end": 80600,
+  "pairs": [
+    {
+      "n": 80501,
+      "id": "db_EventInfo:95233:111",
+      "jp": "あっ！？　そ、そうだ、仕事、行ってきます！",
+      "en": "Ah!? R-right, work! I'm going!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 80502,
+      "id": "db_EventInfo:95234:1",
+      "jp": "ああ、今後もよろしく頼むぞ",
+      "en": "Yeah. Let's work well together from now on.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80503,
+      "id": "db_EventInfo:95237:0",
+      "jp": "パテラは慌しく出て行った。",
+      "en": "Patera hurriedly left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80504,
+      "id": "db_EventInfo:95239:0",
+      "jp": "昨晩はリリエーヌと……やっちゃったんだよな……。",
+      "en": "Last night, with Lilienne... I really did it...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80505,
+      "id": "db_EventInfo:95241:107",
+      "jp": "おはようございます、【<pl>】様Д",
+      "en": "Good morning, 【<pl>】-samaД",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80506,
+      "id": "db_EventInfo:95242:1",
+      "jp": "あ、ああ、おはよう",
+      "en": "Ah, uh, good morning.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80507,
+      "id": "db_EventInfo:95243:0",
+      "jp": "リリエーヌは柔和な笑顔を浮かべている。",
+      "en": "Lilienne is wearing a gentle smile.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80508,
+      "id": "db_EventInfo:95244:1",
+      "jp": "(邪教徒相手じゃなければ、本当に立派な司祭様なんだよな)",
+      "en": "(If she wasn't dealing with heretics, she'd really be a proper priestess.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80509,
+      "id": "db_EventInfo:95245:107",
+      "jp": "【<pl>】様、そんなに見つめられると……Д",
+      "en": "【<pl>】-sama, if you stare at me like that...Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80510,
+      "id": "db_EventInfo:95246:1",
+      "jp": "あ、ああ、いや……",
+      "en": "Ah, um, no...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80511,
+      "id": "db_EventInfo:95247:107",
+      "jp": "いいえ、【<pl>】様に奉仕する事に、幸福感以外はありませんわД",
+      "en": "No, serving you, 【<pl>】, brings me nothing but happiness. Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80512,
+      "id": "db_EventInfo:95248:107",
+      "jp": "ああ、【<pl>】様……Д　私は今、神の腕に包まれているのですわねД",
+      "en": "Ah, 【<pl>】...Д I feel like I'm being held in the arms of God now. Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80513,
+      "id": "db_EventInfo:95249:1",
+      "jp": "いや、そんな大げさなものでは……",
+      "en": "No, it's not that big of a deal...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80514,
+      "id": "db_EventInfo:95250:107",
+      "jp": "はぁ、はぁ、も、申し訳ありませんД　こ、このような幸福を、朝からいただけて、その、呼吸が……Д",
+      "en": "Haah, haah... I'm so sorry. Д G-getting to have this kind of happiness from morning... my breathing is... Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80515,
+      "id": "db_EventInfo:95251:1",
+      "jp": "(感情の重さが深刻すぎる……)",
+      "en": "(Her feelings are way too heavy and serious...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80516,
+      "id": "db_EventInfo:95252:107",
+      "jp": "ああ、【<pl>】様にご満足いただけて……この上ない幸せですД",
+      "en": "Ah, knowing I've satisfied you, 【<pl>】... is the greatest happiness. Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80517,
+      "id": "db_EventInfo:95253:107",
+      "jp": "と、とにかく……Д　今後は私も、【<pl>】様に誠心誠意、仕えさせていただきますわね",
+      "en": "A-anyway... Д From now on, I will serve you, 【<pl>】, with all my heart and soul.",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80518,
+      "id": "db_EventInfo:95254:1",
+      "jp": "い、いや、そこまで力を入れずとも、リラックスして、ね？",
+      "en": "Uh, well, you don't have to try that hard, just relax, okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80519,
+      "id": "db_EventInfo:95255:107",
+      "jp": "そう、ですか？　もちろん、【<pl>】様の意向とあらば従いますが……",
+      "en": "Oh... is that right? Of course, if that is your wish, 【<pl>】, I will follow it...",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80520,
+      "id": "db_EventInfo:95256:0",
+      "jp": "リリエーヌの言動に、俺は危うさを感じずにはいられない。",
+      "en": "I can't help but feel something dangerous about the way Lilienne acts and talks.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80521,
+      "id": "db_EventInfo:95257:0",
+      "jp": "彼女の気持ちが落ち着くまで、様子を見ながら、少しずつ付き合っていく他はないだろう。",
+      "en": "All I can do is go along with her slowly, watching her closely, until she calms down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80522,
+      "id": "db_EventInfo:95258:107",
+      "jp": "それでは【<pl>】様、本日もよろしくお願いしますД",
+      "en": "Well then, 【<pl>】, I look forward to working with you again today. Д",
+      "speaker": "Lilienne",
+      "speaker_jp": "リリエーヌ"
+    },
+    {
+      "n": 80523,
+      "id": "db_EventInfo:95259:1",
+      "jp": "ああ、こちらこそよろしく頼むぞ",
+      "en": "Yeah, you too. I'm counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80524,
+      "id": "db_EventInfo:95261:0",
+      "jp": "結局ユーステルと……やってしまった……。",
+      "en": "In the end, I... ended up doing it with Eustel...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80525,
+      "id": "db_EventInfo:95263:106",
+      "jp": "はぁ、まったく、店長さんは本当にスケベだな",
+      "en": "Haah, geez, Boss, you really are a pervert, aren't you?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80526,
+      "id": "db_EventInfo:95264:1",
+      "jp": "いやその、あんまりユーステルが魅力的だったから……",
+      "en": "Well, uh... it's just that Eustel was too damn hot...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80527,
+      "id": "db_EventInfo:95265:106",
+      "jp": "だからって、襲うか？　ったく、信じられねぇぜ",
+      "en": "That's still no reason to jump me! Geez, I can't believe this.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80528,
+      "id": "db_EventInfo:95266:106",
+      "jp": "あ、ああ、まあ……で、でもよ、おかしいだろ……Д",
+      "en": "Ah, ahh, well... b-but still, it's weird, right... Д",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80529,
+      "id": "db_EventInfo:95267:1",
+      "jp": "そ、そうか？　変かな",
+      "en": "R-really? Is it weird?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80530,
+      "id": "db_EventInfo:95268:106",
+      "jp": "も、もしかして、そっちの気があるのか？　ま、まあ、店長さんが相手なら……Д",
+      "en": "D-do you... maybe have feelings for me? W-well, if it's you, Boss... Д",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80531,
+      "id": "db_EventInfo:95269:106",
+      "jp": "んんっД　ちゅ、ん、はぁ……Д　ちょ、ちょっと、何すんだよぉД",
+      "en": "MmmhД K-kiss, nn, haah...Д H-hey, what are you doing?Д",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80532,
+      "id": "db_EventInfo:95270:106",
+      "jp": "ちげえよ、何言ってんだД",
+      "en": "No way! What are you even saying?Д",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80533,
+      "id": "db_EventInfo:95271:106",
+      "jp": "とにかく、次は負けねえからな、覚悟しとけよ！",
+      "en": "Anyway, I won't lose next time! You better be ready!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80534,
+      "id": "db_EventInfo:95272:1",
+      "jp": "次って、またセックスしたいのか？",
+      "en": "Next time? You wanna have sex again?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80535,
+      "id": "db_EventInfo:95273:106",
+      "jp": "ち、ちげえよ！　バトルの方に決まってんじゃねぇか！　このスケベ！",
+      "en": "D-don't get it twisted! Of course I mean the battle, you idiot! You pervert!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80536,
+      "id": "db_EventInfo:95274:1",
+      "jp": "あ、ああ、そっちか、まあ、そうだな",
+      "en": "O-oh, that way. Yeah, right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80537,
+      "id": "db_EventInfo:95275:106",
+      "jp": "ふ、普通それしかないだろ！　もう、馬鹿！",
+      "en": "I-It's the obvious answer, right?! Geez, stupid!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80538,
+      "id": "db_EventInfo:95276:0",
+      "jp": "ユーステルは顔を真っ赤にしている",
+      "en": "Eustel's face is bright red.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80539,
+      "id": "db_EventInfo:95277:106",
+      "jp": "と、とにかく、今日のところはこれで勘弁してやる！　次は負けないからな！",
+      "en": "A-anyway, I'll let it slide for today! Next time, I won't lose!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 80540,
+      "id": "db_EventInfo:95278:1",
+      "jp": "あ、ああ",
+      "en": "Oh, okay.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80541,
+      "id": "db_EventInfo:95279:0",
+      "jp": "ユーステルは頬を染めたまま、出て行ってしまう。",
+      "en": "Eustel leaves with her cheeks still flushed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80542,
+      "id": "db_EventInfo:95280:0",
+      "jp": "しかし、彼女の表情は、最後まで笑顔のままだった。",
+      "en": "But her expression, to the very end, remained a smiling one.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80543,
+      "id": "db_EventInfo:95282:0",
+      "jp": "昨夜はミルテと……やっちゃったんだよな……。",
+      "en": "Last night, with Myrte... we really did it...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 80544,
+      "id": "db_EventInfo:95284:12",
+      "jp": "あ、その、【<pl>】、おはよう、ございます……",
+      "en": "Oh, um, 【<pl>】, g-good morning...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80545,
+      "id": "db_EventInfo:95285:1",
+      "jp": "あっ、おはよう",
+      "en": "Ah, good morning.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80546,
+      "id": "db_EventInfo:95286:12",
+      "jp": "ふ……ふん、何をキョドってるのです",
+      "en": "Hmph... Why are you acting so flustered?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80547,
+      "id": "db_EventInfo:95287:12",
+      "jp": "アナタには、この天才の純潔を与えてやったのですよ？　もっと堂々としたらどうなのです？",
+      "en": "I gave you this genius's purity, you know? Could you act a little more confident?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80548,
+      "id": "db_EventInfo:95288:1",
+      "jp": "あ、ああ……それなら",
+      "en": "Ah, ahh... well then",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80549,
+      "id": "db_EventInfo:95289:12",
+      "jp": "きゃあっД",
+      "en": "KyaahД",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80550,
+      "id": "db_EventInfo:95290:12",
+      "jp": "あっ……Д",
+      "en": "Ah...Д",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80551,
+      "id": "db_EventInfo:95291:12",
+      "jp": "や、やめなさい駄犬……Д　もう朝なんですよД",
+      "en": "St-Stop it, you dumb dog...Д It's already morningД",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80552,
+      "id": "db_EventInfo:95292:12",
+      "jp": "こ、このっ。いい気にならないことですね！",
+      "en": "Y-You! Don't get so full of yourself!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80553,
+      "id": "db_EventInfo:95293:12",
+      "jp": "で、でもまあ、そのー。私のソレを与えてやったわけですし、晴れて、こ、恋人なわけですし……？",
+      "en": "B-But, well, that... I did give you my, um, *that*... so officially, we're, l-lovers now...?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80554,
+      "id": "db_EventInfo:95294:12",
+      "jp": "これからは毎日、朝のキスとか、させてやらなくもないのですよ？",
+      "en": "From now on, I might not mind letting you... do things like give me a good morning kiss every day, you know?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80555,
+      "id": "db_EventInfo:95295:1",
+      "jp": "えっ、キスしたいのか？",
+      "en": "Huh? Do *you* want to kiss?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80556,
+      "id": "db_EventInfo:95296:12",
+      "jp": "ばっ！　アナタがしたいというなら、断らないという意味です！",
+      "en": "Gah! I mean if *you* want to, I wouldn't say no!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80557,
+      "id": "db_EventInfo:95297:1",
+      "jp": "そ、そうか、じゃあ遠慮なく……",
+      "en": "O-Oh, really? Then I won't hold back...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 80558,
+      "id": "db_EventInfo:95299:9",
+      "jp": "おはよう店長殿～",
+      "en": "Good morning, Shop Manager～",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80559,
+      "id": "db_EventInfo:95300:12",
+      "jp": "きゃあっ！？",
+      "en": "Eek!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80560,
+      "id": "db_EventInfo:95301:12",
+      "jp": "かっ、カリスト……あなた、なんで！？",
+      "en": "C-Callisto... why are you here!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80561,
+      "id": "db_EventInfo:95302:9",
+      "jp": "おやあ？　お邪魔だったかな……ククク",
+      "en": "Oh my? Was I interrupting... Heh heh heh",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80562,
+      "id": "db_EventInfo:95303:12",
+      "jp": "あっ、アナタって人は！！",
+      "en": "Aah, You're the one!!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 80563,
+      "id": "db_EventInfo:95304:15",
+      "jp": "【『メテトス百穴古墳』】に【『資源投資』】出来るようになったよ",
+      "en": "We can now make a Resource Investment into the Metetos Hundred-Hole Tumulus.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80564,
+      "id": "db_EventInfo:95305:2",
+      "jp": "古墳に【『投資』】デス？",
+      "en": "Invest... in a tumulus?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80565,
+      "id": "db_EventInfo:95306:15",
+      "jp": "うん、【『ゴブリン』】のボスを倒したことで、比較的安全に冒険者を派遣できるようになったんだ",
+      "en": "Yeah. By defeating the Goblin boss, we can send adventurers there relatively safely now.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80566,
+      "id": "db_EventInfo:95307:15",
+      "jp": "たまに応援を要請されるかもしれないけどね",
+      "en": "We might get calls for backup sometimes, though.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80567,
+      "id": "db_EventInfo:95308:6",
+      "jp": "まあ……！　私達も応援に行くべきでしょうか？",
+      "en": "Oh my...! Should we go to back them up?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 80568,
+      "id": "db_EventInfo:95309:2",
+      "jp": "オマエたちは他にやることがあるデス。応援はザコに任せるデス",
+      "en": "You guys have other things to do. Let the grunts handle backup.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80569,
+      "id": "db_EventInfo:95310:6",
+      "jp": "しかし、あんな岩ばっかりのところに、何があるのでしょうか",
+      "en": "But, what could possibly be in a place full of rocks like that?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 80570,
+      "id": "db_EventInfo:95311:15",
+      "jp": "【『ゴブリン』】に荒らされてはいたけど、もともとは古代の遺物が多く出土される場所だよ",
+      "en": "Even though the Goblins messed it up, it was originally a place where a lot of ancient artifacts were dug up.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80571,
+      "id": "db_EventInfo:95312:15",
+      "jp": "学術的に重要な資料を始めとして、貴重な鉱物も見つかるはずさ",
+      "en": "We should find important academic documents, and also some valuable minerals.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80572,
+      "id": "db_EventInfo:95313:15",
+      "jp": "【『フレスミス森林道』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now make a 'Resource Investment' in 'Freshmiss Forest Path'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80573,
+      "id": "db_EventInfo:95314:6",
+      "jp": "女商人の方も【『投資』】を推しておりましたね",
+      "en": "The female merchant was also recommending an 'investment'.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 80574,
+      "id": "db_EventInfo:95315:15",
+      "jp": "うん。フレスミスの森は森林資源が豊富だからね、果実や貴重な薬草の宝庫だよ",
+      "en": "Yeah. Freshmiss Forest is rich in resources. It's a treasure trove of fruit and valuable herbs.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80575,
+      "id": "db_EventInfo:95316:2",
+      "jp": "冒険者を派遣させて、かき集めるデス",
+      "en": "We'll send adventurers to gather it all.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80576,
+      "id": "db_EventInfo:95317:15",
+      "jp": "魔獣の強さもぼちぼちだしね、初心者を卒業した冒険者の仕事場としては優秀そうだね",
+      "en": "The monsters aren't too strong either, so it seems like a good workplace for adventurers who've finished their training.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80577,
+      "id": "db_EventInfo:95318:15",
+      "jp": "【『ドルワミール鉱山』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now make a 'Resource Investment' in 'Dolwamir Mine'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80578,
+      "id": "db_EventInfo:95319:3",
+      "jp": "こらーっ！　ドワームの里を荒らすつもりか！",
+      "en": "Hey! Are you planning to mess with Dwarm's village?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80579,
+      "id": "db_EventInfo:95320:15",
+      "jp": "そんな滅相もない、鉱山に出没する魔獣を退治する手伝いをするのさ",
+      "en": "Absolutely not. We're just helping to get rid of the monsters that show up in the mine.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80580,
+      "id": "db_EventInfo:95321:15",
+      "jp": "ついでに鉱山で採掘の手伝いをしてもらうつもりだよ",
+      "en": "And we plan to have them help with the mining work too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80581,
+      "id": "db_EventInfo:95322:3",
+      "jp": "むう……それなら構わんが",
+      "en": "Hmm... If that's the case, it's fine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80582,
+      "id": "db_EventInfo:95323:3",
+      "jp": "ドワームの聖地を侵すなら、ただではおかんぞ！",
+      "en": "But if you harm Dwarm's sacred ground, you won't get away with it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 80583,
+      "id": "db_EventInfo:95324:15",
+      "jp": "わ、わかってるって……釘を刺しておくから",
+      "en": "I get it... I'll make sure to keep a close eye on it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80584,
+      "id": "db_EventInfo:95325:15",
+      "jp": "【『イルニエル大灯台』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now invest resources into the 'Iruniel Grand Lighthouse'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80585,
+      "id": "db_EventInfo:95326:11",
+      "jp": "まあ、【『大灯台』】ですか",
+      "en": "Oh, the 'Grand Lighthouse'?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 80586,
+      "id": "db_EventInfo:95327:15",
+      "jp": "うん。【『大灯台』】の機能は回復したけど、魔獣が根絶されたわけじゃないしね",
+      "en": "Yeah. Its function is restored, but the monsters aren't completely gone.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80587,
+      "id": "db_EventInfo:95328:15",
+      "jp": "そこを根城にしていた【『ゴブリン』】のボスは倒したし、一般冒険者も立ち入れると思うよ",
+      "en": "I beat the Goblin boss that used it as a base, so regular adventurers can probably enter now.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80588,
+      "id": "db_EventInfo:95329:2",
+      "jp": "船の目印になるのは良いデスけど、魔獣まで集めてしまうのは問題デスね",
+      "en": "It's good as a landmark for ships, but it attracting monsters is a problem.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80589,
+      "id": "db_EventInfo:95330:15",
+      "jp": "【『地方領主ゼルカの屋敷』】に【『資源投資』】出来るようになったよ",
+      "en": "You can now invest resources into 'Local Lord Zelka's Mansion'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80590,
+      "id": "db_EventInfo:95331:7",
+      "jp": "あの屋敷、探索するところなんてあるの？",
+      "en": "That mansion, are there even places to explore?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 80591,
+      "id": "db_EventInfo:95332:15",
+      "jp": "ゼルカの術によって、屋敷が魔界化しているからね",
+      "en": "Zelka's magic turned the mansion into a demon world.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80592,
+      "id": "db_EventInfo:95333:15",
+      "jp": "新米冒険者が立ち入るとたちまち餌食にされるほどさ",
+      "en": "A rookie adventurer who enters would become prey in no time.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80593,
+      "id": "db_EventInfo:95334:7",
+      "jp": "ひええ。お宝があるなら、ボクも忍び込みたいけどな～♪",
+      "en": "Yikes. If there's treasure, I'd love to sneak in~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 80594,
+      "id": "db_EventInfo:95335:2",
+      "jp": "オマエ、懲りてないデスね",
+      "en": "You never learn, do you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 80595,
+      "id": "db_EventInfo:95336:15",
+      "jp": "【『ゼカリウス地下図書館』】に【『資源投資』】出来るようになったよ",
+      "en": "Now we can invest resources into the Zecarius Underground Library.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80596,
+      "id": "db_EventInfo:95337:9",
+      "jp": "ふむ……師匠殿が籠もっていた場所であるか",
+      "en": "Hmm... The place where Master used to shut himself away.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80597,
+      "id": "db_EventInfo:95338:9",
+      "jp": "たしかに、師匠殿も読み切れないほどの古代の文献で溢れていたのである",
+      "en": "Indeed. It was overflowing with ancient texts, so many even Master couldn't finish reading them all.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 80598,
+      "id": "db_EventInfo:95339:15",
+      "jp": "うん。【『<ruby=ソルシア>学院</ruby>』】なんかも注目する場所だね",
+      "en": "Yeah. The Solcia Academy is a noteworthy place too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80599,
+      "id": "db_EventInfo:95340:15",
+      "jp": "不思議なチカラが働いていて、図書館から本を持ち出せない魔術がかけられているみたいなんだ",
+      "en": "There's some strange power at work. It seems like a spell is placed so books can't be taken out of the library.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 80600,
+      "id": "db_EventInfo:95341:9",
+      "jp": "うかつに持ち出すと、呪われてしまうかもしれんな",
+      "en": "Carelessly taking one out could bring a curse upon you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6901,
+  "range_end": 7000,
+  "pairs": [
+    {
+      "n": 6901,
+      "id": "rem_34520",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 【聖属性】 + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single-target attack, Power [] + 70% Hit + 【Holy element】 + Inflicts [Exhaustion] (Physical DMG -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6902,
+      "id": "rem_34521",
+      "jp": "【<src>】の[聖なる一撃]！",
+      "en": "【<src>】's [Holy Strike]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6903,
+      "id": "rem_34522",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 必殺率[+10%] + [虚脱]を付与 (物理ダメージ-50%)",
+      "en": "Single-target attack, Power [] + 70% Hit + +10% Crit Rate + Inflicts [Exhaustion] (Physical DMG -50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6904,
+      "id": "rem_34523",
+      "jp": "【<src>】の[ナイトスウィフト]！",
+      "en": "【<src>】's [Night Swift]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6905,
+      "id": "rem_34524",
+      "jp": "ダンジョンの危険を警戒し、不確定要素を徹底的に排除する。彼が随伴した時点でトラップや不意打ちを見逃すことはなくなる。ベテラン冒険者から見ても変わり者らしい。",
+      "en": "Wary of dungeon dangers, thoroughly eliminates uncertainties. With him, traps and ambushes are never missed. Even veteran adventurers find him odd.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6906,
+      "id": "rem_34525",
+      "jp": "エネミー発見率[+100%] + トラップ発見率[+100%]",
+      "en": "Enemy Discovery Rate [+100%] + Trap Discovery Rate [+100%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6907,
+      "id": "rem_34526",
+      "jp": "戦力変換・見る＞魔防",
+      "en": "Power Shift: Observe > Magic Defense",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6908,
+      "id": "rem_34527",
+      "jp": "一気呵成に敵を殲滅するべく全体号令を発する。仲間のクールダウンが回復して加速し、スキルを連発しやすくなる。さらにチェイススキルの成功率がアップする",
+      "en": "Issues an all-out command to annihilate foes. Recovers allies' cooldowns, accelerating skill chains and boosting Chase skill success.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6909,
+      "id": "rem_34528",
+      "jp": "CT回復(中) + 【仲間】に【一気呵成】を付与 (チェイススキル発生率[+50%])",
+      "en": "CT Recovery (Medium) + Grants 【Allies】 【All-Out】 (Chase Skill Proc Rate [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6910,
+      "id": "rem_34529",
+      "jp": "【<src>】の[一気呵成の計]！",
+      "en": "【<src>】's [All-Out Strategy]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6911,
+      "id": "rem_34530",
+      "jp": "敵の弱点を見抜くパッシブスキル。仲間のクリティカル率がアップする",
+      "en": "A passive that sees enemy weak points. Boosts allies' critical rate.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6912,
+      "id": "rem_34531",
+      "jp": "パーティー全員のクリティカル率[+10%]",
+      "en": "All party members' Critical Rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6913,
+      "id": "rem_34532",
+      "jp": "スーパーメイドであるハヅキの弟子たるシズハ・クレハはメイドとして厳しい稽古を付けられていた。これによりダンジョン探索において一通りのことができる。",
+      "en": "As Hazuki's pupils, Shizuha & Kureha underwent strict maid training, mastering all dungeon basics.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6914,
+      "id": "rem_34533",
+      "jp": "サキュバス因子を持つ者の権能。死神の力を奪う「淫魔領域」を無効化する。特に強力な淫魔であるシェルフィと戦うには必須。【(バトル中に使用しないと効果は発揮されない)】。",
+      "en": "Power of a Succubus bearer. Nullifies the \"Succubus Domain\" that steals Shinigami power. Essential against powerful succubi like Shelfi. 【(No effect unless used in battle)】.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6915,
+      "id": "rem_34534",
+      "jp": "【フィールド】に【夢魔の輪】を付与 (淫魔領域の効果を完全無効化)",
+      "en": "Grants 【Field】 【Succubus Circle】 (Completely nullifies Succubus Domain effects)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6916,
+      "id": "rem_34535",
+      "jp": "【<src>】は[統べし夢魔の輪]を使用！",
+      "en": "【<src>】 used [Unifying Succubus Circle]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6917,
+      "id": "rem_34536",
+      "jp": "どう見てもケモミミなノースリンデの直感。戦闘力に劣るが、ウルフィナ以上に危険察知能力に秀でている。それを察知した後どうするかは、また別の話である。",
+      "en": "Clearly a kemomimi, Northlinde's intuition. Weak in combat, but excels in danger detection more than Wolfina. What she does after sensing it is another story.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6918,
+      "id": "rem_34537",
+      "jp": "エネミー発見率[+60%] + トラップ発見率[+80%]",
+      "en": "Enemy Discovery Rate [+60%] + Trap Discovery Rate [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6919,
+      "id": "rem_34538",
+      "jp": "刀匠たちが夢見て求める武器。かつて彼女らの王を二度殺した剣を前に、幻想の魔族は本能的に畏怖してしまう。人間の仇敵が現れたとき、神は『加護の剣』の顕現を許可する。",
+      "en": "A weapon dreamt of by smiths. The sword that twice slew their king instinctively terrifies illusory demons. When humanity's foe appears, God permits the Sword of Protection's manifestation.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6920,
+      "id": "rem_34539",
+      "jp": "物理ダメージ[+50%] + 竜タイプには[+500%] + 祝福有効時に強化",
+      "en": "Physical DMG [+50%] + [+500%] vs. Dragon type + Enhanced when blessed",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6921,
+      "id": "rem_34540",
+      "jp": "戦闘終了時にパーティー全員のＣＴを回復させる。戦闘を得意としない技能によるスキルだが、支援することで味方全員の戦力を引き出すことができる。",
+      "en": "Recovers all party members' CT after battle. A skill based on non-combat expertise, but its support can boost the entire team's fighting power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6922,
+      "id": "rem_34541",
+      "jp": "戦闘後パーティー回復・CT[+30%]",
+      "en": "Post-Battle Party Heal・CT[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6923,
+      "id": "rem_34542",
+      "jp": "信仰心が強いため、神と思い込んだマリーゼルは、常日頃から主人公の素晴らしさについて布教している。『聖女』の力のせいか、皆も本気に……。神の力が伝達しやすくなる。",
+      "en": "Her strong faith leads her to preach about Ren's greatness, convinced he's a god. Perhaps due to her 'Saint' power, everyone starts to believe... Makes divine power easier to convey.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6924,
+      "id": "rem_34543",
+      "jp": "パーティー全員の経験値[+15%]",
+      "en": "Party EXP[+15%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6925,
+      "id": "rem_34544",
+      "jp": "味方が【聖属性スキル】を使用した際に追撃する。複数回使用された場合は、連続で追撃が発生することがある。追撃は物魔両方のパラメータを参照する。",
+      "en": "Follows up when an ally uses a 【Holy Skill】. Can trigger consecutively if multiple skills are used. Follow-up damage scales with both physical and magical parameters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6926,
+      "id": "rem_34545",
+      "jp": "単体攻撃 威力[D] +  命中[70%] + 【聖属性】",
+      "en": "Single Target, Power[D] + Hit[70%] + 【Holy】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6927,
+      "id": "rem_34546",
+      "jp": "【<src>】は[セイントチェイス]で追撃した！",
+      "en": "【<src>】followed up with [Saint Chase]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6928,
+      "id": "rem_34547",
+      "jp": "天からの祝福ともいえる幸運。珍しいアイテム収集機会が増えるため、ダンジョンにレアアイテムオブジェクトが出現しやすくなる。",
+      "en": "A heavenly blessing of luck. Increases chances for rare item collection, making rare treasure objects appear more often in dungeons.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6929,
+      "id": "rem_34548",
+      "jp": "ダンジョン内のレアトレジャー発生率[+50%]",
+      "en": "Dungeon Rare Treasure Spawn Rate[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6930,
+      "id": "rem_34549",
+      "jp": "強化された魔獣の牙で相手に噛みつく。凶暴化した魔獣の牙は人間の武器よりも強力。偉大なるミズイロケモミミの末裔のみが放てる、必殺のケモミミスキル。",
+      "en": "Bites the foe with reinforced feral fangs. More powerful than human weapons. A lethal Kemomimi skill only the descendants of the great Mizuirokemomimi can unleash.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6931,
+      "id": "rem_34550",
+      "jp": "範囲(小)攻撃 威力[A+] +  命中[70%] + 連撃率[+10%] + 必殺率[+10%] + 【氷属性】 + 防御貫通(小)",
+      "en": "Small AoE, Power[A+] + Hit[70%] + Combo Rate[+10%] + Crit Rate[+10%] + 【Ice】 + Small Defense Penetration",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6932,
+      "id": "rem_34551",
+      "jp": "【<src>】は強化された牙で噛みついた！",
+      "en": "【<src>】bit with reinforced fangs!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6933,
+      "id": "rem_34552",
+      "jp": "常日頃から未踏の地を歩く遺跡学者の罠解除技術。秘境を歩くために、自然罠と機械罠を得意とする。魔術的なものに目がないため、魔術系の罠にはうっかり引っかかる。",
+      "en": "An archaeologist's trap disarming skill, honed exploring untrodden lands. Expert with natural and mechanical traps. Fascinated with magic, so can be careless with magical ones.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6934,
+      "id": "rem_34553",
+      "jp": "自然と機械系トラップの解除率[+50%]",
+      "en": "Natural & Mechanical Trap Disarm Rate[+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6935,
+      "id": "rem_34554",
+      "jp": "アンジュや大地の民が追い求める理想の武器のカタチを武器に宿らせる。攻撃力が大きくアップしていく。スキルのＣＴも回復。",
+      "en": "Imbues the ideal weapon form pursued by Anju and the Earthfolk. Greatly boosts attack power. Also recovers skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6936,
+      "id": "rem_34555",
+      "jp": "CT回復(中) + 【仲間】に【竜殺】を付与 (物理ダメージ[+50%] + 竜タイプへのダメージ[+100%])",
+      "en": "Medium CT Recovery + Grants 【Ally】 【Dragon Slayer】 (Physical DMG[+50%] + DMG to Dragon Types[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6937,
+      "id": "rem_34556",
+      "jp": "【<src>】の[ドラゴンスレイヤー]が武器に宿った！",
+      "en": "【<src>】's [Dragon Slayer] has imbued the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6938,
+      "id": "rem_34557",
+      "jp": "武器に精通した者が使える類い希な才能。自分自身の武器だけでなく、パーティー全員の武器の能力を高める。",
+      "en": "A rare talent for those masterful with weapons. Enhances not only their own weapon, but the entire party's.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6939,
+      "id": "rem_34558",
+      "jp": "魔術の神とも称される者による、進化魔術。魔術の奥義に触れることで一時的に魔術の能力が高まる。魔術攻撃力が大幅にアップする上、ＭＰまで回復する。",
+      "en": "Evolutionary magic from one called the God of Sorcery. Touching the arcane secrets temporarily heightens magical ability. Greatly boosts magic attack and recovers MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6940,
+      "id": "rem_34559",
+      "jp": "MP回復(中) + 【仲間】に【魔術++】を付与 (魔術ダメージ[+100%])",
+      "en": "Medium MP Recovery + Grants 【Ally】 【Magic++】 (Magic DMG[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6941,
+      "id": "rem_34560",
+      "jp": "【<src>】は魔術の手ほどきを行なった！",
+      "en": "【<src>】 begins teaching magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6942,
+      "id": "rem_34561",
+      "jp": "武器と魔術が高度に融合された最上位攻撃スキル。魔術を純粋に武器の攻撃強化のみに使用した超怪力で、相手を粉砕する。",
+      "en": "A supreme attack skill fusing weapons and magic. Crushes foes with immense force via pure weapon enhancement magic.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6943,
+      "id": "rem_34562",
+      "jp": "範囲(小)攻撃 威力[A+] +  命中[60%] + 必殺率[+30%] + 【火属性】 + 防御貫通(小)",
+      "en": "Small AoE attack Potency[A+] + Hit[60%] + Crit[+30%] + 【Fire】 + Minor DEF Pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6944,
+      "id": "rem_34563",
+      "jp": "【<src>】の[デストラクション]！",
+      "en": "【<src>】 uses [Destruction]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6945,
+      "id": "rem_34564",
+      "jp": "極限まで集中力を高めることで、スキル攻撃の威力を高める。効果が高い強力な自己強化スキル。",
+      "en": "Sharply heightens focus to boost skill damage. A powerful self-buff with great effect.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6946,
+      "id": "rem_34565",
+      "jp": "【自分】に【必殺++】を付与 (クリティカル率[+50%])",
+      "en": "Grants 【Self】【Critical++】 (Crit Rate[+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6947,
+      "id": "rem_34566",
+      "jp": "【<src>】は[コンセントレイト]を使用した！",
+      "en": "【<src>】 uses [Concentrate]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6948,
+      "id": "rem_34567",
+      "jp": "武器を力任せに叩き付ける基礎的な攻撃スキル。特別な効果は無いが、シンプルゆえに使いやすい。",
+      "en": "A basic attack skill swinging a weapon with brute force. No special effects, but simple and easy to use.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6949,
+      "id": "rem_34568",
+      "jp": "単体攻撃 威力[E+] +  命中[60%] + 必殺率[+10%]",
+      "en": "Single-target attack Potency[E+] + Hit[60%] + Crit[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6950,
+      "id": "rem_34569",
+      "jp": "【<src>】は[スマッシュ]を放った！",
+      "en": "【<src>】 unleashes [Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6951,
+      "id": "rem_34570",
+      "jp": "彼は魔術の基盤を作った者。現在伝わっている魔術は、彼が人間にも扱えるように効果を抑えられたものに過ぎない。人間には真似できない技術により、大魔術も連射できる。",
+      "en": "He laid magic's foundation. Modern magic is but a weakened form for humans. His inhuman technique allows rapid-fire grand spells.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6952,
+      "id": "rem_34571",
+      "jp": "MP消費軽減[-50%]",
+      "en": "MP Cost Reduced[-50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6953,
+      "id": "rem_34572",
+      "jp": "死神代行助手が増えてきて、女の子の好感度を高めることに慣れてきてしまった。女の子の性欲を上手く引き出して、簡単にモテモテになってしまう。後が怖いぞ。",
+      "en": "With more Shinigami Assistants, you've grown adept at raising girls' affection. You skillfully stir their desire, becoming effortlessly popular. Watch out.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6954,
+      "id": "rem_34573",
+      "jp": "好感度の上昇率[+30%]",
+      "en": "Affection Gain Rate[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6955,
+      "id": "rem_34574",
+      "jp": "戦力変換・尻＞速度",
+      "en": "Combat Conversion: Butt > Speed",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6956,
+      "id": "rem_34575",
+      "jp": "範囲(小)攻撃 威力[] +  命中[70%] + 必殺率[+10%] + 【聖属性】 + HP吸収(小) + 強制即死",
+      "en": "Small AoE attack Potency[] + Hit[70%] + Crit[+10%] + 【Holy】 + Minor HP Drain + Instant Death",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6957,
+      "id": "rem_34576",
+      "jp": "【<src>】の[ヴォーパル前歯]！",
+      "en": "【<src>】's [Vorpal Incisors]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6958,
+      "id": "rem_34577",
+      "jp": "双翼の退魔メイドであるシズハとクレハ、姉妹のように育てられた二人は、まるで血の繋がった姉妹のようであり、血より濃い縁で繋がれている。それはレベルも同じように。",
+      "en": "Shizuha & Kureha, the twin-winged exorcist maids. Raised like sisters, they share a bond thicker than blood. Their levels are synchronized, too.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6959,
+      "id": "rem_34578",
+      "jp": "レベル同期・シズハ/クレハと同じに",
+      "en": "Level Sync: Matches Shizuha/Kureha",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6960,
+      "id": "rem_34579",
+      "jp": "曇りのない鏡と澄んだ水面のように落ち着いた心境に至り、時間の動きを緩めるかのように振る舞い、まるで時間が止まっているかのような超高速行動が可能になる。",
+      "en": "Achieving a serene mind, like a clear mirror or still water, allows for ultra-fast action that seems to slow or even stop time.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6961,
+      "id": "rem_34580",
+      "jp": "【自分】に【神速】を付与 (ダブルアタック率[+100%] + ダブルアタックのダメージ[+20%])",
+      "en": "Grant【Self】【Godspeed】 (Double Attack Rate [+100%] + Double Attack Damage [+20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6962,
+      "id": "rem_34581",
+      "jp": "【<src>】は[明鏡止水]を使用した！",
+      "en": "【<src>】 used [Clear Serenity]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6963,
+      "id": "rem_34582",
+      "jp": "マジカルな力でフィールドのあちこちにトラップを仕掛けてしまう。味方を攻撃すると発動し、戦場を混乱に陥れる。マジカルなので都合良く、味方の行動は阻害しないらしい。",
+      "en": "A magical power that sets traps all over the field. They activate when an ally attacks, throwing the battlefield into chaos. Conveniently, being magical, they don't seem to hinder allies' actions.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6964,
+      "id": "rem_34583",
+      "jp": "【仲間】に【反撃罠++】を付与 (近接攻撃を受けた際にトラップ反撃[+50%])",
+      "en": "Grant【Allies】【Counter Trap++】 (Trap counter on melee attack [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6965,
+      "id": "rem_34584",
+      "jp": "【<src>】のマジカルなカウンター☆",
+      "en": "【<src>】's Magical Counter☆",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6966,
+      "id": "rem_34585",
+      "jp": "【<src>】は[スケープゴート]を大量配置した！",
+      "en": "【<src>】 deployed a lot of [Scapegoats]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6967,
+      "id": "rem_34586",
+      "jp": "攻撃スキルの攻撃範囲が一定確率で拡大する。高い暴力の持ち主が放つ普通の攻撃は、災害になるということである。",
+      "en": "Attack skill range expands at a set rate. An ordinary attack from someone with immense force becomes a disaster.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6968,
+      "id": "rem_34587",
+      "jp": "攻撃[+10%] + 攻撃の範囲拡大率[+10%]",
+      "en": "Attack [+10%] + Attack range expansion rate [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6969,
+      "id": "rem_34588",
+      "jp": "退魔巫女の一族に伝わる、時の流れを緩やかにする遅延魔術を敵全員に掛けることで、結果的に全員の速度が大幅アップすることで、連続攻撃発生率がアップする。",
+      "en": "Casts a time-delaying magic, passed down by the exorcist shrine maiden clan, on all enemies. As a result, everyone's speed increases dramatically, raising the chance of consecutive attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6970,
+      "id": "rem_34589",
+      "jp": "CT回復(小) + 【仲間】に【加速++】を付与 (ダブルアタック率[+100%])",
+      "en": "Small CT recovery + Grant【Allies】【Accelerate++】 (Double Attack Rate [+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6971,
+      "id": "rem_34590",
+      "jp": "【<src>】は仲間全員を超加速させた！",
+      "en": "【<src>】 super-accelerated all allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6972,
+      "id": "rem_34591",
+      "jp": "【仲間】に【大盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grant【Allies】【Great Shield】 (Reduces damage exceeding 20% of Max HP [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6973,
+      "id": "rem_34592",
+      "jp": "【<src>】の[ファランクス]が仲間を守る！",
+      "en": "【<src>】's [Phalanx] protects the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6974,
+      "id": "rem_34593",
+      "jp": "攻撃魔術を武器にまとわせた、雷属性の攻撃。攻撃魔術としてもかなり上位で、その威力は強固な鎧すらもぶち破るという。",
+      "en": "A lightning attribute attack that imbues the weapon with offensive magic. A high-level attack spell, its power can shatter even sturdy armor.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6975,
+      "id": "rem_34594",
+      "jp": "単体攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single-target attack Power[D+] + Accuracy[70%] + 【Lightning Attribute】 + Small defense penetration + Inflicts [Shock] (Crit received chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6976,
+      "id": "rem_34595",
+      "jp": "【<src>】は[ボルトアックス]を振り下ろした！",
+      "en": "【<src>】 swung down [Bolt Axe]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6977,
+      "id": "rem_34596",
+      "jp": "主人公のお気に入り認定をする。このスキルは一人にしか設定できず、習得すると他のヒロインのスキルは忘却される。何度でも変更できるので、お気に入り設定しよう。",
+      "en": "Designates Ren's favorite. This skill can be set for only one person; learning it will erase other heroines' skills. You can change it anytime, so set your favorite.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6978,
+      "id": "rem_34597",
+      "jp": "搾精による売上[+30%]",
+      "en": "Sales from essence extraction [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6979,
+      "id": "rem_34598",
+      "jp": "戦場を制圧する猛将の基本技。長柄の武器を振り回し、大勢の敵をまとめて相手することができる。単体の威力は低いが、雑魚はまとめて潰れる。",
+      "en": "A basic technique of a warlord dominating the battlefield. Swings a polearm to handle many enemies at once. Low single-target power, but clears out mobs in groups.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6980,
+      "id": "rem_34599",
+      "jp": "グループ攻撃 威力[B] +  命中[60%] + 【火属性】",
+      "en": "Group attack Power[B] + Accuracy[60%] + 【Fire Attribute】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6981,
+      "id": "rem_34600",
+      "jp": "【<src>】は[ブランディッシュ]で敵を薙ぎ払う！",
+      "en": "【<src>】 swings 【Brandish】 to cut down enemies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6982,
+      "id": "rem_34601",
+      "jp": "マジカルな力によって生み出されたステッキによって、敵をまとめてなぎ倒す。マジカルだが物理攻撃扱いである。",
+      "en": "Fells multiple enemies at once with a magically created stick. It's magical, but counts as a physical attack.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6983,
+      "id": "rem_34602",
+      "jp": "グループ攻撃 威力[A] +  命中[70%] + 【闇属性】 + 回避(小)",
+      "en": "Group Attack Power[A] + Hit[70%] + 【Dark】 + Evade(Small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6984,
+      "id": "rem_34603",
+      "jp": "【<src>】の[マジカル☆ステッキ]！",
+      "en": "【<src>】's 【Magical☆Stick】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6985,
+      "id": "rem_34604",
+      "jp": "仲間全員の分身を作り出し、それぞれ互いの攻撃に追従させる。全員のチェイススキルの威力が超大幅にアップする。",
+      "en": "Creates doppelgangers for all allies, each syncing with their attacks. Greatly boosts the power of everyone's Chase skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6986,
+      "id": "rem_34605",
+      "jp": "CT回復(小) + 【仲間】に【影分身++】を付与 (チェイススキルのダメージ[+100%])",
+      "en": "CT Recover(Small) + Grants 【Ally】 【Shadow Clone++】 (Chase skill damage[+100%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6987,
+      "id": "rem_34606",
+      "jp": "【<src>】のマジカルなミラージュ☆",
+      "en": "【<src>】's Magical Mirage☆",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6988,
+      "id": "rem_34607",
+      "jp": "強大な魔力で雷電をスパークさせ、稲妻を放出する大魔術。破壊神の鉄槌とも呼ばれるその一撃は、城壁を容易く粉砕する。",
+      "en": "A great spell unleashing lightning sparks with immense magical power. Known as the Destroyer's hammer, it easily shatters castle walls.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6989,
+      "id": "rem_34608",
+      "jp": "単体攻撃 威力[A+] +  命中[70%] + 【雷属性】 + 防御貫通(大) + 禁呪暴走抑制 + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single Attack Power[A+] + Hit[70%] + 【Lightning】 + Defense Pierce(Large) + Forbidden Spell Rampage Suppression + Grants 【Shock】 (Crit chance +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6990,
+      "id": "rem_34609",
+      "jp": "【<src>】は禁呪[トールハンマー]を発動させた！",
+      "en": "【<src>】 unleashed the forbidden spell 【Thor's Hammer】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6991,
+      "id": "rem_34610",
+      "jp": "様々な技能を身につけたことで、学習すること自体に熟練している。戦力増強のコストがダウンし、より多くのスキルを習得しやすくなる。最終的には他キャラクターと同じ習得数になる",
+      "en": "Mastery in learning itself from various acquired skills. Reduces the cost of powering up troops, making it easier to learn more skills. The final number learned equals other characters.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6992,
+      "id": "rem_34611",
+      "jp": "能力開発の消費SP[-10%]",
+      "en": "Ability Development SP Cost[-10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6993,
+      "id": "rem_34612",
+      "jp": "自らの血に眠る大魔獣の血を呼び覚まし、暴れ回る。もともとの力をさらに増大させ、恐るべき怪力を発揮できるようになる。",
+      "en": "Awakens the blood of a great demon beast sleeping within, running wild. Further enhances original power to unleash terrifying strength.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6994,
+      "id": "rem_34613",
+      "jp": "【<src>】は自らの血を呼び起こした！",
+      "en": "【<src>】 awakened their own blood!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6995,
+      "id": "rem_34614",
+      "jp": "あらゆる怪我を治療する『聖女』の奇跡。およそ治せないものはない。回復能力も絶大で、さらに防御魔術で仲間を守り、CTも回復する。",
+      "en": "The miracle of the 'Saintess' that heals all wounds. Nothing it cannot cure. Immense healing power, plus protects allies with defensive magic and recovers CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6996,
+      "id": "rem_34615",
+      "jp": "HP回復(特大) + CT回復(小) + CT消費増加 + 【仲間】に【防御】を付与 (すべてのダメージ軽減率[+30%])",
+      "en": "HP Recover(Very Large) + CT Recover(Small) + Increased CT Cost + Grants 【Ally】 【Defense】 (All damage reduction[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6997,
+      "id": "rem_34616",
+      "jp": "【<src>】のリフレッシュ！",
+      "en": "【<src>】's Refresh!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6998,
+      "id": "rem_34617",
+      "jp": "野性的な生命力を高め、強力な自己再生力を得る。ＨＰが回復する上、復活効果も載る。非常に強力なスキル。",
+      "en": "Enhances wild vitality, gaining potent self-regeneration. Recovers HP and includes a revival effect. An extremely powerful skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6999,
+      "id": "rem_34618",
+      "jp": "HP回復(大) + 【自分】に【復活++】を付与 (戦闘不能時に自動復活[+100%] + ターンごとにHP回復[+20%])",
+      "en": "HP Recover(Large) + Grants 【Self】 【Revival++】 (Auto-revive on KO[+100%] + HP regen per turn[+20%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7000,
+      "id": "rem_34619",
+      "jp": "【<src>】は[ケモミミの生命力]を使用した！",
+      "en": "【<src>】 used 【Kemomimi Vitality】!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

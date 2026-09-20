@@ -1,0 +1,814 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8701,
+  "range_end": 8800,
+  "pairs": [
+    {
+      "n": 8701,
+      "id": "rem_36352",
+      "jp": "シイ",
+      "en": "Shi",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8702,
+      "id": "rem_36353",
+      "jp": "オマエ",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8703,
+      "id": "rem_36354",
+      "jp": "アン",
+      "en": "An",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8704,
+      "id": "rem_36355",
+      "jp": "ウル",
+      "en": "Uru",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8705,
+      "id": "rem_36356",
+      "jp": "ハー",
+      "en": "Ha",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8706,
+      "id": "rem_36357",
+      "jp": "ファ",
+      "en": "Fa",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8707,
+      "id": "rem_36358",
+      "jp": "ルー",
+      "en": "Lu",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8708,
+      "id": "rem_36359",
+      "jp": "カリ",
+      "en": "Kari",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8709,
+      "id": "rem_36360",
+      "jp": "エリ",
+      "en": "Eri",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8710,
+      "id": "rem_36361",
+      "jp": "キャ",
+      "en": "Kya",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8711,
+      "id": "rem_36362",
+      "jp": "ミル",
+      "en": "Mir",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8712,
+      "id": "rem_36363",
+      "jp": "ツバ",
+      "en": "Tsuba",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8713,
+      "id": "rem_36364",
+      "jp": "レミ",
+      "en": "Remi",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8714,
+      "id": "rem_36365",
+      "jp": "シズ",
+      "en": "Shizu",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8715,
+      "id": "rem_36366",
+      "jp": "クレ",
+      "en": "Kure",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8716,
+      "id": "rem_36367",
+      "jp": "ノー",
+      "en": "No",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8717,
+      "id": "rem_36368",
+      "jp": "シェ",
+      "en": "She",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8718,
+      "id": "rem_36369",
+      "jp": "アー",
+      "en": "Ah",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8719,
+      "id": "rem_36370",
+      "jp": "派遣管財人ネルディーネ",
+      "en": "Dispatch Steward Neldine",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8720,
+      "id": "rem_36371",
+      "jp": "ネル",
+      "en": "Nel",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8721,
+      "id": "rem_36372",
+      "jp": "ユー",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8722,
+      "id": "rem_36373",
+      "jp": "オー",
+      "en": "O",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8723,
+      "id": "rem_36374",
+      "jp": "海賊女帝アーマニア14世",
+      "en": "Pirate Empress Armany XIV",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8724,
+      "id": "rem_36375",
+      "jp": "アーマニー(女帝)",
+      "en": "Empress Armany",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8725,
+      "id": "rem_36376",
+      "jp": "ヘレ",
+      "en": "Here",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8726,
+      "id": "rem_36377",
+      "jp": "ミシ",
+      "en": "Mishi",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8727,
+      "id": "rem_36378",
+      "jp": "リリ",
+      "en": "Lili",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8728,
+      "id": "rem_36379",
+      "jp": "イデ",
+      "en": "Ide",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8729,
+      "id": "rem_36380",
+      "jp": "ソル",
+      "en": "Sol",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8730,
+      "id": "rem_36381",
+      "jp": "パテ",
+      "en": "Pate",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8731,
+      "id": "rem_36382",
+      "jp": "ジャ",
+      "en": "Ja",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8732,
+      "id": "rem_36383",
+      "jp": "グレ",
+      "en": "Gre",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8733,
+      "id": "rem_36384",
+      "jp": "ティ",
+      "en": "Ti",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8734,
+      "id": "rem_36385",
+      "jp": "コペ",
+      "en": "Cope",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8735,
+      "id": "rem_36386",
+      "jp": "シオ",
+      "en": "Shio",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8736,
+      "id": "rem_36387",
+      "jp": "アナタ/アンタ",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8737,
+      "id": "rem_36388",
+      "jp": "クリ",
+      "en": "Cri",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8738,
+      "id": "rem_36389",
+      "jp": "マル",
+      "en": "Maru",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8739,
+      "id": "rem_36390",
+      "jp": "デイ",
+      "en": "Day",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8740,
+      "id": "rem_36391",
+      "jp": "エネルフィ",
+      "en": "Enerphi",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8741,
+      "id": "rem_36392",
+      "jp": "アンタ",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8742,
+      "id": "rem_36393",
+      "jp": "ヘレーリオ",
+      "en": "Helerio",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8743,
+      "id": "rem_36394",
+      "jp": "アナタ",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8744,
+      "id": "rem_36395",
+      "jp": "アルティシア",
+      "en": "Articia",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8745,
+      "id": "rem_36396",
+      "jp": "駄犬",
+      "en": "Useless mutt",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8746,
+      "id": "rem_36397",
+      "jp": "フロティナ",
+      "en": "Flotina",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8747,
+      "id": "rem_36398",
+      "jp": "キミ",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8748,
+      "id": "rem_36399",
+      "jp": "ヴァージニア",
+      "en": "Virginia",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8749,
+      "id": "rem_36400",
+      "jp": "レスタリア",
+      "en": "Restaria",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8750,
+      "id": "rem_36401",
+      "jp": "コッピナ",
+      "en": "Koppina",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8751,
+      "id": "rem_36402",
+      "jp": "シトルット",
+      "en": "Sitlut",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8752,
+      "id": "rem_36403",
+      "jp": "ゆきんこ",
+      "en": "Yukinko",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8753,
+      "id": "rem_36404",
+      "jp": "シオリア",
+      "en": "Sioria",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8754,
+      "id": "rem_36405",
+      "jp": "クシーナ",
+      "en": "Xina",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8755,
+      "id": "rem_36406",
+      "jp": "お前",
+      "en": "You",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8756,
+      "id": "rem_36407",
+      "jp": "魔女の弟子コレット",
+      "en": "Witch's Apprentice Colette",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8757,
+      "id": "rem_36408",
+      "jp": "コレット",
+      "en": "Colette",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8758,
+      "id": "rem_36409",
+      "jp": "シルドリア",
+      "en": "Sildoria",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8759,
+      "id": "rem_36410",
+      "jp": "貴殿",
+      "en": "Sir",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8760,
+      "id": "rem_36411",
+      "jp": "ネルエーデ",
+      "en": "Nereede",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8761,
+      "id": "rem_36412",
+      "jp": "ぱぱ",
+      "en": "Papa",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8762,
+      "id": "rem_36413",
+      "jp": "システム",
+      "en": "System",
+      "table": "db_VoiceChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8763,
+      "id": "rem_36414",
+      "jp": "～かな、だよロリ",
+      "en": "...I guess, lol",
+      "table": "db_UnitCharaPartner",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8764,
+      "id": "rem_36415",
+      "jp": "～ですぅロリ",
+      "en": "...it is, lol",
+      "table": "db_UnitCharaPartner",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8765,
+      "id": "rem_36416",
+      "jp": "ゼカリウス近辺の平坦な森。豊富な動植物があり、収集された素材はゼカリウスの市場に流れる。強力な魔獣も少ないため、初心者冒険者が訓練する場所としても人気。",
+      "en": "A flat forest near Zecarius. Abundant flora and fauna provide materials sold in the city's market. Few powerful monsters, making it a popular training ground for novice adventurers.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8766,
+      "id": "rem_36417",
+      "jp": "かつて神が降り立ったという伝承が残る小規模な遺跡群。隕石の飛来により生じたとされる多数のクレーターが存在し、小さな悪しき者が住み始めた。",
+      "en": "A small cluster of ruins with legends of a god's descent. Features numerous craters believed formed by meteorites. Minor evil beings have begun residing there.",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8767,
+      "id": "rem_36418",
+      "jp": "★素材なし★",
+      "en": "★No Materials★",
+      "table": "db_Dungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8768,
+      "id": "rem_36419",
+      "jp": "合体に成功した",
+      "en": "Fusion successful",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8769,
+      "id": "rem_36420",
+      "jp": "女の子の弱点を愛撫した",
+      "en": "Caressed the girl's weakness",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8770,
+      "id": "rem_36421",
+      "jp": "ムードを極限まで上げた",
+      "en": "Pushed the mood to the limit",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8771,
+      "id": "rem_36422",
+      "jp": "女の子を精液まみれにした",
+      "en": "Covered the girl in semen",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 8772,
+      "id": "rem_36423",
+      "jp": "クライシスから同時絶頂",
+      "en": "Simultaneous climax from crisis",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8773,
+      "id": "rem_36424",
+      "jp": "女の子ととにかくトーク",
+      "en": "Just talked with the girl",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8774,
+      "id": "rem_36425",
+      "jp": "何度も延長戦をした",
+      "en": "Extended the session many times",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8775,
+      "id": "rem_36497",
+      "jp": "市民の間で愛食されている主食。お腹がよく膨らむ上に安い、庶民の味方。味は悪いが、生きる為の重要なエネルギー。",
+      "en": "A staple food beloved by citizens. Cheap and filling, a friend to the commonfolk. Tastes bad, but vital energy for survival.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8776,
+      "id": "rem_36498",
+      "jp": "間に合わせの大パン",
+      "en": "Makeshift Big Bread",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8777,
+      "id": "rem_36499",
+      "jp": "麦の粉をミルクでまとめて焼き上げた、ぱさぱさした食感のスコーン。口に残るので、紅茶などと一緒に食される。",
+      "en": "",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 8778,
+      "id": "rem_36500",
+      "jp": "ぱさぱさスコーン",
+      "en": "Dry Scone",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8779,
+      "id": "rem_36501",
+      "jp": "そのまま食べては味気ないパンに、甘さを加えて焼き上げた。味が大幅に改善した上に、エネルギー効率も高く、その上安い。",
+      "en": "Plain bread baked with added sweetness. Greatly improved taste, high energy efficiency, and still cheap.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8780,
+      "id": "rem_36502",
+      "jp": "甘味入り菓子パン",
+      "en": "Sweet Pastry Bread",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8781,
+      "id": "rem_36503",
+      "jp": "小麦粉を細く伸ばして捏ねた物に、熱したチーズを加えた料理。ハーブや果実ソースで味を調えた高級料理だが、常食するにはやや高い上、冷えると固まってしまう。",
+      "en": "Dough stretched thin and kneaded, combined with heated cheese. A high-class dish seasoned with herbs or fruit sauce, but too pricey for daily meals and it hardens when cold.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8782,
+      "id": "rem_36504",
+      "jp": "パスタ盛りチーズ和え",
+      "en": "Pasta with Cheese Sauce",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8783,
+      "id": "rem_36505",
+      "jp": "森の香草を練り込んだ平焼きパン。食堂の定番として人気。",
+      "en": "A flatbread baked with forest herbs mixed in. A popular staple at the canteen.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8784,
+      "id": "rem_36506",
+      "jp": "大地のフォカッチャ",
+      "en": "Focaccia of the Earth",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8785,
+      "id": "rem_36507",
+      "jp": "薄く伸ばしたパンに、香草を乗せて焼き上げた物。生地の厚さと乗せたハーブで、好みの味に仕上げて楽しめる。",
+      "en": "Bread spread thin, topped with herbs and baked. You can enjoy customizing the taste with crust thickness and your choice of herbs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8786,
+      "id": "rem_36508",
+      "jp": "薄切りハーブ乗せトースト",
+      "en": "Thin-Slice Toast with Herbs",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8787,
+      "id": "rem_36509",
+      "jp": "ミルクを生地に練り込み、ふっくらと焼き上げたパン。自然の優しい味わいは、冒険者の心も癒す。胃袋に長く居座る腹持ちの良さも人気。",
+      "en": "Bread baked fluffy with milk kneaded into the dough. Its gentle, natural flavor soothes an adventurer's soul. Its satisfying staying power is also popular.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8788,
+      "id": "rem_36510",
+      "jp": "練り込みミルクパン",
+      "en": "Milk Bread (Kneaded)",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8789,
+      "id": "rem_36511",
+      "jp": "薄く切ったパンにチーズを挟み、野菜やソースで味を調えた物。パスタに比べて調理が簡単なため、朝の忙しい時間でも食べやすい。",
+      "en": "Cheese sandwiched between thinly sliced bread, flavored with veggies and sauce. Easier to make than pasta, perfect for busy mornings.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8790,
+      "id": "rem_36512",
+      "jp": "チーズサンド",
+      "en": "Cheese Sandwich",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8791,
+      "id": "rem_36513",
+      "jp": "ふっくらと焼き上げたトーストに、バターを落とした定番の朝食。準備が容易で、手軽に朝の活力を得られる。",
+      "en": "A classic breakfast: fluffy toast with butter melting on top. Easy to prepare, a quick way to get morning energy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8792,
+      "id": "rem_36514",
+      "jp": "バタートースト",
+      "en": "Buttered Toast",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8793,
+      "id": "rem_36515",
+      "jp": "小麦を練った生地にチーズやハーブを始め、様々な自然の恵みをふんだんに取り入れて焼き上げた、贅沢な料理。食べれば皆が笑顔になる、森の恵みのハーモニー。",
+      "en": "A lavish dish: wheat dough baked generously with cheese, herbs, and other bounties of nature. The forest's harmonious blessing that brings smiles with every bite.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8794,
+      "id": "rem_36516",
+      "jp": "森の恵みチーズパイ",
+      "en": "Forest Blessing Cheese Pie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8795,
+      "id": "rem_36517",
+      "jp": "ウィルチ監修の、栄養満点ポットパイ。滋味豊かなその味は毎日食べても飽きないどころか、気が付けば食べたくなってしまう程。",
+      "en": "A nutritious pot pie supervised by Wilch. Its rich, wholesome flavor is so addictive you'll crave it, never growing tired of it.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8796,
+      "id": "rem_36518",
+      "jp": "魔女のポットパイ",
+      "en": "Witch's Pot Pie",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8797,
+      "id": "rem_36519",
+      "jp": "干しただけの獣肉。一見すると腐敗しているようにも見えるが、無事に食べられる。",
+      "en": "Simply dried beast meat. Might look rotten, but it's safe to eat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8798,
+      "id": "rem_36520",
+      "jp": "乾燥ジャーキー",
+      "en": "Dried Jerky",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8799,
+      "id": "rem_36521",
+      "jp": "野生の獣をその場で解体し、食べやすい大きさにカットしてハーブと共に焼き上げた野趣溢れる料理。筋肉質な野獣の肉は、噛み応え抜群。",
+      "en": "A rustic dish: wild game butchered on the spot, cut into bite-sized pieces, and grilled with herbs. The muscular wild meat offers a satisfying chew.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8800,
+      "id": "rem_36522",
+      "jp": "ブツ切りワイルドソテー",
+      "en": "Chunky Wild Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

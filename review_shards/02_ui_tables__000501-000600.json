@@ -1,0 +1,808 @@
+{
+  "source_file": "02_ui_tables.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 501,
+  "range_end": 600,
+  "pairs": [
+    {
+      "n": 501,
+      "id": "ui_db_MessageClubInfo_440_4",
+      "jp": "なあ、ダンジョンで暴れよーぜ！",
+      "en": "Hey, let's tear up the dungeon!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 502,
+      "id": "ui_db_MessageClubInfo_441_4",
+      "jp": "ほ、本当に気持ち良くなって……？",
+      "en": "W-will it really feel good...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 503,
+      "id": "ui_db_MessageClubInfo_442_4",
+      "jp": "かしこまりましたわД",
+      "en": "UnderstoodД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 504,
+      "id": "ui_db_MessageClubInfo_443_4",
+      "jp": "ねえねえ、もっと別のプレイにしようよ",
+      "en": "Hey, let's try something else!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 505,
+      "id": "ui_db_MessageClubInfo_444_4",
+      "jp": "変態なお兄ちゃんには、おしおきするねД",
+      "en": "Naughty boy needs to be punishedД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 506,
+      "id": "ui_db_MessageClubInfo_445_4",
+      "jp": "新たな扉を開いてやろう！",
+      "en": "I'll open a new door for you!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 507,
+      "id": "ui_db_MessageClubInfo_446_4",
+      "jp": "むぅ、もっと、か？　わ、分かった",
+      "en": "Uu, more? O-okay",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 508,
+      "id": "ui_db_MessageClubInfo_447_4",
+      "jp": "お姉ちゃん、これ苦手かも……",
+      "en": "Sis, I might not be good at this...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 509,
+      "id": "ui_db_MessageClubInfo_448_4",
+      "jp": "可愛い声で鳴いてみせなさいД",
+      "en": "Make cute sounds for meД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 510,
+      "id": "ui_db_MessageClubInfo_449_4",
+      "jp": "が、頑張りますねД",
+      "en": "I-I'll do my bestД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 511,
+      "id": "ui_db_MessageClubInfo_450_4",
+      "jp": "ど、どうだ、気持ちいいかよ……Д",
+      "en": "H-how is it? Feels good, right...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 512,
+      "id": "ui_db_MessageClubInfo_451_4",
+      "jp": "ほらほら、気持ちいいでしょД",
+      "en": "See? It feels good, doesn't it?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 513,
+      "id": "ui_db_MessageClubInfo_452_4",
+      "jp": "上手くやれてるよな……Д",
+      "en": "Doing pretty well, huh...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 514,
+      "id": "ui_db_MessageClubInfo_453_4",
+      "jp": "ん、ちょっと、楽しいですД",
+      "en": "Mmm, it's kinda funД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 515,
+      "id": "ui_db_MessageClubInfo_454_4",
+      "jp": "うふ、ちょっと得意かも",
+      "en": "Hehe, maybe I'm a bit good at this.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 516,
+      "id": "ui_db_MessageClubInfo_455_4",
+      "jp": "もっと強くしますわねД",
+      "en": "I'll go harder nowД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 517,
+      "id": "ui_db_MessageClubInfo_456_4",
+      "jp": "未熟ですが、精一杯努めますД",
+      "en": "I'm inexperienced, but I'll do my bestД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 518,
+      "id": "ui_db_MessageClubInfo_457_4",
+      "jp": "はぁ、はぁ、興奮しちまう……Д",
+      "en": "Haa, haa, getting excited...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 519,
+      "id": "ui_db_MessageClubInfo_458_4",
+      "jp": "おぉ、良いぞ、感じるのじゃなД",
+      "en": "Oh, good, you can feel it, can't you?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 520,
+      "id": "ui_db_MessageClubInfo_459_4",
+      "jp": "な、慣れる気がしないが……Д",
+      "en": "I-I don't think I'll get used to this...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 521,
+      "id": "ui_db_MessageClubInfo_460_4",
+      "jp": "変態を躾けてあげる",
+      "en": "I'll teach the pervert a lesson.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 522,
+      "id": "ui_db_MessageClubInfo_461_4",
+      "jp": "想像力が刺激されますなД",
+      "en": "Quite stimulating to the imagination.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 523,
+      "id": "ui_db_MessageClubInfo_462_4",
+      "jp": "ああ、何と可愛らしいお姿……Д",
+      "en": "Ah, what a lovely sight...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 524,
+      "id": "ui_db_MessageClubInfo_463_4",
+      "jp": "お望みとあらば……ゾクゾクしますわ",
+      "en": "If that is your wish... How thrilling.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 525,
+      "id": "ui_db_MessageClubInfo_464_4",
+      "jp": "いっぱい叩いたるからなД",
+      "en": "Gonna give you a good spanking.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 526,
+      "id": "ui_db_MessageClubInfo_465_4",
+      "jp": "あはД　可愛い声ですねД",
+      "en": "AhaД What a cute voice.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 527,
+      "id": "ui_db_MessageClubInfo_466_4",
+      "jp": "そらそら、悶えなさいよД",
+      "en": "There there, writhe for me.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 528,
+      "id": "ui_db_MessageClubInfo_467_4",
+      "jp": "ふふ、気持ち悪いですわぁД",
+      "en": "Fufu, how disgusting.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 529,
+      "id": "ui_db_MessageClubInfo_468_4",
+      "jp": "んっ、うごくなデスД",
+      "en": "Mmph, don't move.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 530,
+      "id": "ui_db_MessageClubInfo_469_4",
+      "jp": "んっ、んっ……Д",
+      "en": "Mmph, mmph...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 531,
+      "id": "ui_db_MessageClubInfo_470_4",
+      "jp": "んっ、んんっ、なんだか変になるぞ！",
+      "en": "Mmh, mmmh... This is starting to feel weird!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 532,
+      "id": "ui_db_MessageClubInfo_471_4",
+      "jp": "まあД　これがお好みですのねД",
+      "en": "My my.Д So this is your preference.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 533,
+      "id": "ui_db_MessageClubInfo_472_4",
+      "jp": "お望みでしたら……Д",
+      "en": "If that is your wish...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 534,
+      "id": "ui_db_MessageClubInfo_473_4",
+      "jp": "いいよ、動いてあげるねД",
+      "en": "Okay, I'll move for you.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 535,
+      "id": "ui_db_MessageClubInfo_474_4",
+      "jp": "えへへ、動いてあげるねД",
+      "en": "Ehehe, I'll move for you.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 536,
+      "id": "ui_db_MessageClubInfo_475_4",
+      "jp": "むう、私に動けというのかД",
+      "en": "Hmph, you want me to move?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 537,
+      "id": "ui_db_MessageClubInfo_476_4",
+      "jp": "わ、私が動くのか……！？",
+      "en": "W-wait, I have to move...!?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 538,
+      "id": "ui_db_MessageClubInfo_477_4",
+      "jp": "じっとしててね、いま動いて上げるからД",
+      "en": "Stay still, I'll move for you now.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 539,
+      "id": "ui_db_MessageClubInfo_478_4",
+      "jp": "しっかりと、ご主人様を楽しませなさい",
+      "en": "Do your best to entertain our master properly.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 540,
+      "id": "ui_db_MessageClubInfo_479_4",
+      "jp": "んん、動きにくい、です",
+      "en": "Nn, hard to move...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 541,
+      "id": "ui_db_MessageClubInfo_480_4",
+      "jp": "よい出来映えデス",
+      "en": "Well done indeed.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 542,
+      "id": "ui_db_MessageClubInfo_481_4",
+      "jp": "さすがは妾じゃな",
+      "en": "As expected of myself.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 543,
+      "id": "ui_db_MessageClubInfo_482_4",
+      "jp": "これでいいのか？",
+      "en": "Is this okay?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 544,
+      "id": "ui_db_MessageClubInfo_483_4",
+      "jp": "これでよくって？",
+      "en": "This is good enough?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 545,
+      "id": "ui_db_MessageClubInfo_484_4",
+      "jp": "頑張って作りましたわД",
+      "en": "I worked hard on it Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 546,
+      "id": "ui_db_MessageClubInfo_485_4",
+      "jp": "うん、美味しそう！",
+      "en": "Yeah, looks delicious!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 547,
+      "id": "ui_db_MessageClubInfo_486_4",
+      "jp": "できたД　ルーシェの手作りお料理だよД",
+      "en": "Done Д Lusche's homemade cooking Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 548,
+      "id": "ui_db_MessageClubInfo_487_4",
+      "jp": "ククク……いかん、笑ってしまうである",
+      "en": "Kukuku... can't help but laugh.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 549,
+      "id": "ui_db_MessageClubInfo_488_4",
+      "jp": "糧食には向かないと思うが……",
+      "en": "Not really suited for rations...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 550,
+      "id": "ui_db_MessageClubInfo_489_4",
+      "jp": "ちょっと作りすぎちゃったかも……Д",
+      "en": "Maybe I made a bit too much... Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 551,
+      "id": "ui_db_MessageClubInfo_490_4",
+      "jp": "私に作らせるんですか？",
+      "en": "You're having me make it?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 552,
+      "id": "ui_db_MessageClubInfo_491_4",
+      "jp": "クリエイトしましたヨー！",
+      "en": "Create successful yo!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 553,
+      "id": "ui_db_MessageClubInfo_492_4",
+      "jp": "中々いい出来じゃねえか？",
+      "en": "Not a bad job, huh?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 554,
+      "id": "ui_db_MessageClubInfo_493_4",
+      "jp": "できあがりです……どうでしょうか",
+      "en": "It's finished... what do you think?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 555,
+      "id": "ui_db_MessageClubInfo_494_4",
+      "jp": "こんなもんでどうだ？",
+      "en": "How's this?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 556,
+      "id": "ui_db_MessageClubInfo_495_4",
+      "jp": "これは高く売れるんじゃない？",
+      "en": "This should sell for a lot, right?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 557,
+      "id": "ui_db_MessageClubInfo_496_4",
+      "jp": "うーん、俺も中々デキるじゃねぇか",
+      "en": "Hmm, I'm pretty good at this, ain't I?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 558,
+      "id": "ui_db_MessageClubInfo_497_4",
+      "jp": "いかがですか、この出来栄え",
+      "en": "How about it, this handiwork?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 559,
+      "id": "ui_db_MessageClubInfo_498_4",
+      "jp": "食べられれば良くない？　だめ？",
+      "en": "If it's edible, isn't that fine? Not good?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 560,
+      "id": "ui_db_MessageClubInfo_499_4",
+      "jp": "ええ、ええ、いかがですか？",
+      "en": "Yes, yes, how about it?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 561,
+      "id": "ui_db_MessageClubInfo_500_4",
+      "jp": "完成であります！",
+      "en": "Done!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 562,
+      "id": "ui_db_MessageClubInfo_501_4",
+      "jp": "うーん、中々いいんじゃねぇか？",
+      "en": "Hmm, not bad at all, eh?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 563,
+      "id": "ui_db_MessageClubInfo_502_4",
+      "jp": "うむ、我が叡智の結晶じゃな",
+      "en": "Indeed, the crystallization of my wisdom.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 564,
+      "id": "ui_db_MessageClubInfo_503_4",
+      "jp": "こんなものだろうか……？",
+      "en": "How about this...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 565,
+      "id": "ui_db_MessageClubInfo_504_4",
+      "jp": "悪くない出来……",
+      "en": "Not a bad result...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 566,
+      "id": "ui_db_MessageClubInfo_505_4",
+      "jp": "ふ、フヒヒ、できましたぞ",
+      "en": "Heh, hehehe, it's finished.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 567,
+      "id": "ui_db_MessageClubInfo_506_4",
+      "jp": "いかがでしょう、この品質",
+      "en": "What do you think of this quality?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 568,
+      "id": "ui_db_MessageClubInfo_507_4",
+      "jp": "できましたわ",
+      "en": "It's ready.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 569,
+      "id": "ui_db_MessageClubInfo_508_4",
+      "jp": "ええ味が出たんとちゃう？",
+      "en": "Nice flavor, don't ya think?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 570,
+      "id": "ui_db_MessageClubInfo_509_4",
+      "jp": "完成です☆　いかがですか？",
+      "en": "Finished☆ What do you think?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 571,
+      "id": "ui_db_MessageClubInfo_510_4",
+      "jp": "どう、中々じゃない？",
+      "en": "See, not bad, right?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 572,
+      "id": "ui_db_MessageClubInfo_511_4",
+      "jp": "完成ですわ",
+      "en": "Complete.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 573,
+      "id": "ui_db_MessageClubInfo_512_4",
+      "jp": "こらっ、いやらしいデスよД",
+      "en": "Hey, that's pervy...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 574,
+      "id": "ui_db_MessageClubInfo_513_4",
+      "jp": "んあっ、激しいのじゃ！",
+      "en": "Ngh! So intense...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 575,
+      "id": "ui_db_MessageClubInfo_514_4",
+      "jp": "あおおんД　おおんД",
+      "en": "Awooo☆ Oooh☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 576,
+      "id": "ui_db_MessageClubInfo_515_4",
+      "jp": "ああんД　こんな格好恥ずかしい…Д",
+      "en": "Ahhn☆ This outfit is so embarrassing...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 577,
+      "id": "ui_db_MessageClubInfo_516_4",
+      "jp": "こんな、声が、はしたないですわД",
+      "en": "Such... sounds... are indecent...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 578,
+      "id": "ui_db_MessageClubInfo_517_4",
+      "jp": "あんっ、激しいよぉД",
+      "en": "Ahhn, so rough...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 579,
+      "id": "ui_db_MessageClubInfo_518_4",
+      "jp": "あんД　あぁんД　襲われちゃうД",
+      "en": "Ahhn☆ Aahhn☆ I'm being attacked...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 580,
+      "id": "ui_db_MessageClubInfo_519_4",
+      "jp": "ふあっ、後ろからなんて……Д",
+      "en": "Fwaah, from behind like that...☆",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 581,
+      "id": "ui_db_MessageClubInfo_520_4",
+      "jp": "こ、こんな格好、恥ずかしい……",
+      "en": "T-this outfit is so embarrassing...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 582,
+      "id": "ui_db_MessageClubInfo_521_4",
+      "jp": "あぁん、奥まで入ってきてるД",
+      "en": "Ahhn, it's going so deepД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 583,
+      "id": "ui_db_MessageClubInfo_522_4",
+      "jp": "御主人様に奉仕しなさい",
+      "en": "Serve your Master.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 584,
+      "id": "ui_db_MessageClubInfo_523_4",
+      "jp": "あ、あ、少し、ゆっくり……",
+      "en": "Ah, ah, slower, please...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 585,
+      "id": "ui_db_MessageClubInfo_524_4",
+      "jp": "んく、待って、奥に、あんД",
+      "en": "Nghk, wait, it's too deep, ahhД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 586,
+      "id": "ui_db_MessageClubInfo_525_4",
+      "jp": "あう、奥に、んんっ……Д",
+      "en": "Aww, deep inside, nnngh...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 587,
+      "id": "ui_db_MessageClubInfo_526_4",
+      "jp": "あん、もっと、激しくても、いいせД",
+      "en": "Ahhn, you can be rougherД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 588,
+      "id": "ui_db_MessageClubInfo_527_4",
+      "jp": "あうД　待って、ゆっくり、ふあぁД",
+      "en": "AwwД Wait, slower, fuahhД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 589,
+      "id": "ui_db_MessageClubInfo_528_4",
+      "jp": "ひぅ、くっ、もう、無理ぃД",
+      "en": "Hii, kuh, I can't take any moreД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 590,
+      "id": "ui_db_MessageClubInfo_529_4",
+      "jp": "あんД　乱暴にして、構いませんよД",
+      "en": "AhhnД You don't have to be gentleД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 591,
+      "id": "ui_db_MessageClubInfo_530_4",
+      "jp": "う、く、少し、ゆっくり、あんД",
+      "en": "Ugh, kuh, a little slower, ahhД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 592,
+      "id": "ui_db_MessageClubInfo_531_4",
+      "jp": "うあ、激しすぎ、ちょ、んんんД",
+      "en": "Waah, too rough, choo, nnnnД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 593,
+      "id": "ui_db_MessageClubInfo_532_4",
+      "jp": "あんД　もっと、労らんかД",
+      "en": "AhhnД Could you go a little easier?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 594,
+      "id": "ui_db_MessageClubInfo_533_4",
+      "jp": "あ、あ、奥に、届くぅ……Д",
+      "en": "Ah, ah, it's reaching deep inside...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 595,
+      "id": "ui_db_MessageClubInfo_534_4",
+      "jp": "くぅ、扱いに、抗議して、いいよね",
+      "en": "Kuuu, I'm allowed to complain about how you're handling me, right?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 596,
+      "id": "ui_db_MessageClubInfo_535_4",
+      "jp": "あん、これ、す、凄いですぞД",
+      "en": "Ahh, this is, i-incredibleД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 597,
+      "id": "ui_db_MessageClubInfo_536_4",
+      "jp": "んんД　いっぱい、突いて下さいД",
+      "en": "NnnД Please thrust all the wayД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 598,
+      "id": "ui_db_MessageClubInfo_537_4",
+      "jp": "はぁ、んん、もっと、して下さい",
+      "en": "Haa, nnn, more, please.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 599,
+      "id": "ui_db_MessageClubInfo_538_4",
+      "jp": "あんま、激しくせんでな",
+      "en": "Hey, not so rough.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 600,
+      "id": "ui_db_MessageClubInfo_539_4",
+      "jp": "んんД　もっと、して下さいД",
+      "en": "NnnД More, pleaseД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    }
+  ]
+}

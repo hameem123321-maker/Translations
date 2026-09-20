@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 95801,
+  "range_end": 95900,
+  "pairs": [
+    {
+      "n": 95801,
+      "id": "db_EventInfo:113186:0",
+      "jp": "ミルテはこう言っていたが、それは達成できなかった。",
+      "en": "Myrte said that, but we couldn't do it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95802,
+      "id": "db_EventInfo:113187:0",
+      "jp": "大事に保管していたはずの【『起源の魔術書』】だが、ある日突然に紛失して、行方が分からなくなったのだ。",
+      "en": "We were keeping the 『Primordial Magic Book』 safe. But one day, it suddenly went missing. We have no idea where it is.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95803,
+      "id": "db_EventInfo:113188:0",
+      "jp": "……まるで【削除された魔術】を隠すかのように。",
+      "en": "...Like someone was hiding the 『Erased Magic』.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95804,
+      "id": "db_EventInfo:113189:0",
+      "jp": "森を歩いていると、冒険者の一団に出会った。",
+      "en": "I was walking through the forest when I met a group of adventurers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95805,
+      "id": "db_EventInfo:113191:19",
+      "jp": "やあ、俺の名前はラシェウス。売り出し中の【『勇者』】さ！",
+      "en": "Hey, my name's Rasieus. I'm an up-and-coming 『Hero』!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95806,
+      "id": "db_EventInfo:113192:1",
+      "jp": "【『勇者』】……？",
+      "en": "『Hero』...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95807,
+      "id": "db_EventInfo:113193:115",
+      "jp": "そう、ラシェウスは今評判の【『勇者』】……ご存じでしょう？",
+      "en": "Yes, Rasieus is the popular 『Hero』 right now... You know about him, right?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 95808,
+      "id": "db_EventInfo:113194:2",
+      "jp": "知らないデス",
+      "en": "I don't know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95809,
+      "id": "db_EventInfo:113195:105",
+      "jp": "ふん……どうやら新米の冒険者のようだな。ラシェウス殿の名を知らないとは",
+      "en": "Hmph... Looks like you're a rookie adventurer. Not knowing Lord Rasieus's name...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 95810,
+      "id": "db_EventInfo:113196:19",
+      "jp": "まあまあ",
+      "en": "Now, now.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95811,
+      "id": "db_EventInfo:113197:19",
+      "jp": "君たちも冒険者のようだね？　知らない顔だけど……",
+      "en": "You look like adventurers too? I don't know you...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95812,
+      "id": "db_EventInfo:113198:1",
+      "jp": "ああ。俺は【<pl>】、こっちは",
+      "en": "Yeah. I'm 【<pl>】, and this is",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95813,
+      "id": "db_EventInfo:113199:2",
+      "jp": "シイネデス",
+      "en": "Shiine.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95814,
+      "id": "db_EventInfo:113200:19",
+      "jp": "ふーん",
+      "en": "Hmm.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95815,
+      "id": "db_EventInfo:113201:19",
+      "jp": "……あれ？　もしかしてゼカリウスで宿屋をやってる人かい？",
+      "en": "...Wait? You don't happen to be the person running the inn in Zecarius, do you?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95816,
+      "id": "db_EventInfo:113202:1",
+      "jp": "知っているのか？",
+      "en": "You know about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95817,
+      "id": "db_EventInfo:113203:19",
+      "jp": "もちろんさ、近いうちに行こうと思っていたんだ",
+      "en": "Of course, I was planning to go there soon.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95818,
+      "id": "db_EventInfo:113204:1",
+      "jp": "それは嬉しいな。宿はいつでもやってるから、いつでも来てくれ",
+      "en": "That's good to hear. The inn is always open, so come anytime.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95819,
+      "id": "db_EventInfo:113205:19",
+      "jp": "そうなのか！　宿屋をやってるのに、冒険者もやるなんて多才な人だな！",
+      "en": "Is that so! Running an inn and being an adventurer too? You're a real talent!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95820,
+      "id": "db_EventInfo:113206:19",
+      "jp": "よかったら今度、割引してくれよ！",
+      "en": "If you can, give me a discount next time!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95821,
+      "id": "db_EventInfo:113207:1",
+      "jp": "あのなあ……",
+      "en": "Oh, come on...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95822,
+      "id": "db_EventInfo:113208:19",
+      "jp": "まあそれはいいとして。このあたりの魔獣は弱いけど、中には強いヤツもいるみたいぜ",
+      "en": "Anyway, putting that aside. The monsters around here are weak, but it seems there are some strong ones mixed in.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95823,
+      "id": "db_EventInfo:113209:19",
+      "jp": "大物には気をつけろよ！　お互い、気を付けて探索しようぜ！",
+      "en": "Watch out for big threats! Let's both be careful while exploring!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95824,
+      "id": "db_EventInfo:113210:1",
+      "jp": "ああ",
+      "en": "Right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95825,
+      "id": "db_EventInfo:113213:0",
+      "jp": "ラシェウスたちは去っていった。",
+      "en": "Rasieus and the others left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95826,
+      "id": "db_EventInfo:113214:2",
+      "jp": "【『勇者』】デスか……あまり力はなさそうデスが",
+      "en": "The 'Hero'... Doesn't seem very strong.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95827,
+      "id": "db_EventInfo:113215:2",
+      "jp": "妙な気配みたいなものは、感じるやつデスね……",
+      "en": "But I feel something weird about him...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95828,
+      "id": "db_EventInfo:113216:0",
+      "jp": "洞窟を歩いていると、冒険者の一団に出会った。",
+      "en": "While walking through the cave, we met a group of adventurers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95829,
+      "id": "db_EventInfo:113218:19",
+      "jp": "やあ、店長さんたちじゃないか。奇遇だな！",
+      "en": "Hey, if it isn't the shopkeepers! Fancy meeting you here!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95830,
+      "id": "db_EventInfo:113219:2",
+      "jp": "いつぞやの自称【『勇者』】じゃないデスか",
+      "en": "It's that so-called 'Hero' from before.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95831,
+      "id": "db_EventInfo:113220:105",
+      "jp": "自称だと……なんて無礼な",
+      "en": "So-called... How rude.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 95832,
+      "id": "db_EventInfo:113221:115",
+      "jp": "そう、ラシェウスは今評判の【『勇者』】……己の無知を恥じるべき",
+      "en": "Yes, Rasieus is the famous 'Hero' now. You should be ashamed of your ignorance.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 95833,
+      "id": "db_EventInfo:113222:2",
+      "jp": "そんなこと言われてもデス",
+      "en": "Even if you say that...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95834,
+      "id": "db_EventInfo:113223:19",
+      "jp": "はは！",
+      "en": "Ha ha!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95835,
+      "id": "db_EventInfo:113224:19",
+      "jp": "この鉱山は暗くて狭いな！　【『勇者』】としては、もっと華々しい場所で活躍したいものだが！",
+      "en": "This mine is dark and cramped! As the Hero, I'd rather shine somewhere more glorious!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95836,
+      "id": "db_EventInfo:113225:1",
+      "jp": "あのなあ……",
+      "en": "Oh boy...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95837,
+      "id": "db_EventInfo:113226:19",
+      "jp": "【『ゴブリン』】程度に後れは取らないが、地中から襲って来る【『ワーム』】は厄介だな。昔は【『岩喰らい』】の異名を持つ巨大な奴がいたらしいが……",
+      "en": "I won't fall behind a mere Goblin, but those Worms attacking from underground are a pain. I heard there used to be a huge one nicknamed the Stone-Eater...",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95838,
+      "id": "db_EventInfo:113227:19",
+      "jp": "こんな狭い場所で、そんな大物と戦ったら、なぶり殺しにされるだけだ。出会わないことを祈るぜ！",
+      "en": "If we fought a big monster like that in this tight space, we'd just get toyed with and killed. Let's pray we don't meet it!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95839,
+      "id": "db_EventInfo:113228:19",
+      "jp": "じゃあな！　お互い、気を付けて探索しようぜ！",
+      "en": "Alright then! Let's both be careful exploring!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95840,
+      "id": "db_EventInfo:113229:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95841,
+      "id": "db_EventInfo:113232:0",
+      "jp": "ラシェウスたちは去っていった。",
+      "en": "Rasieus and the others left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95842,
+      "id": "db_EventInfo:113233:2",
+      "jp": "【『勇者』】デスか……本当に評判あるんデス？",
+      "en": "So that's the Hero... Is their reputation for real, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95843,
+      "id": "db_EventInfo:113234:2",
+      "jp": "妙な気配みたいなものは、感じるやつデスね……",
+      "en": "I do feel some kind of strange presence from him, desu ne...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95844,
+      "id": "db_EventInfo:113235:0",
+      "jp": "ダンジョン内で、見知った顔を見かけた。",
+      "en": "Inside the dungeon, I spotted a familiar face.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95845,
+      "id": "db_EventInfo:113237:19",
+      "jp": "おや、店長にシイネさんじゃないか。【『ダンジョン』】内で奇遇だな",
+      "en": "Oh, if it isn't the shopkeeper and Shiine. Fancy meeting you inside the dungeon.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95846,
+      "id": "db_EventInfo:113238:2",
+      "jp": "いつもの【『勇者』】デス。こんなところでなにしてるデス？",
+      "en": "It's our usual Hero, desu. What are you doing in a place like this, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95847,
+      "id": "db_EventInfo:113239:19",
+      "jp": "そりゃ、【『ゼカリウス』】の平和を守る活動さ！",
+      "en": "It's to protect Zecarius's peace!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95848,
+      "id": "db_EventInfo:113240:19",
+      "jp": "領主ゼルカが魔物を操って【『ゼカリウス』】を襲っているんだろ？　【『ゼカリウス自警団』】と共に攻略中さ！",
+      "en": "Lord Zelka is controlling monsters to attack Zecarius, right? We're fighting through it with the Zecarius Self-Defense Force!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95849,
+      "id": "db_EventInfo:113241:19",
+      "jp": "店長こそ、【『ダンジョン』】内に来るなんて……差し入れに回っているのかい？",
+      "en": "What about you, shopkeep, coming into the dungeon... are you making deliveries?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95850,
+      "id": "db_EventInfo:113242:1",
+      "jp": "いや、そういうわけでもな……",
+      "en": "Well, not exactly...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95851,
+      "id": "db_EventInfo:113243:9",
+      "jp": "その通りである。ほれ、お裾分けだ",
+      "en": "That's right. Here, this is for you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95852,
+      "id": "db_EventInfo:113244:19",
+      "jp": "おお、サンキュ！　ちょうど【『ポーション』】が心許なくて、帰還しようと思っていた所なんだ",
+      "en": "Oh, thanks! I was just getting low on potions and thinking of heading back.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95853,
+      "id": "db_EventInfo:113245:9",
+      "jp": "今後とも店をよろしく頼むのである",
+      "en": "Keep supporting our shop from now on too.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 95854,
+      "id": "db_EventInfo:113246:105",
+      "jp": "ふん。営業熱心のようだが、一般人が好奇心で近寄らないことだ",
+      "en": "Hmph. You're good at business, but ordinary people shouldn't get curious and come near.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 95855,
+      "id": "db_EventInfo:113247:115",
+      "jp": "この屋敷の魔物は強い。物見遊山は命取りになる",
+      "en": "The monsters in this mansion are strong. Sightseeing will get you killed.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 95856,
+      "id": "db_EventInfo:113248:19",
+      "jp": "はっはっ、それじゃまたな！",
+      "en": "Ha ha, well, see you later!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 95857,
+      "id": "db_EventInfo:113251:0",
+      "jp": "ラシェウスと仲間達は【『ダンジョン』】の入口に戻っていった。",
+      "en": "Rasieus and his friends went back to the dungeon entrance.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95858,
+      "id": "db_EventInfo:113252:1",
+      "jp": "……こんな【『ダンジョン』】にいるんだから、俺達も冒険者と思っていいと思うんだが",
+      "en": "...Since we're in a dungeon like this, I think they could see us as adventurers too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95859,
+      "id": "db_EventInfo:113253:2",
+      "jp": "私たちには【『認識阻害』】の魔術がかかっているデス。だから冷静な判断はできないというのもあるデスが……",
+      "en": "We're under a 'Cognition Inhibition' spell. That means we can't think straight, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95860,
+      "id": "db_EventInfo:113254:2",
+      "jp": "あの【『勇者』】に関しては、そのあたりの注意力のネジが抜けている気がするデス",
+      "en": "But I think that 'Hero' just has a screw loose about that stuff, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95861,
+      "id": "db_EventInfo:113255:8",
+      "jp": "今日もお仕事頑張ろうね、お兄ちゃんД",
+      "en": "Let's work hard again today, big bro Д.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95862,
+      "id": "db_EventInfo:113256:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95863,
+      "id": "db_EventInfo:113258:1",
+      "jp": "そういえば気になってたんだけど……",
+      "en": "Hey, I was wondering about something...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95864,
+      "id": "db_EventInfo:113259:8",
+      "jp": "うん？",
+      "en": "Hmm? Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95865,
+      "id": "db_EventInfo:113260:1",
+      "jp": "ルーシェって、【『淫魔』】なんだよな？",
+      "en": "Lusche, you're a 'Succubus', right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95866,
+      "id": "db_EventInfo:113261:8",
+      "jp": "そうだよД",
+      "en": "That's right Д.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95867,
+      "id": "db_EventInfo:113262:1",
+      "jp": "【『淫魔』】ってのは、こんな風に人間の前に現れてもいいものなのか？　なんというか、魔物の一種みたいに思われそうだけど",
+      "en": "Is it okay for a 'Succubus' to show herself to people like this? I mean, people might think you're just another kind of monster.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95868,
+      "id": "db_EventInfo:113263:8",
+      "jp": "え～？　魔物って酷いなぁД",
+      "en": "Ehh? Calling me a monster is so mean Д.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95869,
+      "id": "db_EventInfo:113264:2",
+      "jp": "この【『淫魔』】は【認識阻害の魔術】を使って正体を隠しているデス",
+      "en": "This 'Succubus' is hiding her true form using the 'Cognition Inhibition' spell, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95870,
+      "id": "db_EventInfo:113265:1",
+      "jp": "【認識阻害の魔術】？",
+      "en": "A 'Cognition Inhibition' spell?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95871,
+      "id": "db_EventInfo:113266:2",
+      "jp": "人間の常識を歪めて、違和感を消してしまう魔術デスね。これを使うと、悪魔の羽や角が生えた【『淫魔』】を見ても、コスプレにしか思われないデス",
+      "en": "It's a magic that warps common sense and erases feelings of strangeness. This makes it so that even if people see a [succubus] with demon wings and horns, they just think it's a costume.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95872,
+      "id": "db_EventInfo:113267:2",
+      "jp": "【『淫魔』】は立派な魔物デスよ？　普通の人間が見たら大パニックデス",
+      "en": "A [succubus] is a proper monster. An ordinary human seeing one would cause a huge panic.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95873,
+      "id": "db_EventInfo:113268:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95874,
+      "id": "db_EventInfo:113269:8",
+      "jp": "ちなみに、そこの【『死神』】も使っているよ。こんな大鎌を持っているヤツがいたら、普通の人間が見たら驚くよね",
+      "en": "By the way, that [Shinigami] over there uses it too. If a normal human saw someone carrying a huge scythe like that, they'd be shocked, right?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95875,
+      "id": "db_EventInfo:113270:1",
+      "jp": "それもそうだな",
+      "en": "That's true too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95876,
+      "id": "db_EventInfo:113271:2",
+      "jp": "【認識阻害の魔術】は上位存在の大半が使えるデス。それによって違和感をなくし、人間の中に混じるのデスね",
+      "en": "Most higher beings can use [Cognitive Interference Magic]. They use it to remove any sense of oddity and blend in among humans.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95877,
+      "id": "db_EventInfo:113272:1",
+      "jp": "(そう考えると、けっこう怖い魔術だな)",
+      "en": "(Thinking about it that way, it's a pretty scary magic.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95878,
+      "id": "db_EventInfo:113274:8",
+      "jp": "お兄ちゃんさあ、前から思ってたんだけど、ちょっと普通の人と違うよね？",
+      "en": "Big bro, I've been thinking for a while... you're a bit different from ordinary people, aren't you?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95879,
+      "id": "db_EventInfo:113275:8",
+      "jp": "何ていうかこう、言いにくいんだけど……服装が安っぽいというか、田舎っぽい？",
+      "en": "How do I put it... it's hard to say, but... your clothes look cheap? Like you're from the countryside?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95880,
+      "id": "db_EventInfo:113276:1",
+      "jp": "そ、そうか……？",
+      "en": "R-really...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95881,
+      "id": "db_EventInfo:113277:8",
+      "jp": "たまには服装を変えてみない？",
+      "en": "Why don't you try changing your outfit sometime?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95882,
+      "id": "db_EventInfo:113278:8",
+      "jp": "王子様みたいな奴がいい？　いや、おとぎ話の騎士様……伝説の勇者もいいな……Д",
+      "en": "Do you want to look like a prince? Or, maybe a fairy tale knight... a legendary Hero sounds good too...Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95883,
+      "id": "db_EventInfo:113279:1",
+      "jp": "なんだそりゃ……",
+      "en": "What is that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95884,
+      "id": "db_EventInfo:113280:8",
+      "jp": "もう、お兄ちゃんも考えてよーД　受付のお兄ちゃんが着飾れば、冒険者の皆も集まってくるってД",
+      "en": "Come on, big brother, think about itД. If the receptionist dresses up, more adventurers will comeД.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95885,
+      "id": "db_EventInfo:113281:1",
+      "jp": "そうかなあ……",
+      "en": "You think so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 95886,
+      "id": "db_EventInfo:113282:8",
+      "jp": "似合ってる似合ってる～Д",
+      "en": "It looks good on you~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95887,
+      "id": "db_EventInfo:113283:0",
+      "jp": "ルーシェの言うとおりの服装を着ることにした。",
+      "en": "I decided to wear the clothes Lusche picked.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95888,
+      "id": "db_EventInfo:113284:0",
+      "jp": "ファッションはよくわからなかったが、客受けはよかったらしい。",
+      "en": "I don't get fashion, but it seemed to go over well with the customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95889,
+      "id": "db_EventInfo:113285:0",
+      "jp": "しばらくは冷やかしされては恥ずかしい目に会ったが、客足は増えたようだ。",
+      "en": "For a while, people teased me and it was embarrassing, but the number of customers increased.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95890,
+      "id": "db_EventInfo:113286:8",
+      "jp": "似合ってる似合ってる～Д",
+      "en": "It looks good on you~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95891,
+      "id": "db_EventInfo:113287:0",
+      "jp": "ルーシェの言うとおりの服装を着ることにした。",
+      "en": "I decided to wear the clothes Lusche picked.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95892,
+      "id": "db_EventInfo:113288:0",
+      "jp": "ファッションはよくわからなかったが、客受けはよかったらしい。",
+      "en": "I don't get fashion, but it seemed to go over well with the customers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95893,
+      "id": "db_EventInfo:113289:0",
+      "jp": "しばらくは冷やかしされては恥ずかしい目に会ったが、客足は増えたようだ。",
+      "en": "For a while, people teased me and it was embarrassing, but the number of customers increased.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95894,
+      "id": "db_EventInfo:113290:8",
+      "jp": "似合ってる似合ってる～Д",
+      "en": "It looks good on you~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 95895,
+      "id": "db_EventInfo:113291:0",
+      "jp": "ルーシェの言うとおりの服装を着ることにした。",
+      "en": "I decided to wear the clothes Lusche said to.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95896,
+      "id": "db_EventInfo:113292:0",
+      "jp": "ファッションはよくわからなかったが、客受けはよかったらしい。",
+      "en": "I don't know much about fashion, but it seems the customers liked it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95897,
+      "id": "db_EventInfo:113293:0",
+      "jp": "しばらくは冷やかしされては恥ずかしい目に会ったが、客足は増えたようだ。",
+      "en": "For a while, people teased me and I felt embarrassed, but it looks like more customers are coming.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95898,
+      "id": "db_EventInfo:113294:0",
+      "jp": "シイネが商人風の格好をした男女と話している……。",
+      "en": "Shiine is talking with a man and woman dressed like merchants...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 95899,
+      "id": "db_EventInfo:113295:2",
+      "jp": "そう言われても、デスねぇ",
+      "en": "Even if you say that, it's a no.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95900,
+      "id": "db_EventInfo:113296:142",
+      "jp": "そこをなんとか、女将さん！",
+      "en": "Come on, just think about it, landlady!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    }
+  ]
+}

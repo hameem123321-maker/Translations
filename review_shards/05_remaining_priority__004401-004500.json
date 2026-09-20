@@ -1,0 +1,815 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4401,
+  "range_end": 4500,
+  "pairs": [
+    {
+      "n": 4401,
+      "id": "rem_32020",
+      "jp": "聖+闇属性ダメージ+100%",
+      "en": "Holy+Dark damage +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4402,
+      "id": "rem_32021",
+      "jp": "【<dst>】の聖と魔の力が備わった！",
+      "en": "【<dst>】 is imbued with holy and demonic power!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4403,
+      "id": "rem_32022",
+      "jp": "【<dst>】の聖と魔の力が消えた……",
+      "en": "【<dst>】's holy and demonic power has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4404,
+      "id": "rem_32023",
+      "jp": "すべての攻撃ダメージ+50%(一部の魔族のみ)",
+      "en": "All attack damage +50% (some demons only)",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4405,
+      "id": "rem_32024",
+      "jp": "【<dst>】の周りを淫魔の結界が覆った！",
+      "en": "A succubus barrier envelops 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4406,
+      "id": "rem_32025",
+      "jp": "淫魔強化",
+      "en": "Succubus Enhancement",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4407,
+      "id": "rem_32026",
+      "jp": "すべての攻撃ダメージ+50% + デスクリティカル率+30%",
+      "en": "All attack damage +50% + Non-critical rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4408,
+      "id": "rem_32027",
+      "jp": "【<dst>】に妖刀の力が備わった！",
+      "en": "【<dst>】 is imbued with the katana's power!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4409,
+      "id": "rem_32028",
+      "jp": "【<dst>】の妖刀の力が消えた……",
+      "en": "【<dst>】's katana power has faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4410,
+      "id": "rem_32029",
+      "jp": "妖刀解放",
+      "en": "Katana Unleashed",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4411,
+      "id": "rem_32030",
+      "jp": "すべての攻撃ダメージ+30% + 食材へのダメージ+100%",
+      "en": "All attack damage +30% + Damage to food +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4412,
+      "id": "rem_32031",
+      "jp": "【<dst>】の周りを暴食の結界が覆った！",
+      "en": "A gluttony barrier envelops 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4413,
+      "id": "rem_32032",
+      "jp": "暴食結界",
+      "en": "Gluttony Barrier",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4414,
+      "id": "rem_32033",
+      "jp": "プレイヤー側の能力が超極大上昇 + さまざまなボーナス",
+      "en": "Player stats greatly increased + various bonuses",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4415,
+      "id": "rem_32034",
+      "jp": "神の権能",
+      "en": "Divine Authority",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4416,
+      "id": "rem_32035",
+      "jp": "マテリナ素材収集場行きのクエストを発行し、冒険者を向かわせる。素材量は豊富であり、魔獣もそれほど強くない。最初のダンジョンとしてはうってつけだ。資金を投入することで資源採集場所として成長する。",
+      "en": "Issue a quest to the Materina Material Field. Resources are abundant and monsters are weak. Perfect as a first dungeon. It grows into a resource site with investment.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4417,
+      "id": "rem_32036",
+      "jp": "マテリナ素材収集場",
+      "en": "Materina Material Field",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4418,
+      "id": "rem_32037",
+      "jp": "一般冒険者向けに、メテトス百穴古墳行きのクエストを発行する。危険な魔獣は少ないとされるが、メテトスは悪しき者によって荒らされており、多数のワナが配置されている。資金を投入して開発力を高めたい。",
+      "en": "Issue a quest to the Metetos Hundred-Hole Tomb for general adventurers. Few dangerous monsters, but the tomb is desecrated with many traps. We want investment to boost development.",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4419,
+      "id": "rem_32038",
+      "jp": "メテトス百穴古墳",
+      "en": "Metetos Hundred-Hole Tomb",
+      "table": "db_ClubToushiDungeon",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4420,
+      "id": "rem_32039",
+      "jp": "おいオマエ、せっかく女を大勢使ってるのに、これでは稼ぎが足りんデス！　もっと働かせて稼ぐデス！",
+      "en": "Hey you! With so many women, this income is insufficient! Make them work harder and earn more!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4421,
+      "id": "rem_32040",
+      "jp": "うぅむ、施設の細かい不便さが気になるのじゃ。ここらで少し改良してみんか？",
+      "en": "Hmm, these small inconveniences with the facilities bother me. Shall we try improving them a bit here?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4422,
+      "id": "rem_32041",
+      "jp": "ウルフィナは欲求不満だぞ！　もっと交尾しようぜД",
+      "en": "Wolfina is frustrated! Let's mate moreД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4423,
+      "id": "rem_32042",
+      "jp": "店の規模を考えるに、もっと手元に現金を残しておくべきですわ。もう少し稼いでしまいましょう",
+      "en": "Considering the scale of the shop, we should keep more cash on hand. Let's earn a little more.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4424,
+      "id": "rem_32043",
+      "jp": "冒険者の方々は、もっと危険とスリルと報酬を求めておられます。血の気の多い方々に、派遣先を提示してあげては？",
+      "en": "The adventurers are looking for more danger, thrills, and rewards. Perhaps we could suggest some dispatch locations for these hot-blooded folk?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4425,
+      "id": "rem_32044",
+      "jp": "ねえねえ、ボクにはもう飽きちゃった？　また【<pl>】とエッチしたいなーД",
+      "en": "Hey hey, are you already bored with me? I wanna get naughty with 【<pl>】 againД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4426,
+      "id": "rem_32045",
+      "jp": "最近お客さんがジロジロ見てきてこわ～いД　お兄ちゃん、ルーシェを慰めて～Д",
+      "en": "Lately the customers have been staring... it's scaryД Big brother, comfort Lusche~Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4427,
+      "id": "rem_32046",
+      "jp": "店が賑やかなのは結構だが、荒くれ者が仕事をしないのでは困るな。ダンジョンに派遣するべきであろうな",
+      "en": "A busy shop is fine, but it's a problem if the ruffians don't work. We should probably dispatch them to a dungeon.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4428,
+      "id": "rem_32047",
+      "jp": "森の民としては、【<pl>】殿がどのように資源を採取するのか興味がある。当然、良い探索結果を出してくれるだろう？",
+      "en": "As a forest folk, I'm interested in how Lord 【<pl>】 gathers resources. Naturally, you'll produce good exploration results, right?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4429,
+      "id": "rem_32048",
+      "jp": "ゼカリウス付近では、冒険者さんの派遣をお願いしたいって場所がまだ多いわ。お店からダンジョンに派遣できる冒険者さんはいないかしら？",
+      "en": "Around Zecarius, there are still many places requesting adventurer dispatches. Are there any adventurers we can send from the shop to dungeons?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4430,
+      "id": "rem_32049",
+      "jp": "冒険者のくせに、ダンジョンに行かずにたむろしているのがいますね。さっさと仕事を与えて、叩き出して下さい",
+      "en": "There are adventurers just loitering instead of going to dungeons. Give them work quickly and boot them out.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4431,
+      "id": "rem_32050",
+      "jp": "【<pl>】君達の力を必要としている所があるようだ。人を融通できたら、派遣してあげてくれないかい？",
+      "en": "There seems to be a place that needs 【<pl>】 and the others' strength. Couldn't you dispatch someone if you can spare them?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4432,
+      "id": "rem_32051",
+      "jp": "冒険者の助けを必要としている方々がいるようですね。【<pl>】さん、どなたか向かう事が出来る方はいらっしゃいませんか？",
+      "en": "There seem to be people in need of adventurer assistance. 【<pl>】, is there anyone available to go?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4433,
+      "id": "rem_32052",
+      "jp": "ゼカリウスは交易の中心ですから、食材には困りますまい？　更なる利益が求められましょうな",
+      "en": "Since Zecarius is a trade hub, we shouldn't have trouble with ingredients, right? We should seek even greater profits.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4434,
+      "id": "rem_32053",
+      "jp": "今でも人を待ってるところがあるんだよな。誰か派遣してやったらどうだ？",
+      "en": "There are still places waiting for people. Why not send someone?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4435,
+      "id": "rem_32054",
+      "jp": "【『勇者』】の仕事と言えば、お宝のゲットだよな？　ダンジョンに行って、トレジャーハントしてきてくれよ！",
+      "en": "The Hero's job is getting treasure, right? Go to a dungeon and do some treasure hunting!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4436,
+      "id": "rem_32055",
+      "jp": "冒険者の派遣を要請する届け出が来ておりますぞ。どなたか手が空いている人材はいないのですかな？",
+      "en": "A request for adventurer dispatch has arrived. Is there anyone available among our personnel?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4437,
+      "id": "rem_32056",
+      "jp": "よもや私を抱いたからと言って、仲が深まったと勘違いしていないだろうな？　まだまだ抱いてもらわないと、仲良くなったとは言えんなД",
+      "en": "You're not misunderstanding that just because you held me, our bond has deepened, are you? I still need to be held a lot more before we can say we're closeД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4438,
+      "id": "rem_32057",
+      "jp": "ここの錬金術師は、随分と凄腕みたいだね。え、姉の友人？　う、嘘……あ、いえ、どおりで。じゃあ、もっと儲けて当たり前だと思う",
+      "en": "The alchemist here seems quite skilled. Eh, a friend of my sister? N-no way... ah, no, that explains it. Well then, I think we should earn even more as a matter of course.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4439,
+      "id": "rem_32058",
+      "jp": "暇そうなスタッフがうろついてますね……早くダンジョンに派遣してあげて下さいよ",
+      "en": "Some staff members are wandering around looking idle... Please dispatch them to a dungeon quickly.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4440,
+      "id": "rem_32059",
+      "jp": "近隣の人間に飽きられたのか、娯楽施設の客入りが悪くなってますわ。人を呼び込んで、稼いで下さいませ",
+      "en": "Perhaps the locals have grown bored, but the amusement facility's customer flow has worsened. Please attract people and earn money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 4441,
+      "id": "rem_32060",
+      "jp": "ちょっとええ？　何やダンジョンに向かって、帰ってこない冒険者がいるんやて。早いとこ救出に向かった方がええやろな",
+      "en": "Hey, hold up. I heard some adventurers went into the dungeon and haven't come back. We should go rescue them, and soon.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4442,
+      "id": "rem_32061",
+      "jp": "お金を稼げばよろしいのでしょう？　ふふ、では、手っ取り早く体で稼いでみせましょうか。遠慮せず、お申しつけ下さいませ",
+      "en": "We just need to earn money, right? Hehe. Then, let's earn it the easy way—with our bodies. Don't hesitate to give me an order.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4443,
+      "id": "rem_32062",
+      "jp": "えーっと、最近ネタに詰まってまして……アシスタントをお願いしたいのですが……Д　その、都合の良い時に、抱いてほしいでありますぞД",
+      "en": "Umm... I've been out of ideas lately... I need an assistant...Д So, when you're free, I want you to hold me...Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4444,
+      "id": "rem_32063",
+      "jp": "迷宮のトレジャーは私にとっても価値あるものですわ。私も同行しますから、メインメンバーとして、トレジャーハントに参加させて下さいませ",
+      "en": "The dungeon's treasures are valuable to me as well. I'll join you. Please let me participate in the treasure hunt as a main member.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4445,
+      "id": "rem_32064",
+      "jp": "ワシらの工房を作った者は凄腕じゃな。これだけの腕ならば、現状よりも稼ぎが出せるじゃろ？",
+      "en": "The one who made our workshop is a real ace. With skills like that, you can earn more than you do now, right?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4446,
+      "id": "rem_32065",
+      "jp": "希少な素材があった方が、商売には助かるだろ？　ダンジョンに探しに行こうぜ！",
+      "en": "Rare materials would help the business, right? Let's go look for them in the dungeon!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4447,
+      "id": "rem_32066",
+      "jp": "私は【<pl>】様の為なら、いくらでも身を捧げますよ……Д　良ければ、また私を抱いて、下さい……Д",
+      "en": "For 【<pl>】, I'd give my body as much as you want...Д Please, hold me again...Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4448,
+      "id": "rem_32067",
+      "jp": "え、直接資源回収に行くんですか？　じゃあ私にも【<pl>】さんの仕事ぶりを見せてもらいますね",
+      "en": "Huh? You're going to gather resources yourself? Well then, let me see how you work, 【<pl>】.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4449,
+      "id": "rem_32068",
+      "jp": "私は身も心も【<pl>】様のシモベですわД　早く私に、欲求の全てをぶつけて下さいませД",
+      "en": "My body and soul belong to 【<pl>】Д Please, quickly pour all your desires onto meД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4450,
+      "id": "rem_32069",
+      "jp": "凡人共が、優秀な人間の足を引っ張るようではいけませんね。ちゃんと教育して、ランクアップしてください",
+      "en": "We can't have mediocrity holding back the talented. Please train them and raise their rank properly.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4451,
+      "id": "rem_32070",
+      "jp": "自分などの体で稼ぐ、でありますか……恥ずかしいですが、ご命令とあらばД　いえ、むしろその、やらせて下さいД",
+      "en": "To earn... with my own body...? It's embarrassing, but if it's an order...Д No, rather... please, let me do itД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4452,
+      "id": "rem_32071",
+      "jp": "希少なアイテムを探すって、冒険者に任せた方がいいと思いますけど……ま、やるって言うなら、【<pl>】さんの腕前を見せてもらいますよ",
+      "en": "I think we should leave finding rare items to adventurers... But well, if you insist, let's see what you can do, 【<pl>】.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4453,
+      "id": "rem_32072",
+      "jp": "おい【<pl>】、行方不明の冒険者がいるって？　仕方ねぇな……手遅れになる前に、救出に行こうぜ！",
+      "en": "Hey 【<pl>】, missing adventurers? Damn... Let's go rescue them before it's too late!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4454,
+      "id": "rem_32073",
+      "jp": "せっかく体を張ってるんだから、もっと数字を出してくれよな。アタシも頑張ってやるから、これくらいは稼いでくれよД",
+      "en": "Since you're putting your body on the line, make the numbers count. I'll do my best too, so earn at least this muchД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4455,
+      "id": "rem_32074",
+      "jp": "【<pl>】さんは毎日女の子を抱いてるんですよね……その、次に私の番になるのはいつでしょうかД　早く呼んでくださいねД",
+      "en": "You're with girls every day, 【<pl>】... When will it be my turn next?Д Call for me soonД",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4456,
+      "id": "rem_32075",
+      "jp": "ザコ共が群れてうっとおしいデスね……おいオマエ！　ちょっと私と一緒に掃除に行くデス！　付き合えデス！",
+      "en": "These small fry are annoyingデス！ Hey you! Come clean with meデス！ Keep me companyデス！",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 4457,
+      "id": "rem_32076",
+      "jp": "資源はいくらあっても困らんからな。妾と一緒に、探索に出るとしようぞ。店の倉庫を素材で溢れさせるのじゃ！",
+      "en": "One can never have too many resources. Let us venture out together and fill the storehouse to bursting with materials!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4458,
+      "id": "rem_32077",
+      "jp": "この巣は快適だけど、臭え奴が近くにいるみたいだぞ。一緒にぶっとばしに行こうぜ",
+      "en": "This place is comfy, but some stinkers are lurking nearby. Let's go blow them away together.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4459,
+      "id": "rem_32078",
+      "jp": "ゼカリウス近辺を初め、未だ調査が完了していない土地は多いですわ。私も同行しますので、調査に行きませんこと？",
+      "en": "There are many lands yet to be fully surveyed, starting with the area around Zecarius. I shall accompany you. Shall we go investigate?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4460,
+      "id": "rem_32079",
+      "jp": "【<pl>】様と共に働くようになってから、思わぬ幸運が巡るようになった気がしますわ。試しに、私と一緒に、希少素材を探しに行きませんか？",
+      "en": "Ever since I started working with you, 【<pl>】, fortune seems to smile upon me. How about we search for rare materials together?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4461,
+      "id": "rem_32080",
+      "jp": "この世界はまだまだ色んなところに、貴重なお宝が眠ってるみたいだねД　ねえ【<pl>】、ボクと一緒に、トレジャーハントに行こうよД",
+      "en": "Looks like there's still all kinds of rare treasure sleeping all over this world! Hey【<pl>】, let's go treasure hunting together!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4462,
+      "id": "rem_32081",
+      "jp": "娯楽施設は好調だけど、まだまだ稼げるよねД　もっと人を呼び込んで、娯楽でお金を稼いじゃおД",
+      "en": "Our leisure facilities are doing well, but we can still earn more. Let's attract more people and make money through entertainment.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4463,
+      "id": "rem_32082",
+      "jp": "一人では中々探索できんが、一帯には興味深い遺跡が点在しているである。私と一緒に、調査に挑む気はないか？",
+      "en": "It's hard to explore alone, but there are interesting ruins scattered in this area. Care to join me for an investigation?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4464,
+      "id": "rem_32083",
+      "jp": "娯楽施設は好評のようだぞ。この調子なら、もっと稼げるだろう？",
+      "en": "Our leisure facilities seem popular. If we keep this up, we could earn even more, right?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4465,
+      "id": "rem_32084",
+      "jp": "【<pl>】君、お金に困ったりしてないかな？　お姉ちゃん、頑張るから……遠慮しないでいいからね",
+      "en": "【<pl>】, are you having money troubles? Your big sis will work hard for you... so don't hold back, okay?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4466,
+      "id": "rem_32085",
+      "jp": "遺跡学者のはずが、最近はただの店員になっている気がしてなりません。そろそろ希少素材を探しに、私を連れて行ってくれませんか",
+      "en": "I'm supposed to be a ruins scholar, but lately I feel like I've become just a shop clerk. Won't you take me with you to search for rare materials soon?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4467,
+      "id": "rem_32086",
+      "jp": "【<pl>】君、ダンジョンの調査に行くんだろう？　終わったら君達の調査報告を聞きたいな。スコアが良ければ、ご褒美もあるよ",
+      "en": "【<pl>】, you're going to investigate a dungeon, right? I'd like to hear your report when you finish. If your score is good, there's a reward too.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4468,
+      "id": "rem_32087",
+      "jp": "ダンジョン内は凶悪な魔獣が徒党を組んで襲ってきます。見つけ次第、始末しておいた方がいいでしょう",
+      "en": "Vicious magical beasts gather in packs and attack inside dungeons. It's best to deal with them as soon as you find them.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4469,
+      "id": "rem_32088",
+      "jp": "ふぉっふぉっ、店が軌道に乗っているようで何よりです。ですが、更にこれくらいは、追加で稼ぎを増やすこともできるでしょうな",
+      "en": "Foh foh, I'm glad the shop is getting on track. However, you could probably increase profits a bit more on top of this.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4470,
+      "id": "rem_32089",
+      "jp": "ダンジョンでの戦いこそ、俺達冒険者の仕事だよな！　ベテランの戦いを見せてくれよ！",
+      "en": "Fighting in dungeons is what us adventurers do, right? Show me a veteran's battle!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4471,
+      "id": "rem_32090",
+      "jp": "戦闘かぁ……ま、やらなきゃいけねぇ時は戦わないとな！　よし、ハイスコア狙って頑張ろうぜ！",
+      "en": "Combat, huh... Well, when you gotta fight, you gotta fight! Alright, let's aim for a high score!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4472,
+      "id": "rem_32091",
+      "jp": "この老体、この地に来てからどうにも魂が疼きましてな。ほっほ、一緒に、資源採集に同行していただけませんかな？",
+      "en": "Since coming to this land, this old body's soul has been itching. Hoh hoh, would you accompany me on a resource-gathering trip?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4473,
+      "id": "rem_32092",
+      "jp": "店員ばかりしていると、腕も鈍るというものだ。一緒に迷宮へと腕試しに行かないか？",
+      "en": "Being just a shop clerk all the time dulls one's skills. Why don't we go test them in the labyrinth?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4474,
+      "id": "rem_32093",
+      "jp": "ソルシアの魔術師としては、もっと遺跡を調査したい。調査に行く時は、私をメインメンバーに入れるの、忘れないでね",
+      "en": "As a Sorcia mage, I want to investigate more ruins. When you go on an investigation, don't forget to put me in the main party.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4475,
+      "id": "rem_32094",
+      "jp": "バトルしに行くんですよね？　はぁ、御主人様の安全管理も仕事のうちか……分かりましたよ、私も同行しますので、いいとこ見せて下さい",
+      "en": "You're going to battle, right? Sigh, your safety management is part of my job... I understand. I'll accompany you, so show me your best.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4476,
+      "id": "rem_32095",
+      "jp": "遺憾ながら、師匠からトレジャーの獲得を指示されましたわ。早く終わらせたいので、同行してくださいます？",
+      "en": "Regrettably, my master has instructed me to acquire treasure. I want to finish quickly, so will you accompany me?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4477,
+      "id": "rem_32096",
+      "jp": "ここらでも、魔獣の脅威は深刻みたいやな。ウチもお手伝いしたるさかい、掃除と行きましょ。言うとくけど、低スコアじゃ満足せえへんよ",
+      "en": "Seems the threat of magical beasts is serious around here too. I'll help, so let's go clear 'em out. Just so you know, a low score won't satisfy me.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4478,
+      "id": "rem_32097",
+      "jp": "はぁ、調査ですか？　まあ、同行するくらい構いませんけど……ちゃんと私を守って下さいね？　それと、やるからにはハイスコアを狙って頂きますわよ",
+      "en": "Sigh, an investigation? Well, I don't mind tagging along... but you'll protect me properly, right? And if we're doing it, I expect a high score.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4479,
+      "id": "rem_32098",
+      "jp": "凶悪な魔獣を打ち倒してこそ冒険ってもんですな？　たまには凶悪な敵をぶちのめしに行きたいと、私の別人格が申してまする",
+      "en": "Only by defeating vicious magical beasts can you call it an adventure, right? My other personality says it wants to go crush some vicious enemies for once.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4480,
+      "id": "rem_32099",
+      "jp": "希少なアイテムを見ると、私も心が躍りますД　私も迷宮に同行しますので、希少品を探しに行きましょう。良いスコアを期待してますわ",
+      "en": "Seeing rare items makes my heart leap too! I'll accompany you to the labyrinth, so let's go find some rare goods. I expect a good score.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4481,
+      "id": "rem_32100",
+      "jp": "魔獣由来の素材が欲しいのじゃが、素人には扱いが難しいでな。ちょっとワシと一緒に、デートと行かんか？　ついでに、戦い方を見てやろう",
+      "en": "I need materials from magical beasts, but they're tricky for amateurs. How about a little date with me? I'll show you how to fight along the way.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4482,
+      "id": "rem_32101",
+      "jp": "なあ、俺も一緒に戦いたいぜ。メインパーティに入れて、魔獣と戦わせてくれよな",
+      "en": "Hey, I wanna fight too. Put me in the main party and let me battle some beasts.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4483,
+      "id": "rem_32102",
+      "jp": "ダンジョンに向かった冒険者の方が、戻っていないそうです。救出に向かうべきではありませんか？",
+      "en": "An adventurer who went into the dungeon hasn't returned. Shouldn't we go rescue them?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4484,
+      "id": "rem_32103",
+      "jp": "商人として、私もここで稼ぐ手段を勉強しなくちゃ。【<pl>】さんの手腕なら、これくらいは稼げますよね",
+      "en": "As a merchant, I need to learn how to make money here too. With your skills, 【<pl>】, earning this much should be easy.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4485,
+      "id": "rem_32104",
+      "jp": "何という事でしょう、行方不明の冒険者がいらっしゃるようです。手遅れになる前に、救出致しましょう",
+      "en": "Oh my, it seems an adventurer is missing. Let's rescue them before it's too late.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4486,
+      "id": "rem_32105",
+      "jp": "どうやら派遣要請が来ているようですね。暇な冒険者がいるのであれば、派遣してみては？",
+      "en": "Looks like we have a dispatch request. If there are any free adventurers, maybe send them out?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4487,
+      "id": "rem_32106",
+      "jp": "こちらの鍛冶師は、素晴らしい腕前でありますね。この品質を、もっと多くの方に武器を行き渡らせる事ができればと思います！",
+      "en": "The blacksmith here has amazing skill. I wish we could distribute weapons of this quality to more people!",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4488,
+      "id": "rem_32107",
+      "jp": "最近警戒してるのか、私を抱きに来ませんね？　そのぉ、私とエッチしたくなりませんかぁД",
+      "en": "Lately, you haven't come to hold me... you're being cautious? That is... don't you wanna get naughty with me? Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4489,
+      "id": "rem_32108",
+      "jp": "街道が整備されてきたとはいえ、まだまだ魔獣がうろついてるみてぇだな。大物じゃなくてもいいから、少しでも数を減らしておこうぜ",
+      "en": "Even with the roads improved, monsters still prowl around. Even small ones—let's thin their numbers a bit.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4490,
+      "id": "rem_32109",
+      "jp": "やれやれ、元気の有り余った連中が毎日飲んだくれてやがる。まとめてダンジョンに放り込んでやんなよ。",
+      "en": "Tsk tsk, these guys with too much energy get wasted every day. Why not toss 'em all into a dungeon?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4491,
+      "id": "rem_32110",
+      "jp": "アンジュさん達の鍛冶技術は凄いですね☆　この品質なら、もっといっぱい売れますよ！　このレベルが一般になるのはちょっと怖いですけど……",
+      "en": "Anju's blacksmithing is amazing☆ With quality like this, we could sell so much more! Though it's scary if this becomes the standard...",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4492,
+      "id": "rem_32111",
+      "jp": "オマエ、他の女ばかり相手にして、私の相手を忘れてないデス？　もっと構えデス……Д",
+      "en": "Hey you, not forgetting about me while you're busy with other girls, are you? Pay more attention to me... Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4493,
+      "id": "rem_32112",
+      "jp": "最近、妾の事をないがしろにしとらんか？　そろそろ、妾が【<pl>】にとってどれほど重要か、知らしめてやらねばなД　さあ、部屋に来るのじゃД",
+      "en": "Have you been neglecting me lately? It's about time I remind you just how important I am to you, 【<pl>】 Д Come on, come to the room Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4494,
+      "id": "rem_32113",
+      "jp": "しーねが宝物を掘り出してこいって言うんだけど、ウルフィナは犬じゃねぇんだよな……何か一緒に探してくれよ",
+      "en": "Shiine told me to go dig up treasure, but Wolfina's not a dog, y'know... Wanna help me search for something together?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4495,
+      "id": "rem_32114",
+      "jp": "店の発展のためには、希少な素材の取り扱いが必須ですわ。私と一緒に、希少な素材を獲得に行きましょう",
+      "en": "For the shop's growth, handling rare materials is essential. Let's go acquire some rare materials together.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4496,
+      "id": "rem_32115",
+      "jp": "【<pl>】様の聖なる欲求を受け止めて差し上げたいですわД　お部屋にお呼び頂けるのを、心待ちにしておりますД",
+      "en": "I wish to receive your sacred desires, 【<pl>】-sama Д I eagerly await your invitation to your room Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4497,
+      "id": "rem_32116",
+      "jp": "女の子達が協力してくれるんだから、もっとエッチなお仕事をしてもらおうよД　もちろん、ボクも協力してあげるД",
+      "en": "Since the girls are cooperating, let's have them do some naughtier work Д Of course, I'll help out too Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4498,
+      "id": "rem_32117",
+      "jp": "最近、働いてない冒険者さんが、昼間からたむろしてて空気が悪いよぉ。届いてる仕事をあげて、色んなところに派遣しよ？",
+      "en": "Lately, adventurers who aren't working are loitering from midday, and the atmosphere's bad. Let's give them the jobs we have and dispatch them places?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4499,
+      "id": "rem_32118",
+      "jp": "暇を持て余している者がいるようであるな。人手を求めているところもあるようだし、少し派遣に出してはいかがであろう？",
+      "en": "It seems there are those with idle time. Some places are in need of manpower. How about sending them out on dispatch?",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4500,
+      "id": "rem_32119",
+      "jp": "なあ【<pl>】殿、まさか、もう抱いたから、私を抱かなくてもいいなどと思っていないだろうな？　頑張るから、早く私を呼んでくれД",
+      "en": "Hey 【<pl>】, you're not thinking that just because you've held me once, you don't need to hold me anymore, are you? I'll do my best, so call for me soon Д",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 73701,
+  "range_end": 73800,
+  "pairs": [
+    {
+      "n": 73701,
+      "id": "db_EventInfo:87170:1",
+      "jp": "ミルティシア……？",
+      "en": "Militicia...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73702,
+      "id": "db_EventInfo:87171:1",
+      "jp": "もしかして、ミルテのことか",
+      "en": "Is that maybe Myrte?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73703,
+      "id": "db_EventInfo:87172:115",
+      "jp": "失礼……そういう名前で呼ぶんだった",
+      "en": "My apologies... That's the name you use.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 73704,
+      "id": "db_EventInfo:87174:19",
+      "jp": "ま、その辺の話は追々していけばいいさ！",
+      "en": "Well, we can get to all that stuff bit by bit!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 73705,
+      "id": "db_EventInfo:87175:19",
+      "jp": "しかし、商売にしろ攻略にしろ、もう少しメンバーを集めたいところだよな",
+      "en": "But whether it's business or dungeon crawling, we could use a few more members.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 73706,
+      "id": "db_EventInfo:87176:19",
+      "jp": "もう少し【誰かに声を掛けてみる】といいんじゃないか？　きっと集まるぜ！",
+      "en": "Why not [try talking to someone] a bit more? I'm sure they'll join us!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 73707,
+      "id": "db_EventInfo:87177:0",
+      "jp": "仕事の合間に、俺はシイネと【『縁』】を奪われたことについて相談していた。",
+      "en": "Between jobs, I was talking with Shiine about how my 【Bonds】 got stolen.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73708,
+      "id": "db_EventInfo:87179:2",
+      "jp": "思うに【『縁』】を奪うのは、【『淫魔』】が行うレベルドレインの一種ではないデス？",
+      "en": "I think taking 【Bonds】 is a kind of level drain, done by 【Succubi】, isn't it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73709,
+      "id": "db_EventInfo:87180:2",
+      "jp": "遺憾ながら、こういう事はあの【『淫魔』】の方が詳しいだろうと思うデス",
+      "en": "Sadly, I think that 【Succubus】 would know more about these things.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73710,
+      "id": "db_EventInfo:87181:1",
+      "jp": "確かにな",
+      "en": "Yeah, probably.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73711,
+      "id": "db_EventInfo:87182:2",
+      "jp": "まあ、アイツが関与してる疑いも若干……というより、その線が濃厚デスが",
+      "en": "Well, there's a slight suspicion she's involved... actually, that possibility is quite strong Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73712,
+      "id": "db_EventInfo:87183:1",
+      "jp": "おいおい……ルーシェだって【『死神代行助手』】なんだから、それはないんじゃないか？",
+      "en": "Whoa, whoa... Lusche's a 【Shinigami Agent Assistant】 too, so that can't be right, can it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73713,
+      "id": "db_EventInfo:87184:2",
+      "jp": "オマエ、多少は助手の女どもを疑うことも、覚えた方がいいデスよ",
+      "en": "You should learn to suspect those assistant women a little, you know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73714,
+      "id": "db_EventInfo:87185:1",
+      "jp": "は、はは……",
+      "en": "Ha, haha...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73715,
+      "id": "db_EventInfo:87186:1",
+      "jp": "(まあ、搾り尽くされたことも……)",
+      "en": "(Well, I have been drained dry before...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73716,
+      "id": "db_EventInfo:87187:2",
+      "jp": "まあとにかく、【『淫魔』】には物理的な攻撃が通じにくいし、オマエでは不利デス",
+      "en": "Anyway, 【Succubi】 are hard to hurt physically, so you'd be at a disadvantage.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73717,
+      "id": "db_EventInfo:87188:2",
+      "jp": "早めにルーシェの奴を捕まえて、またキリキリ働かせてやるデスよ",
+      "en": "We should catch Lusche soon and put her right back to work.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73718,
+      "id": "db_EventInfo:87189:2",
+      "jp": "それに、【『淫魔』】は【『淫魔』】を呼ぶとも言うデス。新たな【『災厄』】の前触れか……イヤな予感がするデスね",
+      "en": "Plus, they say 【Succubi】 attract more 【Succubi】. This might be the start of a new 【Calamity】... I have a bad feeling about this.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73719,
+      "id": "db_EventInfo:87190:2",
+      "jp": "通常の武器では、【『淫魔』】と戦うことはできないデス",
+      "en": "You can't fight a 【『Succubus』】 with regular weapons.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73720,
+      "id": "db_EventInfo:87191:1",
+      "jp": "一刻も早く、ルーシェを取り戻さないと",
+      "en": "I need to get Lusche back. Fast.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73721,
+      "id": "db_EventInfo:87193:23",
+      "jp": "なんや、店の中がけったいなことになっとるなぁ。上玉の女どもが、こぞって店を出ていっとる",
+      "en": "Huh? What's the deal with the store? All the best-looking girls are leaving.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73722,
+      "id": "db_EventInfo:87194:23",
+      "jp": "どうなっとるんや？",
+      "en": "What's going on?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73723,
+      "id": "db_EventInfo:87195:1",
+      "jp": "ノースリンデ！　良かった、いてくれたか",
+      "en": "Northlinde! I'm glad you're still here.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73724,
+      "id": "db_EventInfo:87196:23",
+      "jp": "お？　【<pl>】はん、ウチの顔を見て驚きながら喜ぶなんて、嬉しいやんか",
+      "en": "Oh? 【<pl>】, you're surprised and happy to see me? That's nice.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73725,
+      "id": "db_EventInfo:87197:23",
+      "jp": "それで……何があったんや？",
+      "en": "So... what happened?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73726,
+      "id": "db_EventInfo:87200:0",
+      "jp": "俺はシェルフィに【『縁ドレイン』】され、その影響で皆との【『縁』】が薄くなったことを伝えた。",
+      "en": "I told her how Shelfi hit me with a 【『Bond Drain』】, and how it weakened the 【『Bond』】 I have with everyone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73727,
+      "id": "db_EventInfo:87201:23",
+      "jp": "ははぁ、ウルフィナはんとか、いきなり妙なことを口走ってたのはそういう理由ってことなんやなぁ",
+      "en": "Ah-ha, so that's why Wolfina and the others suddenly started saying weird things.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73728,
+      "id": "db_EventInfo:87202:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73729,
+      "id": "db_EventInfo:87203:1",
+      "jp": "しかし、ノースリンデは無事なんだな",
+      "en": "But you're okay, Northlinde.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73730,
+      "id": "db_EventInfo:87204:23",
+      "jp": "ん？　ウチはこの店に来てから日が浅いからなぁ",
+      "en": "Hm? Well, I haven't been at this store for very long.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73731,
+      "id": "db_EventInfo:87205:23",
+      "jp": "それにまあ、ウチはこういう身体やさかい、耐性があるのかもなぁД",
+      "en": "Also, well, with a body like mine, maybe I'm just more resistant to itД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73732,
+      "id": "db_EventInfo:87206:0",
+      "jp": "ノースリンデはモフモフした耳を、ピクピクしてみせた。",
+      "en": "Northlinde twitched her fluffy ears to show them off.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73733,
+      "id": "db_EventInfo:87208:15",
+      "jp": "【『ノーザリアとの平和条約』】が結ばれたせいか、近海でもノーザリアの船を見かけるようになったね",
+      "en": "Probably because the 'Peace Treaty with Northaria' was signed, we're seeing Northarian ships near our coasts too now.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73734,
+      "id": "db_EventInfo:87209:15",
+      "jp": "平和なのはいいけど、海に船が溢れるようだと、港が手狭になってしまうね",
+      "en": "Peace is good, but if the sea gets too crowded with ships, the port will get cramped.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73735,
+      "id": "db_EventInfo:87210:1",
+      "jp": "スタッフがいないのに、ノーザリアの人々まで町に増えると、本格的に人手が心配だな",
+      "en": "We're already short on staff, and if more Northarian people come to town, we'll really have a manpower problem.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73736,
+      "id": "db_EventInfo:87211:15",
+      "jp": "それに、アーマニア海は豊かな漁場だけど、あまりに漁業者が増えると、水産資源が枯渇する心配もある",
+      "en": "Also, the Armarnia Sea is a rich fishing ground, but if too many fishers come, there's a worry the marine resources could run dry.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73737,
+      "id": "db_EventInfo:87212:15",
+      "jp": "ゼカリウスの漁業者が不漁を訴えるようになったら、軋轢が生まれるかもしれないからね",
+      "en": "If Zecarian fishers start complaining about poor catches, it might create friction.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73738,
+      "id": "db_EventInfo:87213:1",
+      "jp": "そうか……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73739,
+      "id": "db_EventInfo:87214:23",
+      "jp": "まあまあ、ノーザリアも海で魚を捕るくらい、ええやんか",
+      "en": "Come on, it's fine if Northarians catch some fish in the sea too.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73740,
+      "id": "db_EventInfo:87215:23",
+      "jp": "それに、【『ノーザリアとの平和条約』】で、漁業権は認められとるんやで",
+      "en": "Besides, the 'Peace Treaty with Northaria' grants them fishing rights, you know.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73741,
+      "id": "db_EventInfo:87216:23",
+      "jp": "ノーザリアの人間はサカナが大好きなんやД",
+      "en": "Northarian people love fishД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73742,
+      "id": "db_EventInfo:87218:23",
+      "jp": "そういや、消えた女達の反応にも差があったなぁ",
+      "en": "Speaking of which, there was a difference in how those missing women reacted too, huh.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73743,
+      "id": "db_EventInfo:87219:23",
+      "jp": "ものによっちゃ、本気で【<pl>】はんのことを忘れたってレベルの様子やったけど",
+      "en": "Some of them seemed to be at a level where they'd genuinely forgotten about you, 【<pl>】.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73744,
+      "id": "db_EventInfo:87220:23",
+      "jp": "たまたま、遠出しようと思ったってのに被っただけの子もおったで",
+      "en": "But there were also some who just happened to be leaving for a trip at the same time.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73745,
+      "id": "db_EventInfo:87221:23",
+      "jp": "ま、それが被るってのが【『縁』】が薄まるということかもしれへんけどな",
+      "en": "Well, maybe that overlap happening means the 'bond' between you is getting weaker.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73746,
+      "id": "db_EventInfo:87222:23",
+      "jp": "しっかし、【『縁』】を吸い取る【『淫魔』】かぁ。【<pl>】はんも、メイド遊びはほどほどにせえや？",
+      "en": "Hmm. A 'succubus' that sucks away 'bonds'. 【<pl>】, maybe you should ease up on that maid roleplay, huh?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73747,
+      "id": "db_EventInfo:87223:1",
+      "jp": "はい……",
+      "en": "Yes...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73748,
+      "id": "db_EventInfo:87226:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73749,
+      "id": "db_EventInfo:87227:33",
+      "jp": "ご苦労。ここまでは首尾よく事を運んだようだねェ",
+      "en": "Well done. Seems things have gone smoothly up to this point.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73750,
+      "id": "db_EventInfo:87228:0",
+      "jp": "店から脱出したシェルフィは、ノーザリアの過激派で知られるゲトレオス将軍を解放していた。",
+      "en": "Having escaped the shop, Shelfi had freed General Getoreosu, known as a radical in Northerlia.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73751,
+      "id": "db_EventInfo:87229:24",
+      "jp": "計画通り、【『平和条約』】によりゼカリウスは隙だらけです",
+      "en": "Just as planned, Zecarius is wide open because of the 'peace treaty'.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73752,
+      "id": "db_EventInfo:87230:24",
+      "jp": "一方、北方要塞フリズは、未だ警備が厳重で、生半可な武力では戦えないでしょう",
+      "en": "On the other hand, Fortress Frith to the north is still heavily guarded. Half-hearted force won't be enough to fight it.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73753,
+      "id": "db_EventInfo:87231:33",
+      "jp": "うむ、だが偽りとはいえ、【『平和条約』】を結んだことで、武力に関しても光明が見えたのだよ",
+      "en": "Indeed. But even though it's a lie, forging that 'peace treaty' has given us a chance with military power too.",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73754,
+      "id": "db_EventInfo:87232:33",
+      "jp": "正当なゼカリウスの末裔である我ならば、【『あの兵器』】の封印を解くことができる！",
+      "en": "As the true, legitimate descendant of Zecarius, I alone can unseal 'that weapon'!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73755,
+      "id": "db_EventInfo:87233:33",
+      "jp": "せいぜい役に立ってくれよ、んん？",
+      "en": "Try to be useful, okay? Yeah?",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73756,
+      "id": "db_EventInfo:87234:24",
+      "jp": "ははっ",
+      "en": "Heh heh",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73757,
+      "id": "db_EventInfo:87236:2",
+      "jp": "【『縁』】を失った皆が、何人か戻ってきてくれたデスね",
+      "en": "Some people who lost their 【'En'】 have come back to us.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73758,
+      "id": "db_EventInfo:87237:2",
+      "jp": "【『死神』】の力が戻ってきているのを感じるデス",
+      "en": "I can feel the power of the 【Shinigami】 returning.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73759,
+      "id": "db_EventInfo:87238:1",
+      "jp": "ということは、シイネも戦いに参加できそうか？",
+      "en": "Does that mean you might be able to join the fight, Shiine?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73760,
+      "id": "db_EventInfo:87239:2",
+      "jp": "……それはまだ難しいデス",
+      "en": "……That's still difficult, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 73761,
+      "id": "db_EventInfo:87240:1",
+      "jp": "そうか……。こんな時に【カリストとオーレリア】がいれば、相談出来そうなんだが……",
+      "en": "I see... If 【Callisto and Aurelia】 were here right now, we could ask their advice...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73762,
+      "id": "db_EventInfo:87242:15",
+      "jp": "【<pl>】君、大変だ！　ゲトレオス将軍が解放されたらしい！",
+      "en": "【<pl>】, it's terrible! It seems General Getoreos has been freed!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73763,
+      "id": "db_EventInfo:87243:1",
+      "jp": "ゲトレオス将軍？",
+      "en": "General Getoreos?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73764,
+      "id": "db_EventInfo:87244:15",
+      "jp": "ノーザリアの過激派の一人で、随一の武力を持つ猛将だよ",
+      "en": "He's one of the extremists in Northaria, a top-tier fierce warrior.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73765,
+      "id": "db_EventInfo:87245:15",
+      "jp": "彼が戻ったとなれば、ノーザリアの戦争過激派が、再び勢力を増す可能性も……",
+      "en": "If he's returned, the Northarian war extremists might gain power again...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73766,
+      "id": "db_EventInfo:87246:23",
+      "jp": "まあまあ、確かにそうやけど、今更将軍一人が解放されたかて、たかが知れとるやろ",
+      "en": "Now, now. That may be, but even if one general has been freed, surely his impact will be limited.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73767,
+      "id": "db_EventInfo:87247:23",
+      "jp": "将軍一人じゃ、どうにもできへんわ",
+      "en": "One general alone can't do much.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73768,
+      "id": "db_EventInfo:87248:1",
+      "jp": "そうなのか？　まあ、過激派はもう抑えられてるんだろ？",
+      "en": "Really? Well, the radicals are under control now, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73769,
+      "id": "db_EventInfo:87249:23",
+      "jp": "せやで。将軍一人が解放されたくらいで、何ちゅうことあらへんわ",
+      "en": "Yep. One general being freed won't change a thing.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73770,
+      "id": "db_EventInfo:87250:0",
+      "jp": "【『縁』】を失ったスタッフも、かなりの人数が戻ってきてくれた。",
+      "en": "A lot of the staff who lost their Connections have come back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73771,
+      "id": "db_EventInfo:87252:8",
+      "jp": "順調みたいだね、お兄ちゃんД",
+      "en": "Looks like things are going well, broД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73772,
+      "id": "db_EventInfo:87253:1",
+      "jp": "ああ……だが、まだ全員が戻ってきてくれたわけじゃないけどな",
+      "en": "Yeah... But not everyone has come back yet.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73773,
+      "id": "db_EventInfo:87254:1",
+      "jp": "それより、【『死神』】の力を奪ったシェルフィが、何をするつもりなのかが気になる",
+      "en": "More than that, I'm worried about what Shelfi plans to do with the Shinigami power she stole.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73774,
+      "id": "db_EventInfo:87255:8",
+      "jp": "そうだねぇД　【『死神』】の力って言っても、純粋な魔力だし、【『淫魔』】であれば悪用できちゃうもんねД",
+      "en": "YeahД It's pure magical power, so a Succubus could misuse itД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73775,
+      "id": "db_EventInfo:87256:1",
+      "jp": "何だって……？",
+      "en": "What...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73776,
+      "id": "db_EventInfo:87257:8",
+      "jp": "まあ、あんなちっぽけな【『淫魔』】に何ができるかは分からないけどねД",
+      "en": "Well, I don't know what that tiny Succubus could really doД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73777,
+      "id": "db_EventInfo:87260:0",
+      "jp": "ルーシェは【『心配ない』】とばかりに笑っているが……。",
+      "en": "Lusche smiles like there's nothing to worry about...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73778,
+      "id": "db_EventInfo:87261:1",
+      "jp": "(どちらにしろ、早く皆に戻ってきてもらわなくちゃな)",
+      "en": "(Either way, I need to get everyone back here soon.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73779,
+      "id": "db_EventInfo:87262:0",
+      "jp": "ルーシェとノースリンデが何か話している。",
+      "en": "Lusche and Northlinde are talking about something.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73780,
+      "id": "db_EventInfo:87264:23",
+      "jp": "じゃあ、そういうことなんで、よろしゅうなД",
+      "en": "Alright, that's the deal, so keep it under your hatД",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73781,
+      "id": "db_EventInfo:87265:8",
+      "jp": "う、うん……",
+      "en": "Y-yeah...",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73782,
+      "id": "db_EventInfo:87266:1",
+      "jp": "ん？　二人で何を話してたんだ？",
+      "en": "Huh? What were you two talking about?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73783,
+      "id": "db_EventInfo:87268:23",
+      "jp": "ああ、別に大した用事じゃあらへんよД　なあ、ルーシェはん？",
+      "en": "Oh, it's nothin' importantД Right, Lusche?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73784,
+      "id": "db_EventInfo:87269:8",
+      "jp": "ま、まあね……",
+      "en": "W-well, yeah...",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73785,
+      "id": "db_EventInfo:87270:1",
+      "jp": "そうなのか？",
+      "en": "Really?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73786,
+      "id": "db_EventInfo:87271:8",
+      "jp": "あ、ルーシェ、まだお仕事残ってたんだ、また後でね、お兄ちゃん",
+      "en": "Oh, I still have work left to do. See you later, big brother.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 73787,
+      "id": "db_EventInfo:87272:0",
+      "jp": "ルーシェは浮かない顔のまま行ってしまった。",
+      "en": "Lusche left, still looking troubled.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73788,
+      "id": "db_EventInfo:87273:23",
+      "jp": "ウチも、そろそろ休憩は終わりやからなぁ。ほな、また後でな",
+      "en": "I should get back from my break too. See ya later.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 73789,
+      "id": "db_EventInfo:87274:1",
+      "jp": "あ、ああ……",
+      "en": "O-oh, okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73790,
+      "id": "db_EventInfo:87277:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73791,
+      "id": "db_EventInfo:87278:33",
+      "jp": "ええい、まだ【『魔の島』】の探索は終わらんのかね！",
+      "en": "Argh! Are we not done exploring the Demon Island yet?!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73792,
+      "id": "db_EventInfo:87279:33",
+      "jp": "我が求めるモノは、必ずあの地にあると言うのに、場所が分からんとは！",
+      "en": "What I seek is definitely on that land, but we can't even find the place!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73793,
+      "id": "db_EventInfo:87280:24",
+      "jp": "【『魔の島』】は常にアーマニア海を漂流し、場所の特定は困難です",
+      "en": "The Demon Island is always drifting in the Armena Sea. Pinpointing its location is very difficult.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73794,
+      "id": "db_EventInfo:87281:24",
+      "jp": "ですが、それらしき島を見たという漁師が増え始めており、間もなく位置の特定が完了するものかと",
+      "en": "However, the number of fishermen claiming to have seen a similar island is growing. We should pinpoint its location soon.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73795,
+      "id": "db_EventInfo:87282:33",
+      "jp": "早くしたまえ！　我は気が短いのだよ！",
+      "en": "Hurry up! I'm a very impatient man!",
+      "speaker": "Getoreosu",
+      "speaker_jp": "ゲトレオス"
+    },
+    {
+      "n": 73796,
+      "id": "db_EventInfo:87283:24",
+      "jp": "ははっ",
+      "en": "Hah!",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 73797,
+      "id": "db_EventInfo:87284:0",
+      "jp": "ゲトレオスは苛立ちながらも、ただ待つことしかできなかった……。",
+      "en": "Getoreosu was irritated, but there was nothing he could do except wait...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 73798,
+      "id": "db_EventInfo:87286:15",
+      "jp": "【<pl>】君、近海にノーザリアの軍艦を見たって報告がある",
+      "en": "Hey【<pl>】, I got a report about a Northerlia warship being seen near our waters.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 73799,
+      "id": "db_EventInfo:87287:1",
+      "jp": "何……？",
+      "en": "What...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 73800,
+      "id": "db_EventInfo:87288:15",
+      "jp": "うん、漁師達も驚いてね",
+      "en": "Yeah, the fishermen were shocked too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    }
+  ]
+}

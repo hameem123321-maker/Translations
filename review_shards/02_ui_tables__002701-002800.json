@@ -1,0 +1,808 @@
+{
+  "source_file": "02_ui_tables.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2701,
+  "range_end": 2800,
+  "pairs": [
+    {
+      "n": 2701,
+      "id": "ui_db_MessageClubInfo_2651_4",
+      "jp": "静かにしなくちゃ、だよね",
+      "en": "We should be quiet, right?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2702,
+      "id": "ui_db_MessageClubInfo_2652_4",
+      "jp": "綺麗な恰好にしなきゃ……",
+      "en": "We need to look presentable...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2703,
+      "id": "ui_db_MessageClubInfo_2653_4",
+      "jp": "へえ、立派なもんだ",
+      "en": "Huh, quite impressive.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2704,
+      "id": "ui_db_MessageClubInfo_2654_4",
+      "jp": "祈りを捧げましょうぞ",
+      "en": "Let us offer our prayers.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2705,
+      "id": "ui_db_MessageClubInfo_2655_4",
+      "jp": "この歳で神頼みとはのう",
+      "en": "Resorting to prayer at my age...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2706,
+      "id": "ui_db_MessageClubInfo_2656_4",
+      "jp": "退屈な場所だなぁ",
+      "en": "What a boring place.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2707,
+      "id": "ui_db_MessageClubInfo_2657_4",
+      "jp": "神に祈りましょう……",
+      "en": "Let us pray to the gods...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2708,
+      "id": "ui_db_MessageClubInfo_2658_4",
+      "jp": "どうせ作らされただけ、だろ？",
+      "en": "They just made you do it, right?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2709,
+      "id": "ui_db_MessageClubInfo_2659_4",
+      "jp": "皆さん、祈りましょうネー",
+      "en": "Everyone, let's pray~!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2710,
+      "id": "ui_db_MessageClubInfo_2660_4",
+      "jp": "祈れば助けてくれんのかよ！？",
+      "en": "Do you think praying will actually help!?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2711,
+      "id": "ui_db_MessageClubInfo_2661_4",
+      "jp": "た、大変な場所に来てしまいました",
+      "en": "We've come to a terrible place.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2712,
+      "id": "ui_db_MessageClubInfo_2662_4",
+      "jp": "こ、これはまさか……！？",
+      "en": "C-could this be...!?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2713,
+      "id": "ui_db_MessageClubInfo_2663_4",
+      "jp": "こ、これは、大丈夫なのかしら？",
+      "en": "I-is this really okay?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2714,
+      "id": "ui_db_MessageClubInfo_2664_4",
+      "jp": "どうして誰も通報しないのよ……？",
+      "en": "Why hasn't anyone reported this...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2715,
+      "id": "ui_db_MessageClubInfo_2665_4",
+      "jp": "変な神様……",
+      "en": "A weird god...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2716,
+      "id": "ui_db_MessageClubInfo_2666_4",
+      "jp": "危ない雰囲気ですぅ",
+      "en": "The atmosphere is dangerous.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2717,
+      "id": "ui_db_MessageClubInfo_2667_4",
+      "jp": "こんなの許されるのか……？",
+      "en": "Is this really allowed...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2718,
+      "id": "ui_db_MessageClubInfo_2668_4",
+      "jp": "むむむ、これは通報すべきでは？",
+      "en": "Hmm, should we report this?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2719,
+      "id": "ui_db_MessageClubInfo_2669_4",
+      "jp": "悪趣味じゃのう……",
+      "en": "Such bad taste...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2720,
+      "id": "ui_db_MessageClubInfo_2670_4",
+      "jp": "こ、これ、悪い事、してる……？",
+      "en": "A-are we doing something bad...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2721,
+      "id": "ui_db_MessageClubInfo_2671_4",
+      "jp": "な、なんですかこれは……！？",
+      "en": "Wh-what is this...!?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2722,
+      "id": "ui_db_MessageClubInfo_2672_4",
+      "jp": "こっちが本性ってわけか？",
+      "en": "So this is your true nature?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2723,
+      "id": "ui_db_MessageClubInfo_2673_4",
+      "jp": "祈ればいいですネー？",
+      "en": "Should we just pray?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2724,
+      "id": "ui_db_MessageClubInfo_2674_4",
+      "jp": "ヤベェ臭いがプンプンしてるぜ？",
+      "en": "Whoa, I can smell something rank?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2725,
+      "id": "ui_db_MessageClubInfo_2675_4",
+      "jp": "か、勝って見せます！",
+      "en": "I-I'll show you I can win!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2726,
+      "id": "ui_db_MessageClubInfo_2676_4",
+      "jp": "勝利して見せますわ！",
+      "en": "I shall achieve victory!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2727,
+      "id": "ui_db_MessageClubInfo_2677_4",
+      "jp": "どれを遊ぼうかしら",
+      "en": "I wonder which one to play.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2728,
+      "id": "ui_db_MessageClubInfo_2678_4",
+      "jp": "よーし、勝つわよ！",
+      "en": "Alright, we're gonna win!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2729,
+      "id": "ui_db_MessageClubInfo_2679_4",
+      "jp": "お金を増やせるの？",
+      "en": "Can we make money here?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2730,
+      "id": "ui_db_MessageClubInfo_2680_4",
+      "jp": "ちょっと遊びましょうねぇ",
+      "en": "Let's play a little, shall we?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2731,
+      "id": "ui_db_MessageClubInfo_2681_4",
+      "jp": "負けを取り返してやる……！",
+      "en": "I'll get my loss back...!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2732,
+      "id": "ui_db_MessageClubInfo_2682_4",
+      "jp": "今日はどうもついておりませんな",
+      "en": "I'm not very lucky today, it seems.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2733,
+      "id": "ui_db_MessageClubInfo_2683_4",
+      "jp": "儲けさせてもらうとするかの",
+      "en": "I believe I shall allow myself to profit.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2734,
+      "id": "ui_db_MessageClubInfo_2684_4",
+      "jp": "皆楽しそう……！",
+      "en": "Everyone looks so happy...!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2735,
+      "id": "ui_db_MessageClubInfo_2685_4",
+      "jp": "遊びでしょう？　楽勝ですよ",
+      "en": "It's a game, right? Piece of cake.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2736,
+      "id": "ui_db_MessageClubInfo_2686_4",
+      "jp": "ふっ、少しくらい遊んでやるか",
+      "en": "Heh, guess I'll play for a bit.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2737,
+      "id": "ui_db_MessageClubInfo_2687_4",
+      "jp": "ドリーム感じますネー",
+      "en": "I can feel the dream!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2738,
+      "id": "ui_db_MessageClubInfo_2688_4",
+      "jp": "大金持ちになってやるぜ！",
+      "en": "I'm gonna get filthy rich!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2739,
+      "id": "ui_db_MessageClubInfo_2689_4",
+      "jp": "いっぱい勝ちたいです！",
+      "en": "I want to win a lot!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2740,
+      "id": "ui_db_MessageClubInfo_2690_4",
+      "jp": "おっぱい、擦れていたいよ……",
+      "en": "I want to rub against your chest...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2741,
+      "id": "ui_db_MessageClubInfo_2691_4",
+      "jp": "うぅ、これ、難しいですよぉ",
+      "en": "Ugh, this is so hard...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2742,
+      "id": "ui_db_MessageClubInfo_2692_4",
+      "jp": "乳など邪魔なだけだと言うのに……",
+      "en": "My breasts are just a nuisance...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2743,
+      "id": "ui_db_MessageClubInfo_2693_4",
+      "jp": "あはぁД　おっぱい、好きだねぇД",
+      "en": "AhaД You really like them, huh?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2744,
+      "id": "ui_db_MessageClubInfo_2694_4",
+      "jp": "おっぱい、んんД　気持ちいいねД",
+      "en": "Your breasts... mmmД Feels good.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2745,
+      "id": "ui_db_MessageClubInfo_2695_4",
+      "jp": "メイドにこんな事をさせて……Д",
+      "en": "Making a maid do this...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2746,
+      "id": "ui_db_MessageClubInfo_2696_4",
+      "jp": "く、こんな奉仕……屈辱だわ……",
+      "en": "Kuh... such service... how humiliating...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2747,
+      "id": "ui_db_MessageClubInfo_2697_4",
+      "jp": "これでよろしいでしょうか……Д",
+      "en": "Is this... satisfactory...?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2748,
+      "id": "ui_db_MessageClubInfo_2698_4",
+      "jp": "んんД　ビクビク、してるねД",
+      "en": "MmmД You're tremblingД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2749,
+      "id": "ui_db_MessageClubInfo_2699_4",
+      "jp": "ん、ん、イきそうに、なってるД",
+      "en": "Nn, nnh... you're about to...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2750,
+      "id": "ui_db_MessageClubInfo_2700_4",
+      "jp": "ん、震えて……隠し事、でしょうか",
+      "en": "You're trembling... hiding something?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2751,
+      "id": "ui_db_MessageClubInfo_2701_4",
+      "jp": "んん、震えて……",
+      "en": "Mmm, you're shaking...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2752,
+      "id": "ui_db_MessageClubInfo_2702_4",
+      "jp": "ちゅ、ん、大きく、なってますわ",
+      "en": "Chu, nn... it's getting bigger.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2753,
+      "id": "ui_db_MessageClubInfo_2703_4",
+      "jp": "んん、どうすれば、いいの……？",
+      "en": "Mmm, what should I do...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2754,
+      "id": "ui_db_MessageClubInfo_2704_4",
+      "jp": "ちゅ、こ、こう……？",
+      "en": "Chu... li-like this...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2755,
+      "id": "ui_db_MessageClubInfo_2705_4",
+      "jp": "ちゅ、ん、変な味……",
+      "en": "Chu, nn... a strange taste...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2756,
+      "id": "ui_db_MessageClubInfo_2706_4",
+      "jp": "ちゅ、ふ、ん……",
+      "en": "Chu, fu, nn...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2757,
+      "id": "ui_db_MessageClubInfo_2707_4",
+      "jp": "ちゅ、ん、えへへ……Д",
+      "en": "Chu, nn... ehehe...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2758,
+      "id": "ui_db_MessageClubInfo_2708_4",
+      "jp": "ん、ふふ、味が、変わってますわД",
+      "en": "Nn, fufu... the taste changed.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2759,
+      "id": "ui_db_MessageClubInfo_2709_4",
+      "jp": "ちゅ、ん、ふふ、跳ねたわねД",
+      "en": "Chu, nn, fufu... it twitched.Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2760,
+      "id": "ui_db_MessageClubInfo_2710_4",
+      "jp": "れろ、ん、痛くない、わよねД",
+      "en": "Lero, nn... it doesn't hurt, right?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2761,
+      "id": "ui_db_MessageClubInfo_2711_4",
+      "jp": "れろ、んん、これで、どうかなД",
+      "en": "Lick... Nngh, how's this?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2762,
+      "id": "ui_db_MessageClubInfo_2712_4",
+      "jp": "んちゅ、頑張りますぅД",
+      "en": "Suck... I'll do my best.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2763,
+      "id": "ui_db_MessageClubInfo_2713_4",
+      "jp": "じゅるる、ん、精液、欲しいですД",
+      "en": "Gulp... Nngh, I want your cum...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2764,
+      "id": "ui_db_MessageClubInfo_2714_4",
+      "jp": "じゅるる、早く、イってくださいД",
+      "en": "Gulp... Come quickly, please...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2765,
+      "id": "ui_db_MessageClubInfo_2715_4",
+      "jp": "ん、ちゅД　イって、いいわよД",
+      "en": "Nngh, suck... It's okay to cum.",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2766,
+      "id": "ui_db_MessageClubInfo_2716_4",
+      "jp": "じゅる、んん、味、変わったわД",
+      "en": "Gulp... Nngh, the taste changed...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2767,
+      "id": "ui_db_MessageClubInfo_2717_4",
+      "jp": "はぁ、ちゅ、夢中になっちゃうД",
+      "en": "Haa, suck... I'm getting lost in it...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2768,
+      "id": "ui_db_MessageClubInfo_2718_4",
+      "jp": "れろ、んちゅ、んんんД",
+      "en": "Lick... suck... Nnngh...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2769,
+      "id": "ui_db_MessageClubInfo_2719_4",
+      "jp": "んぶ、んちゅ、んんんんДД",
+      "en": "Slurp... suck... Nnnngh...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2770,
+      "id": "ui_db_MessageClubInfo_2720_4",
+      "jp": "早く、ちゅ、精液、欲しいですわД",
+      "en": "Quickly, suck... I want your cum...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2771,
+      "id": "ui_db_MessageClubInfo_2721_4",
+      "jp": "イってД　れろ、精液、飲ませてД",
+      "en": "Cum... Lick... Let me drink your cum...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2772,
+      "id": "ui_db_MessageClubInfo_2722_4",
+      "jp": "んぶ、出してД　口に、頂戴Д",
+      "en": "Slurp... Give it... In my mouth, please...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2773,
+      "id": "ui_db_MessageClubInfo_2723_4",
+      "jp": "じゅる、んんД　イって、出してД",
+      "en": "Gulp... Nngh... Cum... Give it...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2774,
+      "id": "ui_db_MessageClubInfo_2724_4",
+      "jp": "はぁ、ずっと、していたいですぅД",
+      "en": "Haa... I want to do this forever...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2775,
+      "id": "ui_db_MessageClubInfo_2725_4",
+      "jp": "んん……はぁ、どう、でしょうか",
+      "en": "Nngh... Haa, how... is it?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2776,
+      "id": "ui_db_MessageClubInfo_2726_4",
+      "jp": "ん、く、舐めろと、言われても……",
+      "en": "Nngh, mgh... Even if you tell me to lick it...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2777,
+      "id": "ui_db_MessageClubInfo_2727_4",
+      "jp": "ん、ちゅ、まだ、イかないの……",
+      "en": "Nngh, suck... Aren't you coming yet...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2778,
+      "id": "ui_db_MessageClubInfo_2728_4",
+      "jp": "んんん……咥えた、けど……？",
+      "en": "Nnngh... I took it in, but...?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2779,
+      "id": "ui_db_MessageClubInfo_2729_4",
+      "jp": "ちゅ、ん、こ、こんな、感じ？",
+      "en": "Suck... Nngh... Li-like this?",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2780,
+      "id": "ui_db_MessageClubInfo_2730_4",
+      "jp": "ん、ちゅ、喉に、んんっ……",
+      "en": "Nngh, suck... In my throat... Nngh...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2781,
+      "id": "ui_db_MessageClubInfo_2731_4",
+      "jp": "うぅ、どうしてこんな……",
+      "en": "Ugh, why... like this...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2782,
+      "id": "ui_db_MessageClubInfo_2732_4",
+      "jp": "や、やらせないで、下さいませ……",
+      "en": "P-please, don't make me...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2783,
+      "id": "ui_db_MessageClubInfo_2733_4",
+      "jp": "こんなの、させないでよ……",
+      "en": "Don't make me do this...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2784,
+      "id": "ui_db_MessageClubInfo_2734_4",
+      "jp": "んぐ、うぇ、動かないでよ",
+      "en": "Mmph, wah, don't move...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2785,
+      "id": "ui_db_MessageClubInfo_2735_4",
+      "jp": "ん、うぅ、汚いんじゃ……",
+      "en": "Nn, ugh, it's so dirty...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2786,
+      "id": "ui_db_MessageClubInfo_2736_4",
+      "jp": "うぇ、喉、苦しいですぅ",
+      "en": "Wah, my throat... it hurts...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2787,
+      "id": "ui_db_MessageClubInfo_2737_4",
+      "jp": "く、う、こんな、屈辱を……Д",
+      "en": "Kuh, ugh... such humiliation...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2788,
+      "id": "ui_db_MessageClubInfo_2738_4",
+      "jp": "んД　いつでも、出していいよぉД",
+      "en": "NnД You can... let it out anytime...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2789,
+      "id": "ui_db_MessageClubInfo_2739_4",
+      "jp": "お口で、ちゅД　癒してあげるねД",
+      "en": "With my mouth... chuД I'll make it better...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2790,
+      "id": "ui_db_MessageClubInfo_2740_4",
+      "jp": "んぶ、ちゅ、御主人様……Д",
+      "en": "Glub, chu, Master...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2791,
+      "id": "ui_db_MessageClubInfo_2741_4",
+      "jp": "れろ、うあ、ふぅうぅ……",
+      "en": "Lero, uah, fuuu...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2792,
+      "id": "ui_db_MessageClubInfo_2742_4",
+      "jp": "んちゅ、んぷ、んんんД",
+      "en": "Nchu, npph, nnnnД",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2793,
+      "id": "ui_db_MessageClubInfo_2743_4",
+      "jp": "ちゅ、れろ、あはД　イきそうねД",
+      "en": "Chu, lero, ahaД Gonna cum, right?Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2794,
+      "id": "ui_db_MessageClubInfo_2744_4",
+      "jp": "じゅるるД　これ、得意なんだД",
+      "en": "GulrrrlД This is my specialty...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2795,
+      "id": "ui_db_MessageClubInfo_2745_4",
+      "jp": "ちゅ、全部、曝け出しましょうねД",
+      "en": "Chu, let's... expose everything...Д",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2796,
+      "id": "ui_db_MessageClubInfo_2746_4",
+      "jp": "あう、これ、あぁぁっ……！",
+      "en": "Aww, this... ahhh...!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2797,
+      "id": "ui_db_MessageClubInfo_2747_4",
+      "jp": "あ、あの、恥ずかしいですわ",
+      "en": "Ah, um, this is so embarrassing...",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2798,
+      "id": "ui_db_MessageClubInfo_2748_4",
+      "jp": "うそ、待っ、んんっ……！",
+      "en": "No way, w-wait, nnngh...!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2799,
+      "id": "ui_db_MessageClubInfo_2749_4",
+      "jp": "ん、く、待って、ふあぁ！",
+      "en": "Nn, kuh, wait... fwaaah!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    },
+    {
+      "n": 2800,
+      "id": "ui_db_MessageClubInfo_2750_4",
+      "jp": "え、え、舐めちゃ、んんっ！",
+      "en": "Eh, eh, licking it... nngh!",
+      "table": "db_MessageClubInfo",
+      "category": "ui_table"
+    }
+  ]
+}

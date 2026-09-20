@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101201,
+  "range_end": 101300,
+  "pairs": [
+    {
+      "n": 101201,
+      "id": "db_EventInfo:119511:1",
+      "jp": "はあ",
+      "en": "Sigh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101202,
+      "id": "db_EventInfo:119512:142",
+      "jp": "今回の投資話は【『サージ貿易管理局』】なんだ",
+      "en": "This time it's the 'Sarge Trade Management Bureau'.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101203,
+      "id": "db_EventInfo:119513:1",
+      "jp": "【『サージ貿易管理局』】？",
+      "en": "The 'Sarge Trade Management Bureau'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101204,
+      "id": "db_EventInfo:119514:142",
+      "jp": "【『ゼカリウス』】の南、【『灼熱の都サージ』】との交易を管理する組織だ",
+      "en": "It's the organization that manages trade with Sarge, the 'Scorching Capital', south of Zecarius.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101205,
+      "id": "db_EventInfo:119515:102",
+      "jp": "【『フレスミス森林道』】などが整備されたことで【『ゼカリウス』】との交易が活発化しているんだけど、他国であるサージとの関係は微妙でね",
+      "en": "Trade with Zecarius has picked up since roads like the 'Fresmis Forest Path' were built, but relations with Sarge, a foreign country, are... tricky.",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 101206,
+      "id": "db_EventInfo:119516:142",
+      "jp": "互いに貿易はしたいんだけど、国との関係も微妙で取引を増やせないようなんだ",
+      "en": "Both sides want to trade, but the state-to-state relations are shaky, so they can't really increase business.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101207,
+      "id": "db_EventInfo:119517:142",
+      "jp": "【『サージ貿易管理局』】は交易管理の組織だけど、同時に【『灼熱の都サージ』】から【『ゼカリウス』】を守る防衛組織でもある",
+      "en": "The 'Sarge Trade Management Bureau' handles trade, but it's also a defense group that protects Zecarius from the 'Scorching Capital, Sarge'.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101208,
+      "id": "db_EventInfo:119518:1",
+      "jp": "ふーむ、軍備を増強することで交易が増すというのも、不思議な話だな",
+      "en": "Hmm... So boosting military power to increase trade. That's a strange idea.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101209,
+      "id": "db_EventInfo:119519:102",
+      "jp": "【『灼熱の都サージ』】は香辛料や、贅沢品が豊富でね。【『ゼカリウス』】としても是非取引したい相手だよ",
+      "en": "Sarge, the 'Scorching Capital', is rich in spices and luxury goods. Zecarius really wants to trade with them.",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 101210,
+      "id": "db_EventInfo:119520:2",
+      "jp": "香辛料デスか……料理には必須の食材デスね",
+      "en": "Spices, desu? They're essential for cooking, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101211,
+      "id": "db_EventInfo:119521:142",
+      "jp": "そうだろう！",
+      "en": "Right?!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101212,
+      "id": "db_EventInfo:119522:102",
+      "jp": "てことで、【『投資』】してよ、ねえ！",
+      "en": "So, how about you 'invest' in us? C'mon!",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 101213,
+      "id": "db_EventInfo:119523:1",
+      "jp": "……アンタらも商人だろ、俺達じゃなく、自分たちで【『投資』】したらいいんじゃないか",
+      "en": "...You're merchants too, aren't you? Why don't you 'invest' in yourselves, instead of asking us?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101214,
+      "id": "db_EventInfo:119524:2",
+      "jp": "デス。その方が儲かる気がするデス",
+      "en": "Death. That does seem more profitable. Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101215,
+      "id": "db_EventInfo:119525:142",
+      "jp": "うっ",
+      "en": "Ugh.",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101216,
+      "id": "db_EventInfo:119526:102",
+      "jp": "まあまあいいじゃない、商人同士持ちつ持たれつという感じでД",
+      "en": "Oh come on, it's fine. It's like a give-and-take between fellow merchants. Д",
+      "speaker": "Misha",
+      "speaker_jp": "ミーシャ"
+    },
+    {
+      "n": 101217,
+      "id": "db_EventInfo:119527:142",
+      "jp": "大体、そんなカネがあるなら、危険な商売など、しない！",
+      "en": "Besides, if we had that kind of money, we wouldn't be doing such a dangerous business!",
+      "speaker": "Kane",
+      "speaker_jp": "ケイン"
+    },
+    {
+      "n": 101218,
+      "id": "db_EventInfo:119528:2",
+      "jp": "正論ではあるデスが、情けない話デス",
+      "en": "It is a logical point, but it's a pathetic story. Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101219,
+      "id": "db_EventInfo:119529:0",
+      "jp": "★クリア",
+      "en": "CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101220,
+      "id": "db_EventInfo:119530:0",
+      "jp": "商人の男女は立ち去っていった。",
+      "en": "The male and female merchants left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101221,
+      "id": "db_EventInfo:119532:15",
+      "jp": "【『サージ貿易管理局』】？",
+      "en": "The 'Surge Trade Management Office'?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101222,
+      "id": "db_EventInfo:119533:15",
+      "jp": "そうだね、【『灼熱の都サージ』】は【『ゼカリウス』】との交易が活発化している",
+      "en": "That's right. Trade with 'Zecarius' is really picking up in the 'Blazing Capital, Surge'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101223,
+      "id": "db_EventInfo:119534:15",
+      "jp": "最近は国交も安定してて、【サージの商人】もゼカリウス地方に足を運んでいるみたいだけど",
+      "en": "Lately, relations with other countries have been stable. It seems even merchants from Serge are coming to the Zecarius region.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101224,
+      "id": "db_EventInfo:119535:15",
+      "jp": "昔は相手国との関係も酷くてね、大きな戦いも何度も起こっている場所なんだ",
+      "en": "But in the past, relations with neighboring countries were terrible. It's a place where many big wars have happened.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101225,
+      "id": "db_EventInfo:119536:15",
+      "jp": "違法な取引も多くて、【『サージ貿易管理局』】は目を光らせているとのことだ",
+      "en": "There's a lot of illegal trade, too. I hear the 'Serge Trade Control Bureau' is keeping a close watch on things.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101226,
+      "id": "db_EventInfo:119537:2",
+      "jp": "違法な取引……デスか",
+      "en": "Illegal trade... you mean.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101227,
+      "id": "db_EventInfo:119538:15",
+      "jp": "そうだね。禁止薬物に危険な触媒、あとは……",
+      "en": "Yeah. Banned drugs, dangerous catalysts, and...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101228,
+      "id": "db_EventInfo:119539:15",
+      "jp": "【性奴隷】かな",
+      "en": "...sexual slaves.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101229,
+      "id": "db_EventInfo:119540:1",
+      "jp": "【性奴隷】……",
+      "en": "Sexual slaves...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101230,
+      "id": "db_EventInfo:119541:15",
+      "jp": "【『灼熱の都サージ』】では【美しい種族】の取引が盛んでね。最近では禁止の方向に動いているみたいだけど",
+      "en": "In the 'Blazing Capital of Serge', trading beautiful races is a big business. They've been moving to ban it lately, though.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101231,
+      "id": "db_EventInfo:119542:15",
+      "jp": "人間、禁止されると逆にヒートアップするものだからね……",
+      "en": "Humans, when something gets banned, it often just gets more popular...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101232,
+      "id": "db_EventInfo:119543:15",
+      "jp": "まああとは……ちょっと【変わった宗教】があるけど、まあこれはいいか",
+      "en": "Well, the other thing... there's a bit of a strange religion there, but maybe we can skip that.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101233,
+      "id": "db_EventInfo:119544:15",
+      "jp": "とにかく多くの富豪を抱える国だ。交易が盛んになることは喜ばしいね。",
+      "en": "Anyway, it's a country with many rich people. More trade is a good thing.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101234,
+      "id": "db_EventInfo:119545:2",
+      "jp": "なるほどデス",
+      "en": "I see.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101235,
+      "id": "db_EventInfo:119546:15",
+      "jp": "なんとか話を通しておくよ",
+      "en": "I'll make sure to put in a good word for us.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101236,
+      "id": "db_EventInfo:119547:15",
+      "jp": "やあ店長君、【『サージ貿易管理局』】に話を通しておいたよ",
+      "en": "Hey, Boss. I put in a good word for us with the 'Sarge Trade Bureau'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101237,
+      "id": "db_EventInfo:119548:1",
+      "jp": "【『サージ貿易管理局』】？",
+      "en": "The 'Sarge Trade Bureau'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101238,
+      "id": "db_EventInfo:119550:2",
+      "jp": "【『組織献金』】の話デスか。デシルスのやつが話を通してくれたデスかね",
+      "en": "Is this about the 'Organization Donations'? Desilus talked to them for us, I see.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101239,
+      "id": "db_EventInfo:119551:15",
+      "jp": "そうそう。その取り次ぎ相手が見えているんだ。会ってくれないかい？",
+      "en": "Yes, exactly. I found someone to handle it. Would you like to meet them?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101240,
+      "id": "db_EventInfo:119555:16",
+      "jp": "おお、店長さん、会えて嬉しいです",
+      "en": "Oh, Boss, it's good to finally meet you.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101241,
+      "id": "db_EventInfo:119556:16",
+      "jp": "私の名前はムファード。しがない南方の商人です",
+      "en": "My name is Mufard. I'm just a simple merchant from the south.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101242,
+      "id": "db_EventInfo:119557:16",
+      "jp": "私は流通を営んでおりましてな。店長さんのところでサージとの交易を行いたいのだと、そこの彼から聞き及びまして",
+      "en": "I'm in the distribution business. I heard from him over there that you want to start trading with Sarge.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101243,
+      "id": "db_EventInfo:119558:1",
+      "jp": "おお。デシルスが",
+      "en": "Oh. So Desilus did.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101244,
+      "id": "db_EventInfo:119559:15",
+      "jp": "はっはっ。役に立つだろう、僕は",
+      "en": "Ha ha. See, I'm useful.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101245,
+      "id": "db_EventInfo:119560:2",
+      "jp": "デシルスのやつ、ちゃんと仕事をしたデスね",
+      "en": "Desilus actually did his job properly this time.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101246,
+      "id": "db_EventInfo:119562:16",
+      "jp": "ええ、ええ。そうでございます。デシルスさんの方から、【『サージ貿易管理局』】に献金したいという旨をお聞きしまして",
+      "en": "Yes, yes. That's right. I heard from Mr. Desilus that you wanted to make a donation to the 'Sarge Trade Bureau'.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101247,
+      "id": "db_EventInfo:119563:16",
+      "jp": "ちょっとしたツテがありましてな。私の方で取り次ぎをしておきましょうぞ",
+      "en": "I have a little connection. I'll handle the introduction for you.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101248,
+      "id": "db_EventInfo:119564:15",
+      "jp": "サージの商人さんが仲介してくれると助かるね。他の地方に大金を送るのは神経が要るからねぇ",
+      "en": "It helps having a Sage merchant mediate. Sending large sums to other regions is nerve-wracking.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101249,
+      "id": "db_EventInfo:119565:2",
+      "jp": "なんでデス？　カネを渡されて喜ばないやつはいないデス",
+      "en": "Why, Des? Nobody is unhappy to receive money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101250,
+      "id": "db_EventInfo:119566:16",
+      "jp": "賄賂になりますからな。場合によってはスパイ扱いされることになりますぞ。ただでさえサージの者は用心深いものでして",
+      "en": "Because it's a bribe. Depending on the situation, they might treat you as a spy. Sage people are already very cautious.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101251,
+      "id": "db_EventInfo:119567:2",
+      "jp": "それはぞっとするデスね",
+      "en": "That sounds scary.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101252,
+      "id": "db_EventInfo:119568:16",
+      "jp": "そうならないよう、目を光らせておきましょう。【<pl>】さんからの献金を公にしておけば、やっかみも受けますまい",
+      "en": "To prevent that, we'll keep a close watch. If your, 【<pl>】's, donation is public, they won't be jealous.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101253,
+      "id": "db_EventInfo:119569:16",
+      "jp": "サージは強い商人には平等です。礼には礼で、良い商品で返させていただくでしょう",
+      "en": "Sage is fair to strong merchants. They'll return the courtesy with good goods.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101254,
+      "id": "db_EventInfo:119570:16",
+      "jp": "これからの成長に期待しておりますよ",
+      "en": "I look forward to your future growth.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101255,
+      "id": "db_EventInfo:119573:0",
+      "jp": "ムファードは去って行った。",
+      "en": "Mufard left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101256,
+      "id": "db_EventInfo:119574:2",
+      "jp": "これで【『組織献金』】できるデスね",
+      "en": "Now we can do the 【『Organization Donation』】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101257,
+      "id": "db_EventInfo:119575:2",
+      "jp": "しかしあのジジイ、信用できるのデス？　なんか、こちらの方をジロジロ見ていたデスが",
+      "en": "But can we trust that old man? He was staring at us kind of funny.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101258,
+      "id": "db_EventInfo:119576:15",
+      "jp": "きっと値踏みされたんだろうね。サージの商人は用心深いらしいから",
+      "en": "He was probably just sizing us up. I hear Sage merchants are cautious.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101259,
+      "id": "db_EventInfo:119577:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101260,
+      "id": "db_EventInfo:119580:0",
+      "jp": "気を付けて、取引をして行かなければ。",
+      "en": "I need to be careful and make my trades.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101261,
+      "id": "db_EventInfo:119582:16",
+      "jp": "【<pl>】さんは【『サージ貿易管理局』】にかなりの出資をなさっておられるようですな",
+      "en": "It seems you've put a lot of money into the 'Surge Trade Control Bureau', 【<pl>】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101262,
+      "id": "db_EventInfo:119583:16",
+      "jp": "やはり、サージ地方との交易をお望みですかな？",
+      "en": "Do you really want to trade with the Surge region?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101263,
+      "id": "db_EventInfo:119584:16",
+      "jp": "なるほどなるほど",
+      "en": "I see, I see.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101264,
+      "id": "db_EventInfo:119585:2",
+      "jp": "やせ我慢するなデス",
+      "en": "Don't be stubborn, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101265,
+      "id": "db_EventInfo:119586:2",
+      "jp": "サージってやつは、カネ持ちがたくさんいると聞くデス",
+      "en": "I hear Surge has a lot of rich people, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101266,
+      "id": "db_EventInfo:119587:2",
+      "jp": "そいつらに商品を売れば、ウハウハになれるデス！",
+      "en": "If we sell our stuff to them, we'll be rolling in money, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101267,
+      "id": "db_EventInfo:119588:16",
+      "jp": "サージの商人は海千山千のつわものばかり。生半可な覚悟で挑めば、財の全てを巻き上げられるでしょう",
+      "en": "The merchants in Surge are all tough veterans. If you challenge them with half-hearted resolve, they'll take all your wealth.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101268,
+      "id": "db_EventInfo:119589:2",
+      "jp": "おそろしいデス",
+      "en": "That's scary, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101269,
+      "id": "db_EventInfo:119590:16",
+      "jp": "しかし【<pl>】さんたちは、【『ハーヴェスタ商会』】傘下の商人と聞きます",
+      "en": "But I hear you, 【<pl>】, are merchants under the 'Harvester Company' umbrella.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101270,
+      "id": "db_EventInfo:119591:16",
+      "jp": "【『ハーヴェスタ商会』】は、元はといえばサージから成り立った商会。サージは同族には支援する掟があります",
+      "en": "The 'Harvester Company' originally came from Surge. Surge has a rule to support their own kind.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101271,
+      "id": "db_EventInfo:119592:16",
+      "jp": "いかがですかな？　サージとの交易権を正式に獲得してみては",
+      "en": "What do you think? Why not officially obtain the right to trade with Surge?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101272,
+      "id": "db_EventInfo:119593:1",
+      "jp": "その方法は？",
+      "en": "How do we do that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101273,
+      "id": "db_EventInfo:119594:16",
+      "jp": "商人の力量を見せる必要があります。今以上に【『サージ貿易管理局』】に出資すれば問題ありますまい",
+      "en": "You need to show your merchant skills. Increase your investment in the 【『Surge Trade Management Bureau』】 beyond what it is now. That should do it.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101274,
+      "id": "db_EventInfo:119595:2",
+      "jp": "けっきょくカネデスか。やはりカネ、カネはすべてを解決するデス",
+      "en": "So it's money again. Money solves everything.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101275,
+      "id": "db_EventInfo:119598:0",
+      "jp": "資金の余裕を見て、投資してみよう。",
+      "en": "I'll check my funds and invest.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101276,
+      "id": "db_EventInfo:119600:16",
+      "jp": "【<pl>】さんの商人としての力量と覚悟、しかと見届けました",
+      "en": "I have witnessed 【<pl>】's skill and resolve as a merchant.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101277,
+      "id": "db_EventInfo:119601:16",
+      "jp": "【『サージ貿易管理局』】を通じて、【<pl>】さんにサージとの正式な交易権を推薦しておきましょう",
+      "en": "I will officially recommend 【<pl>】 for trading rights with Surge through the 【『Surge Trade Management Bureau』】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101278,
+      "id": "db_EventInfo:119602:2",
+      "jp": "やったデス！",
+      "en": "Great!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101279,
+      "id": "db_EventInfo:119603:2",
+      "jp": "……けど、そんなこと、なんでオマエができるデス？",
+      "en": "...But, wait. How can you do that?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101280,
+      "id": "db_EventInfo:119604:16",
+      "jp": "ふぉっふぉっ、私は顔が広いですゆえ",
+      "en": "Hohoho, I have many connections.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101281,
+      "id": "db_EventInfo:119605:0",
+      "jp": "しかし、妙な感じがある。",
+      "en": "But this feels a bit strange.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101282,
+      "id": "db_EventInfo:119606:1",
+      "jp": "サージの商人は用心深いって聞いてたけど。ムファードさんは、どうしてこんなに親切にしてくれるんですか？",
+      "en": "I heard Surge merchants are very cautious. Mufard, why are you being so helpful?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101283,
+      "id": "db_EventInfo:119607:16",
+      "jp": "ふむ。店長さんが怪しむのも不思議ではありませんな",
+      "en": "Hmm. It's not strange that you, Shopkeeper, would be suspicious.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101284,
+      "id": "db_EventInfo:119608:16",
+      "jp": "そうですね……若人の支援をしたい、という理由では不足でしょうかな？",
+      "en": "That's right... My reason of 'wanting to support the young' probably isn't enough, is it?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101285,
+      "id": "db_EventInfo:119609:16",
+      "jp": "思い上がりを承知で言わせて頂きますが、私は成功した商売人です。【『大商人』】として名前も売れてます",
+      "en": "I know it sounds full of myself, but I am a successful merchant. I'm known by the name 'The Great Merchant'.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101286,
+      "id": "db_EventInfo:119610:16",
+      "jp": "金はすでに十分すぎるほど、使い切れないほどに手にしたこともあります",
+      "en": "I've already had more than enough money, more than I could ever spend.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101287,
+      "id": "db_EventInfo:119611:16",
+      "jp": "そういった老いぼれは……店長さんのような若い商売人を見ると、つい手助けをしてしまうのですよ",
+      "en": "An old man like me... when I see a young merchant like you, I just want to help out.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101288,
+      "id": "db_EventInfo:119612:1",
+      "jp": "手助け……",
+      "en": "Help out...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101289,
+      "id": "db_EventInfo:119613:2",
+      "jp": "使い切れないほどカネがあるのデス？　それなら、丸ごとプレゼントしてほしいデス",
+      "en": "You have more money than you can spend des? Then, give it all to me as a gift des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101290,
+      "id": "db_EventInfo:119614:16",
+      "jp": "私の財産を直接譲ってしまえば、成長は止まってしまいます。それは助けにならないと考えております",
+      "en": "If I just gave you all my wealth, your growth would stop. I don't think that is true help.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101291,
+      "id": "db_EventInfo:119615:16",
+      "jp": "私が見たいのは……店長さん、アナタという若い才能が、開花したその先を見ることなのですよ",
+      "en": "What I want to see... is you, Shopkeeper. I want to see what lies beyond the blossoming of your young talent.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101292,
+      "id": "db_EventInfo:119616:2",
+      "jp": "オマエはコイツに才能を感じたのデス？",
+      "en": "You feel this guy has talent des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101293,
+      "id": "db_EventInfo:119617:16",
+      "jp": "ええ。それこそが、我らが【『神』】の教え。ゼカリウスの地に生まれる、新しい【『商売の神』】を迎えることこそが、私の使命なのです",
+      "en": "Yes. That is precisely the teaching of our 'God'. To welcome a new 'God of Commerce' born in Zecarius's land, that is my mission.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101294,
+      "id": "db_EventInfo:119618:2",
+      "jp": "デス",
+      "en": "Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101295,
+      "id": "db_EventInfo:119619:16",
+      "jp": "おっと、変な話をしてしまいましたな",
+      "en": "Oops, I said something strange.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101296,
+      "id": "db_EventInfo:119620:16",
+      "jp": "それでは【<pl>】さん、今後もサージとの取引をよろしくお願いしますよ",
+      "en": "Well then, 【<pl>】, I look forward to doing business with Sarge in the future.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 101297,
+      "id": "db_EventInfo:119623:0",
+      "jp": "ムファードは去って行った。",
+      "en": "Mufard left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101298,
+      "id": "db_EventInfo:119624:1",
+      "jp": "【『神』】か……",
+      "en": "'God', huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101299,
+      "id": "db_EventInfo:119625:2",
+      "jp": "私が【『神』】……いわゆるゴッドであるように、アイツにも信じる【『神』】がいるのデス。【『神』】はいろんなところにいるデス",
+      "en": "Just as I am a 'God'... what you call a God, he also has a 'God' he believes in. Gods are everywhere, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101300,
+      "id": "db_EventInfo:119626:0",
+      "jp": "そのあと、サージとの正式な交易権を得たとの通達を受けた。",
+      "en": "After that, I got official notice that we got the formal trade rights with Sarge.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

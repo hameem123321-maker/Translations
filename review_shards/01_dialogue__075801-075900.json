@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75801,
+  "range_end": 75900,
+  "pairs": [
+    {
+      "n": 75801,
+      "id": "db_EventInfo:89665:224",
+      "jp": "そして【幼子】は死の淵にて、【『神』】に祈った",
+      "en": "And a child, at death's door, prayed to the 'god'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75802,
+      "id": "db_EventInfo:89666:224",
+      "jp": "祈りはたまたま、【『神』】に届き、その願いを聞き入れ、【この世界】に転生させた",
+      "en": "The prayer somehow reached the 'god', who listened and rebirthed them into this world.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75803,
+      "id": "db_EventInfo:89668:224",
+      "jp": "それが【この世界で最初】の【『ゴブリン』】だ",
+      "en": "That was the first Goblin in this world.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75804,
+      "id": "db_EventInfo:89670:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "Goblins are attacking from the darkness!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75805,
+      "id": "db_EventInfo:89673:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I can hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75806,
+      "id": "db_EventInfo:89675:224",
+      "jp": "【『神』】は暇で、空虚だった",
+      "en": "The 'god' was bored and empty.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75807,
+      "id": "db_EventInfo:89677:224",
+      "jp": "【『青き星』】に住む信徒と、【『赤き星』】の信徒の戦いはとうに終わり、融和を迎えつつある",
+      "en": "The war between the followers of the 'Blue Star' and the 'Red Star' ended long ago. They are now coming together.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75808,
+      "id": "db_EventInfo:89678:224",
+      "jp": "停滞に飽きた【『神』】の仲間は全て別の世界に移動して",
+      "en": "Tired of the boredom, the other 'Gods' all moved to different worlds.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75809,
+      "id": "db_EventInfo:89679:224",
+      "jp": "自らの同胞は、【カネとかいう新たな価値を見いだした妹】のみになっていた",
+      "en": "Now, my only fellow kin left was my sister, who found new value in something called 'money'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75810,
+      "id": "db_EventInfo:89680:224",
+      "jp": "その【妹】すら、【『青き星』】に出て行ってしまっていた",
+      "en": "Even that sister of mine went out to the 'Blue Star' and hasn't come back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75811,
+      "id": "db_EventInfo:89681:224",
+      "jp": "失った同胞",
+      "en": "I lost my fellow kin.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75812,
+      "id": "db_EventInfo:89682:224",
+      "jp": "【妹】すらも青い星に入り浸りで帰ってこない",
+      "en": "Even my sister is stuck on the Blue Star and won't return.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75813,
+      "id": "db_EventInfo:89684:224",
+      "jp": "ゆえに【『神』】が住まう【『金の星』】は金とは名ばかりの【『死の星』】だった",
+      "en": "So, the 'Golden Star' where the 'God' lives was just a name. It was really a 'Dead Star'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75814,
+      "id": "db_EventInfo:89685:224",
+      "jp": "自分の【『<ruby=化身>アバター</ruby>』】すらも【『青き星』】に行ったまま戻ってこない",
+      "en": "Even my own 'Avatar' went to the 'Blue Star' and hasn't come back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75815,
+      "id": "db_EventInfo:89686:224",
+      "jp": "【『神』】は暇で、孤独だった",
+      "en": "The 'God' was bored and lonely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75816,
+      "id": "db_EventInfo:89687:224",
+      "jp": "それを埋めようとして、新しい【『信徒』】を得ようと考えた",
+      "en": "To fill that void, I thought about getting new 'Followers'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75817,
+      "id": "db_EventInfo:89688:224",
+      "jp": "そして、青い星に移った同胞にも負けまいと",
+      "en": "And, not wanting to lose to the kin who moved to the Blue Star.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75818,
+      "id": "db_EventInfo:89689:224",
+      "jp": "すでに【『死の星』】となったこの地を再生しようと頑張ったわけだ",
+      "en": "I tried hard to bring this place, now a 'Dead Star', back to life.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75819,
+      "id": "db_EventInfo:89691:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "A Goblin attacked from the shadows!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75820,
+      "id": "db_EventInfo:89694:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75821,
+      "id": "db_EventInfo:89697:224",
+      "jp": "【『神』】は別世界より一匹の【『ゴブリン』】を転生させ、【『死の星』】に住まわせた",
+      "en": "God reincarnated a single Goblin from another world and made it live on the Death Star.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75822,
+      "id": "db_EventInfo:89698:224",
+      "jp": "【『ゴブリン』】の祈りは【「生きたい」】ことと【「子をなす」】こと。生物ならば誰にでも持つであろう、普通の願いだった",
+      "en": "The Goblin's prayers were to 'live' and to 'have children'. These are normal wishes that any living thing would have.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75823,
+      "id": "db_EventInfo:89699:224",
+      "jp": "しかし前者はともかく後者について【『神』】は望みをかなえられなかった",
+      "en": "But while God could grant the first wish, he could not grant the second.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75824,
+      "id": "db_EventInfo:89700:224",
+      "jp": "【『ゴブリン』】は自分の種族同士では子を成さぬ。【他の種族と交わる】ことによって子を成すのだ",
+      "en": "Goblins cannot have children with their own kind. They must mate with other species to have offspring.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75825,
+      "id": "db_EventInfo:89701:224",
+      "jp": "死の星には【『ゴブリン』】とツガイになる存在はいないし、死の世界では生きられない",
+      "en": "On the Death Star, there was no other species for the Goblin to pair with. And it couldn't survive in the world of the dead.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75826,
+      "id": "db_EventInfo:89702:224",
+      "jp": "【『神』】は困った",
+      "en": "God was troubled.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75827,
+      "id": "db_EventInfo:89704:224",
+      "jp": "困った神。しかし【『神』】には生命の源流である【『世界樹』】を生み出す力があったのだ",
+      "en": "A troubled God. But God had the power to create the World Tree, the source of all life.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75828,
+      "id": "db_EventInfo:89705:224",
+      "jp": "【『神』】はそこに【『世界樹』】を植えて【『ゴブリン』】のツガイにした",
+      "en": "So God planted the World Tree there and made it the Goblin's mate.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75829,
+      "id": "db_EventInfo:89706:224",
+      "jp": "【『ゴブリン』】は増え、様々な子供をなして、徐々に徐々に増えていった",
+      "en": "The Goblins increased. They had many different children and slowly, slowly, their numbers grew.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75830,
+      "id": "db_EventInfo:89708:224",
+      "jp": "いくらか増えた頃、【『死の星』】は【『青き星』】に近付いた",
+      "en": "Once they had increased quite a bit, the Death Star approached the Blue Planet.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75831,
+      "id": "db_EventInfo:89709:224",
+      "jp": "【『神』】は接近した青い星に【「階段」】を作り、【いくらかの信徒】を青い星に送った",
+      "en": "The 'God' made a 'stairway' to the approaching blue planet and sent some followers there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75832,
+      "id": "db_EventInfo:89710:224",
+      "jp": "【『青き星』】に住んでいた、僕の【『<ruby=化身>アバター</ruby>』】は【『神』】の行動に疑問を持ったが、否定はしなかった",
+      "en": "My 'Avatar' living on the 'Blue Planet' had doubts about the 'God's' actions, but didn't object.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75833,
+      "id": "db_EventInfo:89711:224",
+      "jp": "こんな弱い生物が生きていけるのか、と疑問は持ちかけてきたけど",
+      "en": "I started to wonder if such weak creatures could even survive there, though.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75834,
+      "id": "db_EventInfo:89712:224",
+      "jp": "【『青き星』】でも繁殖してくれるだろうと、願いをかけて。【『神』】は見届けた",
+      "en": "I hoped they would prosper even on the 'Blue Planet'. The 'God' watched over them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75835,
+      "id": "db_EventInfo:89714:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "From the darkness, Goblins attacked!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75836,
+      "id": "db_EventInfo:89717:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I can hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75837,
+      "id": "db_EventInfo:89719:224",
+      "jp": "【『ゴブリン』】にはツガイが要る",
+      "en": "Goblins need partners.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75838,
+      "id": "db_EventInfo:89721:224",
+      "jp": "【『青き星』】に降り立った【『ゴブリン』】は、ツガイを見付けているようだった",
+      "en": "The Goblins who landed on the 'Blue Planet' seemed to be looking for mates.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75839,
+      "id": "db_EventInfo:89722:224",
+      "jp": "【『ゴブリン』】は単独で繁殖はできない",
+      "en": "Goblins can't reproduce alone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75840,
+      "id": "db_EventInfo:89723:224",
+      "jp": "【他の種族の交流でしか増えない】という事は、【他の種族との交流】が必須となる",
+      "en": "They can only increase through interacting with other races. So, interaction with other races is a must.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75841,
+      "id": "db_EventInfo:89724:224",
+      "jp": "つまり【『ゴブリン』】とは【種族を融和させる「平和の象徴」】のような存在なのだと【『神』】は考えた",
+      "en": "The 'God' thought that Goblins were like a 'symbol of peace' that merges races together.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75842,
+      "id": "db_EventInfo:89725:224",
+      "jp": "素晴らしい存在だ。それに【『ゴブリン』】はすぐに進化していく",
+      "en": "They are amazing beings. And Goblins evolve quickly.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75843,
+      "id": "db_EventInfo:89727:224",
+      "jp": "ならば、もっと増やしていけば、【『死の星』】も【『青き星』】も……",
+      "en": "Then, if I create more, maybe the 'Death Star' and the 'Blue Star'...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75844,
+      "id": "db_EventInfo:89728:224",
+      "jp": "もしかすると【『赤き星』】にすら、更なる発展が望めるのではないだろうか",
+      "en": "Maybe even the 'Red Star' could develop further.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75845,
+      "id": "db_EventInfo:89729:224",
+      "jp": "そう考えた【『神』】は、さらにさらに頑張った",
+      "en": "Thinking that, the 'God' worked even harder.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75846,
+      "id": "db_EventInfo:89730:224",
+      "jp": "そうして豊かに増えた【『ゴブリン』】の生命力で【『死の星』】は復活し――",
+      "en": "The 'Death Star' revived using the abundant life force of the increased Goblins—",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75847,
+      "id": "db_EventInfo:89732:224",
+      "jp": "やがて【『緑の月』】と呼ばれるほどに、輝く星として生まれ変わった",
+      "en": "Eventually, it was reborn as a shining star, even called the 'Green Moon'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75848,
+      "id": "db_EventInfo:89733:224",
+      "jp": "そして――",
+      "en": "And then—",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75849,
+      "id": "db_EventInfo:89734:224",
+      "jp": "また【『青き星』】と近付く周期が訪れる",
+      "en": "The time came again for it to draw close to the 'Blue Star'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75850,
+      "id": "db_EventInfo:89735:224",
+      "jp": "これが百年かけて【『神』】が行った成果だ！　とばかりに、【『神』】は【『ゴブリン』】達を【『青き星』】に降ろしたのである",
+      "en": "As if to show off a century's worth of work, the 'God' sent the Goblins down to the 'Blue Star'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75851,
+      "id": "db_EventInfo:89741:15",
+      "jp": "まあ、結果はこのザマなんだけどね",
+      "en": "Well, we all see how that turned out.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75852,
+      "id": "db_EventInfo:89742:1",
+      "jp": "デシルス！",
+      "en": "Desilus!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75853,
+      "id": "db_EventInfo:89743:2",
+      "jp": "まさか……オマエ……オマエは……",
+      "en": "No way... You... You are...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75854,
+      "id": "db_EventInfo:89744:2",
+      "jp": "私の兄だったのデス！？",
+      "en": "You were my brother!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75855,
+      "id": "db_EventInfo:89745:1",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75856,
+      "id": "db_EventInfo:89746:15",
+      "jp": "はっはっ",
+      "en": "Hah hah",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75857,
+      "id": "db_EventInfo:89747:15",
+      "jp": "いやあ、ようやく思い出したよ",
+      "en": "Ah man, I finally remembered.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75858,
+      "id": "db_EventInfo:89748:15",
+      "jp": "【『<ruby=化身>アバター</ruby>』】との距離が遠すぎると、情報を同期できなくてさ",
+      "en": "When my Avatars are too far apart, they can't sync up their info.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75859,
+      "id": "db_EventInfo:89749:15",
+      "jp": "ちなみに【『青き星』】にいた僕と、【『緑の月』】の僕。どっちも【『<ruby=化身>アバター</ruby>』】なんだ",
+      "en": "By the way, the me on the 'Blue Star' and the me on the 'Green Moon'. They're both Avatars.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75860,
+      "id": "db_EventInfo:89750:15",
+      "jp": "本体はどっちなのか……うーん、もう忘れちゃったなぁ。どっちも本体みたいなもんだし。ネルディーネ君もそうだっただろう？",
+      "en": "Which one is the real body... Hmm, I already forgot. They're both kind of the real thing. Wasn't it the same for you, Neldine?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75861,
+      "id": "db_EventInfo:89751:2",
+      "jp": "それで今更なにをするつもりデス？",
+      "en": "So what are you planning to do now?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75862,
+      "id": "db_EventInfo:89752:15",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75863,
+      "id": "db_EventInfo:89753:15",
+      "jp": "僕も【『<ruby=アバター>彼</ruby>』】も、【こうなった原因を作った点】については反省しているけど。悪いとはおもってないよ",
+      "en": "Both me and 『<pl>Avatar』 reflect on being the cause of this. But I don't think it was wrong.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75864,
+      "id": "db_EventInfo:89754:15",
+      "jp": "【『神』】である自分たちは信徒の祈りが無ければ存在できない。それはシイネ君も同じことだろう？",
+      "en": "We 『Gods』 can't exist without our followers' prayers. It's the same for you, right Shiine?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75865,
+      "id": "db_EventInfo:89755:15",
+      "jp": "それに「人間種が万物の霊長である」という前提は無い",
+      "en": "Also, there's no rule saying 'humans are the superior race'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75866,
+      "id": "db_EventInfo:89756:1",
+      "jp": "それは……",
+      "en": "That's...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75867,
+      "id": "db_EventInfo:89757:15",
+      "jp": "【『神』】が信徒を見放すことはできない",
+      "en": "A 'God' can't abandon their followers.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75868,
+      "id": "db_EventInfo:89758:15",
+      "jp": "多少の手助けはあったとしても、彼らが自力で進化した結果がこれなんだ",
+      "en": "Even with some help, this is what they've achieved on their own.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75869,
+      "id": "db_EventInfo:89759:15",
+      "jp": "【『神』】とはそういうもの",
+      "en": "That's what a 'God' is.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75870,
+      "id": "db_EventInfo:89760:15",
+      "jp": "だから信徒のどちらが生き残るかは、【信徒同士で決めてもらう】ことになるよね",
+      "en": "So, which followers survive, they'll have to settle that between themselves.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75871,
+      "id": "db_EventInfo:89762:15",
+      "jp": "しかし【人間を積極的に絶滅させる事は許せない】。【『青き星』】担当の僕は人間の味方なんだから",
+      "en": "But I can't allow humans to be actively wiped out. I'm the 'Blue Star' manager, so I'm on humanity's side.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75872,
+      "id": "db_EventInfo:89763:15",
+      "jp": "だから僕は、【君達に全面的に協力した】。わりと頻繁に酷いコキ使われ方もされたけど不満は無かった",
+      "en": "That's why I gave you guys my full support. Even though you kinda worked me to the bone pretty often... I didn't mind.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75873,
+      "id": "db_EventInfo:89765:15",
+      "jp": "不満はなかった。たぶん……いや、きっとそう……だよね？",
+      "en": "I didn't mind... Probably... No, I'm sure... right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75874,
+      "id": "db_EventInfo:89766:1",
+      "jp": "そこは断定しろよ！",
+      "en": "Speak with some conviction!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75875,
+      "id": "db_EventInfo:89767:15",
+      "jp": "なんで君達に対して、ここまで手伝うモチベーションが湧くのかわからなかったけど、その理由はようやくわかったよ",
+      "en": "I never understood why I felt so motivated to help you all, but I finally get the reason.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75876,
+      "id": "db_EventInfo:89768:15",
+      "jp": "僕が人間側の【『神』】だったからなんだね",
+      "en": "It's because I was the 'God' on humanity's side.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75877,
+      "id": "db_EventInfo:89769:1",
+      "jp": "デシルス……",
+      "en": "Desilus...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75878,
+      "id": "db_EventInfo:89770:15",
+      "jp": "でも……【『ゴブリン』】を絶滅させることは止めないけど、その手助けをすることもできないんだ",
+      "en": "But... I won't stop you from wiping out the 'Goblins', but I can't help you with it either.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75879,
+      "id": "db_EventInfo:89771:15",
+      "jp": "【『神』】は公平じゃないとダメだからね。分かってくれると嬉しいな",
+      "en": "'God' has to be fair. I hope you understand.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75880,
+      "id": "db_EventInfo:89773:2",
+      "jp": "いや、責任はとれデス",
+      "en": "No, you've got to take responsibility, Des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75881,
+      "id": "db_EventInfo:89774:15",
+      "jp": "え、話聞いてたでしょ？　【『神』】は公平だからって",
+      "en": "Huh? You were listening, right? 'God' is fair.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75882,
+      "id": "db_EventInfo:89775:2",
+      "jp": "いいから責任はとれデス、オマエは私の舎弟デス",
+      "en": "That doesn't matter, just take responsibility, Des. You're my underling.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75883,
+      "id": "db_EventInfo:89776:15",
+      "jp": "ううっ",
+      "en": "Ugh...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75884,
+      "id": "db_EventInfo:89779:0",
+      "jp": "どうやらデシルスにはすっかり、舎弟根性が染みついてしまっているようだ……。",
+      "en": "Looks like Desilus has really gotten used to being a lowly underling...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75885,
+      "id": "db_EventInfo:89780:0",
+      "jp": "しかし、この場所に留まって問答を続けても仕方がない。",
+      "en": "But staying here and arguing won't help.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75886,
+      "id": "db_EventInfo:89781:0",
+      "jp": "とりあえず、先に進もう。",
+      "en": "Let's just move forward for now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75887,
+      "id": "db_EventInfo:89783:0",
+      "jp": "ということで、デシルスが戦闘に参加することになった。",
+      "en": "So, Desilus ended up joining the battle.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75888,
+      "id": "db_EventInfo:89784:2",
+      "jp": "キリキリ働くデス！　兄だからといって手加減しないデス！",
+      "en": "Work hard, Des! I won't go easy just because you're my big brother!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75889,
+      "id": "db_EventInfo:89785:2",
+      "jp": "いや、兄ならばますます容赦せんデス！！　超ウルトラキリキリ働くデス！！",
+      "en": "No, if you're my brother, I'll show even less mercy!! You'll work super extra hard, Des!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75890,
+      "id": "db_EventInfo:89786:15",
+      "jp": "は、はい……！",
+      "en": "Y-yes...!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75891,
+      "id": "db_EventInfo:89787:15",
+      "jp": "でもごめんね、でもやっぱり僕は【『神』】だから、人間に直接影響を及ぼすのはルール違反なんだ",
+      "en": "But sorry, I am a \"God\" after all. Directly influencing humans is against the rules.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75892,
+      "id": "db_EventInfo:89788:15",
+      "jp": "相手を直接傷つけるような、攻撃力とスキルは封印させてもらうよ。通常攻撃ぐらいはするけどね",
+      "en": "Skills and attacks that directly hurt others, I'll have to seal those. I can still do basic attacks, though.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75893,
+      "id": "db_EventInfo:89789:2",
+      "jp": "なにーデス！！",
+      "en": "WHAT!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75894,
+      "id": "db_EventInfo:89790:1",
+      "jp": "(シイネはガンガン戦闘してた気がするんだが)",
+      "en": "(I'm pretty sure Shiine was fighting all out, though.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75895,
+      "id": "db_EventInfo:89791:15",
+      "jp": "今の僕はしがない万能舎弟だからね。その代わり、サポートは頑張るからさ！",
+      "en": "Right now, I'm just a humble jack-of-all-trades underling. But I'll work hard on support instead!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75896,
+      "id": "db_EventInfo:89792:1",
+      "jp": "あ、ああ……",
+      "en": "Oh, uh... sure...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75897,
+      "id": "db_EventInfo:89793:15",
+      "jp": "準備が出来たら行こう",
+      "en": "Let's go when you're ready.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75898,
+      "id": "db_EventInfo:89794:15",
+      "jp": "【もう一人の僕】は、【『ゴブリン』】の【『世界樹』】の根元にいるはずだよ",
+      "en": "The other me should be at the base of the Goblin World Tree.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75899,
+      "id": "db_EventInfo:89795:15",
+      "jp": "といっても、僕のスキルを確認したいよね？　一度拠点に戻るといいかもね",
+      "en": "That said, you probably want to check my skills, right? Maybe we should head back to base once.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75900,
+      "id": "db_EventInfo:89796:1",
+      "jp": "そうだな",
+      "en": "Yeah, right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 87801,
+  "range_end": 87900,
+  "pairs": [
+    {
+      "n": 87801,
+      "id": "db_EventInfo:103702:108",
+      "jp": "なんじゃとー！？　ご先祖様の【『レシピ』】なのじゃぞ！！",
+      "en": "What?! But they're our ancestor's [Recipes]!!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87802,
+      "id": "db_EventInfo:103703:37",
+      "jp": "も、申し訳ありません……！　しかし、そういった決まりでしたので……",
+      "en": "I-I'm sorry...! But that was the rule...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87803,
+      "id": "db_EventInfo:103704:1",
+      "jp": "なるほどな……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87804,
+      "id": "db_EventInfo:103705:37",
+      "jp": "そして、【『レシピ』】を継承した【『薬聖』】に次に与えられる仕事、それが【『レシピ』】の【解読】でした",
+      "en": "And the next task given to a [Medicinarch] who inherits the [Recipes] was to [decipher] them.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87805,
+      "id": "db_EventInfo:103706:37",
+      "jp": "魔女のお二人には遠く及ばぬとはいえ、私たちも薬師の端くれ",
+      "en": "We may not compare to you two witches, but we are still pharmacists.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87806,
+      "id": "db_EventInfo:103707:37",
+      "jp": "代々の【『薬聖』】は【名もなき大魔女】の【『レシピ』】を受け継ぎ、その【解読を試みる】使命がありました",
+      "en": "Each generation of [Medicinarch] inherited the [Nameless Great Witch]'s [Recipes]. Their mission was to [try and decipher] them.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87807,
+      "id": "db_EventInfo:103708:9",
+      "jp": "ふむ、それで見事、解読に成功出来たならば、【『ウィルチ』】を襲名できるわけであるな",
+      "en": "Hmm. So if they manage to decipher it successfully, they can inherit the name 'Wilch', right?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87808,
+      "id": "db_EventInfo:103709:37",
+      "jp": "いえ……知っての通り、あの【『レシピ』】の解読は困難を極めるもの",
+      "en": "No... As you know, deciphering that 'Recipe' is extremely difficult.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87809,
+      "id": "db_EventInfo:103710:37",
+      "jp": "解読を試みるのは、自分たちの力不足を実感し……",
+      "en": "Trying to decipher it makes us realize our own lack of ability...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87810,
+      "id": "db_EventInfo:103712:37",
+      "jp": "……【『レシピ』】の恐怖を、身体に染み渡らせるためのものだったのです",
+      "en": "...It was to make the terror of the 'Recipe' soak into our very bodies.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87811,
+      "id": "db_EventInfo:103713:108",
+      "jp": "【『レシピ』】の……恐怖、じゃと？",
+      "en": "The terror... of the 'Recipe', you say?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87812,
+      "id": "db_EventInfo:103714:37",
+      "jp": "はい……あの【『レシピ』】は、代々の【『薬聖』】が秘匿し、決して外には持ち出せぬもの",
+      "en": "Yes... That 'Recipe' has been kept secret by generations of 'Medicine Saints'. It must never be taken outside.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87813,
+      "id": "db_EventInfo:103715:37",
+      "jp": "それには【強大な術理】が秘められていると伝えられてます。非常に危険な術が……",
+      "en": "It's said to conceal a 'formidable magical principle'. A very dangerous magic...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87814,
+      "id": "db_EventInfo:103716:1",
+      "jp": "たしかに、カリストたちが二人がかりでも、いまだに解読し終わってないほどだものな",
+      "en": "It's true. Even Callisto and the other one haven't finished deciphering it yet, even working together.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87815,
+      "id": "db_EventInfo:103717:37",
+      "jp": "【それに秘められた術理】を【『薬聖』】は恐れたのです",
+      "en": "The 'Medicine Saint' feared 'the magical principle hidden within it'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87816,
+      "id": "db_EventInfo:103718:37",
+      "jp": "私たちには無理でも、【『ウィルチ』】なら解読出来る。そして解読させてしまえば……",
+      "en": "Even if we couldn't, 'Wilch' could decipher it. And if they were allowed to decipher it...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87817,
+      "id": "db_EventInfo:103720:37",
+      "jp": "【『ウィルチ』】によって【『聖都』】が壊滅すると",
+      "en": "When Wilch destroys the Holy City",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87818,
+      "id": "db_EventInfo:103721:1",
+      "jp": "な、なんだって……！？",
+      "en": "W-what...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87819,
+      "id": "db_EventInfo:103722:0",
+      "jp": "カリストとオーレリアは目を逸らした。",
+      "en": "Callisto and Aurelia looked away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87820,
+      "id": "db_EventInfo:103723:1",
+      "jp": "……二人とも？",
+      "en": "...Both of you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87821,
+      "id": "db_EventInfo:103724:108",
+      "jp": "ワシは、しらないもーん",
+      "en": "I don't know anything about that.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87822,
+      "id": "db_EventInfo:103725:9",
+      "jp": "私も心当たりはないな",
+      "en": "I don't have any clue either.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87823,
+      "id": "db_EventInfo:103726:37",
+      "jp": "とぼけないでください！",
+      "en": "Stop playing dumb!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87824,
+      "id": "db_EventInfo:103727:37",
+      "jp": "【恐怖の大魔女オーレリア・ウィルチ】の薬災は、薬師を志すものなら、誰でも知ってます！　戒めとして！",
+      "en": "Every aspiring pharmacist knows the story of Aurelia Wilchi, the Great Witch of Terror! We learn it as a warning!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87825,
+      "id": "db_EventInfo:103728:108",
+      "jp": "うっ",
+      "en": "Oof.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87826,
+      "id": "db_EventInfo:103729:37",
+      "jp": "傾国の大魔女として、滅んだ国は一つや二つではありません……！",
+      "en": "As the 'Great Witch of Ruined Nations', you didn't destroy just one or two countries!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87827,
+      "id": "db_EventInfo:103730:1",
+      "jp": "オーレリア……？",
+      "en": "Aurelia...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87828,
+      "id": "db_EventInfo:103731:108",
+      "jp": "い、いや、若い頃の、ブイブイ言わせてたときでも、そこまでは……じゃろかなぁ？",
+      "en": "N-no, even in my wild youth, I don't think it was that bad... maybe?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87829,
+      "id": "db_EventInfo:103732:108",
+      "jp": "まああれじゃ、技術の発展に多少の犠牲はつきもの……",
+      "en": "But with that, some sacrifice is normal for advancing technology...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87830,
+      "id": "db_EventInfo:103733:37",
+      "jp": "アナタが不用意に実験して、治療困難な流行病が生まれたことも、一度や二度ではないのです！",
+      "en": "You carelessly experimenting and creating hard-to-treat epidemics? That's happened more than once or twice!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87831,
+      "id": "db_EventInfo:103734:108",
+      "jp": "いやー、あれはその、【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】の開発の副産物で……",
+      "en": "Well, that was actually a side effect of developing the 'Succubus Potion'...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87832,
+      "id": "db_EventInfo:103735:1",
+      "jp": "(そういえば、ゼルカが【『ウィルチ』】の薬を悪用して、流行病が発生したこともあったな)",
+      "en": "(Come to think of it, Zelka once misused a 'Wiltch' potion and caused an epidemic.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87833,
+      "id": "db_EventInfo:103736:37",
+      "jp": "本人にしか理解できない術理で作られた薬災を、面白半分で引き起こすのが【『ウィルチ』】なのです！",
+      "en": "A 'Wiltch' is someone who casually causes a drug disaster with a potion whose magical principle only they understand!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87834,
+      "id": "db_EventInfo:103737:37",
+      "jp": "【名もなき大魔女】がその偉業に反して名を消されたのも、偉業と同じぐらい【『聖都』】を危機に陥れたからなのですよ！",
+      "en": "The reason the 'Nameless Great Witch' had her name erased despite her great deeds is because she endangered the 'Holy City' almost as much as her achievements!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87835,
+      "id": "db_EventInfo:103738:37",
+      "jp": "【『聖都』】を揺るがした大犯罪者が、【『使徒』】に名を連ねていれば大問題ですからね！",
+      "en": "It would be a huge problem if a major criminal who shook the 'Holy City' was counted among the 'Apostles'!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87836,
+      "id": "db_EventInfo:103739:108",
+      "jp": "ぐ、ぐぬぬ……",
+      "en": "Grr... Ugh...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87837,
+      "id": "db_EventInfo:103740:37",
+      "jp": "そもそも【『薬聖』】という名は、偉大なる【名もなき大魔女】のために与えられた称号でした",
+      "en": "Originally, the title 'Potion Saint' was one bestowed upon the great 'Nameless Great Witch'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87838,
+      "id": "db_EventInfo:103741:37",
+      "jp": "しかし、奔放な師は【名に拘束されること】を嫌がりました",
+      "en": "But my free-spirited master hated the idea of being 'bound by a name'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87839,
+      "id": "db_EventInfo:103742:37",
+      "jp": "そして弟子に【『薬聖』】と【『レシピ』】を押しつけ、【もう一人の弟子】を連れて、どこかに消えてしまったのです",
+      "en": "So she forced the title of 'Potion Saint' and the 'Recipes' onto her disciple, then took her 'other disciple' and vanished somewhere.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87840,
+      "id": "db_EventInfo:103743:1",
+      "jp": "そんなことが……",
+      "en": "Such a thing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87841,
+      "id": "db_EventInfo:103744:37",
+      "jp": "これが代々の【『薬聖』】に、口伝でのみ伝わる【真実】ですわ",
+      "en": "This is the 'truth' passed down orally through the generations of 'Potion Saints'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87842,
+      "id": "db_EventInfo:103747:0",
+      "jp": "二人の魔女は絶句している。",
+      "en": "The two witches are left speechless.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87843,
+      "id": "db_EventInfo:103748:0",
+      "jp": "自らの先祖の名は簒奪されたものではなく、自ら捨てたとものと聞き、ショックだったのだろう。",
+      "en": "Hearing that their ancestor didn't have their name stolen, they chose to give it up. It must have been a shock.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87844,
+      "id": "db_EventInfo:103750:9",
+      "jp": "う、うーむ……",
+      "en": "Hmm, hmmm...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87845,
+      "id": "db_EventInfo:103751:108",
+      "jp": "地位と名誉を捨ててまで、研究を優先するなどとは……",
+      "en": "To give up status and honor just to focus on their research...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87846,
+      "id": "db_EventInfo:103752:108",
+      "jp": "</big>さすがは、ご先祖様じゃな！</big>",
+      "en": "As expected of our ancestor!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87847,
+      "id": "db_EventInfo:103753:9",
+      "jp": "</big>同意である！</big>",
+      "en": "I agree!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87848,
+      "id": "db_EventInfo:103754:0",
+      "jp": "二人の子孫は、感動するのであった。",
+      "en": "The two descendants were deeply moved.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87849,
+      "id": "db_EventInfo:103757:1",
+      "jp": "【名もなき大魔女】の名前が消された理由はわかったけど……",
+      "en": "So we know why the 'Nameless Great Witch' lost her name...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87850,
+      "id": "db_EventInfo:103758:1",
+      "jp": "【『レシピ』】は門外不出で、絶対に読ませてはいけないんだよな？",
+      "en": "But her 'Recipe' is top secret. No one is ever supposed to read it, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87851,
+      "id": "db_EventInfo:103759:37",
+      "jp": "……はい",
+      "en": "...Yes.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87852,
+      "id": "db_EventInfo:103760:1",
+      "jp": "なのに、どうして持ち出したんだ？",
+      "en": "Then why did you take it out?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87853,
+      "id": "db_EventInfo:103763:37",
+      "jp": "先日、一人の【『<ruby=ウィッチ>魔女</ruby>』】の話を聞きました",
+      "en": "Recently, I heard a story about a certain new witch.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87854,
+      "id": "db_EventInfo:103764:37",
+      "jp": "その新しい【『<ruby=ウィッチ>魔女</ruby>』】は驚くべきことに、【疫病から一つの街を救った】とか",
+      "en": "Amazingly, this new witch was said to have saved an entire city from a plague.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87855,
+      "id": "db_EventInfo:103765:37",
+      "jp": "そして、さらに話を聞いて見れば、その魔女こそが、新しい【『ウィルチ』】であると",
+      "en": "And then, as I listened further, I learned that very witch is the new 'Wilchi'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87856,
+      "id": "db_EventInfo:103766:37",
+      "jp": "……混沌をまき散らすのを喜びとする、【『ウィルチ』】からは信じられないことです",
+      "en": "...It's unbelievable for a 'Wilchi', who takes pleasure in spreading chaos.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87857,
+      "id": "db_EventInfo:103767:1",
+      "jp": "ん……？　それって",
+      "en": "Huh...? What's that mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87858,
+      "id": "db_EventInfo:103768:9",
+      "jp": "私のことであるか？",
+      "en": "Are you talking about me?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87859,
+      "id": "db_EventInfo:103769:37",
+      "jp": "はい。【カリスト・ウィルチ】。貴女のことです",
+      "en": "Yes. Callisto Wilchi. It's you.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87860,
+      "id": "db_EventInfo:103770:37",
+      "jp": "新しい【『ウィルチ』】は名もなき冒険者に仕え、その冒険者は成り上がって、ついには領主になったとも",
+      "en": "They say the new 'Wilchi' serves a nameless adventurer, and that adventurer rose up to eventually become a lord.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87861,
+      "id": "db_EventInfo:103771:9",
+      "jp": "ふむ、こそばゆいである",
+      "en": "Hmm, that's flattering.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87862,
+      "id": "db_EventInfo:103772:37",
+      "jp": "そして私は聞きました",
+      "en": "And then I heard something.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87863,
+      "id": "db_EventInfo:103773:37",
+      "jp": "当代の【『ウィルチ』】であれば、【名もなき大魔女】の【『レシピ』】を扱えるという【声】を",
+      "en": "I heard a rumor. That the current 'Wilchi' can handle the 'Recipe' of the 'Nameless Great Witch'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87864,
+      "id": "db_EventInfo:103774:37",
+      "jp": "今では分かります。あの【声】こそ、我が【『神』】の導きだったのですね",
+      "en": "Now I understand. That rumor was the guidance of my God.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87865,
+      "id": "db_EventInfo:103776:37",
+      "jp": "その【声】に導かれた私は、ネルディーネ様の手を借り、この地に馳せ参じたのです",
+      "en": "Guided by that rumor, with Lady Neldine's help, I rushed to this land.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87866,
+      "id": "db_EventInfo:103777:1",
+      "jp": "そんなことがあったのか……",
+      "en": "So that's what happened...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87867,
+      "id": "db_EventInfo:103778:1",
+      "jp": "でも、なんでそこにネルディーネが出てくるんだ？",
+      "en": "But why is Neldine showing up there?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87868,
+      "id": "db_EventInfo:103779:26",
+      "jp": "私は【『聖都』】の管財人ですからД",
+      "en": "I am the steward of the 'Holy City'. Д",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 87869,
+      "id": "db_EventInfo:103780:26",
+      "jp": "【名もなき大魔女】が遺した【『レシピ』】といえば、世紀の大秘宝",
+      "en": "The 'Recipe' left by the 'Nameless Great Witch' is a secret treasure of the century.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 87870,
+      "id": "db_EventInfo:103781:26",
+      "jp": "人間のあらゆる秘宝を愛でるものとして、見過ごすわけにはいきませんものД",
+      "en": "As one who appreciates all of humanity's treasures, I cannot overlook it. Д",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 87871,
+      "id": "db_EventInfo:103782:1",
+      "jp": "そういうものか",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87872,
+      "id": "db_EventInfo:103783:26",
+      "jp": "そういうものですわД",
+      "en": "Indeed. Д",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 87873,
+      "id": "db_EventInfo:103784:37",
+      "jp": "しかし、たとえ恐ろしいことが記された【『レシピ』】であったとしても",
+      "en": "However, even if a terrifying thing is recorded in that 'Recipe'...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87874,
+      "id": "db_EventInfo:103785:37",
+      "jp": "我が【『神』】の領域であるここならば、問題は無いでしょう",
+      "en": "There should be no problem here, within our 'God's' domain.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87875,
+      "id": "db_EventInfo:103787:108",
+      "jp": "あー",
+      "en": "Ah—",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87876,
+      "id": "db_EventInfo:103788:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87877,
+      "id": "db_EventInfo:103789:108",
+      "jp": "それ、なんじゃがなぁ",
+      "en": "What might that be?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87878,
+      "id": "db_EventInfo:103790:9",
+      "jp": "【『レシピ』】の解読は終わったのである",
+      "en": "The deciphering of the 'Recipe' is complete.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87879,
+      "id": "db_EventInfo:103791:37",
+      "jp": "ほ、本当なのですか！？　一体、どのようなことが……！？",
+      "en": "Is that really true!? What kind of thing could it be...!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87880,
+      "id": "db_EventInfo:103792:9",
+      "jp": "……クセ毛",
+      "en": "...Frizzy hair.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87881,
+      "id": "db_EventInfo:103793:37",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87882,
+      "id": "db_EventInfo:103794:9",
+      "jp": "クセ毛をピーンと伸ばしてサラサラにする、【整髪薬】の製法が書かれていたである",
+      "en": "It had the recipe for a [Hair Styling Potion] that makes frizzy hair straight and smooth.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87883,
+      "id": "db_EventInfo:103795:37",
+      "jp": "何を仰っているのか、その……",
+      "en": "What are you talking about... I mean...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87884,
+      "id": "db_EventInfo:103796:9",
+      "jp": "ご先祖様はクセ毛に悩まされていたようであるなぁ。まあ、私もそうであるが",
+      "en": "Seems our ancestor struggled with frizzy hair too. Well, so do I.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87885,
+      "id": "db_EventInfo:103797:9",
+      "jp": "この【『レシピ』】を使えば、私のネコ毛もマシになりそうであるな、わはは！",
+      "en": "Using this [Recipe] might help tame my messy hair, wahaha!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87886,
+      "id": "db_EventInfo:103798:108",
+      "jp": "ついでに【毛生え薬】の製法も書いておったぞ。ワシも髪の毛を伸ばして、小僧を誘惑してやるかのー",
+      "en": "By the way, the recipe for a [Hair Growth Potion] was also written down. I'll grow my hair long and seduce that lad, yes I will!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87887,
+      "id": "db_EventInfo:103799:37",
+      "jp": "ど、どういうことですか！？　【『聖都』】を脅かす、危険な術理が記されていたのでは！？",
+      "en": "Wh-what's going on!? I thought it contained dangerous secrets threatening the [Holy Capital]!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87888,
+      "id": "db_EventInfo:103800:108",
+      "jp": "うむ、非常に難解な暗号で守られておったのじゃが",
+      "en": "Indeed, it was protected by a very difficult code.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87889,
+      "id": "db_EventInfo:103801:9",
+      "jp": "それに守られた薬品はひどく、しょうもない内容だった、というのが真相である",
+      "en": "And the truth is, the potion it protected had terribly silly contents.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87890,
+      "id": "db_EventInfo:103802:37",
+      "jp": "そ、そんな……馬鹿な……",
+      "en": "Th-that's... That can't be...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87891,
+      "id": "db_EventInfo:103805:0",
+      "jp": "マルガレータさんはへなへなと、その場に崩れてしまった。",
+      "en": "Margareta fell limp and collapsed on the spot.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87892,
+      "id": "db_EventInfo:103807:0",
+      "jp": "その後、【名もなき大魔女】の【『レシピ』】は二人の魔女に譲渡された。",
+      "en": "After that, the 'Nameless Great Witch's 'Recipe' was handed over to the two witches.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87893,
+      "id": "db_EventInfo:103809:37",
+      "jp": "【『レシピ』】はもともと、【『ウィルチ』】のもの。好きになさってください",
+      "en": "The 'Recipe' originally belonged to 'Wiltchy'. Please, use it as you like.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87894,
+      "id": "db_EventInfo:103810:9",
+      "jp": "あれは、マルガレータ殿にとっても、大切なものであろう？",
+      "en": "That thing was also important to you, Margareta, wasn't it?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 87895,
+      "id": "db_EventInfo:103811:37",
+      "jp": "いえ。どちらにしろ、私たちには手に余る代物ですし",
+      "en": "No. In any case, it's something beyond our ability to handle.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87896,
+      "id": "db_EventInfo:103812:37",
+      "jp": "……これで、初代の師に報いることができますわ",
+      "en": "...This way, I can repay my first teacher.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87897,
+      "id": "db_EventInfo:103813:108",
+      "jp": "うむ、ありがたく頂くとするぞ",
+      "en": "Hmm, we shall gratefully accept it.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 87898,
+      "id": "db_EventInfo:103814:37",
+      "jp": "はい！",
+      "en": "Yes!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87899,
+      "id": "db_EventInfo:103815:0",
+      "jp": "正式に【『レシピ』】を手放したマルガレータさんの表情は、晴れやかだった。",
+      "en": "Margareta's expression, after officially letting go of the 'Recipe', was bright and clear.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87900,
+      "id": "db_EventInfo:103818:1",
+      "jp": "しかし、秘蔵のレシピの内容が、【整髪薬】とか【毛生え薬】だったとは",
+      "en": "But, for the secret recipe's contents to be 'Hair Styling Potion' or 'Hair Growth Potion'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

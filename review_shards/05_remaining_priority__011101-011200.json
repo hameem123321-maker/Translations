@@ -1,0 +1,817 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11101,
+  "range_end": 11200,
+  "pairs": [
+    {
+      "n": 11101,
+      "id": "rem_38862",
+      "jp": "脂肪の多いブタの肉。脂の甘みと肉の旨味が絶妙なバランスで調和している。舌の上で脂が溶ける繊細な味わいで、料理の幅を広げる高級食材だ。",
+      "en": "Fatty pork. The sweetness of the fat and the savoriness of the meat are in exquisite balance. A delicate flavor where the fat melts on the tongue, it's a high-end ingredient that broadens culinary horizons.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11102,
+      "id": "rem_38863",
+      "jp": "とろける豚肉",
+      "en": "Melt-in-Your-Mouth Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11103,
+      "id": "rem_38864",
+      "jp": "アルダルクの指定業者が、特別に厳選された飼料で育てたブタ肉。ジューシーで柔らかな肉質で、美食家達も絶賛する。",
+      "en": "Pork from pigs raised on specially selected feed by an Aldaluc-designated provider. Its juicy and tender texture is praised by gourmands.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11104,
+      "id": "rem_38865",
+      "jp": "美食家御用達ポーク",
+      "en": "Gourmet's Choice Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11105,
+      "id": "rem_38866",
+      "jp": "北方の寒冷な地で育てられた豚の肉。旨味と脂肪分が非常に高く、食べる者を満足させる。寒さから身を守る為か、脂肪を大量に蓄えている。",
+      "en": "Meat from pigs raised in the cold northern lands. Exceptionally high in umami and fat, it satisfies all who eat it. To protect from the cold, they store vast amounts of fat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11106,
+      "id": "rem_38867",
+      "jp": "ノーザリア謹製豚肉",
+      "en": "Northernia Premium Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11107,
+      "id": "rem_38868",
+      "jp": "仕留めた牛をスライスしただけの基本的な食肉。筋張っているので、ただ焼いただけでは硬く、美味しく食べるには一工夫必要。",
+      "en": "Basic meat from a slaughtered cow, simply sliced. It's tough and sinewy, so merely grilling it makes it hard; it requires some technique to be tasty.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11108,
+      "id": "rem_38869",
+      "jp": "スジ張ったワイルド肉",
+      "en": "Sinewy Wild Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11109,
+      "id": "rem_38870",
+      "jp": "アルダルク農業組合の酪農家が育てた牛の肉。しっかりと熟成されており、旨みも強い。",
+      "en": "Beef from cattle raised by Aldaluc Agricultural Union dairy farmers. Well-aged and strongly flavorful.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11110,
+      "id": "rem_38871",
+      "jp": "酪農家が育てた牛肉",
+      "en": "Dairy Farmer Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11111,
+      "id": "rem_38872",
+      "jp": "柔らかな肉質で知られるウシ肉。その味わいは絶品で、どんな料理のクオリティも引き上げる。",
+      "en": "Beef known for its tender texture. Its flavor is superb, elevating the quality of any dish.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11112,
+      "id": "rem_38873",
+      "jp": "旨みたっぷりビーフ",
+      "en": "Uber-Umami Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11113,
+      "id": "rem_38874",
+      "jp": "邪教の神殿で発見したちょっと黒い邪悪な牛肉。ピリっとするが命に別状はない。人を誘惑する魅力を秘めており、グルメな者たちが求めるらしい。",
+      "en": "Somewhat black, sinister beef found in a heretical temple. It has a spicy kick but isn't life-threatening. It harbors a tempting charm, sought by gourmets apparently.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11114,
+      "id": "rem_38875",
+      "jp": "デンジャラス墓場ビーフ",
+      "en": "Dangerous Graveyard Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11115,
+      "id": "rem_38876",
+      "jp": "丁寧に血を抜いて切り取った牛の肉。焼いても煮ても美味い、高級品。",
+      "en": "Carefully bled and carved beef. Delicious whether grilled or stewed, a premium cut.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11116,
+      "id": "rem_38877",
+      "jp": "野良ビーフ赤身ロース",
+      "en": "Stray Beef Red Meat Sirloin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11117,
+      "id": "rem_38878",
+      "jp": "王都の食味審査機関が指定する酪農家が育てたウシ肉。美味しい肉を作る為だけに、莫大なコストがかけられており、その分値の張る高級肉。",
+      "en": "Beef from cattle raised by farmers designated by the capital's food tasting authority. Immense cost is spent solely to produce delicious meat, making it a pricey, high-end cut.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11118,
+      "id": "rem_38879",
+      "jp": "指定農家特別肉",
+      "en": "Designated Farm Special Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11119,
+      "id": "rem_38880",
+      "jp": "古代から血統を厳選した神聖な牛の肉。特別に育てられた牛の肉は、濃厚な旨味が凝縮されている。宿した聖なるエネルギーは、食べる者を癒すといわれる。",
+      "en": "Meat from sacred cattle with bloodlines strictly selected since ancient times. The specially raised beef has a concentrated, rich umami. The holy energy it holds is said to heal those who eat it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11120,
+      "id": "rem_38881",
+      "jp": "聖なる牛肉",
+      "en": "Sacred Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11121,
+      "id": "rem_38882",
+      "jp": "討伐された荒くれウシノシシのいい部分。熟成させることで、まろやかな旨味が引き立つ。この肉を手に入れる為に、何人もの腕利きが駆り出された。",
+      "en": "Choice cuts from the vanquished wild boar. Aging brings out a mellow, rich flavor. Many skilled hunters were dispatched to obtain this meat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11122,
+      "id": "rem_38883",
+      "jp": "熟成ウシノシシ肉",
+      "en": "Aged Boar Meat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11123,
+      "id": "rem_38884",
+      "jp": "牛型魔獣の食肉の中からとれる、貴重な肉。脂と赤身のバランスが良い高級部位。",
+      "en": "A prized cut of beef from a cow-type magical beast. A high-quality section with excellent balance of fat and lean meat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11124,
+      "id": "rem_38885",
+      "jp": "魔獣のテンダーロイン",
+      "en": "Magical Beast Tenderloin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11125,
+      "id": "rem_38886",
+      "jp": "山岳地帯でも取れる丈夫な麦。焦げ付き辛いので、高温でパンを焼き上げるのに向く。",
+      "en": "A sturdy wheat found even in mountainous areas. Its resistance to scorching makes it ideal for high-temperature bread baking.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11126,
+      "id": "rem_38887",
+      "jp": "丈夫な山岳小麦",
+      "en": "Sturdy Mountain Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11127,
+      "id": "rem_38888",
+      "jp": "麦を砕いて篩いにかけた、きめの細かい粒子。オイルでカラッと揚げるには必需品。",
+      "en": "Finely ground wheat particles sifted after crushing. Essential for crispy deep-frying with oil.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11128,
+      "id": "rem_38889",
+      "jp": "ドルワミール麦粉",
+      "en": "Dolwamir Flour",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11129,
+      "id": "rem_38890",
+      "jp": "森林地帯で常食されている野生の穀物。植物の生存競争を勝ち抜いた、生命力に溢れた麦粒。",
+      "en": "A wild grain commonly eaten in forest regions. Wheat grains brimming with vitality, having survived the competition among plants.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11130,
+      "id": "rem_38891",
+      "jp": "森林の穀粒",
+      "en": "Forest Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11131,
+      "id": "rem_38892",
+      "jp": "黄金色に輝く麦粒。これで作られたパンはふんわりと焼きあがり、練り上げれば万人に好まれる味わいをもたらす。",
+      "en": "Wheat grains that shine with a golden color. Bread made from this bakes up fluffy; when kneaded, it yields a flavor beloved by all.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11132,
+      "id": "rem_38893",
+      "jp": "黄金色の穀粒",
+      "en": "Golden Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11133,
+      "id": "rem_38894",
+      "jp": "実った黄金色の麦。大地の生命力を凝縮した麦粒は、あらゆる人を飢餓から救うと言われている。",
+      "en": "Ripened golden wheat. Said to save all people from hunger, these grains concentrate the earth's vital energy.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11134,
+      "id": "rem_38895",
+      "jp": "輝く大地の麦",
+      "en": "Shining Earth Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11135,
+      "id": "rem_38896",
+      "jp": "繁殖力に優れた麦粒。不毛の地と化した砂漠でも繁茂する、希望の種。今を我慢すれば、未来には黄金の麦畑が広がるだろう。",
+      "en": "Wheat grains with superior reproductive power. Seeds of hope that thrive even in desertified wastelands. Endure the present, and golden wheat fields will spread in the future.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11136,
+      "id": "rem_38897",
+      "jp": "未来への種麦",
+      "en": "Seed Wheat for the Future",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 11137,
+      "id": "rem_38898",
+      "jp": "豊穣の女神から恵みを受けた聖なる麦。栄養価が高く、パンやビールなどに使われる。食べると満足感が得られ、体力回復効果もある。",
+      "en": "Sacred wheat blessed by the Goddess of Bounty. Highly nutritious, used for bread and beer. Eating it brings satisfaction and has a stamina recovery effect.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11138,
+      "id": "rem_38899",
+      "jp": "豊穣の聖麦",
+      "en": "Bountiful Sacred Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11139,
+      "id": "rem_38900",
+      "jp": "異邦から伝わった米。透き通った美しい白さは、麦とは別の味わい。ゼカリウスでの繁殖は不可能と思われたが、研究によって栽培法が確立された。",
+      "en": "Rice introduced from foreign lands. Its beautifully translucent whiteness offers a different taste from wheat. Once thought impossible to cultivate in Zecarius, research has established a farming method.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11140,
+      "id": "rem_38901",
+      "jp": "異邦のライス",
+      "en": "Foreign Rice",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11141,
+      "id": "rem_38902",
+      "jp": "聖地セグルメットで指定する、聖なる祈りが捧げられた麦。ロゼトニック商会が流通を管理している為、一般にはほとんど流通しない。",
+      "en": "Wheat blessed with holy prayers in the sacred land of Segurmet. Rarely circulates publicly due to management by the Rosetonic Trading Guild.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11142,
+      "id": "rem_38903",
+      "jp": "聖なる麦",
+      "en": "Holy Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11143,
+      "id": "rem_38904",
+      "jp": "スラリとした流れるフォルムを持つ食用植物。加熱すると柔らかくなり、食べやすい。",
+      "en": "An edible plant with a slender, flowing form. Becomes soft and easy to eat when heated.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11144,
+      "id": "rem_38905",
+      "jp": "スラリナス",
+      "en": "Slarnass",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11145,
+      "id": "rem_38906",
+      "jp": "精力が増すエネルギッシュな薬草。野性的な味がする……。",
+      "en": "An energetic herb that boosts vigor. Has a wild taste...",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11146,
+      "id": "rem_38907",
+      "jp": "エネルネギ",
+      "en": "Energenegi",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11147,
+      "id": "rem_38908",
+      "jp": "自然の養分を地下に蓄えた野菜。栄養価に優れた地下茎を食べれば、肉体を作るのに重要な栄養素を満たす事ができる。",
+      "en": "A vegetable that stores nutrients underground. Eating its nutritious rhizome provides essential nutrients for building the body.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11148,
+      "id": "rem_38909",
+      "jp": "マッスルキャロット",
+      "en": "Muscle Carrot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11149,
+      "id": "rem_38910",
+      "jp": "大地の栄養を集めた地下茎を乾燥させたもの。食べれば体が熱くなり、たちまち活力が湧き上がる。",
+      "en": "Dried rhizome that collects the earth's nutrients. Makes the body feel hot and instantly invigorated when eaten.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11150,
+      "id": "rem_38911",
+      "jp": "ホットガーリック",
+      "en": "Hot Garlic",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11151,
+      "id": "rem_38912",
+      "jp": "見ているだけで力が湧いてくる、不思議なかぼちゃ。甘くほっこりした実はスープに最適で、食べれば身も心も強靭になる。",
+      "en": "A mysterious pumpkin that makes you feel stronger just by looking at it. Its sweet, hearty flesh is perfect for soup and fortifies body and mind.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11152,
+      "id": "rem_38913",
+      "jp": "フォースパンプキン",
+      "en": "Force Pumpkin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11153,
+      "id": "rem_38914",
+      "jp": "一粒で冒険の活力が得られるという大地の恵み。類似した野菜類は数多く出回るが、薬効と栄養価を兼ね備えたモノは極めて稀。",
+      "en": "A bounty of the earth said to provide the energy for an entire adventure with one bite. Many similar vegetables exist, but few possess both medicinal and nutritional value.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11154,
+      "id": "rem_38915",
+      "jp": "ボルカニックトマト",
+      "en": "Volcanic Tomato",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11155,
+      "id": "rem_38916",
+      "jp": "知啓を授かると言われる、地下に実を作る薬草の一種。そのまま噛り付くと、強靭な冒険者でも泣いてしまう辛味を持ち、食べるには工夫が必要。",
+      "en": "A type of medicinal herb bearing fruit underground, said to bestow enlightenment. Biting into it raw releases a spiciness that can make even the hardiest adventurer cry, requiring clever preparation to eat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11156,
+      "id": "rem_38917",
+      "jp": "叡智のオニオン",
+      "en": "Onion of Wisdom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11157,
+      "id": "rem_38918",
+      "jp": "食べれば火を噴くような辛さを感じる唐辛子。焼き野菜や煮込み料理に、少量を加えて味を楽しめる。",
+      "en": "A chili pepper that feels blazingly spicy when eaten. Enjoyed by adding a small amount to roasted vegetables or stews.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11158,
+      "id": "rem_38919",
+      "jp": "フレイムペッパー",
+      "en": "Flame Pepper",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11159,
+      "id": "rem_38920",
+      "jp": "邪教徒が儀式用に育てたかぼちゃ。呪われた土地で栽培され、独特の苦味と甘さに中毒性がある。闇の住人が好む、ダーク食材。",
+      "en": "A pumpkin cultivated by cultists for rituals. Grown on cursed land, it has an addictive bitter-sweetness. A dark ingredient favored by shadow-dwellers.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11160,
+      "id": "rem_38921",
+      "jp": "邪教徒パンプキン",
+      "en": "Cultist Pumpkin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11161,
+      "id": "rem_38922",
+      "jp": "サルバック砂漠に沈んだ黄金都市ゴルドヴァーナの遺跡から見つかったマメ。独特な風味と食感は、ナッツの常識を塗り替える。現在量産の研究中。",
+      "en": "A bean found in the ruins of the golden city Gordeuvana, sunk in the Sarubac Desert. Its unique flavor and texture redefine nut conventions. Mass production is being researched.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11162,
+      "id": "rem_38923",
+      "jp": "ゴールデンナッツ",
+      "en": "Golden Nut",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11163,
+      "id": "rem_38924",
+      "jp": "アルダルク農業組合の牧場で生産される人気のフルーツ。たっぷりと果汁を溜め込んだ甘い果実は、老若男女を問わず人気。",
+      "en": "A popular fruit produced at the Ardaluke Agriculture Union's ranch. Its sweet flesh, packed with juice, is loved by people of all ages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11164,
+      "id": "rem_38925",
+      "jp": "牧場生産フルーツ",
+      "en": "Ranch-Produced Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11165,
+      "id": "rem_38926",
+      "jp": "活力が増す不思議な木の実。森で多く採れ、スイーツにも利用される。",
+      "en": "A mysterious fruit that boosts vitality. Common in forests, also used in sweets.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11166,
+      "id": "rem_38927",
+      "jp": "ライフアップル",
+      "en": "Life Apple",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11167,
+      "id": "rem_38928",
+      "jp": "天然の糖分とミネラルをたっぷり含んだ森の恵み。適度な甘さとスッキリした酸味は、疲労を溶かすように体に染みわたる。",
+      "en": "A bounty of the forest, rich in natural sugars and minerals. Its moderate sweetness and refreshing acidity seep into the body, melting away fatigue.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11168,
+      "id": "rem_38929",
+      "jp": "森の恵みフルーツ",
+      "en": "Forest's Bounty Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11169,
+      "id": "rem_38930",
+      "jp": "赤い皮に包まれた果実。小粒な見た目とは裏腹に、大量の水分を含んでいる。",
+      "en": "A fruit wrapped in red skin. Despite its small appearance, it contains a large amount of water.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11170,
+      "id": "rem_38931",
+      "jp": "みずみずしい赤身果実",
+      "en": "Juicy Red Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11171,
+      "id": "rem_38932",
+      "jp": "紫色に変色したベリー果実。闇の魔力を蓄えた果肉は極上の味わいを持つが、依存性を持つ為、調理方法には一工夫必要。",
+      "en": "A berry that has turned purple. Its flesh, infused with dark magic, has an exquisite taste, but its addictive nature requires careful preparation.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11172,
+      "id": "rem_38933",
+      "jp": "邪教のブラッドベリ―",
+      "en": "",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 11173,
+      "id": "rem_38934",
+      "jp": "溢れる生命力と神聖な魔力が漲る果実。人工的な栽培が成功しておらず、一流の冒険者が死線をくぐらねば入手できないと言われている。",
+      "en": "A fruit overflowing with vital energy and holy magic. Artificial cultivation has not succeeded; it is said only top adventurers risking their lives can obtain it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11174,
+      "id": "rem_38935",
+      "jp": "命漲る天上の果実",
+      "en": "Heavenly Fruit of Life",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11175,
+      "id": "rem_38936",
+      "jp": "魔術によって成長を促進させた、爽やかな芳香を放つレモン。フレッシュな酸味と、スッキリとした後味を感じられる。",
+      "en": "A lemon grown with magical acceleration, emitting a refreshing aroma. Offers a fresh sourness and a crisp aftertaste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11176,
+      "id": "rem_38937",
+      "jp": "爽快フレッシュレモン",
+      "en": "Refreshing Fresh Lemon",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11177,
+      "id": "rem_38938",
+      "jp": "海辺の土壌と潮風に適したフルーツ。海辺の生育に適した果実は、爽やかな酸味と多量の水分を蓄え、周辺地域に珍重されている。",
+      "en": "A fruit suited to coastal soil and sea breeze. Adapted to seaside growth, it stores a refreshing acidity and abundant water, prized in surrounding regions.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11178,
+      "id": "rem_38939",
+      "jp": "海辺のジューシーフルーツ",
+      "en": "Seaside Juicy Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11179,
+      "id": "rem_38940",
+      "jp": "黒の森ダムブナックで採取できるイチゴ。土地の濃密な魔力を蓄えており、その味わいは絶品。ただし、生食すると精神を蝕まれる。",
+      "en": "A strawberry found in the Dark Forest Dambunack. It absorbs the dense local magic, giving it an exquisite flavor. However, eating it raw erodes the mind.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11180,
+      "id": "rem_38941",
+      "jp": "邪教のストロベリー",
+      "en": "Heretic's Strawberry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11181,
+      "id": "rem_38942",
+      "jp": "黄金の都ゴルドヴァーナに生えていた、大量のミルクを蓄えた神秘的な果物。サルバック砂漠の過酷な環境でも水分を補給できる奇跡の果実。",
+      "en": "A mystical fruit from the golden city of Goldwana, filled with abundant milk. A miraculous fruit that provides moisture even in the harsh Salback Desert.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11182,
+      "id": "rem_38943",
+      "jp": "神秘のココナッツ",
+      "en": "Mystical Coconut",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11183,
+      "id": "rem_38944",
+      "jp": "噛むと苦みのある野趣溢れるハーブ。多くは打ち捨てられていたが、近年栄養価が見直されるとともに、愛好家が大量に生食しだした。",
+      "en": "A wild, bitter herb once discarded, now valued for its nutrition and eaten raw by enthusiasts.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11184,
+      "id": "rem_38945",
+      "jp": "苦みのある群生ハーブ",
+      "en": "Bitter Cluster Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11185,
+      "id": "rem_38946",
+      "jp": "突き抜けるような爽快感を持つ強烈な辛さが特徴的なハーブ。この味を出せるハーブは人工的な栽培が難しい。",
+      "en": "A powerfully spicy herb with a piercing, refreshing kick. Difficult to cultivate artificially.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11186,
+      "id": "rem_38947",
+      "jp": "ピリ辛森林ハーブ",
+      "en": "Spicy Forest Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11187,
+      "id": "rem_38948",
+      "jp": "強力な辛味を持つ真っ赤な植物。あまりに強力なその辛さは、一気に食べようものならば悶絶してしまう。",
+      "en": "A bright red plant with intense heat. Eating it all at once can be agonizing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11188,
+      "id": "rem_38949",
+      "jp": "激辛赤ペッパー",
+      "en": "Fiery Red Pepper",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11189,
+      "id": "rem_38950",
+      "jp": "爽やかな酸味を持つベリー植物。生育には気候条件が大切なため、北方では珍重されている。主な用途は乾燥させての香辛料。",
+      "en": "A berry with a refreshing sourness. Prized in the north for its climate-dependent growth. Often dried for spice.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11190,
+      "id": "rem_38951",
+      "jp": "野生の清涼ベリー",
+      "en": "Wild Cool Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11191,
+      "id": "rem_38952",
+      "jp": "さわやかな香りが特徴のハーブ。干して砕くと消化や喉の調子を整える効果があり、爽やかな香辛料として求められる。",
+      "en": "An herb with a refreshing scent. Dried and crushed, it aids digestion and soothes throats, sought after as a spice.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11192,
+      "id": "rem_38953",
+      "jp": "爽快な清涼ハーブ",
+      "en": "Refreshing Cool Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11193,
+      "id": "rem_38954",
+      "jp": "様々な香辛料をブレンドして、至福の味わいを実現した香辛料。一度味わったら忘れられない、魅力に溢れた香辛料",
+      "en": "A blended spice that achieves a blissful flavor. An unforgettable, captivating condiment.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11194,
+      "id": "rem_38955",
+      "jp": "魅惑のブレンドハーブ",
+      "en": "Alluring Blend Herb",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11195,
+      "id": "rem_38956",
+      "jp": "肉や魚介類に振り掛ければそれだけでごちそうになる香辛料。栽培が不可能で、一粒で並の宝石と同等の価値があるとされた。",
+      "en": "A spice that turns meat or seafood into a feast. Impossible to cultivate, a single grain was worth a common gem.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11196,
+      "id": "rem_38957",
+      "jp": "至福の香辛料",
+      "en": "Blissful Spice",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11197,
+      "id": "rem_38958",
+      "jp": "灼熱の国サージの大商会が秘密裏に栽培している香辛料。料理に使うと、深い味わいが出る。その製法は門外不出とされ、大金を出しても知ることはできない。",
+      "en": "A spice secretly cultivated by the great merchant guild of the scorching nation Sarge. Adds deep flavor to dishes. The recipe is a closely guarded secret.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11198,
+      "id": "rem_38959",
+      "jp": "サージの秘蔵香辛料",
+      "en": "Sarge's Secret Spice",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11199,
+      "id": "rem_38960",
+      "jp": "異邦より伝わった、豆を熟成させて作る黒い液体。塩味と仄かな甘みは、ゼカリウスの食通も唸るが、うっかりすると腐敗して台無しになる。",
+      "en": "A black fermented liquid from beans, introduced from foreign lands. Its salty, subtly sweet taste impresses even Zecarius, but careless handling can spoil it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11200,
+      "id": "rem_38961",
+      "jp": "異邦の発酵液",
+      "en": "Foreign Fermented Liquid",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

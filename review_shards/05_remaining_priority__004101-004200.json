@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4101,
+  "range_end": 4200,
+  "pairs": [
+    {
+      "n": 4101,
+      "id": "rem_31720",
+      "jp": "暗殺",
+      "en": "Assassinate",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4102,
+      "id": "rem_31721",
+      "jp": "【<dst>】は気配を消した！",
+      "en": "【<dst>】vanished!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4103,
+      "id": "rem_31722",
+      "jp": "【<dst>】の隠密効果が元に戻った……",
+      "en": "【<dst>】's stealth wore off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4104,
+      "id": "rem_31723",
+      "jp": "クリティカル率+100% + 弱点へのダメージ+20%",
+      "en": "Crit Rate +100% + Weakness DMG +20%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4105,
+      "id": "rem_31724",
+      "jp": "暗殺++",
+      "en": "Assassinate++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4106,
+      "id": "rem_31725",
+      "jp": "被ターゲット率+1000%",
+      "en": "Taunt Rate +1000%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4107,
+      "id": "rem_31726",
+      "jp": "【<dst>】は敵を挑発状態に入った！",
+      "en": "【<dst>】taunted the enemy!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4108,
+      "id": "rem_31727",
+      "jp": "【<dst>】は相手にされなくなった……",
+      "en": "【<dst>】is no longer targeted...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4109,
+      "id": "rem_31728",
+      "jp": "最大HPの20%を超える攻撃を軽減+50%",
+      "en": "Reduce DMG >20% Max HP by 50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4110,
+      "id": "rem_31729",
+      "jp": "【<dst>】に守護が与えられた！",
+      "en": "【<dst>】was protected!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4111,
+      "id": "rem_31730",
+      "jp": "【<dst>】の大盾効果が消えた……",
+      "en": "【<dst>】's Great Shield ended...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4112,
+      "id": "rem_31731",
+      "jp": "大盾",
+      "en": "Great Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4113,
+      "id": "rem_31732",
+      "jp": "【<dst>】の前に魔力の盾が張られた！",
+      "en": "A magic shield appeared before 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4114,
+      "id": "rem_31733",
+      "jp": "【<dst>】の魔盾効果が消えた……",
+      "en": "【<dst>】's Magic Shield ended...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4115,
+      "id": "rem_31734",
+      "jp": "魔盾",
+      "en": "Magic Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4116,
+      "id": "rem_31735",
+      "jp": "最大HPの20%を超える攻撃を軽減+70%",
+      "en": "Reduce DMG >20% Max HP by 70%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4117,
+      "id": "rem_31736",
+      "jp": "【<dst>】の前に聖盾が張られた！",
+      "en": "A holy shield appeared before 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4118,
+      "id": "rem_31737",
+      "jp": "【<dst>】の聖盾が消滅した……",
+      "en": "【<dst>】's Holy Shield vanished...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4119,
+      "id": "rem_31738",
+      "jp": "聖盾",
+      "en": "Holy Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4120,
+      "id": "rem_31739",
+      "jp": "最大HPの20%を超える攻撃を軽減+90%",
+      "en": "Reduce DMG >20% Max HP by 90%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4121,
+      "id": "rem_31740",
+      "jp": "【<dst>】に死神バリアが張られた！",
+      "en": "【<dst>】has a Shinigami Barrier!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4122,
+      "id": "rem_31741",
+      "jp": "【<dst>】の死神バリアが消えた……",
+      "en": "【<dst>】's Shinigami Barrier is gone...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4123,
+      "id": "rem_31742",
+      "jp": "神盾",
+      "en": "Divine Shield",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4124,
+      "id": "rem_31743",
+      "jp": "【<dst>】は見切りバリアを張った！",
+      "en": "【<dst>】raised an Insight Barrier!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4125,
+      "id": "rem_31744",
+      "jp": "【<dst>】は見切れなくなった……",
+      "en": "【<dst>】can no longer see through...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4126,
+      "id": "rem_31745",
+      "jp": "見切り",
+      "en": "Insight",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4127,
+      "id": "rem_31746",
+      "jp": "ターンごとにHP回復+10%",
+      "en": "Recover 10% HP per turn",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4128,
+      "id": "rem_31747",
+      "jp": "自動回復",
+      "en": "Auto-Heal",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4129,
+      "id": "rem_31748",
+      "jp": "【<dst>】に再生の力が付与された！",
+      "en": "【<dst>】gained Regeneration!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4130,
+      "id": "rem_31749",
+      "jp": "【<dst>】から再生の力が消えた……",
+      "en": "【<dst>】's Regeneration faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4131,
+      "id": "rem_31750",
+      "jp": "再生",
+      "en": "Regeneration",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4132,
+      "id": "rem_31751",
+      "jp": "ターンごとにMP回復+10% + 四属性ダメージ+30%",
+      "en": "Recover 10% MP + 30% elemental dmg per turn",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4133,
+      "id": "rem_31752",
+      "jp": "【<dst>】に霊樹の力が顕現した！",
+      "en": "【<dst>】's Spirit Tree power manifested!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4134,
+      "id": "rem_31753",
+      "jp": "【<dst>】の霊樹の力が消えた……",
+      "en": "【<dst>】's Spirit Tree power faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4135,
+      "id": "rem_31754",
+      "jp": "霊樹",
+      "en": "Spirit Tree",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4136,
+      "id": "rem_31755",
+      "jp": "戦闘不能時に自動復活+100%",
+      "en": "Auto-Revive 100% when KO'd",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4137,
+      "id": "rem_31756",
+      "jp": "【<dst>】に復活の力が現れた！",
+      "en": "【<dst>】gained Revival!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4138,
+      "id": "rem_31757",
+      "jp": "【<dst>】の復活効果が消えた……",
+      "en": "【<dst>】's Revival effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4139,
+      "id": "rem_31758",
+      "jp": "復活",
+      "en": "Revival",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4140,
+      "id": "rem_31759",
+      "jp": "戦闘不能時に自動復活+100% + ターンごとにHP回復+20%",
+      "en": "Auto-Revive 100% + Recover 20% HP per turn when KO'd",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4141,
+      "id": "rem_31760",
+      "jp": "復活++",
+      "en": "Revival ++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4142,
+      "id": "rem_31761",
+      "jp": "チェイススキルのダメージ+50%",
+      "en": "Chase Skill DMG +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4143,
+      "id": "rem_31762",
+      "jp": "強化・中級",
+      "en": "Enhancement · Mid",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4144,
+      "id": "rem_31763",
+      "jp": "【<dst>】の影分身が作り出された！",
+      "en": "A shadow clone of 【<dst>】 has been created!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4145,
+      "id": "rem_31764",
+      "jp": "【<dst>】の影分身が消えた……",
+      "en": "【<dst>】's shadow clone vanished...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4146,
+      "id": "rem_31765",
+      "jp": "影分身",
+      "en": "Shadow Clone",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4147,
+      "id": "rem_31766",
+      "jp": "チェイススキルのダメージ+100%",
+      "en": "Chase Skill DMG +100%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4148,
+      "id": "rem_31767",
+      "jp": "影分身++",
+      "en": "Shadow Clone ++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4149,
+      "id": "rem_31768",
+      "jp": "フィールド効果除去",
+      "en": "Remove Field Effect",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4150,
+      "id": "rem_31769",
+      "jp": "フィールド",
+      "en": "Field",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4151,
+      "id": "rem_31770",
+      "jp": "【<dst>】にディスペル効果が与えられた！",
+      "en": "【<dst>】 has been inflicted with Dispel!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4152,
+      "id": "rem_31771",
+      "jp": "【<dst>】のディスペル効果が消えた……",
+      "en": "【<dst>】's Dispel effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4153,
+      "id": "rem_31772",
+      "jp": "デスペル",
+      "en": "Dispel",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4154,
+      "id": "rem_31773",
+      "jp": "回避率+20% + クリティカル率+30%",
+      "en": "Evasion Rate +20% + Critical Rate +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4155,
+      "id": "rem_31774",
+      "jp": "ドロップ",
+      "en": "Drop",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4156,
+      "id": "rem_31775",
+      "jp": "【<dst>】に幸運の力が備わった！",
+      "en": "【<dst>】 is blessed with good fortune!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4157,
+      "id": "rem_31776",
+      "jp": "【<dst>】の幸運が消えた……",
+      "en": "【<dst>】's good fortune faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4158,
+      "id": "rem_31777",
+      "jp": "近接攻撃を受けた際にトラップ反撃+30%",
+      "en": "Trap Counter +30% upon receiving melee attack",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4159,
+      "id": "rem_31778",
+      "jp": "妨害",
+      "en": "Hinder",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4160,
+      "id": "rem_31779",
+      "jp": "【<dst>】の周りに罠が張りめぐされた！",
+      "en": "Traps have been laid around 【<dst>】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4161,
+      "id": "rem_31780",
+      "jp": "【<dst>】の罠が効果を失った……",
+      "en": "【<dst>】's trap effect faded...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4162,
+      "id": "rem_31781",
+      "jp": "反撃罠",
+      "en": "Counter Trap",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4163,
+      "id": "rem_31782",
+      "jp": "近接攻撃を受けた際にトラップ反撃+50%",
+      "en": "Trap Counter +50% when hit by melee",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4164,
+      "id": "rem_31783",
+      "jp": "反撃罠++",
+      "en": "Counter Trap++",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4165,
+      "id": "rem_31784",
+      "jp": "属性付与・火属性",
+      "en": "Enchant - Fire",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4166,
+      "id": "rem_31785",
+      "jp": "属性付与",
+      "en": "Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4167,
+      "id": "rem_31786",
+      "jp": "【<dst>】の武器に【火属性】が付与された！",
+      "en": "【<dst>】's weapon gains 【Fire】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4168,
+      "id": "rem_31787",
+      "jp": "【<dst>】の属性付与が消えた……",
+      "en": "【<dst>】's enchantment wore off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4169,
+      "id": "rem_31788",
+      "jp": "火付与",
+      "en": "Fire Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4170,
+      "id": "rem_31789",
+      "jp": "属性付与・氷属性",
+      "en": "Enchant - Ice",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4171,
+      "id": "rem_31790",
+      "jp": "【<dst>】の武器に【氷属性】が付与された！",
+      "en": "【<dst>】's weapon gains 【Ice】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4172,
+      "id": "rem_31791",
+      "jp": "氷付与",
+      "en": "Ice Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4173,
+      "id": "rem_31792",
+      "jp": "属性付与・風属性",
+      "en": "Enchant - Wind",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4174,
+      "id": "rem_31793",
+      "jp": "【<dst>】の武器に【風属性】が付与された！",
+      "en": "【<dst>】's weapon gains 【Wind】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4175,
+      "id": "rem_31794",
+      "jp": "風付与",
+      "en": "Wind Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4176,
+      "id": "rem_31795",
+      "jp": "属性付与・雷属性",
+      "en": "Enchant - Thunder",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4177,
+      "id": "rem_31796",
+      "jp": "【<dst>】の武器に【雷属性】が付与された！",
+      "en": "【<dst>】's weapon gains 【Thunder】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4178,
+      "id": "rem_31797",
+      "jp": "雷付与",
+      "en": "Thunder Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4179,
+      "id": "rem_31798",
+      "jp": "属性付与・聖属性",
+      "en": "Enchant - Holy",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4180,
+      "id": "rem_31799",
+      "jp": "【<dst>】の武器に【聖属性】が付与された！",
+      "en": "【<dst>】's weapon gains 【Holy】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4181,
+      "id": "rem_31800",
+      "jp": "聖付与",
+      "en": "Holy Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4182,
+      "id": "rem_31801",
+      "jp": "属性付与・闇属性",
+      "en": "Attribute Enchant・Dark",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 4183,
+      "id": "rem_31802",
+      "jp": "【<dst>】の武器に【闇属性】が付与された！",
+      "en": "【<dst>】's weapon was enchanted with 【Dark】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4184,
+      "id": "rem_31803",
+      "jp": "闇付与",
+      "en": "Dark Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4185,
+      "id": "rem_31804",
+      "jp": "強制的に弱点を突いたことになる+50%",
+      "en": "Forces attack on weakness +50%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4186,
+      "id": "rem_31805",
+      "jp": "【<dst>】の武器に【死属性】が付与された！",
+      "en": "【<dst>】's weapon was enchanted with 【Death】!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4187,
+      "id": "rem_31806",
+      "jp": "【<dst>】の弱点付与が消えた……",
+      "en": "【<dst>】's weakness enchant has worn off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4188,
+      "id": "rem_31807",
+      "jp": "死付与",
+      "en": "Death Enchant",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4189,
+      "id": "rem_31808",
+      "jp": "淫魔領域の効果を完全無効化",
+      "en": "Completely nullifies Succubus Domain effect",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4190,
+      "id": "rem_31809",
+      "jp": "【<dst>】の淫魔領域効果が無効化された！",
+      "en": "【<dst>】's Succubus Domain effect was nullified!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4191,
+      "id": "rem_31810",
+      "jp": "【<dst>】の淫魔領域無効化効果が消えた……",
+      "en": "【<dst>】's Succubus Domain nullification has worn off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4192,
+      "id": "rem_31811",
+      "jp": "夢魔の輪",
+      "en": "Nightmare Ring",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4193,
+      "id": "rem_31812",
+      "jp": "弱点へのダメージ+30%",
+      "en": "Weakness damage +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4194,
+      "id": "rem_31813",
+      "jp": "属性強化",
+      "en": "Attribute Boost",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4195,
+      "id": "rem_31814",
+      "jp": "【<dst>】に弱点ダメージ強化の効果が与えられた！",
+      "en": "【<dst>】 was granted weakness damage boost!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4196,
+      "id": "rem_31815",
+      "jp": "【<dst>】の弱点ダメージ強化効果が消えた……",
+      "en": "【<dst>】's weakness damage boost has worn off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4197,
+      "id": "rem_31816",
+      "jp": "ウィーク",
+      "en": "Weak",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4198,
+      "id": "rem_31817",
+      "jp": "火属性ダメージ+30%",
+      "en": "Fire damage +30%",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4199,
+      "id": "rem_31818",
+      "jp": "【<dst>】に火強化の効果が与えられた！",
+      "en": "【<dst>】 was granted fire boost!",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4200,
+      "id": "rem_31819",
+      "jp": "【<dst>】の火強化効果が消えた……",
+      "en": "【<dst>】's fire boost has worn off...",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table"
+    }
+  ]
+}

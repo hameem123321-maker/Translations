@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 79601,
+  "range_end": 79700,
+  "pairs": [
+    {
+      "n": 79601,
+      "id": "db_EventInfo:94193:2",
+      "jp": "ふむデス",
+      "en": "Hmm desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79602,
+      "id": "db_EventInfo:94194:2",
+      "jp": "そういえばドルガノンのやつ、【エルザの父親】が【ご神体】を盗んだとか言ったデス",
+      "en": "Speaking of which, that Dorganon guy said 【Elsa's father】 stole the 【sacred treasure】, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79603,
+      "id": "db_EventInfo:94195:2",
+      "jp": "オヤジのせいでみんなビンボーになった、罪滅ぼしデスかね",
+      "en": "Because of her old man, everyone got poor. Is she trying to make up for it, desu ka ne?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79604,
+      "id": "db_EventInfo:94196:2",
+      "jp": "たしか、【前棟梁リガロウ】……そんな名前だったデス",
+      "en": "I think it was 【the former master builder Rigarou】... that was his name, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79605,
+      "id": "db_EventInfo:94199:0",
+      "jp": "【前棟梁リガロウ】……ドルガノンに聞いておいた方が良いかもしれない。",
+      "en": "【The former master builder Rigarou】... I should probably ask Dorganon about him.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79606,
+      "id": "db_EventInfo:94200:0",
+      "jp": "俺は【前棟梁リガロウ】のことを、ドルガノンに聞いてみた。",
+      "en": "I asked Dorganon about 【the former master builder Rigarou】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79607,
+      "id": "db_EventInfo:94201:13",
+      "jp": "【前棟梁リガロウ】……のことですか",
+      "en": "【The former master builder Rigarou】... you ask about him.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79608,
+      "id": "db_EventInfo:94202:13",
+      "jp": "今ならば、少しはお話できるでしょうな",
+      "en": "Now, perhaps I can speak a little about it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79609,
+      "id": "db_EventInfo:94203:1",
+      "jp": "いいのか？",
+      "en": "Is that okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79610,
+      "id": "db_EventInfo:94204:13",
+      "jp": "ええ。【その剣】を背負う【<pl>】殿は、聞く権利……いや、義務があります",
+      "en": "Yes. Lord 【<pl>】, who bears 【that sword】, has the right... no, the duty to hear it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79611,
+      "id": "db_EventInfo:94208:0",
+      "jp": "ほどなく、アンジュとエルザがこの場に招かれた。",
+      "en": "Soon after, Anju and Elsa were called to the spot.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79612,
+      "id": "db_EventInfo:94210:13",
+      "jp": "【前棟梁リガロウ】のことを、ワシから話せる範囲で話しましょう",
+      "en": "Let me tell you what I can about [Former Master Rigarou].",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79613,
+      "id": "db_EventInfo:94211:2",
+      "jp": "【前棟梁リガロウ】というと、【ご神体】を盗んで、街をビンボーにしたヤツデスよね？",
+      "en": "You mean [Former Master Rigarou], the guy who stole the [Sacred Treasure] and made the town poor?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79614,
+      "id": "db_EventInfo:94212:3",
+      "jp": "うむ。ドワームから大罪人とされている男じゃ",
+      "en": "Yes. The man Dwarm considers a great sinner.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79615,
+      "id": "db_EventInfo:94213:1",
+      "jp": "そしてエルザの父親、か",
+      "en": "And Elsa's father, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79616,
+      "id": "db_EventInfo:94214:38",
+      "jp": "ああ……",
+      "en": "Ah...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79617,
+      "id": "db_EventInfo:94215:0",
+      "jp": "エルザは神妙な顔で頷く。",
+      "en": "Elsa nodded with a serious face.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79618,
+      "id": "db_EventInfo:94216:13",
+      "jp": "それに付け加えるなら……、【『鍛鉄の街フレスミス』】一番の鍛冶であり",
+      "en": "To add to that... he was the best blacksmith in [the Forge City Fresmis]",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79619,
+      "id": "db_EventInfo:94217:13",
+      "jp": "ワシの一番弟子だった男として、可愛がっていた男ですじゃ",
+      "en": "and he was my top disciple, a man I was very fond of.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79620,
+      "id": "db_EventInfo:94218:3",
+      "jp": "爺の……？",
+      "en": "Grandpa's...?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79621,
+      "id": "db_EventInfo:94219:13",
+      "jp": "ええ。姫様を除けば、ドワームいちの鍛冶屋はワシですじゃ",
+      "en": "Yes. Aside from the Princess, I am the top blacksmith in Dwarm.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79622,
+      "id": "db_EventInfo:94220:13",
+      "jp": "その一番弟子が、【『鍛鉄の街フレスミス』】でも一番というのは変なコトでありますまい",
+      "en": "So it's no surprise my top disciple was also the best in [the Forge City Fresmis].",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79623,
+      "id": "db_EventInfo:94221:3",
+      "jp": "そうじゃのう",
+      "en": "That's right.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79624,
+      "id": "db_EventInfo:94222:2",
+      "jp": "鍛冶の腕前が地位を決めるというのは、ドワーム族と同じなんデスね",
+      "en": "So your skill as a smith decides your rank. It's just like the Dwarm.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79625,
+      "id": "db_EventInfo:94223:13",
+      "jp": "はい。ドワームの徒弟制度というのは、ドワームの技と制度と血を人間の街に循環させるシステムでした",
+      "en": "Yes. The Dwarm apprenticeship system was meant to share our skills, ways, and blood with human towns.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79626,
+      "id": "db_EventInfo:94224:13",
+      "jp": "もともとドワーム族は、ゼカリウスの至る所に住み、繁栄しておりました",
+      "en": "Originally, the Dwarm lived and prospered all over Zecarius.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79627,
+      "id": "db_EventInfo:94225:13",
+      "jp": "今では【『ドルワミール鉱山』】か、各地に散らばって住んでおりますが……その名残ですかな",
+      "en": "Now most live in the 'Dolwamir Mine' or scattered about... This system is a leftover from those days, I suppose.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79628,
+      "id": "db_EventInfo:94226:38",
+      "jp": "それで……オヤジはどんなだったんだ？",
+      "en": "So... What was my old man like?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79629,
+      "id": "db_EventInfo:94227:13",
+      "jp": "うむ。リガロウは良い職人じゃった",
+      "en": "Hmm. Rigalou was a fine craftsman.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79630,
+      "id": "db_EventInfo:94228:13",
+      "jp": "ワシが持つすべての技を叩き込み、その技術は我らドワームにひけを取らなかったのう",
+      "en": "I taught him everything I knew. His skills were as good as any Dwarm's.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79631,
+      "id": "db_EventInfo:94229:13",
+      "jp": "ヤツが作った名剣や名槍は【『王都』】にも献上されたという",
+      "en": "The famous swords and spears he made were even offered to the 'Royal Capital'.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79632,
+      "id": "db_EventInfo:94230:13",
+      "jp": "まあ、あまりにワシらの技に迫っておったから、ドワームが作ったと偽られたことすらあったのう",
+      "en": "Well, his work got so close to ours, some pieces were even mistaken for Dwarm-made.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79633,
+      "id": "db_EventInfo:94231:13",
+      "jp": "やがては名工と呼ぶに相応しい男になったじゃろうな",
+      "en": "He would have become a truly great master.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79634,
+      "id": "db_EventInfo:94232:1",
+      "jp": "すごい人だったんだな",
+      "en": "He was really something.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79635,
+      "id": "db_EventInfo:94233:13",
+      "jp": "ええ。そして腕だけでなく。信頼できる男でしたじゃ",
+      "en": "Yes. And not just his skill. He was a man you could trust.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79636,
+      "id": "db_EventInfo:94234:13",
+      "jp": "鍛冶に真摯であり、自らの弟子達にも技を伝えていたのう",
+      "en": "He was serious about blacksmithing. He taught his own students too.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79637,
+      "id": "db_EventInfo:94235:13",
+      "jp": "そのうちの一人がエルザ、お前じゃな",
+      "en": "Elsa, you were one of them, weren't you?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79638,
+      "id": "db_EventInfo:94236:38",
+      "jp": "ああ……アタイの技は、オヤジから教えてもらったんだ",
+      "en": "Yeah... My old man taught me everything I know.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79639,
+      "id": "db_EventInfo:94237:13",
+      "jp": "職人として恥じない行為をしろというのが、リガロウの口癖じゃったのう",
+      "en": "His favorite saying was, 'Don't do anything that shames you as a craftsman.'",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79640,
+      "id": "db_EventInfo:94238:1",
+      "jp": "そんな人が……",
+      "en": "For a man like that to...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79641,
+      "id": "db_EventInfo:94239:13",
+      "jp": "ええ。ヤツの真摯さにはドワームも見習うべきものが多く、互いに刺激されたもんですじゃ",
+      "en": "Yes. Dwarm had a lot to learn from his seriousness. We pushed each other.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79642,
+      "id": "db_EventInfo:94240:13",
+      "jp": "……ヤツほどの人間の職人は、滅多に現れないことですな。ワシも息子のように可愛がったもんじゃ",
+      "en": "...A craftsman like him is rare. I loved him like a son.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79643,
+      "id": "db_EventInfo:94241:3",
+      "jp": "うーむ。爺がそこまで褒めるとは……",
+      "en": "Hmm. For Grandfather to praise him so much...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79644,
+      "id": "db_EventInfo:94242:3",
+      "jp": "じゃがおかしいのう、ドワームの里において【ご神体】を奪った者は大犯罪者",
+      "en": "But it's strange. In Dwarm Village, stealing the Sacred Object is a huge crime.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79645,
+      "id": "db_EventInfo:94243:3",
+      "jp": "そんな褒めるような人物とは伝わってないのじゃが……？",
+      "en": "So why haven't we heard stories about such a good man?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79646,
+      "id": "db_EventInfo:94244:2",
+      "jp": "そうデス。いくら褒めたって、そいつが【ご神体】をネコババしたから、ドワームが怒ったデス？",
+      "en": "Right. No matter how much you praise him, he stole the Sacred Object and made Dwarm angry, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79647,
+      "id": "db_EventInfo:94245:3",
+      "jp": "しかし、爺の話によると、とてもそんなことする男には思えんのう",
+      "en": "But from what my grandpa says, he really doesn't seem like a man who would do that.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79648,
+      "id": "db_EventInfo:94246:3",
+      "jp": "職人として確かなら、【ご神体】の価値もわかってるはずじゃ……",
+      "en": "If he's a proper craftsman, he should know the value of the <pl>...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79649,
+      "id": "db_EventInfo:94247:2",
+      "jp": "何言ってるデス？",
+      "en": "What are you talking about?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79650,
+      "id": "db_EventInfo:94248:2",
+      "jp": "オマエだって前に言ってたデス。【ご神体】で武器を作りたいのじゃー！とか",
+      "en": "You said it yourself before. 'I want to make a weapon with the <pl>!' and stuff.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79651,
+      "id": "db_EventInfo:94249:3",
+      "jp": "うぐっ！？",
+      "en": "Ugh!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79652,
+      "id": "db_EventInfo:94250:2",
+      "jp": "【ご神体】こと【『ドラゴナイト』】は職人ならあこがれる伝説の金属デス",
+      "en": "The <pl> 'Dragon Knight' is a legendary metal that any craftsman would dream of.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79653,
+      "id": "db_EventInfo:94251:2",
+      "jp": "名剣や名槍を作れるような職人なら、自分でも最強の武器を作りたくて魔が差したのではないデス？",
+      "en": "A craftsman who can make famous swords and spears... if temptation got the better of him and he wanted to make the strongest weapon for himself?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79654,
+      "id": "db_EventInfo:94252:13",
+      "jp": "ほっほっ。確かにそうですな、普通の職人ならそうなるでしょう",
+      "en": "Hoho. Indeed, for a normal craftsman, that would be the case.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79655,
+      "id": "db_EventInfo:94253:13",
+      "jp": "しかしリガロウは人間にして、ドワームのような気性を持ち合わせておりました",
+      "en": "But Rigalow, despite being human, had a temperament like Dwarm's.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79656,
+      "id": "db_EventInfo:94254:13",
+      "jp": "これはやがて現れる【『鍛冶姫』】が使うべきもの、我々が触れてよいものではない、と言ってましたな",
+      "en": "He said this is something for the 'Forging Princess' who will one day appear. It's not for us to touch.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79657,
+      "id": "db_EventInfo:94255:38",
+      "jp": "じゃあなんで、オヤジは【ご神体】を……？",
+      "en": "Then why did the old man take the <pl>...?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79658,
+      "id": "db_EventInfo:94257:13",
+      "jp": "そうですな、あの時に【<pl>】様がおられれば、こんなことは起こらなかったのでしょう",
+      "en": "Indeed. If 【<pl>】 had been there at that time, this probably wouldn't have happened.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79659,
+      "id": "db_EventInfo:94258:1",
+      "jp": "えっ、俺……？",
+      "en": "Huh, me...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79660,
+      "id": "db_EventInfo:94261:0",
+      "jp": "ドルガノンはそこで話を止めた。",
+      "en": "Dorganon stopped talking there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79661,
+      "id": "db_EventInfo:94262:0",
+      "jp": "この続きはフレスミスの復興が完全に完了してからとのことだ。",
+      "en": "He said we'll finish this story after the full revival of Freshmiss.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79662,
+      "id": "db_EventInfo:94264:5",
+      "jp": "【『鍛鉄の街フレスミス』】の復興は完了し、多くの人間を受け入れられているようですわ",
+      "en": "The revival of the 'Iron-Crafting City Freshmiss' is complete, and it seems to be accepting many humans.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79663,
+      "id": "db_EventInfo:94265:5",
+      "jp": "どうでしょう、このまま西方への交易拠点にしてしまうというのは",
+      "en": "What do you think? How about making it a trading base towards the west?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79664,
+      "id": "db_EventInfo:94266:1",
+      "jp": "西方か……",
+      "en": "The west...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79665,
+      "id": "db_EventInfo:94267:5",
+      "jp": "ええ。【『王都』】や【『聖都』】はそちらにあります",
+      "en": "Yes. The 'Royal Capital' and the 'Holy Capital' are in that direction.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79666,
+      "id": "db_EventInfo:94268:5",
+      "jp": "いざという時の備えとして、一部も要塞化しておきたいですわね",
+      "en": "As a precaution, I think we should fortify at least a part of it.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79667,
+      "id": "db_EventInfo:94269:1",
+      "jp": "要塞化……って、戦争でもするつもりじゃないだろうな",
+      "en": "Fortify... Wait, you're not planning for a war, are you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79668,
+      "id": "db_EventInfo:94270:5",
+      "jp": "おほほ。そんなことありませんわ～♪",
+      "en": "Oh-hoh-hoh. It's not like that~♪",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79669,
+      "id": "db_EventInfo:94271:5",
+      "jp": "しかしならずものになりそうな人間を受け入れるということは、ならずものに襲われる危険もあります",
+      "en": "But accepting people who might turn into troublemakers means there's a risk of being attacked by troublemakers.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79670,
+      "id": "db_EventInfo:94272:5",
+      "jp": "大規模化した街であるならば、それなりの備えは必要ですわ",
+      "en": "For a city growing to a large scale, proper preparations are necessary.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79671,
+      "id": "db_EventInfo:94273:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79672,
+      "id": "db_EventInfo:94277:38",
+      "jp": "西方への交易拠点……？",
+      "en": "A western trade base...?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79673,
+      "id": "db_EventInfo:94278:38",
+      "jp": "なんかすごい話になってきたな。アタイらとしては、鍛冶がやれればいいんだけど",
+      "en": "This is getting pretty serious. We'd be fine just doing the smithing.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79674,
+      "id": "db_EventInfo:94279:5",
+      "jp": "おほほ。エルザさんたちは今まで通りでよいですわ、商業街を新たに作り拡張するだけです",
+      "en": "Oh hoh hoh. You're fine staying as you are, Elsa. We're just building and expanding a new shopping district.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79675,
+      "id": "db_EventInfo:94280:5",
+      "jp": "そちらは私たち【『ハーヴェスタ商会』】が取り仕切ります",
+      "en": "That will be handled by us, the 'Harvester Company'.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79676,
+      "id": "db_EventInfo:94281:6",
+      "jp": "【『ヒエペリオ教会』】も新しい宗教施設を建てたいと、申してますわД",
+      "en": "The 'Hierperio Church' has also said they want to build a new religious facilityД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 79677,
+      "id": "db_EventInfo:94282:1",
+      "jp": "うーん。街が増えるみたいな話かな？",
+      "en": "Hmm. So it's kind of like the town will grow?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79678,
+      "id": "db_EventInfo:94283:5",
+      "jp": "そのためには、今よりも森を開かなければならないですわね",
+      "en": "For that, we'll have to clear more of the forest.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79679,
+      "id": "db_EventInfo:94284:2",
+      "jp": "なんだか既視感がある話デス",
+      "en": "This story feels familiar.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79680,
+      "id": "db_EventInfo:94285:2",
+      "jp": "……うかつに森を伐採しない方がいいデスよ。変な【『ケモミミ』】が出てくるかもしれないデス",
+      "en": "...You shouldn't just cut down the forest. Strange 'Kemonomimi' might show up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79681,
+      "id": "db_EventInfo:94286:1",
+      "jp": "妙に具体的だな",
+      "en": "Weirdly specific.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79682,
+      "id": "db_EventInfo:94287:5",
+      "jp": "お、おほほ……まあ、西の方には平地もありますし。森林道を拡張するだけです",
+      "en": "O-oh hoh hoh... Well, there are plains to the west. We're just widening the forest road.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79683,
+      "id": "db_EventInfo:94288:5",
+      "jp": "そこから先は、様々な組織にもカネを出させていきますわ",
+      "en": "From there on, we'll get various organizations to pitch in money too.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79684,
+      "id": "db_EventInfo:94289:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79685,
+      "id": "db_EventInfo:94292:0",
+      "jp": "資金を作って、投資してみよう。",
+      "en": "I'll make some funds and try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79686,
+      "id": "db_EventInfo:94293:0",
+      "jp": "投資が成功し、【『フレスミス森林道』】は大幅に拡張された。",
+      "en": "The investment succeeded. 『The Fresmis Forest Road』 was greatly expanded.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79687,
+      "id": "db_EventInfo:94295:5",
+      "jp": "おーほほほ！　これで、こちらの陸路は牛耳ったも同然ですわね",
+      "en": "Oh-hohoho! This means we practically control this land route now.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79688,
+      "id": "db_EventInfo:94296:2",
+      "jp": "こんなに拡張しちゃって大丈夫デス？",
+      "en": "Is it okay to expand this much?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79689,
+      "id": "db_EventInfo:94297:2",
+      "jp": "これでウチらの利益が減ったら、オシオキデスよ",
+      "en": "If our profits go down because of this, you're getting punished.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79690,
+      "id": "db_EventInfo:94298:5",
+      "jp": "お、おほほ……まあ、【『鍛鉄の街フレスミス』】は【<pl>】様の領地ですし",
+      "en": "O-ohoho... Well, 『The Iron-Forging City of Fresmis』 is your【<pl>】 territory.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79691,
+      "id": "db_EventInfo:94299:5",
+      "jp": "こちらが発展しても、手元に入るお金が増えますわ",
+      "en": "Even if this place develops, the money that comes to you will increase.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79692,
+      "id": "db_EventInfo:94300:2",
+      "jp": "カネー",
+      "en": "Money...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79693,
+      "id": "db_EventInfo:94301:5",
+      "jp": "それにゼカリウスも、正直手狭になってきておりますからね",
+      "en": "Besides, even Zecarius is honestly getting cramped for space.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 79694,
+      "id": "db_EventInfo:94302:1",
+      "jp": "ふむ……ならいいのかな",
+      "en": "Hmm... Then I guess that's okay.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79695,
+      "id": "db_EventInfo:94303:1",
+      "jp": "これからどうなるかは、色んな組織の思惑次第ということか",
+      "en": "So what happens next just depends on what all these different groups want?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79696,
+      "id": "db_EventInfo:94306:0",
+      "jp": "それがどうなるかはわからないが……。",
+      "en": "I don't know how that's gonna turn out...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79697,
+      "id": "db_EventInfo:94307:0",
+      "jp": "ひとまずは、【『鍛鉄の街フレスミス』】への投資は、これで完了だろう。",
+      "en": "But for now, my investment in the 'Forged Iron City of Fresmis' is done.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79698,
+      "id": "db_EventInfo:94308:0",
+      "jp": "【『鍛鉄の街フレスミス』】のすべての復興が完了した。",
+      "en": "All the rebuilding of the 'Forged Iron City of Fresmis' is finished.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79699,
+      "id": "db_EventInfo:94309:0",
+      "jp": "今ならば、ドルガノンに全てを聞き出すことができるだろう。",
+      "en": "Now I should be able to get all the answers out of Dorganon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79700,
+      "id": "db_EventInfo:94310:13",
+      "jp": "【前棟梁リガロウ】と【『鍛鉄の街フレスミス』】の話の続きですか",
+      "en": "This is about the continuation of the story of 'Ex-Leader Rigalou' and the 'Forged Iron City of Fresmis', is it?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    }
+  ]
+}

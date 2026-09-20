@@ -1,0 +1,817 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 84201,
+  "range_end": 84300,
+  "pairs": [
+    {
+      "n": 84201,
+      "id": "db_EventInfo:99472:1",
+      "jp": "ひえっ、ハヅキさん！？",
+      "en": "Huh!? Hazuki?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84202,
+      "id": "db_EventInfo:99473:2",
+      "jp": "オマエは呼んでないデス！",
+      "en": "I didn't call you here!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84203,
+      "id": "db_EventInfo:99474:20",
+      "jp": "そんな、ひどい",
+      "en": "That's so mean.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84204,
+      "id": "db_EventInfo:99475:20",
+      "jp": "私をさん付けするということは、過去の御主人様のようですね",
+      "en": "You call me with '-san', just like my past masters.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84205,
+      "id": "db_EventInfo:99476:20",
+      "jp": "ご褒美目当てでしたら、過去の私もそろそろご奉仕しているころでは",
+      "en": "If you want a reward, my past self would be serving them around this time.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84206,
+      "id": "db_EventInfo:99477:1",
+      "jp": "ええと、その……",
+      "en": "Um, well...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84207,
+      "id": "db_EventInfo:99478:20",
+      "jp": "まあいいです。ちょうどシズハとクレハの修行の成果もみたいところ",
+      "en": "Fine. It's a good chance to see how Shizuha and Kureha's training is going.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84208,
+      "id": "db_EventInfo:99479:20",
+      "jp": "今回はすーぱーな私で、お相手いたします",
+      "en": "This time, I'll be your super opponent.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84209,
+      "id": "db_EventInfo:99480:20",
+      "jp": "ふむ、この程度では余裕というわけでございますか",
+      "en": "Hmm. This is no trouble at all, is it?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84210,
+      "id": "db_EventInfo:99481:3",
+      "jp": "何という相手じゃ！！",
+      "en": "What kind of opponent is this?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 84211,
+      "id": "db_EventInfo:99482:1",
+      "jp": "これが全力で戦う時のハヅキさんって事か！？",
+      "en": "Is this Hazuki fighting at full strength?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84212,
+      "id": "db_EventInfo:99483:20",
+      "jp": "いえいえ、メイドたるもの、御主人様の要望は全て叶えてこそ",
+      "en": "No, no. A proper maid fulfills her master's every wish.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84213,
+      "id": "db_EventInfo:99484:20",
+      "jp": "当然バトル相手として相応の実力は備えております",
+      "en": "Of course I have the skill to be a worthy battle partner.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84214,
+      "id": "db_EventInfo:99485:20",
+      "jp": "御主人様はハードモードをご希望でございましたね。それでは少々手数を増やしましょうか",
+      "en": "You wanted Hard Mode, right? Then I'll step it up a bit.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84215,
+      "id": "db_EventInfo:99486:3",
+      "jp": "げっ、メイドが増えたのじゃ！？",
+      "en": "What?! There are more maids now?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 84216,
+      "id": "db_EventInfo:99487:1",
+      "jp": "まだ全力じゃないってのか！？",
+      "en": "She's still not at full power?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84217,
+      "id": "db_EventInfo:99488:20",
+      "jp": "メイドの分身術でございます",
+      "en": "It's a maid clone technique.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84218,
+      "id": "db_EventInfo:99489:105",
+      "jp": "慌てる事はない。全部切り伏せればいいだけの話だ",
+      "en": "No need to panic. We just have to cut them all down.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 84219,
+      "id": "db_EventInfo:99490:20",
+      "jp": "おや、ユヅキではありませんか。ふらりと修行に出たと思ったら、こちらにいたのですね",
+      "en": "Oh, is that you, Yuzuki? I thought you went off to train, and here you are.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84220,
+      "id": "db_EventInfo:99491:105",
+      "jp": "うん？　どなたかと勘違いされているようだが……？",
+      "en": "Huh? I think you've got me mixed up with someone else...?",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 84221,
+      "id": "db_EventInfo:99492:20",
+      "jp": "相手がアナタでしたら、手加減は無用ですかね。お互い、修行の成果を見せるとしましょうか",
+      "en": "If it's you, then I won't hold back. Let's show each other how our training went.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84222,
+      "id": "db_EventInfo:99493:1",
+      "jp": "ハヅキさんが修行……？　意外だな……",
+      "en": "Hazuki's training...? That's surprising...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84223,
+      "id": "db_EventInfo:99494:20",
+      "jp": "おやおや、恥ずかしい秘密を知られてしまいました……ぽっ",
+      "en": "Oh dear, my embarrassing secret is out... *poof*",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84224,
+      "id": "db_EventInfo:99495:3",
+      "jp": "メイドの修行とはいったい……のじゃ",
+      "en": "A maid's training... what could that be...?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 84225,
+      "id": "db_EventInfo:99497:20",
+      "jp": "ふふ、流石は御主人様ですね",
+      "en": "Hehe, as expected of you, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84226,
+      "id": "db_EventInfo:99498:1",
+      "jp": "な、何だかあまり勝った気がしないな？",
+      "en": "Huh, I don't really feel like I won...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84227,
+      "id": "db_EventInfo:99499:20",
+      "jp": "いえいえ、私の完全敗北でございます。このハヅキ、感服いたしました",
+      "en": "No, no, I was totally defeated. You've impressed me, Hazuki.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84228,
+      "id": "db_EventInfo:99500:105",
+      "jp": "いや、しかし学びの多い戦いだった。これがメイドの戦闘術か……",
+      "en": "No, but it was a very educational fight. So this is a maid's combat style...",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 84229,
+      "id": "db_EventInfo:99501:22",
+      "jp": "ねえシズハ、メイドが誤解されてるような気がするのだけど、気のせいかしら？",
+      "en": "Hey Shizuha, I think people have the wrong idea about maids. Is it just me?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 84230,
+      "id": "db_EventInfo:99502:21",
+      "jp": "奇遇ねクレハ。私もそう思ってたところよ",
+      "en": "What a coincidence, Kureha. I was just thinking the same thing.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 84231,
+      "id": "db_EventInfo:99503:20",
+      "jp": "さて、戻ったら御主人様にはたっぷりと労って頂かねばなりませんね",
+      "en": "Well, now that we're back, Master will have to take good care of me.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84232,
+      "id": "db_EventInfo:99504:20",
+      "jp": "それでは、ごほうびモードです",
+      "en": "Alright, time for your reward mode.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 84233,
+      "id": "db_EventInfo:99505:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★Episode: Training Grounds Scene Common Start",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84234,
+      "id": "db_EventInfo:99506:0",
+      "jp": "★エッチシーン・修練場・ハヅキ②・逆転壁押しつけ後背立位",
+      "en": "★H-Scene: Training Grounds - Hazuki ② - Reversal Wall Press Doggystyle",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84235,
+      "id": "db_EventInfo:99507:0",
+      "jp": "★エピソード・修練場シーン共通終了",
+      "en": "★Episode: Training Grounds Scene Common End",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84236,
+      "id": "db_EventInfo:99508:0",
+      "jp": "【『最果ての修練場』】の【試練】が襲いかかってきた！",
+      "en": "A【Trial】from【The Remotest Training Grounds】is attacking!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84237,
+      "id": "db_EventInfo:99510:72",
+      "jp": "ははっ、来たねぇ！　【<pl>】ちゃん！",
+      "en": "Haha, here we go!【<pl>】!",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84238,
+      "id": "db_EventInfo:99511:27",
+      "jp": "初代様か！",
+      "en": "The First Generation!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 84239,
+      "id": "db_EventInfo:99512:2",
+      "jp": "アーマニアっぽいアーマニーデス！",
+      "en": "It's an Armany-ish Armany!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84240,
+      "id": "db_EventInfo:99513:2",
+      "jp": "オマエ！　中身はアーマニーデスよね！？",
+      "en": "You! You're Armany on the inside, right!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84241,
+      "id": "db_EventInfo:99514:2",
+      "jp": "アーマニーなら、ぐうたらしてるデス。ここを通せデス！",
+      "en": "If you're Armany, get your lazy self together, Desu! Let us through, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84242,
+      "id": "db_EventInfo:99515:72",
+      "jp": "あはは！　この姿のアタシは止められないのも知ってるだろ？",
+      "en": "Ahaha! You know you can't stop me when I look like this, right?",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84243,
+      "id": "db_EventInfo:99516:72",
+      "jp": "ここは海じゃないけど、海の上みたいに気が高ぶる！　楽しませておくれよ！！",
+      "en": "This isn't the sea, but I feel just as fired up! Let's have some fun!!",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84244,
+      "id": "db_EventInfo:99517:72",
+      "jp": "やるじゃないか！　やっぱり戦いはこうじゃないとね！",
+      "en": "Not bad! This is what a real fight should be like!",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84245,
+      "id": "db_EventInfo:99518:27",
+      "jp": "うーん、アタシを相手にするのは複雑だが",
+      "en": "Hmm, it's complicated facing myself, but...",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 84246,
+      "id": "db_EventInfo:99519:27",
+      "jp": "初代様をなのるってなら、【『海賊女帝』】として負けるわけにはいかないよ！！",
+      "en": "If you're going to call yourself the first, I can't lose as the 【『Pirate Empress』】!!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 84247,
+      "id": "db_EventInfo:99520:72",
+      "jp": "いいねえっ！　自分と戦うなんて、またとない機会だ！",
+      "en": "Great! A chance to fight myself doesn't come often!",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84248,
+      "id": "db_EventInfo:99521:72",
+      "jp": "ここからは本気で行かせてもらうよ！",
+      "en": "From here on out, I'm getting serious!",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84249,
+      "id": "db_EventInfo:99523:72",
+      "jp": "ふぅぅぅ……。負けちまったか。仕方ないねぇ",
+      "en": "Phewww... I lost. Can't be helped.",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84250,
+      "id": "db_EventInfo:99524:27",
+      "jp": "いやいや、初代様を名乗るアンタも強かったよ",
+      "en": "No no, you were strong too, calling yourself the first.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 84251,
+      "id": "db_EventInfo:99525:72",
+      "jp": "まあねぇ。初代様の力をちょっとだけ借りたけど、初代様はもっと強いはずさ",
+      "en": "Well, I did borrow a bit of the first's power, but she should be much stronger.",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84252,
+      "id": "db_EventInfo:99526:27",
+      "jp": "アタシらも見習わないとね",
+      "en": "We've got to learn from this.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 84253,
+      "id": "db_EventInfo:99527:72",
+      "jp": "そうだね。んじゃ、そろそろアーマニーに身体を返そうと思うけど",
+      "en": "Yeah. Well, I think it's about time I return the body to Armany.",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84254,
+      "id": "db_EventInfo:99528:72",
+      "jp": "せっかく【『海賊女帝』】として出られたんだ、今日はこのスタイルで【<pl>】ちゃんとエッチしようかねぇД",
+      "en": "I got to come out as the 【『Pirate Empress』】, so how about we get it on with 【<pl>】chan in this style todayД",
+      "speaker": "Armany (1st)",
+      "speaker_jp": "アーマニー(初代)"
+    },
+    {
+      "n": 84255,
+      "id": "db_EventInfo:99529:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "Episode: The Training Grounds Scene starts.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84256,
+      "id": "db_EventInfo:99530:0",
+      "jp": "★エッチシーン・修練場・初代アーマニア②・逆転後背位",
+      "en": "H-Scene: Training Grounds, First Armagnia 2, Reverse Doggy Style.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84257,
+      "id": "db_EventInfo:99531:0",
+      "jp": "★エピソード・修練場シーン共通終了",
+      "en": "Episode: The Training Grounds Scene ends.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84258,
+      "id": "db_EventInfo:99532:0",
+      "jp": "【『最果ての修練場』】の【試練】が襲いかかってきた！",
+      "en": "The Trial from The Farthest Training Grounds is attacking!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84259,
+      "id": "db_EventInfo:99534:53",
+      "jp": "来たわね、お姉ちゃんが相手よ～！",
+      "en": "Here I come, I'm your opponent~!",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84260,
+      "id": "db_EventInfo:99535:6",
+      "jp": "【『聖女』】……フロティナ様ですわね",
+      "en": "The Saint... Lady Flotina, isn't it?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 84261,
+      "id": "db_EventInfo:99536:1",
+      "jp": "ああ……だが",
+      "en": "Yeah... but.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84262,
+      "id": "db_EventInfo:99537:0",
+      "jp": "以前とは比べものにならないプレッシャーを感じる",
+      "en": "I feel a pressure unlike anything before.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84263,
+      "id": "db_EventInfo:99538:53",
+      "jp": "他のみんなに譲っちゃってヒマだったから、ちょっと手加減できないかも～☆",
+      "en": "I let the others have their turns, so I was bored. I might not be able to go easy~☆",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84264,
+      "id": "db_EventInfo:99539:53",
+      "jp": "あうぅ、手加減してねって言ったのにぃ☆",
+      "en": "Aww, I told you to go easy on me~☆",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84265,
+      "id": "db_EventInfo:99540:1",
+      "jp": "な、何て力だ、ちょっとでも手を許したらやられるぞ！？",
+      "en": "W-what power is this? If I let up even a little, I'm done for!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84266,
+      "id": "db_EventInfo:99541:53",
+      "jp": "せっかく、お姉ちゃんもサービスを用意したのに～☆",
+      "en": "I even prepared a special service for you~☆",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84267,
+      "id": "db_EventInfo:99542:53",
+      "jp": "ちょ～っと、本気出しちゃおうかなぁ？",
+      "en": "Should I maybe get serious for a bit?",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84268,
+      "id": "db_EventInfo:99543:8",
+      "jp": "ひええっ、やばいよぉ！",
+      "en": "Eek! This is bad!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 84269,
+      "id": "db_EventInfo:99544:24",
+      "jp": "気を抜いたら、【『魔界』】に飛ばされてしまいそうですわ",
+      "en": "If we let our guard down, we might get sent flying to the [Demon Realm].",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 84270,
+      "id": "db_EventInfo:99545:1",
+      "jp": "ここがこらえ時だ……行くぞ！",
+      "en": "This is the moment to hold on... Let's go!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84271,
+      "id": "db_EventInfo:99547:53",
+      "jp": "ん～？　まあこんなものかしら？",
+      "en": "Hmm? Is that all you've got?",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84272,
+      "id": "db_EventInfo:99548:1",
+      "jp": "こ、こんなものって……",
+      "en": "Is... is that all?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84273,
+      "id": "db_EventInfo:99549:53",
+      "jp": "いい運動になったでしょ？　もっと強くなって、お姉ちゃんを安心させてね☆",
+      "en": "That was good exercise, right? Get stronger so your big sister can be at ease, okay? ☆",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84274,
+      "id": "db_EventInfo:99550:1",
+      "jp": "は、はは……",
+      "en": "Ha, haha...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84275,
+      "id": "db_EventInfo:99551:53",
+      "jp": "さて、お姉ちゃんもガマンできない～☆　それじゃ本番いこっか☆",
+      "en": "Alright, big sis can't wait any longer~ ☆ So, shall we start for real now? ☆",
+      "speaker": "Flotina",
+      "speaker_jp": "フロティナ"
+    },
+    {
+      "n": 84276,
+      "id": "db_EventInfo:99552:0",
+      "jp": "★エピソード・修練場シーン共通開始",
+      "en": "★Episode・Training Ground Scene Common Start",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 84277,
+      "id": "db_EventInfo:99553:0",
+      "jp": "★エッチシーン・修練場・フロティナ②・逆転イチャラブ駅弁",
+      "en": "★H-Scene・Training Ground・Flotina②・Role-Reversed Icha-Love Ekiben",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 84278,
+      "id": "db_EventInfo:99554:0",
+      "jp": "★エピソード・修練場Lv13⑤・試練Lv9・フロティナ(HARD)②",
+      "en": "★Episode・Training Ground Lv13⑤・Trial Lv9・Flotina(HARD)②",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 84279,
+      "id": "db_EventInfo:99555:0",
+      "jp": "★エピソード・修練場シーン共通終了",
+      "en": "★ Common Training Field Scene - Episode End",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84280,
+      "id": "db_EventInfo:99556:0",
+      "jp": "★エッチシーン・修練場・アルティシア③・お風呂で3P",
+      "en": "★ H-Scene: Training Field - Articia ③ - Bath 3P",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84281,
+      "id": "db_EventInfo:99557:0",
+      "jp": "ふと、ならずものの襲撃を考えてみた。",
+      "en": "I suddenly thought about the thug attacks.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84282,
+      "id": "db_EventInfo:99558:1",
+      "jp": "そういえば、ならずものの襲撃……。もう何回、襲撃を受けたものやら",
+      "en": "Now that you mention it, the thug attacks... I've lost count of how many times we've been attacked.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84283,
+      "id": "db_EventInfo:99560:2",
+      "jp": "むふふ、今回も儲かったデス",
+      "en": "Mufufu, we made good money again this time.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84284,
+      "id": "db_EventInfo:99561:0",
+      "jp": "悪そうな顔をしているのが一人。",
+      "en": "One of them looks suspicious.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84285,
+      "id": "db_EventInfo:99562:2",
+      "jp": "最初、ならずものに襲撃されたときはどうなるかと思ったデスが、撃退したらなぜかカネが増えるデス",
+      "en": "The first time thugs attacked, I thought we were in trouble. But after we beat them back, somehow our money increased.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84286,
+      "id": "db_EventInfo:99563:1",
+      "jp": "不思議なことにな……",
+      "en": "That's strange...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84287,
+      "id": "db_EventInfo:99564:2",
+      "jp": "もっとカネを増やしたいデス。もっともっと襲撃されてほしいデスねー",
+      "en": "I want more money. I hope we get attacked more and more.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84288,
+      "id": "db_EventInfo:99565:1",
+      "jp": "そんな不謹慎なことを言ってるとバチが当たるぞ",
+      "en": "Saying such irreverent things might bring you bad luck, you know.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84289,
+      "id": "db_EventInfo:99566:2",
+      "jp": "私は【『神』】デスよ？　バチは当てる方デス。当てられるものなら当てて見やがれデス",
+      "en": "I am a 【'Goddess'】, okay? I'm the one who deals bad luck. Let 'em try if they dare.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84290,
+      "id": "db_EventInfo:99567:1",
+      "jp": "そんなこと言ってると……",
+      "en": "Keep talking like that and...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84291,
+      "id": "db_EventInfo:99568:0",
+      "jp": "良くないことが起きる気がするものである。",
+      "en": "I've got a bad feeling about this.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84292,
+      "id": "db_EventInfo:99569:0",
+      "jp": "ならずものの襲撃を退けて……。",
+      "en": "We just fought off some thugs...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84293,
+      "id": "db_EventInfo:99571:2",
+      "jp": "今日も平和デスねぇ",
+      "en": "Another peaceful day, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84294,
+      "id": "db_EventInfo:99572:2",
+      "jp": "ほんわかしてしまう日常、当たり前に続く平和デス……カネもたんまりデス",
+      "en": "A cozy, everyday peace, continuing as normal, desu... And lots of money, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84295,
+      "id": "db_EventInfo:99573:1",
+      "jp": "……先ほど、ならずものに襲撃されたばかりな気がするんだが",
+      "en": "...I feel like we just got attacked by thugs.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 84296,
+      "id": "db_EventInfo:99574:2",
+      "jp": "こらこら、ならずものだなんて言っては失礼デスよ",
+      "en": "Now, now, calling them 'thugs' is rude, desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84297,
+      "id": "db_EventInfo:99575:2",
+      "jp": "カネヅルと言ってやるデス……むふふデス",
+      "en": "Call them 'cash cows', desu... Mufufu, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 84298,
+      "id": "db_EventInfo:99576:0",
+      "jp": "シイネにあきれつつ、仕事を再開しようとしていると……。",
+      "en": "I sighed at Shiine and was about to get back to work...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 84299,
+      "id": "db_EventInfo:99579:39",
+      "jp": "放せ！　放せってんだよ！　このクソ馬鹿ども！",
+      "en": "Let go! I said let go, you damn idiots!",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 84300,
+      "id": "db_EventInfo:99580:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

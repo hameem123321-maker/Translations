@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 87001,
+  "range_end": 87100,
+  "pairs": [
+    {
+      "n": 87001,
+      "id": "db_EventInfo:102771:13",
+      "jp": "その鉱石は弟子の育成のため、師である我々が選りすぐっていた、特別なものでした",
+      "en": "That ore was special. We masters carefully chose it for training our apprentices.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87002,
+      "id": "db_EventInfo:102772:1",
+      "jp": "うわぁ……",
+      "en": "Whoa...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87003,
+      "id": "db_EventInfo:102773:3",
+      "jp": "人間は欲深いものじゃ",
+      "en": "Humans are so greedy.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87004,
+      "id": "db_EventInfo:102774:13",
+      "jp": "まあ、欲の皮が突っ張ることもあるでしょう。しかしそれぐらいでは、ドワーム族は怒りません",
+      "en": "Well, sometimes greed gets the better of them. But that alone doesn't make us Dwarm angry.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87005,
+      "id": "db_EventInfo:102775:13",
+      "jp": "ドワームの者達にとって弟子は宝。人間の弟子を、我が子や孫のように可愛がる者ばかり",
+      "en": "To the Dwarm, apprentices are treasures. They all cherish their human apprentices like their own children or grandchildren.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87006,
+      "id": "db_EventInfo:102776:13",
+      "jp": "弟子可愛さに。知りつつも見逃されておりましたが……",
+      "en": "Out of love for their apprentices. They knew, but looked the other way...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87007,
+      "id": "db_EventInfo:102777:3",
+      "jp": "それがよくなかったのじゃ",
+      "en": "That was a mistake.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87008,
+      "id": "db_EventInfo:102778:1",
+      "jp": "えっ……？",
+      "en": "Huh...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87009,
+      "id": "db_EventInfo:102780:13",
+      "jp": "一人の人間が持ち出してしまったのですよ",
+      "en": "One human took it out.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87010,
+      "id": "db_EventInfo:102781:13",
+      "jp": "【あの鉱石】を",
+      "en": "That ore.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87011,
+      "id": "db_EventInfo:102782:1",
+      "jp": "【あの鉱石】……？",
+      "en": "That ore...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87012,
+      "id": "db_EventInfo:102783:13",
+      "jp": "ええ。名前を【『ドラゴナイト』】と呼びます",
+      "en": "Yes. It's called 'Dragonite'.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87013,
+      "id": "db_EventInfo:102784:1",
+      "jp": "【『ドラゴナイト』】だって……！？",
+      "en": "Dragonite...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87014,
+      "id": "db_EventInfo:102785:1",
+      "jp": "アンジュから前に、聞いたことがあったような――？",
+      "en": "I think I heard about it from Anju before...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87015,
+      "id": "db_EventInfo:102786:1",
+      "jp": "たしか、すごい貴重な鉱石なんじゃ……？",
+      "en": "Wait, isn't that supposed to be a really rare ore...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87016,
+      "id": "db_EventInfo:102787:3",
+      "jp": "ああ。神の鉱石【『ドラゴナイト』】。神器の材料にもなる、究極の鉱石じゃ",
+      "en": "Yes. The divine ore, 'Dragonite'. It's the ultimate ore, even used to make holy artifacts.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87017,
+      "id": "db_EventInfo:102788:13",
+      "jp": "【『ドルワミール鉱山』】でも、百年に一度とも言える、【きわめて高い幸運】と共に産出されるものです",
+      "en": "In the 'Dorwamir Mine', it's produced maybe once in a hundred years, and only with immense luck.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87018,
+      "id": "db_EventInfo:102789:13",
+      "jp": "あまりにも貴重すぎて、ドワーム族でもおいそれと触れられぬもの",
+      "en": "It's so precious that even the Dwarm people can't just casually touch it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87019,
+      "id": "db_EventInfo:102790:13",
+      "jp": "それゆえ使用を禁じられ、【『鍛冶姫』】か、ドワームの【『勇者』】のみが使用を許されます",
+      "en": "That's why its use is forbidden. Only the 'Forging Princess' or a Dwarm 'Hero' are allowed to use it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87020,
+      "id": "db_EventInfo:102791:13",
+      "jp": "運良く見つかった暁には、【ご神体】として【『カストロイア様』】の祭壇に捧げることになっております",
+      "en": "If we are lucky enough to find one, we must offer it as a divine object on the altar of 'Kastroia-sama'.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87021,
+      "id": "db_EventInfo:102792:1",
+      "jp": "それが、盗まれたと……？",
+      "en": "And that... was stolen?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87022,
+      "id": "db_EventInfo:102793:13",
+      "jp": "はい。それを知った【人間の弟子】に奪われ、持ち出されたのですじゃ",
+      "en": "Yes. A human apprentice who learned of it stole it and took it away.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87023,
+      "id": "db_EventInfo:102794:13",
+      "jp": "ドワーム族は激怒しました",
+      "en": "The Dwarm people were furious.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87024,
+      "id": "db_EventInfo:102795:3",
+      "jp": "人間に例えればそうじゃな……、自らの【『神』】を奪われ、愚弄されるような行為じゃ",
+      "en": "To put it in human terms... it was like having their own 'god' stolen and mocked.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87025,
+      "id": "db_EventInfo:102796:13",
+      "jp": "激怒したドワーム族は自らの武具を手に、当然のように【『鍛鉄の街フレスミス』】に向かい……",
+      "en": "Enraged, the Dwarm people took up their weapons and naturally headed for the 'Forged Iron City of Fresmis'...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87026,
+      "id": "db_EventInfo:102797:13",
+      "jp": "そして、街を破壊尽くしましたのじゃ",
+      "en": "And they destroyed the city completely.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87027,
+      "id": "db_EventInfo:102798:1",
+      "jp": "……そんなことが",
+      "en": "...That really happened?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87028,
+      "id": "db_EventInfo:102800:13",
+      "jp": "盗みはよくないものですじゃ。その上でも、絶対に盗んではいけないものもあります",
+      "en": "Stealing is bad, you know. And some things you should absolutely never steal.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87029,
+      "id": "db_EventInfo:102801:13",
+      "jp": "【ご神体】は、そういった【禁忌の品】だったということですじゃ",
+      "en": "The 【divine object】 was one such 【forbidden item】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87030,
+      "id": "db_EventInfo:102802:13",
+      "jp": "その後、新しい【ご神体】が見つかるまで長い年月が必要でした……",
+      "en": "After that, it took a very long time until a new 【divine object】 was found...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87031,
+      "id": "db_EventInfo:102803:1",
+      "jp": "そんなことがあったのか……",
+      "en": "So that's what happened...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87032,
+      "id": "db_EventInfo:102804:1",
+      "jp": "そういえば、【『鍛鉄の街フレスミス』】の話だけど",
+      "en": "By the way, about the story of 【'The Forging City of Furesumisu'】...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87033,
+      "id": "db_EventInfo:102805:1",
+      "jp": "なんで【アンジュにしてはいけなかった】んだ？",
+      "en": "Why was it something 【Anju must not have done】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87034,
+      "id": "db_EventInfo:102806:3",
+      "jp": "むう……そんなこと言ってたのじゃ？",
+      "en": "Muu... You said something like that?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87035,
+      "id": "db_EventInfo:102807:13",
+      "jp": "以前、姫様にも、うっかりこの話をしてしまった後、【里を飛び出された】のですじゃ",
+      "en": "Once, after I carelessly told the Princess this story, she 【ran away from the village】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87036,
+      "id": "db_EventInfo:102808:3",
+      "jp": "あっ！",
+      "en": "Ah!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87037,
+      "id": "db_EventInfo:102809:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87038,
+      "id": "db_EventInfo:102811:3",
+      "jp": "あわわ、爺、それを言うでない！",
+      "en": "Ah-wah-wah, Gramps, don't say that!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87039,
+      "id": "db_EventInfo:102812:13",
+      "jp": "もしかすると、姫様が冒険者に成られたのも",
+      "en": "Maybe, the reason the Princess became an adventurer...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87040,
+      "id": "db_EventInfo:102813:13",
+      "jp": "失われた【ご神体】を取り戻す、という理由もあったのかもしれませんな",
+      "en": "...was also to retrieve the lost 【Sacred Treasure】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87041,
+      "id": "db_EventInfo:102814:1",
+      "jp": "なるほどな……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87042,
+      "id": "db_EventInfo:102815:3",
+      "jp": "むむう、【<pl>】には聞かれたくなかったのじゃ",
+      "en": "Mmmph... I didn't want 【<pl>】 to hear about this.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87043,
+      "id": "db_EventInfo:102816:3",
+      "jp": "その、【ご神体】として祀られていたものが、もぬけの殻とは知らなくて……",
+      "en": "I didn't know the 【Sacred Treasure】 we worshipped was just an empty shell...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87044,
+      "id": "db_EventInfo:102817:3",
+      "jp": "妾は【ご神体】で武器を打つのが使命と思ってたから、取り戻したいと思ったのじゃ",
+      "en": "My mission was to forge weapons using the 【Sacred Treasure】, so I wanted to get it back.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87045,
+      "id": "db_EventInfo:102818:1",
+      "jp": "……なんで顔を赤らめているんだ。立派な動機じゃないか",
+      "en": "...Why are you blushing? That's a noble motivation.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87046,
+      "id": "db_EventInfo:102819:3",
+      "jp": "むううう……",
+      "en": "Mmmphhh...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87047,
+      "id": "db_EventInfo:102820:0",
+      "jp": "エリオルダといい、たまによくわからないポイントで恥ずかしがる気がする。",
+      "en": "Eliorda and her... sometimes she gets embarrassed over the strangest things.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87048,
+      "id": "db_EventInfo:102821:1",
+      "jp": "……ん？",
+      "en": "...Hm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87049,
+      "id": "db_EventInfo:102822:1",
+      "jp": "でも、かなり最近まで、鉱山には【ご神体】があったとか、聞いたような……？",
+      "en": "But wait, I heard that until recently, the mine had a 【Sacred Treasure】...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87050,
+      "id": "db_EventInfo:102823:1",
+      "jp": "(【『ラシェウスの剣』】の材料になっちゃったんだけど)",
+      "en": "(It got used up as material for the 【'Rasieus's Sword'】, though.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87051,
+      "id": "db_EventInfo:102824:13",
+      "jp": "そうですじゃ、そうですじゃ！",
+      "en": "That's right, that's right!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87052,
+      "id": "db_EventInfo:102825:13",
+      "jp": "ちょうど、【姫様が飛び出した直後】ぐらいに、新しい【ご神体】が見つかりましてな！",
+      "en": "It was right around the time the Princess ran away. That's when we found a new Sacred Object!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87053,
+      "id": "db_EventInfo:102826:13",
+      "jp": "いやはや、その【幸運】がなければ、人間との交易を再開する説得など、不可能でしたじゃ",
+      "en": "Haha! Without that stroke of luck, convincing people to trade with us again would've been impossible.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87054,
+      "id": "db_EventInfo:102827:3",
+      "jp": "不思議なこともあるもんじゃのー",
+      "en": "Life is full of strange coincidences, isn't it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 87055,
+      "id": "db_EventInfo:102828:13",
+      "jp": "……まあそういうことで、【『鍛鉄の街フレスミス』】はドワーム族が壊滅させてしまいました",
+      "en": "...Well, that's how it happened. We Dwarm destroyed the Forging City of Fressmis.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87056,
+      "id": "db_EventInfo:102829:13",
+      "jp": "てっきり、そのまま街はなくなったと思ってたのですが",
+      "en": "I thought the city was gone for good after that.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 87057,
+      "id": "db_EventInfo:102832:0",
+      "jp": "これがドワーム側の事情らしい。",
+      "en": "That seems to be the Dwarm side of the story.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87058,
+      "id": "db_EventInfo:102833:0",
+      "jp": "今度は【『鍛鉄の街フレスミス』】側の事情も聞いてみたいな。",
+      "en": "Now I want to hear what happened from the side of the Forging City of Fressmis.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87059,
+      "id": "db_EventInfo:102834:0",
+      "jp": "俺はエリオルダと共に、エルザの様子を見に行くことにした。",
+      "en": "I decided to go with Eliorda to see how Elsa was doing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87060,
+      "id": "db_EventInfo:102837:38",
+      "jp": "む、アンタか……",
+      "en": "Oh, it's you...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87061,
+      "id": "db_EventInfo:102838:38",
+      "jp": "聞いたぜ。アンタが新しい領主サマだったなんてな。若すぎて、まったく気付かなかったぜ",
+      "en": "I heard. That you're the new Lord. You're so young, I had no idea.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87062,
+      "id": "db_EventInfo:102839:1",
+      "jp": "そりゃどうも",
+      "en": "Thanks, I guess.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87063,
+      "id": "db_EventInfo:102840:38",
+      "jp": "まさか、こんなに居心地が良い場所に捕らえてくれるなんてな",
+      "en": "I never thought you'd capture me and put me in such a comfortable place.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87064,
+      "id": "db_EventInfo:102841:10",
+      "jp": "まさか嫌味じゃないだろうな。【『自警団』】には、それなりの待遇でもてなすように伝えてあるはずだが",
+      "en": "I hope that's not sarcasm. I told the 【Self-Defense Force】 to treat their captives decently.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87065,
+      "id": "db_EventInfo:102842:38",
+      "jp": "もちろんだ。廃墟みたいな街と比べれば、天国だぜ",
+      "en": "Of course not. Compared to the ruined town, this is heaven.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87066,
+      "id": "db_EventInfo:102843:38",
+      "jp": "へっ、今の領主はたいそう女好きで、捕まった女は、たちまち犯されるって聞いてたけど",
+      "en": "Heh. I heard the lord here really likes women, and any captured woman gets violated right away.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87067,
+      "id": "db_EventInfo:102844:10",
+      "jp": "それは【前の領主】の話だ。今の【<pl>】殿は……",
+      "en": "That was the 【previous lord】. The current Lord 【<pl>】 is...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87068,
+      "id": "db_EventInfo:102846:10",
+      "jp": "まあ、すぐには手を出されることはないはずだろう。たぶん",
+      "en": "Well, you probably won't be attacked right away. Probably.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87069,
+      "id": "db_EventInfo:102847:38",
+      "jp": "ひっ！",
+      "en": "Eek!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87070,
+      "id": "db_EventInfo:102848:1",
+      "jp": "おい",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87071,
+      "id": "db_EventInfo:102849:0",
+      "jp": "女性を連れることで警戒心をほぐそうとしたのに、逆効果じゃないか。",
+      "en": "I brought women along to put them at ease, but this seems to have the opposite effect.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87072,
+      "id": "db_EventInfo:102850:10",
+      "jp": "それより、お前達のことを聞いても良いだろうか？",
+      "en": "Anyway, can I ask you something about yourselves?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87073,
+      "id": "db_EventInfo:102851:38",
+      "jp": "アタイたちの？",
+      "en": "About us?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87074,
+      "id": "db_EventInfo:102852:10",
+      "jp": "うむ。仲間のドワーム族からは、【『鍛鉄の街フレスミス』】は、ドワーム族の弟子達の街と聞いた",
+      "en": "Yes. From my Dwarm companions, I heard 【'Fressmis, the Iron-Forging Town'】 is a town of Dwarm disciples.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87075,
+      "id": "db_EventInfo:102853:38",
+      "jp": "……ああ",
+      "en": "...Oh.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87076,
+      "id": "db_EventInfo:102854:10",
+      "jp": "実際、お前達が流した装備からは、ドワームの技術を感じる",
+      "en": "Honestly, from the gear you sold, I can feel Dwarm's craftsmanship.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87077,
+      "id": "db_EventInfo:102855:10",
+      "jp": "それならば、ドワームたちは作った武器と誇りを重んじるということも知ってるはずだ",
+      "en": "Then you must also know that Dwarm folk take pride in the weapons they make.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87078,
+      "id": "db_EventInfo:102856:10",
+      "jp": "悪用されることがわかって、なぜ【『邪教徒』】共に売った？",
+      "en": "If you knew they'd be misused, why sell them to those 'cultists'?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87079,
+      "id": "db_EventInfo:102857:38",
+      "jp": "ふ、ふん……！　アンタらが悪いんだよ",
+      "en": "Hmph, hmph...! It's your fault!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87080,
+      "id": "db_EventInfo:102858:38",
+      "jp": "アンタらが、ゼルカ様を失脚させなければ……！",
+      "en": "If you hadn't ruined Master Zelka...!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87081,
+      "id": "db_EventInfo:102859:1",
+      "jp": "なんだって……？",
+      "en": "What did you say...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87082,
+      "id": "db_EventInfo:102860:38",
+      "jp": "ドワーム族に潰された後、アタイらのオヤジたちは必死で街を復興しようとした",
+      "en": "After the Dwarm clan crushed us, our old men tried hard to rebuild the town.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87083,
+      "id": "db_EventInfo:102861:38",
+      "jp": "でもわけもわからないうちに、【『ドルワミール鉱山』】から鉱石を売ってもらえなくなっちまって……",
+      "en": "But suddenly, for no good reason, we couldn't buy ore from the 'Dolwamir Mine' anymore...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87084,
+      "id": "db_EventInfo:102862:38",
+      "jp": "鉱石がない鍛冶屋じゃ、武器の修理もろくにできねえし。途方にくれちまった",
+      "en": "A smithy without ore can't even fix weapons right. We were at our wit's end.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87085,
+      "id": "db_EventInfo:102863:38",
+      "jp": "そんな中、救いの手を差し伸べたのが、【前の領主サマ】だ",
+      "en": "That's when help came. It was the 'former lord'.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87086,
+      "id": "db_EventInfo:102864:1",
+      "jp": "【前の領主】……ゼルカが？",
+      "en": "The former lord... Zelka did?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87087,
+      "id": "db_EventInfo:102866:38",
+      "jp": "ああ。ゼルカ様は、アタイらの腕を買って、大量の武器の生産を依頼してくださったんだ",
+      "en": "Yeah. Master Zelka saw our skills. He gave us a huge order to make lots of weapons.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87088,
+      "id": "db_EventInfo:102867:38",
+      "jp": "色んな場所から質の良い鉱石を集めてくれて、それで武器を作ってくれってな",
+      "en": "He gathered good quality ore from all over for us to use. That's what we made the weapons from.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87089,
+      "id": "db_EventInfo:102868:38",
+      "jp": "軌道に乗ったアタイたちの元には、他にも依頼をしてくれる奴らが集まってきて",
+      "en": "Once we got going, other people started coming to us with orders too.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87090,
+      "id": "db_EventInfo:102869:38",
+      "jp": "なんとかやっていけるようになったんだ",
+      "en": "We finally managed to get by.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87091,
+      "id": "db_EventInfo:102870:38",
+      "jp": "あの方がいなければ、アタイらは街でのたれ死んでただろうぜ",
+      "en": "If it wasn't for him, we'd have died starving in the streets.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87092,
+      "id": "db_EventInfo:102871:1",
+      "jp": "そんなことが……",
+      "en": "That's how it was...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87093,
+      "id": "db_EventInfo:102872:10",
+      "jp": "しかし、ゼルカの失脚により、そのバックアップが消えたと？",
+      "en": "But with Zelka's fall, that support vanished?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 87094,
+      "id": "db_EventInfo:102873:1",
+      "jp": "……えっ？",
+      "en": "...Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87095,
+      "id": "db_EventInfo:102874:38",
+      "jp": "そうさ！　ゼルカ様がいなくなって、アタイらは横流しされた鉱石を買うしかなくなった。",
+      "en": "Exactly! With Master Zelka gone, we had to buy ore from smugglers instead.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87096,
+      "id": "db_EventInfo:102875:38",
+      "jp": "おまけに、アンタらはデタラメな武器屋を作って、【客を根こそぎ奪い取って】いきやがる！",
+      "en": "And then you guys set up a bogus weapon shop, stealing all our customers!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87097,
+      "id": "db_EventInfo:102876:38",
+      "jp": "じゃあもう、どんな相手にも売るしかねえだろ！？",
+      "en": "What choice did we have then? Sell to anyone!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87098,
+      "id": "db_EventInfo:102877:38",
+      "jp": "アタイらだって、【『邪教徒』】なんかに、売ろうとは思ってなかったよ！！",
+      "en": "We never wanted to sell to those... cultists!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 87099,
+      "id": "db_EventInfo:102878:1",
+      "jp": "そんなことが……",
+      "en": "You've got to be kidding...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87100,
+      "id": "db_EventInfo:102879:0",
+      "jp": "エルザたちの境遇に、俺は絶句してしまうのだが。",
+      "en": "Hearing about Elsa's situation leaves me speechless.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

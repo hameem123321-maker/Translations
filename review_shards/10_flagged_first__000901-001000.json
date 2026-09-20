@@ -1,0 +1,1110 @@
+{
+  "source_file": "10_flagged_first.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 901,
+  "range_end": 1000,
+  "pairs": [
+    {
+      "n": 901,
+      "id": "rem_31000",
+      "jp": "スマタ",
+      "en": "Sumata",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 902,
+      "id": "rem_31001",
+      "jp": "泡プレイ",
+      "en": "Bubble Play",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 903,
+      "id": "rem_31002",
+      "jp": "手コキ",
+      "en": "Handjob",
+      "table": "db_ClubHRoomPlay",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 904,
+      "id": "rem_31801",
+      "jp": "属性付与・闇属性",
+      "en": "Attribute Enchant・Dark",
+      "table": "db_UnitStatusChange",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 905,
+      "id": "rem_32059",
+      "jp": "近隣の人間に飽きられたのか、娯楽施設の客入りが悪くなってますわ。人を呼び込んで、稼いで下さいませ",
+      "en": "Perhaps the locals have grown bored, but the amusement facility's customer flow has worsened. Please attract people and earn money.",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 906,
+      "id": "rem_32075",
+      "jp": "ザコ共が群れてうっとおしいデスね……おいオマエ！　ちょっと私と一緒に掃除に行くデス！　付き合えデス！",
+      "en": "These small fry are annoyingデス！ Hey you! Come clean with meデス！ Keep me companyデス！",
+      "table": "db_MessagePartnerMissionInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "leftover_desu"
+      ]
+    },
+    {
+      "n": 907,
+      "id": "rem_32407",
+      "jp": "日々売上を増やすデス３",
+      "en": "",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 908,
+      "id": "rem_33488",
+      "jp": "『ネルディーネ』のＬＶが【110】以上",
+      "en": "",
+      "table": "db_AchievementHistory",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 909,
+      "id": "rem_33735",
+      "jp": "CT回復(小) + 【仲間】に【氷付与】を付与 (属性付与・氷属性)",
+      "en": "CT Recovery(Small) + Grants 【Ally】 【Ice Imbuement】 (Elemental Enchant・Ice)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 910,
+      "id": "rem_33753",
+      "jp": "エネミー専用・高速移動",
+      "en": "Enemy only・High-Speed Move",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 911,
+      "id": "rem_33755",
+      "jp": "エネミー専用・獲得EXP[+200%]",
+      "en": "Enemy only・EXP gain[+200%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 912,
+      "id": "rem_33757",
+      "jp": "エネミー専用・淫魔領域Lv1",
+      "en": "Enemy only・Succubus Domain Lv1",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 913,
+      "id": "rem_33851",
+      "jp": "戦闘後パーティー回復・HP[+20%]",
+      "en": "Post-Battle Party Recovery・HP [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 914,
+      "id": "rem_33853",
+      "jp": "戦力変換・性器＞攻撃",
+      "en": "Combat Conversion・Genitals > Attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 915,
+      "id": "rem_33856",
+      "jp": "主人公ともっとエッチをしたくなり、部屋での搾精量がアップする。死神代行と助手は身体の相性がとても良く、エッチ未経験でも最高の相手になる資質がある。",
+      "en": "Makes you crave more intimacy with the protagonist, increasing semen extraction in the room. The Shinigami Agent and assistant have excellent physical compatibility, making them ideal partners even if inexperienced.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 916,
+      "id": "rem_33946",
+      "jp": "レベル同期・ウルフィナと同じに",
+      "en": "Level Sync・Match Wolfina's",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 917,
+      "id": "rem_34227",
+      "jp": "戦闘後パーティー回復・MP[+10%]",
+      "en": "Post-battle party heal・MP[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 918,
+      "id": "rem_34389",
+      "jp": "CT回復(小) + 【仲間】に【四属性付与】を付与 (属性付与・四属性)",
+      "en": "CT recovery (small) + grants 【Ally】 【Four Element Imbue】 (Element Imbue・Four).",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 919,
+      "id": "rem_34541",
+      "jp": "戦闘後パーティー回復・CT[+30%]",
+      "en": "Post-Battle Party Heal・CT[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 920,
+      "id": "rem_34644",
+      "jp": "戦力変換・全体＞ＨＰ",
+      "en": "Resource Conversion・All > HP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 921,
+      "id": "rem_34857",
+      "jp": "北方の大国ノーザリアからの侵攻を防ぐための要塞。温暖な土地を求める彼らの侵攻を、幾度となく食い止めている。今も交易は続いているが、彼らの特産品は少なく不均衡で、争いの火種は絶えない。",
+      "en": "A fortress built to defend against invasions from the northern power, Notheria. Has repeatedly repelled their invasions in pursuit of warmer lands. Trade continues, but their specialties are few, creating imbalance, and the seeds of conflict are endless.",
+      "table": "db_WorldPlace",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 922,
+      "id": "rem_34988",
+      "jp": "胸",
+      "en": "Chest",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 923,
+      "id": "rem_34991",
+      "jp": "尻",
+      "en": "Rear",
+      "table": "db_UnitItemKb",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 924,
+      "id": "rem_35486",
+      "jp": "グローバルな組織を目指す",
+      "en": "",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 925,
+      "id": "rem_35523",
+      "jp": "主人公の精力を増強して、より沢山の精液を搾り取ることが出来る。投資することで、搾精売上がアップして店の経営を支えるだろう。主人公は干涸らびる。",
+      "en": "Boost Ren's stamina to extract more semen. Investment raises extraction sales and supports the shop. Ren will be drained dry.",
+      "table": "db_ClubToushiSetubi",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 926,
+      "id": "rem_35552",
+      "jp": "H経験・パイズリ2",
+      "en": "H Exp・Paizuri 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 927,
+      "id": "rem_35553",
+      "jp": "H経験・クンニ1",
+      "en": "H Exp・Cunnilingus 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 928,
+      "id": "rem_35554",
+      "jp": "H経験・クンニ2",
+      "en": "H Exp・Cunnilingus 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 929,
+      "id": "rem_35555",
+      "jp": "H経験・セックス1",
+      "en": "H Exp・Sex 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 930,
+      "id": "rem_35556",
+      "jp": "H経験・セックス2",
+      "en": "H Exp・Sex 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 931,
+      "id": "rem_35557",
+      "jp": "H経験・妊娠1",
+      "en": "H Exp・Pregnancy 1",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 932,
+      "id": "rem_35558",
+      "jp": "H経験・妊娠2",
+      "en": "H Exp・Pregnancy 2",
+      "table": "db_UnitCharaPartnerProfile",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 933,
+      "id": "rem_35729",
+      "jp": "匿名希望Ａ",
+      "en": "匿名希望A",
+      "table": "db_Staff",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 934,
+      "id": "rem_35831",
+      "jp": "匿名希望",
+      "en": "匿名希望",
+      "table": "db_EventChara",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en",
+        "untranslated"
+      ]
+    },
+    {
+      "n": 935,
+      "id": "rem_36222",
+      "jp": "搾精エッチ技術の開発Lv16",
+      "en": "Semen Extraction Tech Dev Lv16",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 936,
+      "id": "rem_36310",
+      "jp": "搾精エッチ技術の開発Lv1",
+      "en": "Develop Semen Drain Sex Technique Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 937,
+      "id": "rem_36311",
+      "jp": "搾精エッチ技術の開発Lv2",
+      "en": "Develop Semen Drain Sex Technique Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 938,
+      "id": "rem_36422",
+      "jp": "女の子を精液まみれにした",
+      "en": "Covered the girl in semen",
+      "table": "db_UnitCharaPartnerHotelResult",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 939,
+      "id": "rem_36499",
+      "jp": "麦の粉をミルクでまとめて焼き上げた、ぱさぱさした食感のスコーン。口に残るので、紅茶などと一緒に食される。",
+      "en": "",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 940,
+      "id": "rem_37065",
+      "jp": "不死鳥の如く陰茎を奮い立たせると言われている精力剤。何度射精しても、たちまちペニスが勃ち上がり、精を吐き出し続けると言われる。",
+      "en": "Said to make a man's member rise like a phoenix. Keeps him erect and spurting seed endlessly.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 941,
+      "id": "rem_37109",
+      "jp": "魔力によって自在に動く、リアルなデザインの触手。先端からは精液を模した液体を噴射する機能を持たせてある。",
+      "en": "A realistic tentacle that moves freely via magic. Its tip can spray a liquid mimicking semen.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 942,
+      "id": "rem_37288",
+      "jp": "異邦の穀物に祈りを捧げ、着色料を混ぜたお米。「聖女が祝福した」という付加価値がついたおかげで割高で売れる。",
+      "en": "A prayer-infused rice blend with colored grains from foreign seeds. Marketed as \"blessed by a saint,\" it sells at a premium.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 943,
+      "id": "rem_37604",
+      "jp": "ネルディーネの騎乗位奉仕(初回)",
+      "en": "",
+      "table": "db_ClubToushiUnitSkillLock",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 944,
+      "id": "rem_37613",
+      "jp": "オーレリアの触手連続射精",
+      "en": "Aurelia's tentacle continuous ejaculation",
+      "table": "db_ClubToushiUnitSkillLock",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 945,
+      "id": "rem_38174",
+      "jp": "言葉",
+      "en": "Words",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 946,
+      "id": "rem_38175",
+      "jp": "手",
+      "en": "Hand",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 947,
+      "id": "rem_38176",
+      "jp": "性器",
+      "en": "Genitals",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 948,
+      "id": "rem_38177",
+      "jp": "頭",
+      "en": "Head",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 949,
+      "id": "rem_38178",
+      "jp": "全体",
+      "en": "Whole Body",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 950,
+      "id": "rem_38179",
+      "jp": "キス",
+      "en": "Kiss",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 951,
+      "id": "rem_38180",
+      "jp": "変態",
+      "en": "Pervert",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 952,
+      "id": "rem_38181",
+      "jp": "見る",
+      "en": "Look",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 953,
+      "id": "rem_38182",
+      "jp": "移動",
+      "en": "Move",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 954,
+      "id": "rem_38183",
+      "jp": "謝罪",
+      "en": "Apology",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 955,
+      "id": "rem_38184",
+      "jp": "挿入",
+      "en": "Insert",
+      "table": "db_UnitCharaPartnerAccessPosition",
+      "category": "remaining_table",
+      "flags": [
+        "engine_lock_keep_jp"
+      ]
+    },
+    {
+      "n": 956,
+      "id": "rem_38276",
+      "jp": "大衆浴場・男湯",
+      "en": "Public Bath・Men's Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 957,
+      "id": "rem_38278",
+      "jp": "大衆浴場・女湯",
+      "en": "Public Bath・Women's Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 958,
+      "id": "rem_38280",
+      "jp": "大衆浴場・混浴",
+      "en": "Public Bath・Mixed Bath",
+      "table": "db_ClubBuild",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 959,
+      "id": "rem_38712",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の大神殿を建築する資金に協力する。かなりの大工事で、数年がかりの大仕事になるだろう。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 960,
+      "id": "rem_38717",
+      "jp": "お茶会Lv10・高性能ポーション工房建設",
+      "en": "Tea Party Lv10・High-Performance Potion Workshop Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 961,
+      "id": "rem_38773",
+      "jp": "まだ明かされていない、ダムブナックの森の深奥には、得体の知れない怪異が眠っている恐れがある。好奇心や欲に取り憑かれた者が深奥に踏み入り、それを目覚めさせないように、『<ruby=ウィッチ>魔女</ruby>』の結界で封印することにする。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 962,
+      "id": "rem_38778",
+      "jp": "【<src>】の[ヘヴンドライブ]！",
+      "en": "",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 963,
+      "id": "rem_38896",
+      "jp": "繁殖力に優れた麦粒。不毛の地と化した砂漠でも繁茂する、希望の種。今を我慢すれば、未来には黄金の麦畑が広がるだろう。",
+      "en": "Wheat grains with superior reproductive power. Seeds of hope that thrive even in desertified wastelands. Endure the present, and golden wheat fields will spread in the future.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 964,
+      "id": "rem_38897",
+      "jp": "未来への種麦",
+      "en": "Seed Wheat for the Future",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 965,
+      "id": "rem_38933",
+      "jp": "邪教のブラッドベリ―",
+      "en": "",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 966,
+      "id": "rem_39500",
+      "jp": "世界樹の種とも呼ばれる大きな種子。生命の起源と呼ばれる世界樹は発芽が難しく、実行するには巨大な魔力が必要になる。何の役にも立たない貴重品。",
+      "en": "A large seed also called the Seed of the World Tree. Germinating the legendary World Tree requires immense magic. A rare item with no practical use.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 967,
+      "id": "rem_39681",
+      "jp": "物理的に他者を踏みつけるのは疲れますわ。しっかり射精できるように、今後は頑張りますわねД",
+      "en": "Physically trampling others is tiring. I'll work hard from now on so you can ejaculate properly.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 968,
+      "id": "rem_39710",
+      "jp": "ようやく<pl>様に射精いただけるようになった時ですわねД　これも<pl>様のご指導のおかげですわД",
+      "en": "The time I was finally able to make <pl> ejaculateД This was also thanks to <pl>'s guidanceД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 969,
+      "id": "rem_39717",
+      "jp": "一緒に体を綺麗にいたしましたわД　遠慮せず、たくさん中出ししてほしいですわねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 970,
+      "id": "rem_39720",
+      "jp": "姿を変えた<pl>様に、嫌がってと言われました……ですが、どのような姿でも、<pl>様を拒絶などできませんわД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 971,
+      "id": "rem_39726",
+      "jp": "皆様の前で、<pl>様がどれだけの偉業を成す方か、見せつけて差し上げましたわД　私はもう<pl>様の物ですものД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 972,
+      "id": "rem_39756",
+      "jp": "<pl>にいっぱい射精してもらった時だよねД　夢中になって射精しちゃう<pl>も、可愛かったよД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 973,
+      "id": "rem_39761",
+      "jp": "仕事中でも、ボクは気にしないよД　ボクが好きなのは<pl>だけだって、知らしめなくちゃД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 974,
+      "id": "rem_39859",
+      "jp": "おっぱいを吸ってる<pl>君、とっても可愛いよД　遠慮しないで、もっとしてあげるД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 975,
+      "id": "rem_39861",
+      "jp": "<pl>君をたくさん癒してあげちゃったД　<pl>君はいつも頑張ってるんだから、いっぱい射精して、癒されてねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 976,
+      "id": "rem_39862",
+      "jp": "手でイっちゃうなんて、<pl>君もイヤだよねД　ちゃんとオマンコに射精してもらったわД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 977,
+      "id": "rem_39864",
+      "jp": "沢山射精する<pl>君、とっても可愛かったわД　この後はしっかり、オマンコに出してもらったのД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 978,
+      "id": "rem_39868",
+      "jp": "皆が見てるのに、エッチしちゃったわД　お姉ちゃんと<pl>君が仲良しだって、皆に知られちゃったねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 979,
+      "id": "rem_39869",
+      "jp": "お客さんが見てても、お姉ちゃんは止まらないわД　だって、もう<pl>君に夢中になっちゃってるものД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 980,
+      "id": "rem_39870",
+      "jp": "赤ちゃん孕んじゃったД　でも、<pl>君がしたいなら、遠慮しないでも大丈夫だよД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 981,
+      "id": "rem_39879",
+      "jp": "ミルテに『処女セックス』をしてもらう",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 982,
+      "id": "rem_39912",
+      "jp": "ようやく死神の精を得られた時じゃなД　前戯の段階からドキドキしてしまったわいД",
+      "en": "Finally, I have the Shinigami's seed. \nI was trembling from the very start.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 983,
+      "id": "rem_39921",
+      "jp": "大量に精液を搾り取ってやったのじゃД　ククク、この研究はきっと歴史に名を残してしまうのうД",
+      "en": "I milked a vast amount of semen from you. \nHeheh, this research will surely go down in history.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 984,
+      "id": "rem_39982",
+      "jp": "<pl>様を操って、ガンガンに犯して頂き、精も力も奪って差し上げましたД　そのはずだったのですが……",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 985,
+      "id": "rem_39993",
+      "jp": "皆様の前で、<pl>様にお仕置き頂きましたД　見世物になるのはともかく、中出し頂けるのは嬉しいですわД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 986,
+      "id": "rem_39995",
+      "jp": "<pl>様の<ruby=化身>アバター</ruby>に、全身を犯して頂きましたД　周囲の方々も、羨ましそうでしたわД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 987,
+      "id": "rem_39996",
+      "jp": "大勢の<pl>様に何度も犯して頂く様を、皆様に見せつけましたわД　ふふ、ご満足頂けましたわよねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 988,
+      "id": "rem_40037",
+      "jp": "お風呂で何度も中出しして頂きましたわД　洗い流せば、精液もなくなりますから、遠慮しないで下さいませД",
+      "en": "You came inside me many times in the bathД Since the semen washes away, please don't hold backД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 989,
+      "id": "rem_40042",
+      "jp": "<pl>様との赤ちゃんを身に宿して、妊娠エッチを楽しみましたわД　やはり<pl>様の精液は最高ですわねД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 990,
+      "id": "rem_40088",
+      "jp": "妊娠したまま、何度も<pl>様の精を注いで頂きましたД　赤ちゃんの為にも、まだまだ射精してくださいませД",
+      "en": "Even while pregnant, I've received my lord <pl>'s seed so many times... For the baby's sake, please cum inside me again and again.",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 991,
+      "id": "rem_40094",
+      "jp": "<pl>とエッチしちゃったね……Д　『大禁呪』の事もあるけど、それ以前に、私は<pl>が好き……Д",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 992,
+      "id": "rem_40097",
+      "jp": "何度も中出しされて、気持ち良すぎて震えちゃったД　多分これで、<pl>の赤ちゃん、妊娠しちゃったかもД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 993,
+      "id": "rem_40158",
+      "jp": "<pl>がずっと見てたおっぱいで、顔を挟んで、射精させたよД　こういうの、好きなんだろ？　隠せてないぜД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 994,
+      "id": "rem_40160",
+      "jp": "<pl>をおっぱいとオマンコで、何度も射精させたぜД　精液、いっぱい出しちまって、気持ち良かったろД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 995,
+      "id": "rem_40186",
+      "jp": "尋問して、大量に中出ししてもらったのД　精液って、要するに情報のカタマリだもんねД",
+      "en": "I interrogated him and got creampied a whole lotД Semen is basically a lump of information, rightД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 996,
+      "id": "rem_40188",
+      "jp": "またこんな卑劣な罠を……Д　ま、まあ、殺されなかったし、精液の情報も、オマンコに貰ったから、いいけどД",
+      "en": "Another one of these dirty traps...Д W-well, at least I wasn't killed, and I got that semen info in my pussy, so it's fineД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 997,
+      "id": "rem_40194",
+      "jp": "ハニートラップのはずが、私が夢中になってたわД　精液を引き出したって事は、情報を引き出したって事でしょД",
+      "en": "It was supposed to be a honey trap, but I got really into itД Getting the semen out means getting the info out, rightД",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 998,
+      "id": "rem_40200",
+      "jp": "口で何度も射精させちゃったД　情報収集の一つだし、後で精液の味、報告しとかないと……Д",
+      "en": "I made him cum in my mouth so many timesД It's part of intel gathering, gotta report on how the semen tasted later...Д",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 999,
+      "id": "rem_40254",
+      "jp": "<pl>様の慈悲を頂き、何度も中出ししてもらいましたわД　私、絶対に<pl>様の子を孕んで見せますД",
+      "en": "<pl>大人赐予了慈悲，多次内射了我Д 我绝对要怀上<pl>大人的孩子Д",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 1000,
+      "id": "rem_40258",
+      "jp": "<pl>様を愛するあまり、私、止まらなくなってしまいましたД　何度もオマンコに中出しされて、幸せですД",
+      "en": "",
+      "table": "db_ScenarioHScene",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    }
+  ]
+}

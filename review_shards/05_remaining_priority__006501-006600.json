@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6501,
+  "range_end": 6600,
+  "pairs": [
+    {
+      "n": 6501,
+      "id": "rem_34120",
+      "jp": "戦力変換・手＞必殺",
+      "en": "Convert Hand > Ultimate",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6502,
+      "id": "rem_34121",
+      "jp": "戦力変換・頭＞ＭＰ",
+      "en": "Convert Head > MP",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6503,
+      "id": "rem_34122",
+      "jp": "仲間の周りにちょっとした罠を仕掛けてエネミーの攻撃を阻害する。罠に引っかかった相手は、攻撃を無効化されてしまう。",
+      "en": "Sets a simple trap near allies to hinder enemy attacks. Trapped targets have their attacks nullified.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6504,
+      "id": "rem_34123",
+      "jp": "トラップで敵の攻撃を妨害[+10%]",
+      "en": "Trap interferes with enemy attacks [+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6505,
+      "id": "rem_34124",
+      "jp": "しばらく見ないうちに変な才能を目覚めさせてしまったらしい。お宝の匂いに敏感になり、金目の物は無意識のうちにポッケに入れてしまう。他のスキルと併用できるので強い。",
+      "en": "Seems they've awakened a strange talent. Now sensitive to treasure scent, they unconsciously pocket valuables. Works with other skills, making it strong.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6506,
+      "id": "rem_34125",
+      "jp": "開発ポイント獲得量[+20%] + レア[+20%]",
+      "en": "Dev Points Gain [+20%] + Rare [+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6507,
+      "id": "rem_34126",
+      "jp": "弓矢に魔力を付与し、矢は流星のように降り注ぐ。密集しているほど命中率が高く、あまりにも降り注ぐ量が多いため、命中率も比較的安定した絶技。",
+      "en": "Imbues arrows with magic, raining them down like meteors. Higher hit rate on dense groups. The sheer volume makes accuracy relatively stable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6508,
+      "id": "rem_34127",
+      "jp": "範囲(大)攻撃 威力[S] +  命中[70%] + 【雷属性】 + 防御貫通(小) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Large AoE Attack Power[S] + Hit[70%] + 【Thunder】 + Small Def Penetration + Inflicts [Shock] (Crit Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6509,
+      "id": "rem_34128",
+      "jp": "【<src>】の[シューティングスター]が降り注ぐ！",
+      "en": "【<src>】's [Shooting Stars] rain down!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6510,
+      "id": "rem_34129",
+      "jp": "弓矢を連続で発射する。連射力を重視するため、命中率がやや落ちてしまう。ちゃんとヒットすれば大きいダメージを与える。",
+      "en": "Rapidly fires arrows. Prioritizes rate of fire, so accuracy drops slightly. Deals heavy damage if it hits.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6511,
+      "id": "rem_34130",
+      "jp": "範囲(大)攻撃 威力[E+] +  命中[60%] + 連撃率[+30%] + 【風属性】",
+      "en": "Large AoE Attack Power[E+] + Hit[60%] + Combo Rate[+30%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6512,
+      "id": "rem_34131",
+      "jp": "【<src>】は[ダブルショット]で連続射撃！",
+      "en": "【<src>】 fires rapidly with [Double Shot]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6513,
+      "id": "rem_34132",
+      "jp": "仲間呼び(他) + 【仲間】に【防御++】を付与 (すべてのダメージ軽減率[+50%])",
+      "en": "Summon Ally (Other) + Grants 【Ally】【Defense++】 (All Damage Reduction [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6514,
+      "id": "rem_34133",
+      "jp": "【<src>】は助けを呼んだ！",
+      "en": "【<src>】 called for help!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6515,
+      "id": "rem_34134",
+      "jp": "周囲を警戒し、敵からの先制攻撃を防ぐ魔術。危険なダンジョンにおいては、ちょっとした油断が致命的な結果をもたらすこともある。擬態したり隠れた敵も見破る。",
+      "en": "A magic that heightens vigilance, preventing enemy ambushes. A moment's carelessness can be fatal in dangerous dungeons. Also reveals disguised or hidden enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6516,
+      "id": "rem_34135",
+      "jp": "エネミー発見率[+30%]",
+      "en": "Enemy Detection Rate [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6517,
+      "id": "rem_34136",
+      "jp": "自分にバリアを張る。このバリアは小さなダメージは素通りし、大きなダメージのみに発動、効果が発揮すると大きく威力を削ぐ。",
+      "en": "Creates a personal barrier. It ignores small damage, only activating against major blows to significantly weaken them.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6518,
+      "id": "rem_34137",
+      "jp": "【自分】に【大盾】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grants 【Self】【Great Shield】 (Reduces attacks exceeding 20% Max HP [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6519,
+      "id": "rem_34138",
+      "jp": "【<src>】の[大防御]が身を固める！",
+      "en": "【<src>】's [Great Defense] hardens!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6520,
+      "id": "rem_34139",
+      "jp": "怪力を使って、アイテムを大量に持ち帰る。マップ内のアイテムを残らず持ってくることによって、通常より開発ポイントをたくさん入手しやすくなる。",
+      "en": "Uses brute strength to haul back lots of items. Gathering all map items yields more Dev Points than usual.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6521,
+      "id": "rem_34140",
+      "jp": "開発ポイント獲得量[+50%]",
+      "en": "Dev Points Gained [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6522,
+      "id": "rem_34141",
+      "jp": "魔術の弾丸を敵に向かって撃ち込む、低位の攻撃魔術。属性が付与されていないために攻撃力が低い。",
+      "en": "A low-level attack spell that fires magical bullets at enemies. Low attack power as it lacks elemental attributes.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6523,
+      "id": "rem_34142",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[60%] + 【闇属性】",
+      "en": "Area (S) Attack Power[E+] + Hit[60%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6524,
+      "id": "rem_34143",
+      "jp": "【<src>】は[マジックブリット]の魔術を放った！",
+      "en": "【<src>】cast [Magic Bullet]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6525,
+      "id": "rem_34144",
+      "jp": "膨大な魔力を圧縮し、強力な攻撃波動を放つ。最高位の攻撃魔術であり、学院の上級魔術師でも殆ど使い手がいないといわれる。",
+      "en": "A supreme attack spell that unleashes a powerful shockwave by compressing immense mana. Said to have few users even among the academy's senior mages.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6526,
+      "id": "rem_34145",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 【闇属性】",
+      "en": "Area (L) Attack Power[B+] + Hit[60%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6527,
+      "id": "rem_34146",
+      "jp": "【<src>】は[カオスウェイブ]を放った！",
+      "en": "【<src>】cast [Chaos Wave]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6528,
+      "id": "rem_34147",
+      "jp": "彼は人間に宿り人を導く者の一人。人間に擬態した彼は魔術の塔を作り、人間に叡智を授けてきた。『神』の超技術を人間にも扱えるように授けるのは、彼の十八番である。",
+      "en": "One of the Guides who dwells within humans. Disguised as human, he built the Magic Tower and granted wisdom to mankind. Granting 'God's' super-technology to humans is his specialty.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6529,
+      "id": "rem_34148",
+      "jp": "パーティー全員の経験値[+80%]",
+      "en": "Party EXP [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6530,
+      "id": "rem_34149",
+      "jp": "神話の時代から存在する、制御装置。その存在は表に現れることはなく、常に相手の行動を束縛して、妨害する試練を担う。何度乗り越えてもより強くなる。",
+      "en": "A control unit existing since the Mythic Age. It never appears openly, always binding opponents' actions and bearing trials to hinder them. Grows stronger each time overcome.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6531,
+      "id": "rem_34150",
+      "jp": "レベル同期・主人公と同じに([+5]) + 魔攻超強化",
+      "en": "Level Sync: Match Ren's Level ([+5]) + Greatly Boost Mag. Atk",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6532,
+      "id": "rem_34151",
+      "jp": "魔界の七公の一角たる色欲の縁者たち。次代の当主を争う間柄ではあるが、生まれ持っての資質は平等でなく妬まれた。一方で、必ずしも無能と侮っているわけでもなかった。",
+      "en": "Members of the Lust lineage, one of the Seven Dukes of the Demon Realm. Rivals for the next headship, but born unequal in talent, breeding envy. Yet not necessarily dismissed as incompetent.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6533,
+      "id": "rem_34152",
+      "jp": "レベル同期・ルーシェ/シェルフィと同じに",
+      "en": "Level Sync: Match Lusche/Shelfi's Level",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6534,
+      "id": "rem_34153",
+      "jp": "パーティーの自己再生力を高めることで、少しずつＨＰを回復させる。瞬間的な回復量は少ないが、範囲が広いために生存力を底上げする。持続力もかなり長い。",
+      "en": "Boosts the party's self-regeneration, gradually restoring HP. Low instant recovery, but wide area increases survivability. Fairly long duration.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6535,
+      "id": "rem_34154",
+      "jp": "【仲間】に【再生】を付与 (ターンごとにHP回復[+10%])",
+      "en": "Grants 【Ally】 【Regen】 (Restores HP[+10%] per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6536,
+      "id": "rem_34155",
+      "jp": "【<src>】の[リジェネレイト]が再生の力を与える！",
+      "en": "【<src>】's [Regenerate] grants the power of renewal!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6537,
+      "id": "rem_34156",
+      "jp": "聖女の奇跡の一つ。フィールドに聖なる大結界を張る、その場にいる聖属性の攻撃を強化し、さらに常時回復状態にする。",
+      "en": "A miracle of the Saintess. Envelops the field in a great holy barrier, boosting Holy attacks and granting constant HP regeneration within.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6538,
+      "id": "rem_34157",
+      "jp": "【フィールド】に【聖域】を付与 (聖属性ダメージ[+50%] + ターンごとにHP自動回復(味方のみ)[+10%])",
+      "en": "Grants 【Field】 【Sanctuary】 (Holy DMG[+50%] + Auto HP Regen (Allies only)[+10%] per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6539,
+      "id": "rem_34158",
+      "jp": "【<src>】は[サンクチュアリ]を使用！",
+      "en": "【<src>】used [Sanctuary]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6540,
+      "id": "rem_34159",
+      "jp": "戦闘開始直後、不死の存在を弱体化させる、聖なる言葉を浴びせる。不死者には効果覿面だが、それ以外には効果がない。",
+      "en": "Immediately after battle starts, bathes undead beings in sacred words to weaken them. Highly effective against undead, useless otherwise.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6541,
+      "id": "rem_34160",
+      "jp": "ターンアンデッドで先制ダメージ[+50%]",
+      "en": "Turn Undead - First Strike DMG [+50%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6542,
+      "id": "rem_34161",
+      "jp": "真空の刃を放って相手を切り裂く。空中を飛ぶ相手には効果が非常に高いが、固い相手は不向き。",
+      "en": "Slashes foes with blades of vacuum. Very effective against airborne enemies, but weak against hard targets.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6543,
+      "id": "rem_34162",
+      "jp": "全体攻撃 威力[D] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "All Attack - Power[D] + Hit[80%] + Combo Rate[+10%] + 【Wind Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6544,
+      "id": "rem_34163",
+      "jp": "【<src>】の[エアロストーム]が敵を切り刻む！",
+      "en": "【<src>】's [Aero Storm] shreds the enemy!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6545,
+      "id": "rem_34164",
+      "jp": "自らに攻撃した痛みを攻撃のエネルギーにして武器のパワーに上乗せする。攻撃を受ければ受けるほどにダメージがアップする。",
+      "en": "Converts pain from being attacked into energy to boost weapon power. Damage increases the more you're hit.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6546,
+      "id": "rem_34165",
+      "jp": "【自分】に【復讐者】を付与 (被ダメージ回数に応じて最大攻撃力[+30%])",
+      "en": "Apply 【Avenger】 to 【Self】 (Max ATK[+30%] based on times hit)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6547,
+      "id": "rem_34166",
+      "jp": "【<src>】は反撃の構えを取った！",
+      "en": "【<src>】 takes a counter stance!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6548,
+      "id": "rem_34167",
+      "jp": "剣に聖属性の魔術を付与して放つ強撃。不浄な存在はひとたまりもない。強化された剣の威力は高い。",
+      "en": "A mighty strike imbuing the blade with holy magic. Unholy beings cannot withstand it. The enhanced sword is highly powerful.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6549,
+      "id": "rem_34168",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 連撃率[+10%] + 【聖属性】 + 回避(小)",
+      "en": "Small Area Attack - Power[E+] + Hit[80%] + Combo Rate[+10%] + 【Holy Element】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6550,
+      "id": "rem_34169",
+      "jp": "【<src>】は[ホーリースマッシュ]で聖なる一撃！",
+      "en": "【<src>】 lands a holy blow with [Holy Smash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6551,
+      "id": "rem_34170",
+      "jp": "相手の防御の上からダメージを与える、長剣用の攻撃スキル。強打により、ときどきスタン状態にすることができる。",
+      "en": "A longsword skill that deals damage through enemy defense. The heavy blow can sometimes inflict stun.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6552,
+      "id": "rem_34171",
+      "jp": "単体攻撃 威力[E] +  命中[70%] + 必殺率[+5%] + 【火属性】 + 防御貫通(小) + [スタン]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Single Attack - Power[E] + Hit[70%] + Crit Rate[+5%] + 【Fire Element】 + Small Defense Pen. + Inflict [Stun] (Crit Receive Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6553,
+      "id": "rem_34172",
+      "jp": "【<src>】は[バッシュ]を叩き付けた！",
+      "en": "【<src>】 slams down [Bash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6554,
+      "id": "rem_34173",
+      "jp": "相手の弱点を上手く狙うスキル。弱点を突いた際の効果がアップする。クリティカルヒットの威力がアップ。",
+      "en": "A skill that precisely targets enemy weak points. Boosts effect when hitting a weakness. Increases critical hit damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6555,
+      "id": "rem_34174",
+      "jp": "クリティカルのダメージ[+30%]",
+      "en": "Critical DMG [+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6556,
+      "id": "rem_34175",
+      "jp": "剣と自身を媒体に魔術属性の乗った攻撃を炸裂させ、周囲を焼き払う。自爆にも等しい危険な技で、強い精神力を要求される。",
+      "en": "An explosive attack using the sword and self as conduits for magic, scorching the surroundings. A dangerous, near-suicidal technique requiring strong willpower.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6557,
+      "id": "rem_34176",
+      "jp": "グループ攻撃 威力[A] +  命中[70%] + 【雷属性】 + 回避(小)",
+      "en": "Group Attack - Power[A] + Hit[70%] + 【Thunder Element】 + Small Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6558,
+      "id": "rem_34177",
+      "jp": "【<src>】は十字を切り、[グランドクロス]を放った！",
+      "en": "【<src>】 slashes a cross and unleashes [Grand Cross]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6559,
+      "id": "rem_34178",
+      "jp": "敵めがけて雷を落す。貫通力のある雷撃は非常に強力で、強力な魔獣すらも仕留めることができる。攻撃範囲が狭いのが欠点。",
+      "en": "Strikes the enemy with lightning. The penetrating thunderbolt is extremely powerful, capable of felling mighty magical beasts. Limited attack range is its drawback.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6560,
+      "id": "rem_34179",
+      "jp": "範囲(小)攻撃 威力[D+] +  命中[70%] + 【雷属性】 + 防御貫通(中) + [感電]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Small Area Attack - Power[D+] + Hit[70%] + 【Thunder Element】 + Medium Defense Pen. + Inflict [Shock] (Crit Receive Rate +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6561,
+      "id": "rem_34180",
+      "jp": "【<src>】は[サンダーボルト]の魔術を放った！",
+      "en": "<src> casts [Thunderbolt] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6562,
+      "id": "rem_34181",
+      "jp": "圧縮した火球を放ち、範囲内の敵を爆砕する、強力な破壊魔術。このスキルの使用者は大魔術師として尊敬される。やや命中精度が低い。",
+      "en": "A powerful destructive magic that fires a compressed fireball, shattering enemies in range. Its user is respected as a great mage. Slightly lower accuracy.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6563,
+      "id": "rem_34182",
+      "jp": "グループ攻撃 威力[C] +  命中[60%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group attack Power[C] + Hit[60%] + 【Fire】 + Applies [Burn] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6564,
+      "id": "rem_34183",
+      "jp": "【<src>】は[ファイアボール]の魔術を放った！",
+      "en": "<src> casts [Fireball] magic!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6565,
+      "id": "rem_34184",
+      "jp": "勇者の里にて、勇者の剣と共に伝えられた異邦の秘剣。果たすべき使命と願いのために磨き続けた剣聖の技は、必殺の一撃となって全てを両断する。",
+      "en": "An exotic secret sword passed down with the Hero's blade in the Hero's village. Polished by a sword saint for their mission and wish, this technique delivers a fatal blow that cleaves all.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6566,
+      "id": "rem_34185",
+      "jp": "クリティカルのダメージ[+80%]",
+      "en": "Critical damage [+80%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6567,
+      "id": "rem_34186",
+      "jp": "熱核を極限まで圧縮させ、それを解き放ち爆発させる大魔術。ファイアボール数十発分とも言われるその威力は、神々も震わせる。",
+      "en": "A grand magic that compresses a thermonuclear core to its limit and releases it in an explosion. Its power, said to equal dozens of fireballs, makes even gods tremble.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6568,
+      "id": "rem_34187",
+      "jp": "全体攻撃 威力[A+] +  命中[60%] + 【火属性】 + 禁呪暴走抑制 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "All attack Power[A+] + Hit[60%] + 【Fire】 + Forbidden Curse Rampage Suppression + Applies [Burn] (Fire deals +10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6569,
+      "id": "rem_34188",
+      "jp": "【<src>】は禁呪[エクスプロージョン]で爆発を起こす！",
+      "en": "<src> causes an explosion with the Forbidden Curse [Explosion]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6570,
+      "id": "rem_34189",
+      "jp": "戦闘開始時に自動で使用。矢を射かけて、敵を消耗させる。多くの敵が密集しているほどダメージはアップする。",
+      "en": "Used automatically at battle start. Shoots arrows to exhaust the enemy. Damage increases the more enemies are clustered.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6571,
+      "id": "rem_34190",
+      "jp": "矢雨による先制ダメージ[+25%]",
+      "en": "Preemptive damage from arrow rain [+25%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6572,
+      "id": "rem_34191",
+      "jp": "アンジュが幼い頃から世話をしてきたドワーム族の鍛冶頭。いかなる時も身を守れるように、腕を磨き続けている。アンジュのレベルが上がると、ドルガノンのレベルがアップ。",
+      "en": "The Dwarm smith chief Anju has cared for since childhood. He constantly hones his skills to protect her at all times. Dorganon's level increases when Anju's does.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6573,
+      "id": "rem_34192",
+      "jp": "レベル同期・アンジュと同じに([+3])",
+      "en": "Level Sync - Same as Anju's ([+3])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6574,
+      "id": "rem_34193",
+      "jp": "仲間全員を守る、『聖女』のバリアを張る。このバリアは弱いダメージは素通りし、威力を大きく削いで消える。弱い攻撃は無視してしまうので注意。",
+      "en": "Erects the 'Saintess' barrier to protect all allies. This barrier lets weak damage pass through, only dispersing after absorbing a powerful blow. Beware, it ignores weak attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6575,
+      "id": "rem_34194",
+      "jp": "【仲間】に【聖盾】を付与 (最大HPの20%を超える攻撃を軽減[+70%])",
+      "en": "Grants 【Allies】 【Holy Shield】 (Reduces attacks exceeding 20% Max HP by [+70%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6576,
+      "id": "rem_34195",
+      "jp": "【<src>】の[プロテクトフィールド]！",
+      "en": "<src>'s [Protect Field]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6577,
+      "id": "rem_34196",
+      "jp": "神官が得意とする回復魔術。聖なる光の力により、仲間のHPを割合回復する。仲間全員を一気に癒やせる。淫魔っぽいヒロインもちゃんと癒やせるので安心。さらにCTも回復する。",
+      "en": "A recovery magic priests excel at. Holy light restores allies' HP by a percentage. Heals all allies at once. Don't worry, it works on even a succubus-like heroine. Also recovers CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6578,
+      "id": "rem_34197",
+      "jp": "HP回復(中) + CT回復(小) + CT消費増加",
+      "en": "HP Recovery (Mid) + CT Recovery (Small) + Increases CT Cost",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6579,
+      "id": "rem_34198",
+      "jp": "【<src>】の[ヒーリングライト]が仲間に宿った！",
+      "en": "<src>'s [Healing Light] takes hold of the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6580,
+      "id": "rem_34199",
+      "jp": "特別な印を切ることで、自らの聖属性効果を更に高める。不浄の存在に大きなダメージを与える、強力なサポートスキルである。",
+      "en": "By making a special seal, heightens one's own holy attribute effects. A powerful support skill that deals great damage to impure beings.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6581,
+      "id": "rem_34200",
+      "jp": "【自分】に【破邪の印】を付与 (聖属性ダメージ[+50%])",
+      "en": "Apply 【Anti-Evil Seal】 to 【Self】 (Holy DMG [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6582,
+      "id": "rem_34201",
+      "jp": "【<src>】は破魔の祝福を使用した！",
+      "en": "【<src>】 used Exorcism's Blessing!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6583,
+      "id": "rem_34202",
+      "jp": "戦闘不能になった仲間を復帰させる、強力な回復魔術。死者蘇生の名を持つが、強力な回復魔術というだけで本当の死者には効果が発揮しない。",
+      "en": "A powerful healing spell that revives fallen allies. Though called Raise Dead, it's just powerful healing and doesn't work on true death.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6584,
+      "id": "rem_34203",
+      "jp": "蘇生 + HP回復(小)",
+      "en": "Revive + Minor HP Recovery",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6585,
+      "id": "rem_34204",
+      "jp": "【<src>】は[レイズデッド]を使用した",
+      "en": "【<src>】 used [Raise Dead]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6586,
+      "id": "rem_34205",
+      "jp": "フィールドの氷精霊の活動を活発化させ、属性ダメージを高める結界を張る。攻撃の威力が高まるが、受けるダメージも増えるので注意。",
+      "en": "Activates ice spirits in the field, creating a barrier that boosts Ice damage. Raises attack power, but also increases damage taken.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6587,
+      "id": "rem_34206",
+      "jp": "【フィールド】に【氷強化】を付与 (氷属性ダメージ[+30%])",
+      "en": "Apply 【Ice Boost】 to 【Field】 (Ice DMG [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6588,
+      "id": "rem_34207",
+      "jp": "【<src>】は[アイスブースト]を使用！",
+      "en": "【<src>】 used [Ice Boost]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6589,
+      "id": "rem_34208",
+      "jp": "気配を消す暗殺術。相手から認識されないことにより、死角から致命的なダメージを与える。クリティカル率とクリティカルの威力が大きくアップする。",
+      "en": "Assassin technique to hide presence. Unrecognized by foes, allowing for deadly strikes from blind spots. Greatly raises Crit Rate and Crit Damage.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6590,
+      "id": "rem_34209",
+      "jp": "【自分】に【暗殺】を付与 (クリティカル率[+50%] + 弱点へのダメージ[+10%])",
+      "en": "Apply 【Assassinate】 to 【Self】 (Crit Rate[+50%] + Weakness DMG[+10%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6591,
+      "id": "rem_34210",
+      "jp": "トレハン秘奥義。複数相手にトレハン斬りを放つ。斬られた相手からはなぜか良いアイテムを入手しやすくなる。",
+      "en": "Torehan Secret Art. Unleashes multiple Torehan slashes. Enemies hit strangely drop better loot.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6592,
+      "id": "rem_34211",
+      "jp": "グループ攻撃 威力[C] +  命中[80%] + 【雷属性】 + ドロップ上昇(大) + 回避(大)",
+      "en": "Group Attack Power[C] + Hit[80%] + 【Thunder】 + Great Drop Boost + Great Evasion",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6593,
+      "id": "rem_34212",
+      "jp": "【<src>】は[ハイパートレハン斬り]を放った！",
+      "en": "【<src>】 unleashed [Hyper Torehan Slash]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6594,
+      "id": "rem_34213",
+      "jp": "秘められた淫魔の力を解放し，能力を大幅アップさせる。魔界化してなければ、淫魔がその力を使うことは難しい。これは純正の淫魔であるほど、影響を大きく受けるようになる。",
+      "en": "Unleashes hidden succubus power, greatly boosting abilities. Hard to use without demonification. True succubi are more strongly affected.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6595,
+      "id": "rem_34214",
+      "jp": "CT回復(中) + 【自分】に【淫魔化】を付与 (すべての攻撃ダメージ[+30%] + ターンごとにMP回復[+5%])",
+      "en": "Medium CT Recovery + Apply 【Succubus Form】 to 【Self】 (All ATK DMG[+30%] + MP Regen/Turn[+5%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6596,
+      "id": "rem_34215",
+      "jp": "【<src>】の[淫魔化モード]！",
+      "en": "【<src>】's [Succubus Form Mode]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6597,
+      "id": "rem_34216",
+      "jp": "天才としての分析力が敵全員の動きを見破る。それを仲間に伝えることで、敵の弱点が看破され、味方の能力がアップする。",
+      "en": "Genius analysis predicts all enemy movements. Sharing with allies reveals weaknesses and boosts their capabilities.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6598,
+      "id": "rem_34217",
+      "jp": "CT回復(小) + 【仲間】に【必殺】を付与 (クリティカル率[+30%])",
+      "en": "Small CT Recovery + Apply 【Finishing Blow】 to 【Allies】 (Crit Rate[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6599,
+      "id": "rem_34218",
+      "jp": "【<src>】の[天才的な戦術分析]が相手を丸裸にする！",
+      "en": "【<src>】's [Genius Tactical Analysis] strips the enemy bare!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6600,
+      "id": "rem_34219",
+      "jp": "自分を魔獣王の末裔と思い込んで、強大な力を得る。魔獣でもないし血を引いてるわけではないが、血を引いている者の暴力に匹敵するほどの力を得る。",
+      "en": "Believing oneself the descendant of the Beast King grants immense power. Not a true beast or descendant, yet gains comparable might.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

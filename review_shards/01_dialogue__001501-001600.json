@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1501,
+  "range_end": 1600,
+  "pairs": [
+    {
+      "n": 1501,
+      "id": "db_EventInfo:1764:109",
+      "jp": "逃げるという選択肢はないんですね。まあ、逃げられるものでもありませんが",
+      "en": "So running away isn't an option. Well, it's not like we could run anyway.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 1502,
+      "id": "db_EventInfo:1765:121",
+      "jp": "……【『魔界要塞キングホエール』】、本当に勿体なかったですね",
+      "en": "...The Demon Realm Fortress King Whale, what a real waste.",
+      "speaker": "Suteivu",
+      "speaker_jp": "スティーヴ"
+    },
+    {
+      "n": 1503,
+      "id": "db_EventInfo:1766:120",
+      "jp": "半壊どころか、その一帯の海が抉られるほどに消滅してしまうとは",
+      "en": "It wasn't just half-destroyed. It vanished so completely it carved out that part of the sea.",
+      "speaker": "Yakimu",
+      "speaker_jp": "ヤキム"
+    },
+    {
+      "n": 1504,
+      "id": "db_EventInfo:1767:109",
+      "jp": "まさか跡形がないほど破壊されるとは思いませんでした。あのバカ魔力女め……",
+      "en": "I never thought it would be destroyed without a trace. That stupid magic woman...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 1505,
+      "id": "db_EventInfo:1768:120",
+      "jp": "まあ、古代文明の最終兵器だ、今の時代にあのようなものが残らない方が良いのかもしれないね",
+      "en": "Well, it was a super weapon from an ancient civilization. It's probably for the best that something like that didn't survive to our time.",
+      "speaker": "Yakimu",
+      "speaker_jp": "ヤキム"
+    },
+    {
+      "n": 1506,
+      "id": "db_EventInfo:1769:120",
+      "jp": "それより、【『魔界要塞』】の海底には、海底都市もあるそうじゃないか",
+      "en": "More importantly, I've heard there's an underwater city on the seabed below the 【『Demon World Fortress』】.",
+      "speaker": "Yakimu",
+      "speaker_jp": "ヤキム"
+    },
+    {
+      "n": 1507,
+      "id": "db_EventInfo:1770:120",
+      "jp": "【<pl>】様が派遣する冒険者の募集にも、それがあったよ",
+      "en": "I saw it listed in the recruitment for adventurers dispatched by 【<pl>】-sama.",
+      "speaker": "Yakimu",
+      "speaker_jp": "ヤキム"
+    },
+    {
+      "n": 1508,
+      "id": "db_EventInfo:1771:109",
+      "jp": "なんですって！　それは調査チャンスじゃないですか！　さっそく同行しなければ！",
+      "en": "What?! That's a chance to investigate, isn't it! We must go along right away!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 1509,
+      "id": "db_EventInfo:1772:121",
+      "jp": "まあまあ落ち着いて……海底は危険なんだから",
+      "en": "Now, now, calm down... The deep sea is dangerous.",
+      "speaker": "Suteivu",
+      "speaker_jp": "スティーヴ"
+    },
+    {
+      "n": 1510,
+      "id": "db_EventInfo:1773:120",
+      "jp": "うん。まずは今回の一連の騒動をまとめて【『<ruby=ソルシア>学院</ruby>』】に提出し、それから我々も参加しよう",
+      "en": "Yeah. First, let's compile a report on this whole incident for the 【『Solsia Academy』】, then we'll join the expedition.",
+      "speaker": "Yakimu",
+      "speaker_jp": "ヤキム"
+    },
+    {
+      "n": 1511,
+      "id": "db_EventInfo:1774:2",
+      "jp": "今日もばりばりとカネを稼ぐデス",
+      "en": "Time to earn some serious money again today.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1512,
+      "id": "db_EventInfo:1775:2",
+      "jp": "今度は【過労死】しないようにしないとデス。力をつけるために、まずはカネを稼ぐデス",
+      "en": "We must be careful not to 【die from overwork】 this time. To gain strength, we must first earn money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1513,
+      "id": "db_EventInfo:1776:2",
+      "jp": "前のオマエから何かを【引継ぎ】しているデス？",
+      "en": "Have you 【inherited】 something from your past self?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1514,
+      "id": "db_EventInfo:1777:2",
+      "jp": "それによって、前の人生とは何かが変わってくるはずデス",
+      "en": "Because of that, something about your current life should be different from your previous one.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1515,
+      "id": "db_EventInfo:1778:2",
+      "jp": "【『災厄』】を回避するために強い力が必要デス",
+      "en": "We need great power to avoid the 【『Calamity』】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1516,
+      "id": "db_EventInfo:1779:2",
+      "jp": "危険な【『ダンジョン』】を踏破するために、強い力が欲しいデスね",
+      "en": "We want strong power to conquer dangerous 【『Dungeons』】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1517,
+      "id": "db_EventInfo:1780:2",
+      "jp": "世の中はカネがすべてデスが、暴力も必要デス。カネ！　暴力デス！",
+      "en": "Money is everything in this world Desu, but violence is also necessary Desu. Money! Violence Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1518,
+      "id": "db_EventInfo:1781:2",
+      "jp": "私が持っているこの鎌は装備品じゃないデス。この鎌を使うとなんでも真っ二つデス",
+      "en": "This scythe I have isn't just equipment. When I use it, it cuts anything in two.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1519,
+      "id": "db_EventInfo:1782:2",
+      "jp": "といっても【『死神パワー』】をたくさん消耗するので、武器としては使えないのデス",
+      "en": "But it uses a lot of my Death God Power, so it's not a weapon I can rely on all the time.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1520,
+      "id": "db_EventInfo:1783:2",
+      "jp": "【『ゴブリン』】が武器を奪って暴れるとは……ほんとに小賢しいやつらデスね",
+      "en": "Goblins stealing weapons and causing trouble... they really are sneaky little things.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1521,
+      "id": "db_EventInfo:1784:2",
+      "jp": "お店も大きくなってきたデスね。【『死神パワー』】が増してくるのを感じるデス",
+      "en": "Our shop is getting bigger now. I can feel my Death God Power growing.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1522,
+      "id": "db_EventInfo:1785:2",
+      "jp": "ここまで大きくなれば、【過労死】はしなさそうデス",
+      "en": "Now that we've grown this much, it seems like we won't die from overwork.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1523,
+      "id": "db_EventInfo:1786:2",
+      "jp": "でも、油断は禁物デス。オマエは【『死に近い運命』】を持っているデス。気を抜くとあっさり死ぬデスよ",
+      "en": "But you can't let your guard down Desu. You have a Fate That Draws Near Death Desu. Let up even a little and you'll die easily Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1524,
+      "id": "db_EventInfo:1787:2",
+      "jp": "ついに【『災厄』】の手がかりを掴んだデス",
+      "en": "Finally, we've found a clue about the Calamity.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1525,
+      "id": "db_EventInfo:1788:2",
+      "jp": "領主ゼルカを尋問して吐かせてやりたいところデスが、人間の世界に直接干渉をするのはできないデス",
+      "en": "I'd love to interrogate Lord Zelka and make him talk, but I can't directly interfere with the human world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1526,
+      "id": "db_EventInfo:1789:2",
+      "jp": "【『災厄』】の手がかりを追うのも重要デスが、カネ稼ぎも重要デス",
+      "en": "Chasing clues about the Calamity is important, but making money is important too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1527,
+      "id": "db_EventInfo:1790:2",
+      "jp": "お店が大きくなってきたデス。このまま、大陸一の宿屋を目指すデス！",
+      "en": "Our shop is growing. Let's keep going and aim to be the best inn on the continent!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1528,
+      "id": "db_EventInfo:1791:2",
+      "jp": "この世界には【『邪教徒』】という存在が潜んでいるようデスね",
+      "en": "It seems there are beings called Heretics hiding in this world.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1529,
+      "id": "db_EventInfo:1792:2",
+      "jp": "【『邪教徒』】は裏社会にはびこる奴らで、その勢力は途方もなく広いそうデス",
+      "en": "The 'cultists' are people who spread through the underworld. Their power is said to be huge.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1530,
+      "id": "db_EventInfo:1793:2",
+      "jp": "いよいよ決戦も近いデスね。ここがカネの使いどころデス！",
+      "en": "The final battle is getting close. This is where we spend our money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1531,
+      "id": "db_EventInfo:1794:2",
+      "jp": "今の私たちに敵はいないデス。【『災厄の先導者』】を倒し、世界を救うデス！",
+      "en": "We have no enemies now. We'll defeat the 'Herald of Calamity' and save the world!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1532,
+      "id": "db_EventInfo:1795:2",
+      "jp": "私達の使命は終わったデス。私達はもうすぐ消えるデス",
+      "en": "Our mission is over. We'll disappear soon.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1533,
+      "id": "db_EventInfo:1796:2",
+      "jp": "オマエはまだ、心残りがあるデスか？",
+      "en": "Do you still have any regrets?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1534,
+      "id": "db_EventInfo:1797:2",
+      "jp": "消えるまでに、オマエが守った世界を見ていくのも、悪くないデスね",
+      "en": "Seeing the world you protected before we fade away... that wouldn't be so bad.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1535,
+      "id": "db_EventInfo:1798:2",
+      "jp": "この世界の夜空には月が浮かんでいるデス。月は冥府であり死者の魂が辿り着く場所",
+      "en": "In this world's night sky, there's a moon. The moon is the underworld, the place where dead souls go.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1536,
+      "id": "db_EventInfo:1799:2",
+      "jp": "【『死神』】の世界は、【世界にかけられた階段】を渡って帰還するのデスよ",
+      "en": "We Shinigami return home by crossing the 'Stairway Hanging Over the World'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1537,
+      "id": "db_EventInfo:1800:2",
+      "jp": "私達【『死神』】も指名が終わればいつか月に帰るときが来るデス",
+      "en": "We Shinigami too will return to the moon someday, once our duty is done.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1538,
+      "id": "db_EventInfo:1801:2",
+      "jp": "月は遠い時と近い時があるデスが、遠い時では私でも、帰ることは出来ないデス",
+      "en": "The moon is sometimes far and sometimes near. When it's far, even I can't go back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1539,
+      "id": "db_EventInfo:1802:2",
+      "jp": "神が地上に干渉できるタイミングがあるデス。それは月がこの地に近い周期の時だけデス",
+      "en": "The gods can only interfere with the earth at certain times. Only when the moon is close to this land.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1540,
+      "id": "db_EventInfo:1803:2",
+      "jp": "そして近いときの周期の時だけ、【『死神』】は受肉したり地上に留まることが可能なのデス",
+      "en": "And only during that close cycle can Shinigami take on flesh or stay on earth.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1541,
+      "id": "db_EventInfo:1804:2",
+      "jp": "遠くなると【『死神』】の世界に戻れなくなり、この地に留まらなくてはならないデス",
+      "en": "If we go too far, I can't go back to the Shinigami world. I'd have to stay here, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1542,
+      "id": "db_EventInfo:1805:2",
+      "jp": "【『死神の月』】にいた時の記憶はあまりないデスね",
+      "en": "I don't remember much from my time on the Shinigami Moon, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1543,
+      "id": "db_EventInfo:1806:2",
+      "jp": "神といえど、断片的にしか覚えていないデス",
+      "en": "Even though I'm a god, I only remember bits and pieces, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1544,
+      "id": "db_EventInfo:1807:2",
+      "jp": "【『死神』】は私だけではないデス。",
+      "en": "I'm not the only Shinigami, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1545,
+      "id": "db_EventInfo:1808:2",
+      "jp": "かつては【『死神の月』】には多くの【『死神』】がいたデスが、停滞する世界に絶望してどこかに消えたのデス",
+      "en": "Long ago, there were many Shinigami on the Shinigami Moon, Death. They got tired of the stagnant world and disappeared, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1546,
+      "id": "db_EventInfo:1809:2",
+      "jp": "もしくは、自分の使命を果たしたと思ったデスかね",
+      "en": "Or maybe they thought they had finished their duty, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1547,
+      "id": "db_EventInfo:1810:2",
+      "jp": "【『死神の月』】への帰還はしばらくお預けデスかね",
+      "en": "My return to the Shinigami Moon will have to wait a while, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1548,
+      "id": "db_EventInfo:1811:2",
+      "jp": "引き続きガッポガッポと稼いでやろうデス！",
+      "en": "Let's keep on making lots of money, Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1549,
+      "id": "db_EventInfo:1812:2",
+      "jp": "なんだかとんでもないことになったデスね",
+      "en": "This turned into something crazy, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1550,
+      "id": "db_EventInfo:1813:2",
+      "jp": "助手どもとの縁を奪われてしまうとは……でも、私とオマエの縁を切ることは出来なかったデス",
+      "en": "To have the bond with my assistants taken away... But they couldn't cut my bond with you, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1551,
+      "id": "db_EventInfo:1814:2",
+      "jp": "カリストたちが戻ってきて、だいぶ調子が戻ってきたデス",
+      "en": "Now that Callisto and the others are back, I'm feeling much better, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1552,
+      "id": "db_EventInfo:1815:2",
+      "jp": "縁を奪われたことはショックだったですが、助手どもの別の側面も見られたデス",
+      "en": "Losing the bond was a shock, but I got to see another side of my assistants, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1553,
+      "id": "db_EventInfo:1816:2",
+      "jp": "回り回って強くなって帰ってきそうデスね",
+      "en": "They'll probably go around, get stronger, and come back, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1554,
+      "id": "db_EventInfo:1817:2",
+      "jp": "シェルフィは【『淫魔』】だったのデスよね？",
+      "en": "Shelfi was a 'Succubus', right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1555,
+      "id": "db_EventInfo:1818:2",
+      "jp": "つまり、あの生意気な【『<ruby=サキュバス>夢魔</ruby>』】の仲間デス！　なんで気付かなかったデスかね、気付いてたら蹴り出してたデス",
+      "en": "So, she's one of those cheeky 【『Succubus』】Desu! How did I not notice Desu? If I had, I'd have kicked her out Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1556,
+      "id": "db_EventInfo:1819:2",
+      "jp": "あ、ルーシェは蹴り出さないデスよ。特別なはからいデス",
+      "en": "Oh, I won't kick out Lusche. That's a special arrangement.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1557,
+      "id": "db_EventInfo:1820:2",
+      "jp": "海の上に宝石だらけの島があるらしいデス。わくわくデス",
+      "en": "I heard there's an island full of gems in the sea. How exciting!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1558,
+      "id": "db_EventInfo:1821:2",
+      "jp": "領主になった権限で接収できないデスかね？　そうしたら島ぐらいの宝石を手に入れて、大儲けできるデス！",
+      "en": "Can't we seize it with your authority as the lord? Then we could get a whole island's worth of gems and make a huge profit!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1559,
+      "id": "db_EventInfo:1822:2",
+      "jp": "とんでもない怪物が現れたデス",
+      "en": "An unbelievable monster has appeared.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1560,
+      "id": "db_EventInfo:1823:2",
+      "jp": "ヤツを倒すのは、【『死神』】といえど、なかなか骨が折れるデス。もちろん全開の死神スラッシュを使えば倒せるデスよ？",
+      "en": "Defeating it would be really tough, even for a 'Shinigami'. Of course, if I use my full-power Shinigami Slash, I can do it, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1561,
+      "id": "db_EventInfo:1824:2",
+      "jp": "でも、あれだけの巨体だと使用したときの対価はとてつもないデス。破産じゃ済まないデス",
+      "en": "But for a body that huge, the cost of using it would be immense. It wouldn't just be bankruptcy.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1562,
+      "id": "db_EventInfo:1825:2",
+      "jp": "久しぶりの里帰りデス。かせげるだけカネを稼いで、持っていくデスД",
+      "en": "It's been a while since I went back home. I'll make as much money as I can and bring it with me, Д.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1563,
+      "id": "db_EventInfo:1826:2",
+      "jp": "さまざまな【『災厄』】を乗り越えて、ようやく【『大災厄』】を回避することが出来たデス",
+      "en": "We overcame various 'Calamities' and finally managed to avoid the 'Great Calamity'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1564,
+      "id": "db_EventInfo:1827:2",
+      "jp": "これで私達【『死神』】の使命は完了したデスね。使命が終わったら【『死神の月』】に帰還するはずだったデスが……",
+      "en": "With this, our mission as 'Shinigami' is complete. When the mission ends, we're supposed to return to the 'Shinigami's Moon', but...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1565,
+      "id": "db_EventInfo:1828:2",
+      "jp": "記憶以上につまらん場所だったデス。里帰りは当分良いデスね。引き続きこの地上でどんどんカネを稼ぐデス！",
+      "en": "It was even more boring than I remembered Desu. I'm good on going home for a while Desu. I'll just keep making lots of money up here Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1566,
+      "id": "db_EventInfo:1829:2",
+      "jp": "目指すは【『商売の神』】デス！",
+      "en": "I'm aiming to become the God of Commerce!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 1567,
+      "id": "db_EventInfo:1830:3",
+      "jp": "【『フレスミス森林道』】はドワームの里である【『ドルワミール鉱山』】と【『ゼカリウス』】を繋げる道じゃ",
+      "en": "The Fresh Miss Forest Road connects the Dwarm home, the Dolwarmir Mine, to Zecarius.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1568,
+      "id": "db_EventInfo:1831:3",
+      "jp": "昔はもっと整備されていて、人間との交易も盛んだったようじゃの",
+      "en": "They say long ago it was better maintained, and trade with humans was more active.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1569,
+      "id": "db_EventInfo:1832:3",
+      "jp": "<ruby=ゴブリン>小鬼</ruby>どもを【『ドルワミール鉱山』】から追い払えて良かったのじゃ",
+      "en": "It's good we drove those Goblins out of the Dolwarmir Mine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1570,
+      "id": "db_EventInfo:1833:3",
+      "jp": "【『ドルワミール鉱山』】は【『火の神カストロイア』】様がおわす、神聖な場所。<ruby=ゴブリン>小鬼</ruby>などに踏み入らせるのは我慢ならん",
+      "en": "The Dolwarmir Mine is a sacred place where the Fire God, Castroia, resides. I can't stand the thought of Goblins setting foot in there.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1571,
+      "id": "db_EventInfo:1834:3",
+      "jp": "カリストの先代がおるとはのう",
+      "en": "So Callisto's predecessor is there, huh.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1572,
+      "id": "db_EventInfo:1835:3",
+      "jp": "……まさか、ドワームも先代の【『鍛冶姫』】が生きてたりせんじゃろうな？",
+      "en": "...Don't tell me there's a Dwarm Forging Princess predecessor alive too?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1573,
+      "id": "db_EventInfo:1836:3",
+      "jp": "我ら【『鍛冶姫』】の魂にはドワーム族の鍛冶魂が受け継がれておる",
+      "en": "The spirit of us Forging Princesses carries the blacksmith soul of the Dwarm race.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1574,
+      "id": "db_EventInfo:1837:3",
+      "jp": "ゆえに材料とモチーフさえあれば、いかなる伝説の武器ですらも作ってみせるぞ。材料さえあればな！！",
+      "en": "That's why, as long as we have the materials and the design, we can make any legendary weapon. If we just have the materials!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1575,
+      "id": "db_EventInfo:1838:3",
+      "jp": "うーむ、【『火の神カストロイア』】様のおわす場所に行くことになるとは……ガクブル",
+      "en": "Hmm... To think we're going to a place where the Fire God Castroia resides... I'm trembling.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1576,
+      "id": "db_EventInfo:1839:3",
+      "jp": "【『ゼカリウス』】の人間にとってはただの【『ダンジョン』】だろうが、ドワーム族にとってはトラウマものの怖い怖～い場所なのじゃ",
+      "en": "To the humans of Zecarius, it might just be another dungeon. But for us Dwarm, it's a place full of scary, scary trauma.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1577,
+      "id": "db_EventInfo:1840:3",
+      "jp": "おお店長、【『ゼカリウス』】に平和が戻ったのじゃな！",
+      "en": "Oh, Manager, peace has returned to 'Zecarius'!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1578,
+      "id": "db_EventInfo:1841:3",
+      "jp": "平和な世界には<ruby=わらわ>妾</ruby>の武器は価値が下がりそうなのが心残りじゃが",
+      "en": "In a peaceful world, my weapons might lose their value, which is a bit sad.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1579,
+      "id": "db_EventInfo:1842:3",
+      "jp": "ま、それもよかろうなのじゃ",
+      "en": "But, I guess that's okay too.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1580,
+      "id": "db_EventInfo:1843:3",
+      "jp": "妾達ドワーム族は【『火の神カストロイア』】様を信仰しているのじゃ",
+      "en": "We Dwarm worship the 'Fire God Castroia'.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1581,
+      "id": "db_EventInfo:1844:3",
+      "jp": "エルフィード族も神を信仰しているが、どういうものか教えてくれないんじゃよな",
+      "en": "The Elfeed also worship a god, but for some reason, they won't tell us about it.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1582,
+      "id": "db_EventInfo:1845:3",
+      "jp": "カストロイアは古代遺跡の装置であるが、神の正体が機械じゃというわけではないのだと思う",
+      "en": "Castroia is an ancient device in the ruins, but I don't think being a machine means it's not truly a god.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1583,
+      "id": "db_EventInfo:1846:3",
+      "jp": "シイネだって神だが、人間のようでもあるじゃろ？　カストロイア様は別次元に存在するなのじゃ",
+      "en": "Shiine is a god too, but she seems human, right? Lord Castroia exists in another dimension.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1584,
+      "id": "db_EventInfo:1847:3",
+      "jp": "ほほう、【<pl>】が領主になるとな？",
+      "en": "Oh ho, so 【<pl>】 will become the lord?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1585,
+      "id": "db_EventInfo:1848:3",
+      "jp": "うむ！　【『鍛冶姫』】の夫になるものは、それぐらいの箔が無いとつまらんものじゃ！",
+      "en": "Hmm! The one who becomes the husband of the 'Forging Princess' must have that kind of status, or it'd be boring!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1586,
+      "id": "db_EventInfo:1849:3",
+      "jp": "縁というものは恐ろしいものじゃのう",
+      "en": "Fate is a terrifying thing.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1587,
+      "id": "db_EventInfo:1850:3",
+      "jp": "それを断ち切られただけで、簡単に離れてしまうものとはのう。いまこうして共にいるのも、幸運なことなのじゃな",
+      "en": "Sometimes, just one break in that bond can easily pull people apart. That we are together like this now is truly fortunate.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1588,
+      "id": "db_EventInfo:1851:3",
+      "jp": "海に浮かぶ宝石の島か……そんな都合のよいものがあるのかのう？",
+      "en": "A jewel-like island floating in the sea... Could such a convenient thing really exist?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1589,
+      "id": "db_EventInfo:1852:3",
+      "jp": "シイネのやつは、金儲けできそうだとウキウキしているようじゃが、な～んか裏がありそうで怖いぞ",
+      "en": "Shiine seems all excited about making money, but I get a bad feeling. Something's off, it's scary.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1590,
+      "id": "db_EventInfo:1853:3",
+      "jp": "島がまるごと魔獣だったとな？　そんな巨大な魔獣なぞ、それこそ神話に語られるものじゃわい",
+      "en": "The whole island was a monster? A beast that huge belongs in myths and legends.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1591,
+      "id": "db_EventInfo:1854:3",
+      "jp": "さすがにあやつを相手にしては【『鍛冶姫』】の武器も力不足……",
+      "en": "Even my Forging Princess weapons wouldn't be enough against that thing.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1592,
+      "id": "db_EventInfo:1855:3",
+      "jp": "いや、ご先祖様はあれぐらいの怪物を目標に、あの武器を作ろうとしたんじゃろうか",
+      "en": "No, wait. Maybe that's the kind of monster our ancestors aimed to make those weapons for.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1593,
+      "id": "db_EventInfo:1856:3",
+      "jp": "見るからに、アレは機械でできてるようじゃな。【『鍛冶姫』】として、その機構の方に興味が引かれるぞい",
+      "en": "It clearly looks mechanical. As a Forging Princess, I'm more curious about its inner workings.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1594,
+      "id": "db_EventInfo:1857:3",
+      "jp": "どうやら【『災厄』】とやらは去ったようじゃな",
+      "en": "Looks like that Calamity thing is gone.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1595,
+      "id": "db_EventInfo:1858:3",
+      "jp": "終わりの方はどうなったのか、妾達はよくわかっておらんが、神の力というものは人間には認識できないものと思うぞ",
+      "en": "We don't know what happened at the end. I think a god's power is beyond human understanding.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1596,
+      "id": "db_EventInfo:1859:3",
+      "jp": "これからはどうするのじゃ？　妾としては、そろそろ世継ぎの方が欲しいのじゃがД",
+      "en": "What's the plan now? Personally, I'm ready for an heir Д",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 1597,
+      "id": "db_EventInfo:1860:8",
+      "jp": "【『死神代行助手』】と契約したら、お兄ちゃんの寿命は延びるはずだよ",
+      "en": "If you make a contract with a Shinigami Agent, big brother's lifespan should get longer.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 1598,
+      "id": "db_EventInfo:1861:8",
+      "jp": "ルーシェ？",
+      "en": "Lusche?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 1599,
+      "id": "db_EventInfo:1862:8",
+      "jp": "ルーシェは【『淫魔』】だから【『死神代行助手』】になっても、寿命は伸びないの、ごめんねД",
+      "en": "I'm a succubus, so even as an assistant, my lifespan won't increase. Sorry Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 1600,
+      "id": "db_EventInfo:1863:8",
+      "jp": "【『死神代行助手』】と契約することで、お兄ちゃんの存在は、この世界に強く根付くことになるの",
+      "en": "By making a contract with a Shinigami Agent, big brother's existence will be more firmly rooted in this world.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    }
+  ]
+}

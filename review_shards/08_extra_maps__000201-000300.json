@@ -1,0 +1,611 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 201,
+  "range_end": 300,
+  "pairs": [
+    {
+      "n": 201,
+      "id": "extra_ui_0201",
+      "jp": "パーティーを危険から守るタンク的な役割を果たせる能力デス。この適性があるメンバーならば、敵からの攻撃の被害を最小限に抑えることが出来るデス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Tank aptitude. They soak hits so the party doesn't. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 202,
+      "id": "extra_ui_0202",
+      "jp": "派遣能力・盾役",
+      "en": "Dispatch: Tank"
+    },
+    {
+      "n": 203,
+      "id": "extra_ui_0203",
+      "jp": "盾役",
+      "en": "Tank"
+    },
+    {
+      "n": 204,
+      "id": "extra_ui_0204",
+      "jp": "派遣クエストに必要な戦闘能力デス。魔獣やならずものを撃退する力が無くては、派遣クエストをクリアに導くことは不可能デス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Combat power for dispatch. No muscle, no clear. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 205,
+      "id": "extra_ui_0205",
+      "jp": "派遣能力・戦力",
+      "en": "Dispatch: Combat"
+    },
+    {
+      "n": 206,
+      "id": "extra_ui_0206",
+      "jp": "戦力",
+      "en": "Combat"
+    },
+    {
+      "n": 207,
+      "id": "extra_ui_0207",
+      "jp": "魔術師としての適性や能力を示す値デス。魔術師なら、大勢を相手取る攻撃魔術を使えるはずデスし、魔術的なトラップにも対応できるはずデス。魔術的なお宝も発見するデス！　【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Mage aptitude. AoE magic, magic traps, magic loot. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 208,
+      "id": "extra_ui_0208",
+      "jp": "派遣能力・魔術",
+      "en": "Dispatch: Magic"
+    },
+    {
+      "n": 209,
+      "id": "extra_ui_0209",
+      "jp": "魔術",
+      "en": "Magic"
+    },
+    {
+      "n": 210,
+      "id": "extra_ui_0210",
+      "jp": "ヒーラー的な適性や能力を示す値デス。怪我を負う可能性のあるクエストにおいて、ヒーラーの存在は必須デスね。一人ぐらいは、この適性を持つメンバーを入れておきたいデス。【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Healer aptitude. Take at least one on quests that can hurt. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 211,
+      "id": "extra_ui_0211",
+      "jp": "派遣能力・回復",
+      "en": "Dispatch: Heal"
+    },
+    {
+      "n": 212,
+      "id": "extra_ui_0212",
+      "jp": "回復",
+      "en": "Heal"
+    },
+    {
+      "n": 213,
+      "id": "extra_ui_0213",
+      "jp": "索敵やトラップ、トレジャーの発見などに役立つ能力デス。皆が持っている必要はないデスが、一人ぐらいは持っていないと、快適に派遣クエストを任せることは難しくなるデス。【才能】が高いほど、より高いランクまで成長するデス",
+      "en": "Scouting, traps, treasure. You don't need everyone on it, but you want at least one. Higher 【Talent】, higher rank cap."
+    },
+    {
+      "n": 214,
+      "id": "extra_ui_0214",
+      "jp": "派遣能力・探索",
+      "en": "Dispatch: Explore"
+    },
+    {
+      "n": 215,
+      "id": "extra_ui_0215",
+      "jp": "エッチの上手さを示す値デス。高いほどHでたくさん搾り取れるようになるデス。エッチをするとどんどん増えていくデス。",
+      "en": "How good they are in bed. Higher means more milking from H. It goes up the more you do it."
+    },
+    {
+      "n": 216,
+      "id": "extra_ui_0216",
+      "jp": "H能力・性技",
+      "en": "H: Skill"
+    },
+    {
+      "n": 217,
+      "id": "extra_ui_0217",
+      "jp": "性技",
+      "en": "Skill"
+    },
+    {
+      "n": 218,
+      "id": "extra_ui_0218",
+      "jp": "エッチさを示す値デス。高いほどHに前向きになるデス。エッチをするとどんどん増えていくデス。淫乱度が低いやつは、搾精要員としてはあまり役に立たなさそうデス",
+      "en": "How into H they are. Higher means more eager. Low Lewd makes a poor milking staffer."
+    },
+    {
+      "n": 219,
+      "id": "extra_ui_0219",
+      "jp": "H能力・淫乱度",
+      "en": "H: Lewd"
+    },
+    {
+      "n": 220,
+      "id": "extra_ui_0220",
+      "jp": "淫乱",
+      "en": "Lewd"
+    },
+    {
+      "n": 221,
+      "id": "extra_ui_0221",
+      "jp": "オマエに対する愛情の高さデス。まあエッチをするのに最低限必要なものデスかね。「一緒に仕事」すると増えるデス。低いヤツは、とりあえず一緒に仕事をして親交を深めるデス",
+      "en": "Affection toward you. Kind of the minimum for H. 'Work together' raises it."
+    },
+    {
+      "n": 222,
+      "id": "extra_ui_0222",
+      "jp": "H能力・好感度",
+      "en": "H: Affection"
+    },
+    {
+      "n": 223,
+      "id": "extra_ui_0223",
+      "jp": "好感",
+      "en": "Like"
+    },
+    {
+      "n": 224,
+      "id": "extra_ui_0224",
+      "jp": "オマエに対する執着心の高さデス。独占欲が高いヤツほどエッチに前向きになるデスが、一方で満足度が下がりやすくなるデス。エッチをするとどんどん増えていくデス。",
+      "en": "How possessive they are of you. High Desire means more eager H, but Satisfaction drops faster. H raises it."
+    },
+    {
+      "n": 225,
+      "id": "extra_ui_0225",
+      "jp": "H能力・独占欲",
+      "en": "H: Desire"
+    },
+    {
+      "n": 226,
+      "id": "extra_ui_0226",
+      "jp": "独占",
+      "en": "Desire"
+    },
+    {
+      "n": 227,
+      "id": "extra_ui_0227",
+      "jp": "オマエに対する不満のなさデス。常に少しずつ下がっていき、エッチをすると増えるデス。嫉妬しやすいヤツほど下がりやすくなるデス。下がりすぎると仕事しなくなるデス",
+      "en": "How un-unhappy they are with you. Always ticks down; H fills it. Jealous types drop faster. Too low and they stop working."
+    },
+    {
+      "n": 228,
+      "id": "extra_ui_0228",
+      "jp": "H能力・満足度",
+      "en": "H: Satisfaction"
+    },
+    {
+      "n": 229,
+      "id": "extra_ui_0229",
+      "jp": "満足",
+      "en": "Satis."
+    },
+    {
+      "n": 230,
+      "id": "extra_ui_0230",
+      "jp": "エッチの好きさ。この値が高いとやがて淫乱なムスメになるデス。\\n【(モブユニットのみのステータスです)】",
+      "en": "How much they like H. High enough and they turn lewd.\\n【(Mob units only)】"
+    },
+    {
+      "n": 231,
+      "id": "extra_ui_0231",
+      "jp": "H能力・H好き",
+      "en": "H: Likes H"
+    },
+    {
+      "n": 232,
+      "id": "extra_ui_0232",
+      "jp": "H好き",
+      "en": "Likes H"
+    },
+    {
+      "n": 233,
+      "id": "extra_ui_0233",
+      "jp": "総合的なエッチの上手さデス。この値が高いほど搾精効率が高まり、たくさん搾り取るデス。搾精量が多ければ「搾精売上」も伸びるデス",
+      "en": "Overall H skill. Higher milking efficiency, more take, more milking sales."
+    },
+    {
+      "n": 234,
+      "id": "extra_ui_0234",
+      "jp": "H能力・搾精力",
+      "en": "H: Milking"
+    },
+    {
+      "n": 235,
+      "id": "extra_ui_0235",
+      "jp": "搾精",
+      "en": "Milk"
+    },
+    {
+      "n": 236,
+      "id": "extra_ui_0236",
+      "jp": "総合的なエッチの頻度デス。この値が高いほどエッチを多く実行するデス。つまりはたくさん搾精する機会に恵まれるデス",
+      "en": "How often they do H. Higher means more sessions, so more milking chances."
+    },
+    {
+      "n": 237,
+      "id": "extra_ui_0237",
+      "jp": "H能力・H頻度",
+      "en": "H: Frequency"
+    },
+    {
+      "n": 238,
+      "id": "extra_ui_0238",
+      "jp": "頻度",
+      "en": "Freq."
+    },
+    {
+      "n": 239,
+      "id": "extra_ui_0239",
+      "jp": "前衛に立って敵のダメージを受け止めるチームロールデス。『HP』『被ターゲット率』がアップするデス",
+      "en": "Frontline tank role. Raises 'HP' and 'aggro'."
+    },
+    {
+      "n": 240,
+      "id": "extra_ui_0240",
+      "jp": "ロール・盾役",
+      "en": "Role: Tank"
+    },
+    {
+      "n": 241,
+      "id": "extra_ui_0241",
+      "jp": "物理攻撃でダメージを発生させることを求められるチームロールデス。『攻撃』がアップするデスが、『魔攻』がダウンするデス",
+      "en": "Physical damage role. Raises 'ATK', lowers 'MATK'."
+    },
+    {
+      "n": 242,
+      "id": "extra_ui_0242",
+      "jp": "ロール・戦力",
+      "en": "Role: Combat"
+    },
+    {
+      "n": 243,
+      "id": "extra_ui_0243",
+      "jp": "魔術による攻撃でダメージを発生させることを求められるチームロールデス。『MP』『魔攻』がアップするデスが、『HP』『攻撃』『速度』がダウンするデス",
+      "en": "Magic damage role. Raises 'MP' and 'MATK', lowers 'HP', 'ATK', and 'SPD'."
+    },
+    {
+      "n": 244,
+      "id": "extra_ui_0244",
+      "jp": "ロール・魔術",
+      "en": "Role: Magic"
+    },
+    {
+      "n": 245,
+      "id": "extra_ui_0245",
+      "jp": "回復スキルで仲間を支援することを求められるチームロールデス。『回復HP』と戦闘終了後の『MP』回復量がアップするデスが、『HP』『攻撃』『魔攻』がダウンするデス",
+      "en": "Healer role. Raises HP heal and post-battle MP recover, lowers 'HP', 'ATK', and 'MATK'."
+    },
+    {
+      "n": 246,
+      "id": "extra_ui_0246",
+      "jp": "ロール・回復",
+      "en": "Role: Heal"
+    },
+    {
+      "n": 247,
+      "id": "extra_ui_0247",
+      "jp": "探索することを求められるチームロールデス。『トレジャー』獲得による『開発ポイント』がアップするデス。また、『速度』『連撃』がアップして、『HP』がダウンするデス",
+      "en": "Explore role. More development points from treasure. Raises 'SPD' and 'Combo', lowers 'HP'."
+    },
+    {
+      "n": 248,
+      "id": "extra_ui_0248",
+      "jp": "ロール・探索",
+      "en": "Role: Explore"
+    },
+    {
+      "n": 249,
+      "id": "extra_ui_0249",
+      "jp": "オマエだけに割り当てられる部門デス。サボらずちゃんと仕切るデスよ",
+      "en": "The department only you get. Don't slack — run the place."
+    },
+    {
+      "n": 250,
+      "id": "extra_ui_0250",
+      "jp": "経営部門",
+      "en": "Manage dept"
+    },
+    {
+      "n": 251,
+      "id": "extra_ui_0251",
+      "jp": "経営",
+      "en": "Ops"
+    },
+    {
+      "n": 252,
+      "id": "extra_ui_0252",
+      "jp": "仕事を割り当てていないデス。何かの部門を割り当てるデス！",
+      "en": "No job assigned. Put them in a department!"
+    },
+    {
+      "n": 253,
+      "id": "extra_ui_0253",
+      "jp": "待機部門",
+      "en": "Idle dept"
+    },
+    {
+      "n": 254,
+      "id": "extra_ui_0254",
+      "jp": "待機",
+      "en": "Idle"
+    },
+    {
+      "n": 255,
+      "id": "extra_ui_0255",
+      "jp": "スタッフを冒険に出すデス。スタッフどもはもともとは冒険者デスからね",
+      "en": "Send staff out adventuring. They were adventurers first, after all."
+    },
+    {
+      "n": 256,
+      "id": "extra_ui_0256",
+      "jp": "派遣部門",
+      "en": "Dispatch dept"
+    },
+    {
+      "n": 257,
+      "id": "extra_ui_0257",
+      "jp": "アイテムの販売と娯楽施設を担当させるデス。ショップを設置するには必須デスね",
+      "en": "Sales and entertainment. You need this to even have a shop."
+    },
+    {
+      "n": 258,
+      "id": "extra_ui_0258",
+      "jp": "接客部門",
+      "en": "Reception dept"
+    },
+    {
+      "n": 259,
+      "id": "extra_ui_0259",
+      "jp": "素材を使用して、『料理』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Cooking' items."
+    },
+    {
+      "n": 260,
+      "id": "extra_ui_0260",
+      "jp": "料理部門",
+      "en": "Cooking dept"
+    },
+    {
+      "n": 261,
+      "id": "extra_ui_0261",
+      "jp": "素材を使用して、『鍛冶』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Smithing' items."
+    },
+    {
+      "n": 262,
+      "id": "extra_ui_0262",
+      "jp": "鍛冶部門",
+      "en": "Smithing dept"
+    },
+    {
+      "n": 263,
+      "id": "extra_ui_0263",
+      "jp": "素材を使用して、『錬金』系アイテムを生産させるデス",
+      "en": "Use materials to make 'Alchemy' items."
+    },
+    {
+      "n": 264,
+      "id": "extra_ui_0264",
+      "jp": "錬金部門",
+      "en": "Alchemy dept"
+    },
+    {
+      "n": 265,
+      "id": "extra_ui_0265",
+      "jp": "店内を清掃させるデス。店の経営によって発生する汚れを退治してくれるデス",
+      "en": "Have them clean the shop. They deal with the filth business creates."
+    },
+    {
+      "n": 266,
+      "id": "extra_ui_0266",
+      "jp": "清掃部門",
+      "en": "Cleaning dept"
+    },
+    {
+      "n": 267,
+      "id": "extra_ui_0267",
+      "jp": "店内の食い逃げ犯を捕まえて、犯罪を防止するデス",
+      "en": "Catch dine-and-dashers and keep crime down."
+    },
+    {
+      "n": 268,
+      "id": "extra_ui_0268",
+      "jp": "防犯部門",
+      "en": "Security dept"
+    },
+    {
+      "n": 269,
+      "id": "extra_ui_0269",
+      "jp": "普通に働かせる状態デス。",
+      "en": "Just working normally."
+    },
+    {
+      "n": 270,
+      "id": "extra_ui_0270",
+      "jp": "エッチ部門・待機",
+      "en": "H dept: Idle"
+    },
+    {
+      "n": 271,
+      "id": "extra_ui_0271",
+      "jp": "オマエのアバターを使ってエッチさせるデス。射精すれば、その精液を淫魔どもに売りつけて、カネを稼ぐことが出来るデス。アバターをたくさん作ればたんさん儲かるデス",
+      "en": "H using your avatar. Cum, sell the semen to succubi, make money. More avatars, more cash.",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 272,
+      "id": "extra_ui_0272",
+      "jp": "エッチ部門・搾精",
+      "en": "H dept: Milk"
+    },
+    {
+      "n": 273,
+      "id": "extra_ui_0273",
+      "jp": "スタッフに客を取らせて売春させるデス。男の客から精気とカネを搾り取ってやるデス！ (売春シーンの条件になることがあります。「搾精」と利益的な差はありません)",
+      "en": "Have staff take clients and sell sex. Squeeze energy and money out of male guests! (Can unlock prostitution scenes. Same profit as 'Milking'.)"
+    },
+    {
+      "n": 274,
+      "id": "extra_ui_0274",
+      "jp": "エッチ部門・売春",
+      "en": "H dept: Sex work"
+    },
+    {
+      "n": 275,
+      "id": "extra_ui_0275",
+      "jp": "売春",
+      "en": "Sex work"
+    },
+    {
+      "n": 276,
+      "id": "extra_ui_0276",
+      "jp": "エッチな経験をリセットすることが出来るデス",
+      "en": "You can reset H experience."
+    },
+    {
+      "n": 277,
+      "id": "extra_ui_0277",
+      "jp": "リセット",
+      "en": "Reset"
+    },
+    {
+      "n": 278,
+      "id": "extra_ui_0278",
+      "jp": "ヒロインごとのセクハラ耐性を見たり、エッチな出来事が発生する条件を確認することが出来るデス",
+      "en": "Check each heroine's harassment resistance and what unlocks H events."
+    },
+    {
+      "n": 279,
+      "id": "extra_ui_0279",
+      "jp": "プロフィール",
+      "en": "Profile"
+    },
+    {
+      "n": 280,
+      "id": "extra_ui_0280",
+      "jp": "パートナーを一緒に仕事に誘って好感度を上げて、さらにムフフなことをするデス",
+      "en": "Invite a partner to work together, raise affection, then do dirty stuff."
+    },
+    {
+      "n": 281,
+      "id": "extra_ui_0281",
+      "jp": "一緒に仕事",
+      "en": "Work together"
+    },
+    {
+      "n": 282,
+      "id": "extra_ui_0282",
+      "jp": "ウチの物件を使ってカネを増やすらしいデス。ククク……カネがカネを産むデスД",
+      "en": "Use our property to grow money. Heheh... money making moneyД"
+    },
+    {
+      "n": 283,
+      "id": "extra_ui_0283",
+      "jp": "資産運用",
+      "en": "Assets"
+    },
+    {
+      "n": 284,
+      "id": "extra_ui_0284",
+      "jp": "快楽に抗うポイント。この値が0になると、ご主人様はイッてしまいます",
+      "en": "Points left before you cum. Hit 0 and you finish."
+    },
+    {
+      "n": 285,
+      "id": "extra_ui_0285",
+      "jp": "この値が0になると、このモードは完了してしまいます",
+      "en": "Hit 0 and this mode ends."
+    },
+    {
+      "n": 286,
+      "id": "extra_ui_0286",
+      "jp": "残りタイム",
+      "en": "Time left"
+    },
+    {
+      "n": 287,
+      "id": "extra_ui_0287",
+      "jp": "調教・訓練メニューのマスター度合いです。上手くコマンドを選んでマックスにしましょう",
+      "en": "How far you've mastered the training menu. Pick commands well and max it."
+    },
+    {
+      "n": 288,
+      "id": "extra_ui_0288",
+      "jp": "マスター度",
+      "en": "Mastery"
+    },
+    {
+      "n": 289,
+      "id": "extra_ui_0289",
+      "jp": "エッチコマンドに対する耐性です。笑顔であるほど、コマンドは成功しやすくなります",
+      "en": "Resistance to H commands. The more she's smiling, the easier they land."
+    },
+    {
+      "n": 290,
+      "id": "extra_ui_0290",
+      "jp": "セクハラ耐性",
+      "en": "H resist"
+    },
+    {
+      "n": 291,
+      "id": "extra_ui_0291",
+      "jp": "ピリピリしている度合いです。高いときは機嫌をとることを重視しましょう",
+      "en": "How on-edge she is. When it's high, soothe her first."
+    },
+    {
+      "n": 292,
+      "id": "extra_ui_0292",
+      "jp": "ピリピリ度",
+      "en": "Tense"
+    },
+    {
+      "n": 293,
+      "id": "extra_ui_0293",
+      "jp": "ドキドキしている度合いです。ピリピリさせないように注意しましょう",
+      "en": "How worked up she is. Don't let it turn into Tense."
+    },
+    {
+      "n": 294,
+      "id": "extra_ui_0294",
+      "jp": "ドキドキ度",
+      "en": "Heart"
+    },
+    {
+      "n": 295,
+      "id": "extra_ui_0295",
+      "jp": "デレデレしている度合いです。デレデレしている時は有利です。コマンドが成功しやすくなります",
+      "en": "How sweet she's being. That's when commands land easier."
+    },
+    {
+      "n": 296,
+      "id": "extra_ui_0296",
+      "jp": "デレデレ度",
+      "en": "Dere"
+    },
+    {
+      "n": 297,
+      "id": "extra_ui_0297",
+      "jp": "エロエロな度合いです。この度合いが優勢なときは、ほぼ成功が確定です。このパラメータを維持しましょう",
+      "en": "How horny she is. When this leads, success is almost guaranteed. Keep it there."
+    },
+    {
+      "n": 298,
+      "id": "extra_ui_0298",
+      "jp": "エロエロ度",
+      "en": "Horny"
+    },
+    {
+      "n": 299,
+      "id": "extra_ui_0299",
+      "jp": "ヒロインの性器の湿り具合です。濡れてないと相手は気持ちよくなりません",
+      "en": "How wet she is. If she's dry, it won't feel good for her."
+    },
+    {
+      "n": 300,
+      "id": "extra_ui_0300",
+      "jp": "ヌレヌレ度",
+      "en": "Wet"
+    }
+  ]
+}

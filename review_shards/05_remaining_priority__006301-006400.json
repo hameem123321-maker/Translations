@@ -1,0 +1,811 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 6301,
+  "range_end": 6400,
+  "pairs": [
+    {
+      "n": 6301,
+      "id": "rem_33920",
+      "jp": "【<src>】の[オーシャンブレイク]！",
+      "en": "【<src>】's [Ocean Break]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6302,
+      "id": "rem_33921",
+      "jp": "グループ攻撃 威力[] +  命中[70%] + 必殺率[+10%]",
+      "en": "Group Attack Power[] + Hit[70%] + Critical Rate[+10%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6303,
+      "id": "rem_33922",
+      "jp": "【<src>】の[叩き潰す]！",
+      "en": "【<src>】's [Crush]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6304,
+      "id": "rem_33923",
+      "jp": "鈍器を力任せに振り回しながら、ぐるぐると回転する。近寄った仲間ごと殴り倒してしまそうな危険な攻撃技。",
+      "en": "A dangerous technique. Swings a blunt weapon wildly while spinning. It risks knocking down nearby allies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6305,
+      "id": "rem_33924",
+      "jp": "グループ攻撃 威力[B] +  命中[70%] + 必殺率[+30%] + 【風属性】 + 防御(小) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "Group Attack Power[B] + Hit[70%] + Critical Rate[+30%] + 【Wind Element】 + Defense(Small) + Inflicts [Knockdown] (Critical Receive Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6306,
+      "id": "rem_33925",
+      "jp": "【<src>】の[アクストルネード]！",
+      "en": "【<src>】's [Ax Tornado]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6307,
+      "id": "rem_33926",
+      "jp": "海竜の力を放つブレス攻撃。竜族にとっては必殺でもなんでもない強めの攻撃だが、激しい水流を叩き付けられれば、ひとたまりもない必殺の威力。水属性は常に弱点を突く。",
+      "en": "A breath attack that releases sea dragon power. For dragons, it's just a strong attack, but a fierce water torrent can deal critical damage. Water element always targets weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6308,
+      "id": "rem_33927",
+      "jp": "範囲(大)攻撃 威力[B+] +  命中[60%] + 必殺率[+20%] + 【水属性】 + 防御貫通(大)",
+      "en": "Large Area Attack Power[B+] + Hit[60%] + Critical Rate[+20%] + 【Water Element】 + Defense Penetration(Large)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6309,
+      "id": "rem_33928",
+      "jp": "【<src>】の[アクアブレス]！",
+      "en": "【<src>】's [Aqua Breath]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6310,
+      "id": "rem_33929",
+      "jp": "水弾を圧縮して放つ。小規模な魔術であるが、使用者の魔術攻撃力が高ければ、必殺の一撃となる。万能たる海の水属性は常に敵の弱点を突けるが、弱点効果は小さくなる。",
+      "en": "Fires a compressed water bullet. A small-scale spell, but with high user magic attack, it becomes critical. The universal water element always hits enemy weaknesses, though effect is small.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6311,
+      "id": "rem_33930",
+      "jp": "全体攻撃 威力[C] +  命中[60%] + 必殺率[+10%] + 【水属性】",
+      "en": "All Attack Power[C] + Hit[60%] + Critical Rate[+10%] + 【Water Element】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6312,
+      "id": "rem_33931",
+      "jp": "【<src>】の[ウォーターブリット]！",
+      "en": "【<src>】's [Water Bullet]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6313,
+      "id": "rem_33932",
+      "jp": "海竜の力を解き放ち、敵全員を存在しないはずの巨大な渦潮の中に巻込む。大いなる海の力に敵はズタズタに引き裂かれてしまうだろう。水属性は常に敵の弱点を突く。",
+      "en": "Unleashes sea dragon power, dragging all enemies into a massive, impossible whirlpool. They will be torn apart by the great sea's might. Water element always targets weaknesses.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6314,
+      "id": "rem_33933",
+      "jp": "全体攻撃 威力[S+] +  命中[50%] + 【水属性】 + 防御貫通(大) + [転倒]を付与 (クリティカルを受ける確率+50%)",
+      "en": "All Attack Power[S+] + Hit[50%] + 【Water Element】 + Defense Penetration(Large) + Inflicts [Knockdown] (Critical Receive Chance +50%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6315,
+      "id": "rem_33934",
+      "jp": "【<src>】の[メイルシュトローム]！",
+      "en": "【<src>】's [Maelstrom]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6316,
+      "id": "rem_33935",
+      "jp": "剣に集中することで、クリティカル率がアップ。こんな細い剣から信じられない切れ味を誇る。修行に没頭した剣聖ならではの境地だが、没頭しすぎて本来の使命を忘れている。",
+      "en": "Focusing on the sword boosts critical rate. An unbelievable sharpness from such a slender blade. The swordsaint's unique state from deep training, but they forget their true purpose in it.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6317,
+      "id": "rem_33936",
+      "jp": "クリティカル率[+15%]",
+      "en": "Critical Rate[+15%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6318,
+      "id": "rem_33937",
+      "jp": "相手の攻撃や思考を見切る戦場の直感。危険な攻撃から自身を守ることができる。一方で小さな攻撃は無視してしまう。",
+      "en": "Battlefield instinct to read enemy attacks and intent. Protects from dangerous attacks. Ignores minor attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6319,
+      "id": "rem_33938",
+      "jp": "【自分】に【見切り】を付与 (最大HPの20%を超える攻撃を軽減[+50%])",
+      "en": "Grants 【Insight】 to 【self】 (Reduces damage over 20% of Max HP by [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6320,
+      "id": "rem_33939",
+      "jp": "【<src>】の見切りが戦場を見渡す！",
+      "en": "【<src>】's insight surveys the battlefield!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6321,
+      "id": "rem_33940",
+      "jp": "ダメージを負っている相手を的確に狙い、頭数を潰していく。乱戦になり血湧き肉踊っても、頭は冷静に戦場を見据える。",
+      "en": "Target and take out wounded enemies precisely. Even in a bloody melee, keep a cool head and watch the battlefield.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6322,
+      "id": "rem_33941",
+      "jp": "弱っている敵を優先してターゲット",
+      "en": "Prioritize targeting weakened enemies",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6323,
+      "id": "rem_33942",
+      "jp": "火を放ち、広範囲の敵をまとめて攻撃する。火のダメージはかなり大きく、エネミーの生命力を奪い取る。",
+      "en": "Unleash fire to attack a wide area of enemies. Fire damage is significant, draining the enemy's vitality.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6324,
+      "id": "rem_33943",
+      "jp": "全体攻撃 威力[D+] +  命中[70%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "AoE attack Potency[D+] + Hit[70%] + 【Fire】 + Inflicts [Burn] (Damage +10% per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6325,
+      "id": "rem_33944",
+      "jp": "【<src>】の[火攻めの矢]！",
+      "en": "【<src>】's [Flaming Arrows]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6326,
+      "id": "rem_33945",
+      "jp": "魔獣の王たるミズイロケモミミに縁がある者たち。その力は共鳴し、血の濃い者に応じて能力が引き出されていく。ウルフィナが強くなると引っ張られる。",
+      "en": "Those with ties to Mizuiro Kemomimi, the King of Magic Beasts. Their powers resonate, drawing out abilities based on bloodline. Strengthens as Wolfina does.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6327,
+      "id": "rem_33946",
+      "jp": "レベル同期・ウルフィナと同じに",
+      "en": "Level Sync・Match Wolfina's",
+      "table": "db_UnitSkill",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 6328,
+      "id": "rem_33947",
+      "jp": "魔獣王の血に任せて部分的に巨大化させた爪で粉々にする。最強クラスの物理攻撃スキル。",
+      "en": "Shatter foes with a giant claw empowered by the Beast King's blood. A top-tier physical attack skill.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6329,
+      "id": "rem_33948",
+      "jp": "範囲(小)攻撃 威力[S] +  命中[70%] + 必殺率[+10%] + 【氷属性】 + [凍結]を付与 (物理ダメージ軽減率-30% + クリティカルを受ける確率+30%)",
+      "en": "Small AoE attack Potency[S] + Hit[70%] + Crit[+10%] + 【Ice】 + Inflicts [Freeze] (Phys. Dmg Reduc. -30% + Crit Chance Taken +30%)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6330,
+      "id": "rem_33949",
+      "jp": "【<src>】の右手が魔獣王の爪となり敵を襲う！",
+      "en": "【<src>】's right hand transforms into the Beast King's claw and strikes!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6331,
+      "id": "rem_33950",
+      "jp": "槍を振り回し、衝撃波で攻撃する。風に弱い相手に、非常に効果的なダメージを与える。空を飛ぶ相手に対してとても有効。",
+      "en": "Swing the spear, attacking with shockwaves. Deals highly effective damage to wind-weak foes. Very effective against flying enemies.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6332,
+      "id": "rem_33951",
+      "jp": "範囲(小)攻撃 威力[E+] +  命中[80%] + 連撃率[+10%] + 【風属性】",
+      "en": "Small AoE attack Potency[E+] + Hit[80%] + Combo[+10%] + 【Wind】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6333,
+      "id": "rem_33952",
+      "jp": "【<src>】は[ソニックランス]を放った！",
+      "en": "【<src>】 unleashes [Sonic Lance]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6334,
+      "id": "rem_33953",
+      "jp": "連続で弓を撃ち、大ダメージを狙う。スキルレベルを高めれば、必殺の一撃になりえる。しかし連射力に重きを置いているため、命中率は低い。",
+      "en": "Rapidly fire arrows for major damage. Can become a critical strike with high skill level. Prioritizes rapid-fire, so accuracy is low.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6335,
+      "id": "rem_33954",
+      "jp": "範囲(大)攻撃 威力[C] +  命中[80%] + 連撃率[+30%] + 【火属性】",
+      "en": "Large AoE attack Potency[C] + Hit[80%] + Combo[+30%] + 【Fire】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6336,
+      "id": "rem_33955",
+      "jp": "【<src>】の[トリプルアロー]！",
+      "en": "【<src>】's [Triple Arrow]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6337,
+      "id": "rem_33956",
+      "jp": "仲間全員を守る、究極のバリアを張る。このバリアは弱いダメージは素通りし、ほとんどの威力を削いで消える。弱い攻撃は無視してしまうので注意。",
+      "en": "Erects the ultimate barrier protecting all allies. It lets weak attacks pass but absorbs most power and fades. Note: Ignores minor attacks.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6338,
+      "id": "rem_33957",
+      "jp": "HP回復(小) + 【仲間】に【神盾】を付与 (最大HPの20%を超える攻撃を軽減[+90%])",
+      "en": "Small HP Recovery + Grants 【Allies】 【Aegis】 (Reduces [+90%] damage exceeding 20% of max HP)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6339,
+      "id": "rem_33958",
+      "jp": "【<src>】のバリアが仲間を守る！",
+      "en": "【<src>】's barrier protects the allies!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6340,
+      "id": "rem_33959",
+      "jp": "精神的な疲れを癒し、スキルのCTとＭＰを回復させる、とても便利なスキル。",
+      "en": "A very convenient skill that heals mental fatigue and recovers skill CT and MP.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6341,
+      "id": "rem_33960",
+      "jp": "CT回復(小) + MP回復(小) + 自分以外に効果",
+      "en": "Small CT Recover + Small MP Recover + Effect on others (not self)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6342,
+      "id": "rem_33961",
+      "jp": "【<src>】は[メディケーション]を使用した",
+      "en": "【<src>】 used [Medication].",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6343,
+      "id": "rem_33962",
+      "jp": "自らを興奮させて、攻撃に集中する。相手を殲滅する能力が高まるが、ほとんど暴走しているので命中精度は下がってしまう。",
+      "en": "Excites self to focus on attack. Raises ability to annihilate foes, but accuracy drops due to near-rampage state.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6344,
+      "id": "rem_33963",
+      "jp": "【自分】に【狂戦士++】を付与 (物理ダメージ[+60%] + 命中精度[-30%])",
+      "en": "Grants 【self】 【Berserker++】 (Phys DMG [+60%] + Accuracy [-30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6345,
+      "id": "rem_33964",
+      "jp": "【<src>】は[バーサーク]を使用した！",
+      "en": "【<src>】 used [Berserk]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6346,
+      "id": "rem_33965",
+      "jp": "戦場での興奮が力になる。攻撃力が高まるが、防御力が少し下がってしまう。相手に攻撃される前に叩き潰せ！",
+      "en": "Battlefield excitement becomes power. Attack rises, but defense drops slightly. Crush the enemy before they hit you!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6347,
+      "id": "rem_33966",
+      "jp": "【<src>】は自らを鼓舞した！",
+      "en": "【<src>】 boosted their own morale!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6348,
+      "id": "rem_33967",
+      "jp": "武器に対して強力な強化をかける。攻撃力が高まると同時に、武器の鋭さが蘇ることで、スキルのＣＴが早まる。",
+      "en": "Applies potent enhancement to weapon. Raises attack power, and weapon's sharpness returns, speeding up skill CT.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6349,
+      "id": "rem_33968",
+      "jp": "CT回復(小) + 【仲間】に【攻撃】を付与 (物理ダメージ[+30%])",
+      "en": "Small CT Recover + Grants 【allies】 【Attack】 (Phys DMG [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6350,
+      "id": "rem_33969",
+      "jp": "【<src>】の[ウェポンブレス]が武器に宿った！",
+      "en": "【<src>】's [Weapon Bless] has imbued the weapon!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6351,
+      "id": "rem_33970",
+      "jp": "術による身代わりをパーティー全員分作るという大規模なサポートスキル。身代わりで相手の攻撃を上手くやり過ごしてしまう。敵の攻撃が上手く当たらなくなるが、過信はできない。",
+      "en": "A large-scale support skill that creates decoys via magic for the whole party. The decoys cleverly evade enemy attacks. Makes enemy attacks miss more often, but don't be overconfident.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6352,
+      "id": "rem_33971",
+      "jp": "【仲間】に【身代わり】を付与 (回避率[+30%])",
+      "en": "Grants 【allies】 【Decoy】 (Evasion Rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6353,
+      "id": "rem_33972",
+      "jp": "【<src>】は全員分の身代わりを作成した！",
+      "en": "【<src>】 created decoys for everyone!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6354,
+      "id": "rem_33973",
+      "jp": "術による身代わりを作ることで、相手の攻撃を上手くやり過ごしてしまう。敵の攻撃が上手く当たらなくなるが、過信はできない。",
+      "en": "Creates a magic decoy to cleverly evade enemy attacks. Makes enemy attacks miss more often, but don't be overconfident.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6355,
+      "id": "rem_33974",
+      "jp": "【自分】に【身代わり】を付与 (回避率[+30%])",
+      "en": "Grants 【self】 【Decoy】 (Evasion Rate [+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6356,
+      "id": "rem_33975",
+      "jp": "【<src>】は[変わり身の術]を使用した！",
+      "en": "【<src>】 used [Substitution Jutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6357,
+      "id": "rem_33976",
+      "jp": "自分の分身を作り出し、仲間の攻撃に追従させる。これによりチェイススキルの威力が大幅にアップする。",
+      "en": "Creates a shadow clone that follows up on allies' attacks. Greatly increases the power of Chase skills.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6358,
+      "id": "rem_33977",
+      "jp": "【自分】に【影分身】を付与 (チェイススキルのダメージ[+50%])",
+      "en": "Grants 【self】 【Shadow Clone】 (Chase Skill DMG [+50%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6359,
+      "id": "rem_33978",
+      "jp": "【<src>】は[影分身の術]を使用した！",
+      "en": "【<src>】 used [Shadow Clone Jutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6360,
+      "id": "rem_33979",
+      "jp": "クナイを敵に投げつける。射撃攻撃であるのと同時に、相手の意表を突く攻撃。剣士と思っていた相手の突然の飛び道具に、うっかり当たってしまったりする。",
+      "en": "Throws a kunai at the enemy. A ranged attack that also takes the foe by surprise. An unexpected projectile from someone you thought was a swordsman can catch you off guard.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6361,
+      "id": "rem_33980",
+      "jp": "範囲(大)攻撃 威力[D] +  命中[70%] + 【闇属性】 + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "Wide-range attack Power[D] + Hit[70%] + 【Dark】 + Inflicts [Leg Bind] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6362,
+      "id": "rem_33981",
+      "jp": "【<src>】の[投げクナイの術]！",
+      "en": "【<src>】's [Shuriken Throw]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6363,
+      "id": "rem_33982",
+      "jp": "どこに持っていたかわからないほどのクナイを敵に投げつける。射撃攻撃としての威力はそこまででも無いが、あまりの連射に相手は釘付けになってしまう。",
+      "en": "Hurls countless shuriken seemingly from nowhere. Its raw power as a ranged attack isn't great, but the sheer rate of fire pins the target down.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6364,
+      "id": "rem_33983",
+      "jp": "全体攻撃 威力[B] +  命中[70%] + 【闇属性】 + 回避(小) + [足縛]を付与 (クリティカルを受ける確率+30%)",
+      "en": "AoE attack Power[B] + Hit[70%] + 【Dark】 + Evasion(small) + Inflicts [Leg Bind] (+30% crit taken)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6365,
+      "id": "rem_33984",
+      "jp": "【<src>】の[乱れ投げクナイの術]！",
+      "en": "【<src>】's [Wild Shuriken Throw]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6366,
+      "id": "rem_33985",
+      "jp": "アルダルク家の人間には、時折不思議な娘が生まれる。それはいずれも赤い髪の持ち主で、魔力を持たない代わりに非常に強い力を持つという。能力以上に攻撃力が高くなる。",
+      "en": "Occasionally, the Alderuk family produces mysterious girls. They always have red hair and, in place of magic, possess immense physical strength. Their attack power exceeds their apparent capability.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6367,
+      "id": "rem_33986",
+      "jp": "攻撃[+30%] + 攻撃の範囲拡大率[+20%] + 女性へのダメージ[+30%]",
+      "en": "Attack[+30%] + Attack area expansion[+20%] + Damage vs. females[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6368,
+      "id": "rem_33987",
+      "jp": "かつて全ての海を支配した海賊女帝。ただ戦闘力が強いだけでは、海を支配することは出来なかっただろう。その子孫であり生まれ変わりと思しき娘にも、受け継がれている。",
+      "en": "Once the pirate empress who ruled all seas. Raw combat power alone couldn't have achieved that. Her descendant—believed to be her reincarnation—has inherited this trait.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6369,
+      "id": "rem_33988",
+      "jp": "エネミー発見率[+60%] + トラップ発見率[+60%]",
+      "en": "Enemy discovery rate[+60%] + Trap discovery rate[+60%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6370,
+      "id": "rem_33989",
+      "jp": "単体攻撃 威力[] +  [必中] + 必殺率[+20%] + 【闇属性】 + LV吸収(小)",
+      "en": "Single-target attack Power[] + [Guaranteed hit] + Crit rate[+20%] + 【Dark】 + Level absorb(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6371,
+      "id": "rem_33990",
+      "jp": "【<src>】の[夜を統べる魔槍]！",
+      "en": "【<src>】's [Spear Commanding the Night]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6372,
+      "id": "rem_33991",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 【闇属性】 + HP吸収(小) + LV吸収(小)",
+      "en": "Single-target attack Power[] + Hit[70%] + 【Dark】 + HP absorb(small) + Level absorb(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6373,
+      "id": "rem_33992",
+      "jp": "【<src>】の[バンパイアキス]！",
+      "en": "【<src>】's [Vampire Kiss]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6374,
+      "id": "rem_33993",
+      "jp": "防御(小) + 【自分】に【防御】を付与 (すべてのダメージ軽減率[+30%])",
+      "en": "Defense(small) + Grants 【Defense】 to【self】(All damage reduction[+30%])",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6375,
+      "id": "rem_33994",
+      "jp": "【<src>】は[耐えがたきカリスマ]を使用した！",
+      "en": "【<src>】 used [Irresistible Charisma]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6376,
+      "id": "rem_33995",
+      "jp": "開発ポイントの収集スキル。取得すると、ダンジョンでの開発ポイントの獲得量がアップする。",
+      "en": "A skill for collecting Development Points. When acquired, increases Development Points gained in dungeons.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6377,
+      "id": "rem_33996",
+      "jp": "開発ポイント獲得量[+20%]",
+      "en": "Development Points gained[+20%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6378,
+      "id": "rem_33997",
+      "jp": "単体攻撃 威力[] +  命中[70%] + 必殺率[+30%] + 防御貫通(小)",
+      "en": "Single-target attack Power[] + Hit[70%] + Crit rate[+30%] + Defense pierce(small)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6379,
+      "id": "rem_33998",
+      "jp": "【<src>】の[抜刀居合抜き]！",
+      "en": "【<src>】's [Quick-Draw Iaijutsu]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6380,
+      "id": "rem_33999",
+      "jp": "全体攻撃 威力[] +  命中[70%] + 【闇属性】",
+      "en": "AoE attack Power[] + Hit[70%] + 【Dark】",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6381,
+      "id": "rem_34000",
+      "jp": "【<src>】の[ダークストーム]！",
+      "en": "<src>'s [Darkstorm]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6382,
+      "id": "rem_34001",
+      "jp": "グループ攻撃 威力[] +  命中[60%] + 連撃率[+10%] + 必殺率[+20%] + 【火属性】 + [炎上]を付与 (炎によりターンごとにダメージ+10%)",
+      "en": "Group attack Power[] + Hit[60%] + Combo[+10%] + Crit[+20%] + 【Fire】 + Inflicts [Burn] (10% damage per turn)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6383,
+      "id": "rem_34002",
+      "jp": "【<src>】の[ファイアボルト]！",
+      "en": "<src>'s [Fire Bolt]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6384,
+      "id": "rem_34003",
+      "jp": "生命エネルギーを吸収する魔術。淫魔のドレイン能力に似た性質を持った術だが、性的な快楽に関係なく吸収できる。そのため抵抗しやすくもあり、余計に性質が悪くもある。",
+      "en": "Life-draining magic. Similar to a succubus's drain, but it works without pleasure. Makes it easier to resist, but also nastier.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6385,
+      "id": "rem_34004",
+      "jp": "範囲(大)攻撃 威力[C+] +  命中[70%] + 必殺率[+20%] + 【雷属性】 + 攻撃後パーティー回復",
+      "en": "Large area attack Power[C+] + Hit[70%] + Crit[+20%] + 【Thunder】 + Heals party after attack",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6386,
+      "id": "rem_34005",
+      "jp": "【<src>】の[ハイパードレイン]で吸収！",
+      "en": "<src> absorbs with [Hyper Drain]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6387,
+      "id": "rem_34006",
+      "jp": "剣の達人による秘剣。剣をしまった状態から抜かれるため、相手は射程を測れないだけでなく、技の出所も掴めない。そもそも剣の射程より明らかに遠くまで切り裂いてしまう。",
+      "en": "A master swordsman's secret strike. Drawn from the sheath, so the opponent can't gauge its range or origin. It cuts far beyond a blade's reach.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6388,
+      "id": "rem_34007",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[70%] + 必殺率[+20%] + 【風属性】 + 防御貫通(小)",
+      "en": "Small area attack Power[B] + Hit[70%] + Crit[+20%] + 【Wind】 + Minor armor pierce",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6389,
+      "id": "rem_34008",
+      "jp": "【<src>】の[抜刀燕返し]！",
+      "en": "<src>'s [Iaido: Swallow Return]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6390,
+      "id": "rem_34009",
+      "jp": "シズハ＆クレハによるコンビネーションスキル。それぞれが【全ての属性スキル】を使用した際に追撃する。直前に使用したスキルに属性が変化する。威力が高く、確実に追撃する。",
+      "en": "Shizuha & Kureha's combo skill. Follows up any elemental skill used. Changes to match that element's type. Powerful and reliable.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6391,
+      "id": "rem_34010",
+      "jp": "単体攻撃 威力[B+] +  命中[80%] + 必殺率[+30%]",
+      "en": "Single-target attack Power[B+] + Hit[80%] + Crit[+30%]",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6392,
+      "id": "rem_34011",
+      "jp": "【<src>】のコンビネーションメイド殺法！",
+      "en": "<src>'s Combination Maid Slaughter!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6393,
+      "id": "rem_34012",
+      "jp": "自分の分身を作り出し、攻撃に追従させる。これによりチェイススキルの威力が大幅にアップする。",
+      "en": "Creates a shadow clone to follow up attacks. Greatly boosts chase skill power.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6394,
+      "id": "rem_34013",
+      "jp": "【<src>】は[シャドウサーバント]を使用した！",
+      "en": "<src> used [Shadow Servant]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6395,
+      "id": "rem_34014",
+      "jp": "人類を滅亡に追いやる『大災厄』が発生する際に出現する決戦存在。最後の希望を背負った彼らの膝が屈することは許されない。非常に高い確率で死の淵から生還する。",
+      "en": "A final boss born of the 'Great Calamity' that doomed humanity. They bear the last hope and must never falter. Very likely to survive near death.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6396,
+      "id": "rem_34015",
+      "jp": "戦闘不能時に自動復活[+60%]",
+      "en": "Auto-revive [+60%] when KO'd",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6397,
+      "id": "rem_34016",
+      "jp": "相手の急所を狙う一撃。気配を消して忍び寄り、背後から大ダメージを狙う。",
+      "en": "A strike aimed at the vitals. Conceals presence, sneaks up, and deals massive damage from behind.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6398,
+      "id": "rem_34017",
+      "jp": "範囲(小)攻撃 威力[B] +  命中[70%] + 必殺率[+50%] + 【闇属性】 + 回避(中)",
+      "en": "Small area attack Power[B] + Hit[70%] + Crit[+50%] + 【Dark】 + Evasion(medium)",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6399,
+      "id": "rem_34018",
+      "jp": "【<src>】は[バックスタブ]で暗殺！",
+      "en": "<src> assassinates with [Backstab]!",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    },
+    {
+      "n": 6400,
+      "id": "rem_34019",
+      "jp": "雄叫びを上げ、戦意を高揚させる。武器を選ばない。攻撃力が上がるが、防御力も下がる。威力の高さに頼りすぎると、痛い目を見るかも？",
+      "en": "A roar to embolden fighting spirit. Works with any weapon. Raises ATK, lowers DEF. Relying on raw power too much could backfire.",
+      "table": "db_UnitSkill",
+      "category": "remaining_table"
+    }
+  ]
+}

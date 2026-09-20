@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 801,
+  "range_end": 900,
+  "pairs": [
+    {
+      "n": 801,
+      "id": "rem_00801",
+      "jp": "アンジュの特製ゴーレム",
+      "en": "Anju's Special Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 802,
+      "id": "rem_00802",
+      "jp": "珍獣のオーラ",
+      "en": "Rare Beast's Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 803,
+      "id": "rem_00803",
+      "jp": "巨獣王のオーラ",
+      "en": "King of Beasts' Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 804,
+      "id": "rem_00804",
+      "jp": "青き星の神々の一人。この世界における最も古き神の一人であり、星に居座った神でもある。起源の魔術師の異名を持ち、人間文明に魔術テクノロジーを組み込んだ張本人でもある。人間と異なる価値観を持つ舎弟。",
+      "en": "One of the Blue Star's Gods. Among the world's oldest gods, one who settled on the star. Known as the Origin Mage, they personally integrated magic tech into human civilization. A disciple with values different from humans.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 805,
+      "id": "rem_00805",
+      "jp": "万能舎弟デシルス",
+      "en": "All-Purpose Disciple Desilus",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 806,
+      "id": "rem_00806",
+      "jp": "魔人のオーラ",
+      "en": "Demon's Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 807,
+      "id": "rem_00807",
+      "jp": "最果ての強者たちの影①",
+      "en": "Shadows of the Far-Realm's Strongest I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 808,
+      "id": "rem_00808",
+      "jp": "最果てのオーラ(英)①",
+      "en": "Far-Realm Aura (Hero) I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 809,
+      "id": "rem_00809",
+      "jp": "最果てのオーラ(王)",
+      "en": "Far-Realm Aura (King)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 810,
+      "id": "rem_00810",
+      "jp": "最果てのオーラ(殺)",
+      "en": "Far-Realm Aura (Slayer)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 811,
+      "id": "rem_00811",
+      "jp": "最果てのオーラ(死)",
+      "en": "Far-Realm Aura (Death)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 812,
+      "id": "rem_00812",
+      "jp": "最果てのオーラ(神)",
+      "en": "Far-Realm Aura (God)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 813,
+      "id": "rem_00813",
+      "jp": "最果てのオーラ(聖)",
+      "en": "Far-Realm Aura (Holy)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 814,
+      "id": "rem_00814",
+      "jp": "最果てのオーラ(特)",
+      "en": "Far-Realm Aura (Special)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 815,
+      "id": "rem_00815",
+      "jp": "最果てのオーラ(奈)",
+      "en": "Far-Realm Aura (Yai)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 816,
+      "id": "rem_00816",
+      "jp": "最果てのオーラ(竜)",
+      "en": "Far-Realm Aura (Dragon)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 817,
+      "id": "rem_00817",
+      "jp": "チビケモミミ①",
+      "en": "Chibi Kemomimi I",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 818,
+      "id": "rem_00818",
+      "jp": "ヘレーリオの娘を自称する謎の存在。よくわからない力により、いつも空を浮いている。彼女は一人だが、その気になったら沢山増えることもできる。",
+      "en": "A mysterious being claiming to be Helerio's daughter. Always floats due to an unclear power. She is one, but can multiply at will.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 819,
+      "id": "rem_00819",
+      "jp": "チビケモミミ②",
+      "en": "Chibi Kemomimi II",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 820,
+      "id": "rem_00820",
+      "jp": "チビケモミミ",
+      "en": "Chibi Kemomimi",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 821,
+      "id": "rem_00821",
+      "jp": "メイドのシオリア①",
+      "en": "The Maid Sioria ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 822,
+      "id": "rem_00822",
+      "jp": "『暴君』に仕えるメイド。サキュバスの因子を持ち、その気になれば一晩で街中の人間の精を吸い尽くせる人間の天敵。■■に存在を認知されながらも存在を保つ枠外の存在であり、魔界の王として推薦されているが、本人は興味無し。",
+      "en": "A maid serving the Tyrant. She carries succubus traits and is humanity's natural enemy, capable of draining the life essence of an entire town in one night if she wished. She is an exception that retains her existence despite being recognized by ■■, and though recommended as a Demon King, she has no interest.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 823,
+      "id": "rem_00823",
+      "jp": "メイドのシオリア②",
+      "en": "The Maid Sioria ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 824,
+      "id": "rem_00824",
+      "jp": "メイドのシオリア",
+      "en": "Maid Sioria",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 825,
+      "id": "rem_00825",
+      "jp": "暗殺者エッシェル①",
+      "en": "Assassin Eshelle ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 826,
+      "id": "rem_00826",
+      "jp": "エネルフィの幼馴染みで、エルフィード族の暗殺者。暗殺の腕前は半端ではなく、かつて『暴君』の残機を減らしたほどの猛者。その腕を買われ、ヘレーリオの元で裏の仕事をしているとかしていないとか。",
+      "en": "Childhood friend of Enerphi and an assassin of the Elfid tribe. Her skill is unparalleled; she's the fierce warrior who once depleted the Tyrant's lives. Her talents are valued, and she may or may not do shady work under Helerio.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 827,
+      "id": "rem_00827",
+      "jp": "暗殺者エッシェル②",
+      "en": "Assassin Eshelle ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 828,
+      "id": "rem_00828",
+      "jp": "暗殺者エッシェル",
+      "en": "Assassin Eshelle",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 829,
+      "id": "rem_00829",
+      "jp": "情報屋エルヴィオーネ①",
+      "en": "Information Broker Elvione ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 830,
+      "id": "rem_00830",
+      "jp": "エネルフィの幼馴染みで、エルフィード族の元高級娼婦。都落ちしてやさぐれていたが、誰かさんの精を受けたことで正気を取り戻した。ハニトラと籠絡の名手で、エネルフィたちと共に多くの商会を壊滅させ、勢力図を変えた。",
+      "en": "Childhood friend of Enerphi and a former high-class courtesan of the Elfid tribe. She fell from grace and became jaded, but regained her sanity after receiving someone's essence. A master of honey traps and seduction, she and Enerphi have ruined many guilds and shifted the power balance.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 831,
+      "id": "rem_00831",
+      "jp": "情報屋エルヴィオーネ②",
+      "en": "Information Broker Elvione ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 832,
+      "id": "rem_00832",
+      "jp": "情報屋エルヴィオーネ",
+      "en": "Information Broker Elvione",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 833,
+      "id": "rem_00833",
+      "jp": "新米魔女コレット①",
+      "en": "Apprentice Witch Colette ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 834,
+      "id": "rem_00834",
+      "jp": "大魔女クーデ・ウィルチの弟子であり、カリストとオーレリアに強い縁のある少女。戦闘能力は極めて低いが、やがては淫魔にとって革命的な薬を発明した、のちの大魔女であり、淫魔の因果を断ち切った革命の魔女。",
+      "en": "A disciple of the Great Witch Cude Wilch, a girl deeply connected to Callisto and Aurelia. Her combat skills are low, but she will later invent a revolutionary potion for succubi and become the Great Witch who severed their karmic chains—the Witch of Revolution.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 835,
+      "id": "rem_00835",
+      "jp": "新米魔女コレット②",
+      "en": "Apprentice Witch Colette ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 836,
+      "id": "rem_00836",
+      "jp": "新米魔女コレット",
+      "en": "Apprentice Witch Colette",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 837,
+      "id": "rem_00837",
+      "jp": "魔剣士ネルエーデ①",
+      "en": "Magic Swordswoman Nereede ①",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 838,
+      "id": "rem_00838",
+      "jp": "魔剣レベルイーターを操る、謎の女剣士。剣は触れると魂を吸い取る死神の鎌が形を変えたものだが、なぜか影響を受けない。【彼】の妻を自称しており、害すると見なした毒婦を蹴散らす。その判定は神経質で大雑把。",
+      "en": "A mysterious swordswoman who wields the soul-eating magic sword Level Eater. The sword is a transformed form of the Shinigami's soul-scythe, yet she remains unaffected. She claims to be 【his】 wife and drives away any poisonous woman she deems a threat. Her judgment is both neurotic and rough.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 839,
+      "id": "rem_00839",
+      "jp": "魔剣士ネルエーデ②",
+      "en": "Magic Swordswoman Nereede ②",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 840,
+      "id": "rem_00840",
+      "jp": "魔剣士ネルエーデ",
+      "en": "Magic Swordswoman Nereede",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 841,
+      "id": "rem_00841",
+      "jp": "大怪魚のオーラ",
+      "en": "Giant Fish Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 842,
+      "id": "rem_00842",
+      "jp": "魔触樹のオーラ",
+      "en": "Demon-Touch Tree Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 843,
+      "id": "rem_00843",
+      "jp": "食肉獣のオーラ",
+      "en": "Carnivorous Beast Aura",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 844,
+      "id": "rem_00844",
+      "jp": "メイドのハヅキ(NM002)③",
+      "en": "Maid Hazuki (NM002) 3",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 845,
+      "id": "rem_00845",
+      "jp": "最果てのオーラ(英)②",
+      "en": "World's End Aura (EN) 2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 846,
+      "id": "rem_00846",
+      "jp": "最果てのオーラ(英)B①",
+      "en": "World's End Aura (EN) B1",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 847,
+      "id": "rem_00847",
+      "jp": "最果てのオーラ(英)B②",
+      "en": "World's End Aura (EN) B2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 848,
+      "id": "rem_00848",
+      "jp": "最果てのオーラ(英)C①",
+      "en": "World's End Aura (EN) C1",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 849,
+      "id": "rem_00849",
+      "jp": "最果てのオーラ(英)C②",
+      "en": "World's End Aura (EN) C2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 850,
+      "id": "rem_00850",
+      "jp": "最果ての強者たちの影②",
+      "en": "Shadows of the World's End Warriors 2",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 851,
+      "id": "rem_01238",
+      "jp": "まだ始まってすらいないデス",
+      "en": "Death Before It Even Began",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 852,
+      "id": "rem_01239",
+      "jp": "過労死デス",
+      "en": "Death by Overwork",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 853,
+      "id": "rem_01240",
+      "jp": "ゴブリンに袋叩きにされたデス",
+      "en": "Death by Goblin Beating",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 854,
+      "id": "rem_01241",
+      "jp": "無力なままゴブリン退治失敗デス",
+      "en": "Death - Failed Goblin Subdue",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 855,
+      "id": "rem_01242",
+      "jp": "キャトリナを見殺しにしたデス",
+      "en": "Death - Left Catrina to Die",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 856,
+      "id": "rem_01243",
+      "jp": "マリーゼルが死んだデス",
+      "en": "Death - Marisel Died",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 857,
+      "id": "rem_01244",
+      "jp": "ルーシェに搾り取られて腹上死デス",
+      "en": "Death - Drained by Lusche",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 858,
+      "id": "rem_01245",
+      "jp": "マリーゼルが嫁に行ったデス",
+      "en": "Death - Marisel Married Away",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 859,
+      "id": "rem_01246",
+      "jp": "据え膳はとっとと食えデス",
+      "en": "Death - Eat the Meal, Quick",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 860,
+      "id": "rem_01247",
+      "jp": "焼死したデス",
+      "en": "Death by Fire",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 861,
+      "id": "rem_01248",
+      "jp": "アンジュを救出できなかったデス",
+      "en": "Could not rescue Anju.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 862,
+      "id": "rem_01249",
+      "jp": "ハニトラで腹上死したデス",
+      "en": "Died by honey trap.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 863,
+      "id": "rem_01250",
+      "jp": "港をゴブリンに支配されたデス",
+      "en": "Port taken by Goblins.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 864,
+      "id": "rem_01251",
+      "jp": "風邪は万病の元デス",
+      "en": "A cold is the root of all illness.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 865,
+      "id": "rem_01252",
+      "jp": "領主の屋敷から魔物が大量発生デス",
+      "en": "Monsters swarmed from the lord's manor.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 866,
+      "id": "rem_01253",
+      "jp": "病死したデス",
+      "en": "Died from illness.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 867,
+      "id": "rem_01254",
+      "jp": "カストロイアが暴走してしまったデス",
+      "en": "Castoroya went berserk.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 868,
+      "id": "rem_01255",
+      "jp": "邪教徒達に人類が敗北したデス",
+      "en": "Humanity lost to the cultists.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 869,
+      "id": "rem_01256",
+      "jp": "痴情のもつれデス",
+      "en": "A fatal love affair.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 870,
+      "id": "rem_01257",
+      "jp": "魔神召喚の儀式が完了してしまったデス",
+      "en": "Demonic summoning ritual completed.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 871,
+      "id": "rem_01258",
+      "jp": "買い逃したショック死デス",
+      "en": "Died of shopping shock.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 872,
+      "id": "rem_01259",
+      "jp": "宿を奪われてしまったデス",
+      "en": "Lost the inn.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 873,
+      "id": "rem_01260",
+      "jp": "ノーザリアに侵略されたデス(Lv4)",
+      "en": "Invaded by Nosalia (Lv4).",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 874,
+      "id": "rem_01261",
+      "jp": "ノーザリアに侵略されたデス(Lv6)",
+      "en": "Invaded by Nosalia (Lv6).",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 875,
+      "id": "rem_01262",
+      "jp": "ノーザリアに侵略されたデス(Lv8)",
+      "en": "Invaded by Nosalia (Lv8).",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 876,
+      "id": "rem_01263",
+      "jp": "ミンチになったデス",
+      "en": "Was minced.",
+      "table": "db_ScenarioEnding",
+      "category": "remaining_table"
+    },
+    {
+      "n": 877,
+      "id": "rem_01264",
+      "jp": "小さい野鳥を捌き、食肉処理を施した後に串に刺したもの。このまま火に炙れば美味しくいただけるだろう。",
+      "en": "Small wild bird processed into meat and skewered. Ready for grilling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 878,
+      "id": "rem_01265",
+      "jp": "小ぶりの鳥肉串",
+      "en": "Small Bird Meat Skewer",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 879,
+      "id": "rem_01266",
+      "jp": "鳥の肉のような弾力を持つフロッグ肉。見た目さえ誤魔化せれば、トリニクと言われても信じられる。見た目さえ誤魔化せれば……。",
+      "en": "Frog meat with a chicken-like texture. If you ignore the looks, it's convincing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 880,
+      "id": "rem_01267",
+      "jp": "トリニクモドキ",
+      "en": "Mock Chicken",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 881,
+      "id": "rem_01268",
+      "jp": "豚肉を薄く切った物を干した保存食。適度に塩を振ってあり、新鮮な肉とは違った味わいが引き立つ。",
+      "en": "Thinly sliced and dried pork, seasoned with salt. A preserved food with a unique taste different from fresh meat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 882,
+      "id": "rem_01269",
+      "jp": "乾燥スライスブタ肉",
+      "en": "Dried Sliced Pork",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 883,
+      "id": "rem_01270",
+      "jp": "野生のウシを解体し、骨が付いたまま肉を取り出したもの。牛肉としては安価だが、程よく脂が乗った美味さ。",
+      "en": "Meat taken from a butchered wild cow, left on the bone. A cheaper beef cut with just the right amount of tasty fat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 884,
+      "id": "rem_01271",
+      "jp": "解体した骨付きビーフ",
+      "en": "Butchered Bone-in Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 885,
+      "id": "rem_01272",
+      "jp": "洞窟の獣の肉。食べても死にはしない。牛肉ということで販売可能。",
+      "en": "Meat from a cave beast. You won't die from eating it. Can be sold as beef.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 886,
+      "id": "rem_01273",
+      "jp": "洞窟ビーフ",
+      "en": "Cave Beef",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 887,
+      "id": "rem_01274",
+      "jp": "潰した麦の粒に水を加えて練った生地。細長くしたり、薄く延ばして焼いたり、料理の使い道は多種多様。",
+      "en": "Dough made by kneading water into crushed grains. Versatile for cooking - can be stretched long or rolled thin and baked.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 888,
+      "id": "rem_01275",
+      "jp": "練り上げられた穀物生地",
+      "en": "Kneaded Grain Dough",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 889,
+      "id": "rem_01276",
+      "jp": "パンを焼くのに必要な小麦。野生にもたくさん生えているが、魔物が出没するため注意が必要。",
+      "en": "Wheat needed for baking bread. Grows wild in abundance, but caution is required due to monster activity.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 890,
+      "id": "rem_01277",
+      "jp": "メテトス小麦",
+      "en": "Metetos Wheat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 891,
+      "id": "rem_01278",
+      "jp": "肉厚の葉を摘み取った野菜。シャキシャキした歯触りとみずみずしさを持つ。",
+      "en": "A vegetable with thick, crisp leaves. Has a juicy, crunchy texture.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 892,
+      "id": "rem_01279",
+      "jp": "シャキシャキリーフ",
+      "en": "Crunchy Leaf",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 893,
+      "id": "rem_01280",
+      "jp": "柔らかい果肉と甘酸っぱい果汁を蓄えた果実。手軽に持ち歩く事が可能で、僅かに疲労を回復する効果を持つが、嗜好品の域を出ない。",
+      "en": "A fruit with soft, sweet-tart flesh and juice. Easy to carry. Slightly restores fatigue, but is more of a treat.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 894,
+      "id": "rem_01281",
+      "jp": "ゼカリウスベリー",
+      "en": "Zecarius Berry",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 895,
+      "id": "rem_01282",
+      "jp": "僅かに香りを放つ花。生食できない事も無いが、魚介の切り身に乗せる等のワンポイントが主な用途。",
+      "en": "A lightly fragrant flower. Not inedible, but mainly used as a garnish, like on sliced seafood.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 896,
+      "id": "rem_01283",
+      "jp": "香り立つ花",
+      "en": "Fragrant Flower",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 897,
+      "id": "rem_01284",
+      "jp": "水分が少ない、カサカサした肌触りのキノコ。見た目は悪いが、そこまで味が酷いわけではない。特徴的で、毒キノコと見分けやすい。",
+      "en": "A dry, flaky mushroom with low moisture. Unattractive but not terrible tasting. Its distinct look makes it easy to tell apart from poisonous ones.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 898,
+      "id": "rem_01285",
+      "jp": "カサカサキノコ",
+      "en": "Flaky Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 899,
+      "id": "rem_01286",
+      "jp": "栄養価たっぷりのきのこ。煎じることで薬にもなる。",
+      "en": "A nutrient-rich mushroom. Can be brewed into medicine.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 900,
+      "id": "rem_01287",
+      "jp": "薬草になるきのこ",
+      "en": "Medicinal Herb Mushroom",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 82901,
+  "range_end": 83000,
+  "pairs": [
+    {
+      "n": 82901,
+      "id": "db_EventInfo:98029:2",
+      "jp": "デス？",
+      "en": "Huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82902,
+      "id": "db_EventInfo:98030:1",
+      "jp": "オーレリア。カリストの師匠だけど",
+      "en": "Aurelia. Callisto's master.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82903,
+      "id": "db_EventInfo:98031:2",
+      "jp": "デスー！？　オマエ、正気デスか！？　オーレリアっていうと、あのカリストの師匠デスよ！？",
+      "en": "WHAT!? Are you crazy!? THAT Aurelia? Callisto's master!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82904,
+      "id": "db_EventInfo:98033:9",
+      "jp": "「あの」とは失礼な",
+      "en": "That's rude, calling her 'that' Aurelia.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82905,
+      "id": "db_EventInfo:98034:2",
+      "jp": "出たデスね、ザ・トラブルメーカー！　トラブルばっかり起こす天才魔術師は一人で十分デス！",
+      "en": "Here he comes, the troublemaker himself! One genius mage who causes nothing but trouble is plenty!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82906,
+      "id": "db_EventInfo:98035:9",
+      "jp": "わはは！　一人で十分と言わず、すでに二人いるであろう！",
+      "en": "Wahaha! No need to say just one is plenty, there are probably already two of us!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82907,
+      "id": "db_EventInfo:98036:2",
+      "jp": "そうだったデス！　あの暴発ピンクもいたデス！",
+      "en": "Oh right! That pink explosive mage is here too!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82908,
+      "id": "db_EventInfo:98037:12",
+      "jp": "誰が暴発ピンクですか！",
+      "en": "Who are you calling a pink explosive mage!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82909,
+      "id": "db_EventInfo:98038:12",
+      "jp": "……それで、今度はオーレリアを店に呼んだんですか？",
+      "en": "...So, you invited Aurelia to the shop this time?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82910,
+      "id": "db_EventInfo:98039:9",
+      "jp": "うむ。店長殿は、時折あやしげな力を使って女店員を増やしているようであるが……今度は師匠殿とは",
+      "en": "Yes. The boss sometimes uses his weird powers to get more female staff... But this time, my master?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82911,
+      "id": "db_EventInfo:98040:9",
+      "jp": "師匠殿は数多の王侯貴族どもが召し上げることを願ったという、曰く付きのお人",
+      "en": "Master was someone many nobles and royals wanted to invite to their courts.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82912,
+      "id": "db_EventInfo:98041:9",
+      "jp": "確か召し上げた王は……",
+      "en": "I think the king who did invite her...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82913,
+      "id": "db_EventInfo:98042:2",
+      "jp": "どうなったデス？",
+      "en": "What happened to him, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82914,
+      "id": "db_EventInfo:98043:9",
+      "jp": "まあそんなことはどうでもよかろう",
+      "en": "Well, I suppose that doesn't matter now.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82915,
+      "id": "db_EventInfo:98044:2",
+      "jp": "不安デス……",
+      "en": "That's worrying, desu...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82916,
+      "id": "db_EventInfo:98045:12",
+      "jp": "とにかく、オーレリアは一応、希代の大魔女とか言われてたヤツです",
+      "en": "Anyway, Aurelia was once called a peerless great witch.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82917,
+      "id": "db_EventInfo:98046:12",
+      "jp": "ああいうヤツはカネだけでは動きません。いくら【<pl>】がカネを積んでも、来ないと思いますけど……",
+      "en": "People like that aren't moved by just money. No matter how much money you【<pl>】 offer, I doubt she'd come...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82918,
+      "id": "db_EventInfo:98048:108",
+      "jp": "来てしまったのじゃ～Д",
+      "en": "But I have come~Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82919,
+      "id": "db_EventInfo:98049:9",
+      "jp": "師匠殿！？",
+      "en": "Master!?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82920,
+      "id": "db_EventInfo:98050:12",
+      "jp": "本当に来た！？",
+      "en": "You really came!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82921,
+      "id": "db_EventInfo:98051:108",
+      "jp": "ククク、いかなる大金を積まれても心動かすことはあまりないワシじゃが",
+      "en": "Kukuku. I am not often swayed by any amount of gold.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82922,
+      "id": "db_EventInfo:98052:108",
+      "jp": "あのようなものを寄越すと約束されてはのうД",
+      "en": "But promising me that kind of thing is a different story~Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82923,
+      "id": "db_EventInfo:98053:1",
+      "jp": "え",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82924,
+      "id": "db_EventInfo:98054:108",
+      "jp": "久方ぶりに心躍らせてしまったぞД",
+      "en": "You've really stirred my heart for the first time in agesД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82925,
+      "id": "db_EventInfo:98055:2",
+      "jp": "オマエ、なにをくれてやったデス……？",
+      "en": "Hey you, what did you give her...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82926,
+      "id": "db_EventInfo:98056:1",
+      "jp": "いや、心当たりは",
+      "en": "No, I have no idea.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82927,
+      "id": "db_EventInfo:98057:108",
+      "jp": "このこのД　まあ後払いで許してやるぞД",
+      "en": "You cheeky littleД Well, I'll let it slide for now. We can settle up laterД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82928,
+      "id": "db_EventInfo:98058:108",
+      "jp": "さあ、先代【『ウィルチ』】にして、偉大なるこの大魔女を招いたのだ",
+      "en": "Now! You have summoned the previous ['Willch'], the great and mighty grand witch!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82929,
+      "id": "db_EventInfo:98059:108",
+      "jp": "これより我が力を振るい、この地を混沌と快楽のるつぼに変えてやろうぞ！",
+      "en": "From this moment forth, I shall wield my power and transform this land into a crucible of chaos and pleasure!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82930,
+      "id": "db_EventInfo:98060:2",
+      "jp": "やめろデス～！！",
+      "en": "Stop iiiit!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82931,
+      "id": "db_EventInfo:98062:2",
+      "jp": "オーレリアはどこかの組織に所属しているようではないみたいデスね",
+      "en": "It seems Aurelia doesn't belong to any particular organization, huh.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82932,
+      "id": "db_EventInfo:98063:9",
+      "jp": "うむ。【『魔女達のお茶会』】は師匠殿ではなく、生前の師匠殿を慕う者たちが立ち上げた組織である。師匠殿はたまに手ほどきしてただけであるな",
+      "en": "Indeed. The ['Witches' Tea Party'] is not an organization founded by Master herself, but by admirers of Master from her lifetime. Master merely gave them the occasional pointer.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82933,
+      "id": "db_EventInfo:98064:1",
+      "jp": "オーレリアを……慕う……？",
+      "en": "Admirers... of Aurelia...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82934,
+      "id": "db_EventInfo:98065:2",
+      "jp": "あんなおもしろトラブルメーカーを？",
+      "en": "That chaotic troublemaker?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82935,
+      "id": "db_EventInfo:98066:9",
+      "jp": "生前の師匠殿は、それはそれは偉大なる魔女であり、人格者だったのである",
+      "en": "My master when she was alive was a great witch and a person of noble character.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82936,
+      "id": "db_EventInfo:98067:9",
+      "jp": "弱きを助け、あらゆる病人や怪我人に救いの手を差し伸べる、一般の者たちがイメージする【『聖女』】のような方であったな",
+      "en": "She helped the weak and offered aid to all the sick and injured. She was like the 【'Saint'】 most people imagine.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82937,
+      "id": "db_EventInfo:98068:9",
+      "jp": "まあ、薬の臨床実験にしていたのを、良いように受け取られたという説もあるが。ともあれ、今より奇行は遙かに少なかったである",
+      "en": "Well, some say people just took it positively because she was doing clinical trials for her medicines. Anyway, she was far less eccentric back then.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82938,
+      "id": "db_EventInfo:98069:2",
+      "jp": "信じられんデス",
+      "en": "That's hard to believe, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82939,
+      "id": "db_EventInfo:98070:9",
+      "jp": "晩年の話ではあるがな",
+      "en": "That was in her later years.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82940,
+      "id": "db_EventInfo:98071:1",
+      "jp": "……晩年？",
+      "en": "...Later years?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82941,
+      "id": "db_EventInfo:98072:9",
+      "jp": "うむ。私が師事していた頃には老成して、落ち着いておられたのだが",
+      "en": "Yes. When I studied under her, she was older and had settled down.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82942,
+      "id": "db_EventInfo:98073:9",
+      "jp": "若い頃はいろいろはっちゃけて、いくつもの国を傾けて滅ぼしてきたとか、酒を飲むと武勇伝のように話していたものだ。わはは！",
+      "en": "But when she was young, she was wild. She'd boast about how she ruined and toppled several countries, telling it like a heroic tale after drinking. Wahaha!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82943,
+      "id": "db_EventInfo:98074:1",
+      "jp": "おいィ！？　転生して若返ってたみたいな事言ってたぞ、まさか中身の方も昔に戻ってるんじゃないだろうな！？",
+      "en": "Wait!? She said something about reincarnating and getting younger. You don't think her personality went back to how it was back then too, do you!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82944,
+      "id": "db_EventInfo:98075:9",
+      "jp": "ま、まあちょっとは戻っているだろうが、老成した経験も消えているわけではあるまい。差し引きゼロでバランスよくなってるはずだ……たぶん",
+      "en": "W-well, maybe a little. But her experiences from her older years aren't gone either. It should balance out to zero... probably.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82945,
+      "id": "db_EventInfo:98076:2",
+      "jp": "不安デス",
+      "en": "This worries me, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82946,
+      "id": "db_EventInfo:98077:9",
+      "jp": "【『魔女』】との取引は対価を要求される。気を付けるのであるぞ、【<pl>】殿",
+      "en": "Deals with 【'Witches'】 demand a price. Be careful, 【<pl>】.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82947,
+      "id": "db_EventInfo:98078:0",
+      "jp": "★エッチシーン・オーレリア・個別①・逆夜這い①",
+      "en": "Sex Scene - Aurelia - Solo Event 1 - Reverse Night Crawl 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82948,
+      "id": "db_EventInfo:98081:0",
+      "jp": "オーレリアの部屋。",
+      "en": "Aurelia's room.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82949,
+      "id": "db_EventInfo:98082:0",
+      "jp": "彼女に呼び出された俺は、不安を抱えながら部屋を訪れていた。",
+      "en": "She called for me. I went to her room, feeling uneasy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82950,
+      "id": "db_EventInfo:98083:108",
+      "jp": "ようやくこの時が来たか、小僧、待ちかねたぞ",
+      "en": "So the time has finally come, boy. I've been waiting.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82951,
+      "id": "db_EventInfo:98084:108",
+      "jp": "こないだの晩は逃したが……そろそろワシを召喚した【対価】を払って貰おうとするかのうД",
+      "en": "You got away the other night... But now it's time for you to pay the 【price】 for summoning meД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82952,
+      "id": "db_EventInfo:98085:1",
+      "jp": "【対価】って……何を言ってるんだ？",
+      "en": "【Price】...? What are you talking about?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82953,
+      "id": "db_EventInfo:98086:0",
+      "jp": "オーレリアは不敵な笑みを浮かべている。",
+      "en": "Aurelia gives me a cocky grin.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82954,
+      "id": "db_EventInfo:98087:0",
+      "jp": "しかし、オーレリアが要求する【対価】の詳細について、俺は全く心当たりがないのだった。",
+      "en": "But I have no idea what 【price】 Aurelia is asking for.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82955,
+      "id": "db_EventInfo:98088:108",
+      "jp": "ククク……他の娘どもと同じにするではない",
+      "en": "Kukuku... Don't lump me in with those other girls.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82956,
+      "id": "db_EventInfo:98089:108",
+      "jp": "【『死神』】の力は普通の人間には感じ取れぬが、大魔女たるワシには手に取るように見えるぞ",
+      "en": "Regular humans can't feel the power of the 【'Shinigami'】, but this Great Witch can see it clear as day.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82957,
+      "id": "db_EventInfo:98090:108",
+      "jp": "まさか半人前とはいえ【『ウィルチ』】たる我が弟子と【『奈落』】だけでは飽き足らず、もう一人の【『ウィルチ』】まで欲するとは",
+      "en": "To think that even having my own half-baked 【'Witch'】 apprentice and the 【'Abyss'】 wasn't enough for you, you wanted another 【'Witch'】 too.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82958,
+      "id": "db_EventInfo:98091:1",
+      "jp": "【『奈落』】……？",
+      "en": "The 【'Abyss'】...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82959,
+      "id": "db_EventInfo:98092:108",
+      "jp": "ふむ、よもや無自覚であったか？",
+      "en": "Hmm, I see. So you didn't even realize it yourself?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82960,
+      "id": "db_EventInfo:98093:108",
+      "jp": "まあよい。飽くなき強欲、ワシはそういうのも嫌いではない",
+      "en": "Well, it's fine. Insatiable greed... I don't dislike that either.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82961,
+      "id": "db_EventInfo:98094:108",
+      "jp": "ほれ、近う寄れ、そんなに離れては【対価】は払えぬぞ？",
+      "en": "Here, come closer. You can't pay the 【price】 if you stay so far away.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82962,
+      "id": "db_EventInfo:98095:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82963,
+      "id": "db_EventInfo:98096:0",
+      "jp": "オーレリアは自らベッドに寝そべると、自分から衣服をはだけていく。",
+      "en": "Aurelia lay down on the bed herself and began to undo her own clothes.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82964,
+      "id": "db_EventInfo:98097:0",
+      "jp": "俺はオーレリアの言葉に逆らえず、言うがままに彼女に身を寄せてしまった。",
+      "en": "I couldn't defy Aurelia's words and, just as she said, I ended up pressing my body against hers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82965,
+      "id": "db_EventInfo:98098:0",
+      "jp": "★エッチシーン・オーレリア・個別②・初体験①・添い寝",
+      "en": "★ H-Scene: Aurelia: Individual ②: First Time ①: Bed-Sharing",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82966,
+      "id": "db_EventInfo:98099:0",
+      "jp": "★エピソード・オーレリア・攻略①・初体験④・初エッチ①・セックス",
+      "en": "★ Episode: Aurelia: Route ①: First Time ④: First H ①: Sex",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82967,
+      "id": "db_EventInfo:98100:0",
+      "jp": "★エッチシーン・オーレリア・個別②・初体験②・セックス(初体験)",
+      "en": "★ H-Scene: Aurelia: Individual ②: First Time ②: Sex (First Experience)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82968,
+      "id": "db_EventInfo:98102:9",
+      "jp": "師匠殿を抱いたようであるな",
+      "en": "It seems you have held the Master.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82969,
+      "id": "db_EventInfo:98103:1",
+      "jp": "うっ",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82970,
+      "id": "db_EventInfo:98104:9",
+      "jp": "隠そうとしてもわかるぞ。師匠殿の魔力が恐ろしいほど高まっておる",
+      "en": "Trying to hide it is pointless. The Master's magical power has increased to a frightening degree.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82971,
+      "id": "db_EventInfo:98105:9",
+      "jp": "師匠殿は【『<ruby=ウィッチ>魔女</ruby>』】として転生してからは男に抱かれたことがないはずであるからな",
+      "en": "You shouldn't have been with a man since you were reborn as a Witch.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82972,
+      "id": "db_EventInfo:98106:9",
+      "jp": "これまでの師匠殿は実力の殆どを発揮できなかったはずである。",
+      "en": "Until now, you haven't been able to use most of your power.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82973,
+      "id": "db_EventInfo:98107:9",
+      "jp": "知ってると思うが、我々【『<ruby=ウィッチ>魔女</ruby>』】……特に【『ウィルチ』】の頭はセックスをすると冴えるである",
+      "en": "You might know this, but we Witches... especially the Witch leaders, think better after sex.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82974,
+      "id": "db_EventInfo:98108:9",
+      "jp": "これから師匠殿の力はさらに冴え渡るであろう",
+      "en": "From now on, your power will become even sharper.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82975,
+      "id": "db_EventInfo:98109:1",
+      "jp": "な、なるほど……",
+      "en": "I... see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82976,
+      "id": "db_EventInfo:98110:9",
+      "jp": "むぅ……ずるいのである！　私も【<pl>】殿とエッチしたいのである！",
+      "en": "Hmm... it's not fair! I want to get intimate with 【<pl>】 too!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82977,
+      "id": "db_EventInfo:98111:9",
+      "jp": "うむ！　私も、悩んでいるアイデアやレシピがあるのである。手伝ってくれると有り難いである！",
+      "en": "Yes! I also have some ideas and recipes I'm struggling with. I'd be very grateful if you could help!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82978,
+      "id": "db_EventInfo:98113:108",
+      "jp": "なあ小僧、【『サバト』】を開きたいのじゃが～？",
+      "en": "Hey kid, I want to hold a Sabbath~?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82979,
+      "id": "db_EventInfo:98114:1",
+      "jp": "【『サバト』】……？",
+      "en": "A Sabbath...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82980,
+      "id": "db_EventInfo:98115:108",
+      "jp": "うむ！　【『<ruby=ウィッチ>魔女</ruby>』】といえば【『サバト』】！",
+      "en": "Yes! When you think of Witches, you think of Sabbaths!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82981,
+      "id": "db_EventInfo:98116:108",
+      "jp": "なぜなら【『<ruby=ウィッチ>魔女</ruby>』】の力は性の交わりによって花開く！",
+      "en": "Because a Witch's power blooms through the union of sex!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82982,
+      "id": "db_EventInfo:98117:108",
+      "jp": "たくましい肉棒に囲まれて……ぐふふ、ワシの英知も魔力もうなぎ登りじゃ！",
+      "en": "Surrounded by sturdy shafts... heheh, my wisdom and magic will skyrocket!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82983,
+      "id": "db_EventInfo:98118:108",
+      "jp": "やったー！",
+      "en": "Yes!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82984,
+      "id": "db_EventInfo:98119:108",
+      "jp": "やだー！",
+      "en": "No!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82985,
+      "id": "db_EventInfo:98120:2",
+      "jp": "そんな妖しげな集会をさせてたまるかデス！　店が【『異端審問官』】に焼かれたらどうするデスか！",
+      "en": "We can't allow such a spooky gathering! What if our shop gets burned by the 'Inquisition'!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82986,
+      "id": "db_EventInfo:98121:108",
+      "jp": "そんなー。【『<ruby=ウィッチ>魔女</ruby>』】と【『サバト』】は切っても切り離せぬものなのに",
+      "en": "Oh come on. 'Witches' and 'Sabbath' go hand in hand.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82987,
+      "id": "db_EventInfo:98122:2",
+      "jp": "だめったら、駄目デス！",
+      "en": "I said no, and I mean no!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82988,
+      "id": "db_EventInfo:98123:108",
+      "jp": "うむむ……お抱え薬師として雇われたからには、【『<ruby=ウィッチ>魔女</ruby>』】として仕事をしなくては気が済まぬ",
+      "en": "Hmm... Since you hired me as your personal pharmacist, my witch's pride demands I do 'witch' work.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82989,
+      "id": "db_EventInfo:98124:2",
+      "jp": "【『<ruby=ウィッチ>魔女</ruby>』】の仕事はしなくていいデス！　そんなのは一人で十分デス！",
+      "en": "You don't need to do 'witch' work! I can handle that by myself just fine!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82990,
+      "id": "db_EventInfo:98125:108",
+      "jp": "むう。【『ウィルチ』】の薬を売れば、国が傾くほどの大金が得られるのじゃがのう",
+      "en": "Hmph. If we sold 'Witch' potions, we could make enough money to bankrupt a kingdom...",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82991,
+      "id": "db_EventInfo:98126:2",
+      "jp": "カネ……っ！？",
+      "en": "Money...!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82992,
+      "id": "db_EventInfo:98127:9",
+      "jp": "シイネ殿、欲に目が眩んではダメであるぞ",
+      "en": "Lady Shiine, don't let greed blind you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82993,
+      "id": "db_EventInfo:98128:9",
+      "jp": "師匠殿のそんな感じの甘言に惑わされて、どれだけの国が傾いて滅びたものか……！",
+      "en": "Think of how many kingdoms fell because they were tempted by the Master's sweet talk just like that...!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82994,
+      "id": "db_EventInfo:98129:108",
+      "jp": "のじゃーっ！　こらっカリスト！　師匠のプレゼンを邪魔するのでない！",
+      "en": "Hey! Stop that, Callisto! Don't interrupt your Master's presentation!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82995,
+      "id": "db_EventInfo:98130:9",
+      "jp": "師匠の過ちを正すのも弟子の仕事である！　さあ、研究に戻るである！",
+      "en": "Correcting the master's mistake is also the apprentice's job! Now, back to research!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 82996,
+      "id": "db_EventInfo:98131:108",
+      "jp": "この師匠不孝者～～～～っ！",
+      "en": "You ungrateful apprentice~~~!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 82997,
+      "id": "db_EventInfo:98134:0",
+      "jp": "オーレリアはカリストに引きずられていった。",
+      "en": "Aurelia was dragged away by Callisto.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82998,
+      "id": "db_EventInfo:98135:2",
+      "jp": "カネ……",
+      "en": "Money...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82999,
+      "id": "db_EventInfo:98136:0",
+      "jp": "名残惜しそうな【『死神』】が一人。",
+      "en": "A lone 【『Grim Reaper』】 looking reluctant to part.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83000,
+      "id": "db_EventInfo:98138:9",
+      "jp": "【<pl>】殿へ",
+      "en": "To 【<pl>】",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    }
+  ]
+}

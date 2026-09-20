@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 11501,
+  "range_end": 11600,
+  "pairs": [
+    {
+      "n": 11501,
+      "id": "rem_39262",
+      "jp": "長い年月をかけて魔力を帯びた樹木。暗黒の力を持った樹木。",
+      "en": "A tree imbued with dark power over long ages.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11502,
+      "id": "rem_39263",
+      "jp": "魔を帯びた樹木",
+      "en": "Demonic Tree",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11503,
+      "id": "rem_39264",
+      "jp": "金色に輝くオークと呼ばれる樹木を削り出した物。まるで宝石のような美しさと、高い耐久性を誇る木材。",
+      "en": "Wood carved from the so-called golden oak, boasting gem-like beauty and high durability.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11504,
+      "id": "rem_39265",
+      "jp": "ゴールデンオーク",
+      "en": "Golden Oak",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11505,
+      "id": "rem_39266",
+      "jp": "魔力を帯びた特殊な木材。生息している樹木ではなく、流木として流れ着いた形でしか発見できていない。伝説の海底都市に存在すると、まことしやかに囁かれる。",
+      "en": "Special wood imbued with magic. Found only as driftwood, rumored to be from a legendary undersea city.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11506,
+      "id": "rem_39267",
+      "jp": "腐食しない奇妙な材",
+      "en": "Indestructible Driftwood",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11507,
+      "id": "rem_39268",
+      "jp": "作物を育てるのに適した土。様々な作物を育てられるのに適している反面、柔らかいので建材等には向かない。",
+      "en": "Soil ideal for growing crops, but too soft for building materials.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11508,
+      "id": "rem_39269",
+      "jp": "栄養豊富な牧場の土",
+      "en": "Nutrient-Rich Pasture Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11509,
+      "id": "rem_39270",
+      "jp": "鉱物の成分を豊富に取り込んだ土。焼成して固めた物は、建材としても申し分ない硬さを持つが、あまりに強い衝撃を叩きつけられると砕けてしまう。",
+      "en": "Soil rich in minerals. Fired, it becomes hard building material, but shatters under strong impact.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11510,
+      "id": "rem_39271",
+      "jp": "鉱山の赤土",
+      "en": "Mine's Red Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11511,
+      "id": "rem_39272",
+      "jp": "海水の流れによって堆積した砂。他の土と混ぜて、建材同士を接着したり、水分が抜けると固まる性質を利用し、地面を新しく生み出す用途に用いられる。",
+      "en": "Sand deposited by ocean currents. Used as adhesive or to create new ground when mixed.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11512,
+      "id": "rem_39273",
+      "jp": "海底の砂",
+      "en": "Seafloor Sand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11513,
+      "id": "rem_39274",
+      "jp": "水色に変色した魔力を帯びた土。美しさすら感じる水分を含んだ土は、見た目よりもはるかに禍々しい性質を備えている。",
+      "en": "Magic-imbued, bluish soil. Though beautiful, it harbors a sinister nature.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11514,
+      "id": "rem_39275",
+      "jp": "汚染された泥土",
+      "en": "Polluted Mud",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11515,
+      "id": "rem_39276",
+      "jp": "火山地帯で多く見られる、赤く輝く土。魔力を帯びた、暖かく燃えるような土は、植物を育てる以外にも使い道がある。",
+      "en": "Glowing red soil common in volcanic areas. Useful beyond just growing plants.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11516,
+      "id": "rem_39277",
+      "jp": "活力の火山土",
+      "en": "Vibrant Volcanic Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11517,
+      "id": "rem_39278",
+      "jp": "結晶化した黒土。見た目は黒光りする硬い結晶だが、少し触るとボロボロに崩れる。栄養分を豊富に含む他、金属成分と混ざると、その硬さが更に強化される。",
+      "en": "Crystallized black sand. Rich in nutrients, and its hardness increases when mixed with metal.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11518,
+      "id": "rem_39279",
+      "jp": "結晶ブラックサンド",
+      "en": "Crystal Black Sand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11519,
+      "id": "rem_39280",
+      "jp": "古代遺跡の周辺で採れる軽い土。長らく有力な利用方法が発見されなかったが、その不可思議な利用法が発見された途端に秘密裏に収集されるようになった。",
+      "en": "Light soil found near ruins. Once considered useless, now secretly collected since its mysterious use was found.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11520,
+      "id": "rem_39281",
+      "jp": "魔力を帯びた遺跡の軽土",
+      "en": "Magic Ruin Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11521,
+      "id": "rem_39282",
+      "jp": "聖地セグルメットの開拓時に掘り出された、魔力を秘めた土。その性質は元々、呪いに近い物であったようだが、現在は浄化されている。",
+      "en": "Soil containing magical power, unearthed during the development of the holy land Seglermet. Its nature was originally akin to a curse, but it has now been purified.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11522,
+      "id": "rem_39283",
+      "jp": "聖地の土",
+      "en": "Holy Land Soil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11523,
+      "id": "rem_39284",
+      "jp": "汚染された土壌の石。その呪いは、凍り付いた獲物を蝕み続ける。",
+      "en": "A stone from polluted soil. Its curse continues to corrode its frozen prey.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11524,
+      "id": "rem_39285",
+      "jp": "汚染したカースストーン",
+      "en": "Polluted Curse Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11525,
+      "id": "rem_39286",
+      "jp": "金を多量に含んだ石。サルバック砂漠で見つかる事から、黄金都市の噂が耐えなかった。内部には現在も謎めいた魔力が蓄積されている。",
+      "en": "A stone rich in gold. Found in the Salvac Desert, fueling rumors of a golden city. A mysterious magic still accumulates within.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11526,
+      "id": "rem_39287",
+      "jp": "砂漠のゴールドサンド",
+      "en": "Desert Goldsand",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11527,
+      "id": "rem_39288",
+      "jp": "大いなる海のうねりを閉じ込めたかのような渦巻き状の模様を持った石。水の魔力を持った石は、大岩のような存在感を放っている。",
+      "en": "A stone with a spiral pattern, as if containing ocean swells. Its water magic gives it the presence of a great rock.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11528,
+      "id": "rem_39289",
+      "jp": "海洋ミルキーストーン",
+      "en": "Ocean Milkiestone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11529,
+      "id": "rem_39290",
+      "jp": "不気味な文様を持った蒼緑色の石。人工物のようにも見えるが、この恐ろしい気配を放つ、禍々しい石に近付ける者は数少ない。",
+      "en": "An eerie blue-green stone with strange patterns. While seemingly artificial, few dare approach this ominous, sinister stone.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11530,
+      "id": "rem_39291",
+      "jp": "不吉な瓦礫",
+      "en": "Ominous Rubble",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11531,
+      "id": "rem_39292",
+      "jp": "ゆらゆらと陽炎のように揺らめく柱状結晶。並の石よりも硬い素材だが、内に秘めた魔力の力で、外見は柔らかくしなっている。",
+      "en": "A pillar-like crystal that shimmers like a heat haze. Harder than most stones, but appears soft and pliant due to its internal magical power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11532,
+      "id": "rem_39293",
+      "jp": "揺らめく剛石",
+      "en": "Shimmering Hardstone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11533,
+      "id": "rem_39294",
+      "jp": "鑑のように周囲の景色を映し込む石。天然の聖なる力を受けた平たい石は、専用にあつらえた道具でなければ傷をつける事ができず、害意を持った魔力を跳ね返す。",
+      "en": "A stone that reflects its surroundings like a mirror. Blessed with a natural holy power, it cannot be scratched without special tools and repels malicious magic.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11534,
+      "id": "rem_39295",
+      "jp": "輝く鏡石",
+      "en": "Shining Mirrorstone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11535,
+      "id": "rem_39296",
+      "jp": "石でありながら、空中に浮かぶほどの軽さを持つ石材。光を湛えた石の内部には、膨大な魔力を秘めている。",
+      "en": "A stone material so light it floats. Its glowing interior contains vast magical power.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11536,
+      "id": "rem_39297",
+      "jp": "浮遊する石材",
+      "en": "Floating Stone Material",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11537,
+      "id": "rem_39298",
+      "jp": "内部に魔力を帯びた石が入った美しい石柱。魔法の力をそのまま武具に宿すには、繊細な手腕が必要。",
+      "en": "A beautiful stone pillar containing a magic-charged stone within. Requires delicate skill to imbue its power directly into arms or armor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11538,
+      "id": "rem_39299",
+      "jp": "きらめきクリスタルロック",
+      "en": "Sparkling Crystal Rock",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11539,
+      "id": "rem_39300",
+      "jp": "水中を好む魔物によって磨き上げられた美しい石材。高い魔力を持つが、耐性を持たないものが直視すると、海に引き込まれるという。",
+      "en": "A beautiful stone polished by water-dwelling monsters. Highly magical, but those without resistance are said to be drawn into the sea upon gazing at it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11540,
+      "id": "rem_39301",
+      "jp": "水魔が磨いた石材",
+      "en": "Water Demon-Polished Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11541,
+      "id": "rem_39302",
+      "jp": "海に沈んだ邪教の神殿に用いられた石柱で、邪悪な力を滲ませている。闇の力を持つ素材ではあるが、これ自体が呪具として所持を禁止されている。",
+      "en": "A stone pillar from a sunken cult temple, seeping with sinister power. A dark-aligned material, its possession as a cursed artifact is forbidden.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11542,
+      "id": "rem_39303",
+      "jp": "古代の石柱",
+      "en": "Ancient Pillar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11543,
+      "id": "rem_39304",
+      "jp": "はるか昔から存在したとされる、不思議な輝きを持つ石。これを加工するには特殊な技術が必要で、一般の職人では傷一つ付ける事もできない。",
+      "en": "An ancient stone with a mysterious glow. Requires special techniques to work; ordinary craftsmen cannot even scratch it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11544,
+      "id": "rem_39305",
+      "jp": "悠久のプリズムストーン",
+      "en": "Eternal Prism Stone",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11545,
+      "id": "rem_39306",
+      "jp": "銅の鉱石から不純物を取り除き、銅だけを取り出して固めた金属原料。金属成分を抽出する際は、液体になるほどの高温にするため、この形状を経由する。",
+      "en": "A metal ingot refined from copper ore. Requires intense heat to extract, resulting in this pure form.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11546,
+      "id": "rem_39307",
+      "jp": "精錬した銅のインゴット",
+      "en": "Refined Copper Ingot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11547,
+      "id": "rem_39308",
+      "jp": "銅を精錬する際に、スズを含ませることで強度を増した金属。金属にしては加工しやすく、見た目も美しい。",
+      "en": "Copper alloyed with tin for strength. Easier to work than most metals and visually appealing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11548,
+      "id": "rem_39309",
+      "jp": "青銅のインゴット",
+      "en": "Bronze Ingot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11549,
+      "id": "rem_39310",
+      "jp": "鉄鉱石を高温で精錬した頑丈な金属。銅とは比較にならないほどの高温が必要な代わりに、途方もない頑丈さを実現した。",
+      "en": "Sturdy metal refined from iron ore at extreme heat. Far tougher than copper.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11550,
+      "id": "rem_39311",
+      "jp": "アイアンのインゴット",
+      "en": "Iron Ingot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11551,
+      "id": "rem_39312",
+      "jp": "アイアンに微量の炭を含ませることで、さらに強靭な頑丈さを実現した金属。強靭でありながら、加工性に優れ、刃物や防具へ加工される。",
+      "en": "Iron infused with carbon for exceptional strength and workability. Ideal for blades and armor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11552,
+      "id": "rem_39313",
+      "jp": "スチールインゴット",
+      "en": "Steel Ingot",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11553,
+      "id": "rem_39314",
+      "jp": "邪悪な魔力を持った金属。魔力の影響を受けやすいこの金属は、邪悪に染めるも、浄化して祝福を授けるのも容易で、マジックアイテムの製造に適している。",
+      "en": "A metal imbued with wicked magic. Easily tainted or purified, making it perfect for crafting enchanted items.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11554,
+      "id": "rem_39315",
+      "jp": "邪悪な魔銀",
+      "en": "Wicked Mithril",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11555,
+      "id": "rem_39316",
+      "jp": "叩けばどこまでも薄く伸びる、黄金のインゴット。永遠に錆びず、光沢を放ち続けるこの金属は、その高級さゆえに、不純物を混ぜた偽物が偽造される事となった。",
+      "en": "A gold ingot that can be hammered endlessly thin. Never tarnishes, but its value has led to widespread counterfeiting.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11556,
+      "id": "rem_39317",
+      "jp": "ぴかぴか延べ棒ゴールド",
+      "en": "Shiny Gold Bar",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11557,
+      "id": "rem_39318",
+      "jp": "渦巻く闇のエネルギーを封じ込めたエネルギー結晶。光を無限に吸い込む闇の如く、あらゆる衝撃を無効化する。鍛冶師たちが加工を夢見る伝説の物質。",
+      "en": "An energy crystal containing swirling dark power. Nullifies all impacts. A legendary material smiths dream of working.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11558,
+      "id": "rem_39319",
+      "jp": "常闇のダークマター",
+      "en": "Eternal Dark Matter",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11559,
+      "id": "rem_39320",
+      "jp": "精製された魔力結晶の塊。魔法の杖や装飾品に用いられることが多い。透き通った内部には、膨大な魔力が秘められている。",
+      "en": "A mass of refined magic crystals. Often used for staves and jewelry, it holds vast magical energy within.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11560,
+      "id": "rem_39321",
+      "jp": "巨大な魔力キューブ",
+      "en": "Giant Mana Cube",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11561,
+      "id": "rem_39322",
+      "jp": "極めて硬い、特殊な配合で焼成した合金。加工することで強靭な装備が作れる。その強度は他の鉄鉱石を圧倒するが、あまりの硬さに加工できる職人は限られる。",
+      "en": "Extremely hard alloy forged with a special mix. Can be crafted into tough gear. Overwhelmingly stronger than other iron ores, but few artisans can work it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11562,
+      "id": "rem_39323",
+      "jp": "超硬度合金",
+      "en": "Super Hard Alloy",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11563,
+      "id": "rem_39324",
+      "jp": "邪悪な力を徹底的に排除し、神聖な祝福を詰め込んだ白銀に輝くインゴット。神聖なのは確かだが、周囲を何でも浄化してしまう。",
+      "en": "A shining silver ingot, purified of evil and infused with holy blessings. Definitely sacred, but purifies everything around it.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11564,
+      "id": "rem_39325",
+      "jp": "聖なるホーリーシルバー",
+      "en": "Holy Silver",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11565,
+      "id": "rem_39326",
+      "jp": "川辺でとれた価値のありそうな雑多な石。中には非常に高価な石が混ざっているが、見つけ出すのは困難であり、一般人は見向きもしない。",
+      "en": "Assorted stones from the riverbank that might hold value. Some are priceless, but finding them is hard and most ignore them.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11566,
+      "id": "rem_39327",
+      "jp": "川辺の原石",
+      "en": "Riverbank Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11567,
+      "id": "rem_39328",
+      "jp": "薄く透き通る鉱石。純度が低く濁っているが、加工すればそれなりの魔術工芸になる。",
+      "en": "A thin, translucent ore. Low purity and cloudy, but can be crafted into decent magical items.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11568,
+      "id": "rem_39329",
+      "jp": "クリスタルの原石",
+      "en": "Crystal Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11569,
+      "id": "rem_39330",
+      "jp": "樹木が長い年月を経て岩石と化したもの。通常の薪よりもよく燃え、鍛冶の重要な燃料にもなる。",
+      "en": "Petrified wood from ancient trees. Burns better than firewood and is vital fuel for smithing.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11570,
+      "id": "rem_39331",
+      "jp": "燃える鉱物",
+      "en": "Burning Mineral",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11571,
+      "id": "rem_39332",
+      "jp": "樹木の化石といわれる美しい宝石。魔力を秘めた妖精の贈り物。",
+      "en": "A beautiful gem said to be fossilized tree sap. A magical gift from fairies.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11572,
+      "id": "rem_39333",
+      "jp": "古の琥珀結晶",
+      "en": "Ancient Amber Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11573,
+      "id": "rem_39334",
+      "jp": "まばゆい光を放つ岩石。その美しい見た目とは裏腹に、人を狂乱に導く魔力を放つ。加工すれば美しい宝石を生み出せるだろう。",
+      "en": "A dazzling rock. Its beauty hides a magic that can drive people mad. Can be crafted into beautiful gems.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11574,
+      "id": "rem_39335",
+      "jp": "虹色の原石",
+      "en": "Rainbow Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11575,
+      "id": "rem_39336",
+      "jp": "聖なる気配を感じるクリスタルの原石。神聖な魔力を秘めており、加工することで邪悪に対抗する道具を生み出すことが出来る。",
+      "en": "Crystal ore with a sacred aura. Contains holy magic; crafting yields tools to fight evil.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11576,
+      "id": "rem_39337",
+      "jp": "神聖なクリスタル原石",
+      "en": "Sacred Crystal Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11577,
+      "id": "rem_39338",
+      "jp": "常人では加工することすらできない、極めて硬い鉄鉱石。その硬度から、武器や防具の素材として非常に重宝される。",
+      "en": "Extremely hard iron ore, impossible for most to work. Valued for making strong weapons and armor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11578,
+      "id": "rem_39339",
+      "jp": "超硬度の鉄鉱石",
+      "en": "Super Hard Iron Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11579,
+      "id": "rem_39340",
+      "jp": "美しい赤き輝きを放つ石。石でありながら燃え上がるような輝きを絶えず放つこの石は、太陽の化身として古代の人間に重宝されていた。",
+      "en": "A stone with a beautiful red glow. It constantly shines like fire and was prized in ancient times as the sun's incarnation.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11580,
+      "id": "rem_39341",
+      "jp": "太陽の原石",
+      "en": "Sunstone Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11581,
+      "id": "rem_39342",
+      "jp": "サルバック砂漠近郊や、各地の鉱山で見つかる、金を含んだ鉱石。誰もが求めながら、産出量が少なく、高値で取引されている。",
+      "en": "A gold-bearing ore found near the Salback Desert and various mines. Highly sought-after, yet scarce and traded at high prices.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11582,
+      "id": "rem_39343",
+      "jp": "ぴかぴか金鉱石",
+      "en": "Shiny Gold Ore",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11583,
+      "id": "rem_39344",
+      "jp": "北方で産出される、輝く魔力を秘めた鉱石。高い魔力伝導率を持ち、高性能な魔具に欠かせないが、産出場所の環境が過酷な為、入手量は限られる。",
+      "en": "A shining, magic-imbued crystal from the north. Excellent magical conductivity makes it vital for high-end magical tools, but its harsh mining environment limits supply.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11584,
+      "id": "rem_39345",
+      "jp": "氷獄のクリスタル",
+      "en": "Ice Prison Crystal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11585,
+      "id": "rem_39346",
+      "jp": "オオカミの排泄物。乾燥させると薬の材料にできるらしい。また、燃やせばよく煙を出しながら燃えてくれる。",
+      "en": "Wolf droppings. They can be used as medicine ingredients when dried. They also burn slowly, producing plenty of smoke.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11586,
+      "id": "rem_39347",
+      "jp": "狼獣の排泄物",
+      "en": "Wolf Beast Droppings",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11587,
+      "id": "rem_39348",
+      "jp": "水分が抜けて乾燥しきった丸太。適度な大きさに斧で割り、焚火の中に放り込めば、長く燃え続けてくれる。",
+      "en": "A log dried out and free of moisture. Split to size with an axe and thrown into a campfire, it will burn for a long time.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11588,
+      "id": "rem_39349",
+      "jp": "乾燥した丸太",
+      "en": "Dried Log",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11589,
+      "id": "rem_39350",
+      "jp": "燃やすために精製した油。一度火を付ければ長く燃え続けるが、水をかけると燃えたままどこまでも広がるので、消火には注意が必要。",
+      "en": "Refined oil for burning. Once lit, it burns steadily. Be careful when extinguishing—it spreads when splashed with water.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11590,
+      "id": "rem_39351",
+      "jp": "燃料オイル",
+      "en": "Fuel Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11591,
+      "id": "rem_39352",
+      "jp": "珍しい、一度火が付けば数日は燃え続ける樹木。その性質の為、冒険者が遠出をする際に重宝されるが、万が一山火事が起これば周辺を焼け野原にしてしまう。",
+      "en": "A rare tree that burns for days once ignited. Prized by adventurers for long journeys, but a potential cause of devastating wildfires.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11592,
+      "id": "rem_39353",
+      "jp": "燃え続ける樹木",
+      "en": "Everburning Tree",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11593,
+      "id": "rem_39354",
+      "jp": "激しく燃焼させないよう、じっくりと高温で制作した炭。木材とは違い、長く燃え続けるうえ、かなりの熱量を誇る。",
+      "en": "Charcoal made slow-cooked at high heat. Unlike wood, it burns long and steady, with intense heat output.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11594,
+      "id": "rem_39355",
+      "jp": "良く燃える活性炭",
+      "en": "High-Burn Charcoal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11595,
+      "id": "rem_39356",
+      "jp": "空気に触れると爆発的な熱が発生し、燃え上がる水。布に染み込ませるだけで種火が得られ、入れ物ごと叩き割れば武器にもなるが、扱いには細心の注意が必要。",
+      "en": "Water that bursts into flame upon contact with air. Soak cloth for an instant fire starter, or break the container to use as a weapon—handle with extreme care.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11596,
+      "id": "rem_39357",
+      "jp": "燃える水",
+      "en": "Burning Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11597,
+      "id": "rem_39358",
+      "jp": "盃の上でいつまでも燃え続けている祝福された炎。強風でも、水をかけても消えないが、うっかり荷物袋に入れてしまうと、袋ごと盃が燃え尽きてしまう事になる。",
+      "en": "A blessed flame that burns eternally atop a cup. Unaffected by wind or water, but leaving it in a bag will burn everything to ashes.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11598,
+      "id": "rem_39359",
+      "jp": "聖なる業火",
+      "en": "Sacred Purgatory Flame",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11599,
+      "id": "rem_39360",
+      "jp": "火花を散らし、気化させたオイルを継続的かつ、少量ずつ燃焼させる器具。魔力を持たない人間でも、炎を自在に発生させられるが、あくまで種火用。",
+      "en": "A device that atomizes and ignites oil to create a continuous, small flame. Allows even non-magical users to generate fire, but only as a starter.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11600,
+      "id": "rem_39361",
+      "jp": "燃焼オイル火花セット",
+      "en": "Oil Burning Spark Kit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    }
+  ]
+}

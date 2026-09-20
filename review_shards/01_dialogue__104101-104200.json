@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104101,
+  "range_end": 104200,
+  "pairs": [
+    {
+      "n": 104101,
+      "id": "db_EventInfo:123102:2",
+      "jp": "とにかく要点を言えデス",
+      "en": "Just get to the point, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104102,
+      "id": "db_EventInfo:123103:15",
+      "jp": "引き抜きだ",
+      "en": "Poaching.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104103,
+      "id": "db_EventInfo:123104:1",
+      "jp": "引き抜き？",
+      "en": "Poaching?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104104,
+      "id": "db_EventInfo:123105:15",
+      "jp": "【『ゼカリウス自警団』】が近頃、かなり力を付けていてね。勢力を広げて他組織のメンバーを強引に引き抜いているようなんだ",
+      "en": "The 'Zecarius Vigilante Group' has gained a lot of power lately. They're expanding and forcibly poaching members from other groups.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104105,
+      "id": "db_EventInfo:123106:15",
+      "jp": "そして引き抜いたメンバーを集めて、過剰なほどの武具を揃えたり、付近に傭兵みたいな活動を始めているそうなんだよ",
+      "en": "They gather the poached members, equip them with excessive gear, and have started acting like mercenaries in the area.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104106,
+      "id": "db_EventInfo:123107:1",
+      "jp": "なんでそんなことに",
+      "en": "Why would they do that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104107,
+      "id": "db_EventInfo:123108:15",
+      "jp": "かなり潤沢な資金が集まっているから、使い道に困ってるんじゃないのかい？",
+      "en": "We've gathered quite a lot of money. Aren't you worried about how to use it?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104108,
+      "id": "db_EventInfo:123109:2",
+      "jp": "オマエが投資しすぎたせいデスかね",
+      "en": "Maybe that's because you invested too much, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104109,
+      "id": "db_EventInfo:123110:1",
+      "jp": "うっ",
+      "en": "Ugh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104110,
+      "id": "db_EventInfo:123111:15",
+      "jp": "とにかく民間が武力を持ちすぎると危険だ。どうにかしないとね",
+      "en": "Anyway, it's dangerous if civilians have too much military power. We need to do something.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104111,
+      "id": "db_EventInfo:123112:2",
+      "jp": "引き抜かないように説得するのデスね",
+      "en": "So we need to persuade them not to poach people, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104112,
+      "id": "db_EventInfo:123115:2",
+      "jp": "説得は上手く行ったようデス",
+      "en": "The persuasion seems to have gone well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104113,
+      "id": "db_EventInfo:123116:15",
+      "jp": "【『自警団』】の人たちも頭を冷やしたみたいで、自分たちの武装が過剰になっていることを改めるみたいだ",
+      "en": "The 『Vigilante Group』 people have calmed down too. They're going to fix their excessive armament.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104114,
+      "id": "db_EventInfo:123117:2",
+      "jp": "うむ、やはり最後にモノをいうのは暴力デスね",
+      "en": "Hmm, in the end, violence is what settles things, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104115,
+      "id": "db_EventInfo:123120:2",
+      "jp": "説得は上手く行ったようデス",
+      "en": "The persuasion seems to have gone well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104116,
+      "id": "db_EventInfo:123121:15",
+      "jp": "【『自警団』】の人たちを説得できたようだけど……",
+      "en": "Looks like we managed to persuade the 『Vigilante Group』 people...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104117,
+      "id": "db_EventInfo:123122:15",
+      "jp": "やはり、武力が無ければ物事は解決しないと、意識を強くしてしまったようだ",
+      "en": "But they seem to have gotten the strong idea that without force, nothing gets solved.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104118,
+      "id": "db_EventInfo:123123:2",
+      "jp": "むむ、頭の固い奴らデス",
+      "en": "Hmm, stubborn folks, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104119,
+      "id": "db_EventInfo:123124:2",
+      "jp": "暴力をこえるパワー、それは金の力デスね",
+      "en": "The power that beats violence... that's the power of money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104120,
+      "id": "db_EventInfo:123125:2",
+      "jp": "説得はうまく行ったようデス",
+      "en": "Looks like the persuasion worked.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104121,
+      "id": "db_EventInfo:123126:15",
+      "jp": "【『自警団』】でも発言力の強い人間を狙い撃ちして懐柔して、統率を揺るがせることに成功したよ",
+      "en": "We targeted and won over some influential people in the Vigilante Group, and succeeded in shaking their leadership.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104122,
+      "id": "db_EventInfo:123127:15",
+      "jp": "組織というものは統率が乱れると脆いものだからね",
+      "en": "When an organization's leadership gets messed up, it becomes fragile.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104123,
+      "id": "db_EventInfo:123128:15",
+      "jp": "【『ゴブリン』】や魔獣の脅威が広がっている。自衛意識を弱めることは難しいみたいだ",
+      "en": "The threats from Goblins and magical beasts are growing. It seems hard to weaken their self-defense mindset.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104124,
+      "id": "db_EventInfo:123129:15",
+      "jp": "【『自警団』】の人たちが武装組織になっていくのは、とめられないかもしれないね……",
+      "en": "Maybe we can't stop the Vigilante Group folks from becoming a full-on armed force...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104125,
+      "id": "db_EventInfo:123130:2",
+      "jp": "なかなか難しいデスね",
+      "en": "It's quite tricky.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104126,
+      "id": "db_EventInfo:123131:1",
+      "jp": "今はこのままにしておくしかないか",
+      "en": "For now, we might just have to leave things as they are.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104127,
+      "id": "db_EventInfo:123133:17",
+      "jp": "店長さん、ちょっと相談したいことがありまして",
+      "en": "Shop Manager, I'd like to talk to you about something.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104128,
+      "id": "db_EventInfo:123134:1",
+      "jp": "な、なんでしょうか？",
+      "en": "Wh-what is it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104129,
+      "id": "db_EventInfo:123135:17",
+      "jp": "最近の【『ゼカリウス自警団』】の子達が、少々たるんでおりまして",
+      "en": "Lately, the kids in the Zecarius Vigilante Group have been getting a bit lazy.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104130,
+      "id": "db_EventInfo:123136:1",
+      "jp": "ほう",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104131,
+      "id": "db_EventInfo:123137:17",
+      "jp": "心身の弛みはもしものときに命取りとなります。そこで環境を一新するための大規模な訓練を行ないたいのです。指導をお願いできませんか？",
+      "en": "If your mind and body get weak, it could get you killed when it matters. So I want to run a big training exercise to shake things up. Could you please teach us?",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104132,
+      "id": "db_EventInfo:123138:2",
+      "jp": "指導なら、オマエがやればいいデス",
+      "en": "For teaching, you should do it yourself.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104133,
+      "id": "db_EventInfo:123139:17",
+      "jp": "正統派の、達人級の使い手の指導を仰ぎたいのです。店長さんは既に冒険者としてもかなりの成果を出していますし、団員も教えを請いたいそうです",
+      "en": "I want guidance from a proper, master-level user. The shop owner here has already achieved quite a lot as an adventurer, and my squad also wants to learn.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104134,
+      "id": "db_EventInfo:123140:17",
+      "jp": "自分は不器用でして。正統派の武器の扱いはあまり教えられません。【『ゴブリン』】の巣を潰して焼く方法なら教えられるのですが",
+      "en": "I'm not very skilled myself. I can't teach proper weapon handling well. I could teach how to crush and burn a Goblin nest, though.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104135,
+      "id": "db_EventInfo:123141:2",
+      "jp": "それを教えればいいんじゃないデス？",
+      "en": "Just tell him that, okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104136,
+      "id": "db_EventInfo:123142:17",
+      "jp": "……なぜか逃げられまして",
+      "en": "...For some reason, they all run away.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104137,
+      "id": "db_EventInfo:123143:1",
+      "jp": "うーむ",
+      "en": "Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104138,
+      "id": "db_EventInfo:123144:1",
+      "jp": "稽古、そして達人級の冒険者といえば……",
+      "en": "Training, and when I think of a master-level adventurer...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104139,
+      "id": "db_EventInfo:123145:2",
+      "jp": "ヤツを呼んでしまうのデス？",
+      "en": "Are you going to call that guy?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104140,
+      "id": "db_EventInfo:123149:10",
+      "jp": "【『自警団』】を訓練？",
+      "en": "Train the Self-Defense Force?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104141,
+      "id": "db_EventInfo:123150:2",
+      "jp": "今回は激しい訓練がお望みのようデス。シゴキあげて欲しいデス",
+      "en": "This time they seem to want intense training. They want to be worked hard.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104142,
+      "id": "db_EventInfo:123151:10",
+      "jp": "よし、任せておけ！",
+      "en": "Alright, leave it to me!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104143,
+      "id": "db_EventInfo:123152:10",
+      "jp": "いつも通り地獄の特訓メニューを用意してやるぞ！",
+      "en": "I've got the usual hellish training menu ready for you!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104144,
+      "id": "db_EventInfo:123153:1",
+      "jp": "ダメだって。今回は衛兵さんと一緒に訓練するんだ",
+      "en": "No way. This time I'm training with the Guard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104145,
+      "id": "db_EventInfo:123154:10",
+      "jp": "む、衛兵殿とか……まあ、それなら肉体的な稽古は重視しなくていいか",
+      "en": "Mm, with the Guard, huh... Well, in that case, I guess I don't need to focus too much on physical training.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104146,
+      "id": "db_EventInfo:123155:10",
+      "jp": "ふむ、ゴブリンの巣を殲滅するような強力な毒の作り方の講義にしよう",
+      "en": "Hmm, let's have a lecture on how to make a powerful poison to wipe out a Goblin nest.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104147,
+      "id": "db_EventInfo:123156:17",
+      "jp": "それは素晴らしい！",
+      "en": "That sounds excellent!",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104148,
+      "id": "db_EventInfo:123157:1",
+      "jp": "ダメー！！",
+      "en": "No way!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104149,
+      "id": "db_EventInfo:123160:0",
+      "jp": "その後。",
+      "en": "Later.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104150,
+      "id": "db_EventInfo:123161:10",
+      "jp": "訓練は上手く行ったぞ！",
+      "en": "The training went well!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104151,
+      "id": "db_EventInfo:123162:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104152,
+      "id": "db_EventInfo:123163:10",
+      "jp": "いやあ、皆、なかなか見込みのある者たちだった。私も気持ち良く訓練指導が出来たぞ",
+      "en": "Ah, everyone was quite promising. I was able to give a very satisfying training session.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104153,
+      "id": "db_EventInfo:123164:1",
+      "jp": "いやまさか、成功したのか？",
+      "en": "No way... it actually succeeded?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104154,
+      "id": "db_EventInfo:123165:17",
+      "jp": "はい。かなり厳しい訓練だったようですが、皆しっかりとついてきたようですね",
+      "en": "Yes. It seemed like quite a tough session, but everyone seemed to keep up just fine.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104155,
+      "id": "db_EventInfo:123166:17",
+      "jp": "あれだけの訓練に耐えられるなら、冒険者としてもやっていけそうなものですが",
+      "en": "If you can handle all that training, you'd probably make a good adventurer.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104156,
+      "id": "db_EventInfo:123167:1",
+      "jp": "そういや、あくまで【『自警団』】なんだよな……勿体ないような、安心なような",
+      "en": "Now that you mention it, this is just a 'self-defense group'... It feels like a waste, but also kind of reassuring.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104157,
+      "id": "db_EventInfo:123168:17",
+      "jp": "はい。予定より多くの人間が残りました。上出来です",
+      "en": "Yes. More people stayed than planned. Good job.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104158,
+      "id": "db_EventInfo:123170:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104159,
+      "id": "db_EventInfo:123171:1",
+      "jp": "予定より、多く……？　みんな無事だったんじゃないの？",
+      "en": "More... than planned? Wasn't everyone supposed to be okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104160,
+      "id": "db_EventInfo:123172:10",
+      "jp": "えっ？　ま、まあなんというか、あはは",
+      "en": "Huh? W-well, um... ahaha.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104161,
+      "id": "db_EventInfo:123173:2",
+      "jp": "指導ミスデス？",
+      "en": "Did you make a mistake teaching them?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104162,
+      "id": "db_EventInfo:123174:17",
+      "jp": "いえ、彼女は上手く指導をしていたようですが、その、雑念が多かったようですね",
+      "en": "No, it seems she taught them well, but... there were a lot of distracting thoughts.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104163,
+      "id": "db_EventInfo:123175:1",
+      "jp": "というと",
+      "en": "Meaning what?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104164,
+      "id": "db_EventInfo:123176:17",
+      "jp": "エリオルダさんは美人ですから",
+      "en": "Well, Eliorda is beautiful.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104165,
+      "id": "db_EventInfo:123177:17",
+      "jp": "彼女に不埒なことを働こうとした者が後を絶たず。申し訳ないですが、私には止められませんでした。",
+      "en": "People kept trying to do bad things to her. I'm sorry, but I couldn't stop them.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 104166,
+      "id": "db_EventInfo:123178:1",
+      "jp": "ああ、なるほど……（露出もけっこう激しいしな）",
+      "en": "Ah, I see... (and her outfit shows a lot too)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104167,
+      "id": "db_EventInfo:123179:10",
+      "jp": "やはり感情を捨てる、冷徹な戦闘マシーンとして教育しなくてはならないのか……ブツブツ",
+      "en": "Maybe I really do have to raise them to be cold, emotionless fighting machines... Muttering...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 104168,
+      "id": "db_EventInfo:123180:1",
+      "jp": "問題が根本的に違っていることを、本人は気付いていないようだな",
+      "en": "It seems she hasn't noticed she's completely misunderstanding the problem.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104169,
+      "id": "db_EventInfo:123181:2",
+      "jp": "やれやれデス",
+      "en": "Oh, dear me, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104170,
+      "id": "db_EventInfo:123182:15",
+      "jp": "やあ店長君、困ったことになった",
+      "en": "Hey, Shopkeep. We've got a problem.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104171,
+      "id": "db_EventInfo:123184:2",
+      "jp": "おいデシルス、またトラブルを持ち込んだデス？",
+      "en": "Hey, Desilus. Did you bring us trouble again, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104172,
+      "id": "db_EventInfo:123185:15",
+      "jp": "失敬な。ちょっと【『ゼカリウス自警団』】に仕事がないか訊ねたんだけど",
+      "en": "That's rude. I just went to ask the 'Zecarius Vigilante Group' if they had any work.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104173,
+      "id": "db_EventInfo:123186:2",
+      "jp": "む、宿の外に人の気配がするデスね？",
+      "en": "Hmm, I sense people outside the inn, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104174,
+      "id": "db_EventInfo:123187:15",
+      "jp": "どうやら店長君達を、直接【『自警団』】に組み込もうと考えているみたいなんだ",
+      "en": "It seems they're thinking about directly recruiting you into the 'Vigilante Group'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104175,
+      "id": "db_EventInfo:123188:1",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104176,
+      "id": "db_EventInfo:123189:15",
+      "jp": "店長君の店は、この一帯でも目立つ組織だからね、地域のボスになってもらって、自分たちを守ってもらいたいって算段じゃないかな？",
+      "en": "Your shop is a noticeable organization around here. I think they plan to make you the local boss and have you protect them.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104177,
+      "id": "db_EventInfo:123190:2",
+      "jp": "冗談じゃないデス。【『自警団』】に入ったら、宿の経営が出来なくなるデス。他にも色々と、やることが残っているデス！",
+      "en": "No way, desu. If we join the 'Vigilante Group', we can't run the inn anymore, desu. We still have lots of other things to do, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104178,
+      "id": "db_EventInfo:123191:0",
+      "jp": "そうこうするうちに、【『ゼカリウス自警団』】から使者がやってきてしまった。",
+      "en": "While we were talking, an envoy from the 'Zecarius Vigilante Group' arrived.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104179,
+      "id": "db_EventInfo:123192:0",
+      "jp": "彼らは俺達を【『ゼカリウス自警団』】に繰り込もうと勧誘してくる！",
+      "en": "They're trying to get us to join something called the 'Zecarius Self-Defense Force'!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104180,
+      "id": "db_EventInfo:123193:1",
+      "jp": "ど、どうしよう……",
+      "en": "Wh-what do we do...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104181,
+      "id": "db_EventInfo:123194:2",
+      "jp": "うちはセールスお断りだってことを、たたき込んでやるデス",
+      "en": "I'll teach them we don't accept solicitations.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104182,
+      "id": "db_EventInfo:123198:2",
+      "jp": "叩きのめしてやったデス。これで勧誘は――",
+      "en": "I beat them good. That should stop the recruitment—",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104183,
+      "id": "db_EventInfo:123199:15",
+      "jp": "強さに惚れ込まれて、ますます組織の一員に組み込みたい意思を固めたそうだ",
+      "en": "It seems they were so impressed by your strength, they're even more determined to make you join.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104184,
+      "id": "db_EventInfo:123200:2",
+      "jp": "デス――！？",
+      "en": "Wha—!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104185,
+      "id": "db_EventInfo:123201:0",
+      "jp": "勧誘者達が迫ってくる！",
+      "en": "The recruiters are closing in!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104186,
+      "id": "db_EventInfo:123202:2",
+      "jp": "存外にしぶといようデスね！？",
+      "en": "They're more stubborn than I thought!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104187,
+      "id": "db_EventInfo:123203:15",
+      "jp": "中途半端に刺激したせいで、ますます勧誘が激しくなってしまったようだよ",
+      "en": "It looks like our half-hearted resistance just made them try even harder.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 104188,
+      "id": "db_EventInfo:123204:2",
+      "jp": "デス――！？",
+      "en": "What!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104189,
+      "id": "db_EventInfo:123205:0",
+      "jp": "ど、どうすれば……",
+      "en": "What are we supposed to do...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104190,
+      "id": "db_EventInfo:123207:8",
+      "jp": "あれ、お兄ちゃん、困ってるの～？",
+      "en": "Huh? Are you guys in trouble?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104191,
+      "id": "db_EventInfo:123208:1",
+      "jp": "い、いいところに！　暴力には訴えたくないし、かといって単純に口が通じる相手じゃないからな",
+      "en": "Whoa, just in time! I don't want to resort to violence, but this guy clearly isn't someone you can just talk things out with.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104192,
+      "id": "db_EventInfo:123209:8",
+      "jp": "おっけーД　ルーシェにおまかせД",
+      "en": "OkayД Leave it to LuscheД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104193,
+      "id": "db_EventInfo:123212:8",
+      "jp": "軽く【『魅了』】して、お引き取り願ったよ～Д",
+      "en": "Just gave him a little ['Charm'] and sent him on his way~Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104194,
+      "id": "db_EventInfo:123213:8",
+      "jp": "頭の中をぼんやりさせて、何のために来たのかわからなくしたから、しばらく来ないと思うよぉД",
+      "en": "I made his head all fuzzy and he forgot why he even came here, so I don't think he'll be back for a whileД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104195,
+      "id": "db_EventInfo:123214:1",
+      "jp": "よくやった",
+      "en": "Good job.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104196,
+      "id": "db_EventInfo:123215:2",
+      "jp": "たまには役に立つやつデス",
+      "en": "It seems she is useful sometimes, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104197,
+      "id": "db_EventInfo:123216:8",
+      "jp": "それでルーシェ、サキュバスの力を使ったからぁ……身体の方、火照ってきちゃったД",
+      "en": "But since I used my succubus power... my body's starting to feel all hotД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104198,
+      "id": "db_EventInfo:123217:1",
+      "jp": "うっ",
+      "en": "Uh oh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104199,
+      "id": "db_EventInfo:123218:8",
+      "jp": "しばらくお兄ちゃん借りたいけど、いいよねぇД",
+      "en": "I want to borrow big bro for a while, that's okay, rightД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104200,
+      "id": "db_EventInfo:123219:2",
+      "jp": "よかろうデス",
+      "en": "Very well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

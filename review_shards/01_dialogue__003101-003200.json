@@ -1,0 +1,811 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3101,
+  "range_end": 3200,
+  "pairs": [
+    {
+      "n": 3101,
+      "id": "db_EventInfo:3374:0",
+      "jp": "主人公とヒロインが一緒に仕事をしていると、ヒロインはお店の仕事ができません。その代わり【好感度が少しずつアップ】します。",
+      "en": "When the Player and a heroine work together, the heroine can't do shop work. Instead, their affection level goes up little by little.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3102,
+      "id": "db_EventInfo:3375:0",
+      "jp": "とくにユニークヒロインの【好感度】がアップすると、いろんないいことがあります。たくさんヒロインとイチャつきましょう。",
+      "en": "Especially when a unique heroine's affection level goes up, many good things happen. Spend lots of time flirting with the heroines.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3103,
+      "id": "db_EventInfo:3376:2",
+      "jp": "ドロボーデス！",
+      "en": "Thief!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3104,
+      "id": "db_EventInfo:3377:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3105,
+      "id": "db_EventInfo:3378:2",
+      "jp": "店の商品を盗まれたデス！",
+      "en": "Shop goods have been stolen!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3106,
+      "id": "db_EventInfo:3379:2",
+      "jp": "おのれ、死神の店に忍び込むとは命知らずなやつめデス！",
+      "en": "How dare they sneak into a Shinigami's shop! They have no regard for their life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3107,
+      "id": "db_EventInfo:3380:2",
+      "jp": "ものども、出会えー！　出会えーデス！　生きてここから帰すなデス！",
+      "en": "Minions, come out! Come out! Don't let them leave here alive!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3108,
+      "id": "db_EventInfo:3382:2",
+      "jp": "ならずものが攻めてきたデス！",
+      "en": "Scoundrels are attacking!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3109,
+      "id": "db_EventInfo:3383:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3110,
+      "id": "db_EventInfo:3384:2",
+      "jp": "店の商品やカネを盗むつもりデス！",
+      "en": "They plan to steal the shop's goods and money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3111,
+      "id": "db_EventInfo:3385:2",
+      "jp": "おのれ、死神の店を襲うとは命知らずなやつめデス！",
+      "en": "You dare to attack a Shinigami's shop? You have no regard for your own life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3112,
+      "id": "db_EventInfo:3386:2",
+      "jp": "ものども、出会えー！　出会えーデス！　生きてここから帰すなデス！",
+      "en": "Get them! Get them! Don't let any of them leave here alive!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3113,
+      "id": "db_EventInfo:3387:0",
+      "jp": "ならずもの襲撃時は、全員が「応戦」モードになります",
+      "en": "When scoundrels attack, all units switch to 'Fight Back' mode.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3114,
+      "id": "db_EventInfo:3388:0",
+      "jp": "【『防犯』】の値が高いユニットほど攻撃力が高くなりますが、部門にかかわらず戦力を発揮できるので【『防犯部門』】に配置する必要はありません",
+      "en": "Units with a high 'Security' stat fight harder. They fight well from any department. You don't need to put them in 'Security'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3115,
+      "id": "db_EventInfo:3389:2",
+      "jp": "ゴブリンが攻めてきたデス！",
+      "en": "Goblins are attacking!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3116,
+      "id": "db_EventInfo:3390:1",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3117,
+      "id": "db_EventInfo:3391:2",
+      "jp": "店の商品やカネを盗むつもりデス！",
+      "en": "They're here to steal the shop's goods and money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3118,
+      "id": "db_EventInfo:3392:2",
+      "jp": "おのれ、死神の店を襲うとは命知らずなやつめデス！",
+      "en": "You dare to attack a Shinigami's shop? You have no regard for your own life!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3119,
+      "id": "db_EventInfo:3393:2",
+      "jp": "ものども、出会えー！　出会えーデス！　ゴブリンは皆殺しにしてやるデス！",
+      "en": "Get them! Get them! We'll kill every last Goblin!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3120,
+      "id": "db_EventInfo:3394:2",
+      "jp": "むう……ドロボーに逃げられたデス",
+      "en": "Ugh... The thieves got away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3121,
+      "id": "db_EventInfo:3395:2",
+      "jp": "一定時間以内に倒せないと【逃げられる】デス",
+      "en": "If we don't beat them fast, they'll run away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3122,
+      "id": "db_EventInfo:3396:2",
+      "jp": "逃げられたら【噂】が立って、店の評判が下がって【『犯罪値』】も上がるデス",
+      "en": "If they get away, word gets around. Our shop's rep drops and the Crime Rate goes up.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3123,
+      "id": "db_EventInfo:3397:1",
+      "jp": "盗んでも逃げられる、って噂か……",
+      "en": "So the rumor is you can steal and get away with it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3124,
+      "id": "db_EventInfo:3398:1",
+      "jp": "【『犯罪値』】が上がったら、ますます泥棒も増えるな",
+      "en": "If the Crime Rate goes up, we'll get even more thieves.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3125,
+      "id": "db_EventInfo:3399:2",
+      "jp": "ドロボーを捕まえたデス！",
+      "en": "We caught a thief!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3126,
+      "id": "db_EventInfo:3400:2",
+      "jp": "ドロボーを捕まえると、わずかデスが【報奨金】が入るデス",
+      "en": "Catching a thief gets us a small reward.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3127,
+      "id": "db_EventInfo:3401:2",
+      "jp": "しかし、盗まれたモノは帰ってこないデス。ドロボーを許した時点で損害デス",
+      "en": "But we don't get the stolen stuff back. Letting the thief go is a loss.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3128,
+      "id": "db_EventInfo:3402:1",
+      "jp": "泥棒自体を減らさないとな……",
+      "en": "We need to reduce the number of thieves...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3129,
+      "id": "db_EventInfo:3403:2",
+      "jp": "まあそのかわり、【『犯罪値』】はごっそり減るデス",
+      "en": "Well, on the bright side, the Crime Rate goes down a lot.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3130,
+      "id": "db_EventInfo:3404:2",
+      "jp": "見せしめ、ってことデスね……ククク",
+      "en": "It's a warning to others... Heh heh heh.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3131,
+      "id": "db_EventInfo:3405:1",
+      "jp": "（目が笑ってない！）",
+      "en": "(His eyes aren't smiling!).",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3132,
+      "id": "db_EventInfo:3406:2",
+      "jp": "ああっ、客が攻撃されたデス！",
+      "en": "Ah! A customer is under attack!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3133,
+      "id": "db_EventInfo:3407:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3134,
+      "id": "db_EventInfo:3408:2",
+      "jp": "このままだと店に被害が出るデス。さっさと盗賊を倒すデス！",
+      "en": "If we let this go, the store will take damage. We need to take down these thieves now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3135,
+      "id": "db_EventInfo:3409:1",
+      "jp": "そうは言っても素早くて、一気に倒せないな",
+      "en": "Easier said than done. They're fast. We can't take them all out at once.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3136,
+      "id": "db_EventInfo:3410:1",
+      "jp": "（足りないなら、人手を増やすしかないか……？　うーん……）",
+      "en": "(If we don't have enough, maybe we need more people...? Hmm...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3137,
+      "id": "db_EventInfo:3411:2",
+      "jp": "ああっ、客が倒されてしまったデス！",
+      "en": "Ah! A customer was taken down!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3138,
+      "id": "db_EventInfo:3412:1",
+      "jp": "なんてこった",
+      "en": "Oh no.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3139,
+      "id": "db_EventInfo:3413:2",
+      "jp": "ヤツらが暴れると損害が出るデス。さっさと倒すデス！",
+      "en": "If we let them run wild, we'll lose money. Take them down now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3140,
+      "id": "db_EventInfo:3414:1",
+      "jp": "そうは言っても素早くて、一気に倒せないな",
+      "en": "Easier said than done. They're fast. We can't take them all out at once.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3141,
+      "id": "db_EventInfo:3415:2",
+      "jp": "【『防犯』】の値が高い店員なら戦力になるはずデス。そういう奴らを求人するデス！",
+      "en": "Staff with high 'Crime Prevention' stats should help in a fight. Hire some people like that!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3142,
+      "id": "db_EventInfo:3416:1",
+      "jp": "と、とにかく今はなんとかしないと！",
+      "en": "For now, we just have to deal with this somehow!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3143,
+      "id": "db_EventInfo:3417:2",
+      "jp": "ならずものをつかまえたデス！",
+      "en": "We caught the troublemaker!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3144,
+      "id": "db_EventInfo:3418:2",
+      "jp": "ならずものをつかまえると、【報奨金】がもらえるデス、どんどん捕まえるデス！",
+      "en": "When you catch troublemakers, you get a 'reward'. Catch them all!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3145,
+      "id": "db_EventInfo:3419:2",
+      "jp": "ゴブリンを倒したデス！",
+      "en": "We beat the Goblin, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3146,
+      "id": "db_EventInfo:3420:2",
+      "jp": "ゴブリンを倒すと、【報奨金】がもらえるデス、皆殺しにしてやるデス！",
+      "en": "If you beat Goblins, you get a reward, desu. Let's kill them all, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3147,
+      "id": "db_EventInfo:3421:2",
+      "jp": "でかいゴブリンを倒したデス！",
+      "en": "We beat a big Goblin, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3148,
+      "id": "db_EventInfo:3422:2",
+      "jp": "でかいだけに、普通のゴブリンよりも手強いデス。頑張って倒すデス！",
+      "en": "Because it's big, it's tougher than a normal Goblin, desu. Work hard to beat it, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3149,
+      "id": "db_EventInfo:3423:2",
+      "jp": "邪教徒を倒したデス！",
+      "en": "We beat the cultist, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3150,
+      "id": "db_EventInfo:3424:2",
+      "jp": "こんな奴らが攻めてくるようになったデスかね。こいつらも【報奨金】がもらえるデス",
+      "en": "So these are the guys attacking now, desu, huh? You can get a reward for these guys too, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3151,
+      "id": "db_EventInfo:3427:2",
+      "jp": "【パートナーミッション】が解放されたデスね",
+      "en": "A Partner Mission has been unlocked, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3152,
+      "id": "db_EventInfo:3428:2",
+      "jp": "ユニークユニットからの要望である【パートナーミッション】をクリアすると、スタッフとの絆が深まり、スタッフのランクがアップするデス",
+      "en": "Complete a Partner Mission, which is a request from a unique unit, to deepen your bond with the staff and raise the staff's rank, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3153,
+      "id": "db_EventInfo:3429:2",
+      "jp": "ランクアップすると、店員としての能力が高まって、より多くのカネを稼げるようになるデス。ランクアップは重要デス！",
+      "en": "When their rank goes up, their ability as a shop clerk improves and they can earn more money, desu. Raising rank is important, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3154,
+      "id": "db_EventInfo:3430:2",
+      "jp": "ダンジョンに参加できるスタッフであれば、戦闘能力もアップするデス。クリア得なので、どんどん受けてミッションクリアするデス！",
+      "en": "For staff that can join dungeons, their combat ability also improves, desu. It's a clear win, so keep accepting and completing these missions, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3155,
+      "id": "db_EventInfo:3431:2",
+      "jp": "一方で、ユニークユニットのランクは【パートナーミッションをクリアしないと、高まらない】デス。モブと違って面倒くさいのデス",
+      "en": "On the other hand, the rank of unique units won't go up if you don't clear Partner Missions, desu. They're more troublesome than the mob ones, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3156,
+      "id": "db_EventInfo:3432:2",
+      "jp": "ちなみにミッションを放置すると【10日で取り消し】になるデス。念のため、気を付けるデス",
+      "en": "By the way, if you ignore a mission, it gets canceled after 10 days, desu. Just in case, be careful, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3157,
+      "id": "db_EventInfo:3433:2",
+      "jp": "ユニットのランクをアップさせたのデスね",
+      "en": "You upgraded a unit's rank, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3158,
+      "id": "db_EventInfo:3434:2",
+      "jp": "ランクアップすると、店員としての能力が高まって、より多くのカネを稼げるようになるデス。ランクアップは重要デス！",
+      "en": "Higher rank means better skills as a shopkeeper. They can make more money. Rank-ups are important, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3159,
+      "id": "db_EventInfo:3435:2",
+      "jp": "ただし、私やオマエのような【ユニークユニット】のランクはボタン一つでアップできないデス。モブと違って面倒くさいのデス",
+      "en": "But for [Unique Units] like me or you, you can't just push a button to rank up. It's more annoying than for the mobs, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3160,
+      "id": "db_EventInfo:3436:2",
+      "jp": "ランクアップの方法はまた別の方法があるデス。【そのうち解放される】はずなので、気にせず経営を続けるデス",
+      "en": "There's another way to rank us up. [It'll be unlocked later]. So don't worry and just keep running the shop, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3161,
+      "id": "db_EventInfo:3437:2",
+      "jp": "ユニットのランクの限界に達しているデスね。ユニットランクは死神の格に比例して限界が高まるデス",
+      "en": "This unit's rank has hit its limit, desu ne. A unit's rank limit is tied to the Shinigami's status, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3162,
+      "id": "db_EventInfo:3438:2",
+      "jp": "死神の格はすなわち店の格デス。店の格を高めるには商品メニューの開発が必要デス。【開発数に応じてユニットランクの限界も高まる】デス。",
+      "en": "The Shinigami's status is the shop's status, desu. To raise the shop's status, you need to develop new product menus. [As you develop more, the unit rank limit goes up], desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3163,
+      "id": "db_EventInfo:3439:2",
+      "jp": "目指すは商品メニューのコンプリートデス！",
+      "en": "Our goal is to complete the product menu, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3164,
+      "id": "db_EventInfo:3440:0",
+      "jp": "★bgm・不穏",
+      "en": "(★bgm - Ominous)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3165,
+      "id": "db_EventInfo:3441:2",
+      "jp": "ああもう！　店が汚くなってイライラするデス！",
+      "en": "Argh, seriously! This dirty shop is so irritating, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3166,
+      "id": "db_EventInfo:3442:1",
+      "jp": "おっ、落ち着けって！？",
+      "en": "Hey, calm down!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3167,
+      "id": "db_EventInfo:3443:2",
+      "jp": "落ち着けないデス！　オマエが掃除をしないなら、私がこの【鎌】でまとめてスッパリ綺麗にしてやるデス！",
+      "en": "I can't calm down, desu! If you won't clean, I'll use this [Scythe] to neatly tidy everything up at once, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3168,
+      "id": "db_EventInfo:3444:1",
+      "jp": "やっ、やめろおおおおおおおお！！！",
+      "en": "Sto-op, stooooooop!!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3169,
+      "id": "db_EventInfo:3447:0",
+      "jp": "その後、シイネが大暴れして……。",
+      "en": "Then, Shiine went on a rampage...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3170,
+      "id": "db_EventInfo:3448:0",
+      "jp": "俺達の店にとてつもない被害が出てしまった……。",
+      "en": "Our shop suffered massive damage...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3171,
+      "id": "db_EventInfo:3449:1",
+      "jp": "(シイネをキレさせないように、掃除しないとな……)",
+      "en": "(I have to clean... or I'll set Shiine off again.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3172,
+      "id": "db_EventInfo:3450:0",
+      "jp": "★フラグオン・ゴミを全クリア",
+      "en": "★CLEAR ALL TRASH FLAGS",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3173,
+      "id": "db_EventInfo:3451:2",
+      "jp": "おいオマエ、【ごみ】が散らかっているデス",
+      "en": "Hey you, there's trash all over the place!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3174,
+      "id": "db_EventInfo:3452:1",
+      "jp": "【『清掃』】の手が足りてないみたいだな",
+      "en": "Looks like we're short on hands for Cleaning.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3175,
+      "id": "db_EventInfo:3453:2",
+      "jp": "ならば【『編成』】で誰かを【『清掃』】にするデス！",
+      "en": "Then assign someone to Cleaning through the Staff Roster!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3176,
+      "id": "db_EventInfo:3454:1",
+      "jp": "そうだな……",
+      "en": "Right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3177,
+      "id": "db_EventInfo:3455:2",
+      "jp": "【『清掃』】自体はわりと誰でもできるデスから、手が空いてるスタッフを割り振っておきたいところデスね",
+      "en": "Pretty much anyone can do Cleaning, so you should assign any staff member who's free.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3178,
+      "id": "db_EventInfo:3456:2",
+      "jp": "割り振れる奴がいないなら、だれでもいいからスタッフを採用するデス！",
+      "en": "If there's no one to assign, just hire a new staff member! Anyone will do!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3179,
+      "id": "db_EventInfo:3457:0",
+      "jp": "★bgm・不穏",
+      "en": "★bgm - Ominous",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3180,
+      "id": "db_EventInfo:3458:2",
+      "jp": "おいオマエ、【『汚染値』】がかなり貯まってるデス。宿が汚れすぎてるということデス",
+      "en": "Hey you, your Contamination Level is way too high. That means the inn is way too dirty.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3181,
+      "id": "db_EventInfo:3459:1",
+      "jp": "す、すまん……",
+      "en": "S-sorry...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3182,
+      "id": "db_EventInfo:3460:2",
+      "jp": "【宿が汚れていると客が減る】デス。はやくなんとかするデス",
+      "en": "If the inn is dirty, we lose customers. We need to fix it, fast.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3183,
+      "id": "db_EventInfo:3461:2",
+      "jp": "【『編成』】で【『清掃部門』】にスタッフを割り振るデス",
+      "en": "Use the 'Assign' menu to put staff in the 'Cleaning' department.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3184,
+      "id": "db_EventInfo:3462:2",
+      "jp": "【『汚染値』】が高いと【客層】が悪くなったり、【客自体の数が減ったり】と良いことはないデス",
+      "en": "If the 'Pollution Level' gets high, the type of customers gets worse, or we just get fewer people. Nothing good.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3185,
+      "id": "db_EventInfo:3463:2",
+      "jp": "特に【『料理』】を売っていると【『汚染値』】が貯まりやすいから注意デス",
+      "en": "It builds up fast if you're selling 'Food', so be careful.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3186,
+      "id": "db_EventInfo:3464:0",
+      "jp": "【『汚染値』】が高いと客が減ります。注意しましょう。",
+      "en": "A high 'Pollution Level' means fewer customers. Be careful.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 3187,
+      "id": "db_EventInfo:3465:2",
+      "jp": "昼になったデス。これで一日の営業が半分終わったデス",
+      "en": "It's noon. The business day is half over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3188,
+      "id": "db_EventInfo:3466:2",
+      "jp": "まだまだ頑張るデス",
+      "en": "Keep at it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3189,
+      "id": "db_EventInfo:3467:2",
+      "jp": "日が暮れたデスけど、もう少し営業するデス",
+      "en": "The sun's down, but we can keep going a bit longer.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3190,
+      "id": "db_EventInfo:3468:2",
+      "jp": "夜は【『料理』】の値段がアップするデス。腹が減ってたくさん食べるんデスかね？",
+      "en": "'Food' prices go up at night. Maybe people are hungrier and eat more?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3191,
+      "id": "db_EventInfo:3469:0",
+      "jp": "★bgm・不穏",
+      "en": "★bgm・Ominous",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 3192,
+      "id": "db_EventInfo:3470:2",
+      "jp": "おいオマエ、【『汚染値』】がかなり貯まってるデス。宿が汚れすぎてるデス！",
+      "en": "Hey you! The 'Pollution Level' is really high. The inn is way too dirty!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3193,
+      "id": "db_EventInfo:3471:2",
+      "jp": "【『清掃部門』】のスタッフが足りていないのではないデス？",
+      "en": "The 'Cleaning Department' doesn't have enough staff, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3194,
+      "id": "db_EventInfo:3472:1",
+      "jp": "そ、そうかも……",
+      "en": "M-maybe so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3195,
+      "id": "db_EventInfo:3473:2",
+      "jp": "ああもう！　汚れていると、イライラしてきたデス！",
+      "en": "Ahhhh! Seeing all this dirt is getting me really annoyed!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3196,
+      "id": "db_EventInfo:3474:2",
+      "jp": "いっそ、私が【掃除】してやるデス？　【この鎌で宿ごとスッキリ】してやるデス！",
+      "en": "I know! Why don't I just 'clean' it? 'Slice this whole inn nice and clean' with this scythe!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3197,
+      "id": "db_EventInfo:3475:1",
+      "jp": "わーっ！　よせーっ！！",
+      "en": "Whoa! No!! Stop!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3198,
+      "id": "db_EventInfo:3476:1",
+      "jp": "（【シイネが大暴れする前】に掃除しないと……おそらく【『汚染値』】が【300】ぐらいが我慢の限界だろう）",
+      "en": "(I have to clean up... before Shiine goes berserk... I think her limit for 'Pollution' is probably around 300.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 3199,
+      "id": "db_EventInfo:3477:2",
+      "jp": "どうやらこれ以上の【開発ポイント】を溜めることはできないデス。これ以上は獲得しても捨てるのみデス",
+      "en": "It seems you can't save up any more 'Development Points'. Any more you get, you'll just have to throw away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 3200,
+      "id": "db_EventInfo:3478:1",
+      "jp": "勿体ないな……",
+      "en": "That's such a waste...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

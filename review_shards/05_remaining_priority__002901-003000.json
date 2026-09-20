@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2901,
+  "range_end": 3000,
+  "pairs": [
+    {
+      "n": 2901,
+      "id": "rem_30520",
+      "jp": "セーブするデス？",
+      "en": "Save?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2902,
+      "id": "rem_30521",
+      "jp": "げーむおーばーデス",
+      "en": "Game Over",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2903,
+      "id": "rem_30522",
+      "jp": "懲りずに頑張るデス",
+      "en": "Continue Anyway?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2904,
+      "id": "rem_30523",
+      "jp": "マウススクロールでオートセーブに切り替わるデス",
+      "en": "Mouse scroll to toggle auto-save",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2905,
+      "id": "rem_30524",
+      "jp": "お店の経営を始めるデス",
+      "en": "Start Shop Management",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2906,
+      "id": "rem_30525",
+      "jp": "商館経営の続きをするデス",
+      "en": "Continue Shop Management",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2907,
+      "id": "rem_30526",
+      "jp": "しすてむメニューデス",
+      "en": "System Menu",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2908,
+      "id": "rem_30527",
+      "jp": "本当にタイトルに戻って良いのデス？",
+      "en": "Return to Title?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2909,
+      "id": "rem_30528",
+      "jp": "このままで大丈夫デス？",
+      "en": "Is this okay?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2910,
+      "id": "rem_30529",
+      "jp": "駄目デス",
+      "en": "No",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2911,
+      "id": "rem_30530",
+      "jp": "カネー",
+      "en": "Money",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2912,
+      "id": "rem_30531",
+      "jp": "店員が妊娠しちゃったデス",
+      "en": "An employee got pregnant.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2913,
+      "id": "rem_30532",
+      "jp": "コイツに新たな名前を与えるデス",
+      "en": "Give this one a new name.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2914,
+      "id": "rem_30533",
+      "jp": "店員のリストを見るのデス？",
+      "en": "View Employee List?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2915,
+      "id": "rem_30534",
+      "jp": "仕事させる部門を選択するデス",
+      "en": "Select a department to assign.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2916,
+      "id": "rem_30535",
+      "jp": "いろいろすることができるデスД",
+      "en": "Various actions available.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2917,
+      "id": "rem_30536",
+      "jp": "建築めにゅーデス",
+      "en": "Construction Menu",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2918,
+      "id": "rem_30537",
+      "jp": "建築する場所を選ぶデス",
+      "en": "Select a location to build.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2919,
+      "id": "rem_30538",
+      "jp": "必要な施設を建築して、店の売上を伸ばすデス！",
+      "en": "Build necessary facilities to increase profits!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2920,
+      "id": "rem_30539",
+      "jp": "施設をアップグレードして効果を高めるデス！",
+      "en": "Upgrade facilities to boost their effects!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2921,
+      "id": "rem_30540",
+      "jp": "商品メニューを開発して、売上を伸ばすデス",
+      "en": "Develop a product menu to boost sales.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2922,
+      "id": "rem_30541",
+      "jp": "ダンジョンに出発デス！",
+      "en": "Head to the dungeon!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2923,
+      "id": "rem_30542",
+      "jp": "投資めにゅーデス",
+      "en": "Investment Menu",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2924,
+      "id": "rem_30543",
+      "jp": "カネを融通して、組織の協力を得るデス！",
+      "en": "Use money to secure the organization's cooperation!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2925,
+      "id": "rem_30544",
+      "jp": "カネを使って、働きやすい店を作るデス！",
+      "en": "Spend money to make the shop a better place to work!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2926,
+      "id": "rem_30545",
+      "jp": "将来のために事業投資を重ねるデス！",
+      "en": "Build up business investments for the future!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2927,
+      "id": "rem_30546",
+      "jp": "ハーレムを作って、ついでにカネも稼ぐデス！",
+      "en": "Build a harem and make some money on the side!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2928,
+      "id": "rem_30547",
+      "jp": "死神の権能を高め、行使するデス",
+      "en": "Enhance and wield your Shinigami authority.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2929,
+      "id": "rem_30548",
+      "jp": "SPを割り振ってパワーアップするデス！",
+      "en": "Allocate SP to power up!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2930,
+      "id": "rem_30549",
+      "jp": "店を繁盛させて、死神の力を覚醒させるデス！",
+      "en": "Make the shop prosper and awaken your Shinigami power!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2931,
+      "id": "rem_30550",
+      "jp": "死神とカネの力で、運命を変えるデス！",
+      "en": "Change fate with the power of the Shinigami and money!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2932,
+      "id": "rem_30551",
+      "jp": "新しい店員を雇うのデス？",
+      "en": "Hire new shop staff?",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2933,
+      "id": "rem_30552",
+      "jp": "店員が増えたデス！",
+      "en": "Shop staff has increased!",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2934,
+      "id": "rem_30553",
+      "jp": "出発するダンジョンを選ぶデス",
+      "en": "Choose which dungeon to head to.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2935,
+      "id": "rem_30554",
+      "jp": "ダンジョンに向かうメンバーを編成するデス",
+      "en": "Organize the party heading to the dungeon.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2936,
+      "id": "rem_30555",
+      "jp": "本日の収支結果デス",
+      "en": "Today's financial results.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2937,
+      "id": "rem_30556",
+      "jp": "建築を開始するデス",
+      "en": "Begin construction.",
+      "table": "db_SystemVoice",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2938,
+      "id": "rem_30557",
+      "jp": "大陸各地に転々とするギルドの同盟で、根無し草として社会的立場の低い冒険者を支援することを目的とする。この組織により、アウトロー的に揶揄されがちな冒険者にも、社会的立場と信用が与えられている。この宿も大元はこの組織の派閥である。",
+      "en": "Aims to support adventurers of low social standing, often seen as drifters, through the alliance of guilds drifting across the continent. This organization grants social standing and credibility to adventurers who might otherwise be scorned as outlaws. This inn originally stemmed from a faction of this group.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2939,
+      "id": "rem_30558",
+      "jp": "大陸冒険者ギルド連盟",
+      "en": "Continental Adventurers' Guild Federation",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2940,
+      "id": "rem_30559",
+      "jp": "この地方の開拓者であり大農家であるアルダルク家を中心とする農家の組合。大小様々な農家を束ねている農牧地帯が産出する食材の比率は、ゼカリウス地方の食の半分近くを担っており、領主へもある程度の発言力を有しているという。",
+      "en": "A farmers' union centered on the Aldaruk family, the local pioneers and major landowners. Uniting farmers large and small, the produce from this agricultural and pastoral region accounts for nearly half of the food in the Zecarius area, giving them a degree of influence with the lord.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2941,
+      "id": "rem_30560",
+      "jp": "アルダルク農業組合",
+      "en": "Aldark Agricultural Union",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2942,
+      "id": "rem_30561",
+      "jp": "大陸冒険者ギルド連盟Lv1",
+      "en": "Continent Adventurers Guild Alliance Lv1",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2943,
+      "id": "rem_30562",
+      "jp": "大陸冒険者ギルド連盟Lv2",
+      "en": "Continent Adventurers Guild Alliance Lv2",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2944,
+      "id": "rem_30563",
+      "jp": "大陸冒険者ギルド連盟Lv3",
+      "en": "Continent Adventurers Guild Alliance Lv3",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2945,
+      "id": "rem_30564",
+      "jp": "大陸冒険者ギルド連盟Lv4",
+      "en": "Continent Adventurers Guild Alliance Lv4",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2946,
+      "id": "rem_30565",
+      "jp": "大陸冒険者ギルド連盟Lv5",
+      "en": "Continent Adventurers Guild Alliance Lv5",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2947,
+      "id": "rem_30566",
+      "jp": "大陸冒険者ギルド連盟Lv6",
+      "en": "Continent Adventurers Guild Alliance Lv6",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2948,
+      "id": "rem_30567",
+      "jp": "大陸冒険者ギルド連盟Lv7",
+      "en": "Continent Adventurers Guild Alliance Lv7",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2949,
+      "id": "rem_30568",
+      "jp": "大陸冒険者ギルド連盟Lv8",
+      "en": "Continent Adventurers Guild Alliance Lv8",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2950,
+      "id": "rem_30569",
+      "jp": "大陸冒険者ギルド連盟Lv9",
+      "en": "Continent Adventurers Guild Alliance Lv9",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2951,
+      "id": "rem_30570",
+      "jp": "大陸冒険者ギルド連盟Lv10",
+      "en": "Continent Adventurers Guild Alliance Lv10",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2952,
+      "id": "rem_30571",
+      "jp": "大陸冒険者ギルド連盟Lv11",
+      "en": "Continent Adventurers Guild Alliance Lv11",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2953,
+      "id": "rem_30572",
+      "jp": "大陸冒険者ギルド連盟Lv12",
+      "en": "Continent Adventurers Guild Alliance Lv12",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2954,
+      "id": "rem_30573",
+      "jp": "大陸冒険者ギルド連盟Lv13",
+      "en": "Continent Adventurers Guild Alliance Lv13",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2955,
+      "id": "rem_30574",
+      "jp": "大陸冒険者ギルド連盟Lv14",
+      "en": "Continent Adventurers Guild Alliance Lv14",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2956,
+      "id": "rem_30575",
+      "jp": "大陸冒険者ギルド連盟Lv15",
+      "en": "Continent Adventurers Guild Alliance Lv15",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2957,
+      "id": "rem_30576",
+      "jp": "アルダルク農業組合Lv1",
+      "en": "Aldark Agricultural Union Lv1",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2958,
+      "id": "rem_30577",
+      "jp": "アルダルク農業組合Lv2",
+      "en": "Aldark Agricultural Union Lv2",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2959,
+      "id": "rem_30578",
+      "jp": "アルダルク農業組合Lv3",
+      "en": "Aldark Agricultural Union Lv3",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2960,
+      "id": "rem_30579",
+      "jp": "アルダルク農業組合Lv4",
+      "en": "Aldark Agricultural Union Lv4",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2961,
+      "id": "rem_30580",
+      "jp": "アルダルク農業組合Lv5",
+      "en": "Aldark Agricultural Union Lv5",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2962,
+      "id": "rem_30581",
+      "jp": "アルダルク農業組合Lv6",
+      "en": "Aldark Agricultural Union Lv6",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2963,
+      "id": "rem_30582",
+      "jp": "アルダルク農業組合Lv7",
+      "en": "Aldark Agricultural Union Lv7",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2964,
+      "id": "rem_30583",
+      "jp": "アルダルク農業組合Lv8",
+      "en": "Aldark Agricultural Union Lv8",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2965,
+      "id": "rem_30584",
+      "jp": "アルダルク農業組合Lv9",
+      "en": "Aldark Agricultural Union Lv9",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2966,
+      "id": "rem_30585",
+      "jp": "アルダルク農業組合Lv10",
+      "en": "Aldark Agricultural Union Lv10",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2967,
+      "id": "rem_30586",
+      "jp": "アルダルク農業組合Lv11",
+      "en": "Aldark Agricultural Union Lv11",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2968,
+      "id": "rem_30587",
+      "jp": "アルダルク農業組合Lv12",
+      "en": "Aldark Agricultural Union Lv12",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2969,
+      "id": "rem_30588",
+      "jp": "アルダルク農業組合Lv13",
+      "en": "Aldark Agricultural Union Lv13",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2970,
+      "id": "rem_30589",
+      "jp": "アルダルク農業組合Lv14",
+      "en": "Aldark Agricultural Union Lv14",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2971,
+      "id": "rem_30590",
+      "jp": "アルダルク農業組合Lv15",
+      "en": "Aldark Agricultural Union Lv15",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2972,
+      "id": "rem_30591",
+      "jp": "ハーヴェスタ商会Lv1",
+      "en": "Harvester Company Lv1",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2973,
+      "id": "rem_30592",
+      "jp": "ハーヴェスタ商会Lv2",
+      "en": "Harvester Company Lv2",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2974,
+      "id": "rem_30593",
+      "jp": "ハーヴェスタ商会Lv3",
+      "en": "Harvester Company Lv3",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2975,
+      "id": "rem_30594",
+      "jp": "ハーヴェスタ商会Lv4",
+      "en": "Harvester Company Lv4",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2976,
+      "id": "rem_30595",
+      "jp": "ハーヴェスタ商会Lv5",
+      "en": "Harvester Company Lv5",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2977,
+      "id": "rem_30596",
+      "jp": "ハーヴェスタ商会Lv6",
+      "en": "Harvester Company Lv6",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2978,
+      "id": "rem_30597",
+      "jp": "ハーヴェスタ商会Lv7",
+      "en": "Harvester Company Lv7",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2979,
+      "id": "rem_30598",
+      "jp": "ハーヴェスタ商会Lv8",
+      "en": "Harvester Company Lv8",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2980,
+      "id": "rem_30599",
+      "jp": "ハーヴェスタ商会Lv9",
+      "en": "Harvester Company Lv9",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2981,
+      "id": "rem_30600",
+      "jp": "ハーヴェスタ商会Lv10",
+      "en": "Harvester Commerce Lv10",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2982,
+      "id": "rem_30601",
+      "jp": "ハーヴェスタ商会Lv11",
+      "en": "Harvester Commerce Lv11",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2983,
+      "id": "rem_30602",
+      "jp": "ハーヴェスタ商会Lv12",
+      "en": "Harvester Commerce Lv12",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2984,
+      "id": "rem_30603",
+      "jp": "ハーヴェスタ商会Lv13",
+      "en": "Harvester Commerce Lv13",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2985,
+      "id": "rem_30604",
+      "jp": "ハーヴェスタ商会Lv14",
+      "en": "Harvester Commerce Lv14",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2986,
+      "id": "rem_30605",
+      "jp": "ハーヴェスタ商会Lv15",
+      "en": "Harvester Commerce Lv15",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2987,
+      "id": "rem_30606",
+      "jp": "ヒエペリオ教会Lv1",
+      "en": "Hyperio Church Lv1",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2988,
+      "id": "rem_30607",
+      "jp": "ヒエペリオ教会Lv2",
+      "en": "Hyperio Church Lv2",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2989,
+      "id": "rem_30608",
+      "jp": "ヒエペリオ教会Lv3",
+      "en": "Hyperio Church Lv3",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2990,
+      "id": "rem_30609",
+      "jp": "ヒエペリオ教会Lv4",
+      "en": "Hyperio Church Lv4",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2991,
+      "id": "rem_30610",
+      "jp": "ヒエペリオ教会Lv5",
+      "en": "Hyperio Church Lv5",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2992,
+      "id": "rem_30611",
+      "jp": "ヒエペリオ教会Lv6",
+      "en": "Hyperio Church Lv6",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2993,
+      "id": "rem_30612",
+      "jp": "ヒエペリオ教会Lv7",
+      "en": "Hyperio Church Lv7",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2994,
+      "id": "rem_30613",
+      "jp": "ヒエペリオ教会Lv8",
+      "en": "Hyperio Church Lv8",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2995,
+      "id": "rem_30614",
+      "jp": "ヒエペリオ教会Lv9",
+      "en": "Hyperio Church Lv9",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2996,
+      "id": "rem_30615",
+      "jp": "ヒエペリオ教会Lv10",
+      "en": "Hyperio Church Lv10",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2997,
+      "id": "rem_30616",
+      "jp": "ヒエペリオ教会Lv11",
+      "en": "Hyperio Church Lv11",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2998,
+      "id": "rem_30617",
+      "jp": "ヒエペリオ教会Lv12",
+      "en": "Hyperio Church Lv12",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 2999,
+      "id": "rem_30618",
+      "jp": "ヒエペリオ教会Lv13",
+      "en": "Hyperio Church Lv13",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3000,
+      "id": "rem_30619",
+      "jp": "ヒエペリオ教会Lv14",
+      "en": "Hyperio Church Lv14",
+      "table": "db_ClubToushiOrganizationInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

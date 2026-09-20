@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 76801,
+  "range_end": 76900,
+  "pairs": [
+    {
+      "n": 76801,
+      "id": "db_EventInfo:90882:0",
+      "jp": "俺達はマリーゼルの行方を追い、因縁の地ダムブナックの奥地に向かう事にした……。",
+      "en": "We decided to follow Marisel's trail and head deep into the fateful lands of Dambunuck.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76802,
+      "id": "db_EventInfo:90883:0",
+      "jp": "俺達は【『黒い森』】ダムブナックの奥地までやって来た。",
+      "en": "We made it deep into the 'Black Forest' of Dambunuck.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76803,
+      "id": "db_EventInfo:90884:1",
+      "jp": "森の奥にこんな場所があるとは……",
+      "en": "I never knew a place like this was deep in the woods...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76804,
+      "id": "db_EventInfo:90885:2",
+      "jp": "巧妙に隠れていたか、それとも再びこの地に集結したか、どっちデスかね",
+      "en": "Were they cleverly hidden, or did they gather here again? Which is it, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76805,
+      "id": "db_EventInfo:90887:106",
+      "jp": "気を付けろよ。【『ジルド聖騎士団』】すら壊滅した、魔獣と【『邪教徒』】の巣窟なんだからな",
+      "en": "Be careful. This is a den of monsters and heretics, one that even wiped out the Zild Holy Knights.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76806,
+      "id": "db_EventInfo:90888:1",
+      "jp": "そうだな",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76807,
+      "id": "db_EventInfo:90889:0",
+      "jp": "【『邪教徒』】によって【『聖騎士団』】が壊滅したことを思い出す。",
+      "en": "I remember the Holy Knights were wiped out by the heretics.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76808,
+      "id": "db_EventInfo:90890:1",
+      "jp": "ローグバルトたちのような悲劇を繰返さないためにも、【『邪教徒』】は潰さなくては",
+      "en": "We have to crush the heretics, to make sure we don't repeat a tragedy like Rogubaruto's.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76809,
+      "id": "db_EventInfo:90891:2",
+      "jp": "マリーゼルの事も忘れるんじゃないデスよ",
+      "en": "Don't forget about Marisel either, desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76810,
+      "id": "db_EventInfo:90892:1",
+      "jp": "もちろんだ",
+      "en": "Of course not.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76811,
+      "id": "db_EventInfo:90894:106",
+      "jp": "この邪悪な感じ、かつての戦いを思い出すな",
+      "en": "This evil feeling... reminds me of the fight back then.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76812,
+      "id": "db_EventInfo:90895:2",
+      "jp": "む？　そういえば、オマエも以前の戦いに参加していたデスね？",
+      "en": "Hm? Now that you mention it, you were in that fight too, weren't you, desu ne?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76813,
+      "id": "db_EventInfo:90896:106",
+      "jp": "ああ、まあね。でもま、今はそんな事より、【『聖女』】様だろ？",
+      "en": "Ah, well, yeah. But anyway, the Saintess is more important right now, right?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76814,
+      "id": "db_EventInfo:90897:106",
+      "jp": "手遅れになる前に、マリーを助けないとな",
+      "en": "We have to save Marie before it's too late.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76815,
+      "id": "db_EventInfo:90898:1",
+      "jp": "そうだな、急ごう！",
+      "en": "Yeah, let's hurry!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76816,
+      "id": "db_EventInfo:90899:0",
+      "jp": "ダンジョンを進んでいると……。",
+      "en": "As we go deeper into the dungeon...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76817,
+      "id": "db_EventInfo:90903:6",
+      "jp": "あらあらこんな所までいらしたのですわね",
+      "en": "My, my. You've come all the way here.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76818,
+      "id": "db_EventInfo:90904:6",
+      "jp": "おっしゃっていただければ、招待状を出しましたのに",
+      "en": "If you had just asked, I would have sent an invitation.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76819,
+      "id": "db_EventInfo:90905:1",
+      "jp": "マリーゼル！",
+      "en": "Marisel!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76820,
+      "id": "db_EventInfo:90906:0",
+      "jp": "現れたマリーゼルに駆け寄ろうとするが……。",
+      "en": "I try to run to Marisel, but...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76821,
+      "id": "db_EventInfo:90907:2",
+      "jp": "待つデス、様子がおかしいデスよ",
+      "en": "Wait, desu. Something's wrong, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76822,
+      "id": "db_EventInfo:90908:106",
+      "jp": "あれがマリーだってのか？　どうしてそんな姿に……",
+      "en": "That's Mari? Why does she look like that...?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76823,
+      "id": "db_EventInfo:90909:6",
+      "jp": "これは【『奇跡』】の代償ですわ",
+      "en": "This is the price for using the 【『Miracle』】.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76824,
+      "id": "db_EventInfo:90910:2",
+      "jp": "マリーゼルから強い業を感じるデス。【『奇跡』】を己のために使いすぎたデスね",
+      "en": "I feel strong karma from Marisel, desu. She used the 【『Miracle』】 too much for herself, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76825,
+      "id": "db_EventInfo:90911:1",
+      "jp": "そんな、マリーゼルが自分のために……？",
+      "en": "No way... Marisel, for herself...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76826,
+      "id": "db_EventInfo:90912:6",
+      "jp": "いいえ、【<pl>】様。私は神の奇跡を自分のために使うような、愚かな真似は致しませんわ",
+      "en": "No, 【<pl>】. I am not foolish enough to use God's miracle for my own sake.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76827,
+      "id": "db_EventInfo:90913:6",
+      "jp": "ただ、自分の過ちを正すために使おうとしたのみ。そして今度こそ、儀式によって成功させて見せます",
+      "en": "I just wanted to use it to fix my own mistake. And this time, I will definitely succeed through the ritual.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76828,
+      "id": "db_EventInfo:90914:2",
+      "jp": "オマエ、【『<ruby=リザレクション>蘇生魔術</ruby>』】を使おうとしたデスね？",
+      "en": "You were trying to use the 'Resurrection Magic', weren't you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76829,
+      "id": "db_EventInfo:90915:6",
+      "jp": "それが何か",
+      "en": "So what?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76830,
+      "id": "db_EventInfo:90916:2",
+      "jp": "最も業を背負う【『奇跡』】は死者の蘇生。そして、オマエが生き返らせたい者は目星が付くデス",
+      "en": "The 'miracle' that carries the most sin is reviving the dead. And I have a good idea who you want to bring back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76831,
+      "id": "db_EventInfo:90917:0",
+      "jp": "かつてマリーゼルを庇って死んだ少年剣士。",
+      "en": "The young swordsman who died protecting Marisel long ago.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76832,
+      "id": "db_EventInfo:90918:1",
+      "jp": "ポンタの事だな",
+      "en": "You mean Ponta.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76833,
+      "id": "db_EventInfo:90919:106",
+      "jp": "アイツを……？",
+      "en": "Him...?",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76834,
+      "id": "db_EventInfo:90920:6",
+      "jp": "ですが私は失敗しました。何度も祈っているのに【『奇跡』】が効果を及ぼさない。何度も何度も祈ったのに",
+      "en": "But I failed. I prayed so many times, but the 'miracle' didn't work. I prayed over and over.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76835,
+      "id": "db_EventInfo:90921:6",
+      "jp": "なので私は、皆の力を借りて【『奇跡』】を起こすことにしたのです",
+      "en": "That's why I decided to use everyone's power to create a 'miracle'.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76836,
+      "id": "db_EventInfo:90922:6",
+      "jp": "皆は良い人達ですわ。この儀式が終わったら【『教団』】の人達も力を貸すと約束してくれています",
+      "en": "They're good people. The people from the 'Order' promised to help me once this ritual is over.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76837,
+      "id": "db_EventInfo:90923:106",
+      "jp": "ここの奴らは碌な奴じゃないぞ！",
+      "en": "These guys here are no good, you know!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76838,
+      "id": "db_EventInfo:90924:6",
+      "jp": "皆さんを悪と断じるのも早計ですわ",
+      "en": "It's too hasty to label them as evil.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76839,
+      "id": "db_EventInfo:90925:6",
+      "jp": "儀式の時はもうすぐ……皆さん、足止めをお願いします",
+      "en": "The ritual is soon... Everyone, please hold them off.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76840,
+      "id": "db_EventInfo:90926:2",
+      "jp": "ちっ、【『邪教徒』】共が集まってきたデス！",
+      "en": "Tch, the heretics are gathering!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76841,
+      "id": "db_EventInfo:90927:106",
+      "jp": "さっさと片付けて、後を追うぞ！",
+      "en": "Let's finish them off quickly and give chase!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76842,
+      "id": "db_EventInfo:90928:0",
+      "jp": "【『邪教徒』】達を退けたが、すでにマリーゼルの姿は見えない。",
+      "en": "We fought off the heretics, but Marisel was already gone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76843,
+      "id": "db_EventInfo:90930:106",
+      "jp": "マリーを探さないと",
+      "en": "We have to find Mari.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76844,
+      "id": "db_EventInfo:90931:1",
+      "jp": "ユーステル！？　一人で行くな！",
+      "en": "Eustel?! Don't go alone!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76845,
+      "id": "db_EventInfo:90932:0",
+      "jp": "背を向けるマリーゼルを、ユーステルが追いかけて行ってしまった。",
+      "en": "Eustel ran after Marisel, who had turned her back on us.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76846,
+      "id": "db_EventInfo:90934:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76847,
+      "id": "db_EventInfo:90935:0",
+      "jp": "マリーゼルの後を追ったユーステルは、武器を構えて対峙していた。",
+      "en": "Eustel, who had followed Marisel, now stood facing her with his weapon ready.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76848,
+      "id": "db_EventInfo:90939:6",
+      "jp": "ユーシィ、なぜそこまで私に構うのですか？",
+      "en": "Yushi, why are you so focused on me?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76849,
+      "id": "db_EventInfo:90940:6",
+      "jp": "理由は【『勇者』】だからです？",
+      "en": "Is it because you're the Hero?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76850,
+      "id": "db_EventInfo:90941:106",
+      "jp": "さあてね",
+      "en": "Who knows.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76851,
+      "id": "db_EventInfo:90942:106",
+      "jp": "でも、アンタを止めろって、俺の心が叫んでるのさ",
+      "en": "But my heart is screaming to stop you.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76852,
+      "id": "db_EventInfo:90943:6",
+      "jp": "幻聴ですわ",
+      "en": "That's a hallucination.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76853,
+      "id": "db_EventInfo:90944:6",
+      "jp": "これ以上、邪魔はさせません。皆さん、お願いします",
+      "en": "I won't let you interfere any further. Everyone, please.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76854,
+      "id": "db_EventInfo:90945:106",
+      "jp": "ちっ……！",
+      "en": "Tch...!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76855,
+      "id": "db_EventInfo:90946:0",
+      "jp": "マリーゼルの言葉に、【『邪教徒』】達がユーステルに襲い掛かってきた！",
+      "en": "At Marisel's words, the 【『cultists』】 attacked Eustel!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76856,
+      "id": "db_EventInfo:90948:1",
+      "jp": "いたぞ、ユーステルだ！",
+      "en": "There he is, it's Eustel!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76857,
+      "id": "db_EventInfo:90949:2",
+      "jp": "言わんこっちゃないデス。やっぱり囲まれてるデス！",
+      "en": "Told you so. He's surrounded after all!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76858,
+      "id": "db_EventInfo:90950:106",
+      "jp": "はぁ、はぁ、ああもう、遅いぞ【<pl>】さん！",
+      "en": "Hah, hah... Oh man, you're late 【<pl>】!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76859,
+      "id": "db_EventInfo:90951:0",
+      "jp": "ユーステルは息を切らせ、あちこち傷付いてはいるが、大事にはなっていないようだ。",
+      "en": "Eustel is out of breath and has wounds here and there, but he doesn't seem badly hurt.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76860,
+      "id": "db_EventInfo:90952:2",
+      "jp": "早く加勢するデス！",
+      "en": "Let's back him up, fast!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76861,
+      "id": "db_EventInfo:90953:0",
+      "jp": "ユーステルを囲んでいた【『邪教徒』】達が、襲いかかってきた！",
+      "en": "The 【『cultists』】 that were surrounding Eustel are now attacking us!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76862,
+      "id": "db_EventInfo:90955:1",
+      "jp": "ふう、なんとかなったか",
+      "en": "Phew, I think we managed it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76863,
+      "id": "db_EventInfo:90956:2",
+      "jp": "まったく、一人で突っ走って、ピンチになったらどうするデス？",
+      "en": "Honestly, if you rush ahead alone, what are you going to do if you get in a pinch?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76864,
+      "id": "db_EventInfo:90957:106",
+      "jp": "はは、俺は【『勇者』】だぞ？　そんなことあるわけ……",
+      "en": "Haha, I'm the 【『Hero』】, you know? That kind of thing would never happen...",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76865,
+      "id": "db_EventInfo:90958:106",
+      "jp": "いや……違う、前にもこんな事があった……",
+      "en": "No... wait, that's wrong. Something like this happened before...",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76866,
+      "id": "db_EventInfo:90959:106",
+      "jp": "カストロイアか……？　いや、俺は、もっと前に……",
+      "en": "Castle Roya? No, I mean, even further back...",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76867,
+      "id": "db_EventInfo:90960:1",
+      "jp": "ユーステル？　大丈夫か？",
+      "en": "Eustel? Are you okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76868,
+      "id": "db_EventInfo:90961:106",
+      "jp": "あ、いや……何でもない",
+      "en": "Ah, no... it's nothing.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76869,
+      "id": "db_EventInfo:90962:106",
+      "jp": "それより、早くマリーを追うぞ！",
+      "en": "More importantly, let's hurry and go after Mari!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 76870,
+      "id": "db_EventInfo:90963:1",
+      "jp": "あ、ああ、そうだな……！",
+      "en": "Ah, aah, you're right...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76871,
+      "id": "db_EventInfo:90964:0",
+      "jp": "ダンジョンの奥地で……。",
+      "en": "Deep in the dungeon...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76872,
+      "id": "db_EventInfo:90968:6",
+      "jp": "よくいらっしゃいました、【<pl>】様。闇の儀式にようこそ",
+      "en": "Well done coming here, 【<pl>】. Welcome to the dark ritual.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76873,
+      "id": "db_EventInfo:90969:1",
+      "jp": "マリーゼル！　儀式なんかやめるんだ！",
+      "en": "Marisel! Stop this ritual!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76874,
+      "id": "db_EventInfo:90970:6",
+      "jp": "いいえ、そうは参りません。わざわざ一人でやって来るなんて、都合が良いですわ",
+      "en": "No, I will do no such thing. Coming all alone like this is very convenient for me.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76875,
+      "id": "db_EventInfo:90971:6",
+      "jp": "さあ皆さん、贄を捕らえて下さいませ",
+      "en": "Now everyone, please seize the sacrifice.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76876,
+      "id": "db_EventInfo:90972:1",
+      "jp": "なっ……！",
+      "en": "Wha...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76877,
+      "id": "db_EventInfo:90973:0",
+      "jp": "暗闇から現れた【『邪教徒』】に気付かず、俺は羽交い絞めにされてしまった。",
+      "en": "I didn't notice the 【'cultists'】 who appeared from the darkness, and I was pinned down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76878,
+      "id": "db_EventInfo:90975:6",
+      "jp": "安心して下さい。命を奪う事などありませんわ",
+      "en": "Don't worry. We won't take your life.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76879,
+      "id": "db_EventInfo:90976:6",
+      "jp": "儀式には強い生贄が必要ですもの。【『神』】である【<pl>】様は、最高の贄となるのです",
+      "en": "The ritual needs a strong, living sacrifice. Our 【'God'】, 【<pl>】-sama, you will be the perfect sacrifice.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76880,
+      "id": "db_EventInfo:90977:6",
+      "jp": "それゆえ、【<pl>】様がいらっしゃるまで、私達の黒ミサを始めるわけにはいかなかったのですわД",
+      "en": "That's why we couldn't start our black mass until you arrived, 【<pl>】-samaД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76881,
+      "id": "db_EventInfo:90978:0",
+      "jp": "マリーゼルは俺の目の前で、自ら衣服を脱いでいく……。",
+      "en": "Marisel starts to take off her clothes right in front of me...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76882,
+      "id": "db_EventInfo:90979:1",
+      "jp": "や、やめるんだ、マリーゼル……！",
+      "en": "St-stop it, Marisel...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76883,
+      "id": "db_EventInfo:90980:6",
+      "jp": "さあ皆さん、私達の黒ミサに、待望のエモノが現れましたわД",
+      "en": "Now everyone, the long-awaited prey has arrived for our black massД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76884,
+      "id": "db_EventInfo:90981:0",
+      "jp": "★エッチシーン・マリーゼル・個別③・邪教化サバト逆レ",
+      "en": "★Sex Scene - Marisel - Individual ③ - Corruption Sabbat Reverse Rape",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76885,
+      "id": "db_EventInfo:90982:6",
+      "jp": "ああ、力が漲る……素晴らしいですわД",
+      "en": "Ahh, the power surges... It's wonderfulД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76886,
+      "id": "db_EventInfo:90983:1",
+      "jp": "う、く、マリーゼル……",
+      "en": "Ugh, ghh, Marisel...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76887,
+      "id": "db_EventInfo:90984:6",
+      "jp": "これだけの神力があれば、どんな願いも叶えられますわ！",
+      "en": "With this much divine power, I can grant any wish!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76888,
+      "id": "db_EventInfo:90985:6",
+      "jp": "待っていて、ポンタ。私が必ず助けますから……！",
+      "en": "Hold on, Ponta. I will save you, I swear...!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76889,
+      "id": "db_EventInfo:90988:0",
+      "jp": "【『<ruby=リザレクション>蘇生魔術</ruby>』】を実行するためだろう。マリーゼルは恍惚の表情を浮かべ、去っていった。",
+      "en": "She must be going to perform 'Resurrection Magic'. Marisel wore an ecstatic expression as she left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76890,
+      "id": "db_EventInfo:90989:1",
+      "jp": "待つんだ、マリーゼル……！",
+      "en": "Wait, Marisel...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76891,
+      "id": "db_EventInfo:90991:2",
+      "jp": "待つのはオマエの方デス。そんな格好で何やってるデス！",
+      "en": "You're the one who needs to wait! What are you doing in that state!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76892,
+      "id": "db_EventInfo:90992:1",
+      "jp": "シイネ？　た、助かった……",
+      "en": "Shiine? Y-you saved me...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76893,
+      "id": "db_EventInfo:90993:2",
+      "jp": "まったく、あまり心配をかけさせるなデス",
+      "en": "Honestly, don't make us worry so much.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 76894,
+      "id": "db_EventInfo:90994:1",
+      "jp": "あ、ああ、すまん……",
+      "en": "Y-yeah, sorry...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 76895,
+      "id": "db_EventInfo:90995:0",
+      "jp": "しかし、マリーゼルはすでに先に行ってしまった。",
+      "en": "But Marisel had already gone on ahead.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76896,
+      "id": "db_EventInfo:90996:0",
+      "jp": "急いでマリーゼルを追わなければ。",
+      "en": "I have to hurry and chase after Marisel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76897,
+      "id": "db_EventInfo:90997:0",
+      "jp": "儀式の場にはすさまじい力を放つマリーゼルがいた。",
+      "en": "At the ritual site was Marisel, radiating immense power.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76898,
+      "id": "db_EventInfo:91001:6",
+      "jp": "なぜ、どうして何も起こらないんです！？",
+      "en": "Why? Why isn't anything happening!?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 76899,
+      "id": "db_EventInfo:91002:0",
+      "jp": "すでに【『<ruby=リザレクション>蘇生魔術</ruby>』】の【『奇跡』】を使ったらしいマリーゼル。",
+      "en": "It seems Marisel had already used the miracle of 'Resurrection Magic'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 76900,
+      "id": "db_EventInfo:91003:0",
+      "jp": "しかし、それでも臨んだ結果は得られなかったのか、声を荒げて立ち尽くしている。",
+      "en": "But it didn't give her the result she wanted. She stood there, shouting.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

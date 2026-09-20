@@ -1,0 +1,756 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 701,
+  "range_end": 800,
+  "pairs": [
+    {
+      "n": 701,
+      "id": "dll_0701",
+      "jp": "【{0}】をエロ衣装に変更可能になったデス！\n【(「店員」メニューのハートマークで変更できます)】",
+      "en": "You can now change 【{0}】 into sexy outfits Death!\n【(Use heart icon in \"Staff\" menu)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 702,
+      "id": "dll_0702",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 703,
+      "id": "dll_0703",
+      "jp": "【{0}】が妊娠したデス！",
+      "en": "【{0}】 is pregnant Death!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 704,
+      "id": "dll_0704",
+      "jp": "【{0}】を建設可能になったデス",
+      "en": "You can now build 【{0}】 Death",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 705,
+      "id": "dll_0705",
+      "jp": "『探索』が可能になったデス\n\n(ダンジョンに行って開発ポイントを稼げます。メインストーリーの進行に応じて攻略は必須になります)",
+      "en": "『Exploration』 unlocked Death\n\n(Earn DP in dungeons. Required to progress.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 706,
+      "id": "dll_0706",
+      "jp": "『{0}』を探索可能になったデス！",
+      "en": "『{0}』 unlocked for exploration Death!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 707,
+      "id": "dll_0707",
+      "jp": "『一掃』が可能になったデス",
+      "en": "『Cleanse』 unlocked Death",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 708,
+      "id": "dll_0708",
+      "jp": "『店員』が可能になったデス\n\n(店員メンバーに仕事を割り当てたり、ランクアップなどができます)",
+      "en": "『Staff』 unlocked Death\n\n(Assign work and rank up staff.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 709,
+      "id": "dll_0709",
+      "jp": "『店員』で『清掃部門』が可能になったデス\n\n(ゴミを掃除して汚染値を下げることができます)",
+      "en": "『Staff』『Cleanup』 unlocked Death\n\n(Remove trash, lower pollution.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 710,
+      "id": "dll_0710",
+      "jp": "『店員』で『防犯部門』が可能になったデス\n\n(チンピラを捕まえたり、ならずものの襲撃に対抗できます)",
+      "en": "『Staff』『Security』 unlocked Death\n\n(Catch punks, defend raids.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 711,
+      "id": "dll_0711",
+      "jp": "『商品』が可能になったデス\n\n(商品メニューを設定することができます)",
+      "en": "『Products』 unlocked Death\n\n(Set product menu.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 712,
+      "id": "dll_0712",
+      "jp": "『施設』が可能になったデス\n\n(施設を建築したりカスタムすることができます)",
+      "en": "『Facilities』 unlocked Death\n\n(Build and customize.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 713,
+      "id": "dll_0713",
+      "jp": "『施設メニュー』から『H部屋運用』が可能になったデス\n\n(好感度Ｂ以上の女の子を配置できます)",
+      "en": "『Facility Menu』『H-Room』 unlocked Death\n\n(Place girls with affection B+.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 714,
+      "id": "dll_0714",
+      "jp": "『夜伽』が可能になったデス\n\n(好感度Ｂ以上の女の子をエッチに誘えます)",
+      "en": "『Night Visit』 unlocked Death\n\n(Invite affection B+ girls.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 715,
+      "id": "dll_0715",
+      "jp": "『店員メニュー』の【H指示】でパートナーを仕事に誘えるようになったデス",
+      "en": "『Staff Menu』【H Order】 can invite partner to work Death",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 716,
+      "id": "dll_0716",
+      "jp": "『死神メニュー』が使用可能になったデス\n\n(死神代行として成長したり、権能を発揮することができます)",
+      "en": "『Shinigami Menu』 unlocked Death\n\n(Grow as Agent, use powers.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 717,
+      "id": "dll_0717",
+      "jp": "『死神メニュー』の『能力開発』が使用可能になったデス\n\n(ダンジョン攻略に備えて、戦闘スキルを習得できます)",
+      "en": "『Shinigami Menu』『Skill Dev』 unlocked Death\n\n(Learn combat skills for dungeons.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 718,
+      "id": "dll_0718",
+      "jp": "『死神メニュー』の『運命改変』が使用可能になったデス\n\n(カネの力を使って運命を改変することができます)",
+      "en": "『Shinigami Menu』『Fate Edit』 unlocked Death\n\n(Alter fate with money.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 719,
+      "id": "dll_0719",
+      "jp": "『投資』が可能になったデス\n\n(カネの力を使って、様々な力を高めることができます)",
+      "en": "『Invest』 unlocked Death\n\n(Use money to boost stats.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 720,
+      "id": "dll_0720",
+      "jp": "『投資メニュー』の『資源投資』が可能になったデス\n\n(投資することで自動で開発ポイントを稼いでくれます)",
+      "en": "『Invest Menu』『Resource Invest』 unlocked Death\n\n(Auto-farm DP.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 721,
+      "id": "dll_0721",
+      "jp": "『派遣』が可能になったデス\n\n(手すきのユニットにダンジョン攻略させることで、資源投資の効果を更に高めます)",
+      "en": "Dispatch is now active.\n\n(Idle units can conquer dungeons for better resource investment.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 722,
+      "id": "dll_0722",
+      "jp": "レミルが覚醒し、火力がものすごくアップしたデス！！",
+      "en": "Remil awakened! Firepower boosted hugely!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 723,
+      "id": "dll_0723",
+      "jp": "【すべてのエネミー図鑑】がオープンされたデス！！",
+      "en": "All Enemy Encyclopedia now open!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 724,
+      "id": "dll_0724",
+      "jp": "商品メニューをコンプリートしたので、【開発ポイント収集系ミッション】がクリア扱いになるデス！！",
+      "en": "Menu completed. Development Point Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 725,
+      "id": "dll_0725",
+      "jp": "商品メニューをコンプリートしたので、【メニュー開発系ミッション】がクリア扱いになるデス！！",
+      "en": "Menu completed. Menu Dev Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 726,
+      "id": "dll_0726",
+      "jp": "派遣をコンプリートしたので、【派遣系ミッション】がクリア扱いになるデス！！",
+      "en": "Dispatch completed. Dispatch Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 727,
+      "id": "dll_0727",
+      "jp": "施設改良をコンプリートしたので、【施設改良系ミッション】がクリア扱いになるデス！！",
+      "en": "Facilities upgraded. Facility Missions cleared!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 728,
+      "id": "dll_0728",
+      "jp": "【すべてのスキル】が能力開発可能になり、【限界数まで】習得出来るようになったデス！！",
+      "en": "All Skills can be developed to max level!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 729,
+      "id": "dll_0729",
+      "jp": "『鍛冶工房』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Blacksmith'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 730,
+      "id": "dll_0730",
+      "jp": "『錬金工房』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Alchemy Lab'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 731,
+      "id": "dll_0731",
+      "jp": "『魔女っ娘ルーム』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Witch Girl Room'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 732,
+      "id": "dll_0732",
+      "jp": "『魔女っ娘ルーム』を作るデス\n\n【(店全体のＣＰを高めることができます)】",
+      "en": "Build 'Witch Girl Room'.\n\n【Boosts overall CP】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 733,
+      "id": "dll_0733",
+      "jp": "『豪華な財宝部屋』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Luxury Treasure Vault'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 734,
+      "id": "dll_0734",
+      "jp": "『礼拝堂』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Chapel'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 735,
+      "id": "dll_0735",
+      "jp": "『豪華な事務所』を作るデス\n\n【(イベント発生に必要です)】",
+      "en": "Build 'Luxury Office'.\n\n【Required for events】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 736,
+      "id": "dll_0736",
+      "jp": "【ならずもの】の襲撃だ！",
+      "en": "Rogue raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 737,
+      "id": "dll_0737",
+      "jp": "【邪教徒】の襲撃だ！",
+      "en": "Cultist raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 738,
+      "id": "dll_0738",
+      "jp": "【ゴブリン】の襲撃だ！",
+      "en": "Goblin raid!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 739,
+      "id": "dll_0739",
+      "jp": "【{0}ゴールド】でゴミを一掃するデス？\n(所持ゴールド:{1})",
+      "en": "Clear trash for 【{0} Gold】?\n(Gold: {1})",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 740,
+      "id": "dll_0740",
+      "jp": "これ以上は雇用できないデス。追加雇用するなら、誰かを解雇するデス【(キャンセル可)】",
+      "en": "Can't hire more. Fire someone to add staff.【Can cancel】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 741,
+      "id": "dll_0741",
+      "jp": "【{0}(★{1})】を解雇するのデス？",
+      "en": "Fire {0} (★{1})?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 742,
+      "id": "dll_0742",
+      "jp": "【{0}】を解雇したデス",
+      "en": "{0} fired.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 743,
+      "id": "dll_0743",
+      "jp": "『{0}』が『店員』になったデス",
+      "en": "{0} is now Shopkeeper.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 744,
+      "id": "dll_0744",
+      "jp": "商人トライアル発生！",
+      "en": "Merchant Trial started!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 745,
+      "id": "dll_0745",
+      "jp": "パートナーミッション発生！",
+      "en": "Partner Mission started!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 746,
+      "id": "dll_0746",
+      "jp": "えっ？",
+      "en": "Huh?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 747,
+      "id": "dll_0747",
+      "jp": "ん？",
+      "en": "Mm?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 748,
+      "id": "dll_0748",
+      "jp": "どうやらやってもらいたいことがあるようだ。",
+      "en": "It seems they have a request.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 749,
+      "id": "dll_0749",
+      "jp": "はい……",
+      "en": "Yes...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 750,
+      "id": "dll_0750",
+      "jp": "「商人トライアル」が発生しました。クリアすると店の売上が強化されます。ミッションと並行して4件まで同時に請けることが出来ます。",
+      "en": "A Merchant Trial started. Clear it to boost shop sales. You can have up to 4 tasks alongside missions.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 751,
+      "id": "dll_0751",
+      "jp": "ふむ……",
+      "en": "I see...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 752,
+      "id": "dll_0752",
+      "jp": "挑戦するデス？\n\n",
+      "en": "Take the challenge?\n\n",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 753,
+      "id": "dll_0753",
+      "jp": "【ミッション内容】\n",
+      "en": "[Mission Details]\n",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 754,
+      "id": "dll_0754",
+      "jp": "クリア出来なくても、「パートナーミッション」は再度挑戦することもできます。",
+      "en": "Failed Partner Missions can be retried.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 755,
+      "id": "dll_0755",
+      "jp": "【エッチなことが起こる予感】がするデス。イベントを進めてもよいのデス？",
+      "en": "Feeling a 【naughty premonition】. Proceed?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 756,
+      "id": "dll_0756",
+      "jp": "移動先のスペースをクリックしてください",
+      "en": "Click destination space.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 757,
+      "id": "dll_0757",
+      "jp": "配置を変更しました",
+      "en": "Layout changed.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 758,
+      "id": "dll_0758",
+      "jp": "建築したいスペースをクリックしてください",
+      "en": "Click space to build.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 759,
+      "id": "dll_0759",
+      "jp": "H部屋のスペースをクリックしてください",
+      "en": "Click H-Room space.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 760,
+      "id": "dll_0760",
+      "jp": "移動するスペースをクリックしてください",
+      "en": "Click space to move.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 761,
+      "id": "dll_0761",
+      "jp": "『探索』に行けるのは15時までデス",
+      "en": "Exploration ends at 3PM.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 762,
+      "id": "dll_0762",
+      "jp": "そろそろ【{0}】とエッチできるんじゃない？\n\n(エッチに誘う場合は夜になってから『夜伽』に誘ってみましょう)",
+      "en": "Maybe you can fool around with【{0}】now?\n\n(Try the 'Night Visit' event after dark.)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 763,
+      "id": "dll_0763",
+      "jp": "【{0}】は欲求不満なようだ！",
+      "en": "【{0}】seems frustrated!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 764,
+      "id": "dll_0764",
+      "jp": "今晩はここまでにすることにした……",
+      "en": "Called it a night...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 765,
+      "id": "dll_0765",
+      "jp": "仕事に戻ることにした……",
+      "en": "Back to work...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 766,
+      "id": "dll_0766",
+      "jp": "少し落ち着いて、ＥＰが【{0}】回復した！",
+      "en": "Relaxed a bit. EP up【{0}】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 767,
+      "id": "dll_0767",
+      "jp": "呼吸を整えた……",
+      "en": "Took a breath...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 768,
+      "id": "dll_0768",
+      "jp": "呼吸を整えて、ＥＰが【{0}】回復した！",
+      "en": "Caught my breath. EP up【{0}】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 769,
+      "id": "dll_0769",
+      "jp": "冷静になって、ＥＰが【{0}】回復した！",
+      "en": "Calmed down. EP up【{0}】!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 770,
+      "id": "dll_0770",
+      "jp": "パートナーとの距離が変化した！",
+      "en": "Partner's closeness changed!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 771,
+      "id": "dll_0771",
+      "jp": "機嫌が悪くなったようだ……",
+      "en": "Seems in a bad mood...",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 772,
+      "id": "dll_0772",
+      "jp": "すぐに挿入しちゃう",
+      "en": "Go in right away.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 773,
+      "id": "dll_0773",
+      "jp": "ちょっと焦らしちゃう",
+      "en": "Tease a little.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 774,
+      "id": "dll_0774",
+      "jp": "【<pl>】はイカされてしまった……！",
+      "en": "【<pl>】came...!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 775,
+      "id": "dll_0775",
+      "jp": "【<pl>】の精を舐めとった彼女は、さらに興奮を増した気がする！",
+      "en": "She licked【<pl>】's essence, and got even more excited!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 776,
+      "id": "dll_0776",
+      "jp": "【<pt>】はイキたがっているようだ",
+      "en": "【<pt>】wants to come.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 777,
+      "id": "dll_0777",
+      "jp": "中出しする！",
+      "en": "Creampie!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 778,
+      "id": "dll_0778",
+      "jp": "焦らしちゃう",
+      "en": "Tease her.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 779,
+      "id": "dll_0779",
+      "jp": "【<pl>】はラストスパートをかけた！",
+      "en": "【<pl>】made a final push!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 780,
+      "id": "dll_0780",
+      "jp": "【<pt>】は致命的な快楽を受け、絶頂した！",
+      "en": "【<pt>】reached ecstasy!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 781,
+      "id": "dll_0781",
+      "jp": "同時に、膣を思いっきり締め付け、致命的な快楽を与えてくる！",
+      "en": "While clenching her vagina tight, delivering lethal pleasure!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 782,
+      "id": "dll_0782",
+      "jp": "【<pl>】はそのまま膣内に精を放った！",
+      "en": "【<pl>】 released his seed inside!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 783,
+      "id": "dll_0783",
+      "jp": "【<pl>】と【<pt>】は同時にイってしまった……！",
+      "en": "【<pl>】 and 【<pt>】 climaxed together!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 784,
+      "id": "dll_0784",
+      "jp": "【<pl>】は行為を続行した！",
+      "en": "【<pl>】 continued the act!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 785,
+      "id": "dll_0785",
+      "jp": "【<pt>】は膣を締め上げ、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 squeezed her vagina, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 786,
+      "id": "dll_0786",
+      "jp": "【<pt>】は巧みに足を使い、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 skillfully used her feet, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 787,
+      "id": "dll_0787",
+      "jp": "【<pt>】は巧みに舌を使い、ペニスに残っていた精を残らず搾り取った！",
+      "en": "【<pt>】 skillfully used her tongue, milking every last drop of seed!",
+      "category": "remaining_dll",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 788,
+      "id": "dll_0788",
+      "jp": "パートナーがアプローチを仕掛けてきた！",
+      "en": "Your partner made an approach!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 789,
+      "id": "dll_0789",
+      "jp": "どうにか#どうにか",
+      "en": "Somehow#Somehow",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 790,
+      "id": "dll_0790",
+      "jp": "普通に#普通に",
+      "en": "Normally#Normally",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 791,
+      "id": "dll_0791",
+      "jp": "なんとなく#なんとなく",
+      "en": "Kinda#Somehow",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 792,
+      "id": "dll_0792",
+      "jp": "ノリで#その場のノリで",
+      "en": "On a whim#On a whim",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 793,
+      "id": "dll_0793",
+      "jp": "流れで#流れに任せて",
+      "en": "Go with it#Go with it",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 794,
+      "id": "dll_0794",
+      "jp": "ノリノリで#ノリノリで",
+      "en": "All hyped#All hyped",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 795,
+      "id": "dll_0795",
+      "jp": "情熱的に#情熱的に",
+      "en": "Passionately#Passionately",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 796,
+      "id": "dll_0796",
+      "jp": "スケベ顔で#スケベな顔をしながら",
+      "en": "Lewd face#With a lewd face",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 797,
+      "id": "dll_0797",
+      "jp": "ウキウキと#ウキウキ気分で",
+      "en": "Gleefully#Gleefully",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 798,
+      "id": "dll_0798",
+      "jp": "ぜひとも#ぜひとも",
+      "en": "By all means#By all means",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 799,
+      "id": "dll_0799",
+      "jp": "イヤそうに#イヤそうな顔をしながら",
+      "en": "Reluctantly#With a reluctant face",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 800,
+      "id": "dll_0800",
+      "jp": "後ろ向きで#後ろ向きな姿勢で",
+      "en": "Backwards#In a backwards position",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    }
+  ]
+}

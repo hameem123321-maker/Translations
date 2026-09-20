@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 91901,
+  "range_end": 92000,
+  "pairs": [
+    {
+      "n": 91901,
+      "id": "db_EventInfo:108604:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91902,
+      "id": "db_EventInfo:108605:2",
+      "jp": "たしかにアイサツは大事デス。死神のハンドブックにも書いてるデス",
+      "en": "It's true that greetings are important, Desu. It's even written in the Shinigami handbook, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91903,
+      "id": "db_EventInfo:108606:1",
+      "jp": "（どんなハンドブックなんだろう）",
+      "en": "(I wonder what kind of handbook that is...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91904,
+      "id": "db_EventInfo:108609:2",
+      "jp": "アイサツを店員どもに徹底した結果、客の満足度が少し上がったようデス",
+      "en": "After making sure the staff all give proper greetings, customer satisfaction seems to have gone up a bit, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91905,
+      "id": "db_EventInfo:108610:1",
+      "jp": "挨拶だけでも変わるものなんだな",
+      "en": "So just greetings can make a difference.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91906,
+      "id": "db_EventInfo:108611:2",
+      "jp": "アイサツだけではなく、それによって仕事のモチベーションが上がって、様々な仕事の能率が上がったのデス。たぶん",
+      "en": "It's not just the greetings, Desu. Because of them, work motivation went up, and all sorts of tasks became more efficient. Probably, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91907,
+      "id": "db_EventInfo:108612:2",
+      "jp": "これからも頑張るデス",
+      "en": "We'll keep trying hard, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91908,
+      "id": "db_EventInfo:108613:2",
+      "jp": "オマエ、なんてことを口走るデス！",
+      "en": "What kind of crazy thing are you saying, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91909,
+      "id": "db_EventInfo:108614:1",
+      "jp": "いや、なんとなく……",
+      "en": "No, it's just a thought...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91910,
+      "id": "db_EventInfo:108616:9",
+      "jp": "ほほう、客を洗脳する香水を開発すれば良いのだな？",
+      "en": "Hohoho, so all we need to do is develop a perfume that brainwashes the customers, right?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 91911,
+      "id": "db_EventInfo:108617:9",
+      "jp": "ククク……他でもない店長殿の命令だ。よかろう。ウィルチの名にかけて、この宿を満足と狂乱のるつぼに変えてやろうぞ！",
+      "en": "Hehehe... This is none other than the boss's order. Very well. In the name of Wilche, I shall transform this inn into a crucible of satisfaction and madness!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 91912,
+      "id": "db_EventInfo:108620:9",
+      "jp": "ククク……魔香の威力は抜群のようだな。宿の満足度がアップしたぞ",
+      "en": "Hehehe... The power of the demonic incense seems excellent. The inn's satisfaction level has increased.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 91913,
+      "id": "db_EventInfo:108621:1",
+      "jp": "これで宿の運営が捗りそうだな",
+      "en": "This should make running the inn go more smoothly.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91914,
+      "id": "db_EventInfo:108622:2",
+      "jp": "大丈夫デス？　この香水、副作用とかないデス？",
+      "en": "Are you sure about this? This perfume doesn't have any side effects, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91915,
+      "id": "db_EventInfo:108623:9",
+      "jp": "副作用？",
+      "en": "Side effects?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 91916,
+      "id": "db_EventInfo:108625:9",
+      "jp": "無いぞ",
+      "en": "There aren't any.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 91917,
+      "id": "db_EventInfo:108626:2",
+      "jp": "今の沈黙はなんデス？",
+      "en": "What was that silence just now?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91918,
+      "id": "db_EventInfo:108627:2",
+      "jp": "オマエ、なんてことを口走るデス！",
+      "en": "What are you saying!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91919,
+      "id": "db_EventInfo:108628:1",
+      "jp": "いや、なんとなく……",
+      "en": "Well, I just had a feeling...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91920,
+      "id": "db_EventInfo:108630:6",
+      "jp": "神像……素晴らしい提案ですわ！",
+      "en": "A god statue... What a splendid suggestion!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 91921,
+      "id": "db_EventInfo:108631:6",
+      "jp": "ふふ。わたくしにお任せあれ、ですわ！　この店にふさわしい神像を用意させていただきますわ！",
+      "en": "Fufu. Leave it to me! I shall prepare a god statue worthy of this establishment!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 91922,
+      "id": "db_EventInfo:108634:6",
+      "jp": "新しく建造した神像によって、信者の方々への満足度がアップいたしましたわ",
+      "en": "The newly erected god statue has increased satisfaction among our followers.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 91923,
+      "id": "db_EventInfo:108635:1",
+      "jp": "これで宿の運営が捗りそうだな",
+      "en": "This should make running the inn easier.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91924,
+      "id": "db_EventInfo:108636:2",
+      "jp": "でも宿が、あやしい宗教施設みたいになったデス",
+      "en": "But now the inn looks like a creepy cult place, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91925,
+      "id": "db_EventInfo:108637:6",
+      "jp": "怪しいと思うのも最初のうちですわ。信仰が馴染めば、これも日常の光景になるのですわ",
+      "en": "Thinking it's strange will only be at first. Once faith takes root, this too will become an everyday sight.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 91926,
+      "id": "db_EventInfo:108638:6",
+      "jp": "信仰の布教も地道な活動、わたくしたちの教えを広めるよう、日々努力いたしましょう",
+      "en": "Spreading our faith is steady work. Let's work hard every day to spread our teachings.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 91927,
+      "id": "db_EventInfo:108639:2",
+      "jp": "広めたいのは満足度なんデスが",
+      "en": "What we want to spread is customer satisfaction, Desu ga.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91928,
+      "id": "db_EventInfo:108641:2",
+      "jp": "おい、オマエ、困ってるデス。何とかしろデス！",
+      "en": "Hey, you! I have a problem, Desu. Do something about it, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91929,
+      "id": "db_EventInfo:108642:1",
+      "jp": "困ってるだって？　なにかあったのか？",
+      "en": "A problem? What happened?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91930,
+      "id": "db_EventInfo:108643:2",
+      "jp": "私にいやらしい視線を向ける客が多いのデス。気持ち悪いデス。なんで、ジロジロと見てくるか不可解デス",
+      "en": "A lot of guests are giving me creepy looks, Desu. It's gross, Desu. It's a mystery why they keep staring, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91931,
+      "id": "db_EventInfo:108644:1",
+      "jp": "（そんな格好だしな……まあ、見た目だけなら美人だし）",
+      "en": "(Well, with that outfit... Actually, she is pretty just by looks.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91932,
+      "id": "db_EventInfo:108645:2",
+      "jp": "このままでは死神パンチで亡き者にしてしまいそうデス。さっさとどうにかするデス！",
+      "en": "At this rate, I feel like knocking them out with a Shinigami Punch, Desu. Do something about it quickly, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91933,
+      "id": "db_EventInfo:108646:1",
+      "jp": "（……中身はこれなんだけどな）",
+      "en": "(...But this is what she's really like on the inside.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91934,
+      "id": "db_EventInfo:108647:1",
+      "jp": "（シイネはともかく、店員に害が及ぶのは困るな。なんとかするか）",
+      "en": "(Never mind about Shiine, but I can't let the staff get hurt. I should do something about it.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91935,
+      "id": "db_EventInfo:108648:2",
+      "jp": "それで解決するデス？　まあいいデスが……",
+      "en": "Will that solve it? Well, I guess it's fine...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91936,
+      "id": "db_EventInfo:108651:2",
+      "jp": "うむ、迷惑な客が減った気がするデスね、やれやれデス",
+      "en": "Hmm, it feels like the annoying customers have decreased. What a relief.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91937,
+      "id": "db_EventInfo:108652:1",
+      "jp": "注意喚起のおかげで、絡まれる事も減ったみたいだな",
+      "en": "Thanks to the warning signs, it seems we get bothered less now.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91938,
+      "id": "db_EventInfo:108653:2",
+      "jp": "これで安心して働けるデスね。感謝するデス",
+      "en": "Now I can work peacefully. Thank you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91939,
+      "id": "db_EventInfo:108654:1",
+      "jp": "（シイネの犠牲になる人が出なくて良かった）",
+      "en": "(Good thing no one had to be sacrificed for Shiine.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91940,
+      "id": "db_EventInfo:108658:10",
+      "jp": "なるほど、そういう事なら任せておくがいい",
+      "en": "I see. If that's the case, you can leave it to me.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 91941,
+      "id": "db_EventInfo:108659:2",
+      "jp": "うむ、頼りにしてるデス",
+      "en": "Yeah, I'm counting on you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91942,
+      "id": "db_EventInfo:108662:10",
+      "jp": "店長殿か、今しがた不埒な客を成敗したぞ",
+      "en": "Manager, I just dealt with a rude customer.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 91943,
+      "id": "db_EventInfo:108663:1",
+      "jp": "そうか、助かった",
+      "en": "I see. Thanks for that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91944,
+      "id": "db_EventInfo:108664:2",
+      "jp": "ふむ……やはり暴力は全てを解決するデス。次はやはり私が……",
+      "en": "Hmm... Violence really does solve everything. Next time, I should...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91945,
+      "id": "db_EventInfo:108665:1",
+      "jp": "いやいや、やめてくれませんかね",
+      "en": "No, no, could you please not?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91946,
+      "id": "db_EventInfo:108666:2",
+      "jp": "なるほど、番犬を配置するのデスね",
+      "en": "I see. So we're putting guard dogs in place.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91947,
+      "id": "db_EventInfo:108667:4",
+      "jp": "ウルフィナは犬じゃないぞ",
+      "en": "I am not a dog, you know.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 91948,
+      "id": "db_EventInfo:108668:1",
+      "jp": "まあまあ、悪い客を捕まえたら食事を増やすからな",
+      "en": "Take it easy. If you catch any bad customers, I'll give you extra food.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91949,
+      "id": "db_EventInfo:108669:4",
+      "jp": "本当か？　やったー！",
+      "en": "Really? Yay!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 91950,
+      "id": "db_EventInfo:108672:2",
+      "jp": "ふむ……いやらしい客が減った気がするデス",
+      "en": "Hmm... It feels like the creepy customers have decreased, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91951,
+      "id": "db_EventInfo:108673:1",
+      "jp": "ああ、でもどうやって減らしたんだ？",
+      "en": "Yeah, but how did you get rid of them?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91952,
+      "id": "db_EventInfo:108674:4",
+      "jp": "噛みついてやったぞ",
+      "en": "I bit them.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 91953,
+      "id": "db_EventInfo:108675:1",
+      "jp": "おいおい",
+      "en": "Hey now.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91954,
+      "id": "db_EventInfo:108676:2",
+      "jp": "やはり暴力で叩き出すのが一番手っ取り早いデスね",
+      "en": "So driving them out with violence really is the fastest way, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91955,
+      "id": "db_EventInfo:108678:2",
+      "jp": "おいオマエ、大変なことになってるデス！　由々しき自体デス！",
+      "en": "Hey, you! Something terrible has happened, desu! A most dire situation, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91956,
+      "id": "db_EventInfo:108679:1",
+      "jp": "どうした、そんなに慌てて",
+      "en": "What's wrong? Why are you so panicked?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91957,
+      "id": "db_EventInfo:108680:2",
+      "jp": "さきほど、日課のカネ勘定をしていた時のことなのデスが",
+      "en": "It was just now, during my daily money counting routine, desu ga.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91958,
+      "id": "db_EventInfo:108681:1",
+      "jp": "日課の金勘定……",
+      "en": "Daily money counting...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91959,
+      "id": "db_EventInfo:108682:2",
+      "jp": "カネが減っているのデス！　昨晩より減っているデス！　おかしいデス！　金庫の中身は出してないはずデス！",
+      "en": "Money's going down! It's less than last night! This is weird! I didn't take anything out of the safe!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91960,
+      "id": "db_EventInfo:108683:1",
+      "jp": "落ち着けって",
+      "en": "Calm down.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91961,
+      "id": "db_EventInfo:108684:2",
+      "jp": "あのカネは私が血汗を垂らして稼ぎ出させた大事なカネなのデス！　とてもとても大事なカネなのデスー！！",
+      "en": "That money is the precious cash I sweated blood to earn! It's super, super important cash!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91962,
+      "id": "db_EventInfo:108685:1",
+      "jp": "わかった、わかったから！",
+      "en": "Okay, okay, I get it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91963,
+      "id": "db_EventInfo:108686:2",
+      "jp": "……死神のカネを横取りするとは、不届きなやつデス。あの世で千回ほど後悔させても許してやらないデス",
+      "en": "...Some jerk is stealing the Shinigami's money, Desu. I won't forgive them even if I make them regret it a thousand times in the afterlife, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91964,
+      "id": "db_EventInfo:108687:1",
+      "jp": "わかったから鎌下ろそうな",
+      "en": "I get it, so lower the scythe, okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91965,
+      "id": "db_EventInfo:108688:1",
+      "jp": "（シイネはこんな調子だが、ドロボウはたしかに大問題だな。再発しないように、どうにか手を打たないと……）",
+      "en": "(Shiine's like this, but a thief is a huge problem. We have to do something to stop it from happening again...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91966,
+      "id": "db_EventInfo:108689:2",
+      "jp": "オマエが警備するデス？　絶対に泥棒を捕まえてやるデス！",
+      "en": "You'll guard the place? I'll catch that thief for sure!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91967,
+      "id": "db_EventInfo:108690:2",
+      "jp": "絶対にとっ捕まえて、死神のカネに手を出したことを後悔させてやるデス……！",
+      "en": "I'll catch them for sure, and make them regret touching the Shinigami's money...!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91968,
+      "id": "db_EventInfo:108693:0",
+      "jp": "宿のメンバー総出で事務所を見張らせたところ、のこのこ現れた泥棒を捕まえる事ができた。",
+      "en": "The whole inn staff kept watch on the office and managed to catch the thief when they showed up.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91969,
+      "id": "db_EventInfo:108694:2",
+      "jp": "騎士団ポリスに引き渡してやったデス",
+      "en": "We handed them over to the knight police.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91970,
+      "id": "db_EventInfo:108695:2",
+      "jp": "本当は地獄に突き落として後悔させてやりたいところデスが、鎌を見せて脅すぐらいにしてやったデス。感謝するデス",
+      "en": "I really wanted to push them into hell and make them suffer, but I just scared them by showing my scythe. Be thankful.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91971,
+      "id": "db_EventInfo:108696:1",
+      "jp": "お前が出て行くとシャレにならないから",
+      "en": "I can't let you go, this is no joke.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91972,
+      "id": "db_EventInfo:108697:2",
+      "jp": "ただあの犯人、初めて盗みに入ったとか意味不明の供述を繰り返していたデス",
+      "en": "But that criminal, he kept giving strange statements, like it was his first time stealing, you know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91973,
+      "id": "db_EventInfo:108698:2",
+      "jp": "でもなんだか、知らないうちにカネが戻ってきてたデス。きっと私の日頃の行いがいいから、神さまが贈り物をしてくれたんデス。感謝デス",
+      "en": "But somehow, the money came back without me knowing. My good deeds must have pleased the gods. A gift for me. I'm so grateful.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91974,
+      "id": "db_EventInfo:108699:1",
+      "jp": "（お前も神様だろ、一応……）",
+      "en": "(You're kind of a god too, technically...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91975,
+      "id": "db_EventInfo:108702:0",
+      "jp": "いろいろと不審な点はあったが。オカネは戻り、シイネの機嫌も直って、ひとまず安心することが出来たのであった。",
+      "en": "There were some suspicious things. But the money was back, Shiine was happy again, so for now, I could relax.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91976,
+      "id": "db_EventInfo:108704:7",
+      "jp": "え、ええっ？　な、何でボクに聞くの！？",
+      "en": "Wh-what? Why are you asking me!?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 91977,
+      "id": "db_EventInfo:108705:1",
+      "jp": "いや、盗賊に心当たりはないかなと……",
+      "en": "Well, I was just wondering if you had any idea who the thief might be...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91978,
+      "id": "db_EventInfo:108706:7",
+      "jp": "あっ、ああ！　なるほどね！　そういう事だね！",
+      "en": "Oh, oh! I see! That's what you mean!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 91979,
+      "id": "db_EventInfo:108707:2",
+      "jp": "神のカネに手を出す不届き者デス、絶対に捕らえてギッタンギッタンにしてやるデス！",
+      "en": "A lowlife who dares touch a god's money. I'll catch them and tear them apart!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91980,
+      "id": "db_EventInfo:108708:7",
+      "jp": "あはは！　そ、そうだね、許せないよね！　うん、ボクに任せてよ！　絶対に捕まえてあげるからさ！",
+      "en": "Ahaha! Y-yeah, that's unforgivable! Yeah, leave it to me! I'll catch them for sure!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 91981,
+      "id": "db_EventInfo:108711:0",
+      "jp": "ファシィに任せたところ、無事に泥棒を捕らえることができたらしい。",
+      "en": "I left it to Facy, and it seems they managed to catch the thief safely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91982,
+      "id": "db_EventInfo:108712:7",
+      "jp": "騎士団に引き渡してきたから安心してよ！　ちゃんとお金も取り返してきたよ！",
+      "en": "I handed them over to the knights, so don't worry! And I got the money back too!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 91983,
+      "id": "db_EventInfo:108713:1",
+      "jp": "よくやってくれたな",
+      "en": "You did a great job.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91984,
+      "id": "db_EventInfo:108714:7",
+      "jp": "え、えへへっ、気にしないでいいよ？　じゃ、じゃあ、ボクはこれで……",
+      "en": "Heh, heh, don't worry about it? Well then, I'll be going...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 91985,
+      "id": "db_EventInfo:108717:1",
+      "jp": "そういやシイネはどこだ？　……あいつ、また金勘定しているのか？",
+      "en": "By the way, where's Shiine? ...Is she counting money again?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91986,
+      "id": "db_EventInfo:108718:0",
+      "jp": "様子を見に行くと、シイネは相変わらず金勘定をしているようだった。",
+      "en": "I went to check on her, and Shiine seemed to be counting money as usual.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91987,
+      "id": "db_EventInfo:108719:2",
+      "jp": "帳簿が合ってるデス。おカネも戻ってよかったデス",
+      "en": "The books balance desu. The money came back, good desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91988,
+      "id": "db_EventInfo:108720:1",
+      "jp": "シイネの機嫌も直ったみたいだし、よかったよかった",
+      "en": "Shiine seems to be in a better mood too. That's good.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91989,
+      "id": "db_EventInfo:108721:2",
+      "jp": "デスデス。こないだ盗まれたカネも戻ってきたデス",
+      "en": "Desu desu. The money stolen the other day came back desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91990,
+      "id": "db_EventInfo:108722:2",
+      "jp": "まったくバカな盗人デス。自分で盗んだ店に、もう一度入るなんて、捕まえてくれと言ってるようなもんデス",
+      "en": "What a stupid thief desu. Coming back into the store you just robbed is like asking to be caught desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91991,
+      "id": "db_EventInfo:108724:1",
+      "jp": "たしかに、変だよなあ……？？",
+      "en": "Yeah, it is weird...??",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 91992,
+      "id": "db_EventInfo:108727:0",
+      "jp": "いろいろと不審な点はあったが。盗まれた金は戻り、シイネの機嫌も直って、ひとまず安心することが出来たのであった。",
+      "en": "There were a lot of suspicious points. But the stolen money was back, Shiine was happy again, so for now, I could relax.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91993,
+      "id": "db_EventInfo:108728:2",
+      "jp": "なるほど、番犬ということデスね？",
+      "en": "I see, so it's a guard dog desu ne?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91994,
+      "id": "db_EventInfo:108730:4",
+      "jp": "おい、オレは犬じゃないぞ？",
+      "en": "Hey, I'm not a dog!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 91995,
+      "id": "db_EventInfo:108731:2",
+      "jp": "何でもいいデス！　絶対にとっ捕まえて、死神のカネに手を出したことを後悔させてやるデス……！",
+      "en": "Anything works! I'll definitely catch them and make them regret messing with the Shinigami's money!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91996,
+      "id": "db_EventInfo:108732:2",
+      "jp": "たくさんニクをくれてやるから、しっかり守るデス！",
+      "en": "I'll give you lots of meat, so guard the place well!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 91997,
+      "id": "db_EventInfo:108733:4",
+      "jp": "まったく、しょうがねえなあ……ま、いいや、ニクを食わせてくれるなら、見張りぐらいはやってやるぞ",
+      "en": "Jeez, you're hopeless... Ah, whatever. If you're gonna feed me meat, I guess I can stand guard for you.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 91998,
+      "id": "db_EventInfo:108736:0",
+      "jp": "ウルフィナに任せたところ、無事に泥棒を捕らえることができたとのことだ。見に行くと、ズタボロにされた盗人が転がっていた。",
+      "en": "I left it to Wolfina, and she managed to catch the thief just fine. When I went to look, the beaten-up thief was lying there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 91999,
+      "id": "db_EventInfo:108737:2",
+      "jp": "よくやってくれたデス",
+      "en": "Good work.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92000,
+      "id": "db_EventInfo:108738:4",
+      "jp": "もぐもぐ……へへーん、楽な仕事だったぞ",
+      "en": "Munch munch... Heh, easy job.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "source_file": "07_remaining_dll.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 700,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "dll_0601",
+      "jp": "探索可能ユニットのレベル",
+      "en": "Available Unit Level",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 602,
+      "id": "dll_0602",
+      "jp": "敵の撃破数(スキップ条件)",
+      "en": "Enemies Defeated (Skip)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 603,
+      "id": "dll_0603",
+      "jp": "敵レベル(+ダメージ上限)３倍",
+      "en": "Enemy Lv & DMG Cap 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 604,
+      "id": "dll_0604",
+      "jp": "ゴールド３倍",
+      "en": "Gold 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 605,
+      "id": "dll_0605",
+      "jp": "開発ポイント３倍",
+      "en": "Dev. Points 3x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 606,
+      "id": "dll_0606",
+      "jp": "全スキルがダメージ限界突破",
+      "en": "All Skills: Break DMG Cap",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 607,
+      "id": "dll_0607",
+      "jp": "常に神の祝福(戦闘中)",
+      "en": "Always God's Blessing",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 608,
+      "id": "dll_0608",
+      "jp": "修得スキルポイント1.5倍",
+      "en": "Skill Points 1.5x",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 609,
+      "id": "dll_0609",
+      "jp": "アーマニーを強制出撃",
+      "en": "Force Armany Deploy",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 610,
+      "id": "dll_0610",
+      "jp": "お気に入り数上限解除",
+      "en": "Max Fav. Unlocked",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 611,
+      "id": "dll_0611",
+      "jp": "クリア前の妊娠制限解除",
+      "en": "Clear Pre-Pregnancy Limit",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 612,
+      "id": "dll_0612",
+      "jp": "ショップ襲撃のWAVEが常に1",
+      "en": "Shop Raid Always 1 WAVE",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 613,
+      "id": "dll_0613",
+      "jp": "本当に最初からやりなおすのデス？",
+      "en": "Really restart from scratch?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 614,
+      "id": "dll_0614",
+      "jp": "引継ぎに失敗したデス\n(ディスクへの書き込みに失敗したようです)",
+      "en": "Carryover failed.\n(Write to disk failed?)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 615,
+      "id": "dll_0615",
+      "jp": "それじゃ、向こうの私ともよろしくデス！",
+      "en": "Say hi to the other me!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 616,
+      "id": "dll_0616",
+      "jp": "今は『ゴブリン』に備えるデス",
+      "en": "Now, prepare for Goblins!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 617,
+      "id": "dll_0617",
+      "jp": "組織にお金を送って、いろいろ融通して貰ったりします<color=#ffff00> (イベント条件になることも)</color>",
+      "en": "Send money for various favors<color=#ffff00> (Event conditions)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 618,
+      "id": "dll_0618",
+      "jp": "お金をあちこちに配って、この世界を動かします<color=#ff8800> (メインストーリー進行)</color>",
+      "en": "Distribute money to move the world<color=#ff8800> (Main story)</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 619,
+      "id": "dll_0619",
+      "jp": "お店の設備を強化し、働きやすい労働環境を作ります",
+      "en": "Upgrade shop, improve work environment",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 620,
+      "id": "dll_0620",
+      "jp": "攻略済みダンジョンを整備し、冒険者に開発ポイントを稼がせます",
+      "en": "Develop cleared dungeons, earn Dev. Points",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 621,
+      "id": "dll_0621",
+      "jp": "ハーレム部屋を運営して、女の子から搾精されます",
+      "en": "Run a harem room, get drained by girls",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 622,
+      "id": "dll_0622",
+      "jp": "『死神』とおカネの力で運命を書き換えます",
+      "en": "Rewrite fate with money & Shinigami",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 623,
+      "id": "dll_0623",
+      "jp": "スキルを開発して、メンバーの戦闘能力を高めます",
+      "en": "Develop skills, boost combat power",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 624,
+      "id": "dll_0624",
+      "jp": "実績を積むことにより、死神の力を覚醒させます",
+      "en": "Build achievements, awaken Shinigami",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 625,
+      "id": "dll_0625",
+      "jp": "お店の施設を建築したり、建て替えることができます",
+      "en": "Build or remodel shop facilities",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 626,
+      "id": "dll_0626",
+      "jp": "お店の施設の品質を高めることができます",
+      "en": "Raise shop facility quality",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 627,
+      "id": "dll_0627",
+      "jp": "主人公の自室。緊張しやすいせいか、感度が高まりやすい。【セクハラ耐性成長++】",
+      "en": "Ren's room. Sensitive, gets tense. 【Harass Resist++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 628,
+      "id": "dll_0628",
+      "jp": "催淫効果を与える香により、エッチな気分になりやすい。【成長ボーナスなし】",
+      "en": "Aphrodisiac scent. Easy arousal.【No Bonus】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 629,
+      "id": "dll_0629",
+      "jp": "豪華なお風呂。泡プレイが可能でエッチ技能を育成できる。【性技成長++】",
+      "en": "Luxury bath. Bubble play, sex skills.【Sex Skill++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 630,
+      "id": "dll_0630",
+      "jp": "ハードな雰囲気の部屋。特殊なプレイができ、搾り取る技能を高める。【搾精成長++】",
+      "en": "Hardcore room. Special play, drain skills.【Drain++】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 631,
+      "id": "dll_0631",
+      "jp": "<color=#ff0000>まだ選択出来ません</color>",
+      "en": "<color=#ff0000>Can't select yet</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 632,
+      "id": "dll_0632",
+      "jp": "<color=#ff0000>『搾精ルーム』の建築が必要です</color>",
+      "en": "<color=#ff0000>Need 'Drain Room'</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 633,
+      "id": "dll_0633",
+      "jp": "<color=#ff0000>『ソープ搾精ルーム』 + 好感度Ａ以上 + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Soap Drain Room' + Affec. A+ + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 634,
+      "id": "dll_0634",
+      "jp": "<color=#ff0000>『ハード搾精ルーム』 + 好感度Ｓ + 性技Ａ + 非妊娠が必要です</color>",
+      "en": "<color=#ff0000>'Hard Drain Room' + Affec. S + Sex Skill A + Not Pregnant</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 635,
+      "id": "dll_0635",
+      "jp": "衣装を変更するデス？\n【(衣装オフ→<size=30>衣装オン</size>)】",
+      "en": "Change outfit?\n【(Off→<size=30>On</size>)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 636,
+      "id": "dll_0636",
+      "jp": "衣装を変更するデス？\n【(衣装オン→<size=30>衣装オフ</size>)】",
+      "en": "Change outfit?\n【(On→<size=30>Off</size>)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 637,
+      "id": "dll_0637",
+      "jp": "衣装を変更しました",
+      "en": "Outfit changed",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 638,
+      "id": "dll_0638",
+      "jp": "システム",
+      "en": "System",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 639,
+      "id": "dll_0639",
+      "jp": "まだ習得できないデス",
+      "en": "Can't learn yet",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 640,
+      "id": "dll_0640",
+      "jp": "スキルをリセットするデス？",
+      "en": "Reset skills?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 641,
+      "id": "dll_0641",
+      "jp": "これ以上のスキルは習得できないデス。【顔アイコンをクリック】してスキルリセットするデス？",
+      "en": "Can't learn more skills. Click {Face Icon} to reset?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 642,
+      "id": "dll_0642",
+      "jp": "お気に入りの女を変更したデス！\n【(同じスキルを修得していたキャラクターが忘却しました)】",
+      "en": "Favorite girl changed! \n【(Same skill forgotten by another char.)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 643,
+      "id": "dll_0643",
+      "jp": "これで店が広くなるデス！　空き地に施設を建設するデスよ！",
+      "en": "Store expands! Build a facility on the empty lot!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 644,
+      "id": "dll_0644",
+      "jp": "キャラリセット",
+      "en": "Char. Reset",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 645,
+      "id": "dll_0645",
+      "jp": "アイコンをクリックすると、開発状態をリセット出来ます。",
+      "en": "Click icon to reset development status.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 646,
+      "id": "dll_0646",
+      "jp": "これ以上のスキルは習得できません",
+      "en": "Cannot learn more skills.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 647,
+      "id": "dll_0647",
+      "jp": "<color=#ff0000>スキル習得Pがもっと必要です</color>",
+      "en": "<color=#ff0000>More Skill Pts needed</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 648,
+      "id": "dll_0648",
+      "jp": "<color=#ff0000>このスキルは習得出来ません</color>",
+      "en": "<color=#ff0000>Cannot learn this skill</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 649,
+      "id": "dll_0649",
+      "jp": "<color=#ffff00>習得可能です</color>",
+      "en": "<color=#ffff00>Can learn</color>",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 650,
+      "id": "dll_0650",
+      "jp": "このスキルは開発済です",
+      "en": "Skill already developed.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 651,
+      "id": "dll_0651",
+      "jp": "投資額<color=#",
+      "en": "Invested:<color=#",
+      "category": "remaining_dll",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 652,
+      "id": "dll_0652",
+      "jp": "投資済",
+      "en": "Invested",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 653,
+      "id": "dll_0653",
+      "jp": "【<pt>】の性技が成長した！",
+      "en": "【<pt>】's Sex Skill grew!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 654,
+      "id": "dll_0654",
+      "jp": "【<pt>】の搾精が成長した！",
+      "en": "【<pt>】's Extraction grew!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 655,
+      "id": "dll_0655",
+      "jp": "【<pt>】の淫乱が成長した！",
+      "en": "【<pt>】's Lust grew!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 656,
+      "id": "dll_0656",
+      "jp": "【<pt>】の独占が成長した！",
+      "en": "【<pt>】's Possessiveness grew!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 657,
+      "id": "dll_0657",
+      "jp": "行方不明だった女を救出したデス。助けたことで縁が出来たデス",
+      "en": "Rescued a missing girl. Formed a bond.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 658,
+      "id": "dll_0658",
+      "jp": "死神パワーで綺麗な身体にして、スタッフに迎えることも出来るデスが、どうするデス？",
+      "en": "I can clean her with Shinigami power and hire her. Do it?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 659,
+      "id": "dll_0659",
+      "jp": "強敵の存在を感じるデス",
+      "en": "Sensing a formidable foe.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 660,
+      "id": "dll_0660",
+      "jp": "助けを求める者の存在を感じるデス",
+      "en": "Sensing someone in need.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 661,
+      "id": "dll_0661",
+      "jp": "新しいマテリアルを発見したデス！\n『{0}』",
+      "en": "Found new material!\n『{0}』",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 662,
+      "id": "dll_0662",
+      "jp": "そろそろ時間が限界デスね。いったん帰還するデス",
+      "en": "Time's almost up. Let's return.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 663,
+      "id": "dll_0663",
+      "jp": "不思議な力により回復した！",
+      "en": "A strange power restored you!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 664,
+      "id": "dll_0664",
+      "jp": "移動：WASD/↑←↓→　アイテム入手：左クリック　ダッシュ : 右クリック",
+      "en": "Move: WASD/Arrows\nPick Up: Left Click\nDash: Right Click",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 665,
+      "id": "dll_0665",
+      "jp": "これ以上先に進むことができないみたいデス。いったん戻るデス？",
+      "en": "Can't go further. Head back?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 666,
+      "id": "dll_0666",
+      "jp": "先に進むデス？",
+      "en": "Proceed?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 667,
+      "id": "dll_0667",
+      "jp": "ここで探索をやめるデス？",
+      "en": "End exploration?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 668,
+      "id": "dll_0668",
+      "jp": "トラップだ！！",
+      "en": "Trap!!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 669,
+      "id": "dll_0669",
+      "jp": "【{0}】は【{1}】のダメージを受けた！",
+      "en": "【{0}】 took 【{1}】 damage!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 670,
+      "id": "dll_0670",
+      "jp": "トラップを解除した！",
+      "en": "Trap disarmed!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 671,
+      "id": "dll_0671",
+      "jp": "これ以上の探索は難しいデス。いったん戻るデス",
+      "en": "Exploration too hard. Go back.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 672,
+      "id": "dll_0672",
+      "jp": "【いよいよ最後の戦いの予感】がするデス。今のうちにセーブしておくデス！\n【(※再開する際は拠点からになります)】",
+      "en": "【Final battle feels near】. Save now!\n【(Restart from base)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 673,
+      "id": "dll_0673",
+      "jp": "【これまでにない強敵】が出現する気がするデス。ボス用の編成にして備えるデス！",
+      "en": "【A strong foe】 lurks. Form a boss team!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 674,
+      "id": "dll_0674",
+      "jp": "【なんだかすごく嫌な予感】がするデス。今のうちにセーブしておくデス！\n【(※再開する際は拠点からになります)】",
+      "en": "【A really bad feeling】. Save now!\n【(Restart from base)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 675,
+      "id": "dll_0675",
+      "jp": "いよいよ最後の戦いが始まるデス。準備は大丈夫デス？",
+      "en": "Final battle begins. Ready?",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 676,
+      "id": "dll_0676",
+      "jp": "最後の戦いは【長期戦】が予想されるデス。セーブしておくデス！\n【(※再開する際は拠点からになります)】",
+      "en": "Final battle is a 【long fight】. Save now!\n【(Restart from base)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 677,
+      "id": "dll_0677",
+      "jp": "一人になったデス",
+      "en": "You're alone now.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 678,
+      "id": "dll_0678",
+      "jp": "『淫魔』の気配が強くなったデス！",
+      "en": "【Succubus】 presence grew stronger!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 679,
+      "id": "dll_0679",
+      "jp": "ダッシュモードをオンにしました",
+      "en": "Dash mode ON",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 680,
+      "id": "dll_0680",
+      "jp": "ダッシュモードをオフにしました",
+      "en": "Dash mode OFF",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 681,
+      "id": "dll_0681",
+      "jp": "このダンジョンは安全デスね。まだ不要デス",
+      "en": "Dungeon is safe, des. Not needed yet, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 682,
+      "id": "dll_0682",
+      "jp": "編成先のスロットを選択してください。枠外選択でキャンセルします",
+      "en": "Choose target party slot. Tap outside to cancel.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 683,
+      "id": "dll_0683",
+      "jp": "オマエはこの位置で固定デス",
+      "en": "You are locked in this spot, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 684,
+      "id": "dll_0684",
+      "jp": "編成先のスロットを選択してください。枠外選択でパーティーから解除します",
+      "en": "Choose target slot. Tap outside to remove from party.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 685,
+      "id": "dll_0685",
+      "jp": "私を配置しろデス",
+      "en": "Place me, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 686,
+      "id": "dll_0686",
+      "jp": "私をメインスロットに配置しろデス",
+      "en": "Place me in the main slot, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 687,
+      "id": "dll_0687",
+      "jp": "ミルテとレミルをメインスロットに配置するデス",
+      "en": "Place Myrte & Remil in main slots, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 688,
+      "id": "dll_0688",
+      "jp": "ミルテとレミルは温存するデス",
+      "en": "Save Myrte & Remil, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 689,
+      "id": "dll_0689",
+      "jp": "・シイネ・デシルス以外は連戦出来ません。サブスロットに配置することは可能です)】",
+      "en": "Only Shiine & Desilus can fight repeatedly. Can place in sub slots.)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 690,
+      "id": "dll_0690",
+      "jp": "編成出来ないヤツがいるデス。サブスロットのメンバーと交代するデス！\n【(サブスロットに配置することは可能です)】",
+      "en": "Cannot form party, des. Swap with a sub-slot member, des!\n【(Can be placed in sub slots)】",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 691,
+      "id": "dll_0691",
+      "jp": "嫌がられたデス！　まだ早いようデスね……\n(ストーリーの進行が必要です)",
+      "en": "They refused, des! Too soon, des...\n(Story progress required)",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 692,
+      "id": "dll_0692",
+      "jp": "そいつをメインスロットに入れることはできないデス",
+      "en": "Cannot put them in main slot, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 693,
+      "id": "dll_0693",
+      "jp": "メインスロットが空きになったチームを解散したデス",
+      "en": "Disbanded team with empty main slot, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 694,
+      "id": "dll_0694",
+      "jp": "探索ご苦労だったデス",
+      "en": "Good work exploring, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 695,
+      "id": "dll_0695",
+      "jp": "過去最高の稼ぎだったデス！",
+      "en": "Best profits ever, des!",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 696,
+      "id": "dll_0696",
+      "jp": "解除中…<size=70>",
+      "en": "Releasing...<size=70>",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 697,
+      "id": "dll_0697",
+      "jp": "名前を入力するデス",
+      "en": "Enter a name, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 698,
+      "id": "dll_0698",
+      "jp": "その名前は既に使用されているデス",
+      "en": "Name already in use, des.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 699,
+      "id": "dll_0699",
+      "jp": "『F7/F8』キーでゲームスピードを変更できます",
+      "en": "Press 'F7/F8' to change game speed.",
+      "category": "remaining_dll"
+    },
+    {
+      "n": 700,
+      "id": "dll_0700",
+      "jp": "【{0}】をH部屋に配置可能になったデス！",
+      "en": "【{0}】can now be placed in H-Room, des!",
+      "category": "remaining_dll"
+    }
+  ]
+}

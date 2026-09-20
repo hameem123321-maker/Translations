@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2001,
+  "range_end": 2100,
+  "pairs": [
+    {
+      "n": 2001,
+      "id": "db_EventInfo:2266:108",
+      "jp": "まあ、危険な用途にクスリを発明したこともあるが、良薬も悪用すれば毒薬になるもんじゃよ。ワシらは研究が第一なのじゃ",
+      "en": "Well, we have invented drugs for dangerous uses, but even good medicine can become poison if misused. For us, research comes first.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 2002,
+      "id": "db_EventInfo:2267:108",
+      "jp": "……ま、クスリの結果を知ることもあったから、完全な潔白と自称はせんがの",
+      "en": "...Well, sometimes we did know how the drugs would be used, so I can't claim complete innocence.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 2003,
+      "id": "db_EventInfo:2268:108",
+      "jp": "こうしていると、時々ナンパされるのじゃ",
+      "en": "When I'm like this, I sometimes get hit on.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 2004,
+      "id": "db_EventInfo:2269:108",
+      "jp": "ワシもまだまだ捨てたもんじゃないのお～Д",
+      "en": "I'm still not half bad, you know~ Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 2005,
+      "id": "db_EventInfo:2270:21",
+      "jp": "聞きましたよ御主人様。女店員に逃げられたそうですね？",
+      "en": "I heard, Master. That a female clerk ran away, right?",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2006,
+      "id": "db_EventInfo:2271:21",
+      "jp": "それで補充スタッフとして、私達を呼んだってことですか。退魔巫女二人が補充とは、贅沢なものです",
+      "en": "And that's why you called for us as replacement staff? Two exorcist shrine maidens as replacements is quite the luxury.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2007,
+      "id": "db_EventInfo:2272:21",
+      "jp": "海ですか……あまり気乗りしませんね。潮でドレスが痛んでしまいます",
+      "en": "The sea... I'm not too excited about that. The salt water will ruin my dress.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2008,
+      "id": "db_EventInfo:2273:21",
+      "jp": "あんな大きなバケモノを相手にどうやって戦うつもりなんですか",
+      "en": "How do you plan to fight a monster that big?",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2009,
+      "id": "db_EventInfo:2274:21",
+      "jp": "どれだけカネを積まれても、あんなヤツと戦いたくないですよ！",
+      "en": "No amount of money would make me want to fight a thing like that!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2010,
+      "id": "db_EventInfo:2275:21",
+      "jp": "聞きましたよ御主人様、【『退魔の一族』】の里をこの地に作ってくれるそうですね！",
+      "en": "I heard, Master! You're going to build a village here for the 'Exorcist Clan'.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2011,
+      "id": "db_EventInfo:2276:21",
+      "jp": "今頃師匠は、各地に散らばった一族を集めているはずです。私たちも手伝うつもりです",
+      "en": "My master should be gathering the clan members scattered around by now. We plan to help too.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2012,
+      "id": "db_EventInfo:2277:21",
+      "jp": "完成の暁には来て下さいね。とてもいい思いをさせてあげますよД",
+      "en": "Please come by when it's finished. I'll make sure you have a very good timeД",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 2013,
+      "id": "db_EventInfo:2278:22",
+      "jp": "本当に気乗りしませんが、傭われたからには仕事しますわ",
+      "en": "I really don't want to, but I'm hired, so I'll do the job.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2014,
+      "id": "db_EventInfo:2279:22",
+      "jp": "変なコトはしないでくださいね",
+      "en": "Please don't do anything weird.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2015,
+      "id": "db_EventInfo:2280:22",
+      "jp": "きなくさいことになってきましたわね",
+      "en": "Things are starting to smell fishy, aren't they.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2016,
+      "id": "db_EventInfo:2281:22",
+      "jp": "都市同士の戦いには、退魔巫女と一族は関与しないことになってるんですが",
+      "en": "Exorcist shrine maidens and our clan aren't supposed to get involved in fights between cities.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2017,
+      "id": "db_EventInfo:2282:22",
+      "jp": "あんなバケモノと戦って、よく生き残ってきましたわね……どんな生命力してるんですの？",
+      "en": "You fought that monster and survived... What kind of life force do you have?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2018,
+      "id": "db_EventInfo:2283:22",
+      "jp": "さすがにちょっと、見直しましたわ",
+      "en": "I have to admit, I'm a little impressed.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2019,
+      "id": "db_EventInfo:2284:22",
+      "jp": "……ええ、今のアナタなら、搾り甲斐がありそうですわД",
+      "en": "Yes... Now, you seem worth squeezing dryД",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2020,
+      "id": "db_EventInfo:2285:22",
+      "jp": "神ならぬ私達には認識できませんが、なにやらとんでもないことをしてきたようですね",
+      "en": "We're not gods, so we can't fully grasp it, but it seems you've done something outrageous.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2021,
+      "id": "db_EventInfo:2286:22",
+      "jp": "おまけに、いつの間にやら【『退魔の一族』】の里を作り始めているようで",
+      "en": "On top of that, you've somehow already started building a village for the【'Demon Extermination Clan'】.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2022,
+      "id": "db_EventInfo:2287:22",
+      "jp": "師匠は表情を変えませんが、大喜びで各地を巡っていますわ",
+      "en": "Master doesn't show it on her face, but she's overjoyed and traveling everywhere.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2023,
+      "id": "db_EventInfo:2288:22",
+      "jp": "……本当、どうしてそんな話になったのやら",
+      "en": "...Really, how did things even get to this point?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 2024,
+      "id": "db_EventInfo:2289:23",
+      "jp": "なんや、宿の中が慌ただしいことになってるわなぁ",
+      "en": "Whoa, the inn's gotten pretty lively, huh?",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 2025,
+      "id": "db_EventInfo:2290:23",
+      "jp": "ダンジョンに行くなら誘ってな。【<pl>】はんの役に立ったるでД",
+      "en": "If you're going to the dungeon, invite me. I'll be useful,【<pl>】Д",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 2026,
+      "id": "db_EventInfo:2291:23",
+      "jp": "【<pl>】はんたちとは色々あったけど、まあ水に流して～なД",
+      "en": "Me and【<pl>】 here, we've had our issues, but let's just let bygones be bygones~Д",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 2027,
+      "id": "db_EventInfo:2292:23",
+      "jp": "せやせや、ウチはノーザリアからの人質だったんや",
+      "en": "Right, right, I was a hostage from Norsalia.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 2028,
+      "id": "db_EventInfo:2293:23",
+      "jp": "人質なりに、奉仕せなあかんわな？　さっそく今晩ぐらい、手籠めにしてもええでД",
+      "en": "As a hostage, I gotta serve, right? How about I let you have your way with me tonight?Д",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 2029,
+      "id": "db_EventInfo:2294:24",
+      "jp": "お嬢様は、この宿を気に入りなさったようですわ",
+      "en": "It seems the young lady has taken a liking to this inn.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 2030,
+      "id": "db_EventInfo:2295:24",
+      "jp": "もちろん、私も、でございます",
+      "en": "And of course, so have I.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 2031,
+      "id": "db_EventInfo:2296:24",
+      "jp": "さっそくですが、今晩も夜伽の準備は出来ておりますわ。是非是非、お誘いくださいませД",
+      "en": "Let's get right to it. I'm all ready for our late-night company tonight. Please, please, ask me alongД",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 2032,
+      "id": "db_EventInfo:2297:14",
+      "jp": "やあ店長さん！",
+      "en": "Hey there, Shopkeeper!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2033,
+      "id": "db_EventInfo:2298:14",
+      "jp": "俺は村から出たばかりで、まだ経験は少ないけど。強くなってクエストをどんどんこなしてみせるぜ！",
+      "en": "I just left my village, so I don't have much experience yet. But I'm gonna get strong and clear all sorts of quests, you'll see!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2034,
+      "id": "db_EventInfo:2299:14",
+      "jp": "まずは簡単に、【『ゴブリン』】退治から始めようかなー",
+      "en": "I'll start simple, I guess... maybe with taking down some Goblins.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2035,
+      "id": "db_EventInfo:2300:14",
+      "jp": "マリーとは修道院で出会ったんだ。たまたま巡礼中らしくてさ",
+      "en": "I met Marie at a monastery. She was just on a pilgrimage, it seems.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2036,
+      "id": "db_EventInfo:2301:14",
+      "jp": "回復魔術はヘタクソだけど……けっこー可愛いだろ？　えへへ……",
+      "en": "She's pretty bad at healing magic... but she's kinda cute, right? Heh heh...",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2037,
+      "id": "db_EventInfo:2302:14",
+      "jp": "アイツを守れるよう、頑張ってみせるぜ！",
+      "en": "I'm gonna do my best so I can protect her!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2038,
+      "id": "db_EventInfo:2303:14",
+      "jp": "やあ店長さん！",
+      "en": "Hey there, Shopkeeper!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2039,
+      "id": "db_EventInfo:2304:14",
+      "jp": "俺は村から出たばかりで、まだ経験は少ないけど。強くなってクエストをどんどんこなしてみせるぜ！",
+      "en": "I just left my village, so I don't have much experience yet. But I'm gonna get strong and clear all sorts of quests, you'll see!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2040,
+      "id": "db_EventInfo:2305:14",
+      "jp": "まずは簡単に、【『ゴブリン』】退治から始めようかなー",
+      "en": "I'll start simple, I guess... maybe with taking down some Goblins.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2041,
+      "id": "db_EventInfo:2306:14",
+      "jp": "マリーとは修道院で出会ったんだ。たまたま巡礼中らしくてさ",
+      "en": "I met Marie at a monastery. She was just on a pilgrimage, it seems.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2042,
+      "id": "db_EventInfo:2307:14",
+      "jp": "回復魔術はヘタクソだけど……けっこー可愛いだろ？　えへへ……",
+      "en": "She's pretty bad at healing magic... but she's kinda cute, right? Heh heh...",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2043,
+      "id": "db_EventInfo:2308:14",
+      "jp": "アイツを守れるよう、頑張ってみせるぜ！",
+      "en": "I'll do my best to protect that guy!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2044,
+      "id": "db_EventInfo:2309:14",
+      "jp": "死んでる間に色々変わったんだなぁ",
+      "en": "Seems a lot changed while I was dead, huh.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2045,
+      "id": "db_EventInfo:2310:14",
+      "jp": "ま、いいか！",
+      "en": "Ah, whatever!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 2046,
+      "id": "db_EventInfo:2311:13",
+      "jp": "シイネちゃんとは、姫様を探している間に出会ったのじゃ",
+      "en": "I met Shiine while I was looking for the Princess.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2047,
+      "id": "db_EventInfo:2312:13",
+      "jp": "やっぱり、命令されるなら美人の方が良いじゃろ？",
+      "en": "Well, it's better to take orders from a beauty, right?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2048,
+      "id": "db_EventInfo:2313:13",
+      "jp": "ドワームの故郷【『ドルワミール鉱山』】は【『火の神カストロイア』】様の祝福を受けた土地じゃ",
+      "en": "Dwarm's homeland, the 'Dolwamir Mines,' is a land blessed by Lord Castroria, the God of Fire.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2049,
+      "id": "db_EventInfo:2314:13",
+      "jp": "【『火の神カストロイア』】様は火と鉄を司る神様として、ドワーム族に崇められておる",
+      "en": "Lord Castroria is worshipped by the Dwarm as the god who rules over fire and iron.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2050,
+      "id": "db_EventInfo:2315:13",
+      "jp": "とても恐ろしい神様で、ひとたび怒れば大地を揺るがし、天を<ruby=とどろ>轟</ruby>かせるのじゃ",
+      "en": "He is a very fearsome god. Once angered, he shakes the earth and makes the sky roar.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2051,
+      "id": "db_EventInfo:2316:13",
+      "jp": "ドワームは別にエルフィードと仲が悪いわけではないぞ",
+      "en": "Dwarm don't necessarily have a bad relationship with Elfeed.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2052,
+      "id": "db_EventInfo:2317:13",
+      "jp": "奴らは特に木細工が凄くてな。木彫りで鋼鉄を裂くような刀を作ったりしおって、ドワームとしても尊敬するものじゃ",
+      "en": "They're especially amazing at woodwork. They can make wooden-carved Katanas that can split steel. Even Dwarm respect that.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2053,
+      "id": "db_EventInfo:2318:13",
+      "jp": "逆にドワームは彼女らに装飾品を贈ることもある",
+      "en": "In turn, Dwarm sometimes give them jewelry as gifts.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2054,
+      "id": "db_EventInfo:2319:13",
+      "jp": "……姫様とエリオルダ殿の仲が悪いのは、まあ人間同士でもケンカするヤツらとかおるじゃろ？　そんなもんじゃ",
+      "en": "...As for the bad blood between the Princess and Lord Eliorda, well, even among humans there are folks who fight, right? It's like that.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2055,
+      "id": "db_EventInfo:2320:13",
+      "jp": "ドワーム族には、不倶戴天の敵がおってな。ヤツらを殺すための武器を作ることが悲願なのじゃ",
+      "en": "The Dwarm have sworn enemies. Making weapons to kill them is our life's goal.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2056,
+      "id": "db_EventInfo:2321:13",
+      "jp": "代々の【『鍛冶姫』】様はそのために、やたらと殺傷力の高い武器を発明されるのじゃが、危なくて扱いきれず、すぐに封印されてしまうのじゃ",
+      "en": "All the past Forging Princesses invented very deadly weapons for this. But they were too dangerous to use, so they got sealed away fast.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2057,
+      "id": "db_EventInfo:2322:13",
+      "jp": "時々それが発掘されて、大事になったりしているのじゃが",
+      "en": "Sometimes those weapons get dug up and cause big trouble.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2058,
+      "id": "db_EventInfo:2323:13",
+      "jp": "【『火の神カストロイア』】様とは定期的に【対話】をせねばならん。さもなくば大地を揺るがす破滅をもたらすのじゃ",
+      "en": "We must【talk】with the【Fire God Castroia】regularly. If we don't, it brings ruin that shakes the earth.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2059,
+      "id": "db_EventInfo:2324:13",
+      "jp": "ほっほっ。ワシとしては姫様が【『鍛冶姫』】の使命を思い出してくれただけで十分じゃ",
+      "en": "Heh heh. For me, it's enough that the Princess remembered the Forging Princess's mission.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2060,
+      "id": "db_EventInfo:2325:13",
+      "jp": "さて、久しぶりに飲み明かすかの",
+      "en": "Now, shall we drink the night away? It's been a while.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2061,
+      "id": "db_EventInfo:2326:13",
+      "jp": "ほほう、【<pl>】殿が領主になるのですか",
+      "en": "Oh my, so【<pl>】will become the lord?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2062,
+      "id": "db_EventInfo:2327:13",
+      "jp": "領主となるならば、舘の方も相応にしなければなりませんな",
+      "en": "If you become lord, your mansion should be fitting too.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2063,
+      "id": "db_EventInfo:2328:13",
+      "jp": "これからも建築の用命をお待ちしておりますぞ",
+      "en": "I await your future building requests.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2064,
+      "id": "db_EventInfo:2329:13",
+      "jp": "姫様の新しい装いは、素晴らしいものでしたなぁ",
+      "en": "The Princess's new outfit was wonderful.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2065,
+      "id": "db_EventInfo:2330:13",
+      "jp": "ドワーム族は豊満な者ばかりゆえ、姫様のつつましさが引き立つのです",
+      "en": "Since Dwarm are all rather plump, the Princess's modesty stands out.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2066,
+      "id": "db_EventInfo:2331:13",
+      "jp": "ふーむ、【<pl>】様は海にご興味が？",
+      "en": "Hmm, are you【<pl>】interested in the sea?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2067,
+      "id": "db_EventInfo:2332:13",
+      "jp": "ドワーム族は水に浮きにくいがゆえ、泳ぎが苦手なのです",
+      "en": "Dwarm have trouble swimming because we don't float easily in water.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2068,
+      "id": "db_EventInfo:2333:13",
+      "jp": "ワシも姫様も、海に放り込んでしまえば沈んでしまいますぞ",
+      "en": "If you threw me or the Princess into the sea, we'd sink.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2069,
+      "id": "db_EventInfo:2334:13",
+      "jp": "あれだけの巨大建造物、どれだけの職人が集まれば作れるやら……",
+      "en": "How many workers did it take to make something that huge...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2070,
+      "id": "db_EventInfo:2335:13",
+      "jp": "不謹慎ながら、その製造過程に興味津々になってしまいますな",
+      "en": "It's not very proper, but I'm really curious about how it was made.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2071,
+      "id": "db_EventInfo:2336:13",
+      "jp": "最近職人達が、シイネちゃんの像を造りたがるのです",
+      "en": "Lately, the craftsmen want to make statues of Shiine.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2072,
+      "id": "db_EventInfo:2337:13",
+      "jp": "なにかの信仰を表現した像と言っているのですが、ワシにはなんのことやら……",
+      "en": "They say it's a statue expressing some kind of faith, but I don't get it...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2073,
+      "id": "db_EventInfo:2338:13",
+      "jp": "似たような像を聖都や灼熱の都でも見たことがあると聞きますが、何の流行なのですかな？",
+      "en": "I hear they've seen similar statues in the Holy Capital and the Scorching City. Is it some kind of trend?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 2074,
+      "id": "db_EventInfo:2339:17",
+      "jp": "【『ゴブリン』】は非力で愚かですが、とても賢い亜人です",
+      "en": "Goblins are weak and foolish, but they are a very clever demi-human race.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2075,
+      "id": "db_EventInfo:2340:17",
+      "jp": "そしてその全てが強く人間を憎み、絶対に相容れることが出来ません。一匹たりとも逃してはいけないのです",
+      "en": "And they all hate humans deeply. They can never get along with us. We must not let a single one escape.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2076,
+      "id": "db_EventInfo:2341:17",
+      "jp": "これまで多くの【『ゴブリン』】の巣を潰してきたのですが、やつらの数はなかなか減りません",
+      "en": "We've destroyed many Goblin nests before, but their numbers just won't go down.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2077,
+      "id": "db_EventInfo:2342:17",
+      "jp": "その増え方が不可解なのです",
+      "en": "How they multiply is a mystery.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2078,
+      "id": "db_EventInfo:2343:17",
+      "jp": "奴らは人間の女性を孕ませて増えるはずなのに、人間が住まない地域でも増える",
+      "en": "They're supposed to multiply by impregnating human women, but they even increase in areas where humans don't live.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2079,
+      "id": "db_EventInfo:2344:17",
+      "jp": "……奴らがどこからやってくるのか。私は知りたい",
+      "en": "... I want to know where they come from.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2080,
+      "id": "db_EventInfo:2345:17",
+      "jp": "【『ゴブリン』】は愚かですが、非常に賢い",
+      "en": "Goblins are stupid, but also very smart.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2081,
+      "id": "db_EventInfo:2346:17",
+      "jp": "人間が扱える武器であれば、たやすく使い方を覚えてしまいます。たとえ複雑な、機械細工の武器であっても",
+      "en": "If it's a weapon a human can use, they learn how to use it easily. Even complicated, mechanical weapons.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2082,
+      "id": "db_EventInfo:2347:17",
+      "jp": "ゆえに奴らに強力な武器を持たせることは危険です……非人道的な使い方を平気で行ないますからね",
+      "en": "So giving them powerful weapons is dangerous... they'll use them for cruel things without a care.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2083,
+      "id": "db_EventInfo:2348:17",
+      "jp": "【『イルニエル大灯台』】に【『ゴブリン』】が住み着いたそうですが",
+      "en": "I hear Goblins have settled in the Iluniel Great Lighthouse.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2084,
+      "id": "db_EventInfo:2349:17",
+      "jp": "灯台に爆薬を仕掛け、倒壊させるのが手っ取り早く確実な方法です",
+      "en": "Planting explosives in the lighthouse is the quickest and surest way to bring it down.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2085,
+      "id": "db_EventInfo:2350:17",
+      "jp": "そう提案したら反対されてしまいました。仕方ありませんので、別の方法を選ぶしかありませんか",
+      "en": "When I suggested that, people objected. I guess there's no choice but to pick another method.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2086,
+      "id": "db_EventInfo:2351:17",
+      "jp": "【『ゴブリン』】がいれば呼んでください。必ず役に立って見せましょう",
+      "en": "If you have any Goblins, call me. I'll show you I can be useful.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2087,
+      "id": "db_EventInfo:2352:17",
+      "jp": "逆に、【『ゴブリン』】がいなければ、私はあまり役に立てそうにありませんね",
+      "en": "But if there are no Goblins, I probably won't be of much help.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2088,
+      "id": "db_EventInfo:2353:17",
+      "jp": "【『ソルシア魔導船団』】に【『ゴブリン』】の養殖施設があったそうですね",
+      "en": "I heard the Sorsian Magic Fleet had a Goblin breeding facility.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2089,
+      "id": "db_EventInfo:2354:17",
+      "jp": "なるほど……いくら巣を潰そうとも、【『ゴブリン』】が減らない理由が分かりました",
+      "en": "I see... Now I understand why Goblins never get fewer, no matter how many nests we destroy.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2090,
+      "id": "db_EventInfo:2355:17",
+      "jp": "まさか人間の手で生み出され、増やされていたとは……",
+      "en": "To think humans were creating them... making more of them...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2091,
+      "id": "db_EventInfo:2356:17",
+      "jp": "【『ゴブリン』】は人間と相容れない存在",
+      "en": "【『Goblin』】 cannot live alongside humans.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2092,
+      "id": "db_EventInfo:2357:17",
+      "jp": "武器を使いこなし、知恵を働かせる程度に賢くとも和解はできません",
+      "en": "Even if they're clever enough to use weapons and think, we cannot make peace.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2093,
+      "id": "db_EventInfo:2358:17",
+      "jp": "しかし相容れないといっても、同じ邪悪な存在であれば、奴らは言うことを聞くと言われます",
+      "en": "But it is said if someone else is just as evil, the goblins will obey them.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2094,
+      "id": "db_EventInfo:2359:17",
+      "jp": "【『邪教徒』】は【『ゴブリン』】を操っていたそうですね",
+      "en": "It seems the 【『Cultist』】 was controlling the 【『Goblin』】.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2095,
+      "id": "db_EventInfo:2360:17",
+      "jp": "邪悪に心を染めているとはいえ、一応は人間である【『邪教徒』】と協調するとは……",
+      "en": "To work with the 【『Cultist』】, who is still somewhat human, even if evil...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2096,
+      "id": "db_EventInfo:2361:17",
+      "jp": "店長さんに味方をすれば【『ゴブリン』】の危機は減ると思い、力を貸してきました",
+      "en": "I helped because I thought siding with you, Shopkeep, would help the 【『Goblin』】.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2097,
+      "id": "db_EventInfo:2362:17",
+      "jp": "……私の判断は、どうやら間違っていなかったようですね",
+      "en": "...It looks like my choice was not wrong.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2098,
+      "id": "db_EventInfo:2363:17",
+      "jp": "【『ゼカリウス』】は救われました",
+      "en": "【『Zecarius』】 was saved.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2099,
+      "id": "db_EventInfo:2364:17",
+      "jp": "ですが【『ゴブリン』】は死滅していません。こうしている間にも、いずこかの村は奴らに襲われ続けている……",
+      "en": "But the 【『Goblin』】 are not gone. Even now, some village is being attacked...",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 2100,
+      "id": "db_EventInfo:2365:17",
+      "jp": "世界が平和になっても、ゴブリンはいなくなりません",
+      "en": "Even if the world is at peace, the goblins won't disappear.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    }
+  ]
+}

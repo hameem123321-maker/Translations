@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 98301,
+  "range_end": 98400,
+  "pairs": [
+    {
+      "n": 98301,
+      "id": "db_EventInfo:116044:7",
+      "jp": "まずいよ、屋敷中の兵士が集まってきてる！",
+      "en": "This is bad, soldiers from all over the mansion are gathering!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 98302,
+      "id": "db_EventInfo:116045:18",
+      "jp": "さあ【『死神』】よ、お得意の【『権能』】を使い、我が部下達を皆殺しにするか？",
+      "en": "Well then, 'Shinigami', will you use your famous 'Authority' and slaughter all my subordinates?",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 98303,
+      "id": "db_EventInfo:116046:18",
+      "jp": "【『死神』】が自らの【『権能』】を乱用した報い……それがどうなるか、知らぬわけであるまい",
+      "en": "A 'Shinigami' who misuses their 'Authority' faces the consequences... You must know what happens.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 98304,
+      "id": "db_EventInfo:116047:2",
+      "jp": "くっ、なんで【『死神』】の<ruby=ルール>規律</ruby>を知っているデス……！",
+      "en": "Darn it, how do you know the Shinigami rules...!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98305,
+      "id": "db_EventInfo:116048:18",
+      "jp": "ふはは……まあいい、今日のところは痛み分けにしてやろう",
+      "en": "Fuha ha... Fine, let's call it a draw for today.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 98306,
+      "id": "db_EventInfo:116049:18",
+      "jp": "今は見逃してやるぞ、虫ケラ共！　この私が世界を変革する時まで、短い自由を謳歌するがいい！",
+      "en": "I'll let you go for now, you worms! Enjoy your short-lived freedom until I change the world!",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 98307,
+      "id": "db_EventInfo:116050:0",
+      "jp": "言い捨てると、領主ゼルカは去っていった。",
+      "en": "With those words, Lord Zelka left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 98308,
+      "id": "db_EventInfo:116051:2",
+      "jp": "ま、待つデス！",
+      "en": "W-wait!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98309,
+      "id": "db_EventInfo:116052:1",
+      "jp": "おい、シイネ！　アイツの事は気になるけど……今はカリストを休ませてやらないと",
+      "en": "Hey, Shiine! I'm worried about him too... but right now we need to let Callisto rest.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98310,
+      "id": "db_EventInfo:116053:7",
+      "jp": "そうだよ。兵士達が集まってくる！　いくらなんでも、あんな数には勝てないよ！",
+      "en": "Yeah. Soldiers are gathering! There's no way we can beat that many!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 98311,
+      "id": "db_EventInfo:116054:2",
+      "jp": "む、ぐ、ぬぅぅ……",
+      "en": "Hrm, grr, nnngh...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98312,
+      "id": "db_EventInfo:116055:2",
+      "jp": "分かったデス……どちらにしても、あの領主とは決着をつけなくてはならないデス",
+      "en": "I get it... Either way, we have to settle things with that lord.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98313,
+      "id": "db_EventInfo:116058:0",
+      "jp": "こうして俺達は、何とかカリストを救出することに成功したのだった……。",
+      "en": "And so, we managed to rescue Callisto.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 98314,
+      "id": "db_EventInfo:116059:9",
+      "jp": "店長殿",
+      "en": "Boss.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98315,
+      "id": "db_EventInfo:116060:1",
+      "jp": "カリスト！",
+      "en": "Callisto!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98316,
+      "id": "db_EventInfo:116061:2",
+      "jp": "体は大丈夫なんデス？",
+      "en": "Are you okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98317,
+      "id": "db_EventInfo:116063:9",
+      "jp": "うむ、心配をかけたであるな",
+      "en": "Yes. Sorry for worrying you.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98318,
+      "id": "db_EventInfo:116064:9",
+      "jp": "店長殿が来てくれるのが、もう少し遅かったら、私は今頃……",
+      "en": "If you had come just a little later, I would have...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98319,
+      "id": "db_EventInfo:116065:1",
+      "jp": "カリスト……",
+      "en": "Callisto...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98320,
+      "id": "db_EventInfo:116066:2",
+      "jp": "しかしあの領主、【『レシピ』】を燃やしてしまったデス。いったい何をしたかったデス？",
+      "en": "But that lord, he burned the Recipe. What was he trying to do?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98321,
+      "id": "db_EventInfo:116067:9",
+      "jp": "うむ。おそらく【『奈落』】の力を得ようとしたのである",
+      "en": "Right. He likely sought the power of the Abyss.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98322,
+      "id": "db_EventInfo:116068:1",
+      "jp": "【『奈落』】……？",
+      "en": "The Abyss...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98323,
+      "id": "db_EventInfo:116070:9",
+      "jp": "ルーシェルーラはいるか？",
+      "en": "Luscheloora, are you there?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98324,
+      "id": "db_EventInfo:116071:8",
+      "jp": "うん、いるよД",
+      "en": "Yeah, I'm hereД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98325,
+      "id": "db_EventInfo:116072:9",
+      "jp": "店長殿たちになら、話しても良いだろうか？",
+      "en": "Is it alright if we tell the Shopkeeper and the others?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98326,
+      "id": "db_EventInfo:116073:8",
+      "jp": "そうだね、大丈夫だと思うよ",
+      "en": "Yeah, I think it's okay.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98327,
+      "id": "db_EventInfo:116074:1",
+      "jp": "どういうことだ……？",
+      "en": "What does that mean...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98328,
+      "id": "db_EventInfo:116075:9",
+      "jp": "それだけ危険な話と言うことだ",
+      "en": "It means it's a very dangerous story.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98329,
+      "id": "db_EventInfo:116077:9",
+      "jp": "詳しくは言えないが、あの【『レシピ』】には、我々【『ウィルチ』】が秘伝とする、【禁忌の薬】の製法が書かれていたのだ",
+      "en": "I can't go into detail, but that Recipe contained the formula for a forbidden medicine, a secret of us Wilche.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98330,
+      "id": "db_EventInfo:116078:1",
+      "jp": "【禁忌の薬】……？",
+      "en": "Forbidden medicine...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98331,
+      "id": "db_EventInfo:116079:8",
+      "jp": "いわゆる【不老不死】の薬だね",
+      "en": "It's a so-called 'elixir of immortality'.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98332,
+      "id": "db_EventInfo:116080:1",
+      "jp": "ふ、【不老不死】――！？",
+      "en": "Huh, 'elixir of immortality'!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98333,
+      "id": "db_EventInfo:116081:9",
+      "jp": "うむ",
+      "en": "Yes.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98334,
+      "id": "db_EventInfo:116082:1",
+      "jp": "そ、そんな、不老不死なんて、不可能じゃないのか？",
+      "en": "Th-that's impossible, isn't it? Immortality?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98335,
+      "id": "db_EventInfo:116083:9",
+      "jp": "誰が不可能なんて言ったのであるか？",
+      "en": "Who told you it's impossible?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98336,
+      "id": "db_EventInfo:116084:1",
+      "jp": "王族とかに、作らされるみたいなことを……",
+      "en": "Things like being forced to make it for royalty...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98337,
+      "id": "db_EventInfo:116085:9",
+      "jp": "たしかに作らされたりするが、本物を作ることはない。作ってはいけないのである",
+      "en": "It's true we are ordered to make it, but we never make the real thing. We must not make it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98338,
+      "id": "db_EventInfo:116086:9",
+      "jp": "【禁忌の薬】――名を【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】と呼ぶ",
+      "en": "The 'Forbidden Elixir'—its name is the 'Succubus Potion'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98339,
+      "id": "db_EventInfo:116087:1",
+      "jp": "それを飲んだら、不老不死になるのか……？",
+      "en": "If you drink that, you become immortal...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98340,
+      "id": "db_EventInfo:116088:9",
+      "jp": "そういう単純なものでは無い",
+      "en": "It's not that simple.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98341,
+      "id": "db_EventInfo:116089:9",
+      "jp": "【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】は【『奈落』】より力を得て【願望を叶える薬】なのだ",
+      "en": "The 'Succubus Potion' draws power from 'The Abyss' and is a 'wish-granting elixir'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98342,
+      "id": "db_EventInfo:116090:8",
+      "jp": "魔術の深奥……【『奈落』】は無限の力を持ち、あらゆる望みを叶える",
+      "en": "The deepest art of magic... 'The Abyss' holds infinite power and grants any wish.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98343,
+      "id": "db_EventInfo:116091:8",
+      "jp": "でも同時に、対価……代償を要求される",
+      "en": "But at the same time, it demands a price... a cost.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98344,
+      "id": "db_EventInfo:116092:8",
+      "jp": "無限の力で、あらゆる願いを叶えるということは……無限に代償を要求する可能性もある",
+      "en": "The power to grant any wish, even with infinite power... might also demand an infinite cost.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98345,
+      "id": "db_EventInfo:116093:8",
+      "jp": "不老不死を望めば結果的にそうなるかもしれないけど、不老不死の対価ってのはどれだけ大きいだろうね",
+      "en": "If you wish for immortality, you might end up with it, but I wonder how big the cost for immortality would be.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98346,
+      "id": "db_EventInfo:116094:8",
+      "jp": "【『奈落』】は危険で、ルーシェたち【『<ruby=サキュバス>夢魔</ruby>』】だって、うかつに触れられないの",
+      "en": "The 'Abyss' is dangerous. Even we 'Succubi' can't mess with it carelessly.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98347,
+      "id": "db_EventInfo:116095:2",
+      "jp": "なるほど……目玉焼き1皿に1000万ゴールド要求されるかも、みたいなものデスね",
+      "en": "I see... So it's like a plate of fried eggs might cost 10 million gold, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98348,
+      "id": "db_EventInfo:116096:9",
+      "jp": "うむ……",
+      "en": "Indeed...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98349,
+      "id": "db_EventInfo:116097:1",
+      "jp": "わかりやすいが、そういう理解をしていいのかそれで",
+      "en": "That's an easy way to understand it. But is it okay to think of it like that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98350,
+      "id": "db_EventInfo:116098:1",
+      "jp": "しかし、そんな危険な【『レシピ』】をなんで残すんだ",
+      "en": "But why would you leave such a dangerous 'Recipe' behind?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98351,
+      "id": "db_EventInfo:116099:9",
+      "jp": "危険を恐れていては技術の発展などないのである",
+      "en": "If we feared danger, there would be no progress in technology.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98352,
+      "id": "db_EventInfo:116100:9",
+      "jp": "それに【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】は、まだ未完成なのだ",
+      "en": "Besides, the 'Succubus Potion' is still incomplete.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98353,
+      "id": "db_EventInfo:116101:9",
+      "jp": "代々の【『ウィルチ』】はそれを発展させ、進化させるのが目的なのである",
+      "en": "It is the purpose of successive 'Witches' to develop and evolve it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98354,
+      "id": "db_EventInfo:116102:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98355,
+      "id": "db_EventInfo:116103:9",
+      "jp": "しかし、ゼルカのやつは【『レシピ』】を解読して【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】を精製したようだ",
+      "en": "It seems Zelka has deciphered the \"Recipe\" and made the \"Succubus Potion\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98356,
+      "id": "db_EventInfo:116104:9",
+      "jp": "あの屋敷に漂う魔界の気配、おそらく完成度も相当なモノであろう",
+      "en": "The demonic air hanging over that mansion... the quality of the potion must be very high.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98357,
+      "id": "db_EventInfo:116105:8",
+      "jp": "あの屋敷は【『異世界転生』】を成功させるほどの魔術も可能、不思議じゃないね",
+      "en": "That mansion is capable of magic powerful enough to pull off \"Otherworldly Reincarnation\". This isn't surprising.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 98358,
+      "id": "db_EventInfo:116106:1",
+      "jp": "ゼルカは【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】で何をするつもりなんだ",
+      "en": "What does Zelka plan to do with the \"Succubus Potion\"?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98359,
+      "id": "db_EventInfo:116107:2",
+      "jp": "わからないデスが、それを知る必要は無いデス",
+      "en": "We don't know, des. And we don't need to know, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98360,
+      "id": "db_EventInfo:116108:2",
+      "jp": "今度こそ、アイツのクビを刎ねれば、それで【『災厄』】は解決デス！",
+      "en": "This time, we just need to cut off his head. That will solve the \"Calamity\", des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98361,
+      "id": "db_EventInfo:116109:2",
+      "jp": "……でもその前にやることがあるデス",
+      "en": "...But first, we have something to do, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 98362,
+      "id": "db_EventInfo:116110:1",
+      "jp": "そうだ、カリスト……お前がいない間、ゼカリウスの方では……",
+      "en": "That's right, Callisto... while you were gone, what about Zecarius...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98363,
+      "id": "db_EventInfo:116113:9",
+      "jp": "ふむ、流行り病、であるか？",
+      "en": "Hmm. An epidemic, you say?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98364,
+      "id": "db_EventInfo:116114:9",
+      "jp": "なるほど。それも【『<ruby=サキュバスポーション>夢魔の薬</ruby>』】のせいであろうな",
+      "en": "I see. That's probably also because of the \"Succubus Potion\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98365,
+      "id": "db_EventInfo:116115:9",
+      "jp": "屋敷に漂う魔界の空気が漏れ出して、病に変じているのであろう",
+      "en": "The demonic air from the mansion must have leaked out and turned into disease.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98366,
+      "id": "db_EventInfo:116116:1",
+      "jp": "……【特効薬】、作れるか？",
+      "en": "...Can you make a cure?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98367,
+      "id": "db_EventInfo:116117:9",
+      "jp": "ククク……店長殿、私を誰だと思っている？　任せておくがいい",
+      "en": "Hehehe... Boss, who do you think I am? You can count on me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98368,
+      "id": "db_EventInfo:116119:9",
+      "jp": "うむむ……むう……",
+      "en": "Hmmm... hmm...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98369,
+      "id": "db_EventInfo:116120:9",
+      "jp": "ぬうう、まったくうまくいかん……！",
+      "en": "Ugh, it's just not working at all...!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98370,
+      "id": "db_EventInfo:116121:1",
+      "jp": "おいカリスト……大丈夫か？",
+      "en": "Hey, Callisto... are you okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98371,
+      "id": "db_EventInfo:116122:9",
+      "jp": "むう、もう少しで【特効薬】ができそうなのであるが",
+      "en": "Hmm, I'm close to making a [Special Medicine], but...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98372,
+      "id": "db_EventInfo:116123:9",
+      "jp": "相手は【『魔界』】の毒気、人間界の薬学ではなんともならん。やはり【『ウィルチ』】の知識なくては……",
+      "en": "This is the 'Netherworld's' poison. Human medicine is useless. I need the knowledge of the 'Wilchi'...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98373,
+      "id": "db_EventInfo:116124:9",
+      "jp": "こんなときに【『レシピ』】があれば指標になるのであるが……",
+      "en": "If I had the ['Recipe'] now, it would give me a goal, but...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98374,
+      "id": "db_EventInfo:116125:1",
+      "jp": "しかしあれは領主に燃やされてしまったぞ",
+      "en": "But the lord burned that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98375,
+      "id": "db_EventInfo:116126:9",
+      "jp": "うむ……役に立たんと思ったが、こんな時に必要性を感じるとは",
+      "en": "Yeah... I thought it was useless, but now I see why I need it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98376,
+      "id": "db_EventInfo:116127:1",
+      "jp": "【『レシピ』】の内容は、カリストには作れないのか",
+      "en": "Can't you make the ['Recipe'] yourself, Callisto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98377,
+      "id": "db_EventInfo:116128:9",
+      "jp": "作れる……だが、その前に店長殿を含め、【『ゼカリウス』】の民の命が尽きるであろう。あれは【『ウィルチ』】がその生を捧げて作り上げるものなのだ",
+      "en": "I could... but everyone in 'Zecarius', including you, Boss, would be dead first. That ['Recipe'] is something the 'Wilchi' make by giving their own life.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98378,
+      "id": "db_EventInfo:116129:9",
+      "jp": "イチから作る時間は……",
+      "en": "There's no time to make it from scratch...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98379,
+      "id": "db_EventInfo:116132:9",
+      "jp": "仕方があるまい。遅かれ早かれ、この時が来るのは自明であったが",
+      "en": "I guess there's no choice. Sooner or later, this moment was bound to come.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98380,
+      "id": "db_EventInfo:116133:1",
+      "jp": "……カリスト？",
+      "en": "...Callisto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98381,
+      "id": "db_EventInfo:116134:9",
+      "jp": "店長殿、こうなれば私が【『魔女』】として覚醒するしかない",
+      "en": "Shop Owner, this means I must awaken as a true \"Witch\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98382,
+      "id": "db_EventInfo:116135:1",
+      "jp": "……【『魔女』】として？",
+      "en": "...As a \"Witch\"?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98383,
+      "id": "db_EventInfo:116136:9",
+      "jp": "うむ、私は【『ウィルチ』】の名を継いだが、実は正式な【『魔女』】として目覚めたわけではない",
+      "en": "Yes. I inherited the name \"Wiltch\", but I never truly awakened as a proper \"Witch\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98384,
+      "id": "db_EventInfo:116137:9",
+      "jp": "知識も技術も身につけてはいるが。私には【『ウィルチ』】として、一つだけ満たしていない条件があるのだ",
+      "en": "I have the knowledge and skills. But as a \"Wiltch\", there is one condition I have not met.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98385,
+      "id": "db_EventInfo:116138:9",
+      "jp": "なるほど、だから領主のヤツも、私に手を出せなかったのであるか。【『レシピ』】の一端を理解しているとすれば、納得だな……ククク",
+      "en": "I see. So that's why that lord couldn't lay a hand on me. It makes sense if he understands a part of the \"Recipe\"... *chuckle*",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98386,
+      "id": "db_EventInfo:116139:1",
+      "jp": "……？？　意味がわからんのだが",
+      "en": "...?? I don't get it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98387,
+      "id": "db_EventInfo:116140:9",
+      "jp": "【『処女』】は【『魔女』】になれないのである",
+      "en": "A \"virgin\" cannot become a \"Witch\".",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98388,
+      "id": "db_EventInfo:116142:1",
+      "jp": "は？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98389,
+      "id": "db_EventInfo:116143:9",
+      "jp": "何度も言わせるな。【『処女』】は【『魔女』】になれんのだ。なったとしても、今の私のような【『魔女』】モドキになってしまう",
+      "en": "Don't make me repeat myself. A \"virgin\" cannot become a \"Witch\". Even if she tries, she'll only end up a fake \"Witch\" like me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98390,
+      "id": "db_EventInfo:116144:9",
+      "jp": "【『ウィルチ』】の魔術は男とのセックスで完成する。【『魔女』】も【『淫魔』】の一種というか、そういうものだからな。セックスで完成し、叡智を得るのだ",
+      "en": "The magic of the \"Wiltch\" is completed through sex with a man. A \"Witch\" is a kind of succubus, you see. It's through sex that it's completed, and wisdom is gained.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98391,
+      "id": "db_EventInfo:116145:9",
+      "jp": "ということで、私の【『処女』】を散らす必要がある",
+      "en": "So, I need someone to take my 'virginity'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98392,
+      "id": "db_EventInfo:116146:9",
+      "jp": "もちろん、男の肉棒と精液とでだ。指とかホウキとか触手じゃダメである。まあ、私はどれも使ったことないが",
+      "en": "It has to be with a man's cock and sperm. Fingers, brooms, tentacles won't do. Not that I've used any of those.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98393,
+      "id": "db_EventInfo:116147:9",
+      "jp": "相手は別に誰でも良いとされるが、怒り狂った【『魔女』】は自分を乱暴した男を残らず殺すと言うからな、できれば好きな男と和姦が良い",
+      "en": "The guy doesn't really matter, but they say the enraged 'Witch' kills every man who forced himself on her. So, making love with someone I like would be best.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98394,
+      "id": "db_EventInfo:116148:9",
+      "jp": "店長ならば相手に不足はないし、私としても大歓迎だ。よろしく頼むぞ",
+      "en": "The Shopkeeper wouldn't be a bad choice at all. I'd welcome it, actually. Please take care of me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98395,
+      "id": "db_EventInfo:116149:9",
+      "jp": "たしかルーシェが手ほどきしたと言うことだったな、童貞というわけでもないであろう？　テクニックには期待している",
+      "en": "I heard Lusche taught you the ropes, right? So you're not a virgin? I'm expecting some skill.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98396,
+      "id": "db_EventInfo:116150:1",
+      "jp": "……あの？",
+      "en": "...Excuse me?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98397,
+      "id": "db_EventInfo:116151:9",
+      "jp": "私はムードとかよくわからんから、手配の方は頼むぞ？",
+      "en": "I don't really get 'mood' or stuff like that, so I'll leave the arrangements to you, okay?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 98398,
+      "id": "db_EventInfo:116153:1",
+      "jp": "はい",
+      "en": "Yes.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 98399,
+      "id": "db_EventInfo:116156:0",
+      "jp": "よくわからないが。カリストとエッチしないと、流行病で死ぬことが決まったらしい。",
+      "en": "I don't really get it. But apparently, if I don't have sex with Callisto, it's decided I'll die from the epidemic.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 98400,
+      "id": "db_EventInfo:116157:0",
+      "jp": "しかし相手はこのカリストだ。俺はムードを高めることができるのだろうか。",
+      "en": "But my partner is this Callisto. Can I really build up a 'mood'?",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

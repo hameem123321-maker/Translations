@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8301,
+  "range_end": 8400,
+  "pairs": [
+    {
+      "n": 8301,
+      "id": "rem_35952",
+      "jp": "客の若者",
+      "en": "Young Customer",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8302,
+      "id": "rem_35953",
+      "jp": "懺悔する男",
+      "en": "Man Confessing",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8303,
+      "id": "rem_35954",
+      "jp": "学園の教師",
+      "en": "Academy Teacher",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8304,
+      "id": "rem_35955",
+      "jp": "学園の校長",
+      "en": "Academy Headmaster",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8305,
+      "id": "rem_35956",
+      "jp": "厳つい男",
+      "en": "Imposing Man",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8306,
+      "id": "rem_35957",
+      "jp": "小さくなった男",
+      "en": "Shrinking Man",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8307,
+      "id": "rem_35958",
+      "jp": "酔った一般客",
+      "en": "Drunk Patron",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8308,
+      "id": "rem_35959",
+      "jp": "怯える市民",
+      "en": "Frightened Citizen",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8309,
+      "id": "rem_35960",
+      "jp": "見物する市民",
+      "en": "Spectating Citizen",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8310,
+      "id": "rem_35961",
+      "jp": "駆けつけた野次馬",
+      "en": "Onlooker Who Rushed Over",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8311,
+      "id": "rem_35962",
+      "jp": "聞きつけた常連客",
+      "en": "Regular Who Heard the Ruckus",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8312,
+      "id": "rem_35963",
+      "jp": "野次馬の男",
+      "en": "Male Onlooker",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8313,
+      "id": "rem_35964",
+      "jp": "旅の商人",
+      "en": "Traveling Merchant",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8314,
+      "id": "rem_35965",
+      "jp": "狂気的な男",
+      "en": "Deranged Man",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8315,
+      "id": "rem_35966",
+      "jp": "用心棒の男",
+      "en": "Bodyguard",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8316,
+      "id": "rem_35967",
+      "jp": "ならずものA",
+      "en": "Thug A",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8317,
+      "id": "rem_35968",
+      "jp": "ならずものB",
+      "en": "Thug B",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8318,
+      "id": "rem_35969",
+      "jp": "ならずもの？",
+      "en": "Thug?",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8319,
+      "id": "rem_35970",
+      "jp": "邪教徒？",
+      "en": "Cultist?",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8320,
+      "id": "rem_35971",
+      "jp": "フレスミスの住人たち",
+      "en": "Residents of Fresmisse",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8321,
+      "id": "rem_35972",
+      "jp": "フレスミスの住人C",
+      "en": "Fressmis Resident C",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8322,
+      "id": "rem_35973",
+      "jp": "従業員の女の子",
+      "en": "Employee Girl",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8323,
+      "id": "rem_35974",
+      "jp": "領主の手下",
+      "en": "Lord's Henchman",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8324,
+      "id": "rem_35975",
+      "jp": "モブ女",
+      "en": "Extra Woman",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8325,
+      "id": "rem_35976",
+      "jp": "◆その他◆",
+      "en": "◆Others◆",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8326,
+      "id": "rem_35977",
+      "jp": "★選択肢★",
+      "en": "★Choices★",
+      "table": "db_EventChara",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8327,
+      "id": "rem_35978",
+      "jp": "おカネが鳴り響く職場作りLv1",
+      "en": "Clinking Coins Workplace Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8328,
+      "id": "rem_35979",
+      "jp": "おカネが鳴り響く職場作りLv2",
+      "en": "Clinking Coins Workplace Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8329,
+      "id": "rem_35980",
+      "jp": "おカネが鳴り響く職場作りLv3",
+      "en": "Clinking Coins Workplace Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8330,
+      "id": "rem_35981",
+      "jp": "おカネが鳴り響く職場作りLv4",
+      "en": "Clinking Coins Workplace Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8331,
+      "id": "rem_35982",
+      "jp": "おカネが鳴り響く職場作りLv5",
+      "en": "Clinking Coins Workplace Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8332,
+      "id": "rem_35983",
+      "jp": "おカネが鳴り響く職場作りLv6",
+      "en": "Clinking Coins Workplace Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8333,
+      "id": "rem_35984",
+      "jp": "おカネが鳴り響く職場作りLv7",
+      "en": "Clinking Coins Workplace Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8334,
+      "id": "rem_35985",
+      "jp": "おカネが鳴り響く職場作りLv8",
+      "en": "Clinking Coins Workplace Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8335,
+      "id": "rem_35986",
+      "jp": "チリも残さない清潔な店Lv1",
+      "en": "Spotless Clean Shop Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8336,
+      "id": "rem_35987",
+      "jp": "チリも残さない清潔な店Lv2",
+      "en": "Spotless Clean Shop Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8337,
+      "id": "rem_35988",
+      "jp": "チリも残さない清潔な店Lv3",
+      "en": "Spotless Clean Shop Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8338,
+      "id": "rem_35989",
+      "jp": "チリも残さない清潔な店Lv4",
+      "en": "Spotless Clean Shop Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8339,
+      "id": "rem_35990",
+      "jp": "チリも残さない清潔な店Lv5",
+      "en": "Spotless Clean Shop Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8340,
+      "id": "rem_35991",
+      "jp": "チリも残さない清潔な店Lv6",
+      "en": "Spotless Clean Shop Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8341,
+      "id": "rem_35992",
+      "jp": "チリも残さない清潔な店Lv7",
+      "en": "Immaculate Shop Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8342,
+      "id": "rem_35993",
+      "jp": "チリも残さない清潔な店Lv8",
+      "en": "Immaculate Shop Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8343,
+      "id": "rem_35994",
+      "jp": "グローバルな組織を目指すLv1",
+      "en": "Global Ambition Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8344,
+      "id": "rem_35995",
+      "jp": "グローバルな組織を目指すLv2",
+      "en": "Global Ambition Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8345,
+      "id": "rem_35996",
+      "jp": "グローバルな組織を目指すLv3",
+      "en": "Global Ambition Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8346,
+      "id": "rem_35997",
+      "jp": "グローバルな組織を目指すLv4",
+      "en": "Global Ambition Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8347,
+      "id": "rem_35998",
+      "jp": "グローバルな組織を目指すLv5",
+      "en": "Global Ambition Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8348,
+      "id": "rem_35999",
+      "jp": "グローバルな組織を目指すLv6",
+      "en": "Global Ambition Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8349,
+      "id": "rem_36000",
+      "jp": "グローバルな組織を目指すLv7",
+      "en": "Global Ambition Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8350,
+      "id": "rem_36001",
+      "jp": "グローバルな組織を目指すLv8",
+      "en": "Global Ambition Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8351,
+      "id": "rem_36002",
+      "jp": "バリエーション豊かな料理Lv1",
+      "en": "Varied Menu Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8352,
+      "id": "rem_36003",
+      "jp": "バリエーション豊かな料理Lv2",
+      "en": "Varied Menu Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8353,
+      "id": "rem_36004",
+      "jp": "バリエーション豊かな料理Lv3",
+      "en": "Varied Menu Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8354,
+      "id": "rem_36005",
+      "jp": "バリエーション豊かな料理Lv4",
+      "en": "Varied Menu Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8355,
+      "id": "rem_36006",
+      "jp": "バリエーション豊かな料理Lv5",
+      "en": "Varied Menu Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8356,
+      "id": "rem_36007",
+      "jp": "バリエーション豊かな料理Lv6",
+      "en": "Varied Menu Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8357,
+      "id": "rem_36008",
+      "jp": "バリエーション豊かな料理Lv7",
+      "en": "Varied Menu Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8358,
+      "id": "rem_36009",
+      "jp": "バリエーション豊かな料理Lv8",
+      "en": "Varied Menu Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8359,
+      "id": "rem_36010",
+      "jp": "安心を感じられる平和な店Lv1",
+      "en": "Peaceful Shop Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8360,
+      "id": "rem_36011",
+      "jp": "安心を感じられる平和な店Lv2",
+      "en": "Peaceful Shop Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8361,
+      "id": "rem_36012",
+      "jp": "安心を感じられる平和な店Lv3",
+      "en": "Peaceful Store Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8362,
+      "id": "rem_36013",
+      "jp": "安心を感じられる平和な店Lv4",
+      "en": "Peaceful Store Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8363,
+      "id": "rem_36014",
+      "jp": "安心を感じられる平和な店Lv5",
+      "en": "Peaceful Store Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8364,
+      "id": "rem_36015",
+      "jp": "安心を感じられる平和な店Lv6",
+      "en": "Peaceful Store Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8365,
+      "id": "rem_36016",
+      "jp": "安心を感じられる平和な店Lv7",
+      "en": "Peaceful Store Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8366,
+      "id": "rem_36017",
+      "jp": "安心を感じられる平和な店Lv8",
+      "en": "Peaceful Store Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8367,
+      "id": "rem_36018",
+      "jp": "エキサイティングな労働環境Lv1",
+      "en": "Exciting Workplace Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8368,
+      "id": "rem_36019",
+      "jp": "エキサイティングな労働環境Lv2",
+      "en": "Exciting Workplace Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8369,
+      "id": "rem_36020",
+      "jp": "エキサイティングな労働環境Lv3",
+      "en": "Exciting Workplace Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8370,
+      "id": "rem_36021",
+      "jp": "エキサイティングな労働環境Lv4",
+      "en": "Exciting Workplace Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8371,
+      "id": "rem_36022",
+      "jp": "エキサイティングな労働環境Lv5",
+      "en": "Exciting Workplace Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8372,
+      "id": "rem_36023",
+      "jp": "エキサイティングな労働環境Lv6",
+      "en": "Exciting Workplace Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8373,
+      "id": "rem_36024",
+      "jp": "エキサイティングな労働環境Lv7",
+      "en": "Exciting Workplace Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8374,
+      "id": "rem_36025",
+      "jp": "エキサイティングな労働環境Lv8",
+      "en": "Exciting Workplace Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8375,
+      "id": "rem_36026",
+      "jp": "誰もが知ってるお店Lv1",
+      "en": "Famous Store Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8376,
+      "id": "rem_36027",
+      "jp": "誰もが知ってるお店Lv2",
+      "en": "Famous Store Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8377,
+      "id": "rem_36028",
+      "jp": "誰もが知ってるお店Lv3",
+      "en": "Famous Store Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8378,
+      "id": "rem_36029",
+      "jp": "誰もが知ってるお店Lv4",
+      "en": "Famous Store Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8379,
+      "id": "rem_36030",
+      "jp": "誰もが知ってるお店Lv5",
+      "en": "Famous Store Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8380,
+      "id": "rem_36031",
+      "jp": "誰もが知ってるお店Lv6",
+      "en": "Famous Store Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8381,
+      "id": "rem_36032",
+      "jp": "誰もが知ってるお店Lv7",
+      "en": "Famous Shop Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8382,
+      "id": "rem_36033",
+      "jp": "誰もが知ってるお店Lv8",
+      "en": "Famous Shop Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8383,
+      "id": "rem_36034",
+      "jp": "居座りたくなるお店Lv1",
+      "en": "Cozy Shop Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8384,
+      "id": "rem_36035",
+      "jp": "居座りたくなるお店Lv2",
+      "en": "Cozy Shop Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8385,
+      "id": "rem_36036",
+      "jp": "居座りたくなるお店Lv3",
+      "en": "Cozy Shop Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8386,
+      "id": "rem_36037",
+      "jp": "居座りたくなるお店Lv4",
+      "en": "Cozy Shop Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8387,
+      "id": "rem_36038",
+      "jp": "居座りたくなるお店Lv5",
+      "en": "Cozy Shop Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8388,
+      "id": "rem_36039",
+      "jp": "居座りたくなるお店Lv6",
+      "en": "Cozy Shop Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8389,
+      "id": "rem_36040",
+      "jp": "居座りたくなるお店Lv7",
+      "en": "Cozy Shop Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8390,
+      "id": "rem_36041",
+      "jp": "居座りたくなるお店Lv8",
+      "en": "Cozy Shop Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8391,
+      "id": "rem_36042",
+      "jp": "商品開発にも力を入れるLv1",
+      "en": "Product Dev Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8392,
+      "id": "rem_36043",
+      "jp": "商品開発にも力を入れるLv2",
+      "en": "Product Dev Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8393,
+      "id": "rem_36044",
+      "jp": "商品開発にも力を入れるLv3",
+      "en": "Product Dev Lv3",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8394,
+      "id": "rem_36045",
+      "jp": "商品開発にも力を入れるLv4",
+      "en": "Product Dev Lv4",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8395,
+      "id": "rem_36046",
+      "jp": "商品開発にも力を入れるLv5",
+      "en": "Product Dev Lv5",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8396,
+      "id": "rem_36047",
+      "jp": "商品開発にも力を入れるLv6",
+      "en": "Product Dev Lv6",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8397,
+      "id": "rem_36048",
+      "jp": "商品開発にも力を入れるLv7",
+      "en": "Product Dev Lv7",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8398,
+      "id": "rem_36049",
+      "jp": "商品開発にも力を入れるLv8",
+      "en": "Product Dev Lv8",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8399,
+      "id": "rem_36050",
+      "jp": "バリエーション豊かな鍛冶Lv1",
+      "en": "Varied Forge Lv1",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8400,
+      "id": "rem_36051",
+      "jp": "バリエーション豊かな鍛冶Lv2",
+      "en": "Varied Forge Lv2",
+      "table": "db_ClubToushiSetubiInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 105201,
+  "range_end": 105300,
+  "pairs": [
+    {
+      "n": 105201,
+      "id": "db_EventInfo:124507:0",
+      "jp": "予算を見て、投資してみよう。",
+      "en": "Let's check the budget and invest.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105202,
+      "id": "db_EventInfo:124509:114",
+      "jp": "【<pl>】さん！　【『王立騎士団』】への装備品支給ありがとうございました☆",
+      "en": "【<pl>】! Thanks for supplying gear to the 【『Royal Knight Order』】☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105203,
+      "id": "db_EventInfo:124510:110",
+      "jp": "これで【『王立騎士団』】の方々の士気も上がりますな！",
+      "en": "This will really boost the morale of the 【『Royal Knight Order』】 members!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105204,
+      "id": "db_EventInfo:124511:2",
+      "jp": "上がったなら、ウチの店の防犯もやってほしいものデス",
+      "en": "If morale is up, I hope they can handle security at our shop too.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105205,
+      "id": "db_EventInfo:124512:114",
+      "jp": "そこはもちろんですよ～☆",
+      "en": "Of course~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105206,
+      "id": "db_EventInfo:124515:0",
+      "jp": "【『王立騎士団』】の装備が強化されたことで、治安が良くなったようだ。",
+      "en": "It looks like the town is safer now that the 【『Royal Knight Order』】's equipment is upgraded.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105207,
+      "id": "db_EventInfo:124517:114",
+      "jp": "【<pl>】さん、先日の【『王立騎士団』】への装備品支給には感謝なんですが～☆",
+      "en": "【<pl>】, I'm really thankful for the gear you supplied to the 【『Royal Knight Order』】 the other day~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105208,
+      "id": "db_EventInfo:124518:114",
+      "jp": "上級騎士用の高級装備も支給していただけないでしょうか？",
+      "en": "But, could you maybe supply some high-quality gear for the senior knights too?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105209,
+      "id": "db_EventInfo:124519:2",
+      "jp": "またデス？",
+      "en": "Again?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105210,
+      "id": "db_EventInfo:124520:110",
+      "jp": "上級騎士のかたがたの装備というと、非常に高価な物になるはずであります",
+      "en": "Gear for senior knights must be extremely expensive.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105211,
+      "id": "db_EventInfo:124521:2",
+      "jp": "オマエらの雇い主はどうなってるデス。なんでオマエらの装備の面倒をみないといけないデス",
+      "en": "What's up with your employer? Why do I have to take care of your equipment?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105212,
+      "id": "db_EventInfo:124522:114",
+      "jp": "えっとぉ、【『王立騎士団』】の装備を揃えるのは大変なんですよ～☆",
+      "en": "Well, it's really tough to get equipment for the 【『Royal Knight Order』】~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105213,
+      "id": "db_EventInfo:124523:114",
+      "jp": "それに、【『王立騎士団』】といっても、所属は領主である、【<pl>】さんでもありますし？",
+      "en": "Besides, even if we call it the 【『Royal Knight Order』】, we belong to you, our lord, 【<pl>】, right?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105214,
+      "id": "db_EventInfo:124524:114",
+      "jp": "領主として、支えてもらいたいな～と☆",
+      "en": "As our lord, we'd like you to support us~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105215,
+      "id": "db_EventInfo:124525:1",
+      "jp": "うーむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105216,
+      "id": "db_EventInfo:124526:110",
+      "jp": "上級騎士といえば【『王立騎士団』】の精鋭。威容も高まるはずであります！",
+      "en": "Advanced knights are the elites of the 【『Royal Knight Order』】. Their splendor should increase!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105217,
+      "id": "db_EventInfo:124529:0",
+      "jp": "予算を見て、投資してみよう。",
+      "en": "Look at the budget and let's try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105218,
+      "id": "db_EventInfo:124531:114",
+      "jp": "【<pl>】さん！　【『王立騎士団』】への装備品支給ありがとうございました☆",
+      "en": "【<pl>】! Thank you for providing equipment to the 【『Royal Knight Order』】☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105219,
+      "id": "db_EventInfo:124532:110",
+      "jp": "これで【『王立騎士団』】の士気も上がりますな！",
+      "en": "This will surely boost the morale of the 【『Royal Knight Order』】!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105220,
+      "id": "db_EventInfo:124533:2",
+      "jp": "けっこうな出費になった気がするデス",
+      "en": "Feels like it was a pretty big expense.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105221,
+      "id": "db_EventInfo:124534:2",
+      "jp": "装備品はくれてやったんデス。その分、治安を守るようキリキリ働くデスよ",
+      "en": "I gave you the gear. In return, work your butts off to protect the peace.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105222,
+      "id": "db_EventInfo:124535:114",
+      "jp": "そこはもちろんですよ～☆",
+      "en": "Of course, we will~☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105223,
+      "id": "db_EventInfo:124538:0",
+      "jp": "【『王立騎士団』】の装備が強化されたことで、治安が良くなったようだ。",
+      "en": "The 'Royal Knights' have better gear now, and things feel safer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105224,
+      "id": "db_EventInfo:124540:114",
+      "jp": "【<pl>】さん、最近何かと治安も悪いですし",
+      "en": "【<pl>】, with all the trouble lately...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105225,
+      "id": "db_EventInfo:124541:114",
+      "jp": "ゼカリウスの都を守るための防壁を強化しませんか？",
+      "en": "Should we strengthen the walls to protect Zecarius's capital?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105226,
+      "id": "db_EventInfo:124542:1",
+      "jp": "防壁か……必要なのか？",
+      "en": "The walls... Do we really need them?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105227,
+      "id": "db_EventInfo:124543:110",
+      "jp": "はっ！　ゼカリウスには防壁がほぼありません",
+      "en": "Hah! Zecarius barely has any walls.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105228,
+      "id": "db_EventInfo:124544:110",
+      "jp": "ときおり、ならずものや魔獣の集団が襲いかかることもありますが、防壁があれば防衛も助かるであります",
+      "en": "Sometimes gangs or monster packs attack. Walls would help us defend better.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105229,
+      "id": "db_EventInfo:124545:114",
+      "jp": "むしろ、都の規模に対して防壁が貧弱すぎるんですよね",
+      "en": "Actually, the walls are way too weak for a capital this size.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105230,
+      "id": "db_EventInfo:124546:114",
+      "jp": "この地方の南北は、他地方の都に挟まれてますからね。軍隊が押し寄せてきたら被害甚大ですよ",
+      "en": "We're stuck between capitals from other regions to the north and south. If an army came, it'd be a disaster.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105231,
+      "id": "db_EventInfo:124547:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105232,
+      "id": "db_EventInfo:124548:110",
+      "jp": "前の領主様は、そのあたり考えてなかったようで、今の防壁はとっても貧弱であります",
+      "en": "The last lord didn't seem to care. The walls now are very weak.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105233,
+      "id": "db_EventInfo:124549:110",
+      "jp": "それに防壁は安心を支えるもの。ゼカリウスが安全と分かったら人も多く訪れるはずであります！",
+      "en": "Plus, strong walls give people peace of mind. If people know Zecarius is safe, more will visit!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105234,
+      "id": "db_EventInfo:124550:1",
+      "jp": "なるほどな。やる価値はありそうか",
+      "en": "I see. Sounds like it might be worth doing.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105235,
+      "id": "db_EventInfo:124553:0",
+      "jp": "予算を見て、投資してみよう。",
+      "en": "Let's check the budget and try investing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105236,
+      "id": "db_EventInfo:124555:114",
+      "jp": "【<pl>】さん、ゼカリウスを守る防壁の建築が開始されました！",
+      "en": "【<pl>】, construction on the defensive walls to protect Zecarius has begun!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105237,
+      "id": "db_EventInfo:124556:114",
+      "jp": "のちのちには巨大な防壁として、中の住民達を守ってくれるでしょう",
+      "en": "Later, it'll become a huge wall that protects the people inside.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105238,
+      "id": "db_EventInfo:124557:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105239,
+      "id": "db_EventInfo:124558:2",
+      "jp": "防壁デスか。攻められないに越したことはないデスし",
+      "en": "Walls, huh. It's best if we can't be attacked, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105240,
+      "id": "db_EventInfo:124559:2",
+      "jp": "【『災厄』】級の戦火に見舞われたら、そんな防壁なんて役に立たないデス",
+      "en": "But if the 'Calamity' level of war comes, walls like that won't help, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105241,
+      "id": "db_EventInfo:124560:110",
+      "jp": "それでも、生半可な危険は跳ね返してくれるはずであります",
+      "en": "Even so, they should repel ordinary dangers, that is so.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105242,
+      "id": "db_EventInfo:124561:110",
+      "jp": "防壁があれば、我々【『ゼカリウス自警団』】も存分に防衛に携われるはずであります！",
+      "en": "With walls, we in the 'Zecarius Self-Defense Force' can focus fully on defense, that is so!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105243,
+      "id": "db_EventInfo:124562:2",
+      "jp": "むうデス",
+      "en": "Hmm, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105244,
+      "id": "db_EventInfo:124563:114",
+      "jp": "ゼカリウスが安全と思ってくれたら、住民も増えるはずですし",
+      "en": "If people think Zecarius is safe, more will come to live here.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105245,
+      "id": "db_EventInfo:124564:114",
+      "jp": "そうすれば、店も一層儲かるはずですよ☆",
+      "en": "Then the shop will make even more money ☆",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105246,
+      "id": "db_EventInfo:124565:2",
+      "jp": "それはよいことデス",
+      "en": "That is a good thing, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105247,
+      "id": "db_EventInfo:124568:0",
+      "jp": "ゼカリウス防壁が建築され、住民は増えていきそうだ。",
+      "en": "The Zecarius wall is built. Looks like more people will move in.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105248,
+      "id": "db_EventInfo:124570:114",
+      "jp": "【<pl>】さん！　以前お願いしたゼカリウス防壁なんですが",
+      "en": "【<pl>】! About the Zecarius wall I asked you about earlier...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105249,
+      "id": "db_EventInfo:124571:114",
+      "jp": "建築が終わると共に、住民がどんどん増えているようです！",
+      "en": "As soon as construction finished, more and more people started moving in!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105250,
+      "id": "db_EventInfo:124572:1",
+      "jp": "住民が増えることは、良いことなんじゃないか？",
+      "en": "More residents is a good thing, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105251,
+      "id": "db_EventInfo:124573:114",
+      "jp": "そうなんですが……住むところが足りません！",
+      "en": "It is, but... there's not enough housing!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105252,
+      "id": "db_EventInfo:124574:1",
+      "jp": "なにっ",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105253,
+      "id": "db_EventInfo:124575:110",
+      "jp": "住むところがなければ、住民は路頭に迷うであります",
+      "en": "Without homes, people will end up on the streets.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105254,
+      "id": "db_EventInfo:124576:110",
+      "jp": "路頭に迷った住人がスラムを作られたら、そこは非常に治安の悪い場所になるであります……",
+      "en": "If homeless people make a slum, it will become a very unsafe place...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105255,
+      "id": "db_EventInfo:124577:1",
+      "jp": "それは大問題だ。急いで住居を整備しよう！",
+      "en": "That's a big problem. We need to build housing, fast!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105256,
+      "id": "db_EventInfo:124580:0",
+      "jp": "予算を見て、投資しよう。",
+      "en": "Check the budget and invest.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105257,
+      "id": "db_EventInfo:124582:114",
+      "jp": "【<pl>】さん！　住宅の整備への資金提供ありがとうございます",
+      "en": "【<pl>】! Thank you for providing funds for the housing!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105258,
+      "id": "db_EventInfo:124583:110",
+      "jp": "これで路頭に迷う住民も減るのでありますな！",
+      "en": "This should mean fewer people on the streets, indeed!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 105259,
+      "id": "db_EventInfo:124584:114",
+      "jp": "ええ。しかし、その多くは仕事に困っているようです。彼らに与える仕事も作らねば",
+      "en": "Yes. But many of them seem to be struggling to find work. We also need to create jobs for them.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105260,
+      "id": "db_EventInfo:124585:114",
+      "jp": "【『王立騎士団』】と【『ゼカリウス自警団』】で協力して、住民の指示を行なっていきましょう",
+      "en": "Let's work together, the 【『Royal Knight Order』】 and the 【『Zecarius Self-Defense Force』】, to guide the residents.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105261,
+      "id": "db_EventInfo:124586:1",
+      "jp": "わかった。よろしく頼む",
+      "en": "Got it. Please take care of it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105262,
+      "id": "db_EventInfo:124589:0",
+      "jp": "住宅街が整備され、住民が増えていきそうだ。",
+      "en": "The residential area is getting organized, and it looks like the number of residents will grow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105263,
+      "id": "db_EventInfo:124591:114",
+      "jp": "【<pl>】さん！　このたび王都から子爵位を授けることが決まりました",
+      "en": "【<pl>】! It's been decided that the royal capital will grant you the title of viscount this time.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105264,
+      "id": "db_EventInfo:124592:1",
+      "jp": "ししゃく？",
+      "en": "Viscount?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105265,
+      "id": "db_EventInfo:124593:2",
+      "jp": "くいものデス？",
+      "en": "Is it tasty Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105266,
+      "id": "db_EventInfo:124594:114",
+      "jp": "子爵！　爵位ですよ！　正式な貴族になれるんですよ！？",
+      "en": "Viscount! A peerage title! You can become a formal noble, you know!?",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105267,
+      "id": "db_EventInfo:124595:1",
+      "jp": "はあ",
+      "en": "Huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105268,
+      "id": "db_EventInfo:124596:2",
+      "jp": "デス",
+      "en": "Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105269,
+      "id": "db_EventInfo:124597:114",
+      "jp": "はっ、反応が薄い！　これほど栄誉なことはないというのに",
+      "en": "Hah, such a weak reaction! Even though there's no greater honor than this.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105270,
+      "id": "db_EventInfo:124598:2",
+      "jp": "人間が定めた位になど興味ないデス",
+      "en": "We have no interest in ranks that humans have decided Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105271,
+      "id": "db_EventInfo:124599:2",
+      "jp": "というか王都がなんなのデス？　私は神、いわゆるゴッドデスよ？",
+      "en": "Anyway, what's the deal with the royal capital? I'm a god, you know? A god.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105272,
+      "id": "db_EventInfo:124600:2",
+      "jp": "それとも、子爵とやらになれば、100兆ゴールドぐらいポーンともらえるデス？",
+      "en": "Or, if I become this viscount, can I just get like 100 trillion gold coins or something?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105273,
+      "id": "db_EventInfo:124601:114",
+      "jp": "い、いや、そんなのはないですけど……その",
+      "en": "N-no, it's not like that... I mean,",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105274,
+      "id": "db_EventInfo:124603:12",
+      "jp": "こいつらに、そんなものを授けて喜ぶと思ったら、大間違いですよ",
+      "en": "If you think giving such things to these people would make them happy, you're very wrong.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 105275,
+      "id": "db_EventInfo:124604:12",
+      "jp": "それぞれ、女とカネにしか興味が無い凡俗なんですから",
+      "en": "They're just common folks who only care about women and money.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 105276,
+      "id": "db_EventInfo:124605:1",
+      "jp": "ひどい",
+      "en": "That's harsh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105277,
+      "id": "db_EventInfo:124606:2",
+      "jp": "カネよりすばらしいものはないデス",
+      "en": "There's nothing better than money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105278,
+      "id": "db_EventInfo:124607:114",
+      "jp": "むうう……",
+      "en": "Ugh...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105279,
+      "id": "db_EventInfo:124609:2",
+      "jp": "それで？　私はそんなのに興味ないデスが、メリットが他にあるなら聞いてやるデス",
+      "en": "So? I'm not interested in that stuff. But if there are other benefits, I'll hear you out.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105280,
+      "id": "db_EventInfo:124610:114",
+      "jp": "領地！　領地がもらえますよ！　王から領地を割り振られ、治める権利が与えられます！",
+      "en": "Territory! You can get territory! You'll be given land from the king and the right to govern it!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105281,
+      "id": "db_EventInfo:124611:2",
+      "jp": "……すでに、このゼカリウスの領主になってるデス",
+      "en": "...I'm already the lord of this Zecarius territory.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105282,
+      "id": "db_EventInfo:124612:2",
+      "jp": "おまけにそれも、他になるやつがいないから、嫌々やってるようなものデス",
+      "en": "And that's only because there's no one else to do it. It's like I'm doing it unwillingly.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105283,
+      "id": "db_EventInfo:124613:114",
+      "jp": "うっ",
+      "en": "Ugh.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105284,
+      "id": "db_EventInfo:124614:2",
+      "jp": "領主になったら民どもから税金ガッポリと思ってたのに、投資やら建築やらでカネが吹き飛ぶデス",
+      "en": "I thought being a lord meant I'd get loads of taxes from the people. But the money just flies away on investments and construction.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105285,
+      "id": "db_EventInfo:124615:114",
+      "jp": "むぐぐ、でも新しい領地をもらえて、管理する権利が得られるんですよ？　素晴らしいじゃないですか",
+      "en": "Mmmph, but you get new territory and the right to manage it, right? That's wonderful!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105286,
+      "id": "db_EventInfo:124616:2",
+      "jp": "その新しい領地とやらは、ちゃんと豊かで開拓済みなんデス？",
+      "en": "Is this 'new territory' actually rich and developed?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105287,
+      "id": "db_EventInfo:124617:114",
+      "jp": "ギクッ",
+      "en": "Gulp.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105288,
+      "id": "db_EventInfo:124618:12",
+      "jp": "おおかた、こいつがゼカリウスを栄えさせたことをみて、新しい領地に左遷させて開拓させようとか",
+      "en": "Probably, they see how he made Zecarius prosper, so they want to send him off to develop a new territory.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 105289,
+      "id": "db_EventInfo:124619:12",
+      "jp": "そもそも男爵位をすっ飛ばして子爵にしたら、他の貴族の反感買いますよ。よからぬこと考えてませんか？",
+      "en": "Besides, skipping the rank of baron to make him a viscount? It'll make the other nobles angry. Are they up to no good?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 105290,
+      "id": "db_EventInfo:124620:114",
+      "jp": "ギクギクッ",
+      "en": "Gulp-gulp!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105291,
+      "id": "db_EventInfo:124621:2",
+      "jp": "図星みたいデスね",
+      "en": "Looks like you hit the nail on the head.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105292,
+      "id": "db_EventInfo:124622:114",
+      "jp": "あはは……爵位ぐらい持ってくれないと、こっちとしても都合悪いというか……",
+      "en": "Ahaha... It's bad for us too if you don't at least have a noble title...",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105293,
+      "id": "db_EventInfo:124623:114",
+      "jp": "ま、まあ出向の話は……また追々するとして",
+      "en": "W-well, the matter of the transfer... we can talk about that later.",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105294,
+      "id": "db_EventInfo:124624:114",
+      "jp": "子爵位を授けることは決定ですから！　爵位を持たない人間が領主として権力を持つのは許されません！",
+      "en": "The decision to grant you the rank of viscount is final! A person without a title can't be allowed to hold power as a lord!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105295,
+      "id": "db_EventInfo:124625:1",
+      "jp": "はあ……",
+      "en": "Sigh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105296,
+      "id": "db_EventInfo:124628:0",
+      "jp": "よくわからないが、貴族になってしまったらしい。",
+      "en": "I don't really understand it, but it seems I've become a noble.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 105297,
+      "id": "db_EventInfo:124630:114",
+      "jp": "おめでとうございます【<pl>】さん！",
+      "en": "Congratulations, 【<pl>】!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105298,
+      "id": "db_EventInfo:124631:114",
+      "jp": "王都で【<pl>】さんの功績が認められて、侯爵位を授けることが決まりましたよ！",
+      "en": "In the capital, your achievements, 【<pl>】, have been recognized, and it's been decided to grant you the title of Marquis!",
+      "speaker": "Tiona",
+      "speaker_jp": "ティオナ"
+    },
+    {
+      "n": 105299,
+      "id": "db_EventInfo:124632:2",
+      "jp": "……また爵位デスか",
+      "en": "Another 'baron' case, huh...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 105300,
+      "id": "db_EventInfo:124633:2",
+      "jp": "そんなもんもらってどうするデス？　ボーナスとして100兆ゴールドくれるデス？",
+      "en": "What am I supposed to do with that? Give me 100 trillion gold as a bonus?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

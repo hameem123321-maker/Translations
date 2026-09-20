@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 82301,
+  "range_end": 82400,
+  "pairs": [
+    {
+      "n": 82301,
+      "id": "db_EventInfo:97309:115",
+      "jp": "いや、その……",
+      "en": "No, well...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82302,
+      "id": "db_EventInfo:97310:12",
+      "jp": "貴女は私に代わって【『勇従の賢者』】になったのです。もっと自信を持ちなさい",
+      "en": "You took my place as the Sage of Devotion. Have more confidence.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82303,
+      "id": "db_EventInfo:97311:115",
+      "jp": "は、はい……",
+      "en": "Y... yes...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82304,
+      "id": "db_EventInfo:97312:0",
+      "jp": "確かにレミルは優秀な魔術師に見える。",
+      "en": "Remil really does look like a skilled mage.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82305,
+      "id": "db_EventInfo:97313:0",
+      "jp": "ミルテほどではないにしても、もう少し自信を持てば違いそうなものだが。",
+      "en": "Not as much as Myrte, but she'd do better with a little more confidence.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82306,
+      "id": "db_EventInfo:97315:1",
+      "jp": "レミルはミルテの妹なんだよな",
+      "en": "Remil is Myrte's little sister, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82307,
+      "id": "db_EventInfo:97316:115",
+      "jp": "は、はい……一応、双子の、妹……",
+      "en": "Y... yes... We're twins, and I'm... the younger one...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82308,
+      "id": "db_EventInfo:97317:1",
+      "jp": "ミルテの妹ということは、【『禁呪』】も使えるのか？",
+      "en": "So if you're Myrte's sister, can you use Taboo Spells too?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82309,
+      "id": "db_EventInfo:97318:115",
+      "jp": "そ、それは……",
+      "en": "Th-that...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82310,
+      "id": "db_EventInfo:97319:1",
+      "jp": "ミルテが言うには、【『禁呪』】はミルテ限定の魔術ではない、みたいなことを言ってたが",
+      "en": "Myrte said something like Taboo Spells aren't just for her alone.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82311,
+      "id": "db_EventInfo:97320:1",
+      "jp": "カリストも使おうとしないんだよなぁ……",
+      "en": "Callisto won't even try to use it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82312,
+      "id": "db_EventInfo:97321:115",
+      "jp": "私も姉様から【『禁呪』】の仕組みを聞いたけど……",
+      "en": "My sister also told me how the 'Forbidden Curse' works...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82313,
+      "id": "db_EventInfo:97322:115",
+      "jp": "【『禁呪』】自体は誰でも使える魔術",
+      "en": "The 'Forbidden Curse' itself is magic anyone can use.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82314,
+      "id": "db_EventInfo:97323:115",
+      "jp": "使えば命を失うということを考えなければ、だけど",
+      "en": "That is, if you don't mind losing your life.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82315,
+      "id": "db_EventInfo:97324:1",
+      "jp": "命を……？",
+      "en": "Your life...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82316,
+      "id": "db_EventInfo:97325:115",
+      "jp": "【『禁呪』】自体は、危険な仕組みの魔術というわけでない",
+      "en": "The 'Forbidden Curse' itself isn't built on dangerous magic.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82317,
+      "id": "db_EventInfo:97326:115",
+      "jp": "ただ、必要とする魔術量が膨大",
+      "en": "It just needs a huge amount of magic power.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82318,
+      "id": "db_EventInfo:97327:115",
+      "jp": "普通の魔術師が使えば一瞬で底を尽きる",
+      "en": "A normal mage would run out instantly.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82319,
+      "id": "db_EventInfo:97328:115",
+      "jp": "私やカリストさんは、一般の魔術師と比較すれば高い魔力がある。それでも【『禁呪』】を使うには足りない",
+      "en": "Compared to normal mages, Miss Callisto and I have high magic power. But it's still not enough for the 'Forbidden Curse'.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82320,
+      "id": "db_EventInfo:97329:115",
+      "jp": "強すぎる魔術を使うと、命に関わる……",
+      "en": "Using magic that's too strong puts your life at risk...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82321,
+      "id": "db_EventInfo:97330:1",
+      "jp": "なるほど……だからカリストは使わないのか",
+      "en": "I see... So that's why Callisto doesn't use it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82322,
+      "id": "db_EventInfo:97331:115",
+      "jp": "だから、アレは姉様専用。規格外の魔力出力を持つ超天才だから、それに耐えられる",
+      "en": "Right. That thing is only for my sister. She's a super genius with a freakishly high magic output, so she can handle it.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82323,
+      "id": "db_EventInfo:97332:1",
+      "jp": "ミルテが【『禁呪』】を使うと、逆に魔術が安定するとか言ってたな",
+      "en": "Myrte said that when she uses [Forbidden Curse], it actually makes her magic more stable.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82324,
+      "id": "db_EventInfo:97333:115",
+      "jp": "ええ。姉様の魔力出力は大きすぎて、並の魔術を使うと逆に魔術制御が危うくなる",
+      "en": "Yes. My sister's magic power is too immense. Using normal spells actually makes her control more dangerous.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82325,
+      "id": "db_EventInfo:97334:115",
+      "jp": "水をカップに注ぐのに、バケツまるごとを使うようなもの",
+      "en": "It's like trying to fill a cup with water, but using a whole bucket.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82326,
+      "id": "db_EventInfo:97335:1",
+      "jp": "そりゃ暴走するよな……",
+      "en": "That would definitely go out of control...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82327,
+      "id": "db_EventInfo:97336:115",
+      "jp": "だから大出力前提の【『禁呪』】を使うことで、かえって安定した魔術を使える",
+      "en": "So, by using [Forbidden Curse], which is made for huge power, she can use stable magic instead.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82328,
+      "id": "db_EventInfo:97337:1",
+      "jp": "大出力前提か……",
+      "en": "Made for huge power, huh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82329,
+      "id": "db_EventInfo:97338:115",
+      "jp": "【『禁呪』】自体が発掘されて間もなく、研究も殆ど進んでない",
+      "en": "[Forbidden Curse] itself wasn't discovered long ago. Research on it has barely progressed.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82330,
+      "id": "db_EventInfo:97339:115",
+      "jp": "将来的にはそれなりの魔力出力でも発動できる、上手く簡略化されたものが開発されるはず",
+      "en": "In the future, we should be able to develop a simpler version that can be activated with less power.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82331,
+      "id": "db_EventInfo:97341:12",
+      "jp": "【『大禁呪エクスティンクション』】、威力は素晴らしいですが",
+      "en": "[Great Forbidden Curse: Extinction], its power is amazing, but...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82332,
+      "id": "db_EventInfo:97342:115",
+      "jp": "あまりに大がかりすぎて、今後は使うことが出来ない……",
+      "en": "It's way too grand of a spell. We likely won't be able to use it again...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82333,
+      "id": "db_EventInfo:97343:115",
+      "jp": "使用すれば、私達の方が全滅する。そもそも詠唱が長すぎる",
+      "en": "If we tried, we'd be the ones wiped out. The chant is just too long to begin with.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82334,
+      "id": "db_EventInfo:97344:115",
+      "jp": "よほどの相手じゃなければ、【『禁呪』】だけで殲滅は容易",
+      "en": "Unless the opponent is truly exceptional, just [Forbidden Curse] is more than enough to destroy them easily.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82335,
+      "id": "db_EventInfo:97345:12",
+      "jp": "そうね",
+      "en": "Yeah.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82336,
+      "id": "db_EventInfo:97346:2",
+      "jp": "暴走ピンクのオマエが躊躇するとはデス",
+      "en": "It's death that you, the runaway pink one, are hesitating.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82337,
+      "id": "db_EventInfo:97347:12",
+      "jp": "うるさいですね！　私だって好きで暴走させてるんじゃないです！",
+      "en": "Shut up! I don't run wild because I like it, you know!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82338,
+      "id": "db_EventInfo:97348:115",
+      "jp": "本当はもっと上手く使う方法があるのかもしれない",
+      "en": "Maybe there's a better way to use it.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82339,
+      "id": "db_EventInfo:97349:2",
+      "jp": "というより、なんであんなに破壊範囲が広くなるんデス？",
+      "en": "More importantly, why does the destruction range get so huge, death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82340,
+      "id": "db_EventInfo:97350:12",
+      "jp": "使用するには【『禁呪』】を使用できる人間が二人必要なせいですね",
+      "en": "It's because you need two people who can use the ['Forbidden Curse'] to use it.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82341,
+      "id": "db_EventInfo:97351:115",
+      "jp": "実際のところ、二人でも魔力放出に精一杯で、それを圧縮するなんてとても",
+      "en": "Actually, even with two people, they can barely manage the magic output. Compressing it is impossible.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82342,
+      "id": "db_EventInfo:97352:115",
+      "jp": "本来はもっと小規模で、さらに攻撃力が高い魔術だと思う",
+      "en": "Originally, I think it should be a smaller-scale, even higher attack power spell.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82343,
+      "id": "db_EventInfo:97353:1",
+      "jp": "あ、あれよりも攻撃力が高いのか！？",
+      "en": "Wait, it's even stronger than that?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82344,
+      "id": "db_EventInfo:97354:2",
+      "jp": "やばい魔術デス。しかし、まだ未完成とは",
+      "en": "Dangerous spell, death. But it's still incomplete.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82345,
+      "id": "db_EventInfo:97355:12",
+      "jp": "そもそも二人で同じ魔術を使うってのが無理なんです。ただでさえ難しい制御を困難にしてますよ",
+      "en": "Using the same spell with two people is impossible from the start. It makes the already hard control even harder.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82346,
+      "id": "db_EventInfo:97356:12",
+      "jp": "それが可能だったのは、私達が超天才魔術師だったからに過ぎませんね",
+      "en": "The only reason we could do it was because we were super-genius mages.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82347,
+      "id": "db_EventInfo:97357:2",
+      "jp": "超天才っていっても、魔力が足りてないってことデスよね？　言うほどたいしたことじゃないデス",
+      "en": "So even if you're a super genius, you don't have enough magic power, right? Not that big of a deal.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82348,
+      "id": "db_EventInfo:97358:12",
+      "jp": "うっ、うるさいですね！",
+      "en": "Ugh, you're so annoying!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82349,
+      "id": "db_EventInfo:97359:12",
+      "jp": "あの【『大禁呪』】をまともに運用するってなら、私達100人分ぐらいの魔力が必要なんです！",
+      "en": "To properly use that [Great Forbidden Curse], we'd need magic power equal to about 100 of us!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82350,
+      "id": "db_EventInfo:97360:12",
+      "jp": "そんな【無限に魔力が使えるような状況】じゃなきゃ、絶対に無理ですよ！",
+      "en": "Unless we're in a situation where we can use infinite magic power, it's absolutely impossible!",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82351,
+      "id": "db_EventInfo:97361:2",
+      "jp": "むう……使えば勝てる、無敵な攻撃スキルと思ったのデスが",
+      "en": "Hmm... I thought it was an invincible attack skill that could guarantee victory if used.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 82352,
+      "id": "db_EventInfo:97362:1",
+      "jp": "毎回あんな時間をかけているヒマはないものな",
+      "en": "We don't have time to waste like that every time.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82353,
+      "id": "db_EventInfo:97365:0",
+      "jp": "今後、【『大禁呪』】は封印するしかないようだ。",
+      "en": "Looks like we'll have to seal away the [Great Forbidden Curse] from now on.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82354,
+      "id": "db_EventInfo:97367:115",
+      "jp": "【『大禁呪エクスティンクション』】、海を割るほどの威力だった",
+      "en": "The [Great Forbidden Curse: Extinction] had enough power to split the sea.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82355,
+      "id": "db_EventInfo:97368:12",
+      "jp": "【『起源の魔術師』】が作った最強の魔術は伊達ではありませんでしたね",
+      "en": "The strongest magic created by the [Primordial Mage] was truly impressive.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82356,
+      "id": "db_EventInfo:97369:1",
+      "jp": "といっても、海はしばらくすると元に戻ってしまったな",
+      "en": "Although, the sea went back to normal after a while.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82357,
+      "id": "db_EventInfo:97370:1",
+      "jp": "さすがに、海を完全に消すほどの威力はないってことか",
+      "en": "I guess it wasn't powerful enough to completely erase the sea.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82358,
+      "id": "db_EventInfo:97371:12",
+      "jp": "まあ、そうですね……",
+      "en": "Well, yeah...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82359,
+      "id": "db_EventInfo:97372:1",
+      "jp": "デシルスが言ってたっけ。ゼカリウス内海の変な地形も、この魔術のせいだって",
+      "en": "I think Desilus said that. He said the weird shape of the Zecarius Inland Sea is because of this magic too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82360,
+      "id": "db_EventInfo:97373:115",
+      "jp": "そんなことを……？",
+      "en": "That can't be...?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82361,
+      "id": "db_EventInfo:97374:12",
+      "jp": "たしかに【『大禁呪』】であれば、不可能ではないかもしれませんが",
+      "en": "Well, if it's the 'Grand Forbidden Spell', then it might not be impossible.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82362,
+      "id": "db_EventInfo:97375:12",
+      "jp": "二人がかりで使ったとしても、そこまでの破壊はもたらせませんでしたね",
+      "en": "But even if the two of us used it together, we couldn't cause that much damage.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82363,
+      "id": "db_EventInfo:97376:12",
+      "jp": "あまり考えたくないのですが……私達二人ですら、本来の使い手には及ばないということでしょう",
+      "en": "I don't really want to think about it... but that means even us two can't measure up to its real user.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82364,
+      "id": "db_EventInfo:97377:1",
+      "jp": "ミルテたち以上の天才魔術師か……",
+      "en": "A magic genius even better than Myrte...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82365,
+      "id": "db_EventInfo:97378:12",
+      "jp": "それはもはや、天才とか超天才とか言う次元ではありません",
+      "en": "That's beyond just genius or super-genius.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 82366,
+      "id": "db_EventInfo:97379:115",
+      "jp": "起源の魔術師……つまり【『魔術の神』】",
+      "en": "The Origin Magician... in other words, the 'God of Magic'.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82367,
+      "id": "db_EventInfo:97381:115",
+      "jp": "デシルス……アナタが【『起源の魔術師』】だった？",
+      "en": "Desilus... were you... the 'Origin Magician'?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82368,
+      "id": "db_EventInfo:97382:15",
+      "jp": "えっ、いやまあその……あくまでそういう側面があるというか。たくさんいる僕の一人がそれというか",
+      "en": "Huh? Well, no, um... It's more like I have that as one side of me. One of the many 'me's was that, sort of.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82369,
+      "id": "db_EventInfo:97383:15",
+      "jp": "僕の方のメインはいたって普通の、万能舎弟にすぎないし？",
+      "en": "The main me here is just a perfectly normal, all-purpose little brother, okay?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82370,
+      "id": "db_EventInfo:97384:115",
+      "jp": "なんて胡散臭い",
+      "en": "How suspicious.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82371,
+      "id": "db_EventInfo:97385:1",
+      "jp": "俺も最初から怪しいと思ってた",
+      "en": "I thought something was off about you from the start too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82372,
+      "id": "db_EventInfo:97386:15",
+      "jp": "そんなぁ！　【<pl>】君まで……",
+      "en": "No way! Even you, 【<pl>】...?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82373,
+      "id": "db_EventInfo:97387:115",
+      "jp": "それで、【『起源の魔術師』】ってのが本当なら……",
+      "en": "So, if this 'Origin Magician' thing is real...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82374,
+      "id": "db_EventInfo:97388:115",
+      "jp": "四大【『禁呪』】や【『ヴァニッシュ』】は使える？",
+      "en": "Can you use the four major 'Forbidden Spells' and 'Vanish'?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82375,
+      "id": "db_EventInfo:97389:15",
+      "jp": "使えるよ",
+      "en": "Sure, I can.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82376,
+      "id": "db_EventInfo:97390:115",
+      "jp": "【『大禁呪エクスティンクション』】も？",
+      "en": "Even the 'Grand Forbidden Spell Extinction'?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82377,
+      "id": "db_EventInfo:97391:15",
+      "jp": "使えるね",
+      "en": "Yep, I can use that too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82378,
+      "id": "db_EventInfo:97392:115",
+      "jp": "二人でやっと使ってた【『大禁呪』】だけど……まさか、一人で！？",
+      "en": "We could only cast that 'Grand Forbidden Spell' together... wait, you can do it alone!?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82379,
+      "id": "db_EventInfo:97393:15",
+      "jp": "もちろんだとも！",
+      "en": "Of course I can!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82380,
+      "id": "db_EventInfo:97394:115",
+      "jp": "本当に……！？　ぜ、是非使って見せて！",
+      "en": "For real...!? Th-then you have to show me! Show me how!",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82381,
+      "id": "db_EventInfo:97395:15",
+      "jp": "いやあ、そりゃあダメだよ。僕は何の変哲も無い普通の万能舎弟だからね",
+      "en": "Nah, I can't do that. I'm just your average, run-of-the-mill handy sidekick, after all.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82382,
+      "id": "db_EventInfo:97396:15",
+      "jp": "シイネ君だって、【『神』】としての力を無制限に使えないだろう？",
+      "en": "Even Shiine can't use all his powers as a 'God' whenever he wants, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82383,
+      "id": "db_EventInfo:97397:15",
+      "jp": "まあ一応、僕も分類上はその、【『魔術の神』】とかそういうものに分類されるからね",
+      "en": "Well, I guess technically I'm classified as something like a 'God of Magic' or whatever.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82384,
+      "id": "db_EventInfo:97398:115",
+      "jp": "そんな……",
+      "en": "No way...",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 82385,
+      "id": "db_EventInfo:97399:15",
+      "jp": "そういうものだよ",
+      "en": "It's true.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82386,
+      "id": "db_EventInfo:97400:1",
+      "jp": "とか言って、本当は使えないんじゃないのか？　理論的には正しいみたいなとかで",
+      "en": "You're saying that, but you probably can't actually do it, right? Like it's only correct in theory?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 82387,
+      "id": "db_EventInfo:97401:15",
+      "jp": "失敬な！？　でも煽られても使わないからね！？",
+      "en": "How rude!? But I'm not going to use it even if you provoke me!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 82388,
+      "id": "db_EventInfo:97402:0",
+      "jp": "★エッチシーン・レミル・H部屋・手コキディープキス①",
+      "en": "★H Scene - Remil - H Room - Handjob & Deep Kiss①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82389,
+      "id": "db_EventInfo:97403:0",
+      "jp": "★エッチシーン・レミル・H部屋・手コキディープキス②",
+      "en": "★H Scene - Remil - H Room - Handjob & Deep Kiss②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82390,
+      "id": "db_EventInfo:97404:0",
+      "jp": "★エッチシーン・レミル・H部屋・正常位",
+      "en": "★H Scene - Remil - H Room - Missionary",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82391,
+      "id": "db_EventInfo:97405:0",
+      "jp": "★エッチシーン・レミル・H部屋・騎乗位①",
+      "en": "★H Scene - Remil - H Room - Cowgirl①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82392,
+      "id": "db_EventInfo:97406:0",
+      "jp": "★エッチシーン・レミル・H部屋・騎乗位②",
+      "en": "★H Scene - Remil - H Room - Cowgirl②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82393,
+      "id": "db_EventInfo:97407:0",
+      "jp": "★エッチシーン・レミル・H部屋・罵倒足コキ①",
+      "en": "★H Scene - Remil - H Room - Insult Footjob①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82394,
+      "id": "db_EventInfo:97408:0",
+      "jp": "★エッチシーン・レミル・H部屋・罵倒足コキ②",
+      "en": "★H Scene - Remil - H Room - Insult Footjob②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82395,
+      "id": "db_EventInfo:97409:0",
+      "jp": "★エッチシーン・レミル・H部屋・泡奉仕①",
+      "en": "H-Scene: Remil - Bathroom - Soap Service Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82396,
+      "id": "db_EventInfo:97410:0",
+      "jp": "★エッチシーン・レミル・H部屋・泡奉仕②",
+      "en": "H-Scene: Remil - Bathroom - Soap Service Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82397,
+      "id": "db_EventInfo:97411:0",
+      "jp": "★エッチシーン・レミル・見せ・パンツぬぎレイプショー",
+      "en": "H-Scene: Remil - Show - Panty-strip Rape Show",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82398,
+      "id": "db_EventInfo:97412:0",
+      "jp": "★エッチシーン・レミル・妊娠時・ボテ腹セックス①",
+      "en": "H-Scene: Remil - Pregnant - Belly Sex Part 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82399,
+      "id": "db_EventInfo:97413:0",
+      "jp": "★エッチシーン・レミル・妊娠時・ボテ腹セックス②",
+      "en": "H-Scene: Remil - Pregnant - Belly Sex Part 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 82400,
+      "id": "db_EventInfo:97416:0",
+      "jp": "レミルは複雑な表情でこちらを見ている。",
+      "en": "Remil looks at me with a complicated expression.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

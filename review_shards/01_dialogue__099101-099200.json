@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99101,
+  "range_end": 99200,
+  "pairs": [
+    {
+      "n": 99101,
+      "id": "db_EventInfo:116970:7",
+      "jp": "待ってよ、奴らは魔術でサーチしてるみたいだよ？",
+      "en": "Wait a minute, it looks like they're using magic to search, isn't it?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99102,
+      "id": "db_EventInfo:116971:5",
+      "jp": "それなら問題ありませんわ、検査役に【多少のカネ】を握らせれば良いだけですもの",
+      "en": "That's no problem at all. We just need to give the inspector [a bit of money].",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99103,
+      "id": "db_EventInfo:116972:5",
+      "jp": "まあ、食料に紛れて【後ろめたい品】も仕入れているようですし、仮に中身を訊ねられても言い訳は立ちますわ",
+      "en": "Well, it seems they're also importing some [shady items] mixed in with the food supplies. Even if they ask about the contents, we have an excuse.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99104,
+      "id": "db_EventInfo:116973:5",
+      "jp": "【『ソルシア魔導船団』】の親玉様が【『性奴隷』】を購入した、とか言い訳すれば良いのではなくて？",
+      "en": "We can just say the boss of the [Solthia Magic Fleet] bought some [sex slaves], right?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99105,
+      "id": "db_EventInfo:116974:5",
+      "jp": "魔術師といってもしょせんは人間。欲求には逆らえませんわД",
+      "en": "Even if they're mages, they're still human in the end. They can't resist their desires Д.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99106,
+      "id": "db_EventInfo:116975:1",
+      "jp": "な、なるほど……",
+      "en": "I, I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99107,
+      "id": "db_EventInfo:116976:2",
+      "jp": "よくやったデス、早速準備を整えるデス！",
+      "en": "Well done DESU! Let's prepare right away DESU!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99108,
+      "id": "db_EventInfo:116979:0",
+      "jp": "【『ソルシア魔導船団』】への突入準備を整えたら、ミルテ達の救出に向かおう！",
+      "en": "Once we finish preparing for the infiltration of the [Solthia Magic Fleet], let's go rescue Myrte and the others!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99109,
+      "id": "db_EventInfo:116980:0",
+      "jp": "ハーヴェスタの手の者により、俺達は積み荷の中身として運ばれたのであった。",
+      "en": "Thanks to Harvester's people, we were transported as part of the cargo.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99110,
+      "id": "db_EventInfo:116981:222",
+      "jp": "それでは【<pl>】さん達、これからは静かにお願いしますよ",
+      "en": "Alright, 【<pl>】 and everyone, please stay quiet from now on.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99111,
+      "id": "db_EventInfo:116982:2",
+      "jp": "(わかったデス)",
+      "en": "(Okay.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99112,
+      "id": "db_EventInfo:116985:2",
+      "jp": "(うぐぐ、結構揺れるデスね)",
+      "en": "(Ugh, it's shaking a lot.)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99113,
+      "id": "db_EventInfo:116986:1",
+      "jp": "(ああ、狭いし暗いし……ん、なんだ、この柔らかいモノは)",
+      "en": "(Yeah, it's narrow and dark... Huh, what's this soft thing?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99114,
+      "id": "db_EventInfo:116987:2",
+      "jp": "(んんっД　ちょ、どこ触ってるデス……Д)",
+      "en": "(Mmph... D Hey, where are you touching... D)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99115,
+      "id": "db_EventInfo:116988:1",
+      "jp": "(え？　いや、どこって……その、ごめん……！)",
+      "en": "(Huh? No, where... Uh, sorry...!)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99116,
+      "id": "db_EventInfo:116989:2",
+      "jp": "(あんっ、ちょ、動くな、食い込んじゃうデスぅД)",
+      "en": "(Ahh, hey, don't move, it's digging in... D)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99117,
+      "id": "db_EventInfo:116990:1",
+      "jp": "(お、おい、あまり声を出すと……)",
+      "en": "(Hey, hey, if you make too much noise...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99118,
+      "id": "db_EventInfo:116991:2",
+      "jp": "(あんっ、あんっ……ダメデスぅ……Д)",
+      "en": "(Ahh, ahh... No good... D)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99119,
+      "id": "db_EventInfo:116992:222",
+      "jp": "あのぉ、黙っていただかないと……",
+      "en": "Umm, if you don't stay quiet...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99120,
+      "id": "db_EventInfo:116993:2",
+      "jp": "(あう、コイツが変なとこ、はぁ、触るから、デス……！)",
+      "en": "(Agh, it's 'cause this guy is touching weird places, hah...!)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99121,
+      "id": "db_EventInfo:116994:1",
+      "jp": "(うぅ、すまん、もう少しこのまま我慢して……)",
+      "en": "(Ugh, sorry, just bear with it a little longer like this...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99122,
+      "id": "db_EventInfo:116995:2",
+      "jp": "(こ、このまま、デス？　うぅ……わ、分かった、デスから……もっと優しく弄るデス……！)",
+      "en": "(L-like this? Ugh... O-okay, but... be more gentle when you play with me...!)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99123,
+      "id": "db_EventInfo:116996:2",
+      "jp": "(くぅ、ま、まったく、こうやって他の女をたらしこんだデス……？)",
+      "en": "(Geez, are you seriously gonna sweet-talk another girl like this...?)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99124,
+      "id": "db_EventInfo:116997:222",
+      "jp": "あのぉ……",
+      "en": "Um...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99125,
+      "id": "db_EventInfo:116998:1",
+      "jp": "(ごめんなさい)",
+      "en": "(I'm sorry)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99126,
+      "id": "db_EventInfo:116999:0",
+      "jp": "★クリア",
+      "en": "★Cleared",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99127,
+      "id": "db_EventInfo:117000:0",
+      "jp": "俺達は積み荷が揺れる度に、狭い箱の中でもみくちゃにされるのだった。",
+      "en": "Every time the cargo shifted, we got tossed around inside the cramped crate.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99128,
+      "id": "db_EventInfo:117004:0",
+      "jp": "それから船の一室に運び込まれた俺達は、人気が無くなるのを見計らい、積み荷から這い出た。",
+      "en": "After they brought us to a ship's cabin, we waited for a lull in activity and crawled out of the cargo.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99129,
+      "id": "db_EventInfo:117005:1",
+      "jp": "大丈夫そうだな……",
+      "en": "Looks safe...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99130,
+      "id": "db_EventInfo:117006:2",
+      "jp": "うむデス",
+      "en": "Indeed it is",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99131,
+      "id": "db_EventInfo:117007:1",
+      "jp": "よし、じゃあ早速探索をするぞ",
+      "en": "Good, let's start searching right away",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99132,
+      "id": "db_EventInfo:117008:2",
+      "jp": "わかったデス",
+      "en": "Understood",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99133,
+      "id": "db_EventInfo:117009:2",
+      "jp": "その前に、見つかって戦闘にでもなったら、苦戦は必至デス。さっさと味方を呼ぶデス",
+      "en": "But before that, if we're spotted and a fight breaks out, we'll definitely struggle. I'm calling for backup right away",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99134,
+      "id": "db_EventInfo:117012:0",
+      "jp": "仲間が召喚された！",
+      "en": "An ally has been summoned!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99135,
+      "id": "db_EventInfo:117013:2",
+      "jp": "とにかく【『ソルシア魔導船団』】に侵入成功デスね",
+      "en": "Anyway, we made it onto the 'Sorsia Magic Ship Fleet'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99136,
+      "id": "db_EventInfo:117014:2",
+      "jp": "この船は魔術師たちと、その研究所をまるごと収めた船団とのことデスね",
+      "en": "This ship fleet holds the mages and their whole research lab.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99137,
+      "id": "db_EventInfo:117015:2",
+      "jp": "好き勝手に研究しすぎて構造が半ば【『魔界』】化してる上に、実験用の生物が放し飼い状態デス",
+      "en": "They researched too freely, so the structure is half like the 'Demon World'. Test creatures are just running loose.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99138,
+      "id": "db_EventInfo:117016:1",
+      "jp": "実験か……。そのためにミルテ達を？",
+      "en": "Experiments... For that, they took Myrte and the others?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99139,
+      "id": "db_EventInfo:117017:2",
+      "jp": "そうデスね",
+      "en": "That's right.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99140,
+      "id": "db_EventInfo:117018:1",
+      "jp": "……こんな場所で、研究できているのだろうか",
+      "en": "...How can they research in a place like this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99141,
+      "id": "db_EventInfo:117019:2",
+      "jp": "魔術師どもの感性としては快適なのかもデス。カリストなんか、ゴチャゴチャした部屋が大好きデスし",
+      "en": "For a mage's sense, it might be comfy. Callisto loves messy rooms, for example.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99142,
+      "id": "db_EventInfo:117020:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99143,
+      "id": "db_EventInfo:117021:1",
+      "jp": "魔術師の姿が多いな……もうちょっと盛大に襲ってくると思っていたが",
+      "en": "There are a lot of mages... I thought they'd attack us more fiercely.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99144,
+      "id": "db_EventInfo:117022:2",
+      "jp": "殺気立っている連中もいるデスが、ただ研究をしているのもいるデスね",
+      "en": "Some are really hostile. But others are just doing their research.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99145,
+      "id": "db_EventInfo:117023:2",
+      "jp": "襲ってくる連中は、どうも正気じゃないデスね。何か洗脳めいたことをされたようデス",
+      "en": "The ones who attack us don't seem sane. Looks like they were brainwashed or something.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99146,
+      "id": "db_EventInfo:117024:1",
+      "jp": "ゼルカのしわざか",
+      "en": "Zelka's doing?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99147,
+      "id": "db_EventInfo:117025:1",
+      "jp": "ミルテにオーレリア……無事だといいが……",
+      "en": "Myrte, Aurelia... I hope you're okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99148,
+      "id": "db_EventInfo:117026:0",
+      "jp": "とある一室に入ると、そこには【『ゴブリン』】がひしめき合っていた。",
+      "en": "I enter a room. It's packed with Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99149,
+      "id": "db_EventInfo:117027:1",
+      "jp": "うお！？　【『ゴブリン』】が……！",
+      "en": "Whoa!? Goblins...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99150,
+      "id": "db_EventInfo:117028:2",
+      "jp": "いや、待つデス、オマエ、よく見るデス",
+      "en": "No, wait. Look closer.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99151,
+      "id": "db_EventInfo:117029:1",
+      "jp": "？　あれ、こいつら、死んでる……？",
+      "en": "Huh? Wait, these guys... they're dead...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99152,
+      "id": "db_EventInfo:117030:2",
+      "jp": "どうやら内臓を抜き取られているようデスね……中身はどうしたデスかね？",
+      "en": "Looks like their insides were taken out... What happened to them?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99153,
+      "id": "db_EventInfo:117031:1",
+      "jp": "いわゆる【剥製】というやつだな",
+      "en": "They're taxidermy. Stuffed animals.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99154,
+      "id": "db_EventInfo:117032:2",
+      "jp": "金持ちがケモノの剥製を飾るというのは聞いたことあるデスが、【『ゴブリン』】の剥製なんて需要あるのデス？",
+      "en": "I've heard of rich people having animal trophies. But who wants Goblin taxidermy?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99155,
+      "id": "db_EventInfo:117033:0",
+      "jp": "俺達が部屋の中に入ると、様々な【『ゴブリン』】の剥製が飾られていた。",
+      "en": "We walk further into the room. There are lots of different Goblin taxidermy pieces on display.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99156,
+      "id": "db_EventInfo:117034:1",
+      "jp": "色んな種類の【『ゴブリン』】がいるな",
+      "en": "So many different kinds of Goblins.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99157,
+      "id": "db_EventInfo:117035:2",
+      "jp": "呪文使いの【『ゴブリン』】もいるデス",
+      "en": "Even some spellcaster Goblins.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99158,
+      "id": "db_EventInfo:117036:2",
+      "jp": "意味が分からないデスが……どうやらこれが、魔術師の【研究】らしいデスね",
+      "en": "I don't get it... But I guess this is the mage's 'research'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99159,
+      "id": "db_EventInfo:117037:1",
+      "jp": "【『ゴブリン』】を研究しているのか……",
+      "en": "So you're studying \"Goblins\"...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99160,
+      "id": "db_EventInfo:117038:0",
+      "jp": "★アナザービュー",
+      "en": "ANOTHER VIEW",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99161,
+      "id": "db_EventInfo:117042:0",
+      "jp": "船内の一室にて……。",
+      "en": "In a room on the ship...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99162,
+      "id": "db_EventInfo:117043:218",
+      "jp": "あー、だりぃ……。ったく、魔術師の船なら警備の仕事なんて楽勝だと思ったのによぉ",
+      "en": "Ahhh, boring... Jeez, I thought guard duty on a mage's ship would be a piece of cake.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99163,
+      "id": "db_EventInfo:117044:218",
+      "jp": "あーあー。別部屋の奴らがうらやましいぜ。あんな綺麗でエロい身体の女と今頃……",
+      "en": "Man, oh man. I'm jealous of the guys in the other room. By now they're probably... with that beautiful, sexy girl.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99164,
+      "id": "db_EventInfo:117045:219",
+      "jp": "おい、無駄口叩いてる暇はないぞ……早くあいつらにエサをやっちまえよ",
+      "en": "Hey, no time for chit-chat... Hurry up and feed those things.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99165,
+      "id": "db_EventInfo:117046:218",
+      "jp": "へいへい",
+      "en": "Yeah, yeah.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99166,
+      "id": "db_EventInfo:117047:218",
+      "jp": "まったくあいつら、ほっとけばウジャウジャ増えて気持ち悪いよな",
+      "en": "Seriously, those things are gross. Leave 'em alone and they breed like crazy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99167,
+      "id": "db_EventInfo:117048:219",
+      "jp": "だな。何だってあんな奴を飼育しなきゃなんないんだか……",
+      "en": "Tell me about it. Why do we even have to keep something like that?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99168,
+      "id": "db_EventInfo:117049:219",
+      "jp": "おい、餌をやったらちゃんとカギかけておけよ",
+      "en": "Hey, when you're done feeding, make sure you lock the cage.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99169,
+      "id": "db_EventInfo:117050:218",
+      "jp": "へいへい……ったく、だりぃ仕事を引き受けちまったぜ……",
+      "en": "Yeah, yeah... Ugh, what a boring job I signed up for...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99170,
+      "id": "db_EventInfo:117051:0",
+      "jp": "★アナザービュー",
+      "en": "ANOTHER VIEW",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99171,
+      "id": "db_EventInfo:117055:0",
+      "jp": "船内の一室にて……。",
+      "en": "Inside a room on the ship...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99172,
+      "id": "db_EventInfo:117056:218",
+      "jp": "ったく、なんでオレがこいつらにエサなんかやらないと",
+      "en": "Geez, why do *I* have to be the one to feed these guys?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99173,
+      "id": "db_EventInfo:117057:202",
+      "jp": "ゴブゴ、ゴブゴ",
+      "en": "Gob go, gob go.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99174,
+      "id": "db_EventInfo:117058:218",
+      "jp": "ったく、めんどくせーな、ほれ！",
+      "en": "Geez, what a pain. Here!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99175,
+      "id": "db_EventInfo:117059:202",
+      "jp": "ゴブゴブ",
+      "en": "Gob gob!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99176,
+      "id": "db_EventInfo:117060:218",
+      "jp": "ふん、飼われてるってのに、馬鹿なヤツらだよな。気持ち悪いし",
+      "en": "Tch. They're so stupid, even though we keep them. Gross.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99177,
+      "id": "db_EventInfo:117061:219",
+      "jp": "おいおい気を付けろよ",
+      "en": "Hey, watch yourself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99178,
+      "id": "db_EventInfo:117062:218",
+      "jp": "大丈夫だって、こいつら馬鹿だし",
+      "en": "It's fine. These guys are idiots.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99179,
+      "id": "db_EventInfo:117064:218",
+      "jp": "あーっ！　ったく、群がるんじゃねぇ！　ほれ、さっさと食っちまえ！",
+      "en": "Ah! Geez, stop crowding me! Here, eat up quick!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99180,
+      "id": "db_EventInfo:117065:202",
+      "jp": "ゴブゴ！　ゴブゴブゴ！",
+      "en": "Gob go! Gob gob go!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99181,
+      "id": "db_EventInfo:117066:0",
+      "jp": "【『ゴブリン』】は喜んで餌に飛びつく。",
+      "en": "The Goblins happily jump on the food.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99182,
+      "id": "db_EventInfo:117067:0",
+      "jp": "しかし、【『ゴブリン』】が腰から鍵を奪い取った事に、男は気付くことができなかった……。",
+      "en": "But the man didn't notice... that a Goblin had stolen the key from his waist.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99183,
+      "id": "db_EventInfo:117068:2",
+      "jp": "おいオマエ、【『ゴブリン』】がいるデス！",
+      "en": "Hey! There's a Goblin!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99184,
+      "id": "db_EventInfo:117069:1",
+      "jp": "どうせ剥製……って、今度は生きてる奴かよ！？",
+      "en": "It's just another stuffed animal... wait, this one's alive!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99185,
+      "id": "db_EventInfo:117070:2",
+      "jp": "来るデス！",
+      "en": "It's coming!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99186,
+      "id": "db_EventInfo:117071:1",
+      "jp": "剥製どころか、生きているヤツまでいるとは……",
+      "en": "Not just stuffed ones, but living ones too...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99187,
+      "id": "db_EventInfo:117072:2",
+      "jp": "さすがに【『ソルシア魔導船団』】に【『ゴブリン』】が巣を作るのは変デス",
+      "en": "It is strange for Goblins to make a nest on the Sorsia Magic Fleet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99188,
+      "id": "db_EventInfo:117073:1",
+      "jp": "……もしかして、【飼われている】のか",
+      "en": "...Could they be someone's pets?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99189,
+      "id": "db_EventInfo:117074:2",
+      "jp": "あり得るデス。【『ゴブリン』】を【実験】しているなら、実験動物は増やすほうが効率良いデス",
+      "en": "That's possible. If they are using Goblins for experiments, it's more efficient to breed more animals.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99190,
+      "id": "db_EventInfo:117075:218",
+      "jp": "ぎゃああぁぁぁぁっ！！！",
+      "en": "Gyaaaaaaaaaaaah!!!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99191,
+      "id": "db_EventInfo:117076:2",
+      "jp": "む、悲鳴デス！",
+      "en": "That's a scream!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99192,
+      "id": "db_EventInfo:117077:219",
+      "jp": "た、た、たす、たす、たたす、たすすけ……",
+      "en": "H-h-help, h-help, h-hel... help me...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99193,
+      "id": "db_EventInfo:117078:2",
+      "jp": "何を言ってるデス？　しっかりするデス！",
+      "en": "What are you saying? Pull yourself together!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99194,
+      "id": "db_EventInfo:117079:219",
+      "jp": "ご、ごぶぶ、ごっごぶ……！",
+      "en": "G-gob... go-g-gob...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99195,
+      "id": "db_EventInfo:117080:1",
+      "jp": "むう、要領を得ないな……",
+      "en": "Hmm, I'm not getting a clear picture...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99196,
+      "id": "db_EventInfo:117081:2",
+      "jp": "いや、どうやら原因はあれデスね",
+      "en": "No, it seems the cause is that, isn't it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99197,
+      "id": "db_EventInfo:117082:1",
+      "jp": "……【『ゴブリン』】だ！",
+      "en": "... It's a Goblin!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99198,
+      "id": "db_EventInfo:117083:219",
+      "jp": "はぁ、はぁ、あ、ああ、ありがとう、助かった……！",
+      "en": "Haa, haa... ah, ahh, thank you... I'm saved...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99199,
+      "id": "db_EventInfo:117084:2",
+      "jp": "どうして【『ゴブリン』】に襲われてたデス？",
+      "en": "Why were you being attacked by a Goblin?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99200,
+      "id": "db_EventInfo:117085:219",
+      "jp": "あ、ああ、俺は相棒と二人で実験用の【『ゴブリン』】の世話を頼まれていたんだが……",
+      "en": "Ah, ah... me and my partner, we were asked to take care of the Goblins for an experiment...",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

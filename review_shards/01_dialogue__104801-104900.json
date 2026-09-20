@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104801,
+  "range_end": 104900,
+  "pairs": [
+    {
+      "n": 104801,
+      "id": "db_EventInfo:123993:0",
+      "jp": "アンジュは解呪？された原石を持って職場に戻ってしまった。",
+      "en": "Anju took the 'de-cursed' raw stone and went back to her workshop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104802,
+      "id": "db_EventInfo:123996:3",
+      "jp": "店長、こないだの原石のことなのじゃが……",
+      "en": "Manager, about that raw stone from the other day...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104803,
+      "id": "db_EventInfo:123997:3",
+      "jp": "やっぱり呪われるのじゃ",
+      "en": "I guess it's cursed after all.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104804,
+      "id": "db_EventInfo:123998:1",
+      "jp": "おいおい……マリーゼルに解呪して貰ったんじゃないのか？",
+      "en": "Hey, hold on... didn't Marisel remove the curse?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104805,
+      "id": "db_EventInfo:123999:3",
+      "jp": "う、うむ……呪い自体は解呪されたと思ったんじゃが、いつのまにか呪力が戻っているようでのう",
+      "en": "Y-yes... I thought the curse itself was removed, but it seems the curse power has somehow come back.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104806,
+      "id": "db_EventInfo:124000:3",
+      "jp": "どうやら呪力のようなものを吸収する石のようじゃ",
+      "en": "It seems to be a stone that absorbs curse-like energy.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104807,
+      "id": "db_EventInfo:124001:1",
+      "jp": "それは面倒な",
+      "en": "That's troublesome.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104808,
+      "id": "db_EventInfo:124002:3",
+      "jp": "どうするかのう？　このまま店に置いていけば、やがてシイネのように欲に取り憑かれてしまうぞ",
+      "en": "What will you do? If you leave it in the shop, eventually you'll become possessed by greed, just like Shiine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104809,
+      "id": "db_EventInfo:124003:1",
+      "jp": "シイネの言動はいつものことだけど、うーん",
+      "en": "Shiine's behavior is pretty normal for her, but hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104810,
+      "id": "db_EventInfo:124007:0",
+      "jp": "俺は呪いの宝石をルーシェにプレゼントすることにした",
+      "en": "I decided to give the cursed gem to Lusche as a present.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104811,
+      "id": "db_EventInfo:124008:8",
+      "jp": "なあに、お兄ちゃん？",
+      "en": "What is it, brother?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104812,
+      "id": "db_EventInfo:124009:1",
+      "jp": "ああ、ルーシェにこれを渡そうかと",
+      "en": "Yeah, I thought I'd give this to you, Lusche.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104813,
+      "id": "db_EventInfo:124010:8",
+      "jp": "わあ、綺麗な宝石だね……どうしたの、これ？",
+      "en": "Wow, a pretty gem... what's up with this?",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104814,
+      "id": "db_EventInfo:124011:1",
+      "jp": "呪いの宝石らしいんだが、ルーシェなら呪いは平気だろ？　だからプレゼントしようかと",
+      "en": "They say it's a cursed gem, but you're fine with curses, right Lusche? So I thought I'd give it to you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104815,
+      "id": "db_EventInfo:124012:8",
+      "jp": "いいの！？　えへへ、嬉しい……ありがと、お兄ちゃんД",
+      "en": "Really!? Hehe, that makes me happy... thank you, big brotherД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104816,
+      "id": "db_EventInfo:124015:0",
+      "jp": "プレゼントの宝石を受け取ったルーシェは、宝石を大事そうに抱えて去っていった。",
+      "en": "After getting the jewel I gave her, Lusche held it carefully and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104817,
+      "id": "db_EventInfo:124016:3",
+      "jp": "大丈夫なのじゃ？",
+      "en": "Are you sure about that?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104818,
+      "id": "db_EventInfo:124017:1",
+      "jp": "まあ、アイツは呪いの類は通じなさそうだし",
+      "en": "Well, she doesn't seem like the type to be affected by any curse.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104819,
+      "id": "db_EventInfo:124018:1",
+      "jp": "一応、俺もしばらく様子を見ることにするよ",
+      "en": "I'll just keep an eye on her for a while.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104820,
+      "id": "db_EventInfo:124019:0",
+      "jp": "後日、ルーシェのその後が気になった俺は、それとなくルーシェの様子を確認した。",
+      "en": "A few days later, I was curious about how Lusche was doing, so I checked on her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104821,
+      "id": "db_EventInfo:124021:8",
+      "jp": "あれれ、どうしたの、お兄ちゃんД",
+      "en": "Huh? What's wrong, big brotherД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104822,
+      "id": "db_EventInfo:124022:1",
+      "jp": "いや、ちょっと宝石の事が気になって……",
+      "en": "No, I was just a little worried about the jewel...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104823,
+      "id": "db_EventInfo:124023:8",
+      "jp": "呪いの事？　大丈夫、ルーシェの事なら心配ないよД",
+      "en": "The curse? It's fine, you don't have to worry about meД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104824,
+      "id": "db_EventInfo:124024:1",
+      "jp": "なら良かった",
+      "en": "That's good to hear.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104825,
+      "id": "db_EventInfo:124025:8",
+      "jp": "えへへ、心配してくれるんだぁ、ありがとう、お兄ちゃんД",
+      "en": "Hehe, you were worried about me, thank you, big brotherД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104826,
+      "id": "db_EventInfo:124026:8",
+      "jp": "ねぇねぇ、次のプレゼントはぁ、お兄ちゃんのキスが欲しいなぁД",
+      "en": "Hey hey, for my next gift, I want your kissД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 104827,
+      "id": "db_EventInfo:124027:1",
+      "jp": "い、いや、それはその……",
+      "en": "W-Wait, that's...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104828,
+      "id": "db_EventInfo:124031:0",
+      "jp": "ルーシェに搾り取られてしまうのであった……",
+      "en": "I was completely drained by Lusche...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104829,
+      "id": "db_EventInfo:124034:3",
+      "jp": "のう店長、ドルワミール鉱山で新しい鉱脈が見つかったようじゃぞ",
+      "en": "Hey, Boss. Looks like they found a new vein in the Dolwamir mine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104830,
+      "id": "db_EventInfo:124035:1",
+      "jp": "新しい鉱脈？",
+      "en": "A new vein?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104831,
+      "id": "db_EventInfo:124036:3",
+      "jp": "うむ、里の者が軽く掘ってみたところ、純度の高い鉱石が豊富に眠っていると思われるのじゃ",
+      "en": "Yeah. The folks from the village did some test digs. It seems to hold a lot of high-purity ore.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104832,
+      "id": "db_EventInfo:124037:1",
+      "jp": "おお",
+      "en": "Whoa.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104833,
+      "id": "db_EventInfo:124038:3",
+      "jp": "しかしのー。この鉱脈から本格的に発掘するには人手が……具体的には、作業員を雇う人件費や装備が足りないのじゃ",
+      "en": "But here's the thing. To really start mining it properly, we're short on workers... I mean, the money to hire them and get their gear.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104834,
+      "id": "db_EventInfo:124039:3",
+      "jp": "それにメインで働くのは山の者たちじゃから、そいつらに給料を払わねばならん。まとまったカネを用意せねばならんしのう",
+      "en": "Plus, the main workers would be the mountain folk. We'd have to pay them wages. We need a pretty big sum of money.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104835,
+      "id": "db_EventInfo:124040:3",
+      "jp": "店長の方で資金をだしてくれんか？",
+      "en": "Can you put up the funds, Boss?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104836,
+      "id": "db_EventInfo:124041:3",
+      "jp": "そうすれば、ウチの店が仕入れる鉱石も安定すると思うのじゃ",
+      "en": "If you do, I think the ore for our shop will be more stable.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104837,
+      "id": "db_EventInfo:124042:1",
+      "jp": "そうだな……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104838,
+      "id": "db_EventInfo:124045:0",
+      "jp": "資金に余裕が出来たら、鉱山に投資してみよう。",
+      "en": "I'll invest in the mine once I have some spare cash.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104839,
+      "id": "db_EventInfo:124048:3",
+      "jp": "新鉱脈に投資してくれたようじゃな！　それでこそ店長なのじゃ！",
+      "en": "You invested in a new vein, I see! Now that's the manager I know!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104840,
+      "id": "db_EventInfo:124049:1",
+      "jp": "チャンスはモノにしてこそだからな",
+      "en": "You gotta seize the opportunity when it comes.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104841,
+      "id": "db_EventInfo:124050:3",
+      "jp": "うむ！　さっそく人員と設備を調達してくるのじゃ！",
+      "en": "Right! I'll go get the staff and equipment right away!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104842,
+      "id": "db_EventInfo:124053:0",
+      "jp": "後日、新鉱脈での採掘が本格化された。",
+      "en": "Later, mining in the new vein got into full swing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104843,
+      "id": "db_EventInfo:124054:3",
+      "jp": "店長！　坑道を買い占める事に成功したのじゃ！",
+      "en": "Manager! I succeeded in buying out the entire mine shaft!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104844,
+      "id": "db_EventInfo:124055:1",
+      "jp": "おお！",
+      "en": "Wow!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104845,
+      "id": "db_EventInfo:124056:3",
+      "jp": "かなりの費用はかかったが、新坑道の鉱石は、全て妾達のものじゃ！",
+      "en": "It cost a fair bit, but all the ore from this new shaft is ours now!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104846,
+      "id": "db_EventInfo:124057:1",
+      "jp": "ん？　独占的な交易はできないんじゃなかったのか？",
+      "en": "Huh? I thought you couldn't have exclusive trade deals?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104847,
+      "id": "db_EventInfo:124058:3",
+      "jp": "商人は多くやってきたが、どいつも欲まみれの気配がする奴らばかりじゃし、信用ならんのじゃ。特にあの赤い服の女はのう",
+      "en": "Lots of merchants came by, but they all reeked of greed, couldn't trust 'em. Especially that woman in the red clothes...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104848,
+      "id": "db_EventInfo:124059:1",
+      "jp": "(ハーヴェスタのことか、とっくに鉱山に行ってたんだな)",
+      "en": "(Harvester, huh. So she'd already been to the mines.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104849,
+      "id": "db_EventInfo:124060:3",
+      "jp": "ま、そのあたりも面倒じゃから、<ruby=わらわ>妾</ruby>達が最優先で購入できるという契約にしたぞ",
+      "en": "Anyway, dealing with them was a hassle, so I made a deal where we get first dibs on buying everything.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104850,
+      "id": "db_EventInfo:124061:3",
+      "jp": "この店ならば、いざとなっても妾が止めれば良いのじゃ",
+      "en": "If it comes down to it in this shop, I can just put a stop to things myself.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104851,
+      "id": "db_EventInfo:124062:1",
+      "jp": "そうだな",
+      "en": "Yeah, right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104852,
+      "id": "db_EventInfo:124063:3",
+      "jp": "今後はこの坑道からの産出品は、独占的に<ruby=わらわ>妾</ruby>たちの元に届くであろう",
+      "en": "From now on, the goods from this mine will be delivered exclusively to us.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104853,
+      "id": "db_EventInfo:124064:3",
+      "jp": "それより見るが良い、<ruby=わらわ>妾</ruby>が持ち帰った、大量の鉱石素材を！",
+      "en": "More importantly, look! Look at the huge amount of ore I brought back!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104854,
+      "id": "db_EventInfo:124067:0",
+      "jp": "アンジュはほくほく顔で鉱石素材を見せてきた。鉱石の善し悪しはよくわからないが、アンジュが喜ぶというのなら良質なのだろう。",
+      "en": "Anju showed me the ore with a beaming face. I don't know much about good or bad ore, but if Anju's happy with it, it must be high quality.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104855,
+      "id": "db_EventInfo:124068:0",
+      "jp": "その後、鍛冶工房の商品の質が上がるのであった。",
+      "en": "After that, the quality of the blacksmith shop's goods improved.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104856,
+      "id": "db_EventInfo:124071:3",
+      "jp": "店長よ、最近鉱山の奥地に部外者が侵入しているようじゃ",
+      "en": "Manager, it seems outsiders have been getting into the deeper parts of the mine lately.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104857,
+      "id": "db_EventInfo:124072:1",
+      "jp": "部外者？",
+      "en": "Outsiders?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104858,
+      "id": "db_EventInfo:124073:13",
+      "jp": "うむ。ドルワミール鉱山はワシらドワーム族が代々守って来た、良質な資源が眠る鉱山",
+      "en": "Yes. The Dolwarmil Mine is a mine with rich resources, guarded for generations by us Dwarm.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 104859,
+      "id": "db_EventInfo:124074:13",
+      "jp": "最近では【『ゼカリウス』】の人間にも一部を開放してるとはいえ、我らの聖地なのです",
+      "en": "Even though we've opened part of it to people from 'Zecarius' recently, it is still our sacred ground.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 104860,
+      "id": "db_EventInfo:124076:3",
+      "jp": "そうじゃ、あの奥には何人たりとも通してはならぬ！",
+      "en": "Right! We must not let anyone pass into those depths!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104861,
+      "id": "db_EventInfo:124077:3",
+      "jp": "このままでは、せっかく解放した一部も、再び閉鎖しかねん。どうにかならぬか？",
+      "en": "At this rate, even the part we recently opened might have to be closed again. Isn't there something we can do?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104862,
+      "id": "db_EventInfo:124078:1",
+      "jp": "そうだな……",
+      "en": "Yeah, right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104863,
+      "id": "db_EventInfo:124081:0",
+      "jp": "余裕が出来たら、鉱山に投資してみよう。",
+      "en": "When you have some spare time, try investing in the mine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104864,
+      "id": "db_EventInfo:124082:3",
+      "jp": "鉱山への資金提供感謝するのじゃ",
+      "en": "I thank you for funding the mine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104865,
+      "id": "db_EventInfo:124083:1",
+      "jp": "ああ、資金を投じて、怪しい人間を捕まえさせよう",
+      "en": "Yeah. I'll put in money to help catch suspicious people.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104866,
+      "id": "db_EventInfo:124084:3",
+      "jp": "うむうむ！",
+      "en": "Mhm mhm!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104867,
+      "id": "db_EventInfo:124087:0",
+      "jp": "その後、防犯設備を整えたおかげか、部外者の侵入はなくなったらしい。",
+      "en": "After that, maybe because we got security equipment, outsiders stopped getting in.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104868,
+      "id": "db_EventInfo:124088:0",
+      "jp": "侵入者を警戒する労力が減ったおかげで、鉱山の機能も回復したようだ。",
+      "en": "Because we didn't have to watch for intruders as much, the mine started working better.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104869,
+      "id": "db_EventInfo:124089:0",
+      "jp": "アンジュが工房でなにかをしている。",
+      "en": "Anju is doing something in the workshop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104870,
+      "id": "db_EventInfo:124092:3",
+      "jp": "おや店長、どうしたのじゃ？",
+      "en": "Oh, Shopkeeper, what's up?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104871,
+      "id": "db_EventInfo:124093:1",
+      "jp": "いや気になって……鉱石か？　なんだか妙に丸くてでかいな……",
+      "en": "Just wondering... Is that an ore? It's weirdly round and big...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104872,
+      "id": "db_EventInfo:124094:3",
+      "jp": "うむ。鉱石と言えば、妾達ドワーム族じゃ。　<ruby=わらわ>妾</ruby>をドワーム族と見て依頼したのじゃろうな",
+      "en": "Yeah. When it comes to ore, that's us Dwarm people. You probably saw me as a Dwarm and asked for help, right?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104873,
+      "id": "db_EventInfo:124095:1",
+      "jp": "ふむ……鑑定とか、カッティングとか",
+      "en": "Hmm... Like appraising or cutting?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104874,
+      "id": "db_EventInfo:124096:3",
+      "jp": "うむ。扱いが悪いと爆発するからのう！",
+      "en": "Yeah. If you handle it wrong, it explodes!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104875,
+      "id": "db_EventInfo:124097:1",
+      "jp": "……爆発？",
+      "en": "...An explosion?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104876,
+      "id": "db_EventInfo:124098:3",
+      "jp": "いわゆる爆弾岩というヤツじゃ",
+      "en": "It's what they call a bomb-rock, you see.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104877,
+      "id": "db_EventInfo:124099:3",
+      "jp": "うっかり爆発させたら、大変な事になるかもしれんのじゃ！　しかし妾は頑丈なドワーム族、ちょっとやそこらの爆発では……って、店長？",
+      "en": "If you set it off carelessly, it could be a big problem, you know! But I'm a sturdy Dwarm, a little explosion won't... hey, Shopkeep?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104878,
+      "id": "db_EventInfo:124100:0",
+      "jp": "俺は逃げ出したところを、アンジュにまわりこまれてしまった。",
+      "en": "I tried to run away, but Anju got around and blocked me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104879,
+      "id": "db_EventInfo:124104:9",
+      "jp": "それで私が駆り出されたというわけか",
+      "en": "So that's why I've been called out.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104880,
+      "id": "db_EventInfo:124105:9",
+      "jp": "他でもない店長殿の頼み。危険な仕事であるが、任せるが良い",
+      "en": "Since it's your request, Shopkeep. It's dangerous work, but you can leave it to me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104881,
+      "id": "db_EventInfo:124106:3",
+      "jp": "む、なぜカリストが出てくるのじゃ？",
+      "en": "Huh, why is Callisto coming out?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104882,
+      "id": "db_EventInfo:124107:1",
+      "jp": "そりゃ、爆発物ならカリストは専門家だし……",
+      "en": "Well, if it's explosives, Callisto is the expert...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104883,
+      "id": "db_EventInfo:124108:9",
+      "jp": "失礼であるな。それはどちらかというとミルテのほうであろう",
+      "en": "That's rude. If anything, that would be Myrte's field.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104884,
+      "id": "db_EventInfo:124109:1",
+      "jp": "その、爆発物の取り扱いという意味で……",
+      "en": "I meant, in terms of handling explosives...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104885,
+      "id": "db_EventInfo:124110:9",
+      "jp": "わはは！　なるほど。さすがは店長殿であるな！",
+      "en": "Wahaha! I see. As expected of you, Shopkeep!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104886,
+      "id": "db_EventInfo:124111:3",
+      "jp": "む、待つのじゃ！　今回の依頼は妾が受けたんじゃぞ！",
+      "en": "Hey, wait! I took this job!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104887,
+      "id": "db_EventInfo:124112:1",
+      "jp": "まあまあ、二人で協力してくれ",
+      "en": "Alright, alright, both of you work together.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104888,
+      "id": "db_EventInfo:124113:1",
+      "jp": "アンジュはなるべくカリストの前に立つようにな",
+      "en": "Anju, try to stay in front of Callisto.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104889,
+      "id": "db_EventInfo:124114:3",
+      "jp": "<ruby=わらわ>妾</ruby>はシールドじゃなーい！！",
+      "en": "I'm not a shield!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104890,
+      "id": "db_EventInfo:124117:0",
+      "jp": "アンジュとカリストは無事に危険物の処理を終了させることに成功した。",
+      "en": "Anju and Callisto successfully finished disposing of the hazardous materials.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104891,
+      "id": "db_EventInfo:124118:9",
+      "jp": "ククク、これで簡単には爆発しなくなったぞ。楽な仕事であるな",
+      "en": "Keh keh keh, it won't explode so easily now. That was an easy job.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104892,
+      "id": "db_EventInfo:124119:3",
+      "jp": "流石じゃな、危険物の処理などお手の物か",
+      "en": "Impressive. Handling dangerous materials is right up your alley, isn't it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104893,
+      "id": "db_EventInfo:124120:1",
+      "jp": "カリストに鉱石の知識もあったとは……",
+      "en": "You knew about minerals too, Callisto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104894,
+      "id": "db_EventInfo:124121:9",
+      "jp": "ん？　そんなものあるわけなかろう？",
+      "en": "Huh? There's no way I'd know about that stuff.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104895,
+      "id": "db_EventInfo:124122:1",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104896,
+      "id": "db_EventInfo:124123:3",
+      "jp": "何じゃと？",
+      "en": "What did you say?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104897,
+      "id": "db_EventInfo:124124:9",
+      "jp": "クク、危険かどうかを判断する程度、五感を働かせれば雑作も無いである",
+      "en": "Keh keh, to judge if something's dangerous or not? It's nothing if you just use your senses.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104898,
+      "id": "db_EventInfo:124125:3",
+      "jp": "恐ろしいことを言ってるのじゃ",
+      "en": "That's terrifying.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104899,
+      "id": "db_EventInfo:124126:9",
+      "jp": "それで、この爆発物を使い、どこに攻め入るのであるか？",
+      "en": "So, where are you planning to use this explosive to attack?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104900,
+      "id": "db_EventInfo:124127:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

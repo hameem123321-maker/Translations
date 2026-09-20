@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101801,
+  "range_end": 101900,
+  "pairs": [
+    {
+      "n": 101801,
+      "id": "db_EventInfo:120255:15",
+      "jp": "いやはは……まあ今回は、【『初心者の館』】の建造プロジェクトだね",
+      "en": "Ahaha... Well, this time it's the construction project for the 【'Novice Hall'】.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101802,
+      "id": "db_EventInfo:120256:1",
+      "jp": "【『初心者の館』】？",
+      "en": "The 【'Novice Hall'】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101803,
+      "id": "db_EventInfo:120257:15",
+      "jp": "うん。冒険者技能をマスターしたベテラン教官を常駐させ、初心者冒険者に最低限の技能を学ばせる大規模施設の予定らしいね",
+      "en": "Yeah. They plan to make it a big facility. Veteran instructors who've mastered adventurer skills will be there full-time. They'll teach beginner adventurers the minimum essential skills.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101804,
+      "id": "db_EventInfo:120258:15",
+      "jp": "訓練施設だけでなく、さらには冒険者の宿泊施設や、使い古した装備を初心者向けとして販売したり、クエストを発注する総合施設だ",
+      "en": "It's not just training facilities. It'll be a complex with lodging for adventurers, selling used gear to beginners, and posting quests too.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101805,
+      "id": "db_EventInfo:120259:15",
+      "jp": "初心者冒険者は貧乏だ。だから館は無料で利用できるようにするそうだよ",
+      "en": "Beginner adventurers are poor. So I hear the hall will be free for them to use.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101806,
+      "id": "db_EventInfo:120260:2",
+      "jp": "……無料だと採算とれないデス",
+      "en": "...If it's free, they won't make any money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101807,
+      "id": "db_EventInfo:120261:15",
+      "jp": "館が無料なのは初心者冒険者の間のみ。経験を積んで、冒険者のランクが高まったら返金するという形だね",
+      "en": "The hall being free is only for beginner adventurers. After they gain experience and their rank goes up, they'll pay it back.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101808,
+      "id": "db_EventInfo:120262:1",
+      "jp": "出世払いってやつか",
+      "en": "Oh, pay after you succeed.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101809,
+      "id": "db_EventInfo:120263:15",
+      "jp": "そうだね。でもそれだけの施設を建築するには、かなりの資金が必要だから。【<pl>】君に出資して欲しいそうだね",
+      "en": "That's right. But building such a large facility needs a lot of funds. So they'd like 【<pl>】 to invest.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101810,
+      "id": "db_EventInfo:120264:2",
+      "jp": "ふむ……そういった施設があれば、多くの冒険者を育成できるデスけど",
+      "en": "Hmm... Having a facility like that could train a lot of adventurers though.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101811,
+      "id": "db_EventInfo:120265:2",
+      "jp": "ちょっと待つデス。宿泊施設や装備を売るとかって……【『初心者の舘』】、なんだかウチと被ってないデス？",
+      "en": "Wait a minute. Selling rooms and gear... This 'Beginner's Palace'... sounds a lot like it's stepping on our turf.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101812,
+      "id": "db_EventInfo:120266:2",
+      "jp": "ウチの客を奪うつもりデス！",
+      "en": "They're trying to steal our customers!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101813,
+      "id": "db_EventInfo:120267:15",
+      "jp": "いやあ？　あはは、そんなことないんじゃないかなぁ……！？",
+      "en": "Nah? Ahaha, I don't think it's like that...!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101814,
+      "id": "db_EventInfo:120268:2",
+      "jp": "ゆ、許せんデス、商売ガタキは叩き潰すデス！！",
+      "en": "I, I won't stand for it! I'll crush any business rivals!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101815,
+      "id": "db_EventInfo:120269:1",
+      "jp": "まあまあ……",
+      "en": "Now, now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101816,
+      "id": "db_EventInfo:120270:1",
+      "jp": "どちらにしろ大規模なプロジェクトのようだ。こういうことはハーヴェスタあたりに相談した方が良さそうだな",
+      "en": "Either way, it seems like a big project. We should probably consult Harvester about something like this.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101817,
+      "id": "db_EventInfo:120271:0",
+      "jp": "デシルスから聞いていた【『初心者の舘』】プロジェクトについて、ハーヴェスタに相談してみた。",
+      "en": "I tried consulting Harvester about the 'Beginner's Palace' project I'd heard about from Desilus.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101818,
+      "id": "db_EventInfo:120273:5",
+      "jp": "話はすべて聞きましたわ。ここはたしかに、私の出番でございますわね！",
+      "en": "I've heard the whole story. This does seem like my time to shine!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101819,
+      "id": "db_EventInfo:120274:1",
+      "jp": "ああ、シイネの言う通り、うちと競合しそうな施設だし、どうしたものだか",
+      "en": "Yeah, like Shiine says, it seems like a facility that could compete with ours. What should we do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101820,
+      "id": "db_EventInfo:120275:5",
+      "jp": "簡単ですわ。乗っ取ってしまえば良いのです",
+      "en": "It's simple. We just take it over.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101821,
+      "id": "db_EventInfo:120276:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101822,
+      "id": "db_EventInfo:120277:5",
+      "jp": "おほほほ！　ギルド連盟のプロジェクトに馬鹿正直に出資してやる必要などございません",
+      "en": "Ohohoho! There's no need to play nice and fund the Guild League's project.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101823,
+      "id": "db_EventInfo:120278:5",
+      "jp": "私に資金を提供していただければ、それを元手に完璧な舘を建築して参りますわ！",
+      "en": "If you provide me with the funds, I'll use them as capital to build the perfect guild hall!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101824,
+      "id": "db_EventInfo:120279:1",
+      "jp": "おお……",
+      "en": "Oh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101825,
+      "id": "db_EventInfo:120280:0",
+      "jp": "なんだかよくわからないが。すごい自信だ……余裕が出来たら出資してみよう。",
+      "en": "I'm not totally sure what's going on, but... she's so confident. I'll try investing when I have some spare money.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101826,
+      "id": "db_EventInfo:120281:0",
+      "jp": "俺は【『初心者の舘』】建築に必要な額を捻出し、ハーヴェスタに預けた。",
+      "en": "I scraped together the amount needed to build the 'Novice Guild Hall' and gave it to Harvester.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101827,
+      "id": "db_EventInfo:120283:5",
+      "jp": "おーほほほ！　店長様のご期待に応えて見せますわ！",
+      "en": "Oh-hohoho! I shall live up to your expectations, Manager!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101828,
+      "id": "db_EventInfo:120284:15",
+      "jp": "【『大陸冒険者ギルド連盟』】の方はいい顔をしないと思うんだけど……",
+      "en": "I don't think the 'Continental Adventurers' Guild Alliance' will be happy about this...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101829,
+      "id": "db_EventInfo:120285:5",
+      "jp": "そんなことは知りませんことよ",
+      "en": "I'm not concerned with that.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101830,
+      "id": "db_EventInfo:120286:5",
+      "jp": "では手始めに、店長様に頂いた資金を使い、広報チームを結成いたしましょう",
+      "en": "Well then, for starters, let's use the funds you gave me to form a publicity team.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101831,
+      "id": "db_EventInfo:120287:15",
+      "jp": "えっ、連盟に出資するんじゃないのかい？",
+      "en": "Huh? You're not going to invest in the Alliance?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101832,
+      "id": "db_EventInfo:120288:5",
+      "jp": "ふふ……資金調達は人海戦術ですわ",
+      "en": "Fufu... Fundraising is about mobilizing the masses.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101833,
+      "id": "db_EventInfo:120289:5",
+      "jp": "まずは【『初心者の舘』】は【『大陸冒険者ギルド連盟』】主導ではなく、店長様主導という方向に情報をばらまきましょう",
+      "en": "First, let's spread information that the 'Novice Guild Hall' is under the Manager's direction, not the 'Continental Adventurers' Guild Alliance'.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101834,
+      "id": "db_EventInfo:120290:15",
+      "jp": "んんん！？",
+      "en": "Whaaat!?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101835,
+      "id": "db_EventInfo:120291:5",
+      "jp": "うふふ……私はこれから、運用責任者の下に向かいます。ビジネスプランを根本から分析しなくてはなりませんもの",
+      "en": "Hehehe... I'll be heading down to see the operations manager now. I need to analyze the business plan from the ground up.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101836,
+      "id": "db_EventInfo:120294:0",
+      "jp": "ハーヴェスタはテキパキと指示を出し、出て行ってしまった。",
+      "en": "Harvester quickly gave out instructions and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101837,
+      "id": "db_EventInfo:120295:15",
+      "jp": "頼もしいなぁ",
+      "en": "She's so reliable.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101838,
+      "id": "db_EventInfo:120296:2",
+      "jp": "油断すると店を乗っ取られそうで恐いデス",
+      "en": "It's scary. If we're not careful, she might take over the shop.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101839,
+      "id": "db_EventInfo:120297:1",
+      "jp": "（油断しなくても乗っ取られそうだぞ）",
+      "en": "(Even if we're careful, it feels like she might take it over.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101840,
+      "id": "db_EventInfo:120300:15",
+      "jp": "その後、ハーヴェスタ君が組織したチームの説得が効いて、あらゆる方面から莫大な資金を調達できたそうだよ",
+      "en": "After that, the team Harvester-kun organized was convincing. I heard we were able to secure huge funds from all sorts of places.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101841,
+      "id": "db_EventInfo:120301:15",
+      "jp": "【『初心者の館』】どころか、ちょっとした軍隊を運用できそうな資金が集まったようだね",
+      "en": "It seems we gathered enough money not just for a 'Novices' Hall', but enough to run a small army.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101842,
+      "id": "db_EventInfo:120302:5",
+      "jp": "おーほほほ！　私にかかれば、この程度造作もないですわ！",
+      "en": "Oh-hohoho! With me on the job, a task like this is a breeze!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 101843,
+      "id": "db_EventInfo:120303:1",
+      "jp": "ゴクリ……",
+      "en": "Gulp...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101844,
+      "id": "db_EventInfo:120304:2",
+      "jp": "なんでコイツ、これだけのことができて、ウチの店に来るようになったデス？",
+      "en": "Why did someone who can do all this come to our little shop?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101845,
+      "id": "db_EventInfo:120305:1",
+      "jp": "……わからん",
+      "en": "...I don't know.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101846,
+      "id": "db_EventInfo:120308:0",
+      "jp": "ハーヴェスタが集めた資金で、【『初心者の館』】は豊富な設備とスタッフを有する、一大養成拠点として完成した。",
+      "en": "Using the funds Harvester gathered, the 'Novices' Hall' was completed. It became a major training hub with abundant facilities and staff.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101847,
+      "id": "db_EventInfo:120309:0",
+      "jp": "その施設はウチの支店ということになり、舘で使用する全ての商品はウチを介さないと卸せないという取り決めまで作ってしまった。",
+      "en": "So that place became our branch shop. We even made a rule where they can't sell any product for the mansion unless it goes through us.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101848,
+      "id": "db_EventInfo:120310:0",
+      "jp": "ということで、舘に客を奪われるという恐れは払拭され、それどころかウチの売上が増える結果になったのであった。",
+      "en": "Because of that, the worry of losing customers to the mansion was gone. In fact, our sales actually went up.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101849,
+      "id": "db_EventInfo:120311:15",
+      "jp": "連盟の人間は渋い顔をしていたね。シイネ君が危惧したとおり、店長君とこの客を奪って儲けようと考えていたのかもしれないね",
+      "en": "The people from the guild looked sour, didn't they? Just like Shiine-kun worried, they probably wanted to take the shopkeeper's customers and make money.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101850,
+      "id": "db_EventInfo:120312:1",
+      "jp": "怖い話だ……",
+      "en": "That's scary...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101851,
+      "id": "db_EventInfo:120314:3",
+      "jp": "店長……ここのところ無理な武具制作の依頼が多くて困っておるんじゃが……",
+      "en": "Shopkeeper... I'm having trouble because lately there are too many impossible requests for crafting weapons...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101852,
+      "id": "db_EventInfo:120315:1",
+      "jp": "無理な依頼？",
+      "en": "Impossible requests?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101853,
+      "id": "db_EventInfo:120316:2",
+      "jp": "作ってやればいいじゃないデスか。カネを搾り取るチャンスがやって来たデスよ？",
+      "en": "Just make them. It's a chance to squeeze money out of them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101854,
+      "id": "db_EventInfo:120317:3",
+      "jp": "妾が一介の冒険者の依頼など受けるわけがなかろう！",
+      "en": "As if I would take orders from some mere adventurer!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101855,
+      "id": "db_EventInfo:120318:3",
+      "jp": "しかも【『魔剣』】を作って欲しいとかぬかしおる。そんなバカな仕事受けてられんのじゃ！",
+      "en": "And they're saying they want a 'Demon Sword' made! I can't accept such a stupid job!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101856,
+      "id": "db_EventInfo:120319:1",
+      "jp": "【『魔剣』】……",
+      "en": "A 'Demon Sword'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101857,
+      "id": "db_EventInfo:120320:2",
+      "jp": "物語の主人公の装備品デスかね。冒険者というのは、どいつも自分が【『勇者』】になる器だと信じてるデス",
+      "en": "The gear of a story's main character, right? Every adventurer believes they are the one destined to be the 'Hero'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101858,
+      "id": "db_EventInfo:120321:3",
+      "jp": "そんなもんを作る素材を並の冒険者に集められるわけないし、使いこなせる技量も無いぞ！",
+      "en": "An average adventurer can't gather the materials for something like that, and they don't have the skill to use it either!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101859,
+      "id": "db_EventInfo:120322:1",
+      "jp": "うーむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101860,
+      "id": "db_EventInfo:120323:2",
+      "jp": "そんなこと言って、作れない理由を付けてるだけじゃないデス？",
+      "en": "Aren't you just making up excuses for why you can't make it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101861,
+      "id": "db_EventInfo:120324:3",
+      "jp": "なんじゃと、<ruby=わらわ>妾</ruby>に作れない武器があるとおもっておるのか！",
+      "en": "What?! You think there's a weapon *I* can't make?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101862,
+      "id": "db_EventInfo:120325:3",
+      "jp": "いいじゃろう、【『魔剣』】など<ruby=わらわ>妾</ruby>が……",
+      "en": "Fine! A 'Demon Sword' or whatever, I'll...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101863,
+      "id": "db_EventInfo:120326:1",
+      "jp": "こらこらアンジュを挑発するな",
+      "en": "Hey, hey, don't provoke Anju.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101864,
+      "id": "db_EventInfo:120327:1",
+      "jp": "それにしても困ったな。【『鍛冶姫』】がここにいるのは有名だし、うーむ",
+      "en": "But still, this is a problem. The Forging Princess being here is famous... Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101865,
+      "id": "db_EventInfo:120328:2",
+      "jp": "上手くお引き取り願う案を出すデス",
+      "en": "I'll propose a plan to get them to leave nicely.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101866,
+      "id": "db_EventInfo:120329:2",
+      "jp": "なるほど、言葉の武器で相手の心を叩き折ってやるのデスね",
+      "en": "I see, using words as a weapon to break the opponent's spirit.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101867,
+      "id": "db_EventInfo:120330:1",
+      "jp": "折らなくて良いから！",
+      "en": "You don't need to break it!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101868,
+      "id": "db_EventInfo:120333:0",
+      "jp": "冒険者達に丁寧に説明をしたのだが、中々納得させることができなかった……",
+      "en": "I explained things carefully to the adventurers, but I couldn't quite make them understand...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101869,
+      "id": "db_EventInfo:120334:1",
+      "jp": "全然依頼が減らないな……",
+      "en": "The requests aren't decreasing at all...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101870,
+      "id": "db_EventInfo:120335:2",
+      "jp": "まあ、後先を考えないのが冒険者という人種デスからね……",
+      "en": "Well, not thinking about the consequences is just what adventurers are like...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101871,
+      "id": "db_EventInfo:120336:2",
+      "jp": "欲しいと思ったらとりあえず依頼する、というのがあいつらデスから",
+      "en": "Those 'Deaths' just order anything they want.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101872,
+      "id": "db_EventInfo:120337:3",
+      "jp": "しばらくは説得に難儀しそうなのじゃ……",
+      "en": "It seems persuading them will be difficult for a while...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101873,
+      "id": "db_EventInfo:120338:2",
+      "jp": "しかも一部の冒険者ども、鍛冶姫アンジュは【『魔剣』】を作れるほどの腕はないと言いふらして回ってるようデス",
+      "en": "Also, some adventurers are going around saying you, Forging Princess Anju, aren't skilled enough to make 【'Demon Swords'】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101874,
+      "id": "db_EventInfo:120339:3",
+      "jp": "なんじゃと！？",
+      "en": "WHAT?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101875,
+      "id": "db_EventInfo:120340:3",
+      "jp": "ぐううう、おのれ！　妾が大人しくしているからと調子に乗りおって……！",
+      "en": "Grrrrr, how dare they! Taking my quietness for granted...!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101876,
+      "id": "db_EventInfo:120341:1",
+      "jp": "おい待てアンジュ、落ち着け！",
+      "en": "Hey, wait Anju, calm down!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101877,
+      "id": "db_EventInfo:120342:3",
+      "jp": "ええい離せ！　冒険者共め、目に物見せてくれるのじゃ！",
+      "en": "Let me go! I'll show those adventurers a thing or two!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101878,
+      "id": "db_EventInfo:120345:0",
+      "jp": "ううむ、なんとかしなくてはアンジュがヘソを曲げてしまうぞ",
+      "en": "Hmm, I have to do something or Anju will get really upset.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101879,
+      "id": "db_EventInfo:120346:0",
+      "jp": "アンジュへの専用装備の依頼をどうするか、エリオルダに相談することにした。",
+      "en": "I decided to talk to Eliorda about how to handle orders for Anju's custom gear.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101880,
+      "id": "db_EventInfo:120348:10",
+      "jp": "アンジュへの依頼を断らせるだと？",
+      "en": "Make Anju refuse orders?",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101881,
+      "id": "db_EventInfo:120349:3",
+      "jp": "何じゃと？　なんでコイツが出てくるのじゃ！",
+      "en": "What's this? Why is SHE here?!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101882,
+      "id": "db_EventInfo:120350:1",
+      "jp": "エリオルダに冒険者の実力を見てもらおうかと",
+      "en": "I thought Eliorda could check the adventurers' real strength.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101883,
+      "id": "db_EventInfo:120351:1",
+      "jp": "冒険者としての実力が高ければ、アンジュも納得するだろう？",
+      "en": "If I prove my skill as an adventurer, Anju will accept it, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101884,
+      "id": "db_EventInfo:120352:3",
+      "jp": "それはそうじゃが……",
+      "en": "That may be true, but...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101885,
+      "id": "db_EventInfo:120353:10",
+      "jp": "なるほど、私に冒険者共の腕を確認しろというのか……",
+      "en": "I see. You want me to check the strength of these adventurers...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101886,
+      "id": "db_EventInfo:120354:10",
+      "jp": "フフン、いいだろう！　私が全員、完膚なきまでに叩きのめしてくれよう！",
+      "en": "Heh, fine! I'll beat them all senseless!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101887,
+      "id": "db_EventInfo:120355:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101888,
+      "id": "db_EventInfo:120358:0",
+      "jp": "エリオルダは冒険者達を相手に大立ち回りを演じ、冒険者をボコボコに叩きのめしてしまった。",
+      "en": "Eliorda fought all the adventurers in a big brawl and beat them up badly.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101889,
+      "id": "db_EventInfo:120359:10",
+      "jp": "まったく、軟弱な奴らめ……あの程度の腕で分不相応な武器を求めるなど",
+      "en": "Really, such weaklings... having weapons beyond their skill.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101890,
+      "id": "db_EventInfo:120360:3",
+      "jp": "うむ、妾も同じ気持ちじゃ。珍しく意見が合ったな",
+      "en": "Hmm, I feel the same. We agree, for once.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101891,
+      "id": "db_EventInfo:120361:1",
+      "jp": "うぅん……別に叩きのめしてほしいわけじゃなかったんだが……",
+      "en": "Well... I didn't exactly want them beaten up...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101892,
+      "id": "db_EventInfo:120362:3",
+      "jp": "まあ妾への依頼も無くなったし、良いではないか",
+      "en": "Well, they're not pestering me for weapons anymore, so it's fine.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101893,
+      "id": "db_EventInfo:120363:10",
+      "jp": "うむ、本当に軟弱な連中だった",
+      "en": "Yeah, they really were a weak bunch.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101894,
+      "id": "db_EventInfo:120364:10",
+      "jp": "ちょっと可愛がっただけというのに、大半は泣き出して帰ってしまったぞ",
+      "en": "I just gave them a little tough love, and most ran off crying.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101895,
+      "id": "db_EventInfo:120365:1",
+      "jp": "ううむ",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101896,
+      "id": "db_EventInfo:120366:10",
+      "jp": "おかげで冒険者ギルドから小言を言われてしまったぞ、ははっ！",
+      "en": "Because of that, I got an earful from the Adventurer's Guild, haha!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101897,
+      "id": "db_EventInfo:120367:1",
+      "jp": "わ、笑い事じゃなーい！！",
+      "en": "W-wait, it's not funny!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101898,
+      "id": "db_EventInfo:120368:10",
+      "jp": "しかし、わりと数は残ったぞ",
+      "en": "But, a decent number survived.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 101899,
+      "id": "db_EventInfo:120369:3",
+      "jp": "なんじゃと！？　まだ息があるというのじゃ？",
+      "en": "What!? They're still breathing?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101900,
+      "id": "db_EventInfo:120370:3",
+      "jp": "このゴリラがボコボコにしてやったのに、見上げたやつじゃな……",
+      "en": "Even after I beat them to a pulp, they're still hanging on... impressive.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

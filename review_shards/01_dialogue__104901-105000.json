@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104901,
+  "range_end": 105000,
+  "pairs": [
+    {
+      "n": 104901,
+      "id": "db_EventInfo:124128:1",
+      "jp": "危険物は処理されたんじゃないのか？",
+      "en": "I thought the dangerous materials were already disposed of?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104902,
+      "id": "db_EventInfo:124129:9",
+      "jp": "うむ、危険物を処理して、新型爆弾として改造したぞ",
+      "en": "Correct. I disposed of the hazardous parts and remodeled it into a new type of bomb.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104903,
+      "id": "db_EventInfo:124130:1",
+      "jp": "んん？",
+      "en": "Huhh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104904,
+      "id": "db_EventInfo:124131:9",
+      "jp": "これでいつでも爆発させることに成功したのである！",
+      "en": "I succeeded in making it so it can be detonated at any time!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104905,
+      "id": "db_EventInfo:124132:9",
+      "jp": "わはは、さらに火力も元の数倍に高めることにも成功した！　強固な城壁すらも粉砕できる威力であるぞ！",
+      "en": "Wahaha, I also succeeded in increasing its firepower to several times the original! It has enough power to pulverize even sturdy castle walls!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 104906,
+      "id": "db_EventInfo:124133:1",
+      "jp": "おいー！？　なんてことするんだ！！",
+      "en": "Hey!? What are you doing!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104907,
+      "id": "db_EventInfo:124134:1",
+      "jp": "そんなもの返してきなさい！",
+      "en": "Give something like that back right now!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104908,
+      "id": "db_EventInfo:124135:3",
+      "jp": "それは危険じゃぞ、悪用されたらとんでもないことになるのじゃ。とくに【『邪教徒』】みたいなテロリスト集団の手に渡ったら……",
+      "en": "That is dangerous, you know. If it were misused, it would lead to something terrible. Especially if it fell into the hands of a terrorist group like ['The Cultists']...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104909,
+      "id": "db_EventInfo:124136:1",
+      "jp": "むうう……！",
+      "en": "Grrr...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104910,
+      "id": "db_EventInfo:124139:0",
+      "jp": "後日、ドルワミール鉱山で、特別頑丈な岩壁の中で爆発させて事なきを得た",
+      "en": "A few days later, they managed to safely detonate it inside a particularly sturdy rock wall in the Dolwamir Mines.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104911,
+      "id": "db_EventInfo:124140:0",
+      "jp": "そこから新しい坑道が発掘されたというのは、また別の話である……",
+      "en": "The fact that a new mine shaft was dug there is a whole other story...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104912,
+      "id": "db_EventInfo:124143:3",
+      "jp": "店長、【『ドルワミール鉱夫組合』】から【新坑道発掘プロジェクト】を起こしたいのじゃ",
+      "en": "Boss, the 'Dorwamir Miners' Guild' wants to start a 'New Shaft Excavation Project'.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104913,
+      "id": "db_EventInfo:124144:2",
+      "jp": "新坑道デス？",
+      "en": "A new shaft, des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104914,
+      "id": "db_EventInfo:124145:1",
+      "jp": "坑道って、前もあったような",
+      "en": "A shaft... I feel like we had one before.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104915,
+      "id": "db_EventInfo:124146:3",
+      "jp": "うむ！　以前の鉱脈より大きいと目されておる",
+      "en": "Yes! This new vein looks bigger than the last one.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104916,
+      "id": "db_EventInfo:124147:3",
+      "jp": "これまでは非常に固い岩盤が邪魔していて、なかなか掘れてなかったのじゃが……",
+      "en": "Until now, really hard bedrock was in the way, so we couldn't dig it out.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104917,
+      "id": "db_EventInfo:124148:3",
+      "jp": "しかし少し前、ええとまあ……ちょっとした爆発で岩盤が崩れたからのう",
+      "en": "But a little while ago, um... well... a small explosion broke up the bedrock, you see.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104918,
+      "id": "db_EventInfo:124149:1",
+      "jp": "(爆発……以前の爆弾岩の処理に使ったことか……)",
+      "en": "(An explosion... maybe from when we handled that explosive rock before...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104919,
+      "id": "db_EventInfo:124150:3",
+      "jp": "このプロジェクトが上手くいけば、鉱山からの産出量が大きくアップするはずじゃ！　店長、投資して欲しいのじゃ！",
+      "en": "If this project goes well, the mine's output should jump way up! Boss, we want you to invest!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104920,
+      "id": "db_EventInfo:124153:0",
+      "jp": "資金に余裕が出来たら、鉱山に投資してみよう。",
+      "en": "When you have some extra cash, try investing in the mine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104921,
+      "id": "db_EventInfo:124156:3",
+      "jp": "【新坑道発掘プロジェクト】に投資してくれて感謝なのじゃ",
+      "en": "Thanks for investing in the 'New Shaft Excavation Project'.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104922,
+      "id": "db_EventInfo:124157:2",
+      "jp": "ビジネスが上手くいかなきゃ大損デス",
+      "en": "If the business fails, we'll take a huge loss, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104923,
+      "id": "db_EventInfo:124158:3",
+      "jp": "たしかに、今度の坑道は非常に大きい。かなりの資金が必要じゃ。店長の資金では足りるかのう",
+      "en": "Indeed, this new mine is huge. It'll need a lot of money. Will you have enough, Store Manager?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104924,
+      "id": "db_EventInfo:124159:3",
+      "jp": "それに人員が多ければ、それをコントロールするのも大変じゃ",
+      "en": "Also, with many workers, controlling them will be tough.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104925,
+      "id": "db_EventInfo:124160:2",
+      "jp": "どうしたものデスかね……",
+      "en": "What should we do...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104926,
+      "id": "db_EventInfo:124162:5",
+      "jp": "話はすべて聞きましたわ。ここはたしかに、私の出番でございますわね！",
+      "en": "I heard everything. This seems like my time to shine!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104927,
+      "id": "db_EventInfo:124163:1",
+      "jp": "ハーヴェスタ",
+      "en": "Harvester.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104928,
+      "id": "db_EventInfo:124164:3",
+      "jp": "げげっ、こやつの手を借りるのはイヤじゃぞ！",
+      "en": "Gah, I don't want help from this one!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104929,
+      "id": "db_EventInfo:124165:5",
+      "jp": "なにを言っておりますやら。今や、わたくしたちは【<pl>】様と【『縁』】を共にする同士ではございませんかД",
+      "en": "What are you saying? Aren't we now allies, sharing a 【『bond』】 with you【<pl>】Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104930,
+      "id": "db_EventInfo:124166:5",
+      "jp": "ドワームの方々にも悪くはしませんことよ",
+      "en": "I won't do anything bad to the Dwarm people, either.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104931,
+      "id": "db_EventInfo:124167:3",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104932,
+      "id": "db_EventInfo:124168:3",
+      "jp": "店長が言うなら……仕方あるまい",
+      "en": "If you say so, Store Manager... I guess we have no choice.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104933,
+      "id": "db_EventInfo:124169:5",
+      "jp": "ほーほほほ！　必ずや店長様のご期待に応えて見せますわ",
+      "en": "Ho ho ho! I will definitely meet your expectations, Store Manager.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104934,
+      "id": "db_EventInfo:124170:5",
+      "jp": "まずはこの資金で広報チームを結成いたしましょう",
+      "en": "First, let's use this money to form a PR team.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104935,
+      "id": "db_EventInfo:124171:3",
+      "jp": "えっ、広報じゃと？",
+      "en": "Public relations? What?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104936,
+      "id": "db_EventInfo:124172:5",
+      "jp": "ふふ……店長様の資金だけでは心許ないですし、資金調達は人海戦術ですわ",
+      "en": "Hehe... The Store Manager's funds alone are not enough. Fundraising requires numbers.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104937,
+      "id": "db_EventInfo:124173:5",
+      "jp": "私はこれから、運用責任者の下に向かいます。ビジネスプランを根本から分析しなくてはなりませんもの",
+      "en": "I am heading to the operations manager now. I need to analyze the business plan from the ground up.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104938,
+      "id": "db_EventInfo:124174:5",
+      "jp": "おっと、広告塔も必要ですわ。交渉を円滑に進めるためにも、アンジュ様にもきていただきますわね～Д",
+      "en": "Oh, and we need a poster girl. To smooth the negotiations, you're coming with me too, Anju~Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104939,
+      "id": "db_EventInfo:124175:3",
+      "jp": "わ、<ruby=わらわ>妾</ruby>もじゃ……！？",
+      "en": "M-me too...!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104940,
+      "id": "db_EventInfo:124178:0",
+      "jp": "ハーヴェスタはアンジュを連れて、出て行ってしまった。",
+      "en": "Harvester took Anju and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104941,
+      "id": "db_EventInfo:124179:1",
+      "jp": "頼もしいなぁ",
+      "en": "She's so reliable.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104942,
+      "id": "db_EventInfo:124180:2",
+      "jp": "油断すると店を乗っ取られそうで恐いデス",
+      "en": "It's scary. If we let our guard down, she might take over the shop.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104943,
+      "id": "db_EventInfo:124181:1",
+      "jp": "（油断しなくても乗っ取られそうだぞ）",
+      "en": "(It seems like she might take it over even if we don't let our guard down.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104944,
+      "id": "db_EventInfo:124184:0",
+      "jp": "その後。",
+      "en": "Later.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104945,
+      "id": "db_EventInfo:124185:3",
+      "jp": "ハーヴェスタが組織したチームの説得が効いて、あらゆる方面から莫大な資金を調達できたそうじゃ",
+      "en": "They say the team Harvester put together was very persuasive. They were able to raise a huge amount of funds from all directions.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104946,
+      "id": "db_EventInfo:124186:3",
+      "jp": "新しい坑道どころか、ドルワミール鉱山自体を買い占められそうな資金が集まったようじゃ……",
+      "en": "They gathered enough funds to not just buy a new mine, but probably to buy out the entire Doruwamir Mountain...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104947,
+      "id": "db_EventInfo:124187:5",
+      "jp": "おーほほほ！",
+      "en": "O-ho-ho-ho!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104948,
+      "id": "db_EventInfo:124188:1",
+      "jp": "ゴクリ……",
+      "en": "(Gulp...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104949,
+      "id": "db_EventInfo:124189:2",
+      "jp": "デス……",
+      "en": "Death...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104950,
+      "id": "db_EventInfo:124190:5",
+      "jp": "私にかかれば、この程度造作もないですわ！",
+      "en": "For me, this is nothing at all!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104951,
+      "id": "db_EventInfo:124191:2",
+      "jp": "なんでコイツ、これだけのことができて、ウチの店に来るようになったデス？",
+      "en": "Why did someone who can do all this end up coming to our shop, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104952,
+      "id": "db_EventInfo:124192:1",
+      "jp": "……わからん",
+      "en": "...I don't know.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104953,
+      "id": "db_EventInfo:124193:3",
+      "jp": "でもちょっと、派手にやり過ぎたようじゃ",
+      "en": "But you might have gone a bit overboard.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104954,
+      "id": "db_EventInfo:124194:3",
+      "jp": "ドルワミール鉱山を派手に開発するプランまでを提示したせいで、ドワーム族の猛反発を受けたのじゃ！",
+      "en": "The plan to develop the Dorwamir Mine so flashy caused a big protest from the Dwarm people!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104955,
+      "id": "db_EventInfo:124195:3",
+      "jp": "そりゃそうじゃ。鉱山が他人のモノにされるってなら、話は別じゃ。いくらなんでもカネを集めすぎじゃ！！　皆を安心させるのに苦労したのじゃ！",
+      "en": "Well, of course. If someone else is taking the mine, that's different. You were just too greedy for money!! I had a hard time calming everyone down!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104956,
+      "id": "db_EventInfo:124196:1",
+      "jp": "……ハーヴェスタ？",
+      "en": "...Harvester?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104957,
+      "id": "db_EventInfo:124197:5",
+      "jp": "おほほ……ちょ、ちょっと張り切り過ぎましたわね",
+      "en": "Oh-ho-ho... I, I guess I got a bit carried away.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104958,
+      "id": "db_EventInfo:124198:2",
+      "jp": "なんでコイツ、これだけのことができて、ウチの店に来るようになったか疑問だったデスが",
+      "en": "I was wondering why someone who can do all this ended up at our shop, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104959,
+      "id": "db_EventInfo:124199:2",
+      "jp": "なんとなく、理由がわかってしまった気がするデス",
+      "en": "I think I kinda know the reason now.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104960,
+      "id": "db_EventInfo:124200:1",
+      "jp": "（有能すぎて、敵を作りすぎるってことだな……）",
+      "en": "(It's that she's too capable and makes too many enemies...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104961,
+      "id": "db_EventInfo:124203:0",
+      "jp": "その後、新しい坑道の開発は順調に進み、その運用利益の一部が店にもたらされるようになった。",
+      "en": "After that, the new mine development went smoothly, and part of its profits started coming to the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104962,
+      "id": "db_EventInfo:124206:3",
+      "jp": "店長、鍛冶場の設備を新調したいのじゃが、どうじゃろう？",
+      "en": "Boss, I want to get new equipment for the forge. What do you think?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104963,
+      "id": "db_EventInfo:124207:1",
+      "jp": "設備を？　なんだ、壊れたのか？",
+      "en": "New equipment? What, did it break?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104964,
+      "id": "db_EventInfo:124208:3",
+      "jp": "今のままでは妾の満足する品が作れんのじゃ！",
+      "en": "I can't make anything that satisfies me with the current setup!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104965,
+      "id": "db_EventInfo:124209:3",
+      "jp": "もっと投資額を増やして、最高の品を作らせてほしいのじゃ！",
+      "en": "I want you to invest more! Let me make the best stuff!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104966,
+      "id": "db_EventInfo:124210:1",
+      "jp": "お、おう……",
+      "en": "O-oh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104967,
+      "id": "db_EventInfo:124211:3",
+      "jp": "この鍛冶姫が働く鍛冶場じゃぞ？　もっと投資するべきなのじゃ！",
+      "en": "This is the forge where I, the Forging Princess, work! You should invest more in it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104968,
+      "id": "db_EventInfo:124212:1",
+      "jp": "ふむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104969,
+      "id": "db_EventInfo:124213:0",
+      "jp": "たしかにアンジュの力を生かすには、もっと良い設備が必要かもしれない。",
+      "en": "It might be true that Anju needs better equipment to make full use of her skills.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104970,
+      "id": "db_EventInfo:124214:1",
+      "jp": "資金に余裕を作って、投資してみよう",
+      "en": "Let's free up some funds and give it a try.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104971,
+      "id": "db_EventInfo:124215:3",
+      "jp": "うむ、そう来なくてはな！",
+      "en": "Yeah, that's the spirit!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104972,
+      "id": "db_EventInfo:124216:1",
+      "jp": "期待してるからな",
+      "en": "I'm counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104973,
+      "id": "db_EventInfo:124219:0",
+      "jp": "あとでアンジュの工房に投資しよう。",
+      "en": "I'll invest in Anju's workshop later.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104974,
+      "id": "db_EventInfo:124222:3",
+      "jp": "店長～！　工房に投資ありがとうなのじゃ！",
+      "en": "Shopkeeper! Thank you for investing in the workshop!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104975,
+      "id": "db_EventInfo:124223:1",
+      "jp": "これからも期待しているぞ",
+      "en": "I'm expecting great things from you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104976,
+      "id": "db_EventInfo:124224:3",
+      "jp": "うむ、任せるがよい！",
+      "en": "Yeah, leave it to me!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104977,
+      "id": "db_EventInfo:124227:0",
+      "jp": "投資の効果はすぐに表れ、鍛冶場はますます活況になっていった",
+      "en": "The effects of the investment showed right away, and the forge became even busier.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104978,
+      "id": "db_EventInfo:124228:3",
+      "jp": "これで妾の仕事もますます捗るというものじゃな",
+      "en": "This will really help my work get done faster.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104979,
+      "id": "db_EventInfo:124229:1",
+      "jp": "これからも期待してるからな",
+      "en": "I'm still counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104980,
+      "id": "db_EventInfo:124230:3",
+      "jp": "うむ、期待に応えてみせるのじゃ",
+      "en": "Yeah, I'll show you I can do it!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104981,
+      "id": "db_EventInfo:124233:0",
+      "jp": "アンジュはますます精力的に腕を振るい、投資額以上に効果が出ているようだ。",
+      "en": "Anju is working even harder, and it seems to be paying off more than the investment amount.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104982,
+      "id": "db_EventInfo:124236:3",
+      "jp": "なあ【<pl>】、このまえ発見した鉱脈なのじゃが、かなり貴重な鉱石が産出されたんじゃがな",
+      "en": "Hey 【<pl>】, about that vein I found before... it's producing some really rare ore.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104983,
+      "id": "db_EventInfo:124237:3",
+      "jp": "非常に強い武器が作れる鉱石で、あまり他人には売りたくないのじゃ",
+      "en": "This ore makes super strong weapons. I really don't want to sell it to just anyone.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104984,
+      "id": "db_EventInfo:124238:1",
+      "jp": "ふむ",
+      "en": "Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104985,
+      "id": "db_EventInfo:124239:3",
+      "jp": "こういった貴重すぎる鉱石は、特別な使い手が振るう【専用武器】にするべきじゃ！",
+      "en": "Rare ore like this should be used for 【special weapons】 made for specific users!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104986,
+      "id": "db_EventInfo:124240:3",
+      "jp": "つまり、我らの装備の強化に使うべきじゃ！",
+      "en": "In other words, it should be used to strengthen our own equipment!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104987,
+      "id": "db_EventInfo:124241:1",
+      "jp": "【専用武器】……？　【『魔剣』】とかそういう類の？",
+      "en": "【Special weapons】...? Like a 【『Demon Sword』】 or something like that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104988,
+      "id": "db_EventInfo:124242:1",
+      "jp": "ちょっと前に、【専用武器】はダメだとか、冒険者達にダメ出ししてたじゃないか",
+      "en": "Didn't you just criticize adventurers the other day, saying 【special weapons】 were no good?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104989,
+      "id": "db_EventInfo:124243:3",
+      "jp": "それはあやつらが、【『鍛冶姫』】の武器を振るうに相応しくない使い手だからじゃ。今の【<pl>】達ならば問題あるまい",
+      "en": "That's because those people aren't worthy users for weapons made by 【『Forging Princess』】. I see no problem if it's you【<pl>】and your team.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104990,
+      "id": "db_EventInfo:124244:3",
+      "jp": "それにこの前行った【『コノスパ天空神殿』】で見たレシピにも、インスピレーションを得たからのう",
+      "en": "Also, I got some inspiration from those recipes we saw last time at the 【『Konospa Sky Temple』】.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104991,
+      "id": "db_EventInfo:124245:1",
+      "jp": "なるほど",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104992,
+      "id": "db_EventInfo:124246:1",
+      "jp": "戦力アップができるなら、やらない手はないな。お願いできるか？",
+      "en": "If it makes us stronger, why not? Can you do it for us?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104993,
+      "id": "db_EventInfo:124247:3",
+      "jp": "もちろんじゃ！",
+      "en": "Of course!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104994,
+      "id": "db_EventInfo:124248:3",
+      "jp": "じゃが……",
+      "en": "But...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104995,
+      "id": "db_EventInfo:124249:1",
+      "jp": "じゃが？",
+      "en": "That stuff?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104996,
+      "id": "db_EventInfo:124250:3",
+      "jp": "あの鉱石は貴重なので、非常に高額なのじゃ",
+      "en": "That ore is rare, so it's very expensive.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104997,
+      "id": "db_EventInfo:124251:3",
+      "jp": "本当はタダで持ち出したいところなのじゃが、前に【『ゴブリン』】どもに襲われた際に持ち出して怒られてのう",
+      "en": "I'd really like to just give it to you, but I got in trouble last time for taking some when the Goblins attacked.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104998,
+      "id": "db_EventInfo:124252:3",
+      "jp": "すまんが、代金を払って貰えんか？",
+      "en": "Sorry, but could you pay for it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104999,
+      "id": "db_EventInfo:124253:1",
+      "jp": "まあ、タダでもらうわけにはいかないからな",
+      "en": "Well, I can't just take it for free.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 105000,
+      "id": "db_EventInfo:124256:0",
+      "jp": "聞いて見ると、本当に高額だった。",
+      "en": "I asked, and it really was a huge amount of money.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

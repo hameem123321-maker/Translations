@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 96401,
+  "range_end": 96500,
+  "pairs": [
+    {
+      "n": 96401,
+      "id": "db_EventInfo:113878:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96402,
+      "id": "db_EventInfo:113881:0",
+      "jp": "村人は言いたいことだけ言って、帰っていった。",
+      "en": "The villager said his piece and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96403,
+      "id": "db_EventInfo:113882:2",
+      "jp": "……ポンタとマリーゼルはダメだったようデスね",
+      "en": "...Seems Ponta and Marisel didn't make it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96404,
+      "id": "db_EventInfo:113883:2",
+      "jp": "アイツの言うとおりデス。もっとちゃんとした冒険者を雇えていたら、アイツらは死なずに済んだかもデス",
+      "en": "He's right. If we'd hired proper adventurers, they might not have died.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96405,
+      "id": "db_EventInfo:113884:1",
+      "jp": "……くっ",
+      "en": "...Tch.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96406,
+      "id": "db_EventInfo:113885:0",
+      "jp": "俺は、やり場のない気持ちを抑えることしか出来なかった。",
+      "en": "All I could do was hold back this helpless, frustrated feeling.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96407,
+      "id": "db_EventInfo:113886:1",
+      "jp": "うっ……",
+      "en": "Urgh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96408,
+      "id": "db_EventInfo:113887:2",
+      "jp": "おい、オマエ！　大丈夫デス！？",
+      "en": "Hey, you! Are you okay!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96409,
+      "id": "db_EventInfo:113888:1",
+      "jp": "だ、大丈夫……うぐっ",
+      "en": "I... I'm okay... Ugh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96410,
+      "id": "db_EventInfo:113889:2",
+      "jp": "しっかりするデス――！！",
+      "en": "Pull yourself together!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96411,
+      "id": "db_EventInfo:113892:0",
+      "jp": "シイネの叫びも虚しく、俺の意識は真っ黒く染められてしまうのであった。",
+      "en": "Shiine's scream was useless. My world went dark.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96412,
+      "id": "db_EventInfo:113897:2",
+      "jp": "ざんねん、オマエの人生は終わってしまったデス",
+      "en": "Too bad. Your life is over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96413,
+      "id": "db_EventInfo:113898:1",
+      "jp": "ぬう",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96414,
+      "id": "db_EventInfo:113899:2",
+      "jp": "オマエの存在をつなぎとめていた、わずかな力が消えた感じがするデス",
+      "en": "I feel it. The little bit of power keeping you alive is gone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96415,
+      "id": "db_EventInfo:113900:2",
+      "jp": "おそらく、オマエに【回復魔術】をかけていたマリーゼルが死んだことで、【『縁』】が切れたのデス",
+      "en": "Probably because Marisel, who was healing you, is dead. Your 'link' is cut.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96416,
+      "id": "db_EventInfo:113901:1",
+      "jp": "マリーゼルの力が、俺の命をつなぎとめていたということか",
+      "en": "So Marisel's power was keeping me alive.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96417,
+      "id": "db_EventInfo:113902:2",
+      "jp": "やはりヤツは【『縁』】の持ち主デス。一刻も早く、【契り】を結ぶデス",
+      "en": "See, she has the 'link'. You must make a 'pact' with her. Quickly.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96418,
+      "id": "db_EventInfo:113903:1",
+      "jp": "そうだな……",
+      "en": "Right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96419,
+      "id": "db_EventInfo:113904:1",
+      "jp": "それで【契り】ってのはどうやって結ぶんだ？",
+      "en": "So how do we make this 'pact'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96420,
+      "id": "db_EventInfo:113905:2",
+      "jp": "そんなの恥ずかしくて言えないデス",
+      "en": "I'm too embarrassed to say it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96421,
+      "id": "db_EventInfo:113906:1",
+      "jp": "あのなあ",
+      "en": "Oh, come on.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96422,
+      "id": "db_EventInfo:113907:0",
+      "jp": "★ゲームオーバー・マリーゼルが死んだデス",
+      "en": "★ GAME OVER - Marisel has died.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96423,
+      "id": "db_EventInfo:113909:2",
+      "jp": "このカネでよろしくデス",
+      "en": "Here's the money. Please handle it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96424,
+      "id": "db_EventInfo:113910:113",
+      "jp": "【『ゴブリン』】退治にこんな報酬を用意するなんて、変わってるな……",
+      "en": "It's odd... to offer this much reward for taking down goblins.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96425,
+      "id": "db_EventInfo:113911:112",
+      "jp": "まあ、俺達は報酬をくれるなら、やってやるけどよ",
+      "en": "Well, we'll do it as long as there's a reward.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96426,
+      "id": "db_EventInfo:113912:1",
+      "jp": "よろしく頼むぞ",
+      "en": "We're counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96427,
+      "id": "db_EventInfo:113913:113",
+      "jp": "任せな！",
+      "en": "Leave it to us!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96428,
+      "id": "db_EventInfo:113914:14",
+      "jp": "あれっ、【『クエスト』】が締め切られてるぞ？",
+      "en": "Hey, the quest is closed!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96429,
+      "id": "db_EventInfo:113915:6",
+      "jp": "せっかくの【『ダンジョン』】攻略の依頼だったのですが、残念ですわね",
+      "en": "It was a shame it was a dungeon conquest request. Too bad.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96430,
+      "id": "db_EventInfo:113916:2",
+      "jp": "ん？　オマエは？",
+      "en": "Huh? And you are?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96431,
+      "id": "db_EventInfo:113917:14",
+      "jp": "俺は冒険者のポンタだ！",
+      "en": "I'm Ponta, an adventurer!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96432,
+      "id": "db_EventInfo:113918:6",
+      "jp": "同じく冒険者のマリーゼルですわ",
+      "en": "I'm Marisel, also an adventurer.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96433,
+      "id": "db_EventInfo:113919:14",
+      "jp": "【『クエスト』】もいくつかこなしているんだけど、ここらで大きめの仕事をやろうと思ってさ",
+      "en": "I've done a few quests, and I was hoping for a bigger job around here.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96434,
+      "id": "db_EventInfo:113920:14",
+      "jp": "【『ゴブリン』】なんかは弱いし、ちょうど良いと思ってたんだけどさ",
+      "en": "I thought goblins were weak and it'd be just right.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96435,
+      "id": "db_EventInfo:113921:113",
+      "jp": "おいおい、ガキの遊びじゃないんだぞ",
+      "en": "Hey, hey, this ain't kid stuff.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96436,
+      "id": "db_EventInfo:113922:112",
+      "jp": "まあいいじゃねえか。報酬も多いし、ついでにヒヨッコどもの面倒も見てやるとするか",
+      "en": "Ah, it's fine. The pay's good. Might as well look after these rookies.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96437,
+      "id": "db_EventInfo:113923:6",
+      "jp": "ご一緒させていただけるのですか？",
+      "en": "May we really come with you?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96438,
+      "id": "db_EventInfo:113924:14",
+      "jp": "おお、助かるぜ！　よろしく頼む！",
+      "en": "Wow, that's a big help! We're counting on you!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96439,
+      "id": "db_EventInfo:113925:113",
+      "jp": "あはは、足を引っ張るのもほどほどにしてくれよな",
+      "en": "Haha, try not to hold us back too much, okay?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96440,
+      "id": "db_EventInfo:113926:0",
+      "jp": "★クリア",
+      "en": "★ CLEARED",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96441,
+      "id": "db_EventInfo:113929:0",
+      "jp": "ポンタとマリーゼルはベテラン冒険者に連れられ、【『メテトス百穴古墳』】に向かっていった……。",
+      "en": "Ponta and Marisel, led by the veteran adventurers, headed for the [Hundred-Hole Necropolis of Metetos]...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96442,
+      "id": "db_EventInfo:113930:2",
+      "jp": "ベテランに連れられたら安心デスね",
+      "en": "They're with veterans, so it should be safe, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96443,
+      "id": "db_EventInfo:113931:1",
+      "jp": "そうだな……ベテラン冒険者たちに任せれば問題ないだろ",
+      "en": "Yeah... It should be fine if we leave it to the veteran adventurers.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96444,
+      "id": "db_EventInfo:113932:2",
+      "jp": "めでたしめでたしデス",
+      "en": "All's well that ends well.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96445,
+      "id": "db_EventInfo:113933:8",
+      "jp": "そうかなぁ……Д",
+      "en": "I wonder... Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 96446,
+      "id": "db_EventInfo:113934:1",
+      "jp": "ん……？",
+      "en": "Hm...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96447,
+      "id": "db_EventInfo:113935:2",
+      "jp": "どうしたデス？",
+      "en": "What's up?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96448,
+      "id": "db_EventInfo:113936:1",
+      "jp": "い、いや……なんだか、声がしたような",
+      "en": "N-no... It's just, I thought I heard something.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96449,
+      "id": "db_EventInfo:113937:2",
+      "jp": "デス？",
+      "en": "Huh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96450,
+      "id": "db_EventInfo:113939:2",
+      "jp": "冒険者達が帰ってきたデス",
+      "en": "The adventurers are back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96451,
+      "id": "db_EventInfo:113940:112",
+      "jp": "【『ゴブリン』】退治、終わったぜ",
+      "en": "We're done. The Goblins are taken care of.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96452,
+      "id": "db_EventInfo:113941:2",
+      "jp": "おつかれデス",
+      "en": "Good work.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96453,
+      "id": "db_EventInfo:113942:113",
+      "jp": "けっこうな数がいたな、ありゃ新人には荷が重すぎたと思うぜ",
+      "en": "There were quite a few. That would've been too much for rookies.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96454,
+      "id": "db_EventInfo:113943:14",
+      "jp": "い、いいだろ！　俺だって何体か倒したし、足は引っ張らなかっただろ！",
+      "en": "H-hey! I took down a few myself! I didn't hold you back, did I?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96455,
+      "id": "db_EventInfo:113944:112",
+      "jp": "ははっ、マリーゼルちゃんの回復魔術があったのは楽だったけどな",
+      "en": "Haha, it sure helped having Marisel's healing magic.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96456,
+      "id": "db_EventInfo:113945:113",
+      "jp": "ま、こいつらも新人なりに骨があるやつらだったぜ",
+      "en": "Well, for rookies, these guys have some guts.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96457,
+      "id": "db_EventInfo:113946:113",
+      "jp": "【『ゴブリン』】も何体か倒していたようだしね",
+      "en": "Looks like they took down some Goblins too.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 96458,
+      "id": "db_EventInfo:113947:2",
+      "jp": "デス？",
+      "en": "Oh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96459,
+      "id": "db_EventInfo:113948:14",
+      "jp": "へへ……",
+      "en": "Hehe...",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96460,
+      "id": "db_EventInfo:113949:6",
+      "jp": "ポンタは身を挺して私を助けてくれました。ポンタがいなければ……",
+      "en": "Ponta threw himself in to save me. If not for Ponta...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96461,
+      "id": "db_EventInfo:113950:112",
+      "jp": "ああ、俺達も助けられなかったかもしれないぜ",
+      "en": "Yeah, we might not have made it either.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96462,
+      "id": "db_EventInfo:113951:14",
+      "jp": "て、照れるぜ",
+      "en": "Aw, you're makin' me blush.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96463,
+      "id": "db_EventInfo:113952:6",
+      "jp": "ポンタは私の勇者様ですわ！",
+      "en": "Ponta is my hero!",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96464,
+      "id": "db_EventInfo:113953:112",
+      "jp": "ま、次は【『ゴブリン』】なんかじゃなくて、もっと歯ごたえのある依頼をしてくれよな",
+      "en": "Well, next time, make it a job with some bite to it, not just goblins.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 96465,
+      "id": "db_EventInfo:113954:0",
+      "jp": "★クリア",
+      "en": "★QUEST CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96466,
+      "id": "db_EventInfo:113955:0",
+      "jp": "ベテラン冒険者達は去って行った。",
+      "en": "The veteran adventurers left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96467,
+      "id": "db_EventInfo:113956:6",
+      "jp": "あの方々には助けられました",
+      "en": "They really helped us.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96468,
+      "id": "db_EventInfo:113957:14",
+      "jp": "【『ゴブリン』】たちも多かったり、奇襲してきたりしてな……俺達だけじゃヤバかったよ",
+      "en": "There were a lot of goblins, and they ambushed us... It would've been bad if we were alone.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96469,
+      "id": "db_EventInfo:113958:6",
+      "jp": "私たち、まだまだ力不足ですわね",
+      "en": "We're still not strong enough, are we?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96470,
+      "id": "db_EventInfo:113959:14",
+      "jp": "もっと訓練しないとなぁ……",
+      "en": "We gotta train more...",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96471,
+      "id": "db_EventInfo:113960:2",
+      "jp": "この辺には【『ゼカリウス自警団』】とかもあるデス、そこで訓練とか付けてもらったらどうデス？",
+      "en": "There's a 'Zecarius Self-Defense Force' around here. You could get some training from them, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96472,
+      "id": "db_EventInfo:113961:14",
+      "jp": "それもいいな、しばらくはゼカリウスを拠点に活動しようかなー",
+      "en": "That sounds good. Maybe we should make Zecarius our base for a while.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96473,
+      "id": "db_EventInfo:113962:6",
+      "jp": "そういえば、店長様の店はスタッフを募集しているようですわね",
+      "en": "By the way, the Store Manager's shop seems to be hiring staff, doesn't it?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96474,
+      "id": "db_EventInfo:113963:6",
+      "jp": "店長様の店で雇って貰うというのはいかがでしょうか？",
+      "en": "How about getting hired at the Store Manager's shop?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96475,
+      "id": "db_EventInfo:113964:14",
+      "jp": "それはいいな！",
+      "en": "That's a great idea!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96476,
+      "id": "db_EventInfo:113965:1",
+      "jp": "スタッフとして応募するのか？",
+      "en": "You're applying to be staff?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96477,
+      "id": "db_EventInfo:113966:6",
+      "jp": "ええ。よろしければ、私たちを雇っていただけないでしょうか？",
+      "en": "Yes. If it's alright, would you consider hiring us?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96478,
+      "id": "db_EventInfo:113967:2",
+      "jp": "冒険者の仕事はどうするんデス？",
+      "en": "What about your adventurer work, hmm?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96479,
+      "id": "db_EventInfo:113968:14",
+      "jp": "冒険者もするぜ。空いた時間を見つけて稽古を付けてもらって、金が貯まったら出かけるつもりさ",
+      "en": "We'll still do that. We plan to find some free time for training, and go out when we save up enough money.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96480,
+      "id": "db_EventInfo:113969:2",
+      "jp": "ふむ、私はよいと思うデスが",
+      "en": "Hmm, I think it's a good idea.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96481,
+      "id": "db_EventInfo:113970:1",
+      "jp": "そうだな……",
+      "en": "Yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96482,
+      "id": "db_EventInfo:113971:2",
+      "jp": "うむデス",
+      "en": "Yeah, sounds good.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96483,
+      "id": "db_EventInfo:113972:14",
+      "jp": "そこをなんとか頼むよ！",
+      "en": "Please, do something about that!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96484,
+      "id": "db_EventInfo:113973:2",
+      "jp": "別に断らなくてもいいんじゃないデス？",
+      "en": "It's not like you have to say no, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96485,
+      "id": "db_EventInfo:113974:1",
+      "jp": "それもそうだな……",
+      "en": "Yeah, you're right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96486,
+      "id": "db_EventInfo:113975:14",
+      "jp": "やった！　よろしくな！",
+      "en": "Yes! Nice to meet you!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96487,
+      "id": "db_EventInfo:113976:6",
+      "jp": "よろしくお願いいたしますわ",
+      "en": "I look forward to working with you.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96488,
+      "id": "db_EventInfo:113977:0",
+      "jp": "ポンタとマリーゼルがスタッフに加わった！",
+      "en": "Ponta and Marisel have joined the staff!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 96489,
+      "id": "db_EventInfo:113980:2",
+      "jp": "【『縁』】の持ち主も助かったデス。これでめでたしデスね",
+      "en": "The owner of the 'bond' is safe now. A happy ending, huh.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96490,
+      "id": "db_EventInfo:113981:8",
+      "jp": "うふふ、そうかなぁ……Д",
+      "en": "Uh-huh, is that so... Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 96491,
+      "id": "db_EventInfo:113982:1",
+      "jp": "ん……？",
+      "en": "Hm...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96492,
+      "id": "db_EventInfo:113983:2",
+      "jp": "どうしたデス？",
+      "en": "What's up?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96493,
+      "id": "db_EventInfo:113984:1",
+      "jp": "い、いや……なんだか、声がしたような",
+      "en": "N-no... It's nothing. I just thought I heard a voice.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 96494,
+      "id": "db_EventInfo:113985:2",
+      "jp": "デス？",
+      "en": "Oh?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96495,
+      "id": "db_EventInfo:113986:8",
+      "jp": "くすくす……Д",
+      "en": "Hehehe... Д",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 96496,
+      "id": "db_EventInfo:113987:14",
+      "jp": "おはよっ、店長さん！",
+      "en": "Mornin', Boss!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96497,
+      "id": "db_EventInfo:113988:14",
+      "jp": "へへっ、今日も店の仕事頑張るぜ！　どんどん仕事持ってきてくれよ！",
+      "en": "Heh, gonna work hard at the shop again today! Give me lots to do!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 96498,
+      "id": "db_EventInfo:113989:6",
+      "jp": "ポンタったら……",
+      "en": "Oh, Ponta...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 96499,
+      "id": "db_EventInfo:113990:2",
+      "jp": "デス……？",
+      "en": "Death...?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 96500,
+      "id": "db_EventInfo:113991:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

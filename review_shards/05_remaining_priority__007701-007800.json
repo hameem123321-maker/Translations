@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7701,
+  "range_end": 7800,
+  "pairs": [
+    {
+      "n": 7701,
+      "id": "rem_35352",
+      "jp": "味方が行動不能",
+      "en": "Ally Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7702,
+      "id": "rem_35353",
+      "jp": "敵が行動不能",
+      "en": "Foe Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7703,
+      "id": "rem_35354",
+      "jp": "先制攻撃発生率",
+      "en": "Preemptive Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7704,
+      "id": "rem_35355",
+      "jp": "魔術暴走率",
+      "en": "Magic Overload Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7705,
+      "id": "rem_35356",
+      "jp": "チェイススキルを連続使用",
+      "en": "Use Chase Skills Consecutively",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7706,
+      "id": "rem_35357",
+      "jp": "チェイススキル発生率",
+      "en": "Chase Skill Trigger Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7707,
+      "id": "rem_35358",
+      "jp": "チェイスされる確率",
+      "en": "Chase Target Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7708,
+      "id": "rem_35359",
+      "jp": "チェイスされる確率(女性から)",
+      "en": "Chase Target Rate (from Females)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7709,
+      "id": "rem_35360",
+      "jp": "被ターゲット率",
+      "en": "Targeting Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7710,
+      "id": "rem_35361",
+      "jp": "沈黙フィールド生成",
+      "en": "Silence Field Generated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7711,
+      "id": "rem_35362",
+      "jp": "シズハ・クレハがいると追撃強化",
+      "en": "Boost with Shizuha & Kureha",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7712,
+      "id": "rem_35363",
+      "jp": "淫魔領域を無効化",
+      "en": "Nullify Succubus Zone",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7713,
+      "id": "rem_35364",
+      "jp": "魔人領域を無効化",
+      "en": "Nullify Demon Zone",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7714,
+      "id": "rem_35365",
+      "jp": "ハヅキの乱入率",
+      "en": "Hazuki Encounter Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7715,
+      "id": "rem_35366",
+      "jp": "美食モンスター限定でダメージ限界突破",
+      "en": "Dmg Cap Break (Gourmet Monsters)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7716,
+      "id": "rem_35367",
+      "jp": "修練場でのHP",
+      "en": "HP in Training Grounds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7717,
+      "id": "rem_35368",
+      "jp": "修練場でのダメージ限界",
+      "en": "Dmg Cap in Training Grounds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7718,
+      "id": "rem_35369",
+      "jp": "経験値",
+      "en": "Experience",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7719,
+      "id": "rem_35370",
+      "jp": "経験値(低レベル時)",
+      "en": "Experience (Low Level)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7720,
+      "id": "rem_35371",
+      "jp": "プレイヤー潜在能力解放",
+      "en": "Unlock Player Potential",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7721,
+      "id": "rem_35372",
+      "jp": "パートナー潜在能力解放",
+      "en": "Partner Potential Unlocked",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7722,
+      "id": "rem_35373",
+      "jp": "レベル同期・アンジュと同じに(+3)",
+      "en": "Level Sync: Match Anju (+3)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7723,
+      "id": "rem_35374",
+      "jp": "レベル同期・キャトリナと同じに(+5)",
+      "en": "Level Sync: Match Catrina (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7724,
+      "id": "rem_35375",
+      "jp": "レベル同期・マリーゼルと同じに(+5)",
+      "en": "Level Sync: Match Marisel (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7725,
+      "id": "rem_35376",
+      "jp": "レベル同期・主人公と同じに(+5)",
+      "en": "Level Sync: Match Ren (+5)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7726,
+      "id": "rem_35377",
+      "jp": "ダンジョン投資解放Lv1",
+      "en": "Dungeon Investment Unlock Lv1",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7727,
+      "id": "rem_35378",
+      "jp": "ダンジョン投資解放Lv2",
+      "en": "Dungeon Investment Unlock Lv2",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7728,
+      "id": "rem_35379",
+      "jp": "男性への売上",
+      "en": "Sales to Men",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7729,
+      "id": "rem_35380",
+      "jp": "女性への売上",
+      "en": "Sales to Women",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7730,
+      "id": "rem_35381",
+      "jp": "一般人への売上",
+      "en": "Sales to Commoners",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7731,
+      "id": "rem_35382",
+      "jp": "冒険者への売上",
+      "en": "Sales to Adventurers",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7732,
+      "id": "rem_35383",
+      "jp": "戦士や兵士への売上",
+      "en": "Sales to Warriors/Soldiers",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7733,
+      "id": "rem_35384",
+      "jp": "生産者への売上",
+      "en": "Sales to Artisans",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7734,
+      "id": "rem_35385",
+      "jp": "芸人・芸術家への売上",
+      "en": "Sales to Performers/Artists",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7735,
+      "id": "rem_35386",
+      "jp": "学者・魔術師への売上",
+      "en": "Sales to Scholars/Mages",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7736,
+      "id": "rem_35387",
+      "jp": "聖職者への売上",
+      "en": "Sales to Clergy",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7737,
+      "id": "rem_35388",
+      "jp": "富裕層への売上",
+      "en": "Sales to the Wealthy",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7738,
+      "id": "rem_35389",
+      "jp": "接客での売上",
+      "en": "Sales from Service",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7739,
+      "id": "rem_35390",
+      "jp": "搾精での売上",
+      "en": "Sales from Extraction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7740,
+      "id": "rem_35391",
+      "jp": "搾精施設の売上",
+      "en": "Extraction Facility Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7741,
+      "id": "rem_35392",
+      "jp": "娯楽施設の売上",
+      "en": "Entertainment Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7742,
+      "id": "rem_35393",
+      "jp": "宿泊施設の売上",
+      "en": "Lodging Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7743,
+      "id": "rem_35394",
+      "jp": "水産資源を使用した商品価格",
+      "en": "Aquatic Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7744,
+      "id": "rem_35395",
+      "jp": "林業資源を使用した商品価格",
+      "en": "Forestry Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7745,
+      "id": "rem_35396",
+      "jp": "農業資源を使用した商品価格",
+      "en": "Agricultural Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7746,
+      "id": "rem_35397",
+      "jp": "鉱業資源を使用した商品価格",
+      "en": "Mining Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7747,
+      "id": "rem_35398",
+      "jp": "魔術資源を使用した商品価格",
+      "en": "Magic Resource Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7748,
+      "id": "rem_35399",
+      "jp": "軍需品タイプの商品価格",
+      "en": "Military Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7749,
+      "id": "rem_35400",
+      "jp": "性的用品タイプの商品価格",
+      "en": "Adult Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7750,
+      "id": "rem_35401",
+      "jp": "肉料理タイプの商品価格",
+      "en": "Meat Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7751,
+      "id": "rem_35402",
+      "jp": "魚料理タイプの商品価格",
+      "en": "Fish Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7752,
+      "id": "rem_35403",
+      "jp": "一般料理タイプの商品価格",
+      "en": "General Dish Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7753,
+      "id": "rem_35404",
+      "jp": "贅沢品タイプの商品価格",
+      "en": "Luxury Goods Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7754,
+      "id": "rem_35405",
+      "jp": "嗜好品タイプの商品価格",
+      "en": "Indulgence Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7755,
+      "id": "rem_35406",
+      "jp": "雑貨タイプの商品価格",
+      "en": "Sundries Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7756,
+      "id": "rem_35407",
+      "jp": "錬金系メニューの商品価格",
+      "en": "Alchemy Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7757,
+      "id": "rem_35408",
+      "jp": "鍛冶系メニューの商品価格",
+      "en": "Smithing Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7758,
+      "id": "rem_35409",
+      "jp": "料理系メニューの商品価格",
+      "en": "Cooking Menu Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7759,
+      "id": "rem_35410",
+      "jp": "すべての商品価格",
+      "en": "All Item Prices",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7760,
+      "id": "rem_35411",
+      "jp": "エネミー専用・獲得量アップ・EXP",
+      "en": "Enemy Only: Gain & EXP Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7761,
+      "id": "rem_35412",
+      "jp": "開発ポイント獲得",
+      "en": "Development Points Earned",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7762,
+      "id": "rem_35413",
+      "jp": "レアトレジャー発生率",
+      "en": "Rare Treasure Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7763,
+      "id": "rem_35414",
+      "jp": "トラップ発見率",
+      "en": "Trap Detection Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7764,
+      "id": "rem_35415",
+      "jp": "エネミー発見率",
+      "en": "Enemy Detection Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7765,
+      "id": "rem_35416",
+      "jp": "機械系トラップの解除率",
+      "en": "Mechanical Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7766,
+      "id": "rem_35417",
+      "jp": "自然系トラップの解除率",
+      "en": "Natural Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7767,
+      "id": "rem_35418",
+      "jp": "魔術系トラップの解除率",
+      "en": "Magical Trap Disarm Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7768,
+      "id": "rem_35419",
+      "jp": "客の流入数",
+      "en": "Customer Inflow",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7769,
+      "id": "rem_35420",
+      "jp": "客の滞在時間",
+      "en": "Customer Stay Time",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7770,
+      "id": "rem_35421",
+      "jp": "店員の最大人数",
+      "en": "Max Staff Count",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7771,
+      "id": "rem_35422",
+      "jp": "店員休憩時の回復率",
+      "en": "Staff Rest Recovery Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7772,
+      "id": "rem_35423",
+      "jp": "料理レシピランク",
+      "en": "Cooking Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7773,
+      "id": "rem_35424",
+      "jp": "鍛冶レシピランク",
+      "en": "Blacksmithing Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7774,
+      "id": "rem_35425",
+      "jp": "錬金レシピランク",
+      "en": "Alchemy Recipe Rank",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7775,
+      "id": "rem_35426",
+      "jp": "犯罪値の変化率",
+      "en": "Crime Value Change Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7776,
+      "id": "rem_35427",
+      "jp": "汚染値の変化率",
+      "en": "Pollution Value Change Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7777,
+      "id": "rem_35428",
+      "jp": "死神パワーの入手量",
+      "en": "Shinigami Power Gained",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7778,
+      "id": "rem_35429",
+      "jp": "自動入手できる開発ポイント",
+      "en": "Auto-Gained Development Points",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7779,
+      "id": "rem_35430",
+      "jp": "ダンジョン探索中のショップ売上",
+      "en": "Dungeon Shop Sales",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7780,
+      "id": "rem_35431",
+      "jp": "1日のショップ売上ボーナス",
+      "en": "Daily Shop Sales Bonus",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7781,
+      "id": "rem_35432",
+      "jp": "組織献金の必要資金",
+      "en": "Guild Donation Funds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7782,
+      "id": "rem_35433",
+      "jp": "設備投資の必要資金",
+      "en": "Equipment Investment Funds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7783,
+      "id": "rem_35434",
+      "jp": "施設改良の必要資金",
+      "en": "Facility Upgrade Funds",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7784,
+      "id": "rem_35435",
+      "jp": "能力開発の消費SP",
+      "en": "Ability Development SP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7785,
+      "id": "rem_35436",
+      "jp": "料理CP",
+      "en": "Cooking CP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7786,
+      "id": "rem_35437",
+      "jp": "鍛冶CP",
+      "en": "Smithing CP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7787,
+      "id": "rem_35438",
+      "jp": "錬金CP",
+      "en": "Alchemy CP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7788,
+      "id": "rem_35439",
+      "jp": "すべてのCP",
+      "en": "All CP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7789,
+      "id": "rem_35440",
+      "jp": "敷地のサイズ",
+      "en": "Site Size",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7790,
+      "id": "rem_35441",
+      "jp": "開発ポイント貯蔵上限",
+      "en": "Development Pt. Cap",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7791,
+      "id": "rem_35442",
+      "jp": "戦士・兵士の出現率",
+      "en": "Warrior/Soldier Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7792,
+      "id": "rem_35443",
+      "jp": "騎士・貴族の出現率",
+      "en": "Knight/Noble Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7793,
+      "id": "rem_35444",
+      "jp": "盗賊・スパイの出現率",
+      "en": "Thief/Spy Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7794,
+      "id": "rem_35445",
+      "jp": "魔術師の出現率",
+      "en": "Mage Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7795,
+      "id": "rem_35446",
+      "jp": "武闘家・ダンサーの出現率",
+      "en": "Martial Artist/Dancer Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7796,
+      "id": "rem_35447",
+      "jp": "剣士・レンジャーの出現率",
+      "en": "Swordsman/Ranger Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7797,
+      "id": "rem_35448",
+      "jp": "治療師・医者の出現率",
+      "en": "Healer/Doctor Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7798,
+      "id": "rem_35449",
+      "jp": "神官の出現率",
+      "en": "Priest Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7799,
+      "id": "rem_35450",
+      "jp": "農民の出現率",
+      "en": "Farmer Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7800,
+      "id": "rem_35451",
+      "jp": "呪術師の出現率",
+      "en": "Hexer Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

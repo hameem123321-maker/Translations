@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75101,
+  "range_end": 75200,
+  "pairs": [
+    {
+      "n": 75101,
+      "id": "db_EventInfo:88828:10",
+      "jp": "【<pl>】殿が海竜に飲み込まれてからしばらくして、【『魔海要塞キングホエール』】付近の海水が無くなったのだ",
+      "en": "A while after 【<pl>】 was swallowed by the sea dragon, the seawater near the 【'King Whale Sea Fortress'】 disappeared.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75102,
+      "id": "db_EventInfo:88829:7",
+      "jp": "ボクらが【『盗賊ギルド』】と協力して、現地を確認したんだけど……",
+      "en": "We went to check the area with help from the 【'Thieves Guild'】, but...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 75103,
+      "id": "db_EventInfo:88830:106",
+      "jp": "海底都市……ディープゼカル、だっけ？　水が引いて、アレが地上に現れたんだよ",
+      "en": "The sunken city... Deep Zekal, was it? When the water receded, that thing appeared on land.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75104,
+      "id": "db_EventInfo:88831:3",
+      "jp": "うむ、カストロイアとは違うが、あれも古代ゼカリウス文明の遺跡に違いないのじゃ！",
+      "en": "Indeed. It's different from Castroria, but that must also be a ruin of the ancient Zecarius civilization!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75105,
+      "id": "db_EventInfo:88832:108",
+      "jp": "その見立ては間違っておらんじゃろうな。ワシも【『図書館』】の文献で見た覚えがあるからのう",
+      "en": "That assessment is likely correct. I also recall seeing it in the documents from the 【'Library'】.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75106,
+      "id": "db_EventInfo:88833:1",
+      "jp": "そうか……水が引いて古代の都市が出現したのか",
+      "en": "I see... The water receded and an ancient city surfaced.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75107,
+      "id": "db_EventInfo:88835:115",
+      "jp": "あの、【『魔海要塞キングホエール』】周辺の水がなくなったの？",
+      "en": "Wait, the water around the 【'King Whale Sea Fortress'】 is gone?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75108,
+      "id": "db_EventInfo:88836:105",
+      "jp": "水がないのであれば、キングホエールは動けないのでは？　ただのでかぶつであろう",
+      "en": "If there's no water, then King Whale can't move, right? It would just be a huge lump of nothing.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75109,
+      "id": "db_EventInfo:88837:2",
+      "jp": "デスデス。陸に打ち上げられた魚状態デス",
+      "en": "Death-death. It's like a fish stranded on land, death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75110,
+      "id": "db_EventInfo:88838:5",
+      "jp": "ああ、アナタ達は【<pl>】様についていたから、知らないのも無理はありませんわね",
+      "en": "Ah, you were all with 【<pl>】, so it's no wonder you wouldn't know.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 75111,
+      "id": "db_EventInfo:88839:115",
+      "jp": "どういう事？",
+      "en": "What do you mean?",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75112,
+      "id": "db_EventInfo:88840:25",
+      "jp": "そ、その……飛んだんですぞ……！",
+      "en": "I-I-Its... It flew away!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 75113,
+      "id": "db_EventInfo:88841:1",
+      "jp": "は？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75114,
+      "id": "db_EventInfo:88842:25",
+      "jp": "キングホエールが空を飛んで、動き回るようになったのでござる！",
+      "en": "The King Whale is flying around in the sky now!",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 75115,
+      "id": "db_EventInfo:88843:26",
+      "jp": "アレは元々、空飛ぶ要塞だった、ということですわ",
+      "en": "It seems it was originally a flying fortress.",
+      "speaker": "Neldine",
+      "speaker_jp": "ネルディーネ"
+    },
+    {
+      "n": 75116,
+      "id": "db_EventInfo:88844:2",
+      "jp": "なんてことデス……",
+      "en": "How terrible...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75117,
+      "id": "db_EventInfo:88846:9",
+      "jp": "【『魔海要塞キングホエール』】は、常軌を逸した空飛ぶ要塞、ということであるな",
+      "en": "So, the 'King Whale Sea Fortress' is a crazy flying fortress.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 75118,
+      "id": "db_EventInfo:88847:21",
+      "jp": "でも、見える位置にいるってことは、あまり高く飛ぶことはできないかもしれないわね",
+      "en": "But since we can see it, maybe it can't fly very high.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 75119,
+      "id": "db_EventInfo:88848:12",
+      "jp": "そうですね。空を飛ぶ要塞であれば、こちらを攻めるのも容易ですが",
+      "en": "Right. If it's a flying fortress, attacking us would be easy.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75120,
+      "id": "db_EventInfo:88849:12",
+      "jp": "動かないということは、あの一帯から離れられないのかもしれません",
+      "en": "The fact that it's not moving might mean it can't leave that area.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75121,
+      "id": "db_EventInfo:88850:22",
+      "jp": "あるいはそういう機能を使えないのかもしれませんけども",
+      "en": "Or maybe it just can't use that function right now.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 75122,
+      "id": "db_EventInfo:88851:25",
+      "jp": "だとしても、兵器がないとも思えないですぞ。あんなに頑丈なヤツなんですからな",
+      "en": "Even so, I doubt it's unarmed. That thing is way too sturdy.",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 75123,
+      "id": "db_EventInfo:88852:12",
+      "jp": "ですね……その兵器を使ってないだけかもしれません",
+      "en": "Maybe... they're just not using that weapon yet.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75124,
+      "id": "db_EventInfo:88853:1",
+      "jp": "急いで破壊しないとな",
+      "en": "I need to destroy it quickly.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75125,
+      "id": "db_EventInfo:88854:22",
+      "jp": "でも、どうやって破壊するのですか？",
+      "en": "But how do we destroy it?",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 75126,
+      "id": "db_EventInfo:88855:8",
+      "jp": "ミルテの魔術でもぜんぜん倒せない相手なんだよぉ",
+      "en": "Myrte's magic couldn't beat it at all.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 75127,
+      "id": "db_EventInfo:88856:21",
+      "jp": "足止めをするだけでも、【<pl>】様が死にかけてしまったのに",
+      "en": "Just slowing it down nearly got 【<pl>】-sama killed.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 75128,
+      "id": "db_EventInfo:88857:12",
+      "jp": "……やはり【『大禁呪エクスティンクション』】を使うしかありませんね",
+      "en": "...It looks like we have to use the 【Great Taboo Spell 'Extinction'】.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75129,
+      "id": "db_EventInfo:88859:0",
+      "jp": "レミルはちらりとこちらを見た。",
+      "en": "Remil glanced over here.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75130,
+      "id": "db_EventInfo:88861:0",
+      "jp": "レミルが魔力を覚醒させたことで、【『大禁呪エクスティンクション』】を使用可能になった。",
+      "en": "Because Remil awakened her magic power, the 【Great Taboo Spell 'Extinction'】 became usable.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75131,
+      "id": "db_EventInfo:88862:12",
+      "jp": "とにかく、【『魔海要塞キングホエール』】を破壊する手段は確保できましたね",
+      "en": "Anyway, we have a way to destroy the 【King Whale Sea Fortress】 secured now.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75132,
+      "id": "db_EventInfo:88863:115",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75133,
+      "id": "db_EventInfo:88864:7",
+      "jp": "そういや、どうやって行くんだい？",
+      "en": "Hey, speaking of which, how do we get there?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 75134,
+      "id": "db_EventInfo:88865:25",
+      "jp": "ま、また軍艦を使えばよろしいのでは？",
+      "en": "Uh, w-we can just use a warship again, right?",
+      "speaker": "Armany",
+      "speaker_jp": "アーマニー"
+    },
+    {
+      "n": 75135,
+      "id": "db_EventInfo:88866:2",
+      "jp": "そんな必要ないデス",
+      "en": "No need for that.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75136,
+      "id": "db_EventInfo:88867:2",
+      "jp": "一度密接したのだから、【『死神パワー』】でワープすりゃいいデス",
+      "en": "Since we're already close, we can just warp using Shinigami power.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75137,
+      "id": "db_EventInfo:88868:1",
+      "jp": "身も蓋もない！",
+      "en": "That's way too simple!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75138,
+      "id": "db_EventInfo:88870:15",
+      "jp": "【『大禁呪エクスティンクション』】！？",
+      "en": "The Grand Forbidden Spell: Extinction?!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75139,
+      "id": "db_EventInfo:88871:15",
+      "jp": "そりゃまた、大層なモノを引っ張り出してきちゃったものだね",
+      "en": "Wow, you've pulled out something really big.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75140,
+      "id": "db_EventInfo:88872:15",
+      "jp": "ああそうか、【『奈落の姉妹』】が居るんだから発動可能だよね",
+      "en": "Oh right, it's possible to cast because the Sisters of the Abyss are here.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75141,
+      "id": "db_EventInfo:88873:1",
+      "jp": "知っているのか？",
+      "en": "You know about it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75142,
+      "id": "db_EventInfo:88874:15",
+      "jp": "えっ？",
+      "en": "Huh?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75143,
+      "id": "db_EventInfo:88875:15",
+      "jp": "いやあ、あはは！　【『大禁呪』】っていうんだから、きっと危ない魔術なんだろうね",
+      "en": "No, ahaha! Well, it's called a Grand Forbidden Spell, so it must be dangerous magic, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75144,
+      "id": "db_EventInfo:88876:15",
+      "jp": "オッケー、港の方や海軍には避難の指示を出しておくよ",
+      "en": "Okay, I'll give the order for the port and the navy to evacuate.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75145,
+      "id": "db_EventInfo:88877:1",
+      "jp": "……？　海軍は一緒に戦うんじゃないのか？",
+      "en": "...? Isn't the navy going to fight with us?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75146,
+      "id": "db_EventInfo:88878:15",
+      "jp": "冗談言わないでくれよ！　そんなことしたら大変なことになるよ！",
+      "en": "Don't joke about that! That would cause a huge problem!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75147,
+      "id": "db_EventInfo:88880:0",
+      "jp": "よく分からないが、海に展開している人々の誘導は、デシルスに任せることにした。",
+      "en": "I don't really get it, but I decided to let Desilus handle guiding the people out at sea.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75148,
+      "id": "db_EventInfo:88881:1",
+      "jp": "ここが魔海要塞の中か",
+      "en": "So this is the inside of the Demon Sea Fortress.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75149,
+      "id": "db_EventInfo:88882:6",
+      "jp": "海底都市にも驚かされましたが、海中を移動する要塞だなんて、凄まじい技術ですわね",
+      "en": "I was amazed by the underwater city, but a fortress that moves through the sea? The technology is incredible.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75150,
+      "id": "db_EventInfo:88883:108",
+      "jp": "まったくじゃな。せっかくの技術なのだから、もっといい事に使えばよかろうに",
+      "en": "Isn't it just. They should use such advanced tech for something better.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75151,
+      "id": "db_EventInfo:88884:7",
+      "jp": "うーん、古代の要塞かぁ……何か使えそうな素材とかありそうだけどね",
+      "en": "Hmm, an ancient fortress... There's probably some useful materials lying around, huh?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 75152,
+      "id": "db_EventInfo:88885:3",
+      "jp": "変な物を触って、罠を発動させたりするでないぞ",
+      "en": "Don't go touching strange things and setting off traps.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75153,
+      "id": "db_EventInfo:88886:12",
+      "jp": "発掘すれば高値で取引されている素材などもありそうですが……今はそれどころではありませんね",
+      "en": "If we excavated it, we'd likely find materials that sell for a high price... but now's not the time for that.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75154,
+      "id": "db_EventInfo:88887:2",
+      "jp": "それにキングホエールのドタマは宝石島デスからね。叩き壊したら、領主権限で島ごと領地にしてやるデス！",
+      "en": "Besides, King Whale's head is a gem island, desu. After we smash it, I'll claim the whole island as territory using my lord authority, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75155,
+      "id": "db_EventInfo:88888:2",
+      "jp": "ふふふ……あれだけの巨体が全部宝石デス！　大儲け間違いなしデス！！！",
+      "en": "Hehehe... A body that huge made entirely of gems, desu! We're gonna make a fortune for sure, desu!!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75156,
+      "id": "db_EventInfo:88889:1",
+      "jp": "緊張感ないな……",
+      "en": "There's no sense of tension here...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75157,
+      "id": "db_EventInfo:88890:0",
+      "jp": "キングホエールの制御室はノーザリアの兵士が守っているだろう。",
+      "en": "The King Whale's control room is probably guarded by Nosalia's soldiers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75158,
+      "id": "db_EventInfo:88891:1",
+      "jp": "連中は古代兵器で武装しているはずだ。気を付けよう",
+      "en": "They're likely armed with ancient weapons. Let's be careful.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75159,
+      "id": "db_EventInfo:88893:0",
+      "jp": "一方その頃……。",
+      "en": "Meanwhile, back then...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75160,
+      "id": "db_EventInfo:88895:24",
+      "jp": "【<pl>】様……達が、この【『魔海要塞』】にやってきたようです",
+      "en": "【<pl>】 and the others seem to have arrived at this Demon Sea Fortress.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75161,
+      "id": "db_EventInfo:88896:23",
+      "jp": "おお、ようやく来なはったか",
+      "en": "Oh, they finally came.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75162,
+      "id": "db_EventInfo:88897:24",
+      "jp": "海竜に呑まれたみたいなことを、ウワサで聞いたときはどうしようかと思いましたが",
+      "en": "When I heard the rumor they were swallowed by a sea dragon, I was worried.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75163,
+      "id": "db_EventInfo:88898:23",
+      "jp": "やっぱ【<pl>】はんやなぁ。ちゃんと世界を救うために来てくれはったわけやなД",
+      "en": "I knew it, it's 【<pl>】. They really came to save the worldД.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75164,
+      "id": "db_EventInfo:88899:23",
+      "jp": "ノーザリアの軍隊もたくさん用意したで、頑張ってウチの所に来てなД",
+      "en": "I've got a big Northalia army ready. Do your best to get hereД.",
+      "speaker": "Northlinde",
+      "speaker_jp": "ノースリンデ"
+    },
+    {
+      "n": 75165,
+      "id": "db_EventInfo:88900:24",
+      "jp": "ええ。あの方にはたっぷりと礼をさせていただきましょうД",
+      "en": "Yes. We'll have to thank them properlyД.",
+      "speaker": "Shelfi",
+      "speaker_jp": "シェルフィ"
+    },
+    {
+      "n": 75166,
+      "id": "db_EventInfo:88901:27",
+      "jp": "よっしゃあ！　今度こそアタシの原稿を狙う悪党どもをジェノサイドしてやるよ！",
+      "en": "All right! This time I'm gonna genocide those villains after my manuscript!",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75167,
+      "id": "db_EventInfo:88902:1",
+      "jp": "アーマニーのヤツ、張り切ってるな",
+      "en": "Armany's really fired up.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75168,
+      "id": "db_EventInfo:88903:5",
+      "jp": "ところでアーマニー様は海の上以外ではダメそうな方と思いましたが……大丈夫ですの？",
+      "en": "By the way, I thought Armany-sama was not good except over the sea... is she okay?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 75169,
+      "id": "db_EventInfo:88904:27",
+      "jp": "何言ってるんだい？　クジラが泳いでるんだから海に決まってるじゃないか",
+      "en": "What are you talking about? There are whales swimming, so of course it's the sea.",
+      "speaker": "Empress Armany",
+      "speaker_jp": "アーマニー(女帝)"
+    },
+    {
+      "n": 75170,
+      "id": "db_EventInfo:88905:10",
+      "jp": "そ、そうか、ここは海だったのか。いや、海はどこまでも続いている……陸にも空にも……",
+      "en": "R-right, so this is the sea. No, the sea goes on forever... over land and sky too...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75171,
+      "id": "db_EventInfo:88906:4",
+      "jp": "はは、何言ってんだ？　海は海、空は空じゃねーか？",
+      "en": "Haha, what are you talking about? The sea is the sea, the sky is the sky, right?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 75172,
+      "id": "db_EventInfo:88907:1",
+      "jp": "そうだぞエリオルダ、しっかりしろ！",
+      "en": "That's right, Eliorda, get a grip!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75173,
+      "id": "db_EventInfo:88908:10",
+      "jp": "う、うむ、そうだな……！　ここは海だ！",
+      "en": "R-right, you're right...! This is the sea!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75174,
+      "id": "db_EventInfo:88909:0",
+      "jp": "大丈夫じゃなさそうだな……。",
+      "en": "She doesn't seem okay...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75175,
+      "id": "db_EventInfo:88910:5",
+      "jp": "エリオルダ様まで海判定してしまいましたわね",
+      "en": "Even Lady Eliorda is seeing it as the sea now.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 75176,
+      "id": "db_EventInfo:88911:2",
+      "jp": "しかしアーマニーの奴がいつものへっぽこ作家モードじゃないのは助かるデス",
+      "en": "But it helps that Armany isn't in his usual useless writer mode this time.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75177,
+      "id": "db_EventInfo:88912:2",
+      "jp": "縁が強くなって、地上の呪いが緩和されてるデスかね？",
+      "en": "Is it because the bond is stronger, easing the earthly curse desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75178,
+      "id": "db_EventInfo:88914:11",
+      "jp": "【<pl>】君、あれを見て！",
+      "en": "【<pl>】, look over there!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 75179,
+      "id": "db_EventInfo:88915:17",
+      "jp": "【『ゴブリン』】です",
+      "en": "【『Goblin』】 desu.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 75180,
+      "id": "db_EventInfo:88916:0",
+      "jp": "促された方向を見ると、【『ゴブリン』】がわらわらと群れを成していた。",
+      "en": "Looking in the direction she pointed, a horde of 【『Goblin』】 was swarming together.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75181,
+      "id": "db_EventInfo:88917:8",
+      "jp": "わわ、お兄ちゃん、囲まれてるみたいだよ！",
+      "en": "Whoa, big bro, it looks like we're surrounded!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 75182,
+      "id": "db_EventInfo:88918:1",
+      "jp": "どうしてこんなところに【『ゴブリン』】が！？",
+      "en": "Why are there 【『Goblin』】 in a place like this!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75183,
+      "id": "db_EventInfo:88919:9",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】が繁殖させていた【『ゴブリン』】が逃げ出したであるか？",
+      "en": "The Goblins that the Solcia Academy was breeding... did they escape?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 75184,
+      "id": "db_EventInfo:88920:106",
+      "jp": "あるいは、兵器にしていた奴らが増えたとかかもな",
+      "en": "Or maybe, the ones they were using as weapons just multiplied.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75185,
+      "id": "db_EventInfo:88921:2",
+      "jp": "まったく、どこにでも現れるデスね！",
+      "en": "Seriously, they show up everywhere!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75186,
+      "id": "db_EventInfo:88922:17",
+      "jp": "寄ってくるとは都合がいい。ここで皆殺しにしましょう",
+      "en": "They're coming to us? That's convenient. Let's kill them all right here.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 75187,
+      "id": "db_EventInfo:88924:0",
+      "jp": "道の先には【『ゴブリン』】の群れが待ち構えていた。",
+      "en": "A group of Goblins was waiting down the road.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75188,
+      "id": "db_EventInfo:88925:1",
+      "jp": "どうやら戦わないわけにはいかないようだな",
+      "en": "Looks like we have to fight.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75189,
+      "id": "db_EventInfo:88926:10",
+      "jp": "そうだな。ここで始末した方がいいだろう",
+      "en": "Yeah. We'd better finish them off here.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75190,
+      "id": "db_EventInfo:88927:105",
+      "jp": "うむ、突破ではなく、殲滅だな",
+      "en": "Right. Not a breakthrough, but annihilation.",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75191,
+      "id": "db_EventInfo:88928:11",
+      "jp": "任せて、お姉ちゃんが守ってあげる！",
+      "en": "Leave it to me, I'll protect you guys!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 75192,
+      "id": "db_EventInfo:88929:9",
+      "jp": "【『ゴブリン』】とは言え油断は禁物であるぞ！",
+      "en": "Even though they're Goblins, don't let your guard down!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 75193,
+      "id": "db_EventInfo:88930:17",
+      "jp": "結構です。皆さん、速やかに殲滅し、バラバラに引き裂いてしまいましょう",
+      "en": "No need. Everyone, quickly wipe them out, tear them to pieces.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 75194,
+      "id": "db_EventInfo:88931:1",
+      "jp": "ふう、やったか……",
+      "en": "Phew, did we do it...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75195,
+      "id": "db_EventInfo:88932:10",
+      "jp": "それにしても【<pl>】殿、素晴らしい動きだぞ。復活して、別人のような剣の冴えだ！",
+      "en": "You know, 【<pl>】, your moves are amazing. Ever since you came back, your sword skills are sharp as hell, like you're a whole new person!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75196,
+      "id": "db_EventInfo:88933:105",
+      "jp": "はは、そりゃそうだ、【<pl>】殿だからな！",
+      "en": "Haha, yeah, of course! That's our 【<pl>】 for you!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75197,
+      "id": "db_EventInfo:88934:1",
+      "jp": "そうか？　そうだったかな……？",
+      "en": "Huh? Is that how it seems?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75198,
+      "id": "db_EventInfo:88935:0",
+      "jp": "俺は取り戻した自分の力と一緒に、託された力が体中を駆け巡るのを感じていた。",
+      "en": "I could feel my own power, the strength I got back, and also a different kind of power flowing through me, all at once.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75199,
+      "id": "db_EventInfo:88936:11",
+      "jp": "【<pl>】君、無理はしないでね？　疲れたらお姉ちゃんに頼っていいからねД",
+      "en": "Don't push yourself too hard, 【<pl>】. If you're tired, you can always lean on your big sisД",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 75200,
+      "id": "db_EventInfo:88937:8",
+      "jp": "ずるーいД　ルーシェにも頼ってよぉД",
+      "en": "No fairД Don't forget you can lean on Lusche tooД",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    }
+  ]
+}

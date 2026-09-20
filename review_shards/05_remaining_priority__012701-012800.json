@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 12701,
+  "range_end": 12800,
+  "pairs": [
+    {
+      "n": 12701,
+      "id": "rem_43788",
+      "jp": "美食Lv2・冒険者への仕入依頼",
+      "en": "Gourmet Lv2: Request to Adventurers",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12702,
+      "id": "rem_43789",
+      "jp": "ウルフィナに邪魔をされて、仕事にならないらしい。美食の殿堂の建物を大きくする。この程度でウルフィナが大人しくなるとは思えないが。",
+      "en": "Wolfina is interfering and work can't get done. Expand the Gourmet Hall. Doubt this will calm her down.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12703,
+      "id": "rem_43790",
+      "jp": "美食Lv4・殿堂のサイズアップ",
+      "en": "Gourmet Lv4: Hall Size-Up",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12704,
+      "id": "rem_43791",
+      "jp": "【魔界料理】の仕事を手伝っている冒険者達が、どういう料理ができるか興味を示しているらしい。大衆料理屋を作って認知を広めよう。",
+      "en": "Adventurers helping with 【Demon World Cuisine】 seem curious about it. Build a restaurant to raise awareness.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12705,
+      "id": "rem_43792",
+      "jp": "美食Lv6・大衆向け料理店の建設",
+      "en": "Gourmet Lv6: Build a Restaurant",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12706,
+      "id": "rem_43793",
+      "jp": "本格的に【魔界料理】を広めるため、料理教室を開きたいらしい。『人間界』にも馴染む【魔界料理】を開発したいとのことだ。",
+      "en": "To seriously spread 【Demon World Cuisine】, they want to open a cooking school. Want to develop cuisine suited for the 『Human World』.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12707,
+      "id": "rem_43794",
+      "jp": "美食Lv8・魔界料理の教室を開く",
+      "en": "Gourmet Lv8: Open a Demon Cuisine School",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12708,
+      "id": "rem_43795",
+      "jp": "『魔界のフルコース』を作るための『魔界五大珍味』の在処の調査に手間取っているらしい。その調査を進めるために、彼女実家である『グラット』の人間を呼びたいそうだ。召喚装置を拡張しよう。",
+      "en": "Stuck investigating locations for the 『Five Rare Delicacies』 needed for a 『Demon World Full Course』. Want to call people from her hometown 『Glatt』 to help. Expand the summoning device.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12709,
+      "id": "rem_43796",
+      "jp": "美食Lv10・さらなる料理素材を求めて",
+      "en": "Gourmet Lv10: Seeking More Ingredients",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12710,
+      "id": "rem_43797",
+      "jp": "以前コッペリナのために調整した召喚装置を操作したとき、野良の『淫魔』が増えていることがわかったらしい。『淫魔』たちが悪さをしないように、ルーシェたちと共に、淫魔の働き口を作ろう。",
+      "en": "After operating the device adjusted for Koppelina, they found stray 『Succubi』 have increased. With Lusche, find jobs for them so they don't cause trouble.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12711,
+      "id": "rem_43798",
+      "jp": "美食Lv12・淫魔の仕事場を探す",
+      "en": "Gourmet Lv12: Find Succubus Jobs",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12712,
+      "id": "rem_43799",
+      "jp": "魔界の食材を『人間界』で安定供給できるように、【食材プラント】を建築する。ダンジョン規模の区画を管理し、食用の魔獣を育てるらしい。莫大なコストがかかるが、やる価値はある。",
+      "en": "Build a 【Food Plant】 for stable supply of demon world ingredients in the 『Human World』. It manages a dungeon-scale section, raising edible demon beasts. Huge cost, but worth it.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12713,
+      "id": "rem_43800",
+      "jp": "美食Lv15・大規模食材プラントの建設",
+      "en": "Gourmet Lv15: Build Large Food Plant",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12714,
+      "id": "rem_43801",
+      "jp": "ハーヴェスタとノースリンデは、『セグルメット聖薬会』とコネができたことをきっかけに、『聖都』に進出を企てているらしい。ほっとけばろくでもないことをしそうにないが、『聖都』の牽制も必要だろうか。",
+      "en": "Harvester and Northlinde plan to expand into the 『Holy Capital』, thanks to connections with the 『Segulmet Saintly Medicine Society』. They're up to no good. Might need to check the 『Holy Capital』.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12715,
+      "id": "rem_43802",
+      "jp": "聖薬会Lv2・ハーヴェスタたちに支援",
+      "en": "Saintly Medicine Lv2: Support Harvester",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12716,
+      "id": "rem_43803",
+      "jp": "新しいポーション工場の建設支援をマルガレータさんに依頼した。ポーションが色んな人の役に立つなら、投資する意義は大いにあるだろう。",
+      "en": "Asked Ms. Margareta to support a new potion factory. If potions help people, it's a worthy investment.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12717,
+      "id": "rem_43804",
+      "jp": "聖薬会Lv4・新しいポーション工場",
+      "en": "Saintly Medicine Lv4: New Potion Factory",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12718,
+      "id": "rem_43805",
+      "jp": "ハーヴェスタたちが、『セグルメット聖薬会』が扱う重要素材の一覧を手に入れたらしい。その中にはゼカリウス地方の特産があり、入手経路を掌握することで、聖薬会に有利になれるとのことだ。",
+      "en": "Harvester got a list of key materials handled by the 『Segulmet Saintly Medicine Society』. Includes Zecarius specialties. Controlling the supply chain gives an advantage.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12719,
+      "id": "rem_43806",
+      "jp": "聖薬会Lv8・重要素材の掌握",
+      "en": "Saintly Medicine Lv8: Control Key Materials",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12720,
+      "id": "rem_43807",
+      "jp": "【名もなき大魔女】のレシピに記されていた美容用ポーション。ネルディーネは美容ポーションを精製して、多額の利益を得ようともくろんでいる。ネックだったコストダウンの課題もクリアしているとのことだ。",
+      "en": "A beauty potion from 【Nameless Archwitch】's recipe. Neldine plans to make it for big profit. The cost issue has been solved.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12721,
+      "id": "rem_43808",
+      "jp": "聖薬会Lv12・美容ポーション販売計画",
+      "en": "Sacred Medicine Society Lv12 - Beauty Potion Sales Plan",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12722,
+      "id": "rem_43809",
+      "jp": "ネルディーネが画策した美容ポーション販売が切っ掛けで、『セグルメット聖薬会』は天文学的な損失を被り、壊滅的なダメージを受けたそうだ。このまま放置したら、新たな火種になってしまうだろう。",
+      "en": "Neldine's beauty potion scheme has reportedly bankrupted the 'Segurmet Sacred Medicine Society'. If left unchecked, it could spark a new crisis.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12723,
+      "id": "rem_43810",
+      "jp": "聖薬会Lv15・聖薬会の危機を救う",
+      "en": "Sacred Medicine Society Lv15 - Save the Sacred Medicine Society",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12724,
+      "id": "rem_43811",
+      "jp": "『鍛鉄の街フレスミス』への支援だが、フレスミスの住人が使い込んでしまったらしい。かなりの額を送ったはずだが……。せっかくの大金を使いこなせないなら、もう一回投資しても大丈夫か？",
+      "en": "The aid sent to the 'Forge City of Fresmice' was apparently misused by the residents. It was a large sum... Should we invest again if they can't handle money?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12725,
+      "id": "rem_43812",
+      "jp": "鍛鉄街Lv2・フレスミス住人を助ける",
+      "en": "Forge City Lv2 - Aid the Fresmice Residents",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12726,
+      "id": "rem_43813",
+      "jp": "『鍛鉄の街フレスミス』と『ドルワミール鉱山』の関係は修復しつつあり、ついに交易が再開されるという。『フレスミス森林道』を再整備して、交易を復活させよう。",
+      "en": "Relations between the 'Forge City of Fresmice' and 'Dorwamir Mine' are improving. Let's reopen trade by restoring the 'Fresmice Forest Road'.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12727,
+      "id": "rem_43814",
+      "jp": "鍛鉄街Lv4・フレスミス森林道の整備",
+      "en": "Forge City Lv4 - Restore the Fresmice Forest Road",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12728,
+      "id": "rem_43815",
+      "jp": "『鍛鉄の街フレスミス』は心を入れ替えた。彼らはやる気を出し、鍛冶屋の仕事を求めている。今の彼らに必要なのは、大量の仕事の発注だ。大量生産の発注を行なおう。",
+      "en": "Fresmice has reformed. They're eager for work and seek new blacksmithing orders. They need a major production contract now.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12729,
+      "id": "rem_43816",
+      "jp": "鍛鉄街Lv6・大量発注に挑戦",
+      "en": "Forge City Lv6 - Attempt a Mass Order",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12730,
+      "id": "rem_43817",
+      "jp": "『鍛鉄の街フレスミス』の次の課題は、半端に身についた技術の研鑽だ。ドルガノンとアンジュはドワーム族との徒弟制度を復活させるという。彼らの説得も成功して、再び弟子を取るドワーム族も現れている。彼らに場所を提供しよう。",
+      "en": "The next step for Fresmice is honing their skills. Dorganon and Anju aim to revive the Dwarm apprenticeship system. They've convinced some Dwarm to take apprentices again. We should provide a venue.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12731,
+      "id": "rem_43818",
+      "jp": "鍛鉄街Lv8・ドワーム徒弟制度の復活",
+      "en": "Forge City Lv8 - Revive the Dwarm Apprenticeship System",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12732,
+      "id": "rem_43819",
+      "jp": "ドワーム族との徒弟制度が復活し、『鍛鉄の街フレスミス』の職人も力を付け始めた。今の彼らの仕事は、これまでの半端な工房では力不足だ。ドワームの技術に耐えられる、強靱で大規模な工房を建築しよう。",
+      "en": "With apprenticeships revived, Fresmice's craftsmen are growing stronger. Their current workshops are inadequate. Let's build a large, sturdy workshop fit for Dwarm techniques.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12733,
+      "id": "rem_43820",
+      "jp": "鍛鉄街Lv10・工房の大規模建築",
+      "en": "Forge City Lv10 - Construct a Large Workshop",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12734,
+      "id": "rem_43821",
+      "jp": "最近のならずものの大量発生は、ゼカリウスへの人口流入が原因の一つらしい。そして今の『鍛鉄の街フレスミス』はそれらの人口流入を受け入れる余地がある。必要なのは、街の区画だ。",
+      "en": "The recent influx of ruffians is partly due to migration to Zecarius. Fresmice now has room to absorb some of this population. They need a new city district.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12735,
+      "id": "rem_43822",
+      "jp": "鍛鉄街Lv12・鍛鉄街の拡張",
+      "en": "Forge City Lv12 - Expand the Forge City",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12736,
+      "id": "rem_43823",
+      "jp": "拡張された『鍛鉄の街フレスミス』は西方への交易拠点になり得るらしい。ここから商業街や宗教組織を誘致することもできるだろう。『王都』や『聖都』への備えとして、投資する価値はありそうだ。",
+      "en": "The expanded 'Forge City of Fresmice' could become a trade hub to the west. We can attract merchants and religious groups. Worth investing in, as preparation against the 'Royal' and 'Holy' Capitals.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12737,
+      "id": "rem_43824",
+      "jp": "鍛鉄街Lv15・交易拠点への発展",
+      "en": "Forge City Lv15 - Develop into a Trade Hub",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12738,
+      "id": "rem_43825",
+      "jp": "ハヅキさんが作っている修練場の資金が不足しているらしい。『最果ての修練場』を完成させるために、さらなる投資を行なおう。",
+      "en": "Hazuki is short on funds for the training ground she's building. Let's invest more to complete the 'Edge of the World Training Ground'.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12739,
+      "id": "rem_43826",
+      "jp": "修練場Lv2・ハヅキさんのリクエスト",
+      "en": "Training Ground Lv2 - Hazuki's Request",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12740,
+      "id": "rem_43827",
+      "jp": "『最果ての修練場』とは別に、半魔の里の融資を頼まれた。元領主ゼルカの屋敷跡地を、より良い居住地にするためらしいが……何を作っているのだろう？",
+      "en": "Besides the training ground, we've been asked to finance a project in the Half-Demon Village. They want to improve the former lord Zelka's estate into better housing... What are they building?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12741,
+      "id": "rem_43828",
+      "jp": "修練場Lv6・半魔の里の建設支援",
+      "en": "Training Ground Lv6: Support for Demihuman Village Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12742,
+      "id": "rem_43829",
+      "jp": "ハヅキさんか建設している半魔の里の設備をさらに強化したいらしい。シイネは渋っているが、彼女らが安心して住める場所を作ることは領主として重要だろう。",
+      "en": "Hazuki wants to further improve the facilities of the demihuman village she's building. Shiine is reluctant, but creating a safe home for them is important for a lord.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12743,
+      "id": "rem_43830",
+      "jp": "修練場Lv8・半魔の里の移住支援",
+      "en": "Training Ground Lv8: Support for Demihuman Village Relocation",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12744,
+      "id": "rem_43831",
+      "jp": "『最果ての修練場』とは別に、もっとダウングレードした、個人向けの低級修練所を作りたいらしい。優秀な人材を育てることは、ゼカリウスにとっても大事なことだ。",
+      "en": "Aside from the 'Apex Training Ground,' they want to build a more downscaled, low-level facility for individuals. Nurturing talented people is important for Zecarius too.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12745,
+      "id": "rem_43832",
+      "jp": "修練場Lv10・ダウングレード修練場建設",
+      "en": "Training Ground Lv10: Downgraded Training Ground Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12746,
+      "id": "rem_43833",
+      "jp": "『最果ての修練場』のすべてを突破した。これでようやく修練場を封印することができる。これが最後の事業投資になるだろう。",
+      "en": "You've conquered everything in the 'Apex Training Ground.' Now you can finally seal it away. This will be the final business investment.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12747,
+      "id": "rem_43834",
+      "jp": "修練場Lv15・最果ての修練場の封印",
+      "en": "Training Ground Lv15: Seal of the Apex Training Ground",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12748,
+      "id": "rem_43835",
+      "jp": "暴食の魔族『グラット』こと魔界料理人コッペリナが立ち上げた、魔界の料理を『人間界』に広める組織。主に魔界の食材や植物を使用し、癖になる食感と味は美食家も唸らせる。『人間界』には影響ないはず。",
+      "en": "An organization founded by the Gluttony Demon 'Glatt,' the demon world chef Koppelina, to spread demon world cuisine to the 'human world.' It mainly uses demon world ingredients. Its addicting texture and taste impress even gourmets. It shouldn't affect the 'human world.'",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12749,
+      "id": "rem_43836",
+      "jp": "美食の殿堂クルクドール",
+      "en": "Gourmet Palace Krukudoru",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12750,
+      "id": "rem_43837",
+      "jp": "『聖都セグルメット』を中心に影響力を持つ、薬聖マルグレッテが立ち上げた組織。大陸の薬師を取りまとめる。魔女のお茶会とは同ジャンルのライバル組織になるが、それよりもはるかに規模が大きい。",
+      "en": "An organization founded by the Medicine Saint Margrette, centered around the Holy City of Segurmette. It organizes alchemists across the continent. It's a rival organization to the Witch's Tea Party in the same field, but far larger in scale.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12751,
+      "id": "rem_43838",
+      "jp": "セグルメット聖薬会",
+      "en": "Segurmette Holy Medicine Association",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12752,
+      "id": "rem_43839",
+      "jp": "かつてフレスミス森林道と共に、ドワーム族の技を伝えられていた者達。消滅した街に投資して新たな街として再生された。かつての過ちを清算し、新しい鍛冶と職人の町として再出発しようとしている。投資が成功すれば一大工業地帯になるだろう。",
+      "en": "Those who once learned the skills of the Dwarm clan along the Fresmis Forest Road. They invested in a vanished town, reviving it as a new city. They seek to atone for past mistakes and start anew as a town of blacksmiths and artisans. If successful, it could become a major industrial zone.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12753,
+      "id": "rem_43840",
+      "jp": "鍛鉄の街フレスミス",
+      "en": "Forging Town Fresmis",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12754,
+      "id": "rem_43841",
+      "jp": "メイドのハヅキが『退魔の一族』のために趣味と実益を兼ねて作った謎の施設。古今東西のツワモノの影を召喚できるという装置のようだ。ついでに【半魔】の者達に社会的な立場を作らせる支援も求めてくるようだ。",
+      "en": "A mysterious facility built by the maid Hazuki for the 'Exorcist Clan,' mixing her hobby with practical use. It seems to be a device that can summon shadows of mighty figures from across time. She also requests support in creating a social standing for 【demi】humans.",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12755,
+      "id": "rem_43842",
+      "jp": "最果ての修練場",
+      "en": "Apex Training Ground",
+      "table": "db_ClubToushiOrganization",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12756,
+      "id": "rem_43843",
+      "jp": "表面を硬く焼き上げ、内側にモチモチとした食感を実現したパン。カリカリ好きにはたまらない一品。",
+      "en": "A bread with a hard, baked crust and a chewy, mochi-like inside. An irresistible treat for those who love crunch.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12757,
+      "id": "rem_43844",
+      "jp": "超硬度のバゲット",
+      "en": "Ultra-Hard Baguette",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12758,
+      "id": "rem_43845",
+      "jp": "聖女マリーゼルの祝福を受けたと宣伝されているピザ。信心深い人間が大金を捧げても欲しがる他、味もトップクラス。",
+      "en": "A pizza advertised as being blessed by Saint Marisel. Devout humans are willing to pay fortunes for it, and its taste is top-class.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12759,
+      "id": "rem_43846",
+      "jp": "聖女マリーゼルのピザ",
+      "en": "Saint Marisel's Pizza",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12760,
+      "id": "rem_43847",
+      "jp": "北方の大国ノーザリアに伝わる伝統的なシチュー。体の底から温まる一杯は、この上ない安心感をもたらすが、軍事国家ゆえ、食べられる場所は限られる。",
+      "en": "A traditional stew from the northern kingdom of Notherlia. A bowl that warms you to the core brings unparalleled comfort, but being a military state, places to eat it are limited.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12761,
+      "id": "rem_43848",
+      "jp": "ノーザリアビーフシチュー",
+      "en": "Northern Beef Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12762,
+      "id": "rem_43849",
+      "jp": "選ばれたビーフを贅沢に使い、厳選されたバンズとハーブで挟み込んだ。一つで満腹になるほどのボリュームだが、不思議とまた食べたくなる。",
+      "en": "A lavish dish using select beef, sandwiched between premium buns and herbs. Its sheer volume is enough for a full meal, yet you'll strangely crave more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12763,
+      "id": "rem_43850",
+      "jp": "特選グルメバーガー",
+      "en": "Premium Gourmet Burger",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12764,
+      "id": "rem_43851",
+      "jp": "豚肉と野菜を食べやすく切り、ミルクで煮込んだノーザリア伝統の家庭料理。その温かさと安心感に、夜に食べると熟睡できると評判。",
+      "en": "A traditional Northern family dish of pork and vegetables, cut for easy eating and simmered in milk. Its warmth and comfort are renowned for ensuring sound sleep if eaten at night.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12765,
+      "id": "rem_43852",
+      "jp": "とろけるクリームシチュー",
+      "en": "Melting Cream Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12766,
+      "id": "rem_43853",
+      "jp": "まるで絵に描いた肉をそのまま持ってきたような、考案者の要望を完璧に表現した料理。冒険者が宴で出されると歓喜する。",
+      "en": "A dish that perfectly captures its creator's vision, like bringing meat straight from a painting to life. Adventurers rejoice when served this at feasts.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12767,
+      "id": "rem_43854",
+      "jp": "豚のアーマニア焼き",
+      "en": "Pork Armania Grill",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12768,
+      "id": "rem_43855",
+      "jp": "凄まじい速度で走り回るチキンを薬草と共に焼いた料理。弾力に富んだ鳥肉は冒険者に好まれ、薬草成分が心身を癒やしてくれる。",
+      "en": "Chicken that dashes around at incredible speed, grilled with medicinal herbs. Its springy meat is favored by adventurers, and the herbal properties soothe body and mind.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12769,
+      "id": "rem_43856",
+      "jp": "爆走チキンの魔女焼き",
+      "en": "Galloping Chicken Witch Roast",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12770,
+      "id": "rem_43857",
+      "jp": "串に刺して炙ったヤキトリ……のはずなのだが、本当に鳥肉が原料なのだろうか。しかし職人の技が光る肉は、一口食べれば鶏肉とは一線を画す味わいが楽しめる。",
+      "en": "It's supposed to be grilled chicken skewers... but is it really made from bird meat? Yet, the craftsman's skill shines in the meat, offering a taste that's a cut above ordinary chicken.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12771,
+      "id": "rem_43858",
+      "jp": "真マールデ・ヤキトリ",
+      "en": "True Marld Yakitori",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12772,
+      "id": "rem_43859",
+      "jp": "厳選された甲殻類を丸ごと茹で上げ、豪快に盛り付けた一皿。客の前で食べる部分だけを剥いて提供する事で完成するショー料理。",
+      "en": "A show-stopper dish: select shellfish boiled whole and served grandly. It's completed as a performance by shelling only the portion to eat right before the guest.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12773,
+      "id": "rem_43860",
+      "jp": "キラキラロブスター盛り",
+      "en": "Glittering Lobster Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12774,
+      "id": "rem_43861",
+      "jp": "言葉では言い表せない、不思議な食材をライスの上に乗せた逸品。一口食べれば、不思議な食感の虜になる。",
+      "en": "A masterpiece of indescribable, mysterious ingredients served over rice. One bite and you'll be captivated by its strange texture.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12775,
+      "id": "rem_43862",
+      "jp": "名状しがたきスシ",
+      "en": "Inexplicable Sushi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12776,
+      "id": "rem_43863",
+      "jp": "小麦粉を練り、円状に伸ばした生地にチーズと貝類を散りばめ、ソースと共に焼き上げた物。毎日でも食べられる味わいに、買い溜めする人間もいるとか。",
+      "en": "A circle of kneaded, stretched dough topped with cheese and shellfish, baked with sauce. Its addictively daily-friendly taste has some people stocking up.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12777,
+      "id": "rem_43864",
+      "jp": "シーフードピザ",
+      "en": "Seafood Pizza",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12778,
+      "id": "rem_43865",
+      "jp": "大海原に潜む伝説の大海獣の触手を串焼きにしたもの。ニクを串に刺したのだからヤキトリだという声もあるが、考えすぎてわけが分からなくなっているようだ。",
+      "en": "Skewered tentacles of the legendary sea beast that lurks in the ocean depths. Some call it yakitori since it's meat on a stick, but overthinking seems to have blurred the lines.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12779,
+      "id": "rem_43866",
+      "jp": "クラーケンヤキトリ",
+      "en": "Kraken Yakitori",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12780,
+      "id": "rem_43867",
+      "jp": "様々なハーブや獣骨を煮込み、素晴らしい味わいを実現したスープ。蒼いスープに警戒心を抱く者もいるが、海をイメージした豊かな味わいは知る人ぞ知る名品。",
+      "en": "A soup achieving wonderful flavor by simmering various herbs and animal bones. While some are wary of its blue hue, its rich, sea-inspired taste is a connoisseur's secret treasure.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12781,
+      "id": "rem_43868",
+      "jp": "深淵の蒼きスープ",
+      "en": "Abyssal Blue Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12782,
+      "id": "rem_43869",
+      "jp": "東方に伝わる「めだまやき」を再現した。プルプルした生地に「目玉」を配置し蒸し焼きにしたシンプルな料理のはずだが、独自の進化を遂げた料理と評判。",
+      "en": "A recreation of an Eastern \"fried eye.\" A simple steamed dish with wobbly batter and \"eyeballs,\" now renowned for its unique evolution.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12783,
+      "id": "rem_43870",
+      "jp": "めだまの盛り合わせ",
+      "en": "Eyeball Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12784,
+      "id": "rem_43871",
+      "jp": "まるで宝石のような、キラキラしたハーブとベリーを盛りつけたサラダ。見た目で楽しませてくれるだけでなく、さっぱりとした味わいも人気の秘訣。",
+      "en": "A salad of shimmering herbs and berries, arranged like jewels. Its crisp, refreshing taste is as beloved as its dazzling appearance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12785,
+      "id": "rem_43872",
+      "jp": "グリーンベリーサラダ",
+      "en": "Green Berry Salad",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12786,
+      "id": "rem_43873",
+      "jp": "素材そのものが呪詛を吐き続け、美味しく熟成が進んでいくお祭り料理。ただし残してしまうと、呪詛を吐き続けるので呪われてしまう。その際、解呪は別料金だ。",
+      "en": "A festive dish whose ingredients endlessly spew curses, aiding its delicious aging. Leftovers continue cursing, cursing you—de-cursing costs extra.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12787,
+      "id": "rem_43874",
+      "jp": "南瓜のソーサラー焼き",
+      "en": "Sorcerer's Roast Pumpkin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12788,
+      "id": "rem_43875",
+      "jp": "北方の極寒地帯で取れたキノコを煮込んだスープ料理。豊富に含まれるキノコ成分が、一時的に耐寒性を高めてくれる。",
+      "en": "A soup of mushrooms from the northern frozen wastelands. Their rich components temporarily boost cold resistance.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12789,
+      "id": "rem_43876",
+      "jp": "北方のキノコスープ",
+      "en": "Northern Mushroom Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12790,
+      "id": "rem_43877",
+      "jp": "『魔女達のお茶会』考案のおもてなし料理。魔女っぽい料理を出さないと人々にウケないらしく、苦労が察せられる世知辛い一皿だが、味はもちろん一級品。",
+      "en": "A hostess dish devised for the 'Witches' Tea Party.' Must look witchy to please people—a tough world, but the flavor is top-tier.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12791,
+      "id": "rem_43878",
+      "jp": "魔女のびっくりサラダ",
+      "en": "Witch's Surprise Salad",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12792,
+      "id": "rem_43879",
+      "jp": "女主人が懲りずに聖女を使おうとして作った商品。なお、武器に祝福をかけたら壊れた反省を生かし、祝福そのものはかかっていないらしい。",
+      "en": "The mistress's undeterred attempt to use the Saintess. After her blessed weapons broke, she seems to have skipped the actual blessing this time.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12793,
+      "id": "rem_43880",
+      "jp": "マリーゼルの祝福ケーキ",
+      "en": "Marisel's Blessed Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12794,
+      "id": "rem_43881",
+      "jp": "『聖都セグルメット』で名物にしようと画策されていたドーナツ。以前ネルディーネがこっそり売ろうとしていたが、よくわからない力によって破産したらしい。",
+      "en": "A donut once schemed to be a specialty of the Holy Capital. Neldine tried to sell them secretly, but went bankrupt from mysterious forces.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12795,
+      "id": "rem_43882",
+      "jp": "聖都名物ゴッドーナツ",
+      "en": "Holy Capital's Famous God-Nut",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12796,
+      "id": "rem_43883",
+      "jp": "形を整えて携帯しやすいように握ったおにぎり。可愛らしく目を付けたら、たまに喋るようになった。結果、孤独な旅を続ける冒険者の人気商品に。",
+      "en": "Rice balls shaped for easy carrying. Adorned with cute eyes, they sometimes talk. A hit with lonely adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12797,
+      "id": "rem_43884",
+      "jp": "生きてるおにぎり",
+      "en": "Living Rice Ball",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12798,
+      "id": "rem_43885",
+      "jp": "厳選されたコメを、栄養が凝縮された滋味溢れる出汁で煮込んだ料理。一杯で一日の栄養素を満たすほどのロイヤルな料理なのだが、見た目は地味。",
+      "en": "A royal dish of select rice simmered in rich, nutrient-packed broth. One bowl provides a day's nutrition, though it looks humble.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12799,
+      "id": "rem_43886",
+      "jp": "ロイヤル米スープ",
+      "en": "Royal Rice Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 12800,
+      "id": "rem_43887",
+      "jp": "イルニエル地方の漁師絶賛の、アーマニア海の怪魚を釣り上げる為の巨大針。人間が引っかかると骨まで持っていかれてしまうので注意が必要。",
+      "en": "A giant hook praised by Ilnyel fishermen for catching the eerie fish of the Armania Sea. Careful—it can snag a person down to the bone.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

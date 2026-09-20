@@ -1,0 +1,817 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10901,
+  "range_end": 11000,
+  "pairs": [
+    {
+      "n": 10901,
+      "id": "rem_12303",
+      "jp": "ま、まあ、アンタがしてほしいって言うなら、やってあげるけど……Д　手でいいのかしらД",
+      "en": "W-well, if you're saying you want it, I'll do it but…Д Is a handjob okay?Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10902,
+      "id": "rem_12304",
+      "jp": "アーマニーはニックネーム、本名はアーマニアというのでござる。いや、逆でしたかな？　どちらでもよかろうですぞ。ご先祖様は海の主、偉大なる海賊女帝でござったが、海に上がった途端に我らの生活は落ちぶれてしまったのでござる。本当に呪いという感じですな。働きたがらないのは自分だけではありませんぞ？",
+      "en": "Armany is a nickname, my real name is Armania. Or was it the other way around? Either is fine, I suppose. My ancestors were lords of the sea, the great Pirate Queen, but the moment we came ashore, our fortunes declined. Truly feels like a curse. And I'm not the only one who doesn't like to work.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10903,
+      "id": "rem_12305",
+      "jp": "アーマニアの一族は海の上では無敵でありましたが、陸の上では役立たずでござる。そして陸に上がった者たちは皆、役立たずの穀潰しになってしまったのでござる。ご先祖様の威光と功績のおかげで、まあそれなりに食っていける程度には保護されたのではありますが。そんな苦境に陥ったのに、海に戻らなかったのは謎でござるな",
+      "en": "The Armania clan was invincible at sea, but useless on land. And all who came ashore became useless freeloaders. Thanks to our ancestor's prestige and achievements, we're protected enough to get by. It's a mystery why, despite such hardship, we didn't return to the sea.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10904,
+      "id": "rem_12306",
+      "jp": "実はイルニエルの港はアーマニアゆかりの地の一つですな。あの港の漁師は気性が荒く、そこらの冒険者にもひけをとらない者もおります。そういった者たちはアーマニアの血が薄れたことで、呪いも弱まったために海に戻れたのかもしれませんな。私ですかな？　私は地上ではてんで役立たずで……家族はここまでではなかったのですが、隔世遺伝というヤツですかな？",
+      "en": "Actually, Irniel's port is one of the lands connected to Armania. The fishermen there are rough, some not inferior to adventurers. Perhaps those with diluted Armania blood, and thus weaker curses, could return to the sea. Me? I'm utterly useless on land… My family wasn't this bad, must be a case of atavism, I suppose?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10905,
+      "id": "rem_12307",
+      "jp": "ネルディーネ嬢がおっしゃるには、初代アーマニア様は海竜の一族だったとのことですな。それがどのような流れで海の生活を捨てて、陸に上がったかはミステリーですな。水魔や海魔が陸に上がって人間のような生活を営むには、すさまじいペナルティを課せられると聞いておりますぞ。おかげで私らはこんな役立たずに……しかし、それほどの理由があったのでしょうな",
+      "en": "According to Miss Neldine, the first Lady Armania was of the sea dragon clan. How she came to abandon the sea life and move ashore is a mystery. I hear water demons and sea demons who come ashore to live like humans face severe penalties. That's why we're so useless… But there must have been a great reason.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10906,
+      "id": "rem_12308",
+      "jp": "大商人のお嬢さんですな！　あんなに若いのに大きなカネを動かしてうらやま……スゴイでござる。私の本も大量出版してくださらんかなぁ。<pl>氏の方から上手く話を進めてくださらんか？",
+      "en": "The daughter of a great merchant! To handle such large sums at such a young age, how enviable… I mean, amazing. I wonder if she'd mass-publish my books? Could you, <pl>, help talk her into it?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10907,
+      "id": "rem_12309",
+      "jp": "村娘っぽい衣装の牧場娘さんですな。はて、私めのような非戦闘員が他にも宿におられるとは。<pl>氏ったら、あまりかよわい女の子を危険な場所に連れていってはいけませんぞ？　それにしても、なーんか親近感があるんですなぁ。やはり、この魅惑のボディですかな",
+      "en": "A ranch girl dressed like a village maiden, huh? To think there's another non-combatant like me staying here. <pl>, you shouldn't take such delicate girls to dangerous places. Still, I feel some kind of closeness. Must be this alluring body of mine.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10908,
+      "id": "rem_12310",
+      "jp": "ちんまい商人のお嬢さんですな。大金持ちになるのが夢で、商売のネタを常日頃から探しておられるようでござる。しかし、私めの冒険活劇ロマンを売ってみればと提案したら、鼻で笑われたですぞ。まったく、失礼でござる。売れてないのは確かなので反論もできないですが",
+      "en": "A petite merchant's daughter. Her dream is to become rich, always looking for business ideas. But when I suggested selling my adventure romance stories, she laughed in my face. So rude. Can't argue since they're not selling well, though.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10909,
+      "id": "rem_12311",
+      "jp": "え、て、手コキ、ですかな！？　は、はい、やらせていただきますぞ！",
+      "en": "Eh, w-what, a handjob!? Y-yes, I'll do it!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10910,
+      "id": "rem_12312",
+      "jp": "おちんちんを間近で観察できるうえに、射精まで間近で見られて最高ですなД　<pl>氏は反応も可愛いし、創作意欲がビンビンに刺激されますぞД",
+      "en": "Being able to observe a cock up close and watch it cum is the bestД Your reactions are cute too, <pl>, it really stimulates my creative driveД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10911,
+      "id": "rem_12313",
+      "jp": "え、本当にさせるつもりですかな？　やったことないですが、イメージトレーニングはしておりますぞ",
+      "en": "Eh, you're really going to let me? I've never done it, but I've done mental training.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10912,
+      "id": "rem_12314",
+      "jp": "いやー想像より大きいし、精液もいっぱい出るもんですなД　いいネタがもらえましたぞД　今後の原稿にも生かしてみせますので、期待してほしいですぞД",
+      "en": "Whoa, bigger than I imagined, and it cums so muchД Got some great materialД I'll use it in my future manuscripts, so look forward to itД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10913,
+      "id": "rem_12315",
+      "jp": "え、パイズリ……？　うーん、やった事ないですな……原稿映えしない気がしますが、どうなんですかな？",
+      "en": "Huh, titty fucking...? Hmm, I've never done that... I feel like it wouldn't look good in a manuscript, but what do you think?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10914,
+      "id": "rem_12316",
+      "jp": "おっぱいで奉仕すると、精液、結構飛びますなД　眼鏡が汚れるのはちょっと困りますが、顔に散った精液を舐めとるのとか、悪女って感じで中々映えますぞД",
+      "en": "When you service someone with your tits, the cum really flies, doesn't itД It's a bit troublesome when my glasses get dirty, but licking up the cum that splattered on my face, that has quite the villainous vibe and looks pretty goodД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10915,
+      "id": "rem_12317",
+      "jp": "え、オマンコ舐めたい、ですかな？　いや、うぅ、構いませんが……Д　どうなっちゃうのか、ちょっと怖いですぞ",
+      "en": "Huh, you wanna lick my pussy, is that it? No, well, ugh, it's fine but...Д I'm a little scared of what might happenД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10916,
+      "id": "rem_12318",
+      "jp": "はぁぁ、想像以上でしたぞ、<pl>氏Д　クリトリスを撫でるだけだったオナニーよりも、こう、未知？　の快感というか、うまく言葉にできないので、もっとお願いしますぞД",
+      "en": "Haaah, that was beyond what I imagined, <pl>Д Compared to just rubbing my clit when I masturbate, this is, like, unknown? Pleasure is the word, or... I can't put it into words well, so please do moreД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10917,
+      "id": "rem_12319",
+      "jp": "え、セックス……って、セックスですかな！？　いや、その、したい、とは思いますが、あのぉ、初めてですし、自分のような田舎者には、そんな事態は起こらないかと……",
+      "en": "Huh, sex... you mean, sex!? No, well, that, I do want to, but, um, it's my first time, and I thought something like that wouldn't happen to a country bumpkin like me...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10918,
+      "id": "rem_12320",
+      "jp": "おちんちんがお腹の下を這い回るって言うか、気持ちいいところを凄い勢いで擦られる感覚、素晴らしいですぞД　しかし、オナニーが物足りなくなりましたな……Д",
+      "en": "It feels like your dick is squirming around under my stomach, like it's rubbing all the good spots with incredible force, it's amazingД But now, masturbating feels inadequate...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10919,
+      "id": "rem_12321",
+      "jp": "妊娠？　そんな事より締切を何とかして下され！",
+      "en": "Pregnant? Forget that, do something about my deadline!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10920,
+      "id": "rem_12322",
+      "jp": "妊婦さんの気持ちがこんなに幸せなものだとは……デュフフД　作品にもリアリティが出るというものですなД　この幸せを、原稿にぶつけてやりますぞД",
+      "en": "I had no idea a pregnant woman's feelings could be this blissful... tee-heeД It'll add realism to my workД I'm gonna channel this happiness right into my manuscriptД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10921,
+      "id": "rem_12323",
+      "jp": "あのねえ、アンタ、領主なんでしょ？　私にやらせる事じゃないわよね？",
+      "en": "Hey, you're the lord, right? This isn't something for *me* to do, is it?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10922,
+      "id": "rem_12324",
+      "jp": "何よ、またおちんちん、舐めてほしいって？　本当、しょうがないわねД　すぐにビクビクして、射精しちゃうのも、アイツみたいで可愛いし、ちょっとだけならいいわよД",
+      "en": "What now, you want me to suck your dick again? Honestly, you're so hopelessД And you start trembling and cumming right away, just like him, it's kinda cute, so I guess just a little is fineД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10923,
+      "id": "rem_12325",
+      "jp": "何見てんのよ。気付かないとでも思った？",
+      "en": "What are you looking at? Did you think I wouldn't notice?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10924,
+      "id": "rem_12326",
+      "jp": "はぁ、まったく、アンタもおっぱい好きねぇ……Д　まあ、別にウワキじゃないしД　こうなりゃ徹底的に搾り取ってやるんだからД　気持ちのいいとこ、教えなさいよねД",
+      "en": "Haah, seriously, you're a real boob lover too, huh...Д Well, it's not like I'm embarrassedД In that case, I'm gonna milk you dryД So show me all the good spots, alright?Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10925,
+      "id": "rem_12327",
+      "jp": "私は派遣管財人。管財人とは財産を守り管理する者。ならば、宝物庫を寝床にする私は間違っておりませんわねД　金銀財宝が詰まれた財宝ルームは、私にとって最高のリラクゼーションですわД",
+      "en": "I am the dispatched property manager. A property manager is one who protects and manages assets. Therefore, I am not mistaken in making the treasure vault my bedroomД The treasure room filled with gold, silver, and jewels is the ultimate relaxation for meД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10926,
+      "id": "rem_12328",
+      "jp": "<pl>様の宿にはネズミがたくさんおりますわね。管財人として、財を持ち出そうとするネズミには声を掛けさせていただいておりますが、次から次へと懲りないことですわ",
+      "en": "There seem to be many rats in your estate, <pl>-sama. As the property manager, I have been making my presence known to the rats who try to carry off the wealth, but they are relentlessly unrepentant.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10927,
+      "id": "rem_12329",
+      "jp": "<pl>様であれば、ロゼトニック大商会も会員として快く迎えるでしょう。かくいう私も、大商会に推薦されて<pl>様の元に赴いたのです。かの聖王に連なる使徒である商聖ロゼット様が作った大商会、この会員になることは商人にとっての栄誉でございます。是非、考えなさってくださいませД",
+      "en": "If it's <pl>, the Rosetonic Grand Company would gladly welcome you as a member. I myself was recommended by the grand company and sent to <pl>. Joining the grand company founded by Merchant-Saint Rosette, apostle of that Holy King, is an honor for a merchant. Please do consider itД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10928,
+      "id": "rem_12330",
+      "jp": "まあまあД　どうやら私の『<ruby=化身>アバター</ruby>』を打ち倒してしまったようですわね。私は大商会の派遣管財人ではありますが、かの大邪竜の七色の一角を担う海竜でもございます。しかし大商人にして、海竜を仕留める大勇者でもあらせられるとはД　私の竜としての嗅覚はそれだけ優れていたということですわねД　これからも財宝の管理はお任せ下さいませД",
+      "en": "Now nowД Seems you struck down my '<ruby=化身>Avatar</ruby>'. I am a dispatch treasurer of the grand company, and also a sea dragon of the seven colors of that great evil dragon. To be a great merchant and a great hero who fell a sea dragon besidesД That just means my dragon nose was that sharpД Please leave treasure management to me from here tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 10929,
+      "id": "rem_12331",
+      "jp": "自称作家の娘ですわね。海賊で作家というのがよくわからないのですが、実際は海賊ではないのではなくて？　彼女が執筆する本の内容は、なにやらカネのニオイがします。もう少しショックを与えれば、創作者としての目は花開くはずでしょう",
+      "en": "The self-proclaimed writer's daughter, hmm? I don't quite understand 'pirate writer'... isn't she actually not a pirate at all? The content of the books she writes seems to smell of money. If we apply a bit more shock, her creative eye should truly blossom.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10930,
+      "id": "rem_12332",
+      "jp": "「サージの怪人」を父に持つ、商人の娘ですわね。あの年頃の娘としては、商人としてなかなかの力量を持ちますが、海千山千の商人と勝負をするにはまだまだですわね。ロゼトニック大商会の元に送られる話も合ったようですが、どこで話が変わったのやら",
+      "en": "She's the daughter of the merchant known as the 'Surge Monster,' right? For a girl her age, she has considerable skill as a merchant. But she's still nowhere near ready to compete with seasoned, world-weary merchants. I heard there was talk of sending her to the Rosetonick Grand Merchant Guild. I wonder where the conversation changed course.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10931,
+      "id": "rem_12333",
+      "jp": "かつては「サージの怪人」の異名で、大陸で最も恐れられた豪商です。彼の商いによって書き換えられた国境や地図は数知れず、多くの財宝や美女を手中に収めておりましたわ。まるで<pl>様のようですわね。そんな彼ですが、突然商売を辞めてしまったのです。一説では神を見て、啓示を受けたとか……",
+      "en": "He was once feared across the continent under the alias 'the Mad Merchant of Surg.' His deals redrew countless borders and maps, and he amassed tremendous treasures and beautiful women. Rather like you, <pl>. Yet, he suddenly abandoned his trade. Some say he saw a god and received a revelation...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10932,
+      "id": "rem_12334",
+      "jp": "商人のやる事ではありませんわよね",
+      "en": "That's not what a merchant should do, is it?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10933,
+      "id": "rem_12335",
+      "jp": "<pl>様が望むのであれば、当然私は従いますわД　ですが、この身は<pl>様の為に存在するのですから、他の男に汚させるような行為は、控えて下さいませね",
+      "en": "If <pl> wants it, of course I obeyД But this body exists for <pl>, so please refrain from acts that would let other men soil it",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10934,
+      "id": "rem_12336",
+      "jp": "そんなことするわけありませんわよ……商人協会への反逆ですか？",
+      "en": "There's no way I'd do something like that... Are you talking about treason against the Merchant's Guild?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10935,
+      "id": "rem_12337",
+      "jp": "<pl>様のおちんちんを舐めさせて頂けて、私は幸せ者ですわД　飲ませてもらうか、オマンコに注いで頂くか、全身を精液で彩って下さるか……Д　想像しただけで濡れてしまいますД",
+      "en": "Getting to lick <pl>'s cock, I am blessedД Drink it, pour it in my pussy, or paint my whole body in semen...Д Just imagining it gets me wetД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 10936,
+      "id": "rem_12338",
+      "jp": "何を考えておりますの",
+      "en": "What are you thinking about?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10937,
+      "id": "rem_12339",
+      "jp": "私のおっぱいで奉仕させていただけるなんて、身に余る光栄ですわД　射精する瞬間の表情を拝見しながら、全身に精液をかけていただくと、私も絶頂してしまいますД",
+      "en": "It's an honor beyond my station to be allowed to serve you with my breastsД Being able to watch your face at the moment you cum, and being covered in your semen all over my body, makes me climax tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table",
+      "flags": [
+        "h_wording_check"
+      ]
+    },
+    {
+      "n": 10938,
+      "id": "rem_12340",
+      "jp": "最悪の欲望だと思いますわ……",
+      "en": "I think it's the worst kind of desire...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10939,
+      "id": "rem_12341",
+      "jp": "<pl>様にオマンコを舐めて頂けて、幸福の極みですわД　あまりの幸せに、すぐに絶頂してしまいますД　これ以上の行為をされたら、どうなってしまうのでしょうД",
+      "en": "Having <pl> lick my pussy is the peak of happinessД I'm so happy I climax right awayД If you do more than this, what will become of meД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10940,
+      "id": "rem_12342",
+      "jp": "誰とでも寝るような、安い女に見えますの？",
+      "en": "Do I look like some cheap girl who'll sleep with anyone?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10941,
+      "id": "rem_12343",
+      "jp": "共に働くだけでも幸福だと言うのに、私のオマンコで<pl>様を受け入れることができて、感無量ですわД　しっかりと膣を締めさせて頂きますので、思う存分、中出しして下さいませД",
+      "en": "I was already happy just working together, but to be able to receive you, <pl>-sama, in my pussy... it's truly overwhelmingД. I will squeeze you tightly with my walls, so please, fill me up inside to your heart's contentД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10942,
+      "id": "rem_12344",
+      "jp": "考えてはいませんわね……",
+      "en": "You weren't even thinking about it, were you...?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10943,
+      "id": "rem_12345",
+      "jp": "私は<pl>様の物ですので、妊娠していても、<pl>様の為に腰を振らせて頂きますわねД　これからも私を幸せにしてくれると、信じておりますわД",
+      "en": "I belong to <pl>, so even pregnant I'll roll my hips for <pl>Д I trust you'll keep making me happyД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10944,
+      "id": "rem_12346",
+      "jp": "いやいや、何考えてるの？　信じらんない！",
+      "en": "No way, what are you thinking? I can't believe it!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10945,
+      "id": "rem_12347",
+      "jp": "人の趣味にケチ付ける気はないけど、ちょっと遠慮が無さすぎるわよД　まあ、嫌な気はしないし、好きにすればいいけど……Д　私が満足するまで、逃げないでよねД",
+      "en": "I'm not trying to criticize your taste or anything, but you could be a little less blunt about it, you know?Д Anyway... I don't mind it. Do what you want.Д Just don't even think about running until I'm fully satisfied, got it?Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10946,
+      "id": "rem_12348",
+      "jp": "節操無しねぇ。アンタ、そんな事ばかり言ってて、刺されても知らないわよ",
+      "en": "No shame at all. If you keep saying stuff like that, don't be surprised if I stab you.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10947,
+      "id": "rem_12349",
+      "jp": "うーん、夢だから許してるけど、こんなのやっちゃっていいのかしら……Д　現実でもほしくなっちゃうんじゃないかって不安だわД　だってアンタ、アイツと同じなんだもん……Д",
+      "en": "Hmm, I'm allowing it because it's a dream, but is it really okay to do something like this... Д I'm worried I'll start wanting it in real life too. Д After all, you're just like him... Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10948,
+      "id": "rem_12350",
+      "jp": "うむ、ワシはウィルチの名を冠する偉大なる大魔女。その叡智は絶対、この大陸すべての魔女どもの頂点に立ち、崇敬の念を集めたものよ。ふぉっふぉっ、ワシを求めて様々な国が競い合って争ったのも、記憶に新しいわい",
+      "en": "Hmm, I am the great Grand Witch bearing the name Wilch. My wisdom is absolute, I stand at the summit of all witches on this continent, and I was the object of their reverence. Ohoho, it is still fresh in my memory how various countries competed and fought for my favor.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10949,
+      "id": "rem_12351",
+      "jp": "具体的なワシの偉業であるか？　うむー、枚挙にいとまがないであるが、様々な国の有力者を薬漬けにし、『魔女』の立場を安定化させたであるなД　淫魔とみなされ迫害された女薬師の、社会的地位を確立させたのである！　まあ、淫魔であるのも半分は本当であるが。クク……魔女の薬に溺れてしまえば、王族貴族も我らを保護せざるを得んのである",
+      "en": "My specific great achievements? Well... there are too many to count. I made the rulers of various countries addicted to drugs and stabilized the position of 'Witches' Д I secured the social status of female apothecaries who were persecuted for being seen as succubi! Though, being a succubus is half-true. Kuku... once kings and nobles get hooked on a Witch's medicine, they have no choice but to protect us.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10950,
+      "id": "rem_12352",
+      "jp": "ワシと<pl>が出会った地下図書館は、もともとは禁代図書館と呼ばれた場所であった。古代の叡智が詰まった遺跡であったが、なにせ海の底に沈んでおったからのう。図書館をまるごと結界で覆い、引き上げるのには数多くの魔女や魔術師の力を必要とする、大事業であった。これにより我が名声は留まることを知らぬことになったし、これで人類の文明は二代三代と進歩すると思ったんじゃがのう",
+      "en": "The underground library where I and <pl> met was originally called the Kinjiro Library. It was a ruin filled with ancient wisdom, but the thing is, it was sunk at the bottom of the sea. Covering the entire library with a barrier and raising it up required the power of many witches and sorcerers; it was a major undertaking. Thanks to this, my reputation knew no bounds, and I thought human civilization would progress by two or three generations because of it.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10951,
+      "id": "rem_12353",
+      "jp": "せっかく引き上げた禁代図書館だったのじゃが、しかしのー。人類が扱うにはちょっとヤバすぎるということがわかってしまい、早々に封印指定になってしまったのじゃ。おまけに、多くを知ってしまったワシにも暗殺指令が下されてのー。ムカついたワシは、図書館を地下に沈めてやったわ。その際に、魔界の穴が開きかけて、よからぬ者たちも押し寄せて酷いことになったがのう、わはは！",
+      "en": "The forbidden library I managed to pull up was somethin' else, but... It turned out to be way too dangerous for humans to handle, so it got sealed away real fast. On top of that, a kill order was put out on me, 'cause I'd learned too much. I got so pissed, I sank the whole damn library underground. While I was at it, a hole to the demon realm almost opened up, and a bunch of nasty folk swarmed in... Made a real mess of things, it did! Wahaha!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10952,
+      "id": "rem_12354",
+      "jp": "ワシの愛するむす……じゃなくて、不肖の弟子である。魔女達のお茶会の後継者として適当に頭に指名しておいてやったのじゃが、アイツの方もそれを忘れておったようじゃな。ワシと違って無責任なヤツじゃ。わはは！",
+      "en": "My beloved daugh... no, my unworthy disciple. I loosely appointed her as the head successor of the witches' tea party, but it seems she went and forgot about that. Unlike me, she's an irresponsible one. Wahaha!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10953,
+      "id": "rem_12355",
+      "jp": "船の中で出会った異様な魔力を持つ娘である。アレは魔力が強いというより、自分のナカに「門」があるように見受けられるような。そういえば昔嗜んだ文献に「門」を持つ娘がおったな。文献の記述によるとあの娘と似たような装いだったようじゃが",
+      "en": "She's that strange girl with abnormal magical power I met on the ship. It's not that her power is strong, more like it seems there's a 'gate' inside her. Come to think of it, there was a girl with a 'gate' mentioned in an ancient text I read. According to the description, she wore similar clothes to that girl.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10954,
+      "id": "rem_12356",
+      "jp": "ミルテの妹じゃな。偉大なる「あのお方」の表面的な力しか持っておらんようじゃが、それでも人間の世界においては持て余す力を持っているようじゃ。まあ、身近に本当の力を持つ者がおれば、劣等感を持つのも仕方あるまいが",
+      "en": "She's Myrte's little sister, isn't she. Seems she only possesses the superficial power of the great 'One', but even that is a power too great for the human world. Well, if you have someone with real power close to you, I suppose it's natural to feel inferior.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10955,
+      "id": "rem_12357",
+      "jp": "ほう、ワシに射精させてほしいと……この体になってからはまだやったことはないのじゃが……何とかなるじゃろ",
+      "en": "Ho, you want me to make you cum... I haven't done this since getting this body, but... I'm sure we'll manage.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10956,
+      "id": "rem_12358",
+      "jp": "ワシの様な年寄りに、ペニスを差し出すとは粋な小僧じゃなД　この体でペニスを撫でてやるのも、悪くない体験じゃが……骨抜きにされても、ワシは知らんぞД",
+      "en": "You're quite the daring lad, offering your penis to an old man like meД. Stroking a penis with this body isn't such a bad experience... though if it melts your bones, don't blame meД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10957,
+      "id": "rem_12359",
+      "jp": "この体ではまだ経験がないのう……クク、ここは一つ、体験してみんか？",
+      "en": "I haven't experienced this with this body yet... Kuku, why don't we give it a try?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10958,
+      "id": "rem_12360",
+      "jp": "小僧だと思っておったが中々どうして、ペニスの硬さは申し分ないのうД　ウィルチとしてではなく、一人の女として惚れてしまいそうじゃД　カリストの奴が熱を上げるのも分かるわいД",
+      "en": "I thought you were just a kid, but not bad at all, the hardness of your penis is excellentД. Not as a Witch, but as a woman, I might fall for youД. I can see why Callisto gets so worked upД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10959,
+      "id": "rem_12361",
+      "jp": "ふぅむ、この体でやった事は無いが……カリストの奴と比べないのであれば、やってやっても良いぞД",
+      "en": "Hmm, I haven't done this with this body... If you don't compare me to Callisto, I might do it for youД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10960,
+      "id": "rem_12362",
+      "jp": "カリストの奴より良かったじゃろД　しかし、気持ち良かったからと言って、顔にかけるのは良くないのう。眼鏡の曇りが取れなくなったではないか……次は、おっぱいにかけるのじゃぞД",
+      "en": "Better than Callisto, rightД? But even though it felt good, you shouldn't come on my face. My glasses are all fogged up... Next time, aim for my breastsД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10961,
+      "id": "rem_12363",
+      "jp": "これこれ、年寄りをからかうでないぞ",
+      "en": "Now now, don't tease an old woman.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10962,
+      "id": "rem_12364",
+      "jp": "いやはや、この身体のせいか、年甲斐も無く乱れてしまったのうД　しかし、ワシはこの程度で満足せんぞД　ささ、続きは何をしてくれるんじゃД",
+      "en": "My my, perhaps it's this body's fault, but I've lost all sense of my age and gotten carried awayД. But I won't be satisfied with just thisД. Come now, what will you do nextД?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10963,
+      "id": "rem_12365",
+      "jp": "ほほう、ワシに目を付けたかД　この体は処女じゃから、<pl>も満足できるはずじゃぞД",
+      "en": "Oh ho, so you've got your eye on meД. This body is a virgin, so <pl> should be quite satisfied tooД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10964,
+      "id": "rem_12366",
+      "jp": "若い者がワシのような老人に熱を上げるんじゃないわいД　抱き合いながらオマンコを突かれると、感じてしまって声が抑えられんではないかД　ワシが本気になっても知らんぞД",
+      "en": "It's not often a young one gets so worked up over an old woman like meД. Getting my pussy pounded while being held makes me feel so much I can't hold back my voiceД. Don't blame me if I get seriousД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10965,
+      "id": "rem_12367",
+      "jp": "この体で出産できるのか？　それはワシも大いに興味があるぞД",
+      "en": "Can this body give birth? I'm quite interested in that myselfД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10966,
+      "id": "rem_12368",
+      "jp": "クク、今生も中々の人生じゃなД　出産したらカリストの奴に育てさせてやろう。今代の『ウィルチ』はカリストゆえ、ヤツが薬師を育てるのがスジじゃろД　別に育児放棄ではないぞ？",
+      "en": "Kuku, this life isn't so bad eitherД. If I give birth, I'll make Callisto raise it. Since this generation's 'Witch' is Callisto, it's only fitting for him to raise an apothecary, rightД? It's not neglect, you know?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10967,
+      "id": "rem_12369",
+      "jp": "やぁねぇ、アンタの赤ちゃんなんて孕んだら、未来がどうなるか分かんないでしょ",
+      "en": "Oh dear, if I got pregnant with your baby, who knows what would happen to the future.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10968,
+      "id": "rem_12370",
+      "jp": "ゆ、夢だったはずなのに……Д　赤ちゃんの存在は、夢にしないでくれるでしょ？　アンタも将来的にはアイツなんだし、頑張りなさいД　あっちに帰るまでは、一緒にいてあげるからД",
+      "en": "Th-this was supposed to be a dream...Д. Please don't make the baby just a dream? You'll end up like them in the future too, so do your bestД. I'll stay with you until it's time to go back over thereД.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10969,
+      "id": "rem_12371",
+      "jp": "どこからか迷い込んできた謎の男。『ケモミミ』のように見えるが……？　非常に頑丈で、焼いても燃やしても根性で生き延びる。といっても、無敵ではないらしい。",
+      "en": "A mysterious man who wandered in from somewhere. He looks like a 'Kemomimi'...? Incredibly tough, he survives burning and scorching through sheer willpower. That said, he doesn't seem invincible.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10970,
+      "id": "rem_12372",
+      "jp": "もともと俺は『勇者』じゃなかったんだけど、マリーたちと洞窟で冒険してから、この力に目覚めたんだ。この力がもっと早く覚醒してれば……でも、悔いても仕方ねぇし。この力を役立ててみせるぜ",
+      "en": "I wasn't originally a 'Hero', but after adventuring in the cave with Mary and the others, this power awakened. If only this power had awakened sooner... But, no use regretting it. I'll put this power to good use.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10971,
+      "id": "rem_12373",
+      "jp": "『勇者』の力は特別な力だけど、『勇者』は俺一人じゃないらしい。評判の『勇者』とか、他にも色んな『勇者』がいるらしいぜ。ただし、その力はピンキリだ。俺の力は強い方だからな、きっと！",
+      "en": "The power of a 'Hero' is special, but it seems I'm not the only 'Hero'. There's the famous 'Hero', and all sorts of other 'Heroes', it seems. But their power levels vary a lot. My power's on the strong side, for sure!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10972,
+      "id": "rem_12374",
+      "jp": "『勇者』の中でも特に強いヤツは『大勇者』と呼ばれるらしい。そいつは本当に特別な力を持っているらしいんだけど、その分特別に強いヤツと戦う運命にあるらしいぜ。強い力には責任を伴うってやつだな！　残念だけど、俺は普通の『勇者』らしいけどな",
+      "en": "Among 'Heroes', the particularly strong ones are called 'Great Heroes'. They apparently have truly special power, but in return, they're fated to fight other extra-strong folks. Great power comes with great responsibility! Sadly, I seem to be just an ordinary 'Hero'.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10973,
+      "id": "rem_12375",
+      "jp": "ううっ……俺は男なのに、こんなことしちゃっていいのかなぁ？　いや、でも身体はたしかにそうだし……ううん、なんでこんなにこんがらがってるんだろ。まあいっか、身体は女みたいだけど、これからもよろしくな、もちろん『勇者』としても頼ってくれよな！",
+      "en": "Ugh... I'm a guy, is it really okay for me to be doing something like this? Well, no, my body really is like this... Hmm, why am I so confused about this? Oh well, even though my body is like a girl's, nice to meet you from now on! And of course, you can rely on me as the 'Hero' too!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10974,
+      "id": "rem_12376",
+      "jp": "マリーとは修道院仲間だったんだ。共に親に修道院に閉じ込められたところを、一緒に抜け出したんだけどさ。ま、マリーの親は金持ちらしいけど、ウチは貧乏で口減らしのために売られたようなもんだけど。アイツは私より『天使』様をよく見かけてたんだよな。……なんだよ、俺が修道院にいるのが想像できないか？",
+      "en": "Marie and I were fellow orphans at the monastery. We were both locked up there by our parents, and we escaped together. Well, Marie's parents were apparently rich, but my family was poor and I was basically sold off to reduce the number of mouths to feed. She used to see 'Angel'-sama more often than I did... What? You can't imagine me being in a monastery?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10975,
+      "id": "rem_12377",
+      "jp": "変な形の剣を使う、すげえ剣技の使い手だ。時々練習相手になって貰ってるよ。ま、勝負は俺の勝ち越ししてるけどな！　ただまあ、アイツは岩とか相手に真っ二つにする技を持ってるんだよ。練習の時は使ってこないんだけどさ。……あれを勝負の時にでも使ってきたら……ぶるぶる",
+      "en": "He's an amazing swordsman who uses a weirdly shaped sword. I sometimes spar with him for practice. Well, I'm winning more matches than I lose! But, well, he has a technique that can split rocks in two. He doesn't use it during practice though... If he ever used that in a real fight... *shivers*",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10976,
+      "id": "rem_12378",
+      "jp": "すごい剣の達人だ。力じゃ勝ってるハズなんだけど、なんでかいつも負けちまうんだよな。弓を使っているところしか見たことがない？　まあ、あえて使ってないみたいなこと言ってたからなぁ。本当はもっとヒキョーな技も得意らしいけど、<pl>さんに嫌われたくないから使わないみたいなことも言ってたぜ",
+      "en": "A crazy sword master. I should win on power, but I always lose somehow. You've only seen her use a bow? Well, she said she just chooses not to use it. Apparently she's also good at dirtier tricks, but she said she doesn't use them because she doesn't want <pl> to hate her",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10977,
+      "id": "rem_12379",
+      "jp": "や、やるわけないだろ！　この変態！",
+      "en": "Wh-who'd ever do that! You pervert!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10978,
+      "id": "rem_12380",
+      "jp": "勇者の俺に、おちんちんを握らせるなんて……Д　ま、まあ、負けちまったらしょうがねえな……Д",
+      "en": "For a Hero like me to have my dick gripped...Д Ah, well, if I lost, I guess I have no choice...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10979,
+      "id": "rem_12381",
+      "jp": "何を馬鹿な事を言ってんだよ。やるわけないだろ！",
+      "en": "What the hell are you talking about? Of course I'm not gonna do it!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10980,
+      "id": "rem_12382",
+      "jp": "こんな事、勇者のする事じゃねえだろ……でも、まあ、その、勝負に負けたし、やらないわけにはいかねえなД　<pl>さんが言うから、仕方なくおちんちんを舐めてんだからなД",
+      "en": "This ain't what a hero does... but, well, um, I lost, so I gotta do itД I'm only sucking cock because <pl> said soД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10981,
+      "id": "rem_12383",
+      "jp": "何見てんだよ……おっぱい？　動きにくいから邪魔なんだよな……",
+      "en": "What are you looking at... my tits? They're a nuisance 'cause they get in the way...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10982,
+      "id": "rem_12384",
+      "jp": "俺に奉仕しろだなんて、冗談じゃねえよ……おっぱいを掴まれて、好き勝手に動かれた方が、犯されてるって感じがしていい、かな……Д　べ、別に、犯されたいわけじゃないけどさД",
+      "en": "Telling me to serve you... that's no joke... I prefer it more when my tits are grabbed and moved around as you like... it feels more like I'm being violated...Д Not that I actually want to be violated or anything...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10983,
+      "id": "rem_12385",
+      "jp": "な、何を馬鹿な事を言ってんだよ！？",
+      "en": "Wh-what the hell are you saying, you idiot!?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10984,
+      "id": "rem_12386",
+      "jp": "し、信じられない、こんな、舐められるなんて……Д　と言っても『勇者』として、逃げるわけにはいかねえし……やりたいなら、もっとしてもいいぜД",
+      "en": "U-unbelievable... something like this, being licked...Д But even so, as the 'Hero', I can't run away... If you want to do it, you can do it even more...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10985,
+      "id": "rem_12387",
+      "jp": "そういうのは、俺じゃなくて、本当に好きな女の子に言えっての……『勇者』を抱いて箔を付けたいってんなら、お断りだぜ？",
+      "en": "You should say stuff like that to a girl you actually like, not to me... If you just wanna boost your cred by banging the 'Hero', then count me out, alright?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10986,
+      "id": "rem_12388",
+      "jp": "好き勝手に腰を振られるのは、ちょっと……Д　俺が上になって、無様に悶える姿を眺めてやりたいぜД　バトルは負けても、エッチでは勝ってやるから、覚悟しとけよなД",
+      "en": "I'm not too thrilled about you just bouncing on me as you please...Д I wanna be on top and watch you squirm all patheticallyД I might lose in battle, but I'll win in bed, you better believe itД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10987,
+      "id": "rem_12389",
+      "jp": "妊娠って……そんなことになったらどうすればいいんだよ……！",
+      "en": "A pregnancy...! What am I supposed to do if that happens...?!",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10988,
+      "id": "rem_12390",
+      "jp": "『勇者』として世界を救ったと思ったら、次は母親として子育てかぁ……Д　へへ、悪くないなД　これから、もっともっと幸せにしてくれよなД",
+      "en": "Just when I thought saving the world as a 'Hero' was done, next up is raising a kid as a mother, huh...Д Hehe, not bad at allД From now on, you're gonna make me even happier, right?Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10989,
+      "id": "rem_12391",
+      "jp": "<pl>様は、なんで私なんかに優しくしてくるのでしょう……？",
+      "en": "Why is <pl> so kind to someone like me...?",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10990,
+      "id": "rem_12392",
+      "jp": "<pl>様に求められているの感じます……Д　私のような村娘にも、<pl>様は真摯に接して下さるのですねД　私も、誠心誠意、<pl>様にご奉仕いたしますД",
+      "en": "I can feel <pl> wanting me...Д Even a village girl like me, <pl> treats me sincerelyД I'll serve <pl> with all my heart tooД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10991,
+      "id": "rem_12393",
+      "jp": "地主である<pl>様の手元に置いて貰える上に、ご寵愛までいただけるなんて、私は本当に幸せ者ですД　私にできることでしたら何でもいたしますねД　どのような事でも、喜んで従わせて頂きますので、なんなりと、命じてくださいД",
+      "en": "To be kept at landowner <pl>'s side and even receive favor... I am truly blessedД I'll do anything I canД Whatever it is, I'll gladly obey, so please command me as you likeД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10992,
+      "id": "rem_12394",
+      "jp": "<pl>様に求められて幸せですД　私に出来ることならなんでも言ってくださいね。才に乏しい私ですが、<pl>様の欲求を満たせるのでしたら、いくらでも奉仕いたしますД　どうか私にも、<pl>様の欲求を存分にぶつけて下さいねД",
+      "en": "I'm happy that <pl> wants meД Tell me anything I can do. I don't have much talent, but if I can satisfy <pl>'s wants, I'll serve as much as you likeД Please throw <pl>'s desires at me as much as you wantД",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10993,
+      "id": "rem_12395",
+      "jp": "私と同じ村娘の方ですね。でも私と違って力持ちで、羨ましいです",
+      "en": "So you're from the same village as me. But unlike me, you're so strong. I'm envious.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10994,
+      "id": "rem_12396",
+      "jp": "兵士の方ですよね。気弱そうなところに親近感を覚えます。他の方々と比べて、あまり強いようには見えないのに、それでも勇気を振り絞って立ち向かえるところ、尊敬しますね",
+      "en": "You're a soldier, right? I feel a closeness to your timid side. Compared to the others, you don't seem that strong, but I respect that you can still muster your courage and face things head-on.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10995,
+      "id": "rem_12397",
+      "jp": "私の村を助けようと頑張って下さった方ですよね。新人の冒険者だったのに、本当に危ない目に会わせてしまって申し訳ないと思っています",
+      "en": "You're the one who tried so hard to save my village, right? Even though you were a rookie adventurer, we really put you in danger... I'm so sorry.",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10996,
+      "id": "rem_12398",
+      "jp": "そ、そんなこと、できません……",
+      "en": "Th-that's... I can't do that...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10997,
+      "id": "rem_12399",
+      "jp": "私みたいな農家の娘でも、<pl>様を満足させることができて嬉しいですД　他にもしてほしい事がありましたら、何でも言って下さいねД",
+      "en": "I'm glad that even a farm girl like me can satisfy you, <pl>-sama. If there's anything else you want me to do, just say the word.Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10998,
+      "id": "rem_12400",
+      "jp": "そ、そんなの、やったことありません……",
+      "en": "Th-that... I've never done that before...",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10999,
+      "id": "rem_12401",
+      "jp": "お口でおちんちんを舐めるのは、普通の事、ですよね？　<pl>様がしてほしいのであれば、私は従いますД　私は従業員ですから、してほしい事は、何でもしてあげますねД",
+      "en": "Licking someone's cock with my mouth is... normal, right? If <pl>-sama wants me to do it, I'll obey.Д Since I'm an employee, if you want me to do something, I'll do anything for you.Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11000,
+      "id": "rem_12402",
+      "jp": "え、ええっと……恥ずかしいですけど、お仕事でしたら……Д",
+      "en": "Uh, um... It's embarrassing, but if it's part of the job...Д",
+      "table": "db_UnitCharaPartnerProfileInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

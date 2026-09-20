@@ -1,0 +1,817 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 501,
+  "range_end": 600,
+  "pairs": [
+    {
+      "n": 501,
+      "id": "rem_00501",
+      "jp": "火力と堅牢さを増したチャリオットタートルの亜種。堅牢な守備と悪夢の砲撃はまさに要塞。",
+      "en": "A subspecies of the chariot tortoise with increased firepower and durability. Its sturdy defense and nightmarish bombardment make it a true fortress.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 502,
+      "id": "rem_00502",
+      "jp": "要塞タートル",
+      "en": "Fortress Tortoise",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 503,
+      "id": "rem_00503",
+      "jp": "過酷な火山の環境に適応した、炎熱を纏った岩のゴーレム。巨大な体から放たれる、高熱を纏った攻撃は、歴戦の勇者と言えどひとたまりもない。",
+      "en": "A rock golem clad in heat, adapted to harsh volcanic environments. The high-temperature attacks unleashed from its massive body overwhelm even seasoned heroes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 504,
+      "id": "rem_00504",
+      "jp": "ロックゴーレム",
+      "en": "Rock Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 505,
+      "id": "rem_00505",
+      "jp": "マグマで構成されたゴーレム。岩をも溶かす凄まじい熱によって、絶えず体が自壊していく。敗北すれば骨すら残さず焼き尽くされてしまうだろう。",
+      "en": "A golem composed of magma. Its body constantly crumbles from its own intense heat, capable of melting rock. Defeat means being burned away without a trace.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 506,
+      "id": "rem_00506",
+      "jp": "マグマゴーレム",
+      "en": "Magma Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 507,
+      "id": "rem_00507",
+      "jp": "強力な呪文使いのゴブリン。強力な炎の呪文を操り、あらゆる生命を苦しめる。ゴブリンと言えど、扱う呪文は強力であり、ゴブリンと侮れば死が近付く。",
+      "en": "A Goblin skilled in powerful spells. Wields strong fire magic that torments all life. Though a Goblin, its magic is potent—underestimating it brings death.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 508,
+      "id": "rem_00508",
+      "jp": "ゴブリンシャーマン・亜種",
+      "en": "Goblin Shaman - Subspecies",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 509,
+      "id": "rem_00509",
+      "jp": "ホブゴブリンよりもさらに巨大な、全てを叩き潰すゴブリンの王者。巨体から繰り出される一撃は、板金鎧に身を包んだ冒険者すら、鎧の上から叩き潰してしまう。",
+      "en": "A Goblin king, larger than a Hobgoblin, who crushes all. A single blow from its massive frame can crush even plate-armored adventurers inside their armor.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 510,
+      "id": "rem_00510",
+      "jp": "ゴブリンチャンピオン",
+      "en": "Goblin Champion",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 511,
+      "id": "rem_00511",
+      "jp": "各地を巡礼して回っている冒険者。様々な土地を踏破してきた腕利きだが、あまりの過酷な環境に正気を失い、相手が誰であろうと襲い掛かる。",
+      "en": "An adventurer on a pilgrimage across lands. Skilled from traversing many regions, but the harsh environment has driven them mad, attacking anyone they meet.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 512,
+      "id": "rem_00512",
+      "jp": "狂乱した巡礼者",
+      "en": "Maddened Pilgrim",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 513,
+      "id": "rem_00513",
+      "jp": "高地を縄張りにするカラス。集団で巡礼者に襲い掛かる、狡猾な空の悪魔。巡礼に訪れる神官を、護衛もろとも狩り尽くす、凶悪な戦闘能力を備えている。",
+      "en": "A crow that rules the highlands. A cunning sky demon that attacks pilgrims in packs, possessing the vicious combat skills to hunt down even priests and their escorts.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 514,
+      "id": "rem_00514",
+      "jp": "巡礼者を狩る凶鳥",
+      "en": "Pilgrim-Hunting Bird of Prey",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 515,
+      "id": "rem_00515",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。聖なる魔法を得意とし、周囲を浄化の結界へと引きずり込む。",
+      "en": "A spirit shaped like a flaming skull. Flies around the living in a set pattern, mockingly draining their life force. Excels in holy magic, dragging the area into a purification barrier.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 516,
+      "id": "rem_00516",
+      "jp": "ホーリースピリット",
+      "en": "Holy Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 517,
+      "id": "rem_00517",
+      "jp": "聖域に住む聖なる獣。美しい白い毛皮を持つが獰猛で、聖域を荒らす人間を襲い、食い殺す恐ろしいモンスター。ただし、信仰心を持つ巡礼者を襲う事はない。",
+      "en": "A holy beast residing in the sanctuary. Possesses beautiful white fur but is fierce, a terrifying monster that attacks and devours humans who desecrate its home. It does not attack faithful pilgrims.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 518,
+      "id": "rem_00518",
+      "jp": "ホーリービースト",
+      "en": "Holy Beast",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 519,
+      "id": "rem_00519",
+      "jp": "天空に君臨するフェアリー。人の少ない土地で増え続けた彼女たちは、好奇心旺盛で人の精を吸いたがる。そのうえ際限なく仲間を呼ぶため、迂闊に手を出すのは危険。",
+      "en": "A fairy reigning in the sky. Having multiplied in sparsely populated areas, they are curious and crave human essence. Dangerously, they can endlessly call for reinforcements.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 520,
+      "id": "rem_00520",
+      "jp": "ハイフェアリー",
+      "en": "High Fairy",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 521,
+      "id": "rem_00521",
+      "jp": "大天使の威を借りるニセ天使。可愛らしく、威光ある姿をしているが、それは仮初め。その本性は悪魔で、人間を堕落させるのが目的の毒婦である。",
+      "en": "A fake angel borrowing the Archangel's authority. Cute and majestic in appearance, but it's a facade. Her true nature is a demon, a poisonous woman aiming to corrupt humans.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 522,
+      "id": "rem_00522",
+      "jp": "アークデミンジェル",
+      "en": "Archdemon Angel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 523,
+      "id": "rem_00523",
+      "jp": "天使の輪とも言われる神の使い。その正体は人間に審判を下す魔生物、そして神の威光を放つ存在。人の心を乱す力があり、弱いものは平伏してしまう。",
+      "en": "A divine messenger, also called an angelic ring. Her true form is a magical creature that passes judgment on humans, radiating divine authority. She can disturb people's hearts, making the weak prostrate themselves.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 524,
+      "id": "rem_00524",
+      "jp": "エンゼルハイロウ",
+      "en": "Angel Halo",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 525,
+      "id": "rem_00525",
+      "jp": "上級魔術師に匹敵する魔術師。過酷な修行を経て強力な魔術を操れるようになった。天才にも至れぬ高みに至ったと喜んだ瞬間、真の天才が目の前に現れる。",
+      "en": "A mage comparable to a high-level sorcerer. After harsh training, they can wield powerful magic. The moment they rejoice at reaching heights unattainable by geniuses, a true genius appears before them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 526,
+      "id": "rem_00526",
+      "jp": "アークマジシャン",
+      "en": "Archmage",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 527,
+      "id": "rem_00527",
+      "jp": "キラキラとした宝石のような魔生物。倒しても宝石のような身体は残る。しかし凶暴な性格で、鋭利な肉体と魔光を放ち、欲深い冒険者を幾人も返り討ちにしてきた。",
+      "en": "A magical creature like a sparkling jewel. Even when defeated, its jewel-like body remains. However, it has a fierce temperament, unleashing sharp body parts and magical light, turning the tables on many greedy adventurers.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 528,
+      "id": "rem_00528",
+      "jp": "ジュエルストーン",
+      "en": "Jewel Stone",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 529,
+      "id": "rem_00529",
+      "jp": "人間の精神を惑わす魔花。幻惑されている間は、美しい女性のように見えるらしく、ホイホイ近づいた者をからめとり、体内で消化してしまう。",
+      "en": "A magic flower that bewitches the human mind. While enchanted, it appears as a beautiful woman, enticing and trapping those who approach, digesting them within its body.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 530,
+      "id": "rem_00530",
+      "jp": "ゆうわくフラワー",
+      "en": "Temptation Flower",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 531,
+      "id": "rem_00531",
+      "jp": "地上に顕現した神の使い。堕天した天魔や偽の天使でもない、ヒエペリオの教義を体現した天の使い。あらゆる攻撃が効きにくい身体は、神の威光を体現する。",
+      "en": "A divine messenger manifest on earth. Not a fallen angel or false angel, but a heavenly envoy embodying the tenets of Hyeperios. His body, resistant to most attacks, embodies divine radiance.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 532,
+      "id": "rem_00532",
+      "jp": "エンジェル",
+      "en": "Angel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 533,
+      "id": "rem_00533",
+      "jp": "天界の戦乙女。本来は冥界に行くはずの勇者の魂をハントし、天界に捧げる役割を担う。彼女らと恋に落ちることは死を意味する。なのに惚れやすい。",
+      "en": "A Valkyrie, a maiden of war from the heavens. Her role is to hunt the souls of heroes destined for the underworld and offer them to the heavens. Falling in love with them means death. Yet, it's easy to fall for them.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 534,
+      "id": "rem_00534",
+      "jp": "ヴァルキリー",
+      "en": "Valkyrie",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 535,
+      "id": "rem_00535",
+      "jp": "齢を重ねて魔力を高めたホーリービースト。聖域の守護者の貫禄を持っており、高い知恵を持つ者もいる。原始的な攻撃魔術も扱い、盗賊から聖地を守る。",
+      "en": "A Holy Beast aged to increase its magical power. It carries the dignity of a sanctuary guardian, and some possess high wisdom. It also wields primitive offensive magic to protect sacred sites from thieves.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 536,
+      "id": "rem_00536",
+      "jp": "セイントビースト",
+      "en": "Saint Beast",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 537,
+      "id": "rem_00537",
+      "jp": "強力な聖遺物や装備で武装したゴブリンの騎士。単純な鈍器での殴打以外にも、戦闘者としての技量を身に着けている。",
+      "en": "A goblin knight armed with powerful holy relics and equipment. Beyond simple blunt force, they have acquired skills as combatants.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 538,
+      "id": "rem_00538",
+      "jp": "ゴブリンパラディン・エリート",
+      "en": "Goblin Paladin Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 539,
+      "id": "rem_00539",
+      "jp": "黄金色の伝説の聖騎士。黄金色の鎧はあらゆる邪悪な力を回避しそうな力を感じ、神々しい力がオーラになって見えそうになって高確率で強い。",
+      "en": "A legendary golden holy knight. His golden armor feels like it could repel any evil force, and his divine power seems to manifest as an aura. Highly likely to be strong.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 540,
+      "id": "rem_00540",
+      "jp": "黄金の鉄の聖騎士",
+      "en": "Golden Iron Holy Knight",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 541,
+      "id": "rem_00541",
+      "jp": "地上を救う者であるか、裁定を下すために顕現した。特別な地位にある大天使であり、本物の神の使い。人類に対して絶対的な強権を持っており、ときに人間を国ごと粛正する非情さも併せ持つ。",
+      "en": "Appeared as a judge to save the world. A high-ranking archangel, a true messenger of God. Holds absolute authority over humanity, showing mercilessness by purging entire nations at times.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 542,
+      "id": "rem_00542",
+      "jp": "アークエンジェル",
+      "en": "Archangel",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 543,
+      "id": "rem_00543",
+      "jp": "魔の力が色濃く出ており、漆黒に染まった骸骨。強い未練を持ったまま彷徨い続け、生きた人間を殺して、その身体を乗っ取ろうと襲いかかる。",
+      "en": "A skeleton tainted pitch-black, radiating strong demonic power. Wanders with powerful lingering attachments, attacking to kill the living and possess their bodies.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 544,
+      "id": "rem_00544",
+      "jp": "ブラックボーン",
+      "en": "Black Bone",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 545,
+      "id": "rem_00545",
+      "jp": "強力な力を持った影。物理的な害は及ぼさないが、並の人間がこれに触れると発狂してしまう。",
+      "en": "A shadow with great power. It inflicts no physical harm, but an ordinary human touching it will go mad.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 546,
+      "id": "rem_00546",
+      "jp": "ダークシャドウ",
+      "en": "Dark Shadow",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 547,
+      "id": "rem_00547",
+      "jp": "巨大な目で外部情報を蓄積するスパイダーのような機械。小型で様々な場所に入り込む性質から、情報を収集するために都合が良く、密かに軍事利用しようと世界中が狙っているらしい。",
+      "en": "A spider-like machine that accumulates external information with its giant eye. Its small size allows infiltration, making it ideal for intelligence gathering. Rumor has it many nations covertly seek to use it for military purposes.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 548,
+      "id": "rem_00548",
+      "jp": "マシンアイ",
+      "en": "Machine Eye",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 549,
+      "id": "rem_00549",
+      "jp": "魔神を顕現させる儀式により生まれた悪霊。自らを呼び出した者を殺した後、遺跡の奥底に封印され、彷徨い続けていた。",
+      "en": "An evil spirit born from a ritual to manifest a demon god. After killing its summoner, it was sealed deep within a ruin and has wandered ever since.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 550,
+      "id": "rem_00550",
+      "jp": "おぞましき肉塊",
+      "en": "Horrid Flesh Mass",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 551,
+      "id": "rem_00551",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。風の魔法を得意とし、周囲を狂嵐の結界へと引きずり込む。",
+      "en": "A spirit mimicking a flaming skull. Flies around the living in a set pattern, mockingly draining their life force. Skilled in wind magic, it drags the surroundings into a stormy barrier.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 552,
+      "id": "rem_00552",
+      "jp": "ウィンドスピリット",
+      "en": "Wind Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 553,
+      "id": "rem_00553",
+      "jp": "機械化された鋼鉄の狩人。失われたテクノロジーで動いており、どういう仕組みで動作しているのかは、この世界の人間には理解できない。危険な殺人兵器。",
+      "en": "A mechanized steel hunter. Powered by lost technology, its workings are incomprehensible to this world's people. A dangerous killing machine.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 554,
+      "id": "rem_00554",
+      "jp": "メタルハンター",
+      "en": "Metal Hunter",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 555,
+      "id": "rem_00555",
+      "jp": "小型の殺人飛行機械。偵察を主とした下位種と違い、外敵の排除が主な任務。力は弱いが無音で飛行し、死角から集団で襲ってくる。",
+      "en": "A small flying killing machine. Unlike its lower-tier reconnaissance cousins, its main task is eliminating enemies. Weak but flies silently, attacking in groups from blind spots.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 556,
+      "id": "rem_00556",
+      "jp": "キラーメタルビー",
+      "en": "Killer Metal Bee",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 557,
+      "id": "rem_00557",
+      "jp": "生物を石化させる毒を持つ魔物。魔獣の中でも強力な怪物であり、さらに好戦的。相手にするにはベテランの冒険者の一党でも、犠牲を覚悟しなくてはならないだろう。",
+      "en": "A monster with a petrifying poison. Among magical beasts, it is a powerful and aggressive foe. Even a veteran adventurer party must be prepared for casualties when facing it.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 558,
+      "id": "rem_00558",
+      "jp": "バジリスク",
+      "en": "Basilisk",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 559,
+      "id": "rem_00559",
+      "jp": "鋼鉄のボディを持つゴーレム。通常のゴーレムよりも、生命体を殺傷する能力に長けている。",
+      "en": "A golem with a steel body. More adept at killing living beings than ordinary golems.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 560,
+      "id": "rem_00560",
+      "jp": "アイアンゴーレム",
+      "en": "Iron Golem",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 561,
+      "id": "rem_00561",
+      "jp": "鋼鉄の鎧に身を包み、強靱なボディを持つ太古のゴーレム。殺人のみを追求した性能を発揮し、侵入者を確実に抹殺する。",
+      "en": "An ancient golem clad in steel armor, with a tough body. It unleashes its murder-focused design to reliably eliminate intruders.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 562,
+      "id": "rem_00562",
+      "jp": "ロストガーディアン",
+      "en": "Lost Guardian",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 563,
+      "id": "rem_00563",
+      "jp": "北方にて発生した変異種。深部を探索するホブゴブリン。注意力散漫で大雑把だが、その一撃は通常のホブよりも強力。",
+      "en": "A variant born in the north. A deep-exploring hobgoblin. Distracted and rough, but its strike is stronger than ordinary hobs.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 564,
+      "id": "rem_00564",
+      "jp": "ホブゴブリン・北方種",
+      "en": "Hobgoblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 565,
+      "id": "rem_00565",
+      "jp": "北方にて発生した変異種。異形の変異ゴブリン。変異ゴブリンの中でも感覚が鋭く、隙を見せると場数を踏んだ冒険者でも危険。",
+      "en": "A variant born in the north. A misshapen mutant goblin. Among mutants, its senses are sharp; even seasoned adventurers are in danger if they let their guard down.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 566,
+      "id": "rem_00566",
+      "jp": "変異ゴブリン・北方種",
+      "en": "Mutant Goblin・Northern Type",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 567,
+      "id": "rem_00567",
+      "jp": "悪魔の縄とも言われる強靱なワーム。絡みとられたが最後、人はおろか、強力な魔獣であろうと、身動きすることができなくなると言われる。",
+      "en": "A tough worm called the devil's rope. Once entangled, it's said even powerful magical beasts—let alone humans—cannot move.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 568,
+      "id": "rem_00568",
+      "jp": "デビルワーム",
+      "en": "Devil Worm",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 569,
+      "id": "rem_00569",
+      "jp": "燃え盛る岩石で肉体を構成されたマグマゴーレム。体を構成するマグマの温度が低かったせいか、自壊せずに燃え上がったまま活動している。存在自体が一つの災厄である。",
+      "en": "A magma golem formed of burning rock. Perhaps due to lower magma temperature, it continues to burn and move without self-destructing. Its existence is a disaster.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 570,
+      "id": "rem_00570",
+      "jp": "燃え盛る岩石巨人",
+      "en": "Burning Rock Giant",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 571,
+      "id": "rem_00571",
+      "jp": "年経たために皮膚の色が変わったバジリスク。毒素と鱗の強度が増しており、ますます危険度を高めている。性格もあいかわらず凶暴。",
+      "en": "A basilisk aged to a changed skin color. Its poison and scale strength have increased, raising its danger level. Its temperament remains just as savage.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 572,
+      "id": "rem_00572",
+      "jp": "エルダーバジリスク",
+      "en": "Elder Basilisk",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 573,
+      "id": "rem_00573",
+      "jp": "牛型の半獣半人。ハーフデビルよりもさらに魔族に近い。獣と魔族の特性を両方備えており、生半可な冒険者は太刀打ちできず、貪欲にメスを犯す。",
+      "en": "",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 574,
+      "id": "rem_00574",
+      "jp": "ハーフデーモン",
+      "en": "Half-Demon",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 575,
+      "id": "rem_00575",
+      "jp": "土着の精霊が災厄の魔力に当てられ、悪霊と成り果てた。支配地に踏み入る人間の魂や精気を奪い、災厄の主へと届ける役目を持つ。物理攻撃が効きにくい。",
+      "en": "A native spirit corrupted by calamitous magic into a vengeful spirit. It steals the souls and vitality of humans entering its domain, delivering them to the lord of calamity. Resistant to physical attacks.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 576,
+      "id": "rem_00576",
+      "jp": "ダークソウル",
+      "en": "Dark Soul",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 577,
+      "id": "rem_00577",
+      "jp": "道化の姿をした殺人機械。主に魔族に使役され、冒険者を混乱させることを好む。直接人を害するよりも、苦しませる事を目的とし、身のこなしが素早く攻撃を避けるのが得意。",
+      "en": "A murder machine in clown form. Mainly employed by demons, it delights in confusing adventurers. Aiming more to torment than directly harm, it's agile and adept at dodging attacks.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 578,
+      "id": "rem_00578",
+      "jp": "マーダーパペット",
+      "en": "Murder Puppet",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 579,
+      "id": "rem_00579",
+      "jp": "巨大な目で外部情報を蓄積する機械に、邪悪な魔力が注ぎ込まれた者。その瞳は石化の邪眼と化し、目を合わせた冒険者を石の像と化してしまう。",
+      "en": "A machine with a huge eye for data accumulation, infused with evil magic. Its gaze has become a petrifying evil eye, turning adventurers who meet it into stone statues.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 580,
+      "id": "rem_00580",
+      "jp": "メデューサアイ",
+      "en": "Medusa Eye",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 581,
+      "id": "rem_00581",
+      "jp": "殺戮のみを求めた技術の結晶。機械的な意思を持ち、生物を抹殺し、制圧する。鋼鉄の体を持つにも関わらず俊敏で、この機械が通った先は、無人の荒野へと変貌する。",
+      "en": "A technological marvel forged for slaughter. Possessing a mechanical will, it eradicates and subdues life. Despite its steel body, it is swift, and wherever it passes transforms into a desolate wasteland.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 582,
+      "id": "rem_00582",
+      "jp": "ゼカリウスガーダー",
+      "en": "Zecarius Gorder",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 583,
+      "id": "rem_00583",
+      "jp": "要塞と化した海上都市でゴブリンと人間の戦いを監視している蜘蛛型マシン。小型で素早いため武器が当て辛く、その身に備えた火器は人間への殺傷力に優れた、凶悪兵器。",
+      "en": "A spider-type machine monitoring the goblin-human conflict from its fortress-like sea city. Small and agile, it's hard to hit. The firearms it carries excel at killing humans, making it a vicious weapon.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 584,
+      "id": "rem_00584",
+      "jp": "メタルスパイダー",
+      "en": "Metal Spider",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 585,
+      "id": "rem_00585",
+      "jp": "世界に生まれた勇者を抹殺するために開発されたロボット。魔術や武器に対して強力な防御力を持っており、攻撃力も高い。ゴブリン達が発掘してしまった為、最悪の敵となった。",
+      "en": "A robot developed to eradicate the Hero born into this world. It boasts strong defenses against magic and weapons, and high attack power. Dug up by goblins, it has become a worst-case enemy.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 586,
+      "id": "rem_00586",
+      "jp": "キラーマシーン",
+      "en": "Killer Machine",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 587,
+      "id": "rem_00587",
+      "jp": "闇を這いずるうちに力を得たサーヴァント、主の命令はほとんど頭になく、本能に従い獲物に襲いかかる。",
+      "en": "A servant that gained power by crawling through the darkness. It barely follows its master's orders, attacking prey on instinct.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 588,
+      "id": "rem_00588",
+      "jp": "サーヴァント・エリート",
+      "en": "Servant Elite",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 589,
+      "id": "rem_00589",
+      "jp": "燃える頭蓋骨の姿を模した精霊。規則的に生者の周りを飛び回り、嘲笑うように生命力を奪っていく。闇の魔法を得意とし、周囲を魔空間へと引きずり込む。",
+      "en": "A spirit mimicking a flaming skull. It flies around the living in a pattern, mockingly draining their life force. Skilled in dark magic, it drags its surroundings into a demonic space.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 590,
+      "id": "rem_00590",
+      "jp": "ダークスピリット",
+      "en": "Dark Spirit",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 591,
+      "id": "rem_00591",
+      "jp": "北方にて発生した変異種。ゴブリン達の王。ゴブリンという種を束ねる実質的な支配者で、自らの眷属によって他種族を滅ぼそうと目論む。",
+      "en": "A mutated species born in the north. King of the goblins. The true ruler who unites the goblin race, scheming to exterminate other species with its kin.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 592,
+      "id": "rem_00592",
+      "jp": "ゴブリンロード・北方種",
+      "en": "Goblin Lord (Northern Species)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 593,
+      "id": "rem_00593",
+      "jp": "北方にて発生した変異種。経験を積んだ魔術使いのゴブリン。人間を意のままに操る呪文を、悪意を撒き散らすためだけに使用する、魔術組織にとっては存在そのものが不倶戴天の怨敵。",
+      "en": "A mutated species born in the north. An experienced goblin mage. It uses spells to freely control humans solely to spread malice, making it an arch-enemy of mage organizations.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 594,
+      "id": "rem_00594",
+      "jp": "ゴブリンシャーマン・北方種",
+      "en": "Goblin Shaman (Northern Species)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 595,
+      "id": "rem_00595",
+      "jp": "北方で発生した変異種。聖なる装備で身を固めたゴブリンの騎士。祝福を受けた装備の数々は、ゴブリンが制作したものではなく、打ち取られた人間から奪い取った、悲劇の末の産物。",
+      "en": "A mutated species born in the north. A goblin knight clad in holy gear. The blessed equipment was not made by goblins, but taken from slain humans—a tragic outcome.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 596,
+      "id": "rem_00596",
+      "jp": "ゴブリンパラディン・北方種",
+      "en": "Goblin Paladin (Northern Species)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 597,
+      "id": "rem_00597",
+      "jp": "北方にて発生した変異種。強靭な体躯と絶大な怪力を持ち合わせた狂戦士。狂ったように破壊を繰り返しながらも、戦闘になると氷のような冷静さを持ち挑んでくる。",
+      "en": "A mutated species born in the north. A berserker with a tough physique and immense brute strength. While mindlessly repeating destruction, it fights with ice-cold calm.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 598,
+      "id": "rem_00598",
+      "jp": "ゴブリンチャンピオン・北方種",
+      "en": "Goblin Champion (Northern Species)",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 599,
+      "id": "rem_00599",
+      "jp": "ゼルカに心酔し、最後まで命運を共にすると誓った者たち。その精神は悪としても、忠誠心は本物である。ゼルカ同様に強大な神霊力を得ており、人間離れした能力を持つ。",
+      "en": "Those devoted to Zelka, sworn to share her fate to the end. Though their spirit may be evil, their loyalty is real. Like Zelka, they possess great divine power and superhuman abilities.",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    },
+    {
+      "n": 600,
+      "id": "rem_00600",
+      "jp": "ゼルカ特別親衛隊",
+      "en": "Zelka Special Guard",
+      "table": "db_UnitEnemyIndivid",
+      "category": "remaining_table"
+    }
+  ]
+}

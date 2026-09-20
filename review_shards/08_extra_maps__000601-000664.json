@@ -1,0 +1,404 @@
+{
+  "source_file": "08_extra_maps.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 601,
+  "range_end": 664,
+  "pairs": [
+    {
+      "n": 601,
+      "id": "force_dll_0082",
+      "jp": "習得可能<size=30>{0}</size>/{1}\n<size=15>(あと{2}修得EXP)</size>",
+      "en": "Can<size=30>{0}</size>/{1}\n<size=15>({2} EXP)</size>"
+    },
+    {
+      "n": 602,
+      "id": "force_dll_0083",
+      "jp": "習得可能<size=30>{0}</size>/{1}\n<size=15>(修得EXPは最大に達しました)</size>",
+      "en": "Can<size=30>{0}</size>/{1}\n<size=15>(EXP maxed)</size>"
+    },
+    {
+      "n": 603,
+      "id": "force_dll_0084",
+      "jp": "資金{0}G",
+      "en": "{0} GP"
+    },
+    {
+      "n": 604,
+      "id": "force_dll_0085",
+      "jp": "『攻撃』のパラメータ【+{0}%】",
+      "en": "'ATK' 【+{0}%】"
+    },
+    {
+      "n": 605,
+      "id": "force_dll_0086",
+      "jp": "『魔攻』のパラメータ【+{0}%】",
+      "en": "'MATK' 【+{0}%】"
+    },
+    {
+      "n": 606,
+      "id": "force_dll_0087",
+      "jp": "『防御』のパラメータ【+{0}】",
+      "en": "'DEF' 【+{0}】"
+    },
+    {
+      "n": 607,
+      "id": "force_dll_0088",
+      "jp": "『魔防』のパラメータ【+{0}】",
+      "en": "'MDF' 【+{0}】"
+    },
+    {
+      "n": 608,
+      "id": "force_dll_0089",
+      "jp": "『速度』のパラメータ【+{0}】",
+      "en": "'SPD' 【+{0}】"
+    },
+    {
+      "n": 609,
+      "id": "force_dll_0090",
+      "jp": "命中率【+{0}%】",
+      "en": "Hit【+{0}%】"
+    },
+    {
+      "n": 610,
+      "id": "force_dll_0091",
+      "jp": "『必殺』のパラメータ【+{0}】",
+      "en": "'CRT' 【+{0}】"
+    },
+    {
+      "n": 611,
+      "id": "force_dll_0092",
+      "jp": "『連撃』のパラメータ【+{0}】",
+      "en": "'DBL' 【+{0}】"
+    },
+    {
+      "n": 612,
+      "id": "force_dll_0093",
+      "jp": "<color=#FFFFFF>{0}</color>Lv<size=30>ひみつ</size>",
+      "en": "<color=#FFFFFF>{0}</color>Lv<size=30>???</size>",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 613,
+      "id": "force_dll_0094",
+      "jp": "図鑑完成率:{0}%",
+      "en": "Codex:{0}%"
+    },
+    {
+      "n": 614,
+      "id": "force_dll_0095",
+      "jp": "<size=60>{1}</size>日目",
+      "en": "<size=60>{1}</size> d"
+    },
+    {
+      "n": 615,
+      "id": "force_dll_0096",
+      "jp": "シーン回収【<size=60>{0}</size>/<size=30>{1}</size>】",
+      "en": "CG 【<size=60>{0}</size>/<size=30>{1}</size>】"
+    },
+    {
+      "n": 616,
+      "id": "force_dll_0097",
+      "jp": ">{0}</size>億",
+      "en": ">{0}</size>B"
+    },
+    {
+      "n": 617,
+      "id": "force_dll_0098",
+      "jp": ">{1}</size>万",
+      "en": ">{1}</size>k"
+    },
+    {
+      "n": 618,
+      "id": "force_dll_0099",
+      "jp": "{0}\n<size=18>【(消費 】{1}【/{2}Rp + {3}G)】</size>",
+      "en": "{0}\n<size=18>【(ex 】{1}【/{2}Rp + {3}G)】</size>"
+    },
+    {
+      "n": 619,
+      "id": "force_dll_0100",
+      "jp": "{0}\n<size=18>【(消費 】{1}【/{2}Rp)】</size>",
+      "en": "{0}\n<size=18>【(ex 】{1}【/{2}Rp)】</size>"
+    },
+    {
+      "n": 620,
+      "id": "force_dll_0101",
+      "jp": "【ならずもの】が暴れ回り、店に【{0}G】の損害が出た！",
+      "en": "Rogues hit shop. Lost 【{0}G】"
+    },
+    {
+      "n": 621,
+      "id": "force_dll_0102",
+      "jp": "【邪教徒】が破壊工作を行い、店に【{0}G】の損害が出た！",
+      "en": "Cult sabotage. Lost 【{0}G】!"
+    },
+    {
+      "n": 622,
+      "id": "force_dll_0103",
+      "jp": "【ゴブリン】が店で略奪し、店に【{0}G】の損害が出た！",
+      "en": "Goblin loot. Lost 【{0}G】!"
+    },
+    {
+      "n": 623,
+      "id": "force_dll_0104",
+      "jp": "<size=50>襲撃Wave</size><size=70>{0}</size><size=60>/{1}</size>",
+      "en": "<size=50>RaidWv</size><size=70>{0}</size><size=60>/{1}</size>"
+    },
+    {
+      "n": 624,
+      "id": "force_dll_0105",
+      "jp": "『{0}』からの好感度が上がった！",
+      "en": "'{0}' like up!"
+    },
+    {
+      "n": 625,
+      "id": "force_dll_0106",
+      "jp": "総プレイ時間　{0}",
+      "en": "Play {0}"
+    },
+    {
+      "n": 626,
+      "id": "force_dll_0107",
+      "jp": "<size=50>決戦Wave</size><size=70>{0}</size><size=60>/{1}</size>",
+      "en": "<size=50>BossWv</size><size=70>{0}</size><size=60>/{1}</size>"
+    },
+    {
+      "n": 627,
+      "id": "force_dll_0108",
+      "jp": "『大禁呪』の詠唱完成度……<size=80>{0}%</size>！",
+      "en": "'Hex' chg……<size=80>{0}%</size>!"
+    },
+    {
+      "n": 628,
+      "id": "force_dll_0109",
+      "jp": "【{0}】に変更できるデス【(残り{1}回)】",
+      "en": "Set 【{0}】 【({1} left)】"
+    },
+    {
+      "n": 629,
+      "id": "force_dll_0110",
+      "jp": "【ランク{0}】にアップできるデス【(経験値{1}/{2})】",
+      "en": "Rank {0} ready 【(EXP {1}/{2})】"
+    },
+    {
+      "n": 630,
+      "id": "force_dll_0111",
+      "jp": "これ以上のスキルは習得できないデス。【顔アイコンをクリック】してスキルリセットするデス？",
+      "en": "Skill cap. 【Click face】 to reset skills?"
+    },
+    {
+      "n": 631,
+      "id": "force_dll_0112",
+      "jp": "【{0}】を建設可能になったデス",
+      "en": "Can build 【{0}】"
+    },
+    {
+      "n": 632,
+      "id": "force_dll_0113",
+      "jp": "マリーゼルが覚醒し、すべての能力がものすごくアップしたデス！！",
+      "en": "Mariezel awoke! Stats jumped!!"
+    },
+    {
+      "n": 633,
+      "id": "force_dll_0114",
+      "jp": "マテリアルをコンプリートしたので、【エネミー撃破・トレジャー収集系ミッション】がクリア扱いになるデス！！",
+      "en": "All mats done. Kill/loot missions count cleared!!"
+    },
+    {
+      "n": 634,
+      "id": "force_dll_0115",
+      "jp": "そろそろ【{0}】とエッチできるんじゃない？\n\n(エッチに誘う場合は夜になってから『夜伽』に誘ってみましょう)",
+      "en": "H with 【{0}】 soon?\n\n(At night, invite to 'Night')"
+    },
+    {
+      "n": 635,
+      "id": "force_dll_0116",
+      "jp": "【{0}】のエッチ適正が『{1}』になったよД",
+      "en": "【{0}】 H apt → '{1}'Д"
+    },
+    {
+      "n": 636,
+      "id": "force_dll_0117",
+      "jp": "少し落ち着いて、ＥＰが【{0}】回復した！",
+      "en": "Calmed. EP +【{0}】!"
+    },
+    {
+      "n": 637,
+      "id": "force_dll_0118",
+      "jp": "呼吸を整えて、ＥＰが【{0}】回復した！",
+      "en": "Breathe. EP +【{0}】!"
+    },
+    {
+      "n": 638,
+      "id": "force_dll_0119",
+      "jp": "冷静になって、ＥＰが【{0}】回復した！",
+      "en": "Cooled. EP +【{0}】!"
+    },
+    {
+      "n": 639,
+      "id": "force_dll_0120",
+      "jp": "商人ランク<size=24>★{0}</size>→<size=30>★{1}</size>",
+      "en": "Shop <size=24>★{0}</size>→<size=30>★{1}</size>"
+    },
+    {
+      "n": 640,
+      "id": "force_dll_0121",
+      "jp": "のユニットランク<size=24>★{0}</size>→<size=30>★{1}</size>",
+      "en": "'s rank<size=24>★{0}</size>→<size=30>★{1}</size>"
+    },
+    {
+      "n": 641,
+      "id": "force_dll_0122",
+      "jp": "この淫夢はまだ見れないよД",
+      "en": "Not viewableД"
+    },
+    {
+      "n": 642,
+      "id": "force_dll_0123",
+      "jp": "未発見のマテリアルが<size=24>【{0}個】</size>あります",
+      "en": "{0} undiscovered mats"
+    },
+    {
+      "n": 643,
+      "id": "force_dll_0124",
+      "jp": "画面をタッチしてください",
+      "en": "Tap to start"
+    },
+    {
+      "n": 644,
+      "id": "force_dll_0125",
+      "jp": "「料理」",
+      "en": "Food"
+    },
+    {
+      "n": 645,
+      "id": "force_dll_0126",
+      "jp": "『投資メニュー』の『事業投資』が可能になったデス\n\n(カネの力を使って世界を動かします。主に【メインストーリーの進行に必須】です)",
+      "en": "Biz Invest is open.\n\n(Gold moves the world. Needed for story.)"
+    },
+    {
+      "n": 646,
+      "id": "force_dll_0127",
+      "jp": "「パートナーミッション」が発生しました。クリアすることでパートナーが強化されます。ミッションは4件まで同時に請けることが出来ます。",
+      "en": "Partner Mission up. Clear it to buff them. You can take 4."
+    },
+    {
+      "n": 647,
+      "id": "force_dll_0128",
+      "jp": "『投資メニュー』の『資源投資』が可能になったデス\n\n(投資することで自動で開発ポイントを稼いでくれます)",
+      "en": "Resource Invest open.\n\n(Farms development points.)"
+    },
+    {
+      "n": 648,
+      "id": "force_dll_0129",
+      "jp": "【ここから先はしばらく戻れない】気がするデス。時間に余裕をもって進むデス！\n【(※ボスを倒すと、しばらく脱出不可能領域に突入します)】",
+      "en": "You may not get back soon. Don't rush\n【(*Boss, then no-escape.)】"
+    },
+    {
+      "n": 649,
+      "id": "force_dll_0130",
+      "jp": "平和になって行方不明者が激減したデス。\n【すべての行方不明者捜索ミッション】がクリア扱いになるデス！！\n\n【(ランダム発生の行方不明者は引き続き発生します)】",
+      "en": "Fewer missing now.\nMissing-person quests cleared!!\n\n【(Random ones still.)】"
+    },
+    {
+      "n": 650,
+      "id": "force_dll_0131",
+      "jp": "すべての要素をコンプリートして、まだ物足りないデス？\n『死神』メニュー【KANE】と【3回】入力するデス！\n\n【(このコマンドは秘密にしてください)】",
+      "en": "All done and still bored?\nShinigami: 【KANE】 then 【3】!\n\n【(Keep secret.)】"
+    },
+    {
+      "n": 651,
+      "id": "force_dll_0132",
+      "jp": "「商人トライアル」が発生しました。クリアすると店の売上が強化されます。ミッションと並行して4件まで同時に請けることが出来ます。",
+      "en": "Merchant Trial up. Clear it to boost sales. Max 4 w/ missions."
+    },
+    {
+      "n": 652,
+      "id": "force_dll_0133",
+      "jp": "ＣＰが余っていたので、非アクティブの商品を、できるだけアクティブにしておいたデス\n\n【(このゲームは「アクティブメニューの商品合計」が売値になりますので、アクティブが多いほど有利です)】",
+      "en": "Spare CP, so extra goods were turned on.\n\n【(Sale is the sum of active goods.)】"
+    },
+    {
+      "n": 653,
+      "id": "force_dll_0134",
+      "jp": "平和になってカネが余りそうデスかね？　今なら、カネを使って【派遣時間スキップ】してもいいデスよ\n\n【(派遣中のスロットをクリックしてください)】",
+      "en": "Spare gold. You can skip dispatch time.\n\n【(Click a busy slot.)】"
+    },
+    {
+      "n": 654,
+      "id": "force_dll_0135",
+      "jp": "スキル習得Pが足りないデス。『死神研修』で死神としての実績を立てて、最大値を増やすデス！\n(【顔アイコンをクリック】するとスキルリセットができます)",
+      "en": "Need skill P. Raise the cap in training!\n(【Click face】 to reset skills.)"
+    },
+    {
+      "n": 655,
+      "id": "force_dll_0136",
+      "jp": "メインスロットを操作するのデス？\n\n【(メインスロットのユニットを移動するとパーティーは解散されます。交代するには交代先のユニットを先に選択してください)】",
+      "en": "Move the main slot?\n\n【(Moving main unit disbands the party. Pick swap first.)】"
+    },
+    {
+      "n": 656,
+      "id": "force_dll_0137",
+      "jp": "『美容室』が可能になったデス\n\n(『店員』でモブヒロインの『詳細操作』→『全身』で、『美容室』ボタンが表示できるようになります)",
+      "en": "Salon is open.\n\n(Staff > More > Body shows the Salon button.)"
+    },
+    {
+      "n": 657,
+      "id": "force_dll_0138",
+      "jp": "『料理』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『料理部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Cook items. Drop some, or add Cook staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 658,
+      "id": "force_dll_0139",
+      "jp": "『鍛冶』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『鍛冶部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Smith items. Drop some, or add Smith staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 659,
+      "id": "force_dll_0140",
+      "jp": "『錬金』の有効メニューが多すぎるので、すべての効果を発揮できないデス。アクティブメニューを減らすか『錬金部門』のスタッフを増やすデス\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "en": "Too many active Alch items. Drop some, or add Alch staff.\n【(】<color=#ff0000>{0}</color>【/{1})】",
+      "flags": [
+        "engine_hash_pair"
+      ]
+    },
+    {
+      "n": 660,
+      "id": "force_dll_0141",
+      "jp": "編成出来ないヤツがいるデス。サブスロットのメンバーと交代するデス！\n【(主人公・シイネ・デシルス以外は連戦出来ません。サブスロットに配置することは可能です)】",
+      "en": "Can't form. Swap with a sub unit.\n【(Ren/Shiine/Desilus only rematch. Subs ok.)】"
+    },
+    {
+      "n": 661,
+      "id": "force_dll_0142",
+      "jp": "編成出来ないヤツがいるデス。サブスロットのメンバーと交代するデス！\n【(サブスロットに配置することは可能です)】",
+      "en": "Can't form. Swap with a sub unit.\n【(Can use sub slots.)】"
+    },
+    {
+      "n": 662,
+      "id": "force_fix_0001",
+      "jp": "<size=24>【{0}】</size> undiscovered m",
+      "en": "{0} undiscovered mats"
+    },
+    {
+      "n": 663,
+      "id": "force_fix_0002",
+      "jp": "Base Sale+  ",
+      "en": "Gold+<color="
+    },
+    {
+      "n": 664,
+      "id": "force_fix_0003",
+      "jp": "Invested:<c",
+      "en": "Pay<color=#"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 83101,
+  "range_end": 83200,
+  "pairs": [
+    {
+      "n": 83101,
+      "id": "db_EventInfo:98260:2",
+      "jp": "まったく、あのメイドめ、とんでもないことをしてくれたデス",
+      "en": "Really, that maid. She's done something unbelievable, yess.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83102,
+      "id": "db_EventInfo:98261:2",
+      "jp": "とっ捕まえて、ギッタンギッタンにしてやらなきゃ気が済まないデス！",
+      "en": "I have to catch her and make her feel it hard, or I won't be satisfied, yess!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83103,
+      "id": "db_EventInfo:98262:1",
+      "jp": "まあまあ……それよりまずは店を何とかしないと",
+      "en": "Hey hey... more importantly, we need to do something about the shop first.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83104,
+      "id": "db_EventInfo:98263:2",
+      "jp": "オマエもオマエデス。ハニートラップにあっさり引っかかるなんてデス",
+      "en": "You're such a you. Falling for a honey trap so easily.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83105,
+      "id": "db_EventInfo:98264:1",
+      "jp": "うっ",
+      "en": "Ugh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83106,
+      "id": "db_EventInfo:98265:0",
+      "jp": "まずい、俺に矛先が向き始めた。",
+      "en": "Crap, she's starting to point her anger at me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83107,
+      "id": "db_EventInfo:98266:0",
+      "jp": "そこへ……。",
+      "en": "And then...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83108,
+      "id": "db_EventInfo:98268:20",
+      "jp": "失礼します御主人様。ハヅキでございます",
+      "en": "Pardon me, Master. It is Hazuki.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83109,
+      "id": "db_EventInfo:98269:2",
+      "jp": "あっ、メイドデス！　どのツラ下げてやってきたデス？",
+      "en": "Ah, the maid! What nerve do you have to show up here?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83110,
+      "id": "db_EventInfo:98270:20",
+      "jp": "はい？",
+      "en": "Huh?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83111,
+      "id": "db_EventInfo:98271:2",
+      "jp": "オマエが連れてきたメイドのせいで、うちのスタッフの大半が抜けてしまったデス！",
+      "en": "Because of that maid you brought, most of my staff left!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83112,
+      "id": "db_EventInfo:98272:2",
+      "jp": "すべてオマエのせいデス！　領主代行として慰謝料と損害賠償を請求するデス！",
+      "en": "This is all your fault! As the acting lord, I demand compensation and damages!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83113,
+      "id": "db_EventInfo:98273:1",
+      "jp": "まあまあ……",
+      "en": "Hey hey...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83114,
+      "id": "db_EventInfo:98274:0",
+      "jp": "俺はシイネをどうにかなだめた。",
+      "en": "I managed to calm Shiine down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83115,
+      "id": "db_EventInfo:98276:0",
+      "jp": "ハヅキは頭に？を浮かべて首を傾げている。",
+      "en": "Hazuki tilts her head with a question mark over it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83116,
+      "id": "db_EventInfo:98277:20",
+      "jp": "御主人様が何に腹を立てているかはわかりませんが",
+      "en": "I don't know what you're mad about, master...",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83117,
+      "id": "db_EventInfo:98278:20",
+      "jp": "もしやメイド違いなのではございませんか？",
+      "en": "Maybe it's the wrong maid?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83118,
+      "id": "db_EventInfo:98279:2",
+      "jp": "デス？",
+      "en": "Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83119,
+      "id": "db_EventInfo:98280:20",
+      "jp": "先日契約いただいた【『メイドむふふサービス』】のスタッフは遠征から帰ってきたばかりでして",
+      "en": "The staff from the \"Maid Hehehe Service\" you hired the other day just got back from their mission.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83120,
+      "id": "db_EventInfo:98281:20",
+      "jp": "ようやく本日、手配も終わったばかりなのですが",
+      "en": "I just got them all sorted out today.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83121,
+      "id": "db_EventInfo:98282:2",
+      "jp": "なぬデス？",
+      "en": "What death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83122,
+      "id": "db_EventInfo:98283:20",
+      "jp": "ええ。彼女らはこちらに……入りなさい",
+      "en": "Yes. They're right here... come in.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83123,
+      "id": "db_EventInfo:98284:0",
+      "jp": "★クリア",
+      "en": "★Cleared",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83124,
+      "id": "db_EventInfo:98285:0",
+      "jp": "すると、ハヅキの後ろから二人のメイドが姿を現した。",
+      "en": "Then, two maids step out from behind Hazuki.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83125,
+      "id": "db_EventInfo:98287:21",
+      "jp": "シズハです、よろしくお願いします",
+      "en": "I'm Shizuha, nice to meet you.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83126,
+      "id": "db_EventInfo:98288:22",
+      "jp": "クレハです、よろしくお願いいたします",
+      "en": "I'm Kureha, pleased to meet you.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83127,
+      "id": "db_EventInfo:98289:20",
+      "jp": "まるで姉妹のようでございましょう。まあ姉妹みたいなものなんですけど",
+      "en": "They look like sisters, right? Well, they practically are.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83128,
+      "id": "db_EventInfo:98290:20",
+      "jp": "こちらのシズハとクレハは、私が腕によりを掛けて育てた、なぞの退魔メイド",
+      "en": "This is Shizuha and Kureha. They're the spirit-hunting maids I raised with great care.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83129,
+      "id": "db_EventInfo:98291:20",
+      "jp": "バトルから夜のお供まで、御主人様をめくるめく至福の時にいざないましょう",
+      "en": "From battle to nighttime company, they will guide you, Master, to dizzying heights of bliss.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83130,
+      "id": "db_EventInfo:98292:1",
+      "jp": "めくるめる……ゴクリ",
+      "en": "Dizzying... *gulp*",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83131,
+      "id": "db_EventInfo:98293:2",
+      "jp": "コイツ、懲りてないデス……",
+      "en": "This guy just never learns, does he...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83132,
+      "id": "db_EventInfo:98294:20",
+      "jp": "二人とも、御主人様によく尽くすのですよ",
+      "en": "You two, serve our Master well.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83133,
+      "id": "db_EventInfo:98295:21",
+      "jp": "かしこまりました、師匠",
+      "en": "Understood, Teacher.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83134,
+      "id": "db_EventInfo:98296:22",
+      "jp": "奉仕して参ります",
+      "en": "We will serve you.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83135,
+      "id": "db_EventInfo:98299:0",
+      "jp": "ハヅキは一礼すると、まるで消え去るかのような一瞬の動きで目の前から消えていった。",
+      "en": "Hazuki bowed and then vanished from in front of me in a flash, like she just disappeared.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83136,
+      "id": "db_EventInfo:98300:1",
+      "jp": "(あの人がダンジョンで手伝ってくれたら、向かうところ敵無しな気がする……)",
+      "en": "(If someone like her helped in the dungeon, I'd be unstoppable...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83137,
+      "id": "db_EventInfo:98301:0",
+      "jp": "まあともかく、新しいメイドが加わったということで、何とか人手も確保できそうだ。",
+      "en": "Anyway, now that I have new maids, I guess I have some help secured.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83138,
+      "id": "db_EventInfo:98302:1",
+      "jp": "よろしく、二人とも",
+      "en": "Nice to meet you, both of you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83139,
+      "id": "db_EventInfo:98305:1",
+      "jp": "二人とも？",
+      "en": "Both of you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83140,
+      "id": "db_EventInfo:98307:21",
+      "jp": "……ちっ",
+      "en": "...Tch.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83141,
+      "id": "db_EventInfo:98308:22",
+      "jp": "……ふん",
+      "en": "...Hmph.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83142,
+      "id": "db_EventInfo:98309:1",
+      "jp": "舌打ち！？",
+      "en": "Tsking!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83143,
+      "id": "db_EventInfo:98310:0",
+      "jp": "ハヅキがいなくなった途端、唐突に態度が変わる二人。",
+      "en": "As soon as Hazuki was gone, their attitudes suddenly changed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83144,
+      "id": "db_EventInfo:98311:21",
+      "jp": "御主人様、いやらしい目で見ないでもらえます？",
+      "en": "Master, could you not look at me with those disgusting eyes?",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83145,
+      "id": "db_EventInfo:98312:22",
+      "jp": "私達は師匠……ハヅキ様の命で来ただけであって、貴方の下につくつもりはありません",
+      "en": "We're only here by our teacher—Hazuki's—order. We have no intention of serving under you.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83146,
+      "id": "db_EventInfo:98313:21",
+      "jp": "勘違い無きよう、お願いしますね",
+      "en": "Please don't misunderstand.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83147,
+      "id": "db_EventInfo:98316:0",
+      "jp": "二人のメイドは一礼……というか一瞥して去っていった。",
+      "en": "The two maids gave a bow—well, more like a glare—and left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83148,
+      "id": "db_EventInfo:98317:0",
+      "jp": "シェルフィの次は……また変なメイドが来てしまった。",
+      "en": "After Shelfi... now these weird maids show up.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83149,
+      "id": "db_EventInfo:98318:2",
+      "jp": "ハヅキに厄介なメイドを押しつけられたんじゃないデス？",
+      "en": "Did Hazuki pawn off her troublesome maids on you, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83150,
+      "id": "db_EventInfo:98319:2",
+      "jp": "シェルフィが居なくなったと思ったら、変なメイド共を押しつけられたデス",
+      "en": "Shelfi's gone, and then you get stuck with these weird maids, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83151,
+      "id": "db_EventInfo:98321:20",
+      "jp": "誤解でございます",
+      "en": "That's a misunderstanding.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83152,
+      "id": "db_EventInfo:98322:2",
+      "jp": "それより損害を賠償しろデス！　オマエがすぐメイドを寄越さないからデス！",
+      "en": "More importantly, pay for the damage! This happened because you didn't send the maid right away!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83153,
+      "id": "db_EventInfo:98323:20",
+      "jp": "そんなひどい",
+      "en": "That's so mean...",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83154,
+      "id": "db_EventInfo:98324:1",
+      "jp": "いやいや、ハヅキさんが悪いわけじゃないだろ……",
+      "en": "Hey, come on, it's not really Hazuki's fault...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83155,
+      "id": "db_EventInfo:98325:20",
+      "jp": "御主人様……ぽっ",
+      "en": "Master... *glowing*",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83156,
+      "id": "db_EventInfo:98326:2",
+      "jp": "まあ、それはそれとして、事前に担当の名前を確認しなかった、コイツのせいでもあるデスが",
+      "en": "Well, having said that, it's also this guy's fault for not checking the assigned name beforehand.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 83157,
+      "id": "db_EventInfo:98327:1",
+      "jp": "ううっ……申し訳ない",
+      "en": "Ugh... I'm sorry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83158,
+      "id": "db_EventInfo:98328:0",
+      "jp": "★エッチシーン・シズハ・個別①・二人のヒミツの花園？",
+      "en": "*H-Scene - Shizuha - Individual ① - A Secret Garden for Two?*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83159,
+      "id": "db_EventInfo:98330:20",
+      "jp": "どうですか、二人の使い心地は",
+      "en": "So, how are the two of them working out?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83160,
+      "id": "db_EventInfo:98331:1",
+      "jp": "仕事はしてくれるんだけど……その",
+      "en": "They do their jobs, but... it's just that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83161,
+      "id": "db_EventInfo:98332:20",
+      "jp": "ふむ、まだ夜伽の相手はさせてないようでございますね",
+      "en": "Hmm, it seems you haven't had them serve you at night yet.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83162,
+      "id": "db_EventInfo:98333:1",
+      "jp": "……夜伽というか、仕事以外で近づこうとすると噛みつかれそうで",
+      "en": "...It's not about night service. Whenever I try to get close outside of work, it feels like they might bite.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83163,
+      "id": "db_EventInfo:98334:20",
+      "jp": "ほほう？",
+      "en": "Oh really?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83164,
+      "id": "db_EventInfo:98335:20",
+      "jp": "そういう風に仕込んだつもりはないのですが、これもまたプレイの一環でございますね",
+      "en": "I didn't plan it that way, but I guess that's part of the play too.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83165,
+      "id": "db_EventInfo:98336:20",
+      "jp": "ふむ……ああそういえば",
+      "en": "Hmm... oh, right.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83166,
+      "id": "db_EventInfo:98337:20",
+      "jp": "失礼しました。夜伽サービスをオプション設定するのを忘れておりました",
+      "en": "Sorry. I forgot to set the 'night companion service' as an option.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83167,
+      "id": "db_EventInfo:98338:1",
+      "jp": "はい？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83168,
+      "id": "db_EventInfo:98339:20",
+      "jp": "えっちは別料金でございます。二人とイチャコラしたいのでしたら、【『追加投資』】してくださいませ",
+      "en": "Sex is extra. If you want to get cozy with those two, you'll need to make an 【『Additional Investment』】.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83169,
+      "id": "db_EventInfo:98340:1",
+      "jp": "おいィ！？",
+      "en": "Hey!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83170,
+      "id": "db_EventInfo:98342:20",
+      "jp": "メイドのイヤイヤパイズリサービスをご所望でございますか",
+      "en": "Are you interested in a maid's 'unwilling paizuri' service?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83171,
+      "id": "db_EventInfo:98343:20",
+      "jp": "パイズリには飽きたことありませんか？",
+      "en": "Aren't you tired of regular paizuri?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83172,
+      "id": "db_EventInfo:98344:20",
+      "jp": "このサービスは女の子に嫌がられながら奉仕してもらえるのが売り",
+      "en": "The selling point is having a girl serve you while she's reluctant.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83173,
+      "id": "db_EventInfo:98345:20",
+      "jp": "カネにものを言わせるサービスもオツなものですよ",
+      "en": "Services you can buy with money have their own appeal, you know.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83174,
+      "id": "db_EventInfo:98346:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83175,
+      "id": "db_EventInfo:98348:22",
+      "jp": "あの、師匠。本当にしたくないんですけど",
+      "en": "Um, Master. I really don't want to do this...",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83176,
+      "id": "db_EventInfo:98349:20",
+      "jp": "メイドたるもの、御主人様の欲求をいつでも解消できねばなりません",
+      "en": "A maid must always be ready to fulfill her Master's desires.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83177,
+      "id": "db_EventInfo:98350:20",
+      "jp": "頑張るのですよ",
+      "en": "Do your best.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83178,
+      "id": "db_EventInfo:98351:22",
+      "jp": "うぅ……",
+      "en": "Ugh...",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83179,
+      "id": "db_EventInfo:98352:0",
+      "jp": "★エッチシーン・クレハ・個別①・イヤイヤパイズリ",
+      "en": "*H-Scene: Kureha, Individual ①, Reluctant Titjob*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83180,
+      "id": "db_EventInfo:98354:20",
+      "jp": "メイドのあわあわプレイをご所望でございますね",
+      "en": "So you wish for the maid's 'Bubbly Play', I see.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83181,
+      "id": "db_EventInfo:98355:20",
+      "jp": "あわあわプレイは浴場での奉仕、大きな風呂場をご用意くださいませ",
+      "en": "'Bubbly Play' is a service in the bath. Please prepare a large bathing area.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83182,
+      "id": "db_EventInfo:98356:1",
+      "jp": "これであわあわプレイが……",
+      "en": "Now we can do the 'Bubbly Play'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83183,
+      "id": "db_EventInfo:98357:22",
+      "jp": "とんだスケベ野郎ですわね",
+      "en": "What a total pervert you are.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 83184,
+      "id": "db_EventInfo:98358:21",
+      "jp": "本当に",
+      "en": "Really.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83185,
+      "id": "db_EventInfo:98359:20",
+      "jp": "これで御主人様はむふふ、私は懐がっぽり。うぃんうぃんでございます",
+      "en": "With this, Master gets ahehe, and I get a hefty payout. A win-win, truly.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83186,
+      "id": "db_EventInfo:98360:20",
+      "jp": "二人とも、しっかり奉仕するのですよ",
+      "en": "You two, serve him properly.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83187,
+      "id": "db_EventInfo:98361:21",
+      "jp": "は、はい……",
+      "en": "Y-yes...",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83188,
+      "id": "db_EventInfo:98362:0",
+      "jp": "★エッチシーン・シズハ・個別②・イヤイヤあわプレイ",
+      "en": "*H-Scene Shizuha Individual 2: 'No No' Foam Play*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83189,
+      "id": "db_EventInfo:98363:0",
+      "jp": "★エッチシーン・クレハ・個別②・イヤイヤあわプレイ(スマタ)",
+      "en": "*H-Scene Kureha Individual 2: 'No No' Foam Play (Handjob)*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83190,
+      "id": "db_EventInfo:98365:20",
+      "jp": "はい確かに、お買い上げありがとうございます",
+      "en": "Yes indeed, thank you for your purchase.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83191,
+      "id": "db_EventInfo:98366:1",
+      "jp": "うう、とんでもない金額だった……",
+      "en": "Ugh, that was a crazy amount of money...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83192,
+      "id": "db_EventInfo:98367:0",
+      "jp": "俺はハヅキさんに提示された金額を支払った……。",
+      "en": "I paid the amount Hazuki told me...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 83193,
+      "id": "db_EventInfo:98368:20",
+      "jp": "何を言っておられるのですか御主人様。この程度の出費、今となっては大したことないではありませんか",
+      "en": "What are you talking about, Master? A little expense like this is nothing to you now, isn't it?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83194,
+      "id": "db_EventInfo:98369:1",
+      "jp": "いや、大したことない事はないが",
+      "en": "No, it's not exactly nothing.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83195,
+      "id": "db_EventInfo:98370:21",
+      "jp": "こ、こんなにお金を払って、本当にいやらしい御主人様ね！",
+      "en": "T-to spend this much money... you're such a pervert, Master!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 83196,
+      "id": "db_EventInfo:98371:20",
+      "jp": "それだけアナタに価値を見出しているという事ですよ、シズハ",
+      "en": "That just means he sees your value, Shizuha.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83197,
+      "id": "db_EventInfo:98372:20",
+      "jp": "ささ、それでは御主人様、後はお好きになさって下さいませ",
+      "en": "Now then, Master, please enjoy yourself as you like.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83198,
+      "id": "db_EventInfo:98373:1",
+      "jp": "え、お好きにって……嫌がってるように見えるんだが",
+      "en": "Huh? As I like...? But she looks like she hates it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 83199,
+      "id": "db_EventInfo:98374:20",
+      "jp": "シズハはこう見えてマゾなので、細かい事は心配しなくておっけーでございます",
+      "en": "Shizuha might not look it, but she's a bit of a masochist. Don't sweat the small stuff, it's fine.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 83200,
+      "id": "db_EventInfo:98375:21",
+      "jp": "て、適当な事言わないで下さい！",
+      "en": "D-don't say such irresponsible things!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 8901,
+  "range_end": 9000,
+  "pairs": [
+    {
+      "n": 8901,
+      "id": "rem_36623",
+      "jp": "新鮮なテンタクルを特殊な加工で調理したどんぶり。形容しがたい美味で、虜になったリピーターは正気を失いながらも料理を求める。",
+      "en": "A bowl of fresh tentacles specially prepared. Its indescribable flavor has repeat customers losing their minds craving more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8902,
+      "id": "rem_36624",
+      "jp": "テンタクルどんぶり",
+      "en": "Tentacle Bowl",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8903,
+      "id": "rem_36625",
+      "jp": "新鮮な魚介類と異国のコメを合わせて作った高級リゾット。海の幸と異国の食材を合わせた新たな味わいに、ゼカリウス近郊から食通がこぞって求めている。",
+      "en": "A luxury risotto made with fresh seafood and exotic rice. Its novel taste, combining ocean bounty and foreign ingredients, draws foodies from near Zecarius.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8904,
+      "id": "rem_36626",
+      "jp": "魚介リゾット",
+      "en": "Seafood Risotto",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8905,
+      "id": "rem_36627",
+      "jp": "新鮮な海の幸を食べやすく細かく刻み、煮込む事で魚介の旨味を凝縮させたスープ料理。貝や魚と言った海の幸と、野菜の味わいを大海原のように内包させた高級品。",
+      "en": "A soup made by finely chopping fresh seafood and stewing it to concentrate the flavor. A luxury item containing the taste of the sea and vegetables like the open ocean.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8906,
+      "id": "rem_36628",
+      "jp": "大海原スープ",
+      "en": "Seaswept Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8907,
+      "id": "rem_36629",
+      "jp": "たまごを割落として加熱した料理。新鮮ではない上に、加熱しすぎて全体的に味わいは固い。だが、たまご自身の栄養価は損なわれておらず、貴重なたんぱく源。",
+      "en": "A dish made by dropping and heating an egg. Not fresh and overcooked, making it tough. Still, its protein and nutrition remain intact.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8908,
+      "id": "rem_36630",
+      "jp": "加熱エッグ",
+      "en": "Heated Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8909,
+      "id": "rem_36631",
+      "jp": "カラが付いたままの卵を温水で加熱したたまご。器が無くても食べられるので、携帯食にもできる。加熱したため身が硬くなり、若干飲み込み辛い。",
+      "en": "An egg heated in warm water, shell on. Portable and can be eaten without a dish. The heat makes it firm and a bit hard to swallow.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8910,
+      "id": "rem_36632",
+      "jp": "温水加熱たまご",
+      "en": "Warm-Water Heated Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8911,
+      "id": "rem_36633",
+      "jp": "新鮮なたまごを鉄板に割り落とし、中央の黄身を目玉に見立てて熱を通した卵料理。子供から大人まで大好きな、お手軽料理。",
+      "en": "A fresh egg cracked onto a griddle and cooked, with the yolk resembling an eyeball. A popular, easy dish for all ages.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8912,
+      "id": "rem_36634",
+      "jp": "ローストアイボール",
+      "en": "Roast Eyeball Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8913,
+      "id": "rem_36635",
+      "jp": "出荷されてきたばかりのたまご。そのまま飲み込む事ができるよう、長い品種改良が行われた。もちろん、たまごの持つ栄養を丸ごと取り入れる事ができる。",
+      "en": "A freshly shipped egg. Long selective breeding allows it to be swallowed whole, letting you absorb all its nutrients.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8914,
+      "id": "rem_36636",
+      "jp": "新鮮生たまご",
+      "en": "Fresh Raw Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8915,
+      "id": "rem_36637",
+      "jp": "割入れたたまごをスープでほぐして煮立たせた。素朴で優しい味わいは、緊張をほぐし、体を温める効果がある。",
+      "en": "A cracked egg whisked into a simmering broth. Its simple, gentle flavor eases tension and warms the body.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8916,
+      "id": "rem_36638",
+      "jp": "たまごのほぐしスープ",
+      "en": "Whisked Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8917,
+      "id": "rem_36639",
+      "jp": "贅沢にたまごを溶きほぐし、何層にも重ねて焼き上げた一品。ふわふわで熱々なこの料理を食べると、大人も子供も笑みがこぼれる。",
+      "en": "A lavish dish of whisked eggs layered and grilled. Eating this fluffy, piping-hot treat brings smiles to young and old.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8918,
+      "id": "rem_36640",
+      "jp": "あつあつ厚焼きエッグ",
+      "en": "Hot & Fluffy Thick Egg",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8919,
+      "id": "rem_36641",
+      "jp": "大量のたまごと磨り潰した野菜、滋養に効く薬草を用いて、トロみが付くまでじっくりと煮立たせた料理。食べれば活力が漲る。",
+      "en": "A dish slowly simmered with many eggs, mashed vegetables, and nourishing herbs until thick. Eating it fills you with vigor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8920,
+      "id": "rem_36642",
+      "jp": "旨味溢れるエッグスープ",
+      "en": "Flavorful Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8921,
+      "id": "rem_36643",
+      "jp": "ミツボシと呼ばれる最高ランクを与えられた高級店でしか味わえないという、拘りのオムレツ。半熟に焼き上げたたまごは、とろけるような食感をもたらす。",
+      "en": "A dedicated omelet only available at high-end shops with the highest rank, called the Three-Star. The semi-cooked egg provides a melt-in-your-mouth texture.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8922,
+      "id": "rem_36644",
+      "jp": "スリースターオムレット",
+      "en": "Three-Star Omelet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8923,
+      "id": "rem_36645",
+      "jp": "とろりとした卵の黄身を贅沢に使った濃厚なたまごスープ。飲み干せば驚くほどの活力が湧いてくる。",
+      "en": "A rich egg soup made with generous amounts of runny egg yolk. Drinking it down brings a surprising surge of vitality.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8924,
+      "id": "rem_36646",
+      "jp": "濃厚エッグスープ",
+      "en": "Rich Egg Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8925,
+      "id": "rem_36647",
+      "jp": "厚焼きのたまごにチーズを挟み込んで焼き上げた、大地の恵み。トロトロに溶けたチーズとふわふわのたまごを口に入れれば、表情も幸福に蕩け出す。",
+      "en": "A gift from the earth, made by sandwiching cheese between thickly cooked eggs and grilling. The gooey melted cheese and fluffy egg will melt your expression into happiness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8926,
+      "id": "rem_36648",
+      "jp": "チーズイン厚焼きエッグ",
+      "en": "Cheese-Stuffed Thick Omelet",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8927,
+      "id": "rem_36649",
+      "jp": "アルダルク農業組合が特別に厳選し生産した至高の素材で作られた料理。パスタはもちろん、チーズや牛乳、香辛料に至るまで、厳しい審査を経た最高級品。",
+      "en": "A dish made from supreme ingredients specially and strictly selected and produced by the Aldarc Agricultural Union. Everything from pasta to cheese, milk, and spices are top-grade items that have passed rigorous inspection.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8928,
+      "id": "rem_36650",
+      "jp": "幸せカルボナーラ",
+      "en": "Happy Carbonara",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8929,
+      "id": "rem_36651",
+      "jp": "色々なハーブや野菜を洗って盛り合わせた、自然の素材を生かした料理。手軽に食べられるうえ、好みのソースをかけるだけで、毎日違った味わいが楽しめる。",
+      "en": "A dish that highlights natural ingredients by washing and arranging various herbs and vegetables. Easy to eat, and you can enjoy a different flavor every day just by adding your favorite sauce.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8930,
+      "id": "rem_36652",
+      "jp": "新鮮ハーブ盛り合わせ",
+      "en": "Fresh Herb Assortment",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8931,
+      "id": "rem_36653",
+      "jp": "色々な草や葉や根っこを刻んで煮込んで肉で味付けしたスープ。香りは悪くないが、味はかなり苦い。一部にはこの苦味が支持される。",
+      "en": "A soup made by chopping and stewing various grasses, leaves, and roots, seasoned with meat. The aroma isn't bad, but the taste is quite bitter. This bitterness has its supporters.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8932,
+      "id": "rem_36654",
+      "jp": "豪快煮込みワイルドスープ",
+      "en": "Robust Stewed Wild Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8933,
+      "id": "rem_36655",
+      "jp": "大量にとれた莢豆を茹で上げ、器に移したもの。天然の塩を振り掛ければ、酒のツマミにもってこい。野菜にしては高タンパクで、冒険者にも嬉しい。",
+      "en": "Freshly harvested beans boiled and transferred to a bowl. Sprinkle with natural salt, and it's a perfect snack with drinks. Surprisingly high in protein for a vegetable, adventurers will be pleased.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8934,
+      "id": "rem_36656",
+      "jp": "採れたて山盛りビーンズ",
+      "en": "Fresh Mountain of Beans",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8935,
+      "id": "rem_36657",
+      "jp": "地中で育つ根菜を豪快に丸焼きした香ばしい料理。樹皮も残ったままだが、丸ごと食べれば大地の生命が漲る。問題は硬さと味の悪さだが。",
+      "en": "A savory dish of root vegetables grown underground, robustly roasted whole. The bark remains, but eating it whole fills you with the earth's vitality. The problems are its hardness and poor taste.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8936,
+      "id": "rem_36658",
+      "jp": "地根のグリル",
+      "en": "Grilled Earthroots",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8937,
+      "id": "rem_36659",
+      "jp": "野菜やハーブを千切り、味を調えたソースに付け込んだ料理。味を染み込ませた野菜は、千切っただけの料理とは一線を画す味わいを届けてくれる。",
+      "en": "A dish of finely shredded vegetables and herbs marinated in a seasoned sauce. The vegetables, infused with flavor, offer a taste distinctly different from just shredded produce.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8938,
+      "id": "rem_36660",
+      "jp": "味付けサラダ盛り合わせ",
+      "en": "Seasoned Salad Assortment",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8939,
+      "id": "rem_36661",
+      "jp": "ソースに付け込んだ野菜や肉を薄いパン生地で包み込んだ総合食品。歩きながらでも手軽に食べられるうえ、味も見た目も悪くない。旅をしながらの食事に最適。",
+      "en": "A complete food item made by wrapping marinated vegetables and meat in thin bread dough. Easy to eat on the go, and both taste and appearance are decent. Ideal for meals while traveling.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8940,
+      "id": "rem_36662",
+      "jp": "野菜スティックロール",
+      "en": "Vegetable Stick Roll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8941,
+      "id": "rem_36663",
+      "jp": "薬草の煮浸しを魚介スープで味を調え、冷やし固めた食べやすい料理。薬草の苦味を感じさせない、清涼感と滋養に優れた食品。",
+      "en": "Herbs stewed in fish soup and chilled into a firm, easy-to-eat dish. A refreshing, nourishing food that hides the bitterness of the herbs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8942,
+      "id": "rem_36664",
+      "jp": "リーフスープのゼリー寄せ",
+      "en": "Leaf Soup Jelly",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8943,
+      "id": "rem_36665",
+      "jp": "色とりどりの野菜と肉類を煮込んで作ったスープ。野生の様々な栄養素を取り入れ、食べればいつまでも体がぽかぽか温まる。",
+      "en": "A soup made by stewing colorful vegetables and meats. Absorbs wild nutrients and keeps your body warm for a long time.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8944,
+      "id": "rem_36666",
+      "jp": "色とりどり野菜スープ",
+      "en": "Colorful Vegetable Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8945,
+      "id": "rem_36667",
+      "jp": "様々な肉、野菜を集め、魚介スープでぐつぐつと煮込んだ料理。海と山の全てを結集させて生まれる味わいは、まさに大自然のオーケストラ。",
+      "en": "A dish of various meats and vegetables simmered in fish soup. The flavor unites sea and mountain into a grand symphony of nature.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8946,
+      "id": "rem_36668",
+      "jp": "豪華な野菜煮込み鍋",
+      "en": "Luxury Vegetable Hot Pot",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8947,
+      "id": "rem_36669",
+      "jp": "旬の野菜を大きくカットし、香辛料で味を調えて煮込んだ料理。大自然の栄養を凝縮したスープは、心身の疲労を癒してくれる。",
+      "en": "Seasonal vegetables, cut large and stewed with spices. The soup concentrates nature's energy, healing fatigue.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8948,
+      "id": "rem_36670",
+      "jp": "ごろごろ野菜煮込み",
+      "en": "Chunky Vegetable Stew",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8949,
+      "id": "rem_36671",
+      "jp": "魔術の触媒としても貴重な根菜を、丸ごと煮込んだ神秘料理。劇的な回復効果と栄養素を備え、時の権力者も大金を出して食べたがる。",
+      "en": "A mysterious dish of whole mandrakes stewed. Prized for its dramatic restorative effects, even sought after by the powerful.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8950,
+      "id": "rem_36672",
+      "jp": "マンドレイクソテー",
+      "en": "Mandragora Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8951,
+      "id": "rem_36673",
+      "jp": "新鮮なキノコを盛り合わせにしたもの。食べても多分大丈夫。ポイズンになった場合は、別売りの解毒薬を買うべき。",
+      "en": "An assortment of fresh mushrooms. Probably safe to eat. If poisoned, you should buy some antidote.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8952,
+      "id": "rem_36674",
+      "jp": "雑多キノコ盛り合わせ",
+      "en": "Mixed Mushroom Platter",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8953,
+      "id": "rem_36675",
+      "jp": "森の奥で群生する新鮮なきのこ達。様々な調理法で味わうことができる。",
+      "en": "Fresh mushrooms growing in clusters deep in the forest. Can be enjoyed in various ways.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8954,
+      "id": "rem_36676",
+      "jp": "森のきのこ沢山セット",
+      "en": "Forest Mushroom Bundle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8955,
+      "id": "rem_36677",
+      "jp": "キノコを焼いたもの。森の恵みである。",
+      "en": "Roasted mushrooms. A gift from the forest.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8956,
+      "id": "rem_36678",
+      "jp": "ローストキノコ傘",
+      "en": "Roasted Mushroom Caps",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8957,
+      "id": "rem_36679",
+      "jp": "妖精の住処と言われる大きなキノコ。そのまま焼くだけで、ジューシーなキノコステーキが味わえる。キノコ特有の風味が広がる一品。",
+      "en": "A large mushroom said to be a fairy's home. Grilled whole, it becomes a juicy mushroom steak with rich, distinctive flavor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8958,
+      "id": "rem_36680",
+      "jp": "妖精のキノコ",
+      "en": "Fairy-Toadstool",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8959,
+      "id": "rem_36681",
+      "jp": "月光を浴び、魔力を帯びた特別なキノコを黒胡椒で炒めた料理。生食でも食べられるが、火を通した方が格段においしい。",
+      "en": "A special, moon-bathed magical mushroom sautéed with black pepper. Edible raw, but much tastier cooked.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8960,
+      "id": "rem_36682",
+      "jp": "黒胡椒ポルチーニ",
+      "en": "Black Pepper Porcini",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8961,
+      "id": "rem_36683",
+      "jp": "カラフルな色のキノコを使ったファンシーな見た目のスープ。子供にも人気が出ると思って考案されたが、子供は怖がって食べようとしない。",
+      "en": "A fancy-looking soup made with colorful mushrooms. Designed to be popular with children, but its appearance scares them away.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8962,
+      "id": "rem_36684",
+      "jp": "ファンタジック茸汁",
+      "en": "Fantastic Mushroom Soup",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8963,
+      "id": "rem_36685",
+      "jp": "貴重なキノコを調味料を使って丁寧に味付けをして焼き上げた。",
+      "en": "A carefully seasoned and grilled dish made with rare mushrooms.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8964,
+      "id": "rem_36686",
+      "jp": "黄金キノコオイル焼き",
+      "en": "Golden Mushroom Oil Grill",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8965,
+      "id": "rem_36687",
+      "jp": "魔女達が密かに伝える調理法を使用したキノコ料理。サバトを盛り上げる精力を得られるとの事だが、見た目がかなり毒々しい。安全には配慮しているそうだ。",
+      "en": "A mushroom dish made using a recipe secretly passed down by witches. Said to grant energy for lively Sabbaths, though its appearance is quite toxic-looking. Safety is reportedly considered.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8966,
+      "id": "rem_36688",
+      "jp": "魔女のキノコ料理",
+      "en": "Witches' Mushroom Dish",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8967,
+      "id": "rem_36689",
+      "jp": "美味しい獣肉をキノコと一緒に、ふんだんなスパイスを利かせて炒めたもの。精が付いて一晩眠れなくなるようなエネルギッシュなスタミナ料理。",
+      "en": "Sautéed delicious beast meat with mushrooms and abundant spices. An energetic stamina dish that's so invigorating, you might not sleep all night.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8968,
+      "id": "rem_36690",
+      "jp": "獣肉とキノコのソース炒め",
+      "en": "Beast Meat & Mushroom Sauté",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8969,
+      "id": "rem_36691",
+      "jp": "霊験あらたかな大地が育んだ高級キノコ。滅多に見つからない香り高いキノコは、食通が高額で買い求める。",
+      "en": "A premium mushroom grown by holy earth. Its rare, fragrant nature makes it highly sought after by gourmets.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8970,
+      "id": "rem_36692",
+      "jp": "大地の恵み高級茸",
+      "en": "Earth's Blessing Premium Mushroom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8971,
+      "id": "rem_36693",
+      "jp": "地中に隠れるように存在する、虹色のキノコ。一度これを食べた人間は、血眼になってこのキノコを探してしまう、危ない珍味。",
+      "en": "A rainbow-colored mushroom that hides underground. A dangerous delicacy; those who eat it become obsessed with finding more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8972,
+      "id": "rem_36694",
+      "jp": "レインボーキノコ",
+      "en": "Rainbow Mushroom",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8973,
+      "id": "rem_36695",
+      "jp": "チョコレートを練り込んだ生地を焼き上げたマフィン。シュガーチップやナッツも練り入れて、飽きの来ないスイーツに仕上げてある。",
+      "en": "Muffins made with chocolate-kneaded dough. Sugar chips and nuts are mixed in for a satisfyingly timeless treat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8974,
+      "id": "rem_36696",
+      "jp": "チョコレートマフィン",
+      "en": "Chocolate Muffin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8975,
+      "id": "rem_36697",
+      "jp": "チョコレートと苺を使ったピンクのティラミス。果実と砂糖のコンビネーションにより、ゴージャスな味わいを完成させた。",
+      "en": "A pink tiramisu made with chocolate and strawberries. The combination of fruit and sugar creates a gorgeous flavor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8976,
+      "id": "rem_36698",
+      "jp": "わくわくティラミス",
+      "en": "Exciting Tiramisu",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8977,
+      "id": "rem_36699",
+      "jp": "目玉のようなあめ玉が載ったアイスクリーム。可愛らしくてグロテスクな外見に、ファンはやみつきになる……かもしれない。ちょっとダークな変わり種スイーツ。",
+      "en": "Ice cream topped with eye-like candy. Its cute yet grotesque appearance may have fans hooked... A slightly dark, unusual dessert.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8978,
+      "id": "rem_36700",
+      "jp": "テリブルアイズクリーム",
+      "en": "Terrible Eyes Cream",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8979,
+      "id": "rem_36701",
+      "jp": "シロップ漬けにした甘いフルーツ。季節のフルーツを使っており、毎回違ったフルーツが出されている。常連客が好み、話のネタにするらしい。",
+      "en": "Sweet fruits marinated in syrup. Made with seasonal fruits, so the selection changes each time. A favorite among regulars and a topic of conversation.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8980,
+      "id": "rem_36702",
+      "jp": "シロップ漬けフルーツ",
+      "en": "Syrup-Marinated Fruits",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8981,
+      "id": "rem_36703",
+      "jp": "練り込んだハチミツとミルクで焼き上げた甘いケーキ。シンプルながら、ボリュームのある甘さは、女冒険者のハートを釘付けにして、何度も店に足を運ばせる。",
+      "en": "A sweet cake baked with kneaded honey and milk. Simple yet substantial, its rich sweetness captivates female adventurers, making them visit the shop repeatedly.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8982,
+      "id": "rem_36704",
+      "jp": "甘々ハニーミルクケーキ",
+      "en": "Very Sweet Honey Milk Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8983,
+      "id": "rem_36705",
+      "jp": "ベリーをふんだんに使用した甘いケーキ。ケーキのクリームの甘さと、ベリーのさわやかなすっぱさがギャップになり、客を虜にする。",
+      "en": "A sweet cake made with plenty of berries. The sweet cake cream and the berries' refreshing tartness create a delightful contrast that captivates customers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8984,
+      "id": "rem_36706",
+      "jp": "幸せのベリーケーキ",
+      "en": "Happy Berry Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8985,
+      "id": "rem_36707",
+      "jp": "最高級の素材をふんだんに使用した、パティシエの全力を注いだ最強のミルクケーキ。貴族階級でもめったに味わえないスペシャルランクのスイーツ。",
+      "en": "The ultimate milk cake, crafted with the finest ingredients and a pastry chef's full effort. A special-rank sweet even nobles rarely taste.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8986,
+      "id": "rem_36708",
+      "jp": "ドリームミルクケーキ",
+      "en": "Dream Milk Cake",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8987,
+      "id": "rem_36709",
+      "jp": "甘味で作ったお菓子の芸術。器の中で雪に見立てた砂糖が降り注ぎ、その全てが果実と甘味で作られている。見てよし、食べて幸せな究極のお菓子。",
+      "en": "An art of confectionery made from sweets. Sugar, like snow, falls in the bowl, all crafted from fruit and sweets. The ultimate treat to see and savor.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8988,
+      "id": "rem_36710",
+      "jp": "食べられる銀世界",
+      "en": "The Edible Silver World",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8989,
+      "id": "rem_36711",
+      "jp": "夢見る少女の理想が詰まったような、家の形をした芸術的スイーツ。見た目も味も最高峰だが、芸術的過ぎて食べるのが勿体ない。",
+      "en": "An artistic sweet shaped like a house, embodying a dreaming girl's ideal. Both its appearance and flavor are supreme, yet so artistic it feels a waste to eat.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8990,
+      "id": "rem_36712",
+      "jp": "お菓子の家",
+      "en": "Candy House",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8991,
+      "id": "rem_36713",
+      "jp": "深紅の果実と濃密クリームで仕立て上げた幻想的なスイーツ。一口で感情までとろけるような幸福感を味わえる。",
+      "en": "A fantastical dessert crafted with crimson fruits and dense cream. A single bite melts your emotions with bliss.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8992,
+      "id": "rem_36714",
+      "jp": "秘宝のクリムゾン・ムース",
+      "en": "Secret Treasure Crimson Mousse",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8993,
+      "id": "rem_36715",
+      "jp": "神を名乗るカネの権化も太鼓判を押す、濃厚な味わいのプリン。一口食べると、その美味しさの虜になってしまうデス。",
+      "en": "A rich custard endorsed by the money-incarnate deity. One bite makes you its prisoner of deliciousness.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8994,
+      "id": "rem_36716",
+      "jp": "ゴッデスプリン",
+      "en": "Goddess Pudding",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8995,
+      "id": "rem_36717",
+      "jp": "ゼカリウスに伝来した米を水で炊き、四角く成型したもの。本来は別な食べ方があるようだが、貧困層はこれでも満足してしまう。",
+      "en": "Rice passed down from Zecarius, cooked with water and molded into squares. Originally meant to be eaten differently, but even the poor find it satisfying.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8996,
+      "id": "rem_36718",
+      "jp": "ライスバー",
+      "en": "Rice Bar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8997,
+      "id": "rem_36719",
+      "jp": "炊いた米を、てのひらサイズにまとめた携帯にも便利な料理。ゼカリウス地方ではあまり知られていない。",
+      "en": "Hand-sized cooked rice balls, convenient for travel. Not well-known in the Zecarius region.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8998,
+      "id": "rem_36720",
+      "jp": "おにぎり",
+      "en": "Onigiri",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 8999,
+      "id": "rem_36721",
+      "jp": "炊いた米に肉や野菜を混ぜて油脂で炒めたもの。ゼカリウス地方ではあまり知られていない料理。シンプルそうに見えて、極めるには鍛錬が必要。",
+      "en": "Cooked rice stir-fried in oil with meat and vegetables. A dish little known in Zecarius. Simple on the surface, but perfecting it requires skill.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9000,
+      "id": "rem_36722",
+      "jp": "ゼカリウスチャーハン",
+      "en": "Zecarius Fried Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

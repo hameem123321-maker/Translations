@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 101001,
+  "range_end": 101100,
+  "pairs": [
+    {
+      "n": 101001,
+      "id": "db_EventInfo:119261:0",
+      "jp": "遅れて、邪教徒の兵士たちがやってきた！",
+      "en": "More cultist soldiers arrived late!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101002,
+      "id": "db_EventInfo:119262:0",
+      "jp": "邪教徒の脅威を取り去った後、俺達は女達を介抱した。",
+      "en": "After dealing with the cultist threat, we took care of the women.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101003,
+      "id": "db_EventInfo:119263:0",
+      "jp": "きっとここで、激しい凌辱を受けていたのだろう。女を放置はできないが、今はやることがある。",
+      "en": "They must have been brutally violated here. We can't just leave them, but we have things to do now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101004,
+      "id": "db_EventInfo:119266:0",
+      "jp": "探索が終わった後、俺達は冒険者ギルド連盟に彼女達を送り届けた。",
+      "en": "After we finished exploring, we delivered them to the Adventurer's Guild Union.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101005,
+      "id": "db_EventInfo:119267:15",
+      "jp": "【『魔女達のお茶会』】に【『組織献金』】するんだね",
+      "en": "So you're going to donate to the 'Witches' Tea Party'Д",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101006,
+      "id": "db_EventInfo:119268:15",
+      "jp": "【『錬金』】メニューを開発するには、【専門家】が必要なんだけど、それを借りるには、かなりの信頼を得る必要があるよ",
+      "en": "To develop the 'Alchemy' menu, we need a specialist. To borrow one, we need to gain a lot of trust firstД",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 101007,
+      "id": "db_EventInfo:119269:2",
+      "jp": "【『投資』】はいつものことデス。どんどんカネで世界を動かすデス！",
+      "en": "\"Investment\" is business as usual. We use money to make the world go round!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101008,
+      "id": "db_EventInfo:119271:2",
+      "jp": "おいカリスト、オマエたまには外に出たらどうデス？",
+      "en": "Hey, Callisto, why don't you step outside for once?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101009,
+      "id": "db_EventInfo:119273:9",
+      "jp": "クク、心配は無用である。私はこの調合室にいるだけで満足であるからな",
+      "en": "Heheh, no need to worry. I'm perfectly content right here in this workshop.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101010,
+      "id": "db_EventInfo:119274:2",
+      "jp": "宿の一角に怪しい部屋があるって噂になってるデス",
+      "en": "There are rumors going around about a weird room in the inn.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101011,
+      "id": "db_EventInfo:119275:9",
+      "jp": "わはは",
+      "en": "Ah ha ha!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101012,
+      "id": "db_EventInfo:119276:2",
+      "jp": "笑い事じゃないデス～！",
+      "en": "It's no laughing matter!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101013,
+      "id": "db_EventInfo:119277:9",
+      "jp": "ふむ、そうであるな。たまには気分転換もよかろう",
+      "en": "Hmm, you have a point. A change of pace might be nice.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101014,
+      "id": "db_EventInfo:119279:0",
+      "jp": "カリストと一緒に市場を視察することにした。",
+      "en": "I decided to go with Callisto to check out the market.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101015,
+      "id": "db_EventInfo:119282:9",
+      "jp": "店長殿のエスコート、なかなか良かったぞ",
+      "en": "Being escorted by you, Boss, was rather pleasant.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101016,
+      "id": "db_EventInfo:119283:0",
+      "jp": "カリストは外に行っても調合のことばかり話していたが、彼女なりに楽しんでくれたようだ。",
+      "en": "Even outside, Callisto only talked about her research, but it seemed like she still enjoyed herself in her own way.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101017,
+      "id": "db_EventInfo:119284:9",
+      "jp": "わはは",
+      "en": "Ah ha ha!",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101018,
+      "id": "db_EventInfo:119285:9",
+      "jp": "私は研究が生きがいなのだ。私のことを気にするなら、研究に没頭させてほしいのである。",
+      "en": "My research is my reason for living. If you're worried about me, just let me immerse myself in it.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101019,
+      "id": "db_EventInfo:119288:0",
+      "jp": "そう言って、研究に戻ってしまった……。",
+      "en": "After saying that, she went back to her research...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101020,
+      "id": "db_EventInfo:119289:2",
+      "jp": "たまには気分転換でもすればいいのにデス",
+      "en": "She should take a break sometimes, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101021,
+      "id": "db_EventInfo:119290:2",
+      "jp": "最近近所から、変な色の煙が出てるという通報がきてるデス",
+      "en": "Lately, there have been reports from the neighborhood about strange-colored smoke, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101022,
+      "id": "db_EventInfo:119291:1",
+      "jp": "変な色の煙……",
+      "en": "Strange-colored smoke...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101023,
+      "id": "db_EventInfo:119294:9",
+      "jp": "な、なぜ私が呼ばれるのであるか？",
+      "en": "W-why was I called?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101024,
+      "id": "db_EventInfo:119295:2",
+      "jp": "変な研究をしているといえば、オマエしかいないデス",
+      "en": "When we think about weird research, you're the only one, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101025,
+      "id": "db_EventInfo:119296:9",
+      "jp": "失敬な",
+      "en": "How rude.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101026,
+      "id": "db_EventInfo:119297:2",
+      "jp": "客から変な色のケムリが出てるって通報があったデス！",
+      "en": "There was a report from a customer about strange-colored smoke, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101027,
+      "id": "db_EventInfo:119298:9",
+      "jp": "うーん？　まあたまには失敗することもある、であるか……？",
+      "en": "Hmm? Well, even I fail sometimes, isn't that right...?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101028,
+      "id": "db_EventInfo:119299:9",
+      "jp": "まあいいではないか、別に人体に有害というわけでもあるまいし。換気はしっかりしているぞ？",
+      "en": "Well, it's fine, isn't it? It's probably not harmful to humans. I make sure to ventilate properly, you know?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101029,
+      "id": "db_EventInfo:119300:2",
+      "jp": "無害でも、変な研究をしていると、近所から文句が出るのデスー！",
+      "en": "Even if it's harmless, if you do weird research, the neighbors will complain, Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101030,
+      "id": "db_EventInfo:119301:9",
+      "jp": "う、ううむ……",
+      "en": "Ugh... uh-huh...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101031,
+      "id": "db_EventInfo:119302:2",
+      "jp": "いいのデス？　店の売上げが下がるかも知れないデスよ？",
+      "en": "Are you sure about this? Our shop's sales might drop, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101032,
+      "id": "db_EventInfo:119303:1",
+      "jp": "だからといってカリストのモチベーションを下げたら駄目だろ。【『錬金』】はうちの主力商品だ",
+      "en": "Still, we can't let Callisto lose her motivation. 'Alchemy' is one of our main products.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101033,
+      "id": "db_EventInfo:119304:9",
+      "jp": "店長殿……Д",
+      "en": "Manager... Д",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101034,
+      "id": "db_EventInfo:119305:0",
+      "jp": "カリストは目を輝かせている。",
+      "en": "Callisto's eyes are shining.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101035,
+      "id": "db_EventInfo:119306:0",
+      "jp": "……しかし、風評被害への対処は考えないといけないだろう。",
+      "en": "...But I should think about how to handle this bad reputation.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101036,
+      "id": "db_EventInfo:119308:1",
+      "jp": "アンジュ、便利な装置を発明できないか？",
+      "en": "Anju, can you invent some useful device?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101037,
+      "id": "db_EventInfo:119310:3",
+      "jp": "便利な装置……じゃ？",
+      "en": "A useful device... is it?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101038,
+      "id": "db_EventInfo:119311:1",
+      "jp": "そうそう、煙を吸い込んで無害化するような",
+      "en": "Yeah. Something that sucks in smoke and makes it harmless.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101039,
+      "id": "db_EventInfo:119312:3",
+      "jp": "そんな都合のいい道具……ううむ、たしかに、考えてみたことないのう",
+      "en": "Such a convenient tool... Hmm, I haven't really thought about it, no.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101040,
+      "id": "db_EventInfo:119313:3",
+      "jp": "煙といえば、鍛冶場の煙もあるのじゃ。ちょっと考えてみるかのう",
+      "en": "Talking about smoke, there's also smoke from the smithy. I might think about it a bit.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101041,
+      "id": "db_EventInfo:119316:0",
+      "jp": "研究には資金が必要だろう。余裕が出来たら投資をしてみよう。",
+      "en": "Research needs funds. I'll invest when I have some spare cash.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101042,
+      "id": "db_EventInfo:119317:3",
+      "jp": "資金提供感謝なのじゃ",
+      "en": "Thank you for the funding.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101043,
+      "id": "db_EventInfo:119319:9",
+      "jp": "うむ、元はといえば私にも原因の一端がある。協力するぞ",
+      "en": "Yeah, the original cause is partly on me too. I'll help out.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101044,
+      "id": "db_EventInfo:119320:3",
+      "jp": "うむ！",
+      "en": "Yeah!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101045,
+      "id": "db_EventInfo:119321:1",
+      "jp": "（冷静なときのカリストは頼れるなぁ）",
+      "en": "(When Callisto is calm, he's really reliable.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101046,
+      "id": "db_EventInfo:119324:0",
+      "jp": "アンジュとカリストが研究を重ねた結果、煙の排出量を圧倒的に低減できるフィルターを開発した。",
+      "en": "After lots of research by Anju and Callisto, they developed a filter that drastically reduces smoke output.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101047,
+      "id": "db_EventInfo:119325:0",
+      "jp": "これを煙突に取り付ければ、煙の色を目立たなく出来るそうだ。",
+      "en": "If we attach this to the chimney, they say we can make the smoke color less noticeable.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101048,
+      "id": "db_EventInfo:119326:0",
+      "jp": "おかげで近所からのクレームが激減することになった。",
+      "en": "Thanks to that, complaints from the neighborhood dropped sharply.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101049,
+      "id": "db_EventInfo:119327:3",
+      "jp": "やってみるもんじゃのー",
+      "en": "It's worth trying things out.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 101050,
+      "id": "db_EventInfo:119328:9",
+      "jp": "うむうむ！　これで鍛冶場の煙も弱まるはずである",
+      "en": "Yes, yes! This should weaken the smoke from the smithy too.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101051,
+      "id": "db_EventInfo:119329:0",
+      "jp": "完成させた二人は満足そうである。",
+      "en": "The two of them, having completed it, look satisfied.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101052,
+      "id": "db_EventInfo:119332:0",
+      "jp": "その後、鍛冶場や錬金施設の煙が少なくなり、清潔を保ちやすくなるようになった。",
+      "en": "After that, smoke from the smithy and alchemy facilities decreased, making it easier to keep things clean.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101053,
+      "id": "db_EventInfo:119334:9",
+      "jp": "店長殿、南の【『灼熱の都サージ』】との国境付近で【疫病】が発生したとの情報があった",
+      "en": "Store Manager, there's information that a plague has broken out near the southern border with the 'Blazing City Sorge'.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101054,
+      "id": "db_EventInfo:119335:9",
+      "jp": "派遣された【『魔女達のお茶会』】のメンバーにより特効薬の生産を進めているのだが、人員も資金も足りないようである",
+      "en": "The dispatched members of the 'Witches' Tea Party' are working on producing a cure, but it seems they lack both personnel and funds.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101055,
+      "id": "db_EventInfo:119336:2",
+      "jp": "これ以上広がれば、交易などに悪影響が出るデスね",
+      "en": "If this spreads any more, it'll hurt trade, yeah.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 101056,
+      "id": "db_EventInfo:119337:1",
+      "jp": "こういうことは国がどうにかするべきだと思うけどな",
+      "en": "I think the country should handle this sort of thing.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101057,
+      "id": "db_EventInfo:119338:9",
+      "jp": "そう言っている状況ではなかろう。それに今や店長殿は、この地方で最も影響力のある御仁の一人であるぞ",
+      "en": "That does not seem to be the case right now. Furthermore, you, Shopkeeper, are now one of the most influential people in this region.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101058,
+      "id": "db_EventInfo:119341:0",
+      "jp": "余裕を作って、資金援助をしないとな。",
+      "en": "I need to make room in the budget and give some financial aid.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101059,
+      "id": "db_EventInfo:119342:0",
+      "jp": "【『灼熱の都サージ』】との国境付近で発生している【疫病】の対策のため、【『魔女達のお茶会』】に資金提供をした。",
+      "en": "To combat the 【Epidemic】 occurring near the border with 【'Blazing Capital Surge'】, I provided funding to the 【'Witches' Tea Party'】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101060,
+      "id": "db_EventInfo:119344:9",
+      "jp": "うむ、感謝する。手配の方は私の方で行なおう",
+      "en": "Yes, thank you. I will handle the arrangements on my end.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101061,
+      "id": "db_EventInfo:119347:0",
+      "jp": "病禍は【『魔女達のお茶会』】の懸命な活動によって食い止められた。",
+      "en": "The plague was stopped by the hard work of the 【'Witches' Tea Party'】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101062,
+      "id": "db_EventInfo:119348:0",
+      "jp": "十分なリソースにより被害は最低限で収まったようだ。",
+      "en": "It looks like the damage was kept to a minimum thanks to sufficient resources.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101063,
+      "id": "db_EventInfo:119351:0",
+      "jp": "迅速な対応を行なったことは、【『灼熱の都サージ』】から好感を得る結果となり、南方から質の良い交易品が届きやすくなったのであった。",
+      "en": "Acting quickly earned us goodwill from 【'Blazing Capital Surge'】, making it easier to get high-quality trade goods from the south.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101064,
+      "id": "db_EventInfo:119353:9",
+      "jp": "【<pl>】殿、【『お茶会』】なのであるが",
+      "en": "【<pl>】, about that 【'Tea Party'】.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101065,
+      "id": "db_EventInfo:119354:9",
+      "jp": "薬師というのは、ときにいわれなき差別を受けやすいものでな",
+      "en": "Herbalists sometimes face unfair discrimination, you see.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101066,
+      "id": "db_EventInfo:119355:9",
+      "jp": "生計のために、薬を売ることもままならぬ者が多いのである",
+      "en": "Many of them struggle to even sell medicine to make a living.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101067,
+      "id": "db_EventInfo:119356:1",
+      "jp": "差別か……たとえば",
+      "en": "Discrimination... Like what?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101068,
+      "id": "db_EventInfo:119357:9",
+      "jp": "そうであるな……",
+      "en": "Indeed...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101069,
+      "id": "db_EventInfo:119358:108",
+      "jp": "【<pl>】殿～Д　今日こそサバトをせぬか？　サバトサバトД",
+      "en": "【<pl>】~Д How about finally holding a Sabbath today? A SabbathД",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101070,
+      "id": "db_EventInfo:119359:9",
+      "jp": "……と、怪しげな祭りを行う者という差別を受けたりする",
+      "en": "...for example, being discriminated against as people who hold suspicious festivals.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101071,
+      "id": "db_EventInfo:119360:1",
+      "jp": "なるほど",
+      "en": "I see.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101072,
+      "id": "db_EventInfo:119361:108",
+      "jp": "こら～っ！　偉大なる師匠に向かってなんということを言うのじゃ！",
+      "en": "Hey! How dare you speak about our great teacher like that!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101073,
+      "id": "db_EventInfo:119362:9",
+      "jp": "そうであるなぁ、かつての師匠殿は偉大であったのだが……",
+      "en": "That's true... our former teacher was indeed great, but...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101074,
+      "id": "db_EventInfo:119363:1",
+      "jp": "オーレリアは置いておくとして、【『お茶会』】の人たちはサバト好きなのか？",
+      "en": "Putting Aurelia aside, do people from 【\"The Tea Party\"】 like the Sabbath?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101075,
+      "id": "db_EventInfo:119364:108",
+      "jp": "えート？",
+      "en": "Huh?Д",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101076,
+      "id": "db_EventInfo:119365:9",
+      "jp": "う、ウム……賛成しないものも、おる",
+      "en": "W-well... There are some who don't agree.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101077,
+      "id": "db_EventInfo:119366:1",
+      "jp": "サバト好きが多いのか。ダメじゃないか",
+      "en": "So many of them like it. Not good.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101078,
+      "id": "db_EventInfo:119367:9",
+      "jp": "まあかつてはそうであるが、今は少なめになった可能性もある",
+      "en": "Well, that was in the past. It might be less common now.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101079,
+      "id": "db_EventInfo:119368:108",
+      "jp": "正確に言えば、人間のメンバーはサバトに興味が無いが、【『<ruby=ウィッチ>魔女</ruby>』】になった者は好きじゃな",
+      "en": "To be exact, the human members aren't interested in Sabbaths, but those who become 'witches' love them.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101080,
+      "id": "db_EventInfo:119369:108",
+      "jp": "やはり【『<ruby=ウィッチ>魔女</ruby>』】にとっては、サバトとは生きがいなのじゃ！",
+      "en": "After all, for a 'witch', a Sabbath is the whole point of living!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101081,
+      "id": "db_EventInfo:119370:108",
+      "jp": "【<pl>】殿だって、女を抱くなと言われたら我慢できないであろう？",
+      "en": "You too, Sir 【<pl>】, wouldn't be able to resist if told not to take a woman, would you?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101082,
+      "id": "db_EventInfo:119371:1",
+      "jp": "うっ……",
+      "en": "Urgh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101083,
+      "id": "db_EventInfo:119372:108",
+      "jp": "ということで、合法的にサバトをする場所を――",
+      "en": "And so, for a place to hold Sabbaths legally—",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101084,
+      "id": "db_EventInfo:119373:9",
+      "jp": "その前に、生活できない薬師を保護して欲しいのである",
+      "en": "Before that, I would ask you to protect an alchemist who can't make a living.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101085,
+      "id": "db_EventInfo:119374:108",
+      "jp": "師匠の言葉に口を挟むでなーい！",
+      "en": "Don't interrupt your master, no-o-o!",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101086,
+      "id": "db_EventInfo:119375:1",
+      "jp": "サバトなんてしたら、異端審問官が飛んでくるだろ",
+      "en": "If we hold a Sabbath, the inquisitors will come running.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101087,
+      "id": "db_EventInfo:119378:0",
+      "jp": "オーレリアは置いておいて、薬師を支援することは考えよう。",
+      "en": "Let's set Aurelia aside for now and think about supporting the alchemist.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 101088,
+      "id": "db_EventInfo:119380:9",
+      "jp": "感謝するぞ【<pl>】殿。これで恵まれない薬師も助けられるであろう",
+      "en": "My thanks, Sir 【<pl>】. With this, the less fortunate alchemists can be saved.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101089,
+      "id": "db_EventInfo:119381:108",
+      "jp": "サバトが、サバトが～",
+      "en": "The Sabbath, the Sabbath~",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101090,
+      "id": "db_EventInfo:119382:1",
+      "jp": "オーレリアはともかく、薬師の助けにはなりそうだな",
+      "en": "Aurelia aside, it does seem like we can help the alchemists.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101091,
+      "id": "db_EventInfo:119383:108",
+      "jp": "うむ。人間とは、病気になれば薬師を頼りにするというのに、元気なときは魔女だと騒ぎ立ておる",
+      "en": "Yeah. Humans are like that. They come running to a healer when they're sick, but call you a witch when they're healthy.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101092,
+      "id": "db_EventInfo:119384:108",
+      "jp": "怪しげな儀式を行ない、呪術で皆に毒を振りまくと揶揄されるものである",
+      "en": "They mock us, saying we perform weird rituals and spread poison with our curses.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101093,
+      "id": "db_EventInfo:119385:1",
+      "jp": "困ったものだな",
+      "en": "That's a real problem.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101094,
+      "id": "db_EventInfo:119386:108",
+      "jp": "まあ気に食わん奴らには、そういった報復をすることがあったのじゃが",
+      "en": "Well, I have done things like that for revenge against those who pissed me off.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101095,
+      "id": "db_EventInfo:119387:1",
+      "jp": "おいおい",
+      "en": "Hey, hey...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101096,
+      "id": "db_EventInfo:119388:108",
+      "jp": "しょうがないのじゃ。異端審問官の追及は苛烈すぎるのじゃ",
+      "en": "Couldn't be helped. The Inquisition's pursuit was too harsh.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101097,
+      "id": "db_EventInfo:119389:108",
+      "jp": "ちょ～っと、サバトを開きまくって、その街を堕落させただけなのに",
+      "en": "All I did was host a few too many sabbaths and corrupt that town a bit.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 101098,
+      "id": "db_EventInfo:119390:1",
+      "jp": "……偉大なる師匠は何処に行った",
+      "en": "...Where did my great master go?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 101099,
+      "id": "db_EventInfo:119391:9",
+      "jp": "うーむ。私の記憶している偉大なる師匠殿は、本当に師匠殿であったか怪しくなってきたのである",
+      "en": "Hmm. I'm starting to doubt if the great master I remember was really a master at all.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 101100,
+      "id": "db_EventInfo:119392:108",
+      "jp": "そんなー",
+      "en": "Oh, come on~",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    }
+  ]
+}

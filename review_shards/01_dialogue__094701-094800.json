@@ -1,0 +1,811 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94701,
+  "range_end": 94800,
+  "pairs": [
+    {
+      "n": 94701,
+      "id": "db_EventInfo:111886:2",
+      "jp": "オマエ、私のことをどう思ってるデス？",
+      "en": "What do you think of me?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94702,
+      "id": "db_EventInfo:111888:7",
+      "jp": "そういや店長、防犯設備には気を付けてる？",
+      "en": "Hey, Boss, are you careful about security?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94703,
+      "id": "db_EventInfo:111889:7",
+      "jp": "この店ってば、かなり羽振りが良いでしょ。こういう店はドロボウに狙われやすいんだよね～♪",
+      "en": "This shop is doing pretty well, right? Shops like this are easy targets for thieves, you know~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94704,
+      "id": "db_EventInfo:111890:2",
+      "jp": "ドロボウ……オマエのことデス？",
+      "en": "Thieves... You mean you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94705,
+      "id": "db_EventInfo:111891:7",
+      "jp": "あはは、何を言ってるのさ！",
+      "en": "Ahaha, what are you talking about!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94706,
+      "id": "db_EventInfo:111892:7",
+      "jp": "でも気を付けてね？　店が大きくなると、犯罪者も増えて来るからね♪",
+      "en": "But be careful, okay? When a shop grows, more criminals show up♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94707,
+      "id": "db_EventInfo:111893:2",
+      "jp": "ふん、犯罪者など恐るるに足らんデス！　捕まえたらボッコボコにしてやるデス！",
+      "en": "Hah, I'm not scared of criminals at all! If I catch one, I'll beat them up good!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94708,
+      "id": "db_EventInfo:111894:2",
+      "jp": "犯罪者を【『自警団』】に引き渡せば、報奨金もたんまりデス",
+      "en": "If you turn criminals over to the Self-Defense Group, you get a nice fat reward!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94709,
+      "id": "db_EventInfo:111895:7",
+      "jp": "そうだね～♪",
+      "en": "That's right~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94710,
+      "id": "db_EventInfo:111896:7",
+      "jp": "まあ気を付けてね、ボクも店が犯罪者に潰されたりしたら困るしね～♪",
+      "en": "Well, be careful. I'd be in trouble if the shop got destroyed by criminals~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94711,
+      "id": "db_EventInfo:111897:7",
+      "jp": "しっかり防犯要員を雇ったりして、安心な宿を作ってよ。期待してるね♪",
+      "en": "Hire proper security and build a safe inn. I'm counting on you♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94712,
+      "id": "db_EventInfo:111898:2",
+      "jp": "ふん、大丈夫デス！",
+      "en": "Hah, no problem!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94713,
+      "id": "db_EventInfo:111899:7",
+      "jp": "ほんと～？　いつのまにか、おカネが減ったりしてない～？",
+      "en": "Really~? You haven't suddenly found your money missing, have you~?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94714,
+      "id": "db_EventInfo:111900:2",
+      "jp": "だ、大丈夫デス……！",
+      "en": "I-it's fine...!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94715,
+      "id": "db_EventInfo:111901:2",
+      "jp": "くっ、私は今のうちにカネのチェックをしておくデス！",
+      "en": "Grr, I better go check the money now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94716,
+      "id": "db_EventInfo:111902:1",
+      "jp": "お、おい……！",
+      "en": "H-hey...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94717,
+      "id": "db_EventInfo:111903:0",
+      "jp": "★クリア",
+      "en": "★ Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94718,
+      "id": "db_EventInfo:111904:0",
+      "jp": "シイネはあわてて店の金庫に駆けて行ってしまった。",
+      "en": "Shiine rushed off in a panic toward the shop's safe.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94719,
+      "id": "db_EventInfo:111905:7",
+      "jp": "あはは、驚かせすぎたかな。ごめんね♪",
+      "en": "Haha, did I scare you too much? Sorry♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94720,
+      "id": "db_EventInfo:111906:1",
+      "jp": "あのなぁ……",
+      "en": "Hey, listen...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94721,
+      "id": "db_EventInfo:111910:7",
+      "jp": "てんちょ～Д　まだ仕事してる？",
+      "en": "My lordД, are you still working?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94722,
+      "id": "db_EventInfo:111911:1",
+      "jp": "ああ、まだ仕事の時間だからな",
+      "en": "Yeah, it's still work time, you know.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94723,
+      "id": "db_EventInfo:111912:7",
+      "jp": "そうなの？　お疲れ様！　じゃあ、お茶おいておくね",
+      "en": "Oh, really? Good work! I'll leave some tea for you, okay?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94724,
+      "id": "db_EventInfo:111913:1",
+      "jp": "おう、ありがと……ん？",
+      "en": "Ah, thanks... Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94725,
+      "id": "db_EventInfo:111915:7",
+      "jp": "じゃ～ん♪",
+      "en": "Ta-da♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94726,
+      "id": "db_EventInfo:111916:1",
+      "jp": "なっ！？　なんだその格好は！",
+      "en": "Whoa!? What's with that outfit?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94727,
+      "id": "db_EventInfo:111917:7",
+      "jp": "可愛いでしょД　着てきちゃったД",
+      "en": "Cute, rightД? I decided to wear itД.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94728,
+      "id": "db_EventInfo:111918:1",
+      "jp": "ど、どうして、そんな服を……",
+      "en": "Wha— why are you wearing that...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94729,
+      "id": "db_EventInfo:111919:7",
+      "jp": "ふふっ、こんな服を着てるなら、やることなんて決まってるじゃないД",
+      "en": "Hehe, when you're in an outfit like this, the thing to do is pretty obvious, isn't itД?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94730,
+      "id": "db_EventInfo:111920:0",
+      "jp": "★エッチシーン・ファシィ・個別①・ハニートラップ①",
+      "en": "★H-Scene・Facy・Individual 1・Honey Trap 1",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 94731,
+      "id": "db_EventInfo:111923:1",
+      "jp": "ふあ……ん、朝……？",
+      "en": "Haa... huh? Morning...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94732,
+      "id": "db_EventInfo:111924:1",
+      "jp": "昨晩は、ん、いてて……なんだか、昨晩の記憶がないな",
+      "en": "Last night... ow... weird, I don't remember anything from last night.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94733,
+      "id": "db_EventInfo:111926:2",
+      "jp": "おいオマエ、やっと起きたデス？",
+      "en": "Hey you, finally awake, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94734,
+      "id": "db_EventInfo:111927:2",
+      "jp": "……まったく、仕事を放り出して寝たデス？",
+      "en": "...Seriously, you just threw your work aside and went to sleep, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94735,
+      "id": "db_EventInfo:111928:2",
+      "jp": "オマエの仕事部屋には、宿の大事な記録などがあるデス。ちゃんと片付けないと駄目デスよ",
+      "en": "Your work room has the inn's important records and stuff, desu. You have to clean up properly, no good, desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94736,
+      "id": "db_EventInfo:111929:1",
+      "jp": "す、すまん……",
+      "en": "S, sorry...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94737,
+      "id": "db_EventInfo:111930:1",
+      "jp": "(昨晩は何か、んん……何か、すごく気持ちが良いことがあったような)",
+      "en": "(Last night, there was something... hnn... something that felt really, really good, I think.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94738,
+      "id": "db_EventInfo:111931:0",
+      "jp": "しかしなぜだか、俺は思い出せないのであった。",
+      "en": "But for some reason, I couldn't remember.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94739,
+      "id": "db_EventInfo:111932:2",
+      "jp": "なにをニヤニヤしているデス",
+      "en": "What are you grinning about, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94740,
+      "id": "db_EventInfo:111933:1",
+      "jp": "すまん、じゃあ、今日も仕事を頑張るか",
+      "en": "Sorry. Well, I'll work hard again today.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94741,
+      "id": "db_EventInfo:111934:2",
+      "jp": "デス",
+      "en": "Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94742,
+      "id": "db_EventInfo:111936:2",
+      "jp": "そういえば、あのやかましい女はどこにいったデス？",
+      "en": "By the way, where did that noisy woman go, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94743,
+      "id": "db_EventInfo:111937:1",
+      "jp": "やかましい……ファシィのことか？",
+      "en": "Shut up... Is that about Facy?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94744,
+      "id": "db_EventInfo:111938:2",
+      "jp": "そうデス。ほっといても目立つというのに",
+      "en": "Yes, desu. Even if you leave him alone, he stands out.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94745,
+      "id": "db_EventInfo:111939:1",
+      "jp": "そういえば……",
+      "en": "Now that you mention it...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94746,
+      "id": "db_EventInfo:111942:0",
+      "jp": "俺達は、宿にファシィの姿がないことに気が付いた。",
+      "en": "We noticed Facy wasn't in the inn.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94747,
+      "id": "db_EventInfo:111945:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94748,
+      "id": "db_EventInfo:111948:18",
+      "jp": "ご苦労だったな、首尾は上々のようだな",
+      "en": "Good work. It seems the results are excellent.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94749,
+      "id": "db_EventInfo:111949:7",
+      "jp": "そうだね～♪",
+      "en": "That's right~ ♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94750,
+      "id": "db_EventInfo:111950:7",
+      "jp": "領主様に言われて調べたけど、彼の店はいたって健全だったよ",
+      "en": "I checked as you ordered, Lord, but his shop was perfectly wholesome.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94751,
+      "id": "db_EventInfo:111951:7",
+      "jp": "【『魔薬』】の取り扱いの形跡はナシ、それらしい【魔術儀式】も特になし",
+      "en": "No signs of handling 【'Magical Potions'】, no notable 【magic rituals】 either.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94752,
+      "id": "db_EventInfo:111952:7",
+      "jp": "金庫の中も見てみたけど、店の蓄え以外にはめぼしいものは無かったね",
+      "en": "I even looked inside the safe, but besides the shop's savings, there was nothing noteworthy.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94753,
+      "id": "db_EventInfo:111953:7",
+      "jp": "【『投資』】先も【『自警団』】とか【『農業組合』】とか……【『盗賊ギルド』】とかと取引してたら面白かったんだけどね～♪",
+      "en": "The 【'investments'】 went to things like 【'self-defense squads'】 and 【'agricultural cooperatives'】... It would've been fun if he dealt with the 【'Thieves Guild'】, though~ ♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94754,
+      "id": "db_EventInfo:111954:18",
+      "jp": "ふむ……信じられんが、あの男の経営は実力ということか",
+      "en": "Hmm... Unbelievable, but it seems that man's business skills are genuine.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94755,
+      "id": "db_EventInfo:111955:7",
+      "jp": "そうだね。【<pl>】――あの人は経営の天才としか言えないね",
+      "en": "Yeah.【<pl>】He's a genius at business. That's all you can say.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94756,
+      "id": "db_EventInfo:111956:7",
+      "jp": "とにかく目利きが上手いんだ。モノだけじゃなく、ヒトもそうだね",
+      "en": "He's just really good at picking things. Not just stuff, but people too.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94757,
+      "id": "db_EventInfo:111957:7",
+      "jp": "まるで、【モノの価値を数値として認識できる】かのようで、適材適所で当てはめていくのは、人間業じゃなかったね",
+      "en": "It's like he can see the value of things as numbers. Putting the right person in the right place... it wasn't human.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94758,
+      "id": "db_EventInfo:111958:18",
+      "jp": "それがヤツの能力、ということか……",
+      "en": "So that was his ability...",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94759,
+      "id": "db_EventInfo:111959:7",
+      "jp": "そうだね。といっても他人の心を読むみたいな力じゃないみたい。彼自身は無防備そのものだったよ",
+      "en": "Yeah. But it's not like he could read minds or anything. He himself was totally unguarded.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94760,
+      "id": "db_EventInfo:111960:7",
+      "jp": "まああとは、女主人のシイネだね",
+      "en": "Then there's Shiine, the lady of the house.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94761,
+      "id": "db_EventInfo:111961:7",
+      "jp": "なんというか、この世のものではない変な雰囲気のヒトで、その雰囲気がヒトを呼ぶのかもね",
+      "en": "She has this strange, otherworldly feeling about her. Maybe that's what draws people in.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94762,
+      "id": "db_EventInfo:111962:18",
+      "jp": "なるほど……【『眼』】の持ち主と、不思議な雰囲気の女……。これからも警戒する必要がありそうだ",
+      "en": "I see... The owner of the ['Eye'] and a woman with a mysterious aura. We'll need to stay cautious.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94763,
+      "id": "db_EventInfo:111963:7",
+      "jp": "そうだね",
+      "en": "Yeah.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94764,
+      "id": "db_EventInfo:111964:7",
+      "jp": "じゃあ、ボクはこれで……",
+      "en": "Well, I'll be going now...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94765,
+      "id": "db_EventInfo:111966:18",
+      "jp": "まあ待つがいい。せっかく帰ってきて、喉が渇いただろう？",
+      "en": "Wait a moment. You just got back. You must be thirsty?",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94766,
+      "id": "db_EventInfo:111967:18",
+      "jp": "しばらくぶりで、私のモノも猛っておる。今日もオマエに世話をしてもらおうか",
+      "en": "It's been a while, and my things are acting up. Let's have you take care of them today too.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94767,
+      "id": "db_EventInfo:111969:7",
+      "jp": "はい、領主様……",
+      "en": "Yes, my lord...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94768,
+      "id": "db_EventInfo:111970:0",
+      "jp": "★クリア",
+      "en": "★CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94769,
+      "id": "db_EventInfo:111974:18",
+      "jp": "いい子だ。ククク……",
+      "en": "Good girl. Hehehe...",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94770,
+      "id": "db_EventInfo:111976:7",
+      "jp": "えへへっ、おはよ、店長！",
+      "en": "Heheh, good morning, Manager!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94771,
+      "id": "db_EventInfo:111977:1",
+      "jp": "ファシィ！？",
+      "en": "Facy!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94772,
+      "id": "db_EventInfo:111978:2",
+      "jp": "オマエどこにいってたデス！？",
+      "en": "Where have you been!?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94773,
+      "id": "db_EventInfo:111979:7",
+      "jp": "えへへっ、ボクも冒険者だし？　そんなことどうでもいいじゃない～♪",
+      "en": "Heheh, I'm an adventurer too, right? That stuff doesn't matter~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94774,
+      "id": "db_EventInfo:111980:1",
+      "jp": "あのなぁ……",
+      "en": "Hey now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94775,
+      "id": "db_EventInfo:111981:7",
+      "jp": "サボっていた分の埋め合わせはするよ♪　改めて協力させてもらうからね～♪",
+      "en": "I'll make up for the time I slacked off♪ I'll be helping out again from now on~♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94776,
+      "id": "db_EventInfo:111982:1",
+      "jp": "そんな勝手に……まあいいか",
+      "en": "Deciding that yourself... oh, whatever.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94777,
+      "id": "db_EventInfo:111983:2",
+      "jp": "しょうがないデス。キリキリ働いて貰うデスよ",
+      "en": "It can't be helped. You're gonna work your butt off.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94778,
+      "id": "db_EventInfo:111984:7",
+      "jp": "は～い！",
+      "en": "Yes, sir!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94779,
+      "id": "db_EventInfo:111985:0",
+      "jp": "ファシィが再びスタッフに加わった！",
+      "en": "Facy joined the staff again!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94780,
+      "id": "db_EventInfo:111989:7",
+      "jp": "あ、あのさ、店長？",
+      "en": "Um, hey, boss?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94781,
+      "id": "db_EventInfo:111990:1",
+      "jp": "ファシィか……どうした？",
+      "en": "Facy... what's up?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94782,
+      "id": "db_EventInfo:111991:7",
+      "jp": "い、いやー、ボクも色々考えてさ……",
+      "en": "N-nothing, I was just thinking...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94783,
+      "id": "db_EventInfo:111992:7",
+      "jp": "その、店長……ご、ごめんなさい！",
+      "en": "About that, boss... I'm sorry!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94784,
+      "id": "db_EventInfo:111993:1",
+      "jp": "ん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94785,
+      "id": "db_EventInfo:111994:7",
+      "jp": "何日もサボってたでしょ？　その、埋め合わせをしたくてさ……",
+      "en": "I skipped work for days, right? I want to make up for it...",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94786,
+      "id": "db_EventInfo:111995:1",
+      "jp": "ん、まあシイネも言ってただろ？　沢山働いてくれればいいよ",
+      "en": "Well, Shiine said it too. Just work hard and it's fine.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94787,
+      "id": "db_EventInfo:111996:7",
+      "jp": "それじゃボクの気が済まないよ、もっと本気で謝りたいんだ",
+      "en": "That's not enough for me. I want to apologize more seriously.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94788,
+      "id": "db_EventInfo:111997:1",
+      "jp": "そ、そうか……",
+      "en": "Oh, I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94789,
+      "id": "db_EventInfo:111998:7",
+      "jp": "だから、【今晩は身体を空けておいて】ねД",
+      "en": "So, [keep your evening free for me]Д",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94790,
+      "id": "db_EventInfo:111999:1",
+      "jp": "えっ",
+      "en": "What?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94791,
+      "id": "db_EventInfo:112000:7",
+      "jp": "うふふ……Д",
+      "en": "Hehehe...Д",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94792,
+      "id": "db_EventInfo:112005:7",
+      "jp": "てんちょ～Д　まだ仕事してる？",
+      "en": "Tencho~Д Still working?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94793,
+      "id": "db_EventInfo:112006:1",
+      "jp": "いや、仕事は切り上げてる……",
+      "en": "Nah, I'm done for the day...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94794,
+      "id": "db_EventInfo:112007:7",
+      "jp": "そうなの？　お疲れ様Д",
+      "en": "Yeah? Good jobД",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94795,
+      "id": "db_EventInfo:112008:1",
+      "jp": "おう、ありがと……っ！？",
+      "en": "Oh, thanks...huh!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94796,
+      "id": "db_EventInfo:112010:7",
+      "jp": "ふふっД",
+      "en": "HahaД",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94797,
+      "id": "db_EventInfo:112011:1",
+      "jp": "おっ、おい……",
+      "en": "H-hey...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94798,
+      "id": "db_EventInfo:112012:7",
+      "jp": "可愛いでしょД　この服、お気に入りなんだよねД",
+      "en": "Isn't it cuteД This outfit, it's my favoriteД",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94799,
+      "id": "db_EventInfo:112013:1",
+      "jp": "ど、どうして、そんな服を……",
+      "en": "Wh-why are you wearing that...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94800,
+      "id": "db_EventInfo:112014:7",
+      "jp": "そんなのわかってるでしょ？　この前は口だけで不満だったでしょ？",
+      "en": "You know why, right? Last time you weren't happy with just your mouth, right?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    }
+  ]
+}

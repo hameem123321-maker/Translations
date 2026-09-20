@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 78501,
+  "range_end": 78600,
+  "pairs": [
+    {
+      "n": 78501,
+      "id": "db_EventInfo:92894:5",
+      "jp": "ああ、【<pl>】様……見て下さいませ、この素晴らしい力を！",
+      "en": "Ah, 【<pl>】... Look, please! At this amazing power!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78502,
+      "id": "db_EventInfo:92895:1",
+      "jp": "くっ、なんだこのオーラは！？",
+      "en": "Tch, what is this aura!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78503,
+      "id": "db_EventInfo:92896:2",
+      "jp": "どうやら、頭を冷やしてやらないといけないようデスね",
+      "en": "It seems we need to cool her head, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78504,
+      "id": "db_EventInfo:92898:1",
+      "jp": "なんだ、手ごたえが……",
+      "en": "What? The impact...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78505,
+      "id": "db_EventInfo:92899:0",
+      "jp": "ハーヴェスタにいまいち力が届いていない気がする。",
+      "en": "I feel like my strength isn't quite reaching Harvester.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78506,
+      "id": "db_EventInfo:92900:2",
+      "jp": "気を付けるデス。【『淫魔』】に攻撃は通じないデス！",
+      "en": "Be careful, desu. Attacks won't work on a 【『Succubus』】 desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78507,
+      "id": "db_EventInfo:92901:1",
+      "jp": "なんだって！？",
+      "en": "No way!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78508,
+      "id": "db_EventInfo:92903:5",
+      "jp": "ああ、素晴らしいですわ、【<pl>】様！　どうですか、今のこの私の力はД",
+      "en": "Ah, it's wonderful, 【<pl>】! How about it, my power now?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78509,
+      "id": "db_EventInfo:92904:5",
+      "jp": "もっともっと、この力を試さなくては！",
+      "en": "I must try this power more and more!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78510,
+      "id": "db_EventInfo:92905:0",
+      "jp": "笑みを浮かべ、ハーヴェスタは去っていった。",
+      "en": "With a smile on her face, Harvester left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78511,
+      "id": "db_EventInfo:92906:1",
+      "jp": "あ、待て、ハーヴェスタ！",
+      "en": "Hey, wait, Harvester!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78512,
+      "id": "db_EventInfo:92907:2",
+      "jp": "放ってはおけないデス。急いで後を追うデスよ",
+      "en": "We can't leave this alone. We must hurry and follow.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78513,
+      "id": "db_EventInfo:92908:0",
+      "jp": "ダンジョンの最深部にて……。",
+      "en": "At the deepest part of the dungeon...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78514,
+      "id": "db_EventInfo:92911:5",
+      "jp": "ああ、【<pl>】様。一人になってまで、私を追いかけて頂けるなんて……Д",
+      "en": "Ah, 【<pl>】. To chase after me even alone...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78515,
+      "id": "db_EventInfo:92912:1",
+      "jp": "当たり前だろ。俺はハーヴェスタを助けるために来たんだから",
+      "en": "Of course. I came to help Harvester.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78516,
+      "id": "db_EventInfo:92913:5",
+      "jp": "うふふ、素敵ですわД",
+      "en": "Heheh, how wonderful.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78517,
+      "id": "db_EventInfo:92914:5",
+      "jp": "そんなに追いかけられては……【<pl>】様を食べてしまいたくなりますわД",
+      "en": "If you chase me so much... I want to eat you up, 【<pl>】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78518,
+      "id": "db_EventInfo:92915:0",
+      "jp": "そんなハーヴェスタの姿に、俺は目が釘付けになってしまう。",
+      "en": "I can't take my eyes off Harvester like that.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78519,
+      "id": "db_EventInfo:92916:0",
+      "jp": "これが【『淫魔』】の魅力なのだろうか。",
+      "en": "Is this the power of a succubus?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78520,
+      "id": "db_EventInfo:92917:5",
+      "jp": "ああ、もう我慢できませんわ、【<pl>】様Д",
+      "en": "Ah, I can't hold back anymore, Master 【<pl>】Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78521,
+      "id": "db_EventInfo:92918:1",
+      "jp": "ま、待て、ハーヴェスタ……！",
+      "en": "W-wait, Harvester...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78522,
+      "id": "db_EventInfo:92919:0",
+      "jp": "俺は抵抗もできず、強引に押し倒されてしまった。",
+      "en": "I couldn't resist and was forced down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78523,
+      "id": "db_EventInfo:92920:0",
+      "jp": "★エッチシーン・ハーヴェスタ・個別④・ボス撃破後の逆レイプ",
+      "en": "★H-Scene: Harvester - Solo 4 - Rape After Defeating the Boss",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78524,
+      "id": "db_EventInfo:92923:0",
+      "jp": "その後、正気を取り戻した俺達は、仲間と合流して店に戻った。",
+      "en": "After that, we came to our senses, met up with our friends, and went back to the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78525,
+      "id": "db_EventInfo:92925:0",
+      "jp": "ハーヴェスタを救出することに成功した。",
+      "en": "We managed to rescue Harvester.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78526,
+      "id": "db_EventInfo:92926:0",
+      "jp": "その後、件の詐欺グループは壊滅したらしい。",
+      "en": "After that, it seems that scam group was wiped out.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78527,
+      "id": "db_EventInfo:92927:5",
+      "jp": "この度はお恥ずかしい所をお見せしましたわね……",
+      "en": "I must apologize for showing you such an embarrassing sight...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78528,
+      "id": "db_EventInfo:92928:2",
+      "jp": "【『レベルドレイン』】でほとんどの奴らが倒れてたデスからね",
+      "en": "Well, most of them were already down from the 【Level Drain】 DEATH.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78529,
+      "id": "db_EventInfo:92929:2",
+      "jp": "【『ゼカリウス自警団』】と【『王立騎士団』】が突入してみんなお縄デス",
+      "en": "The 【Zecarius Vigilante Group】 and the 【Royal Knight Order】 raided the place and arrested everyone DEATH.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78530,
+      "id": "db_EventInfo:92930:0",
+      "jp": "俺達はようやく店に戻り、一息つく事ができたのだった。",
+      "en": "We finally made it back to the shop and could finally catch our breath.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78531,
+      "id": "db_EventInfo:92931:5",
+      "jp": "しかし、【<pl>】様のスタッフである私が、書置き一つで店を去るなんて、今となっては考えられませんわ",
+      "en": "But now, I can't even imagine leaving the shop with just a goodbye note. After all, I'm your staff, 【<pl>】-sama.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78532,
+      "id": "db_EventInfo:92932:2",
+      "jp": "ああ、それは【『縁ドレイン』】のせいデスね",
+      "en": "Ah, that's because of the 【<pl>Bond Drain】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78533,
+      "id": "db_EventInfo:92933:5",
+      "jp": "【『縁ドレイン』】ですの？",
+      "en": "『The Connection Drain』?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78534,
+      "id": "db_EventInfo:92934:1",
+      "jp": "実は……",
+      "en": "Actually...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78535,
+      "id": "db_EventInfo:92937:0",
+      "jp": "俺はシェルフィに、皆との【『縁』】を吸い取られたことを説明した。",
+      "en": "I explained to Shelfi that all my bonds with everyone were sucked away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78536,
+      "id": "db_EventInfo:92938:5",
+      "jp": "なるほど、それで店を出ようなどと考えてしまったのですわね",
+      "en": "I see. So that's why you thought about leaving the store.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78537,
+      "id": "db_EventInfo:92939:5",
+      "jp": "この私としたことが、【『淫魔』】如きの謀略に嵌ってしまうなど……とんだ失態ですわ",
+      "en": "For someone like me to fall into a lowly 'Succubus's scheme... What a disgrace.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78538,
+      "id": "db_EventInfo:92940:1",
+      "jp": "【『淫魔』】といえば、どうしてハーヴェスタが【『淫魔』】になってしまったんだ？",
+      "en": "About the 'Succubus'... why did Harvester become a 'Succubus'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78539,
+      "id": "db_EventInfo:92941:5",
+      "jp": "私にもさっぱりですわ……",
+      "en": "I have absolutely no idea either...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78540,
+      "id": "db_EventInfo:92942:5",
+      "jp": "私の家族に、それらしい力を持っているとか、初耳ですもの",
+      "en": "I've never heard that anyone in my family had a power like that.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78541,
+      "id": "db_EventInfo:92943:2",
+      "jp": "【『淫魔』】の力を持っている人間自体は珍しくないデス",
+      "en": "Humans who have the power of a 『Succubus』 aren't all that rare, you know.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78542,
+      "id": "db_EventInfo:92944:2",
+      "jp": "ただし、殆どの人間は、その力を覚醒させることはないというだけデスね",
+      "en": "But, most people never manage to awaken that power.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78543,
+      "id": "db_EventInfo:92945:2",
+      "jp": "……とにかく、あんな力を使ったら身を滅ぼすデス。金輪際使うんじゃないデスよ",
+      "en": "...Anyway, using that kind of power will destroy you. Don't ever use it again.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78544,
+      "id": "db_EventInfo:92946:5",
+      "jp": "そんな……！　せっかく、【<pl>】様の役に立てる力に目覚めましたのに！",
+      "en": "But...! I just awakened this power so I could finally be useful to you, 【<pl>】!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78545,
+      "id": "db_EventInfo:92947:5",
+      "jp": "それにその、使わずにいると、私の身がもたないと言いますか……",
+      "en": "And also, well... if I don't use it, I don't think I can hold myself back...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78546,
+      "id": "db_EventInfo:92948:5",
+      "jp": "ストレスが溜まると、この力で鬱憤を晴らしてしまいそうになると言いますか",
+      "en": "When stress builds up, I feel like I might have to vent my frustrations *with* this power, so to speak...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78547,
+      "id": "db_EventInfo:92949:2",
+      "jp": "それもそうデスね。目覚めてしまったならしょうがないデス",
+      "en": "Hmm, I suppose you're right about that. If you've already awakened it, there's no helping it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78548,
+      "id": "db_EventInfo:92950:2",
+      "jp": "……仕方ないデス、暴走しないように、オマエが見ておけデス",
+      "en": "...Fine. You there, keep an eye on her so she doesn't go out of control.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78549,
+      "id": "db_EventInfo:92951:1",
+      "jp": "そんな！？",
+      "en": "Seriously?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78550,
+      "id": "db_EventInfo:92952:5",
+      "jp": "うふふ、【<pl>】様の監督下でなら使ってもよろしいのですねД",
+      "en": "Hehehe, so I can use it as long as I'm under your supervision, 【<pl>】? Д",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78551,
+      "id": "db_EventInfo:92953:5",
+      "jp": "そういう事なら問題ありませんわ。今後は経営だけではなく、私もダンジョン攻略に役立って見せましてよ！",
+      "en": "If that's the case, then there's no problem. From now on, I'll be useful for more than just shop management; I'll help with the dungeon too!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78552,
+      "id": "db_EventInfo:92954:1",
+      "jp": "あ、ああ、頼りにしてるぞ",
+      "en": "O-oh, right. I'm counting on you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78553,
+      "id": "db_EventInfo:92957:0",
+      "jp": "ハーヴェスタがショップに復帰しました！",
+      "en": "Harvester has returned to the shop!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78554,
+      "id": "db_EventInfo:92958:0",
+      "jp": "★エッチシーン・ハーヴェスタ・個別⑤・淫魔化騎乗位①",
+      "en": "★H-Scene: Harvester: Individual ⑤ • Succubus Form Cowgirl ①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78555,
+      "id": "db_EventInfo:92959:0",
+      "jp": "★エッチシーン・ハーヴェスタ・個別⑥・淫魔化騎乗位②",
+      "en": "*H-Scene: Harvester Special #6, Succubus Transformation Cowgirl #2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78556,
+      "id": "db_EventInfo:92961:2",
+      "jp": "ハーヴェスタが目覚めさせたチカラのことデスが",
+      "en": "That power Harvester awakened...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78557,
+      "id": "db_EventInfo:92962:2",
+      "jp": "でもなんというか……あれは【『淫魔』】であって【『淫魔』】でないような気がするデス",
+      "en": "But somehow... it feels like it's a 【'Succubus'】 but also not a 【'Succubus'】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78558,
+      "id": "db_EventInfo:92964:2",
+      "jp": "説明が難しいデスが、【『淫魔』】に似ているだけの、違う力の気がするのデスよね",
+      "en": "It's hard to explain. It feels like a different power that's just similar to a 【'Succubus'】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78559,
+      "id": "db_EventInfo:92965:0",
+      "jp": "ある日の店内。",
+      "en": "A day inside the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78560,
+      "id": "db_EventInfo:92966:0",
+      "jp": "俺は復帰したハーヴェスタに、【『ロゼトニック大商会』】の会員権について尋ねてみた。",
+      "en": "I asked Harvester, who had returned, about the 【'Lozetonic Grand Chamber of Commerce'】 membership requirements.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78561,
+      "id": "db_EventInfo:92968:5",
+      "jp": "【『ロゼトニック大商会』】の会員条件……もちろん、存じてましてよ",
+      "en": "The membership conditions for the 【'Lozetonic Grand Chamber of Commerce'】... Of course I know them.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78562,
+      "id": "db_EventInfo:92969:5",
+      "jp": "最も重要なのは【『<ruby=ヒエペリオ>教会</ruby>』】の敬虔な信者であることですわ",
+      "en": "The most important one is to be a devout follower of the 【'Hyperio Church'】.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78563,
+      "id": "db_EventInfo:92970:5",
+      "jp": "もちろん私はそんなものではありません……ですから、信者でなくても加入できる会員権に釣られてしまったのです",
+      "en": "Of course, I am no such thing... So I got hooked by the membership that even non-believers could join.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78564,
+      "id": "db_EventInfo:92971:5",
+      "jp": "まったく、私としたことが……",
+      "en": "Honestly, I can't believe I...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78565,
+      "id": "db_EventInfo:92972:2",
+      "jp": "欲に目が眩んだアワレな女デス",
+      "en": "A pitiful woman blinded by greed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 78566,
+      "id": "db_EventInfo:92973:5",
+      "jp": "う、うるさいですわね！",
+      "en": "S-Shut up!",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78567,
+      "id": "db_EventInfo:92974:1",
+      "jp": "(シイネに言われちゃあなぁ……)",
+      "en": "Well, if Shiine says so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78568,
+      "id": "db_EventInfo:92975:5",
+      "jp": "まあ、会員権には例外も存在します。今となっては、私にはその条件は満たせませんわ",
+      "en": "Well, there are exceptions to the membership rules. For me, I no longer meet the conditions.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78569,
+      "id": "db_EventInfo:92976:5",
+      "jp": "満たせなくなった、という方が、正しいですが……",
+      "en": "Or rather, it's more accurate to say I can't meet them anymore...",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 78570,
+      "id": "db_EventInfo:92977:1",
+      "jp": "例外……？",
+      "en": "Exceptions...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78571,
+      "id": "db_EventInfo:92978:0",
+      "jp": "以前、ムファードさんもそんなことを言っていたような。",
+      "en": "Before, Mufard said something like that too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78572,
+      "id": "db_EventInfo:92979:0",
+      "jp": "どんな条件なんだろう。",
+      "en": "I wonder what kind of condition it is.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78573,
+      "id": "db_EventInfo:92981:16",
+      "jp": "おや【<pl>】さん。【『ロゼトニック大商会』】の件はどうなりましたかな？",
+      "en": "Oh, it's you【<pl>】. How did things go with the 'Rozetonic Grand Merchant Guild'?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78574,
+      "id": "db_EventInfo:92982:1",
+      "jp": "ムファードさん。その節はお世話になりました",
+      "en": "Mufard. Thanks for your help the other day.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78575,
+      "id": "db_EventInfo:92983:1",
+      "jp": "今日はその、【『会員権』】の事で……",
+      "en": "Today, it's about that... 'Membership'...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78576,
+      "id": "db_EventInfo:92984:16",
+      "jp": "ほう",
+      "en": "Hmm.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78577,
+      "id": "db_EventInfo:92985:0",
+      "jp": "【『ロゼトニック大商会』】の会員条件は敬虔な信者であること。敬虔な信者じゃなければ会員になれない。",
+      "en": "The membership condition for the 'Rozetonic Grand Merchant Guild' is being a devout believer. You can't be a member if you're not a devout believer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78578,
+      "id": "db_EventInfo:92986:0",
+      "jp": "しかし、その例外はあるらしい。",
+      "en": "But, apparently there are exceptions to that.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78579,
+      "id": "db_EventInfo:92987:16",
+      "jp": "【『ロゼトニック大商会』】の会員条件の例外ですか？",
+      "en": "An exception to the membership rules of the 【Rosetonic Grand Chamber of Commerce】?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78580,
+      "id": "db_EventInfo:92988:16",
+      "jp": "【<pl>】さんも人が悪い。それを聞こうとするとは",
+      "en": "【<pl>】, you're being sly. Trying to get me to reveal it, are you?",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78581,
+      "id": "db_EventInfo:92989:1",
+      "jp": "えっと、すみません",
+      "en": "Uh, sorry...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78582,
+      "id": "db_EventInfo:92990:16",
+      "jp": "ほっほっ",
+      "en": "Hoh hoh.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78583,
+      "id": "db_EventInfo:92991:16",
+      "jp": "まあシンプルな話です。【『ロゼトニック大商会』】の【主の妻】になることですよ",
+      "en": "Well, it's simple. You become the 【wife of the master】 of the 【Rosetonic Grand Chamber of Commerce】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78584,
+      "id": "db_EventInfo:92992:1",
+      "jp": "つ、妻に……ですか？",
+      "en": "W-... wife...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78585,
+      "id": "db_EventInfo:92993:16",
+      "jp": "ええ。【『ロゼトニック大商会』】の開祖である商聖ロゼット様は、かの【『聖王十二使徒』】の一人ですが",
+      "en": "Yes. Lady Rosette, the Sage of Commerce who founded the 【Rosetonic Grand Chamber of Commerce】, was one of the 【Twelve Apostles of the Holy King】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78586,
+      "id": "db_EventInfo:92994:16",
+      "jp": "商聖の名を示すとおり、ロゼット様の職は神官ではなく商人でした",
+      "en": "As the title Sage of Commerce suggests, Lady Rosette was not a priestess, but a merchant.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78587,
+      "id": "db_EventInfo:92995:16",
+      "jp": "そしてロゼット様は大変美しい女性でもあり、【『聖王』】の寵愛を受けた娘でもあったのです",
+      "en": "And she was also a very beautiful woman, and a daughter beloved by the 【Holy King】.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78588,
+      "id": "db_EventInfo:92996:16",
+      "jp": "そのように【『<ruby=ヒエペリオ>教会</ruby>』】では、力を持つ者の縁者になることも、敬虔さの証になるのですよ",
+      "en": "In the 【Hyperion Church】, becoming the kin of someone powerful is also proof of your devotion, you see.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78589,
+      "id": "db_EventInfo:92997:1",
+      "jp": "じゃあその、商聖ロゼットって人も、神官とかの力を認められたとかじゃなく？",
+      "en": "So, that Rosette person... it wasn't that she was recognized for priestess powers or anything?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78590,
+      "id": "db_EventInfo:92998:16",
+      "jp": "見初められたことが大きく功を奏して、【『使徒』】に成り上がったということですな",
+      "en": "Being taken a fancy to played a major role. She rose to become an 【Apostle】 thanks to that.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78591,
+      "id": "db_EventInfo:92999:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78592,
+      "id": "db_EventInfo:93000:16",
+      "jp": "もちろん、妻になればなんでも、というわけではありません。突出した商才で【『聖王』】を支えた功績もあります",
+      "en": "Of course, it wasn't just because she became his wife. She also had an amazing talent for business and greatly helped support the Holy King.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78593,
+      "id": "db_EventInfo:93001:16",
+      "jp": "ロゼット様の商人としての手腕はすさまじく。聖都の建築も彼女の功績によるものが大きいと伝えられますよ",
+      "en": "Lady Rosette's skill as a merchant is incredible. I hear she had a huge role in building the Holy Capital too.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78594,
+      "id": "db_EventInfo:93002:16",
+      "jp": "あの子も、それなりの商才の持ち主。大商会の者に気に入られる可能性は高かったでしょう",
+      "en": "That girl also had quite a talent for business. It's very likely she would have been taken in by a major merchant house.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78595,
+      "id": "db_EventInfo:93003:16",
+      "jp": "私も【<pl>】さんと出会わなければ、紹介することも考えておりました",
+      "en": "If I hadn't met you【<pl>】, I was considering introducing her myself.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78596,
+      "id": "db_EventInfo:93004:1",
+      "jp": "……つまり、ハーヴェスタが条件を満たせなくなったというのは",
+      "en": "...So, you're saying Harvester failed to meet the conditions.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 78597,
+      "id": "db_EventInfo:93005:16",
+      "jp": "ほっほっ",
+      "en": "Ho ho ho.",
+      "speaker": "Mufard",
+      "speaker_jp": "ムファード"
+    },
+    {
+      "n": 78598,
+      "id": "db_EventInfo:93006:0",
+      "jp": "★エッチシーン・ハーヴェスタ・H部屋・足コキ①",
+      "en": "★H-Scene - Harvester - H Room - Footjob①",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78599,
+      "id": "db_EventInfo:93007:0",
+      "jp": "★エッチシーン・ハーヴェスタ・H部屋・足コキ②",
+      "en": "★H-Scene - Harvester - H Room - Footjob②",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 78600,
+      "id": "db_EventInfo:93008:0",
+      "jp": "★エッチシーン・ハーヴェスタ・H部屋・泡手コキ①",
+      "en": "★H-Scene - Harvester - H Room - Soapy Handjob①",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

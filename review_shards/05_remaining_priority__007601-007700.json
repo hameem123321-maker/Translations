@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 7601,
+  "range_end": 7700,
+  "pairs": [
+    {
+      "n": 7601,
+      "id": "rem_35252",
+      "jp": "ハヅキをH部屋に配置してエッチする",
+      "en": "Place Hazuki in H-Room for H-Scene",
+      "table": "db_AchievementGuide",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7602,
+      "id": "rem_35253",
+      "jp": "命中値",
+      "en": "Hit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7603,
+      "id": "rem_35254",
+      "jp": "回避値",
+      "en": "Evade Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7604,
+      "id": "rem_35255",
+      "jp": "クリティカル率",
+      "en": "Critical Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7605,
+      "id": "rem_35256",
+      "jp": "デスクリティカル率",
+      "en": "Anti-Crit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7606,
+      "id": "rem_35257",
+      "jp": "クリティカルを受ける値",
+      "en": "Crit Receive Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7607,
+      "id": "rem_35258",
+      "jp": "ダブルアタック値",
+      "en": "Double Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7608,
+      "id": "rem_35259",
+      "jp": "すべてのダメージ",
+      "en": "All Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7609,
+      "id": "rem_35260",
+      "jp": "すべてのダメージ(味方のみ)",
+      "en": "All Damage (Allies Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7610,
+      "id": "rem_35261",
+      "jp": "すべてのダメージ(味方のみ・淫魔領域)",
+      "en": "All Damage (Allies Only, Succubus Zone)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7611,
+      "id": "rem_35262",
+      "jp": "すべてのダメージ(敵のみ)",
+      "en": "All Damage (Enemies Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7612,
+      "id": "rem_35263",
+      "jp": "すべてのダメージ(敵のみ・淫魔領域)",
+      "en": "All Damage (Enemies Only, Succubus Zone)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7613,
+      "id": "rem_35264",
+      "jp": "すべてのダメージ(一部魔族のみ)",
+      "en": "All Damage (Some Demons Only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7614,
+      "id": "rem_35265",
+      "jp": "ラスボスへのダメージ",
+      "en": "Damage to Final Boss",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7615,
+      "id": "rem_35266",
+      "jp": "祝福時のダメージ",
+      "en": "Damage When Blessed",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7616,
+      "id": "rem_35267",
+      "jp": "スキルのダメージ",
+      "en": "Skill Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7617,
+      "id": "rem_35268",
+      "jp": "スキルのダメージ(物理)",
+      "en": "Skill Damage (Physical)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7618,
+      "id": "rem_35269",
+      "jp": "スキルのダメージ(魔術)",
+      "en": "Skill Damage (Magic)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7619,
+      "id": "rem_35270",
+      "jp": "スキルのダメージ(死神)",
+      "en": "Skill Damage (Shinigami)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7620,
+      "id": "rem_35271",
+      "jp": "火属性のダメージ",
+      "en": "Fire Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7621,
+      "id": "rem_35272",
+      "jp": "氷属性のダメージ",
+      "en": "Ice damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7622,
+      "id": "rem_35273",
+      "jp": "風属性のダメージ",
+      "en": "Wind damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7623,
+      "id": "rem_35274",
+      "jp": "雷属性のダメージ",
+      "en": "Thunder damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7624,
+      "id": "rem_35275",
+      "jp": "聖属性のダメージ",
+      "en": "Holy damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7625,
+      "id": "rem_35276",
+      "jp": "闇属性のダメージ",
+      "en": "Dark damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7626,
+      "id": "rem_35277",
+      "jp": "ダブルアタックのダメージ",
+      "en": "Double Attack damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7627,
+      "id": "rem_35278",
+      "jp": "クリティカルのダメージ",
+      "en": "Critical damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7628,
+      "id": "rem_35279",
+      "jp": "弱点ヘのダメージ",
+      "en": "Weakness damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7629,
+      "id": "rem_35280",
+      "jp": "格下のダメージ",
+      "en": "Damage to weaker foes",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7630,
+      "id": "rem_35281",
+      "jp": "初回攻撃のダメージ",
+      "en": "First attack damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7631,
+      "id": "rem_35282",
+      "jp": "格上とボスへのダメージ",
+      "en": "Damage to bosses/stronger foes",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7632,
+      "id": "rem_35283",
+      "jp": "男性へのダメージ",
+      "en": "Damage to males",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7633,
+      "id": "rem_35284",
+      "jp": "女性へのダメージ",
+      "en": "Damage to females",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7634,
+      "id": "rem_35285",
+      "jp": "チェイススキルのダメージ",
+      "en": "Chase skill damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7635,
+      "id": "rem_35286",
+      "jp": "ゴッドハンドのダメージ",
+      "en": "God Hand damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7636,
+      "id": "rem_35287",
+      "jp": "被ダメージ回数に応じて最大攻撃力",
+      "en": "Max ATK based on hits taken",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7637,
+      "id": "rem_35288",
+      "jp": "単体攻撃以外のダメージ",
+      "en": "Non-single-target damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7638,
+      "id": "rem_35289",
+      "jp": "美食モンスターへのダメージ",
+      "en": "Damage to gourmet monsters",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7639,
+      "id": "rem_35290",
+      "jp": "樹木タイプへのダメージ",
+      "en": "Damage to plant types",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7640,
+      "id": "rem_35291",
+      "jp": "人間タイプへのダメージ",
+      "en": "Damage to human types",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7641,
+      "id": "rem_35292",
+      "jp": "亜人タイプへのダメージ",
+      "en": "Damage to Demihuman type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7642,
+      "id": "rem_35293",
+      "jp": "動物タイプへのダメージ",
+      "en": "Damage to Animal type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7643,
+      "id": "rem_35294",
+      "jp": "飛行タイプへのダメージ",
+      "en": "Damage to Flying type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7644,
+      "id": "rem_35295",
+      "jp": "不形タイプへのダメージ",
+      "en": "Damage to Amorphous type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7645,
+      "id": "rem_35296",
+      "jp": "硬質タイプへのダメージ",
+      "en": "Damage to Hardened type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7646,
+      "id": "rem_35297",
+      "jp": "死霊タイプへのダメージ",
+      "en": "Damage to Undead type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7647,
+      "id": "rem_35298",
+      "jp": "xxxxタイプへのダメージ",
+      "en": "Damage to xxxx type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7648,
+      "id": "rem_35299",
+      "jp": "竜タイプへのダメージ",
+      "en": "Damage to Dragon type",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7649,
+      "id": "rem_35300",
+      "jp": "物理ダメージ軽減",
+      "en": "Physical damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7650,
+      "id": "rem_35301",
+      "jp": "魔術ダメージ軽減",
+      "en": "Magic damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7651,
+      "id": "rem_35302",
+      "jp": "すべてのダメージ軽減",
+      "en": "All damage reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7652,
+      "id": "rem_35303",
+      "jp": "大きなダメージを軽減",
+      "en": "Reduces large damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7653,
+      "id": "rem_35304",
+      "jp": "物理耐性や物理軽減スキルを貫通",
+      "en": "Ignores Phys. resist/reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7654,
+      "id": "rem_35305",
+      "jp": "魔術耐性や魔術軽減スキルを貫通",
+      "en": "Ignores Magic resist/reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7655,
+      "id": "rem_35306",
+      "jp": "聖+闇属性のダメージ無効",
+      "en": "Nullifies Holy/Dark damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7656,
+      "id": "rem_35307",
+      "jp": "物理ダメージ無効",
+      "en": "Nullifies Physical damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7657,
+      "id": "rem_35308",
+      "jp": "魔術ダメージ無効",
+      "en": "Nullifies Magic damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7658,
+      "id": "rem_35309",
+      "jp": "即死効果を無効",
+      "en": "Nullifies instant death",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7659,
+      "id": "rem_35310",
+      "jp": "トラップで敵の攻撃を妨害",
+      "en": "Use traps to disrupt attacks",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7660,
+      "id": "rem_35311",
+      "jp": "武器で敵の攻撃を妨害",
+      "en": "Use weapons to disrupt attacks",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7661,
+      "id": "rem_35312",
+      "jp": "HP回復量",
+      "en": "HP Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7662,
+      "id": "rem_35313",
+      "jp": "MP回復量",
+      "en": "MP Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7663,
+      "id": "rem_35314",
+      "jp": "CT回復量",
+      "en": "CT Recovered",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7664,
+      "id": "rem_35315",
+      "jp": "ターンごとにHP回復",
+      "en": "HP Regen per Turn",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7665,
+      "id": "rem_35316",
+      "jp": "ターンごとにMP回復",
+      "en": "MP Regen per Turn",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7666,
+      "id": "rem_35317",
+      "jp": "ターンごとにHP回復(味方のみ)",
+      "en": "HP Regen per Turn (Allies only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7667,
+      "id": "rem_35318",
+      "jp": "ターンごとにHP回復(敵のみ・淫魔領域)",
+      "en": "HP Regen per Turn (Enemies only - Succubus Domain)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7668,
+      "id": "rem_35319",
+      "jp": "ターンごとにMP回復(味方のみ)",
+      "en": "MP Regen per Turn (Allies only)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7669,
+      "id": "rem_35320",
+      "jp": "戦闘不能時に自動復活",
+      "en": "Auto-Revive when Incapacitated",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7670,
+      "id": "rem_35321",
+      "jp": "戦闘不能時に自動復活(権能)",
+      "en": "Auto-Revive when Incapacitated (Authority)",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7671,
+      "id": "rem_35322",
+      "jp": "戦闘後にCT回復",
+      "en": "CT Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7672,
+      "id": "rem_35323",
+      "jp": "戦闘後にMP回復",
+      "en": "MP Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7673,
+      "id": "rem_35324",
+      "jp": "戦闘後にHP回復",
+      "en": "HP Recovered after Battle",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7674,
+      "id": "rem_35325",
+      "jp": "炎により持続ダメージ",
+      "en": "Sustained Fire Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7675,
+      "id": "rem_35326",
+      "jp": "毒により持続ダメージ",
+      "en": "Sustained Poison Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7676,
+      "id": "rem_35327",
+      "jp": "MP消費軽減",
+      "en": "Reduced MP Cost",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7677,
+      "id": "rem_35328",
+      "jp": "パーティー全員のダメージ",
+      "en": "Party Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7678,
+      "id": "rem_35329",
+      "jp": "パーティー全員のクリティカル率",
+      "en": "Party Crit Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7679,
+      "id": "rem_35330",
+      "jp": "パーティー全員の経験値",
+      "en": "Party EXP",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7680,
+      "id": "rem_35331",
+      "jp": "パーティー全員の四属性ダメージ",
+      "en": "Party Elemental Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7681,
+      "id": "rem_35332",
+      "jp": "火属性付与",
+      "en": "Fire Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7682,
+      "id": "rem_35333",
+      "jp": "氷属性付与",
+      "en": "Ice Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7683,
+      "id": "rem_35334",
+      "jp": "風属性付与",
+      "en": "Wind Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7684,
+      "id": "rem_35335",
+      "jp": "雷属性付与",
+      "en": "Lightning Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7685,
+      "id": "rem_35336",
+      "jp": "聖属性付与",
+      "en": "Holy Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7686,
+      "id": "rem_35337",
+      "jp": "闇属性付与",
+      "en": "Dark Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7687,
+      "id": "rem_35338",
+      "jp": "死属性付与",
+      "en": "Death Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7688,
+      "id": "rem_35339",
+      "jp": "霊体属性付与",
+      "en": "Spirit Attribute Enchantment",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7689,
+      "id": "rem_35340",
+      "jp": "矢雨による先制ダメージ",
+      "en": "Arrow Rain Preemptive Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7690,
+      "id": "rem_35341",
+      "jp": "ターンアンデッドダメージ",
+      "en": "Turn Undead Damage",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7691,
+      "id": "rem_35342",
+      "jp": "XXXXへの先制ダメージ",
+      "en": "Preemptive Damage to XXXX",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7692,
+      "id": "rem_35343",
+      "jp": "味方への強化効果ターン延長",
+      "en": "Ally Buff Duration Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7693,
+      "id": "rem_35344",
+      "jp": "相手への弱体効果ターン延長",
+      "en": "Enemy Debuff Duration Up",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7694,
+      "id": "rem_35345",
+      "jp": "不利な状態異常の回避率",
+      "en": "Adverse Status Avoidance",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7695,
+      "id": "rem_35346",
+      "jp": "攻撃範囲が拡大",
+      "en": "Attack Range Expanded",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7696,
+      "id": "rem_35347",
+      "jp": "通常攻撃のダブルアタック率",
+      "en": "Normal Attack Double Attack Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7697,
+      "id": "rem_35348",
+      "jp": "スキル封印",
+      "en": "Skill Seal",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7698,
+      "id": "rem_35349",
+      "jp": "近接攻撃ヒットで阻害罠",
+      "en": "Impeding Trap on Melee Hit",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7699,
+      "id": "rem_35350",
+      "jp": "スキル使用による速度低下軽減",
+      "en": "Skill Cast Speed Debuff Reduction",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    },
+    {
+      "n": 7700,
+      "id": "rem_35351",
+      "jp": "逃走率",
+      "en": "Escape Rate",
+      "table": "db_DefineValue",
+      "category": "remaining_table"
+    }
+  ]
+}

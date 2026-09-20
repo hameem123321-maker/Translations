@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2401,
+  "range_end": 2500,
+  "pairs": [
+    {
+      "n": 2401,
+      "id": "db_EventInfo:2666:122",
+      "jp": "【『速度』】が高いメンバーは、実際の攻撃力以上に高い攻撃力を持っているぞ！　先手を取って先に倒せるしな！",
+      "en": "A fast member is stronger than their Attack Power suggests! You get the first hit and can take them out!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2402,
+      "id": "db_EventInfo:2667:122",
+      "jp": "範囲攻撃は強力なのだが、とにかく消耗が激しい。総合的なダメージソースとしては最高なのだが",
+      "en": "Area attacks are strong, but they burn through resources fast. For total damage, they're the best though.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2403,
+      "id": "db_EventInfo:2668:122",
+      "jp": "やはり我々前衛が、単体攻撃で各個撃破していかなくてはな",
+      "en": "Right. We frontline fighters should use single-target attacks to pick them off one by one.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2404,
+      "id": "db_EventInfo:2669:122",
+      "jp": "魔術と戦技が組み合わさった【『複合スキル』】というものが存在する。普通のスキルよりも習得が難しいとされるスキルだ",
+      "en": "There are things called Hybrid Skills. They're a mix of magic and combat techniques. They're said to be harder to learn than regular skills.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2405,
+      "id": "db_EventInfo:2670:122",
+      "jp": "【『複合スキル』】だからといって特別に威力が高いというわけではないようだが……",
+      "en": "They're not necessarily more powerful just because they're Hybrid Skills, though...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2406,
+      "id": "db_EventInfo:2671:122",
+      "jp": "属性がついていないと、いまいち効きが薄い敵というのもある。幽霊みたいなやつだな。戦士といえど、一つぐらいは覚えたいものだ",
+      "en": "Some enemies, like ghosts, don't take much damage if you don't use skills with an elemental property. Even a warrior might want to learn one.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2407,
+      "id": "db_EventInfo:2672:122",
+      "jp": "範囲攻撃は魔術師の仕事だ。しかし前衛戦士にも範囲攻撃のスキルはある",
+      "en": "Area attacks are a mage's job. But frontline warriors have area attack skills too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2408,
+      "id": "db_EventInfo:2673:122",
+      "jp": "威力が劣るとは思わんが、問題は燃費である。無限に【『ＭＰ』】があればなあ！",
+      "en": "I don't think their power is worse. The problem is MP cost. If only we had infinite MP!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2409,
+      "id": "db_EventInfo:2674:122",
+      "jp": "なんだか慌ただしくなってきたな。いよいよ修行の成果を発揮するときが来たか？",
+      "en": "Things are getting kind of hectic. Is it finally time to show the results of my training?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2410,
+      "id": "db_EventInfo:2675:122",
+      "jp": "何か、忘れているような……まあ、大したことないんだろう",
+      "en": "Feels like I'm forgetting something... Ah well, it's probably nothing important.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2411,
+      "id": "db_EventInfo:2676:122",
+      "jp": "【『ゼカリウス』】が平和になったら、それに越したことがないものだ！",
+      "en": "If Zecarius gets peaceful, that's even better!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2412,
+      "id": "db_EventInfo:2677:122",
+      "jp": "ところで結局、攻略戦に参加し忘れたのだが！　いつになったら修行の成果を試せるのだろう！？",
+      "en": "By the way, I ended up missing the whole raid! When am I ever going to test the results of my training?!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2413,
+      "id": "db_EventInfo:2678:123",
+      "jp": "【『イルニエル漁業組合』】は【『ゼカリウス』】の漁を仕切っている組織だ",
+      "en": "The Iluniel Fishery Association is the group that manages the fishing here in Zecarius.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2414,
+      "id": "db_EventInfo:2679:123",
+      "jp": "【『ゼカリウス』】は水上都市と言われるほど海に近い街でな、すぐそこに海があるんだぜ",
+      "en": "Zecarius is a city so close to the sea it's called a water city. The ocean is right there.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2415,
+      "id": "db_EventInfo:2680:123",
+      "jp": "アーマニア海で採れる魚の水揚げは【『イルニエル漁業組合』】がやっている",
+      "en": "The 'Iluniel Fishing Guild' handles the catch from the Armania Sea.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2416,
+      "id": "db_EventInfo:2681:123",
+      "jp": "しかし港が整備されないから、中々大量の魚は食べられないんだ",
+      "en": "But the port isn't well equipped. We can't really eat a huge amount of fish.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2417,
+      "id": "db_EventInfo:2682:123",
+      "jp": "誰かが【『投資』】してくれば、ガンガン魚を入荷できるんだが……",
+      "en": "If someone would invest, we could bring in loads of fish...",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2418,
+      "id": "db_EventInfo:2683:123",
+      "jp": "【『ゼカリウス』】近郊の内海は穏やかで、海の魔獣も少ない天然の漁場なんだ",
+      "en": "The inner sea near Zecarius is calm. It's a natural fishing ground with few sea monsters.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2419,
+      "id": "db_EventInfo:2684:123",
+      "jp": "海の魔獣は陸とは比べものにならないほど危険でな。島を飲み込む大海獣なんてのもいるそうだ",
+      "en": "Sea monsters are far more dangerous than land ones. They say there are leviathans that can swallow islands.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2420,
+      "id": "db_EventInfo:2685:123",
+      "jp": "ま、そもそも海自体が危険なんだけどな。溺れたら死んでしまうぜ！",
+      "en": "Well, the sea itself is dangerous anyway. If you drown, you die!",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2421,
+      "id": "db_EventInfo:2686:123",
+      "jp": "聞いたぜ、アンタが【『イルニエル大灯台』】に巣くっていた魔物を追い払ってくれたんだって？",
+      "en": "I heard. You drove off the monsters nesting in the 'Great Iluniel Lighthouse', right?",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2422,
+      "id": "db_EventInfo:2687:123",
+      "jp": "大灯台は【『イルニエル漁業組合』】の命綱、多くの漁師がアンタに感謝している",
+      "en": "That lighthouse is the lifeline of the 'Iluniel Fishing Guild'. Many fishermen are grateful to you.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2423,
+      "id": "db_EventInfo:2688:123",
+      "jp": "アンタのためなら、危険な海にだって漁に行ってやるぜ。これからも支援よろしくな！",
+      "en": "For you, I'd even go fishing in the dangerous sea. Keep supporting us, okay?",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2424,
+      "id": "db_EventInfo:2689:123",
+      "jp": "【『ゼカリウス』】近郊の内海を越えると【『アーマニア海』】。そこは危険な魔獣が巣食う大海原、漁師の浪漫が眠っている",
+      "en": "Past the inner sea near Zecarius is the 'Armania Sea'. It's a vast ocean full of dangerous monsters, a fisherman's dream.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2425,
+      "id": "db_EventInfo:2690:123",
+      "jp": "魔獣に対抗するため、かなり強力な武装が必要なんだが……",
+      "en": "To fight the monsters, you need some really strong equipment...",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2426,
+      "id": "db_EventInfo:2691:123",
+      "jp": "それさえあれば、内海では取れないような、絶品の魚も釣れるんだぜ！",
+      "en": "With that, you could catch amazing fish you can't get in the inner sea!",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2427,
+      "id": "db_EventInfo:2692:123",
+      "jp": "【『アーマニア海』】の名の由来は、このあたりを荒らし回っていた伝説の大海賊の名前なんだ",
+      "en": "The name 【『Armania Sea』】 comes from a legendary pirate who used to wreck this area.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2428,
+      "id": "db_EventInfo:2693:123",
+      "jp": "全世界の海を支配したとかいう、どえらい大海賊なんだけど。生前の財宝が行方不明でな",
+      "en": "They say he was a great pirate who ruled all the seas. But his treasure from when he was alive is missing.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2429,
+      "id": "db_EventInfo:2694:123",
+      "jp": "【『アーマニア海』】の海底に財宝が沈んでいるって伝説が残っているんだ",
+      "en": "There's a legend that his treasure is at the bottom of the 【『Armania Sea』】.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2430,
+      "id": "db_EventInfo:2695:123",
+      "jp": "ここのところ、地震が多いな",
+      "en": "We've been having a lot of earthquakes lately.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2431,
+      "id": "db_EventInfo:2696:123",
+      "jp": "地震があると海が大きく揺れるんだ……もっと大きい地震が来たら、どうなるんだ？",
+      "en": "Earthquakes make the sea shake a lot... What would happen if a really big one hit?",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2432,
+      "id": "db_EventInfo:2697:123",
+      "jp": "荒れていた海が戻ったぜ。これからは安心して漁ができるってもんだ！",
+      "en": "The rough seas are calm again. Now we can fish in peace!",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2433,
+      "id": "db_EventInfo:2698:123",
+      "jp": "【『海賊作家』】って人が居るらしい。しかもみずからアーマニア様の名前を名乗ってるそうだ",
+      "en": "I hear there's a person called the 【『Pirate Writer』】. And they're even using Lady Armania's name for themself.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2434,
+      "id": "db_EventInfo:2699:123",
+      "jp": "いやあ、命知らずだよなぁ。荒くれどもも、【『海賊女帝』】の名前を聞くだけでビビって震え上がるのに",
+      "en": "Man, they've got a death wish. Even tough pirates start shaking just hearing the 【『Pirate Empress』】's name.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2435,
+      "id": "db_EventInfo:2700:123",
+      "jp": "こないだ、【『海賊女帝』】の名前を騙る、不届きな女に出会ったんだ",
+      "en": "The other day, I met a rude woman pretending to be the 【『Pirate Empress』】.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2436,
+      "id": "db_EventInfo:2701:123",
+      "jp": "この宿には、結構長く通っているつもりだけど、あんな女いたんだなぁ……",
+      "en": "I've been coming to this inn for a long time, but I never saw that woman here before...",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2437,
+      "id": "db_EventInfo:2702:123",
+      "jp": "また【『海賊女帝』】を騙る女に会ったんだ",
+      "en": "I met another woman pretending to be the 【『Pirate Empress』】.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2438,
+      "id": "db_EventInfo:2703:123",
+      "jp": "ふにゃあとして弱そうだったんで、何か文句言おうとしたんだけど、執筆の邪魔とかいって睨まれたんだ",
+      "en": "She looked weak and flimsy, so I was gonna say something. But she glared at me, saying I was bothering her writing.",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2439,
+      "id": "db_EventInfo:2704:123",
+      "jp": "思わず腰を抜かしてしまったぜ。いやあ、すげえ迫力だったな……ところで、執筆ってなんだ？",
+      "en": "I almost fell on my butt. Wow, that was intense... Anyway, what's this 'writing' thing about?",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2440,
+      "id": "db_EventInfo:2705:123",
+      "jp": "なんか、伝説のアーマニア様が蘇ったみたいなウワサを聞いたぞ。どういうことだ！？",
+      "en": "I heard a rumor that the legendary Armarnia might have come back to life. What's that about!?",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2441,
+      "id": "db_EventInfo:2706:123",
+      "jp": "……【『海賊女帝』】様、万歳！",
+      "en": "...Hooray for the Pirate Empress!",
+      "speaker": "Yodafu",
+      "speaker_jp": "ヨダフ"
+    },
+    {
+      "n": 2442,
+      "id": "db_EventInfo:2707:135",
+      "jp": "精霊と妖精のハーフともいわれる、エルフィード族という亜人がいる",
+      "en": "There's a sub-species called the Elfeed. They're said to be half-spirit, half-fairy.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2443,
+      "id": "db_EventInfo:2708:135",
+      "jp": "彼女らは【風の守護】を得ていて、【精霊】と対話する能力を持っているらしい",
+      "en": "They're supposed to have the Protection of the Wind and the ability to talk to spirits.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2444,
+      "id": "db_EventInfo:2709:135",
+      "jp": "【『フレスミス森林道』】は自然の迷路だ",
+      "en": "The Freesmiss Forest Path is a natural maze.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2445,
+      "id": "db_EventInfo:2710:135",
+      "jp": "道なりに進んでいると思っても、いつのまにか同じ場所に出てしまう",
+      "en": "Even if you follow the path, you can end up back where you started without realizing it.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2446,
+      "id": "db_EventInfo:2711:135",
+      "jp": "もし踏破するなら、【<ruby=レンジャー>野伏</ruby>】などの、森に詳しい奴を仲間にするのは必須だ",
+      "en": "If you want to get through it, you need to bring someone who knows forests, like a Ranger.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2447,
+      "id": "db_EventInfo:2712:135",
+      "jp": "……俺？",
+      "en": "...Me?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2448,
+      "id": "db_EventInfo:2713:135",
+      "jp": "俺はあんな危ない場所、とても歩きたくないな",
+      "en": "I really don't want to walk through such a dangerous place.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2449,
+      "id": "db_EventInfo:2714:135",
+      "jp": "【『ドルワミール鉱山』】に住むドワーム族はエルフィード族同様に精霊と妖精のハーフとも言われる",
+      "en": "The Dwarm, who live in the Dolwamir Mines, are also said to be half-spirit and half-fairy, like the Elfeed.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2450,
+      "id": "db_EventInfo:2715:135",
+      "jp": "エルフィードが【風の守護】を得るのと同様に、ドワーム族は【地の守護】を得るんだ",
+      "en": "Just like the Elfeed get the Protection of the Wind, the Dwarm get the Protection of the Earth.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2451,
+      "id": "db_EventInfo:2716:135",
+      "jp": "でもドワーム族が信仰するのは精霊じゃなくて【『火の神カストロイア』】を信仰しているんだ",
+      "en": "But the Dwarm don't worship spirits. They worship the Fire God Castroia.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2452,
+      "id": "db_EventInfo:2717:135",
+      "jp": "【地の守護】を持っているのに信仰しているのは【『火の神』】？　ややこしいな……",
+      "en": "They have the protection of the earth, but they worship the Fire God? That's confusing...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2453,
+      "id": "db_EventInfo:2718:135",
+      "jp": "まあ、エルフィード族も風じゃなく、すべての精霊と対話できるらしいけど……いや、なんでもというレベルはアイツぐらいか",
+      "en": "Well, I hear Elfeed can talk to all spirits, not just wind... Actually, maybe he's the only one who can do that much.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2454,
+      "id": "db_EventInfo:2719:135",
+      "jp": "エルフィード族には男性が殆どいないそうだ。いないわけではないんだが……",
+      "en": "I heard there are almost no male Elfeed. There are some, but very few.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2455,
+      "id": "db_EventInfo:2720:135",
+      "jp": "ということは、エルフィード族の女は人間の男と交わって子供を作ったりするのか？",
+      "en": "So, do Elfeed women have kids with human men?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2456,
+      "id": "db_EventInfo:2721:135",
+      "jp": "なんだか【『ゴブリン』】みたいだな……？",
+      "en": "Kind of sounds like Goblins...?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2457,
+      "id": "db_EventInfo:2722:135",
+      "jp": "けほけほ……なんだか喉が痛いな……？",
+      "en": "Cough, cough... My throat feels kind of sore...?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2458,
+      "id": "db_EventInfo:2723:135",
+      "jp": "エルフィード族は人間よりセンスに優れているらしく、多くが何かの技術を極める達人が多いらしい",
+      "en": "They say Elfeed have better senses than humans. Many of them are masters of some craft.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2459,
+      "id": "db_EventInfo:2724:135",
+      "jp": "大抵のエルフィードは磨き上げた技術で、人間の世界でも高い地位に入り込む。そもそも美人だらけだしな",
+      "en": "Most Elfeed use their polished skills to get high positions in human society. They're all beautiful too.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2460,
+      "id": "db_EventInfo:2725:135",
+      "jp": "しかしエルフィード族の中には研鑽自体を喜びを見出すヤツがいて、色んな技術を極めることばかりする",
+      "en": "But some Elfeed find joy in the training itself. They just work to master all kinds of skills.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2461,
+      "id": "db_EventInfo:2726:135",
+      "jp": "おかげで、本来は【風の精霊】としか対話できないはずなのに、あらゆる精霊と【対話】できるようになったらしい",
+      "en": "Thanks to that, even though they should only talk to wind spirits, they can now talk to all spirits.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2462,
+      "id": "db_EventInfo:2727:135",
+      "jp": "南西にあるダムブナックの森は【『黒の森』】の異名を持っている",
+      "en": "The Damnbnuck Forest to the southwest is also called the Black Forest.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2463,
+      "id": "db_EventInfo:2728:135",
+      "jp": "この大陸にはいくつもある瘴気の吹きだまりで、強力な魔獣の住処になっているんだ",
+      "en": "This continent has lots of miasma hotspots. Powerful monsters live there.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2464,
+      "id": "db_EventInfo:2729:135",
+      "jp": "おかげで魔を帯びた貴重な薬草や材木が採れる……命がけになるけどな",
+      "en": "You can find rare magical herbs and wood there... But it's a deadly risk.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2465,
+      "id": "db_EventInfo:2730:135",
+      "jp": "【『ダムブナック黒神殿』】の攻略作戦、俺も参加させて貰ったぜ",
+      "en": "I took part in the operation to take down 'Dambunac Black Temple'.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2466,
+      "id": "db_EventInfo:2731:135",
+      "jp": "あそこは【『邪教徒』】の巣窟だったが【『ダムブナック林業組合』】が全員、【『邪教徒』】だったとは限らないぜ。【『ゼカリウス』】の人間もいたしな",
+      "en": "That place was a cultist hideout. But not everyone from 'Dambunac Lumber Union' was a cultist. There were some of Zecarius's people there too.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2467,
+      "id": "db_EventInfo:2732:135",
+      "jp": "まあ……【『邪教徒』】ってのは社会の隅々にはびこっているって話だ",
+      "en": "Well... It shows you how these cultists are hidden everywhere in society.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2468,
+      "id": "db_EventInfo:2733:135",
+      "jp": "表から見たら【普通の仕事】としても、よく調べてみたら【『邪教徒』】の組織を潤わせていた……みたいにな？",
+      "en": "Something might look like a 'normal job' on the surface. But dig deeper, and it's funding a cult's organization... you know?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2469,
+      "id": "db_EventInfo:2734:135",
+      "jp": "火山はもうコリゴリだぜ……",
+      "en": "I'm done with volcanoes...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2470,
+      "id": "db_EventInfo:2735:135",
+      "jp": "はあ……まさか、あのエリオルダがこの店にいるなんて……",
+      "en": "Hah... I can't believe Eliorda is in this shop...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2471,
+      "id": "db_EventInfo:2736:135",
+      "jp": "久しぶりに会ったけど、やっぱり可愛いよなぁ",
+      "en": "I saw her again after a long time. She's still so cute.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2472,
+      "id": "db_EventInfo:2737:135",
+      "jp": "エリオルダを食事に誘ったんだが、なぜか森の中で修行に付き合わされていた",
+      "en": "I asked Eliorda out for a meal. But somehow I ended up doing training with her in the forest.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2473,
+      "id": "db_EventInfo:2738:135",
+      "jp": "これは脈ありということなのか？",
+      "en": "Does that mean she's interested?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2474,
+      "id": "db_EventInfo:2739:135",
+      "jp": "エリオルダにプロポーズしたんだが、自分より強い男がいいと言われてしまった",
+      "en": "I proposed to Eliorda. She said she wants a man stronger than her.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2475,
+      "id": "db_EventInfo:2740:135",
+      "jp": "時々出される、討伐募集に俺も参加するべき何だろうか？",
+      "en": "Should I join those monster-hunting quests they post sometimes?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2476,
+      "id": "db_EventInfo:2741:135",
+      "jp": "なんだかここのところ、夢の中にエリオルダが出てくるんだ……",
+      "en": "Lately, Eliorda's been showing up in my dreams...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2477,
+      "id": "db_EventInfo:2742:135",
+      "jp": "……思い詰めすぎたかな？",
+      "en": "...Am I thinking about it too much?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2478,
+      "id": "db_EventInfo:2743:135",
+      "jp": "エルフィード族は婿探しをするために【『森』】を出るんだ",
+      "en": "Elfied leave the \"Forest\" to look for husbands.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2479,
+      "id": "db_EventInfo:2744:135",
+      "jp": "エリオルダが店に留まるってことは、要はそういうことなんだろ？",
+      "en": "So, Eliorda staying at the shop means that's why, right?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2480,
+      "id": "db_EventInfo:2745:135",
+      "jp": "相手は誰なんだ……？　エルフィードって、好みが激しいというウワサがあるんだが……",
+      "en": "Who's the lucky guy?... I hear Elfied have very strong preferences...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2481,
+      "id": "db_EventInfo:2746:135",
+      "jp": "フレスミスの森で、エルフィード族を数人見かけたらしい",
+      "en": "I heard a few Elfied were seen in Freshmist Forest.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2482,
+      "id": "db_EventInfo:2747:135",
+      "jp": "エリオルダは店に居るし……複数人のエルフィードが集まってるのか？",
+      "en": "Eliorda is at the shop... so are multiple Elfied gathering?",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2483,
+      "id": "db_EventInfo:2748:135",
+      "jp": "森でクマに出会った……",
+      "en": "I ran into a bear in the forest...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2484,
+      "id": "db_EventInfo:2749:135",
+      "jp": "エルフィードを娶ることが出来た人間は、国を獲れるって伝説があるんだ",
+      "en": "There's a legend that a man who marries an Elfied can win a kingdom.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2485,
+      "id": "db_EventInfo:2750:135",
+      "jp": "彼女らは人間の男を見分ける眼力が凄くて、それに認められるヤツは相当に凄いのと",
+      "en": "They have an amazing eye for judging men. Anyone they approve must be incredible.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2486,
+      "id": "db_EventInfo:2751:135",
+      "jp": "エルフィード族自体が、普通の人間じゃ絶対敵わないような、何かの能力があるからなんだ",
+      "en": "It's because the Elfied have some kind of power normal humans can't match.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2487,
+      "id": "db_EventInfo:2752:135",
+      "jp": "基本的に、すべてのエルフィード族は全員が美人でスタイルが良い上、あらゆる才能に秀でてるらしいんだけど、たまに例外はいる",
+      "en": "So, basically, every Elfied is beautiful, has a great body, and excels at everything. But there are a few exceptions.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2488,
+      "id": "db_EventInfo:2753:135",
+      "jp": "そういう、本来持つはずの素養を欠落させたヤツは、埋め合わせるかのように、別の能力が人外じみるんだとか",
+      "en": "They say those who are missing their natural gifts make up for it with some other superhuman ability.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2489,
+      "id": "db_EventInfo:2754:135",
+      "jp": "たとえば背が低いとか、モテないとか……",
+      "en": "Like being short, or not being popular...",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2490,
+      "id": "db_EventInfo:2755:135",
+      "jp": "伝説に謳われる胸亡きエルフィードなんかは神速の野伏として名を残す達人の上、【『神』】に愛される降霊能力の持ち主だったって話だ",
+      "en": "Take the legendary 'flat-chested Elfied'. She was a master archer famous for her insane speed. They say she could also summon spirits and was loved by God.",
+      "speaker": "Yutan",
+      "speaker_jp": "ユタン"
+    },
+    {
+      "n": 2491,
+      "id": "db_EventInfo:2756:141",
+      "jp": "私は領主様の屋敷の門番です。ここのところ、屋敷に居づらくて",
+      "en": "I'm the gatekeeper for the Lord's mansion. Lately, it's been hard to be there.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2492,
+      "id": "db_EventInfo:2757:141",
+      "jp": "ここは癒されるなぁ……むにゃむにゃ……zzz",
+      "en": "This place is so relaxing... mumble mumble... zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2493,
+      "id": "db_EventInfo:2758:141",
+      "jp": "まったく、旦那様にも困ったものです",
+      "en": "Honestly, the master is such a handful.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2494,
+      "id": "db_EventInfo:2759:141",
+      "jp": "女の子を連れ込むのもほどほどにしてほしいですね……むにゃむにゃ",
+      "en": "I wish he'd ease up on bringing all those girls home... mumble mumble",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2495,
+      "id": "db_EventInfo:2760:141",
+      "jp": "けほけほ……ここのところ、屋敷の中の空気が悪くて……むにゃむにゃ……",
+      "en": "Cough cough... The air in the mansion has been so bad lately... mumble mumble...",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2496,
+      "id": "db_EventInfo:2761:141",
+      "jp": "戻りたくないなぁ……zzz",
+      "en": "I don't wanna go back... zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2497,
+      "id": "db_EventInfo:2762:141",
+      "jp": "はあ……自分は何も関係ないのに……むにゃむにゃ",
+      "en": "Sigh... And I'm not even involved in any of it... mumble mumble",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2498,
+      "id": "db_EventInfo:2763:141",
+      "jp": "連日、【『騎士団』】の人たちに詰められて寝不足……zzz",
+      "en": "The Knights have been on my case every day. I'm so sleep-deprived... zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2499,
+      "id": "db_EventInfo:2764:141",
+      "jp": "旦那様が釈放されたと聞いたのですが、屋敷には戻ってこないのです",
+      "en": "I heard the master was released, but he hasn't come back to the mansion.",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    },
+    {
+      "n": 2500,
+      "id": "db_EventInfo:2765:141",
+      "jp": "はあ……どこかに転職しようかな……zzz",
+      "en": "Haah... maybe I'll look for a job somewhere else...zzz",
+      "speaker": "Moruta",
+      "speaker_jp": "モルター"
+    }
+  ]
+}

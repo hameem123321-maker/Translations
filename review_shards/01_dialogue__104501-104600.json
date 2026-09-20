@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 104501,
+  "range_end": 104600,
+  "pairs": [
+    {
+      "n": 104501,
+      "id": "db_EventInfo:123610:1",
+      "jp": "うん",
+      "en": "Yep.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104502,
+      "id": "db_EventInfo:123611:12",
+      "jp": "なんで図書館を作ってるんです！？",
+      "en": "Then why are you building a full-blown library!?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104503,
+      "id": "db_EventInfo:123612:1",
+      "jp": "俺も最初は小屋を作って保管しようとしたんだけど、中途半端な建物だと書物が傷むとかなんとか。適した建物が必要とカリストたちに説得されて……",
+      "en": "At first, I wanted to make a shed to store them, but Callisto and the others convinced me. They said books would get damaged in a half-built place. A proper building was needed.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104504,
+      "id": "db_EventInfo:123613:12",
+      "jp": "魔女どものために図書館を作るとは……いいんですか？",
+      "en": "You're building a library... for witches? Is that okay?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104505,
+      "id": "db_EventInfo:123614:1",
+      "jp": "いやぁ、古文書をどうにかしないと仕事をサボりそうだし。文書自体には価値がありそうだったから",
+      "en": "Well, I'll slack off if I don't deal with these old books. The documents themselves seemed valuable, so...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104506,
+      "id": "db_EventInfo:123615:12",
+      "jp": "仕方がありませんね……私も古文書自体には興味はありますし。実際に贈られたものは価値があるモノが多いです。ヘタに売るより有用でしょう",
+      "en": "It can't be helped... I'm also interested in the old documents themselves. The ones given as gifts are often valuable. It's more useful than selling them off.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104507,
+      "id": "db_EventInfo:123616:12",
+      "jp": "もともとは【『ロオン遺跡調査団』】が研究していたものですし、彼らにも立ち入りを許可しても構いませんか？",
+      "en": "Originally, these were researched by the 'Loon Ruins Investigation Team'. Can we allow them entry as well?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104508,
+      "id": "db_EventInfo:123617:1",
+      "jp": "それは問題ない。【『<ruby=ソルシア>学院</ruby>』】にもそのことを伝えよう",
+      "en": "That's no problem. Let's also tell the 'Solsia Academy' about that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104509,
+      "id": "db_EventInfo:123618:12",
+      "jp": "高く売りつけられそうなんですけどね。まあいいです",
+      "en": "We could probably sell it to them for a high price. Oh well, it's fine.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104510,
+      "id": "db_EventInfo:123621:0",
+      "jp": "その後、建築した図書館には、なぜか各地の古文書が集まるようになってしまった。",
+      "en": "After that, for some reason, old documents from all over started gathering at the built library.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104511,
+      "id": "db_EventInfo:123622:0",
+      "jp": "保管場所に困った文書や、研究中の文書など、様々な組織が所有していた文書が、なぜかうちの図書館に集まってしまっていた。",
+      "en": "Documents people didn't know where to store, ones under research... All sorts of documents owned by various organizations ended up at our library somehow.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104512,
+      "id": "db_EventInfo:123623:12",
+      "jp": "……あちこちの組織に献金していた成果でしょうか",
+      "en": "...Is this the result of our donations to various organizations?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104513,
+      "id": "db_EventInfo:123624:1",
+      "jp": "おかげで本好きのカリストとオーレリアが仕事を休む頻度が増えた気がする……",
+      "en": "Thanks to that, I feel like Callisto and Aurelia, the book lovers, are skipping work more often...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104514,
+      "id": "db_EventInfo:123625:0",
+      "jp": "もっともちゃんと仕事はしてくれるようで。しっかりと成果としては【『錬金』】の商品としてフィードバックはしてくれた。",
+      "en": "Although it seems they are still doing their jobs properly. It fed back nicely as a product for 'Alchemy' as a solid result.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104515,
+      "id": "db_EventInfo:123627:109",
+      "jp": "【<pl>】様、【『ロオン遺跡調査団』】のことなのですが",
+      "en": "Master 【<pl>】, about the 『Roon Ruins Investigation Team』...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104516,
+      "id": "db_EventInfo:123628:109",
+      "jp": "長期的な調査発掘を行うため、大規模な基地建設と恒久雇用をお願いできませんか？",
+      "en": "To conduct long-term investigation and excavation, could we request the construction of a large-scale base and permanent employment?",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104517,
+      "id": "db_EventInfo:123629:1",
+      "jp": "うん？",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104518,
+      "id": "db_EventInfo:123630:2",
+      "jp": "食い扶持が増えるデス",
+      "en": "That means more mouths to feed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104519,
+      "id": "db_EventInfo:123631:109",
+      "jp": "ううっ……",
+      "en": "Ugh...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104520,
+      "id": "db_EventInfo:123632:2",
+      "jp": "遺跡調査はカネにならないデス？　ならないから、カネに困るデス",
+      "en": "Ruins investigation doesn't make money, right? Since it doesn't, we'll have money problems.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104521,
+      "id": "db_EventInfo:123633:109",
+      "jp": "ううっ……そうなのですが、そうなので……",
+      "en": "Ugh... that's true, it is...",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104522,
+      "id": "db_EventInfo:123634:2",
+      "jp": "これまでも資金援助はそうとうしてるデス。自立できない組織は潰れるしかないデス？",
+      "en": "We've already provided quite a lot of financial aid. An organization that can't stand on its own should just die out, right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104523,
+      "id": "db_EventInfo:123636:12",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】からの資金援助は安いですからね",
+      "en": "Funding from the 『Sorsia Academy』 is cheap, you know.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104524,
+      "id": "db_EventInfo:123637:12",
+      "jp": "ゼカリウス地方は遺跡の宝庫、発掘しても発掘しても足りないほどです",
+      "en": "The Zecarius region is a treasure trove of ruins. No matter how much we dig, it's never enough.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104525,
+      "id": "db_EventInfo:123638:109",
+      "jp": "もっと大規模で長期的な発掘をするためにも、ぜひとも長期的な援助を……！",
+      "en": "To conduct a much larger, long-term excavation, we really need long-term assistance...!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104526,
+      "id": "db_EventInfo:123639:109",
+      "jp": "そのためなら、私のことも好きにして構いませんからД",
+      "en": "For that, you can do whatever you want with meД",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104527,
+      "id": "db_EventInfo:123640:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104528,
+      "id": "db_EventInfo:123641:2",
+      "jp": "性欲に振り回されるなデス",
+      "en": "Don't let your lust control you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104529,
+      "id": "db_EventInfo:123642:2",
+      "jp": "オマエも、ただヤりたいだけじゃないデス？",
+      "en": "You just want to fuck her, don't you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104530,
+      "id": "db_EventInfo:123643:109",
+      "jp": "あうっ！",
+      "en": "Oof!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104531,
+      "id": "db_EventInfo:123646:0",
+      "jp": "長期的な援助を約束すれば、無茶な発掘も減るだろうか？",
+      "en": "If I promise long-term support, maybe reckless digs will go down?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104532,
+      "id": "db_EventInfo:123648:109",
+      "jp": "資金援助の方ありがとうございました！",
+      "en": "Thank you so much for the financial support!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104533,
+      "id": "db_EventInfo:123649:2",
+      "jp": "無駄使いしやがってデス",
+      "en": "Such a waste of money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104534,
+      "id": "db_EventInfo:123650:109",
+      "jp": "この御恩は、ぜひとも発掘による成果と……その、私の身体で返させていただきますのでД",
+      "en": "I'll repay this debt with the results of my digs... and, um, with my bodyД",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104535,
+      "id": "db_EventInfo:123651:1",
+      "jp": "……ゴクリ",
+      "en": "...Gulp.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104536,
+      "id": "db_EventInfo:123652:2",
+      "jp": "しなを作るなデス。エロ目的でカネを払ったように聞こえるデス",
+      "en": "Don't get all coy. It sounds like you paid money just for sex.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104537,
+      "id": "db_EventInfo:123653:12",
+      "jp": "……違うのです？",
+      "en": "...Isn't that right?",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104538,
+      "id": "db_EventInfo:123654:2",
+      "jp": "……正しいデス",
+      "en": "...You're right.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104539,
+      "id": "db_EventInfo:123655:1",
+      "jp": "おい！",
+      "en": "Hey!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104540,
+      "id": "db_EventInfo:123658:0",
+      "jp": "ともかく、発掘調査の規模も拡大して行えるとのことだ。",
+      "en": "Anyway, they say we can expand the scale of the excavation work.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104541,
+      "id": "db_EventInfo:123660:109",
+      "jp": "【<pl>】様、【『ロオン遺跡調査団』】の発掘にも一定の成果が得られました",
+      "en": "【<pl>】, we've achieved some definite results with the 『Roon Ruins Investigation Team』 excavation.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104542,
+      "id": "db_EventInfo:123661:109",
+      "jp": "これらの成果を保存し、各地の学者を呼ぶためにも記念博物館を建築しませんか",
+      "en": "To preserve these results and call scholars from various regions, should we build a commemorative museum?",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104543,
+      "id": "db_EventInfo:123663:12",
+      "jp": "博物館とは、なかなか大きく出ましたね",
+      "en": "A museum... that's quite a big step.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104544,
+      "id": "db_EventInfo:123664:1",
+      "jp": "博物館……かぁ",
+      "en": "A museum... huh.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104545,
+      "id": "db_EventInfo:123665:0",
+      "jp": "ロマンのある建築である。",
+      "en": "It's a building full of romance.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104546,
+      "id": "db_EventInfo:123666:12",
+      "jp": "カネはかかりそうですが、たしかに発掘調査の成果をまとめるにはよいものです",
+      "en": "It'll probably cost a lot, but it's definitely good for compiling excavation results.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104547,
+      "id": "db_EventInfo:123667:12",
+      "jp": "遺跡学者たちを呼べば、研究もしやすそうですしね",
+      "en": "If we can bring in ruins scholars, research will be easier too.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104548,
+      "id": "db_EventInfo:123668:12",
+      "jp": "かくいう私も遺跡学者。そういった場は歓迎ですよ",
+      "en": "I'm a ruins scholar myself. I'd welcome a place like that.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104549,
+      "id": "db_EventInfo:123669:1",
+      "jp": "ふむ……二人がそういうなら",
+      "en": "Hmm... If you both say so.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104550,
+      "id": "db_EventInfo:123672:0",
+      "jp": "かなりの資金が必要そうだが、建築する価値はありそうだ。",
+      "en": "It'll take a lot of money, but it seems worth building.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104551,
+      "id": "db_EventInfo:123674:109",
+      "jp": "【<pl>】様、ロオン記念大博物館が建築されました！",
+      "en": "【<pl>】-sama, the Loan Memorial Grand Museum has been built!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104552,
+      "id": "db_EventInfo:123675:109",
+      "jp": "素晴らしいです、これは歴史的な功績ですよ！",
+      "en": "It's wonderful, this is a historic achievement!",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104553,
+      "id": "db_EventInfo:123676:1",
+      "jp": "そんな大袈裟な",
+      "en": "That's exaggerating.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104554,
+      "id": "db_EventInfo:123677:109",
+      "jp": "いえいえ！　これまでゼカリウスの貴重な遺物は他国に売却されがちでした",
+      "en": "Not at all! Valuable artifacts of Zecarius tended to be sold to other countries until now.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104555,
+      "id": "db_EventInfo:123678:109",
+      "jp": "それらを保存して研究できる場が出来たというのは、とても価値のあることです",
+      "en": "Having a place to preserve and study them is a very valuable thing.",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104556,
+      "id": "db_EventInfo:123680:12",
+      "jp": "【『ダンジョン』】の発掘物はカネになりますからね",
+      "en": "Excavated items from 【『Dungeon』】 turn into money, you see.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104557,
+      "id": "db_EventInfo:123681:12",
+      "jp": "それらは一部の好事家の元に行き着きます",
+      "en": "They end up with some wealthy enthusiasts.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104558,
+      "id": "db_EventInfo:123682:12",
+      "jp": "彼らから研究用に借り受けることはとても難しいことなのです",
+      "en": "It's very difficult to borrow them from those people for research.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104559,
+      "id": "db_EventInfo:123683:1",
+      "jp": "ふーん",
+      "en": "Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104560,
+      "id": "db_EventInfo:123684:12",
+      "jp": "【<pl>】がこれらに興味を持たなくて助かりました。アナタが興味あるのは性欲だけですしね",
+      "en": "It's a relief that 【<pl>】 isn't interested in these things. You're only interested in your sexual desires, after all.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104561,
+      "id": "db_EventInfo:123685:1",
+      "jp": "失礼な！",
+      "en": "How rude!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104562,
+      "id": "db_EventInfo:123686:12",
+      "jp": "まあよいです。ご褒美に可愛がってあげましょうД",
+      "en": "Well, fine. As a reward, I'll spoil youД",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 104563,
+      "id": "db_EventInfo:123687:109",
+      "jp": "わ、私もご一緒します……Д",
+      "en": "I'm joining too...Д",
+      "speaker": "Iditt",
+      "speaker_jp": "イディット"
+    },
+    {
+      "n": 104564,
+      "id": "db_EventInfo:123688:1",
+      "jp": "わ、わああああ！！",
+      "en": "Ahhhh!!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104565,
+      "id": "db_EventInfo:123691:0",
+      "jp": "二人に搾り取られてしまうのであった。",
+      "en": "I was milked dry by both of them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104566,
+      "id": "db_EventInfo:123693:11",
+      "jp": "店長君、【『アルダルク農業組合』】で豊穣祭を催そうと思っているの",
+      "en": "Manager, I'm thinking of holding a Harvest Festival at the 【『Aldaluk Agricultural Association』】.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104567,
+      "id": "db_EventInfo:123694:3",
+      "jp": "ほほう、豊穣祭とな？",
+      "en": "Oh? A Harvest Festival?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104568,
+      "id": "db_EventInfo:123695:3",
+      "jp": "妾達ドワーム族も、良い物が採取できた時などは誰かの家に集まったものじゃ",
+      "en": "We Dwarm folk used to gather at someone's home when we had a good harvest too, you know.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104569,
+      "id": "db_EventInfo:123696:11",
+      "jp": "うふふ",
+      "en": "Hehe.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104570,
+      "id": "db_EventInfo:123697:11",
+      "jp": "でもそのためにまとまったお金が必要らしくて……よかったら、スポンサーになってくれないかしら？",
+      "en": "But apparently they need a good sum of money for it... If you're willing, would you be our sponsor?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104571,
+      "id": "db_EventInfo:123698:3",
+      "jp": "祭りの立役者になるというのか。農家の者どもの心も【<pl>】に傾くであろうな！",
+      "en": "To become the star of the festival. The farmers' hearts will surely lean toward 【<pl>】!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 104572,
+      "id": "db_EventInfo:123701:0",
+      "jp": "スポンサーか……お金に余裕があったらやってみても良いかな？",
+      "en": "A sponsor, huh... If I have some extra money, maybe I'll give it a try?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104573,
+      "id": "db_EventInfo:123702:0",
+      "jp": "豊穣祭のスポンサーとして名乗り出ることにした。",
+      "en": "I decided to step up as a sponsor for the Harvest Festival.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104574,
+      "id": "db_EventInfo:123704:11",
+      "jp": "協力ありがとう！　農家の人たちも喜ぶわ",
+      "en": "Thanks for your help! The farmers will be thrilled.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104575,
+      "id": "db_EventInfo:123707:0",
+      "jp": "スポンサーになったことで、農家の人たちの信頼を得ることが出来たようだ。",
+      "en": "Becoming a sponsor seems to have gained me the trust of the farmers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104576,
+      "id": "db_EventInfo:123709:11",
+      "jp": "店長君、【『アルダルク農業組合』】で謝肉祭を催そうと思っているの",
+      "en": "Manager, I'm thinking of hosting a Carnival at the 'Aldaruk Agricultural Union'.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104577,
+      "id": "db_EventInfo:123710:4",
+      "jp": "ニク！",
+      "en": "Meat!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 104578,
+      "id": "db_EventInfo:123711:11",
+      "jp": "うふふ。ウルフィナちゃんも来るかしら？",
+      "en": "Ufufu. Will you come too, Wolfina?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104579,
+      "id": "db_EventInfo:123712:11",
+      "jp": "でもそのためにまとまったお金が必要でね。農作物を大量に購入してくれないかしら？",
+      "en": "But we need a good amount of money for that. Could you buy a large amount of crops for us?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104580,
+      "id": "db_EventInfo:123713:4",
+      "jp": "ニク！　ニクをくいたいぞー！",
+      "en": "Meat! I wanna eat meat!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 104581,
+      "id": "db_EventInfo:123716:0",
+      "jp": "スポンサーか……お金に余裕があったらやってみても良いかな？",
+      "en": "A sponsor... If I have some spare money, maybe I could give it a try?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104582,
+      "id": "db_EventInfo:123717:0",
+      "jp": "謝肉祭のスポンサーとして名乗り出ることにした。",
+      "en": "I decided to step up as a sponsor for the Carnival.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104583,
+      "id": "db_EventInfo:123719:11",
+      "jp": "協力ありがとう！　農家の人たちも喜ぶわ",
+      "en": "Thanks for helping! The farmers will be happy too.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104584,
+      "id": "db_EventInfo:123722:0",
+      "jp": "スポンサーになったことで、農家の人たちの信頼を得ることが出来たようだ。",
+      "en": "Becoming a sponsor seems to have gained me the trust of the farmers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104585,
+      "id": "db_EventInfo:123723:4",
+      "jp": "ニクうまかったぞ！",
+      "en": "The meat was good!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 104586,
+      "id": "db_EventInfo:123724:0",
+      "jp": "ウルフィナも喜んでいるようだ。",
+      "en": "Wolfina seems happy too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104587,
+      "id": "db_EventInfo:123726:11",
+      "jp": "店長君、私が前に居た村なんだけど、復興が上手く行ってなくて……",
+      "en": "Manager, about my old village... the recovery isn't going well.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104588,
+      "id": "db_EventInfo:123727:11",
+      "jp": "まとまったお金が必要なの。どうにかできないかしら？",
+      "en": "I need a big chunk of money. Is there anything we can do?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104589,
+      "id": "db_EventInfo:123728:0",
+      "jp": "うーん……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104590,
+      "id": "db_EventInfo:123729:2",
+      "jp": "大量に購入してもムダになるだけデス。無駄使いは許さんデス",
+      "en": "Buying a ton of stuff would just be a waste. No wasteful spending, I say.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104591,
+      "id": "db_EventInfo:123730:2",
+      "jp": "というか村が壊滅してるのに、売れる作物なんてあるデス？",
+      "en": "Besides, if the village is wrecked, are there even any crops to sell?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104592,
+      "id": "db_EventInfo:123731:2",
+      "jp": "その人件費はどうするデス。大工だってタダじゃないデス",
+      "en": "And how would you pay for labor? Carpenters don't work for free.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104593,
+      "id": "db_EventInfo:123732:11",
+      "jp": "だよね……",
+      "en": "You're right...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 104594,
+      "id": "db_EventInfo:123733:0",
+      "jp": "ゴールドがあれば解決するんだろうが。それが一番問題だ",
+      "en": "If we had gold, it'd solve things. But that's the biggest problem.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 104595,
+      "id": "db_EventInfo:123734:2",
+      "jp": "しょうがないデス。カネを持ってそうなヤツに相談するデスか",
+      "en": "No choice, I guess. Talk to someone who looks like they have money.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104596,
+      "id": "db_EventInfo:123736:5",
+      "jp": "キャトリナ様の村の復興支援の融資ですか？",
+      "en": "A loan to support Lady Catrina's village recovery?",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104597,
+      "id": "db_EventInfo:123737:5",
+      "jp": "もちろん構いませんわ",
+      "en": "Of course, I don't mind.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 104598,
+      "id": "db_EventInfo:123738:1",
+      "jp": "本当か？",
+      "en": "Really?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 104599,
+      "id": "db_EventInfo:123739:2",
+      "jp": "やったデス！",
+      "en": "We did it Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 104600,
+      "id": "db_EventInfo:123740:5",
+      "jp": "ええ、利子も安くして差し上げましてよ",
+      "en": "Yes, and I'll even offer you a low interest rate.",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    }
+  ]
+}

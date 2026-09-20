@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1201,
+  "range_end": 1300,
+  "pairs": [
+    {
+      "n": 1201,
+      "id": "db_EventInfo:1464:130",
+      "jp": "領主がそれを上手く使えれば……",
+      "en": "If the lord can use that well...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1202,
+      "id": "db_EventInfo:1465:111",
+      "jp": "……アーマニア海から巨大な空飛ぶ要塞が姿を現したようね",
+      "en": "...Looks like a huge flying fortress showed up from the Armena Sea.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1203,
+      "id": "db_EventInfo:1466:111",
+      "jp": "内部の調査に協力しないの？",
+      "en": "Won't you help investigate inside it?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1204,
+      "id": "db_EventInfo:1467:130",
+      "jp": "馬鹿を言え。空飛ぶ要塞までどうやってたどりつくつもりだ",
+      "en": "Don't be stupid. How do you plan to even get to a flying fortress?",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1205,
+      "id": "db_EventInfo:1468:130",
+      "jp": "それに、あれだけの要塞を飛ばす技術の持ち主だ。内部は強力な警備も集めてるに決まっている",
+      "en": "Also, anyone with the tech to fly a fortress that big definitely has strong security inside.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1206,
+      "id": "db_EventInfo:1469:130",
+      "jp": "突入には、この大陸の最精鋭を結集するしかないだろう",
+      "en": "To get in, we'll need the best fighters from all over the continent.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1207,
+      "id": "db_EventInfo:1470:111",
+      "jp": "【『王都』】や【『聖都』】はだんまりよね。ゼカリウスがやられたら、自分もタダじゃ済まないはずなのに",
+      "en": "The Royal Capital and the Holy City are staying quiet. If Zecarius gets taken down, they'd be in trouble too.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1208,
+      "id": "db_EventInfo:1471:130",
+      "jp": "向こうには向こうの事情があるのだろう",
+      "en": "They probably have their own reasons.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1209,
+      "id": "db_EventInfo:1472:111",
+      "jp": "なんだか平和になっちゃったわね～",
+      "en": "It's gotten kind of peaceful, hasn't it?",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1210,
+      "id": "db_EventInfo:1473:111",
+      "jp": "【『邪教徒』】もノーザリアも大人しくなったし、当分はヒマになるかしら",
+      "en": "The cultists and Northaria have both calmed down. We might have some free time for a while.",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1211,
+      "id": "db_EventInfo:1474:130",
+      "jp": "お前が遊んでいる間も、こっちは裏で事後処理をしているんだ",
+      "en": "While you're messing around, I'm busy cleaning up behind the scenes.",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1212,
+      "id": "db_EventInfo:1475:111",
+      "jp": "なによ～！　私だって、この宿の不正を暴くため、日夜がんばってハニトラを仕掛けてるんだから！",
+      "en": "What?! I'm working hard too! I'm trying to catch this inn's shady deals with my honey traps!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1213,
+      "id": "db_EventInfo:1476:130",
+      "jp": "この宿の店主が、お前の色香程度で惑わされるとは思わんが……",
+      "en": "I doubt the innkeeper here would fall for your charms...",
+      "speaker": "Hyumu",
+      "speaker_jp": "ヒューム"
+    },
+    {
+      "n": 1214,
+      "id": "db_EventInfo:1477:111",
+      "jp": "なんですって～！？",
+      "en": "Excuse me?!",
+      "speaker": "Patera",
+      "speaker_jp": "パテラ"
+    },
+    {
+      "n": 1215,
+      "id": "db_EventInfo:1478:110",
+      "jp": "あっ、ここの店長さんでありますね！　自分は【『ゼカリウス自警団』】のソルネッタであります",
+      "en": "Ah, you must be the owner here! I'm Solnetta from the Zecarius Vigilante Corps.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1216,
+      "id": "db_EventInfo:1479:110",
+      "jp": "まだ新人でありますが、精一杯、街を守らせてもらいます、よろしくであります！",
+      "en": "I'm still new, but I'll do my best to protect the town. Nice to meet you!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1217,
+      "id": "db_EventInfo:1480:110",
+      "jp": "店長さんも、もしかして【『ダンジョン』】に行くでありますか？",
+      "en": "Boss, are you going to the 【'Dungeon'】 too?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1218,
+      "id": "db_EventInfo:1481:110",
+      "jp": "【『ダンジョン』】に行くなら準備はしっかり、であります！",
+      "en": "If you're going to the 【'Dungeon'】, you need to prepare well!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1219,
+      "id": "db_EventInfo:1482:110",
+      "jp": "長期的な探索においては、ちょっとのダメージの積み重ねが大きいであります！",
+      "en": "For long trips, little bits of damage add up!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1220,
+      "id": "db_EventInfo:1483:110",
+      "jp": "一人だけの装備を調えるより、安くても皆に揃える方が効果的、と先輩が言ってたであります！",
+      "en": "My senior said it's better to get gear for everyone, even cheap stuff, than just one person!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1221,
+      "id": "db_EventInfo:1484:110",
+      "jp": "えっ？　装備がない？　いやいやそんなー",
+      "en": "Huh? No gear? No, no, that can't be...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1222,
+      "id": "db_EventInfo:1485:110",
+      "jp": "【『ドルワミール鉱山』】のドワーム族が作る武具はとても強力であります",
+      "en": "The weapons the Dwarm make in the 【'Dolwarmir Mine'】 are very powerful!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1223,
+      "id": "db_EventInfo:1486:110",
+      "jp": "【『ゼカリウス自警団』】の装備は貧弱ですが、強い武具を身を付けたいでありますね！",
+      "en": "The 【'Zecarius Self-Defense Force'】 gear is weak, so I want strong weapons!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1224,
+      "id": "db_EventInfo:1487:110",
+      "jp": "そうすれば新米の自分でも、ばったばったと【『ゴブリン』】を狩ってやります！",
+      "en": "Then even a rookie like me can hunt down 【'Goblins'】 easily!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1225,
+      "id": "db_EventInfo:1488:110",
+      "jp": "そうすればあの人も、自分を認めてくれるはずであります……",
+      "en": "Then that person will finally accept me...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1226,
+      "id": "db_EventInfo:1489:110",
+      "jp": "はじめて【『ダンジョン』】に挑戦したでありますが、攻略には失敗したであります",
+      "en": "I tried the 【'Dungeon'】 for the first time, but I failed.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1227,
+      "id": "db_EventInfo:1490:110",
+      "jp": "先輩に格好良い姿を見せたかったのでありますが……",
+      "en": "I wanted to look cool for my senior...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1228,
+      "id": "db_EventInfo:1491:110",
+      "jp": "でも先輩は、身を挺して自分を守ってくれたであります。格好よかったであります！",
+      "en": "But my senior risked his life to protect me. That was so cool!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1229,
+      "id": "db_EventInfo:1492:110",
+      "jp": "この恩は、絶対に返さなくてはと思いましたであります！",
+      "en": "I told myself I absolutely have to repay this favor!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1230,
+      "id": "db_EventInfo:1493:110",
+      "jp": "ここのところ、先輩が挙動不審であります",
+      "en": "Recently, the Captain has been acting very suspicious.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1231,
+      "id": "db_EventInfo:1494:110",
+      "jp": "ここは一発、先輩に格好良い所を見せて、見返してやらねばであります！",
+      "en": "I need to show him something really cool right here, right now! I have to pay him back!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1232,
+      "id": "db_EventInfo:1495:110",
+      "jp": "自分、先輩に嫌われてしまったみたいであります……",
+      "en": "It seems like… the Captain has started to dislike me…",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1233,
+      "id": "db_EventInfo:1496:110",
+      "jp": "やはり汚された女は先輩にはふさわしくないということでありますか……ううっ",
+      "en": "Does that mean a defiled woman like me isn't good enough for the Captain anymore…? *Sob*",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1234,
+      "id": "db_EventInfo:1497:110",
+      "jp": "先輩が【『ゼカリウス自警団』】からいなくなってしまったのであります",
+      "en": "The Captain has left the 'Zecarius Self-Defense Force'.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1235,
+      "id": "db_EventInfo:1498:110",
+      "jp": "自分は先輩が無事であったなら、それだけで良かったのに……なぜでありますか……",
+      "en": "For me, just knowing the Captain was safe should have been enough… Why do I feel this way…?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1236,
+      "id": "db_EventInfo:1499:110",
+      "jp": "ドワーム族の方々に強力な武具を支給してもらったであります！",
+      "en": "The Dwarm people gave us some really powerful equipment!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1237,
+      "id": "db_EventInfo:1500:110",
+      "jp": "これならもう、悪人どもに遅れを取ることはないであります！",
+      "en": "With this, we won't fall behind the bad guys anymore!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1238,
+      "id": "db_EventInfo:1501:110",
+      "jp": "……しかし、あの時見た、領主様の姿はまるで……",
+      "en": "…But, the way the Lord looked back then… it was almost like…",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1239,
+      "id": "db_EventInfo:1502:110",
+      "jp": "なにやら【『ゼカリウス』】に危機が迫っていると、皆がざわついてるでありますね",
+      "en": "It seems like everyone is worried. They say some kind of crisis is coming for 'Zecarius'.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1240,
+      "id": "db_EventInfo:1503:110",
+      "jp": "事態の収拾は冒険者の方々や【『勇者』】様にお願いするとして、自分は街を守り抜くであります！",
+      "en": "I'll leave handling the situation to the adventurers and the 'Hero'. My job is to protect this town to the very end!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1241,
+      "id": "db_EventInfo:1504:110",
+      "jp": "店長さん、防衛は自分たちにお任せください！",
+      "en": "Manager, leave the defense to us!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1242,
+      "id": "db_EventInfo:1505:110",
+      "jp": "街の危機は去ったようでありますね……やっぱり【『勇者』】様はすごいであります！",
+      "en": "It seems the town's crisis is over... The Hero is really amazing!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1243,
+      "id": "db_EventInfo:1506:110",
+      "jp": "自分もあの人みたいな、立派な人物になりたいでありますね！",
+      "en": "I want to become a great person like them!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1244,
+      "id": "db_EventInfo:1507:110",
+      "jp": "自分、先輩と一緒に陳情に参りましたであります……",
+      "en": "I came here with my senior to make a request...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1245,
+      "id": "db_EventInfo:1508:110",
+      "jp": "【『ゼカリウス自警団』】は資金難でして……でも資金の陳情など、やったことがないであります",
+      "en": "The Zecarius Self-Defense Force is short on money... But I've never done a funding request like this.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1246,
+      "id": "db_EventInfo:1509:110",
+      "jp": "父上が、この宿に向かうよううるさいのであります",
+      "en": "My father keeps telling me to go to this inn. It's annoying.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1247,
+      "id": "db_EventInfo:1510:110",
+      "jp": "自分は【『ゼカリウス自警団』】として皆を守る使命を優先したいのでありますが……",
+      "en": "I want to put my mission first, to protect everyone as part of the Zecarius Self-Defense Force...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1248,
+      "id": "db_EventInfo:1511:110",
+      "jp": "ドワーム族の方々に強力な武具を支給してもらったであります！",
+      "en": "The Dwarm people gave us powerful weapons!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1249,
+      "id": "db_EventInfo:1512:110",
+      "jp": "これならもう、悪人どもに遅れを取ることはないであります！",
+      "en": "With these, we won't fall behind the bad guys anymore!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1250,
+      "id": "db_EventInfo:1513:110",
+      "jp": "……遅れを？　はて、自分は遅れを取ったことなど……",
+      "en": "...Fall behind? Huh, have I ever fallen behind before...",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1251,
+      "id": "db_EventInfo:1514:110",
+      "jp": "なにやら【『ゼカリウス』】に危機が迫っていると、皆がざわついてるでありますね",
+      "en": "Everyone seems restless. They say some danger is coming to Zecarius.",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1252,
+      "id": "db_EventInfo:1515:110",
+      "jp": "事態の収拾は冒険者の方々や【『勇者』】様にお願いするとして、自分は街を守り抜くであります！",
+      "en": "I'll leave handling the situation to the adventurers and the Hero. My job is to protect this town!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1253,
+      "id": "db_EventInfo:1516:110",
+      "jp": "店長さん、防衛は自分たちにお任せください！",
+      "en": "Store Manager, leave the defense to us!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1254,
+      "id": "db_EventInfo:1517:110",
+      "jp": "街の危機は去ったようでありますね……やっぱり【『勇者』】様はすごいであります！",
+      "en": "The town's danger seems to have passed... As expected, the Hero is amazing!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1255,
+      "id": "db_EventInfo:1518:110",
+      "jp": "自分もあの人みたいな、立派な人物になりたいでありますね！",
+      "en": "I want to become a splendid person like him too!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1256,
+      "id": "db_EventInfo:1519:119",
+      "jp": "昔は冒険者として旅をしていたんだが、膝を故障したのをきっかけで【『ゼカリウス自警団』】の指導をすることになったんだ",
+      "en": "I used to travel as an adventurer, but after my knee gave out, I ended up guiding the Zecarius Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1257,
+      "id": "db_EventInfo:1520:119",
+      "jp": "指導とは名ばかりで実戦からは外されている……最近はもっぱら、新人の面倒という名の左遷状態だ",
+      "en": "It's called guidance, but I'm kept away from real battles... Lately, it's just been demotion under the name of taking care of rookies.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1258,
+      "id": "db_EventInfo:1521:119",
+      "jp": "俺のことを知らず、無邪気に先輩と呼んでついてくる、ソルネッタのヤツには悪いが……",
+      "en": "I feel bad for Solnetta. She doesn't know about me and innocently calls me 'senpai' and follows me around...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1259,
+      "id": "db_EventInfo:1522:119",
+      "jp": "ソルネッタはああ見えて貴族の娘で、【『ゼカリウス自警団』】で身を預かっている状態だ",
+      "en": "Solnetta looks like that, but she's a noble's daughter, and she's placed under the care of the Zecarius Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1260,
+      "id": "db_EventInfo:1523:119",
+      "jp": "箱入り娘だというのに、親が武門の出ということで、形だけでも兵士のまねごとをさせねばならないらしい",
+      "en": "Even though she's a sheltered girl, her parents are from a military family, so they have to make her at least pretend to be a soldier.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1261,
+      "id": "db_EventInfo:1524:119",
+      "jp": "アイツは知らないが、もうすぐ結婚も決まっている。それまで、危ないことをさせずに守ってやらなくては……",
+      "en": "She doesn't know this, but her marriage has been arranged and is coming up soon. Until then, I have to keep her safe and not let her do anything dangerous...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1262,
+      "id": "db_EventInfo:1525:119",
+      "jp": "しまったな……ソルネッタが熱心に俺の指導を請うから、真面目に指導してしまった",
+      "en": "Darn it... Solnetta was so earnest in asking for my guidance, I ended up training her seriously.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1263,
+      "id": "db_EventInfo:1526:119",
+      "jp": "おかげで新米というのに、他の自警団員よりよっぽど優秀な団員になっちまった",
+      "en": "Because of that, even though she's a rookie, she became a far more capable member than the others in the Self-Defense Corps.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1264,
+      "id": "db_EventInfo:1527:119",
+      "jp": "【『ゼカリウス自警団』】なんかより、【『<ruby=ヒエペリオ>教会</ruby>』】の【『ジルド聖騎士団』】に行くべきじゃないのか……？",
+      "en": "Rather than the Zecarius Self-Defense Corps, shouldn't she go to the Hyperio Church's Gild Holy Knight Order...?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1265,
+      "id": "db_EventInfo:1528:119",
+      "jp": "アイツにそれを薦めても、嫌がって【『ゼカリウス自警団』】にいたがろうとするし。どうすればいいんだ……",
+      "en": "I told them to do that, but they refused. They insisted on staying in the 'Zecarius Self-Defense Force'. What should I do...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1266,
+      "id": "db_EventInfo:1529:119",
+      "jp": "アイツの家から伝達があった。武門の娘にふさわしく、少しでもいいから武勲を立てさせろと……",
+      "en": "I got a message from their family. They said, 'As a daughter of a military house, let her achieve even a little bit of military glory'...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1267,
+      "id": "db_EventInfo:1530:119",
+      "jp": "無茶を言うなよ……。武勲を立てさせたければ【『騎士団』】にでも入れれば良いのに。冒険者がどれだけ危険か理解しているのか？",
+      "en": "They're asking for too much... If they want her to get glory, they should just put her in the 'Knights Order'. Do they understand how dangerous adventuring is?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1268,
+      "id": "db_EventInfo:1531:119",
+      "jp": "だがしかし、武門の血は伊達じゃない。指導を付けるたびにメキメキと実力を上げていきやがる",
+      "en": "But, well, their warrior blood isn't for show. Every time I teach them, their skills improve quickly.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1269,
+      "id": "db_EventInfo:1532:119",
+      "jp": "くそ、俺の膝がまともだったら……",
+      "en": "Damn it, if only my knees were fine...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1270,
+      "id": "db_EventInfo:1533:119",
+      "jp": "ソルネッタの身を守るため、念入りにベテラン冒険者を雇ったのだが、これが失敗だった",
+      "en": "To protect Solnetta, I carefully hired a veteran adventurer. But this was a mistake.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1271,
+      "id": "db_EventInfo:1534:119",
+      "jp": "【『イルニエル大灯台』】は古代の遺跡、そこに眠る財宝に目をくらませて、冒険者どもが暴走したんだ",
+      "en": "The 'Iruniel Great Lighthouse' is an ancient ruin. The adventurers lost their minds over the treasure sleeping there and went wild.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1272,
+      "id": "db_EventInfo:1535:119",
+      "jp": "制止を振り切って撤退したんだが、さすがにソルネッタのヤツには幻滅されたか……",
+      "en": "I ignored the order to stop and retreated. But I guess even Solnetta was disappointed in me...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1273,
+      "id": "db_EventInfo:1536:119",
+      "jp": "【『騎士団』】と共同で特別な作戦に赴くことになった。おそらくこれが、ソルネッタの最後の任務になるだろう",
+      "en": "She ended up going on a special joint mission with the 'Knights Order'. This will probably be Solnetta's last mission.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1274,
+      "id": "db_EventInfo:1537:119",
+      "jp": "相手は同じ人間だ。【『騎士団』】と一緒に行動すれば、失敗はあり得ない。簡単な任務だ",
+      "en": "The enemy is fellow humans. Working with the 'Knights Order', failure is impossible. It's an easy mission.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1275,
+      "id": "db_EventInfo:1538:119",
+      "jp": "そうして多少の武功を上げれば、武門の娘として輿入れすることができるはずだ",
+      "en": "If she gains a little bit of glory there, she should be able to get married off as a proper daughter of a military house.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1276,
+      "id": "db_EventInfo:1539:119",
+      "jp": "そうすれば、アイツの指導をすることもなくなるな……",
+      "en": "Then, I won't have to be her instructor anymore...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1277,
+      "id": "db_EventInfo:1540:119",
+      "jp": "まさか、ソルネッタに俺が救われてしまうなんて……ううっ……",
+      "en": "I can't believe Solnetta had to save me... ugh...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1278,
+      "id": "db_EventInfo:1541:119",
+      "jp": "ソルネッタの家から、彼女に近づくことを禁止された",
+      "en": "Her family told me to stay away from her.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1279,
+      "id": "db_EventInfo:1542:119",
+      "jp": "アイツをあんな目に遭わせてしまったのに、のうのうと生きている俺が悪いんだ。全ては俺の責任だ",
+      "en": "It's my fault. I put her through that, and I'm still alive. It's all my responsibility.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1280,
+      "id": "db_EventInfo:1543:119",
+      "jp": "そうとも知らず、アイツは健気に俺についてこようとしてくれている。どうすればいいんだ……",
+      "en": "She doesn't know that, and she's trying so hard to follow me. What should I do...",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1281,
+      "id": "db_EventInfo:1544:119",
+      "jp": "ソルネッタの家から、この宿に関わるよう指示された",
+      "en": "Solnetta's family told me to get involved with this inn.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1282,
+      "id": "db_EventInfo:1545:119",
+      "jp": "最近勢力を広げている宿だ。娘を関わらせたいのだろうか？",
+      "en": "It's an inn that's been getting bigger lately. Do they want their daughter involved?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1283,
+      "id": "db_EventInfo:1546:119",
+      "jp": "この国には【『冒険者ギルド』】の冒険者が多い。魔獣に攻められた時にも安心だ",
+      "en": "This country has a lot of 'Adventurer Guild' adventurers. It's safe even if monsters attack.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1284,
+      "id": "db_EventInfo:1547:119",
+      "jp": "しかし彼らばかりに頼ってはいけない、【『ゼカリウス』】の市民として、俺達も街を守る気概を持たなくては",
+      "en": "But we can't just rely on them. As citizens of 'Zecarius', we need the spirit to protect our town too.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1285,
+      "id": "db_EventInfo:1548:119",
+      "jp": "ソルネッタ、女だからってお前も甘やかさないぞ",
+      "en": "Solnetta, just because you're a girl, I won't go easy on you.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1286,
+      "id": "db_EventInfo:1549:110",
+      "jp": "はい先輩！",
+      "en": "Yes, sir!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1287,
+      "id": "db_EventInfo:1550:119",
+      "jp": "俺についてこい！　一人前の【『ゼカリウス自警団』】に育ててやる！",
+      "en": "Follow me! I'll make you a proper member of the 'Zecarius Vigilante Group'!",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1288,
+      "id": "db_EventInfo:1551:110",
+      "jp": "ついていきます先輩！",
+      "en": "I'll follow you, sir!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1289,
+      "id": "db_EventInfo:1552:119",
+      "jp": "どうやら店を荒らす、【ならずものの集団】がいるようだ",
+      "en": "Looks like there's a gang of troublemakers wrecking shops.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1290,
+      "id": "db_EventInfo:1553:110",
+      "jp": "【ならずものの集団】でありますか？",
+      "en": "A gang of troublemakers?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1291,
+      "id": "db_EventInfo:1554:119",
+      "jp": "ああ、血の気の多い奴らはどこにでもいる。それが正しい方向に向けば【冒険者】や【『騎士団』】などの正しい方向に向く",
+      "en": "Yeah, hot-headed types are everywhere. If they go the right way, they become adventurers or join the right side like the 'Knight Order'.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1292,
+      "id": "db_EventInfo:1555:119",
+      "jp": "しかし悪い方向に向くことも多い……それが【ならずもの】だ。奴らは徒党を組み、強盗を行なうらしい",
+      "en": "But often they go bad... That's what makes them troublemakers. They seem to form groups and commit robberies.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1293,
+      "id": "db_EventInfo:1556:110",
+      "jp": "その時は、自分たちのような【『防犯』】できる人間が必要という事でありますね！",
+      "en": "That's when people like us, who can handle 'crime prevention', are needed!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1294,
+      "id": "db_EventInfo:1557:119",
+      "jp": "俺達みたいな前衛は攻撃スキルは必須だ",
+      "en": "Frontliners like us must have attack skills.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1295,
+      "id": "db_EventInfo:1558:110",
+      "jp": "はい！",
+      "en": "Yes!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1296,
+      "id": "db_EventInfo:1559:119",
+      "jp": "また、自分を強化するスキルもあるが、なんでもかんでも取っても、使い切れないだろう",
+      "en": "There are also skills to strengthen yourself, but if you take every skill, you won't be able to use them all.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1297,
+      "id": "db_EventInfo:1560:110",
+      "jp": "両方習得するというのはダメでありますか？",
+      "en": "So, learning both types is not good?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 1298,
+      "id": "db_EventInfo:1561:119",
+      "jp": "スキルを習得できる総数は決まっているからなぁ",
+      "en": "Because there's a fixed total number of skills you can learn.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1299,
+      "id": "db_EventInfo:1562:119",
+      "jp": "戦う事以外を捨てるならそれもいいんだが、【『ダンジョン』】は総力戦だ。時には他のメンバーの役割を肩代わりすることもある",
+      "en": "If you give up everything but fighting, that's fine too. But 'Dungeons' are all-out battles. Sometimes you have to cover for other team members.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 1300,
+      "id": "db_EventInfo:1563:119",
+      "jp": "【『フレスミス森林道』】が開通して【『ドルワミール鉱山』】への道が開けたらしい。冒険者たちは浮き足立っているな",
+      "en": "I hear 'Fressmiss Forest Road' is open, connecting to the 'Dolwamir Mine'. The adventurers are getting excited.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    }
+  ]
+}

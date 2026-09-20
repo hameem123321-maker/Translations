@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 79701,
+  "range_end": 79800,
+  "pairs": [
+    {
+      "n": 79701,
+      "id": "db_EventInfo:94311:1",
+      "jp": "……ドルガノンは、【この剣】を背負う俺に、聞く義務があると言った",
+      "en": "...Dorganon said I have a duty to ask about it, since I carry this sword.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79702,
+      "id": "db_EventInfo:94312:1",
+      "jp": "それに、俺がいたら、【こんなことは起こらなかった】とも言った",
+      "en": "He also said if I had been here, 'all this wouldn't have happened'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79703,
+      "id": "db_EventInfo:94313:1",
+      "jp": "どういうことなんだ？",
+      "en": "What does that mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79704,
+      "id": "db_EventInfo:94314:13",
+      "jp": "……ふむ",
+      "en": "...Hmm.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79705,
+      "id": "db_EventInfo:94315:13",
+      "jp": "よろしいでしょう",
+      "en": "Very well.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79706,
+      "id": "db_EventInfo:94318:0",
+      "jp": "ほどなく、アンジュとエルザがこの場に招かれた。",
+      "en": "Soon after, Anju and Elsa were summoned to this place.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79707,
+      "id": "db_EventInfo:94320:13",
+      "jp": "ふむ、どこまで話したものでしたかな",
+      "en": "Hmm, where were we in the story?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79708,
+      "id": "db_EventInfo:94321:3",
+      "jp": "【前棟梁リガロウ】というのは、本当は【ご神体】を盗むような男じゃなかったのじゃ？",
+      "en": "So, this 【former head craftsman Rigarou】... he wasn't really the type of man to steal a 【sacred object】, was he?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79709,
+      "id": "db_EventInfo:94322:38",
+      "jp": "ああ。あの時に【<pl>】様がおられれば、こんなことは起きなかったとも",
+      "en": "Yes. If 【<pl>】 had been here back then, none of this would have happened.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79710,
+      "id": "db_EventInfo:94323:13",
+      "jp": "いかにも。そんなことはあり得なかったのです",
+      "en": "Exactly. That's the way it should have been.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79711,
+      "id": "db_EventInfo:94324:38",
+      "jp": "じゃあ、どうして……？",
+      "en": "Then, why...?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79712,
+      "id": "db_EventInfo:94325:38",
+      "jp": "なんでオヤジは【ご神体】を盗んだんだ。そのせいで、アタイたちはあんなに苦労して……",
+      "en": "Why did my old man steal the 【sacred object】? Because of that, we went through so much hardship...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79713,
+      "id": "db_EventInfo:94326:13",
+      "jp": "……盗まなければ、【お前が消されていたから】じゃよ",
+      "en": "...He stole it, because 【you would have been erased】 if he hadn't.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79714,
+      "id": "db_EventInfo:94327:38",
+      "jp": "えっ……？",
+      "en": "What...?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79715,
+      "id": "db_EventInfo:94328:13",
+      "jp": "そう。あの当時の領主は【<pl>】殿ではなく、【前領主ゼルカ】でしたじゃ",
+      "en": "Yes. Back then, the lord of this land was not 【<pl>】, but the 【former Lord Zelka】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79716,
+      "id": "db_EventInfo:94329:13",
+      "jp": "当時のヤツは勢力を急拡大させている最中、非常に勢いがありました",
+      "en": "Back then, he was rapidly expanding his power. He was very ambitious.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79717,
+      "id": "db_EventInfo:94330:13",
+      "jp": "その理由の一つが【『鍛鉄の街フレスミス』】の武器をほぼ独占していたことにあります",
+      "en": "One reason for his power was his near monopoly on weapons from 【'Forgesmith, the City of Iron'】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79718,
+      "id": "db_EventInfo:94331:13",
+      "jp": "【『鍛鉄の街フレスミス』】の武器は【ドワームの技術】でつくられた強力な代物",
+      "en": "The weapons from 【'Forgesmith, the City of Iron'】 were powerful things made with 【Dwarm's technology】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79719,
+      "id": "db_EventInfo:94332:13",
+      "jp": "それによって兵力を増強し、自分の地盤を固めていたのです",
+      "en": "He was using it to build up his forces and secure his own territory.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79720,
+      "id": "db_EventInfo:94333:13",
+      "jp": "腐っても領主です。【サージ】や【ノーザリア】などへの対抗として使われると言えば……",
+      "en": "He may have been rotten, but he was still a lord. If it was said he was being used to counter other powers, like Surge and Nosalia...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79721,
+      "id": "db_EventInfo:94334:13",
+      "jp": "それを疑問に思う者はいなかったでしょう",
+      "en": "...no one would have questioned it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79722,
+      "id": "db_EventInfo:94335:1",
+      "jp": "ゼルカが……",
+      "en": "Zelka...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79723,
+      "id": "db_EventInfo:94336:3",
+      "jp": "じゃが、ヤツは【『邪教徒』】だったのじゃろ？",
+      "en": "But, wasn't he a 'heretic'?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79724,
+      "id": "db_EventInfo:94337:13",
+      "jp": "ええ。ですが、それは今だからわかることです。",
+      "en": "Yes. But that's something we only know now.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79725,
+      "id": "db_EventInfo:94338:13",
+      "jp": "あの執念深い【黒騎士ローグバルト】ですら、欺いたのです……見抜けたモノはおりますまい",
+      "en": "He even fooled that grudge-bearing Black Knight Rogubaruto... No one saw through him.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79726,
+      "id": "db_EventInfo:94339:3",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79727,
+      "id": "db_EventInfo:94340:13",
+      "jp": "そしてヤツは、【ご神体】にも目を付けていたのです",
+      "en": "And he also had his eye on the Sacred Object.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79728,
+      "id": "db_EventInfo:94341:3",
+      "jp": "……【ご神体】を？",
+      "en": "...The Sacred Object?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79729,
+      "id": "db_EventInfo:94342:13",
+      "jp": "はい。それも、自らの勢力を広げるためだけに……",
+      "en": "Yes. And that, too, was solely to expand his own power...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79730,
+      "id": "db_EventInfo:94343:2",
+      "jp": "ん？　なんで【ご神体】で勢力が広がるデス？　なんかご利益があるのデス？",
+      "en": "Huh? How does the Sacred Object help him expand power Desu? Does it grant special favors Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79731,
+      "id": "db_EventInfo:94344:1",
+      "jp": "おいシイネ",
+      "en": "Hey Shiine.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79732,
+      "id": "db_EventInfo:94345:13",
+      "jp": "【ご神体】――【『ドラゴナイト』】で作った武器は【『神器』】といわれます",
+      "en": "Weapons made from the 【Divine Body】, or the 【'Dragonite'】, are called 【'Divine Arms'】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79733,
+      "id": "db_EventInfo:94346:13",
+      "jp": "【『神器』】は国家間のパワーバランスを破壊するほどの力を持っているのですよ",
+      "en": "【'Divine Arms'】 have power that can break the balance between nations.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79734,
+      "id": "db_EventInfo:94347:2",
+      "jp": "そうなのデス？",
+      "en": "Is that so, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79735,
+      "id": "db_EventInfo:94348:3",
+      "jp": "そうなのじゃ。たとえば大噴火を止めたり海を割ったり、天変地異を起こして国家間の戦争を止めたり……",
+      "en": "Yes, it is. For example, stopping a great eruption, parting the sea, causing upheavals to end wars between nations...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79736,
+      "id": "db_EventInfo:94349:3",
+      "jp": "【『魔界』】から這い出た【語るもおぞましき巨悪】を押し返したのも、【『神器』】の力と呼ばれておるのう",
+      "en": "Pushing back the 【unspeakable great evil】 that crawled from 【'Makai'】 is also credited to the power of 【'Divine Arms'】.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79737,
+      "id": "db_EventInfo:94350:1",
+      "jp": "そんなものが……",
+      "en": "Such things...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79738,
+      "id": "db_EventInfo:94351:13",
+      "jp": "そして、それを作れるのは、ドワームの【『鍛冶姫』】以外にはおりません",
+      "en": "And only Dwarm's 【'Forging Princess'】 can make them.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79739,
+      "id": "db_EventInfo:94352:13",
+      "jp": "ですが、ゼルカは【ご神体】と【ドワームの技術】さえあればいいと……",
+      "en": "But Zelka thinks having the 【Divine Body】 and 【Dwarm's techniques】 is enough...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79740,
+      "id": "db_EventInfo:94353:13",
+      "jp": "リガロウに【ご神体】を盗ませ、【『神器』】を作らせようとしたのです",
+      "en": "So he had Ligalow steal the 【Divine Body】 to make a 【'Divine Arm'】.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79741,
+      "id": "db_EventInfo:94354:38",
+      "jp": "オヤジに……？",
+      "en": "To Father...?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79742,
+      "id": "db_EventInfo:94356:13",
+      "jp": "リガロウは当然拒否したようですじゃ",
+      "en": "Ligalow apparently refused, of course.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79743,
+      "id": "db_EventInfo:94357:13",
+      "jp": "しかし、断ればリガロウの妻子がどうなるかわからない……と言われ、断り切れなかったようですな",
+      "en": "But when they threatened his wife and child... he couldn't say no.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79744,
+      "id": "db_EventInfo:94358:3",
+      "jp": "……ゼルカがやりそうなことじゃのう",
+      "en": "...That sounds like something Zelka would do.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79745,
+      "id": "db_EventInfo:94359:1",
+      "jp": "それで、どうなったんだ？",
+      "en": "So what happened next?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79746,
+      "id": "db_EventInfo:94361:13",
+      "jp": "リガロウは【ご神体】を盗み出しました。そして言われた通りに【『神器』】を作ろうとしました",
+      "en": "Rigarou stole the Sacred Object. Then he tried to make the Divine Artifact, just as he was told.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79747,
+      "id": "db_EventInfo:94362:13",
+      "jp": "強要されたとはいえ、リガロウは職人。精魂を込めて製作に打ち込みました",
+      "en": "Even though he was forced, Rigarou was a craftsman. He poured his heart and soul into the work.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79748,
+      "id": "db_EventInfo:94364:13",
+      "jp": "……しかし、作りあげることは出来なかったのです",
+      "en": "...But in the end, he couldn't finish it.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79749,
+      "id": "db_EventInfo:94365:1",
+      "jp": "出来なかった……？",
+      "en": "Couldn't finish it?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79750,
+      "id": "db_EventInfo:94366:13",
+      "jp": "ええ。【『鍛冶姫』】には及ばぬものの、数々の名剣を作り出した名工の卵。人間の中では最上位の職人でした",
+      "en": "Yes. He couldn't match the Forging Princess, but he was a rising star among master smiths. Among humans, he was the best.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79751,
+      "id": "db_EventInfo:94367:13",
+      "jp": "そのヤツをもってしても……【『ドラゴナイト』】を扱うことは出来なかったのです",
+      "en": "Even he... couldn't handle the Dragonite.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79752,
+      "id": "db_EventInfo:94368:13",
+      "jp": "ドワームの者どもを率いたワシが目にしたのは、正気を失ったリガロウと……",
+      "en": "When I led the Dwarm there, I saw a maddened Rigarou and...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79753,
+      "id": "db_EventInfo:94369:13",
+      "jp": "跡形もなく消滅した【ご神体】の痕跡だけでした",
+      "en": "...only the empty spot where the Sacred Object used to be.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79754,
+      "id": "db_EventInfo:94371:13",
+      "jp": "その後、ワシらは【『鍛鉄の街フレスミス』】を破壊しました",
+      "en": "After that, we destroyed the Forged Iron City of Freshmis.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79755,
+      "id": "db_EventInfo:94372:13",
+      "jp": "実のところ……ワシらはそこまではするつもりはなかったのです",
+      "en": "Honestly... we didn't mean to take it that far.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79756,
+      "id": "db_EventInfo:94373:13",
+      "jp": "しかし、当のリガロウがそれを許さなかった",
+      "en": "But Rigarou himself wouldn't allow that.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79757,
+      "id": "db_EventInfo:94374:13",
+      "jp": "【人類の切り札】を無為に消失させたことを、ヤツはひどく後悔しておりました",
+      "en": "He deeply regretted letting the 'Humanity's Trump Card' just fade away.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79758,
+      "id": "db_EventInfo:94375:13",
+      "jp": "リガロウは真実を語ると……自らを大罪人とし、罰を与えることを望んだのです",
+      "en": "After telling the truth, Rigarou wanted to be called a great sinner. He wanted to be punished.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79759,
+      "id": "db_EventInfo:94376:13",
+      "jp": "そしてヤツは、以前のリガロウではありませんでした",
+      "en": "And he wasn't the old Rigarou anymore.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79760,
+      "id": "db_EventInfo:94377:38",
+      "jp": "……ああ、アタイに鍛冶を教えてくれたオヤジも、正気とは思えなかったよ",
+      "en": "...Yeah, the old man who taught me blacksmithing was pretty messed up, too.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79761,
+      "id": "db_EventInfo:94378:3",
+      "jp": "もしかすると、【ご神体】に封じられていた【力】に取り憑かれていたのかもしれないのじゃな",
+      "en": "Perhaps he was possessed by the 'power' sealed within the 'sacred treasure'.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 79762,
+      "id": "db_EventInfo:94381:13",
+      "jp": "しばらくして、リガロウが死んだことを聞きました",
+      "en": "After a while, we heard that Rigarou had died.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79763,
+      "id": "db_EventInfo:94382:13",
+      "jp": "その頃になると、【『鍛鉄の街フレスミス』】の住人の多くは他方に散り、街に住む者は僅かだったようですが",
+      "en": "By that time, most of the people in 'the Forging City Fresmis' had scattered elsewhere. Not many lived in the city anymore.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79764,
+      "id": "db_EventInfo:94383:13",
+      "jp": "【前領主ゼルカ】も、その頃には街を見放し、手を出すことはなくなったようですな",
+      "en": "And it seems the former Lord Zelka had also given up on the city by then. He stopped getting involved.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79765,
+      "id": "db_EventInfo:94384:38",
+      "jp": "ああ……アタイが成長して槌を握れるようになる頃になってから",
+      "en": "Yeah... It was around the time I had grown up and could hold a hammer.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79766,
+      "id": "db_EventInfo:94385:38",
+      "jp": "前の領主がやってきて、自分の兵士に使わせる武器を作らせるようになったんだ",
+      "en": "The former lord showed up. He forced me to make weapons for his soldiers.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79767,
+      "id": "db_EventInfo:94386:38",
+      "jp": "……もっとも、それが【『邪教徒』】なんかに使わせるなんて、思いもしなかったけどさ",
+      "en": "But... I never thought he'd let those 'Cultists' use it.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79768,
+      "id": "db_EventInfo:94387:1",
+      "jp": "【『鍛鉄の街フレスミス』】を潰したというのは、リガロウの罪滅ぼしだったのか？",
+      "en": "So, destroying 'Fresmith the Ironworking Town'... was that Rigalou trying to make up for his sins?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79769,
+      "id": "db_EventInfo:94388:13",
+      "jp": "そうかもしれませんし、なんとかして前の領主の野望を妨害しようとしたのでしょうな",
+      "en": "Perhaps. Or maybe he was trying to disrupt the former lord's ambitions.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79770,
+      "id": "db_EventInfo:94389:13",
+      "jp": "事実、【『鍛鉄の街フレスミス』】の力が削がれたことで、兵力の増強が遅れました",
+      "en": "It's true. Weakening 'Fresmith the Ironworking Town' delayed the build-up of military forces.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79771,
+      "id": "db_EventInfo:94390:13",
+      "jp": "【ご神体】の件がなかったとしても……もしそのままゼルカの力が増大していれば",
+      "en": "Even without the matter of the 'Divine Vessel'... if Zelka's power had kept growing...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79772,
+      "id": "db_EventInfo:94391:13",
+      "jp": "【『邪教徒』】の悪行は増し、ゼカリウスが他国を侵略し、戦争が起こっていたかもしれません",
+      "en": "The 'Cultists' evil deeds would have increased. Zecarius might have invaded other lands. War could have started.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79773,
+      "id": "db_EventInfo:94392:2",
+      "jp": "そうだったかもしれないし、そうじゃなかったかもしれないデス",
+      "en": "That could have happened. Or it might not have.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79774,
+      "id": "db_EventInfo:94393:2",
+      "jp": "増大しすぎた野望はろくでもないもんデスからね",
+      "en": "Ambition that grows too big never ends well, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79775,
+      "id": "db_EventInfo:94394:13",
+      "jp": "長くなりましたが。ワシが知っていることは以上ですじゃ",
+      "en": "I've talked long enough. That is all I know.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79776,
+      "id": "db_EventInfo:94395:13",
+      "jp": "リガロウはもうおらぬが……エルザ、今後はオヌシが【『鍛鉄の街フレスミス』】を率いるのだ",
+      "en": "Rigalou is gone... Elsa, from now on, you must lead 'Fresmith the Ironworking Town'.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79777,
+      "id": "db_EventInfo:94396:13",
+      "jp": "ヤツには成せなかった名工の道、迷わず進むことを祈っておるぞ",
+      "en": "I pray you walk the path of the master craftsman without hesitation, the path he could not finish.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79778,
+      "id": "db_EventInfo:94397:38",
+      "jp": "ああ。アンタはずっと見守ってくれてたんだな……",
+      "en": "Yeah. You were watching over him all this time... weren't you?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79779,
+      "id": "db_EventInfo:94398:38",
+      "jp": "ありがとよ、爺ちゃん",
+      "en": "Thanks, gramps.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 79780,
+      "id": "db_EventInfo:94399:13",
+      "jp": "うム",
+      "en": "Mmm",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 79781,
+      "id": "db_EventInfo:94402:0",
+      "jp": "ドルガノンの話は終わった。",
+      "en": "Dorganon's story is over.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79782,
+      "id": "db_EventInfo:94403:0",
+      "jp": "以前、聞いた話によると、新しい【ご神体】はアンジュが里を飛び出した直後に見つかったという。",
+      "en": "I heard this before. The new 【Divine Object】 was found right after Anju left the village.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79783,
+      "id": "db_EventInfo:94404:0",
+      "jp": "それが形を変え、【俺の背中にある剣】になった。",
+      "en": "It changed shape. It became 【the sword on my back】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79784,
+      "id": "db_EventInfo:94405:0",
+      "jp": "その剣は【あのラシェウス】を介して、様々な活躍を与えることになるが……。",
+      "en": "That sword did many things, through【that Rasieus】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79785,
+      "id": "db_EventInfo:94406:0",
+      "jp": "その一つとして、【ゼルカにとどめを刺した武器】ということがある。",
+      "en": "One of those things was being【the weapon that finished off Zelka】.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79786,
+      "id": "db_EventInfo:94407:1",
+      "jp": "(因果なもんだな)",
+      "en": "(What a strange fate.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79787,
+      "id": "db_EventInfo:94408:0",
+      "jp": "いつか、アンジュとミルテは、【『ドラゴナイト』】はドラゴンの肉体が変化した金属と言っていた。",
+      "en": "Once, Anju and Myrte said 【'Dragonite'】 is metal from a dragon's body.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79788,
+      "id": "db_EventInfo:94409:0",
+      "jp": "もしかしたら、その【ご神体】は、失われた【ご神体】そのものだったのかもしれない。",
+      "en": "Maybe that【Divine Object】was the lost【Divine Object】itself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 79789,
+      "id": "db_EventInfo:94410:1",
+      "jp": "昔から怪しいとは思ってたが、まさかシイネの兄だったとは",
+      "en": "I always thought he was shady, but I never guessed he was Shiine's brother.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79790,
+      "id": "db_EventInfo:94412:15",
+      "jp": "はっはっ",
+      "en": "Ha ha.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79791,
+      "id": "db_EventInfo:94413:2",
+      "jp": "笑い事じゃないデス",
+      "en": "This is not a laughing matter.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79792,
+      "id": "db_EventInfo:94414:15",
+      "jp": "いやあ、だってよく見たら、僕の名前ってばそのまんまだろ？",
+      "en": "Oh, come on. If you look closely, my name is exactly what it says, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79793,
+      "id": "db_EventInfo:94415:1",
+      "jp": "うーむ",
+      "en": "Hmm.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79794,
+      "id": "db_EventInfo:94416:1",
+      "jp": "しかし、なんでシイネにバレなかったんだ？",
+      "en": "But how come Shiine didn't notice?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 79795,
+      "id": "db_EventInfo:94417:2",
+      "jp": "そうデス。私は【『神』】デスよ？",
+      "en": "That's right. I am a 'God'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 79796,
+      "id": "db_EventInfo:94418:15",
+      "jp": "【『認識阻害』】のせいさ。僕の場合は特に強力な魔術がかかってるからね",
+      "en": "It's because of 'Recognition Interference'. In my case, a particularly powerful magic is in effect.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79797,
+      "id": "db_EventInfo:94419:15",
+      "jp": "なんせ、仕事の関係上、僕の周りには強力な魔術師や【『淫魔』】がいっぱいいるからねぇ～",
+      "en": "After all, due to the nature of my work, I'm surrounded by powerful mages and 'Succubi' all the time, you see~",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79798,
+      "id": "db_EventInfo:94420:15",
+      "jp": "魔術師の界隈では僕、けっこう有名人なんだよ？",
+      "en": "I'm quite famous in mage circles, you know?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79799,
+      "id": "db_EventInfo:94421:15",
+      "jp": "【『起源の魔術師』】って二つ名もあるからさ。あ、これ自分で考えたんだけど",
+      "en": "I even have a nickname: 'The Origin Mage'. Oh, that one I came up with myself.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 79800,
+      "id": "db_EventInfo:94422:1",
+      "jp": "あのなぁ……",
+      "en": "Hey, look...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4101,
+  "range_end": 4200,
+  "pairs": [
+    {
+      "n": 4101,
+      "id": "db_EventInfo:4657:2",
+      "jp": "【『マテリアル』】は【『稀少点』】を獲得したときに入手するチャンスがあるデス。ダンジョンの奥に行くほど入手チャンスは増えるデスよ",
+      "en": "You have a chance to get 'Materials' when you earn 'Rare Points', desu. The deeper you go in dungeons, the better the chance, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4102,
+      "id": "db_EventInfo:4658:1",
+      "jp": "なんだ！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4103,
+      "id": "db_EventInfo:4659:2",
+      "jp": "【『トラップ』】に引っかかったデス！　パーティー全員にダメージデス！",
+      "en": "You triggered a 'Trap', desu! The whole party takes damage, desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4104,
+      "id": "db_EventInfo:4660:1",
+      "jp": "なんだって！？",
+      "en": "What the heck!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4105,
+      "id": "db_EventInfo:4661:8",
+      "jp": "【『トラップ』】は【『ダンジョン』】のトレジャーに仕掛けられているよ。気を付けてね",
+      "en": "In the dungeon, traps are set on treasure chests. Be careful.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 4106,
+      "id": "db_EventInfo:4662:8",
+      "jp": "【『トラップ』】を見破れる仲間が居れば、トラップがあるかマークがつくよ",
+      "en": "If you have a friend who can spot traps, a marker will show where they are.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 4107,
+      "id": "db_EventInfo:4663:2",
+      "jp": "うむデス、トラップが仕掛けられていないトレジャーは、安心して開くデス",
+      "en": "Yes. You can safely open treasure chests that aren't trapped.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4108,
+      "id": "db_EventInfo:4664:1",
+      "jp": "トラップが仕掛けられるトレジャーは？",
+      "en": "What about treasure chests that have traps?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4109,
+      "id": "db_EventInfo:4665:2",
+      "jp": "注意して開くデス！",
+      "en": "Open them with caution!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4110,
+      "id": "db_EventInfo:4666:2",
+      "jp": "むむ……【『淫魔』】の気配がするデス！",
+      "en": "Hmm... I sense a Succubus!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4111,
+      "id": "db_EventInfo:4667:2",
+      "jp": "気を付けるデス。【『淫魔』】には通常の攻撃は効果が薄いデス。特にオマエの力はヤツらの大好物デス。【『淫魔領域』】の中では、圧倒的に不利デス！",
+      "en": "Be careful Desu. Normal attacks don't work well on 【『Succubus』】 Desu. Especially, your power is their favorite food Desu. Inside a 【『Succubus Domain』】, we're at a huge disadvantage Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4112,
+      "id": "db_EventInfo:4668:1",
+      "jp": "そんな……なんとかならないのか？",
+      "en": "That's... Isn't there anything we can do?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4113,
+      "id": "db_EventInfo:4669:2",
+      "jp": "そういうのは、【ルーシェ】のヤツが得意のはずデス。【淫魔領域に対抗出来るスキル】を持っていなかったかデス？",
+      "en": "Lusche should be good at that. Doesn't she have a 【skill that can counter Succubus Domain】Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4114,
+      "id": "db_EventInfo:4670:2",
+      "jp": "【ルーシェ】は絶対に【『編成』】に入れておけデス！",
+      "en": "You absolutely must put Lusche in your team!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4115,
+      "id": "db_EventInfo:4671:2",
+      "jp": "むむ……【『淫魔領域』】を張られたデス！",
+      "en": "Hmm... A Succubus Domain has been cast!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4116,
+      "id": "db_EventInfo:4672:2",
+      "jp": "【『淫魔領域』】の中では、オマエの力を削がれるデス。オマエの力に連なる、私達の力も削がされてしまうデス",
+      "en": "Inside a Succubus Domain, your power is drained. Our power, which is linked to yours, is also drained.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4117,
+      "id": "db_EventInfo:4673:2",
+      "jp": "一方で、相手はその力を使って強化してしまうので、圧倒的に不利になるデス！　まずは【『淫魔領域』】をどうにかするデス！",
+      "en": "But the enemy uses that power to get stronger, so it's a huge disadvantage! First, we need to deal with 【'Succubus Domain'】!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4118,
+      "id": "db_EventInfo:4674:2",
+      "jp": "そういうのは、【ルーシェ】のヤツが得意のはずデス。【淫魔領域に対抗出来るスキル】を使わせろデス！",
+      "en": "That kind of thing is what 【Lusche】 should be good at Desu. Make her use a 【skill that can counter Succubus Domain】Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4119,
+      "id": "db_EventInfo:4675:1",
+      "jp": "……【ルーシェ】が【『編成』】に入ってなかったら？",
+      "en": "...What if 【Lusche】 isn't in my 【'party'】?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4120,
+      "id": "db_EventInfo:4677:2",
+      "jp": "頑張るデス",
+      "en": "Then we just have to try our best.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4121,
+      "id": "db_EventInfo:4680:0",
+      "jp": "【パーティー一覧】をクリックして、【ルーシェ】に【『夢魔の輪』】を使わせましょう！",
+      "en": "Open the 【Party List】 and make 【Lusche】 use 【'Demon's Ring'】!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4122,
+      "id": "db_EventInfo:4681:2",
+      "jp": "スキルウィンドウを開くとスキルを使用することができるデス",
+      "en": "You can use skills by opening the skill window.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4123,
+      "id": "db_EventInfo:4682:2",
+      "jp": "ダメージを受けたら回復するデス",
+      "en": "If you take damage, heal.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4124,
+      "id": "db_EventInfo:4683:2",
+      "jp": "こちらのウィンドウは【バトル中】も開くことができるデス",
+      "en": "You can open this window even 【during battle】.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4125,
+      "id": "db_EventInfo:4684:2",
+      "jp": "サポートスキルを使って、【バトル】を有利に導くデス！",
+      "en": "Use support skills to make the 【battle】 easier!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4126,
+      "id": "db_EventInfo:4685:2",
+      "jp": "戦闘を開始するまでは、いつでもスキルウィンドウを開けるデス",
+      "en": "Before you start fighting, you can open the skill window anytime.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4127,
+      "id": "db_EventInfo:4686:2",
+      "jp": "サポートスキルはＭＰの続く限り、何度でも使えるデス。サポートスキルを使ってもターンは開始されないので安心するデス",
+      "en": "Support skills can be used over and over as long as you have MP. And don't worry, using one doesn't start your turn.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4128,
+      "id": "db_EventInfo:4687:2",
+      "jp": "強敵と出会ったときは、準備をしてから戦闘開始するデスよ",
+      "en": "When you meet a tough enemy, get ready first before the fight starts.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 4129,
+      "id": "db_EventInfo:4688:38",
+      "jp": "お、おい、何だよこの服！？　アタイを売り飛ばすつもりか！？",
+      "en": "Wh-what the hell is this outfit!? Are you planning to sell me off!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4130,
+      "id": "db_EventInfo:4689:1",
+      "jp": "ち、違う！　これもその、修行の一環で……",
+      "en": "N-no! This is also, um, part of the training...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4131,
+      "id": "db_EventInfo:4690:38",
+      "jp": "何言ってやがる！　ガキでももっとマシな嘘を言うぜ！",
+      "en": "What the hell are you saying! Even a kid could come up with a better lie!",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4132,
+      "id": "db_EventInfo:4691:1",
+      "jp": "いやいや、信じられないのも無理はないけど、アンジュだってやってる事だし……",
+      "en": "No, I get it's hard to believe, but even Anju is doing this kind of thing...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4133,
+      "id": "db_EventInfo:4692:38",
+      "jp": "え、な、なんだって？　本当かよ！？",
+      "en": "Huh? Wh-what's that? Really!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4134,
+      "id": "db_EventInfo:4693:38",
+      "jp": "……む、むう、まあ師匠がやってるなら……仕方ねえ、やってやるぜ",
+      "en": "...Mmh, mmh, well, if my master is doing it... fine, I'll do it.",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4135,
+      "id": "db_EventInfo:4694:38",
+      "jp": "でもいいな！　アタイを調教するのはいいが、売り飛ばしたところで、すぐに戻ってきてやるからな！",
+      "en": "But listen! It's fine if you train me, but even if you sell me off, I'll come right back, you got that!?",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4136,
+      "id": "db_EventInfo:4695:1",
+      "jp": "お、おう……",
+      "en": "O-okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4137,
+      "id": "db_EventInfo:4696:1",
+      "jp": "(調教されたいのかな？)",
+      "en": "(Does she *want* to be trained?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4138,
+      "id": "db_EventInfo:4697:38",
+      "jp": "それにしても、こんな可愛い服、アタイが着ていいのかな……似合ってねえんじゃねえか？　化粧とかも勉強した方がいいのかな……",
+      "en": "Still... Is it okay for me to wear such a cute outfit...? Doesn't suit me, right? Maybe I should study makeup or something...",
+      "speaker": "Elsa",
+      "speaker_jp": "エルザ"
+    },
+    {
+      "n": 4139,
+      "id": "db_EventInfo:4698:1",
+      "jp": "ま、まあ、少しずつやっていけばいいさ",
+      "en": "W-well, just take it one step at a time.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4140,
+      "id": "db_EventInfo:4699:0",
+      "jp": "エルザは渋っているようだが、絆を深める事そのものには抵抗が無いようだ。",
+      "en": "Elsa seems reluctant, but she doesn't seem to resist the idea of deepening our bond itself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4141,
+      "id": "db_EventInfo:4700:36",
+      "jp": "あの……この服、下着のようなのですが……？",
+      "en": "Um... this outfit... it looks like underwear, doesn't it...?",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4142,
+      "id": "db_EventInfo:4701:1",
+      "jp": "あーっと、まあ、そう見えるかもしれないけど、これから絆を深めていくにあたって、必要かなと……",
+      "en": "Uh, well, it might look that way, but I thought it was necessary to help us grow closer...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4143,
+      "id": "db_EventInfo:4702:36",
+      "jp": "はあ、絆を深める……",
+      "en": "Haaah, grow closer...",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4144,
+      "id": "db_EventInfo:4703:36",
+      "jp": "ふふ、なるほど、【<pl>】様は私と絆を深めたいと思っておいででしたのねД",
+      "en": "Fufu, I see. So, 【<pl>】-sama wants to grow closer to meД",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4145,
+      "id": "db_EventInfo:4704:1",
+      "jp": "う、うん、まあ……",
+      "en": "Y-yeah, well...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4146,
+      "id": "db_EventInfo:4705:36",
+      "jp": "分かりましたわД　【『神』】の化身である【<pl>】様に求められるなど、望外の喜び……Д",
+      "en": "I understandД To be sought after by 【<pl>】-sama, the avatar of the 『God』... it's an unexpected joy...Д",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4147,
+      "id": "db_EventInfo:4706:36",
+      "jp": "どうか私に、神である【<pl>】様の寵愛を頂きたく思います……Д",
+      "en": "Please, bestow your divine favor upon me, 【<pl>】-sama...Д",
+      "speaker": "Christina",
+      "speaker_jp": "クリスティナ"
+    },
+    {
+      "n": 4148,
+      "id": "db_EventInfo:4707:1",
+      "jp": "も、もちろん……",
+      "en": "Of... of course...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4149,
+      "id": "db_EventInfo:4708:1",
+      "jp": "(何というか、やっぱりクリスティナさんも宗教の人なんだよなぁ)",
+      "en": "(What can I say, Christina's definitely a religious person, huh.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4150,
+      "id": "db_EventInfo:4709:0",
+      "jp": "ともあれ、クリスティナさんは絆を深める事には前向きなようだ。",
+      "en": "Anyway, Christina seems positive about growing closer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4151,
+      "id": "db_EventInfo:4710:34",
+      "jp": "あれあれ～？　ボクにこんな服を着せて、何をしたいのかなぁ～Д",
+      "en": "Ooh?~ What do you wanna do to me, putting me in a little outfit like this?~Д",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 4152,
+      "id": "db_EventInfo:4711:1",
+      "jp": "あ、ああ、これから本格的にコッペリナとも絆を深めていきたいと……",
+      "en": "Ah, ah, well, I want to seriously grow closer with Koppelina too, and...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4153,
+      "id": "db_EventInfo:4712:34",
+      "jp": "ふ～ん、ルーシェと手を組んで、女の子を犯しまくってきたのに、今度はボクにも手を出したくなっちゃったってわけ？",
+      "en": "So, you've been teaming up with Lusche to mess with girls, and now you want a piece of me too?",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 4154,
+      "id": "db_EventInfo:4713:1",
+      "jp": "い、いやいや、あくまでこれは絆を……",
+      "en": "N-no! This is just about... bonding...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4155,
+      "id": "db_EventInfo:4714:34",
+      "jp": "あはっД　そんなに慌てちゃって、エッチだなぁ【<pl>】ちゃんД",
+      "en": "HeheД You're so flustered, you're such a pervert, 【<pl>】Д",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 4156,
+      "id": "db_EventInfo:4715:0",
+      "jp": "コッペリナは俺を誘惑するように、くねくねと身を捩らせる。",
+      "en": "Koppelina seductively wiggles her body to tempt me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4157,
+      "id": "db_EventInfo:4716:0",
+      "jp": "コッペリナの動きに、俺の目はすっかりコッペリナの肢体に釘付けになってしまった",
+      "en": "My eyes are glued to Koppelina's figure as she moves.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4158,
+      "id": "db_EventInfo:4717:34",
+      "jp": "やだぁ、【<pl>】ちゃん、見すぎぃД　ボクに誘惑されてくれるなんて、嬉しくなっちゃうなぁД",
+      "en": "Aw, 【<pl>】, you're staring too muchД I'm so happy you're letting me tempt youД",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 4159,
+      "id": "db_EventInfo:4718:34",
+      "jp": "それじゃ、【<pl>】ちゃんの好きに、ボクを料理しちゃってねД　まずはじっくり下ごしらえから、だよД",
+      "en": "So then, do whatever you want with me, 【<pl>】Д Let's start with a nice, slow prepД",
+      "speaker": "Koppelina",
+      "speaker_jp": "コッペリナ"
+    },
+    {
+      "n": 4160,
+      "id": "db_EventInfo:4719:1",
+      "jp": "う、うん？　お、おう……",
+      "en": "H-huh? O-okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4161,
+      "id": "db_EventInfo:4720:0",
+      "jp": "コッペリナは手を引いて俺を促す。",
+      "en": "Koppelina pulls my hand, urging me on.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4162,
+      "id": "db_EventInfo:4721:0",
+      "jp": "どうやらコッペリナはすっかり乗り気のようだ……。",
+      "en": "Looks like Koppelina is totally into this...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4163,
+      "id": "db_EventInfo:4722:35",
+      "jp": "ちょっとアンタ！　何なのよこの服！",
+      "en": "Hey you! What's with this outfit!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4164,
+      "id": "db_EventInfo:4723:1",
+      "jp": "ああ、似合ってるぞシオン",
+      "en": "Ah, looks good on you, Shion.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4165,
+      "id": "db_EventInfo:4724:35",
+      "jp": "あ、そ、そう？　ありがと……じゃなくて！　こんな服を着せて何をさせる気よ！？",
+      "en": "Oh, r-really? Thanks... I mean, wait! What do you plan to make me do in clothes like this!?",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4166,
+      "id": "db_EventInfo:4725:35",
+      "jp": "アンタまさか、私を手籠めにする為の服まで用意してるわけ……？　領主って言うより、成金のヘンタイじゃないの！",
+      "en": "Don't tell me you even prepared clothes to... to have your way with me...? You're not a lord, you're just a perverted rich jerk!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4167,
+      "id": "db_EventInfo:4726:1",
+      "jp": "ち、違う！　絆を深める為の……いわば作業着……いや、仕事の為の制服みたいなものだ！",
+      "en": "N-no, that's wrong! It's to strengthen our bond... like work clothes... no, like a uniform for the job!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4168,
+      "id": "db_EventInfo:4727:1",
+      "jp": "というか嫌なら着なくてもいいって言わなかったっけ……？　怒ってる割には、ちゃんと着てくれるんだな",
+      "en": "Actually, didn't I say you don't have to wear it if you don't want to...? You're mad, but you still put it on, huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4169,
+      "id": "db_EventInfo:4728:35",
+      "jp": "うっさいわね！　世話になってるんだから、着てあげないと何かその……悪いでしょうが！",
+      "en": "Shut up! Since you're taking care of me, I'd feel bad... or something... if I didn't wear it!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4170,
+      "id": "db_EventInfo:4729:35",
+      "jp": "ま、まあ、何するのか分かんないけど……仕事の制服って言うなら、き、着てあげるわ……Д",
+      "en": "W-well, I don't really know what we'll do... but if it's a work uniform, I-I'll wear it... Д",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4171,
+      "id": "db_EventInfo:4730:1",
+      "jp": "いやいや、本当に分からないわけじゃないよな……？",
+      "en": "No, no, it's not like you really don't know... right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4172,
+      "id": "db_EventInfo:4731:35",
+      "jp": "うっさい！　説明はいいから、やるならさっさとやりなさいよ！",
+      "en": "Shut up! Forget the explanation, just hurry up and do it already if you're gonna!",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4173,
+      "id": "db_EventInfo:4732:35",
+      "jp": "まずはその……き、キス、とか？　あ、いや、待って、まずは優しく抱きしめるところから……Д",
+      "en": "Starting with... um... a k-kiss, maybe? Ah, no, wait, start with a gentle hug... Д",
+      "speaker": "Shion",
+      "speaker_jp": "シオン"
+    },
+    {
+      "n": 4174,
+      "id": "db_EventInfo:4733:1",
+      "jp": "お、おう……まあ、嫌な事はしない、つもりだが……",
+      "en": "O-oh... Well, I don't plan to do anything you'd hate...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4175,
+      "id": "db_EventInfo:4734:0",
+      "jp": "シオンは案外、俺の言う事に従ってくれそうだ。",
+      "en": "Shion seems surprisingly willing to go along with what I say.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4176,
+      "id": "db_EventInfo:4735:39",
+      "jp": "なあ【<pl>】、この服、何か変じゃね？　こんなんで外を歩いてる奴、見た事ねえぞ？",
+      "en": "Hey【<pl>】, isn't this outfit kinda weird? I've never seen anyone walk around outside in something like this.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 4177,
+      "id": "db_EventInfo:4736:1",
+      "jp": "あ、ああ、それは絆を深める為の服で……",
+      "en": "Oh, um, that's clothes to deepen our bond...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4178,
+      "id": "db_EventInfo:4737:39",
+      "jp": "ふーん？　何だかよく分かんねえけど、仕事をさせられなくて済むのは助かるぜ",
+      "en": "Huh? I don't really get it, but it helps that I won't have to work.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 4179,
+      "id": "db_EventInfo:4738:39",
+      "jp": "んで、絆を深めるってなんだよ？　美味いモン食って、一杯奢ってくれりゃ、十分だと思うぞ？",
+      "en": "And what's 'deepen our bond'? I think eating something good and you buying me a drink is enough.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 4180,
+      "id": "db_EventInfo:4739:1",
+      "jp": "まあまあ、そういうのもあるけど、下着で外に出るわけにはいかないだろ？　つまりこれから……",
+      "en": "Well, well, there's that too, but you can't go outside in just underwear, right? So next...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4181,
+      "id": "db_EventInfo:4740:39",
+      "jp": "はぁ……エッチしたいってのに、服を着せたのか？　ん？　でもエッチするなら脱ぐんだよな？　意味分かんねぇ",
+      "en": "Hah... You put clothes on to wanna get sexy? Huh? But if we're getting sexy, we take 'em off, right? I don't get it.",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 4182,
+      "id": "db_EventInfo:4741:39",
+      "jp": "まあいいや、【<pl>】に付き合ってやるから、色々と教えてくれよなД",
+      "en": "Ah, whatever, I'll go along with【<pl>】, so teach me all kinds of stuffД",
+      "speaker": "Daisy",
+      "speaker_jp": "デイジー"
+    },
+    {
+      "n": 4183,
+      "id": "db_EventInfo:4742:0",
+      "jp": "デイジーはまだよく分かっていないようだが、絆を深めていく事自体は前向きになってくれているようだ。",
+      "en": "Daisy still doesn't seem to really understand, but she seems positive about deepening our bond itself.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4184,
+      "id": "db_EventInfo:4743:20",
+      "jp": "ふぅむ、とうとう私も、御主人様のお相手をする時が来てしまいましたか",
+      "en": "Hmm, so my time to attend to you, Master, has finally come.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4185,
+      "id": "db_EventInfo:4744:1",
+      "jp": "えーっと、本当にいいんだよね？",
+      "en": "Umm, are you really sure about this?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4186,
+      "id": "db_EventInfo:4745:20",
+      "jp": "もちろんでございます。まあ、この時代で御主人様に尽くしておくことで、将来的にも利があると思いますし……Д",
+      "en": "Of course. Well, serving you devotedly in this era should also be beneficial for the future...Д",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4187,
+      "id": "db_EventInfo:4746:20",
+      "jp": "御主人様の性欲を受け止めるのも、メイドの役目でございますので……ぽっД",
+      "en": "Receiving your sexual desires is also part of a maid's duties... fwaД",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4188,
+      "id": "db_EventInfo:4747:1",
+      "jp": "そ、そう……",
+      "en": "R-right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4189,
+      "id": "db_EventInfo:4748:20",
+      "jp": "さてさて、それで御主人様は、この私に何をお求めなのでしょう？",
+      "en": "So, Master, what is it you want from me?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4190,
+      "id": "db_EventInfo:4749:20",
+      "jp": "まさか着替えさせて終わり、というわけではありませんよね？",
+      "en": "You don't plan on stopping after just dressing me, do you?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4191,
+      "id": "db_EventInfo:4750:1",
+      "jp": "も、もちろん……！",
+      "en": "O-Of course not!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4192,
+      "id": "db_EventInfo:4751:20",
+      "jp": "それは素晴らしいД　では、ここからは特別なご奉仕の時間という事でД　期待しておりますよ、御主人様Д",
+      "en": "WonderfulД Now, it's time for a special serviceД I'm looking forward to it, MasterД",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 4193,
+      "id": "db_EventInfo:4752:0",
+      "jp": "ハヅキさんは不敵な笑みを浮かべながらも、行為自体は許してくれているようだ……。",
+      "en": "Hazuki has a cocky smile, but she seems to be allowing this to happen...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 4194,
+      "id": "db_EventInfo:4753:37",
+      "jp": "【<pl>】様、ご奉仕に参りましたわД",
+      "en": "【<pl>】-sama, I have come for serviceД",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 4195,
+      "id": "db_EventInfo:4754:1",
+      "jp": "う、うん？　ご奉仕って、まだそこまでは……",
+      "en": "Huh? Service? I'm not going that far...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4196,
+      "id": "db_EventInfo:4755:37",
+      "jp": "まあ、そうなのですか？　てっきり私も他の方々のように犯されてしまうのかと……Д",
+      "en": "Oh? Really? I thought for sure I was going to be violated like the others...Д",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 4197,
+      "id": "db_EventInfo:4756:37",
+      "jp": "ではどのような意図でこのような服を……？　まさか戯れに、このような下着同然の姿を衆目に曝す趣味が……",
+      "en": "So why did you have me wear this outfit...? You don't have a strange hobby of exposing me to everyone in this underwear-like state just for fun, do you...?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 4198,
+      "id": "db_EventInfo:4757:1",
+      "jp": "あ、ああっと、そうではなく……今後の事も考えたら、マルガレータさんとも絆を深めていきたいと",
+      "en": "Ah! No, that's not it... Thinking about the future, I want to deepen my bond with you too, Margareta.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 4199,
+      "id": "db_EventInfo:4758:37",
+      "jp": "はあ、絆を深めるというのが、どのような行為を指すのか分かりかねますが……",
+      "en": "Hah... I'm not sure what kind of actions 'deepening a bond' refers to...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 4200,
+      "id": "db_EventInfo:4759:37",
+      "jp": "とはいえ、皆様が働いている時に、自分だけが休んでいるわけには参りません。何かありましたら、お申し付けくださいませ",
+      "en": "But still, I can't just rest while everyone else is working. If there's anything I can do, please let me know.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    }
+  ]
+}

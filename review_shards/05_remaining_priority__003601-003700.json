@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 3601,
+  "range_end": 3700,
+  "pairs": [
+    {
+      "n": 3601,
+      "id": "rem_31220",
+      "jp": "触手バインド",
+      "en": "Tentacle Bind",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3602,
+      "id": "rem_31221",
+      "jp": "追撃リチャージ",
+      "en": "Pursuit Recharge",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3603,
+      "id": "rem_31222",
+      "jp": "ヘヴンドライブ",
+      "en": "Heaven Drive",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3604,
+      "id": "rem_31223",
+      "jp": "アークスマッシュ",
+      "en": "Arc Smash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3605,
+      "id": "rem_31224",
+      "jp": "ビーストキラー",
+      "en": "Beast Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3606,
+      "id": "rem_31225",
+      "jp": "ハイパードレイン",
+      "en": "Hyper Drain",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3607,
+      "id": "rem_31226",
+      "jp": "麻痺の鱗粉",
+      "en": "Paralyzing Scales",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3608,
+      "id": "rem_31227",
+      "jp": "ダークチェイス",
+      "en": "Dark Chase",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3609,
+      "id": "rem_31228",
+      "jp": "ガトリング砲",
+      "en": "Gatling Gun",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3610,
+      "id": "rem_31229",
+      "jp": "スタンボイス",
+      "en": "Stun Voice",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3611,
+      "id": "rem_31230",
+      "jp": "フライングキラー",
+      "en": "Flying Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3612,
+      "id": "rem_31231",
+      "jp": "生命波動",
+      "en": "Life Wave",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3613,
+      "id": "rem_31232",
+      "jp": "ケモミミの直感(妖)",
+      "en": "Kemomimi Intuition",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3614,
+      "id": "rem_31233",
+      "jp": "マテリアルキラー",
+      "en": "Material Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3615,
+      "id": "rem_31234",
+      "jp": "バスターコレダー",
+      "en": "Buster Collider",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3616,
+      "id": "rem_31235",
+      "jp": "荷電粒子砲",
+      "en": "Charged Particle Cannon",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3617,
+      "id": "rem_31236",
+      "jp": "罠解除技術(機械)",
+      "en": "Trap Disarm (Machine)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3618,
+      "id": "rem_31237",
+      "jp": "遠吠え",
+      "en": "Howl",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3619,
+      "id": "rem_31238",
+      "jp": "仲間を呼ぶ(他)",
+      "en": "Summon Ally",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3620,
+      "id": "rem_31239",
+      "jp": "激昂の雄叫び",
+      "en": "Roar of Rage",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3621,
+      "id": "rem_31240",
+      "jp": "光の障壁",
+      "en": "Light Barrier",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3622,
+      "id": "rem_31241",
+      "jp": "敵用・淫魔領域Lv2",
+      "en": "For Foe: Succubus Domain Lv2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3623,
+      "id": "rem_31242",
+      "jp": "ファイアブースト",
+      "en": "Fire Boost",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3624,
+      "id": "rem_31243",
+      "jp": "仲間を呼ぶ(自)",
+      "en": "Call Ally (Self)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3625,
+      "id": "rem_31244",
+      "jp": "魔の障壁",
+      "en": "Magic Barrier",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3626,
+      "id": "rem_31245",
+      "jp": "ディスペルマジック",
+      "en": "Dispel Magic",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3627,
+      "id": "rem_31246",
+      "jp": "魔神の威圧感",
+      "en": "Demon God's Aura",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3628,
+      "id": "rem_31247",
+      "jp": "緊急アラート",
+      "en": "Emergency Alert",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3629,
+      "id": "rem_31248",
+      "jp": "エクソシスト",
+      "en": "Exorcist",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3630,
+      "id": "rem_31249",
+      "jp": "助けを呼ぶ",
+      "en": "Call for Help",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3631,
+      "id": "rem_31250",
+      "jp": "起源の魔術師",
+      "en": "Origin Mage",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3632,
+      "id": "rem_31251",
+      "jp": "スキルチャージ",
+      "en": "Skill Charge",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3633,
+      "id": "rem_31252",
+      "jp": "海に縁ある者たち",
+      "en": "Those of the Sea",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3634,
+      "id": "rem_31253",
+      "jp": "鍛冶姫の携帯要塞",
+      "en": "Forging Princess's Fortress",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3635,
+      "id": "rem_31254",
+      "jp": "死霊の先導者",
+      "en": "Ghostly Vanguard",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3636,
+      "id": "rem_31255",
+      "jp": "鍛冶姫の保護者",
+      "en": "Forging Princess's Guardian",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3637,
+      "id": "rem_31256",
+      "jp": "退魔の守護者",
+      "en": "Demonbane Warden",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3638,
+      "id": "rem_31257",
+      "jp": "サポートのコツ",
+      "en": "Support Tactics",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3639,
+      "id": "rem_31258",
+      "jp": "一意専心",
+      "en": "Single-minded Focus",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3640,
+      "id": "rem_31259",
+      "jp": "夜を断つべき剣",
+      "en": "Sword to Sever the Night",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3641,
+      "id": "rem_31260",
+      "jp": "プラントキラー",
+      "en": "Plant Killer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3642,
+      "id": "rem_31261",
+      "jp": "勇者の底力",
+      "en": "Hero's Latent Power",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3643,
+      "id": "rem_31262",
+      "jp": "感度戦力変換・防御",
+      "en": "Sensor-to-Power Conversion: Defense",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3644,
+      "id": "rem_31263",
+      "jp": "ドワームの破壊姫",
+      "en": "Dwarm's Destruction Princess",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3645,
+      "id": "rem_31264",
+      "jp": "退魔メイド連携",
+      "en": "Exorcist Maid Combo",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3646,
+      "id": "rem_31265",
+      "jp": "運命の共犯者",
+      "en": "Fate's Accomplice",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3647,
+      "id": "rem_31266",
+      "jp": "評判の勇者",
+      "en": "Famed Hero",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3648,
+      "id": "rem_31267",
+      "jp": "奈落の姉妹",
+      "en": "Sisters of the Abyss",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3649,
+      "id": "rem_31268",
+      "jp": "託された力(剣士)",
+      "en": "Entrusted Power (Swordsman)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3650,
+      "id": "rem_31269",
+      "jp": "罠解除技術(魔術)",
+      "en": "Trap Disarm (Magic)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3651,
+      "id": "rem_31270",
+      "jp": "託された力(騎士)",
+      "en": "Entrusted Power (Knight)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3652,
+      "id": "rem_31271",
+      "jp": "託された力(勇者)",
+      "en": "Entrusted Power (Hero)",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3653,
+      "id": "rem_31272",
+      "jp": "エアスラッシュ",
+      "en": "Air Slash",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3654,
+      "id": "rem_31273",
+      "jp": "女帝のカリスマ",
+      "en": "Empress's Charisma",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3655,
+      "id": "rem_31274",
+      "jp": "破壊を呼ぶ聖女",
+      "en": "Saint Who Summons Destruction",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3656,
+      "id": "rem_31275",
+      "jp": "修行フレンズ",
+      "en": "Training Friends",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3657,
+      "id": "rem_31276",
+      "jp": "色欲の魔族",
+      "en": "Lustful Demonkin",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3658,
+      "id": "rem_31277",
+      "jp": "神速の遺跡渡り",
+      "en": "Divine Speed Ruin Jumper",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3659,
+      "id": "rem_31278",
+      "jp": "神魔遺伝子",
+      "en": "Divine Demon Gene",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3660,
+      "id": "rem_31279",
+      "jp": "ケモミミの末裔",
+      "en": "Kemonomimi Descendant",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3661,
+      "id": "rem_31280",
+      "jp": "イグドラシルの息吹",
+      "en": "Yggdrasil's Breath",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3662,
+      "id": "rem_31281",
+      "jp": "ウィルチを継ぐ者",
+      "en": "Heir of the Voidsong",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3663,
+      "id": "rem_31282",
+      "jp": "ソウルスティール",
+      "en": "Soul Steal",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3664,
+      "id": "rem_31283",
+      "jp": "ゲートオブルーラー",
+      "en": "Gate of Ruler",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3665,
+      "id": "rem_31284",
+      "jp": "沈黙の守護者",
+      "en": "Guardian of Silence",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3666,
+      "id": "rem_31285",
+      "jp": "オーシャンファング",
+      "en": "Ocean Fang",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3667,
+      "id": "rem_31286",
+      "jp": "双翼の退魔メイド",
+      "en": "Two-Winged Exorcist Maid",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3668,
+      "id": "rem_31287",
+      "jp": "戦場の見切り",
+      "en": "Battlefield Insight",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3669,
+      "id": "rem_31288",
+      "jp": "聖女の守り手",
+      "en": "Saint's Guardian",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3670,
+      "id": "rem_31289",
+      "jp": "感度戦力変換・魔攻2",
+      "en": "Potential Shift - Mag Atk 2",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3671,
+      "id": "rem_31290",
+      "jp": "各個撃破",
+      "en": "Divide and Conquer",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3672,
+      "id": "rem_31291",
+      "jp": "感度戦力変換・魔防",
+      "en": "Potential Shift - Mag Def",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3673,
+      "id": "rem_31292",
+      "jp": "感度戦力変換・魔攻1",
+      "en": "Potential Shift - Mag Atk 1",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3674,
+      "id": "rem_31293",
+      "jp": "火攻めの矢",
+      "en": "Fire Arrow",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3675,
+      "id": "rem_31294",
+      "jp": "感度戦力変換・速度",
+      "en": "Potential Shift - Speed",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3676,
+      "id": "rem_31295",
+      "jp": "感度戦力変換・攻撃",
+      "en": "Potential Shift - Attack",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3677,
+      "id": "rem_31296",
+      "jp": "フェンリスクロー",
+      "en": "Fenrir Claw",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3678,
+      "id": "rem_31297",
+      "jp": "感度戦力変換・必殺",
+      "en": "Potential Shift - Crit",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3679,
+      "id": "rem_31298",
+      "jp": "感度戦力変換・HP",
+      "en": "Potential Shift - HP",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3680,
+      "id": "rem_31299",
+      "jp": "ソニックランス",
+      "en": "Sonic Lance",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3681,
+      "id": "rem_31300",
+      "jp": "感度戦力変換・MP",
+      "en": "Sensitivity to MP Conversion",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3682,
+      "id": "rem_31301",
+      "jp": "感度戦力変換・連撃",
+      "en": "Sensitivity to Combo Conversion",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3683,
+      "id": "rem_31302",
+      "jp": "トリプルアロー",
+      "en": "Triple Arrow",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3684,
+      "id": "rem_31303",
+      "jp": "セクハラテクニシャン",
+      "en": "Harassment Technician",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3685,
+      "id": "rem_31304",
+      "jp": "セクハラ受け入れOK",
+      "en": "Open to Harassment",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3686,
+      "id": "rem_31305",
+      "jp": "死神バリア",
+      "en": "Shinigami Barrier",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3687,
+      "id": "rem_31306",
+      "jp": "常在戦場の心構え",
+      "en": "Battle-Ready Mind",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3688,
+      "id": "rem_31307",
+      "jp": "海賊女帝の直感",
+      "en": "Pirate Empress's Intuition",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3689,
+      "id": "rem_31308",
+      "jp": "メディケーション",
+      "en": "Medication",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3690,
+      "id": "rem_31309",
+      "jp": "トラップサーチ",
+      "en": "Trap Search",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3691,
+      "id": "rem_31310",
+      "jp": "トラップサーチ＋",
+      "en": "Trap Search+",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3692,
+      "id": "rem_31311",
+      "jp": "バーサーク",
+      "en": "Berserk",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3693,
+      "id": "rem_31312",
+      "jp": "勇者を導く賢者",
+      "en": "Sage Who Guides the Hero",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3694,
+      "id": "rem_31313",
+      "jp": "ドワームの罠解除",
+      "en": "Dwarm's Trap Disarm",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3695,
+      "id": "rem_31314",
+      "jp": "戦意高揚",
+      "en": "Morale Boost",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3696,
+      "id": "rem_31315",
+      "jp": "遺跡学者の罠解除",
+      "en": "Ruin Scholar's Trap Disarm",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3697,
+      "id": "rem_31316",
+      "jp": "見習いスーパーメイド",
+      "en": "Super Maid Apprentice",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3698,
+      "id": "rem_31317",
+      "jp": "バックスタブ",
+      "en": "Backstab",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3699,
+      "id": "rem_31318",
+      "jp": "異常な用心深さ",
+      "en": "Abnormal Caution",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 3700,
+      "id": "rem_31319",
+      "jp": "アルダルクの赤き娘",
+      "en": "Aldark's Crimson Daughter",
+      "table": "db_ClubToushiUnitSkillTreeInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

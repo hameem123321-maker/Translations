@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 901,
+  "range_end": 1000,
+  "pairs": [
+    {
+      "n": 901,
+      "id": "rem_01288",
+      "jp": "渓流に生息する淡水魚。川に大量に生息しており、人々の貴重な食糧源となっている。",
+      "en": "A freshwater fish found in streams. They thrive in rivers and serve as an important food source for people.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 902,
+      "id": "rem_01289",
+      "jp": "淡水の小魚",
+      "en": "Freshwater Small Fish",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 903,
+      "id": "rem_01290",
+      "jp": "岩ではなく砂地に生息する二枚貝。その身は小ぶりだが、スープのダシを取るのに人気。",
+      "en": "A small bivalve that lives on sandy bottoms, not rocks. Popular for making soup stock.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 904,
+      "id": "rem_01291",
+      "jp": "小ぶりな二枚貝",
+      "en": "Small Bivalve",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 905,
+      "id": "rem_01292",
+      "jp": "岩に張り付いている貝。硬い殻を剥がすと、プリプリの身が姿を現す。",
+      "en": "A shellfish that clings to rocks. Inside its hard shell lies a plump, firm body.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 906,
+      "id": "rem_01293",
+      "jp": "貝殻付き岩貝",
+      "en": "Shelled Rock Clam",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 907,
+      "id": "rem_01294",
+      "jp": "調味料に漬け込んだ魚卵。味が濃く、酒場のツマミに人気。",
+      "en": "Fish eggs marinated in seasoning. Their strong flavor makes them a popular tavern snack.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 908,
+      "id": "rem_01295",
+      "jp": "魚卵盛り合わせ",
+      "en": "Assorted Fish Roe",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 909,
+      "id": "rem_01296",
+      "jp": "漁獲された魚の食用には適さない部分。しかしカリカリに焼き上げたり、酒に着ければ独特の味わいが得られる。",
+      "en": "The inedible parts of a fish. When grilled crisp or soaked in liquor, they offer a unique taste.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 910,
+      "id": "rem_01297",
+      "jp": "魚のヒレ",
+      "en": "Fish Fin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 911,
+      "id": "rem_01298",
+      "jp": "糖分を多く含む、植物の実。集めて煮込めば、甘さを味わうことができる。",
+      "en": "A plant fruit high in sugar. Boiling a batch yields a sweet flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 912,
+      "id": "rem_01299",
+      "jp": "甘い植物の実",
+      "en": "Sweet Plant Fruit",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 913,
+      "id": "rem_01300",
+      "jp": "海水を沸騰させて水分を飛ばし、抽出した塩粒。",
+      "en": "Salt crystals extracted by boiling seawater to evaporate the moisture.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 914,
+      "id": "rem_01301",
+      "jp": "海水抽出塩粒",
+      "en": "Seawater Salt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 915,
+      "id": "rem_01302",
+      "jp": "近海の浜辺から取れた不純物の多い塩。処理を施すことで高品質な塩に変わる。",
+      "en": "Impure salt collected from nearby shores. Can be refined into high-quality salt.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 916,
+      "id": "rem_01303",
+      "jp": "味のする砂粒",
+      "en": "Flavorful Sand Grain",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 917,
+      "id": "rem_01304",
+      "jp": "使用済みの油を集め、濾過して再使用可能にした油脂類。専用に調整した油には及ばないが、味わいは得られる為、意外に使い勝手は良い。",
+      "en": "Used oil collected, filtered, and made reusable. Not as good as fresh oil, but still usable for flavor.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 918,
+      "id": "rem_01305",
+      "jp": "リサイクルオイル",
+      "en": "Recycled Oil",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 919,
+      "id": "rem_01306",
+      "jp": "牧場で育てられた鳥のたまご。生で食べても安心なように飼育されており、栄養価も高い。",
+      "en": "A farm-raised bird's egg. Bred to be safe to eat raw and high in nutrients.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 920,
+      "id": "rem_01307",
+      "jp": "牧場の新鮮たまご",
+      "en": "Farm Fresh Egg",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 921,
+      "id": "rem_01308",
+      "jp": "冷えて固まった個体の乳脂肪。溶かせばミルキーな味わいは感じ取れるが、流石に味は一段落ちる。",
+      "en": "Solidified milk fat, chilled and firm. If melted, you can taste a milky flavor, but it's definitely a step down.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 922,
+      "id": "rem_01309",
+      "jp": "固形乳脂肪",
+      "en": "Solid Milk Fat",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 923,
+      "id": "rem_01310",
+      "jp": "水分が抜けすぎてしまった硬いチーズ。食べれば乳製品独特の味わいは楽しめるが、いかんせん硬い。",
+      "en": "Cheese dried out and turned rock-hard. You can still taste the dairy, but it's just too hard.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 924,
+      "id": "rem_01311",
+      "jp": "かちかち穴あきチーズ",
+      "en": "Hard Hole-y Cheese",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 925,
+      "id": "rem_01312",
+      "jp": "ダンジョン内で発見されたチーズ。冒険者が作ったのだろうか？　作ってからかなりの時間が経過しており、非常に熟成されていて、意外な風味が……？",
+      "en": "Cheese discovered in a dungeon. Made by an adventurer? Aged for a very long time, it has an unexpected flavor...?",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 926,
+      "id": "rem_01313",
+      "jp": "遺跡で発見されたチーズ",
+      "en": "Ruins-Discovered Cheese",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 927,
+      "id": "rem_01314",
+      "jp": "日常生活に欠かせない、新鮮な真水。加熱を行わずに飲むのは怖い。",
+      "en": "Fresh, clean water essential for daily life. Scary to drink without boiling it first.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 928,
+      "id": "rem_01315",
+      "jp": "フレッシュな真水",
+      "en": "Fresh Water",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 929,
+      "id": "rem_01316",
+      "jp": "自然が磨き上げた地下水を汲み上げた物。料理に使う他、そのまま喉を潤すにも最適。",
+      "en": "Drawn from naturally filtered groundwater. Great for cooking or for quenching your thirst as-is.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 930,
+      "id": "rem_01317",
+      "jp": "新鮮な地下水",
+      "en": "Fresh Groundwater",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 931,
+      "id": "rem_01318",
+      "jp": "アルコール醸造するための樽。樽内に染みついた微生物が中に入った液体を酒に醸すのだが、適切に糖分を追加しないと、微生物はあまり活動してくれない。",
+      "en": "A barrel for brewing alcohol. Microbes inside turn the liquid into liquor, but they won't work hard without enough sugar.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 932,
+      "id": "rem_01319",
+      "jp": "酒造りの醸造樽",
+      "en": "Brewing Barrel",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 933,
+      "id": "rem_01320",
+      "jp": "粒の大きさが揃っており、含有する糖分が最適な醸造用の麦粒。旺盛な生命力は、アルコール醸造に高い適性を持つ。",
+      "en": "Uniform barley grains with optimal sugar content for brewing. Their vigorous life force makes them ideal for alcohol production.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 934,
+      "id": "rem_01321",
+      "jp": "発酵用大麦",
+      "en": "Brewing Barley",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 935,
+      "id": "rem_01322",
+      "jp": "豚の皮をなめしたもの。加工者の腕が悪いのか質は悪い。",
+      "en": "Tanned pigskin. Poor quality, likely due to the tanner's lack of skill.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 936,
+      "id": "rem_01323",
+      "jp": "安い豚皮",
+      "en": "Cheap Pigskin",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 937,
+      "id": "rem_01324",
+      "jp": "いまいち出来の悪い毛皮。加工者の腕が悪かったのか、ツギハギだらけになっている。使えなくもないが……。",
+      "en": "A poorly made pelt, full of patches. The tanner's skill was lacking. It's usable, but just barely.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 938,
+      "id": "rem_01325",
+      "jp": "質の悪い毛皮",
+      "en": "Low-Quality Pelt",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 939,
+      "id": "rem_01326",
+      "jp": "柔らかい紐状の繊維を生成する植物。解して一本に紡げば、丈夫な糸が出来上がる。",
+      "en": "A plant that yields soft, fibrous strands. When spun into a single thread, it makes strong yarn.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 940,
+      "id": "rem_01327",
+      "jp": "糸精製の植物",
+      "en": "Thread-Spinning Plant",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 941,
+      "id": "rem_01328",
+      "jp": "様々な鳥の羽が混ざった毛束。ボロボロに朽ちており、加工するのは一苦労だ。",
+      "en": "A shabby bundle of mixed bird feathers, crumbling with age. Processing it will be a chore.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 942,
+      "id": "rem_01329",
+      "jp": "野鳥の羽束",
+      "en": "Wild Bird Feather Bundle",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 943,
+      "id": "rem_01330",
+      "jp": "丈夫な木の枝を折っただけの乱暴な素材。軽さを生かした練習用の武器制作には使える。",
+      "en": "A rough material—just a broken sturdy branch. Usable for crafting lightweight practice weapons.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 944,
+      "id": "rem_01331",
+      "jp": "折れた木の枝",
+      "en": "Broken Tree Branch",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 945,
+      "id": "rem_01332",
+      "jp": "栄養分を豊富に含んだ、湖沼の底に沈んでいる泥。",
+      "en": "Mud rich in nutrients, settled at the bottom of lakes and marshes.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 946,
+      "id": "rem_01333",
+      "jp": "粘着質な泥",
+      "en": "Sticky Mud",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 947,
+      "id": "rem_01334",
+      "jp": "鉄分を含んだ岩。硬さだけはあるが、鉄を含んでいる為重い。その上、鉄部分だけをしっかりと精錬しなければ、鉄としても使えない。",
+      "en": "A hard, iron-containing rock. Heavy, and its iron content requires proper smelting to be usable.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 948,
+      "id": "rem_01335",
+      "jp": "鉄を含んだ岩石",
+      "en": "Iron-bearing Rock",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 949,
+      "id": "rem_01336",
+      "jp": "炭化した有機物が堆積し、長い年月の末に生まれた化石の一種。高温にすると長く燃え続け、鉱石から鉄を生成する等用途が広い。",
+      "en": "A fossil formed from carbonized organic matter over ages. Burns long at high heat, versatile for uses like iron smelting.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 950,
+      "id": "rem_01337",
+      "jp": "魔力を帯びた石炭",
+      "en": "Magical Coal",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 951,
+      "id": "rem_01338",
+      "jp": "砕けた金属を集めたもの。一つの量は少ないが、小さい分加工しやすい。",
+      "en": "Assorted broken metal pieces. Small amounts but easy to work with due to size.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 952,
+      "id": "rem_01339",
+      "jp": "木っ端チップ",
+      "en": "Wood/Metal Scraps",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 953,
+      "id": "rem_01340",
+      "jp": "様々な宝石が混ざった原石。総合すれば高価だが、どうしても純度が低くなるため、取引額は低い。",
+      "en": "Mixed gemstone rough. Valuable in total, but low purity keeps trade value down.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 954,
+      "id": "rem_01341",
+      "jp": "混ざり合った原石",
+      "en": "Mixed Gem Rough",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 955,
+      "id": "rem_01342",
+      "jp": "穀物を刈り取った後の乾燥藁。軽くて燃えやすいが、かさばる上にすぐ燃え尽きてしまう為、種火としての扱いがメイン。",
+      "en": "Dry straw left after harvest. Light and flammable, but bulky and quick to burn—mainly used as kindling.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 956,
+      "id": "rem_01343",
+      "jp": "種火の稲わら",
+      "en": "Kindling Straw",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 957,
+      "id": "rem_01344",
+      "jp": "人心を狂わせ災厄をもたらすオーナメント。戦争の影にはこの品があると囁かれるほどのいわくつき。",
+      "en": "An ornament said to drive people mad and bring calamity. Whispers link it to the shadows of war.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 958,
+      "id": "rem_01345",
+      "jp": "災厄のオーナメント",
+      "en": "Calamity Ornament",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 959,
+      "id": "rem_01346",
+      "jp": "深い闇に彩られた逆さの十字架。あしらわれた宝石は狂暴性を増し、周囲の人間を狂わせる。かつて憎い相手に送り、周囲の人間もろとも滅亡させる事件が多発した。",
+      "en": "An inverted cross tinged with deep darkness. Its gems incite frenzy, driving people insane. Once sent to hated foes, causing mass destruction.",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 960,
+      "id": "rem_01347",
+      "jp": "ブラッディハングドクロス",
+      "en": "Bloody Hanged Cross",
+      "table": "db_ClubGoodsMaterial",
+      "category": "remaining_table"
+    },
+    {
+      "n": 961,
+      "id": "rem_11390",
+      "jp": "ダンジョンを新規開拓した",
+      "en": "Discovered a new dungeon",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 962,
+      "id": "rem_11391",
+      "jp": "新しいエネミーを倒した",
+      "en": "Defeated a new enemy",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 963,
+      "id": "rem_11392",
+      "jp": "敵を１ターンキルした",
+      "en": "One-turn killed an enemy",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 964,
+      "id": "rem_11393",
+      "jp": "ジャイアントキルに成功！",
+      "en": "Giant Kill successful!",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 965,
+      "id": "rem_11394",
+      "jp": "新アイテムを発見した",
+      "en": "Found a new item",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 966,
+      "id": "rem_11395",
+      "jp": "敵に負けてしまった……",
+      "en": "Lost to the enemy...",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 967,
+      "id": "rem_11396",
+      "jp": "その他の評価点",
+      "en": "Other evaluation points",
+      "table": "db_UnitCharaPartnerDungeonResult",
+      "category": "remaining_table"
+    },
+    {
+      "n": 968,
+      "id": "rem_11397",
+      "jp": "エッチが好きで、異性と身体を重ねることに抵抗が少ないデス",
+      "en": "A Death who likes lewd stuff and has little hesitation getting physical with the opposite sex.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 969,
+      "id": "rem_11398",
+      "jp": "エッチ好き",
+      "en": "Likes Lewd Stuff",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 970,
+      "id": "rem_11399",
+      "jp": "足を使って射精させるテクニックデス。挿入しなくても満足させることが出来るデス",
+      "en": "A technique-des that uses feet to make them finish. Can satisfy without penetration-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 971,
+      "id": "rem_11400",
+      "jp": "足コキ名人",
+      "en": "Footjob Expert",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 972,
+      "id": "rem_11401",
+      "jp": "肛門を使って射精させるテクニックデス。本番行為より肛門の方が大好きデス",
+      "en": "A technique-des that uses the anus to make them finish. Loves the backdoor more than the main act-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 973,
+      "id": "rem_11402",
+      "jp": "アナル大好き",
+      "en": "Loves Anal",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 974,
+      "id": "rem_11403",
+      "jp": "エッチが特別好きでもなく、嫌いでもないデス",
+      "en": "A Death who doesn't particularly like lewd stuff, but doesn't dislike it either-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 975,
+      "id": "rem_11404",
+      "jp": "ノーマル性癖",
+      "en": "Normal Preference",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 976,
+      "id": "rem_11405",
+      "jp": "化粧の扱いを身に付けて、使いこなしてるいるデス",
+      "en": "Has learned and mastered the use of makeup-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 977,
+      "id": "rem_11406",
+      "jp": "化粧テク",
+      "en": "Makeup Skill",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 978,
+      "id": "rem_11407",
+      "jp": "男性の気持ちを掴むのが得意デス",
+      "en": "Good at understanding men's feelings-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 979,
+      "id": "rem_11408",
+      "jp": "男たらし",
+      "en": "Manipulator",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 980,
+      "id": "rem_11409",
+      "jp": "手で男のモノをしごいて射精させるテクニックデス。挿入しなくても満足させることが出そうデス",
+      "en": "A technique-des that uses hands to stroke a man's thing and make them finish. Can satisfy without penetration-des.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 981,
+      "id": "rem_11410",
+      "jp": "手コキ名人",
+      "en": "Handjob Master",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 982,
+      "id": "rem_11411",
+      "jp": "危険を顧みず、新たな発見を求める冒険者の適正デス",
+      "en": "Aptitude : An adventurer who ignores danger in search of new discoveries.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 983,
+      "id": "rem_11412",
+      "jp": "好奇心旺盛",
+      "en": "Very Curious",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 984,
+      "id": "rem_11413",
+      "jp": "冷静で感情を表に出さない性格デス。冷血漢と誤解されやすいデス",
+      "en": "Calm personality that doesn't show emotions. Often misunderstood as cold-hearted",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 985,
+      "id": "rem_11414",
+      "jp": "クール",
+      "en": "Cool",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 986,
+      "id": "rem_11415",
+      "jp": "精神が強く、嫌なことにも屈しにくいデス",
+      "en": "Strong-willed and hard to break",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 987,
+      "id": "rem_11416",
+      "jp": "気丈",
+      "en": "Spirited",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 988,
+      "id": "rem_11417",
+      "jp": "近づきがたい、強い体臭を持っているデス",
+      "en": "Has a strong, off-putting body odor",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 989,
+      "id": "rem_11418",
+      "jp": "体臭",
+      "en": "Body Odor",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 990,
+      "id": "rem_11419",
+      "jp": "おもらし癖があり、行為中でも催してしまうデス",
+      "en": "Prone to wetting, even during the act",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 991,
+      "id": "rem_11420",
+      "jp": "おもらし癖",
+      "en": "Wetting Habit",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 992,
+      "id": "rem_11421",
+      "jp": "おっぱいが大きいデス。みんな大好きデス。大きいだけでなく、形も良いという特徴デス",
+      "en": "Big boobs Everyone loves them Not just big, but well-shaped too",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 993,
+      "id": "rem_11422",
+      "jp": "ママオーラ",
+      "en": "Milf Aura",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 994,
+      "id": "rem_11423",
+      "jp": "実はエッチなことが好きデスが、それを周りから隠してるデス",
+      "en": "Actually likes dirty stuff , but hides it from others",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 995,
+      "id": "rem_11424",
+      "jp": "むっつりスケベ",
+      "en": "Closet Pervert",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 996,
+      "id": "rem_11425",
+      "jp": "エッチなことに耐性がありすぎて、快楽を受けることがないデス。その代わり、黙々とエッチなことが出来るデスね……",
+      "en": "Too resistant to dirty things, can't feel pleasure Instead, can do dirty things tirelessly ..",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 997,
+      "id": "rem_11426",
+      "jp": "不感症",
+      "en": "Frigid",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 998,
+      "id": "rem_11427",
+      "jp": "トラブルばかりを引き起こすヤバい奴デス！　仕事の邪魔デス！",
+      "en": "A bad apple who always causes trouble ! A hindrance to work !",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 999,
+      "id": "rem_11428",
+      "jp": "トラブルメーカー",
+      "en": "Troublemaker",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1000,
+      "id": "rem_11429",
+      "jp": "身だしなみなどに気を使っており、可愛らしいデス",
+      "en": "Takes care with appearance, very cute",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    }
+  ]
+}

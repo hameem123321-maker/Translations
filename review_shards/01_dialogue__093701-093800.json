@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 93701,
+  "range_end": 93800,
+  "pairs": [
+    {
+      "n": 93701,
+      "id": "db_EventInfo:110719:11",
+      "jp": "そうなのね……",
+      "en": "I see...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93702,
+      "id": "db_EventInfo:110722:11",
+      "jp": "ねえ店長君、【傭兵さん】を雇うのって、どれぐらいお金が必要なのかな？",
+      "en": "Hey, boss? How much does it cost to hire a mercenary?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93703,
+      "id": "db_EventInfo:110723:1",
+      "jp": "どうしたんだキャトリナ姉さん",
+      "en": "What's wrong, Catrina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93704,
+      "id": "db_EventInfo:110724:2",
+      "jp": "傭兵とは穏やかじゃないデスね",
+      "en": "Mercenaries? That's not a peaceful idea.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93705,
+      "id": "db_EventInfo:110725:11",
+      "jp": "その……前に【『ゴブリン』】が村を荒らしているって話したでしょ？",
+      "en": "Well... I told you before about the Goblins causing trouble in the village, right?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93706,
+      "id": "db_EventInfo:110726:11",
+      "jp": "今朝も【『ゴブリン』】が作物を荒らしているのを、村の人が見つけたって",
+      "en": "This morning, villagers saw Goblins ruining the crops again.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93707,
+      "id": "db_EventInfo:110727:1",
+      "jp": "【『ゴブリン』】が？",
+      "en": "Goblins?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93708,
+      "id": "db_EventInfo:110728:11",
+      "jp": "【『ゴブリン』】は家畜を盗んだり……その、女の子をさらうって言うでしょ？",
+      "en": "Goblins steal livestock... and, they say they kidnap girls.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93709,
+      "id": "db_EventInfo:110729:11",
+      "jp": "夜になったら足音がして……村の子は怖くて、夜も眠れなくなってるの",
+      "en": "We hear footsteps at night... The village kids are so scared they can't sleep.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93710,
+      "id": "db_EventInfo:110730:11",
+      "jp": "私も怖くて……",
+      "en": "I'm scared too...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93711,
+      "id": "db_EventInfo:110731:1",
+      "jp": "キャトリナ姉さん……",
+      "en": "Catrina...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93712,
+      "id": "db_EventInfo:110732:11",
+      "jp": "店長君が？",
+      "en": "The store manager?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93713,
+      "id": "db_EventInfo:110733:1",
+      "jp": "ああ、俺はこれでも、けっこう強いんだぜ。前にも【『ダンジョン』】を攻略したこともあるんだ",
+      "en": "Yeah, I'm actually pretty strong. I've cleared a dungeon before.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93714,
+      "id": "db_EventInfo:110734:11",
+      "jp": "でも危ないんじゃ……",
+      "en": "But isn't that dangerous...?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93715,
+      "id": "db_EventInfo:110735:2",
+      "jp": "デスデス。オマエだけ行くのは心配デス",
+      "en": "Yes yes. We're worried about you going alone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93716,
+      "id": "db_EventInfo:110736:1",
+      "jp": "大丈夫だって、【『ゴブリン』】ぐらいは追い払ってみせるから",
+      "en": "It's fine, I can at least chase off some Goblins.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93717,
+      "id": "db_EventInfo:110738:0",
+      "jp": "こうして俺は、キャトリナ姉さんの村に向かった。",
+      "en": "And so, I headed for Catrina's village.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93718,
+      "id": "db_EventInfo:110741:0",
+      "jp": "だが甘かった。",
+      "en": "But I was naive.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93719,
+      "id": "db_EventInfo:110742:0",
+      "jp": "たしかに【『ゴブリン』】ぐらいは追い払うことは出来た。",
+      "en": "Sure, I could handle a few Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93720,
+      "id": "db_EventInfo:110743:0",
+      "jp": "しかしその数が尋常ではなかったのだ。",
+      "en": "But there were so many of them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93721,
+      "id": "db_EventInfo:110744:0",
+      "jp": "数体の【『ゴブリン』】を仕留めたものの、相手は数十……いや百体を超えていただろう。",
+      "en": "I took down a few, but there were dozens... maybe over a hundred.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93722,
+      "id": "db_EventInfo:110745:0",
+      "jp": "完全に数に圧倒された俺は次第に追い詰められ。",
+      "en": "Completely outnumbered, I was gradually pushed back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93723,
+      "id": "db_EventInfo:110746:0",
+      "jp": "やがて袋叩きにされて絶命した……。",
+      "en": "I was beaten up by a group and died.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93724,
+      "id": "db_EventInfo:110747:0",
+      "jp": "★ゲームオーバー・ゴブリンに袋叩きにされたデス",
+      "en": "★ Game Over - Beaten to death by Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93725,
+      "id": "db_EventInfo:110748:1",
+      "jp": "【『ゴブリン』】なら新人冒険者にでも対処できるだろうけど、念のためにベテランの冒険者を雇ってみるよ",
+      "en": "A 'Goblin' should be easy for a new adventurer, but I'll hire a veteran just to be safe.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93726,
+      "id": "db_EventInfo:110749:11",
+      "jp": "で、でもベテランの冒険者さんを雇うお金なんて……",
+      "en": "B-but we don't have the money to hire a veteran adventurer...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93727,
+      "id": "db_EventInfo:110750:1",
+      "jp": "大丈夫だって。立て替えておくから",
+      "en": "It's fine. I'll pay for it first.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93728,
+      "id": "db_EventInfo:110751:0",
+      "jp": "そうして俺はベテラン冒険者を雇い、手配したのであった。",
+      "en": "So I hired a veteran adventurer and sent them out.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93729,
+      "id": "db_EventInfo:110754:0",
+      "jp": "その後……。",
+      "en": "After that...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93730,
+      "id": "db_EventInfo:110756:2",
+      "jp": "キャトリナの村に向かわせた冒険者ども、帰ってこないデスね",
+      "en": "The adventurers we sent to Catrina's village haven't come back.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93731,
+      "id": "db_EventInfo:110757:1",
+      "jp": "どうしたんだろう",
+      "en": "I wonder what happened.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93732,
+      "id": "db_EventInfo:110758:2",
+      "jp": "……いやな予感がするデス。様子を見に行くデス",
+      "en": "...I have a bad feeling. I'll go check it out.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93733,
+      "id": "db_EventInfo:110759:1",
+      "jp": "あ、ああ……",
+      "en": "O-okay...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93734,
+      "id": "db_EventInfo:110767:0",
+      "jp": "その後、様子を見に行った俺達が目にしたのは……。",
+      "en": "Later, when we went to see, what we saw was...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93735,
+      "id": "db_EventInfo:110768:0",
+      "jp": "略奪の限りを尽くされ、廃墟になったキャトリナ姉さんの村の姿だった。",
+      "en": "This was the scene of Catrina's village. It was a ruined mess, completely looted.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93736,
+      "id": "db_EventInfo:110769:2",
+      "jp": "凄まじい破壊の跡デス。これは数体……いや、数十体の【『ゴブリン』】がいた様子デスね",
+      "en": "This is a terrifying level of destruction. It looks like there were several... no, dozens of Goblins.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93737,
+      "id": "db_EventInfo:110770:2",
+      "jp": "たとえベテランだろうと、数の暴力で圧倒されてしまったデス",
+      "en": "Even a veteran would have been overwhelmed by those sheer numbers.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93738,
+      "id": "db_EventInfo:110771:2",
+      "jp": "もしくはビビって逃げてしまったデスね",
+      "en": "Or maybe they got scared and ran away.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93739,
+      "id": "db_EventInfo:110772:1",
+      "jp": "そんな……",
+      "en": "No way...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93740,
+      "id": "db_EventInfo:110773:0",
+      "jp": "辺りには【人間だったモノ】が散乱している……。",
+      "en": "Remains of what were once people are scattered everywhere...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93741,
+      "id": "db_EventInfo:110774:0",
+      "jp": "そしてその中で。",
+      "en": "And among them...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93742,
+      "id": "db_EventInfo:110775:0",
+      "jp": "俺は……。",
+      "en": "I...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93743,
+      "id": "db_EventInfo:110776:0",
+      "jp": "キャトリナ姉さん【だったモノ】を発見し――。",
+      "en": "I found what was left of Catrina...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93744,
+      "id": "db_EventInfo:110781:2",
+      "jp": "ざんねん、オマエの人生は終わってしまったデス",
+      "en": "A pity. Your life is over.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93745,
+      "id": "db_EventInfo:110782:2",
+      "jp": "キャトリナを見殺しにするとは何事デス",
+      "en": "To abandon Catrina to her fate... what is the meaning of this?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93746,
+      "id": "db_EventInfo:110783:1",
+      "jp": "くっ……",
+      "en": "Grr...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93747,
+      "id": "db_EventInfo:110784:2",
+      "jp": "しかしアイツを救出するには【力】が必要デス。今のオマエには絶対に助けられないかもしれないデス",
+      "en": "But to save them, you need [strength]. You might not be able to help them at all right now.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93748,
+      "id": "db_EventInfo:110785:2",
+      "jp": "【『ゴブリン』】に詳しいヤツがいれば、アイツを救出することが可能デス。そいつとどうにかして出会うデスよ",
+      "en": "If you find someone who knows about [Goblins], it's possible to rescue them. You need to somehow meet that person.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93749,
+      "id": "db_EventInfo:110786:2",
+      "jp": "それまでは残念デスが、アイツは助けることはできないデス",
+      "en": "Until then, it's a shame, but you can't save them.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93750,
+      "id": "db_EventInfo:110787:0",
+      "jp": "★ゲームオーバー・キャトリナを見殺しにしたデス",
+      "en": "★ Game Over. You left Catrina to die.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93751,
+      "id": "db_EventInfo:110788:1",
+      "jp": "【『ゴブリン』】なら衛兵さんかな……",
+      "en": "For [Goblins]... maybe the Guard...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93752,
+      "id": "db_EventInfo:110789:2",
+      "jp": "アイツ、妙に【『ゴブリン』】に詳しそうデスしね。こういうときの対処も知っているデス",
+      "en": "He seems to know a weird amount about [Goblins]. He'd probably know how to handle this.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93753,
+      "id": "db_EventInfo:110790:11",
+      "jp": "本当？　ありがとう！",
+      "en": "Really? Thank you!",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93754,
+      "id": "db_EventInfo:110791:11",
+      "jp": "で、でもベテランの冒険者さんを雇うお金なんて……",
+      "en": "B-but I don't have the money to hire a veteran adventurer...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93755,
+      "id": "db_EventInfo:110792:1",
+      "jp": "そうだな。それじゃ、俺が依頼を……",
+      "en": "That's right. So, I'll take the request...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93756,
+      "id": "db_EventInfo:110793:2",
+      "jp": "心配するなデス。それぐらいなら、私のヘソクリで大丈夫デス",
+      "en": "Don't worry. I can cover that much from my savings.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93757,
+      "id": "db_EventInfo:110794:1",
+      "jp": "ええっ！？",
+      "en": "Huh!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93758,
+      "id": "db_EventInfo:110795:1",
+      "jp": "ど、ドケチのシイネがタダでカネ出すなんて",
+      "en": "W-what? Skinflint Shiine is giving away money for free?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93759,
+      "id": "db_EventInfo:110796:2",
+      "jp": "だれがドケチデスか",
+      "en": "Who said I'm a cheapo?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93760,
+      "id": "db_EventInfo:110797:2",
+      "jp": "それに、誰がタダでやると言ったデス？",
+      "en": "And who said I'd do it for free?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93761,
+      "id": "db_EventInfo:110798:11",
+      "jp": "そ、それは……",
+      "en": "W-well...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93762,
+      "id": "db_EventInfo:110799:2",
+      "jp": "心配するなデス。身体で返せばいいだけデス",
+      "en": "Don't worry. You can just pay me back with your body.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93763,
+      "id": "db_EventInfo:110800:11",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93764,
+      "id": "db_EventInfo:110801:1",
+      "jp": "おいシイネ！",
+      "en": "Hey Shiine!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93765,
+      "id": "db_EventInfo:110802:2",
+      "jp": "冗談デス",
+      "en": "Just kidding.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93766,
+      "id": "db_EventInfo:110803:11",
+      "jp": "あはっ、そ、そうよね……",
+      "en": "Haha, r-right...",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 93767,
+      "id": "db_EventInfo:110804:2",
+      "jp": "……（ニヤリ）",
+      "en": "... (grins)",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93768,
+      "id": "db_EventInfo:110805:17",
+      "jp": "【『ゴブリン』】退治ですか",
+      "en": "Goblin extermination?",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93769,
+      "id": "db_EventInfo:110806:2",
+      "jp": "キャトリナの村に【『ゴブリン』】が現れると迷惑してるデス。なんとかしてくれないデス？",
+      "en": "Goblins are bothering Catrina's village. Can you do something about them?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93770,
+      "id": "db_EventInfo:110807:17",
+      "jp": "かしこまりました。行ってみましょう",
+      "en": "Understood. Let's go.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93771,
+      "id": "db_EventInfo:110810:0",
+      "jp": "村の位置を聞くと、衛兵さんはさっさと向かってしまった。",
+      "en": "I asked the Guard where the village was, and he hurried off ahead.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 93772,
+      "id": "db_EventInfo:110811:2",
+      "jp": "そういえばオマエ、キャトリナの村のことはどうしたデス？",
+      "en": "By the way, what happened with Catrina's village?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93773,
+      "id": "db_EventInfo:110812:1",
+      "jp": "衛兵さんから連絡がこなくて",
+      "en": "I haven't heard back from the Guard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93774,
+      "id": "db_EventInfo:110813:2",
+      "jp": "アイツ、ふだんはどこにいるデス？",
+      "en": "Where does he usually hang out?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93775,
+      "id": "db_EventInfo:110814:1",
+      "jp": "たしかに謎だな",
+      "en": "Yeah, it's a mystery.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93776,
+      "id": "db_EventInfo:110816:17",
+      "jp": "戻りました",
+      "en": "I'm back.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93777,
+      "id": "db_EventInfo:110817:2",
+      "jp": "デスっ！？",
+      "en": "Woah!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93778,
+      "id": "db_EventInfo:110818:17",
+      "jp": "遅れて申し訳ありません",
+      "en": "Sorry I'm late.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93779,
+      "id": "db_EventInfo:110820:17",
+      "jp": "急いでください店長さん、【『ゴブリン』】が大勢攻めてきます",
+      "en": "Hurry, Store Manager. A large group of Goblins is attacking.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93780,
+      "id": "db_EventInfo:110821:1",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93781,
+      "id": "db_EventInfo:110822:2",
+      "jp": "どういうことデス？",
+      "en": "What do you mean?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93782,
+      "id": "db_EventInfo:110823:17",
+      "jp": "【『ゴブリン』】の大軍勢が村の近くに駐屯しておりました",
+      "en": "A huge Goblin army was camped near the village.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93783,
+      "id": "db_EventInfo:110824:17",
+      "jp": "その数は百はこえるでしょう",
+      "en": "Their numbers must be over a hundred.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93784,
+      "id": "db_EventInfo:110825:1",
+      "jp": "百！？",
+      "en": "A hundred!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93785,
+      "id": "db_EventInfo:110826:17",
+      "jp": "たとえ【『ゴブリン』】が相手とはいえ、それだけの数を対処できる者は多くありません",
+      "en": "Even if the enemy is Goblins, not many can handle that many.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93786,
+      "id": "db_EventInfo:110827:17",
+      "jp": "よって村を守る事は不可能です",
+      "en": "So, defending the village is impossible.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93787,
+      "id": "db_EventInfo:110828:17",
+      "jp": "まもなく村は焼き尽くされ、家畜も略奪されるでしょう",
+      "en": "Soon, the village will be burned down and the livestock will be stolen.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93788,
+      "id": "db_EventInfo:110829:1",
+      "jp": "そんな……キャトリナ姉さんは？",
+      "en": "That's... what about Catrina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93789,
+      "id": "db_EventInfo:110830:17",
+      "jp": "ご安心ください。すべての村人は避難させております",
+      "en": "Don't worry. We've evacuated all the villagers.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93790,
+      "id": "db_EventInfo:110831:2",
+      "jp": "手回しがいいデスね！",
+      "en": "Well prepared, I see!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93791,
+      "id": "db_EventInfo:110832:17",
+      "jp": "とにかく今は、この宿です。急いで防衛を固めてください",
+      "en": "Anyway, right now, it's this inn. Hurry and strengthen the defenses.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93792,
+      "id": "db_EventInfo:110833:2",
+      "jp": "どういうことデス？　目当ては村だったのではデス？",
+      "en": "What does that mean? Wasn't their target the village?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93793,
+      "id": "db_EventInfo:110834:17",
+      "jp": "村はあくまで通過点でしかありません。村を略奪し、そこを拠点にした後の目標は、位置的に考えてこの宿です",
+      "en": "The village is just a stopover. After looting it and using it as a base, their next goal, logically, is this inn.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93794,
+      "id": "db_EventInfo:110835:17",
+      "jp": "日が暮れれば、【『ゴブリン』】の軍勢が攻め込んでくるでしょう",
+      "en": "When night falls, the Goblin army will attack.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93795,
+      "id": "db_EventInfo:110836:17",
+      "jp": "急いでください。罠を仕掛けておきましたので時間は稼げるでしょうが、猶予はありません",
+      "en": "Hurry. We set some traps, so we bought a little time, but we don't have much.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93796,
+      "id": "db_EventInfo:110837:17",
+      "jp": "今すぐ備えるのです。一刻の猶予もありませんよ",
+      "en": "Get ready right now. There's no time to waste.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93797,
+      "id": "db_EventInfo:110839:1",
+      "jp": "なんとか【『ゴブリン』】たちを退けたな",
+      "en": "We managed to drive back the Goblins.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 93798,
+      "id": "db_EventInfo:110840:2",
+      "jp": "デスデス",
+      "en": "Desu desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 93799,
+      "id": "db_EventInfo:110843:17",
+      "jp": "お見事です、あの軍勢を凌ぐとは",
+      "en": "Well done, to hold off such a force.",
+      "speaker": "Guard",
+      "speaker_jp": "衛兵さん"
+    },
+    {
+      "n": 93800,
+      "id": "db_EventInfo:110844:1",
+      "jp": "いや、衛兵さんが教えてくれたからだよ",
+      "en": "No, it's thanks to what you told us, Guard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

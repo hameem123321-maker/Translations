@@ -1,0 +1,814 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 10901,
+  "range_end": 11000,
+  "pairs": [
+    {
+      "n": 10901,
+      "id": "rem_38662",
+      "jp": "アーマニーの冒険小説出版④",
+      "en": "Armany's Adventure Novel Publishing 4",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10902,
+      "id": "rem_38663",
+      "jp": "アーマニーの冒険小説出版⑤",
+      "en": "Armany's Adventure Novel Publishing 5",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10903,
+      "id": "rem_38664",
+      "jp": "アーマニーの冒険小説出版⑥",
+      "en": "Armany's Adventure Novel Publishing 6",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10904,
+      "id": "rem_38665",
+      "jp": "アーマニーの冒険小説出版⑦",
+      "en": "Armany's Adventure Novel Publishing 7",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10905,
+      "id": "rem_38666",
+      "jp": "メイドのハヅキと雇用契約を結ぶ。なんだかいろいろやってくれるスーパーメイドさんの彼女と契約すると、様々なメイドのようなメイドじゃないようなサービスを受けることが出来る。",
+      "en": "Hire Hazuki, the maid. Signing a contract with this super maid who can do all sorts of things lets you receive various services that are both maid-like and not.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10906,
+      "id": "rem_38667",
+      "jp": "ハヅキと雇用契約を結ぶ",
+      "en": "Sign a contract with Hazuki",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10907,
+      "id": "rem_38668",
+      "jp": "体感時間を操る謎のスキルを伝授してもらう。『Ｆ8』キーによる高速モードの上限がアップし、さらなる高速営業が可能になるが、こうなるともはやまともに制御することができないかも。",
+      "en": "Learn a mysterious skill to manipulate perceived time. Increases the upper limit of the F8 high-speed mode, enabling even faster operations, though controlling it properly might become impossible.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10908,
+      "id": "rem_38669",
+      "jp": "ハヅキ体感速度向上サービス",
+      "en": "Hazuki's Perceived Speed Boost Service",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10909,
+      "id": "rem_38670",
+      "jp": "退魔師の一族に伝わる秘剣を伝授してもらう。女の子の服の一部だけを剥ぎ取るこの奥義は、魔族の王にすら通じる牙となるかもしれないが、今回はそういう相手と戦うことはなさそうだ。",
+      "en": "Learn a secret sword technique passed down in an exorcist clan. This ultimate move strips only part of a girl's clothing, and might even work against a Demon King, though you probably won't be fighting such an opponent here.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10910,
+      "id": "rem_38671",
+      "jp": "ハヅキ破服剣伝授サービス",
+      "en": "Hazuki's Garment-Rending Sword Instruction Service",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10911,
+      "id": "rem_38672",
+      "jp": "メイドのハヅキさんがよりをかけて育てたオススメするメイドさんにむふふされるサービスを購入出来ます。昼はとっても働き者。そして夜ももちろん働き者とのこと(ハヅキ談)。",
+      "en": "You can purchase a service where you get *mufufu*'d by Hazuki's specially trained, highly recommended maids. Hard workers during the day, and of course at night too (according to Hazuki).",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10912,
+      "id": "rem_38673",
+      "jp": "メイドむふふサービス",
+      "en": "Maid Mufufu Service",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10913,
+      "id": "rem_38674",
+      "jp": "ハヅキさんが連れてきた新米の退魔メイドであるシズハ＆クレハのエッチ範囲が広くなる。いろいろやってもらうには、かなりのカネが必要になってしまう。",
+      "en": "Broadens the H-scene scope for Shizuha & Kureha, the novice exorcist maids Hazuki brought. Will cost a pretty penny to get them to do everything.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10914,
+      "id": "rem_38675",
+      "jp": "メイドのイヤイヤパイズリ",
+      "en": "Maid's Reluctant Paizuri",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10915,
+      "id": "rem_38676",
+      "jp": "メイドのあわあわプレイ",
+      "en": "Maid's Soapy Play",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10916,
+      "id": "rem_38677",
+      "jp": "メイドの処女喪失セックス",
+      "en": "Maid's Deflowering Sex",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10917,
+      "id": "rem_38678",
+      "jp": "メイドのイチャイチャ拘束プレイ",
+      "en": "Maid's Flirty Restraint Play",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10918,
+      "id": "rem_38679",
+      "jp": "メイドのイチャイチャ分身プレイ",
+      "en": "Maid's Flirty Clone Play",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10919,
+      "id": "rem_38680",
+      "jp": "メイドのイチャイチャ触手プレイ",
+      "en": "Maid's Flirty Tentacle Play",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10920,
+      "id": "rem_38681",
+      "jp": "メイドのイチャイチャ乱交プレイ",
+      "en": "Maid's Flirty Orgy Play",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10921,
+      "id": "rem_38682",
+      "jp": "メイドのイチャイチャ恋人えっち",
+      "en": "Maid Flirty Lover NSFW",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10922,
+      "id": "rem_38683",
+      "jp": "ハーヴェスタ・ノルマの支払いLv2",
+      "en": "Harvester Norma's Payment Lv2",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10923,
+      "id": "rem_38684",
+      "jp": "ハーヴェスタ・ノルマの支払いLv3",
+      "en": "Harvester Norma's Payment Lv3",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10924,
+      "id": "rem_38685",
+      "jp": "ハーヴェスタ・ノルマの支払いLv4",
+      "en": "Harvester Norma's Payment Lv4",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10925,
+      "id": "rem_38686",
+      "jp": "ハーヴェスタ・ノルマの支払いLv5",
+      "en": "Harvester Norma's Payment Lv5",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10926,
+      "id": "rem_38687",
+      "jp": "ハーヴェスタ・ノルマの支払いLv6",
+      "en": "Harvester Norma's Payment Lv6",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10927,
+      "id": "rem_38688",
+      "jp": "『アルダルク農業組合』で謝肉祭を開催するためのスポンサーになる。",
+      "en": "Become a sponsor for the 'Aldarc Agricultural Guild's' Carnivale.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10928,
+      "id": "rem_38689",
+      "jp": "農業Lv8・謝肉祭のスポンサー",
+      "en": "Agriculture Lv8: Carnivale Sponsor",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10929,
+      "id": "rem_38690",
+      "jp": "『ゴブリン』によって路頭に迷った村人を集め、大農場の開拓人員として雇い入れるための資金を提供する。ゼカリウス近郊に大農場を作れば、需要も満たせるはずだ。",
+      "en": "Provide funds to gather villagers displaced by Goblins and hire them as laborers to develop a large-scale farm. Establishing the farm near Zecarius should meet demand.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10930,
+      "id": "rem_38691",
+      "jp": "農業Lv10・大農場開拓資金の提供",
+      "en": "Agriculture Lv10: Fund Large Farm Development",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10931,
+      "id": "rem_38692",
+      "jp": "大量の料理素材を肥料に変換する、巨大で強力なコンポスターを開発する。生ゴミを高速で処分することが出来るため、店の汚染度が上がりにくくなるはず。",
+      "en": "Develop a huge, powerful composter that converts large quantities of cooking materials into fertilizer. It quickly disposes of waste, reducing shop filth buildup.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10932,
+      "id": "rem_38693",
+      "jp": "農業Lv12・巨大コンポスターの開発",
+      "en": "Agriculture Lv12: Giant Composter Development",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10933,
+      "id": "rem_38694",
+      "jp": "ゼカリウス近郊で開拓していた農場の規模が大きくなったことで、権利争いが起ってしまったらしい。領主として権利を買取り、無駄な争いを終わらせなければ。",
+      "en": "The farm developed near Zecarius has grown large, sparking a rights dispute. As the lord, I must buy the rights to end this pointless conflict.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10934,
+      "id": "rem_38695",
+      "jp": "農業Lv15・ゼカリウス大農場の購入",
+      "en": "Agriculture Lv15: Purchase Zecarius Grand Farm",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10935,
+      "id": "rem_38696",
+      "jp": "『大陸冒険者ギルド連盟』が主催する、新人冒険者強化計画のスポンサーになる。",
+      "en": "Become a sponsor for the 'Continental Adventurer Guild Alliance's' Rookie Adventurer Strengthening Plan.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10936,
+      "id": "rem_38697",
+      "jp": "冒険者Lv8・新人冒険者強化計画",
+      "en": "Adventurer Lv8: Rookie Adventurer Plan",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10937,
+      "id": "rem_38698",
+      "jp": "冒険者用の発注ライセンスを取得する。最上級ダンジョンへのクエストを発注することが出来る。これがあれば、ダンジョンへの事業投資が最大まで高めることが出来る。",
+      "en": "Acquire an adventurer commission license. Can issue quests for top-tier dungeons. This allows max investment in dungeon ventures.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10938,
+      "id": "rem_38699",
+      "jp": "冒険者Lv12・特級冒険者発注ライセンス",
+      "en": "Adventurer Lv12: Special Commission License",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10939,
+      "id": "rem_38700",
+      "jp": "『大陸冒険者ギルド連盟』が進める、新人冒険者強化計画のスポンサーになる？　ハーヴェスタは自分に資金を預けて欲しいと言っている。",
+      "en": "Become a sponsor for the 'Continental Adventurer Guild Alliance's' Rookie Adventurer Strengthening Plan? The Harvester wants me to entrust funds to them.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10940,
+      "id": "rem_38701",
+      "jp": "冒険者Lv15・初心者の館建造計画",
+      "en": "Adventurer Lv15: Novice Lodge Construction Plan",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10941,
+      "id": "rem_38702",
+      "jp": "商会Lv8・経営コンサルタントを依頼",
+      "en": "Guild Lv8: Hire a Management Consultant",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10942,
+      "id": "rem_38703",
+      "jp": "自分たちの店に支店を作り、ケインたちに任せることにする。支店が上手く回れば、ショップの売上げボーナスを得られるだろう。",
+      "en": "We'll have Kane and the others run a branch shop. If it runs well, we'll get a sales bonus.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10943,
+      "id": "rem_38704",
+      "jp": "商会Lv10・ケインたちに支店を任せる",
+      "en": "Guild Lv10: Let Kane Manage a Branch",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10944,
+      "id": "rem_38705",
+      "jp": "ネルディーネおすすめの、黄金の女神像を建築する。うーん、どこかで見たことがあるようなデザインだ……。建築すると、謎の力により売上がアップする。",
+      "en": "We'll build the golden goddess statue Neldine recommends. Hmm, the design looks familiar... Building it boosts sales through a mysterious power.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10945,
+      "id": "rem_38706",
+      "jp": "商会Lv15・黄金の女神像を建築",
+      "en": "Guild Lv15: Build the Golden Goddess Statue",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10946,
+      "id": "rem_38707",
+      "jp": "マリーゼルの知合いの彫刻家のパトロンになる。",
+      "en": "Become a patron for a sculptor acquainted with Marisel.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10947,
+      "id": "rem_38708",
+      "jp": "教会Lv8・宗教彫刻家のパトロン",
+      "en": "Church Lv8: Patron for a Religious Sculptor",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10948,
+      "id": "rem_38709",
+      "jp": "マリーゼルの知合いの彫刻家のパトロンになる。今度は何を彫るのだろう。",
+      "en": "Become a patron for a sculptor acquainted with Marisel. I wonder what they'll carve this time.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10949,
+      "id": "rem_38710",
+      "jp": "教会Lv10・聖女像を建てる資金提供",
+      "en": "Church Lv10: Fund a Saintess Statue",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10950,
+      "id": "rem_38711",
+      "jp": "教会Lv12・聖者像を立てる資金提供",
+      "en": "Church Lv12: Fund a Saint Statue",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10951,
+      "id": "rem_38712",
+      "jp": "『<ruby=ヒエペリオ>教会</ruby>』の大神殿を建築する資金に協力する。かなりの大工事で、数年がかりの大仕事になるだろう。",
+      "en": "",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "empty_en"
+      ]
+    },
+    {
+      "n": 10952,
+      "id": "rem_38713",
+      "jp": "教会Lv15・ゼカリウス大神殿の建築",
+      "en": "Build Level 15 Church: Great Temple of Zecarius",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10953,
+      "id": "rem_38714",
+      "jp": "困窮する『魔女達のお茶会』の薬師達を資金援助する。住む場所や施設を用意し、働く場を与えることで、錬金系商品の売値が高まるはず。",
+      "en": "Provide financial aid to the impoverished alchemists of the Witch's Tea Party. By offering them housing, facilities, and work opportunities, the selling price of alchemical goods should increase.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10954,
+      "id": "rem_38715",
+      "jp": "お茶会Lv8・恵まれない薬師の資金援助",
+      "en": "Tea Party Lv8 • Funding Aid for the Unfortunate Pharmacist",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10955,
+      "id": "rem_38716",
+      "jp": "カリストがデザインした高性能ポーションの生成工房を建設する。既存のポーションを遙かに上回る上級ポーションが出回れば、ポーション市場を独占できるというもくろみだが。",
+      "en": "Build a workshop to produce the high-performance potions designed by Callisto. The plan is to dominate the potion market by flooding it with superior potions that far surpass existing ones.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10956,
+      "id": "rem_38717",
+      "jp": "お茶会Lv10・高性能ポーション工房建設",
+      "en": "Tea Party Lv10・High-Performance Potion Workshop Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 10957,
+      "id": "rem_38718",
+      "jp": "既存のポーション市場を席巻するのは難しいようだ。まずはカリストが生産する高性能ポーションを買取り、それをうちの店舗のネットワークで売りさばき、認知度を上げていこう。",
+      "en": "Taking over the existing potion market seems difficult. First, we'll purchase the high-performance potions that Callisto produces, then sell them through our shop's network to build recognition.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10958,
+      "id": "rem_38719",
+      "jp": "お茶会Lv12・魔女の秘薬販売網の構築",
+      "en": "Tea Party Lv12 · Establish Witch Potion Sales Network",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10959,
+      "id": "rem_38720",
+      "jp": "サージとのほぼ無制限の交易権を得る。サージの商人に認められた証でもある。サージから流れる贅沢品の売値が大幅にアップする。高級品を売りさばこう。",
+      "en": "Gain nearly unlimited trade rights with Sarge. A symbol of recognition from Sarge's merchants. Selling price of luxury goods from Sarge increases significantly. Sell high-end items.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10960,
+      "id": "rem_38721",
+      "jp": "サージLv8・サージとの上級交易権獲得",
+      "en": "Surge Lv8 - Acquire Advanced Trade Rights with Surge",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10961,
+      "id": "rem_38722",
+      "jp": "主人公の名を騙り、サージから禁止物を買い付ける悪徳商人を取り締まる。取り締まれば交易が安定し、より安全に商品を取引することで商業活動が活発化する。",
+      "en": "Crack down on crooked merchants who use Ren's name to buy contraband from Surge. Doing so will stabilize trade and invigorate commerce by making transactions safer.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10962,
+      "id": "rem_38723",
+      "jp": "サージLv11・悪徳商人の取り締まり",
+      "en": "Surge Lv11 • Crackdown on Crooked Merchants",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10963,
+      "id": "rem_38724",
+      "jp": "フリズLv8・北方防衛への資金投入",
+      "en": "Frizz Lv8 • Funding for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10964,
+      "id": "rem_38725",
+      "jp": "アーマニア海戦の後処理を任せる。平穏な戦後処理にはカネが必要だ。",
+      "en": "Entrust them with the post-war handling of the Armena Naval Battle. A peaceful aftermath requires money.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10965,
+      "id": "rem_38726",
+      "jp": "フリズLv15・アーマニア海戦の後処理",
+      "en": "Frizz Lv15 • Post-War Handling of Armena Naval Battle",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10966,
+      "id": "rem_38727",
+      "jp": "『北方防衛要塞フリズ』に資金投入する。ノーザリアとは和平を結んだが、和平を結べない『ゴブリン』への対処はしなくてはならない。",
+      "en": "Invest funds into the Northern Defense Fortress Frizz. We've made peace with Northerlia, but we must still deal with the Goblins, who refuse peace.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10967,
+      "id": "rem_38728",
+      "jp": "フリズLv12・北方防衛への資金投入",
+      "en": "Frizz Lv12 • Funding for Northern Defense",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10968,
+      "id": "rem_38729",
+      "jp": "違法な魔術品が詐欺商品として流通している。魔術品は一般人を騙す典型的な品だ。それらが横行すると魔術品でトラブルも起るだろう。上手く管理して治安を守ろう。",
+      "en": "Illegal magical items are circulating as fraudulent goods. They are a typical product used to scam ordinary people. If they spread unchecked, it will cause trouble. Manage them well to protect public order.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10969,
+      "id": "rem_38730",
+      "jp": "学院Lv8・違法魔術品の取り締まり",
+      "en": "Academy Lv8 • Crackdown on Illegal Magical Items",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10970,
+      "id": "rem_38731",
+      "jp": "違法な魔術師ライセンスが出回り、未熟な魔術師が冒険者として登録されている。彼らが冒険に失敗すると『ソルシア学院』の魔術師の信用が失墜するしトラブルも増える。ライセンスを管理しよう。",
+      "en": "Illegal mage licenses are in circulation, and unskilled mages are registering as adventurers. If they fail on adventures, it will damage the credibility of Sorsia Academy mages and increase trouble. Manage the licenses.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10971,
+      "id": "rem_38732",
+      "jp": "学院Lv10・魔術師ライセンス管理機関",
+      "en": "Academy Lv10 • Mage License Management Office",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10972,
+      "id": "rem_38733",
+      "jp": "『ソルシア学院』の方から、魔術研究大学の設置を提案された。様々な学者系組織が協力して研究するための、学術的な研究施設である。大規模建築なのでカネがかかる。",
+      "en": "Sorsia Academy has proposed building a Magical Research University. It's an academic research facility for various scholarly organizations to collaborate. It's a large-scale construction, so it will be costly.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10973,
+      "id": "rem_38734",
+      "jp": "学院Lv12・魔術研究大学の建築",
+      "en": "Academy Lv12 • Construction of Magical Research University",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10974,
+      "id": "rem_38735",
+      "jp": "『ソルシア学院』の最高機関である、最上級魔術を研究する魔術の最高学府を設置する。建築することで最上級の魔術師が集まり、彼らへの売上はさらに高まるだろう。",
+      "en": "Establish a Tower of Mages, the highest institution of Sorsia Academy, dedicated to studying supreme-level magic. Building it will attract top-tier mages, and sales to them will increase further.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10975,
+      "id": "rem_38736",
+      "jp": "学院Lv15・魔術師の塔の設置",
+      "en": "Academy Lv15 • Establishment of Tower of Mages",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10976,
+      "id": "rem_38737",
+      "jp": "ゼカリウスの街を取り囲む、巨大な防壁を建築する。大規模な建築なので、相当な資金が必要だが、建築することで住人は安心して移住することになる。客の流入数が増えるだろう。",
+      "en": "Build a massive defensive wall surrounding the city of Zecarius. It's a large-scale construction requiring significant funds, but doing so will give residents peace of mind to migrate here. The influx of customers will increase.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10977,
+      "id": "rem_38738",
+      "jp": "騎士団Lv8・ゼカリウス防壁の建築",
+      "en": "Knights Lv8 • Construction of Zecarius Wall",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10978,
+      "id": "rem_38739",
+      "jp": "ゼカリウス防壁を建築したことで住人が流入したが、住居の整備が間に合わない。このままではスラム街が生まれてしまい、治安が悪化してしまう。住宅街を整備することで、犯罪が起こる確率を下げられるだろう。",
+      "en": "Building the Zecarius Wall caused an influx of residents, but housing preparation can't keep up. This could lead to slums and worsen public safety. Developing a residential area will lower the crime rate.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10979,
+      "id": "rem_38740",
+      "jp": "騎士団Lv10・住宅街の大幅整備",
+      "en": "Knights Lv10 • Major Residential Area Development",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10980,
+      "id": "rem_38741",
+      "jp": "海賊女帝アーマニアの財宝が眠る遺跡の手がかりが見つかったらしい。海中にあるらしいが、付近には強力な魔獣の影が見える。発掘調査にはかなりの資金が必要だ。",
+      "en": "A clue to the ruins where the Pirate Empress Armena's treasure sleeps has been found. It's said to be underwater, but powerful magical beasts lurk nearby. The excavation survey will require considerable funds.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10981,
+      "id": "rem_38742",
+      "jp": "漁業Lv10・海賊女帝伝説プロジェクト",
+      "en": "Fishing Lv10: Pirate Empress Legend Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10982,
+      "id": "rem_38743",
+      "jp": "イルニエルの皆とを改築し、軍艦と漁船が共に停泊できるようにする。ふたたびノーザリアのような外敵に攻められることに備えて、軍艦も停泊できるようにしよう。",
+      "en": "Expand Iluniel's harbor to dock warships alongside fishing boats. This is to prepare for potential attacks from forces like Nosalia.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10983,
+      "id": "rem_38744",
+      "jp": "漁業Lv12・イルニエル港の大幅改築",
+      "en": "Fishing Lv12: Major Iluniel Harbor Expansion",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10984,
+      "id": "rem_38745",
+      "jp": "老朽化した大灯台の改築を行なう。古代文明の産物である大灯台を完全に解体することはできないが、安全なルートを開拓することでメンテナンスを容易にする。",
+      "en": "Renovate the old Great Lighthouse. While we can't dismantle this ancient relic, we can create safe access routes for easier maintenance.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10985,
+      "id": "rem_38746",
+      "jp": "漁業Lv15・大灯台の改築プロジェクト",
+      "en": "Fishing Lv15: Great Lighthouse Renovation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10986,
+      "id": "rem_38747",
+      "jp": "ルーラ・ブロッサ娼会の『淫魔』を住まわせる娼館を建築する。ルーシェたちが目を光らせているので、悪さはしない……はず。娼館の売上の一部は店の売上げとしてボーナスが与えられる。",
+      "en": "Build a brothel for the 'Succubi' of the Lura Blossa Brothel Guild. They shouldn't cause trouble with Lusche watching... Part of their income will become bonus store revenue.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10987,
+      "id": "rem_38748",
+      "jp": "娼会Lv12・淫魔娼館を建築",
+      "en": "Brothel Lv12: Build a Succubus Brothel",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10988,
+      "id": "rem_38749",
+      "jp": "新しい坑道が見つかり、その発掘に協力する。かなりの資金を提供することになるが、これでも足りないほどの大規模な鉱脈であるらしい。非常に大きいプロジェクトだ。",
+      "en": "A new mine shaft has been found. Provide major funding to assist its excavation. It's a massive, ambitious project.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10989,
+      "id": "rem_38750",
+      "jp": "鉱山Lv15・新坑道発掘プロジェクト",
+      "en": "Mining Lv15: New Shaft Excavation Project",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10990,
+      "id": "rem_38751",
+      "jp": "ドルワミール鉱山から、非常に貴重な鉱石が見つかったらしい。それをうちのメンバーの装備強化に使おうとのことだ。戦力アップが図れるだろう。",
+      "en": "A rare ore was found in the Doluamir mine. We'll use it to upgrade our members' equipment, boosting our combat power.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10991,
+      "id": "rem_38752",
+      "jp": "鉱山Lv8・専用装備のための鉱石",
+      "en": "Mining Lv8: Ore for Custom Equipment",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10992,
+      "id": "rem_38753",
+      "jp": "ドルワミール鉱山から伝説級の鉱石が見つかったらしく、アンジュが大興奮している。それがあれば最強装備が作れるそうだが、ドワーム族のご神体に匹敵するらしく、その買い取りにはとてつもない金額が必要になる。",
+      "en": "A legendary ore was found, and Anju is ecstatic. It can forge ultimate gear, but its price is astronomical, rivaling a Dwarm holy relic.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10993,
+      "id": "rem_38754",
+      "jp": "鉱山Lv12・伝説の鉱石の買取り代金",
+      "en": "Mining Lv12: Payment for Legendary Ore",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10994,
+      "id": "rem_38755",
+      "jp": "ソルネッタと結婚することになってしまった。結納金を払わなければならないらしい。投資すると主人公の甲斐性を見直して、パートナーの能力がアップする。",
+      "en": "You're to marry Solnetta. A betrothal gift is required. This investment shows your worth and boosts your partner's abilities.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10995,
+      "id": "rem_38756",
+      "jp": "自警団Lv10・ソルネッタとの結納金？",
+      "en": "Militia Lv10: Solnetta's Betrothal Gift?",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10996,
+      "id": "rem_38757",
+      "jp": "『ロオン遺跡調査団』が発掘した古文書を保管しよう。適当な小屋を建築させようとしたが、カリストたちからしっかりとした施設を作るよう説得されてしまい、大図書館を建築することに。",
+      "en": "Store ancient documents found by the 'Loan Ruins Survey Team'. Callisto insisted on a proper facility, so we're building a grand library instead of a simple shed.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10997,
+      "id": "rem_38758",
+      "jp": "調査団Lv10・古代図書館の建築",
+      "en": "Survey Team Lv10: Ancient Library Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10998,
+      "id": "rem_38759",
+      "jp": "『ロオン遺跡調査団』のメンバーの住居兼研究所である、大規模基地を建設する。住居が安定することで、調査団は末永くこの地で研究を行なうことが出来るだろう。",
+      "en": "Build a large base for the Loan Ruins Survey Team, serving as both housing and labs. Stable lodgings will support their long-term research here.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 10999,
+      "id": "rem_38760",
+      "jp": "調査団Lv12・調査団の大規模基地建設",
+      "en": "Survey Team Lv12: Survey Team Base Construction",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    },
+    {
+      "n": 11000,
+      "id": "rem_38761",
+      "jp": "『ロオン遺跡調査団』の発掘成果を保存する、記念大博物館を建築する。博物館を建設することで、大陸各地の遺跡学者が集う研究施設にもなり、さらには観光地にもなる。売上の一部は店に入る。",
+      "en": "Build a grand museum to preserve the Survey Team's finds. It will become a research hub for archaeologists and a tourist attraction. Part of its revenue goes to the store.",
+      "table": "db_ClubToushiZigyou",
+      "category": "remaining_table"
+    }
+  ]
+}

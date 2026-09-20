@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 201,
+  "range_end": 300,
+  "pairs": [
+    {
+      "n": 201,
+      "id": "db_EventInfo:452:112",
+      "jp": "そりゃそうなんだけど……だからといって、あんなガラの悪いヤツ雇うかねぇ",
+      "en": "That's true but... still, should we have hired such a shady guy?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 202,
+      "id": "db_EventInfo:453:113",
+      "jp": "そうだよねぇ……無事だと良いけど",
+      "en": "Yeah... I hope they're okay.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 203,
+      "id": "db_EventInfo:454:113",
+      "jp": "くふふふ……",
+      "en": "Kufufufu...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 204,
+      "id": "db_EventInfo:455:112",
+      "jp": "なんだ、気持ち悪いな",
+      "en": "What's with that, it's creepy.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 205,
+      "id": "db_EventInfo:456:113",
+      "jp": "【『ロオン遺跡調査団』】ってあるでしょ？",
+      "en": "You know about the 'Loon Ruins Survey Team,' right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 206,
+      "id": "db_EventInfo:457:113",
+      "jp": "【『ゼカリウス地下図書館』】の護衛を募集してたから、行ってきたのよ",
+      "en": "They were recruiting guards for the 'Zecarius Underground Library,' so I went.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 207,
+      "id": "db_EventInfo:458:112",
+      "jp": "ん？　頭が痛くなりそうだったから、俺は断ったヤツか……それがどうした",
+      "en": "Huh? That one I turned down because it sounded like a headache... What about it?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 208,
+      "id": "db_EventInfo:459:113",
+      "jp": "そこにいた【『<ruby=ソルシア>学院</ruby>』】の研修生ってのがカワイくてなぁД",
+      "en": "There was this trainee from the 'Solcia Academy' there who was just so cute Д",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 209,
+      "id": "db_EventInfo:460:112",
+      "jp": "また言ってる。あんまイジメんじゃねーぞ？",
+      "en": "There you go again. Don't bully 'em too much, alright?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 210,
+      "id": "db_EventInfo:461:113",
+      "jp": "わかってるってД",
+      "en": "I know, I know Д",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 211,
+      "id": "db_EventInfo:462:113",
+      "jp": "くふふ、でもひ弱そうだしぃ？　暗い地下図書館のナカじゃナニがあってもおかしくないよな？",
+      "en": "Hehehe, but they look so frail, right? In a dark underground library, anything could happen, couldn't it?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 212,
+      "id": "db_EventInfo:463:112",
+      "jp": "お前いい加減にしろよ",
+      "en": "You need to cut that out, seriously.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 213,
+      "id": "db_EventInfo:465:113",
+      "jp": "だ、大丈夫か？　また【『ゴブリン』】に輪姦されたのか？",
+      "en": "Wh-what's wrong? Did the 'Goblins' gang-rape you again?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 214,
+      "id": "db_EventInfo:466:112",
+      "jp": "されてねーよ！",
+      "en": "No, they didn't!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 215,
+      "id": "db_EventInfo:467:112",
+      "jp": "その、なんというか、こっちの方に【『ジルド聖騎士団』】ってのが滞在してるだろ？",
+      "en": "It's, well... you know how the 'Jild Holy Knight Order' is staying around here?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 216,
+      "id": "db_EventInfo:468:113",
+      "jp": "ああ【『<ruby=ヒエペリオ>教会</ruby>』】のエリートの人たちだな",
+      "en": "Ah, the elite folks from the 'Hieperio Church.'",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 217,
+      "id": "db_EventInfo:469:113",
+      "jp": "わはは、さては団長の黒将軍ローグバルトが目当てなんだろ？",
+      "en": "Wahaha, so your target is the captain, the Black General Rogubaruto, right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 218,
+      "id": "db_EventInfo:470:113",
+      "jp": "やめとけって、アイツは副官の女司祭リリエーヌが狙ってて、近づこうとすると魔術で攻撃されたぞ",
+      "en": "I'd stop if I were you. That guy is being targeted by his vice-captain, the priestess Lilienne. If you try to get close, she'll attack you with magic, you know.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 219,
+      "id": "db_EventInfo:471:112",
+      "jp": "経験談かよ",
+      "en": "That sounds like a personal story.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 220,
+      "id": "db_EventInfo:472:112",
+      "jp": "いや俺の目当ては、ヒラの聖騎士団なんだよな。名声はないけど、気の良い奴で",
+      "en": "Nah, my target is just a regular member of the Holy Knights. Not famous, but a good-natured guy.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 221,
+      "id": "db_EventInfo:473:112",
+      "jp": "ちょっとしたクエストについていったら、その、良い感じになっちゃって……",
+      "en": "I tagged along on a small quest with him, and, well... things got kinda nice...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 222,
+      "id": "db_EventInfo:474:113",
+      "jp": "なっちゃって？",
+      "en": "Things got kinda nice?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 223,
+      "id": "db_EventInfo:475:112",
+      "jp": "……付き合うことになった",
+      "en": "...We started dating.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 224,
+      "id": "db_EventInfo:476:113",
+      "jp": "ヒュー。まじかよ。こんなゴリラを選ぶとは物好きな",
+      "en": "Whew. Seriously? They have peculiar taste to choose someone like you, a gorilla.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 225,
+      "id": "db_EventInfo:477:112",
+      "jp": "うるせーな……くふふ。これで俺も可愛いお嫁さんか……",
+      "en": "Shut up... *snicker*. So, I'm getting a cute wife too, huh...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 226,
+      "id": "db_EventInfo:478:113",
+      "jp": "……気が早いな",
+      "en": "...Jumping the gun a bit, aren't you?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 227,
+      "id": "db_EventInfo:479:112",
+      "jp": "くふふ……お嫁さん……くふふ……",
+      "en": "*snicker*... wife... *snicker*...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 228,
+      "id": "db_EventInfo:480:113",
+      "jp": "気持ち悪いな",
+      "en": "That's creepy.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 229,
+      "id": "db_EventInfo:481:113",
+      "jp": "浮かれるのは良いけど、べつに結婚してないんだから、気を抜くなよ？",
+      "en": "It's fine to be happy, but you're not married yet, so don't let your guard down, okay?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 230,
+      "id": "db_EventInfo:482:112",
+      "jp": "わ、わかってるって",
+      "en": "I-I know that!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 231,
+      "id": "db_EventInfo:483:112",
+      "jp": "でもまー、俺が冒険者を辞める日も近いな？　俺が【『ジルド聖騎士団』】の団員に？　あはは！",
+      "en": "But hey, the day I quit being an adventurer must be close, right? Me, a member of the [『Guild Holy Knight Order』]? Ahaha!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 232,
+      "id": "db_EventInfo:484:113",
+      "jp": "浮かれまくってるなー、フラレてもしらねーぞ",
+      "en": "You're absolutely giddy. You might get rejected, you know?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 233,
+      "id": "db_EventInfo:485:113",
+      "jp": "アイツらエリートなんだし。最近も、なんか大きなミッションが控えてて慌ただしかったぞ",
+      "en": "Those guys are elite. They've been really busy lately too, with some big mission coming up.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 234,
+      "id": "db_EventInfo:486:112",
+      "jp": "ふ、フラレるわけねーし！　もうプロポーズもされてるーし！！",
+      "en": "I-I won't get rejected! He's already proposed!!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 235,
+      "id": "db_EventInfo:487:113",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 236,
+      "id": "db_EventInfo:488:112",
+      "jp": "次のミッションはとても大事だから式は挙げられないけど、このミッションが終わったら結婚しようって……",
+      "en": "He said he can't hold a ceremony because the next mission is very important, but that we'll get married after this mission is over...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 237,
+      "id": "db_EventInfo:489:113",
+      "jp": "おいやめろ馬鹿",
+      "en": "Hey, stop it, you idiot.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 238,
+      "id": "db_EventInfo:491:113",
+      "jp": "だ、大丈夫か……？",
+      "en": "A-Are you okay...?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 239,
+      "id": "db_EventInfo:493:113",
+      "jp": "ううっ、さすがに気の毒すぎて声もかけられない……",
+      "en": "Ugh, I really can't even bring myself to talk to her, it's just too pitiful...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 240,
+      "id": "db_EventInfo:494:113",
+      "jp": "まさか【『ジルド聖騎士団』】が壊滅して団長と多くの騎士団員が死亡するなんて……",
+      "en": "Who would have thought the [『Guild Holy Knight Order』] would be annihilated, with the Grand Master and many knights dead...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 241,
+      "id": "db_EventInfo:495:113",
+      "jp": "運良く残った生き残りも【『邪教徒』】として寝返って、女司祭リリエーヌを輪姦したあと【『邪教徒』】の生け贄になって死亡",
+      "en": "The lucky survivors who remained also turned traitor as 【'Cultists'】, gang-raped the priestess Lilienne, and then died as 【'Cultists'】 sacrifices.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 242,
+      "id": "db_EventInfo:496:113",
+      "jp": "最後に残ったのは正気を失った女司祭だけ……しかもジャネットの婚約者は寝返ったヤツの方だった……とは",
+      "en": "In the end, only the deranged priestess was left... and to top it off, Janet's fiancé was among those who turned traitor...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 243,
+      "id": "db_EventInfo:497:112",
+      "jp": "うわあああああああんん！！！",
+      "en": "Waaaaaaaaaaaaaah!!!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 244,
+      "id": "db_EventInfo:498:112",
+      "jp": "こうなったらヤケよ！　【『ボルケミア火山』】にいる【『邪教徒』】の生き残りども、全員叩っ斬ってやる！",
+      "en": "I've had it up to here! I'll slash every last one of those surviving 【'Cultists'】 at 【'Volkemia Volcano'】!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 245,
+      "id": "db_EventInfo:499:113",
+      "jp": "そういやアタシらって、どうやって助かったんだっけ",
+      "en": "Speaking of which, how did we manage to get saved again?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 246,
+      "id": "db_EventInfo:500:112",
+      "jp": "んんー？",
+      "en": "Hmmm?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 247,
+      "id": "db_EventInfo:501:113",
+      "jp": "いやさ、【『ゴブリン』】に輪姦されてた時の記憶がおぼろげでさ",
+      "en": "Well, my memory of when we were being gang-raped by 【'Goblins'】 is all hazy.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 248,
+      "id": "db_EventInfo:502:113",
+      "jp": "お互いひでえ目にあったわりに、今じゃ、どこか他人事みたいになっちゃってるじゃん？",
+      "en": "Even though we both went through hell, now it kind of feels like it happened to someone else, doesn't it?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 249,
+      "id": "db_EventInfo:503:112",
+      "jp": "たしかに。ヤられてボテらされた直後は荒れてたけど、なんか忘れちゃったよな",
+      "en": "True. Right after being violated and messed up, I was furious, but somehow I just forgot about it.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 250,
+      "id": "db_EventInfo:504:113",
+      "jp": "その時、すごく【いい男】に助けられた気がするんだよねぇ。忘れちゃったけど",
+      "en": "I have a feeling we were saved by a really 【handsome man】 back then. I just can't remember.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 251,
+      "id": "db_EventInfo:505:112",
+      "jp": "俺も俺も、でも顔を思い出せないんだよなぁ",
+      "en": "Same here, same here, but I just can't picture his face.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 252,
+      "id": "db_EventInfo:506:113",
+      "jp": "それ、もしかして街でウワサになってる、評判の【『勇者』】ラシェウスだったり？",
+      "en": "Could that, perhaps, be the famous 【'Hero'】 Rasieus who's the talk of the town?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 253,
+      "id": "db_EventInfo:507:112",
+      "jp": "ないない、なんかもっと特徴の無い男だぜ！",
+      "en": "Nah, nah, he's a guy with even less distinguishing features!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 254,
+      "id": "db_EventInfo:508:113",
+      "jp": "誰なんだろねぇ。今となっては、どうでもいいけどさ",
+      "en": "Wonder who he is. Doesn't really matter now, I guess.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 255,
+      "id": "db_EventInfo:509:112",
+      "jp": "評判の【『勇者』】ラシェウスはたしかに強い。【『勇者』】は伊達ではないし、仲間の二人も凄腕だ",
+      "en": "The rumored [Hero] Rasieus is definitely strong. The title of [Hero] isn't for show, and his two companions are also incredibly skilled.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 256,
+      "id": "db_EventInfo:510:112",
+      "jp": "しかし、あの三人だけで【『災厄制御機関ゼカリウス』】を制覇したとは、どうも思えないんだよな",
+      "en": "But somehow, I just can't believe that trio alone managed to conquer [the Zecarius Calamity Control Agency].",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 257,
+      "id": "db_EventInfo:511:113",
+      "jp": "たしかに……アタシらも、敵兵相手に大苦戦したもんねぇ",
+      "en": "True... We had a real tough fight against those enemy troops ourselves.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 258,
+      "id": "db_EventInfo:512:112",
+      "jp": "後から行ったら、俺らが倒した何十倍の死骸が転がっていたけど",
+      "en": "When we went in later, there were corpses scattered about—dozens of times more than the ones we took down—but...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 259,
+      "id": "db_EventInfo:513:112",
+      "jp": "あんなバケモノどもを一蹴するほど、強いようには見えないもんね。見かけによらないとか？",
+      "en": "They don't seem strong enough to have wiped out all those monsters in one go. Maybe looks can be deceiving?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 260,
+      "id": "db_EventInfo:514:113",
+      "jp": "確かにそうだよな。【相手の力量を数値化】とかできれば、そんな疑問もなくなるのによぉ",
+      "en": "Yeah, you're right. If only we could [quantify an opponent's strength into numerical values], we wouldn't have these doubts.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 261,
+      "id": "db_EventInfo:515:112",
+      "jp": "あはは。そんなのできるわけねーしД",
+      "en": "Ahaha. That's impossibleД.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 262,
+      "id": "db_EventInfo:516:112",
+      "jp": "うーん、調子出ねえなぁ……",
+      "en": "Ugh, just can't get into the groove...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 263,
+      "id": "db_EventInfo:517:113",
+      "jp": "まあなぁ……",
+      "en": "Well, yeah...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 264,
+      "id": "db_EventInfo:518:112",
+      "jp": "本当ならもっとガンガンに冒険しまくってるはずなのに、この店で働くことになっちゃったし",
+      "en": "We *should* be out there adventuring like crazy right now, but instead, we ended up working in this shop.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 265,
+      "id": "db_EventInfo:519:113",
+      "jp": "まあ調子悪いときに無理することもないってことでしょ",
+      "en": "Well, I guess you shouldn't push yourself when you're not feeling well.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 266,
+      "id": "db_EventInfo:520:112",
+      "jp": "それもそうか。しばらくは【『接客』】頑張るかね",
+      "en": "That's true too. I'll just focus on [Hospitality] for a while, I guess.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 267,
+      "id": "db_EventInfo:521:113",
+      "jp": "きゃはは！　アンタみたいないかつい女は、【『防犯』】でもしとけよ",
+      "en": "Kyaha ha! A tough-looking woman like you should stick with [Security]!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 268,
+      "id": "db_EventInfo:522:112",
+      "jp": "なんだとー！？",
+      "en": "What did you say!?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 269,
+      "id": "db_EventInfo:523:112",
+      "jp": "うーん、あの学者さんについていくべきだったかねぇ",
+      "en": "Hmm, maybe I should've followed that scholar...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 270,
+      "id": "db_EventInfo:524:113",
+      "jp": "いやいや、ギャラが無いって断られたじゃない",
+      "en": "No way, we turned him down because he asked for too high a fee.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 271,
+      "id": "db_EventInfo:525:112",
+      "jp": "そりゃそうなんだけど……だからといって、あんなガラの悪いヤツ雇うかねぇ",
+      "en": "Well, that's true... But even so, do we really have to hire such a shady guy?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 272,
+      "id": "db_EventInfo:526:113",
+      "jp": "そうだよねぇ……無事だと良いけど",
+      "en": "Yeah, right... I hope everything goes well.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 273,
+      "id": "db_EventInfo:527:113",
+      "jp": "くふふふ……",
+      "en": "Kufufu...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 274,
+      "id": "db_EventInfo:528:112",
+      "jp": "なんだ、気持ち悪いな",
+      "en": "What is it? That's creepy.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 275,
+      "id": "db_EventInfo:529:113",
+      "jp": "【『ロオン遺跡調査団』】ってあるでしょ？",
+      "en": "You know about the [Roon Ruins Survey Team], right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 276,
+      "id": "db_EventInfo:530:113",
+      "jp": "【『ゼカリウス地下図書館』】の護衛を募集してたから、行ってきたのよ",
+      "en": "They were recruiting guards for the [Zecarius Underground Library], so I went there.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 277,
+      "id": "db_EventInfo:531:112",
+      "jp": "ん？　頭が痛くなりそうだったから、俺は断ったヤツだな……それがどうした",
+      "en": "Huh? That was me who refused because I thought it was gonna give me a headache... What about it?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 278,
+      "id": "db_EventInfo:532:113",
+      "jp": "そこにいた【『<ruby=ソルシア>学院</ruby>』】の研修生ってのがカワイくてなぁД",
+      "en": "Well, that trainee from the <ruby=Solsia>Academy</ruby> who was there was really cuteД",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 279,
+      "id": "db_EventInfo:533:112",
+      "jp": "また言ってる。あんまイジメんじゃねーぞ？",
+      "en": "There you go again. Don't bully 'em too much, alright?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 280,
+      "id": "db_EventInfo:534:113",
+      "jp": "わかってるってД",
+      "en": "I know, I knowД",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 281,
+      "id": "db_EventInfo:535:113",
+      "jp": "くふふ、でもひ弱そうだしぃ？　暗い地下図書館のナカじゃナニがあってもおかしくないよな？",
+      "en": "Hehehe, but they look so fragile, right? In a dark, underground library, anything could happen, couldn't it?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 282,
+      "id": "db_EventInfo:536:112",
+      "jp": "お前いい加減にしろよ",
+      "en": "Knock it off already, will you?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 283,
+      "id": "db_EventInfo:538:113",
+      "jp": "だ、大丈夫か？　顔が赤いが、また風邪引いたのか？",
+      "en": "Wh-what's wrong? Your face is all red, did you catch a cold again?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 284,
+      "id": "db_EventInfo:539:112",
+      "jp": "そうじゃねーよ！",
+      "en": "That's not it!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 285,
+      "id": "db_EventInfo:540:112",
+      "jp": "その、なんというか、こっちの方に【『ジルド聖騎士団』】ってのが滞在してるだろ？",
+      "en": "Well, um, you know how the <ruby=Hieperio>Church</ruby>'s <ruby=Jirudo>Holy Knight Order</ruby> is staying on our side of town, right?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 286,
+      "id": "db_EventInfo:541:113",
+      "jp": "ああ【『<ruby=ヒエペリオ>教会</ruby>』】のエリートの人たちだな",
+      "en": "Yeah, the elite group from the <ruby=Hieperio>Church</ruby>.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 287,
+      "id": "db_EventInfo:542:113",
+      "jp": "わはは、さては団長の黒将軍ローグバルトが目当てなんだろ？",
+      "en": "Wahaha, I bet you've got your eye on their leader, the Black General Rogubaruto?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 288,
+      "id": "db_EventInfo:543:113",
+      "jp": "やめとけって、アイツは副官の女司祭リリエーヌが狙ってて、近づこうとすると魔術で攻撃されたぞ",
+      "en": "Give it up. His adjutant, Priestess Lilienne, has her sights on him. She'll attack with magic if you try to get close.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 289,
+      "id": "db_EventInfo:544:112",
+      "jp": "経験談かよ",
+      "en": "So that's your personal experience, huh?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 290,
+      "id": "db_EventInfo:545:112",
+      "jp": "いや俺の目当ては、ヒラの聖騎士団なんだよな。名声はないけど、気の良い奴で",
+      "en": "Nah, my target's a regular guy from the Holy Knights. No fame, but a good-natured fella.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 291,
+      "id": "db_EventInfo:546:112",
+      "jp": "ちょっとしたクエストについていったら、その、良い感じになっちゃって……",
+      "en": "I tagged along on a small quest, and, well... things just kinda got nice between us...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 292,
+      "id": "db_EventInfo:547:113",
+      "jp": "なっちゃって？",
+      "en": "Got nice...?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 293,
+      "id": "db_EventInfo:548:112",
+      "jp": "……付き合ってくれって",
+      "en": "...He asked me out.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 294,
+      "id": "db_EventInfo:549:113",
+      "jp": "ヒュー。まじかよ。こんなゴリラを選ぶとは物好きな",
+      "en": "Whoa. Seriously? Someone's got peculiar taste to pick a gorilla like you.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 295,
+      "id": "db_EventInfo:550:112",
+      "jp": "うるせーな……くふふ。モテ期って奴だな。俺も可愛いお嫁さんか……",
+      "en": "Shut up... Heheh. Guess it's my time to shine, huh? Maybe I'll get myself a cute wife too...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 296,
+      "id": "db_EventInfo:551:113",
+      "jp": "……気が早いな",
+      "en": "...Getting ahead of yourself, aren't you?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 297,
+      "id": "db_EventInfo:552:112",
+      "jp": "くふふ……お嫁さん……くふふ……",
+      "en": "Heheh... A wife... Heheh...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 298,
+      "id": "db_EventInfo:553:113",
+      "jp": "気持ち悪いな",
+      "en": "You're creeping me out.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 299,
+      "id": "db_EventInfo:554:113",
+      "jp": "浮かれるのは良いけど、べつに結婚してないんだから、気を抜くなよ？",
+      "en": "Fine, get all giddy, but you're not married yet, so don't let your guard down, okay?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 300,
+      "id": "db_EventInfo:555:112",
+      "jp": "わ、わかってるって。しかしどうすっかなД　【<pl>】は気にしてくれっかなД",
+      "en": "Y-yeah, I know. But what should I doД Do you think 【<pl>】 will careД",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 99401,
+  "range_end": 99500,
+  "pairs": [
+    {
+      "n": 99401,
+      "id": "db_EventInfo:117304:0",
+      "jp": "黒将軍達は去っていった。",
+      "en": "The Black General and his group left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99402,
+      "id": "db_EventInfo:117305:2",
+      "jp": "ふむ……私達も普通の人間ではないデスし、中々カンの鋭いヤツかもしれんデス",
+      "en": "Hmm... We're not exactly normal humans either, Death. That one might be pretty sharp, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99403,
+      "id": "db_EventInfo:117306:6",
+      "jp": "異端審問官は【『<ruby=ヒエペリオ>教会</ruby>』】でも特に激しい人々と聞いています",
+      "en": "I've heard the Inquisitors are especially intense people, even within the Church.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99404,
+      "id": "db_EventInfo:117307:6",
+      "jp": "【『邪教徒』】に多くの仲間を犠牲にされたため、審問官は邪教を特に強く憎んでいる人々が多いとのことです",
+      "en": "Because many of their comrades have been lost to 'heretics', many Inquisitors are said to particularly hate heresy.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99405,
+      "id": "db_EventInfo:117308:6",
+      "jp": "リーダーの彼も、【妻子を邪教徒に殺されて】いると噂を聞いたことがありますわ",
+      "en": "I heard a rumor that their leader also had his wife and children killed by heretics.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99406,
+      "id": "db_EventInfo:117309:2",
+      "jp": "しかし、見るべき者を間違っていては、意味がないデスね……",
+      "en": "But, looking in the wrong place is meaningless, Death...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99407,
+      "id": "db_EventInfo:117311:2",
+      "jp": "ふっふ……死神代行助手も沢山できたデスね",
+      "en": "Heheh... The Shinigami Agent now has many assistants, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99408,
+      "id": "db_EventInfo:117312:1",
+      "jp": "そうだな",
+      "en": "Yeah, that's right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99409,
+      "id": "db_EventInfo:117313:2",
+      "jp": "これならば、【『災厄』】を止めるまでオマエの寿命も保てそうデスね",
+      "en": "With this, your lifespan should last long enough to stop the 'Calamity', Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99410,
+      "id": "db_EventInfo:117314:1",
+      "jp": "いつも金の事ばかりに見えたが……忘れてなかったんだな？",
+      "en": "You always seemed to only care about the money... You hadn't forgotten?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99411,
+      "id": "db_EventInfo:117315:2",
+      "jp": "失礼デスね！",
+      "en": "Excuse me!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99412,
+      "id": "db_EventInfo:117316:2",
+      "jp": "ここまでオマエの寿命が延びたなら、一度は【『災厄』】に到達しているのではないデス？",
+      "en": "Since your lifespan has stretched this far, you must have reached the 'Calamity' once already, no?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99413,
+      "id": "db_EventInfo:117317:2",
+      "jp": "まあ、私たちがまだいるということは、【『災厄』】は去ってないということデスが",
+      "en": "Well, the fact that we're still here means the 'Calamity' hasn't left yet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99414,
+      "id": "db_EventInfo:117318:2",
+      "jp": "あと一歩デス。これからも頑張るデスよ",
+      "en": "Just one more step. Keep at it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99415,
+      "id": "db_EventInfo:117319:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99416,
+      "id": "db_EventInfo:117320:1",
+      "jp": "……しかし何だか、忘れているような？",
+      "en": "...But it's weird. I feel like I'm forgetting something?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99417,
+      "id": "db_EventInfo:117323:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99418,
+      "id": "db_EventInfo:117326:0",
+      "jp": "一方その頃……",
+      "en": "Meanwhile, elsewhere...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99419,
+      "id": "db_EventInfo:117327:10",
+      "jp": "なんだろう、仲間はずれにされているような気がするぞ……",
+      "en": "What's this... I feel like I'm being left out...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 99420,
+      "id": "db_EventInfo:117328:10",
+      "jp": "なんだか、すごく……",
+      "en": "It's a really strong feeling...",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 99421,
+      "id": "db_EventInfo:117330:12",
+      "jp": "【『ゼカリウス地下図書館』】なのですが、【『ゴブリン』】の養殖装置が見つかったそうです",
+      "en": "It's about 'Zecarius Underground Library'. They found what seems to be a Goblin breeding facility.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99422,
+      "id": "db_EventInfo:117331:12",
+      "jp": "【『ソルシア魔導船団』】にあったものと同じものだそうで",
+      "en": "Apparently it's the same kind that was on the 'Solthia Magical Ship Fleet'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99423,
+      "id": "db_EventInfo:117332:9",
+      "jp": "しかし【『<ruby=ソルシア>学院</ruby>』】の魔術師どもは知らんらしい。どうやら何者かによって運び込まれているようであるな",
+      "en": "But the mages of Solthia Academy don't seem to know. It looks like someone is bringing them in.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99424,
+      "id": "db_EventInfo:117334:101",
+      "jp": "おそらく領主ゼルカの仕業だ",
+      "en": "Probably the work of Lord Zelka.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99425,
+      "id": "db_EventInfo:117335:2",
+      "jp": "異端審問官の黒将軍デスか、また来たのデス？",
+      "en": "The Black General of the Inquisition, Death? Did you come again, Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99426,
+      "id": "db_EventInfo:117336:101",
+      "jp": "ふん……貴様らに【『邪教徒』】の情報をくれてやろうと思ってな",
+      "en": "Hmph... I was thinking of giving you some information on the 'heretics'.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99427,
+      "id": "db_EventInfo:117337:1",
+      "jp": "【『邪教徒』】の……？",
+      "en": "The 'heretics'...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99428,
+      "id": "db_EventInfo:117338:101",
+      "jp": "ああ……",
+      "en": "Yeah...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99429,
+      "id": "db_EventInfo:117339:101",
+      "jp": "【『ゴブリン』】の養殖装置だが、同じモノがゼルカの屋敷から発見された",
+      "en": "It's a Goblin breeding device. The same thing was found in Zelka's mansion.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99430,
+      "id": "db_EventInfo:117340:101",
+      "jp": "しかし養殖装置の生産設備は見つからなかった。どうやら【別の場所で養殖装置を作り出している】らしい……",
+      "en": "But the production facility for the breeding device wasn't found. Seems like they're making the breeding devices in another location...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99431,
+      "id": "db_EventInfo:117341:101",
+      "jp": "魔術師ミルテを【『邪教徒』】として告発した領主ゼルカは高確率で【『邪教徒』】だ",
+      "en": "Lord Zelka, who accused the mage Myrte of being a 'heretic', is most likely a 'heretic' himself.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99432,
+      "id": "db_EventInfo:117342:101",
+      "jp": "その【潜伏先】が、【『ゴブリン』】の養殖装置の生産場所と見て良いだろう……",
+      "en": "His hideout is probably the same place where the Goblin breeding devices are made...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99433,
+      "id": "db_EventInfo:117343:101",
+      "jp": "【『邪教徒』】は様々な場所に潜伏する。領主ゼルカもそこに隠れているに違いないな",
+      "en": "Heretics hide in many places. Lord Zelka is surely hiding there too.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99434,
+      "id": "db_EventInfo:117344:1",
+      "jp": "なるほど……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99435,
+      "id": "db_EventInfo:117345:2",
+      "jp": "オマエも、我々に協力する気になったデスか？",
+      "en": "So, you've decided to help us too, Des?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99436,
+      "id": "db_EventInfo:117346:101",
+      "jp": "ふん、貴様らに協力しているわけではない……",
+      "en": "Hmph, I'm not helping you...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99437,
+      "id": "db_EventInfo:117347:12",
+      "jp": "アイツのおかげで、私達は冤罪を着せられたのです",
+      "en": "Because of that guy, we were falsely accused of a crime.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99438,
+      "id": "db_EventInfo:117348:12",
+      "jp": "その疑いを完全に晴らすために、アイツを捕まえるんですよ",
+      "en": "To completely clear our names, we have to catch him.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99439,
+      "id": "db_EventInfo:117349:2",
+      "jp": "領主ゼルカを捕らえると言うのなら、利害は一致するデス。ゼルカを追うのに、私達も協力してやるデス！",
+      "en": "If you aim to capture Lord Zelka, our goals align, Des. To pursue Zelka, we will cooperate, Des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99440,
+      "id": "db_EventInfo:117350:101",
+      "jp": "……我々異端審問官はずっと【『邪教徒』】どもを追っていた",
+      "en": "......We Inquisitors have been hunting the 'heretics' for a long time.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99441,
+      "id": "db_EventInfo:117351:101",
+      "jp": "こうして尻尾を掴んだ今、ゼルカを追い詰めることは【『邪教徒』】を追い詰めることに繋がる。だから貴様らに情報を与えるのだ",
+      "en": "Now that we have a lead, cornering Zelka means cornering the 'heretics'. That's why I'm giving you this information.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99442,
+      "id": "db_EventInfo:117353:101",
+      "jp": "ゼルカは長らくこの地の領主として表舞台に出ていた",
+      "en": "Zelka has long been the lord of this land, out in the open.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99443,
+      "id": "db_EventInfo:117354:101",
+      "jp": "ヤツ自身の評判は良いものは聞かないが、その統治は必ずしも悪政とは言えん。【『ゼカリウス』】の発展をみればな",
+      "en": "You never hear anything good about the man himself, but his rule wasn't exactly tyranny. Just look at Zecarius's development.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99444,
+      "id": "db_EventInfo:117355:101",
+      "jp": "裏ではドス黒いことも数多く行なっていたようだが、それを決して表に出さない男だった",
+      "en": "He apparently did many dark things behind the scenes, but he was a man who never let it show.",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99445,
+      "id": "db_EventInfo:117356:101",
+      "jp": "……だが、こうして尻尾を掴んだ以上、容赦はせん……でしゃばるのは構わんが、足を引っ張らない事だ……",
+      "en": "...But now that we have him, we won't show mercy... I don't mind if you get in the way, just don't trip us up...",
+      "speaker": "Rogubaruto",
+      "speaker_jp": "ローグバルト"
+    },
+    {
+      "n": 99446,
+      "id": "db_EventInfo:117359:0",
+      "jp": "異端審問官の黒将軍は去っていった",
+      "en": "The Inquisition's Black General left.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99447,
+      "id": "db_EventInfo:117360:2",
+      "jp": "素直じゃないデス",
+      "en": "You're not being honest.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99448,
+      "id": "db_EventInfo:117361:1",
+      "jp": "とはいえ、【『<ruby=ヒエペリオ>教会</ruby>』】の異端審問官が協力してくれるのは心強いな",
+      "en": "Still, it's good to have the 'Hieperio Church' Inquisitors helping us.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99449,
+      "id": "db_EventInfo:117362:12",
+      "jp": "ふん、何を悠長な……奴らに先を越されてたまるものですか",
+      "en": "Hmph, how laid back... We can't let those guys get ahead of us.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99450,
+      "id": "db_EventInfo:117363:2",
+      "jp": "そうデスね、私達には私達の戦い方があるデス。人とカネの人海戦術で、ゼルカの足取りを追うデスよ！",
+      "en": "That's right, we have our own way of fighting. We'll use people and money, a numbers game, to track Zelka down!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99451,
+      "id": "db_EventInfo:117364:2",
+      "jp": "とはいえ、闇雲に大陸中の人間は動かせないデス……手掛かりは必要デスね",
+      "en": "But we can't just blindly mobilize people across the whole continent... We need a lead.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99452,
+      "id": "db_EventInfo:117365:12",
+      "jp": "【『ゼカリウス地下図書館』】の文献調査ですが、【重要な文献が抜けている】ようですね",
+      "en": "Regarding the 'Zecarius Underground Library' document investigation... it seems some important documents are missing.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99453,
+      "id": "db_EventInfo:117366:1",
+      "jp": "抜けている……？",
+      "en": "Missing...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99454,
+      "id": "db_EventInfo:117367:12",
+      "jp": "どうやら、何者かによって持ち出されているようです",
+      "en": "It looks like someone took them out.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99455,
+      "id": "db_EventInfo:117368:12",
+      "jp": "特に【『災厄制御機関』】の核心に迫る部分を、です",
+      "en": "Especially the parts that get to the core of the 'Calamity Control Agency'.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99456,
+      "id": "db_EventInfo:117369:12",
+      "jp": "そんなことをするのは……",
+      "en": "The only one who would do that is...",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99457,
+      "id": "db_EventInfo:117370:1",
+      "jp": "領主ゼルカ……",
+      "en": "Lord Zelka...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99458,
+      "id": "db_EventInfo:117371:2",
+      "jp": "アイツしかいないデス",
+      "en": "It has to be him.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99459,
+      "id": "db_EventInfo:117372:12",
+      "jp": "……なんとかして領主ゼルカの足取りを追わなくては",
+      "en": "...We have to find some way to track down Lord Zelka.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99460,
+      "id": "db_EventInfo:117375:9",
+      "jp": "はるばるゼルカの私室にやって来たと言うのに、何もないであるな",
+      "en": "We came all the way to Zelka's private room, but there's nothing here.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 99461,
+      "id": "db_EventInfo:117376:12",
+      "jp": "そうですね……魔術書の類すら残っていないとは",
+      "en": "Yeah... Not even any magic books left behind.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 99462,
+      "id": "db_EventInfo:117377:11",
+      "jp": "頭の良いミルテちゃんやカリストちゃんが分からないなら、お姉ちゃんはお手上げね",
+      "en": "If smart Myrte and Callisto can't figure it out, big sis is at a loss.",
+      "speaker": "Catrina",
+      "speaker_jp": "キャトリナ"
+    },
+    {
+      "n": 99463,
+      "id": "db_EventInfo:117378:6",
+      "jp": "そうですわね……わたくしもちんぷんかんぷんですわ",
+      "en": "Yes... It's all Greek to me, too.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 99464,
+      "id": "db_EventInfo:117379:0",
+      "jp": "俺達は総出でゼルカの私室にやって来たのだが捜索は難航していた。",
+      "en": "We all came to Zelka's private room, but the search wasn't going well.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99465,
+      "id": "db_EventInfo:117380:7",
+      "jp": "金目の物がたくさんだよ、目移りしちゃう♪",
+      "en": "There's so much shiny stuff, it's hard to focus! ♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 99466,
+      "id": "db_EventInfo:117381:5",
+      "jp": "ですわねД",
+      "en": "It isД",
+      "speaker": "Harvester",
+      "speaker_jp": "ハーヴェスタ"
+    },
+    {
+      "n": 99467,
+      "id": "db_EventInfo:117382:2",
+      "jp": "おい、こいつらを止めるデス",
+      "en": "Hey, stop these two!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99468,
+      "id": "db_EventInfo:117383:8",
+      "jp": "は～い",
+      "en": "Oka~ay",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 99469,
+      "id": "db_EventInfo:117386:0",
+      "jp": "結局、ゼルカの足取りの手掛かりになるようなものは、ついに見つけることができなかった。",
+      "en": "In the end, we never found anything that could be a clue to where Zelka went.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99470,
+      "id": "db_EventInfo:117388:2",
+      "jp": "なんの成果もあげられなかったデスね",
+      "en": "We didn't get any results at all, did we?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99471,
+      "id": "db_EventInfo:117389:1",
+      "jp": "そうだな……",
+      "en": "Yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99472,
+      "id": "db_EventInfo:117390:2",
+      "jp": "仕方ないデス、今日の所は一旦打ち切りにして、メシにするデス。おなかペコペコデス",
+      "en": "No choice, des. Let's stop for today and eat, des. I'm starving, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99473,
+      "id": "db_EventInfo:117391:2",
+      "jp": "ん……？　なんだかいい匂いがするデス",
+      "en": "Hm...? Something smells good, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99474,
+      "id": "db_EventInfo:117392:0",
+      "jp": "むしゃむしゃむしゃ……。",
+      "en": "Nom nom nom...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99475,
+      "id": "db_EventInfo:117393:0",
+      "jp": "★クリア",
+      "en": "★CLEAR",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 99476,
+      "id": "db_EventInfo:117395:4",
+      "jp": "むしゃむしゃむしゃ！　うめー！",
+      "en": "Nom nom nom! So good!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99477,
+      "id": "db_EventInfo:117396:1",
+      "jp": "ウルフィナ？",
+      "en": "Wolfina?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99478,
+      "id": "db_EventInfo:117397:4",
+      "jp": "おー、てんちょーか！　やっと帰ってきたかー！　もうメシにしてるぞ！",
+      "en": "Oh, Boss! You're finally back! I already started eating!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99479,
+      "id": "db_EventInfo:117398:4",
+      "jp": "てんちょーたちの分もできてるからな！　遅かったから、ウルフィナがほとんど食っちまったけどー！",
+      "en": "I made your guys' share too! But you were late, so Wolfina ate most of it!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99480,
+      "id": "db_EventInfo:117399:2",
+      "jp": "ああっ、私の分のゴハンまで食ってるデス！",
+      "en": "Aah, she's even eating my share of the food, des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99481,
+      "id": "db_EventInfo:117400:4",
+      "jp": "むしゃむしゃむしゃ！",
+      "en": "Nom nom nom!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99482,
+      "id": "db_EventInfo:117401:1",
+      "jp": "ウルフィナ、ずっとここに？",
+      "en": "Wolfina, have you been here the whole time?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99483,
+      "id": "db_EventInfo:117402:4",
+      "jp": "そうだぞ",
+      "en": "Exactly.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99484,
+      "id": "db_EventInfo:117403:1",
+      "jp": "俺達は手がかり探しに大変だったんだぞ、手伝ってくれてもよかったのに……",
+      "en": "We had a hard time looking for clues. You could've helped us out...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99485,
+      "id": "db_EventInfo:117404:4",
+      "jp": "やだぞ！　あんなクサい場所に、近づきたくねー！",
+      "en": "No way! I didn't want to go near that stinky place!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99486,
+      "id": "db_EventInfo:117405:1",
+      "jp": "クサいって……",
+      "en": "Stinky...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99487,
+      "id": "db_EventInfo:117406:1",
+      "jp": "いや、待てよウルフィナ、それどういう意味だ？",
+      "en": "Wait, Wolfina, what do you mean by that?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99488,
+      "id": "db_EventInfo:117407:4",
+      "jp": "むしゃむしゃ……なにが？",
+      "en": "Munch munch... What about it?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99489,
+      "id": "db_EventInfo:117408:2",
+      "jp": "ふむ？　クサいって言ったデスね。もしかしてコイツ、風呂はいってないから臭いデス？",
+      "en": "Hmm? She said stinky. Maybe she means this guy smells because he doesn't take a bath?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99490,
+      "id": "db_EventInfo:117409:1",
+      "jp": "おい……",
+      "en": "Hey...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99491,
+      "id": "db_EventInfo:117410:4",
+      "jp": "ちげーよ、あのハゲブタの住処に近づきたくないってことだぞ",
+      "en": "That's not it! I mean I didn't want to go near that bald pig's place.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99492,
+      "id": "db_EventInfo:117411:1",
+      "jp": "ハゲブタ……ゼルカのことか",
+      "en": "Bald pig... You mean Zelka?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99493,
+      "id": "db_EventInfo:117412:4",
+      "jp": "ゼルカ？　そんな名前なのかあのハゲブタ",
+      "en": "Zelka? That's the bald pig's name?",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99494,
+      "id": "db_EventInfo:117413:4",
+      "jp": "アイツはウルフィナのことを買おうとした奴だぞ。南の森にいたウルフィナは奴隷商人に捕まって、あのハゲブタに売られたんだ",
+      "en": "That guy tried to buy me. When I was in the southern forest, slavers caught me and sold me to that bald pig.",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99495,
+      "id": "db_EventInfo:117414:1",
+      "jp": "なんだって……！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 99496,
+      "id": "db_EventInfo:117415:2",
+      "jp": "ムファードはどこかの富豪が手放したオマエを引き取ったと言ったデス",
+      "en": "Mufard said some rich guy threw you out and he took you in.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 99497,
+      "id": "db_EventInfo:117416:4",
+      "jp": "はは！　暴れてやったからな！　あのハゲブタ、ウルフィナのツガイになろうとしてたからな、でも臭ーんだもん、ガマンできなかった！",
+      "en": "Haha! I made a huge mess! That bald pig tried to make me his mate! But he smelled so bad, I just couldn't stand it!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99498,
+      "id": "db_EventInfo:117417:4",
+      "jp": "ムファードはいいやつだぞ！　メシもたくさんくれたしな！",
+      "en": "Mufard's a good guy! He fed me lots!",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99499,
+      "id": "db_EventInfo:117418:4",
+      "jp": "もうちょっと若かったら、ウルフィナのツガイにしてやってもよかったぞ！　ま、今はてんちょーがいるけどなД",
+      "en": "If he was a bit younger, I might've made him my mate! Well, I've got you now, Boss Д",
+      "speaker": "Wolfina",
+      "speaker_jp": "ウルフィナ"
+    },
+    {
+      "n": 99500,
+      "id": "db_EventInfo:117419:1",
+      "jp": "ウルフィナが以前売られた場所は、ゼルカの屋敷だったのか……だからついてきてくれなかったのか",
+      "en": "So, the place Wolfina was sold before... was Zelka's mansion. That's why she didn't want to come.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    }
+  ]
+}

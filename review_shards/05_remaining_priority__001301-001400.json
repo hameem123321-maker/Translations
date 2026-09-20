@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 1301,
+  "range_end": 1400,
+  "pairs": [
+    {
+      "n": 1301,
+      "id": "rem_11730",
+      "jp": "大商売人",
+      "en": "Big-Time Merchant",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1302,
+      "id": "rem_11731",
+      "jp": "ネガティブすぎるあまり、精神が暗黒面に堕ちてしまったデス",
+      "en": "A Death who, due to excessive negativity, fell to the dark side of the mind, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1303,
+      "id": "rem_11732",
+      "jp": "ダークサイダー",
+      "en": "Darksider",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1304,
+      "id": "rem_11733",
+      "jp": "凡人よりも優れた、有能な人間の資質デス。打たれ弱い一面があるかもデス",
+      "en": "The qualities of an outstanding, capable person, dess. Might have a fragile side, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1305,
+      "id": "rem_11734",
+      "jp": "エリート",
+      "en": "Elite",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1306,
+      "id": "rem_11735",
+      "jp": "おっぱいが小さいデス。ただ小さいのではなく、男性を魅了する魅力的な絶壁デス",
+      "en": "A small-chested Death. Not just small, but a charming, alluring cliff, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1307,
+      "id": "rem_11736",
+      "jp": "ぺったんこ",
+      "en": "Flat as a Board",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1308,
+      "id": "rem_11737",
+      "jp": "本気か演技かわからないデスが、とぼけた事をぬかしたりするデス",
+      "en": "Hard to tell if it's real or an act, dess, but says clueless things sometimes, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1309,
+      "id": "rem_11738",
+      "jp": "天然",
+      "en": "Airhead",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1310,
+      "id": "rem_11739",
+      "jp": "不道徳で反社会的な性格の持ち主デス。仲間だと思われたら謂れのない差別を受けてしまいそうデス",
+      "en": "A person of immoral and antisocial character, dess. If thought of as a comrade, might face unfair discrimination, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1311,
+      "id": "rem_11740",
+      "jp": "インモラル",
+      "en": "Immoral",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1312,
+      "id": "rem_11741",
+      "jp": "見るからに汚い身体デス。こんな相手と一夜を過ごす気にはとてもなれないデス",
+      "en": "A visibly dirty body, dess. Couldn't bear spending a night with such a partner, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1313,
+      "id": "rem_11742",
+      "jp": "不潔",
+      "en": "Filthy",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1314,
+      "id": "rem_11743",
+      "jp": "理想を抱く高尚な持ち主デス。実力が伴わなければ邪魔なだけデス",
+      "en": "A noble person with ideals, dess. If they lack the skill, they're just a nuisance, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1315,
+      "id": "rem_11744",
+      "jp": "理想主義者",
+      "en": "Idealist",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1316,
+      "id": "rem_11745",
+      "jp": "男の嗅覚に訴える魅力的な香りを持つデス",
+      "en": "Has a charming scent that appeals to male instincts, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1317,
+      "id": "rem_11746",
+      "jp": "いいにおい",
+      "en": "Nice Smell",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1318,
+      "id": "rem_11747",
+      "jp": "万人を愛する広い心の持ち主デス",
+      "en": "A person with a big heart who loves all people, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1319,
+      "id": "rem_11748",
+      "jp": "博愛主義者",
+      "en": "Philanthropist",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1320,
+      "id": "rem_11749",
+      "jp": "前世の宿命に目覚めた聖戦士デス。近寄りがたい闇系のオーラをまとうデス",
+      "en": "A holy warrior awakened to their past life's destiny, dess. Wrapped in an unapproachable dark aura, dess.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1321,
+      "id": "rem_11750",
+      "jp": "†漆黒の天使†",
+      "en": "†Dark Angel†",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1322,
+      "id": "rem_11751",
+      "jp": "仕事が大好き人間デス。たくさんこき使ってやるデス",
+      "en": "Loves work. I'll work 'em hard.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1323,
+      "id": "rem_11752",
+      "jp": "仕事の虫",
+      "en": "Workaholic",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1324,
+      "id": "rem_11753",
+      "jp": "胎内に子を宿した状態デス。お腹の子の為にも安静が必要デス",
+      "en": "With child. Needs rest for the baby.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1325,
+      "id": "rem_11754",
+      "jp": "妊娠",
+      "en": "Pregnant",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1326,
+      "id": "rem_11755",
+      "jp": "男を誘惑する思わせぶりな言動と、自由奔放な性格で周りを振り回す困った性格デス。そこがいいと感じる人間もいるデス",
+      "en": "Troublesome, flirtatious free spirit. Some like that.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1327,
+      "id": "rem_11756",
+      "jp": "小悪魔",
+      "en": "Little Devil",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1328,
+      "id": "rem_11757",
+      "jp": "悪を憎み正義を成す性格デス。融通がきかないこともあるデス",
+      "en": "Hates evil, upholds justice. Can be inflexible.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1329,
+      "id": "rem_11758",
+      "jp": "正義漢",
+      "en": "Righteous Soul",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1330,
+      "id": "rem_11759",
+      "jp": "一度決めたことを曲げない、ガンコな性格デス",
+      "en": "Stubborn. Won't change once decided.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1331,
+      "id": "rem_11760",
+      "jp": "堅物",
+      "en": "Stickler",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1332,
+      "id": "rem_11761",
+      "jp": "男性とのセックス経験があるデス",
+      "en": "Has had sex with a man.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1333,
+      "id": "rem_11762",
+      "jp": "非処女",
+      "en": "Not a Virgin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1334,
+      "id": "rem_11763",
+      "jp": "女性とのセックス経験があるデス",
+      "en": "Has had sex with a woman.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1335,
+      "id": "rem_11764",
+      "jp": "非童貞",
+      "en": "Not a Virgin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1336,
+      "id": "rem_11765",
+      "jp": "女性とセックスできないデス。とてもかなしいデス",
+      "en": "Cannot have sex with women. So sad.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1337,
+      "id": "rem_11766",
+      "jp": "不能",
+      "en": "Impotent",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1338,
+      "id": "rem_11767",
+      "jp": "男に媚びまくってパーティーを崩壊させる毒婦デス。でもテクは使いどころデス",
+      "en": "A schemer who ruins parties by seducing men. But skilled.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1339,
+      "id": "rem_11768",
+      "jp": "クラッシャー姫",
+      "en": "Party Crasher",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1340,
+      "id": "rem_11769",
+      "jp": "物事に対して積極的ですぎて、すべて良い方向に考える性格デス",
+      "en": "Overly positive and thinks everything will go well.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1341,
+      "id": "rem_11770",
+      "jp": "超ポジティブ",
+      "en": "Super Positive",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1342,
+      "id": "rem_11771",
+      "jp": "なにがあったかわからないデスが、心がぶっ壊れてしまったデス",
+      "en": "A Death whose spirit is broken, not knowing what happened.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1343,
+      "id": "rem_11772",
+      "jp": "廃人",
+      "en": "Burnout",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1344,
+      "id": "rem_11773",
+      "jp": "健康的で五体満足な体質デス。仕事もたくさんできるデス",
+      "en": "A healthy, sound physique Can work a lot",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1345,
+      "id": "rem_11774",
+      "jp": "健康的",
+      "en": "Healthy",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1346,
+      "id": "rem_11775",
+      "jp": "スキンケアを失敗してひどいことになった肌デス",
+      "en": "Skin ruined by failed skincare",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1347,
+      "id": "rem_11776",
+      "jp": "失敗した肌",
+      "en": "Failed Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1348,
+      "id": "rem_11777",
+      "jp": "何の変哲も無い普通の肌デス。手入れしたら見た目もよくなるデス",
+      "en": "Ordinary, unremarkable skin Looks better with care",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1349,
+      "id": "rem_11778",
+      "jp": "健康的な肌",
+      "en": "Healthy Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1350,
+      "id": "rem_11779",
+      "jp": "先天的に薄い肌をさらに磨き上げたデス。輝くような美しい肌の持ち主デス",
+      "en": "Naturally thin skin refined further Owner of radiant, beautiful skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1351,
+      "id": "rem_11780",
+      "jp": "白磁のような肌",
+      "en": "Porcelain-like Skin",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1352,
+      "id": "rem_11781",
+      "jp": "性欲を無くし、それに対するコンプレックスを克服した男デス。仕事に一生懸命デス！",
+      "en": "A man who lost his libido and overcame that complex Works very hard!",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1353,
+      "id": "rem_11782",
+      "jp": "性欲を捨てた男",
+      "en": "Man Who Abandoned Lust",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1354,
+      "id": "rem_11783",
+      "jp": "女性を抱き続ける体力と、魅了するだけの技術を持った男性デス",
+      "en": "A man with the stamina to keep holding women and the skill to charm them",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1355,
+      "id": "rem_11784",
+      "jp": "性豪",
+      "en": "Sexual Tyrant",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1356,
+      "id": "rem_11785",
+      "jp": "性欲と煩悩を捨てて、悟ってしまったデス。淫魔が見たらよだれを垂らしそうデスね",
+      "en": "One who abandoned lust and worldly desires, attaining enlightenment Succubi would drool ne.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1357,
+      "id": "rem_11786",
+      "jp": "無我の境地",
+      "en": "State of Selflessness",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1358,
+      "id": "rem_11787",
+      "jp": "自分を大きく見せようとする厄介な性質デス",
+      "en": "An annoying trait of trying to seem bigger than you are",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1359,
+      "id": "rem_11788",
+      "jp": "ビッグマウス",
+      "en": "Big Mouth",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1360,
+      "id": "rem_11789",
+      "jp": "才能があったはずが、運に恵まれなかったデス",
+      "en": "Had the talent but not the luck",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1361,
+      "id": "rem_11790",
+      "jp": "不遇の天才",
+      "en": "Unlucky Genius",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1362,
+      "id": "rem_11791",
+      "jp": "要領が良い",
+      "en": "Quick Learner",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1363,
+      "id": "rem_11792",
+      "jp": "あらゆることに対して飲み込みが早いデスが、頭打ちも早いかもデス",
+      "en": "Picks up anything quickly, but plateaus early",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1364,
+      "id": "rem_11793",
+      "jp": "早熟",
+      "en": "Precocious",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1365,
+      "id": "rem_11794",
+      "jp": "自分のパートナーを奪われることに快感を受けてしまうダメな性癖デス。可哀想なのでパワーを与えるデス",
+      "en": "Has a terrible fetish for having their partner stolen I'll give you power out of pity",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1366,
+      "id": "rem_11795",
+      "jp": "NTRスキー",
+      "en": "NTR Lover",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1367,
+      "id": "rem_11796",
+      "jp": "ものすごく飲み込みが早い若者デス。頭打ちも早いかもデス",
+      "en": "A youth with incredible learning speed Might plateau early",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1368,
+      "id": "rem_11797",
+      "jp": "神童",
+      "en": "Child Prodigy",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1369,
+      "id": "rem_11798",
+      "jp": "挫折を味わったエリートデス。返り咲くために努力を重ねろデス",
+      "en": "An elite who has known failure Work hard for your comeback",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1370,
+      "id": "rem_11799",
+      "jp": "闇落ちエリート",
+      "en": "Fallen Elite",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1371,
+      "id": "rem_11800",
+      "jp": "自分のパートナーを裏切ることに快感を受けてしまうダメな性癖デス。でもモテはするデス",
+      "en": "Has a terrible fetish for betraying their own partner But is popular",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1372,
+      "id": "rem_11801",
+      "jp": "浮気癖",
+      "en": "Cheating Habit",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1373,
+      "id": "rem_11802",
+      "jp": "世紀の発明をする天才の中の天才デス。同じぐらいトラブルも起こすデス",
+      "en": "A genius among geniuses who makes epoch-making inventions Causes just as much trouble",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1374,
+      "id": "rem_11803",
+      "jp": "大天才",
+      "en": "Great Genius",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1375,
+      "id": "rem_11804",
+      "jp": "鍛冶の神に愛されたかのような、鍛冶に特化した超才能デス。この分野では他の追随を許さないデス",
+      "en": "A super-talent specialized in forging, as if loved by the god of smithing Unrivaled in this field",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1376,
+      "id": "rem_11805",
+      "jp": "鍛冶姫の祝福",
+      "en": "Forging Princess's Blessing",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1377,
+      "id": "rem_11806",
+      "jp": "一歩引いて物事が言える大人な性格で大人気",
+      "en": "Mature and popular for speaking from a thoughtful perspective.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1378,
+      "id": "rem_11807",
+      "jp": "謙虚",
+      "en": "Humble",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1379,
+      "id": "rem_11808",
+      "jp": "ものすごく高潔で気品のあるオーラを持つデス",
+      "en": "Possesses an incredibly noble and dignified aura",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1380,
+      "id": "rem_11809",
+      "jp": "お姫様",
+      "en": "Princess",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1381,
+      "id": "rem_11810",
+      "jp": "おカネが大好きな性格デス。カネは素晴らしい。カネはすべてを解決するデス",
+      "en": "Loves money. Money is wonderful. Money solves everything.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1382,
+      "id": "rem_11811",
+      "jp": "守銭奴",
+      "en": "Miser",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1383,
+      "id": "rem_11812",
+      "jp": "小さい男の子が大好きな困った性格デス",
+      "en": "Has a troublesome love for young boys.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1384,
+      "id": "rem_11813",
+      "jp": "ショタコン",
+      "en": "Shotacon",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1385,
+      "id": "rem_11814",
+      "jp": "男が嫌いデス。エッチに誘うのは大変そうデス",
+      "en": "Hates men. Seems hard to seduce.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1386,
+      "id": "rem_11815",
+      "jp": "男嫌い",
+      "en": "Misandrist",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1387,
+      "id": "rem_11816",
+      "jp": "カネと縁が無い可哀想な運命の持ち主デス。しっしっ、あっちいけデス！",
+      "en": "Fated to have no money. Shoo, go away!",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1388,
+      "id": "rem_11817",
+      "jp": "貧乏神",
+      "en": "God of Poverty",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1389,
+      "id": "rem_11818",
+      "jp": "一人の好きな相手に尽くすデス。どこまでも尽くしまくるデス",
+      "en": "Devotes to one beloved. Will serve endlessly.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1390,
+      "id": "rem_11819",
+      "jp": "妄信的",
+      "en": "Fanatic Devotion",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1391,
+      "id": "rem_11820",
+      "jp": "ものすごくカネを持ってるというウワサデス。そのカネを寄越すデス！！",
+      "en": "Rumored to be incredibly rich. Give me that money!!",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1392,
+      "id": "rem_11821",
+      "jp": "伝説の大富豪",
+      "en": "Legendary Tycoon",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1393,
+      "id": "rem_11822",
+      "jp": "カネに愛されてるデス。カネを失っても、いずれカネが増えるといううらやましい資質デス",
+      "en": "Beloved by money. An enviable quality.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1394,
+      "id": "rem_11823",
+      "jp": "比類無き金運",
+      "en": "Peerless Fortune",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1395,
+      "id": "rem_11824",
+      "jp": "どこにでも現れる謎の気配りスキルを持ってるデス。役に立ちすぎるのも怖いデスね",
+      "en": "Has a mysterious skill of appearing anywhere. Too helpful to be safe.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1396,
+      "id": "rem_11825",
+      "jp": "神出鬼没",
+      "en": "Elusive Presence",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1397,
+      "id": "rem_11826",
+      "jp": "何かの神を熱心に信仰し、人生を捧げたデス。カネをくれるなら、異教の神でも受け入れてやるデス",
+      "en": "Devout follower of a god. Would accept any god for money.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1398,
+      "id": "rem_11827",
+      "jp": "揺るぎなき信仰",
+      "en": "Unshakable Faith",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1399,
+      "id": "rem_11828",
+      "jp": "南方に見られる宝石のような肌デス。媚薬にも例えられる魔性の肌デス",
+      "en": "Has skin like a southern gem. A bewitching, aphrodisiac-like skin.",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    },
+    {
+      "n": 1400,
+      "id": "rem_11829",
+      "jp": "黒曜石の美肌",
+      "en": "Obsidian Beauty",
+      "table": "db_UnitCharaClubKosei",
+      "category": "remaining_table"
+    }
+  ]
+}

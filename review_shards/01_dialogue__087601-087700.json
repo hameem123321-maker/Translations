@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 87601,
+  "range_end": 87700,
+  "pairs": [
+    {
+      "n": 87601,
+      "id": "db_EventInfo:103464:37",
+      "jp": "なぜ【名もなき大魔女】が秘密裏に渡さなくてはならなかったのか、その理由を……",
+      "en": "Why the 'Nameless Great Witch' had to pass it on in secret... that reason.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87602,
+      "id": "db_EventInfo:103465:1",
+      "jp": "……【名もなき大魔女】か",
+      "en": "...The 'Nameless Great Witch'.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87603,
+      "id": "db_EventInfo:103466:0",
+      "jp": "そこに……。",
+      "en": "There... is something.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87604,
+      "id": "db_EventInfo:103468:6",
+      "jp": "【<pl>】様？　ちょっとよろしいでしょうか～",
+      "en": "【<pl>】? May I have a moment~",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87605,
+      "id": "db_EventInfo:103469:1",
+      "jp": "マリーゼル？",
+      "en": "Marisel?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87606,
+      "id": "db_EventInfo:103470:37",
+      "jp": "【『聖女』】様！？",
+      "en": "The 'Saint'!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87607,
+      "id": "db_EventInfo:103471:6",
+      "jp": "あっ、マルガレータ様、ちょうどよかった。貴女に聞きたいことがありましてД",
+      "en": "Ah, Lady Margareta, perfect timing. There's something I'd like to ask youД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87608,
+      "id": "db_EventInfo:103472:37",
+      "jp": "【『聖女』】様が、私めなどに、どういったご用件で……",
+      "en": "The 'Saint' has business with someone like me...? What could it be...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87609,
+      "id": "db_EventInfo:103473:6",
+      "jp": "マルガレータ様は、【『聖都セグルメット』】の【『聖王』】様はご存じですか？",
+      "en": "Lady Margareta, do you know of the 'Sacred King' of the 'Holy City Segurmet'?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87610,
+      "id": "db_EventInfo:103474:37",
+      "jp": "当然です。【『聖王』】様こそ、我が主。【『<ruby=ヒエペリオ>教会</ruby>』】の頂点でございます",
+      "en": "Of course. The 'Sacred King' is my master. He is the pinnacle of the 'Hierarchy Church'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87611,
+      "id": "db_EventInfo:103475:6",
+      "jp": "ええ、ええ。マルガレータ様は、【『<ruby=ヒエペリオ>教会</ruby>』】のお偉い方と聞いております",
+      "en": "Yes, yes. I hear you are a distinguished figure in the 'Hierarchy Church'.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87612,
+      "id": "db_EventInfo:103476:6",
+      "jp": "【『聖王』】様のことも、よくご存じではないかと思いまして",
+      "en": "I thought you might know the 'Sacred King' quite well.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87613,
+      "id": "db_EventInfo:103477:37",
+      "jp": "ええ。【『聖王』】様は偉大なる御方、【『神』】にも等しき力を持ち、その威光は【『聖都』】を照らしております",
+      "en": "Yes. The 'Sacred King' is a great personage, possessing power akin to a 'God'. His majesty illuminates the 'Holy City'.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87614,
+      "id": "db_EventInfo:103478:6",
+      "jp": "なるほど、実際にお話ししたことはあるのでしょうか？",
+      "en": "I see. Have you actually spoken with him?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87615,
+      "id": "db_EventInfo:103479:37",
+      "jp": "残念ながら……",
+      "en": "Sadly...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87616,
+      "id": "db_EventInfo:103480:37",
+      "jp": "【『聖王』】様は多忙な御方。正式な【『薬聖』】ならともかく、私ごときでは……",
+      "en": "The 【Saint King】 is a very busy person. For an official 【Medicine Saint】, perhaps. But for someone like me...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87617,
+      "id": "db_EventInfo:103481:37",
+      "jp": "もしや、【『聖王』】様の寵愛を頂きたいのでしょうか？",
+      "en": "Perhaps you desire to receive the 【Saint King】's favor?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87618,
+      "id": "db_EventInfo:103482:37",
+      "jp": "貴女のように美しく、認定された【『聖女』】であれば、謁見の機会を設けることも難しくは",
+      "en": "For a recognized 【Saint】 as beautiful as you, securing an audience might not be too difficult.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87619,
+      "id": "db_EventInfo:103484:6",
+      "jp": "ええ、いつになったら、こちらに来て頂けるかと思いまして",
+      "en": "Yes, I was just wondering when he would finally come here.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87620,
+      "id": "db_EventInfo:103486:37",
+      "jp": "はい？",
+      "en": "What?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87621,
+      "id": "db_EventInfo:103487:0",
+      "jp": "マルガレータさんの表情が固まった。",
+      "en": "Margareta's expression stiffened.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87622,
+      "id": "db_EventInfo:103489:6",
+      "jp": "【<pl>】様こそ、まことの【『神』】なのです",
+      "en": "For 【<pl>】-sama is the true 【God】.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87623,
+      "id": "db_EventInfo:103490:1",
+      "jp": "マリーゼルさん？",
+      "en": "Marisel?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87624,
+      "id": "db_EventInfo:103491:37",
+      "jp": "えっ、か、【『神』】？",
+      "en": "Huh? A, a 【God】?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87625,
+      "id": "db_EventInfo:103492:6",
+      "jp": "はい。【『神』】を信奉する【『<ruby=ヒエペリオ>教会</ruby>』】の長であれば、自ら来るのが道理というもの",
+      "en": "Yes. As the head of the 【Church of Hyperio】 which worships 【God】, it is only right for him to come here himself.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87626,
+      "id": "db_EventInfo:103493:6",
+      "jp": "いやむしろ、いの一番に馳せ参じることこそ、信仰心といえるのではないでしょうか",
+      "en": "No, rather, to rush here first of all should be the mark of true faith, don't you think?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87627,
+      "id": "db_EventInfo:103494:6",
+      "jp": "いまだに顔見せすらしないことが不思議でなりません",
+      "en": "I can't stop wondering why he still won't even show his face.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87628,
+      "id": "db_EventInfo:103495:37",
+      "jp": "なななっ、何を言ってるのですか【『聖女』】様！？",
+      "en": "Wha-wha-what are you saying, [Saint]!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87629,
+      "id": "db_EventInfo:103496:37",
+      "jp": "たとえ【『聖女』】様といえど、【『神』】などと……なんと恐れ多いことを！！",
+      "en": "Even for you, [Saint], to speak of a [God]... How dreadfully presumptuous!!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87630,
+      "id": "db_EventInfo:103497:6",
+      "jp": "はい？",
+      "en": "Huh?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87631,
+      "id": "db_EventInfo:103498:0",
+      "jp": "マリーゼルはきょとんとしている。しないでほしい。",
+      "en": "Marisel looks completely puzzled. Please don't.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87632,
+      "id": "db_EventInfo:103499:6",
+      "jp": "【<pl>】様が【『神』】であることは、もはや常識と思われるのですが……？",
+      "en": "I thought it was common knowledge that 【<pl>】 is a [God]...?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87633,
+      "id": "db_EventInfo:103500:37",
+      "jp": "【『聖女』】様――っ！？",
+      "en": "[Saint]!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87634,
+      "id": "db_EventInfo:103502:37",
+      "jp": "【<pl>】様！？　これは一体どういうことですか！　貴方様は、【『聖女』】様に何を吹き込んだのです！！",
+      "en": "【<pl>】!? What is the meaning of this!? What have you been telling the [Saint]!?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87635,
+      "id": "db_EventInfo:103503:1",
+      "jp": "いやその、なんというか……",
+      "en": "Uh, well, how do I put this...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87636,
+      "id": "db_EventInfo:103504:0",
+      "jp": "それは俺が一番知りたい……。",
+      "en": "That's what I want to know the most...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87637,
+      "id": "db_EventInfo:103505:37",
+      "jp": "よりによって【『神』】を騙るとは！　このことは極刑にも等しき暴挙ですよ！",
+      "en": "To dare to impersonate a [God] of all things! This is an outrage worthy of the severest punishment!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87638,
+      "id": "db_EventInfo:103506:37",
+      "jp": "これが【『<ruby=ヒエペリオ>教会</ruby>』】に伝われば、厳重な処罰が下ることでしょう！！",
+      "en": "If this reaches the [Church], there will be severe consequences!!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87639,
+      "id": "db_EventInfo:103507:37",
+      "jp": "ああ……なんてことを……",
+      "en": "Oh... what have you done...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87640,
+      "id": "db_EventInfo:103510:0",
+      "jp": "マルガレータさんは、ふらふらと立ち去ってしまった。",
+      "en": "Margareta staggered away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87641,
+      "id": "db_EventInfo:103511:0",
+      "jp": "なんとも、ややこしいことになりそうだ。",
+      "en": "This is going to be a real mess.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87642,
+      "id": "db_EventInfo:103512:6",
+      "jp": "真実をお伝えしただけなのに……",
+      "en": "I only told her the truth...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87643,
+      "id": "db_EventInfo:103513:0",
+      "jp": "マリーゼルだけは、首を傾げているばかりであった。",
+      "en": "Marisel just stood there, tilting her head in confusion.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87644,
+      "id": "db_EventInfo:103514:0",
+      "jp": "俺達の元を飛び出したマルガレータさんであったが……。",
+      "en": "Margareta had run away from us...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87645,
+      "id": "db_EventInfo:103517:0",
+      "jp": "しばらくすると戻ってきた。",
+      "en": "But after a little while, she came back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87646,
+      "id": "db_EventInfo:103519:6",
+      "jp": "お帰りなさいませД",
+      "en": "Welcome backД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87647,
+      "id": "db_EventInfo:103520:37",
+      "jp": "なんということでしょう、【『神』】を騙ることは、これ以上無いほどの罪でありますのに",
+      "en": "How can this be? To impersonate ['God'] is the gravest of sins.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87648,
+      "id": "db_EventInfo:103521:37",
+      "jp": "よりにもよって、【『聖女』】ともあろう方が、そのような妄言を口に出されるとは……",
+      "en": "And yet, of all people, one called ['the Saint'] would utter such nonsense...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87649,
+      "id": "db_EventInfo:103522:6",
+      "jp": "混乱するのは当然のことです",
+      "en": "It's only natural to be confused.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87650,
+      "id": "db_EventInfo:103523:6",
+      "jp": "【『神』】が現世に降り立ったことが知られれば、世の中は混乱してしまいますものД",
+      "en": "If people knew ['God'] had descended into this world, it would cause chaosД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87651,
+      "id": "db_EventInfo:103524:37",
+      "jp": "そういう話ではなく……",
+      "en": "That's not what I meant...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87652,
+      "id": "db_EventInfo:103525:0",
+      "jp": "マルガレータさんは混乱しているようだ。",
+      "en": "Margareta seems confused.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87653,
+      "id": "db_EventInfo:103526:1",
+      "jp": "実際、ウチにはマリーゼル以上に、自分のことを【『神』】と触れ回る自称女神がいるからな",
+      "en": "Actually, in my place, there's a self-proclaimed goddess who goes around calling herself 'God' even more than Marisel does.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87654,
+      "id": "db_EventInfo:103527:1",
+      "jp": "……なんでか、顔を出してこないんだけど",
+      "en": "...For some reason, she hasn't shown her face though.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87655,
+      "id": "db_EventInfo:103528:1",
+      "jp": "(異端審問官と勘違いして、怖がっているんだろうか)",
+      "en": "(Maybe she's scared, thinking Margareta is some kind of inquisitor.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87656,
+      "id": "db_EventInfo:103530:6",
+      "jp": "それより、マルガレータ様は【『<ruby=ハイプリースト>上位神官</ruby>』】であらせられます",
+      "en": "More importantly, Lady Margareta is a High Priest.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87657,
+      "id": "db_EventInfo:103531:6",
+      "jp": "それほどに力のある方が、【<pl>】様の神聖さを感じ取れないというのは、不思議な話ですわ",
+      "en": "It's strange that someone so powerful can't feel Lord 【<pl>】's holiness.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87658,
+      "id": "db_EventInfo:103532:37",
+      "jp": "はあ……",
+      "en": "Haa...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87659,
+      "id": "db_EventInfo:103533:6",
+      "jp": "どうでしょう、私も一緒に、【<pl>】様の素晴らしさを手ほどきさせていただけないでしょうか？",
+      "en": "How about this? Could I also help teach you about Lord 【<pl>】's greatness?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87660,
+      "id": "db_EventInfo:103534:37",
+      "jp": "【『聖女』】様が……？",
+      "en": "The 'Saint' herself...?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87661,
+      "id": "db_EventInfo:103535:6",
+      "jp": "ええ、私も改めて、【<pl>】様の素晴らしさを確認したいと思いますわД",
+      "en": "Yes, I'd also like to confirm Lord 【<pl>】's wonderfulness againД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87662,
+      "id": "db_EventInfo:103536:6",
+      "jp": "一緒に、【<pl>】様との絆を深めましょう……Д",
+      "en": "Let's deepen our bond with Lord 【<pl>】 together...Д",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87663,
+      "id": "db_EventInfo:103537:0",
+      "jp": "★エッチシーン・マルガレータ・個別①・聖女のパイズリ指南①(嫌悪)",
+      "en": "*H-Scene: Margareta, Part 1 - The Saint's Titty Fuck Tutorial 1 (Disgust)*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87664,
+      "id": "db_EventInfo:103540:0",
+      "jp": "マリーゼルによる、マルガレータとのパイズリ指南が終わった……。",
+      "en": "Marisel's titty fuck tutorial with Margareta was over...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87665,
+      "id": "db_EventInfo:103542:6",
+      "jp": "どうですか、マルガレータ様Д",
+      "en": "How was it, Lady MargaretaД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87666,
+      "id": "db_EventInfo:103543:6",
+      "jp": "【<pl>】様の素晴らしさを、実感いただけたでしょうかД",
+      "en": "Do you now understand how amazing 【<pl>】-sama isД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87667,
+      "id": "db_EventInfo:103544:37",
+      "jp": "素晴らしいなどと……ただただ、嫌悪感が増しただけです",
+      "en": "Amazing...? I just felt even more disgusted.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87668,
+      "id": "db_EventInfo:103545:1",
+      "jp": "うう、ごめんなさい",
+      "en": "Ugh, I'm sorry.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87669,
+      "id": "db_EventInfo:103546:6",
+      "jp": "戸惑うのも無理はありません。それはまだ、絆が育っていない証拠です",
+      "en": "It's natural to be confused. It's proof your bond hasn't grown yet.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87670,
+      "id": "db_EventInfo:103547:6",
+      "jp": "ですが、これから絆が育つにつれ、【<pl>】様の素晴らしさと、真理を知ることでしょうД",
+      "en": "But, as your bond grows from now on, you will understand 【<pl>】-sama's greatness and the truthД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87671,
+      "id": "db_EventInfo:103548:37",
+      "jp": "そ、そんな……ま、まさか……これからも？",
+      "en": "Th-That...? N-No way... You mean we'll do this again?",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87672,
+      "id": "db_EventInfo:103549:6",
+      "jp": "はいД　これから、頑張っていきましょうД",
+      "en": "YesД Let's do our best from now onД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87673,
+      "id": "db_EventInfo:103550:0",
+      "jp": "マリーゼルはこれからも続けるつもりのようだ。",
+      "en": "It seems Marisel plans to keep this going.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87674,
+      "id": "db_EventInfo:103551:0",
+      "jp": "★エッチシーン・マルガレータ・個別②・聖女のパイズリ指南②(嫌悪)",
+      "en": "*H-Scene: Margareta, Part 2 - The Saint's Titty Fuck Tutorial 2 (Disgust)*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87675,
+      "id": "db_EventInfo:103552:0",
+      "jp": "★エッチシーン・マルガレータ・個別③・聖女と処女喪失指南(嫌悪)",
+      "en": "H-Scene: Margareta, Individual ③: The Saint and Losing Her Virginity Guide (Disgust)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87676,
+      "id": "db_EventInfo:103553:0",
+      "jp": "マルガレータさんとえっちしてしまった……。",
+      "en": "I had sex with Margareta...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87677,
+      "id": "db_EventInfo:103555:37",
+      "jp": "あっ",
+      "en": "Ah...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87678,
+      "id": "db_EventInfo:103556:37",
+      "jp": "お、おはようございます、【<pl>】様……",
+      "en": "G-good morning, 【<pl>】...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87679,
+      "id": "db_EventInfo:103557:0",
+      "jp": "身体を交わした朝のぎこちなさに、マルガレータさんは目を逸らす。",
+      "en": "In the awkward morning after our bodies joined, Margareta looks away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87680,
+      "id": "db_EventInfo:103558:6",
+      "jp": "うふふ、初々しくて素晴らしいですわД",
+      "en": "Hehe, so fresh and wonderfulД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87681,
+      "id": "db_EventInfo:103559:0",
+      "jp": "マリーゼルは横で微笑している。",
+      "en": "Marisel is smiling beside us.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87682,
+      "id": "db_EventInfo:103560:0",
+      "jp": "ちなみにあの後、初体験のショックか、マルガレータさんは気を失ってしまい。",
+      "en": "By the way, after that, maybe from the shock of her first time, Margareta fainted.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87683,
+      "id": "db_EventInfo:103561:0",
+      "jp": "続くようにマリーゼルに襲われて、しこたま搾り取られてしまったのであった。",
+      "en": "Then, Marisel attacked her and milked me dry.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87684,
+      "id": "db_EventInfo:103563:6",
+      "jp": "これで、【<pl>】様の素晴らしさを理解して頂けましたでしょうか？",
+      "en": "Now, do you understand how wonderful 【<pl>】 is?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87685,
+      "id": "db_EventInfo:103564:37",
+      "jp": "そ、そんなことわかりませんわ……！",
+      "en": "N-no, I don't know that...!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87686,
+      "id": "db_EventInfo:103565:6",
+      "jp": "まあ……Д　たしかに、一度身体を重ねただけでは満足出来ませんものねД",
+      "en": "Oh myД. It's true, just one time together isn't enough for satisfactionД.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87687,
+      "id": "db_EventInfo:103566:37",
+      "jp": "そ、そういうわけでは……",
+      "en": "N-No, that's not it...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87688,
+      "id": "db_EventInfo:103567:6",
+      "jp": "心配はございませんД　【<pl>】様は無限の愛を下さる方",
+      "en": "Don't worryД【<pl>】-sama is someone who grants infinite love.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87689,
+      "id": "db_EventInfo:103568:6",
+      "jp": "マルガレータ様が望めばいくらでも、寵愛を注いで頂けますわ",
+      "en": "If Margareta-sama wishes it, He can bestow as much favor as you like.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87690,
+      "id": "db_EventInfo:103569:37",
+      "jp": "いや、その……",
+      "en": "No, I mean...",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87691,
+      "id": "db_EventInfo:103570:6",
+      "jp": "ですよね、【<pl>】様？",
+      "en": "Right, 【<pl>】-sama?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87692,
+      "id": "db_EventInfo:103571:1",
+      "jp": "は、はい……！",
+      "en": "Y-Yes...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87693,
+      "id": "db_EventInfo:103572:37",
+      "jp": "【<pl>】様ったら……！",
+      "en": "【<pl>】-sama, really...!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87694,
+      "id": "db_EventInfo:103573:37",
+      "jp": "勘違いしないでくださいませ、今回は【『聖女』】様に免じて、身体を許したのです",
+      "en": "Don't misunderstand. This time, I only allowed you my body out of respect for the 【'Saint'】-sama.",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87695,
+      "id": "db_EventInfo:103574:37",
+      "jp": "次はそう簡単に、許すとは思わないでくださいませ……！",
+      "en": "Don't think it will be so easy for me to allow it next time...!",
+      "speaker": "Margareta",
+      "speaker_jp": "マルガレータ"
+    },
+    {
+      "n": 87696,
+      "id": "db_EventInfo:103577:0",
+      "jp": "マルガレータさんは身なりを整えると、部屋を出て行ってしまった。",
+      "en": "Margareta fixed her clothes and left the room.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 87697,
+      "id": "db_EventInfo:103578:6",
+      "jp": "ふふ、マルガレータ様はああ仰ってましたが、【<pl>】様の魅力には逆らえません",
+      "en": "Hehe. Even though Margareta-sama said that, she cannot resist your charm, 【<pl>】-sama.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87698,
+      "id": "db_EventInfo:103579:6",
+      "jp": "なにせ、あの方には【魔性】があるのですから",
+      "en": "After all, that woman possesses a 【Demonic Nature】.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 87699,
+      "id": "db_EventInfo:103580:1",
+      "jp": "【魔性】……？",
+      "en": "\"Demonic...?\"",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 87700,
+      "id": "db_EventInfo:103581:6",
+      "jp": "ふふ。それはいずれ……今後もマルガレータ様を愛して差し上げてくださいませД",
+      "en": "Hehe. That will come in time... Please continue to love Lady MargaretaД",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    }
+  ]
+}

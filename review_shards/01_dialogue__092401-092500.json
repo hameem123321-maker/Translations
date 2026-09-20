@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 92401,
+  "range_end": 92500,
+  "pairs": [
+    {
+      "n": 92401,
+      "id": "db_EventInfo:109241:13",
+      "jp": "ワシが腕によりを掛けて作った【『鍛冶工房』】じゃ",
+      "en": "This Forge was made with my own skill.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92402,
+      "id": "db_EventInfo:109242:13",
+      "jp": "生半可な工房には遅れを取らんぞい。なんせ、ドワームが作った工房なんじゃからな！！",
+      "en": "It won't fall behind any ordinary workshop. After all, it's a workshop made by Dwarm!!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92403,
+      "id": "db_EventInfo:109243:1",
+      "jp": "ドワーム？",
+      "en": "Dwarm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92404,
+      "id": "db_EventInfo:109244:1",
+      "jp": "そういえば、物作りが得意とか言ってたような",
+      "en": "Oh yeah, I think he said he's good at making things.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92405,
+      "id": "db_EventInfo:109245:2",
+      "jp": "そうデス。そういえば【『鍛冶工房』】を作ったのはいいデスが、肝心の【職人】がいないデス",
+      "en": "Right. Speaking of which, we built the Blacksmith Workshop, but we don't have the worker we need.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92406,
+      "id": "db_EventInfo:109246:2",
+      "jp": "おいオマエ、ウチで働かないデス？",
+      "en": "Hey you, want to work for us?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92407,
+      "id": "db_EventInfo:109247:13",
+      "jp": "うむ？　単刀直入じゃな",
+      "en": "Hmm? Getting right to the point, I see.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92408,
+      "id": "db_EventInfo:109248:13",
+      "jp": "他でもないシイネちゃんの頼みとあらば、それもやぶさかではないのじゃが……",
+      "en": "Well, if it's a direct request from Shiine herself, it's not like I would refuse...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92409,
+      "id": "db_EventInfo:109249:13",
+      "jp": "ワシがいなくて、誰が【『建築』】するのじゃ？",
+      "en": "But if I'm not there, who's going to do the Building work?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92410,
+      "id": "db_EventInfo:109250:2",
+      "jp": "【職人】はする、【『建築』】もする……両方やれデス",
+      "en": "Do the worker job, do the Building work too... do both.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92411,
+      "id": "db_EventInfo:109251:13",
+      "jp": "無理じゃ～！",
+      "en": "Impossible~!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92412,
+      "id": "db_EventInfo:109252:1",
+      "jp": "うーむ……",
+      "en": "Hmm...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92413,
+      "id": "db_EventInfo:109253:2",
+      "jp": "残念デス",
+      "en": "Too bad.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92414,
+      "id": "db_EventInfo:109254:13",
+      "jp": "まあそういうな……そうじゃな、【里】の者たちがいればなぁ……",
+      "en": "Ah, don't be like that... Let me think... If only we had people from the Village...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92415,
+      "id": "db_EventInfo:109255:1",
+      "jp": "【里】……？",
+      "en": "A village...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92416,
+      "id": "db_EventInfo:109256:2",
+      "jp": "オマエの仲間のことデス？",
+      "en": "Your friends? Is that it?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92417,
+      "id": "db_EventInfo:109257:13",
+      "jp": "うむ。【『ドルワミール鉱山』】にある【里】にはワシに比肩する職人どもが大勢おる。そいつらを呼べば【『建築』】もたやすいんじゃがな",
+      "en": "Yes. In the 'Dolwarmir Mine', there's a village full of craftsmen as skilled as me. Getting them here would make 'construction' easy.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92418,
+      "id": "db_EventInfo:109258:13",
+      "jp": "といっても、ドワーム族どもは気難しい。なかなか【里】を出ることはないのじゃ",
+      "en": "But, the Dwarm people are stubborn. They rarely ever leave their village.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92419,
+      "id": "db_EventInfo:109259:1",
+      "jp": "そうか……",
+      "en": "I see...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92420,
+      "id": "db_EventInfo:109260:2",
+      "jp": "オマエはなんで、ここにいるデス？",
+      "en": "Hey, why are YOU here?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92421,
+      "id": "db_EventInfo:109261:13",
+      "jp": "ワシはまあ……【人捜し】をしておって、ドワームの里を出てきたのじゃ",
+      "en": "Me? Well... I'm on a 'person hunt'. I left the Dwarm village to look for someone.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92422,
+      "id": "db_EventInfo:109262:1",
+      "jp": "(【人捜し】か……)",
+      "en": "(A person hunt, huh...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92423,
+      "id": "db_EventInfo:109263:2",
+      "jp": "おいオマエ、【『鍛冶工房』】を使ったデス？",
+      "en": "Hey, did YOU use the 'Blacksmith Workshop'?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92424,
+      "id": "db_EventInfo:109264:1",
+      "jp": "いや、そんなことないけど……俺に工房が使えるわけないだろ",
+      "en": "No, not at all... There's no way I could use a workshop.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92425,
+      "id": "db_EventInfo:109265:2",
+      "jp": "それもそうデス",
+      "en": "Yeah, that makes sense.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92426,
+      "id": "db_EventInfo:109266:2",
+      "jp": "さっき見てみたら、【ものすごく出来の良い剣】が落ちてたデス。高く売れそうデス！",
+      "en": "I just checked, and I found an 'amazingly well-made sword' lying around. Looks like it'll sell for a lot!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92427,
+      "id": "db_EventInfo:109267:2",
+      "jp": "これも日頃の行いのおかげデス？　ふっふっ、神様が贈り物をしてくれたデス！",
+      "en": "Is this a reward for my good behavior? Hehe, a god gave us a gift!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92428,
+      "id": "db_EventInfo:109268:1",
+      "jp": "オマエも神だろ……死神だけど",
+      "en": "You're a god too... a Shinigami, but still.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92429,
+      "id": "db_EventInfo:109269:1",
+      "jp": "きっとドルガノンが作ったんじゃないのか？",
+      "en": "I bet Dorganon made it, right?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92430,
+      "id": "db_EventInfo:109270:2",
+      "jp": "なるほど……あやつめ、やはりウチで働きたがってるデスね",
+      "en": "I see... that guy, he really wants to work here, doesn't he!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92431,
+      "id": "db_EventInfo:109271:13",
+      "jp": "ほっほっ、楽しそうじゃな",
+      "en": "Hoho, you seem to be having fun.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92432,
+      "id": "db_EventInfo:109272:1",
+      "jp": "あっ、ドルガノン、あんたの話をしていたんだ",
+      "en": "Oh, Dorganon, we were just talking about you.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92433,
+      "id": "db_EventInfo:109273:13",
+      "jp": "ほっ？",
+      "en": "Huh?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92434,
+      "id": "db_EventInfo:109274:2",
+      "jp": "うむ　やはりオマエ、さっさとウチで働くデス",
+      "en": "Right. You should start working here right away!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92435,
+      "id": "db_EventInfo:109275:13",
+      "jp": "ほっほっ、なんのことじゃ？",
+      "en": "Hoho, whatever do you mean?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92436,
+      "id": "db_EventInfo:109276:1",
+      "jp": "とぼけないでくれよ、この剣を作ったのはアンタだろ？",
+      "en": "Stop playing dumb. You made this sword, didn't you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92437,
+      "id": "db_EventInfo:109277:13",
+      "jp": "ほ？　剣か、はて……ワシは【『建築』】の時以外は、あまり店に寄ってないのじゃが……ん？",
+      "en": "Huh? A sword, let's see... I don't come to the shop much except during 'Construction' times, but... huh?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92438,
+      "id": "db_EventInfo:109278:13",
+      "jp": "こ、この剣は……",
+      "en": "Th-this sword is...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92439,
+      "id": "db_EventInfo:109279:1",
+      "jp": "こんないい剣が作れるなら、やっぱり【『鍛冶工房』】で働いてくれないとな",
+      "en": "Since you can make such a good sword, I really need you to work at the Blacksmith Workshop.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92440,
+      "id": "db_EventInfo:109281:1",
+      "jp": "ドルガノン？",
+      "en": "Dorganon?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92441,
+      "id": "db_EventInfo:109282:13",
+      "jp": "……この剣は、ワシには作れん",
+      "en": "...I can't make this sword.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92442,
+      "id": "db_EventInfo:109283:2",
+      "jp": "デス？",
+      "en": "Death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92443,
+      "id": "db_EventInfo:109284:13",
+      "jp": "この剣に満ちた【気】……いや、あのお方にとってはこれも、ただの気まぐれに打ったものにすぎないじゃろうが",
+      "en": "The spirit in this sword... No, for that person, this was probably just made on a whim.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92444,
+      "id": "db_EventInfo:109285:13",
+      "jp": "まさかここに姫様が？",
+      "en": "Could it be the Princess is here?",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92445,
+      "id": "db_EventInfo:109286:2",
+      "jp": "姫様デス？",
+      "en": "The Princess, death?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92446,
+      "id": "db_EventInfo:109287:1",
+      "jp": "……まさか",
+      "en": "...You're kidding.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92447,
+      "id": "db_EventInfo:109289:3",
+      "jp": "店長！　今日こそはスイーツを所望するぞ",
+      "en": "Shopkeeper! Today, I request sweets!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92448,
+      "id": "db_EventInfo:109290:3",
+      "jp": "<ruby=わらわ>妾</ruby>は日に三度のスイーツを食べなければ生きていけないのじゃ、スイーツ！　スイーツ！",
+      "en": "I can't live without eating sweets three times a day! Sweets! Sweets!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92449,
+      "id": "db_EventInfo:109291:13",
+      "jp": "姫様！！？？",
+      "en": "Princess!!??",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92450,
+      "id": "db_EventInfo:109292:3",
+      "jp": "ドルガノン！！？？　なんでオヌシがここに！！",
+      "en": "Dorganon!!?? What are you doing here!?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92451,
+      "id": "db_EventInfo:109293:13",
+      "jp": "それはこちらのセリフでございます、姫様、よもやこのような場所においでとは",
+      "en": "I was just about to say the same thing, Princess. I didn't expect to find you in a place like this.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92452,
+      "id": "db_EventInfo:109294:3",
+      "jp": "いやその……逃げるのじゃ！",
+      "en": "Well, that's... I'm getting out of here!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92453,
+      "id": "db_EventInfo:109295:2",
+      "jp": "あっ、待つデス！",
+      "en": "Ah, wait Desu!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92454,
+      "id": "db_EventInfo:109296:0",
+      "jp": "★クリア",
+      "en": "*Cleared*",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92455,
+      "id": "db_EventInfo:109299:3",
+      "jp": "ぐぬぬ、離すのじゃー",
+      "en": "Grrr, let me go!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92456,
+      "id": "db_EventInfo:109300:2",
+      "jp": "オマエが逃げるからデス",
+      "en": "It's because you were trying to run Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92457,
+      "id": "db_EventInfo:109301:0",
+      "jp": "ドルガノンとアンジュは同郷の人間とのことだった。",
+      "en": "Dorganon and Anju were from the same hometown.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92458,
+      "id": "db_EventInfo:109302:0",
+      "jp": "アンジュはしばらく前に彼らの【里】を飛び出したらしく、ドルガノンはそれを追って【里】を出たということだ。",
+      "en": "It seems Anju ran away from their [village] a while ago, and Dorganon left the [village] to chase after her.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92459,
+      "id": "db_EventInfo:109303:0",
+      "jp": "ドワーム族は彼らの【里】を出たがらないが、彼の【姫】を追うためであれば、致し方がないとのことである。",
+      "en": "The Dwarm people don't like to leave their [village], but he said he had to, to follow his [Princess].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 92460,
+      "id": "db_EventInfo:109304:3",
+      "jp": "むーむー！　<ruby=わらわ>妾</ruby>はもう、鍛冶などやらないのじゃー！　自由に生きるのじゃ！　スイーツ！",
+      "en": "Mhm-mhm! I, am not doing forging anymore! I'm going to live freely! Sweets!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92461,
+      "id": "db_EventInfo:109305:2",
+      "jp": "甘味に心を奪われているデス",
+      "en": "Her heart has been stolen by sweets Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92462,
+      "id": "db_EventInfo:109306:13",
+      "jp": "そう仰られても……この剣こそ【『鍛冶姫』】のなせる技。やはり姫様は【剣の祝福】を受けておるのです",
+      "en": "Even if you say that... This sword is proof of the ['Forging Princess']'s skill. You still have the [Sword's Blessing], Princess.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92463,
+      "id": "db_EventInfo:109307:3",
+      "jp": "そんな手抜きのナマクラ剣なんぞ、<ruby=わらわ>妾</ruby>じゃなくても作れるのじゃー！！",
+      "en": "Anyone could make this half-hearted raw wood sword, not just me!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92464,
+      "id": "db_EventInfo:109308:13",
+      "jp": "むう……",
+      "en": "Hmm...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92465,
+      "id": "db_EventInfo:109309:2",
+      "jp": "なんだかオマエ、アンジュに無理強いして剣を打たせてたんじゃないデス？",
+      "en": "You know, it seems like you were forcing Anju to make swords against her will, wasn't you?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92466,
+      "id": "db_EventInfo:109310:13",
+      "jp": "うっ",
+      "en": "Oof",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92467,
+      "id": "db_EventInfo:109311:3",
+      "jp": "そうじゃ！　<ruby=わらわ>妾</ruby>は生まれてこの方、ずっと鍛冶場に放り込まれて剣ばかり打たされてたのじゃ！",
+      "en": "That's right! From the moment I was born, I was thrown into the forge and made to make nothing but swords!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92468,
+      "id": "db_EventInfo:109312:3",
+      "jp": "もう鍛冶場なんぞに戻りたくない！　自由に生きるのじゃー！！",
+      "en": "I don't want to go back to that forge anymore! I want to live freely!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92469,
+      "id": "db_EventInfo:109313:1",
+      "jp": "こう言ってるんだから、無理じゃないのか？",
+      "en": "If she's saying this, isn't it unreasonable?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92470,
+      "id": "db_EventInfo:109314:13",
+      "jp": "ううむ……たしかに、今の姫様に剣を打ってもらうのは無理ですな……",
+      "en": "Hmm... Indeed, it is unreasonable to ask the Princess to make swords in her current state...",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92471,
+      "id": "db_EventInfo:109315:13",
+      "jp": "わかりました。今回は、このワシが引き下がりますぞ",
+      "en": "Understood. This time, I will back down.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92472,
+      "id": "db_EventInfo:109316:3",
+      "jp": "やったー！",
+      "en": "Yay!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92473,
+      "id": "db_EventInfo:109317:13",
+      "jp": "その代わり、これからはワシも店に住んで、姫様を見守らせてもらいます。姫様が剣を打つと言うまでですな",
+      "en": "In return, I will now live in the shop and keep watch over the Princess. Until she says she will make swords again.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92474,
+      "id": "db_EventInfo:109318:3",
+      "jp": "いやじゃー！",
+      "en": "No way!!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92475,
+      "id": "db_EventInfo:109319:13",
+      "jp": "ふっふっ、姫様がここにおわすと聞けば、【里】の者も来るでしょう。【『建築』】は彼らに任せますぞい",
+      "en": "Heh heh. Now that the Princess is here, people from the village will come too. I'll leave the building to them.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92476,
+      "id": "db_EventInfo:109320:1",
+      "jp": "ということは",
+      "en": "So that means...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92477,
+      "id": "db_EventInfo:109321:13",
+      "jp": "これからは【『職人』】として、この店で働かせてもらいますぞ",
+      "en": "From now on, I'll work as a craftsman in this shop.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92478,
+      "id": "db_EventInfo:109322:13",
+      "jp": "まあ姫様ほどの腕はありませぬが、このドルガノン、【『ゼカリウス』】の人間には腕で劣るつもりはないぞい",
+      "en": "Well, I'm not as good as the Princess. But this Dorganon does not plan to be worse with his hands than any human from Zecarius!",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    },
+    {
+      "n": 92479,
+      "id": "db_EventInfo:109323:2",
+      "jp": "やったデス",
+      "en": "We did it!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92480,
+      "id": "db_EventInfo:109324:1",
+      "jp": "ドワーム族が仲間になるなら、【『鍛冶工房』】も本格稼働してくれそうだな",
+      "en": "If the Dwarm tribe joins us, the forge should really start working.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92481,
+      "id": "db_EventInfo:109325:3",
+      "jp": "いやなのじゃー！！",
+      "en": "No way!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92482,
+      "id": "db_EventInfo:109326:2",
+      "jp": "おいオマエ、客が来ているデス",
+      "en": "Hey you, a customer is here.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92483,
+      "id": "db_EventInfo:109327:3",
+      "jp": "ごきげんようなのじゃ",
+      "en": "Good day to you.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92484,
+      "id": "db_EventInfo:109328:3",
+      "jp": "おぬし、ここの店長だったのじゃな",
+      "en": "You are the shop manager here, I believe.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92485,
+      "id": "db_EventInfo:109329:1",
+      "jp": "君は……たしか、【『フレスミス森林道』】にいた……",
+      "en": "You are... I remember you were on the Freshmiss Forest Road...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92486,
+      "id": "db_EventInfo:109331:3",
+      "jp": "<ruby=わらわ>妾</ruby>の名はアンジュ、誇り高きドワーム族なのじゃ",
+      "en": "My name is Anju. I am of the proud Dwarm tribe.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92487,
+      "id": "db_EventInfo:109332:1",
+      "jp": "ドワーム？",
+      "en": "Dwarm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92488,
+      "id": "db_EventInfo:109333:2",
+      "jp": "大地の精霊の祝福を受けるという希少種族デス",
+      "en": "It's a rare race that receives the blessing of earth spirits, desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92489,
+      "id": "db_EventInfo:109334:1",
+      "jp": "その、ドワームのアンジュがどうしたんだ？",
+      "en": "So, what about that Dwarm, Anju?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92490,
+      "id": "db_EventInfo:109335:3",
+      "jp": "うむ！　おぬしたち、【『フレスミス森林道』】を攻略中なのじゃろ？",
+      "en": "Mmm! You lot are tackling the 'Fresmis Forest Path', right?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92491,
+      "id": "db_EventInfo:109336:3",
+      "jp": "あの場所はそれなりに経験を積んだ冒険者でも、攻略には骨が折れる場所じゃ",
+      "en": "That place is tough even for fairly experienced adventurers to clear.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92492,
+      "id": "db_EventInfo:109337:3",
+      "jp": "どうじゃ、<ruby=わらわ>妾</ruby>をガイドとして雇わんか？",
+      "en": "How about it? Won't you hire me as your guide?",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92493,
+      "id": "db_EventInfo:109338:1",
+      "jp": "ガイドに？",
+      "en": "As a guide?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 92494,
+      "id": "db_EventInfo:109339:2",
+      "jp": "そういやオマエ、前の雇い主はどうしたデス",
+      "en": "Come to think of it, what happened to your last employer, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92495,
+      "id": "db_EventInfo:109340:3",
+      "jp": "むーっ、あんなヤツの仕事、こちらから辞めてやったのじゃ！",
+      "en": "Hmph, I quit that guy's job myself!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92496,
+      "id": "db_EventInfo:109341:2",
+      "jp": "クビになったの間違いじゃないデス？",
+      "en": "You got fired, didn't you, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92497,
+      "id": "db_EventInfo:109342:3",
+      "jp": "<ruby=わらわ>妾</ruby>は悪くないのじゃ！　<ruby=わらわ>妾</ruby>は遠回りでも安全な道を提案したというのに……",
+      "en": "It wasn't my fault! I suggested a safer path, even if it was longer...",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92498,
+      "id": "db_EventInfo:109343:2",
+      "jp": "【『フレスミス森林道』】は交易路デス？　交易なら、短い方が良いデスよ？",
+      "en": "The 'Fresmis Forest Path' is a trade route, desu? For trade, shorter is better, desu yo.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 92499,
+      "id": "db_EventInfo:109344:3",
+      "jp": "うっ……それもそうじゃが",
+      "en": "Ouch... You've got a point there.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 92500,
+      "id": "db_EventInfo:109345:3",
+      "jp": "まあとにかく！　<ruby=わらわ>妾</ruby>は仕事を探さねばならんのじゃ！　頼むのじゃ！",
+      "en": "Anyway! I need to find a job! Please!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    }
+  ]
+}

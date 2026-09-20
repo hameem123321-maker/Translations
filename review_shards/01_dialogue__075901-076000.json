@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75901,
+  "range_end": 76000,
+  "pairs": [
+    {
+      "n": 75901,
+      "id": "db_EventInfo:89799:0",
+      "jp": "いったん、拠点に戻ることにした。",
+      "en": "We decided to head back to base for now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75902,
+      "id": "db_EventInfo:89801:0",
+      "jp": "【『緑の月』】……その深奥にて。",
+      "en": "Deep within the Green Moon...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75903,
+      "id": "db_EventInfo:89802:0",
+      "jp": "天高くそびえる大樹がある。",
+      "en": "There's a huge tree reaching into the sky.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75904,
+      "id": "db_EventInfo:89803:0",
+      "jp": "これが【『ゴブリン』】を産む【『世界樹』】なのだろう。",
+      "en": "This must be the 'World Tree' that gives birth to the 'Goblins'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75905,
+      "id": "db_EventInfo:89804:0",
+      "jp": "その根元にて。",
+      "en": "At the base of the tree.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75906,
+      "id": "db_EventInfo:89806:29",
+      "jp": "やあ",
+      "en": "Hey.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75907,
+      "id": "db_EventInfo:89807:0",
+      "jp": "もう一人のデシルスが待っていた。",
+      "en": "The other Desilus was waiting there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75908,
+      "id": "db_EventInfo:89808:29",
+      "jp": "皆を連れてきたんだね、もう一人の僕",
+      "en": "You brought everyone, the other me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75909,
+      "id": "db_EventInfo:89809:15",
+      "jp": "ああ、もうひとりの僕",
+      "en": "Yeah, the other me.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75910,
+      "id": "db_EventInfo:89812:29",
+      "jp": "ふっ……",
+      "en": "Hah...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75911,
+      "id": "db_EventInfo:89813:15",
+      "jp": "ふっ……",
+      "en": "Hah...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75912,
+      "id": "db_EventInfo:89814:29",
+      "jp": "はっはっ、もうどうしようもないよね！！",
+      "en": "Ha ha, this is hopeless, isn't it?!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75913,
+      "id": "db_EventInfo:89815:15",
+      "jp": "そうだねぇ、はっはっは！！",
+      "en": "Yeah, it sure is! Ha ha ha!",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 75914,
+      "id": "db_EventInfo:89816:2",
+      "jp": "笑うなデス！",
+      "en": "Don't laugh, Des!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75915,
+      "id": "db_EventInfo:89817:1",
+      "jp": "とにかく、【『ゴブリン』】の【『世界樹』】を破壊させてもらうぞ！",
+      "en": "Anyway, I'm gonna destroy the Goblins' World Tree!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75916,
+      "id": "db_EventInfo:89818:29",
+      "jp": "いやあ、そうはさせないよ",
+      "en": "Nah, I won't let you do that.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75917,
+      "id": "db_EventInfo:89819:1",
+      "jp": "なんだって！？",
+      "en": "What!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75918,
+      "id": "db_EventInfo:89821:29",
+      "jp": "だって、もう一人の僕が【<pl>】君たちの味方をしているだから、フェアじゃないだろう？",
+      "en": "Because the other me is on your side, 【<pl>】. That's not fair, right?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75919,
+      "id": "db_EventInfo:89822:29",
+      "jp": "それにまあ、僕は【『ゴブリン』】たちの【『神』】だからね",
+      "en": "Besides, I'm the Goblins' God.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75920,
+      "id": "db_EventInfo:89823:2",
+      "jp": "向こうのデシルスは【『ゴブリン』】の味方をするようデス",
+      "en": "Looks like the Desilus over there is siding with the Goblins.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75921,
+      "id": "db_EventInfo:89824:29",
+      "jp": "うんうん",
+      "en": "Yep, yep.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75922,
+      "id": "db_EventInfo:89825:29",
+      "jp": "それにちょうど、【尊き魂】も手に入れたから【『世界樹』】に入れてみたところなんだ",
+      "en": "And I just got a Noble Soul, so I tried putting it into the World Tree.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75923,
+      "id": "db_EventInfo:89826:29",
+      "jp": "彼らは人間だったが、その在り方は【『ゴブリン』】の方に近い",
+      "en": "They were humans, but the way they lived was more like Goblins.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75924,
+      "id": "db_EventInfo:89827:29",
+      "jp": "後は君達で勝負を付けたまえ",
+      "en": "Now, you settle this with a fight.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75925,
+      "id": "db_EventInfo:89829:0",
+      "jp": "もう一人のデシルスは身構えてきた！",
+      "en": "The other Desilus is getting ready to fight!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75926,
+      "id": "db_EventInfo:89833:0",
+      "jp": "俺たちの目の前で【『世界樹』】は砕け散り、虚空に消えていった。",
+      "en": "Right in front of us, the World Tree shattered into pieces and vanished into the void.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75927,
+      "id": "db_EventInfo:89834:1",
+      "jp": "くっ……！",
+      "en": "Ugh...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75928,
+      "id": "db_EventInfo:89835:0",
+      "jp": "【『ジェノブレイク』】の反動で、俺の生命力が大きく消えていくのを感じた。",
+      "en": "I felt my life force draining away fast from the backlash of [Genobreak].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75929,
+      "id": "db_EventInfo:89836:1",
+      "jp": "(よく考えれば、俺、何度も死んで戻ったっけな)",
+      "en": "(Now that I think about it, I've died and come back a lot.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75930,
+      "id": "db_EventInfo:89837:0",
+      "jp": "ここで死ねば、自分の技の反動で自滅した、みたいなことを言われるんだろうか。",
+      "en": "If I die here, will they say I killed myself with my own attack?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75931,
+      "id": "db_EventInfo:89841:2",
+      "jp": "おいオマエ！　まだ死ぬのは早いデス",
+      "en": "Hey, you! It's too soon to die!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75932,
+      "id": "db_EventInfo:89842:1",
+      "jp": "(……シイネ？)",
+      "en": "(...Shiine?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75933,
+      "id": "db_EventInfo:89843:2",
+      "jp": "まだやることは残ってるデス！　目を開けるデス！",
+      "en": "There's still more to do! Open your eyes!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75934,
+      "id": "db_EventInfo:89844:2",
+      "jp": "オマエの力で、【『世界樹』】は倒壊したデス！　今こそオマエの手で、【最後の運命を改変】する時デス！",
+      "en": "With your power, [The World Tree] has fallen! Now is the time for you to use your hands to [change the final fate]!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75935,
+      "id": "db_EventInfo:89850:0",
+      "jp": "ここは……。",
+      "en": "This place is...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75936,
+      "id": "db_EventInfo:89852:2",
+      "jp": "残念、オマエの人生はまだ続いているデス",
+      "en": "Too bad, your life isn't over yet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75937,
+      "id": "db_EventInfo:89853:1",
+      "jp": "……そんなの、初めて言われたな",
+      "en": "...Huh. That's the first time anyone's ever told me that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75938,
+      "id": "db_EventInfo:89854:2",
+      "jp": "ふふ、やり切った末に、死を迎えるというのは、私達が良くても、【『縁』】を繋いだ奴らが納得しないデス",
+      "en": "Hehe. If you just gave up and accepted death, even if we were okay with it, the people [linked] to you would never accept it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75939,
+      "id": "db_EventInfo:89855:2",
+      "jp": "オマエと一緒に戦った連中も、平和になった宿でキリキリ働かせているデスからね",
+      "en": "The ones who fought with you? I'm making them work hard at the inn in the peaceful village.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75940,
+      "id": "db_EventInfo:89856:1",
+      "jp": "はは、相変わらずだな……【『大災厄』】はどうなったんだ",
+      "en": "Haha, still the same... What happened to the 'Great Calamity'?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75941,
+      "id": "db_EventInfo:89857:2",
+      "jp": "夜空を見上げればいいデス",
+      "en": "Just look up at the night sky.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75942,
+      "id": "db_EventInfo:89859:0",
+      "jp": "★クリア",
+      "en": "★Clear",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75943,
+      "id": "db_EventInfo:89860:2",
+      "jp": "最後の【『運命改変』】によって、もはや【『大災厄』】は存在しないデス",
+      "en": "Because of the last 'Fate Alteration', the 'Great Calamity' no longer exists.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75944,
+      "id": "db_EventInfo:89861:2",
+      "jp": "オマエは証明したデスからね。人が繋いだ【『縁』】で、【『ゴブリン』】は絶滅させることができると",
+      "en": "You proved it. That the 'Goblins' can be wiped out by the 'Bonds' people form.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75945,
+      "id": "db_EventInfo:89862:2",
+      "jp": "ゆえに……【『黄金の月』】に【『ゴブリン』】は無く、この地を脅かす災厄も無くなったデス",
+      "en": "So... There are no 'Goblins' on the 'Golden Moon', and the calamity threatening this land is gone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75946,
+      "id": "db_EventInfo:89863:1",
+      "jp": "そうか……それじゃ、【『災厄』】が終わって、俺達はどうなるんだ？",
+      "en": "I see... So, with the 'Calamity' over, what happens to us?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75947,
+      "id": "db_EventInfo:89864:2",
+      "jp": "どう、と言われても、【『死都ルーメ・ルーデス』】があの様子では、戻ってもつまらんデスからね",
+      "en": "What do you mean? 'Ruume Luudes, the City of Death' is in that state. Going back would be boring.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75948,
+      "id": "db_EventInfo:89865:2",
+      "jp": "この地上で、もっともっとカネを稼ぐデス",
+      "en": "We make money. Lots more money, here on the surface.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75949,
+      "id": "db_EventInfo:89866:1",
+      "jp": "は、はは、そう……",
+      "en": "Hah, haha, right...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75950,
+      "id": "db_EventInfo:89867:2",
+      "jp": "無論、オマエにも付き合ってもらうデスよ。オマエは私の【『代行』】デスからね",
+      "en": "And of course, you're coming with me. You're my 'Proxy'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75951,
+      "id": "db_EventInfo:89868:2",
+      "jp": "ま、【『ゴブリン』】による【『災厄』】も起こらない以上、オマエの力はいずれ忘れられるデスが",
+      "en": "Well, since the 'Calamity' caused by the 'Goblins' is over, your powers will be forgotten eventually.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75952,
+      "id": "db_EventInfo:89869:2",
+      "jp": "【『死神代行助手』】の連中、オマエの目覚めを首を長くして待ってたデスよ。後で会いに行くといいデス",
+      "en": "The 'Shinigami Agent Assistants' were eagerly waiting for you to wake up. You should go see them later.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75953,
+      "id": "db_EventInfo:89870:2",
+      "jp": "ま、今後は女どもの相手をするなり、商売をするなり……あとは、私の相手をして、好きに暮らすデス",
+      "en": "Well, from now on, you can spend time with women, run the business... and then keep me company. Live as you please.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75954,
+      "id": "db_EventInfo:89871:1",
+      "jp": "お、おう……",
+      "en": "Oh... yeah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75955,
+      "id": "db_EventInfo:89872:2",
+      "jp": "いずれにしても、今度こそ【『災厄』】は去ったデス",
+      "en": "Anyway, this time the 'Calamity' is truly gone.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75956,
+      "id": "db_EventInfo:89873:2",
+      "jp": "お疲れ様、デス。本当に、よくやったデスね",
+      "en": "Good work. Really, well done.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75957,
+      "id": "db_EventInfo:89875:2",
+      "jp": "今度こそ全ての【『災厄』】は去ったデス",
+      "en": "This time, all of the 'Calamity' is gone for good.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75958,
+      "id": "db_EventInfo:89876:2",
+      "jp": "これからは、なにをするかは自由デス。私としてはカネ稼ぎの続きをしたいデスねД",
+      "en": "From now on, you're free to do whatever. Personally, I want to keep making moneyД",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75959,
+      "id": "db_EventInfo:89879:0",
+      "jp": "メインストーリーは終了しました。以後は自由に行動することができます。",
+      "en": "The main story is complete. You can now move around freely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75960,
+      "id": "db_EventInfo:89880:0",
+      "jp": "これまでプレイありがとうございました！",
+      "en": "Thank you for playing!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75961,
+      "id": "db_EventInfo:89882:6",
+      "jp": "メテトスですか……ここは私達が助けられた場所ですね",
+      "en": "Metetos... This is where we were saved.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75962,
+      "id": "db_EventInfo:89883:106",
+      "jp": "ああ。ポンタのことだな。あいつは良い奴だったよ",
+      "en": "Yeah. You mean Ponta. He was a good guy.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75963,
+      "id": "db_EventInfo:89884:6",
+      "jp": "ええ。安らかに……ポンタ",
+      "en": "Yes. Rest in peace... Ponta.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75964,
+      "id": "db_EventInfo:89885:14",
+      "jp": "ヒトを死人みたいに言わないでくれよ！　生き返ったんだから！",
+      "en": "Don't talk about me like I'm dead! I came back to life!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75965,
+      "id": "db_EventInfo:89886:106",
+      "jp": "あはは！　冗談じゃねーか！",
+      "en": "Ahaha! That was a joke!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75966,
+      "id": "db_EventInfo:89887:6",
+      "jp": "うふふ",
+      "en": "Hehe.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75967,
+      "id": "db_EventInfo:89888:14",
+      "jp": "でもなんで俺は死んだんだっけ？",
+      "en": "But why did I die again?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75968,
+      "id": "db_EventInfo:89889:14",
+      "jp": "いくら俺でも、コウモリやドッグには負けねーぞ",
+      "en": "Even I wouldn't lose to bats and dogs.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75969,
+      "id": "db_EventInfo:89890:6",
+      "jp": "それもそうですわね。多勢に無勢で……",
+      "en": "That's true too. You were outnumbered...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75970,
+      "id": "db_EventInfo:89891:106",
+      "jp": "ま、いいじゃねえか！　昔のコトなんて！",
+      "en": "Hey, who cares! That's ancient history!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75971,
+      "id": "db_EventInfo:89895:2",
+      "jp": "アイツらと縁を繋いだことが、私とオマエの【『災厄』】を止める活動の始まりになったデス",
+      "en": "Meeting those guys was the start of me and you trying to stop the 'Calamity'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75972,
+      "id": "db_EventInfo:89896:1",
+      "jp": "そうだな",
+      "en": "Yeah, that's right.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75973,
+      "id": "db_EventInfo:89897:0",
+      "jp": "彼から借りて、【ずっと共にしていた剣】は、彼の背中に戻っている。",
+      "en": "The sword I borrowed from him, the one I always had with me, is back on his back.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75974,
+      "id": "db_EventInfo:89898:0",
+      "jp": "名残惜しいが、本来の持ち主に返っただけともいえる。",
+      "en": "It's a shame, but it just went back to its real owner.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75975,
+      "id": "db_EventInfo:89899:2",
+      "jp": "案外あの剣は、いわくつきの剣だったのかもしれないデスね",
+      "en": "Maybe that sword has a strange history after all.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75976,
+      "id": "db_EventInfo:89903:9",
+      "jp": "ここは師匠殿がサバトをやろうとした場所でもあるな",
+      "en": "This is also the place my master tried to hold a Sabbat.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 75977,
+      "id": "db_EventInfo:89904:108",
+      "jp": "うむ。サバトは素晴らしい。本来ならば年中開催するべきなのじゃが",
+      "en": "Indeed. Sabbats are wonderful. We should hold them all year round.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75978,
+      "id": "db_EventInfo:89905:2",
+      "jp": "やめろデス",
+      "en": "Stop that.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75979,
+      "id": "db_EventInfo:89906:108",
+      "jp": "この地は【神が降りた】という伝承がある。魔術師であれば<ruby=すいぜん>垂涎</ruby>の場所なのじゃよ",
+      "en": "There's a legend that says a god descended here. It's a place mages would die to have.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75980,
+      "id": "db_EventInfo:89907:12",
+      "jp": "そうなのですか？　そんな伝承があるなら、なんらかの聖地になっているはずですが",
+      "en": "Really? If there's such a legend, it should have become a holy site.",
+      "speaker": "Myrte",
+      "speaker_jp": "ミルテ"
+    },
+    {
+      "n": 75981,
+      "id": "db_EventInfo:89908:108",
+      "jp": "神は降りた、しかし同時に【小さく邪悪な存在】を引き連れてしまっていたのじゃ。それに邪魔され、人々が近付くことは無くなったとのことじゃよ",
+      "en": "The god descended, but brought small, evil beings with it. They scared people away, so no one comes near anymore.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75982,
+      "id": "db_EventInfo:89909:9",
+      "jp": "【小さく邪悪な存在】、とな？",
+      "en": "Small, evil beings?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 75983,
+      "id": "db_EventInfo:89910:108",
+      "jp": "うむ。もっとも、それが何者だったのかは……今のワシらは【忘れて】しまっているようじゃがな。ククク……忘れさせられたのかもしれんがな？",
+      "en": "Yes. Although, what they were... it seems we've forgotten now. Kuku... Or maybe we were made to forget?",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75984,
+      "id": "db_EventInfo:89911:2",
+      "jp": "デス",
+      "en": "Indeed.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75985,
+      "id": "db_EventInfo:89912:108",
+      "jp": "他にも伝承はあるぞ？",
+      "en": "There are other legends too.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75986,
+      "id": "db_EventInfo:89913:108",
+      "jp": "小さな邪悪より人々を救い続けた、彷徨う鎧の伝説だとかな",
+      "en": "Like the legend of a wandering suit of armor that kept saving people from the small evils.",
+      "speaker": "Aurelia",
+      "speaker_jp": "オーレリア"
+    },
+    {
+      "n": 75987,
+      "id": "db_EventInfo:89915:2",
+      "jp": "この森にも世話になったデス",
+      "en": "We owe a lot to this forest too, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75988,
+      "id": "db_EventInfo:89916:1",
+      "jp": "この森から取れたマテリアルは、経営の基盤になったからな",
+      "en": "The materials we got from here were the foundation for our business.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75989,
+      "id": "db_EventInfo:89917:2",
+      "jp": "最初は魔獣が出ない森だったはずデスが。いつの頃からか、魔獣だらけデス",
+      "en": "At first, this forest had no monsters, des. But now it's full of them, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75990,
+      "id": "db_EventInfo:89919:8",
+      "jp": "ダンジョンなんてそんなものだよ。人が踏み入れない場所は魔界の瘴気が溢れてるところだらけだもん",
+      "en": "That's just how dungeons are. Places people don't go are full of demon world miasma.",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 75991,
+      "id": "db_EventInfo:89920:2",
+      "jp": "おまえら【『淫魔』】はロクなことしないデスね",
+      "en": "You 【『Succubi』】 never do anything good, des ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75992,
+      "id": "db_EventInfo:89921:8",
+      "jp": "ルーシェのせいじゃないもーん！",
+      "en": "It's not Lusche's fault, mon!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 75993,
+      "id": "db_EventInfo:89922:8",
+      "jp": "むしろルーシェたちは、人間が魔界に近付かないよう、うまく立ち回ってるぐらいだもん！",
+      "en": "In fact, we're working hard to keep humans away from the demon world, mon!",
+      "speaker": "Lusche",
+      "speaker_jp": "ルーシェ"
+    },
+    {
+      "n": 75994,
+      "id": "db_EventInfo:89923:2",
+      "jp": "信じられんデス",
+      "en": "I don't believe you, des.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75995,
+      "id": "db_EventInfo:89925:3",
+      "jp": "ここは妾が【<pl>】たちと出会った場所じゃな！",
+      "en": "This is where I met 【<pl>】 and the others!",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75996,
+      "id": "db_EventInfo:89926:3",
+      "jp": "……あのゴリラエルフィードと出会った場所でもあるが",
+      "en": "...It's also where I met that gorilla-elf.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 75997,
+      "id": "db_EventInfo:89928:10",
+      "jp": "だれがゴリラだ！",
+      "en": "Who are you calling a gorilla?!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75998,
+      "id": "db_EventInfo:89929:10",
+      "jp": "まったく、行き倒れしかけていたのを助けてやったというのに",
+      "en": "Honestly, I helped you when you were about to collapse here.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 75999,
+      "id": "db_EventInfo:89930:3",
+      "jp": "うぐっ、忌まわしい過去を",
+      "en": "Ugh... such a bad memory.",
+      "speaker": "Anju",
+      "speaker_jp": "アンジュ"
+    },
+    {
+      "n": 76000,
+      "id": "db_EventInfo:89931:13",
+      "jp": "ふぉっふぉっ",
+      "en": "Foh foh.",
+      "speaker": "Dorganon",
+      "speaker_jp": "ドルガノン"
+    }
+  ]
+}

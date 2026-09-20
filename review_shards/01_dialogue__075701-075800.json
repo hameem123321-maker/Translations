@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 75701,
+  "range_end": 75800,
+  "pairs": [
+    {
+      "n": 75701,
+      "id": "db_EventInfo:89541:22",
+      "jp": "だって、師匠が戦闘メンバーに参加したら、私達どころか大半の子は役割を持てませんよ",
+      "en": "But if the Master joins the battle team, most of us, including me, would have no role left.",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 75702,
+      "id": "db_EventInfo:89542:21",
+      "jp": "なんせ師匠は攻撃力とクリティカル率と行動速度が、全メンバー最大の値ですし",
+      "en": "After all, the Master has the highest attack, critical rate, and speed in the whole team.",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 75703,
+      "id": "db_EventInfo:89543:22",
+      "jp": "さらに無敵＆回避に加えて通常攻撃が全体範囲で即死効果もつくパッシブ持ちじゃないですか！",
+      "en": "Plus, she has a passive skill that makes her invincible and able to dodge, and her normal attack hits everyone and can instantly kill!",
+      "speaker": "Kureha",
+      "speaker_jp": "クレハ"
+    },
+    {
+      "n": 75704,
+      "id": "db_EventInfo:89544:20",
+      "jp": "えっへん",
+      "en": "Ahem",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 75705,
+      "id": "db_EventInfo:89545:1",
+      "jp": "インチキじゃないか",
+      "en": "That's just cheating.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75706,
+      "id": "db_EventInfo:89546:21",
+      "jp": "インチキですよ！",
+      "en": "It IS cheating!",
+      "speaker": "Shizuha",
+      "speaker_jp": "シズハ"
+    },
+    {
+      "n": 75707,
+      "id": "db_EventInfo:89547:20",
+      "jp": "インチキとは酷いですね。私は主人を立たせるメイドなのに",
+      "en": "Cheating? That's harsh. I'm a maid who stands by her Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 75708,
+      "id": "db_EventInfo:89548:20",
+      "jp": "私はなぞのメイド、御主人様の代わりに後方支援に徹するのが仕事",
+      "en": "I'm the mysterious maid. My job is to support from the back instead of my Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 75709,
+      "id": "db_EventInfo:89549:20",
+      "jp": "ついでに能力を維持したまま、五人ぐらいに分身してスロットを埋めることもございます",
+      "en": "Oh, and I can also make about five copies of myself to fill the slots, keeping all my abilities.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 75710,
+      "id": "db_EventInfo:89550:1",
+      "jp": "めちゃくちゃすぎる……",
+      "en": "This is totally ridiculous...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75711,
+      "id": "db_EventInfo:89551:20",
+      "jp": "しょぼーん",
+      "en": "Boooring.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 75712,
+      "id": "db_EventInfo:89554:0",
+      "jp": "いろいろ自重することになったので、ハヅキをメインメンバーにすることはできません。サブスロットに設定することはできます。",
+      "en": "Since I have to hold back on certain things, I can't make Hazuki a main party member. I can set her as a sub-slot member though.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75713,
+      "id": "db_EventInfo:89555:0",
+      "jp": "その代わり、チェイススキルを使うと時々乱入するようになりました。これからはシズハ・クレハのスキルじゃなくても乱入するようになります。",
+      "en": "Instead, she'll sometimes join the fight when I use a Chase Skill. It won't just be for Shizuha or Kureha's skills anymore.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75714,
+      "id": "db_EventInfo:89556:0",
+      "jp": "チェイススキルを使うメンバーの攻撃力が高まることになります。",
+      "en": "It will also boost the attack power of whoever used the Chase Skill.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75715,
+      "id": "db_EventInfo:89557:0",
+      "jp": "★フラグオン・ラシェウスの名前をルースに",
+      "en": "★Flag On: Change Rasieus's name to 'Loose'?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75716,
+      "id": "db_EventInfo:89558:0",
+      "jp": "先を進んでいると……。",
+      "en": "As I moved forward...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75717,
+      "id": "db_EventInfo:89560:19",
+      "jp": "おーい兄貴！",
+      "en": "Hey, bro!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75718,
+      "id": "db_EventInfo:89561:14",
+      "jp": "店長さん、手伝いはいるか～？",
+      "en": "Shopkeep, need a hand~?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75719,
+      "id": "db_EventInfo:89562:1",
+      "jp": "ポンタとラシェウス！？",
+      "en": "Ponta and Rasieus!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75720,
+      "id": "db_EventInfo:89563:19",
+      "jp": "はっはっ、ラシェウスは兄貴の方だろ？",
+      "en": "Haha, 'Rasieus' is your name, right, bro?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75721,
+      "id": "db_EventInfo:89564:19",
+      "jp": "ま、そっちの名前が呼びやすいなら、別に好きに呼んでくれりゃいいけどな",
+      "en": "Well, if my name's easier for you to say, go ahead and call me whatever you like.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75722,
+      "id": "db_EventInfo:89565:1",
+      "jp": "ど、どうしてここに？　というか、お前達死んだはずじゃ……",
+      "en": "Wh-why are you here? Wait, you guys are supposed to be dead...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75723,
+      "id": "db_EventInfo:89566:14",
+      "jp": "何言ってるんだよ。ここは【『死神』】の国だろ？",
+      "en": "What are you talking about? This is Shinigami's country, right?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75724,
+      "id": "db_EventInfo:89567:14",
+      "jp": "ってことは、死人がいても不思議じゃないじゃないか",
+      "en": "So, it's not weird if there are dead people, is it?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75725,
+      "id": "db_EventInfo:89568:1",
+      "jp": "それもそうだ……そうかな？",
+      "en": "That's true... I guess?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75726,
+      "id": "db_EventInfo:89569:19",
+      "jp": "そうそう、と言っても、死者の国にまで【『ゴブリン』】がいるとは思わなかったがな",
+      "en": "Yeah, that's right. But, I didn't expect to see Goblins even in the land of the dead.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75727,
+      "id": "db_EventInfo:89570:14",
+      "jp": "それよりも、俺も【『ゴブリン』】達と戦わせてくれよ！",
+      "en": "More importantly, let me fight the Goblins too!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75728,
+      "id": "db_EventInfo:89571:19",
+      "jp": "おう、せっかくだから、ついでに生き返らせてくれよ",
+      "en": "Hey, since we're at it, bring us back to life too, will you?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75729,
+      "id": "db_EventInfo:89572:0",
+      "jp": "確かに、今の状況なら、一人でも多くの戦力が欲しいところだが。",
+      "en": "It's true, we need as many fighters as we can get right now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75730,
+      "id": "db_EventInfo:89573:1",
+      "jp": "いいのかなぁ",
+      "en": "Is that okay?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75731,
+      "id": "db_EventInfo:89574:0",
+      "jp": "俺はチラリとシイネを見た。",
+      "en": "I glanced at Shiine.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75732,
+      "id": "db_EventInfo:89575:2",
+      "jp": "……許すデス",
+      "en": "...I allow it.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75733,
+      "id": "db_EventInfo:89576:0",
+      "jp": "許された。",
+      "en": "It was allowed.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75734,
+      "id": "db_EventInfo:89578:0",
+      "jp": "ポンタとラシェウス(ルース)が仲間になった。",
+      "en": "Ponta and Rasieus (Ruth) have joined the party.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75735,
+      "id": "db_EventInfo:89579:19",
+      "jp": "と言っても、今の俺達は足手まといだ、後方支援に徹することにさせてもらうぜ",
+      "en": "But to be honest, right now we'd just be in your way. Let us focus on supporting from the back.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75736,
+      "id": "db_EventInfo:89580:14",
+      "jp": "おう。へへ、世界を救う【『勇者』】か……！　燃えるぜ！",
+      "en": "Yeah. Heh heh, saving the world as the ['Hero']...! I'm fired up!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75737,
+      "id": "db_EventInfo:89581:1",
+      "jp": "ま、まあいいけど……",
+      "en": "W-well, okay then...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75738,
+      "id": "db_EventInfo:89584:0",
+      "jp": "ポンタとラシェウスが仲間に加わりました。二人はメインメンバーにすることはできません。",
+      "en": "Ponta and Rasieus have joined your party. You cannot set them as main party members.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75739,
+      "id": "db_EventInfo:89585:0",
+      "jp": "ただしサポートにしたときの比率が、通常よりも高くなっています。上手くこきつかいましょう。",
+      "en": "However, when set as Support, their effectiveness is higher than normal. Use them wisely.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75740,
+      "id": "db_EventInfo:89586:0",
+      "jp": "戦闘に出してレベルアップすることはできませんが、それぞれ主人公とマリーゼルのレベルと同期してますので、レベルは勝手に上がります。",
+      "en": "You cannot level them up by sending them into battle, but their levels automatically sync with the Player and Marisel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75741,
+      "id": "db_EventInfo:89587:0",
+      "jp": "没になったイベント",
+      "en": "Cutscene - Not used in the final game.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75742,
+      "id": "db_EventInfo:89589:1",
+      "jp": "しかし、世界の危機とはいえ、生き返って良かったのか？",
+      "en": "But... even with the world in danger, was it good that you came back to life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75743,
+      "id": "db_EventInfo:89590:19",
+      "jp": "ん？　何がだよ",
+      "en": "Hm? What do you mean?",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75744,
+      "id": "db_EventInfo:89591:1",
+      "jp": "だって、あの時は生き返りたくないって言ってたじゃないか",
+      "en": "Well, back then you said you didn't want to come back to life.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75745,
+      "id": "db_EventInfo:89592:19",
+      "jp": "あれは兄貴に力を返すためだったからな。【あの技】を託して、死ななきゃいけなかったのさ",
+      "en": "That was to return my power to my big bro. I had to die to pass on ['that technique'].",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75746,
+      "id": "db_EventInfo:89593:19",
+      "jp": "それに、今はあの時とは違って、ただ生き返りたいんだ",
+      "en": "Besides, it's different now. This time, I really do want to be alive again.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75747,
+      "id": "db_EventInfo:89594:1",
+      "jp": "そんな理由で生き返っていいのかなぁ",
+      "en": "Is that really a good enough reason to come back to life?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75748,
+      "id": "db_EventInfo:89596:1",
+      "jp": "本当のところはどうなんだ。生き返りたい理由とか出来たんじゃないのか？",
+      "en": "What's the real story? Didn't you get a reason to want to come back?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75749,
+      "id": "db_EventInfo:89597:19",
+      "jp": "おう！",
+      "en": "Hey!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75750,
+      "id": "db_EventInfo:89598:19",
+      "jp": "兄貴に力を戻したら、急にモテモテになってさ、こっちで可愛い嫁もできたんだぜ！",
+      "en": "After we got my big brother's power back, I suddenly got really popular! I even found a cute wife back home!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75751,
+      "id": "db_EventInfo:89599:19",
+      "jp": "あっ、もちろん【『ゴブリン』】なんかじゃなくて、天使みたいに羽も生えたメイデンの――",
+      "en": "Oh, and of course it's not some Goblin or anything. She's a maiden with wings like an angel—",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75752,
+      "id": "db_EventInfo:89601:115",
+      "jp": "な！？　何を勝手に嫁とか作ってる！？",
+      "en": "What?! What do you mean you made a wife on your own?!",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75753,
+      "id": "db_EventInfo:89602:105",
+      "jp": "どういうことだ！　信じられん！",
+      "en": "What are you talking about?! I don't believe it!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75754,
+      "id": "db_EventInfo:89603:19",
+      "jp": "うお、どうした二人とも！？",
+      "en": "Whoa, what's wrong with you two?!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75755,
+      "id": "db_EventInfo:89604:105",
+      "jp": "どうしたもこうしたもないだろう！",
+      "en": "What's wrong? That's not the point!",
+      "speaker": "Tsubaki",
+      "speaker_jp": "ツバキ"
+    },
+    {
+      "n": 75756,
+      "id": "db_EventInfo:89605:115",
+      "jp": "そう、この人は……この人は、とにかくダメ",
+      "en": "That's right, this guy... this guy is just no good.",
+      "speaker": "Remil",
+      "speaker_jp": "レミル"
+    },
+    {
+      "n": 75757,
+      "id": "db_EventInfo:89606:1",
+      "jp": "(今の二人は縁が薄いはずなのに……以前のことをうっすら覚えているのか？)",
+      "en": "(Their connection should be thin now... Do they faintly remember things from before?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75758,
+      "id": "db_EventInfo:89607:19",
+      "jp": "おいおい、なんでお前らが怒るんだよ！",
+      "en": "Hey, hey, why are you two getting mad?!",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75759,
+      "id": "db_EventInfo:89608:2",
+      "jp": "そういえば、コイツはこういう適当なヤツだったデス",
+      "en": "Oh right. This guy is a real laid-back, carefree dude.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 75760,
+      "id": "db_EventInfo:89610:19",
+      "jp": "そういえばよ、こっちでローグバルトの旦那にも会ったぜ",
+      "en": "Oh yeah, by the way, I met Master Rogubaruto over there.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75761,
+      "id": "db_EventInfo:89611:19",
+      "jp": "家族と再会して穏やかに暮らしてるみたいでさ。あっちは幸せそうにやってたよ",
+      "en": "Looks like he's back with his family, living a peaceful life. He seemed really happy there.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75762,
+      "id": "db_EventInfo:89612:1",
+      "jp": "ローグバルト……って、あの【『異端審問官』】黒将軍ローグバルトか？",
+      "en": "Rogubaruto... you mean that 'Heretic Inquisitor', Black General Rogubaruto?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75763,
+      "id": "db_EventInfo:89613:19",
+      "jp": "おう、あの【『ジルド聖騎士団』】のローグバルトだぜ",
+      "en": "Yeah, that Rogubaruto from the 'Guild Holy Knight Order'.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75764,
+      "id": "db_EventInfo:89614:0",
+      "jp": "ローグバルトの盾にはこれまでも世話になってきたものだ。",
+      "en": "Rogubaruto's shield has saved my ass more than a few times before.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75765,
+      "id": "db_EventInfo:89615:1",
+      "jp": "そうか……死者の国とはいえ、彼が穏やかに暮らしているならよかったよ",
+      "en": "I see... Even in the land of the dead, it's good to hear he's living peacefully.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75766,
+      "id": "db_EventInfo:89616:0",
+      "jp": "ラシェウスが会えたってことは、彼も俺達の【『縁』】が繋ぎ止めたのだろうか。",
+      "en": "If Rasieus met him, I guess our 'Connection' pulled him here too.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75767,
+      "id": "db_EventInfo:89617:19",
+      "jp": "そうだな。旦那の死後を安らかにするためにも、ここで負けるわけにはいかないぜ",
+      "en": "That's right. To make sure our masters rest in peace, we can't afford to lose here.",
+      "speaker": "Rasieus",
+      "speaker_jp": "ラシェウス"
+    },
+    {
+      "n": 75768,
+      "id": "db_EventInfo:89620:0",
+      "jp": "どうやら死者の国には、【『縁』】を繋いだ人々が存在しているようだ。",
+      "en": "It seems there are people in the land of the dead who are bound by 'Connections'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75769,
+      "id": "db_EventInfo:89621:0",
+      "jp": "だが、【『縁』】がよいものとは限らない。",
+      "en": "But a 'Connection' isn't always a good thing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75770,
+      "id": "db_EventInfo:89622:1",
+      "jp": "(【『縁』】を繋いだ死者……ということは、もしや「あいつら」も？)",
+      "en": "(Dead people connected by 'Connections'... does that mean maybe 'those guys' are here too?)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75771,
+      "id": "db_EventInfo:89623:0",
+      "jp": "俺は嫌な予感に、胸騒ぎがした。",
+      "en": "I had a bad feeling. I felt uneasy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75772,
+      "id": "db_EventInfo:89624:14",
+      "jp": "よし、店長さん！　これからよろしく頼むぜ！",
+      "en": "Alright, boss! I'm counting on you from now on!",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75773,
+      "id": "db_EventInfo:89625:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75774,
+      "id": "db_EventInfo:89627:6",
+      "jp": "ポンタと一緒に旅が出来るようになるなんて、素晴らしいですわ",
+      "en": "Being able to travel with Ponta now is just wonderful.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75775,
+      "id": "db_EventInfo:89628:6",
+      "jp": "これも神の思し召しですわね",
+      "en": "This must also be God's will.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75776,
+      "id": "db_EventInfo:89629:14",
+      "jp": "マリーも、しばらく会わない間に変わった気がするなぁ",
+      "en": "Marie, I feel like you've changed since I last saw you.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75777,
+      "id": "db_EventInfo:89630:6",
+      "jp": "そうですか？　うふふ",
+      "en": "Do you? Fufu.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75778,
+      "id": "db_EventInfo:89631:6",
+      "jp": "私が変わったとしたら……それも【<pl>】様のお導きですわね",
+      "en": "If I have changed... that, too, is 【<pl>】's guidance.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 75779,
+      "id": "db_EventInfo:89634:106",
+      "jp": "俺の気持ちとしては、なんだか複雑だなぁ",
+      "en": "How I feel about this... well, it's kinda complicated.",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75780,
+      "id": "db_EventInfo:89635:14",
+      "jp": "げっ、ユーシィまでいるのか！？",
+      "en": "Whoa, Ushi is here too!?",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75781,
+      "id": "db_EventInfo:89636:106",
+      "jp": "げっ、とか言うなよ。……まあいいけど、足を引っ張るんじゃねえぞ！",
+      "en": "Don't say 'whoa' like that. ...But whatever, just don't hold us back!",
+      "speaker": "Eustel",
+      "speaker_jp": "ユーステル"
+    },
+    {
+      "n": 75782,
+      "id": "db_EventInfo:89637:14",
+      "jp": "お、おう、分かってるって！　……ま、後ろに引っ込んでるからよ",
+      "en": "O-okay, I get it! ...I'll just hang back here.",
+      "speaker": "Ponta",
+      "speaker_jp": "ポンタ"
+    },
+    {
+      "n": 75783,
+      "id": "db_EventInfo:89638:1",
+      "jp": "(口調が同じだから、頭が混乱してくるな……)",
+      "en": "(His voice is the same as mine... it's making my head spin.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 75784,
+      "id": "db_EventInfo:89639:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "From the darkness, a Goblin attacks!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75785,
+      "id": "db_EventInfo:89642:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75786,
+      "id": "db_EventInfo:89644:224",
+      "jp": "世界の生命は【『世界樹』】より成る",
+      "en": "All life in this world comes from the World Tree.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75787,
+      "id": "db_EventInfo:89645:224",
+      "jp": "【『世界樹』】とは、【『神』】が世界に植える生命の起源",
+      "en": "The World Tree is the origin of life, planted in the world by the Gods.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75788,
+      "id": "db_EventInfo:89646:224",
+      "jp": "すべての生命は【『世界樹』】から成る",
+      "en": "Every living thing is made from the World Tree.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75789,
+      "id": "db_EventInfo:89647:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "From the darkness, a Goblin attacks!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75790,
+      "id": "db_EventInfo:89650:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75791,
+      "id": "db_EventInfo:89652:224",
+      "jp": "【『神』】にも命はある。【『神』】の命は信徒の祈りから成る",
+      "en": "Even Gods have life. A God's life comes from the prayers of believers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75792,
+      "id": "db_EventInfo:89653:224",
+      "jp": "信徒がいなければ【『神』】は成立しない。そして、全ての存在には【『神』】が在る",
+      "en": "A God cannot exist without believers. And a God exists for all things.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75793,
+      "id": "db_EventInfo:89654:224",
+      "jp": "木々にとっての【『樹の神』】であり、獣にとっての【『獣の神』】",
+      "en": "For trees, there is a God of Trees. For beasts, a God of Beasts.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75794,
+      "id": "db_EventInfo:89655:224",
+      "jp": "魔族にも【『神』】はいる",
+      "en": "Even the demon race has its Gods.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75795,
+      "id": "db_EventInfo:89656:224",
+      "jp": "ただしそれは【『神』】のような存在であって、【『神』】という名前では使われないが",
+      "en": "But it's like a 'god' being there, even if we don't use that name.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75796,
+      "id": "db_EventInfo:89657:224",
+      "jp": "全ての存在には【『神』】が在る",
+      "en": "A 'god' exists within everything.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75797,
+      "id": "db_EventInfo:89658:224",
+      "jp": "ゆえに【【『ゴブリン』】】にも【『神』】が居た",
+      "en": "So even Goblins have their 'god'.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75798,
+      "id": "db_EventInfo:89659:0",
+      "jp": "闇より、【『ゴブリン』】が襲いかかってきた！",
+      "en": "Goblins are attacking from the darkness!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75799,
+      "id": "db_EventInfo:89662:0",
+      "jp": "何者かの声が聞こえる……。",
+      "en": "I can hear someone's voice...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 75800,
+      "id": "db_EventInfo:89664:224",
+      "jp": "【向こうの世界】の【『ゴブリン』】は絶望に、死に瀕していた。一方的な殺意に蹂躙されていた",
+      "en": "The Goblins in their world were in despair, on the edge of death. They were being crushed by one-sided hatred.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

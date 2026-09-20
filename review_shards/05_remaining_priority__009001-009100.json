@@ -1,0 +1,808 @@
+{
+  "source_file": "05_remaining_priority.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 9001,
+  "range_end": 9100,
+  "pairs": [
+    {
+      "n": 9001,
+      "id": "rem_36723",
+      "jp": "細かく刻んだ肉と一緒に炊き上げ、ハーブを乗せた軽やかなリゾット。",
+      "en": "A light risotto cooked with finely chopped meat, topped with herbs.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9002,
+      "id": "rem_36724",
+      "jp": "風舞うハーブリゾット",
+      "en": "Herb Risotto with Fluttering Breeze",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9003,
+      "id": "rem_36725",
+      "jp": "異邦から伝わる、米を柔らかく握り、魚介の切り身を乗せた料理。新鮮な海の幸が採れるゼカリウスならではの料理として、冒険者が珍しがって食べていく。",
+      "en": "A dish from foreign lands: soft-packed rice topped with sliced seafood. A Zecarius specialty, made with the freshest catch, prized by adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9004,
+      "id": "rem_36726",
+      "jp": "なんちゃってスシ",
+      "en": "Not-Quite-Sushi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9005,
+      "id": "rem_36727",
+      "jp": "炊き上げた米の中心に塩蔵した果実を握り込み、乾燥させた海藻でぐるりと巻いた料理。手軽に食べやすいうえ、腐敗し辛い。",
+      "en": "Rice cooked and packed around a salted fruit center, rolled in dried seaweed. Easy to eat and slow to spoil.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9006,
+      "id": "rem_36728",
+      "jp": "梅肉海苔巻き",
+      "en": "Salted Plum Seaweed Roll",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9007,
+      "id": "rem_36729",
+      "jp": "様々な香辛料や野菜、獣肉を煮込んだソースと米を合わせた料理。ピリリとした辛さに、思わず食が進む。",
+      "en": "Rice mixed with a sauce of various spices, vegetables, and meat. The spicy kick makes you eat more.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9008,
+      "id": "rem_36730",
+      "jp": "スパイシーソースライス",
+      "en": "Spicy Sauce Rice",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9009,
+      "id": "rem_36731",
+      "jp": "おにぎりに濃厚な味わいのソースを塗り、焼いたもの。ゼカリウス地方の人間でも好まれるような、濃い味付けがされている。",
+      "en": "Rice ball coated in a rich sauce and grilled. Has a strong flavor even Zecarius locals enjoy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9010,
+      "id": "rem_36732",
+      "jp": "焼いたおにぎり",
+      "en": "Grilled Rice Ball",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9011,
+      "id": "rem_36733",
+      "jp": "オーブンで焼き上げた、とろけるチーズと米のグラタン。食欲がわく美味しさ。",
+      "en": "A rice gratin baked in the oven with melting cheese. Delicious and appetizing.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9012,
+      "id": "rem_36734",
+      "jp": "ライスグラタン",
+      "en": "Rice Gratin",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9013,
+      "id": "rem_36735",
+      "jp": "異邦から伝わる珍しい料理『スシ』の一種。ネタとして、ゼカリウスの海で採れた名状しがたき海産物を使用した。なにか深淵から覗かれている気がする。",
+      "en": "A rare 'sushi' variant from foreign lands. Uses indescribable seafood from Zecarius's seas. Feels like something from the abyss is watching.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9014,
+      "id": "rem_36736",
+      "jp": "コズミックスシ",
+      "en": "Cosmic Sushi",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9015,
+      "id": "rem_36737",
+      "jp": "ご飯とおかずが一体となった、抱き合わせ料理。柔らかく焼き上げた獣肉は最高級の物を使用し、米の握りも職人の手による最高級品。",
+      "en": "A combined dish of rice and side. Uses premium, tenderly grilled meat and hand-pressed rice by a master.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9016,
+      "id": "rem_36738",
+      "jp": "おにぎりバーガー",
+      "en": "Rice Ball Burger",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9017,
+      "id": "rem_36739",
+      "jp": "動物の皮を加工して作った冒険者向けの水筒。耐久力もそれなりだが、皮でできているため、たまに漏れる。",
+      "en": "A canteen for adventurers, made from processed animal hide. Fairly durable, but may leak occasionally.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9018,
+      "id": "rem_36740",
+      "jp": "冒険者向け水筒",
+      "en": "Adventurer's Canteen",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9019,
+      "id": "rem_36741",
+      "jp": "動物の皮を加工して作った冒険者向けのカバン。小さい金具を加工するなど、加工もそれなりに手間が掛かっている。",
+      "en": "A bag for adventurers, made from processed animal hide. Even the small metal fittings require some effort to craft.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9020,
+      "id": "rem_36742",
+      "jp": "冒険者向けバッグ",
+      "en": "Adventurer's Bag",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9021,
+      "id": "rem_36743",
+      "jp": "遺跡発掘者や鉱山で働くものに必須なツルハシ。壊れにくいことを重視している。",
+      "en": "Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9022,
+      "id": "rem_36744",
+      "jp": "発掘用ツルハシ",
+      "en": "Excavation Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9023,
+      "id": "rem_36745",
+      "jp": "周囲に自分の居場所や危険を伝達する為の小型の高音発生器。一息に吹けば甲高い音を周囲に響き渡らせる。",
+      "en": "Field Whistle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9024,
+      "id": "rem_36746",
+      "jp": "フィールドホイッスル",
+      "en": "Field Whistle",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9025,
+      "id": "rem_36747",
+      "jp": "動物の皮を加工して作った冒険者向けのカバン。整理しやすいように仕切りを用意されており、薬品が割れないように注意を払われた作り。耐久力も高い。",
+      "en": "Quality Adventurer's Bag",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9026,
+      "id": "rem_36748",
+      "jp": "上質の冒険者向けバッグ",
+      "en": "Quality Adventurer's Bag",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9027,
+      "id": "rem_36749",
+      "jp": "冒険者向けの水筒。耐久力が高く、壊れにくい。さらには鮮度を保つ工夫もしており、中の飲み物が痛みにくくなっている。",
+      "en": "Quality Adventurer's Flask",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9028,
+      "id": "rem_36750",
+      "jp": "上質の冒険者向け水筒",
+      "en": "Quality Adventurer's Flask",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9029,
+      "id": "rem_36751",
+      "jp": "職人達が利用するための道具。非常に丈夫に作られているため、壊れにくい。ずっと仕事の相棒として使っていけるデザイン。",
+      "en": "Sturdy Carpentry Tools",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9030,
+      "id": "rem_36752",
+      "jp": "丈夫な大工道具",
+      "en": "Sturdy Carpentry Tools",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9031,
+      "id": "rem_36753",
+      "jp": "遺跡発掘者や鉱山で働くものに必須なツルハシ。壊れにくいことを重視し、破壊力も向上してある。ずっしりと重く、信頼できる品質である。",
+      "en": "Fine Excavation Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9032,
+      "id": "rem_36754",
+      "jp": "上質の発掘用ツルハシ",
+      "en": "Fine Excavation Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9033,
+      "id": "rem_36755",
+      "jp": "丈夫な素材でできた、持ち運びに便利な水筒。熱い飲み物も冷たい飲み物も入れられる。",
+      "en": "Supreme Adventurer's Flask",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9034,
+      "id": "rem_36756",
+      "jp": "極上の冒険者向け水筒",
+      "en": "Supreme Adventurer's Flask",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9035,
+      "id": "rem_36757",
+      "jp": "遺跡発掘者や鉱山で働くものに必須なツルハシ。黄金のボディは頑強な岩盤も難なく破壊する、ツルハシマーが求める最高のツルハシである。",
+      "en": "God-Tier Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9036,
+      "id": "rem_36758",
+      "jp": "最高級ゴッドツルハシ",
+      "en": "God-Tier Pickaxe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9037,
+      "id": "rem_36759",
+      "jp": "金属性の剣先を付けた、野外活動用多機能ツール。掘る、突く、叩く、運ぶ以外にも、非常時には皿や調理鍋の代わりにもなる他、鉄板を取り外せば盾にもなる。",
+      "en": "All-Purpose Field Tool",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9038,
+      "id": "rem_36760",
+      "jp": "野外活動万能ツール",
+      "en": "All-Purpose Field Tool",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9039,
+      "id": "rem_36761",
+      "jp": "一般家庭で使用されるつぼ。真水や調味料などを保存する。",
+      "en": "Household Jar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9040,
+      "id": "rem_36762",
+      "jp": "家庭向けのつぼ",
+      "en": "Household Jar",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9041,
+      "id": "rem_36763",
+      "jp": "一般家庭で使用できる手鏡。細かい加工などが必要なので、相応の技術力は要求される。",
+      "en": "A handheld mirror for general household use. Requires decent craftsmanship due to delicate processing.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9042,
+      "id": "rem_36764",
+      "jp": "家庭向け手鏡",
+      "en": "Household Hand Mirror",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9043,
+      "id": "rem_36765",
+      "jp": "一般家庭で使用される包丁。切れ味が鋭く、どんな肉も野菜もすぱすぱ切れてしまう。あまり買い換えるものでもないので、大量に売れないのが難点。",
+      "en": "A kitchen knife for home use. Sharp enough to slice through any meat or vegetable. Rarely needs replacing, so it doesn't sell in large quantities.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9044,
+      "id": "rem_36766",
+      "jp": "家庭向け万能包丁",
+      "en": "Household All-purpose Knife",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9045,
+      "id": "rem_36767",
+      "jp": "店先に飾ることで、店の存在感をアピールすることができる。お店の看板としても使えるうえ、風通しも良い。",
+      "en": "Enhances a shop's presence when displayed out front. Serves as a sign and allows good airflow.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9046,
+      "id": "rem_36768",
+      "jp": "暖簾",
+      "en": "Shop Curtain (Noren)",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9047,
+      "id": "rem_36769",
+      "jp": "夜になると微光を放ち香りを拡散する、癒しのアクセサリー。ただし旅に耐えるような耐久性は無く、あくまで家庭用。",
+      "en": "A soothing accessory that emits faint light and fragrance at night. Not durable enough for travel; strictly for home use.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9048,
+      "id": "rem_36770",
+      "jp": "星影の首飾り",
+      "en": "Starlight Necklace",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9049,
+      "id": "rem_36771",
+      "jp": "高級感が溢れるプレゼントボックス。大切なあの人に送るべきアイテムを可愛らしいラッピングで包んでいる。中には様々な素敵なアイテムが(中身不明)。",
+      "en": "An elegant gift box with lovely wrapping for that special someone. Contains a variety of wonderful items (contents unknown).",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9050,
+      "id": "rem_36772",
+      "jp": "高級プレゼントボックス",
+      "en": "Luxury Gift Box",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9051,
+      "id": "rem_36773",
+      "jp": "人間の存在を感知し、勝手に火が付く燭台。時折、勝手に火が付き、住民を恐怖に陥れる。",
+      "en": "A candlestick that senses human presence and lights on its own. Occasionally ignites spontaneously, terrifying residents.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9052,
+      "id": "rem_36774",
+      "jp": "人感燭台",
+      "en": "Motion-Sensing Candlestick",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9053,
+      "id": "rem_36775",
+      "jp": "富裕層向けに設計された高級な家具セット。皿や壺などの、上質な食器のつめあわせ。一点物を好む富裕層がそういうものを好んで買うかは謎である……。",
+      "en": "A high-end furniture set designed for the wealthy. A collection of quality tableware like plates and pots. Whether they'd buy such sets is a mystery...",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9054,
+      "id": "rem_36776",
+      "jp": "高級家具セット",
+      "en": "Luxury Furniture Set",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9055,
+      "id": "rem_36777",
+      "jp": "黄金のコーティングを施した、見た目に豪華な水差し。適当に置いておくだけで、リッチな気分が味わえる。",
+      "en": "A lavish-looking water pitcher with golden coating. Just placing it around lets you feel rich.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9056,
+      "id": "rem_36778",
+      "jp": "ゴールデン水差し",
+      "en": "Golden Water Pitcher",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9057,
+      "id": "rem_36779",
+      "jp": "魔女達が使う魔法の道具が揃う、魔法陣のあるキッチン。並の錬金術工房を上回る研究が可能である。",
+      "en": "A kitchen with a magic circle, equipped with tools witches use. Enables research surpassing ordinary alchemy workshops.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9058,
+      "id": "rem_36780",
+      "jp": "魔女のキッチン",
+      "en": "Witch's Kitchen",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9059,
+      "id": "rem_36781",
+      "jp": "死神の加護が与えられたお金入れ。よくわからない執念じみた力が勝手に掛けられており、他人がスろうとすると頭がおかしくなって倒れる。",
+      "en": "A money pouch blessed by the Shinigami. An obscure, obsessive force protects it; anyone trying to steal it goes mad and collapses.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9060,
+      "id": "rem_36782",
+      "jp": "死神の財布",
+      "en": "Shinigami's Pouch",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9061,
+      "id": "rem_36783",
+      "jp": "初心者冒険者に使用されることを想定された量産用のロングソード。素材の価値を高めれば、品質は高まっていくだろう。",
+      "en": "A mass-produced longsword for novice adventurers. Improve the materials to boost its quality.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9062,
+      "id": "rem_36784",
+      "jp": "冒険者のロングソード",
+      "en": "Adventurer's Longsword",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9063,
+      "id": "rem_36785",
+      "jp": "軍用で使用されることを想定された量産用のクロスボウ。正確な射撃を行えるよう、部品は一点一点丁寧に仕上げている。",
+      "en": "A mass-produced crossbow for military use. Each part is carefully finished for precise shots.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9064,
+      "id": "rem_36786",
+      "jp": "射撃手のクロスボウ",
+      "en": "Shooter's Crossbow",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9065,
+      "id": "rem_36787",
+      "jp": "素速い身のこなしを主体とする盗賊向けに開発したナイフ。鋭い切れ味は、相手の急所を的確に刺し刻む。",
+      "en": "A knife made for agile thieves. Its sharp edge pierces vital points.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9066,
+      "id": "rem_36788",
+      "jp": "盗賊のナイフ",
+      "en": "Thief's Knife",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9067,
+      "id": "rem_36789",
+      "jp": "近接格闘戦士向けにデザインしたナックル。格闘家の動きを阻害しないように作られ、さらに彼らの腕を守るように頑丈に作られている。",
+      "en": "Knuckles designed for melee fighters. Sturdy, they protect the user without hindering movement.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9068,
+      "id": "rem_36790",
+      "jp": "格闘家のナックル",
+      "en": "Brawler's Knuckles",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9069,
+      "id": "rem_36791",
+      "jp": "戦闘向けに作った大きな斧。命中すれば巨大な魔獣にも致命的なダメージを与えることが出来るだろう。木を伐採することも出来る。",
+      "en": "A large battle axe. Deals fatal damage to giant beasts. Can also chop wood.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9070,
+      "id": "rem_36792",
+      "jp": "戦士のバトルアックス",
+      "en": "Warrior's Battle Axe",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9071,
+      "id": "rem_36793",
+      "jp": "冒険者だけでなく、拠点防衛にも使用されることを想定したロングスピア。折れないように、柄の強度には非常に気を付けられている。",
+      "en": "A longspear for adventurers and base defense. The shaft is reinforced to prevent breaking.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9072,
+      "id": "rem_36794",
+      "jp": "砦兵士のロングスピア",
+      "en": "Fortress Soldier's Longspear",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9073,
+      "id": "rem_36795",
+      "jp": "鍛冶姫アンジュが気分で作った創作武器。持ち主のことを殆ど考えていないが、上手く性格が合えばすばらしい性能を発揮する……らしい。",
+      "en": "A custom weapon made by the Forging Princess Anju on a whim. Matches certain users perfectly for great performance... supposedly.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9074,
+      "id": "rem_36796",
+      "jp": "アンジュお任せ制作武器",
+      "en": "Anju's Special Order Weapon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9075,
+      "id": "rem_36797",
+      "jp": "量産品の概念を塗り替える魔力付与ロングソード。生半可な武器鍛冶が作る一点物の武器とは品質が比べものにならないほど高くなる。",
+      "en": "A magic-enchanted longsword that redefines mass-production. Quality far exceeds that of ordinary single-edition weapons.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9076,
+      "id": "rem_36798",
+      "jp": "魔戦士のマジックソード",
+      "en": "Spellblade's Magic Sword",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9077,
+      "id": "rem_36799",
+      "jp": "防衛に特化した長柄武器。ただしそのリーチと重さを十全に発揮するには、相当な筋力が必要。",
+      "en": "A polearm specialized for defense. Requires great strength to wield its reach and weight effectively.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9078,
+      "id": "rem_36800",
+      "jp": "守護者のハルバード",
+      "en": "Guardian's Halberd",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9079,
+      "id": "rem_36801",
+      "jp": "重戦士用に作った鈍重なロングソード。並の人間には持ち上げることもできない。非常に頑丈なデザインで、簡単には砕けないようになっている。",
+      "en": "A heavy longsword for powerful warriors. Too heavy for most. Its sturdy design prevents easy breakage.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9080,
+      "id": "rem_36802",
+      "jp": "重戦士のヘビーソード",
+      "en": "Heavy Warrior's Greatsword",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9081,
+      "id": "rem_36803",
+      "jp": "鍛冶姫アンジュが持ち主に合わせて武器をデザインしてくれる権利を販売することにした。購入後、アンジュがカスタムしてくれるらしい。",
+      "en": "Forging Princess Anju has decided to sell the right for her to design a weapon tailored to its owner. After purchase, Anju will customize it for you.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9082,
+      "id": "rem_36804",
+      "jp": "鍛冶姫オーダーメイド武器",
+      "en": "Forging Princess Custom Weapon",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9083,
+      "id": "rem_36805",
+      "jp": "軽量かつ丈夫な革の鎧。旅人や駆け出しの冒険者たちに人気の防具。",
+      "en": "A lightweight yet durable leather armor. Popular with travelers and novice adventurers.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9084,
+      "id": "rem_36806",
+      "jp": "旅人のレザーアーマー",
+      "en": "Traveler's Leather Armor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9085,
+      "id": "rem_36807",
+      "jp": "軽戦士の装備を想定されたブレストアーマー。動きやすいように、最低限の面積で最大限の効果を発揮できるように工夫された。",
+      "en": "A breastplate designed for light warriors. Crafted for ease of movement, offering maximum effect with minimal coverage.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9086,
+      "id": "rem_36808",
+      "jp": "軽戦士のブレストアーマー",
+      "en": "Light Warrior's Breastplate",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9087,
+      "id": "rem_36809",
+      "jp": "鱗状の金属を貼り合わせて作られた、頑丈な鎧。軽さと防御力を両立しており、傭兵たちが好んで身につける。",
+      "en": "Sturdy armor made by overlapping metal scales. Balances lightness and defense, favored by mercenaries.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9088,
+      "id": "rem_36810",
+      "jp": "傭兵のスケイルメイル",
+      "en": "Mercenary's Scale Mail",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9089,
+      "id": "rem_36811",
+      "jp": "主に騎士や兵士に装備されることを想定された金属鎧。多少動きにくいが、さまざまな攻撃を強力にシャットアウトし、装備者の安全を第一に守る。",
+      "en": "A metal armor designed mainly for knights and soldiers. Somewhat restrictive, but powerfully blocks various attacks, prioritizing the wearer's safety.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9090,
+      "id": "rem_36812",
+      "jp": "兵士のプレートアーマー",
+      "en": "Soldier's Plate Armor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9091,
+      "id": "rem_36813",
+      "jp": "厚手で頑丈な革の鎧。狩人たちが獣から身を守るために使用する。軽量な革鎧でありながら、金属に匹敵する防御力を持つ。",
+      "en": "Thick, sturdy leather armor. Used by hunters to protect themselves from beasts. A lightweight leather armor with defense rivaling metal.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9092,
+      "id": "rem_36814",
+      "jp": "狩人のハードレザー",
+      "en": "Hunter's Hard Leather",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9093,
+      "id": "rem_36815",
+      "jp": "主に騎士に装備されることを想定した全身鎧。ふんだんに使った金属プレートが全身をくまなく防御し、さらに魔術触媒による魔術防御も施されている。",
+      "en": "A full-body armor designed primarily for knights. Extensive metal plates provide comprehensive protection, enhanced with magical defense via a catalyst.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9094,
+      "id": "rem_36816",
+      "jp": "重騎士のフルプレート",
+      "en": "Heavy Knight's Full Plate",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9095,
+      "id": "rem_36817",
+      "jp": "金属で作られた四角い盾。大きな面積を持っており、敵の投擲物を強力にガードする。頼りになる防御力を備えている。",
+      "en": "A square shield made of metal. Its large surface area powerfully guards against enemy projectiles, offering reliable defense.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9096,
+      "id": "rem_36818",
+      "jp": "騎士のタワーシールド",
+      "en": "Knight's Tower Shield",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9097,
+      "id": "rem_36819",
+      "jp": "華美な装飾を施された全身鎧。全身鎧なりの防御力はあるが、どちらかというと儀礼用で、富豪向けの商品。",
+      "en": "A full-body armor adorned with lavish decorations. It has the defense of full plate, but is more for ceremonial use, a product for the wealthy.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9098,
+      "id": "rem_36820",
+      "jp": "装飾用の全身鎧",
+      "en": "Ornamental Full Plate Armor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9099,
+      "id": "rem_36821",
+      "jp": "アンジュの手による、冒険者に合わせてカスタムされる上級防具。持ち主に合わせたカスタマイズが施される権利付き。",
+      "en": "A high-tier armor customized by Anju for an adventurer. Comes with the right to be tailored to the owner.",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    },
+    {
+      "n": 9100,
+      "id": "rem_36822",
+      "jp": "鍛冶姫オーダー防具",
+      "en": "Forging Princess Custom Armor",
+      "table": "db_ClubGoods",
+      "category": "remaining_table"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 2201,
+  "range_end": 2300,
+  "pairs": [
+    {
+      "n": 2201,
+      "id": "db_EventInfo:2466:393",
+      "jp": "【『海賊女帝』】アーマニアの一族を尊敬する船乗りは今でも多い。彼女の子孫を守ろうとする船乗りもな",
+      "en": "Even now, many sailors respect Armagnia's family. Some sailors try to protect her descendants.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2202,
+      "id": "db_EventInfo:2467:393",
+      "jp": "と言っても、女帝の一族は海の上に行けば無敵だし、怖がっちまって船に乗せようとはしない者ばかりだがな",
+      "en": "But her family is still unbeatable at sea. So most sailors are too scared to let them on their ships.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2203,
+      "id": "db_EventInfo:2468:393",
+      "jp": "海賊女帝アーマニアの乗る伝説の船は、乗組員の精強さもあって無敵だった。",
+      "en": "Pirate Empress Armagnia's legendary ship was unbeatable, thanks to its strong crew.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2204,
+      "id": "db_EventInfo:2469:393",
+      "jp": "しかしゼカリウスを滅ぼそうとした、巨大な海竜と刺し違えて沈没してしまったらしい。",
+      "en": "But apparently, it sank after a clash with a huge sea dragon, trying to destroy Zecarius.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2205,
+      "id": "db_EventInfo:2470:393",
+      "jp": "アーマニアはその後も無敵だったが、伝説の船を失ってからは力はやや陰りを見せたんだが……",
+      "en": "Armagnia stayed unbeaten, but after losing that ship, her power faded a bit...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2206,
+      "id": "db_EventInfo:2471:393",
+      "jp": "彼女の偉業もあって、今でも崇拝されている",
+      "en": "Because of her great deeds, she is still worshipped today.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2207,
+      "id": "db_EventInfo:2472:393",
+      "jp": "アーマニア様の最後はよく分かっていない",
+      "en": "We don't really know how Armagnia met her end.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2208,
+      "id": "db_EventInfo:2473:393",
+      "jp": "彼女が駆る伝説の船は、巨大な海竜と刺し違えて沈没してしまったそうだ",
+      "en": "They say her legendary ship sank after a clash with a huge sea dragon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2209,
+      "id": "db_EventInfo:2474:393",
+      "jp": "彼女は船と命運を共にしたとも、陸に上がったとも言われる。彼女の子孫を名乗る奴も大勢いたが……",
+      "en": "Some say she went down with her ship. Others say she came ashore. Lots of people claimed to be her descendants...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2210,
+      "id": "db_EventInfo:2475:393",
+      "jp": "竜に認められて英霊としてに祀り上げられたって話もあるが、結局、ハッキリとはしないんだ",
+      "en": "There's also a story that she was recognized by the dragon and made a noble spirit. But in the end, it's unclear.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2211,
+      "id": "db_EventInfo:2476:393",
+      "jp": "知合いの漁師が、網に変な物が引っかかってたってよ",
+      "en": "A fisherman I know said he caught something weird in his net.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2212,
+      "id": "db_EventInfo:2477:393",
+      "jp": "価値ある金属らしいが、あらゆる物が腐食する海中から上がったのに、真新しく見えたってよ",
+      "en": "It looked like valuable metal, but even after coming out of the sea where everything rusts, it still looked brand new.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2213,
+      "id": "db_EventInfo:2478:393",
+      "jp": "形は船の一部に見えたそうだが……質屋で高く売れたって喜んでたぜ",
+      "en": "It looked like part of a ship... He was happy he sold it for a lot at the pawn shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2214,
+      "id": "db_EventInfo:2479:393",
+      "jp": "知合いが網で変なものを引っかけてから、ソルシアの軍艦が停泊するようになった",
+      "en": "Ever since he caught that weird thing, Solthia's warships have been docking here.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2215,
+      "id": "db_EventInfo:2480:393",
+      "jp": "自分も色々聞かれたけど、特に答えられることもなかったな",
+      "en": "They asked me a bunch of questions too, but I didn't have any answers.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2216,
+      "id": "db_EventInfo:2481:393",
+      "jp": "海中を調査しているようだが、何かいいものでもあるのかね？",
+      "en": "They seem to be investigating the sea. Is there something good down there?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2217,
+      "id": "db_EventInfo:2482:393",
+      "jp": "北の都ノーザリアが攻めてくるというウワサがあるけど、いざとなったら海に逃げれば良いよな",
+      "en": "There are rumors that Northaria in the north might attack, but if it gets bad, we can always escape by sea, right?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2218,
+      "id": "db_EventInfo:2483:393",
+      "jp": "まさかノーザリアが海から攻めてくるとは……",
+      "en": "No way Northaria would attack from the sea...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2219,
+      "id": "db_EventInfo:2484:393",
+      "jp": "ソルシアの連中が追っ払ってくれて助かったよ。",
+      "en": "I'm glad the guys from Solthia drove them off.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2220,
+      "id": "db_EventInfo:2485:393",
+      "jp": "……が、ソルシアのやつら、「アーマニア様万歳！」とか言ってるけど、何言ってるんだ？",
+      "en": "...But those Solthia guys are shouting things like 'Long live Lady Armania!' What are they talking about?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2221,
+      "id": "db_EventInfo:2486:393",
+      "jp": "アーマニア様を知ってるのは漁師だけじゃないのか",
+      "en": "Do only the fishermen know about Lady Armania?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2222,
+      "id": "db_EventInfo:2487:393",
+      "jp": "海にとんでもない大怪物がいて、怖くて漁に出られねえ",
+      "en": "There's a huge, scary monster in the sea now. We're too afraid to go fishing.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2223,
+      "id": "db_EventInfo:2488:393",
+      "jp": "バカが近付こうとして、あっさり沈められてしまった",
+      "en": "When I approached foolishly, I was quickly taken down.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2224,
+      "id": "db_EventInfo:2489:393",
+      "jp": "まさかアーマニア様が刺し違えたという、伝説の大海竜が復活したのか？",
+      "en": "Could it be that the legendary Sea Dragon, which perished with Lord Armania, has been revived?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2225,
+      "id": "db_EventInfo:2490:393",
+      "jp": "大怪物が動きを止めた！　海賊女帝アーマニアの再来だ！",
+      "en": "The great monster has stopped moving! It's the return of Pirate Empress Armania!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2226,
+      "id": "db_EventInfo:2491:393",
+      "jp": "大怪物の中から古代の要塞が出てきたらしくて、ソルシアの連中が湧いている",
+      "en": "It seems an ancient fortress emerged from within the great monster, and the Sorsia people are swarming.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2227,
+      "id": "db_EventInfo:2492:393",
+      "jp": "いや常識的に考えてやばすぎるだろ。調査どころじゃないぞ……",
+      "en": "No, realistically thinking, this is way too dangerous. This goes way beyond just an investigation...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2228,
+      "id": "db_EventInfo:2493:393",
+      "jp": "古代の要塞が沈んだ。アーマニア様が助けてくれたのじゃ……",
+      "en": "The ancient fortress has sunk. Lord Armania saved us...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2229,
+      "id": "db_EventInfo:2494:392",
+      "jp": "我々ソルシアは伝説を頼りに海中調査をしている",
+      "en": "We of Sorsia are conducting an underwater investigation based on legends.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2230,
+      "id": "db_EventInfo:2495:392",
+      "jp": "海中調査は高度で強力な魔術が必要で、普通のダンジョンが可愛く思えるほど難しいのだ",
+      "en": "Underwater investigation requires advanced and powerful magic, making it difficult to the point where ordinary dungeons seem cute.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2231,
+      "id": "db_EventInfo:2496:392",
+      "jp": "だが心配は無用！　ソルシアの軍艦パワーは世界一ィィ！",
+      "en": "But don't worry! Sorsia's warship power is number one in the world!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2232,
+      "id": "db_EventInfo:2497:392",
+      "jp": "ソルシアが調査をはじめたのは、古代の遺物を漁師が引き上げたことに端を発する",
+      "en": "Sorsia's investigation began when a fisherman hauled up an ancient artifact.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2233,
+      "id": "db_EventInfo:2498:392",
+      "jp": "数百年前の遺物で、強い魔力を秘めていた。古物商は二束三文で買い叩いたが、人から人へと渡るごとに値を増した",
+      "en": "It was an artifact from hundreds of years ago, concealing strong magical power. An antique dealer bought it for a pittance, but its value increased each time it changed hands.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2234,
+      "id": "db_EventInfo:2499:392",
+      "jp": "最終的に【『<ruby=ソルシア>学院</ruby>』】で調査されたが、古代の軍艦の一部ということがわかった",
+      "en": "It was finally investigated at the Sorsia Academy, and it was determined to be part of an ancient warship.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2235,
+      "id": "db_EventInfo:2500:392",
+      "jp": "船団はアーマニアを支配した海賊の遺物を探している",
+      "en": "The fleet is looking for relics from the pirates who ruled Armania.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2236,
+      "id": "db_EventInfo:2501:392",
+      "jp": "【『海賊女帝』】はこの地に伝わる伝説だが、遺物はその実在を証明するもの",
+      "en": "The 'Pirate Empress' is a local legend. The relics would prove she was real.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2237,
+      "id": "db_EventInfo:2502:392",
+      "jp": "先日見つかった遺物は強い魔力を秘めており、アーマニアは強力な魔族であったのではと考えられる",
+      "en": "A relic found recently held strong magic. Armania might have been a powerful demon.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2238,
+      "id": "db_EventInfo:2503:392",
+      "jp": "魔術師の一部がゴブリンを養殖しているとは……あんなものを養殖してどうするんだ",
+      "en": "Some mages are breeding goblins... Why would anyone breed those things?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2239,
+      "id": "db_EventInfo:2504:392",
+      "jp": "自分は古代の浪漫を調査したいだけなのに",
+      "en": "I just wanted to study the romance of the ancient past.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2240,
+      "id": "db_EventInfo:2505:392",
+      "jp": "ソルシアの軍艦パワーは世界一ィィなのだが、肝心の指揮官がいない",
+      "en": "Solcia's warships are the most powerful in the world, but there's no commander.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2241,
+      "id": "db_EventInfo:2506:392",
+      "jp": "いくら船のパワーがあっても、使いこなせなかったらゴミじゃないか",
+      "en": "Powerful ships are worthless if you can't use them right.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2242,
+      "id": "db_EventInfo:2507:392",
+      "jp": "女帝様は世界一ィィィ",
+      "en": "The Empress is the best in the world!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2243,
+      "id": "db_EventInfo:2508:392",
+      "jp": "女帝様に似た人がこの宿にいた気がするが、オーラが全然違うから、よく似た他人だろう",
+      "en": "Someone at this inn looked a lot like the Empress. But the aura is totally different, so it must be someone else.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2244,
+      "id": "db_EventInfo:2509:392",
+      "jp": "ああ、あの人は今どこに……",
+      "en": "Ah, I wonder where that person is now...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2245,
+      "id": "db_EventInfo:2510:392",
+      "jp": "観測者が沖にとんでもない大怪物がいると言うんだが、島があるだけではないか",
+      "en": "Observers say there's a huge monster out at sea. I just see an island.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2246,
+      "id": "db_EventInfo:2511:392",
+      "jp": "しかしあの島、動いてるようだが……？",
+      "en": "Wait... is that island moving?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2247,
+      "id": "db_EventInfo:2512:392",
+      "jp": "大怪物が動きを止めた。女帝様がやってくれたんだ！",
+      "en": "The huge monster stopped moving. The Empress did it!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2248,
+      "id": "db_EventInfo:2513:392",
+      "jp": "大怪物の中から古代の要塞が出てきたとか。冗談も大概にして欲しいんだが？",
+      "en": "They say an ancient fortress came out from inside the huge monster. That's pushing the joke a bit far, isn't it?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2249,
+      "id": "db_EventInfo:2514:392",
+      "jp": "古代の要塞は調査する前に再び海に沈んでしまった",
+      "en": "The ancient fortress sank back into the sea before we could investigate.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2250,
+      "id": "db_EventInfo:2515:392",
+      "jp": "古代文明は調査の価値があるが、それはそれとして存在して良いものではない",
+      "en": "Ancient civilizations are worth investigating, but they shouldn't really exist either.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2251,
+      "id": "db_EventInfo:2516:392",
+      "jp": "もっとも、要塞が沈んだ今、慌てることはあるまい。ゆっくりと海中調査はするつもりだ",
+      "en": "Anyway, with the fortress gone, there's no need to panic. We'll do the underwater investigation slowly.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2252,
+      "id": "db_EventInfo:2517:235",
+      "jp": "干潮や満潮は、月の満ち欠けが原因と、天文学者に教わった",
+      "en": "An astronomer taught me that high and low tides are caused by the moon's phases.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2253,
+      "id": "db_EventInfo:2518:235",
+      "jp": "なんで月の形が変わると潮が引くのかねぇ",
+      "en": "Why does the tide go out when the moon's shape changes?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2254,
+      "id": "db_EventInfo:2519:235",
+      "jp": "イルニエルの灯台は百年以上の歴史がある",
+      "en": "Ilniel's lighthouse has over a hundred years of history.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2255,
+      "id": "db_EventInfo:2520:235",
+      "jp": "漁師にとって、なくてはならないものだ",
+      "en": "For fishermen, it's absolutely essential.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2256,
+      "id": "db_EventInfo:2521:235",
+      "jp": "灯台の調子が悪い。冒険者に頼んで直して貰おうか。",
+      "en": "The lighthouse isn't working right. Maybe we should ask an adventurer to fix it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2257,
+      "id": "db_EventInfo:2522:235",
+      "jp": "誰かが灯台を直してくれたみたいで、助かるぜ",
+      "en": "Someone seems to have fixed the lighthouse. What a lifesaver.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2258,
+      "id": "db_EventInfo:2523:235",
+      "jp": "誰か知らんが、凄い奴がいるもんだ",
+      "en": "Whoever it is, there are some pretty amazing people out there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2259,
+      "id": "db_EventInfo:2524:235",
+      "jp": "最近、波が強い日が多くなって、船が流されちまうことがよくあるんだ",
+      "en": "Lately, the waves have been rough a lot. Boats keep drifting away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2260,
+      "id": "db_EventInfo:2525:235",
+      "jp": "干潮や満潮の差も激しくなっている気がするな",
+      "en": "The tide also seems to be changing faster.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2261,
+      "id": "db_EventInfo:2526:235",
+      "jp": "ゼカリウスの海を見回っていたら、見慣れない船舶を見たぜ",
+      "en": "I saw a strange boat while patrolling Zecarius's sea.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2262,
+      "id": "db_EventInfo:2527:235",
+      "jp": "俺に気付いたのか、すぐに逃げていったよ",
+      "en": "They must have spotted me. They fled right away.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2263,
+      "id": "db_EventInfo:2528:235",
+      "jp": "密猟者だろうか？　いや、漁師ではないようだったが……",
+      "en": "Poachers? Hmm, they didn't look like regular fishermen...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2264,
+      "id": "db_EventInfo:2529:235",
+      "jp": "近頃、見慣れない船舶を多く見ている気がする……",
+      "en": "Recently, I feel like I've seen a lot of unfamiliar boats.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2265,
+      "id": "db_EventInfo:2530:235",
+      "jp": "ゼカリウスには海軍がない",
+      "en": "Zecarius doesn't have a navy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2266,
+      "id": "db_EventInfo:2531:235",
+      "jp": "他の国が攻めてきたとしても、アーマニア海の激しい海流に飲まれちまえばおしまいだ",
+      "en": "If another country attacks, the strong currents of the Armania Sea will swallow them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2267,
+      "id": "db_EventInfo:2532:235",
+      "jp": "ゼカリウスは海軍がない",
+      "en": "Zecarius has no navy.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2268,
+      "id": "db_EventInfo:2533:235",
+      "jp": "アーマニア海の厳しい自然が、俺達を守ってくれているんだ",
+      "en": "The harsh nature of the Armania Sea protects us.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2269,
+      "id": "db_EventInfo:2534:235",
+      "jp": "まあ、絶対というわけじゃないけどな。そこまで激しいなら、俺達漁師が仕事出来ないぜ",
+      "en": "Well, not perfectly. If it's too rough, we fishermen can't work.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2270,
+      "id": "db_EventInfo:2535:235",
+      "jp": "ゼカリウスにも、そろそろ海軍を配備するべきなんじゃないのかねぇ？",
+      "en": "Shouldn't Zecarius start setting up a navy soon?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2271,
+      "id": "db_EventInfo:2536:235",
+      "jp": "領主がいなくなって海の方も混乱している。これでは防衛どころじゃない",
+      "en": "With the lord gone, the sea areas are in chaos. We can't even defend ourselves now.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2272,
+      "id": "db_EventInfo:2537:235",
+      "jp": "こんな時に外から攻め込まれたら……領主が決まったら、陳情すべきだろうな",
+      "en": "If an attack comes from outside now... Once a new lord is decided, we should petition them.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2273,
+      "id": "db_EventInfo:2538:235",
+      "jp": "ところで、新しい領主は誰がやるんだ？",
+      "en": "By the way, who will be the new lord?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2274,
+      "id": "db_EventInfo:2539:235",
+      "jp": "本当にノーザリアが攻めてくるとは！",
+      "en": "Northalia is really attacking us!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2275,
+      "id": "db_EventInfo:2540:235",
+      "jp": "しかし新しい領主様のおかげで撃退できた！　領主様バンザイ！",
+      "en": "But we managed to repel them, thanks to the new lord! Long live the lord!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2276,
+      "id": "db_EventInfo:2541:235",
+      "jp": "沖にとんでもない大怪物がいるらしいが、無敵の領主様がなんとかしてくれるさ",
+      "en": "I hear there's a huge monster out at sea, but our invincible lord will handle it.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2277,
+      "id": "db_EventInfo:2542:235",
+      "jp": "港から市街地まで、一帯に避難勧告が出ているらしい",
+      "en": "I heard there's an evacuation advisory from the port all the way to the city.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2278,
+      "id": "db_EventInfo:2543:235",
+      "jp": "俺もそろそろ逃げるつもりだ。アンタも早く逃げた方がいいぜ",
+      "en": "I'm planning to run soon too. You should get out of here fast.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2279,
+      "id": "db_EventInfo:2544:235",
+      "jp": "さすが領主様だ、どんな苦難もなんとかしてくれる",
+      "en": "The lord is amazing. They can handle any hardship.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2280,
+      "id": "db_EventInfo:2545:235",
+      "jp": "でも沈んだだけで、完全には倒してないそうだな。トドメはささなくていいのか？",
+      "en": "But they say it was only sunk, not completely destroyed. Shouldn't we finish it off?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2281,
+      "id": "db_EventInfo:2546:235",
+      "jp": "今度は怪物の中から古代の要塞が出てきたとか。ゼカリウスももう終わりだ！",
+      "en": "Now they say an ancient fortress came out from inside the monster. Zecarius is done for!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2282,
+      "id": "db_EventInfo:2547:235",
+      "jp": "古代の要塞が沈んだ！",
+      "en": "The ancient fortress has sunk!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2283,
+      "id": "db_EventInfo:2548:235",
+      "jp": "ノーザリアとも講和を結んだらしいし、新しい領主様のおかげで平和が訪れたぞ！",
+      "en": "Seems we made peace with Northalia too. Thanks to the new lord, peace is here!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2284,
+      "id": "db_EventInfo:2549:402",
+      "jp": "酒場で飲んでいると、酔った客に絡まれることがあるんだ",
+      "en": "When I'm drinking at the tavern, drunk customers sometimes bother me.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2285,
+      "id": "db_EventInfo:2550:402",
+      "jp": "黙って呑ませてほしいよ",
+      "en": "I wish they'd just let me drink in peace.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2286,
+      "id": "db_EventInfo:2551:402",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】から追い出された天文学者がくだをまいている",
+      "en": "An astronomer kicked out of the 'Solsia Academy' is hanging around.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2287,
+      "id": "db_EventInfo:2552:402",
+      "jp": "たまに頭のおかしいことを喚きながら、絡んでくるんだよな",
+      "en": "Sometimes he yells crazy stuff and bothers people.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2288,
+      "id": "db_EventInfo:2553:402",
+      "jp": "黙って酒を飲ませて欲しいよ",
+      "en": "I just want to drink my booze quietly.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2289,
+      "id": "db_EventInfo:2554:242",
+      "jp": "【『<ruby=ソルシア>学院</ruby>』】は進歩的なようで、保守的である！",
+      "en": "The 'Solsia Academy' looks progressive, but it's really conservative!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2290,
+      "id": "db_EventInfo:2555:242",
+      "jp": "かの【『銀灰の魔術師』】も自分たちに扱えないからといって放逐した程の器の狭さよ！",
+      "en": "They even exiled the 'Silver-Gray Mage' just because they couldn't handle him! So petty!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2291,
+      "id": "db_EventInfo:2556:402",
+      "jp": "自分に絡んできた天文学者を護衛したが、内容は夜空の観察だったよ",
+      "en": "I guarded this astronomer who came up to me. His job was just to watch the night sky.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2292,
+      "id": "db_EventInfo:2557:402",
+      "jp": "星が見えないから夜になっても火をつけるなとかよ、正気か？と思ったぜ",
+      "en": "He said 'Don't light any fires at night, I can't see the stars!' I thought, 'Are you crazy?'",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2293,
+      "id": "db_EventInfo:2558:242",
+      "jp": "自分を護衛している冒険者は根性が足りない！",
+      "en": "The adventurer guarding me has no guts!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2294,
+      "id": "db_EventInfo:2559:242",
+      "jp": "こちらが天体観測しているというのに、たき火を始めて、正気を疑ったぞ！",
+      "en": "I'm doing astronomical observation, and he starts a campfire! I thought he'd lost his mind!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2295,
+      "id": "db_EventInfo:2560:402",
+      "jp": "天文学者が月の色は何色だ？　とか、よく分からないことを言ってるんだ",
+      "en": "That astronomer keeps saying weird things, like \"What color is the moon?\"",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2296,
+      "id": "db_EventInfo:2561:402",
+      "jp": "月の色なんて【緑色】に決まっているだろうに",
+      "en": "The moon's color is obviously green.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2297,
+      "id": "db_EventInfo:2562:242",
+      "jp": "古い文献にいわく、この世界に見える【大きな月はかつて黄金、もしくは血のような色に染まっていた】とある！",
+      "en": "An old book says, \"The big moon we see in this world was once colored gold, or blood-red!\"",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2298,
+      "id": "db_EventInfo:2563:242",
+      "jp": "しかし夜空を見てみよ！",
+      "en": "But look at the night sky!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2299,
+      "id": "db_EventInfo:2564:242",
+      "jp": "我らの月は【緑色】をしているのだ。この文献の違いは何なのだ！？",
+      "en": "Our moon is green. What explains the difference in the book?!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 2300,
+      "id": "db_EventInfo:2565:402",
+      "jp": "あの天文学者が愚痴っていたが、学者の世界はよく分からないな",
+      "en": "That astronomer was complaining. I don't get the academic world.",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

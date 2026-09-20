@@ -1,0 +1,820 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 90601,
+  "range_end": 90700,
+  "pairs": [
+    {
+      "n": 90601,
+      "id": "db_EventInfo:107059:110",
+      "jp": "先輩こそ、あんな美人なエルフィードの方と鍛錬だなんて、役得でありますね",
+      "en": "You, on the other hand, Senior, getting training from such a beautiful Elfeed woman is quite the perk, isn't it?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 90602,
+      "id": "db_EventInfo:107060:119",
+      "jp": "いやそれは……彼女は確かに美人だが、ひたすら地獄の鍛錬を強いる鬼教官だからな",
+      "en": "No, that's... She is beautiful for sure, but she's a demon instructor who forces you through hellish training non-stop.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 90603,
+      "id": "db_EventInfo:107061:119",
+      "jp": "あれじゃいくら美人でも男は寄りつかないんじゃないだろうか",
+      "en": "With a face like that, no man would come near, no matter how pretty she is, I bet.",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 90604,
+      "id": "db_EventInfo:107063:10",
+      "jp": "ほほう",
+      "en": "Hohoho.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90605,
+      "id": "db_EventInfo:107064:119",
+      "jp": "げっ、教官！？",
+      "en": "Gah, Instructor!?",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 90606,
+      "id": "db_EventInfo:107065:10",
+      "jp": "うむ、面と向かって鬼教官だのエルフィードだの言わない所は褒めてやろう",
+      "en": "Mm. I'll praise you for not calling me a demon instructor or an Elfied to my face.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90607,
+      "id": "db_EventInfo:107066:10",
+      "jp": "では貴様の大好きな鍛錬の時間だ。さあ、鍛錬するぞ鍛錬するぞ鍛錬するぞ！",
+      "en": "Now, it's time for your favorite training. Come on, train, train, train!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90608,
+      "id": "db_EventInfo:107067:119",
+      "jp": "う、うわあぁぁぁぁ！",
+      "en": "W-waaahhhh!",
+      "speaker": "Jikuresu",
+      "speaker_jp": "ジクレス"
+    },
+    {
+      "n": 90609,
+      "id": "db_EventInfo:107068:110",
+      "jp": "せ、先輩～～！！",
+      "en": "S-Senpai~~!!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 90610,
+      "id": "db_EventInfo:107069:0",
+      "jp": "ジクレスは再びエリオルダに連れていかれそうになる。",
+      "en": "Jikuresu is about to be dragged away by Eliorda again.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90611,
+      "id": "db_EventInfo:107070:10",
+      "jp": "おっとそうだ",
+      "en": "Oh, right.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90612,
+      "id": "db_EventInfo:107071:10",
+      "jp": "君がソルネッタだろう？　私がエリオルダだ。思えば、自己紹介もまだだったな",
+      "en": "You must be Solnetta? I'm Eliorda. Come to think of it, I haven't introduced myself yet.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90613,
+      "id": "db_EventInfo:107072:10",
+      "jp": "この男から、君の評判は聞いている。自警団の中では一番の凄腕だそうだな",
+      "en": "I've heard about you from this guy. They say you're the best fighter in the Self-Defense Force.",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90614,
+      "id": "db_EventInfo:107073:110",
+      "jp": "じ、自分が、でありますか？",
+      "en": "M-me, sir?",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 90615,
+      "id": "db_EventInfo:107074:10",
+      "jp": "良ければ今度、暇潰しに鍛錬に顔を出すと良い。泣いたり笑ったりできなくなるほど鍛えてやるぞ！",
+      "en": "Hey, come by for training sometime when you're bored. I'll work you so hard you won't know whether to cry or laugh!",
+      "speaker": "Eliorda",
+      "speaker_jp": "エリオルダ"
+    },
+    {
+      "n": 90616,
+      "id": "db_EventInfo:107075:110",
+      "jp": "は、はぁ……りょ、了解であります！",
+      "en": "Y-yes, sir! Understood!",
+      "speaker": "Solnetta",
+      "speaker_jp": "ソルネッタ"
+    },
+    {
+      "n": 90617,
+      "id": "db_EventInfo:107076:0",
+      "jp": "敬礼するソルネッタに、エリオルダは頷く。",
+      "en": "Eliorda nods at Solnetta as she salutes.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90618,
+      "id": "db_EventInfo:107077:0",
+      "jp": "エリオルダはジクレスを引きずったまま、行ってしまった。",
+      "en": "Eliorda leaves, dragging Jikuresu along with him.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90619,
+      "id": "db_EventInfo:107078:0",
+      "jp": "★エッチシーン・ソルネッタ・個別③・献上品セックス①・羞恥",
+      "en": "★ H Scene: Solnetta - Individual 3: Offering Sex 1 - Shame",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90620,
+      "id": "db_EventInfo:107079:0",
+      "jp": "★エッチシーン・ソルネッタ・個別④・献上品セックス②・淫乱",
+      "en": "★ H Scene: Solnetta - Individual 4: Offering Sex 2 - Lewdness",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90621,
+      "id": "db_EventInfo:107080:0",
+      "jp": "★エッチシーン・ソルネッタ・H部屋・パイズリフェラ①",
+      "en": "★ H Scene: Solnetta - H Room: Paizuri Fellatio 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90622,
+      "id": "db_EventInfo:107081:0",
+      "jp": "★エッチシーン・ソルネッタ・H部屋・パイズリフェラ②",
+      "en": "★ H Scene: Solnetta - H Room: Paizuri Fellatio 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90623,
+      "id": "db_EventInfo:107082:0",
+      "jp": "★エッチシーン・ソルネッタ・H部屋・ベッドでセックス",
+      "en": "★ H Scene: Solnetta - H Room: Bed Sex",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90624,
+      "id": "db_EventInfo:107083:0",
+      "jp": "★エッチシーン・ソルネッタ・H部屋・泡プレイ①",
+      "en": "★ H Scene: Solnetta - H Room: Bubble Play 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90625,
+      "id": "db_EventInfo:107084:0",
+      "jp": "★エッチシーン・ソルネッタ・H部屋・泡プレイ②",
+      "en": "★ H Scene: Solnetta - H Room: Bubble Play 2",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90626,
+      "id": "db_EventInfo:107085:0",
+      "jp": "★エッチシーン・ソルネッタ・見せ・仕事中にエッチ①",
+      "en": "★ H Scene: Solnetta - Exhibition: Sex During Work 1",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90627,
+      "id": "db_EventInfo:107086:0",
+      "jp": "★エッチシーン・ソルネッタ・見せ・仕事中にエッチ②",
+      "en": "Sex Scene - Solnetta - Showing Off - Having Sex During Work (2)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90628,
+      "id": "db_EventInfo:107087:0",
+      "jp": "★エッチシーン・ソルネッタ・妊娠時・ボテ腹セックス①",
+      "en": "Sex Scene - Solnetta - During Pregnancy - Sex with a Big Belly (1)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90629,
+      "id": "db_EventInfo:107088:0",
+      "jp": "★エッチシーン・ソルネッタ・妊娠時・ボテ腹セックス②",
+      "en": "Sex Scene - Solnetta - During Pregnancy - Sex with a Big Belly (2)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90630,
+      "id": "db_EventInfo:107089:1",
+      "jp": "これでまた運命が変わったのか……",
+      "en": "Did fate change again because of this...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90631,
+      "id": "db_EventInfo:107091:2",
+      "jp": "うむデス。悲劇を回避して、オマエと共に働くスタッフを集めるデス",
+      "en": "Yes. We avoided the tragedy, and you gathered staff to work with you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90632,
+      "id": "db_EventInfo:107092:1",
+      "jp": "そうだな",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90633,
+      "id": "db_EventInfo:107096:112",
+      "jp": "なあ、スタッフ募集の案内を見てきたんだが……",
+      "en": "Hey, I saw the help wanted notice...",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90634,
+      "id": "db_EventInfo:107097:2",
+      "jp": "デス？",
+      "en": "Yes?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90635,
+      "id": "db_EventInfo:107098:1",
+      "jp": "君達は確か、いつもうちを利用してくれてる人だったよね。いつもありがとうございます",
+      "en": "I think you two are always customers here. Thanks for always coming.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90636,
+      "id": "db_EventInfo:107099:112",
+      "jp": "い、いや、別に！　俺達の方こそ、いつも世話になっちまって、助かってるよ",
+      "en": "N-no, not really! We're the ones who are always being helped, so thank you.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90637,
+      "id": "db_EventInfo:107100:113",
+      "jp": "ああ、そうだな……っと、自己紹介はしたっけ？　アタシはグレーテ、こっちはジャネットだ",
+      "en": "Ah, right... Wait, did we introduce ourselves? I'm Grete, and this is Janet.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90638,
+      "id": "db_EventInfo:107101:113",
+      "jp": "本題だが、アタシ達は二人で組んでる冒険者でね、仕事があるなら、一緒に働かせてもらいたいんだが、どうだい？",
+      "en": "Anyway, we're an adventuring team of two. If you have work, we'd like to join your staff. What do you say?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90639,
+      "id": "db_EventInfo:107102:2",
+      "jp": "一緒に働かせてって、冒険者稼業はどうしたデス？",
+      "en": "You want to work here with us? What about your adventurer job?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90640,
+      "id": "db_EventInfo:107103:113",
+      "jp": "何言ってるんだよ、アタシらを助けてくれたのはアンタ達だろ？",
+      "en": "What are you talking about? You guys are the ones who saved us.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90641,
+      "id": "db_EventInfo:107104:112",
+      "jp": "そ、そうだぜ！　俺は比較的軽傷だったが、相棒のグレーテの方が重症でさ。最近、治療所から復帰したんだよ",
+      "en": "Y-yeah, that's right! I was hurt but not too bad, but my partner Grete got hit worse. She just got out of the hospital recently.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90642,
+      "id": "db_EventInfo:107105:1",
+      "jp": "ああ、なるほど。いや、二人とも無事で良かったよ",
+      "en": "Oh, I see. Well, I'm glad you're both okay.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90643,
+      "id": "db_EventInfo:107106:112",
+      "jp": "あ、ああ、まあその、おかげさまでな",
+      "en": "Ah, y-yeah, well... thanks to you.",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90644,
+      "id": "db_EventInfo:107107:113",
+      "jp": "でだ、アタシらは冒険者に戻るつもりなんだがよ",
+      "en": "So look, we do plan to go back to being adventurers.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90645,
+      "id": "db_EventInfo:107108:113",
+      "jp": "その前に、アンタらに恩を返さないとなって事で、リハビリがてら働かせてもらおうと思ってさ",
+      "en": "But first, we gotta pay you back for helping us. We figured we could work here as part of our recovery.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90646,
+      "id": "db_EventInfo:107109:112",
+      "jp": "お、おう！　助けてもらった分、しっかり働くからよ。俺達にできる事なら、何でも言ってくれよ！",
+      "en": "Y-yeah! We'll work hard to make up for you saving us. Just tell us what to do, anything we can!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90647,
+      "id": "db_EventInfo:107110:2",
+      "jp": "ほほう。何でもするデスね？",
+      "en": "Hoho. You'll do anything?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90648,
+      "id": "db_EventInfo:107111:113",
+      "jp": "ま、まあ、できる事なら",
+      "en": "W-well, if it's something we can do.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90649,
+      "id": "db_EventInfo:107112:112",
+      "jp": "おう、しっかり働くからよ、任せてくれよな！",
+      "en": "Yeah, we'll work hard, you can count on us!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90650,
+      "id": "db_EventInfo:107113:2",
+      "jp": "うむデス。では二人とも、早速今から働いて貰うデス！　さあ、キリキリ働くデス！",
+      "en": "Good. Then you two start working right now! Come on, work hard!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90651,
+      "id": "db_EventInfo:107114:112",
+      "jp": "えっ、いいのか？　面接とか試験とかねぇのかよ？",
+      "en": "Huh, really? No interview or test or anything?",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90652,
+      "id": "db_EventInfo:107115:2",
+      "jp": "そんな悠長なことは言ってられんデス！　二人とも、すぐに仕事にかかるデス！",
+      "en": "We don't have time for that slow stuff! You're both starting work right now!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 90653,
+      "id": "db_EventInfo:107116:113",
+      "jp": "あ、ああ。ま、いいか、分かったよ",
+      "en": "Ah, ah. Well, okay, fine, I got it.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90654,
+      "id": "db_EventInfo:107117:112",
+      "jp": "そう言うわけだからよ。よろしく頼むぜ！",
+      "en": "So that's how it is. Looking forward to working with you!",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90655,
+      "id": "db_EventInfo:107118:1",
+      "jp": "ああ、よろしく。でも、二人ともリハビリがてら、だろ？　無理はしないでくれよ",
+      "en": "Yeah, you too. But, this is part of your rehab, right? Don't push yourselves too hard.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90656,
+      "id": "db_EventInfo:107119:112",
+      "jp": "お、おうД　任せとけよД",
+      "en": "O-okayД Leave it to usД",
+      "speaker": "Janet",
+      "speaker_jp": "ジャネット"
+    },
+    {
+      "n": 90657,
+      "id": "db_EventInfo:107121:113",
+      "jp": "なああんたさあ、色んな娘に手を出してるでしょ",
+      "en": "Hey, you're messing around with a bunch of girls, aren't you?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90658,
+      "id": "db_EventInfo:107122:1",
+      "jp": "えっ、いや、あの、ま、まあ……",
+      "en": "Huh? N-no, well, um...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90659,
+      "id": "db_EventInfo:107123:113",
+      "jp": "ふうん。まあ、バレバレだし、変に隠さないところは評価したげるよ",
+      "en": "Hmm. Well, it's obvious, so I'll give you points for not trying to hide it weirdly.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90660,
+      "id": "db_EventInfo:107124:1",
+      "jp": "そりゃどうも",
+      "en": "Thanks for that, I guess.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90661,
+      "id": "db_EventInfo:107125:113",
+      "jp": "ま、アンタには恩もあるし、リハビリを兼ねて働かせてもらうけど",
+      "en": "Well, I owe you, and I'm working here as part of my rehab, so...",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90662,
+      "id": "db_EventInfo:107126:113",
+      "jp": "とにかく、アタシには関わらない方がいいよ",
+      "en": "Anyway, you'd be better off not getting involved with me.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90663,
+      "id": "db_EventInfo:107127:113",
+      "jp": "職業柄、すぐに手が出ちまうし。もっと小さい子にしか興味ないし、あははД",
+      "en": "It's in my nature, I lash out right away. And I'm only interested in much smaller people, ahahaД",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90664,
+      "id": "db_EventInfo:107128:1",
+      "jp": "ああ、なるほど、ショ……いや、なんでもない、とにかく分かったよ",
+      "en": "Ah, I see... Sho... no, never mind. Anyway, I get it.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90665,
+      "id": "db_EventInfo:107129:0",
+      "jp": "グレーテが小さい客に手を出さないか、僅かに不安をおぼえるのだった。",
+      "en": "I felt a tiny bit worried that Grete might lay a hand on a small customer.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90666,
+      "id": "db_EventInfo:107131:113",
+      "jp": "うわあぁぁぁ！",
+      "en": "Waaahhh!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90667,
+      "id": "db_EventInfo:107132:9",
+      "jp": "待つのである～Д",
+      "en": "Wait, please~Д",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90668,
+      "id": "db_EventInfo:107133:1",
+      "jp": "グレーテ。と、カリストか、何をしてるんだ？",
+      "en": "Grete. And Callisto. What are you doing?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90669,
+      "id": "db_EventInfo:107134:113",
+      "jp": "【<pl>】、よかった、どうにかしておくれよ！",
+      "en": "【<pl>】, thank goodness! Do something, please!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90670,
+      "id": "db_EventInfo:107135:9",
+      "jp": "逃げるからであろう？　私はただ、この薬を飲んでほしいだけであるのに……",
+      "en": "Are you running away? I just want you to drink this medicine...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90671,
+      "id": "db_EventInfo:107136:113",
+      "jp": "く、薬はもう嫌だっての！　また何か変な事が起こるに決まってるよ……！",
+      "en": "Ugh, no more medicine! Something weird is definitely gonna happen again...!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90672,
+      "id": "db_EventInfo:107137:1",
+      "jp": "なるほど。何が起こってるのか、俺にもよく分かったよ",
+      "en": "I see. Now I understand exactly what's happening.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90673,
+      "id": "db_EventInfo:107138:9",
+      "jp": "グレーテ殿は生半可な冒険者よりも、体が丈夫であろう？　特性を生かした仕事だと思うのであるがなぁ",
+      "en": "Lady Grete, your body is probably sturdier than a half-baked adventurer's, no? I think it's a job that uses your special trait.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90674,
+      "id": "db_EventInfo:107139:113",
+      "jp": "限度があるだろ！",
+      "en": "There's a limit!",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90675,
+      "id": "db_EventInfo:107140:9",
+      "jp": "ふぅむ。では仕方ない、【<pl>】殿、代わりに飲んでほしいである",
+      "en": "Hmm. Well, if we must. 【<pl>】, I need you to drink this for me.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90676,
+      "id": "db_EventInfo:107141:1",
+      "jp": "えっ",
+      "en": "Huh?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 90677,
+      "id": "db_EventInfo:107142:0",
+      "jp": "どうやら、グレーテの危機は、そのまま俺にやってきてしまった。",
+      "en": "Looks like Grete's trouble came right over to me instead.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90678,
+      "id": "db_EventInfo:107145:0",
+      "jp": "その後、カリストの魔の手から逃げるのには苦労してしまった。",
+      "en": "After that, it was a real pain trying to get away from Callisto.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90679,
+      "id": "db_EventInfo:107147:0",
+      "jp": "店の片隅で、二人が話し合っている。",
+      "en": "The two of them are talking in a corner of the shop.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90680,
+      "id": "db_EventInfo:107149:9",
+      "jp": "グレーテ殿はジャネット殿とは違って、【<pl>】殿に興味が無いようであるな？",
+      "en": "Lady Grete doesn't seem interested in 【<pl>】, unlike Lady Janet?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90681,
+      "id": "db_EventInfo:107150:113",
+      "jp": "まあね、アタシはもっと小さい男の子が好みだからねД　それでいて頼り甲斐のある相手なら最高だねД",
+      "en": "Yeah, well, I prefer boys who are smallerД. And if they can take care of me too, that's perfectД.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90682,
+      "id": "db_EventInfo:107151:9",
+      "jp": "ふぅむ？　少年に父性を求めている、ということであるか？",
+      "en": "Hmm? You seek a fatherly quality in a boy?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90683,
+      "id": "db_EventInfo:107152:0",
+      "jp": "グレーテとカリストはグラスを傾けながら、何事か話し合っている。",
+      "en": "Grete and Callisto are chatting about something as they sip their glasses.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90684,
+      "id": "db_EventInfo:107153:0",
+      "jp": "そこには普段、グレーテと行動を共にしているジャネットの姿はない。",
+      "en": "Janet, who's usually with Grete, isn't there.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90685,
+      "id": "db_EventInfo:107154:113",
+      "jp": "別にぃ。年下がいいんじゃなくて、年下に見えればいいんだよД",
+      "en": "Not reallyД. It's not about them being younger, just looking youngerД.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90686,
+      "id": "db_EventInfo:107155:113",
+      "jp": "ほら、ドワーム族のアンジュとかみたいに、見た目が年下なら十分だよД",
+      "en": "You know, like Anju from the Dwarm tribe. If they look young, that's good enough for meД.",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90687,
+      "id": "db_EventInfo:107156:9",
+      "jp": "ふぅむ、中々に難儀な性癖であるな。だが、対象の、それも精神ではなく、肉体のみを若返らせるのであれば",
+      "en": "Hmm, that's a rather difficult fetish. But, if you're talking about rejuvenating only the target's body, not their mind...",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90688,
+      "id": "db_EventInfo:107157:9",
+      "jp": "ふむふむ",
+      "en": "Mhmm mhmm.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90689,
+      "id": "db_EventInfo:107158:9",
+      "jp": "うむ、多少の出資があれば、可能であるな",
+      "en": "Yes, it should be possible with a little funding.",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90690,
+      "id": "db_EventInfo:107159:113",
+      "jp": "ほ、本当か！？",
+      "en": "R-really!?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90691,
+      "id": "db_EventInfo:107160:9",
+      "jp": "無論である。しかし、問題は出資の方であるが、アテでもあるのであるか？",
+      "en": "Of course. However, the issue is the funding. Do you have any prospects for that?",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90692,
+      "id": "db_EventInfo:107161:113",
+      "jp": "そうだなぁ。まあ、カネに関しちゃ、我らが店長に頼めば、何とかしてくれるんじゃないかな？",
+      "en": "Hmm, yeah. Well, when it comes to money, if we ask our shop manager, he'll probably figure something out, right?",
+      "speaker": "Grete",
+      "speaker_jp": "グレーテ"
+    },
+    {
+      "n": 90693,
+      "id": "db_EventInfo:107162:9",
+      "jp": "ふむ、まあそれもそうであるなД",
+      "en": "Hmm, well, I suppose that's trueД",
+      "speaker": "Callisto",
+      "speaker_jp": "カリスト"
+    },
+    {
+      "n": 90694,
+      "id": "db_EventInfo:107165:0",
+      "jp": "その後、俺の元に来たグレーテに、【『特別な薬』】の為の出資を求められるのだった。",
+      "en": "Later, Grete came to me and asked for funding for the ['Special Medicine'].",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90695,
+      "id": "db_EventInfo:107166:0",
+      "jp": "★エッチシーン・グレーテ・個別①・ショタ化逆レイプ①(初体験)",
+      "en": "★H-Scene・Grete・Individual ①・Shota-Transformation Reverse Rape ① (First Time)",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 90696,
+      "id": "db_EventInfo:107167:0",
+      "jp": "★エッチシーン・グレーテ・個別②・ショタ化逆レイプ②",
+      "en": "★H-Scene・Grete・Individual ②・Shota-Transformation Reverse Rape ②",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 90697,
+      "id": "db_EventInfo:107168:0",
+      "jp": "★エッチシーン・グレーテ・H部屋・ぱふぱふエッチ①",
+      "en": "★H-Scene・Grete・H-Room・Pafupafu H①",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 90698,
+      "id": "db_EventInfo:107169:0",
+      "jp": "★エッチシーン・グレーテ・H部屋・ぱふぱふエッチ②",
+      "en": "★H-Scene・Grete・H-Room・Pafupafu H②",
+      "speaker": "I",
+      "speaker_jp": "",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 90699,
+      "id": "db_EventInfo:107170:0",
+      "jp": "★エッチシーン・グレーテ・H部屋・発情後背位①",
+      "en": "(H-Scene: Grete - H Room - Horny Doggy Style ①)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 90700,
+      "id": "db_EventInfo:107171:0",
+      "jp": "★エッチシーン・グレーテ・H部屋・発情後背位②",
+      "en": "(H-Scene: Grete - H Room - Horny Doggy Style ②)",
+      "speaker": "I",
+      "speaker_jp": ""
+    }
+  ]
+}

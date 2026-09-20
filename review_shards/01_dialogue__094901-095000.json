@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 94901,
+  "range_end": 95000,
+  "pairs": [
+    {
+      "n": 94901,
+      "id": "db_EventInfo:112133:7",
+      "jp": "あいつがいいヤツ？　冗談じゃないよ～ボクに乱暴した……いや、今回はしようと【していた】ヤツなのに！",
+      "en": "That guy? A good guy? You're joking~ He was rough with me... no, this time he was *trying to be*!",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94902,
+      "id": "db_EventInfo:112134:2",
+      "jp": "どういうことデス？",
+      "en": "What do you mean, Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94903,
+      "id": "db_EventInfo:112137:2",
+      "jp": "だいたい合点がいったデス。ファシィは、オマエと同じ【『異世界転生者』】で、前の人生で出会っていたわけデスか",
+      "en": "I mostly get it now, Desu. Facy is a 『Reincarnated from Another World』 person, just like you. You met in a past life, right Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94904,
+      "id": "db_EventInfo:112138:1",
+      "jp": "ああ",
+      "en": "Yeah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94905,
+      "id": "db_EventInfo:112139:2",
+      "jp": "なんだか今回の巻き戻しはパワーを多く使った気がしたデスが、オマエに余計なことをしたせいだったんデスね",
+      "en": "I felt like this rewind used a lot of power, Desu. It was because he did something extra to you, wasn't it Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94906,
+      "id": "db_EventInfo:112140:7",
+      "jp": "あはは！　そんな細かいことは、いいじゃな～い♪",
+      "en": "Ahaha! Who cares about the small details, right?♪",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94907,
+      "id": "db_EventInfo:112141:2",
+      "jp": "……ともかく、オマエを召喚したのは私デスが、ファシィを召喚したのはゼルカ……あの領主ということデスね",
+      "en": "...Anyway, Desu. I summoned you, and Zelka... that lord, summoned Facy. Right, Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94908,
+      "id": "db_EventInfo:112142:2",
+      "jp": "それで、その場で乱暴された、ということデスか",
+      "en": "So, you were attacked right then and there, Desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94909,
+      "id": "db_EventInfo:112143:7",
+      "jp": "前のボクだけどね～",
+      "en": "Well, the old me, anyway~",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94910,
+      "id": "db_EventInfo:112144:2",
+      "jp": "とんでもないデスね……召喚したヤツにその場で乱暴するなんて……うん、とんでもないデスね……",
+      "en": "That's awful, Desu... to attack someone you just summoned like that... Yeah, awful, Desu...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94911,
+      "id": "db_EventInfo:112145:1",
+      "jp": "シイネ、なんで目が泳いでるんだ？",
+      "en": "Shiine, why are your eyes shifting around?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94912,
+      "id": "db_EventInfo:112146:2",
+      "jp": "気のせいデス",
+      "en": "It's nothing, I assure you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94913,
+      "id": "db_EventInfo:112147:2",
+      "jp": "しかし異世界から転生させることは、【『神』】に匹敵する超パワーが必要なはずデス",
+      "en": "But to reincarnate someone from another world... you'd need power on par with a 'God'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94914,
+      "id": "db_EventInfo:112148:2",
+      "jp": "あの領主にそこまでの力があるようには見えないデスけど",
+      "en": "I don't see that lord having that kind of power, though.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94915,
+      "id": "db_EventInfo:112150:7",
+      "jp": "そこなんだよね。ゼルカ自身にはたいした力はないけど……ゼルカは【『ゼカリウス』】の遺跡装置の管理者一族なんだ",
+      "en": "That's the thing. Zelka himself isn't that powerful... but he's from a clan that manages the ruins' mechanism of 'Zecarius'.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94916,
+      "id": "db_EventInfo:112151:1",
+      "jp": "遺跡装置……？",
+      "en": "A ruins mechanism...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94917,
+      "id": "db_EventInfo:112152:7",
+      "jp": "この【『ゼカリウス』】は大きな遺跡の真上にあって、ゼルカの屋敷には遺跡の力をコントロールできる装置があるらしいんだ",
+      "en": "This 'Zecarius' is built right on top of a huge ruin. Zelka's mansion has a device that can control the ruin's power.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94918,
+      "id": "db_EventInfo:112153:7",
+      "jp": "遺跡によって古代文明の超パワーを操ることができるんじゃないの？",
+      "en": "Maybe he can use that ancient power through the ruin?",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94919,
+      "id": "db_EventInfo:112154:1",
+      "jp": "なるほど、【『ゼカリウス』】は遺跡の力を受け継ぎ、領主の一族であるゼルカの一族はそのヒミツを継いでいると",
+      "en": "I see. So 'Zecarius' inherits the ruin's power, and Zelka's lordly clan has passed down its secret.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94920,
+      "id": "db_EventInfo:112155:1",
+      "jp": "遺跡の力と言うことは、その遺跡はまだ動くということか？",
+      "en": "Ruin power... does that mean the ruin is still active?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94921,
+      "id": "db_EventInfo:112156:2",
+      "jp": "そうデスね。古代文明の遺産は数百年と稼働することもあるそうデス",
+      "en": "Yes. They say relics of ancient civilization can keep running for centuries.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94922,
+      "id": "db_EventInfo:112157:2",
+      "jp": "……しかし現代において、遺跡の力を自由に使いこなせるヤツはいないはずデスが",
+      "en": "...But in this age, no one should be able to freely control a ruin's power.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94923,
+      "id": "db_EventInfo:112158:1",
+      "jp": "ゼルカは管理者一族として、その使い方も受け継いでいるのか",
+      "en": "I guess Zelka, being from the ruler family, inherited how to use it too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94924,
+      "id": "db_EventInfo:112159:7",
+      "jp": "もしくは、その使い方を発見した、ということかもしれないね",
+      "en": "Or maybe he's the one who discovered how to use it.",
+      "speaker": "Facy",
+      "speaker_jp": "ファシィ"
+    },
+    {
+      "n": 94925,
+      "id": "db_EventInfo:112160:2",
+      "jp": "【『遺跡装置』】デスか……使い方によっては強大な力を振るえるデス",
+      "en": "That [Relic Device] is Death... It can unleash huge power, depending on how it's used, Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94926,
+      "id": "db_EventInfo:112161:2",
+      "jp": "もしかしたら【『災厄』】にきわめて近い場所に、あの領主はいるのかもしれないデスね",
+      "en": "That lord might be in a place very close to the [Calamity], Death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94927,
+      "id": "db_EventInfo:112165:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94928,
+      "id": "db_EventInfo:112169:18",
+      "jp": "あれがウワサの店主か……まさか、あの小娘がいるとは",
+      "en": "So that's the rumored shop owner... I didn't expect that little girl to be there.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94929,
+      "id": "db_EventInfo:112170:134",
+      "jp": "……どういたしますか、始末しますか？",
+      "en": "...What do you want to do? Shall we get rid of them?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94930,
+      "id": "db_EventInfo:112171:18",
+      "jp": "うム、そうしたいところであるが……まあいい、やり方はいくらでもある",
+      "en": "Hmm, I'd like to... but fine. There are plenty of other ways.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94931,
+      "id": "db_EventInfo:112174:18",
+      "jp": "くく……【『ゼカリウス』】は私の街だ。この街で、好き勝手できると思わないことだ",
+      "en": "Heh heh... [Zecarius] is my town. Don't think you can do whatever you like here.",
+      "speaker": "Zelka",
+      "speaker_jp": "ゼルカ"
+    },
+    {
+      "n": 94932,
+      "id": "db_EventInfo:112176:2",
+      "jp": "おいオマエ、大変デス！",
+      "en": "Hey you, big trouble Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94933,
+      "id": "db_EventInfo:112177:2",
+      "jp": "今日からこの店にかかる税金がアップするそうデス！",
+      "en": "I hear the taxes on this shop are going up starting today Death!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94934,
+      "id": "db_EventInfo:112178:1",
+      "jp": "なんだって！？",
+      "en": "What?!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94935,
+      "id": "db_EventInfo:112179:2",
+      "jp": "きっとあの領主のせいデス！　おのれー！！",
+      "en": "It's definitely that lord's fault! How dare he!!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94936,
+      "id": "db_EventInfo:112182:0",
+      "jp": "その後、文句を言いに行ったが、決められたことということで撥ねのけられた。",
+      "en": "Later, I went to complain, but they shut me down, saying it was the rule.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94937,
+      "id": "db_EventInfo:112183:2",
+      "jp": "横暴デス！",
+      "en": "This is tyranny!",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94938,
+      "id": "db_EventInfo:112184:15",
+      "jp": "ここは【『ゼカリウス』】、領主の意にそぐわなければ、追い出されてしまうよ",
+      "en": "This is Zecarius. If you go against the lord's wishes, you'll get kicked out.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94939,
+      "id": "db_EventInfo:112185:15",
+      "jp": "今は耐えるしかないね",
+      "en": "For now, we just have to endure it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 94940,
+      "id": "db_EventInfo:112186:1",
+      "jp": "くっ……",
+      "en": "Dammit...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94941,
+      "id": "db_EventInfo:112188:1",
+      "jp": "今日も仕事を頑張るか……",
+      "en": "Guess I'll just work hard again today...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94942,
+      "id": "db_EventInfo:112189:0",
+      "jp": "(クラッ)",
+      "en": "(Crash)",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94943,
+      "id": "db_EventInfo:112190:1",
+      "jp": "うっ……",
+      "en": "Ugh...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94944,
+      "id": "db_EventInfo:112192:2",
+      "jp": "おいオマエ、大丈夫デス？",
+      "en": "Hey you, are you okay?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94945,
+      "id": "db_EventInfo:112193:2",
+      "jp": "……いかんデスね。オマエ、【死相】が見え始めているデス",
+      "en": "...This is no good. You're starting to show a sign of death.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94946,
+      "id": "db_EventInfo:112194:2",
+      "jp": "マリーゼルを【『死の運命』】から守ったのはいいデスが、まだ肝心の【『死神代行助手』】にしてないデス",
+      "en": "Saving Marisel from her fate of death was good, but we still haven't made you a Shinigami Agent Assistant yet.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94947,
+      "id": "db_EventInfo:112195:2",
+      "jp": "早くアイツと【契り】を結ばないとデス……っと",
+      "en": "I better make that [Pact] with him soon, or else...",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94948,
+      "id": "db_EventInfo:112196:2",
+      "jp": "忘れてたデス。オマエに客が来ているデスよ",
+      "en": "Oh, I forgot. You have a customer.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94949,
+      "id": "db_EventInfo:112197:1",
+      "jp": "客？",
+      "en": "A customer?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94950,
+      "id": "db_EventInfo:112201:224",
+      "jp": "アナタが店長さんですかな？",
+      "en": "Are you the shopkeeper?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94951,
+      "id": "db_EventInfo:112202:1",
+      "jp": "そうだけど……アンタは？",
+      "en": "Yeah, I am... And you are?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94952,
+      "id": "db_EventInfo:112203:206",
+      "jp": "私はマリーゼルの父です",
+      "en": "I am Marisel's father.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94953,
+      "id": "db_EventInfo:112204:1",
+      "jp": "マリーゼルの？",
+      "en": "Marisel's?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94954,
+      "id": "db_EventInfo:112205:206",
+      "jp": "そうです。私はずっと、娘の行方を捜しておりました！",
+      "en": "Yes. I have been searching for my daughter all this time!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94955,
+      "id": "db_EventInfo:112206:1",
+      "jp": "どういうことだ？",
+      "en": "What do you mean?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94956,
+      "id": "db_EventInfo:112207:206",
+      "jp": "……娘は騙されていたのです！",
+      "en": "...My daughter was deceived!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94957,
+      "id": "db_EventInfo:112208:206",
+      "jp": "娘は……マリーは無垢な娘でした。私たちは娘を可愛がり、神学校で大切に育てました",
+      "en": "My daughter... Marie was a pure girl. We adored her and raised her with care at the seminary.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94958,
+      "id": "db_EventInfo:112209:206",
+      "jp": "しかし卒業間近になり……ようやく一人前のレディに成長しようかという時、素性も知れぬ冒険者に騙されて学校を飛び出したのです",
+      "en": "But just before graduation... just as she was finally becoming a proper young lady, she was tricked by a shady adventurer and ran away from school.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94959,
+      "id": "db_EventInfo:112210:206",
+      "jp": "あの下男の息子め……！　私のマリーをたぶらかしおって！",
+      "en": "That lowborn servant's son...! He seduced my Marie!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94960,
+      "id": "db_EventInfo:112211:1",
+      "jp": "そんなことが……",
+      "en": "That can't be...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94961,
+      "id": "db_EventInfo:112212:2",
+      "jp": "冒険者というのは、ポンタのことデスね",
+      "en": "The adventurer, you mean Ponta, desu ne.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94962,
+      "id": "db_EventInfo:112213:206",
+      "jp": "以来、行方知らずとなっていて、ずっと探しておりました……",
+      "en": "Since then, she's been missing. I've been searching all this time...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94963,
+      "id": "db_EventInfo:112214:206",
+      "jp": "私のマリーゼルはどこですかな？　早く会わせてくだされ……！",
+      "en": "Where is my Marisel? Let me see her right now...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94964,
+      "id": "db_EventInfo:112215:2",
+      "jp": "どうするデス？",
+      "en": "What should we do, desu?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94965,
+      "id": "db_EventInfo:112216:206",
+      "jp": "ありがとうございますぞ……！",
+      "en": "Thank you so much...!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94966,
+      "id": "db_EventInfo:112217:206",
+      "jp": "なぜですかな？",
+      "en": "Why is that?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94967,
+      "id": "db_EventInfo:112218:206",
+      "jp": "拒否すると言うことは、やはりマリーはこの宿にいるということですな？",
+      "en": "If you refuse, that means Marie is in this inn after all, doesn't it?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94968,
+      "id": "db_EventInfo:112219:0",
+      "jp": "俺達はマリーゼルに男を会わせることにした。",
+      "en": "We decided to let the man see Marisel.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94969,
+      "id": "db_EventInfo:112220:206",
+      "jp": "マリー！　会いたかったよ！",
+      "en": "Marie! I've wanted to see you!",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94970,
+      "id": "db_EventInfo:112222:6",
+      "jp": "あ、あなた様は……？",
+      "en": "Ah, you are...?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94971,
+      "id": "db_EventInfo:112223:2",
+      "jp": "オマエの父と言ってるデスよ？",
+      "en": "I'm talking about your father, you know?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94972,
+      "id": "db_EventInfo:112224:6",
+      "jp": "えっ、お父様……？",
+      "en": "Huh, Father...?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94973,
+      "id": "db_EventInfo:112225:206",
+      "jp": "さあ、家に帰ろう。馬車も待たせているよ",
+      "en": "Come on, let's go home. The carriage is waiting.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94974,
+      "id": "db_EventInfo:112226:6",
+      "jp": "ええと……それは……",
+      "en": "Um... that is...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94975,
+      "id": "db_EventInfo:112227:206",
+      "jp": "どうしたんだい？　まさか、この父の顔を忘れたというわけでもあるまい……？",
+      "en": "What's wrong? You haven't forgotten your own father's face, have you...?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94976,
+      "id": "db_EventInfo:112228:6",
+      "jp": "それは……",
+      "en": "It's just that...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94977,
+      "id": "db_EventInfo:112229:1",
+      "jp": "(なんだか歯切れが悪いな……)",
+      "en": "(He's being really evasive...)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94978,
+      "id": "db_EventInfo:112230:2",
+      "jp": "おいオマエ、マリーゼルが困っているデス。今日の所は帰るデスよ",
+      "en": "Hey you, Marisel's troubled. We're going home for today.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94979,
+      "id": "db_EventInfo:112231:206",
+      "jp": "なんだと！？　私たち親子を引き離すつもりか！？",
+      "en": "What!? Are you trying to tear apart a parent and child!?",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94980,
+      "id": "db_EventInfo:112232:1",
+      "jp": "まあまあ……",
+      "en": "Now, now...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94981,
+      "id": "db_EventInfo:112235:0",
+      "jp": "俺はマリーゼルの父親をなんとか宥め、帰ってもらった。",
+      "en": "I somehow managed to calm Marisel's father down and got him to leave.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94982,
+      "id": "db_EventInfo:112236:0",
+      "jp": "マリーゼルの表情が暗いことだけが気になった……。",
+      "en": "I was only worried about how dark Marisel's expression was...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94983,
+      "id": "db_EventInfo:112238:6",
+      "jp": "あの……店長様",
+      "en": "Um... Boss...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94984,
+      "id": "db_EventInfo:112239:1",
+      "jp": "マリーゼル",
+      "en": "Marisel.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94985,
+      "id": "db_EventInfo:112241:6",
+      "jp": "昼間の方のことなのですが……",
+      "en": "About... about earlier today...",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94986,
+      "id": "db_EventInfo:112242:1",
+      "jp": "マリーゼルの父親のことか？",
+      "en": "About your father?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94987,
+      "id": "db_EventInfo:112243:6",
+      "jp": "ええ",
+      "en": "Yes.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94988,
+      "id": "db_EventInfo:112244:6",
+      "jp": "その……あの方は、本当に私の、お父様なのでしょうか？",
+      "en": "That... Is that man really my... my father?",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94989,
+      "id": "db_EventInfo:112245:1",
+      "jp": "どういうことだ……？",
+      "en": "What do you mean...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94990,
+      "id": "db_EventInfo:112246:6",
+      "jp": "私は、お父様の顔をあまり覚えていないのです",
+      "en": "I don't remember my father's face very well.",
+      "speaker": "Marisel",
+      "speaker_jp": "マリーゼル"
+    },
+    {
+      "n": 94991,
+      "id": "db_EventInfo:112247:1",
+      "jp": "そういえば以前、シイネがマリーゼルのことを言っていたな……",
+      "en": "Now that you mention it, Shiine was talking about Marisel before...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94992,
+      "id": "db_EventInfo:112250:0",
+      "jp": "★アナザービュー",
+      "en": "★ Another View",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94993,
+      "id": "db_EventInfo:112252:0",
+      "jp": "★アナザービュー背景は仕事部屋に",
+      "en": "★ Another View - In the Workroom",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 94994,
+      "id": "db_EventInfo:112254:2",
+      "jp": "引き続き、【『マリーゼル』】のウワサを集めておいてやったデス",
+      "en": "As promised, I kept gathering rumors about 'Marisel' for you.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94995,
+      "id": "db_EventInfo:112255:2",
+      "jp": "どうやらアイツは、けっこうな【良家のお嬢様】だそうデス",
+      "en": "Looks like she's from a pretty good family, a proper young lady.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94996,
+      "id": "db_EventInfo:112256:1",
+      "jp": "お嬢様……？",
+      "en": "A young lady...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94997,
+      "id": "db_EventInfo:112257:1",
+      "jp": "たしかに、なんだか物腰に気品があったような……",
+      "en": "Now that you mention it, she did seem kind of graceful and refined...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 94998,
+      "id": "db_EventInfo:112258:2",
+      "jp": "生まれつきフワフワしていて、【『天使』】が見えるとか言い出したり、突発的に【『奇跡』】を起こしたりして",
+      "en": "She was naturally a bit... detached. Said she could see 'angels' or sometimes suddenly caused 'miracles'.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 94999,
+      "id": "db_EventInfo:112259:2",
+      "jp": "家の人間が怖がって【『<ruby=ヒエペリオ>教会</ruby>』】に預けていたようデスね",
+      "en": "Her family got scared and sent her off to the Hieperio Church.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 95000,
+      "id": "db_EventInfo:112260:2",
+      "jp": "要は厄介払いデス",
+      "en": "Basically, they got rid of a problem.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    }
+  ]
+}

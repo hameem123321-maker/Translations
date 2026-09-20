@@ -1,0 +1,811 @@
+{
+  "source_file": "06_remaining_partner.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 4501,
+  "range_end": 4600,
+  "pairs": [
+    {
+      "n": 4501,
+      "id": "rem_05461",
+      "jp": "まったく、仕方ないなぁ",
+      "en": "Honestly, what am I gonna do with you?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4502,
+      "id": "rem_05462",
+      "jp": "愛してるよ、お兄ちゃんД",
+      "en": "I love you, big brotherД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4503,
+      "id": "rem_05463",
+      "jp": "愛してるぞД　当然、これからもなД",
+      "en": "I love youД Obviously, that won't changeД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4504,
+      "id": "rem_05464",
+      "jp": "あ、愛しているぞ……Д",
+      "en": "Ah, I love you...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4505,
+      "id": "rem_05465",
+      "jp": "愛してるわよД",
+      "en": "I love youД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4506,
+      "id": "rem_05466",
+      "jp": "もちろん、愛していますよД",
+      "en": "Of course, I love youД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4507,
+      "id": "rem_05467",
+      "jp": "あ、愛してるぞ……Д",
+      "en": "Ah, I love you...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4508,
+      "id": "rem_05468",
+      "jp": "ふふ、愛してるよД　当り前だよねД",
+      "en": "Hehe, I love youД Goes without saying, right?Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4509,
+      "id": "rem_05469",
+      "jp": "愛してますよ。もう、これで満足ですか？　いえ、嘘じゃありません。愛してますД",
+      "en": "I love you. Are you finally satisfied? No, it's not a lie. I love youД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4510,
+      "id": "rem_05470",
+      "jp": "愛してますわよ。これでよろしくて？",
+      "en": "I love you. Is that good enough for you?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4511,
+      "id": "rem_05471",
+      "jp": "愛しとるよД　決まってるやんД",
+      "en": "I love yaД 'Course I doД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4512,
+      "id": "rem_05472",
+      "jp": "その、ええと、あの……あ、愛してますわよ……Д",
+      "en": "Well, uh, um... ah, I love you...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4513,
+      "id": "rem_05473",
+      "jp": "そ、その、好き、というか、大好きで、あ、愛してます……Д",
+      "en": "W-well, I like you, I mean, I really like you, ah, I love you...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4514,
+      "id": "rem_05474",
+      "jp": "はい、一人の殿方として、愛しておりますわよД",
+      "en": "Yes, as a gentleman, I love youД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4515,
+      "id": "rem_05475",
+      "jp": "愛しておるよД　【『死神』】とか関係なく、【<pl>】個人をなД　別に変じゃなかろうД",
+      "en": "I love yaД Not because you're the '【Shinigami】' or anything, but you, 【<pl>】, as a personД Nothing weird about that, rightД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4516,
+      "id": "rem_05476",
+      "jp": "えーっと、そりゃまあ、その、あ、愛してる、ぞД　その、へ、変かな……Д",
+      "en": "Uhmm, well, that is to say, ah, I love youД I-is that... strange...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4517,
+      "id": "rem_05477",
+      "jp": "愛してます、【<pl>】様……Д",
+      "en": "I love you, Master 【<pl>】...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4518,
+      "id": "rem_05478",
+      "jp": "は？",
+      "en": "Huh?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4519,
+      "id": "rem_05479",
+      "jp": "へぇ？",
+      "en": "Huh?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4520,
+      "id": "rem_05480",
+      "jp": "くす、そんなに震えて……もうイってしまいそうなんですのねД",
+      "en": "Hehe, you're shaking so much... you look like you're about to cum alreadyД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4521,
+      "id": "rem_05481",
+      "jp": "えへへっ、【<pl>】、すっごい震えてるよ……Д　もうイっちゃいそうなんでしょД",
+      "en": "Ehehe, 【<pl>】, you're shaking so bad...Д You're about to cum, aren't youД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4522,
+      "id": "rem_05482",
+      "jp": "敵は追いかけてはこないようですね……一安心です",
+      "en": "It seems the enemies aren't chasing us... what a relief.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4523,
+      "id": "rem_05483",
+      "jp": "ひ、ひとまず、安心、か……",
+      "en": "For n-now, I guess we're s-safe...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4524,
+      "id": "rem_05484",
+      "jp": "どうやら、助かったみたいだね",
+      "en": "Looks like we made it.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4525,
+      "id": "rem_05485",
+      "jp": "はぁ、はぁ、まったく……ひとまず、安全みたいですよ？",
+      "en": "Haah, haah, seriously... for now, we seem safe, okay?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4526,
+      "id": "rem_05486",
+      "jp": "こんな気分にさせられるなんて、信じられませんわ",
+      "en": "I can't believe you've made me feel this way.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4527,
+      "id": "rem_05487",
+      "jp": "私を怒らせて、どういうつもりですかな？",
+      "en": "Just what do you think you're doing, making me angry?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4528,
+      "id": "rem_05488",
+      "jp": "はぁ、私を怒らせないで下さいます？",
+      "en": "Haah, could you please not make me angry?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4529,
+      "id": "rem_05489",
+      "jp": "はぁ、はぁ、早く、欲しいです……Д",
+      "en": "Haah, haah, I want it... I want it soon...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4530,
+      "id": "rem_05490",
+      "jp": "くっ、うぅ、焦らすでないД　もう、オマンコ、欲しくて、たまらんД",
+      "en": "Ngh, ugh, don't tease meД I... I want your cock in my pussy so bad I can't stand itД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4531,
+      "id": "rem_05491",
+      "jp": "ちょ、焦らすんじゃねえよД　も、もう、我慢、できないからぁД",
+      "en": "H-hey, don't tease meД I... I can't hold back anymoreД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4532,
+      "id": "rem_05492",
+      "jp": "あう、【<pl>】様、意地悪、しないで下さいД",
+      "en": "Ahh, Master 【<pl>】, don't be meanД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4533,
+      "id": "rem_05493",
+      "jp": "ちょ、ちょっと、もう、これ以上、焦らすの、だめぇД",
+      "en": "H-hey, come on, you can't tease me any more than thisД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4534,
+      "id": "rem_05494",
+      "jp": "あぁんД　も、もう、焦らさないで、下さいませД",
+      "en": "AaahnnД P-please, don't tease me any moreД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4535,
+      "id": "rem_05495",
+      "jp": "くっ、も、もう、焦らさなくても、結構ですからっД",
+      "en": "Tch, I-I'd appreciate it if you'd stop teasing me alreadyД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4536,
+      "id": "rem_05496",
+      "jp": "あう、そ、そんなぁД　オマンコ、我慢、できませんД",
+      "en": "Ahh, n-no, pleaseД I can't hold back my pussy any longerД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4537,
+      "id": "rem_05497",
+      "jp": "ちょ、やだもう、我慢、させないでよぉД",
+      "en": "Ah, no, stop it, don't make me hold backД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4538,
+      "id": "rem_05498",
+      "jp": "そ、そんな、意地悪、言わないでくれぇД",
+      "en": "D-don't, don't say something so meanД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4539,
+      "id": "rem_05499",
+      "jp": "うく、も、もう、意地悪、すんなよぉД",
+      "en": "Ungh, d-don't be meanД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4540,
+      "id": "rem_05500",
+      "jp": "あぅ、焦らすの、駄目ですよД　早く、おちんちん、下さいД",
+      "en": "Ah, don't tease meД Hurry, give me your cockД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4541,
+      "id": "rem_05501",
+      "jp": "うぅ、意地悪、言わないでД　早く、【<pl>】ちゃんД",
+      "en": "Ugh, don't be meanД Hurry, 【<pl>】Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4542,
+      "id": "rem_05502",
+      "jp": "焦らそうとすると、彼女は身を絡めてくる！　【<pl>】は耐えられなくなり、彼女に襲いかかってしまった！",
+      "en": "When you try to tease her, she winds her body around you! 【<pl>】 couldn't take it anymore and ended up pouncing on her!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4543,
+      "id": "rem_05503",
+      "jp": "彼女は泣き出しそうな表情で【<pl>】を見る！　彼女の仕草に耐えられず、【<pl>】は挿入を開始していった！",
+      "en": "She looks at 【<pl>】 with an expression on the verge of tears! Unable to resist her gestures, 【<pl>】 began inserting himself!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4544,
+      "id": "rem_05504",
+      "jp": "腰を振り、誘う彼女に耐えられなくなり、【<pl>】は彼女に襲い掛かった！",
+      "en": "Unable to resist her invitingly swaying hips, 【<pl>】 attacked her!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4545,
+      "id": "rem_05505",
+      "jp": "恨めしそうな表情を浮かべる彼女を労わるように、【<pl>】はペニスを挿入していった！",
+      "en": "As if to comfort her, who wore a reproachful expression, 【<pl>】 inserted his penis!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4546,
+      "id": "rem_05506",
+      "jp": "マリーゼルは足を絡めて【<pl>】を引き寄せた！　彼女の膣内に、ペニスがずぶずぶと飲み込まれていく！",
+      "en": "Marisel entwined her legs and pulled 【<pl>】 in! His penis was slurped deep inside her pussy!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4547,
+      "id": "rem_05507",
+      "jp": "蕩けた視線を向ける彼女に、ペニスを擦り付けていく！　【<pl>】は我慢ができず、ペニスを挿入していった！",
+      "en": "He rubbed his penis against her, who was giving him a lust-drenched gaze! 【<pl>】 couldn't hold back and began inserting his penis!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4548,
+      "id": "rem_05508",
+      "jp": "ルーシェは未熟な性器を押し付け、ペニスを誘う！　彼女の誘惑に耐えられず、【<pl>】はペニスを埋めていった！",
+      "en": "Lusche presses her inexperienced sex against you, enticing your penis! Unable to resist her temptation, 【<pl>】 buried his penis inside!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4549,
+      "id": "rem_05509",
+      "jp": "彼女の蕩け切った表情に、【<pl>】も興奮していく！　嗜虐心を煽られ、【<pl>】は襲いかかってしまった！",
+      "en": "Seeing her utterly wanton expression, 【<pl>】 got excited too! Spurred on by sadistic urges, 【<pl>】 ended up attacking her!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4550,
+      "id": "rem_05510",
+      "jp": "彼女は両手を広げて抱きしめて来る！　あまりの抱擁力に恍惚となり、【<pl>】はたまらず挿入を開始した！",
+      "en": "She spreads her arms wide and comes to embrace you! Dazzled by the overwhelming force of her hug, 【<pl>】 couldn't help but begin insertion!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4551,
+      "id": "rem_05511",
+      "jp": "濡れ切ったミルテの性器にペニスを宛がう！　【<pl>】は濡れそぼった蜜壺に、ゆっくりと挿入を開始した！",
+      "en": "He placed his penis against Myrte's thoroughly wet sex! 【<pl>】 began slowly inserting himself into her dripping-wet honey pot!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4552,
+      "id": "rem_05512",
+      "jp": "おい、どこ行くんだよ",
+      "en": "Hey, where do you think you're going?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4553,
+      "id": "rem_05513",
+      "jp": "何を面白い事やってんだよ",
+      "en": "What the hell are you doing, you think this is funny?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4554,
+      "id": "rem_05514",
+      "jp": "あれれ？　どうしたんです？",
+      "en": "Oh my? What's wrong?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4555,
+      "id": "rem_05515",
+      "jp": "ええわぁД",
+      "en": "Oh yesД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4556,
+      "id": "rem_05516",
+      "jp": "いいですわぁД",
+      "en": "YesД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4557,
+      "id": "rem_05517",
+      "jp": "良いぞД",
+      "en": "GoodД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4558,
+      "id": "rem_05518",
+      "jp": "いいよ……Д",
+      "en": "Feels good...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4559,
+      "id": "rem_05519",
+      "jp": "そこ、いいですД",
+      "en": "Right there, feels goodД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4560,
+      "id": "rem_05520",
+      "jp": "そこ、いい、ですぅД",
+      "en": "Right there, feels, so goodД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4561,
+      "id": "rem_05521",
+      "jp": "素敵ですД",
+      "en": "WonderfulД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4562,
+      "id": "rem_05522",
+      "jp": "うふ、限界ですかД　いっぱい射精して、疲れちゃいましたねД",
+      "en": "Ufufu, at your limit?Д You came so much, you're all tired out nowД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4563,
+      "id": "rem_05523",
+      "jp": "ふぅ、もう限界みたいだねД　ふふ、仕方ないねぇ……Д",
+      "en": "Phew, seems like you're at your limitД Huhu, can't be helpedД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4564,
+      "id": "rem_05524",
+      "jp": "逃げるんデス？",
+      "en": "Running away?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4565,
+      "id": "rem_05525",
+      "jp": "ちょ、逃げる事ないじゃろ！？",
+      "en": "Hey, no need to run!?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4566,
+      "id": "rem_05526",
+      "jp": "うぁ、はぁ、あぁ、げ、限界、ですかД　はぁ、じゃあ、ちょっと、休みましょう……Д",
+      "en": "Uwa, haa, aah, gah, limit, is it?Д Haa, well then, let's, rest a little...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4567,
+      "id": "rem_05527",
+      "jp": "えへへ、それじゃ、この安全な場所で……気持ち良くお休みしようねД",
+      "en": "Ehehe, well then, in this safe spot... let's relax and restД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4568,
+      "id": "rem_05528",
+      "jp": "クク、まあ、休めるのであればよかろう。精々利用させてもらうである",
+      "en": "Kuku, well, if we can rest, that's fine. I'll make good use of it.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4569,
+      "id": "rem_05529",
+      "jp": "とはいえ、多少の警戒は必要だろう。今のうちに休んでおくといい",
+      "en": "Though, a certain degree of caution is probably necessary. It's best to rest while we can.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4570,
+      "id": "rem_05530",
+      "jp": "ほらほら、お姉ちゃんと一緒に休みましょД",
+      "en": "Come on, come on, rest with your big sisterД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4571,
+      "id": "rem_05531",
+      "jp": "この場所を用意するのに、どれだけ苦労したのやら……せっかくなので、存分に使わせてもらいましょう",
+      "en": "I wonder how much trouble I went through to prepare this place... Since we have the chance, I'll make full use of it.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4572,
+      "id": "rem_05532",
+      "jp": "何にせよ、休憩できるのであればありがたい。今のうちに回復に努めよう",
+      "en": "In any case, if we can rest, I'm grateful. Let's focus on recovering while we can.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4573,
+      "id": "rem_05533",
+      "jp": "今のうちに、しっかり回復しておいた方がいいね",
+      "en": "We should probably recover properly while we can.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4574,
+      "id": "rem_05534",
+      "jp": "って、もう私、連れ込まれてますねД　それじゃ、しっかり【『休み』】ましょД",
+      "en": "Wait, I've already been brought in, haven't IД Well then, let's have a good 【『rest』】Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4575,
+      "id": "rem_05535",
+      "jp": "まあ、休めるのであればどうでもいいですわ。しっかり回復して下さいませ",
+      "en": "Well, if we can rest, it doesn't matter much. Please recover properly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4576,
+      "id": "rem_05536",
+      "jp": "なるほど、こんな場所まで作れるなんて、流石やねД",
+      "en": "I see, you can make a place like this, as expectedД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4577,
+      "id": "rem_05537",
+      "jp": "それでは、さっさと休むとしましょう",
+      "en": "Let's hurry up and get some rest.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4578,
+      "id": "rem_05538",
+      "jp": "さあ、せっかくですもの、しっかりと休んでおきましょう",
+      "en": "Now then, since we have the chance, we should rest properly.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4579,
+      "id": "rem_05539",
+      "jp": "まあ、本当に休憩だけのつもりなのかは、置いておくがのうД",
+      "en": "Well, whether you really plan on *just* resting... we'll leave that aside for nowД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4580,
+      "id": "rem_05540",
+      "jp": "まあ、警戒は必要だろうけどよ、休めるのは助かるよな",
+      "en": "Well, we need to stay on guard, but it's a help to be able to rest, right?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4581,
+      "id": "rem_05541",
+      "jp": "その、今のうちに、私にできること、ありませんか……Д",
+      "en": "Um, right now... is there anything I can do...? Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4582,
+      "id": "rem_05542",
+      "jp": "それじゃ、今のうちに装備の確認などを……",
+      "en": "In that case, I should check my gear now...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4583,
+      "id": "rem_05543",
+      "jp": "こ、これ、ひょっとして……私を連れ込んで、何かするつもりですか！？",
+      "en": "T-this... don't tell me... you brought me here planning to do something!?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4584,
+      "id": "rem_05544",
+      "jp": "くそ、向こうもはぐれてなきゃいいが……",
+      "en": "Dammit, I hope the others didn't get separated...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4585,
+      "id": "rem_05545",
+      "jp": "合流できるまで、変な事するなよな？",
+      "en": "Until we can regroup, don't do anything weird, okay?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4586,
+      "id": "rem_05546",
+      "jp": "これ、ちょっとまずいですよね……大人しく救助を待ちましょう！",
+      "en": "This is a bit of a bad spot, isn't it...! Let's quietly wait for rescue!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4587,
+      "id": "rem_05547",
+      "jp": "って事は、二人きりだな……Д　今のうちに、しけこむかいД",
+      "en": "Which means... it's just the two of us...Д Wanna fool around while we have the chance?Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4588,
+      "id": "rem_05548",
+      "jp": "はぁ、はぁ、気持ち良くなって、いただけてますわねД　はぁ、イく時は、遠慮せず、<ruby=なか>膣内</ruby>に、下さいませД",
+      "en": "Hah, hah, you're feeling it, aren't youД Hah, when you cum, don't hold back, put it in my <ruby=なか>pussy</ruby>Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table",
+      "flags": [
+        "cjk_in_en"
+      ]
+    },
+    {
+      "n": 4589,
+      "id": "rem_05549",
+      "jp": "はぁ、はぁ、気持ちいい、でしょうかД　こ、このまま、射精させて、見せますわね……Д",
+      "en": "Haah, haah... does it feel good? I-I'm going to let you cum like this, to show you...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4590,
+      "id": "rem_05550",
+      "jp": "んっ、ふっ、はぁ、はぁ、イきそう、でしょД　はぁ、いいよ、ボクが、イかせてあげる……Д",
+      "en": "Ngh, ahh, haah, haah, you're about to cum, right? Haah, it's okay, I'll... make you cum...",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4591,
+      "id": "rem_05551",
+      "jp": "はぁ、お兄ちゃん、可愛いよ……Д　このまま、ルーシェがイかせてあげるねД",
+      "en": "Haah, onii-chan, you're so cute... Д I'll make you cum like this, Lusche will. Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4592,
+      "id": "rem_05552",
+      "jp": "なんじゃー？　いつの間にか誰もおらんではないか！",
+      "en": "What's this? Without me noticing, everyone has vanished!",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4593,
+      "id": "rem_05553",
+      "jp": "んぐ、んぶ、じゅるる、んんД　オマエの、んんД　精液、んちゅ、喉に、絡んでる、デスД",
+      "en": "Ngh, mmph, slurp, mmm... *Your*, *mmph*... cum, *slurp*... it's coating my throat, heh.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4594,
+      "id": "rem_05554",
+      "jp": "んちゅ、んふД　もっと、んちゅ、気持ち良く、はぁ、なって、下さいませД",
+      "en": "*Mmph, mhmm* Please, *mmph*, make me feel even better, *haa*.",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4595,
+      "id": "rem_05555",
+      "jp": "んちゅ、んぷ、んんД　はぁ、まだまだ、出せるよねД　んちゅ、遠慮、しないでよД",
+      "en": "Mmh, mff, mmmД Ahh, you can still, give me more, rightД Mmh, don't hold backД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4596,
+      "id": "rem_05556",
+      "jp": "んんД　ちゅ、あぁんД　お兄ちゃんの、精液Д　んちゅ、もっと、欲しいよぉД",
+      "en": "MmmД... Chuu, aahnД... Big brother's cumД... Nnchu, I want more, pleaseД",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4597,
+      "id": "rem_05557",
+      "jp": "くぅ、一人だけ、気持ち良くなるなんて、酷いですわ……！　早く、私も、早く……Д",
+      "en": "Mmhh... It's so cruel that you're the only one feeling good...! Hurry, I want to feel good too, hurry up...Д",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4598,
+      "id": "rem_05558",
+      "jp": "どうデス？　気持ちいいデス？",
+      "en": "How is it ? Does it feel good ?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4599,
+      "id": "rem_05559",
+      "jp": "どうじゃ？　気持ちいいか？",
+      "en": "How be it? Does it feel good?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    },
+    {
+      "n": 4600,
+      "id": "rem_05560",
+      "jp": "どう、だ？　気持ちいい、か……？",
+      "en": "How... is it? Does it... feel good...?",
+      "table": "db_MessagePartnerCommonInfo",
+      "category": "remaining_table"
+    }
+  ]
+}

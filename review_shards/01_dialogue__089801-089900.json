@@ -1,0 +1,808 @@
+{
+  "source_file": "01_dialogue.json",
+  "review_rules": "You are GPT-5.6 Sol High reviewing an English fan patch for the adult Unity game 死神商館RExEX (Shinigami Shokan RExEX). This JSON is ONE category. Each pair is original Japanese (jp) then current English (en). Return improvement suggestions ONLY. Do not dump every line back. For each problem line use:\nID: <id>\nISSUE: <short>\nSUGGESTED_EN: <full replacement>\nWHY: <one sentence>\nIf the file is mostly fine, say so and only list real misses. HOUSE STYLE: simple spoken English; English speaker names (Shiine, Anju, Wolfina, Ren, ...); player is Ren; keep 【<pl>】 and Д exactly; keep ruby/color/size tags; empty speaker / 俺 / 主人公 = I; heroines to player = you; H-scenes use cum/came/cumming only unless Japanese is clearly about semen as an object. Never translate Night Visit engine keys (言葉 胸 手 尻 性器 頭 全体 キス 変態 見る 移動 謝罪 挿入 ドキドキ ピリピリ デレデレ エロエロ ヌレヌレ ムラムラ) or girl-turn pairs like 頼む#頼んだ！ / 普通に#普通に / 耐える#耐えた！. DLL/HUD strings (this file, or id dll_*, or category remaining_dll) must stay the same length or shorter. Look for meaning misses, leftover Japanese in English, empty English, leftover 様/です, and I/you mixups.",
+  "range_start": 89801,
+  "range_end": 89900,
+  "pairs": [
+    {
+      "n": 89801,
+      "id": "db_EventInfo:106114:15",
+      "jp": "うん。【小さく弱き獣人】と呼ばれた【『コボルト』】",
+      "en": "Yeah. The 'Kobold'... called 'Small, weak beastfolk'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89802,
+      "id": "db_EventInfo:106115:15",
+      "jp": "【知能も高く、道具を操り】……【見境なく女を犯し、孕ませる邪悪な存在】と伝承されている",
+      "en": "The legends say they are smart, use tools... and are evil beings who indiscriminately violate women and impregnate them.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89803,
+      "id": "db_EventInfo:106116:2",
+      "jp": "ダーケンのやつも、たびたび孕ませようとして、わからされてたデス",
+      "en": "Darken guy also tried to impregnate us often, we were told.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89804,
+      "id": "db_EventInfo:106117:15",
+      "jp": "うん",
+      "en": "Yeah.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89805,
+      "id": "db_EventInfo:106118:15",
+      "jp": "でも、それは濡れ衣なんだよね",
+      "en": "But, that's a false charge, you know.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89806,
+      "id": "db_EventInfo:106119:1",
+      "jp": "濡れ衣……？",
+      "en": "A false charge...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89807,
+      "id": "db_EventInfo:106120:15",
+      "jp": "【小さく弱き獣人】ってところと、【知能が高く道具を操る】までは合ってるんだけど",
+      "en": "The parts about being 'small, weak beastfolk' and 'smart, using tools' are correct, but...",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89808,
+      "id": "db_EventInfo:106121:15",
+      "jp": "【見境なく女を犯し、孕ませる邪悪な存在】ってところが、彼らの特徴じゃないんだ",
+      "en": "The part about being 'evil beings who indiscriminately violate women and impregnate them'... that's not their trait.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89809,
+      "id": "db_EventInfo:106122:15",
+      "jp": "……これらの特徴、どこかで聞いたことがないかな。【<pl>】君たちだけは覚えてるよね",
+      "en": "...These traits, don't they sound familiar from somewhere? 【<pl>】 At least you guys remember, right?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89810,
+      "id": "db_EventInfo:106123:2",
+      "jp": "……もしかして【『ゴブリン』】デス？",
+      "en": "...Could it be the 'Goblin'?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89811,
+      "id": "db_EventInfo:106124:15",
+      "jp": "そう、アタリだよ",
+      "en": "Yeah, you got it right.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89812,
+      "id": "db_EventInfo:106125:1",
+      "jp": "【『ゴブリン』】……？",
+      "en": "\"Goblins\"...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89813,
+      "id": "db_EventInfo:106127:2",
+      "jp": "おいデシルス、【『ゴブリン』】と【『コボルト』】がどう関係するデス？",
+      "en": "Hey Desilus, how are \"Goblins\" and \"Kobolds\" related, DESU?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89814,
+      "id": "db_EventInfo:106129:15",
+      "jp": "うん。【知能が高く道具を操る】、【見境なく女を犯し、孕ませる】、【小さく弱き獣人】",
+      "en": "Right. Their legends say they're \"Smart and use tools\", \"Violate women without care and impregnate them\", \"Small, weak beastmen\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89815,
+      "id": "db_EventInfo:106130:15",
+      "jp": "……って彼らの伝承なんだけど",
+      "en": "...that's what their legends say.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89816,
+      "id": "db_EventInfo:106131:15",
+      "jp": "【獣人】ってところを省くと、【『ゴブリン』】の特徴になってしまうんだ",
+      "en": "If you take out the \"beastmen\" part, those become the features of \"Goblins\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89817,
+      "id": "db_EventInfo:106132:15",
+      "jp": "でも【『ゴブリン』】はもう、この世界には居ない。【あの技】と【『運命改変』】で絶滅した",
+      "en": "But \"Goblins\" don't exist in this world anymore. They went extinct with \"that technique\" and \"Fate Alteration\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89818,
+      "id": "db_EventInfo:106133:1",
+      "jp": "ああ",
+      "en": "Ah.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89819,
+      "id": "db_EventInfo:106134:1",
+      "jp": "(それは【『神』】の力を持ったシイネ達と、代行である俺しか覚えていないことだ)",
+      "en": "(That's something only Shiine and the others, who have \"God\" power, and me, their proxy, remember.)",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89820,
+      "id": "db_EventInfo:106135:15",
+      "jp": "ただ【『運命改変』】も絶対万能というわけでもなくてね、何かの歪みは残るんだ",
+      "en": "But \"Fate Alteration\" isn't all-powerful either. Some kind of distortion always remains.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89821,
+      "id": "db_EventInfo:106136:15",
+      "jp": "【『運命改変』】は百年前に遡って【『ゴブリン』】を【絶滅】させたけど",
+      "en": "\"Fate Alteration\" went back a hundred years and made \"Goblins\" go \"extinct\".",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89822,
+      "id": "db_EventInfo:106137:15",
+      "jp": "【様々な辺境で猛威を振るっていた邪悪な存在】というイメージが、改変の余波として残ったんだ",
+      "en": "But the image of them as an \"evil force wreaking havoc in various remote lands\" was left behind as a side effect of the alteration.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89823,
+      "id": "db_EventInfo:106138:1",
+      "jp": "それが【『コボルト』】の伝承に……？",
+      "en": "That's in the \"Kobold\" legends...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89824,
+      "id": "db_EventInfo:106139:15",
+      "jp": "うん",
+      "en": "Yes.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89825,
+      "id": "db_EventInfo:106140:15",
+      "jp": "【『運命改変』】によって、彼らは【邪悪な存在】にされてしまったんだ",
+      "en": "Because of \"Destiny Alteration,\" they were turned into \"evil beings.\"",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89826,
+      "id": "db_EventInfo:106141:15",
+      "jp": "【『コボルト』】が【『ゴブリン』】の役を押しつけられた形になるね",
+      "en": "The \"Kobolds\" basically got forced into the \"Goblin\" role.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89827,
+      "id": "db_EventInfo:106143:2",
+      "jp": "【『運命改変』】によって、【『コボルト』】が【『ゴブリン』】の悪いイメージを押しつけられたのデスね",
+      "en": "So \"Destiny Alteration\" forced the \"Kobolds\" to take on the bad image of \"Goblins,\" right?",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89828,
+      "id": "db_EventInfo:106145:15",
+      "jp": "うん。【『コボルト』】が【『ゴブリン』】の悪役という立場を押しつけられたわけだ",
+      "en": "Yes. The \"Kobolds\" were forced into the villainous position meant for \"Goblins.\"",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89829,
+      "id": "db_EventInfo:106146:15",
+      "jp": "問題は、【『コボルト』】は【『ゴブリン』】じゃなかったってところだね",
+      "en": "The problem is, \"Kobolds\" were not \"Goblins.\"",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89830,
+      "id": "db_EventInfo:106147:15",
+      "jp": "彼らは【見境なく女を犯さない】し、【孕ませられない】のに、人間側はそう思わなかった",
+      "en": "They don't \"indiscriminately assault women\" and \"can't impregnate,\" but the humans didn't realize that.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89831,
+      "id": "db_EventInfo:106148:15",
+      "jp": "もともと【『ゴブリン』】が弱くても絶滅しなかったのは、繁殖力が凄まじかったからだ",
+      "en": "Originally, even though \"Goblins\" were weak, they didn't go extinct because their ability to reproduce was incredible.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89832,
+      "id": "db_EventInfo:106149:15",
+      "jp": "弱いから殺されまくるけど、増える勢いの方が上回るから生き残っていた",
+      "en": "They got killed a lot because they're weak, but they survived because they multiplied faster than they died.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89833,
+      "id": "db_EventInfo:106150:15",
+      "jp": "でも、【『コボルト』】はそういう性質を持っていない",
+      "en": "But \"Kobolds\" don't have that trait.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89834,
+      "id": "db_EventInfo:106151:15",
+      "jp": "それなのに、【『ゴブリン』】に向けられたのと、同様の悪意と暴力を向けられたら、どうなると思う？",
+      "en": "So, what do you think happens when they face the same malice and violence meant for \"Goblins\"?",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89835,
+      "id": "db_EventInfo:106152:2",
+      "jp": "……ひとたまりもないデス",
+      "en": "They didn't stand a chance.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89836,
+      "id": "db_EventInfo:106153:15",
+      "jp": "うん。彼らはあまり力が強くなかったし、【『緑の月の神』】の【『祝福』】による【覚醒】もなかったから",
+      "en": "Yeah. They weren't very strong. And they never got the 'Awakening' from the 'Green Moon God's' 'Blessing'.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89837,
+      "id": "db_EventInfo:106154:15",
+      "jp": "【ゴブリンチャンピオン】や【ゴブリンロード】みたいな、強大な個体が生まれることもなかった",
+      "en": "So, powerful ones like 'Goblin Champions' or 'Goblin Lords' were never born.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89838,
+      "id": "db_EventInfo:106155:15",
+      "jp": "あっという間に数を減らして、やがて【絶滅】してしまったんだよ",
+      "en": "Their numbers dropped fast. They went extinct before you knew it.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89839,
+      "id": "db_EventInfo:106156:1",
+      "jp": "……そんなことが",
+      "en": "I... can't believe that.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89840,
+      "id": "db_EventInfo:106159:15",
+      "jp": "さて、ここから先は、君達同士の問題だ",
+      "en": "Alright, what comes next is a matter between you two.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89841,
+      "id": "db_EventInfo:106160:15",
+      "jp": "最後の【試練】、頑張りなよ",
+      "en": "Your final trial. Give it your all.",
+      "speaker": "Desilus",
+      "speaker_jp": "デシルス"
+    },
+    {
+      "n": 89842,
+      "id": "db_EventInfo:106162:70",
+      "jp": "よう、来たな",
+      "en": "Hey, you're here.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89843,
+      "id": "db_EventInfo:106163:1",
+      "jp": "ダーケン……！",
+      "en": "Darken...!",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89844,
+      "id": "db_EventInfo:106165:70",
+      "jp": "俺様はここで、何をすべきなのか考え続けた",
+      "en": "I've been here, thinking. About what I should do.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89845,
+      "id": "db_EventInfo:106166:70",
+      "jp": "長い間、考え続けた",
+      "en": "I thought about it for a long time.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89846,
+      "id": "db_EventInfo:106167:70",
+      "jp": "お前をブチ殺せば、俺様の一族がみんな死んだ恨みは晴れるのか",
+      "en": "Would killing you settle the score? For the death of my whole clan?",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89847,
+      "id": "db_EventInfo:106168:70",
+      "jp": "お前の姿と立場を奪い、ハーレムに種付けすれば、気が晴れたのか",
+      "en": "Did it make you feel better? Taking your body and your place, and then breeding you in my harem?",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89848,
+      "id": "db_EventInfo:106169:70",
+      "jp": "それともシイネを盾にするなり脅して、さらなる【『運命改変』】をさせれば良かったのか",
+      "en": "Or maybe I should've used Shiine as a shield, or threatened her, and forced you to do another 【『Fate Alteration』】.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89849,
+      "id": "db_EventInfo:106171:70",
+      "jp": "……でも、どんなことをしても無理だと思った",
+      "en": "...But I knew it was pointless, no matter what I did.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89850,
+      "id": "db_EventInfo:106172:70",
+      "jp": "結局はもう、百年も前のことだ",
+      "en": "In the end, it all happened over a hundred years ago.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89851,
+      "id": "db_EventInfo:106173:70",
+      "jp": "今更オマエをどうするにしても、俺様のねーちゃんたちはもう居ないんだ",
+      "en": "Whatever I do to you now, my big sisters are already gone.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89852,
+      "id": "db_EventInfo:106174:1",
+      "jp": "ダーケン……",
+      "en": "Darken...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89853,
+      "id": "db_EventInfo:106176:70",
+      "jp": "俺様はこの時代で、何をすべきなのか考え続けたんだ",
+      "en": "I kept thinking about what I should do now, in this era.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89854,
+      "id": "db_EventInfo:106177:70",
+      "jp": "そして今、その【答え】がようやく出たぜ",
+      "en": "And now, I've finally found the 【answer】.",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89855,
+      "id": "db_EventInfo:106178:70",
+      "jp": "さあ、武器を取れ【<pl>】！　勝負だ！！",
+      "en": "Now, pick up your weapon 【<pl>】! Let's fight!!",
+      "speaker": "Darken",
+      "speaker_jp": "ダーケン"
+    },
+    {
+      "n": 89856,
+      "id": "db_EventInfo:106179:0",
+      "jp": "猛攻をくぐり抜けた先……。",
+      "en": "After getting through his fierce attacks...",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 89857,
+      "id": "db_EventInfo:106180:0",
+      "jp": "ついに、ダーケン？は攻撃を止めた。",
+      "en": "Finally, Darken? stopped his attack.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 89858,
+      "id": "db_EventInfo:106181:1",
+      "jp": "か、勝った……！？",
+      "en": "D-Did I win...!?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89859,
+      "id": "db_EventInfo:106183:71",
+      "jp": "ああ。お前の勝ちだ",
+      "en": "Yeah. You win.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89860,
+      "id": "db_EventInfo:106184:1",
+      "jp": "ダーケン……なのか？",
+      "en": "Darken... is that you?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89861,
+      "id": "db_EventInfo:106186:71",
+      "jp": "……あいつは満足して消えたよ",
+      "en": "...He was satisfied and vanished.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89862,
+      "id": "db_EventInfo:106187:1",
+      "jp": "ダーケンは俺を恨んでいたのか？",
+      "en": "Did Darken hate me?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89863,
+      "id": "db_EventInfo:106188:71",
+      "jp": "あいつは認めたかっただけなんだ、お前たちを",
+      "en": "He just wanted to accept you guys.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89864,
+      "id": "db_EventInfo:106189:71",
+      "jp": "【『コボルト』】すべてを対価にする価値が、お前たちにあったのかを知りたかったんだ",
+      "en": "He wanted to know if you all were worth sacrificing everything for, all the ['Kobolds'].",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89865,
+      "id": "db_EventInfo:106190:1",
+      "jp": "……俺は認められたんだろうか",
+      "en": "...Did he accept me, then?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89866,
+      "id": "db_EventInfo:106191:71",
+      "jp": "そうじゃなきゃ。俺の身体を返さないさ",
+      "en": "He must have. Or I wouldn't give his body back.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89867,
+      "id": "db_EventInfo:106193:71",
+      "jp": "さて、俺も行かなきゃな",
+      "en": "Alright, I need to get going too.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89868,
+      "id": "db_EventInfo:106194:71",
+      "jp": "ま、これぐらい力を出して戦えば、【あいつら】も納得するだろ",
+      "en": "Well, if I fight and show this much power, ['those guys'] should be satisfied.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89869,
+      "id": "db_EventInfo:106195:1",
+      "jp": "【あいつら】……？",
+      "en": "['Those guys']...?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89870,
+      "id": "db_EventInfo:106196:71",
+      "jp": "お前が【『最果ての修練場』】で戦った、【強者の影】の元になった奴らだよ",
+      "en": "They're the ones you fought in the ['Farthest Training Ground'], the ones who became the ['Shadows of the Strong'].",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89871,
+      "id": "db_EventInfo:106197:71",
+      "jp": "あいつらったら、しょっちゅう酒場で、誰が最強だとか変な論争してるからな",
+      "en": "Those guys are always arguing in the bar about who's the strongest.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89872,
+      "id": "db_EventInfo:106198:71",
+      "jp": "だから負けっぱなしだと、なにかとうるせーんだよ",
+      "en": "So when I keep losing, they never shut up about it.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89873,
+      "id": "db_EventInfo:106199:1",
+      "jp": "はあ",
+      "en": "Hah...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89874,
+      "id": "db_EventInfo:106200:71",
+      "jp": "しかし、お前は良いよな。【『<ruby=化身>アバター</ruby>』】を自由に駆使して",
+      "en": "But you've got it good. You can use your Avatars freely.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89875,
+      "id": "db_EventInfo:106201:71",
+      "jp": "俺の場合、毎回【レベル】を上げ直さないと文句言われるんだよなぁ",
+      "en": "For me, I have to raise my Level again every time or they complain.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89876,
+      "id": "db_EventInfo:106202:1",
+      "jp": "……アンタも大変なんだな",
+      "en": "...Sounds tough for you too.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89877,
+      "id": "db_EventInfo:106203:71",
+      "jp": "お互い様だ",
+      "en": "We're in the same boat.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89878,
+      "id": "db_EventInfo:106204:71",
+      "jp": "ってことで、迷惑掛けたな",
+      "en": "Anyway, sorry for the trouble.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89879,
+      "id": "db_EventInfo:106205:71",
+      "jp": "こっちのハヅキも、あんまりコイツに迷惑かけてやるなよ",
+      "en": "And Hazuki, don't you cause this guy too much trouble either.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89880,
+      "id": "db_EventInfo:106206:20",
+      "jp": "うい",
+      "en": "'Kay.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89881,
+      "id": "db_EventInfo:106207:71",
+      "jp": "ああそうそう、これは使い忘れてたから、やるよ",
+      "en": "Oh yeah, I forgot to use this. Here, take it.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89882,
+      "id": "db_EventInfo:106208:1",
+      "jp": "ん？",
+      "en": "Hm?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89883,
+      "id": "db_EventInfo:106209:71",
+      "jp": "じゃあな、頑張れよ",
+      "en": "Alright then, good luck.",
+      "speaker": "Darken?",
+      "speaker_jp": "ダーケン？"
+    },
+    {
+      "n": 89884,
+      "id": "db_EventInfo:106210:0",
+      "jp": "★白暗転",
+      "en": "★Screen fades to white",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 89885,
+      "id": "db_EventInfo:106213:0",
+      "jp": "そして視界は白く包まれ……。",
+      "en": "And my sight was wrapped in white…",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 89886,
+      "id": "db_EventInfo:106215:0",
+      "jp": "元に戻ったときは、ダーケン？の姿は消えていた。",
+      "en": "When it returned to normal, Darken? was gone.",
+      "speaker": "I",
+      "speaker_jp": ""
+    },
+    {
+      "n": 89887,
+      "id": "db_EventInfo:106217:2",
+      "jp": "やっと帰ってくれたデスね",
+      "en": "You finally came back, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89888,
+      "id": "db_EventInfo:106218:20",
+      "jp": "ええ。いやあ、なんとかなりましたね。さすがは御主人様",
+      "en": "Yes. Phew, we managed somehow. As expected of you, Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89889,
+      "id": "db_EventInfo:106219:20",
+      "jp": "ところで【あの方】から、何を貰ったんです？",
+      "en": "By the way, what did you get from [that person]?",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89890,
+      "id": "db_EventInfo:106220:1",
+      "jp": "え？　なんというか……変なコインみたいなものを何枚かくれたんだ",
+      "en": "Huh? Well… he gave me a few weird, coin-like things.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89891,
+      "id": "db_EventInfo:106221:20",
+      "jp": "ん？　おお……これは【コンティニューのコイン】じゃないですか。こんな貴重な物を",
+      "en": "Hm? Ohh… aren't these [Continue Coins]? Something this precious…",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89892,
+      "id": "db_EventInfo:106222:1",
+      "jp": "……【コンティニューのコイン】？",
+      "en": "…[Continue Coins]?",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89893,
+      "id": "db_EventInfo:106223:20",
+      "jp": "はい。これを使うと、なんと【その場で復活できる】という、スーパーアイテムです",
+      "en": "Yes. If you use one, you can [revive right on the spot]. They're super items.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89894,
+      "id": "db_EventInfo:106224:2",
+      "jp": "ほう。そんな良いものをくれるとは、いいやつデス",
+      "en": "Wow. To give something so good, he's a nice guy, Desu.",
+      "speaker": "Shiine",
+      "speaker_jp": "シイネ"
+    },
+    {
+      "n": 89895,
+      "id": "db_EventInfo:106225:1",
+      "jp": "へえー。そんな便利な物を",
+      "en": "Whoa. A thing that convenient.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89896,
+      "id": "db_EventInfo:106227:1",
+      "jp": "えっ、じゃ、それを使ったら――",
+      "en": "Wait, so if you use that...",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89897,
+      "id": "db_EventInfo:106229:20",
+      "jp": "あと何回か、復活できたってことですね。使わなかったのはハンデです",
+      "en": "It means I could have revived a few more times. Not using it was a handicap.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89898,
+      "id": "db_EventInfo:106230:1",
+      "jp": "……まだ、余力を残してたのか",
+      "en": "...You still had some strength left in reserve.",
+      "speaker": "I",
+      "speaker_jp": "主人公"
+    },
+    {
+      "n": 89899,
+      "id": "db_EventInfo:106231:20",
+      "jp": "そこは仕方がありません。【あの方】は御主人様の強さにさらに上乗せした存在",
+      "en": "That can't be helped. 【That person】 is a being even stronger than Master.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    },
+    {
+      "n": 89900,
+      "id": "db_EventInfo:106232:20",
+      "jp": "御主人様が強くなるほど強くなるのです",
+      "en": "They grow stronger as Master grows stronger.",
+      "speaker": "Hazuki",
+      "speaker_jp": "ハヅキ"
+    }
+  ]
+}
