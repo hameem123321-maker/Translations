@@ -1,0 +1,72 @@
+name: Build smart dialogue scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [translation-review]
+    paths: ['.github/workflows/build-smart-scan.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-review
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build high-signal candidate set
+        run: |
+          rm -rf smart_scan
+          cat > /tmp/scan.py <<'PY'
+          import json,re,pathlib,collections,random
+          src=json.loads(pathlib.Path('01_dialogue.json').read_text('utf-8'))
+          pairs=src['pairs']; byjp=collections.defaultdict(list)
+          for i,x in enumerate(pairs,1): byjp[str(x.get('jp',''))].append((i,x))
+          suspicious=re.compile(r'(?i)(\bdesu\b|\bdeath\b|\bdono\b|\bsama\b|\bzo\b|\bde aru\b|\bisn.t it\b|\byou know\?\b|\bmy penis\b|\bshop manager\b|\bmaster\b|\bseed\b|\bessence\b|\bclimax(?:ed|ing)?\b|\[.?[^\]]+.?\]|\{.?[^}]+.?\})')
+          candidates=[]; reasons={}
+          for i,x in enumerate(pairs,1):
+            jp=str(x.get('jp','')); en=str(x.get('en','')); r=[]
+            if not en: r.append('empty_en')
+            if re.search(r'[ぁ-ゖァ-ヺ一-龯]',en): r.append('cjk_in_en')
+            if suspicious.search(en): r.append('suspicious_english')
+            if x.get('flags'): r += ['source_flag:'+str(f) for f in x['flags']]
+            if jp.count('【')!=en.count('【') or jp.count('】')!=en.count('】'): r.append('bracket_count_mismatch')
+            if jp.count('<ruby=')!=en.count('<ruby=') or jp.count('</ruby>')!=en.count('</ruby>'): r.append('ruby_mismatch')
+            if jp.count('Д')!=en.count('Д'): r.append('D_mismatch')
+            if '【<pl>】' in jp and '【<pl>】' not in en: r.append('pl_missing')
+            if r:
+              candidates.append((i,x,sorted(set(r)))); reasons[i]=r
+          # Add duplicate-JP groups whose English differs, strong consistency signal.
+          for jp,rows in byjp.items():
+            if jp and len(rows)>1 and len({str(x.get('en','')) for _,x in rows})>1:
+              for i,x in rows:
+                if i not in reasons: candidates.append((i,x,['duplicate_jp_english_diff']))
+                else:
+                  for j,(ii,xx,rr) in enumerate(candidates):
+                    if ii==i: candidates[j]=(ii,xx,sorted(set(rr+['duplicate_jp_english_diff']))); break
+          candidates=sorted({i:(i,x,r) for i,x,r in candidates}.values())
+          out=pathlib.Path('smart_scan'); out.mkdir()
+          manifest={'total_dialogue':len(pairs),'candidate_count':len(candidates),'shard_size':25,'shards':[]}
+          for n in range(0,len(candidates),25):
+            chunk=candidates[n:n+25]; path=out/f'candidates__{n+1:06d}-{n+len(chunk):06d}.json'
+            data={'source_file':'01_dialogue.json','candidate_start':n+1,'candidate_end':n+len(chunk),'pairs':[dict(x,source_index=i,scan_reasons=r) for i,x,r in chunk]}
+            path.write_text(json.dumps(data,ensure_ascii=False,indent=2),'utf-8'); manifest['shards'].append(str(path))
+          # Stratified reproducible sample of non-candidates for residual-risk estimate.
+          ids={i for i,_,_ in candidates}; clean=[(i,x) for i,x in enumerate(pairs,1) if i not in ids]
+          rnd=random.Random(5601); sample=rnd.sample(clean,min(500,len(clean)))
+          (out/'unflagged_sample_500.json').write_text(json.dumps({'sample_size':len(sample),'seed':5601,'pairs':[dict(x,source_index=i) for i,x in sorted(sample)]},ensure_ascii=False,indent=2),'utf-8')
+          (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),'utf-8')
+          PY
+          python /tmp/scan.py
+      - name: Commit smart scan
+        run: |
+          git config user.name 'translation-review-bot'
+          git config user.email 'translation-review-bot@users.noreply.github.com'
+          git add -A smart_scan
+          git diff --cached --quiet || git commit -m 'Generate smart dialogue scan candidates'
+          git push origin HEAD:translation-review
