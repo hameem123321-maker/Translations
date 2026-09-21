@@ -1,0 +1,64 @@
+name: Run deterministic translation audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [translation-review]
+    paths: ['.github/workflows/run-deterministic-audit.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-review
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit all source JSON
+        run: |
+          cat > /tmp/audit.py <<'PY'
+          import json,re,pathlib,collections
+          root=pathlib.Path('.')
+          out=root/'audit_results'; out.mkdir(exist_ok=True)
+          keys=['言葉','胸','手','尻','性器','頭','全体','キス','変態','見る','移動','謝罪','挿入','ドキドキ','ピリピリ','デレデレ','エロエロ','ヌレヌレ','ムラムラ']
+          files=[]; all_ids=collections.defaultdict(list); total=0
+          def ph(s): return sorted(re.findall(r'\{[^{}]+\}|<[^<>]+>|【<[^<>]+>】',s or ''))
+          def tags(s): return sorted(re.findall(r'</?(?:ruby|color|size)(?:=[^>]+)?>',s or ''))
+          for p in sorted(root.glob('[0-9][0-9]_*.json')):
+            d=json.loads(p.read_text('utf-8')); pairs=d.get('pairs',[]); total+=len(pairs)
+            findings=[]
+            for i,x in enumerate(pairs,1):
+              id=str(x.get('id','')); jp=str(x.get('jp','')); en=str(x.get('en','')); all_ids[id].append([p.name,i])
+              f=[]
+              if not en: f.append('empty_en')
+              if re.search(r'[ぁ-ゖァ-ヺ一-龯]',en): f.append('cjk_in_en')
+              if re.search(r'(?i)(?:\bdesu\b|\bdeath\b|\bdes\b)',en): f.append('desu_death_leak')
+              if '様' in en or 'です' in en: f.append('jp_honorific_leak')
+              if ph(jp)!=ph(en): f.append('placeholder_mismatch')
+              if tags(jp)!=tags(en): f.append('tag_mismatch')
+              for k in keys:
+                if jp==k and en!=k: f.append('protected_key_translated')
+              if '#' in jp and en!=jp: f.append('protected_hash_pair_changed')
+              length_rule=(p.name=='07_remaining_dll.json' or id.startswith('dll_') or x.get('category')=='remaining_dll')
+              if length_rule and len(en)>len(jp): f.append('dll_over_jp_length')
+              if f: findings.append({'index':i,'id':id,'flags':sorted(set(f)),'jp':jp,'en':en})
+            rec={'file':p.name,'declared_count':d.get('count'),'actual_count':len(pairs),'count_match':d.get('count')==len(pairs),'finding_count':len(findings),'findings':findings}
+            files.append({k:v for k,v in rec.items() if k!='findings'})
+            (out/(p.stem+'.audit.json')).write_text(json.dumps(rec,ensure_ascii=False,indent=2),'utf-8')
+          dup=[{'id':k,'locations':v} for k,v in all_ids.items() if k and len(v)>1]
+          summary={'total_files':len(files),'total_pairs':total,'files':files,'duplicate_id_count':len(dup),'duplicate_ids':dup}
+          (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),'utf-8')
+          PY
+          python /tmp/audit.py
+      - name: Commit audit results
+        run: |
+          git config user.name 'translation-review-bot'
+          git config user.email 'translation-review-bot@users.noreply.github.com'
+          git add audit_results
+          git diff --cached --quiet || git commit -m 'Generate full-corpus deterministic audit'
+          git push origin HEAD:translation-review
