@@ -19,28 +19,31 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build queue from validated deterministic findings
+      - name: Build severity-prioritized queue
         run: |
           rm -rf smart_scan
           cat > /tmp/scan.py <<'PY'
-          import json,pathlib,random
+          import json,pathlib,random,collections
           source=json.loads(pathlib.Path('01_dialogue.json').read_text('utf-8'))
           audit=json.loads(pathlib.Path('audit_results/01_dialogue.audit.json').read_text('utf-8'))
-          pairs=source['pairs']; rows=[]; seen=set()
+          pairs=source['pairs']; out=pathlib.Path('smart_scan'); out.mkdir()
+          critical={'empty_en','cjk_in_en','placeholder_mismatch','tag_mismatch','protected_key_translated','protected_hash_pair_changed','jp_honorific_leak','desu_death_leak'}
+          tiers={'critical':[],'other_deterministic':[]}; counts=collections.Counter(); seen=set()
           for f in audit['findings']:
-              i=int(f['index'])
-              if i in seen: continue
-              seen.add(i)
-              x=dict(pairs[i-1]); x['source_index']=i; x['scan_reasons']=f['flags']; rows.append(x)
-          out=pathlib.Path('smart_scan'); out.mkdir()
-          manifest={'total_dialogue':len(pairs),'candidate_count':len(rows),'candidate_rate':round(len(rows)/len(pairs),6),'basis':'audit_results/01_dialogue.audit.json','shard_size':25,'shards':[]}
-          for n in range(0,len(rows),25):
-              chunk=rows[n:n+25]; path=out/f'candidates__{n+1:06d}-{n+len(chunk):06d}.json'
-              path.write_text(json.dumps({'candidate_start':n+1,'candidate_end':n+len(chunk),'pairs':chunk},ensure_ascii=False,indent=2),'utf-8')
-              manifest['shards'].append(str(path))
+              i=int(f['index']); flags=set(f['flags']); counts.update(flags)
+              x=dict(pairs[i-1]); x['source_index']=i; x['scan_reasons']=sorted(flags)
+              tier='critical' if flags & critical else 'other_deterministic'
+              tiers[tier].append(x); seen.add(i)
+          manifest={'total_dialogue':len(pairs),'audit_candidate_count':sum(map(len,tiers.values())),'flag_counts':dict(counts),'tiers':{},'shard_size':25}
+          for tier,rows in tiers.items():
+              td=out/tier; td.mkdir(); paths=[]
+              for n in range(0,len(rows),25):
+                  chunk=rows[n:n+25]; path=td/f'{tier}__{n+1:06d}-{n+len(chunk):06d}.json'
+                  path.write_text(json.dumps({'tier':tier,'candidate_start':n+1,'candidate_end':n+len(chunk),'pairs':chunk},ensure_ascii=False,indent=2),'utf-8'); paths.append(str(path))
+              manifest['tiers'][tier]={'count':len(rows),'shards':paths}
           clean=[dict(x,source_index=i) for i,x in enumerate(pairs,1) if i not in seen]
-          rnd=random.Random(5601); sample=rnd.sample(clean,min(500,len(clean)))
-          (out/'unflagged_sample_500.json').write_text(json.dumps({'sample_size':len(sample),'seed':5601,'pairs':sorted(sample,key=lambda x:x['source_index'])},ensure_ascii=False,indent=2),'utf-8')
+          rnd=random.Random(5601); sample=rnd.sample(clean,min(250,len(clean)))
+          (out/'unflagged_sample_250.json').write_text(json.dumps({'sample_size':len(sample),'seed':5601,'pairs':sorted(sample,key=lambda x:x['source_index'])},ensure_ascii=False,indent=2),'utf-8')
           (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),'utf-8')
           PY
           python /tmp/scan.py
@@ -49,5 +52,5 @@ jobs:
           git config user.name 'translation-review-bot'
           git config user.email 'translation-review-bot@users.noreply.github.com'
           git add -A smart_scan
-          git diff --cached --quiet || git commit -m 'Generate high-signal dialogue review queue'
+          git diff --cached --quiet || git commit -m 'Generate severity-prioritized dialogue queue'
           git push origin HEAD:translation-review
