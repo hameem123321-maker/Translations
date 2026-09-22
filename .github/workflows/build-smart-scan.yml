@@ -19,44 +19,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build high-signal candidate set
+      - name: Build queue from validated deterministic findings
         run: |
           rm -rf smart_scan
           cat > /tmp/scan.py <<'PY'
-          import json,re,pathlib,collections,random
-          src=json.loads(pathlib.Path('01_dialogue.json').read_text('utf-8'))
-          pairs=src['pairs']; byjp=collections.defaultdict(list)
-          for i,x in enumerate(pairs,1): byjp[str(x.get('jp',''))].append((i,x))
-          # High-signal language defects only. Do not flag ordinary square brackets or braces.
-          suspicious=re.compile(r'(?i)(?:\bdesu\b|\bdeath\b|\b[a-z]+-dono\b|\b[a-z]+-sama\b|\bde aru\b|\bmy penis\b|\bshop manager\b|\bseed\b|\bessence\b|\bclimax(?:ed|ing)?\b|\bisn.t it\b)')
-          candidates={}
-          def add(i,x,r):
-            if i not in candidates: candidates[i]=[i,x,set()]
-            candidates[i][2].add(r)
-          for i,x in enumerate(pairs,1):
-            jp=str(x.get('jp','')); en=str(x.get('en',''))
-            if not en: add(i,x,'empty_en')
-            if re.search(r'[ぁ-ゖァ-ヺ一-龯]',en): add(i,x,'cjk_in_en')
-            if suspicious.search(en): add(i,x,'suspicious_english')
-            for f in x.get('flags',[]): add(i,x,'source_flag:'+str(f))
-            if jp.count('【')!=en.count('【') or jp.count('】')!=en.count('】'): add(i,x,'bracket_count_mismatch')
-            if jp.count('<ruby=')!=en.count('<ruby=') or jp.count('</ruby>')!=en.count('</ruby>'): add(i,x,'ruby_mismatch')
-            if jp.count('Д')!=en.count('Д'): add(i,x,'D_mismatch')
-            if '【<pl>】' in jp and '【<pl>】' not in en: add(i,x,'pl_missing')
-          # Identical Japanese with differing English is a strong consistency signal.
-          for jp,rows in byjp.items():
-            if jp and len(rows)>1 and len({str(x.get('en','')) for _,x in rows})>1:
-              for i,x in rows: add(i,x,'duplicate_jp_english_diff')
-          rows=[(i,x,sorted(r)) for i,x,r in candidates.values()]; rows.sort()
+          import json,pathlib,random
+          source=json.loads(pathlib.Path('01_dialogue.json').read_text('utf-8'))
+          audit=json.loads(pathlib.Path('audit_results/01_dialogue.audit.json').read_text('utf-8'))
+          pairs=source['pairs']; rows=[]; seen=set()
+          for f in audit['findings']:
+              i=int(f['index'])
+              if i in seen: continue
+              seen.add(i)
+              x=dict(pairs[i-1]); x['source_index']=i; x['scan_reasons']=f['flags']; rows.append(x)
           out=pathlib.Path('smart_scan'); out.mkdir()
-          manifest={'total_dialogue':len(pairs),'candidate_count':len(rows),'candidate_rate':round(len(rows)/len(pairs),6),'shard_size':25,'shards':[]}
+          manifest={'total_dialogue':len(pairs),'candidate_count':len(rows),'candidate_rate':round(len(rows)/len(pairs),6),'basis':'audit_results/01_dialogue.audit.json','shard_size':25,'shards':[]}
           for n in range(0,len(rows),25):
-            chunk=rows[n:n+25]; path=out/f'candidates__{n+1:06d}-{n+len(chunk):06d}.json'
-            data={'source_file':'01_dialogue.json','candidate_start':n+1,'candidate_end':n+len(chunk),'pairs':[dict(x,source_index=i,scan_reasons=r) for i,x,r in chunk]}
-            path.write_text(json.dumps(data,ensure_ascii=False,indent=2),'utf-8'); manifest['shards'].append(str(path))
-          clean=[(i,x) for i,x in enumerate(pairs,1) if i not in candidates]
+              chunk=rows[n:n+25]; path=out/f'candidates__{n+1:06d}-{n+len(chunk):06d}.json'
+              path.write_text(json.dumps({'candidate_start':n+1,'candidate_end':n+len(chunk),'pairs':chunk},ensure_ascii=False,indent=2),'utf-8')
+              manifest['shards'].append(str(path))
+          clean=[dict(x,source_index=i) for i,x in enumerate(pairs,1) if i not in seen]
           rnd=random.Random(5601); sample=rnd.sample(clean,min(500,len(clean)))
-          (out/'unflagged_sample_500.json').write_text(json.dumps({'sample_size':len(sample),'seed':5601,'pairs':[dict(x,source_index=i) for i,x in sorted(sample)]},ensure_ascii=False,indent=2),'utf-8')
+          (out/'unflagged_sample_500.json').write_text(json.dumps({'sample_size':len(sample),'seed':5601,'pairs':sorted(sample,key=lambda x:x['source_index'])},ensure_ascii=False,indent=2),'utf-8')
           (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),'utf-8')
           PY
           python /tmp/scan.py
@@ -65,5 +49,5 @@ jobs:
           git config user.name 'translation-review-bot'
           git config user.email 'translation-review-bot@users.noreply.github.com'
           git add -A smart_scan
-          git diff --cached --quiet || git commit -m 'Generate refined smart dialogue scan'
+          git diff --cached --quiet || git commit -m 'Generate high-signal dialogue review queue'
           git push origin HEAD:translation-review
