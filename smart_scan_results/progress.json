@@ -1,0 +1,19 @@
+{
+  "review_mode": "single_pass_smart_scan",
+  "dialogue_total": 105318,
+  "candidate_total": 2782,
+  "sample_total_planned": 250,
+  "candidate_files_attempted": 5,
+  "candidates_seen": 125,
+  "candidates_previously_reviewed": 6,
+  "candidates_semantically_reviewed_once": 69,
+  "candidates_needing_retry": 50,
+  "candidate_review_progress_percent": 2.48,
+  "confirmed_suggestions_from_completed_candidate_shards": 31,
+  "source_dialogue_modified": false,
+  "notes": [
+    "Two candidate shards were returned without review because their source indexes were outside an incorrectly interpreted range filter; they are marked for retry.",
+    "No second semantic pass is planned.",
+    "Final deterministic validation will run after candidate review."
+  ]
+}
